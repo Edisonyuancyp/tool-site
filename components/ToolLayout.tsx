@@ -1,18 +1,22 @@
 import Link from "next/link";
-import { ToolMeta, tools, getRelatedTools } from "@/lib/tools";
+import { ToolMeta, tools as legacyTools } from "@/lib/tools";
 
 interface ToolLayoutProps {
   tool: ToolMeta;
   children: React.ReactNode;
+  allTools?: ToolMeta[];
 }
 
-function getAutoRelated(tool: ToolMeta): ToolMeta[] {
+function getAutoRelated(tool: ToolMeta, allTools: ToolMeta[]): ToolMeta[] {
   // 1. Use manually specified relatedTools first (up to 4)
-  const manual = getRelatedTools(tool.relatedTools).slice(0, 4);
+  const manual = tool.relatedTools
+    .map((s) => allTools.find((t) => t.slug === s))
+    .filter((t): t is ToolMeta => !!t)
+    .slice(0, 4);
   if (manual.length >= 3) return manual;
 
   // 2. Auto-fill from same category, excluding self
-  const sameCat = tools
+  const sameCat = allTools
     .filter((t) => t.category === tool.category && t.slug !== tool.slug)
     .slice(0, 4 - manual.length);
 
@@ -20,8 +24,9 @@ function getAutoRelated(tool: ToolMeta): ToolMeta[] {
   return [...manual, ...sameCat.filter((t) => !seen.has(t.slug))];
 }
 
-export default function ToolLayout({ tool, children }: ToolLayoutProps) {
-  const relatedTools = getAutoRelated(tool);
+export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps) {
+  const pool = allTools ?? legacyTools;
+  const relatedTools = getAutoRelated(tool, pool);
 
   const BASE_URL = "https://getfastcalc.com";
   const toolUrl = `${BASE_URL}/tools/${tool.slug}`;

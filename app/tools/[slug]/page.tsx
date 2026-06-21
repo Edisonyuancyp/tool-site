@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { tools, getToolBySlug } from "@/lib/tools";
-import { getRegistrySlugs, resolveRegistrySlug } from "@/lib/registry";
+import { tools, getToolBySlug, mergeWithRegistry } from "@/lib/tools";
+import { getRegistrySlugs, resolveRegistrySlug, registryToToolMetas } from "@/lib/registry";
 import ToolLayout from "@/components/ToolLayout";
-import ToolSchema from "@/components/ToolSchema";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BmiCalculator from "@/components/tools/BmiCalculator";
@@ -111,6 +110,7 @@ const legacyComponents: Record<string, React.ReactNode> = {
 
 export default async function ToolPage({ params }: Props) {
   const { slug } = await params;
+  const allTools = mergeWithRegistry(registryToToolMetas());
 
   // 1. Try registry first (new architecture)
   const registryResult = resolveRegistrySlug(slug);
@@ -125,9 +125,8 @@ export default async function ToolPage({ params }: Props) {
     const ToolView = mod!.default;
     return (
       <>
-        <ToolSchema tool={meta} slug={slug} />
         <Header />
-        <ToolLayout tool={meta}>
+        <ToolLayout tool={meta} allTools={allTools}>
           <ToolView variant={variant} />
         </ToolLayout>
         <Footer />
@@ -144,9 +143,8 @@ export default async function ToolPage({ params }: Props) {
 
   return (
     <>
-      <ToolSchema tool={tool} slug={slug} />
       <Header />
-      <ToolLayout tool={tool}>{toolUI}</ToolLayout>
+      <ToolLayout tool={tool} allTools={allTools}>{toolUI}</ToolLayout>
       <Footer />
     </>
   );
