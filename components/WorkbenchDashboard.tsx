@@ -33,7 +33,7 @@ function ToolCard({ tool, onUnfav, isFav }: { tool: ToolMeta; onUnfav?: () => vo
 }
 
 export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] }) {
-  const { favorites, recents, isFav, toggleFav, clearRecents } = useWorkbench();
+  const { favorites, recents, isFav, toggleFav, clearRecents, savedPalettes, deletePalette, savedQuantConfigs, deleteQuantConfig } = useWorkbench();
 
   const favTools = favorites
     .map(s => allTools.find(t => t.slug === s))
@@ -43,7 +43,7 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
     .map(r => allTools.find(t => t.slug === r.slug))
     .filter((t): t is ToolMeta => !!t);
 
-  const hasAnything = favTools.length > 0 || recentTools.length > 0;
+  const hasAnything = favTools.length > 0 || recentTools.length > 0 || savedPalettes.length > 0 || savedQuantConfigs.length > 0;
 
   // New-user onboarding: show featured picks to save
   if (!hasAnything) {
@@ -130,6 +130,63 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
           </div>
         )}
       </div>
+
+      {/* Saved Palettes */}
+      {savedPalettes.length > 0 && (
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest flex items-center gap-1.5">
+              <span>🎨</span> Saved Palettes ({savedPalettes.length})
+            </p>
+            <Link href="/tools/color-palette-explorer" className="text-xs text-gray-400 hover:text-gray-700 transition-colors underline underline-offset-2">
+              Open ColorLab →
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {savedPalettes.map(p => (
+              <div key={p.id} className="flex items-center gap-1 bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+                <div className="flex h-8">
+                  {p.colors.slice(0, 6).map((c, i) => (
+                    <div key={i} className="w-5 h-8" style={{ backgroundColor: c.hex }} />
+                  ))}
+                </div>
+                <span className="px-2 text-xs text-gray-700 font-medium max-w-[100px] truncate">{p.name}</span>
+                <button onClick={() => deletePalette(p.id)}
+                  className="px-2 text-gray-300 hover:text-red-500 transition-colors border-l border-gray-100 h-8 text-sm"
+                  aria-label="Remove palette">×</button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Saved Quant Configs */}
+      {savedQuantConfigs.length > 0 && (
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest flex items-center gap-1.5">
+              <span>📐</span> Quant Configs ({savedQuantConfigs.length})
+            </p>
+            <Link href="/tools/risk-calculator" className="text-xs text-gray-400 hover:text-gray-700 transition-colors underline underline-offset-2">
+              Open Calculator →
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {savedQuantConfigs.map(c => (
+              <div key={c.id} className="flex items-center gap-1 bg-white border border-gray-200 rounded-lg overflow-hidden">
+                <Link
+                  href={`/tools/risk-calculator?${new URLSearchParams(c.params).toString()}`}
+                  className="px-3 py-1.5 text-xs text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-colors font-medium">
+                  {c.label}
+                </Link>
+                <button onClick={() => deleteQuantConfig(c.id)}
+                  className="px-1.5 py-1.5 text-gray-300 hover:text-red-500 transition-colors text-sm border-l border-gray-100"
+                  aria-label="Remove config">×</button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

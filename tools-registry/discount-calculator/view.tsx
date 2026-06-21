@@ -1,5 +1,29 @@
 "use client";
 import { useState } from "react";
+import ContextualTip, { type Tip } from "@/components/ContextualTip";
+
+const DISCOUNT_TIP: Tip = {
+  trigger: "Discount % vs Margin % — what's the difference?",
+  title: "Discount vs Margin: Don't Confuse Them",
+  body: `These two look similar but mean completely different things.
+
+**Discount %** is taken off the **original (selling) price**:
+
+1. Original price: $100
+2. 20% discount — you pay **$80**
+3. Seller loses $20 in revenue
+
+**Margin %** is calculated from the **selling price** (not cost):
+
+1. Cost: $60, Sell: $100 — Profit: $40
+2. Margin = 40% (profit / revenue)
+
+⚠️ A 40% margin is NOT a 40% markup. Markup = (Profit / Cost) = 66.7%.
+
+✅ Use the **Find % off** tab to reverse-engineer an original price from a sale tag — great for auditing invoices or spotting fake discounts.
+
+💡 **Stacked discounts** are multiplicative, not additive. 20% + 10% = 28% off total, not 30%.`,
+};
 
 export interface ToolProps { variant?: string; }
 
@@ -57,6 +81,7 @@ export default function DiscountCalculatorView() {
 
   return (
     <div className="space-y-5">
+      <ContextualTip tip={DISCOUNT_TIP} />
       <div className="flex gap-1 bg-gray-100 p-1 rounded-lg w-fit flex-wrap">
         {tabs.map(t => (
           <button key={t.key} onClick={() => setMode(t.key)}

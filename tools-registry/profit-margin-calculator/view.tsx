@@ -1,5 +1,30 @@
 "use client";
 import { useState } from "react";
+import ContextualTip, { type Tip } from "@/components/ContextualTip";
+
+const MARGIN_TIP: Tip = {
+  trigger: "Gross margin vs net margin — which should I track?",
+  title: "Gross Margin vs Net Margin: Which Matters More?",
+  body: `Both matter, but they tell you very different things about your business health.
+
+**Gross Margin** (what this tool calculates):
+
+1. Revenue minus Cost of Goods Sold (COGS)
+2. Measures **production efficiency**
+3. Benchmarks: SaaS 70-80%, Retail 20-50%, Manufacturing 10-30%
+
+**Net Margin** accounts for ALL expenses (salaries, rent, taxes, marketing):
+
+1. Net Profit divided by Revenue times 100
+2. The real bottom-line profitability
+3. A healthy net margin is typically 10-20%+
+
+⚠️ High gross margin but low net margin? Your **operating expenses** are eating your profit.
+
+✅ Use the **Reverse Price** tab to work backwards: enter your cost and target margin to find the minimum price you must charge.
+
+💡 **Pricing insight:** Most small businesses underprice. If your gross margin is below 40%, you have very little room to cover overhead and still turn a profit.`,
+};
 
 export interface ToolProps { variant?: string; }
 
@@ -45,6 +70,7 @@ export default function ProfitMarginCalculatorView() {
 
   return (
     <div className="space-y-5">
+      <ContextualTip tip={MARGIN_TIP} />
       {/* Mode tabs */}
       <div className="flex gap-1 bg-gray-100 p-1 rounded-lg w-fit">
         {tabs.map(t => (
