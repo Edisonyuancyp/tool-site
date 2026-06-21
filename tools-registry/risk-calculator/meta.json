@@ -1,0 +1,58 @@
+{
+  "slug": "risk-calculator",
+  "name": "Position Size Calculator",
+  "tagline": "Calculate your position size and manage trading risk — free, instant, browser-only",
+  "description": "Enter your account balance, risk percentage, entry price, and stop-loss price to instantly calculate the correct position size and max risk amount. Works for crypto, forex, and stocks.",
+  "metaTitle": "Position Size Calculator for Trading | Risk Management Tool",
+  "metaDescription": "Calculate your position size and manage trading risk with this free crypto and forex calculator. Prevent liquidation and optimize your trade size.",
+  "keywords": [
+    "position size calculator",
+    "trading risk management",
+    "crypto stop loss calculator",
+    "forex risk calculator",
+    "position sizing tool",
+    "risk reward calculator",
+    "lot size calculator forex",
+    "crypto position size free",
+    "trading risk percent calculator",
+    "stop loss position size"
+  ],
+  "category": "Quant",
+  "urlPath": "/tools/quant/risk-calculator",
+  "icon": "📊",
+  "seoContent": {
+    "h1Tendency": "accurate Position Size Calculator",
+    "painPoints": [
+      "How to calculate position size without risking too much capital",
+      "Best free position size calculator for crypto and forex",
+      "How to use the 1% risk rule in trading",
+      "How to set stop loss and position size correctly",
+      "Free trading risk calculator — no signup required"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "What is the position size formula?",
+      "answer": "Position Size = (Account Balance × Risk %) ÷ (Entry Price − Stop Loss Price). This tells you exactly how many units or coins to buy so that if your stop loss is hit, you only lose your predefined risk amount."
+    },
+    {
+      "question": "What is the 1% risk rule?",
+      "answer": "The 1% rule means you never risk more than 1% of your total account balance on a single trade. For a $10,000 account, the max loss per trade is $100. This protects you from catastrophic drawdowns."
+    },
+    {
+      "question": "Does this work for forex lot sizes?",
+      "answer": "Yes. Enter your account balance in your account currency, your entry and stop-loss prices, and the calculator returns the number of units. Divide by 100,000 to get standard forex lot sizes."
+    },
+    {
+      "question": "Does this work for crypto trading?",
+      "answer": "Absolutely. Enter the coin's entry and stop-loss price in USD (or any currency), your account size, and your risk percentage. The result is the number of coins/tokens to buy."
+    },
+    {
+      "question": "Is my data sent to any server?",
+      "answer": "No. All calculations run entirely in your browser using JavaScript. Nothing is sent to any server."
+    }
+  ],
+  "relatedTools": ["position-size-calculator", "tp-sl-calculator", "crypto-market-cap-comparator"],
+  "variants": []
+}

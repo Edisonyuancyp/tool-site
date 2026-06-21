@@ -51,6 +51,8 @@ CATEGORY_URL_PREFIX: dict[str, str] = {
     "Security":   "dev",
     # Date & scheduling
     "Date & Time": "time",
+    # Quantitative / trading tools
+    "Quant":       "quant",
 }
 
 

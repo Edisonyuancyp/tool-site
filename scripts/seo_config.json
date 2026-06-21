@@ -234,6 +234,32 @@
       ]
     },
 
+    "Quant": {
+      "url_prefix": "quant",
+      "seed_keywords": [
+        "position size calculator",
+        "trading risk management",
+        "free trading calculator",
+        "no signup required"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. 100% browser-based, no signup required.",
+      "title_template": "{name} – Free {type} for Traders | GetFastCalc",
+      "h1_tendency": "accurate {name}",
+      "pain_points": [
+        "How to calculate {topic} without risking too much capital",
+        "Best free {name} for crypto and forex traders",
+        "How to use the 1% risk rule with {topic}",
+        "Free {name} — no signup, instant results",
+        "How to set stop loss and {topic} correctly"
+      ],
+      "long_tail_suffixes": [
+        "calculator free online",
+        "for crypto and forex",
+        "trading tool no signup",
+        "risk management calculator"
+      ]
+    },
+
     "Date & Time": {
       "url_prefix": "time",
       "seed_keywords": [
