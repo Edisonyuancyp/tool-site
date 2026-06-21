@@ -59,56 +59,110 @@ function ToolCard({ tool }: { tool: ToolMeta }) {
 export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
   const categories = [...new Set(tools.map((t) => t.category))];
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
 
-  const filtered = activeCategory
-    ? tools.filter((t) => t.category === activeCategory)
-    : tools;
+  const q = query.trim().toLowerCase();
+  const filtered = tools.filter((t) => {
+    if (q) {
+      return (
+        t.name.toLowerCase().includes(q) ||
+        (t.tagline ?? "").toLowerCase().includes(q) ||
+        t.category.toLowerCase().includes(q)
+      );
+    }
+    return activeCategory ? t.category === activeCategory : true;
+  });
 
   return (
     <>
-      {/* Category filter */}
-      <div className="mb-8">
-        <div className="flex flex-wrap gap-2">
+      {/* Search bar */}
+      <div className="relative mb-5">
+        <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+        </svg>
+        <input
+          type="search"
+          value={query}
+          onChange={e => { setQuery(e.target.value); setActiveCategory(null); }}
+          placeholder={`Search ${tools.length} tools…`}
+          className="w-full pl-11 pr-10 py-3 rounded-xl border border-gray-200 bg-white text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 transition-all"
+        />
+        {query && (
           <button
-            type="button"
-            onClick={() => setActiveCategory(null)}
-            className={
-              "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
-              (activeCategory === null
-                ? "bg-gray-900 text-white border-gray-900"
-                : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
-            }
+            onClick={() => setQuery("")}
+            className="absolute right-3 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center rounded-full text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-all"
+            aria-label="Clear search"
           >
-            All ({tools.length})
+            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
           </button>
-          {categories.map((cat) => {
-            const count = tools.filter((t) => t.category === cat).length;
-            const isActive = activeCategory === cat;
-            return (
-              <button
-                type="button"
-                key={cat}
-                onClick={() => setActiveCategory(isActive ? null : cat)}
-                className={
-                  "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
-                  (isActive
-                    ? "bg-gray-900 text-white border-gray-900"
-                    : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
-                }
-              >
-                {cat} ({count})
-              </button>
-            );
-          })}
-        </div>
+        )}
       </div>
 
+      {/* Category filter — hidden during search */}
+      {!q && (
+        <div className="mb-6">
+          <div className="flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => setActiveCategory(null)}
+              className={
+                "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
+                (activeCategory === null
+                  ? "bg-gray-900 text-white border-gray-900"
+                  : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
+              }
+            >
+              All ({tools.length})
+            </button>
+            {categories.map((cat) => {
+              const count = tools.filter((t) => t.category === cat).length;
+              const isActive = activeCategory === cat;
+              return (
+                <button
+                  type="button"
+                  key={cat}
+                  onClick={() => setActiveCategory(isActive ? null : cat)}
+                  className={
+                    "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
+                    (isActive
+                      ? "bg-gray-900 text-white border-gray-900"
+                      : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
+                  }
+                >
+                  {cat} ({count})
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Search result count */}
+      {q && (
+        <p className="text-sm text-gray-400 mb-4">
+          {filtered.length === 0 ? "No tools found" : `${filtered.length} result${filtered.length === 1 ? "" : "s"} for "${query}"`}
+        </p>
+      )}
+
       {/* Tool Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {filtered.map((tool) => (
-          <ToolCard key={tool.slug} tool={tool} />
-        ))}
-      </div>
+      {filtered.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {filtered.map((tool) => (
+            <ToolCard key={tool.slug} tool={tool} />
+          ))}
+        </div>
+      ) : (
+        <div className="py-16 text-center">
+          <p className="text-4xl mb-3">🔍</p>
+          <p className="text-gray-500 font-medium">No tools match &ldquo;{query}&rdquo;</p>
+          <p className="text-sm text-gray-400 mt-1">Try a different keyword or browse by category</p>
+          <button onClick={() => setQuery("")} className="mt-4 text-sm text-gray-600 underline hover:text-gray-900">
+            Clear search
+          </button>
+        </div>
+      )}
     </>
   );
 }
