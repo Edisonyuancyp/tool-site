@@ -1,0 +1,41 @@
+{
+  "slug": "kg-to-lbs",
+  "name": "KG to LBS Converter",
+  "tagline": "Convert kilograms to pounds — and back — instantly",
+  "description": "Convert kilograms to pounds (and lbs to kg) with instant results. Essential for gym-goers, travelers, shipping, and cooking with international recipes.",
+  "metaTitle": "KG to LBS Converter — Free Online Tool | GetFastCalc",
+  "metaDescription": "Convert kilograms to pounds instantly. Type any weight and see both directions at once. Free, fast, no ads.",
+  "keywords": ["kg to lbs", "kilograms to pounds", "kg to pounds", "lbs to kg", "weight converter"],
+  "category": "Converter",
+  "urlPath": "/tools/converter/kg-to-lbs",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "How many pounds is 1 kilogram?",
+      "answer": "1 kilogram equals 2.20462 pounds. Conversely, 1 pound equals 0.453592 kilograms."
+    },
+    {
+      "question": "What is 70 kg in pounds?",
+      "answer": "70 kg × 2.20462 = 154.32 lbs."
+    },
+    {
+      "question": "How to quickly estimate kg to lbs?",
+      "answer": "Multiply by 2.2 for a quick mental estimate. E.g. 50 kg ≈ 110 lbs. The true value is 110.23 lbs, so the error is under 0.1%."
+    },
+    {
+      "question": "What is 100 lbs in kg?",
+      "answer": "100 lbs ÷ 2.20462 = 45.36 kg."
+    }
+  ],
+  "relatedTools": ["g-to-oz", "cm-to-inch", "celsius-to-fahrenheit"],
+  "variants": [
+    {
+      "variantSlug": "lbs-to-kg",
+      "metaTitle": "LBS to KG Converter — Free Online Tool | GetFastCalc",
+      "metaDescription": "Convert pounds to kilograms instantly. Free, fast, no ads.",
+      "keywords": ["lbs to kg", "pounds to kilograms", "lb to kg converter"],
+      "defaultVariant": "lbs-to-kg",
+      "headline": "Pounds → Kilograms — type and convert instantly"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cm-to-inch",
+  "name": "CM to Inches Converter",
+  "tagline": "Instantly convert centimeters to inches — and back",
+  "description": "Convert centimeters to inches (and inches to cm) instantly. No ads, no signup — just type and get the result. Used by students, tailors, engineers and travelers worldwide.",
+  "metaTitle": "CM to Inches Converter — Free Online Tool | GetFastCalc",
+  "metaDescription": "Convert centimeters to inches instantly. Type any value and see both directions at once. Free, fast, no ads.",
+  "keywords": ["cm to inch", "centimeters to inches", "cm to in converter", "inch to cm", "length converter"],
+  "category": "Converter",
+  "urlPath": "/tools/converter/cm-to-inch",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "How many inches is 1 centimeter?",
+      "answer": "1 centimeter equals 0.393701 inches. Equivalently, 1 inch equals exactly 2.54 centimeters."
+    },
+    {
+      "question": "How do I convert cm to inches without a calculator?",
+      "answer": "Divide the centimeter value by 2.54. For a quick mental estimate, divide by 2.5 — accurate within 2%."
+    },
+    {
+      "question": "Why is 1 inch exactly 2.54 cm?",
+      "answer": "Since 1959, the international yard and pound agreement defined 1 inch as exactly 2.54 centimeters, making the relationship exact (not approximate)."
+    },
+    {
+      "question": "What is 5 feet 11 inches in cm?",
+      "answer": "5 feet 11 inches = 71 inches × 2.54 = 180.34 cm."
+    }
+  ],
+  "relatedTools": ["m-to-feet", "kg-to-lbs", "celsius-to-fahrenheit"],
+  "variants": [
+    {
+      "variantSlug": "inch-to-cm",
+      "metaTitle": "Inches to CM Converter — Free Online Tool | GetFastCalc",
+      "metaDescription": "Convert inches to centimeters instantly. Type any value and get the result in cm. Free, fast, no ads.",
+      "keywords": ["inch to cm", "inches to centimeters", "in to cm converter"],
+      "defaultVariant": "in-to-cm",
+      "headline": "Inches → Centimeters — type and convert instantly"
+    }
+  ]
+}
