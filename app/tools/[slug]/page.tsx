@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const tool = getToolBySlug(slug);
   if (!tool) return {};
-  const toolUrl = `https://toolcalc.com/tools/${tool.slug}`;
+  const toolUrl = `https://getfastcalc.com/tools/${tool.slug}`;
   return {
     title: tool.metaTitle,
     description: tool.metaDescription,
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: tool.metaDescription,
       url: toolUrl,
       type: "website",
-      siteName: "ToolCalc",
+      siteName: "GetFastCalc",
     },
     twitter: {
       card: "summary_large_image",

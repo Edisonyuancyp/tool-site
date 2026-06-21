@@ -15,7 +15,7 @@ export default function Header() {
           className="flex items-center gap-2 font-bold text-lg text-gray-900 hover:text-black shrink-0"
         >
           <span className="w-7 h-7 bg-gray-900 text-white rounded-lg flex items-center justify-center text-sm font-black">T</span>
-          ToolCalc
+          GetFastCalc
         </Link>
 
         {/* All Tools dropdown button */}

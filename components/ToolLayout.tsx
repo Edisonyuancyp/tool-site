@@ -10,7 +10,7 @@ interface ToolLayoutProps {
 export default function ToolLayout({ tool, children }: ToolLayoutProps) {
   const relatedTools = getRelatedTools(tool.relatedTools);
 
-  const BASE_URL = "https://toolcalc.com";
+  const BASE_URL = "https://getfastcalc.com";
   const toolUrl = `${BASE_URL}/tools/${tool.slug}`;
 
   const softwareSchema = {
@@ -31,7 +31,7 @@ export default function ToolLayout({ tool, children }: ToolLayoutProps) {
     },
     author: {
       "@type": "Organization",
-      name: "ToolCalc",
+      name: "GetFastCalc",
       url: BASE_URL,
     },
   };

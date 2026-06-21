@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://toolcalc.com/sitemap.xml",
+    sitemap: "https://getfastcalc.com/sitemap.xml",
   };
 }

@@ -3,7 +3,7 @@ import { tools } from "@/lib/tools";
 
 export const dynamic = "force-static";
 
-const BASE = "https://toolcalc.com";
+const BASE = "https://getfastcalc.com";
 
 const HIGH_PRIORITY = new Set([
   "bmi-calculator", "age-calculator", "qr-code-generator", "password-generator",

@@ -1,12 +1,12 @@
 import { tools } from "@/lib/tools";
 
-const BASE_URL = "https://toolcalc.com";
+const BASE_URL = "https://getfastcalc.com";
 
 export default function HomeSchema() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "ToolCalc",
+    name: "GetFastCalc",
     url: BASE_URL,
     description:
       "Free online tools and calculators for health, finance, developer utilities, date & time, and more. No signup required.",
@@ -39,7 +39,7 @@ export default function HomeSchema() {
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "ToolCalc",
+    name: "GetFastCalc",
     url: BASE_URL,
     description: "Free browser-based tools and calculators for everyone.",
   };

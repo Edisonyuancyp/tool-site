@@ -10,8 +10,8 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Free Online Tools & Calculators – ToolCalc",
-    template: "%s | ToolCalc",
+    default: "Free Online Tools & Calculators – GetFastCalc",
+    template: "%s | GetFastCalc",
   },
   description:
     "Free online tools and calculators: BMI, age, compound interest, currency converter, QR code, password generator, base converter, word counter, and more. Instant results, no signup.",
@@ -21,28 +21,28 @@ export const metadata: Metadata = {
     "currency converter", "base converter", "word counter", "unix timestamp",
     "base64 encoder", "json formatter", "developer tools",
   ],
-  authors: [{ name: "ToolCalc" }],
-  creator: "ToolCalc",
-  publisher: "ToolCalc",
-  metadataBase: new URL("https://toolcalc.com"),
+  authors: [{ name: "GetFastCalc" }],
+  creator: "GetFastCalc",
+  publisher: "GetFastCalc",
+  metadataBase: new URL("https://getfastcalc.com"),
   alternates: {
-    canonical: "https://toolcalc.com",
+    canonical: "https://getfastcalc.com",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "ToolCalc",
-    title: "Free Online Tools & Calculators – ToolCalc",
+    siteName: "GetFastCalc",
+    title: "Free Online Tools & Calculators – GetFastCalc",
     description:
       "Fast, free browser-based tools: BMI, compound interest, currency converter, base converter, QR code, and 25+ more. No signup required.",
-    url: "https://toolcalc.com",
+    url: "https://getfastcalc.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Free Online Tools & Calculators – ToolCalc",
+    title: "Free Online Tools & Calculators – GetFastCalc",
     description:
       "Fast, free browser-based tools: BMI, compound interest, currency converter, base converter, QR code, and 25+ more.",
-    creator: "@toolcalc",
+    creator: "@getfastcalc",
   },
   robots: {
     index: true,
