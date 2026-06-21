@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ToolMeta, tools as legacyTools } from "@/lib/tools";
 import AccuracyFeedback from "@/components/AccuracyFeedback";
+import FavoriteButton from "@/components/FavoriteButton";
 
 interface ToolLayoutProps {
   tool: ToolMeta;
@@ -117,11 +118,14 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
 
           {/* Title */}
           <div className="mb-8">
-            <div className="flex items-center gap-3 mb-3">
-              <span className="text-3xl">{tool.icon}</span>
-              <span className="text-xs font-medium text-gray-400 uppercase tracking-widest bg-gray-50 px-2.5 py-1 rounded-full border border-gray-100">
-                {tool.category}
-              </span>
+            <div className="flex items-center justify-between gap-3 mb-3">
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">{tool.icon}</span>
+                <span className="text-xs font-medium text-gray-400 uppercase tracking-widest bg-gray-50 px-2.5 py-1 rounded-full border border-gray-100">
+                  {tool.category}
+                </span>
+              </div>
+              <FavoriteButton slug={tool.slug} />
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-3">
               {tool.name}
