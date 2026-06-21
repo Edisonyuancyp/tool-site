@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "lastUpdated": "2025-01-15",
+    "updatedBy": "manual",
+    "description": "Tax bracket data for income tax calculator. Update annually after each country publishes new-year tax rules.",
+    "disclaimer": "This data is for estimation purposes only. Always verify against official government sources before filing. Consult a qualified tax professional for advice."
+  },
   "us": {
     "name": "United States",
     "currency": "USD",

@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import { calculateTax, getSupportedCountries, getFilingStatuses, type CountryCode, type TaxResult } from "@/lib/taxEngine";
+import { calculateTax, getSupportedCountries, getFilingStatuses, getCountryConfig, type CountryCode, type TaxResult } from "@/lib/taxEngine";
+import TAX_META from "@/lib/tax-rules.json";
 
 export interface ToolProps { variant?: string; }
 
@@ -58,12 +59,25 @@ export default function TaxCalculatorView({ variant }: ToolProps) {
 
   const sym = COUNTRIES.find(c => c.code === country)?.currencySymbol ?? "$";
   const currency = (result?.currency ?? "USD");
+  const countryYear = (getCountryConfig(country) as { year?: string | number })?.year ?? "2024";
+  const lastUpdated = (TAX_META as { _meta?: { lastUpdated?: string } })._meta?.lastUpdated ?? "2025-01-15";
 
   return (
     <div className="space-y-6">
       {/* Disclaimer */}
-      <div className="p-3 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-700">
-        <strong>Disclaimer:</strong> This tool is for estimation purposes only. Consult a tax professional for official advice. Figures based on 2024 tax year rules.
+      <div className="p-3 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-700 space-y-1">
+        <div className="flex items-center justify-between flex-wrap gap-1">
+          <span>
+            <strong>⚠️ Disclaimer:</strong> For estimation only. Consult a qualified tax professional before filing.
+          </span>
+          <span className="text-amber-500 whitespace-nowrap">
+            Data updated: {lastUpdated}
+          </span>
+        </div>
+        <div className="text-amber-600">
+          Calculated using <strong>{result?.country ?? COUNTRIES.find(c => c.code === country)?.name} {countryYear} tax rules</strong>.
+          Rates sourced from official government publications — verify at your country&apos;s tax authority website.
+        </div>
       </div>
 
       {/* Inputs */}
