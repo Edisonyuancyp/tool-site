@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import CopyButton from "@/components/CopyButton";
+import ShareResultCard from "@/components/ShareResultCard";
 
 export interface ToolProps { variant?: string; }
 
@@ -79,6 +80,18 @@ export default function SavingsGoalCalculatorView({ variant }: ToolProps) {
           <div className="flex justify-end">
             <CopyButton text={`Save ${fmt(monthly)}/month for ${n} months to reach ${fmt(G)}`} />
           </div>
+
+          <ShareResultCard
+            toolName="Savings Goal Calculator"
+            toolIcon="🎯"
+            slug="savings-goal-calculator"
+            results={[
+              { label: "Monthly Savings Needed", value: fmt(monthly) },
+              { label: "Savings Goal",           value: fmt(G) },
+              { label: "Time Frame",             value: `${n} months` },
+              { label: "Interest Earned",        value: fmt(Math.max(0, interestEarned)) },
+            ]}
+          />
         </div>
       )}
     </div>

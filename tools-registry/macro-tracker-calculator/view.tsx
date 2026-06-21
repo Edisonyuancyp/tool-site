@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import CopyButton from "@/components/CopyButton";
+import ShareResultCard from "@/components/ShareResultCard";
 
 export interface ToolProps { variant?: string; }
 
@@ -87,6 +88,18 @@ export default function MacroTrackerCalculatorView({ variant }: ToolProps) {
           <div className="flex justify-end">
             <CopyButton text={`${cal} kcal: Protein ${proteinG}g | Carbs ${carbsG}g | Fat ${fatG}g`} />
           </div>
+
+          <ShareResultCard
+            toolName="Macro Tracker"
+            toolIcon="🥩"
+            slug="macro-tracker-calculator"
+            results={[
+              { label: "Calories",  value: `${cal} kcal` },
+              { label: "Protein",  value: `${proteinG}g (${g.protein}%)` },
+              { label: "Carbs",    value: `${carbsG}g (${g.carbs}%)` },
+              { label: "Fat",      value: `${fatG}g (${g.fat}%)` },
+            ]}
+          />
         </div>
       )}
     </div>

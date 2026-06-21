@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import CopyButton from "@/components/CopyButton";
+import ShareResultCard from "@/components/ShareResultCard";
 
 export interface ToolProps { variant?: string; }
 
@@ -110,6 +111,17 @@ export default function LoanCalculatorView({ variant }: ToolProps) {
           <div className="flex justify-end">
             <CopyButton text={`Monthly: ${fmt(result.monthly)} | Total Interest: ${fmt(result.totalInterest)} | Total Paid: ${fmt(result.totalPaid)}`} />
           </div>
+
+          <ShareResultCard
+            toolName="Loan Calculator"
+            toolIcon="🏦"
+            slug="loan-calculator"
+            results={[
+              { label: "Monthly Payment",  value: fmt(result.monthly) },
+              { label: "Total Interest",   value: fmt(result.totalInterest) },
+              { label: "Total Paid",       value: fmt(result.totalPaid) },
+            ]}
+          />
         </div>
       )}
     </div>
