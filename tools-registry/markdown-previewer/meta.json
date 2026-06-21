@@ -16,7 +16,7 @@
     "markdown live editor"
   ],
   "category": "Content",
-  "urlPath": "/tools/content/markdown-previewer",
+  "urlPath": "/tools/dev/markdown-previewer",
   "icon": "📝",
   "seoContent": {
     "h1Tendency": "instant Markdown Previewer",

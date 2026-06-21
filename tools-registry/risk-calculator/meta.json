@@ -18,7 +18,7 @@
     "stop loss position size"
   ],
   "category": "Quant",
-  "urlPath": "/tools/quant/risk-calculator",
+  "urlPath": "/tools/calc/risk-calculator",
   "icon": "📊",
   "seoContent": {
     "h1Tendency": "accurate Position Size Calculator",

@@ -148,7 +148,7 @@ export default function MarkdownPreviewerView() {
               value={md}
               onChange={e => setMd(e.target.value)}
               spellCheck={false}
-              className="flex-1 border border-gray-200 rounded-xl p-4 text-sm font-mono text-gray-800 focus:outline-none focus:border-gray-400 resize-none leading-relaxed bg-gray-950 text-gray-100 min-h-[460px]"
+              className="flex-1 border border-gray-700 rounded-xl p-4 text-sm font-mono focus:outline-none focus:border-blue-500 resize-none leading-7 min-h-[460px] bg-gray-950 text-green-300 caret-white placeholder-gray-600"
             />
           </div>
         )}
