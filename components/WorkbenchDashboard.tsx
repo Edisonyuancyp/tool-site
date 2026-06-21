@@ -44,7 +44,40 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
     .filter((t): t is ToolMeta => !!t);
 
   const hasAnything = favTools.length > 0 || recentTools.length > 0;
-  if (!hasAnything) return null;
+
+  // New-user onboarding: show featured picks to save
+  if (!hasAnything) {
+    const featured = allTools
+      .filter(t => ["bmi-calculator", "password-generator", "percentage-calculator",
+                    "currency-converter", "qr-code-generator", "typography-compare-lab"].includes(t.slug))
+      .slice(0, 4);
+    if (featured.length === 0) return null;
+    return (
+      <div className="mb-10 p-4 border border-dashed border-gray-200 rounded-2xl bg-gray-50/60">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-base">♡</span>
+          <p className="text-sm font-semibold text-gray-700">Save your favorite tools</p>
+          <span className="text-xs text-gray-400">— hover any card and click ♡ to save</span>
+        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          {featured.map(tool => (
+            <div key={tool.slug}
+              className="group relative flex items-center gap-2 p-2.5 border border-gray-200 rounded-xl bg-white hover:border-gray-300 transition-all">
+              <Link href={`/tools/${tool.slug}`} className="flex items-center gap-2 flex-1 min-w-0">
+                <span className="text-lg shrink-0">{tool.icon}</span>
+                <span className="text-xs font-medium text-gray-700 truncate">{tool.name}</span>
+              </Link>
+              <button onClick={() => toggleFav(tool.slug)}
+                aria-label="Save to favorites"
+                className="shrink-0 w-6 h-6 flex items-center justify-center rounded-full border border-gray-200 text-gray-300 hover:text-red-400 hover:border-red-200 hover:bg-red-50 transition-all">
+                <HeartIcon filled={false} />
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="mb-10 space-y-6">
