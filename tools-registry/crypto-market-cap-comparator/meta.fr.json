@@ -1,0 +1,80 @@
+{
+  "slug": "crypto-market-cap-comparator",
+  "name": "Comparateur de Capitalisation Boursière des Cryptomonnaies",
+  "tagline": "Si la cryptomonnaie X atteignait la capitalisation boursière de Y, quel serait son prix ?",
+  "description": "Le calculateur classique de 'et si' pour les cryptomonnaies. Sélectionnez deux cryptomonnaies et voyez instantanément le prix projeté si la première atteignait la capitalisation boursière de la seconde. Utilise des données en direct de CoinGecko pour plus de 50 cryptomonnaies majeures.",
+  "metaTitle": "Comparateur de Capitalisation Boursière des Cryptomonnaies – Calculateur de Prix si X Atteint la Capitalisation Boursière de Y",
+  "metaDescription": "Calculateur de capitalisation boursière des cryptomonnaies gratuit. Découvrez quel prix Bitcoin, Ethereum, Solana ou toute autre altcoin atteindrait si elle égalait la capitalisation boursière d'une autre cryptomonnaie. Données en direct de CoinGecko.",
+  "keywords": [
+    "calculateur de capitalisation boursière crypto",
+    "si bitcoin atteint la capitalisation d'ethereum",
+    "calculateur de prévision de prix d'altcoin",
+    "calculateur crypto et si",
+    "comparaison de capitalisation boursière crypto"
+  ],
+  "category": "Crypto",
+  "icon": "🪙",
+  "faqs": [
+    {
+      "question": "Comment est calculé le prix projeté ?",
+      "answer": "Prix Projeté = Capitalisation Boursière Cible / Offre Circulante de la Monnaie A. Par exemple, si SOL (offre de 480M) atteignait la capitalisation boursière de BTC de 2T $ : 2T $ / 480M = 4 167 $ par SOL."
+    },
+    {
+      "question": "Pourquoi l'offre circulante est-elle plus importante que l'offre totale ?",
+      "answer": "La capitalisation boursière est toujours calculée en utilisant l'offre circulante (les pièces réellement sur le marché), et non l'offre totale ou maximale."
+    },
+    {
+      "question": "D'où proviennent les données ?",
+      "answer": "Les données en direct sont récupérées à partir de l'API publique gratuite de CoinGecko. Si elles ne sont pas disponibles, l'outil utilise des données approximatives hors ligne."
+    }
+  ],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "position-size-calculator",
+    "compound-interest-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "solana-price-if-bitcoin-market-cap",
+      "metaTitle": "Prix de Solana si elle Atteignait la Capitalisation Boursière de Bitcoin",
+      "metaDescription": "Quel serait le prix de Solana (SOL) si elle atteignait la capitalisation boursière de Bitcoin ? Calculez le prix de SOL à la capitalisation boursière de BTC. Comparateur de capitalisation boursière crypto gratuit.",
+      "keywords": [
+        "prix de solana capitalisation bitcoin",
+        "prix de sol si capitalisation bitcoin",
+        "comparaison solana bitcoin capitalisation",
+        "prévision de prix sol capitalisation",
+        "comparaison solana bitcoin"
+      ],
+      "defaultVariant": "sol-btc",
+      "headline": "Quelle serait la valeur de SOL si Solana atteignait la capitalisation boursière de Bitcoin ? Entrez des données en direct pour voir le prix projeté basé sur l'offre circulante actuelle."
+    },
+    {
+      "variantSlug": "ethereum-price-if-bitcoin-market-cap",
+      "metaTitle": "Prix d'Ethereum si il Atteignait la Capitalisation Boursière de Bitcoin",
+      "metaDescription": "Calculez quel serait le prix d'Ethereum (ETH) s'il atteignait la capitalisation boursière de Bitcoin. Comparateur gratuit de capitalisation boursière ETH vs BTC avec des données en direct.",
+      "keywords": [
+        "prix d'ethereum capitalisation bitcoin",
+        "prix eth si capitalisation bitcoin",
+        "comparaison ethereum bitcoin capitalisation",
+        "calculateur de flippening eth",
+        "comparaison de capitalisation d'ethereum"
+      ],
+      "defaultVariant": "eth-btc",
+      "headline": "La question du 'flippening' : quelle serait la valeur d'ETH si la capitalisation boursière d'Ethereum égalait celle de Bitcoin ? Calculez en fonction de l'offre actuelle et de la capitalisation boursière de BTC."
+    },
+    {
+      "variantSlug": "altcoin-market-cap-calculator",
+      "metaTitle": "Calculateur de Capitalisation Boursière d'Altcoin – Que Ferait un Altcoin s'il Atteignait la Capitalisation X",
+      "metaDescription": "Calculez quel serait le prix de n'importe quel altcoin à une capitalisation boursière cible. Comparez n'importe quelle pièce à Bitcoin, Ethereum ou une cible personnalisée. Calculateur de capitalisation boursière d'altcoin gratuit.",
+      "keywords": [
+        "calculateur de capitalisation boursière d'altcoin",
+        "prévision de prix d'altcoin capitalisation",
+        "calculateur crypto et si",
+        "calculateur de prix de capitalisation de pièce",
+        "comparaison altcoin bitcoin capitalisation"
+      ],
+      "defaultVariant": "custom",
+      "headline": "Choisissez deux cryptomonnaies et calculez quel serait le prix de la première si elle atteignait la capitalisation boursière de la seconde. Prend en charge toutes les 50 principales cryptomonnaies."
+    }
+  ]
+}

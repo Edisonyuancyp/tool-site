@@ -1,0 +1,37 @@
+{
+  "slug": "palette-saas",
+  "name": "Minimal SaaS Color Palette",
+  "tagline": "Clean, high-contrast palette used by modern SaaS products. Neutral grays anchored by a confident indigo accent.",
+  "description": "Clean, high-contrast palette used by modern SaaS products. Neutral grays anchored by a confident indigo accent.",
+  "metaTitle": "Minimal SaaS Color Palette – HEX, CMYK, Tailwind & Pantone Reference",
+  "metaDescription": "Free minimal saas color palette with HEX codes, Tailwind CSS classes, CMYK values, and Pantone approximate references. Copy any color instantly.",
+  "keywords": [
+    "Minimal SaaS color palette",
+    "Minimal SaaS color scheme",
+    "Minimal SaaS HEX codes",
+    "#6366F1",
+    "#A5B4FC",
+    "#F9FAFB",
+    "Pantone matching",
+    "CMYK conversion",
+    "Web color palette",
+    "Tailwind CSS scheme"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/palette-saas",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Are the Pantone references exact matches?",
+      "answer": "No. Pantone codes shown are the closest visual approximations. For production print work, always verify against a physical Pantone Fan Deck."
+    },
+    {
+      "question": "How are CMYK values calculated?",
+      "answer": "CMYK values use the device-independent formula: K = 1 − max(R,G,B); C/M/Y derived from RGB ratios. Actual output depends on printer profile and paper."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

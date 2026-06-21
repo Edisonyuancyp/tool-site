@@ -1,0 +1,80 @@
+{
+  "slug": "gpa-calculator",
+  "name": "Calculateur de GPA",
+  "tagline": "Calculez instantanément votre GPA à partir de notes lettres ou de pourcentages",
+  "description": "Calculez votre GPA (Moyenne Pondérée des Notes) à partir de notes lettres, de pourcentages ou de points de note. Prend en charge l'échelle 4.0, le GPA pondéré et le calcul du GPA cumulatif.",
+  "metaTitle": "Calculateur de GPA – Calculez le GPA à partir des notes lettres | Gratuit en ligne",
+  "metaDescription": "Calculateur de GPA gratuit. Entrez vos notes lettres ou pourcentages pour calculer le GPA sur une échelle de 4.0. Prend en charge le GPA pondéré et le GPA cumulatif.",
+  "keywords": [
+    "calculateur de gpa",
+    "calculateur de moyenne pondérée",
+    "note lettre à gpa",
+    "calculer gpa échelle 4.0",
+    "calculateur de gpa cumulatif"
+  ],
+  "category": "Utilities",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "Comment le GPA est-il calculé ?",
+      "answer": "Le GPA est calculé en convertissant chaque note lettre en point de note (A=4.0, B=3.0, C=2.0, D=1.0, F=0.0), puis en faisant la moyenne de tous les cours pondérés par les heures de crédit."
+    },
+    {
+      "question": "Quel est un bon GPA ?",
+      "answer": "Un GPA de 3.5 à 4.0 est considéré comme excellent (Liste du Doyen dans la plupart des universités). 3.0 à 3.5 est bon. En dessous de 2.0, vous pourriez être placé en probation académique dans de nombreuses écoles."
+    },
+    {
+      "question": "Quelle est la différence entre le GPA pondéré et non pondéré ?",
+      "answer": "Le GPA non pondéré traite tous les cours de manière égale (max 4.0). Le GPA pondéré donne des points supplémentaires pour les cours d'honneur, AP ou IB (max 5.0), récompensant la rigueur académique."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "college-gpa-calculator",
+      "metaTitle": "Calculateur de GPA Universitaire – Calculez le GPA de l'Université en Ligne",
+      "metaDescription": "Calculez votre GPA universitaire. Entrez le nom du cours, les heures de crédit et la note pour trouver votre GPA de semestre et cumulatif. Calculateur de GPA universitaire gratuit.",
+      "keywords": [
+        "calculateur de gpa universitaire",
+        "calculateur de gpa de collège",
+        "calculateur de gpa de semestre",
+        "calculateur de gpa cumulatif collège",
+        "calculateur de notes collège"
+      ],
+      "defaultVariant": "college",
+      "headline": "Calculez votre GPA universitaire en entrant chaque cours, ses heures de crédit et votre note lettre. Affiche les GPA de semestre et cumulatif."
+    },
+    {
+      "variantSlug": "high-school-gpa-calculator",
+      "metaTitle": "Calculateur de GPA de Lycée – GPA Pondéré & Non Pondéré",
+      "metaDescription": "Calculez votre GPA de lycée — pondéré (avec bonus AP/IB) et non pondéré. Calculateur de GPA de lycée gratuit pour les candidatures universitaires.",
+      "keywords": [
+        "calculateur de gpa de lycée",
+        "calculateur de gpa pondéré",
+        "calculateur de gpa non pondéré",
+        "calculateur de gpa de classe AP",
+        "gpa pour candidatures universitaires"
+      ],
+      "defaultVariant": "highschool",
+      "headline": "Calculez votre GPA de lycée — à la fois pondéré (y compris les bonus AP/IB/Honors) et non pondéré (échelle standard de 4.0) — pour les candidatures universitaires."
+    },
+    {
+      "variantSlug": "grade-calculator",
+      "metaTitle": "Calculateur de Notes – Calculez Votre Note Finale & Ce Dont Vous Avez Besoin pour Passer",
+      "metaDescription": "Calculateur de notes gratuit. Entrez vos notes actuelles et leurs poids pour calculer votre note globale de cours. Montre quel score vous devez obtenir à l'examen final pour atteindre votre note cible.",
+      "keywords": [
+        "calculateur de notes",
+        "calculateur de note finale",
+        "quelle note dois-je obtenir pour passer",
+        "calculateur de notes de cours",
+        "calculateur de notes pondérées"
+      ],
+      "defaultVariant": "grade",
+      "headline": "Entrez vos scores de devoirs et leurs poids pour calculer votre note actuelle de cours. Ensuite, découvrez exactement quel score vous devez obtenir à votre examen final pour atteindre votre note cible (A, B, C, ou passer)."
+    }
+  ]
+}

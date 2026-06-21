@@ -1,0 +1,76 @@
+{
+  "slug": "base64-tool",
+  "name": "Encodeur / Décodeur Base64",
+  "tagline": "Encodez et décodez instantanément des chaînes Base64 et URL-encodées",
+  "description": "Encodez n'importe quel texte en Base64 ou décodez le Base64 en texte brut. Prend également en charge l'encodage/décodage URL. Gère correctement l'UTF-8. Comprend un bouton d'échange, une validation en temps réel et une fonction de copie dans le presse-papiers.",
+  "metaTitle": "Encodeur Décodeur Base64 en Ligne – Outil d'Encodage Décodage URL",
+  "metaDescription": "Encodeur et décodeur Base64 gratuit. Encodez du texte en Base64 ou décodez des chaînes Base64. Également encodage/décodage URL. Sûr pour l'UTF-8, uniquement dans le navigateur, résultats instantanés.",
+  "keywords": [
+    "encodeur décodeur base64",
+    "décodeur base64 en ligne",
+    "encodage décodage url",
+    "convertisseur base64",
+    "outil d'encodage pourcentage"
+  ],
+  "category": "Développeur",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "À quoi sert le Base64 ?",
+      "answer": "Le Base64 est utilisé pour encoder des données binaires en texte ASCII pour une transmission sécurisée — dans les URI de données, les en-têtes d'authentification HTTP Basic, les jetons JWT, les pièces jointes d'e-mail et les charges utiles JSON."
+    },
+    {
+      "question": "Quelle est la différence entre l'encodage Base64 et l'encodage URL ?",
+      "answer": "Le Base64 encode n'importe quel octet en un alphabet de 64 caractères. L'encodage URL remplace les caractères URL non sécurisés par des séquences hexadécimales %XX. Utilisez l'encodage URL pour les paramètres de requête ; le Base64 pour les données binaires dans des formats texte."
+    }
+  ],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "base64-encode-online",
+      "metaTitle": "Encodez en Base64 en Ligne – Convertir du Texte en Chaîne Base64",
+      "metaDescription": "Encodez instantanément du texte ou des données au format Base64. Encodeur Base64 en ligne gratuit — sûr pour l'UTF-8, uniquement dans le navigateur, sans inscription requise.",
+      "keywords": [
+        "encodez base64 en ligne",
+        "texte en base64",
+        "encoder base64",
+        "encodeur base64 en ligne",
+        "convertir en base64"
+      ],
+      "defaultVariant": "encode",
+      "headline": "Encodez n'importe quel texte ou donnée au format Base64. Utile pour intégrer des données dans HTML, CSS, JSON et charges utiles d'API."
+    },
+    {
+      "variantSlug": "base64-decode-online",
+      "metaTitle": "Décodez en Base64 en Ligne – Décodez le Base64 en Texte",
+      "metaDescription": "Décodez instantanément des chaînes Base64 en texte brut. Décodeur Base64 en ligne gratuit — collez votre chaîne encodée et obtenez le texte original.",
+      "keywords": [
+        "décodez base64 en ligne",
+        "décodez chaîne base64",
+        "base64 en texte",
+        "décodeur base64 en ligne",
+        "convertir depuis base64"
+      ],
+      "defaultVariant": "decode",
+      "headline": "Collez une chaîne encodée en Base64 pour la décoder en texte brut. Gère les variantes Base64 standard et Base64 sécurisées pour URL."
+    },
+    {
+      "variantSlug": "url-encode-decode",
+      "metaTitle": "Encodage Décodage URL en Ligne – Outil d'Encodage pourcentage",
+      "metaDescription": "Encodez ou décodez instantanément des chaînes URL. Convertissez les caractères spéciaux en format encodé en pourcentage pour une utilisation sécurisée dans les URL. Encodeur/décodeur URL en ligne gratuit.",
+      "keywords": [
+        "encodage décodage url",
+        "outil d'encodage pourcentage",
+        "encodeur url en ligne",
+        "décodeur url en ligne",
+        "encoder paramètres url"
+      ],
+      "defaultVariant": "url",
+      "headline": "Encodez ou décodez des chaînes URL (encodage pourcentage). Convertit les caractères spéciaux comme les espaces, &, =, et # en leurs équivalents %XX pour une utilisation sécurisée dans les URL et les paramètres de requête."
+    }
+  ]
+}

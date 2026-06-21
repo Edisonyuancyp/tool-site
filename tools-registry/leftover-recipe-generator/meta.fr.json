@@ -1,0 +1,59 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "Générateur de Recettes de Restes",
+  "tagline": "Transformez les restes en plats délicieux.",
+  "description": "Entrez les restes que vous avez et obtenez des idées de recettes créatives pour les utiliser. Parfait pour réduire le gaspillage alimentaire et maximiser votre garde-manger.",
+  "metaTitle": "Générateur de Recettes de Restes – Idées de Repas Créatives | Outil en Ligne Gratuit",
+  "metaDescription": "Générez des recettes à partir de vos restes avec cet outil gratuit. Aucune inscription requise.",
+  "keywords": [
+    "idées de recettes de restes",
+    "cuisine avec des restes",
+    "idées de repas à partir de restes"
+  ],
+  "category": "Cuisine",
+  "icon": "🥡",
+  "faqs": [
+    {
+      "question": "Comment fonctionne le générateur de recettes de restes ?",
+      "answer": "Il suffit d'entrer les ingrédients qu'il vous reste, et le générateur proposera des recettes possibles."
+    },
+    {
+      "question": "Puis-je ajouter plusieurs restes ?",
+      "answer": "Oui, vous pouvez entrer autant d'ingrédients restants que vous le souhaitez pour des suggestions de recettes personnalisées."
+    },
+    {
+      "question": "Les recettes sont-elles faciles à suivre ?",
+      "answer": "Les recettes suggérées sont généralement simples et conçues pour une préparation rapide."
+    }
+  ],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "vegetarian-leftover-variant",
+      "metaTitle": "Générateur de Recettes de Restes Végétariennes",
+      "metaDescription": "Créez des repas végétariens à partir de vos restes.",
+      "keywords": [
+        "restes végétariens",
+        "idées de repas à base de plantes",
+        "recettes de restes véganes"
+      ],
+      "defaultVariant": "vegetarian-variant-key",
+      "headline": "Transformez vos restes végétariens en plats délicieux."
+    },
+    {
+      "variantSlug": "quick-meal-leftover-variant",
+      "metaTitle": "Générateur de Recettes de Restes Rapides",
+      "metaDescription": "Trouvez des recettes rapides pour utiliser vos restes.",
+      "keywords": [
+        "repas rapides avec des restes",
+        "recettes faciles à partir de restes",
+        "cuisine rapide avec des restes"
+      ],
+      "defaultVariant": "quick-meal-variant-key",
+      "headline": "Obtenez des idées de repas rapides pour utiliser vos restes sans effort."
+    }
+  ]
+}

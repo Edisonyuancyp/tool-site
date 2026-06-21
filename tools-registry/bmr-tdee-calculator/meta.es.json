@@ -1,0 +1,76 @@
+{
+  "slug": "bmr-tdee-calculator",
+  "name": "Calculadora de BMR y TDEE",
+  "tagline": "Descubre tu quema diaria de calorías y establece el objetivo perfecto para tu meta",
+  "description": "Calcula tu Tasa Metabólica Basal (BMR) y el Gasto Energético Diario Total (TDEE) utilizando las fórmulas de Mifflin-St Jeor, Harris-Benedict y Katch-McArdle. Muestra objetivos de calorías para perder peso, mantener o aumentar masa muscular con desglose de macronutrientes.",
+  "metaTitle": "Calculadora de BMR y TDEE – Necesidades Calóricas Diarias para Pérdida de Peso y Aumento Muscular",
+  "metaDescription": "Calculadora gratuita de BMR y TDEE. Encuentra tu quema diaria de calorías utilizando la fórmula de Mifflin-St Jeor. Establece objetivos para perder peso, mantener o aumentar masa muscular con desglose de macronutrientes.",
+  "keywords": [
+    "calculadora de BMR",
+    "calculadora de TDEE",
+    "calculadora de calorías diarias",
+    "cuántas calorías quemo",
+    "calculadora de tasa metabólica basal"
+  ],
+  "category": "Salud",
+  "icon": "🔥",
+  "faqs": [
+    {
+      "question": "¿Cuál es la diferencia entre BMR y TDEE?",
+      "answer": "El BMR son las calorías que tu cuerpo quema en completo reposo. El TDEE multiplica el BMR por tu nivel de actividad para obtener tu quema diaria de calorías. Come por debajo del TDEE para perder peso."
+    },
+    {
+      "question": "¿Cuál fórmula de BMR es la más precisa?",
+      "answer": "La fórmula de Mifflin-St Jeor (1990) se considera la más precisa para la mayoría de las personas. Katch-McArdle es más precisa si conoces tu masa corporal magra."
+    }
+  ],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "calorie-calculator-weight-loss",
+      "metaTitle": "Calculadora de Calorías para Pérdida de Peso – Déficit Calórico Diario",
+      "metaDescription": "Calcula tu objetivo diario de calorías para perder peso. Encuentra tu TDEE y el déficit necesario para perder 0.5kg o 1kg por semana. Calculadora de calorías gratuita.",
+      "keywords": [
+        "calculadora de calorías pérdida de peso",
+        "calculadora de déficit calórico",
+        "cuántas calorías para perder peso",
+        "objetivo calórico para pérdida de peso",
+        "calorías para perder 1kg por semana"
+      ],
+      "defaultVariant": "cut",
+      "headline": "Descubre exactamente cuántas calorías necesitas consumir diariamente para perder peso de manera segura y sostenible — 0.5kg o 1kg por semana."
+    },
+    {
+      "variantSlug": "calorie-calculator-muscle-gain",
+      "metaTitle": "Calculadora de Calorías para Aumento Muscular – Superávit Calórico para Aumentar Masa",
+      "metaDescription": "Calcula tu superávit calórico diario para ganar músculo. Encuentra tu TDEE y objetivo de aumento. Calculadora de calorías gratuita para construir músculo.",
+      "keywords": [
+        "calculadora de calorías aumento muscular",
+        "calculadora de superávit calórico",
+        "cuántas calorías para ganar músculo",
+        "calculadora de calorías para aumento",
+        "calorías para crecimiento muscular"
+      ],
+      "defaultVariant": "bulk",
+      "headline": "Encuentra tu objetivo diario de calorías para ganar músculo. Un aumento limpio requiere un superávit modesto de 200–300 calorías por encima de tu TDEE para maximizar el crecimiento muscular mientras minimizas la ganancia de grasa."
+    },
+    {
+      "variantSlug": "tdee-calculator",
+      "metaTitle": "Calculadora de TDEE – Calculadora de Gasto Energético Diario Total",
+      "metaDescription": "Calcula tu Gasto Energético Diario Total (TDEE). Descubre cuántas calorías quemas al día según tu nivel de actividad. Calculadora de TDEE gratuita.",
+      "keywords": [
+        "calculadora de tdee",
+        "gasto energético diario total",
+        "cuántas calorías quemo al día",
+        "calculadora de calorías de mantenimiento",
+        "calculadora de quema de calorías diaria"
+      ],
+      "defaultVariant": "tdee",
+      "headline": "Calcula tu Gasto Energético Diario Total — el número real de calorías que tu cuerpo quema cada día, incluyendo la actividad. Este es tu nivel de calorías de mantenimiento."
+    }
+  ]
+}

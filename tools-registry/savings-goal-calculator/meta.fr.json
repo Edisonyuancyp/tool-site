@@ -1,0 +1,36 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "Calculateur d'Objectif d'Épargne",
+  "tagline": "Planifiez vos économies facilement !",
+  "description": "Ce calculateur aide les utilisateurs à définir des objectifs d'épargne et à déterminer combien épargner chaque mois pour atteindre cet objectif. Idéal pour quiconque planifiant des vacances, un achat important ou la constitution d'un fonds d'urgence.",
+  "metaTitle": "Calculateur d'Objectif d'Épargne – Planifiez Vos Économies | Outil en Ligne Gratuit",
+  "metaDescription": "Calculez les économies mensuelles nécessaires pour atteindre vos objectifs. Gratuit, sans inscription requise, résultats instantanés !",
+  "keywords": [
+    "objectif d'épargne",
+    "calculateur d'épargne mensuelle",
+    "planification financière",
+    "calculateur de fonds d'urgence",
+    "épargne pour les vacances"
+  ],
+  "category": "Finance",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "Comment fonctionne le calculateur d'objectif d'épargne ?",
+      "answer": "Entrez le montant de votre objectif d'épargne, votre date cible, et le calculateur vous montrera combien vous devez épargner chaque mois pour l'atteindre."
+    },
+    {
+      "question": "Puis-je ajuster mon objectif après avoir commencé ?",
+      "answer": "Oui, vous pouvez modifier le montant de votre objectif et votre calendrier à tout moment pour refléter votre situation financière actuelle."
+    },
+    {
+      "question": "Cet outil est-il adapté à tous les types d'objectifs d'épargne ?",
+      "answer": "Absolument ! Que ce soit un objectif à court terme ou un investissement à long terme, ce calculateur peut vous aider à planifier."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

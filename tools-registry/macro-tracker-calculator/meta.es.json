@@ -1,0 +1,36 @@
+{
+  "slug": "macro-tracker-calculator",
+  "name": "Calculadora de Seguimiento de Macronutrientes",
+  "tagline": "¡Controla tus macros de manera efectiva!",
+  "description": "Esta calculadora te ayuda a rastrear tu ingesta de macronutrientes según tus objetivos de fitness, ya sea para aumentar masa muscular, perder peso o mantenerlo. Ideal para entusiastas del fitness y quienes siguen dietas específicas.",
+  "metaTitle": "Calculadora de Seguimiento de Macronutrientes – Gestión de Nutrientes | Herramienta Gratuita",
+  "metaDescription": "Rastrea fácilmente tus macros de forma gratuita con esta calculadora instantánea. ¡Sin necesidad de registro, solo ingresa tus objetivos y comienza!",
+  "keywords": [
+    "seguimiento de macros",
+    "calculadora de macronutrientes",
+    "planificación de dietas",
+    "objetivos de fitness",
+    "nutrición"
+  ],
+  "category": "Fitness",
+  "icon": "🍏",
+  "faqs": [
+    {
+      "question": "¿Qué son los macronutrientes?",
+      "answer": "Los macronutrientes incluyen proteínas, grasas y carbohidratos, que son esenciales para la energía y el crecimiento."
+    },
+    {
+      "question": "¿Cómo uso esta calculadora?",
+      "answer": "Simplemente ingresa tus objetivos de fitness, y la calculadora te proporcionará el desglose de macros necesario."
+    },
+    {
+      "question": "¿Puedo ajustar mis objetivos más tarde?",
+      "answer": "Sí, puedes volver a la calculadora en cualquier momento para ajustar tus objetivos y ver cómo cambian tus macros."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

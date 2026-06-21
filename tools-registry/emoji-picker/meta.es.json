@@ -1,0 +1,80 @@
+{
+  "slug": "emoji-picker",
+  "name": "Selector de Emojis",
+  "tagline": "Busca, copia y usa cualquier emoji al instante",
+  "description": "Encuentra y copia cualquier emoji al instante con búsqueda por palabra clave. Navega por todas las categorías de emojis: sonrisas, personas, animales, comida, viajes, objetos, símbolos y banderas. Copia con un clic.",
+  "metaTitle": "Selector de Emojis – Busca y Copia Cualquier Emoji Gratis en Línea",
+  "metaDescription": "Busca y copia cualquier emoji al instante. Navega por todas las categorías de emojis: sonrisas, animales, comida, banderas y más. Selector de emojis en línea gratis: haz clic para copiar.",
+  "keywords": [
+    "selector de emojis",
+    "búsqueda de emojis",
+    "copia emoji en línea",
+    "encontrar emoji por palabra clave",
+    "teclado de emojis en línea"
+  ],
+  "category": "Utilities",
+  "icon": "😊",
+  "faqs": [
+    {
+      "question": "¿Cómo copio un emoji?",
+      "answer": "Haz clic en cualquier emoji para copiarlo en tu portapapeles. Luego puedes pegarlo en cualquier lugar: en mensajes, documentos, redes sociales o código."
+    },
+    {
+      "question": "¿Puedo buscar emojis por nombre?",
+      "answer": "Sí. Escribe cualquier palabra clave en el cuadro de búsqueda para encontrar emojis que coincidan por nombre, categoría o descripción."
+    },
+    {
+      "question": "¿Qué versiones de emojis son compatibles?",
+      "answer": "El selector es compatible con todos los emojis de Unicode 15.0, que cubren todos los emojis modernos disponibles en iOS, Android, Windows y macOS."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "word-counter",
+    "random-number-generator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "heart-emoji-copy-paste",
+      "metaTitle": "Copia y Pega Emojis de Corazón – Todos los Emojis de Corazón ❤️🧡💛",
+      "metaDescription": "Copia y pega emojis de corazón. Todos los emojis de corazón en un solo lugar: corazón rojo, corazón rosa, corazón roto, corazón brillante y más. Haz clic para copiar cualquier emoji de corazón.",
+      "keywords": [
+        "copia pega emoji de corazón",
+        "todos los emojis de corazón",
+        "❤️ copia pega",
+        "lista de emojis de corazón",
+        "símbolos de corazón copia pega"
+      ],
+      "defaultVariant": "hearts",
+      "headline": "Todos los emojis de corazón en un solo lugar: haz clic para copiar cualquier corazón al instante. Desde ❤️ hasta 💔, 🖤 hasta 🩷, todos los 30+ variantes de corazón listas para pegar."
+    },
+    {
+      "variantSlug": "face-emoji-copy-paste",
+      "metaTitle": "Copia y Pega Emojis de Caras – Todos los Emojis de Caras Sonrientes 😀😂🥹",
+      "metaDescription": "Copia y pega emojis de caras y sonrisas. Todos los emojis de caras en un solo lugar: feliz, triste, llorando, riendo y más. Haz clic para copiar cualquier emoji de cara.",
+      "keywords": [
+        "copia pega emoji de cara",
+        "copia pega emoji sonriente",
+        "todos los emojis de cara",
+        "lista de emojis de cara sonriente",
+        "emojis de caras copia pega"
+      ],
+      "defaultVariant": "faces",
+      "headline": "Todos los emojis de sonrisas y caras en un solo lugar: haz clic para copiar al instante. Desde 😀 hasta 😭, 😂 hasta 🥹, todos los emojis de expresiones faciales listos para pegar."
+    },
+    {
+      "variantSlug": "flag-emoji-copy-paste",
+      "metaTitle": "Copia y Pega Emojis de Banderas – Emojis de Banderas de Países 🏳️🇺🇸🇬🇧",
+      "metaDescription": "Copia y pega emojis de banderas de países. Encuentra el emoji de la bandera de cualquier país y cópialo al instante. Más de 250 banderas de países disponibles.",
+      "keywords": [
+        "copia pega emoji de bandera",
+        "emoji de bandera de país",
+        "emoji de bandera nacional",
+        "emojis de banderas de todos los países",
+        "copia emoji de bandera"
+      ],
+      "defaultVariant": "flags",
+      "headline": "Más de 250 emojis de banderas de países en un solo lugar. Busca por nombre del país o navega por la lista completa: haz clic para copiar cualquier emoji de bandera al instante."
+    }
+  ]
+}

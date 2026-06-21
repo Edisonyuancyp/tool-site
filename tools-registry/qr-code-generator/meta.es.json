@@ -1,0 +1,80 @@
+{
+  "slug": "qr-code-generator",
+  "name": "Generador de Códigos QR",
+  "tagline": "Genera un código QR para cualquier texto o URL al instante",
+  "description": "Genera un código QR gratuito para cualquier URL, texto, número de teléfono o mensaje. Descárgalo como PNG y úsalo en cualquier lugar — no se necesita cuenta.",
+  "metaTitle": "Generador de Códigos QR – Creador de Códigos QR Gratis en Línea",
+  "metaDescription": "Genera códigos QR gratuitos para URLs, texto y más. Descárgalo como PNG al instante. Sin registro, sin marca de agua. El generador de códigos QR en línea más rápido y gratuito.",
+  "keywords": [
+    "generador de códigos qr",
+    "creador de códigos qr gratis",
+    "generar código qr en línea",
+    "url a código qr",
+    "código qr para sitio web"
+  ],
+  "category": "Generators",
+  "icon": "📱",
+  "faqs": [
+    {
+      "question": "¿Qué puedo codificar en un código QR?",
+      "answer": "Puedes codificar URLs, texto plano, números de teléfono, direcciones de correo electrónico, mensajes SMS, credenciales de Wi-Fi y más."
+    },
+    {
+      "question": "¿Los códigos QR son gratuitos para usar?",
+      "answer": "Sí. Todos los códigos QR generados aquí son completamente gratuitos, sin marca de agua, sin fecha de caducidad y sin necesidad de cuenta."
+    },
+    {
+      "question": "¿Puedo descargar el código QR?",
+      "answer": "Sí. Haz clic en el botón de descarga para guardar el código QR como un archivo de imagen PNG que puedes usar en cualquier lugar."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "text-case-converter",
+    "base64-tool"
+  ],
+  "variants": [
+    {
+      "variantSlug": "wifi-qr-code-generator",
+      "metaTitle": "Generador de Códigos QR de WiFi – Comparte la Contraseña de WiFi como Código QR",
+      "metaDescription": "Genera un código QR de WiFi al instante. Permite a los invitados escanear para conectarse sin escribir contraseñas. Generador de códigos QR de WiFi gratuito — funciona en Android y iOS.",
+      "keywords": [
+        "generador de códigos qr wifi",
+        "compartir contraseña wifi código qr",
+        "código qr wifi",
+        "generar qr wifi",
+        "conectar código qr wifi"
+      ],
+      "defaultVariant": "wifi",
+      "headline": "Genera un código QR para tu red WiFi. Los invitados lo escanean con la cámara de su teléfono para conectarse automáticamente — no se necesita escribir la contraseña."
+    },
+    {
+      "variantSlug": "url-to-qr-code",
+      "metaTitle": "Generador de URL a Código QR – Creador de Códigos QR de Enlace Gratis",
+      "metaDescription": "Convierte cualquier URL o enlace de sitio web en un código QR al instante. Convertidor de URL a código QR gratuito. Descárgalo como PNG. No se requiere registro.",
+      "keywords": [
+        "url a código qr",
+        "enlace a código qr",
+        "generador de códigos qr para sitios web",
+        "convertir url a qr",
+        "código qr para enlace"
+      ],
+      "defaultVariant": "url",
+      "headline": "Convierte cualquier URL en un código QR escaneable. Perfecto para tarjetas de presentación, volantes, carteles y empaques. Descárgalo como PNG al instante."
+    },
+    {
+      "variantSlug": "vcard-qr-code-generator",
+      "metaTitle": "Generador de Códigos QR vCard – Código QR de Tarjeta de Visita Digital",
+      "metaDescription": "Crea un código QR vCard con tus datos de contacto. Escanea para guardar como contacto. Generador de códigos QR de tarjeta de visita digital gratuito.",
+      "keywords": [
+        "generador de códigos qr vcard",
+        "código qr de contacto",
+        "código qr de tarjeta de visita digital",
+        "código qr datos de contacto",
+        "generador vcard"
+      ],
+      "defaultVariant": "vcard",
+      "headline": "Crea un código QR que guarda tu información de contacto directamente en el teléfono de alguien. Escanea → Añadir a Contactos. No se requiere aplicación."
+    }
+  ]
+}

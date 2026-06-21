@@ -1,0 +1,77 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "Calculadora de Interés Compuesto",
+  "tagline": "Descubre cómo crece tu dinero con el tiempo gracias al interés compuesto",
+  "description": "Calcula el interés compuesto con contribuciones mensuales opcionales. Ingresa tu capital, tasa anual, período de inversión y frecuencia de capitalización para ver tu saldo final, el interés total ganado y un gráfico de crecimiento año por año.",
+  "metaTitle": "Calculadora de Interés Compuesto – Calculadora Gratuita de Crecimiento de Inversiones",
+  "metaDescription": "Calcula el interés compuesto en línea. Ingresa capital, tasa, años y contribuciones mensuales para ver crecer tu inversión. Calculadora de interés compuesto gratuita con gráfico.",
+  "keywords": [
+    "calculadora de interés compuesto",
+    "calculadora de inversiones",
+    "fórmula de interés compuesto",
+    "calculadora de ahorros",
+    "calculadora de interés en línea"
+  ],
+  "category": "Finance",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "¿Qué es el interés compuesto?",
+      "answer": "El interés compuesto es el interés calculado tanto sobre el capital inicial como sobre el interés acumulado de períodos anteriores. Crece exponencialmente con el tiempo."
+    },
+    {
+      "question": "¿Con qué frecuencia debe capitalizarse el interés?",
+      "answer": "Una capitalización más frecuente significa rendimientos ligeramente más altos. La capitalización diaria ofrece el mayor rendimiento, pero la diferencia con la mensual es pequeña. La mayoría de las cuentas de ahorro y productos de inversión capitalizan mensualmente."
+    },
+    {
+      "question": "¿Qué es la Regla del 72?",
+      "answer": "Divide 72 entre tu tasa de interés anual para estimar cuántos años tardarás en duplicar tu dinero. A una tasa del 6%, tu dinero se duplica en aproximadamente 12 años."
+    },
+    {
+      "question": "¿Esta calculadora incluye contribuciones mensuales?",
+      "answer": "Sí. Puedes agregar un monto de contribución mensual para simular depósitos regulares de ahorro además de tu capital inicial."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "compound-interest-calculator-monthly",
+      "metaTitle": "Calculadora de Interés Compuesto Mensual – Capitalización Mensual",
+      "metaDescription": "Calcula el interés compuesto capitalizado mensualmente. Descubre cómo la capitalización mensual hace crecer tus ahorros. Gratis, instantáneo, sin registro.",
+      "keywords": [
+        "calculadora de interés compuesto mensual",
+        "calculadora de capitalización mensual",
+        "calculadora de interés mensual"
+      ],
+      "defaultVariant": "monthly",
+      "headline": "Calcula el interés compuesto capitalizado mensualmente — la frecuencia más común para cuentas de ahorro, CD y la mayoría de los productos de inversión."
+    },
+    {
+      "variantSlug": "compound-interest-calculator-daily",
+      "metaTitle": "Calculadora de Interés Compuesto Diario – Capitalización Diaria",
+      "metaDescription": "Calcula el interés compuesto capitalizado diariamente. La capitalización diaria maximiza los rendimientos — compara la diferencia con la mensual. Calculadora gratuita.",
+      "keywords": [
+        "calculadora de interés compuesto diario",
+        "calculadora de capitalización diaria",
+        "calculadora de tasa de interés diario"
+      ],
+      "defaultVariant": "daily",
+      "headline": "La capitalización diaria ofrece el mayor rendimiento posible con una tasa anual dada. Compara cuánto más ganas frente a la capitalización mensual."
+    },
+    {
+      "variantSlug": "compound-interest-calculator-annually",
+      "metaTitle": "Calculadora de Interés Compuesto Anual – Capitalización Anual",
+      "metaDescription": "Calcula el interés compuesto capitalizado anualmente. Calculadora simple de crecimiento de interés anual. Gratis e instantánea.",
+      "keywords": [
+        "calculadora de interés compuesto anual",
+        "interés compuesto anual",
+        "calculadora de capitalización anual"
+      ],
+      "defaultVariant": "annually",
+      "headline": "Calcula el interés capitalizado una vez al año — la forma más simple de interés compuesto. A menudo utilizada para bonos, depósitos a plazo fijo y préstamos a largo plazo."
+    }
+  ]
+}

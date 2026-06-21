@@ -1,0 +1,79 @@
+{
+  "slug": "sleep-calculator",
+  "name": "Calculateur de Sommeil",
+  "tagline": "Trouvez le meilleur moment pour vous réveiller ou vous endormir",
+  "description": "Calculez l'heure idéale pour vous coucher ou vous réveiller en fonction des cycles de sommeil de 90 minutes. Se réveiller entre les cycles est plus rafraîchissant que d'être brusquement réveillé en plein cycle.",
+  "metaTitle": "Calculateur de Sommeil – Meilleur Calculateur d'Heure de Coucher & de Réveil",
+  "metaDescription": "Trouvez le meilleur moment pour vous réveiller ou vous endormir en fonction des cycles de sommeil de 90 minutes. Calculateur de sommeil gratuit — réveillez-vous rafraîchi chaque matin.",
+  "keywords": [
+    "calculateur de sommeil",
+    "calculateur d'heure de réveil",
+    "calculateur d'heure de coucher",
+    "calculateur de cycle de sommeil",
+    "meilleur moment pour se réveiller"
+  ],
+  "category": "Santé",
+  "icon": "😴",
+  "faqs": [
+    {
+      "question": "Comment fonctionne le calculateur de cycle de sommeil ?",
+      "answer": "Le sommeil se déroule en cycles de 90 minutes. Se réveiller à la fin d'un cycle (plutôt qu'en plein cycle) vous fait sentir plus reposé. Le calculateur ajoute 14 minutes pour le temps moyen d'endormissement."
+    },
+    {
+      "question": "Combien de cycles de sommeil devrais-je avoir ?",
+      "answer": "La plupart des adultes se sentent mieux avec 5 à 6 cycles de sommeil complets (7,5 à 9 heures). Les adolescents ont besoin de plus — généralement 6 à 8 cycles."
+    },
+    {
+      "question": "À quelle heure devrais-je me coucher pour me réveiller à 6h du matin ?",
+      "answer": "Pour se réveiller à 6h00 en se sentant rafraîchi, allez vous coucher à 20h46, 22h16, 23h46 ou 1h16 — chacune de ces heures correspond à un nombre complet de cycles de 90 minutes avant votre heure de réveil."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "sleep-calculator-for-teens",
+      "metaTitle": "Calculateur de Sommeil pour Adolescents – Calculateur de Cycle de Sommeil des Adolescents",
+      "metaDescription": "Calculez les heures de sommeil idéales pour les adolescents. Les adolescents ont besoin de 8 à 10 heures de sommeil. Trouvez le meilleur moment pour se coucher et se réveiller selon les cycles de sommeil des adolescents.",
+      "keywords": [
+        "calculateur de sommeil pour adolescents",
+        "calculateur de sommeil pour teenager",
+        "calculateur d'heure de coucher pour adolescents",
+        "combien de sommeil les adolescents ont-ils besoin"
+      ],
+      "defaultVariant": "teen",
+      "headline": "Les adolescents ont besoin de 8 à 10 heures de sommeil par nuit (5 à 6+ cycles). Ce calculateur trouve les heures idéales de coucher et de réveil pour les adolescents en fonction de leur emploi du temps scolaire."
+    },
+    {
+      "variantSlug": "sleep-calculator-for-babies",
+      "metaTitle": "Calculateur de Sommeil pour Bébé – Horaire de Sommeil pour Nourrissons et Tout-Petits",
+      "metaDescription": "Calculez les besoins de sommeil pour les bébés et les tout-petits. Trouvez les heures de sieste et le total d'heures de sommeil selon l'âge. Calculateur gratuit d'horaire de sommeil pour bébé.",
+      "keywords": [
+        "calculateur de sommeil pour bébé",
+        "horaire de sommeil pour nourrissons",
+        "calculateur de sommeil pour tout-petit",
+        "combien de sommeil un bébé a-t-il besoin",
+        "calculateur de sieste pour bébé"
+      ],
+      "defaultVariant": "baby",
+      "headline": "Les bébés et les tout-petits ont des besoins de sommeil très différents de ceux des adultes. Ce calculateur montre le nombre total d'heures de sommeil recommandées et les fenêtres de sieste par âge (0 à 36 mois)."
+    },
+    {
+      "variantSlug": "nap-calculator",
+      "metaTitle": "Calculateur de Sieste – Meilleure Durée de Sieste et Heure de Réveil",
+      "metaDescription": "Trouvez la durée idéale de sieste. Sieste de 20 minutes contre cycle complet de 90 minutes — calculez le meilleur moment pour faire une sieste afin d'éviter l'inertie du sommeil.",
+      "keywords": [
+        "calculateur de sieste",
+        "calculateur de sieste éclair",
+        "meilleure durée de sieste",
+        "combien de temps faire une sieste",
+        "calculateur d'heure de sieste"
+      ],
+      "defaultVariant": "nap",
+      "headline": "Toutes les siestes ne se valent pas. Une sieste éclair de 20 minutes augmente la vigilance sans somnolence. Un cycle complet de 90 minutes inclut le sommeil paradoxal pour la consolidation de la mémoire. Trouvez votre fenêtre de sieste idéale."
+    }
+  ]
+}

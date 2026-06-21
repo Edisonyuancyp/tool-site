@@ -1,0 +1,80 @@
+{
+  "slug": "gpa-calculator",
+  "name": "Calculadora de GPA",
+  "tagline": "Calcula tu GPA al instante a partir de calificaciones en letras o porcentajes",
+  "description": "Calcula tu GPA (Promedio de Puntos de Calificación) a partir de calificaciones en letras, porcentajes o puntos de calificación. Soporta la escala de 4.0, GPA ponderado y cálculo de GPA acumulativo.",
+  "metaTitle": "Calculadora de GPA – Calcula GPA a partir de Calificaciones en Letras | Gratis en Línea",
+  "metaDescription": "Calculadora de GPA gratuita. Ingresa tus calificaciones en letras o porcentajes para calcular el GPA en una escala de 4.0. Soporta GPA ponderado y GPA acumulativo.",
+  "keywords": [
+    "calculadora de gpa",
+    "calculadora de promedio de calificaciones",
+    "calificación en letras a gpa",
+    "calcular gpa escala 4.0",
+    "calculadora de gpa acumulativo"
+  ],
+  "category": "Utilities",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "¿Cómo se calcula el GPA?",
+      "answer": "El GPA se calcula convirtiendo cada calificación en letras a un punto de calificación (A=4.0, B=3.0, C=2.0, D=1.0, F=0.0), y luego promediando todas las materias ponderadas por horas de crédito."
+    },
+    {
+      "question": "¿Qué GPA es considerado bueno?",
+      "answer": "Un GPA de 3.5 a 4.0 se considera excelente (Lista del Decano en la mayoría de las universidades). 3.0 a 3.5 es bueno. Por debajo de 2.0 puede ponerte en probatoria académica en muchas escuelas."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre GPA ponderado y no ponderado?",
+      "answer": "El GPA no ponderado trata todas las materias por igual (máx. 4.0). El GPA ponderado otorga puntos extra por cursos de honores, AP o IB (máx. 5.0), recompensando la rigurosidad académica."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "college-gpa-calculator",
+      "metaTitle": "Calculadora de GPA Universitario – Calcula el GPA de la Universidad en Línea",
+      "metaDescription": "Calcula tu GPA de universidad. Ingresa el nombre del curso, horas de crédito y calificación para encontrar tu GPA semestral y acumulativo. Calculadora de GPA universitaria gratuita.",
+      "keywords": [
+        "calculadora de gpa universitario",
+        "calculadora de gpa de universidad",
+        "calculadora de gpa semestral",
+        "calculadora de gpa acumulativo universidad",
+        "calculadora de calificaciones universitarias"
+      ],
+      "defaultVariant": "college",
+      "headline": "Calcula tu GPA universitario ingresando cada curso, sus horas de crédito y tu calificación en letras. Muestra tanto el GPA semestral como el GPA acumulativo."
+    },
+    {
+      "variantSlug": "high-school-gpa-calculator",
+      "metaTitle": "Calculadora de GPA de Secundaria – GPA Ponderado y No Ponderado",
+      "metaDescription": "Calcula tu GPA de secundaria — ponderado (con bonificación de AP/IB) y no ponderado. Calculadora de GPA de secundaria gratuita para aplicaciones universitarias.",
+      "keywords": [
+        "calculadora de gpa de secundaria",
+        "calculadora de gpa ponderado",
+        "calculadora de gpa no ponderado",
+        "calculadora de gpa de clases AP",
+        "gpa para aplicaciones universitarias"
+      ],
+      "defaultVariant": "highschool",
+      "headline": "Calcula tu GPA de secundaria — tanto ponderado (incluyendo bonificaciones de AP/IB/Honores) como no ponderado (escala estándar de 4.0) — para aplicaciones universitarias."
+    },
+    {
+      "variantSlug": "grade-calculator",
+      "metaTitle": "Calculadora de Calificaciones – Calcula Tu Calificación Final y Lo Que Necesitas Para Aprobar",
+      "metaDescription": "Calculadora de calificaciones gratuita. Ingresa tus calificaciones actuales y pesos para calcular tu calificación general del curso. Muestra qué puntuación necesitas en el examen final para obtener tu calificación objetivo.",
+      "keywords": [
+        "calculadora de calificaciones",
+        "calculadora de calificación final",
+        "qué calificación necesito para aprobar",
+        "calculadora de calificación del curso",
+        "calculadora de calificación ponderada"
+      ],
+      "defaultVariant": "grade",
+      "headline": "Ingresa tus puntuaciones de tareas y sus pesos para calcular tu calificación actual del curso. Luego descubre exactamente qué puntuación necesitas en tu examen final para alcanzar tu calificación objetivo (A, B, C o aprobar)."
+    }
+  ]
+}

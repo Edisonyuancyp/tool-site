@@ -1,0 +1,36 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "Calculadora de Objetivos de Ahorro",
+  "tagline": "¡Planifica tus ahorros fácilmente!",
+  "description": "Esta calculadora ayuda a los usuarios a establecer objetivos de ahorro y a determinar cuánto deben ahorrar cada mes para alcanzar esa meta. Ideal para cualquier persona que planee unas vacaciones, una compra importante o la creación de un fondo de emergencia.",
+  "metaTitle": "Calculadora de Objetivos de Ahorro – Planifica Tus Ahorros | Herramienta Online Gratuita",
+  "metaDescription": "Calcula el ahorro mensual necesario para alcanzar tus objetivos. ¡Gratis, sin registro, resultados instantáneos!",
+  "keywords": [
+    "objetivo de ahorro",
+    "calculadora de ahorros mensuales",
+    "planificación financiera",
+    "calculadora de fondo de emergencia",
+    "ahorros para vacaciones"
+  ],
+  "category": "Finance",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "¿Cómo funciona la calculadora de objetivos de ahorro?",
+      "answer": "Ingresa la cantidad de tu objetivo de ahorro, la fecha límite, y la calculadora te mostrará cuánto necesitas ahorrar mensualmente para alcanzarlo."
+    },
+    {
+      "question": "¿Puedo ajustar mi objetivo después de comenzar?",
+      "answer": "Sí, puedes modificar la cantidad de tu objetivo y el plazo en cualquier momento para reflejar tu situación financiera actual."
+    },
+    {
+      "question": "¿Es esta herramienta adecuada para todo tipo de objetivos de ahorro?",
+      "answer": "¡Absolutamente! Ya sea un objetivo a corto plazo o una inversión a largo plazo, esta calculadora puede ayudarte a planificar."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

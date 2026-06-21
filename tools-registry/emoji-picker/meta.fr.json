@@ -1,0 +1,80 @@
+{
+  "slug": "emoji-picker",
+  "name": "Sélecteur d'Émojis",
+  "tagline": "Recherchez, copiez et utilisez n'importe quel émoji instantanément",
+  "description": "Trouvez et copiez n'importe quel émoji instantanément grâce à la recherche par mot-clé. Parcourez toutes les catégories d'émojis : sourires, personnes, animaux, nourriture, voyages, objets, symboles et drapeaux. Copiez en un clic.",
+  "metaTitle": "Sélecteur d'Émojis – Recherchez et Copiez N'importe Quel Émoji Gratuitement en Ligne",
+  "metaDescription": "Recherchez et copiez n'importe quel émoji instantanément. Parcourez toutes les catégories d'émojis — sourires, animaux, nourriture, drapeaux, et plus encore. Sélecteur d'émojis en ligne gratuit — cliquez pour copier.",
+  "keywords": [
+    "sélecteur d'émojis",
+    "recherche d'émojis",
+    "copier émoji en ligne",
+    "trouver émoji par mot-clé",
+    "clavier d'émojis en ligne"
+  ],
+  "category": "Utilitaires",
+  "icon": "😊",
+  "faqs": [
+    {
+      "question": "Comment copier un émoji ?",
+      "answer": "Cliquez sur n'importe quel émoji pour le copier dans votre presse-papiers. Vous pouvez ensuite le coller n'importe où — dans des messages, des documents, sur les réseaux sociaux ou dans du code."
+    },
+    {
+      "question": "Puis-je rechercher des émojis par nom ?",
+      "answer": "Oui. Tapez n'importe quel mot-clé dans la barre de recherche pour trouver des émojis correspondants par nom, catégorie ou description."
+    },
+    {
+      "question": "Quelles versions d'émojis sont prises en charge ?",
+      "answer": "Le sélecteur prend en charge tous les émojis Unicode 15.0, ce qui couvre tous les émojis modernes disponibles sur iOS, Android, Windows et macOS."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "word-counter",
+    "random-number-generator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "heart-emoji-copy-paste",
+      "metaTitle": "Copier et Coller Émojis de Cœur – Tous les Émojis de Cœur ❤️🧡💛",
+      "metaDescription": "Copiez et collez des émojis de cœur. Tous les émojis de cœur en un seul endroit — cœur rouge, cœur rose, cœur brisé, cœur scintillant, et plus encore. Cliquez pour copier n'importe quel émoji de cœur.",
+      "keywords": [
+        "copier coller émoji de cœur",
+        "tous les émojis de cœur",
+        "❤️ copier coller",
+        "liste d'émojis de cœur",
+        "symboles de cœur copier coller"
+      ],
+      "defaultVariant": "hearts",
+      "headline": "Tous les émojis de cœur en un seul endroit — cliquez pour copier instantanément n'importe quel cœur. De ❤️ à 💔, 🖤 à 🩷, tous les 30+ variantes de cœur prêtes à être collées."
+    },
+    {
+      "variantSlug": "face-emoji-copy-paste",
+      "metaTitle": "Copier et Coller Émojis de Visage – Tous les Émojis de Visage Sourire 😀😂🥹",
+      "metaDescription": "Copiez et collez des émojis de visage et de sourire. Tous les émojis de visage en un seul endroit — heureux, triste, en pleurs, riant, et plus encore. Cliquez pour copier n'importe quel émoji de visage.",
+      "keywords": [
+        "copier coller émoji de visage",
+        "copier coller émoji sourire",
+        "tous les émojis de visage",
+        "liste d'émojis de visage sourire",
+        "émojis de visage copier coller"
+      ],
+      "defaultVariant": "faces",
+      "headline": "Tous les émojis de sourire et de visage en un seul endroit — cliquez pour copier instantanément. De 😀 à 😭, 😂 à 🥹, tous les émojis d'expression faciale prêts à être collés."
+    },
+    {
+      "variantSlug": "flag-emoji-copy-paste",
+      "metaTitle": "Copier et Coller Émojis de Drapeau – Émojis de Drapeau de Pays 🏳️🇺🇸🇬🇧",
+      "metaDescription": "Copiez et collez des émojis de drapeau de pays. Trouvez l'émoji de drapeau de n'importe quel pays et copiez-le instantanément. Tous les 250+ drapeaux de pays disponibles.",
+      "keywords": [
+        "copier coller émoji de drapeau",
+        "émoji de drapeau de pays",
+        "émoji de drapeau national",
+        "émojis de drapeau tous pays",
+        "copier émoji de drapeau"
+      ],
+      "defaultVariant": "flags",
+      "headline": "Tous les 250+ émojis de drapeau de pays en un seul endroit. Recherchez par nom de pays ou parcourez la liste complète — cliquez pour copier n'importe quel émoji de drapeau instantanément."
+    }
+  ]
+}

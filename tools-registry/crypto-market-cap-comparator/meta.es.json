@@ -1,0 +1,80 @@
+{
+  "slug": "crypto-market-cap-comparator",
+  "name": "Comparador de Capitalización de Mercado Cripto",
+  "tagline": "Si la moneda X alcanzara la capitalización de mercado de la moneda Y, ¿cuál sería su precio?",
+  "description": "La clásica calculadora de 'qué pasaría si' en criptomonedas. Selecciona dos monedas y ve instantáneamente el precio proyectado si la primera moneda alcanzara la capitalización de mercado de la segunda. Utiliza datos en vivo de CoinGecko para más de 50 criptomonedas principales.",
+  "metaTitle": "Comparador de Capitalización de Mercado Cripto – Calculadora de Precio si X Alcanzara la Capitalización de Mercado de Y",
+  "metaDescription": "Calculadora gratuita de capitalización de mercado cripto. Descubre qué precio alcanzaría Bitcoin, Ethereum, Solana o cualquier altcoin si igualara la capitalización de mercado de otra moneda. Datos en vivo de CoinGecko.",
+  "keywords": [
+    "calculadora de capitalización de mercado cripto",
+    "si bitcoin alcanza la capitalización de mercado de ethereum",
+    "calculadora de predicción de precios de altcoin",
+    "calculadora de qué pasaría si cripto",
+    "comparación de capitalización de mercado cripto"
+  ],
+  "category": "Crypto",
+  "icon": "🪙",
+  "faqs": [
+    {
+      "question": "¿Cómo se calcula el precio proyectado?",
+      "answer": "Precio Proyectado = Capitalización de Mercado Objetivo / Suministro Circulante de la Moneda A. Por ejemplo, si SOL (suministro de 480M) alcanzara la capitalización de mercado de BTC de $2T: $2T / 480M = $4,167 por SOL."
+    },
+    {
+      "question": "¿Por qué importa más el suministro circulante que el suministro total?",
+      "answer": "La capitalización de mercado siempre se calcula utilizando el suministro circulante (monedas que están realmente en el mercado), no el suministro total o máximo."
+    },
+    {
+      "question": "¿De dónde provienen los datos?",
+      "answer": "Los datos en vivo se obtienen de la API pública gratuita de CoinGecko. Si no están disponibles, la herramienta utiliza datos aproximados fuera de línea."
+    }
+  ],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "position-size-calculator",
+    "compound-interest-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "solana-price-if-bitcoin-market-cap",
+      "metaTitle": "Precio de Solana si Alcanzara la Capitalización de Mercado de Bitcoin",
+      "metaDescription": "¿Cuál sería el precio de Solana (SOL) si alcanzara la capitalización de mercado de Bitcoin? Calcula el precio de SOL a la capitalización de mercado de BTC. Comparador de capitalización de mercado cripto gratuito.",
+      "keywords": [
+        "precio de solana capitalización de mercado bitcoin",
+        "precio de sol si capitalización de mercado bitcoin",
+        "capitalización de mercado solana vs bitcoin",
+        "predicción de precio sol capitalización de mercado",
+        "comparación solana bitcoin"
+      ],
+      "defaultVariant": "sol-btc",
+      "headline": "¿Cuánto valdría SOL si Solana alcanzara la capitalización de mercado de Bitcoin? Ingresa datos en vivo para ver el precio proyectado basado en el suministro circulante actual."
+    },
+    {
+      "variantSlug": "ethereum-price-if-bitcoin-market-cap",
+      "metaTitle": "Precio de Ethereum si Alcanzara la Capitalización de Mercado de Bitcoin",
+      "metaDescription": "Calcula cuál sería el precio de Ethereum (ETH) si alcanzara la capitalización de mercado de Bitcoin. Comparador gratuito de capitalización de mercado ETH vs BTC con datos en vivo.",
+      "keywords": [
+        "precio de ethereum capitalización de mercado bitcoin",
+        "precio de eth si capitalización de mercado bitcoin",
+        "capitalización de mercado ethereum vs bitcoin",
+        "calculadora de flippening eth",
+        "comparación de capitalización de mercado ethereum"
+      ],
+      "defaultVariant": "eth-btc",
+      "headline": "La pregunta del 'flippening': ¿cuánto valdría ETH si la capitalización de mercado de Ethereum fuera igual a la de Bitcoin? Calcula basado en el suministro actual y la capitalización de mercado de BTC."
+    },
+    {
+      "variantSlug": "altcoin-market-cap-calculator",
+      "metaTitle": "Calculadora de Capitalización de Mercado de Altcoins – ¿Qué Pasaría si Altcoin Alcanzara la Capitalización de Mercado X?",
+      "metaDescription": "Calcula cuál sería el precio de cualquier altcoin a una capitalización de mercado objetivo. Compara cualquier moneda con Bitcoin, Ethereum o un objetivo personalizado. Calculadora de capitalización de mercado de altcoins gratuita.",
+      "keywords": [
+        "calculadora de capitalización de mercado de altcoins",
+        "predicción de precio de altcoin capitalización de mercado",
+        "calculadora de qué pasaría si cripto",
+        "calculadora de precio de capitalización de mercado de monedas",
+        "capitalización de mercado altcoin vs bitcoin"
+      ],
+      "defaultVariant": "custom",
+      "headline": "Elige dos criptomonedas y calcula cuál sería el precio de la primera moneda si alcanzara la capitalización de mercado de la segunda. Soporta todas las 50 monedas principales."
+    }
+  ]
+}

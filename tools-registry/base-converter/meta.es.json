@@ -1,0 +1,80 @@
+{
+  "slug": "base-converter",
+  "name": "Convertidor de Bases Numéricas",
+  "tagline": "Convierte números entre cualquier base: binaria, octal, decimal, hexadecimal y más",
+  "description": "Convierte enteros entre las bases 2 a 64, incluyendo binaria, octal, decimal, hexadecimal, Base58 y Base64. Utiliza BigInt para una precisión ilimitada. Muestra la salida formateada con espaciado de nibble/byte.",
+  "metaTitle": "Convertidor de Bases Numéricas – Binario, Octal, Decimal, Hex y Todas las Bases",
+  "metaDescription": "Convertidor de bases numéricas gratuito. Convierte entre binario, octal, decimal, hexadecimal, base 32, base 36, base 58 y todas las bases de 2 a 64. Precisión BigInt, conversión instantánea.",
+  "keywords": [
+    "convertidor de bases numéricas",
+    "convertidor de binario a decimal",
+    "convertidor de hexadecimal a decimal",
+    "convertidor de binario octal hexadecimal",
+    "calculadora de conversión de bases"
+  ],
+  "category": "Developer",
+  "icon": "🔢",
+  "faqs": [
+    {
+      "question": "¿Qué bases son compatibles?",
+      "answer": "Todas las bases enteras desde 2 hasta 64, incluyendo Binaria (2), Octal (8), Decimal (10), Hexadecimal (16), Base32 (32), Base36 (36), Base58 (Bitcoin, 58) y Base64 (64)."
+    },
+    {
+      "question": "¿Para qué se utiliza el hexadecimal?",
+      "answer": "El hexadecimal es omnipresente en la computación: direcciones de memoria, códigos de color (#FF5733), valores de bytes, salidas de hash (MD5, SHA256) y conjuntos de instrucciones de CPU."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre Base58 y Base64?",
+      "answer": "Base58 omite caracteres visualmente ambiguos (0, O, I, l) para prevenir errores de transcripción humana. Base64 utiliza el alfabeto completo de 64 caracteres y está diseñado para la codificación de datos de máquina a máquina."
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "unix-timestamp-converter",
+    "diff-checker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "binary-to-decimal",
+      "metaTitle": "Convertidor de Binario a Decimal – Convierte Números Binarios en Línea",
+      "metaDescription": "Convierte números binarios a decimal instantáneamente. Convertidor gratuito de binario a decimal: ingresa cualquier número binario y obtén el resultado decimal. También muestra hex y octal.",
+      "keywords": [
+        "convertidor de binario a decimal",
+        "binario a decimal",
+        "convertir binario a decimal",
+        "convertidor de números binarios",
+        "base 2 a base 10"
+      ],
+      "defaultVariant": "binary-decimal",
+      "headline": "Convierte números binarios (base 2) a decimal (base 10). También muestra los equivalentes octales y hexadecimales. Utiliza BigInt para números de cualquier tamaño."
+    },
+    {
+      "variantSlug": "hex-to-decimal",
+      "metaTitle": "Convertidor de Hexadecimal a Decimal – Hexadecimal a Decimal en Línea",
+      "metaDescription": "Convierte hexadecimal a decimal instantáneamente. Convertidor gratuito de hex a decimal: ingresa cualquier valor hex y obtén el resultado decimal. También muestra binario y octal.",
+      "keywords": [
+        "convertidor de hexadecimal a decimal",
+        "hexadecimal a decimal",
+        "convertir hex a decimal",
+        "convertidor de números hexadecimales",
+        "base 16 a base 10"
+      ],
+      "defaultVariant": "hex-decimal",
+      "headline": "Convierte valores hexadecimales (base 16) a decimal (base 10). Comúnmente utilizado para códigos de color, direcciones de memoria y hashes criptográficos."
+    },
+    {
+      "variantSlug": "decimal-to-binary",
+      "metaTitle": "Convertidor de Decimal a Binario – Convierte Números a Binario en Línea",
+      "metaDescription": "Convierte números decimales a binario instantáneamente. Convertidor gratuito de decimal a binario: muestra los equivalentes binarios, hex y octales. Solo en navegador.",
+      "keywords": [
+        "convertidor de decimal a binario",
+        "decimal a binario",
+        "convertir decimal a binario",
+        "número a binario",
+        "base 10 a base 2"
+      ],
+      "defaultVariant": "decimal-binary",
+      "headline": "Convierte números decimales (base 10) a binario (base 2). También muestra la representación hexadecimal y octal. Soporta números de cualquier tamaño utilizando BigInt."
+    }
+  ]
+}

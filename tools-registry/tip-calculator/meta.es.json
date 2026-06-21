@@ -1,0 +1,90 @@
+{
+  "slug": "tip-calculator",
+  "name": "Calculadora de Propinas",
+  "tagline": "Calcula el monto de la propina y divide la cuenta al instante",
+  "description": "Ingresa el total de tu cuenta, el porcentaje de propina y el número de personas para calcular al instante la propina por persona y el total por persona. Soporta porcentajes de propina personalizados.",
+  "metaTitle": "Calculadora de Propinas – Divide la Cuenta y Calcula la Propina al Instante",
+  "metaDescription": "Calculadora de propinas gratuita. Ingresa el monto de la cuenta y el % de propina para encontrar la propina por persona y el total por persona. Perfecto para restaurantes, taxis y entregas.",
+  "keywords": [
+    "calculadora de propinas",
+    "calculadora de propinas para restaurantes",
+    "divisor de cuentas",
+    "cuánto dar de propina",
+    "calculadora de propinas para dividir cuentas"
+  ],
+  "category": "Finanzas",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "¿Cuál es el porcentaje estándar de propina?",
+      "answer": "En EE. UU., el 15–20% es el estándar para el servicio en restaurantes. El 18% se considera la base para un buen servicio; 20% o más para un servicio excelente."
+    },
+    {
+      "question": "¿Cómo divido la cuenta equitativamente?",
+      "answer": "Ingresa el total de la cuenta, selecciona tu porcentaje de propina e ingresa el número de personas. La calculadora muestra exactamente cuánto debe pagar cada persona, incluyendo la propina."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter",
+    "compound-interest-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "restaurant-tip-calculator",
+      "metaTitle": "Calculadora de Propinas para Restaurantes – Cuánto Dar de Propina en un Restaurante",
+      "metaDescription": "Calcula tu propina en el restaurante al instante. Ingresa el monto de la cuenta y la calidad del servicio para encontrar la propina adecuada. Calculadora de propinas para restaurantes gratuita.",
+      "keywords": [
+        "calculadora de propinas para restaurantes",
+        "cuánto dar de propina en un restaurante",
+        "calculadora de propinas para cenas",
+        "calculadora de propinas para camareros",
+        "propina para la cuenta del restaurante"
+      ],
+      "defaultVariant": "restaurant",
+      "headline": "Calcula la propina perfecta para el restaurante. Elige 15%, 18%, 20% o personalizada — y divide equitativamente entre toda la mesa."
+    },
+    {
+      "variantSlug": "bill-splitter-calculator",
+      "metaTitle": "Calculadora para Dividir Cuentas – Divide la Cuenta del Restaurante Equitativamente",
+      "metaDescription": "Divide una cuenta de restaurante equitativamente entre cualquier número de personas. Incluye el cálculo de propina. Calculadora de división de cuentas gratuita — no se necesita aplicación.",
+      "keywords": [
+        "calculadora para dividir cuentas",
+        "calculadora para dividir la cuenta",
+        "dividir cuenta de restaurante",
+        "calculadora para dividir la cuenta",
+        "cómo dividir una cuenta"
+      ],
+      "defaultVariant": "split",
+      "headline": "Divide cualquier cuenta equitativamente entre amigos. Ingresa el total, elige un porcentaje de propina y ve exactamente cuánto paga cada persona."
+    },
+    {
+      "variantSlug": "delivery-tip-calculator",
+      "metaTitle": "Calculadora de Propinas para Entregas – Cuánto Dar de Propina al Repartidor de Comida",
+      "metaDescription": "Calculadora de propinas para entregas gratuita. Descubre cuánto dar de propina a tu repartidor de DoorDash, Uber Eats o Grubhub según el total del pedido y la distancia de entrega. El estándar es del 15–20%.",
+      "keywords": [
+        "calculadora de propinas para entregas",
+        "cuánto dar de propina al repartidor",
+        "calculadora de propinas de doordash",
+        "calculadora de propinas de uber eats",
+        "propina para entrega de comida"
+      ],
+      "defaultVariant": "delivery",
+      "headline": "Dar propina a los repartidores de comida es estándar — típicamente del 15–20% del total del pedido, o un mínimo de $3–5 para pedidos pequeños. Ingresa el total de tu pedido y ve el rango de propina recomendado para la entrega."
+    },
+    {
+      "variantSlug": "taxi-tip-calculator",
+      "metaTitle": "Calculadora de Propinas para Taxis y Uber – Cuánto Dar de Propina a Tu Conductor",
+      "metaDescription": "Calculadora de propinas para taxis y viajes compartidos gratuita. Ingresa tu tarifa para saber cuánto dar de propina a un conductor de Uber, Lyft o taxi. La propina estándar es del 15–20% para viajes compartidos.",
+      "keywords": [
+        "calculadora de propinas para taxis",
+        "calculadora de propinas de uber",
+        "calculadora de propinas de lyft",
+        "calculadora de propinas para viajes compartidos",
+        "cuánto dar de propina al conductor de taxi"
+      ],
+      "defaultVariant": "taxi",
+      "headline": "¿No estás seguro de cuánto dar de propina a tu conductor de Uber, Lyft o taxi? Ingresa la tarifa y esta calculadora muestra el rango de propina estándar (15–20%) y los montos exactos para que nunca tengas que hacer los cálculos."
+    }
+  ]
+}

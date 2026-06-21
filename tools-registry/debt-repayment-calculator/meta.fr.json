@@ -1,0 +1,100 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "Calculateur de Remboursement de Dettes",
+  "tagline": "Découvrez combien de temps il vous faudra pour rembourser vos dettes et combien d'intérêts vous paierez",
+  "description": "Entrez votre solde de dettes, votre taux d'intérêt et votre paiement mensuel pour voir la date de remboursement, le total des intérêts payés et un calendrier d'amortissement. Montre combien de temps et d'argent vous économisez en effectuant des paiements supplémentaires chaque mois.",
+  "metaTitle": "Calculateur de Remboursement de Dettes – Calculateur de Remboursement de Dettes Gratuit en Ligne",
+  "metaDescription": "Calculateur de remboursement de dettes gratuit. Entrez le solde, le taux d'intérêt et le paiement mensuel pour voir la date de remboursement et le total des intérêts. Montre les économies réalisées grâce aux paiements supplémentaires. Pas d'inscription.",
+  "keywords": [
+    "calculateur de remboursement de dettes",
+    "calculateur de remboursement de dettes",
+    "combien de temps pour rembourser une dette",
+    "calculateur de dettes sans dettes",
+    "calculateur de remboursement de prêt",
+    "calculateur d'intérêts sur les dettes"
+  ],
+  "category": "Finance",
+  "icon": "💳",
+  "faqs": [
+    {
+      "question": "Quelle est la différence entre la méthode avalanche et la méthode boule de neige pour rembourser les dettes ?",
+      "answer": "Méthode avalanche : payez le minimum sur toutes vos dettes, puis mettez de l'argent supplémentaire sur la dette avec le taux d'intérêt le plus élevé en premier. Cela permet d'économiser le plus d'intérêts. Méthode boule de neige : remboursez d'abord les soldes les plus petits pour obtenir des gains rapides et de la motivation. Les deux méthodes fonctionnent — la meilleure méthode est celle à laquelle vous vous tiendrez."
+    },
+    {
+      "question": "Combien d'économies génèrent des paiements supplémentaires ?",
+      "answer": "Même de petits paiements supplémentaires réduisent considérablement le total des intérêts et le temps de remboursement. Pour une carte de crédit de 10 000 $ à 20 % APR avec un minimum de 300 $/mois, vous paieriez pendant 6 ans. En ajoutant juste 100 $/mois en plus, cela réduit à 3,5 ans et permet d'économiser environ 2 000 $ en intérêts."
+    },
+    {
+      "question": "Qu'est-ce qu'un calendrier d'amortissement ?",
+      "answer": "Un calendrier d'amortissement montre chaque paiement décomposé en principal et en intérêts. Les paiements anticipés sont principalement des intérêts ; les paiements ultérieurs sont principalement du principal. Ce calculateur génère un tableau d'amortissement complet afin que vous puissiez voir vos progrès mois par mois."
+    },
+    {
+      "question": "Devrais-je rembourser mes dettes ou investir ?",
+      "answer": "Si votre taux d'intérêt sur les dettes est supérieur à votre rendement d'investissement prévu, remboursez d'abord vos dettes. Les dettes de carte de crédit à 20 % ou plus APR doivent toujours être remboursées avant d'investir. Les dettes hypothécaires ou de prêts étudiants à 4-6 % sont un choix difficile — beaucoup de gens font les deux simultanément."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "credit-card-payoff-calculator",
+      "metaTitle": "Calculateur de Remboursement de Carte de Crédit – Combien de Temps pour Rembourser une Dette de Carte de Crédit ?",
+      "metaDescription": "Calculateur de remboursement de carte de crédit gratuit. Entrez le solde, l'APR et le paiement mensuel pour voir la date de remboursement et le total des intérêts. Montre combien les paiements supplémentaires vous font économiser.",
+      "keywords": [
+        "calculateur de remboursement de carte de crédit",
+        "calculateur de dettes de carte de crédit",
+        "combien de temps pour rembourser une carte de crédit",
+        "calculateur d'intérêts sur carte de crédit",
+        "calculateur de remboursement de carte de crédit"
+      ],
+      "defaultVariant": "credit-card",
+      "headline": "Entrez votre solde de carte de crédit, l'APR et le paiement mensuel pour voir exactement quand vous serez sans dettes — et combien d'intérêts vous paierez. Découvrez comment ajouter même 50 $ de plus par mois change tout."
+    },
+    {
+      "variantSlug": "student-loan-repayment-calculator",
+      "metaTitle": "Calculateur de Remboursement de Prêt Étudiant – Paiement Mensuel & Date de Remboursement",
+      "metaDescription": "Calculateur de remboursement de prêt étudiant gratuit. Entrez le solde du prêt, le taux d'intérêt et la durée de remboursement pour calculer le paiement mensuel et le total des intérêts payés pendant la durée du prêt.",
+      "keywords": [
+        "calculateur de remboursement de prêt étudiant",
+        "calculateur de prêt étudiant",
+        "calculateur de remboursement de dettes étudiantes",
+        "combien de temps pour rembourser des prêts étudiants",
+        "calculateur de paiement mensuel de prêt étudiant"
+      ],
+      "defaultVariant": "student-loan",
+      "headline": "Calculez votre paiement mensuel de prêt étudiant et le total des intérêts sur des plans de remboursement de 10, 20 ou 25 ans. Découvrez comment le refinancement à un taux inférieur affecte votre calendrier de remboursement."
+    },
+    {
+      "variantSlug": "debt-snowball-calculator",
+      "metaTitle": "Calculateur de Boule de Neige pour Dettes – Remboursez Vos Dettes Rapidement avec la Méthode Boule de Neige",
+      "metaDescription": "Calculateur de boule de neige pour dettes gratuit. Listez toutes vos dettes et voyez l'ordre et le calendrier exacts de remboursement en utilisant la méthode boule de neige (solde le plus bas en premier). Inclut un calendrier de remboursement.",
+      "keywords": [
+        "calculateur de boule de neige pour dettes",
+        "calculateur de remboursement de dettes par boule de neige",
+        "calculateur de méthode boule de neige pour dettes",
+        "calculateur de remboursement de plusieurs dettes",
+        "calculateur d'ordre de remboursement de dettes"
+      ],
+      "defaultVariant": "snowball",
+      "headline": "La méthode boule de neige vous fait payer le minimum sur tout, puis investir tout l'argent supplémentaire dans votre plus petite dette. Une fois qu'elle est remboursée, transférez ce paiement à la suivante. Ce calculateur montre votre calendrier de remboursement exact par boule de neige."
+    },
+    {
+      "variantSlug": "debt-avalanche-calculator",
+      "metaTitle": "Calculateur d'Avalanche de Dettes – Économisez le Plus d'Intérêts sur le Remboursement de Dettes",
+      "metaDescription": "Calculateur d'avalanche de dettes gratuit. Listez vos dettes et voyez l'ordre de remboursement mathématiquement optimal (taux d'intérêt le plus élevé en premier) pour minimiser le total des intérêts payés. Inclut une comparaison avec la méthode boule de neige.",
+      "keywords": [
+        "calculateur d'avalanche de dettes",
+        "calculateur de remboursement de dettes par avalanche",
+        "calculateur de dettes à taux d'intérêt le plus élevé",
+        "calculateur de stratégie de remboursement de dettes",
+        "calculateur pour minimiser les intérêts sur les dettes"
+      ],
+      "defaultVariant": "avalanche",
+      "headline": "La méthode avalanche dirige les paiements supplémentaires vers votre dette à taux d'intérêt le plus élevé en premier, minimisant ainsi le total des intérêts payés. Ce calculateur montre votre calendrier de remboursement par avalanche et le compare à la méthode boule de neige."
+    }
+  ]
+}

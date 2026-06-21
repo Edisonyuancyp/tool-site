@@ -1,0 +1,76 @@
+{
+  "slug": "position-size-calculator",
+  "name": "Calculateur de Taille de Position",
+  "tagline": "Ne risquez jamais plus que ce que vous pouvez vous permettre — calculez la taille de position idéale",
+  "description": "Entrez la taille de votre compte, le pourcentage de risque par trade, le prix d'entrée, le stop loss et l'effet de levier pour calculer la taille de position exacte en USD et le nombre d'unités. Inclut un ajustement des frais et des avertissements sur le niveau de risque.",
+  "metaTitle": "Calculateur de Taille de Position – Gestion des Risques en Trading Crypto & Actions",
+  "metaDescription": "Calculateur de taille de position gratuit pour les traders. Entrez la taille du compte, le pourcentage de risque, le prix d'entrée et le stop loss pour obtenir la taille de position exacte, la marge nécessaire et le nombre d'unités. Inclut un ajustement des frais.",
+  "keywords": [
+    "calculateur de taille de position",
+    "taille de position crypto",
+    "calculateur de gestion des risques en trading",
+    "combien investir par trade",
+    "calculateur de risque par trade"
+  ],
+  "category": "Crypto",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "Combien devrais-je risquer par trade ?",
+      "answer": "Les traders professionnels risquent généralement 1 à 2 % de leur compte par trade. Cela signifie que même 10 pertes consécutives ne réduisent votre compte que de 10 à 20 %."
+    },
+    {
+      "question": "Comment la taille de position est-elle calculée ?",
+      "answer": "Taille de Position = (Compte × Risque%) / Distance du Stop Loss%. Par exemple : compte de 10 000 $, risque de 1 %, SL de 5 % → 100 $ / 0,05 $ = 2 000 $ de position."
+    }
+  ],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "forex-position-size-calculator",
+      "metaTitle": "Calculateur de Taille de Position Forex – Calculateur de Taille de Lot",
+      "metaDescription": "Calculez la taille de lot forex et la taille de position. Entrez la taille de votre compte, le pourcentage de risque et le stop loss en pips pour trouver la taille de lot correcte. Calculateur de taille de position forex gratuit.",
+      "keywords": [
+        "calculateur de taille de position forex",
+        "calculateur de taille de lot forex",
+        "calculateur de lot forex",
+        "taille de position forex",
+        "calculateur de valeur pip"
+      ],
+      "defaultVariant": "forex",
+      "headline": "Calculez la taille de lot forex correcte pour votre trade. Entrez la taille de votre compte, le pourcentage de risque et le stop loss en pips pour trouver le nombre exact de lots à trader."
+    },
+    {
+      "variantSlug": "stock-position-size-calculator",
+      "metaTitle": "Calculateur de Taille de Position Actions – Combien d'Actions Acheter",
+      "metaDescription": "Calculez combien d'actions acheter en fonction de la taille de votre compte et de votre tolérance au risque. Calculateur de taille de position actions gratuit pour les traders d'actions.",
+      "keywords": [
+        "calculateur de taille de position actions",
+        "calculateur de combien d'actions acheter",
+        "calculateur de risque en trading d'actions",
+        "taille de position en actions",
+        "calculateur d'actions à acheter"
+      ],
+      "defaultVariant": "stock",
+      "headline": "Calculez exactement combien d'actions acheter en fonction de la taille de votre compte, du pourcentage de risque et du niveau de stop loss. Gardez votre risque constant à chaque trade."
+    },
+    {
+      "variantSlug": "crypto-position-size-calculator",
+      "metaTitle": "Calculateur de Taille de Position Crypto – Combien Investir en Crypto",
+      "metaDescription": "Calculez la bonne taille de position pour les trades crypto. Entrez le solde de votre compte, le pourcentage de risque, le prix d'entrée et le stop loss pour déterminer combien de crypto acheter. Calculateur gratuit.",
+      "keywords": [
+        "calculateur de taille de position crypto",
+        "combien investir en crypto",
+        "taille de position bitcoin",
+        "calculateur de gestion des risques crypto",
+        "taille de lot crypto"
+      ],
+      "defaultVariant": "crypto",
+      "headline": "Calculez la taille de position correcte pour tout trade crypto. Une bonne taille de position est l'outil de gestion des risques le plus important pour les traders crypto."
+    }
+  ]
+}

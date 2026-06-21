@@ -1,0 +1,36 @@
+{
+  "slug": "macro-tracker-calculator",
+  "name": "Calculateur de Suivi des Macros",
+  "tagline": "Suivez vos macros efficacement !",
+  "description": "Ce calculateur vous aide à suivre votre apport en macronutriments en fonction de vos objectifs de fitness, que ce soit pour prendre du muscle, perdre du poids ou maintenir votre poids. Idéal pour les passionnés de fitness et ceux qui suivent des régimes spécifiques.",
+  "metaTitle": "Calculateur de Suivi des Macros – Gestion des Nutriments | Outil Gratuit",
+  "metaDescription": "Suivez facilement vos macros gratuitement avec ce calculateur instantané. Pas d'inscription nécessaire, entrez simplement vos objectifs et commencez !",
+  "keywords": [
+    "suivi des macros",
+    "calculateur de macronutriments",
+    "planification de régime",
+    "objectifs de fitness",
+    "nutrition"
+  ],
+  "category": "Fitness",
+  "icon": "🍏",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que les macronutriments ?",
+      "answer": "Les macronutriments comprennent les protéines, les graisses et les glucides, qui sont essentiels pour l'énergie et la croissance."
+    },
+    {
+      "question": "Comment utiliser ce calculateur ?",
+      "answer": "Il vous suffit d'entrer vos objectifs de fitness, et le calculateur vous fournira la répartition des macros nécessaire."
+    },
+    {
+      "question": "Puis-je ajuster mes objectifs plus tard ?",
+      "answer": "Oui, vous pouvez revenir au calculateur à tout moment pour ajuster vos objectifs et voir comment vos macros changent."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

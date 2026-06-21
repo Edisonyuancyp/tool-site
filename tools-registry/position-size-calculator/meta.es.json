@@ -1,0 +1,76 @@
+{
+  "slug": "position-size-calculator",
+  "name": "Calculadora de Tamaño de Posición",
+  "tagline": "Nunca arriesgues más de lo que puedes permitirte: calcula el tamaño de posición perfecto",
+  "description": "Ingresa el tamaño de tu cuenta, el porcentaje de riesgo por operación, el precio de entrada, el stop loss y el apalancamiento para calcular el tamaño exacto de la posición en USD y el número de unidades. Incluye ajuste de tarifas y advertencias sobre el nivel de riesgo.",
+  "metaTitle": "Calculadora de Tamaño de Posición – Gestión de Riesgos en Trading de Cripto y Acciones",
+  "metaDescription": "Calculadora de tamaño de posición gratuita para traders. Ingresa el tamaño de la cuenta, el riesgo %, el precio de entrada y el stop loss para obtener el tamaño exacto de la posición, el margen necesario y las unidades. Incluye ajuste de tarifas.",
+  "keywords": [
+    "calculadora de tamaño de posición",
+    "tamaño de posición cripto",
+    "calculadora de gestión de riesgos en trading",
+    "cuánto invertir por operación",
+    "calculadora de riesgo por operación"
+  ],
+  "category": "Crypto",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "¿Cuánto debo arriesgar por operación?",
+      "answer": "Los traders profesionales suelen arriesgar entre el 1% y el 2% de su cuenta por operación. Esto significa que incluso 10 pérdidas consecutivas solo reducen tu cuenta entre un 10% y un 20%."
+    },
+    {
+      "question": "¿Cómo se calcula el tamaño de la posición?",
+      "answer": "Tamaño de la Posición = (Cuenta × Riesgo%) / Distancia del Stop Loss%. Por ejemplo: cuenta de $10,000, riesgo del 1%, SL del 5% → $100/$0.05 = $2,000 de posición."
+    }
+  ],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "forex-position-size-calculator",
+      "metaTitle": "Calculadora de Tamaño de Posición Forex – Calculadora de Tamaño de Lote",
+      "metaDescription": "Calcula el tamaño de lote forex y el tamaño de posición. Ingresa el tamaño de la cuenta, el porcentaje de riesgo y el stop loss en pips para encontrar el tamaño de lote correcto. Calculadora de tamaño de posición forex gratuita.",
+      "keywords": [
+        "calculadora de tamaño de posición forex",
+        "calculadora de tamaño de lote forex",
+        "calculadora de lotes forex",
+        "dimensionamiento de posición forex",
+        "calculadora de valor de pip"
+      ],
+      "defaultVariant": "forex",
+      "headline": "Calcula el tamaño de lote forex correcto para tu operación. Ingresa el tamaño de tu cuenta, el porcentaje de riesgo y el stop loss en pips para encontrar el número exacto de lotes a operar."
+    },
+    {
+      "variantSlug": "stock-position-size-calculator",
+      "metaTitle": "Calculadora de Tamaño de Posición de Acciones – Cuántas Acciones Comprar",
+      "metaDescription": "Calcula cuántas acciones comprar según el tamaño de tu cuenta y tu tolerancia al riesgo. Calculadora de tamaño de posición de acciones gratuita para traders de acciones.",
+      "keywords": [
+        "calculadora de tamaño de posición de acciones",
+        "calculadora de cuántas acciones comprar",
+        "calculadora de riesgo en trading de acciones",
+        "dimensionamiento de posición en acciones",
+        "calculadora de acciones a comprar"
+      ],
+      "defaultVariant": "stock",
+      "headline": "Calcula exactamente cuántas acciones comprar según el tamaño de tu cuenta, el porcentaje de riesgo y el nivel de stop loss. Mantén tu riesgo consistente en cada operación."
+    },
+    {
+      "variantSlug": "crypto-position-size-calculator",
+      "metaTitle": "Calculadora de Tamaño de Posición Cripto – Cuánto Invertir en Cripto",
+      "metaDescription": "Calcula el tamaño de posición correcto para operaciones de cripto. Ingresa el saldo de la cuenta, el riesgo %, el precio de entrada y el stop loss para saber cuánto cripto comprar. Calculadora gratuita.",
+      "keywords": [
+        "calculadora de tamaño de posición cripto",
+        "cuánto invertir en cripto",
+        "tamaño de posición bitcoin",
+        "calculadora de gestión de riesgos en cripto",
+        "tamaño de lote cripto"
+      ],
+      "defaultVariant": "crypto",
+      "headline": "Calcula el tamaño de posición correcto para cualquier operación de cripto. Un adecuado dimensionamiento de posición es la herramienta de gestión de riesgos más importante para los traders de cripto."
+    }
+  ]
+}

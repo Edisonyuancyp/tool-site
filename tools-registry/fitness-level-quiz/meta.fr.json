@@ -1,0 +1,36 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "Quiz de Niveau de Forme",
+  "tagline": "Évaluez votre niveau de forme dès aujourd'hui !",
+  "description": "Répondez à ce quiz rapide pour évaluer votre niveau de forme actuel en fonction de vos habitudes d'exercice et de votre mode de vie. Parfait pour quiconque souhaitant mesurer sa condition physique et identifier les domaines à améliorer.",
+  "metaTitle": "Quiz de Niveau de Forme – Outil d'Auto-évaluation | Outil en Ligne Gratuit",
+  "metaDescription": "Évaluez votre niveau de forme avec ce quiz amusant et rapide. Obtenez des résultats instantanés gratuitement, sans inscription requise !",
+  "keywords": [
+    "quiz de niveau de forme",
+    "auto-évaluation",
+    "habitudes d'exercice",
+    "évaluation de la forme",
+    "quiz de santé"
+  ],
+  "category": "Fitness",
+  "icon": "🏋️‍♀️",
+  "faqs": [
+    {
+      "question": "Combien de temps dure le quiz ?",
+      "answer": "Le quiz prend environ 5 minutes à compléter, offrant un aperçu rapide de votre niveau de forme."
+    },
+    {
+      "question": "Qu'est-ce que je vais apprendre des résultats ?",
+      "answer": "Vous obtiendrez des informations sur votre niveau de forme actuel et des conseils sur la manière de vous améliorer."
+    },
+    {
+      "question": "Y a-t-il un coût pour passer le quiz ?",
+      "answer": "Non, le quiz est entièrement gratuit et aucune inscription n'est requise."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}

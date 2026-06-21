@@ -1,0 +1,77 @@
+{
+  "slug": "percentage-calculator",
+  "name": "Calculateur de Pourcentage",
+  "tagline": "Calculez des pourcentages, des augmentations, des diminutions, et plus",
+  "description": "Calculateur de pourcentage gratuit qui gère tous les problèmes courants de pourcentage : quel est X% de Y, augmentation/diminution en pourcentage, quel pourcentage représente X par rapport à Y, et pourcentage inverse.",
+  "metaTitle": "Calculateur de Pourcentage – Calculateur de Pourcentage en Ligne Gratuit",
+  "metaDescription": "Calculez instantanément n'importe quel pourcentage. Découvrez ce que X% de Y représente, l'augmentation ou la diminution en pourcentage, quel pourcentage un nombre représente par rapport à un autre. Calculateur de pourcentage gratuit.",
+  "keywords": [
+    "calculateur de pourcentage",
+    "calculateur de pourcentage",
+    "calculateur d'augmentation de pourcentage",
+    "calculateur de diminution de pourcentage",
+    "quel pourcentage est x de y"
+  ],
+  "category": "Finance",
+  "icon": "%",
+  "faqs": [
+    {
+      "question": "Comment calculer un pourcentage d'un nombre ?",
+      "answer": "Multipliez le nombre par le pourcentage et divisez par 100. Par exemple, 20% de 150 = (20 × 150) / 100 = 30."
+    },
+    {
+      "question": "Comment calculer une augmentation en pourcentage ?",
+      "answer": "Augmentation en pourcentage = ((Nouvelle Valeur - Ancienne Valeur) / Ancienne Valeur) × 100. Par exemple, passer de 80 à 100 représente une augmentation de 25%."
+    },
+    {
+      "question": "Comment trouver quel pourcentage un nombre représente par rapport à un autre ?",
+      "answer": "Divisez le premier nombre par le second, puis multipliez par 100. Par exemple, 30 est quel % de 200 ? (30/200) × 100 = 15%."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "percentage-increase-calculator",
+      "metaTitle": "Calculateur d'Augmentation de Pourcentage – Calculez l'Augmentation % en Ligne",
+      "metaDescription": "Calculez instantanément l'augmentation en pourcentage entre deux nombres. Calculateur d'augmentation de pourcentage gratuit — trouvez le changement de pourcentage de l'ancienne à la nouvelle valeur.",
+      "keywords": [
+        "calculateur d'augmentation de pourcentage",
+        "calculateur d'augmentation en pourcentage",
+        "calculer l'augmentation en pourcentage",
+        "calculateur de changement de pourcentage augmentation"
+      ],
+      "defaultVariant": "increase",
+      "headline": "Calculez l'augmentation en pourcentage d'une valeur à une autre. Entrez les valeurs d'origine et nouvelle pour trouver l'augmentation exacte en pourcentage — utile pour les augmentations de salaire, les changements de prix et les métriques de croissance."
+    },
+    {
+      "variantSlug": "percentage-decrease-calculator",
+      "metaTitle": "Calculateur de Diminution de Pourcentage – Calculez la Diminution % en Ligne",
+      "metaDescription": "Calculez instantanément la diminution en pourcentage entre deux nombres. Découvrez combien quelque chose a chuté en pourcentage. Calculateur de diminution de pourcentage gratuit.",
+      "keywords": [
+        "calculateur de diminution de pourcentage",
+        "calculateur de diminution en pourcentage",
+        "calculer la diminution en pourcentage",
+        "calculateur de chute en pourcentage"
+      ],
+      "defaultVariant": "decrease",
+      "headline": "Calculez combien quelque chose a chuté en pourcentage. Entrez les valeurs d'origine et nouvelle pour trouver la diminution exacte en pourcentage — utile pour les réductions, les baisses de prix et les métriques de perte."
+    },
+    {
+      "variantSlug": "percentage-difference-calculator",
+      "metaTitle": "Calculateur de Différence de Pourcentage – Comparez Deux Valeurs",
+      "metaDescription": "Calculez la différence en pourcentage entre deux nombres. Trouvez le changement symétrique en pourcentage entre deux valeurs. Calculateur de différence de pourcentage gratuit.",
+      "keywords": [
+        "calculateur de différence de pourcentage",
+        "calculateur de différence en pourcentage",
+        "calculer la différence en pourcentage",
+        "pourcentage entre deux nombres"
+      ],
+      "defaultVariant": "difference",
+      "headline": "Trouvez la différence en pourcentage entre deux valeurs — contrairement à l'augmentation/diminution, ceci est symétrique : il montre à quel point deux nombres diffèrent par rapport à leur moyenne."
+    }
+  ]
+}

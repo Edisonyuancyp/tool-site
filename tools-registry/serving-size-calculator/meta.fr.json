@@ -1,0 +1,60 @@
+{
+  "slug": "serving-size-calculator",
+  "name": "Calculateur de Portions",
+  "tagline": "Ajustez les recettes pour n'importe quel nombre de portions.",
+  "description": "Calculez les quantités d'ingrédients nécessaires pour la taille de portion souhaitée. Utile pour adapter les recettes pour des rassemblements ou la préparation de repas.",
+  "metaTitle": "Calculateur de Portions – Ajustez les Portions de Recette | Outil en Ligne Gratuit",
+  "metaDescription": "Ajustez facilement les ingrédients en fonction des portions avec notre outil gratuit. Aucune inscription requise.",
+  "keywords": [
+    "calculateur de portions",
+    "ajustement de recettes",
+    "calculateur de portions",
+    "préparation de repas"
+  ],
+  "category": "Cuisine",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "Comment ajuster une recette ?",
+      "answer": "Entrez la taille de portion originale et la taille de portion souhaitée pour obtenir des quantités d'ingrédients précises."
+    },
+    {
+      "question": "Cela fonctionne-t-il pour n'importe quelle recette ?",
+      "answer": "Oui, cela fonctionne pour la plupart des recettes, en ajustant pour n'importe quel ingrédient."
+    },
+    {
+      "question": "Que faire si je veux ajuster un seul ingrédient ?",
+      "answer": "Vous pouvez ajuster des ingrédients individuels en entrant leurs quantités originales et les portions souhaitées."
+    }
+  ],
+  "relatedTools": [
+    "body-fat-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "small-batch-serving-variant",
+      "metaTitle": "Calculateur de Portions pour Petites Quantités",
+      "metaDescription": "Ajustez les recettes pour des portions plus petites.",
+      "keywords": [
+        "recettes en petites quantités",
+        "mini portions",
+        "calculateur de recettes mini"
+      ],
+      "defaultVariant": "small-batch-variant-key",
+      "headline": "Ajustez facilement les recettes pour des rassemblements ou des repas plus petits."
+    },
+    {
+      "variantSlug": "family-size-serving-variant",
+      "metaTitle": "Calculateur de Portions pour Famille",
+      "metaDescription": "Ajustez les recettes pour des repas en famille.",
+      "keywords": [
+        "recettes pour famille",
+        "grandes portions",
+        "calculateur de grandes quantités"
+      ],
+      "defaultVariant": "family-size-variant-key",
+      "headline": "Ajustez les recettes pour nourrir toute la famille avec facilité."
+    }
+  ]
+}

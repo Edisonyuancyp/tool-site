@@ -1,0 +1,76 @@
+{
+  "slug": "ideal-weight-calculator",
+  "name": "Calculateur de Poids Idéal",
+  "tagline": "Trouvez votre poids idéal en utilisant 4 formules médicales + plage de BMI saine",
+  "description": "Calculez votre poids corporel idéal en utilisant les formules de Robinson, Miller, Devine et Hamwi, ainsi que la plage de BMI saine. Entrez votre taille et votre sexe pour comparer les quatre résultats.",
+  "metaTitle": "Calculateur de Poids Idéal – Formules de Robinson, Miller, Devine & Hamwi",
+  "metaDescription": "Calculateur de poids idéal gratuit utilisant 4 formules médicales. Entrez votre taille et votre sexe pour trouver votre poids idéal selon les méthodes de Robinson, Miller, Devine et Hamwi, plus la plage de BMI saine.",
+  "keywords": [
+    "calculateur de poids idéal",
+    "quel devrait être mon poids",
+    "formule de poids corporel idéal",
+    "calculateur de poids sain",
+    "formule Robinson Devine Miller Hamwi"
+  ],
+  "category": "Santé",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "Quelle formule de poids idéal est la plus précise ?",
+      "answer": "La formule de Robinson (1983) est la plus souvent citée dans la littérature moderne. Cependant, les quatre formules sont des estimations pour les adultes de taille moyenne."
+    },
+    {
+      "question": "Pourquoi les formules sont-elles différentes du BMI ?",
+      "answer": "Le BMI donne une plage basée uniquement sur la taille, tandis que ces formules fournissent un poids cible unique basé sur des observations cliniques."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "ideal-weight-calculator-female",
+      "metaTitle": "Calculateur de Poids Idéal pour Femmes – Poids Sain pour Femmes",
+      "metaDescription": "Calculez le poids corporel idéal pour les femmes en utilisant les formules de Robinson, Miller, Devine et Hamwi. Calculateur de poids idéal gratuit pour les femmes.",
+      "keywords": [
+        "calculateur de poids idéal femme",
+        "poids idéal pour les femmes",
+        "calculateur de poids sain femmes",
+        "quel devrait être le poids d'une femme",
+        "poids corporel idéal femme"
+      ],
+      "defaultVariant": "female",
+      "headline": "Trouvez votre poids idéal en tant que femme en utilisant quatre formules médicales établies. Les résultats montrent la plage de poids cible pour votre taille basée sur des calculs spécifiques aux femmes."
+    },
+    {
+      "variantSlug": "ideal-weight-calculator-male",
+      "metaTitle": "Calculateur de Poids Idéal pour Hommes – Poids Sain pour Hommes",
+      "metaDescription": "Calculez le poids corporel idéal pour les hommes en utilisant les formules de Robinson, Miller, Devine et Hamwi. Calculateur de poids idéal gratuit pour les hommes.",
+      "keywords": [
+        "calculateur de poids idéal homme",
+        "poids idéal pour les hommes",
+        "calculateur de poids sain hommes",
+        "quel devrait être le poids d'un homme",
+        "poids corporel idéal homme"
+      ],
+      "defaultVariant": "male",
+      "headline": "Trouvez votre poids idéal en tant qu'homme en utilisant quatre formules médicales établies. Comparez les résultats de Robinson, Miller, Devine et Hamwi côte à côte."
+    },
+    {
+      "variantSlug": "ideal-weight-calculator-height",
+      "metaTitle": "Poids Idéal par Taille – Calculateur de Poids selon la Taille",
+      "metaDescription": "Trouvez le poids idéal pour votre taille. Découvrez les plages de poids sains pour chaque taille de 1,47 m à 1,98 m. Calculateur de poids idéal par taille gratuit.",
+      "keywords": [
+        "poids idéal pour la taille",
+        "calculateur de poids selon la taille",
+        "tableau de poids idéal par taille",
+        "poids sain par taille",
+        "tableau poids taille"
+      ],
+      "defaultVariant": "height-chart",
+      "headline": "Découvrez la plage de poids idéal pour votre taille exacte en utilisant les quatre formules médicales. Comprend un tableau de référence montrant les plages de poids sains de 150 cm à 200 cm."
+    }
+  ]
+}

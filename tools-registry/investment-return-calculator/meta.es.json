@@ -1,0 +1,100 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "Calculadora de Retorno de Inversión",
+  "tagline": "Calcula el ROI, CAGR y el valor futuro de cualquier inversión",
+  "description": "Ingresa tu inversión inicial, tasa de retorno anual y período de tiempo para calcular el valor futuro, retorno total, ROI y CAGR. Soporta contribuciones mensuales opcionales. Funciona para acciones, bienes raíces, ETFs y cuentas de ahorro.",
+  "metaTitle": "Calculadora de Retorno de Inversión – Calculadora de ROI, CAGR y Valor Futuro",
+  "metaDescription": "Calculadora de retorno de inversión gratuita. Ingresa el monto inicial, retorno anual y años para calcular el valor futuro, ROI y CAGR. Soporta contribuciones mensuales. Sin registro.",
+  "keywords": [
+    "calculadora de retorno de inversión",
+    "calculadora de roi",
+    "calculadora de cagr",
+    "calculadora de valor futuro",
+    "calculadora de crecimiento de inversión",
+    "calculadora de rendimiento de inversión"
+  ],
+  "category": "Finance",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "¿Qué es el ROI y cómo se calcula?",
+      "answer": "El ROI (Retorno sobre la Inversión) = (Valor Final − Inversión Inicial) / Inversión Inicial × 100%. Por ejemplo, invertir $10,000 que crece a $15,000 da un ROI = 50%. No toma en cuenta el tiempo; usa el CAGR para comparar inversiones de diferentes duraciones."
+    },
+    {
+      "question": "¿Qué es el CAGR?",
+      "answer": "El CAGR (Tasa de Crecimiento Anual Compuesta) es la tasa anual a la que una inversión habría crecido si hubiera crecido a una tasa constante. Fórmula: CAGR = (Valor Final / Valor Inicial)^(1/años) − 1. Es el mejor número único para comparar el rendimiento de las inversiones."
+    },
+    {
+      "question": "¿Cuál es un buen retorno anual de inversión?",
+      "answer": "El S&P 500 ha promediado aproximadamente un 10% anualmente (7% después de la inflación) a largo plazo. Los bienes raíces típicamente retornan entre 8-12% incluyendo el rendimiento del alquiler. Las cuentas de ahorro de alto rendimiento actualmente ofrecen entre 4-5%. Cualquier cosa por encima del 15% de manera consistente es excepcional."
+    },
+    {
+      "question": "¿Cómo afectan las contribuciones mensuales los retornos de inversión?",
+      "answer": "Las contribuciones mensuales aumentan dramáticamente el valor final porque cada contribución también se capitaliza con el tiempo. Incluso pequeñas adiciones regulares (por ejemplo, $200/mes) pueden duplicar o triplicar tu saldo final en 20-30 años en comparación con una inversión única."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "roi-calculator",
+      "metaTitle": "Calculadora de ROI – Calculadora de Retorno sobre la Inversión Gratuita en Línea",
+      "metaDescription": "Calculadora de ROI gratuita. Ingresa tu costo de inversión y valor final para calcular el porcentaje de retorno sobre la inversión al instante. Funciona para acciones, bienes raíces y cualquier activo.",
+      "keywords": [
+        "calculadora de roi",
+        "calculadora de retorno sobre la inversión",
+        "calcular roi",
+        "calculadora de ganancias de inversión",
+        "calculadora de porcentaje de roi"
+      ],
+      "defaultVariant": "roi",
+      "headline": "Calcula tu Retorno sobre la Inversión (ROI) al instante. Ingresa lo que pagaste, lo que vale ahora y cuánto tiempo lo mantuviste — y obtén el %, retorno anualizado y ganancia total."
+    },
+    {
+      "variantSlug": "cagr-calculator",
+      "metaTitle": "Calculadora de CAGR – Calculadora de Tasa de Crecimiento Anual Compuesta",
+      "metaDescription": "Calculadora de CAGR gratuita. Ingresa el valor inicial, valor final y número de años para calcular la Tasa de Crecimiento Anual Compuesta. Compara el rendimiento de la inversión con precisión.",
+      "keywords": [
+        "calculadora de cagr",
+        "calculadora de tasa de crecimiento anual compuesta",
+        "calculadora de tasa de crecimiento de inversión",
+        "calculadora de retorno anualizado",
+        "calculadora de fórmula de cagr"
+      ],
+      "defaultVariant": "cagr",
+      "headline": "El CAGR (Tasa de Crecimiento Anual Compuesta) es la forma más precisa de comparar dos inversiones de diferentes longitudes. Ingresa el valor inicial, valor final y años para obtener la tasa de crecimiento anualizada."
+    },
+    {
+      "variantSlug": "stock-investment-calculator",
+      "metaTitle": "Calculadora de Inversión en Acciones – ¿Cuánto Valdrán Mis Acciones?",
+      "metaDescription": "Calculadora de inversión en acciones gratuita. Ingresa acciones, precio de compra y retorno anual esperado para ver el valor de tu cartera en 5, 10 y 20 años. Incluye reinversión de dividendos.",
+      "keywords": [
+        "calculadora de inversión en acciones",
+        "calculadora de cartera de acciones",
+        "cuánto valdrán mis acciones",
+        "calculadora de retorno de acciones",
+        "calculadora de inversión en acciones"
+      ],
+      "defaultVariant": "stock",
+      "headline": "Proyecta el valor futuro de una inversión en acciones. Ingresa el número de acciones, precio de compra, retorno anual esperado y rendimiento de dividendos opcional para ver tu cartera en 5, 10 y 20 años."
+    },
+    {
+      "variantSlug": "real-estate-investment-calculator",
+      "metaTitle": "Calculadora de Inversión en Bienes Raíces – Calculadora de ROI de Propiedades de Alquiler",
+      "metaDescription": "Calculadora de inversión en bienes raíces gratuita. Ingresa el precio de la propiedad, ingresos por alquiler, gastos y tasa de apreciación para calcular el rendimiento del alquiler, flujo de caja y ROI total.",
+      "keywords": [
+        "calculadora de inversión en bienes raíces",
+        "calculadora de roi de propiedades de alquiler",
+        "calculadora de rendimiento de alquiler",
+        "retorno de inversión en propiedades",
+        "calculadora de compra para alquilar"
+      ],
+      "defaultVariant": "real-estate",
+      "headline": "Calcula el retorno total de una inversión en propiedades de alquiler. Ingresa el precio de compra, alquiler mensual, gastos y apreciación esperada para ver el rendimiento anual, flujo de caja mensual y ROI a 10 años."
+    }
+  ]
+}

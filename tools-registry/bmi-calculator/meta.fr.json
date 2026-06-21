@@ -1,0 +1,83 @@
+{
+  "slug": "bmi-calculator",
+  "name": "Calculateur de BMI",
+  "tagline": "Calculez votre indice de masse corporelle instantanément",
+  "description": "Utilisez ce calculateur de BMI gratuit pour déterminer votre indice de masse corporelle en fonction de votre taille et de votre poids. Comprenez votre catégorie de poids — insuffisance pondérale, poids normal, surpoids ou obésité — en quelques secondes.",
+  "metaTitle": "Calculateur de BMI – Calculateur d'indice de masse corporelle en ligne gratuit",
+  "metaDescription": "Calculez votre BMI (indice de masse corporelle) instantanément. Entrez votre taille et votre poids pour savoir si vous êtes en insuffisance pondérale, poids normal, surpoids ou obèse. Gratuit, rapide, sans inscription.",
+  "keywords": [
+    "calculateur de bmi",
+    "calculateur d'indice de masse corporelle",
+    "formule de bmi",
+    "calculer bmi en ligne",
+    "tableau de bmi"
+  ],
+  "category": "Santé",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que le BMI ?",
+      "answer": "Le BMI (indice de masse corporelle) est une mesure de la graisse corporelle basée sur la taille et le poids. Il est calculé en divisant le poids (kg) par la taille (m) au carré."
+    },
+    {
+      "question": "Quelle est la plage normale de BMI ?",
+      "answer": "Un BMI entre 18,5 et 24,9 est considéré comme un poids normal. En dessous de 18,5, c'est une insuffisance pondérale, 25–29,9 est considéré comme un surpoids, et 30 ou plus est considéré comme obèse."
+    },
+    {
+      "question": "Le BMI est-il précis pour tout le monde ?",
+      "answer": "Le BMI est un outil de dépistage utile mais ne mesure pas directement la graisse corporelle. Il peut ne pas être précis pour les athlètes, les personnes âgées ou celles ayant une masse musculaire élevée."
+    },
+    {
+      "question": "Comment le BMI est-il calculé ?",
+      "answer": "BMI = poids (kg) ÷ taille (m)². Par exemple, une personne pesant 70 kg et mesurant 1,75 m a un BMI de 22,9."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "bmi-calculator-for-women",
+      "metaTitle": "Calculateur de BMI pour Femmes – Indice de Masse Corporelle Féminin en Ligne",
+      "metaDescription": "Calculateur de BMI adapté aux femmes. Découvrez si votre BMI est sain en fonction des directives de composition corporelle féminine. Gratuit, instantané, sans inscription.",
+      "keywords": [
+        "calculateur de bmi pour femmes",
+        "calculateur de bmi féminin",
+        "indice de masse corporelle femmes",
+        "tableau de bmi pour femmes"
+      ],
+      "defaultVariant": "female",
+      "headline": "Calculateur de BMI optimisé pour les femmes. Des études montrent que les femmes ont généralement un pourcentage de graisse corporelle plus élevé que les hommes à BMI égal — utilisez cet outil pour comprendre votre résultat dans son contexte."
+    },
+    {
+      "variantSlug": "bmi-calculator-imperial",
+      "metaTitle": "Calculateur de BMI en Livres & Pieds – Calculateur de BMI en Unités Impériales",
+      "metaDescription": "Calculez le BMI en utilisant des livres et des pieds/pouces. Calculateur de BMI en unités impériales instantané — aucune conversion nécessaire. Gratuit et rapide.",
+      "keywords": [
+        "calculateur de bmi livres pieds",
+        "calculateur de bmi impérial",
+        "bmi en lbs et pouces",
+        "calculateur de bmi USA"
+      ],
+      "defaultVariant": "imperial",
+      "headline": "Calculez votre BMI en utilisant des livres et des pieds — aucune conversion métrique nécessaire. Entrez votre poids en lbs et votre taille en ft/in pour un résultat instantané."
+    },
+    {
+      "variantSlug": "bmi-calculator-for-kids",
+      "metaTitle": "Calculateur de BMI pour Enfants & Adolescents – Calculateur de BMI pour Enfants",
+      "metaDescription": "Calculez le BMI pour les enfants et les adolescents âgés de 2 à 19 ans. Utilise les percentiles des courbes de croissance du CDC. Calculateur de BMI pour enfants gratuit, sans inscription requise.",
+      "keywords": [
+        "calculateur de bmi pour enfants",
+        "calculateur de bmi pour enfants",
+        "bmi pour enfants",
+        "bmi pédiatrique",
+        "percentile de bmi enfants"
+      ],
+      "defaultVariant": "kids",
+      "headline": "Calculateur de BMI pour enfants et adolescents (âges 2–19). Contrairement au BMI des adultes, les résultats des enfants sont interprétés en utilisant les percentiles des courbes de croissance spécifiques à l'âge et au sexe du CDC."
+    }
+  ]
+}

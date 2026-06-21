@@ -1,0 +1,115 @@
+{
+  "slug": "budget-calculator",
+  "name": "Calculadora de Presupuesto",
+  "tagline": "Controla ingresos vs. gastos y ve exactamente a dónde va tu dinero",
+  "description": "Ingresa tus ingresos y gastos mensuales para obtener un desglose instantáneo de tu presupuesto. Ve cómo se compara tu gasto con la regla 50/30/20: 50% necesidades, 30% deseos, 20% ahorros. Gratis, sin registro.",
+  "metaTitle": "Calculadora de Presupuesto – Planificador de Presupuesto Personal Mensual Gratis en Línea",
+  "metaDescription": "Calculadora de presupuesto mensual gratuita. Ingresa ingresos y gastos para ver el desglose de tu presupuesto y compararlo con la regla 50/30/20. Resultados instantáneos, sin necesidad de registro.",
+  "keywords": [
+    "calculadora de presupuesto",
+    "calculadora de presupuesto mensual",
+    "planificador de presupuesto personal",
+    "calculadora de regla 50 30 20",
+    "rastreador de gastos",
+    "calculadora de ingresos y gastos",
+    "calculadora de gestión de dinero"
+  ],
+  "category": "Finance",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "¿Qué es la regla de presupuesto 50/30/20?",
+      "answer": "La regla 50/30/20 divide tu ingreso después de impuestos en tres categorías: 50% para necesidades (alquiler, comida, servicios), 30% para deseos (comer fuera, entretenimiento) y 20% para ahorros y pago de deudas. Es un marco simple popularizado por la senadora Elizabeth Warren."
+    },
+    {
+      "question": "¿Cómo utilizo esta calculadora de presupuesto?",
+      "answer": "Ingresa tu ingreso mensual neto y lista tus gastos mensuales por categoría. La calculadora muestra instantáneamente tu superávit o déficit, y cómo se compara tu gasto con la guía 50/30/20."
+    },
+    {
+      "question": "¿Qué cuenta como 'necesidad' frente a 'deseo'?",
+      "answer": "Las necesidades son gastos esenciales de los que no puedes prescindir: alquiler/hipoteca, comestibles, servicios, seguros y pagos mínimos de deudas. Los deseos son elecciones de estilo de vida: restaurantes, suscripciones, pasatiempos, vacaciones."
+    },
+    {
+      "question": "¿Cuánto debo ahorrar cada mes?",
+      "answer": "La regla 50/30/20 recomienda ahorrar al menos el 20% de tu ingreso neto. Si eso no es posible, comienza con cualquier cantidad — incluso 5–10% — y aumenta con el tiempo a medida que reduzcas gastos discrecionales."
+    }
+  ],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "family-budget-calculator",
+      "metaTitle": "Calculadora de Presupuesto Familiar – Planificador de Presupuesto Mensual del Hogar",
+      "metaDescription": "Calculadora de presupuesto familiar gratuita. Controla los ingresos del hogar y los gastos compartidos para 2 o más personas. Ve cómo se compara tu presupuesto familiar con la regla 50/30/20. Sin registro.",
+      "keywords": [
+        "calculadora de presupuesto familiar",
+        "calculadora de presupuesto del hogar",
+        "presupuesto mensual del hogar",
+        "rastreador de gastos familiar",
+        "calculadora de presupuesto del hogar"
+      ],
+      "defaultVariant": "family",
+      "headline": "Controla los ingresos de tu hogar y los gastos compartidos como familia. Ingresa los ingresos combinados y divide los gastos en categorías para ver tu presupuesto familiar de un vistazo."
+    },
+    {
+      "variantSlug": "student-budget-calculator",
+      "metaTitle": "Calculadora de Presupuesto Estudiantil – Planificador de Presupuesto Mensual Universitario",
+      "metaDescription": "Calculadora de presupuesto estudiantil gratuita para estudiantes de colegio y universidad. Controla matrícula, alquiler, comida y diversión con un ingreso estudiantil. Ve hasta dónde llega tu dinero cada mes.",
+      "keywords": [
+        "calculadora de presupuesto estudiantil",
+        "calculadora de presupuesto universitario",
+        "presupuesto para estudiantes universitarios",
+        "gastos mensuales de estudiantes",
+        "presupuesto para estudiantes de colegio"
+      ],
+      "defaultVariant": "student",
+      "headline": "Presupuesto diseñado para la vida universitaria. Controla tus ingresos estudiantiles (trabajo a tiempo parcial, mesada, becas) frente a matrícula, alquiler, comida y salidas — y ve tu saldo mensual."
+    },
+    {
+      "variantSlug": "zero-based-budget-calculator",
+      "metaTitle": "Calculadora de Presupuesto Basado en Cero – Cada Dólar Tiene un Trabajo",
+      "metaDescription": "Calculadora de presupuesto basado en cero gratuita. Asigna cada dólar de tu ingreso a gastos y ahorros específicos hasta que llegues a cero. El método de Dave Ramsey simplificado.",
+      "keywords": [
+        "calculadora de presupuesto basado en cero",
+        "presupuesto basado en cero",
+        "presupuesto cada dólar",
+        "presupuesto de dave ramsey",
+        "presupuesto de suma cero"
+      ],
+      "defaultVariant": "zero-based",
+      "headline": "El presupuesto basado en cero significa dar un trabajo a cada dólar hasta que los ingresos menos los gastos sean cero. Esta calculadora te guía para asignar todos tus ingresos a categorías para que nada quede sin planificar."
+    },
+    {
+      "variantSlug": "monthly-budget-calculator",
+      "metaTitle": "Calculadora de Presupuesto Mensual – Planifica tus Finanzas Mensuales",
+      "metaDescription": "Calculadora de presupuesto mensual gratuita. Ingresa tu salario mensual y facturas para ver el desglose de tu gasto y cuánto puedes ahorrar. Planificador de presupuesto instantáneo sin registro.",
+      "keywords": [
+        "calculadora de presupuesto mensual",
+        "planificador de presupuesto mensual",
+        "calculadora de ingresos y gastos mensual",
+        "cómo presupuestar mensualmente",
+        "calculadora de gastos mensuales"
+      ],
+      "defaultVariant": "monthly",
+      "headline": "Planifica tu mes antes de que comience. Ingresa tu ingreso mensual neto y todos los gastos esperados para ver tu saldo proyectado e identificar áreas para recortar."
+    },
+    {
+      "variantSlug": "weekly-budget-calculator",
+      "metaTitle": "Calculadora de Presupuesto Semanal – Planifica tus Gastos Semanales",
+      "metaDescription": "Calculadora de presupuesto semanal gratuita. Divide tu presupuesto mensual en límites de gasto semanales. Perfecto si te pagan semanalmente o quieres un control más estricto sobre el gasto.",
+      "keywords": [
+        "calculadora de presupuesto semanal",
+        "planificador de gastos semanales",
+        "presupuesto por semana",
+        "cuánto gastar por semana",
+        "calculadora de asignación semanal"
+      ],
+      "defaultVariant": "weekly",
+      "headline": "Dividir tu presupuesto en partes semanales hace que el exceso de gasto sea mucho más difícil de ignorar. Ingresa tus ingresos y gastos mensuales y ve tu límite de gasto semanal de un vistazo."
+    }
+  ]
+}

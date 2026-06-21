@@ -1,0 +1,77 @@
+{
+  "slug": "percentage-calculator",
+  "name": "Calculadora de Porcentajes",
+  "tagline": "Calcula porcentajes, aumentos, disminuciones y más",
+  "description": "Calculadora de porcentajes gratuita que maneja todos los problemas comunes de porcentajes: ¿cuánto es X% de Y?, aumento/disminución porcentual, ¿qué porcentaje es X de Y? y porcentaje inverso.",
+  "metaTitle": "Calculadora de Porcentajes – Calculadora de Porcentajes en Línea Gratis",
+  "metaDescription": "Calcula cualquier porcentaje al instante. Descubre cuánto es X% de Y, aumento o disminución porcentual, qué porcentaje es un número de otro. Calculadora de porcentajes gratuita.",
+  "keywords": [
+    "calculadora de porcentajes",
+    "calculadora de porcentaje",
+    "calculadora de aumento porcentual",
+    "calculadora de disminución porcentual",
+    "qué porcentaje es x de y"
+  ],
+  "category": "Finance",
+  "icon": "%",
+  "faqs": [
+    {
+      "question": "¿Cómo calculo un porcentaje de un número?",
+      "answer": "Multiplica el número por el porcentaje y divide entre 100. Por ejemplo, el 20% de 150 = (20 × 150) / 100 = 30."
+    },
+    {
+      "question": "¿Cómo calculo el aumento porcentual?",
+      "answer": "Aumento porcentual = ((Nuevo Valor - Valor Antiguo) / Valor Antiguo) × 100. Por ejemplo, de 80 a 100 es un aumento del 25%."
+    },
+    {
+      "question": "¿Cómo encuentro qué porcentaje es un número de otro?",
+      "answer": "Divide el primer número por el segundo, luego multiplica por 100. Por ejemplo, ¿30 es qué % de 200? (30/200) × 100 = 15%."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "percentage-increase-calculator",
+      "metaTitle": "Calculadora de Aumento Porcentual – Calcula Aumento % en Línea",
+      "metaDescription": "Calcula el aumento porcentual entre dos números al instante. Calculadora de aumento porcentual gratuita: encuentra el cambio porcentual del valor antiguo al nuevo.",
+      "keywords": [
+        "calculadora de aumento porcentual",
+        "calculadora de aumento de porcentaje",
+        "calcular aumento porcentual",
+        "calculadora de cambio porcentual aumento"
+      ],
+      "defaultVariant": "increase",
+      "headline": "Calcula el aumento porcentual de un valor a otro. Ingresa los valores originales y nuevos para encontrar el aumento porcentual exacto — útil para aumentos salariales, cambios de precios y métricas de crecimiento."
+    },
+    {
+      "variantSlug": "percentage-decrease-calculator",
+      "metaTitle": "Calculadora de Disminución Porcentual – Calcula Disminución % en Línea",
+      "metaDescription": "Calcula la disminución porcentual entre dos números al instante. Descubre cuánto ha bajado algo como porcentaje. Calculadora de disminución porcentual gratuita.",
+      "keywords": [
+        "calculadora de disminución porcentual",
+        "calculadora de disminución de porcentaje",
+        "calcular disminución porcentual",
+        "calculadora de caída porcentual"
+      ],
+      "defaultVariant": "decrease",
+      "headline": "Calcula cuánto ha bajado algo como porcentaje. Ingresa los valores originales y nuevos para encontrar la disminución porcentual exacta — útil para descuentos, bajadas de precios y métricas de pérdidas."
+    },
+    {
+      "variantSlug": "percentage-difference-calculator",
+      "metaTitle": "Calculadora de Diferencia Porcentual – Compara Dos Valores",
+      "metaDescription": "Calcula la diferencia porcentual entre dos números. Encuentra el cambio porcentual simétrico entre cualquier par de valores. Calculadora de diferencia porcentual gratuita.",
+      "keywords": [
+        "calculadora de diferencia porcentual",
+        "calculadora de diferencia de porcentaje",
+        "calcular diferencia porcentual",
+        "porcentaje entre dos números"
+      ],
+      "defaultVariant": "difference",
+      "headline": "Encuentra la diferencia porcentual entre dos valores — a diferencia del aumento/disminución, esto es simétrico: muestra cuán diferentes son dos números en relación a su promedio."
+    }
+  ]
+}

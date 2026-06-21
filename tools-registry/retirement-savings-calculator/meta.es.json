@@ -1,0 +1,100 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "Calculadora de Ahorros para la Jubilación",
+  "tagline": "Descubre cuánto necesitas ahorrar para jubilarte cómodamente",
+  "description": "Ingresa tu edad actual, ahorros, contribuciones mensuales y tasa de retorno esperada para ver si estás en camino hacia la jubilación. Muestra el monto proyectado a los 65 años, el ingreso mensual durante la jubilación y si tienes un déficit de ahorros.",
+  "metaTitle": "Calculadora de Ahorros para la Jubilación – ¿Estoy Ahorrando Suficiente para Jubilarme?",
+  "metaDescription": "Calculadora de ahorros para la jubilación gratuita. Ingresa tu edad, ahorros actuales y contribuciones mensuales para ver tu monto proyectado de ahorros para la jubilación e ingreso mensual. No se requiere registro.",
+  "keywords": [
+    "calculadora de ahorros para la jubilación",
+    "calculadora de jubilación",
+    "cuánto ahorrar para la jubilación",
+    "calculadora de ahorro para la jubilación",
+    "calculadora de planificación de jubilación",
+    "estoy ahorrando suficiente para la jubilación"
+  ],
+  "category": "Finance",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "¿Cuánto debería haber ahorrado para la jubilación según mi edad?",
+      "answer": "La regla general de Fidelity: 1× salario a los 30, 3× a los 40, 6× a los 50, 8× a los 60 y 10× a los 67. Así que si ganas $60,000, deberías tener $600,000 ahorrados a los 67 años. Estas son pautas; tu número real depende de tu estilo de vida deseado en la jubilación."
+    },
+    {
+      "question": "¿Cuál es la regla del 4% para la jubilación?",
+      "answer": "La regla del 4% sugiere que puedes retirar de manera segura el 4% de tu cartera de jubilación cada año sin quedarte sin dinero durante una jubilación de 30 años. Así que si necesitas $50,000/año, necesitas $1.25M ahorrados ($50,000 ÷ 0.04)."
+    },
+    {
+      "question": "¿Qué tasa de retorno debería usar?",
+      "answer": "El S&P 500 ha devuelto históricamente alrededor del 7% anualmente después de la inflación. Para una estimación conservadora, usa 5–6%; para una proyección optimista, usa 8–10%. La calculadora utiliza 7% como valor predeterminado."
+    },
+    {
+      "question": "¿Qué pasa si empiezo a ahorrar tarde?",
+      "answer": "Comenzar más tarde significa que necesitas ahorrar de manera más agresiva. Usa esta calculadora para encontrar la contribución mensual necesaria para alcanzar tu objetivo. Las claves son aumentar las contribuciones, retrasar la jubilación unos años o reducir el gasto esperado durante la jubilación."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "401k-calculator",
+      "metaTitle": "Calculadora 401(k) – ¿Cuánto Valdrá Mi 401k en la Jubilación?",
+      "metaDescription": "Calculadora 401k gratuita. Ingresa tu salario, porcentaje de contribución, aporte del empleador y años hasta la jubilación para ver tu saldo proyectado de 401k. Incluye cálculo del aporte del empleador.",
+      "keywords": [
+        "calculadora 401k",
+        "calculadora de jubilación 401k",
+        "cuánto valdrá mi 401k",
+        "calculadora de contribuciones 401k",
+        "calculadora de aporte del empleador 401k"
+      ],
+      "defaultVariant": "401k",
+      "headline": "Proyecta tu saldo de 401(k) en la jubilación. Ingresa tu salario, tu porcentaje de contribución y el aporte de tu empleador para ver cómo crece tu cuenta de jubilación en el trabajo año tras año."
+    },
+    {
+      "variantSlug": "roth-ira-calculator",
+      "metaTitle": "Calculadora Roth IRA – ¿Cuánto Crecerá Mi Roth IRA?",
+      "metaDescription": "Calculadora Roth IRA gratuita. Ingresa las contribuciones anuales y los años hasta la jubilación para ver el crecimiento libre de impuestos. Muestra el saldo proyectado y el monto de retiro libre de impuestos en la jubilación.",
+      "keywords": [
+        "calculadora roth ira",
+        "calculadora de crecimiento roth ira",
+        "calculadora de jubilación roth ira",
+        "cuánto valdrá mi roth ira",
+        "calculadora de contribuciones roth ira"
+      ],
+      "defaultVariant": "roth-ira",
+      "headline": "Las contribuciones a Roth IRA crecen libres de impuestos y los retiros en la jubilación también son libres de impuestos. Ingresa tu contribución anual y descubre cuán poderoso es el interés compuesto libre de impuestos a lo largo de las décadas."
+    },
+    {
+      "variantSlug": "early-retirement-calculator",
+      "metaTitle": "Calculadora de Jubilación Anticipada – Calculadora FIRE (Independencia Financiera)",
+      "metaDescription": "Calculadora FIRE gratuita. Descubre cuándo puedes jubilarte anticipadamente según tu tasa de ahorro y patrimonio neto actual. Utiliza la regla del 4% de retiro seguro. Calculadora de independencia financiera.",
+      "keywords": [
+        "calculadora de jubilación anticipada",
+        "calculadora fire",
+        "calculadora de independencia financiera",
+        "calculadora para jubilarse anticipadamente",
+        "cuán pronto puedo jubilarme"
+      ],
+      "defaultVariant": "fire",
+      "headline": "El movimiento FIRE (Independencia Financiera, Jubilarse Temprano) se basa en un principio: ahorra 25 veces tus gastos anuales y podrás jubilarte — a cualquier edad. Ingresa tus números para encontrar tu fecha FIRE."
+    },
+    {
+      "variantSlug": "retirement-income-calculator",
+      "metaTitle": "Calculadora de Ingresos de Jubilación – ¿Cuánto Ingreso Mensual Tendré?",
+      "metaDescription": "Calculadora de ingresos de jubilación gratuita. Ingresa tu monto de ahorros y ve cuánto ingreso mensual puedes retirar de manera segura en la jubilación utilizando la regla del 4%. No se requiere registro.",
+      "keywords": [
+        "calculadora de ingresos de jubilación",
+        "cuánto ingreso de jubilación",
+        "calculadora de ingresos mensuales de jubilación",
+        "calculadora de retiros de jubilación",
+        "calculadora de tasa de retiro seguro"
+      ],
+      "defaultVariant": "income",
+      "headline": "Convierte tu monto de ahorros para la jubilación en un número de ingreso mensual. Ingresa tus ahorros proyectados en la jubilación y ve cuánto puedes retirar de manera segura cada mes sin quedarte sin dinero."
+    }
+  ]
+}

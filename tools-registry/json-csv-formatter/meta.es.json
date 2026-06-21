@@ -1,0 +1,80 @@
+{
+  "slug": "json-csv-formatter",
+  "name": "Formateador / Validador JSON y CSV",
+  "tagline": "Formatea, valida y convierte JSON y CSV al instante en tu navegador",
+  "description": "Pega JSON sin formato para formatearlo con una sangría de 2 espacios o minificarlo, con validación en tiempo real. Pega CSV para normalizar comillas/delimitadores, o convierte CSV a un array JSON. Soporta delimitadores de coma, punto y coma, tabulación y pipe.",
+  "metaTitle": "Formateador y Validador JSON CSV – Embellecedor JSON en Línea y Convertidor CSV",
+  "metaDescription": "Formateador, validador y formateador CSV en línea gratuito. Pega JSON para embellecer o minificar. Pega CSV para formatear o convertir a JSON. Soporta todos los delimitadores. Solo en navegador.",
+  "keywords": [
+    "formateador json en línea",
+    "validador json",
+    "formateador csv en línea",
+    "embellecedor json",
+    "convertidor csv a json"
+  ],
+  "category": "Developer",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "¿Qué hace el formateo JSON?",
+      "answer": "El formateo JSON (embellecimiento) añade una sangría y saltos de línea consistentes para hacer que el JSON compacto sea legible para los humanos. Minificar elimina todos los espacios en blanco para reducir el tamaño del archivo."
+    },
+    {
+      "question": "¿Se envían mis datos a un servidor?",
+      "answer": "No. Todo el formateo y la validación se realizan completamente en tu navegador. Tus datos nunca abandonan tu dispositivo."
+    },
+    {
+      "question": "¿Qué delimitadores CSV son compatibles?",
+      "answer": "Coma (,), punto y coma (;), tabulación (TSV) y pipe (|). La herramienta también maneja campos entre comillas según RFC 4180 y comillas escapadas."
+    }
+  ],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "json-formatter-online",
+      "metaTitle": "Formateador JSON en Línea – Embellecer y Formatear JSON",
+      "metaDescription": "Formatea y embellece JSON en línea al instante. Imprime JSON de manera adecuada con la sangría correcta. Formateador JSON gratuito: valida, formatea y copia. Solo en navegador.",
+      "keywords": [
+        "formateador json en línea",
+        "embellecedor json",
+        "imprimir json bonito",
+        "formatear json en línea",
+        "impresora json bonita"
+      ],
+      "defaultVariant": "json-format",
+      "headline": "Pega JSON minificado o desordenado para formatearlo al instante con la sangría adecuada. También valida tu JSON e informa sobre cualquier error de sintaxis."
+    },
+    {
+      "variantSlug": "json-validator-online",
+      "metaTitle": "Validador JSON en Línea – Verifica si el JSON es Válido",
+      "metaDescription": "Valida JSON en línea al instante. Verifica si tu JSON es válido, encuentra errores de sintaxis y observa la estructura. Validador JSON gratuito: solo en navegador.",
+      "keywords": [
+        "validador json en línea",
+        "validar json",
+        "verificar sintaxis json",
+        "¿es mi json válido?",
+        "verificador de sintaxis json"
+      ],
+      "defaultVariant": "json-validate",
+      "headline": "Pega cualquier JSON para validarlo al instante. El validador muestra exactamente dónde ocurren los errores de sintaxis y cuenta las claves y objetos anidados."
+    },
+    {
+      "variantSlug": "csv-to-json-converter",
+      "metaTitle": "Convertidor CSV a JSON – Convierte Archivo CSV a JSON en Línea",
+      "metaDescription": "Convierte CSV a JSON en línea al instante. Pega tus datos CSV y obtén un array JSON limpio. Convertidor gratuito de CSV a JSON: soporta todos los delimitadores, solo en navegador.",
+      "keywords": [
+        "convertidor csv a json",
+        "convertir csv a json",
+        "csv json en línea",
+        "csv a array json",
+        "csv a json gratis"
+      ],
+      "defaultVariant": "csv-json",
+      "headline": "Convierte cualquier archivo o datos CSV a un array JSON. Soporta delimitadores de coma, punto y coma, tabulación y pipe. Cada fila se convierte en un objeto JSON con los nombres de las columnas como claves."
+    }
+  ]
+}

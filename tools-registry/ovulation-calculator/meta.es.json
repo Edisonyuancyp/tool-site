@@ -1,0 +1,76 @@
+{
+  "slug": "ovulation-calculator",
+  "name": "Calculadora de Ovulación y Seguimiento del Ciclo",
+  "tagline": "Predice la ventana fértil, la fecha de ovulación y el próximo período",
+  "description": "Calcula tu ventana fértil, la fecha de ovulación, las fechas de tu período y las fases del ciclo para hasta 6 ciclos futuros. Todos los cálculos se realizan completamente en tu navegador; no se envían datos a ningún servidor.",
+  "metaTitle": "Calculadora de Ovulación – Ventana Fértil y Seguimiento del Período (Solo Navegador)",
+  "metaDescription": "Calculadora gratuita de ovulación y período. Encuentra tu ventana fértil, la fecha de ovulación y el próximo período para hasta 6 ciclos. 100% privado; funciona en tu navegador, sin datos almacenados.",
+  "keywords": [
+    "calculadora de ovulación",
+    "calculadora de ventana fértil",
+    "seguimiento del período",
+    "calculadora del ciclo menstrual",
+    "cuándo soy más fértil"
+  ],
+  "category": "Health",
+  "icon": "🌸",
+  "faqs": [
+    {
+      "question": "¿Cómo se calcula la ventana fértil?",
+      "answer": "La ovulación ocurre típicamente 14 días antes del próximo período. La ventana fértil son los 5 días antes de la ovulación más el día de la ovulación."
+    },
+    {
+      "question": "¿Se almacenan estos datos en algún lugar?",
+      "answer": "No. Todos los cálculos se realizan en JavaScript en tu navegador. Nada se envía a un servidor ni se comparte con terceros."
+    }
+  ],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "fertile-window-calculator",
+      "metaTitle": "Calculadora de Ventana Fértil – ¿Cuándo Eres Más Fértil?",
+      "metaDescription": "Calcula tu ventana fértil: los días de cada mes en que es más probable que concibas. Calculadora de ventana fértil gratuita, 100% privada, solo en navegador.",
+      "keywords": [
+        "calculadora de ventana fértil",
+        "cuándo soy más fértil",
+        "calculadora de ventana de fertilidad",
+        "mejores días para concebir calculadora",
+        "calculadora de días fértiles"
+      ],
+      "defaultVariant": "fertile",
+      "headline": "Encuentra tu ventana fértil: la ventana de 6 días de cada ciclo en la que es posible el embarazo. Basado en tu último período y la duración del ciclo."
+    },
+    {
+      "variantSlug": "period-tracker-calculator",
+      "metaTitle": "Calculadora de Seguimiento del Período – Predice la Fecha del Próximo Período",
+      "metaDescription": "Calcula la fecha de tu próximo período y sigue tu ciclo menstrual. Seguimiento del período gratuito: predice los próximos períodos para 6 meses. Solo en navegador, 100% privado.",
+      "keywords": [
+        "calculadora de seguimiento del período",
+        "calculadora de fecha del próximo período",
+        "seguimiento del ciclo menstrual",
+        "predicción de fecha del período",
+        "cuándo es mi próximo período"
+      ],
+      "defaultVariant": "period",
+      "headline": "Predice la fecha de tu próximo período y las fechas de los próximos ciclos para los próximos 6 meses. Ingresa la fecha de tu último período y la duración promedio del ciclo."
+    },
+    {
+      "variantSlug": "ovulation-calculator-irregular-periods",
+      "metaTitle": "Calculadora de Ovulación para Períodos Irregulares",
+      "metaDescription": "Calcula la ovulación y la ventana fértil para ciclos menstruales irregulares. Ajusta la duración de tu ciclo para tener en cuenta los períodos irregulares. Calculadora de ovulación gratuita.",
+      "keywords": [
+        "calculadora de ovulación períodos irregulares",
+        "calculadora de ovulación ciclo irregular",
+        "ventana fértil ciclo irregular",
+        "ovulación período irregular",
+        "calculadora de ciclo menstrual irregular"
+      ],
+      "defaultVariant": "irregular",
+      "headline": "Los ciclos irregulares dificultan predecir la ovulación. Ajusta el rango de duración de tu ciclo para ver la ventana fértil estimada a lo largo de tu longitud de ciclo variable."
+    }
+  ]
+}

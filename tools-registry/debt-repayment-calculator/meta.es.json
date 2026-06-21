@@ -1,0 +1,100 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "Calculadora de Pago de Deuda",
+  "tagline": "Descubre cuánto tiempo tardarás en saldar tu deuda y cuánto interés pagarás",
+  "description": "Ingresa tu saldo de deuda, tasa de interés y pago mensual para ver la fecha de pago, el total de interés pagado y un cronograma de amortización. Muestra cuánto tiempo y dinero ahorras al pagar un extra cada mes.",
+  "metaTitle": "Calculadora de Pago de Deuda – Calculadora de Pago de Deuda Gratis en Línea",
+  "metaDescription": "Calculadora de pago de deuda gratuita. Ingresa saldo, tasa de interés y pago mensual para ver la fecha de pago y el total de interés. Muestra ahorros por pagos adicionales. Sin registro.",
+  "keywords": [
+    "calculadora de pago de deuda",
+    "calculadora de saldar deudas",
+    "cuánto tiempo para saldar deudas",
+    "calculadora de deuda libre",
+    "calculadora de pago de préstamos",
+    "calculadora de interés de deuda"
+  ],
+  "category": "Finance",
+  "icon": "💳",
+  "faqs": [
+    {
+      "question": "¿Cuál es la diferencia entre el método de avalancha de deudas y el método de bola de nieve?",
+      "answer": "Avalancha de deudas: paga los mínimos en todas las deudas y destina el dinero extra a la deuda con mayor interés primero. Ahorra más en intereses. Bola de nieve: salda los saldos más pequeños primero para obtener victorias rápidas y motivación. Ambos funcionan; el mejor método es el que seguirás."
+    },
+    {
+      "question": "¿Cuánto se ahorra al hacer pagos adicionales?",
+      "answer": "Incluso pequeños pagos adicionales reducen drásticamente el total de intereses y el tiempo de pago. En una tarjeta de crédito de $10,000 al 20% APR con un mínimo de $300/mes, pagarías durante 6 años. Agregar solo $100/mes extra reduce el tiempo a 3.5 años y ahorra aproximadamente $2,000 en intereses."
+    },
+    {
+      "question": "¿Qué es un cronograma de amortización?",
+      "answer": "Un cronograma de amortización muestra cada pago desglosado en capital e interés. Los pagos iniciales son principalmente intereses; los pagos posteriores son principalmente capital. Esta calculadora genera una tabla de amortización completa para que puedas ver tu progreso mes a mes."
+    },
+    {
+      "question": "¿Debería saldar deudas o invertir?",
+      "answer": "Si la tasa de interés de tu deuda es más alta que el retorno esperado de tu inversión, salda la deuda primero. La deuda de tarjeta de crédito al 20% o más APR siempre debe saldarse antes de invertir. La deuda hipotecaria o de préstamos estudiantiles al 4-6% es un dilema; muchas personas hacen ambas cosas simultáneamente."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "credit-card-payoff-calculator",
+      "metaTitle": "Calculadora de Saldos de Tarjetas de Crédito – ¿Cuánto Tiempo Tardarás en Saldar Tu Deuda de Tarjeta de Crédito?",
+      "metaDescription": "Calculadora de saldos de tarjetas de crédito gratuita. Ingresa saldo, APR y pago mensual para ver la fecha de pago y el total de interés. Muestra cuánto ahorras con pagos adicionales.",
+      "keywords": [
+        "calculadora de saldos de tarjetas de crédito",
+        "calculadora de deuda de tarjeta de crédito",
+        "cuánto tiempo para saldar tarjeta de crédito",
+        "calculadora de interés de tarjeta de crédito",
+        "calculadora para saldar tarjeta de crédito"
+      ],
+      "defaultVariant": "credit-card",
+      "headline": "Ingresa tu saldo de tarjeta de crédito, APR y pago mensual para ver exactamente cuándo estarás libre de deudas — y cuánto interés pagarás. Observa cómo agregar incluso $50 extra al mes cambia todo."
+    },
+    {
+      "variantSlug": "student-loan-repayment-calculator",
+      "metaTitle": "Calculadora de Pago de Préstamos Estudiantiles – Pago Mensual y Fecha de Pago",
+      "metaDescription": "Calculadora de pago de préstamos estudiantiles gratuita. Ingresa el saldo del préstamo, la tasa de interés y el plazo de pago para calcular el pago mensual y el total de interés pagado durante la vida del préstamo.",
+      "keywords": [
+        "calculadora de pago de préstamos estudiantiles",
+        "calculadora de préstamos estudiantiles",
+        "calculadora de saldar deudas estudiantiles",
+        "cuánto tiempo para saldar préstamos estudiantiles",
+        "calculadora de pago mensual de préstamos estudiantiles"
+      ],
+      "defaultVariant": "student-loan",
+      "headline": "Calcula tu pago mensual de préstamos estudiantiles y el total de interés en planes de pago de 10, 20 o 25 años. Observa cómo refinanciar a una tasa más baja afecta tu cronograma de pago."
+    },
+    {
+      "variantSlug": "debt-snowball-calculator",
+      "metaTitle": "Calculadora de Bola de Nieve de Deuda – Saldar Deudas Rápidamente con el Método de Bola de Nieve",
+      "metaDescription": "Calculadora de bola de nieve de deuda gratuita. Enumera todas tus deudas y ve el orden y cronograma exactos de pago utilizando el método de bola de nieve (saldo más pequeño primero). Incluye cronograma de pago.",
+      "keywords": [
+        "calculadora de bola de nieve de deuda",
+        "calculadora de saldar deudas con bola de nieve",
+        "calculadora del método de bola de nieve",
+        "calculadora para saldar múltiples deudas",
+        "calculadora de orden de pago de deudas"
+      ],
+      "defaultVariant": "snowball",
+      "headline": "El método de bola de nieve de deudas te hace pagar los mínimos en todo, luego destinar todo el dinero extra a tu deuda más pequeña. Una vez que se elimina, transfiere ese pago a la siguiente. Esta calculadora muestra tu cronograma de pago exacto con bola de nieve."
+    },
+    {
+      "variantSlug": "debt-avalanche-calculator",
+      "metaTitle": "Calculadora de Avalancha de Deuda – Ahorra Más Interés en el Pago de Deuda",
+      "metaDescription": "Calculadora de avalancha de deuda gratuita. Enumera tus deudas y ve el orden de pago matemáticamente óptimo (mayor interés primero) para minimizar el total de intereses pagados. Incluye comparación con bola de nieve.",
+      "keywords": [
+        "calculadora de avalancha de deuda",
+        "calculadora de saldar deudas con avalancha",
+        "calculadora de deuda con mayor interés",
+        "calculadora de estrategia de pago de deudas",
+        "calculadora para minimizar interés de deuda"
+      ],
+      "defaultVariant": "avalanche",
+      "headline": "El método de avalancha de deudas dirige los pagos adicionales a tu deuda con mayor interés primero, minimizando el total de intereses pagados. Esta calculadora muestra tu cronograma de pago de avalancha y lo compara con el método de bola de nieve."
+    }
+  ]
+}

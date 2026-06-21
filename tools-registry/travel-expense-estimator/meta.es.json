@@ -1,0 +1,33 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "Calculadora de Gastos de Viaje",
+  "tagline": "Estima rápidamente los costos de tu viaje.",
+  "description": "Calcula tus gastos totales de viaje ingresando tu destino, modo de transporte, duración y gastos diarios. Perfecto para viajeros que cuidan su presupuesto al planear su próximo viaje.",
+  "metaTitle": "Calculadora de Gastos de Viaje – Planificador de Viajes Económicos | Herramienta Online Gratuita",
+  "metaDescription": "Estima tus gastos de viaje al instante y gratis, sin necesidad de registrarte. ¡Obtén un presupuesto claro para tu próxima aventura!",
+  "keywords": [
+    "calculadora de gastos de viaje",
+    "calculadora de costos de viaje",
+    "herramienta de viaje económica",
+    "presupuesto de viaje",
+    "costo de viaje"
+  ],
+  "category": "Travel",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "¿Cómo calculo mis gastos de viaje?",
+      "answer": "Ingresa tu destino, modo de transporte, duración y costos diarios para obtener una estimación."
+    },
+    {
+      "question": "¿Puedo guardar mis estimaciones?",
+      "answer": "Actualmente, la herramienta no permite guardar estimaciones, pero puedes anotarlas."
+    },
+    {
+      "question": "¿Es gratuita esta herramienta?",
+      "answer": "Sí, la Calculadora de Gastos de Viaje es completamente gratuita y no requiere registro."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

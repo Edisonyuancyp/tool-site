@@ -1,0 +1,81 @@
+{
+  "slug": "text-case-converter",
+  "name": "Convertisseur de Cas de Texte",
+  "tagline": "Convertissez le texte en majuscules, minuscules, casse de titre, camelCase, et plus",
+  "description": "Convertissez n'importe quel texte entre majuscules, minuscules, casse de titre, casse de phrase, camelCase, PascalCase, snake_case, kebab-case, et plus. Copie en un clic incluse.",
+  "metaTitle": "Convertisseur de Cas de Texte – Majuscules, Minuscules, Casse de Titre, Camel, Snake Case en Ligne",
+  "metaDescription": "Convertisseur de cas de texte gratuit. Convertissez le texte en MAJUSCULES, minuscules, Casse de Titre, camelCase, PascalCase, snake_case, kebab-case instantanément. Copiez en un clic.",
+  "keywords": [
+    "convertisseur de cas de texte",
+    "convertisseur de majuscules",
+    "convertisseur de minuscules",
+    "convertisseur de camelcase",
+    "convertisseur de snake case",
+    "convertisseur de casse de titre"
+  ],
+  "category": "Utilitaires",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que le camelCase ?",
+      "answer": "Le camelCase relie les mots sans espaces, en capitalisant chaque mot sauf le premier. Utilisé dans les noms de variables JavaScript : firstName, totalAmount."
+    },
+    {
+      "question": "Qu'est-ce que le snake_case ?",
+      "answer": "Le snake_case utilise des underscores entre les mots, tout en minuscules. Commun en Python et dans les noms de colonnes de bases de données : first_name, total_amount."
+    },
+    {
+      "question": "Qu'est-ce que la casse de titre ?",
+      "answer": "La casse de titre capitalise la première lettre de chaque mot important. Utilisée dans les titres d'articles et les en-têtes : 'Le Renard Brun Rapide'."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "diff-checker",
+    "emoji-picker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "camelcase-converter",
+      "metaTitle": "Convertisseur camelCase – Convertir du Texte en camelCase en Ligne",
+      "metaDescription": "Convertissez n'importe quel texte en camelCase instantanément. Convertisseur camelCase en ligne gratuit pour les développeurs JavaScript, Java et API. Collez le texte et copiez le résultat.",
+      "keywords": [
+        "convertisseur camelcase",
+        "texte en camelcase",
+        "convertir en camelcase",
+        "générateur camelcase",
+        "camelcase en ligne"
+      ],
+      "defaultVariant": "camel",
+      "headline": "Convertissez du texte en camelCase — la convention de nommage standard pour les variables JavaScript, les clés JSON et les propriétés d'objet. Collez n'importe quel texte et copiez le résultat instantanément."
+    },
+    {
+      "variantSlug": "snake-case-converter",
+      "metaTitle": "Convertisseur snake_case – Convertir du Texte en snake_case en Ligne",
+      "metaDescription": "Convertissez n'importe quel texte en snake_case instantanément. Convertisseur snake_case en ligne gratuit pour les développeurs Python, SQL et de bases de données.",
+      "keywords": [
+        "convertisseur snake case",
+        "texte en snake case",
+        "convertir en snake_case",
+        "générateur snake_case",
+        "convertisseur de cas avec underscore"
+      ],
+      "defaultVariant": "snake",
+      "headline": "Convertissez du texte en snake_case — la convention de nommage standard pour les variables Python, les colonnes SQL et les noms de fichiers. Collez le texte et copiez le résultat."
+    },
+    {
+      "variantSlug": "title-case-converter",
+      "metaTitle": "Convertisseur de Casse de Titre – Capitaliser la Casse de Titre en Ligne Gratuitement",
+      "metaDescription": "Convertissez le texte en Casse de Titre appropriée instantanément. Suit les règles de capitalisation des titres AP, APA et Chicago. Convertisseur de casse de titre en ligne gratuit.",
+      "keywords": [
+        "convertisseur de casse de titre",
+        "outil de capitalisation de titre",
+        "capitaliser un titre en ligne",
+        "générateur de casse de titre",
+        "casse de titre appropriée"
+      ],
+      "defaultVariant": "title",
+      "headline": "Convertissez du texte en Casse de Titre suivant les règles de capitalisation standard. Parfait pour les titres de billets de blog, les en-têtes d'articles et les titres de livres."
+    }
+  ]
+}

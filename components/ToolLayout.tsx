@@ -9,21 +9,47 @@ interface ToolLayoutProps {
   allTools?: ToolMeta[];
 }
 
+/** Maps category name → URL prefix segment, mirroring generate_tool.py */
+const CATEGORY_URL_PREFIX: Record<string, string> = {
+  Finance:      "calc",
+  Math:         "calc",
+  Health:       "calc",
+  Crypto:       "calc",
+  Design:       "design",
+  Generators:   "design",
+  Developer:    "dev",
+  Text:         "dev",
+  Security:     "dev",
+  "Date & Time": "time",
+};
+
+function getCategoryPath(category: string): string {
+  const prefix = CATEGORY_URL_PREFIX[category];
+  return prefix ? `/tools/${prefix}` : "/tools";
+}
+
+/** Returns up to 4 related tools from the SAME category only. */
 function getAutoRelated(tool: ToolMeta, allTools: ToolMeta[]): ToolMeta[] {
-  // 1. Use manually specified relatedTools first (up to 4)
+  // Only consider same-category tools (excluding self)
+  const sameCategory = allTools.filter(
+    (t) => t.category === tool.category && t.slug !== tool.slug
+  );
+
+  // Prefer manually specified slugs that are in the same category
   const manual = tool.relatedTools
-    .map((s) => allTools.find((t) => t.slug === s))
+    .map((s) => sameCategory.find((t) => t.slug === s))
     .filter((t): t is ToolMeta => !!t)
     .slice(0, 4);
-  if (manual.length >= 3) return manual;
 
-  // 2. Auto-fill from same category, excluding self
-  const sameCat = allTools
-    .filter((t) => t.category === tool.category && t.slug !== tool.slug)
+  if (manual.length >= 4) return manual;
+
+  // Back-fill with remaining same-category tools
+  const seen = new Set(manual.map((t) => t.slug));
+  const backfill = sameCategory
+    .filter((t) => !seen.has(t.slug))
     .slice(0, 4 - manual.length);
 
-  const seen = new Set(manual.map((t) => t.slug));
-  return [...manual, ...sameCat.filter((t) => !seen.has(t.slug))];
+  return [...manual, ...backfill];
 }
 
 export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps) {
@@ -32,6 +58,8 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
 
   const BASE_URL = "https://getfastcalc.com";
   const toolUrl = `${BASE_URL}/tools/${tool.slug}`;
+  const categoryPath = getCategoryPath(tool.category);
+  const categoryUrl = `${BASE_URL}${categoryPath}`;
 
   const softwareSchema = {
     "@context": "https://schema.org",
@@ -84,6 +112,12 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
       {
         "@type": "ListItem",
         position: 2,
+        name: tool.category,
+        item: categoryUrl,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
         name: tool.name,
         item: toolUrl,
       },
@@ -110,8 +144,10 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
       <main className="flex-1">
         <div className="max-w-4xl mx-auto px-4 py-10">
           {/* Breadcrumb */}
-          <nav className="text-sm text-gray-400 mb-6">
+          <nav aria-label="breadcrumb" className="text-sm text-gray-400 mb-6">
             <Link href="/" className="hover:text-gray-600 transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link href={categoryPath} className="hover:text-gray-600 transition-colors">{tool.category}</Link>
             <span className="mx-2">/</span>
             <span className="text-gray-600">{tool.name}</span>
           </nav>

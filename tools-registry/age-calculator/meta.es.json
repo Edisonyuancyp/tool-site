@@ -1,0 +1,84 @@
+{
+  "slug": "age-calculator",
+  "name": "Calculadora de Edad",
+  "tagline": "Descubre tu edad exacta en años, meses y días",
+  "description": "Calcula tu edad exacta desde tu fecha de nacimiento hasta hoy — o hasta cualquier fecha específica. Obtén resultados en años, meses, días, horas y minutos al instante.",
+  "metaTitle": "Calculadora de Edad – Encuentra Tu Edad Exacta en Línea Gratis",
+  "metaDescription": "Calcula tu edad exacta desde tu fecha de nacimiento. Obtén tu edad en años, meses y días al instante. Calculadora de edad gratuita — sin necesidad de registro.",
+  "keywords": [
+    "calculadora de edad",
+    "calcular edad desde fecha de nacimiento",
+    "cuántos años tengo",
+    "calculadora de edad exacta",
+    "calculadora de fecha de nacimiento"
+  ],
+  "category": "Fecha y Hora",
+  "icon": "📅",
+  "faqs": [
+    {
+      "question": "¿Cómo calculo mi edad exacta?",
+      "answer": "Ingresa tu fecha de nacimiento en la calculadora de edad arriba. Calculará la diferencia precisa entre tu fecha de nacimiento y hoy en años, meses y días."
+    },
+    {
+      "question": "¿Puedo calcular la edad entre dos fechas específicas?",
+      "answer": "Sí. Establece tu fecha de inicio como la fecha de nacimiento y tu fecha de fin como cualquier fecha objetivo para encontrar la edad exacta o la duración entre ellas."
+    },
+    {
+      "question": "¿Cuántos días tengo?",
+      "answer": "La calculadora muestra tu edad total en días junto con años y meses. Simplemente ingresa tu fecha de nacimiento para ver el resultado."
+    },
+    {
+      "question": "¿La calculadora de edad considera los años bisiestos?",
+      "answer": "Sí. La calculadora maneja correctamente los años bisiestos al calcular días y duraciones totales."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "holiday-calculator",
+    "unix-timestamp-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "days-old-calculator",
+      "metaTitle": "¿Cuántos Días Tengo? – Calculadora de Días",
+      "metaDescription": "Calcula exactamente cuántos días tienes. Encuentra tu edad en días totales, semanas, horas y minutos. Calculadora de días gratuita.",
+      "keywords": [
+        "cuántos días tengo",
+        "calculadora de días",
+        "calculadora de edad en días",
+        "cuántos años tengo en días",
+        "calcular edad en días"
+      ],
+      "defaultVariant": "days",
+      "headline": "Descubre exactamente cuántos días, semanas y horas tienes. Más preciso que los años — cada día cuenta."
+    },
+    {
+      "variantSlug": "age-difference-calculator",
+      "metaTitle": "Calculadora de Diferencia de Edad – ¿Cuántos Años Hay Entre Dos Personas?",
+      "metaDescription": "Calcula la diferencia de edad entre dos personas o dos fechas. Encuentra años, meses y días exactos entre cualquier par de fechas de nacimiento. Calculadora de brecha de edad gratuita.",
+      "keywords": [
+        "calculadora de diferencia de edad",
+        "calculadora de brecha de edad",
+        "calcular diferencia de edad",
+        "cuántos años hay entre dos fechas",
+        "edad entre dos personas"
+      ],
+      "defaultVariant": "difference",
+      "headline": "Calcula la diferencia exacta de edad entre dos personas. Ingresa ambas fechas de nacimiento para encontrar la brecha en años, meses y días."
+    },
+    {
+      "variantSlug": "retirement-age-calculator",
+      "metaTitle": "Calculadora de Edad de Jubilación – ¿Cuántos Años Faltan Para Jubilarse?",
+      "metaDescription": "Calcula cuántos años faltan para que puedas jubilarte. Encuentra tu fecha de jubilación basada en tu edad actual y la edad objetivo de jubilación. Calculadora de cuenta regresiva para la jubilación gratuita.",
+      "keywords": [
+        "calculadora de edad de jubilación",
+        "años hasta la jubilación calculadora",
+        "cuándo puedo jubilarme calculadora",
+        "cuenta regresiva para la jubilación",
+        "cuántos años hasta la jubilación"
+      ],
+      "defaultVariant": "retirement",
+      "headline": "Calcula cuántos años, meses y días faltan hasta que alcances tu edad objetivo de jubilación. Planifica con anticipación con una cuenta regresiva clara hacia tu fecha de jubilación."
+    }
+  ]
+}

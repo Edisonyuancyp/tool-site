@@ -1,0 +1,37 @@
+{
+  "slug": "palette-retro-film",
+  "name": "Retro Film Color Palette",
+  "tagline": "Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and worn-paper cream.",
+  "description": "Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and worn-paper cream.",
+  "metaTitle": "Retro Film Color Palette – HEX, CMYK, Tailwind & Pantone Reference",
+  "metaDescription": "Free retro film color palette with HEX codes, Tailwind CSS classes, CMYK values, and Pantone approximate references. Copy any color instantly.",
+  "keywords": [
+    "Retro Film color palette",
+    "Retro Film color scheme",
+    "Retro Film HEX codes",
+    "#D97706",
+    "#FDA4AF",
+    "#FEF3C7",
+    "Pantone matching",
+    "CMYK conversion",
+    "Web color palette",
+    "Tailwind CSS scheme"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/palette-retro-film",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Are the Pantone references exact matches?",
+      "answer": "No. Pantone codes shown are the closest visual approximations. For production print work, always verify against a physical Pantone Fan Deck."
+    },
+    {
+      "question": "How are CMYK values calculated?",
+      "answer": "CMYK values use the device-independent formula: K = 1 − max(R,G,B); C/M/Y derived from RGB ratios. Actual output depends on printer profile and paper."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

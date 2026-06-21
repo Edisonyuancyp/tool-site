@@ -1,0 +1,83 @@
+{
+  "slug": "bmi-calculator",
+  "name": "Calculadora de IMC",
+  "tagline": "Calcula tu Índice de Masa Corporal al instante",
+  "description": "Utiliza esta calculadora de IMC gratuita para encontrar tu Índice de Masa Corporal basado en tu altura y peso. Comprende tu categoría de peso — bajo peso, normal, sobrepeso u obesidad — en segundos.",
+  "metaTitle": "Calculadora de IMC – Calculadora de Índice de Masa Corporal en Línea Gratis",
+  "metaDescription": "Calcula tu IMC (Índice de Masa Corporal) al instante. Ingresa tu altura y peso para averiguar si tienes bajo peso, peso normal, sobrepeso u obesidad. Gratis, rápido, sin registro.",
+  "keywords": [
+    "calculadora de imc",
+    "calculadora de índice de masa corporal",
+    "fórmula de imc",
+    "calcular imc en línea",
+    "tabla de imc"
+  ],
+  "category": "Salud",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "¿Qué es el IMC?",
+      "answer": "El IMC (Índice de Masa Corporal) es una medida de la grasa corporal basada en la altura y el peso. Se calcula como el peso (kg) dividido por la altura (m) al cuadrado."
+    },
+    {
+      "question": "¿Cuál es el rango normal de IMC?",
+      "answer": "Un IMC entre 18.5 y 24.9 se considera peso normal. Por debajo de 18.5 es bajo peso, de 25 a 29.9 es sobrepeso, y 30 o más es obesidad."
+    },
+    {
+      "question": "¿Es el IMC preciso para todos?",
+      "answer": "El IMC es una herramienta de cribado útil, pero no mide la grasa corporal directamente. Puede no ser preciso para atletas, personas mayores o aquellos con alta masa muscular."
+    },
+    {
+      "question": "¿Cómo se calcula el IMC?",
+      "answer": "IMC = peso (kg) ÷ altura (m)². Por ejemplo, una persona que pesa 70 kg y mide 1.75 m tiene un IMC de 22.9."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "bmi-calculator-for-women",
+      "metaTitle": "Calculadora de IMC para Mujeres – Índice de Masa Corporal Femenino en Línea",
+      "metaDescription": "Calculadora de IMC adaptada para mujeres. Descubre si tu IMC es saludable según las pautas de composición corporal femenina. Gratis, instantáneo, sin registro.",
+      "keywords": [
+        "calculadora de imc para mujeres",
+        "calculadora de imc femenina",
+        "índice de masa corporal mujeres",
+        "tabla de imc para mujeres"
+      ],
+      "defaultVariant": "female",
+      "headline": "Calculadora de IMC optimizada para mujeres. La investigación muestra que las mujeres suelen tener un porcentaje de grasa corporal más alto que los hombres con el mismo IMC; utiliza esta herramienta para entender tu resultado en contexto."
+    },
+    {
+      "variantSlug": "bmi-calculator-imperial",
+      "metaTitle": "Calculadora de IMC en Libras y Pies – Calculadora de IMC en Unidades Imperiales",
+      "metaDescription": "Calcula el IMC utilizando libras y pies/pulgadas. Calculadora de IMC en unidades imperiales al instante — sin necesidad de conversión. Gratis y rápida.",
+      "keywords": [
+        "calculadora de imc libras pies",
+        "calculadora de imc imperial",
+        "imc en lbs y pulgadas",
+        "calculadora de imc USA"
+      ],
+      "defaultVariant": "imperial",
+      "headline": "Calcula tu IMC usando libras y pies — sin necesidad de conversión métrica. Ingresa tu peso en lbs y altura en ft/in para un resultado instantáneo."
+    },
+    {
+      "variantSlug": "bmi-calculator-for-kids",
+      "metaTitle": "Calculadora de IMC para Niños y Adolescentes – Calculadora de IMC Infantil",
+      "metaDescription": "Calcula el IMC para niños y adolescentes de 2 a 19 años. Utiliza percentiles de la tabla de crecimiento del CDC. Calculadora de IMC infantil gratuita, sin registro requerido.",
+      "keywords": [
+        "calculadora de imc para niños",
+        "calculadora de imc infantil",
+        "imc para niños",
+        "imc pediátrico",
+        "percentil de imc niños"
+      ],
+      "defaultVariant": "kids",
+      "headline": "Calculadora de IMC para niños y adolescentes (edades 2–19). A diferencia del IMC de adultos, los resultados de los niños se interpretan utilizando percentiles de tablas de crecimiento específicas de edad y género del CDC."
+    }
+  ]
+}

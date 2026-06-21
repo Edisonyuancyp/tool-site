@@ -1,0 +1,59 @@
+{
+  "slug": "ingredient-substitution-calculator",
+  "name": "Calculadora de Sustitución de Ingredientes",
+  "tagline": "Encuentra sustitutos para ingredientes que faltan.",
+  "description": "Descubre rápidamente ingredientes alternativos según lo que tengas a mano. Ideal para cocineros que necesitan improvisar mientras siguen una receta.",
+  "metaTitle": "Calculadora de Sustitución de Ingredientes – Alternativas de Cocina | Herramienta Gratuita en Línea",
+  "metaDescription": "Encuentra sustitutos de ingredientes al instante con nuestra herramienta gratuita. No se requiere registro.",
+  "keywords": [
+    "sustitución de ingredientes",
+    "alternativas de recetas",
+    "intercambios de ingredientes de cocina"
+  ],
+  "category": "Cooking",
+  "icon": "🥄",
+  "faqs": [
+    {
+      "question": "¿Cómo encuentro un sustituto para un ingrediente?",
+      "answer": "Ingresa el ingrediente que necesitas reemplazar y la calculadora sugerirá alternativas adecuadas."
+    },
+    {
+      "question": "¿Las sustituciones son siempre precisas?",
+      "answer": "La mayoría de las sugerencias son precisas, pero el sabor y la textura pueden variar según el sustituto utilizado."
+    },
+    {
+      "question": "¿Puedo sugerir nuevos sustitutos?",
+      "answer": "¡Sí! Agradecemos las sugerencias de los usuarios para mejorar nuestra base de datos de alternativas de ingredientes."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "budget-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "vegetarian-substitution-variant",
+      "metaTitle": "Sustitución de Ingredientes Vegetarianos",
+      "metaDescription": "Encuentra alternativas vegetarianas para tus recetas.",
+      "keywords": [
+        "sustitutos vegetarianos",
+        "intercambios de ingredientes a base de plantas",
+        "alternativas de cocina vegana"
+      ],
+      "defaultVariant": "vegetarian-variant-key",
+      "headline": "Descubre sustitutos a base de plantas para ingredientes comunes."
+    },
+    {
+      "variantSlug": "gluten-free-substitution-variant",
+      "metaTitle": "Sustitución de Ingredientes Sin Gluten",
+      "metaDescription": "Encuentra alternativas sin gluten para tus necesidades culinarias.",
+      "keywords": [
+        "sustitutos sin gluten",
+        "cocina sin gluten",
+        "alternativas al gluten"
+      ],
+      "defaultVariant": "gluten-free-variant-key",
+      "headline": "Encuentra fácilmente alternativas sin gluten para tus recetas favoritas."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "Calculateur de Retour sur Investissement",
+  "tagline": "Calculez le ROI, le CAGR et la valeur future de tout investissement",
+  "description": "Entrez votre investissement initial, le taux de rendement annuel et la durée pour calculer la valeur future, le rendement total, le ROI et le CAGR. Prend en charge les contributions mensuelles optionnelles. Fonctionne pour les actions, l'immobilier, les ETF et les comptes d'épargne.",
+  "metaTitle": "Calculateur de Retour sur Investissement – Calculateur de ROI, CAGR & Valeur Future",
+  "metaDescription": "Calculateur de retour sur investissement gratuit. Entrez le montant initial, le rendement annuel et les années pour calculer la valeur future, le ROI et le CAGR. Prend en charge les contributions mensuelles. Pas d'inscription.",
+  "keywords": [
+    "calculateur de retour sur investissement",
+    "calculateur de roi",
+    "calculateur de cagr",
+    "calculateur de valeur future",
+    "calculateur de croissance d'investissement",
+    "calculateur de rendement sur investissement"
+  ],
+  "category": "Finance",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que le ROI et comment est-il calculé ?",
+      "answer": "Le ROI (Retour sur Investissement) = (Valeur Finale − Investissement Initial) / Investissement Initial × 100 %. Par exemple, investir 10 000 $ qui passe à 15 000 $ donne un ROI = 50 %. Cela ne prend pas en compte le temps — utilisez le CAGR pour comparer des investissements de durées différentes."
+    },
+    {
+      "question": "Qu'est-ce que le CAGR ?",
+      "answer": "Le CAGR (Taux de Croissance Annuel Composé) est le taux annuel auquel un investissement aurait crû s'il avait augmenté à un taux constant. Formule : CAGR = (Valeur Finale / Valeur Initiale)^(1/années) − 1. C'est le meilleur chiffre unique pour comparer la performance des investissements."
+    },
+    {
+      "question": "Quel est un bon rendement annuel sur investissement ?",
+      "answer": "Le S&P 500 a en moyenne ~10 % par an (7 % après inflation) sur le long terme. L'immobilier rapporte généralement entre 8 et 12 % y compris le rendement locatif. Les comptes d'épargne à haut rendement offrent actuellement 4 à 5 %. Tout ce qui est au-dessus de 15 % de manière constante est exceptionnel."
+    },
+    {
+      "question": "Comment les contributions mensuelles affectent-elles les rendements d'investissement ?",
+      "answer": "Les contributions mensuelles augmentent considérablement la valeur finale car chaque contribution s'accumule également au fil du temps. Même de petites additions régulières (par exemple, 200 $/mois) peuvent doubler ou tripler votre solde final sur 20 à 30 ans par rapport à un investissement en une seule fois."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "roi-calculator",
+      "metaTitle": "Calculateur de ROI – Calculateur de Retour sur Investissement Gratuit en Ligne",
+      "metaDescription": "Calculateur de ROI gratuit. Entrez le coût de votre investissement et la valeur finale pour calculer instantanément le pourcentage de retour sur investissement. Fonctionne pour les actions, l'immobilier et tout actif.",
+      "keywords": [
+        "calculateur de roi",
+        "calculateur de retour sur investissement",
+        "calculer le roi",
+        "calculateur de profit d'investissement",
+        "calculateur de pourcentage de roi"
+      ],
+      "defaultVariant": "roi",
+      "headline": "Calculez votre Retour sur Investissement (ROI) instantanément. Entrez ce que vous avez payé, ce que cela vaut maintenant et combien de temps vous l'avez détenu — et obtenez le %, le rendement annualisé et le profit total."
+    },
+    {
+      "variantSlug": "cagr-calculator",
+      "metaTitle": "Calculateur de CAGR – Calculateur de Taux de Croissance Annuel Composé",
+      "metaDescription": "Calculateur de CAGR gratuit. Entrez la valeur de départ, la valeur finale et le nombre d'années pour calculer le Taux de Croissance Annuel Composé. Comparez la performance des investissements avec précision.",
+      "keywords": [
+        "calculateur de cagr",
+        "calculateur de taux de croissance annuel composé",
+        "calculateur de taux de croissance d'investissement",
+        "calculateur de rendement annualisé",
+        "calculateur de formule cagr"
+      ],
+      "defaultVariant": "cagr",
+      "headline": "Le CAGR (Taux de Croissance Annuel Composé) est le moyen le plus précis de comparer deux investissements de longueurs différentes. Entrez la valeur de départ, la valeur finale et les années pour obtenir le taux de croissance annualisé."
+    },
+    {
+      "variantSlug": "stock-investment-calculator",
+      "metaTitle": "Calculateur d'Investissement en Actions – Quelle sera la Valeur de Mes Actions ?",
+      "metaDescription": "Calculateur d'investissement en actions gratuit. Entrez le nombre d'actions, le prix d'achat et le rendement annuel attendu pour voir la valeur de votre portefeuille dans 5, 10 et 20 ans. Inclut la réinvestissement des dividendes.",
+      "keywords": [
+        "calculateur d'investissement en actions",
+        "calculateur de portefeuille d'actions",
+        "quelle sera la valeur de mes actions",
+        "calculateur de retour sur actions",
+        "calculateur d'investissement en actions"
+      ],
+      "defaultVariant": "stock",
+      "headline": "Projetez la valeur future d'un investissement en actions. Entrez le nombre d'actions, le prix d'achat, le rendement annuel attendu et le rendement des dividendes optionnel pour voir votre portefeuille dans 5, 10 et 20 ans."
+    },
+    {
+      "variantSlug": "real-estate-investment-calculator",
+      "metaTitle": "Calculateur d'Investissement Immobilier – Calculateur de ROI pour Propriété Locative",
+      "metaDescription": "Calculateur d'investissement immobilier gratuit. Entrez le prix de la propriété, le revenu locatif, les dépenses et le taux d'appréciation pour calculer le rendement locatif, le flux de trésorerie et le ROI total.",
+      "keywords": [
+        "calculateur d'investissement immobilier",
+        "calculateur de roi pour propriété locative",
+        "calculateur de rendement locatif",
+        "retour sur investissement immobilier",
+        "calculateur d'achat à louer"
+      ],
+      "defaultVariant": "real-estate",
+      "headline": "Calculez le retour total sur un investissement locatif. Entrez le prix d'achat, le loyer mensuel, les dépenses et l'appréciation attendue pour voir le rendement annuel, le flux de trésorerie mensuel et le ROI sur 10 ans."
+    }
+  ]
+}

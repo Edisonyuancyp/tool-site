@@ -1,0 +1,90 @@
+{
+  "slug": "tip-calculator",
+  "name": "Calculateur de Pourboire",
+  "tagline": "Calculez le montant du pourboire et partagez la note instantanément",
+  "description": "Entrez le total de votre facture, le pourcentage de pourboire et le nombre de personnes pour calculer instantanément le pourboire par personne et le total par personne. Prend en charge des pourcentages de pourboire personnalisés.",
+  "metaTitle": "Calculateur de Pourboire – Partagez la Note et Calculez le Pourboire Instantanément",
+  "metaDescription": "Calculateur de pourboire gratuit. Entrez le montant de la facture et le % de pourboire pour trouver le pourboire par personne et le total par personne. Parfait pour les restaurants, les taxis et les livraisons.",
+  "keywords": [
+    "calculateur de pourboire",
+    "calculateur de pourboire restaurant",
+    "partage de facture",
+    "combien donner de pourboire",
+    "calculateur de pourboire partage de facture"
+  ],
+  "category": "Finance",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "Quel est le pourcentage de pourboire standard ?",
+      "answer": "Aux États-Unis, 15 à 20 % est la norme pour le service en restaurant. 18 % est considéré comme le minimum pour un bon service ; 20 % ou plus pour un service excellent."
+    },
+    {
+      "question": "Comment partager la facture équitablement ?",
+      "answer": "Entrez le total de la facture, sélectionnez votre pourcentage de pourboire et entrez le nombre de personnes. Le calculateur montre exactement combien chaque personne doit payer, y compris le pourboire."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter",
+    "compound-interest-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "restaurant-tip-calculator",
+      "metaTitle": "Calculateur de Pourboire Restaurant – Combien Donner de Pourboire au Restaurant",
+      "metaDescription": "Calculez votre pourboire de restaurant instantanément. Entrez le montant de la facture et la qualité du service pour trouver le bon pourboire. Calculateur de pourboire restaurant gratuit.",
+      "keywords": [
+        "calculateur de pourboire restaurant",
+        "combien donner de pourboire au restaurant",
+        "calculateur de pourboire repas",
+        "calculateur de pourboire serveur",
+        "pourboire pour facture de restaurant"
+      ],
+      "defaultVariant": "restaurant",
+      "headline": "Calculez le pourboire parfait au restaurant. Choisissez 15 %, 18 %, 20 % ou personnalisé — et partagez équitablement entre tous les convives."
+    },
+    {
+      "variantSlug": "bill-splitter-calculator",
+      "metaTitle": "Calculateur de Partage de Facture – Partager Équitablement la Facture de Restaurant",
+      "metaDescription": "Partagez une facture de restaurant équitablement entre n'importe quel nombre de personnes. Inclut le calcul du pourboire. Calculateur de partage de facture gratuit — aucune application nécessaire.",
+      "keywords": [
+        "calculateur de partage de facture",
+        "calculateur de partage de note",
+        "partager facture restaurant",
+        "calculateur de division de facture",
+        "comment partager une facture"
+      ],
+      "defaultVariant": "split",
+      "headline": "Partagez n'importe quelle facture équitablement entre amis. Entrez le total, choisissez un pourcentage de pourboire et voyez exactement combien chaque personne paie."
+    },
+    {
+      "variantSlug": "delivery-tip-calculator",
+      "metaTitle": "Calculateur de Pourboire de Livraison – Combien Donner de Pourboire au Livreur de Nourriture",
+      "metaDescription": "Calculateur de pourboire de livraison gratuit. Découvrez combien donner de pourboire à votre livreur DoorDash, Uber Eats ou Grubhub en fonction du total de la commande et de la distance de livraison. La norme est de 15 à 20 %.",
+      "keywords": [
+        "calculateur de pourboire de livraison",
+        "combien donner de pourboire au livreur",
+        "calculateur de pourboire doordash",
+        "calculateur de pourboire uber eats",
+        "pourboire livraison de nourriture"
+      ],
+      "defaultVariant": "delivery",
+      "headline": "Donner un pourboire aux livreurs de nourriture est standard — généralement 15 à 20 % du total de la commande, ou un minimum de 3 à 5 $ pour les petites commandes. Entrez le total de votre commande et voyez la fourchette de pourboire recommandée pour la livraison."
+    },
+    {
+      "variantSlug": "taxi-tip-calculator",
+      "metaTitle": "Calculateur de Pourboire Taxi & Uber – Combien Donner de Pourboire à Votre Conducteur",
+      "metaDescription": "Calculateur de pourboire taxi et covoiturage gratuit. Entrez votre tarif pour savoir combien donner de pourboire à un conducteur Uber, Lyft ou taxi. Le pourboire standard est de 15 à 20 % pour le covoiturage.",
+      "keywords": [
+        "calculateur de pourboire taxi",
+        "calculateur de pourboire uber",
+        "calculateur de pourboire lyft",
+        "calculateur de pourboire covoiturage",
+        "combien donner de pourboire au conducteur de taxi"
+      ],
+      "defaultVariant": "taxi",
+      "headline": "Vous ne savez pas combien donner de pourboire à votre conducteur Uber, Lyft ou taxi ? Entrez le tarif et ce calculateur montre la fourchette de pourboire standard (15 à 20 %) et les montants exacts pour que vous n'ayez jamais à faire le calcul."
+    }
+  ]
+}

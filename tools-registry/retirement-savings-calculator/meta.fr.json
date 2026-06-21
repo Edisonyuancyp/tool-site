@@ -1,0 +1,100 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "Calculateur d'épargne retraite",
+  "tagline": "Découvrez combien vous devez épargner pour prendre votre retraite confortablement",
+  "description": "Entrez votre âge actuel, vos économies, vos contributions mensuelles et votre taux de rendement attendu pour voir si vous êtes sur la bonne voie pour la retraite. Affiche le capital projeté à 65 ans, le revenu mensuel à la retraite et si vous avez un écart d'épargne.",
+  "metaTitle": "Calculateur d'épargne retraite – Est-ce que j'économise suffisamment pour ma retraite ?",
+  "metaDescription": "Calculateur d'épargne retraite gratuit. Entrez votre âge, vos économies actuelles et vos contributions mensuelles pour voir votre capital projeté à la retraite et votre revenu mensuel. Aucune inscription nécessaire.",
+  "keywords": [
+    "calculateur d'épargne retraite",
+    "calculateur de retraite",
+    "combien épargner pour la retraite",
+    "calculateur de capital retraite",
+    "calculateur de planification retraite",
+    "est-ce que j'économise suffisamment pour la retraite"
+  ],
+  "category": "Finance",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Combien devrais-je avoir économisé pour la retraite selon mon âge ?",
+      "answer": "La règle empirique de Fidelity : 1× salaire à 30 ans, 3× à 40 ans, 6× à 50 ans, 8× à 60 ans et 10× à 67 ans. Donc, si vous gagnez 60 000 $, vous devriez avoir 600 000 $ économisés à 67 ans. Ce sont des directives — votre chiffre réel dépend de votre style de vie souhaité à la retraite."
+    },
+    {
+      "question": "Quelle est la règle des 4 % pour la retraite ?",
+      "answer": "La règle des 4 % suggère que vous pouvez retirer en toute sécurité 4 % de votre portefeuille de retraite chaque année sans manquer d'argent sur une période de retraite de 30 ans. Donc, si vous avez besoin de 50 000 $/an, vous devez avoir 1,25 M $ économisés (50 000 $ ÷ 0,04)."
+    },
+    {
+      "question": "Quel taux de rendement devrais-je utiliser ?",
+      "answer": "Le S&P 500 a historiquement rapporté environ 7 % par an après inflation. Pour une estimation conservatrice, utilisez 5–6 % ; pour une projection optimiste, utilisez 8–10 %. Le calculateur utilise 7 % par défaut."
+    },
+    {
+      "question": "Que se passe-t-il si je commence à épargner tard ?",
+      "answer": "Commencer plus tard signifie que vous devez épargner plus agressivement. Utilisez ce calculateur pour trouver la contribution mensuelle nécessaire pour atteindre votre objectif. Les leviers clés sont d'augmenter les contributions, de retarder la retraite de quelques années ou de réduire les dépenses prévues à la retraite."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "401k-calculator",
+      "metaTitle": "Calculateur 401(k) – Combien vaudra mon 401(k) à la retraite ?",
+      "metaDescription": "Calculateur 401(k) gratuit. Entrez votre salaire, pourcentage de contribution, correspondance de l'employeur et années jusqu'à la retraite pour voir votre solde projeté de 401(k). Inclut le calcul de la correspondance de l'employeur.",
+      "keywords": [
+        "calculateur 401k",
+        "calculateur de retraite 401k",
+        "combien vaudra mon 401k",
+        "calculateur de contribution 401k",
+        "calculateur de correspondance employeur 401k"
+      ],
+      "defaultVariant": "401k",
+      "headline": "Projetez votre solde 401(k) à la retraite. Entrez votre salaire, votre pourcentage de contribution et la correspondance de votre employeur pour voir comment votre compte de retraite en milieu de travail croît année après année."
+    },
+    {
+      "variantSlug": "roth-ira-calculator",
+      "metaTitle": "Calculateur Roth IRA – Combien va croître mon Roth IRA ?",
+      "metaDescription": "Calculateur Roth IRA gratuit. Entrez vos contributions annuelles et les années jusqu'à la retraite pour voir la croissance sans impôt. Affiche le solde projeté et le montant de retrait sans impôt à la retraite.",
+      "keywords": [
+        "calculateur roth ira",
+        "calculateur de croissance roth ira",
+        "calculateur de retraite roth ira",
+        "combien vaudra mon roth ira",
+        "calculateur de contribution roth ira"
+      ],
+      "defaultVariant": "roth-ira",
+      "headline": "Les contributions Roth IRA croissent sans impôt et les retraits à la retraite sont également sans impôt. Entrez votre contribution annuelle et voyez à quel point la capitalisation sans impôt est puissante sur des décennies."
+    },
+    {
+      "variantSlug": "early-retirement-calculator",
+      "metaTitle": "Calculateur de retraite anticipée – Calculateur FIRE (Indépendance financière)",
+      "metaDescription": "Calculateur FIRE gratuit. Découvrez quand vous pouvez prendre votre retraite anticipée en fonction de votre taux d'épargne et de votre valeur nette actuelle. Utilise la règle de retrait sûr de 4 %. Calculateur d'indépendance financière.",
+      "keywords": [
+        "calculateur de retraite anticipée",
+        "calculateur fire",
+        "calculateur d'indépendance financière",
+        "calculateur de retraite anticipée",
+        "quand puis-je prendre ma retraite"
+      ],
+      "defaultVariant": "fire",
+      "headline": "Le mouvement FIRE (Indépendance financière, Retraite anticipée) repose sur un principe : épargnez 25 fois vos dépenses annuelles et vous pouvez prendre votre retraite — à tout âge. Entrez vos chiffres pour trouver votre date FIRE."
+    },
+    {
+      "variantSlug": "retirement-income-calculator",
+      "metaTitle": "Calculateur de revenu de retraite – Quel sera mon revenu mensuel ?",
+      "metaDescription": "Calculateur de revenu de retraite gratuit. Entrez votre capital et voyez combien de revenu mensuel vous pouvez retirer en toute sécurité à la retraite en utilisant la règle des 4 %. Aucune inscription requise.",
+      "keywords": [
+        "calculateur de revenu de retraite",
+        "quel revenu de retraite",
+        "calculateur de revenu mensuel de retraite",
+        "calculateur de retrait retraite",
+        "calculateur de taux de retrait sûr"
+      ],
+      "defaultVariant": "income",
+      "headline": "Transformez votre capital de retraite en un chiffre de revenu mensuel. Entrez vos économies projetées à la retraite et voyez combien vous pouvez retirer en toute sécurité chaque mois sans manquer d'argent."
+    }
+  ]
+}

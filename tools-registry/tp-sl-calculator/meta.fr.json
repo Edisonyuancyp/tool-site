@@ -1,0 +1,80 @@
+{
+  "slug": "tp-sl-calculator",
+  "name": "Calculateur de Take Profit / Stop Loss",
+  "tagline": "Calculez votre PnL exact, votre ratio R:R et votre prix de liquidation avant de trader",
+  "description": "Entrez votre prix d'entrée, votre effet de levier et votre marge pour calculer instantanément le PnL pour jusqu'à 3 niveaux de take profit et un stop loss. Affiche le ratio Risque:Rendement et le prix de liquidation estimé. Fonctionne pour les positions longues et courtes.",
+  "metaTitle": "Calculateur de Take Profit Stop Loss – PnL & Ratio R:R pour le Trading Crypto",
+  "metaDescription": "Calculateur TP/SL gratuit pour les traders crypto. Entrez le prix d'entrée, l'effet de levier et la marge pour calculer le PnL de take profit et de stop loss, le ratio risque/rendement et le prix de liquidation.",
+  "keywords": [
+    "calculateur take profit stop loss",
+    "calculateur tp sl crypto",
+    "calculateur ratio risque rendement",
+    "calculateur pnl crypto",
+    "calculateur trading avec effet de levier"
+  ],
+  "category": "Crypto",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que le ratio Risque:Rendement (R:R) ?",
+      "answer": "Le ratio R:R compare votre profit potentiel à votre perte potentielle. Un ratio de 1:2 signifie que pour chaque 1 $ risqué, vous pouvez gagner 2 $. Les traders professionnels prennent généralement des positions avec un R:R de 1:2 ou plus."
+    },
+    {
+      "question": "Comment est calculé le prix de liquidation ?",
+      "answer": "L'estimation suppose que vous perdez 100 % de votre marge lorsque le prix évolue contre vous de (1/effet de levier). Avec un effet de levier de 10×, un mouvement défavorable de 10 % liquide votre position."
+    },
+    {
+      "question": "Cela fonctionne-t-il pour le trading au comptant et à terme ?",
+      "answer": "Pour le trading au comptant, définissez l'effet de levier à 1×. Pour les contrats à terme (long ou court), entrez l'effet de levier fourni par votre plateforme d'échange."
+    }
+  ],
+  "relatedTools": [
+    "position-size-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "crypto-pnl-calculator",
+      "metaTitle": "Calculateur PnL Crypto – Calculateur de Profit et Perte pour Crypto",
+      "metaDescription": "Calculez votre profit et perte sur n'importe quel trade crypto. Entrez le prix d'achat, le prix de vente et le montant pour trouver le PnL exact en USD et en pourcentage. Calculateur PnL crypto gratuit.",
+      "keywords": [
+        "calculateur pnl crypto",
+        "calculateur profit perte crypto",
+        "calculateur pnl bitcoin",
+        "calculateur profit trade crypto",
+        "calculer profit crypto"
+      ],
+      "defaultVariant": "pnl",
+      "headline": "Calculez le profit ou la perte exact sur n'importe quel trade crypto. Entrez votre prix d'entrée, prix de sortie et taille de position pour voir le PnL en USD et en pourcentage."
+    },
+    {
+      "variantSlug": "risk-reward-calculator",
+      "metaTitle": "Calculateur de Ratio Risque Rendement – Calculateur R:R pour le Trading",
+      "metaDescription": "Calculez le ratio risque/rendement pour n'importe quel trade. Entrez l'entrée, le stop loss et le take profit pour trouver instantanément votre ratio R:R. Calculateur de risque/rendement gratuit.",
+      "keywords": [
+        "calculateur ratio risque rendement",
+        "calculateur ratio rr",
+        "trading risque rendement",
+        "calculer risque rendement",
+        "calculateur risque trading"
+      ],
+      "defaultVariant": "rr",
+      "headline": "Calculez le ratio risque/rendement pour n'importe quel trade avant d'entrer. Les traders professionnels ne prennent que des trades avec un R:R ≥ 1:2 — découvrez si votre configuration est valide."
+    },
+    {
+      "variantSlug": "futures-liquidation-price-calculator",
+      "metaTitle": "Calculateur de Prix de Liquidation à Terme – Liquidation avec Effet de Levier Crypto",
+      "metaDescription": "Calculez votre prix de liquidation pour le trading à terme avec effet de levier. Entrez le prix d'entrée et l'effet de levier pour savoir quand votre position sera liquidée. Calculateur de liquidation gratuit.",
+      "keywords": [
+        "calculateur prix de liquidation",
+        "calculateur liquidation crypto",
+        "prix de liquidation à terme",
+        "calculateur liquidation effet de levier",
+        "prix de liquidation binance"
+      ],
+      "defaultVariant": "liquidation",
+      "headline": "Calculez le prix exact auquel votre position à terme avec effet de levier sera liquidée. Connaissez votre prix de liquidation avant d'entrer dans un trade avec effet de levier."
+    }
+  ]
+}

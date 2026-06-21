@@ -1,0 +1,60 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "Calculadora de Prioridad de Tareas",
+  "tagline": "Clasifica tus tareas para máxima eficiencia",
+  "description": "Esta herramienta te ayuda a priorizar tus tareas diarias según su urgencia e importancia. Ideal para profesionales y estudiantes que buscan optimizar sus listas de tareas.",
+  "metaTitle": "Prioridad de Tareas – Herramienta de Productividad | Herramienta en Línea Gratuita",
+  "metaDescription": "Utiliza nuestra calculadora de prioridad de tareas gratuita para clasificar tus tareas por urgencia e importancia y mejorar tu productividad. Sin registro, resultados instantáneos.",
+  "keywords": [
+    "prioridad de tareas",
+    "herramienta de clasificación de tareas",
+    "tareas urgentes",
+    "tareas importantes",
+    "calculadora de productividad"
+  ],
+  "category": "Productividad",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "¿Cómo funciona la calculadora?",
+      "answer": "Ingresas tus tareas con calificaciones de urgencia e importancia, y la calculadora las clasifica por ti."
+    },
+    {
+      "question": "¿Es realmente gratuita?",
+      "answer": "Sí, esta herramienta es completamente gratuita, sin tarifas ocultas ni necesidad de registro."
+    },
+    {
+      "question": "¿Puedo usarla para tareas en equipo?",
+      "answer": "¡Absolutamente! Puedes usar esta herramienta tanto para la priorización de tareas personales como de equipo."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": [
+    {
+      "variantSlug": "team-task-priority",
+      "metaTitle": "Calculadora de Prioridad de Tareas en Equipo",
+      "metaDescription": "Prioriza las tareas del equipo de manera eficiente con nuestra herramienta gratuita.",
+      "keywords": [
+        "tareas en equipo",
+        "colaboración",
+        "gestión de tareas"
+      ],
+      "defaultVariant": "team-key",
+      "headline": "Optimiza la gestión de tareas de tu equipo con esta variante."
+    },
+    {
+      "variantSlug": "personal-task-priority",
+      "metaTitle": "Calculadora de Prioridad de Tareas Personales",
+      "metaDescription": "Enfócate en tareas personales con nuestra herramienta fácil de usar.",
+      "keywords": [
+        "tareas personales",
+        "productividad individual"
+      ],
+      "defaultVariant": "personal-key",
+      "headline": "Perfecta para gestionar y priorizar tus tareas personales."
+    }
+  ]
+}

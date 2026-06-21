@@ -1,0 +1,80 @@
+{
+  "slug": "json-csv-formatter",
+  "name": "Formateur / Validateur JSON & CSV",
+  "tagline": "Formatez, validez et convertissez JSON et CSV instantanément dans votre navigateur",
+  "description": "Collez du JSON brut pour le formater avec une indentation de 2 espaces ou le minifier, avec validation en temps réel. Collez du CSV pour normaliser les guillemets/délimiteurs, ou convertissez le CSV en tableau JSON. Prend en charge les délimiteurs de virgule, point-virgule, tabulation et barre verticale.",
+  "metaTitle": "Formateur & Validateur JSON CSV – Beautificateur JSON en ligne & Convertisseur CSV",
+  "metaDescription": "Formateur JSON en ligne gratuit, validateur et formateur CSV. Collez du JSON pour le beautifier ou le minifier. Collez du CSV pour le formater ou le convertir en JSON. Prend en charge tous les délimiteurs. Exclusivement dans le navigateur.",
+  "keywords": [
+    "formateur json en ligne",
+    "validateur json",
+    "formateur csv en ligne",
+    "beautificateur json",
+    "convertisseur csv en json"
+  ],
+  "category": "Développeur",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "Que fait le formatage JSON ?",
+      "answer": "Le formatage JSON (embellissement) ajoute une indentation et des sauts de ligne cohérents pour rendre le JSON compact lisible par un humain. La minification supprime tous les espaces pour réduire la taille du fichier."
+    },
+    {
+      "question": "Mes données sont-elles envoyées à un serveur ?",
+      "answer": "Non. Tout le formatage et la validation se font entièrement dans votre navigateur. Vos données ne quittent jamais votre appareil."
+    },
+    {
+      "question": "Quels délimiteurs CSV sont pris en charge ?",
+      "answer": "Virgule (,), point-virgule (;), tabulation (TSV) et barre verticale (|). L'outil gère également les champs cités selon la norme RFC 4180 et les guillemets échappés."
+    }
+  ],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "json-formatter-online",
+      "metaTitle": "Formateur JSON en ligne – Beautifiez & Imprimez joliment JSON",
+      "metaDescription": "Formatez et embellissez JSON en ligne instantanément. Imprimez joliment JSON avec une indentation appropriée. Formateur JSON gratuit — validez, formatez et copiez. Exclusivement dans le navigateur.",
+      "keywords": [
+        "formateur json en ligne",
+        "beautificateur json",
+        "impression jolie json",
+        "formater json en ligne",
+        "imprimante json jolie"
+      ],
+      "defaultVariant": "json-format",
+      "headline": "Collez du JSON minifié ou désordonné pour le formater instantanément avec une indentation appropriée. Valide également votre JSON et signale les erreurs de syntaxe."
+    },
+    {
+      "variantSlug": "json-validator-online",
+      "metaTitle": "Validateur JSON en ligne – Vérifiez si le JSON est valide",
+      "metaDescription": "Validez JSON en ligne instantanément. Vérifiez si votre JSON est valide, trouvez les erreurs de syntaxe et voyez la structure. Validateur JSON gratuit — exclusivement dans le navigateur.",
+      "keywords": [
+        "validateur json en ligne",
+        "valider json",
+        "vérifier la syntaxe json",
+        "mon json est-il valide",
+        "vérificateur de syntaxe json"
+      ],
+      "defaultVariant": "json-validate",
+      "headline": "Collez n'importe quel JSON pour le valider instantanément. Le validateur montre exactement où se produisent les erreurs de syntaxe et compte les clés et les objets imbriqués."
+    },
+    {
+      "variantSlug": "csv-to-json-converter",
+      "metaTitle": "Convertisseur CSV en JSON – Convertissez un fichier CSV en JSON en ligne",
+      "metaDescription": "Convertissez CSV en JSON en ligne instantanément. Collez vos données CSV et obtenez un tableau JSON propre. Convertisseur CSV en JSON gratuit — prend en charge tous les délimiteurs, exclusivement dans le navigateur.",
+      "keywords": [
+        "convertisseur csv en json",
+        "convertir csv en json",
+        "csv json en ligne",
+        "csv en tableau json",
+        "csv en json gratuit"
+      ],
+      "defaultVariant": "csv-json",
+      "headline": "Convertissez n'importe quel fichier ou données CSV en tableau JSON. Prend en charge les délimiteurs de virgule, point-virgule, tabulation et barre verticale. Chaque ligne devient un objet JSON avec les noms de colonnes comme clés."
+    }
+  ]
+}

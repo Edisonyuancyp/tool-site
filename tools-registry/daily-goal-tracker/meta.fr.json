@@ -1,0 +1,59 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "Suivi des Objectifs Quotidiens",
+  "tagline": "Définissez et suivez facilement vos objectifs quotidiens",
+  "description": "Cet outil vous permet de définir, suivre et évaluer vos objectifs quotidiens pour améliorer votre productivité. Idéal pour quiconque souhaite rester concentré et accomplir davantage chaque jour.",
+  "metaTitle": "Suivi des Objectifs Quotidiens – Outil de Productivité | Outil en Ligne Gratuit",
+  "metaDescription": "Suivez vos objectifs quotidiens avec notre outil en ligne gratuit pour une meilleure productivité. Aucune inscription requise, obtenez des résultats instantanés.",
+  "keywords": [
+    "suivi des objectifs quotidiens",
+    "outil de définition d'objectifs",
+    "objectifs de productivité",
+    "réalisations quotidiennes",
+    "suivre les progrès"
+  ],
+  "category": "Productivité",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "Quels types d'objectifs puis-je suivre ?",
+      "answer": "Vous pouvez suivre tout type d'objectifs personnels ou professionnels, des objectifs de fitness aux projets de travail."
+    },
+    {
+      "question": "Y a-t-il une limite au nombre d'objectifs ?",
+      "answer": "Non, vous pouvez définir autant d'objectifs que vous le souhaitez chaque jour."
+    },
+    {
+      "question": "Puis-je revoir mes objectifs passés ?",
+      "answer": "Oui, vous pouvez accéder à vos objectifs passés et à leur statut pour réflexion."
+    }
+  ],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "weekly-goal-tracker",
+      "metaTitle": "Suivi des Objectifs Hebdomadaires",
+      "metaDescription": "Définissez et suivez vos objectifs sur une base hebdomadaire.",
+      "keywords": [
+        "objectifs hebdomadaires",
+        "suivre les progrès hebdomadaires"
+      ],
+      "defaultVariant": "weekly-key",
+      "headline": "Élargissez votre suivi aux objectifs hebdomadaires pour des aperçus plus larges."
+    },
+    {
+      "variantSlug": "monthly-goal-tracker",
+      "metaTitle": "Suivi des Objectifs Mensuels",
+      "metaDescription": "Surveillez vos objectifs mensuels en toute simplicité.",
+      "keywords": [
+        "objectifs mensuels",
+        "suivi à long terme"
+      ],
+      "defaultVariant": "monthly-key",
+      "headline": "Parfait pour ceux qui préfèrent un aperçu mensuel de leurs objectifs."
+    }
+  ]
+}

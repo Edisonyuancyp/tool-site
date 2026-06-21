@@ -1,0 +1,81 @@
+{
+  "slug": "text-case-converter",
+  "name": "Convertidor de Casos de Texto",
+  "tagline": "Convierte texto a mayúsculas, minúsculas, formato de título, camelCase y más",
+  "description": "Convierte cualquier texto entre mayúsculas, minúsculas, formato de título, formato de oración, camelCase, PascalCase, snake_case, kebab-case y más. Incluye copia con un clic.",
+  "metaTitle": "Convertidor de Casos de Texto – Mayúsculas, Minúsculas, Título, Camel, Snake Case en Línea",
+  "metaDescription": "Convertidor de casos de texto gratuito. Convierte texto a MAYÚSCULAS, minúsculas, Formato de Título, camelCase, PascalCase, snake_case, kebab-case al instante. Copia con un clic.",
+  "keywords": [
+    "convertidor de casos de texto",
+    "convertidor a mayúsculas",
+    "convertidor a minúsculas",
+    "convertidor a camelcase",
+    "convertidor a snake case",
+    "convertidor a formato de título"
+  ],
+  "category": "Utilities",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "¿Qué es camelCase?",
+      "answer": "camelCase une palabras sin espacios, capitalizando cada palabra excepto la primera. Se utiliza en nombres de variables de JavaScript: firstName, totalAmount."
+    },
+    {
+      "question": "¿Qué es snake_case?",
+      "answer": "snake_case utiliza guiones bajos entre palabras, todo en minúsculas. Común en Python y nombres de columnas de bases de datos: first_name, total_amount."
+    },
+    {
+      "question": "¿Qué es el formato de título?",
+      "answer": "El formato de título capitaliza la primera letra de cada palabra importante. Se utiliza en títulos de artículos y encabezados: 'El rápido zorro marrón'."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "diff-checker",
+    "emoji-picker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "camelcase-converter",
+      "metaTitle": "Convertidor camelCase – Convierte Texto a camelCase en Línea",
+      "metaDescription": "Convierte cualquier texto a camelCase al instante. Convertidor camelCase gratuito en línea para desarrolladores de JavaScript, Java y API. Pega el texto y copia el resultado.",
+      "keywords": [
+        "convertidor camelcase",
+        "texto a camelcase",
+        "convertir a camelcase",
+        "generador camelcase",
+        "camelcase en línea"
+      ],
+      "defaultVariant": "camel",
+      "headline": "Convierte texto a camelCase — la convención de nomenclatura estándar para variables de JavaScript, claves JSON y propiedades de objetos. Pega cualquier texto y copia el resultado al instante."
+    },
+    {
+      "variantSlug": "snake-case-converter",
+      "metaTitle": "Convertidor snake_case – Convierte Texto a snake_case en Línea",
+      "metaDescription": "Convierte cualquier texto a snake_case al instante. Convertidor snake_case gratuito en línea para desarrolladores de Python, SQL y bases de datos.",
+      "keywords": [
+        "convertidor snake case",
+        "texto a snake case",
+        "convertir a snake_case",
+        "generador snake_case",
+        "convertidor a guiones bajos"
+      ],
+      "defaultVariant": "snake",
+      "headline": "Convierte texto a snake_case — la convención de nomenclatura estándar para variables de Python, columnas SQL y nombres de archivos. Pega texto y copia el resultado."
+    },
+    {
+      "variantSlug": "title-case-converter",
+      "metaTitle": "Convertidor de Formato de Título – Capitaliza Formato de Título en Línea Gratis",
+      "metaDescription": "Convierte texto a un formato de título adecuado al instante. Sigue las reglas de capitalización de títulos de AP, APA y Chicago. Convertidor de formato de título gratuito en línea.",
+      "keywords": [
+        "convertidor de formato de título",
+        "herramienta de capitalización de título",
+        "capitalizar título en línea",
+        "generador de formato de título",
+        "formato de título adecuado"
+      ],
+      "defaultVariant": "title",
+      "headline": "Convierte texto a Formato de Título siguiendo las reglas estándar de capitalización. Perfecto para títulos de publicaciones de blog, encabezados de artículos y títulos de libros."
+    }
+  ]
+}

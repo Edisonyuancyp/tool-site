@@ -1,0 +1,33 @@
+{
+  "slug": "group-trip-cost-splitter",
+  "name": "Divisor de Costos de Viaje en Grupo",
+  "tagline": "Divide los costos del viaje entre amigos fácilmente.",
+  "description": "Ingresa tus gastos totales del viaje y el número de viajeros para ver cuánto debe cada persona. Perfecto para grupos que planean vacaciones juntos sin la molestia de rastrear gastos individuales.",
+  "metaTitle": "Divisor de Costos de Viaje en Grupo – Compartición Justa de Gastos de Viaje | Herramienta Gratuita en Línea",
+  "metaDescription": "Divide fácilmente los costos de tu viaje en grupo de forma gratuita, sin necesidad de registrarte. ¡Obtén resultados de compartición de gastos justos al instante!",
+  "keywords": [
+    "divisor de costos de viaje en grupo",
+    "calculadora de compartición de gastos",
+    "calculadora de costos de viaje",
+    "viajar con amigos",
+    "herramienta de compartición de costos"
+  ],
+  "category": "Travel",
+  "icon": "👥",
+  "faqs": [
+    {
+      "question": "¿Cómo uso el divisor de costos?",
+      "answer": "Ingresa tus gastos totales del viaje y el número de viajeros para calcular las partes individuales."
+    },
+    {
+      "question": "¿Puedo agregar diferentes tipos de gastos?",
+      "answer": "Actualmente, la herramienta calcula una división total basada en un monto de gasto ingresado."
+    },
+    {
+      "question": "¿Esta herramienta es gratuita?",
+      "answer": "Sí, el Divisor de Costos de Viaje en Grupo es completamente gratuito para usar."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

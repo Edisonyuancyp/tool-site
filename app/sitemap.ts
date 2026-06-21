@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { mergeWithRegistry } from "@/lib/tools";
-import { registryToToolMetas, getRegistrySlugs } from "@/lib/registry";
+import { registryToToolMetas, getRegistryTools } from "@/lib/registry";
 
 export const dynamic = "force-static";
 
@@ -17,39 +17,69 @@ const HIGH_PRIORITY = new Set([
   "water-intake-calculator", "running-pace-calculator",
 ]);
 
+/** Mirrors generate_tool.py CATEGORY_URL_PREFIX */
+const CATEGORY_URL_PREFIX: Record<string, string> = {
+  Finance:       "calc",
+  Math:          "calc",
+  Health:        "calc",
+  Crypto:        "calc",
+  Design:        "design",
+  Generators:    "design",
+  Developer:     "dev",
+  Text:          "dev",
+  Security:      "dev",
+  "Date & Time": "time",
+};
+
+function toolUrl(slug: string, category: string): string {
+  const prefix = CATEGORY_URL_PREFIX[category];
+  return prefix
+    ? `${BASE}/tools/${prefix}/${slug}`
+    : `${BASE}/tools/${slug}`;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const allTools = mergeWithRegistry(registryToToolMetas());
-  const categories = [...new Set(allTools.map((t) => t.category))];
 
-  const categoryPages: MetadataRoute.Sitemap = categories.map((cat) => ({
-    url: `${BASE}/?category=${encodeURIComponent(cat)}`,
+  // ── Category index pages (one per unique prefix, e.g. /tools/calc) ─────────
+  const usedPrefixes = new Set<string>();
+  for (const tool of allTools) {
+    const prefix = CATEGORY_URL_PREFIX[tool.category];
+    if (prefix) usedPrefixes.add(prefix);
+  }
+  const categoryIndexPages: MetadataRoute.Sitemap = [...usedPrefixes].map((prefix) => ({
+    url: `${BASE}/tools/${prefix}`,
     lastModified: now,
     changeFrequency: "weekly" as const,
-    priority: 0.7,
+    priority: 0.8,
   }));
 
+  // ── Individual tool pages, grouped under category prefix ──────────────────
   const toolPages: MetadataRoute.Sitemap = allTools.map((tool) => ({
-    url: `${BASE}/tools/${tool.slug}`,
+    url: toolUrl(tool.slug, tool.category),
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: HIGH_PRIORITY.has(tool.slug) ? 0.9 : 0.8,
   }));
 
-  // Variant slugs from registry (SEO matrix pages)
-  const variantSlugs = getRegistrySlugs().filter(
-    (s) => !allTools.find((t) => t.slug === s)
+  // ── Variant pages (SEO matrix) — inherit the base tool's category ─────────
+  const registryMetas = getRegistryTools();
+  const baseSlugs = new Set(allTools.map((t) => t.slug));
+  const variantPages: MetadataRoute.Sitemap = registryMetas.flatMap((meta) =>
+    meta.variants
+      .filter((v) => !baseSlugs.has(v.variantSlug))
+      .map((v) => ({
+        url: toolUrl(v.variantSlug, meta.category),
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: 0.75,
+      }))
   );
-  const variantPages: MetadataRoute.Sitemap = variantSlugs.map((slug) => ({
-    url: `${BASE}/tools/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.75,
-  }));
 
   return [
     { url: BASE, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
-    ...categoryPages,
+    ...categoryIndexPages,
     ...toolPages,
     ...variantPages,
   ];

@@ -1,0 +1,60 @@
+{
+  "slug": "cooking-time-calculator",
+  "name": "Calculadora de Tiempo de Cocción",
+  "tagline": "Calcula los tiempos de cocción fácilmente.",
+  "description": "Determina el tiempo de cocción ideal para varios tipos de carne y platos según el peso y el método de cocción. Perfecto para cocineros caseros que buscan evitar la cocción insuficiente o excesiva de sus comidas.",
+  "metaTitle": "Calculadora de Tiempo de Cocción – Tiempos de Cocción Ideales | Herramienta Online Gratuita",
+  "metaDescription": "Utiliza nuestra calculadora de tiempo de cocción para obtener tiempos de cocción precisos. Herramienta gratuita, sin registro, resultados instantáneos.",
+  "keywords": [
+    "calculadora de tiempo de cocción",
+    "tiempo de cocción de carne",
+    "tiempos de cocción de recetas",
+    "duración de cocción ideal"
+  ],
+  "category": "Cocina",
+  "icon": "⏲️",
+  "faqs": [
+    {
+      "question": "¿Cómo uso la calculadora de tiempo de cocción?",
+      "answer": "Simplemente ingresa el tipo de carne o plato, su peso y selecciona el método de cocción para obtener el tiempo de cocción ideal."
+    },
+    {
+      "question": "¿Es precisa esta calculadora para todas las recetas?",
+      "answer": "Aunque proporciona una excelente guía, los tiempos de cocción pueden variar según recetas específicas y equipos."
+    },
+    {
+      "question": "¿Puedo usar esto también para hornear?",
+      "answer": "Esta herramienta se centra principalmente en la cocción de carne y platos principales, pero puede ofrecer información para algunos productos horneados."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "meat-cooking-time-variant",
+      "metaTitle": "Calculadora de Tiempo de Cocción de Carne",
+      "metaDescription": "Calcula tiempos de cocción precisos para varias carnes.",
+      "keywords": [
+        "tiempos de cocción de carne",
+        "calculadora de cocción de aves",
+        "duración de cocción de res"
+      ],
+      "defaultVariant": "meat-variant-key",
+      "headline": "Obtén tiempos de cocción precisos para todo tipo de carne."
+    },
+    {
+      "variantSlug": "baking-time-variant",
+      "metaTitle": "Calculadora de Tiempo de Horneado",
+      "metaDescription": "Calcula tiempos de horneado para pasteles, galletas y pan.",
+      "keywords": [
+        "calculadora de tiempo de horneado",
+        "duración de horneado de pasteles",
+        "tiempos de horneado de galletas"
+      ],
+      "defaultVariant": "baking-variant-key",
+      "headline": "Calcula los tiempos de horneado perfectos para tus delicias favoritas."
+    }
+  ]
+}

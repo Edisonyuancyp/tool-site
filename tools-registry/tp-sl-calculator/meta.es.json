@@ -1,0 +1,80 @@
+{
+  "slug": "tp-sl-calculator",
+  "name": "Calculadora de Take Profit / Stop Loss",
+  "tagline": "Calcula tu PnL exacto, la relación R:R y el precio de liquidación antes de operar",
+  "description": "Ingresa tu precio de entrada, apalancamiento y margen para calcular instantáneamente el PnL para hasta 3 niveles de take profit y un stop loss. Muestra la relación Riesgo:Recompensa y el precio de liquidación estimado. Funciona para posiciones largas y cortas.",
+  "metaTitle": "Calculadora de Take Profit Stop Loss – PnL y Relación R:R en Trading de Cripto",
+  "metaDescription": "Calculadora TP/SL gratuita para traders de cripto. Ingresa el precio de entrada, apalancamiento y margen para calcular el PnL de take profit y stop loss, la relación riesgo/recompensa y el precio de liquidación.",
+  "keywords": [
+    "calculadora de take profit stop loss",
+    "calculadora tp sl cripto",
+    "calculadora de relación riesgo recompensa",
+    "calculadora de pnl cripto",
+    "calculadora de trading con apalancamiento"
+  ],
+  "category": "Crypto",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "¿Qué es la relación Riesgo:Recompensa (R:R)?",
+      "answer": "La relación R:R compara tu ganancia potencial con tu pérdida potencial. Una relación de 1:2 significa que por cada $1 arriesgado, puedes ganar $2. Los traders profesionales generalmente solo realizan operaciones con una R:R de 1:2 o superior."
+    },
+    {
+      "question": "¿Cómo se calcula el precio de liquidación?",
+      "answer": "La estimación asume que pierdes el 100% de tu margen cuando el precio se mueve en tu contra por (1/apalancamiento). Con un apalancamiento de 10×, un movimiento adverso del 10% liquida tu posición."
+    },
+    {
+      "question": "¿Esto funciona tanto para trading al contado como para futuros?",
+      "answer": "Para el trading al contado, establece el apalancamiento en 1×. Para futuros (largos o cortos), ingresa el apalancamiento que proporciona tu intercambio."
+    }
+  ],
+  "relatedTools": [
+    "position-size-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "crypto-pnl-calculator",
+      "metaTitle": "Calculadora de PnL Cripto – Calculadora de Ganancias y Pérdidas para Cripto",
+      "metaDescription": "Calcula tus ganancias y pérdidas en cualquier operación de cripto. Ingresa el precio de compra, el precio de venta y la cantidad para encontrar el PnL exacto en USD y porcentaje. Calculadora de PnL cripto gratuita.",
+      "keywords": [
+        "calculadora de pnl cripto",
+        "calculadora de ganancias y pérdidas cripto",
+        "calculadora de pnl de bitcoin",
+        "calculadora de ganancias de operaciones cripto",
+        "calcular ganancias cripto"
+      ],
+      "defaultVariant": "pnl",
+      "headline": "Calcula la ganancia o pérdida exacta en cualquier operación de cripto. Ingresa tu precio de entrada, precio de salida y tamaño de la posición para ver el PnL en USD y porcentaje."
+    },
+    {
+      "variantSlug": "risk-reward-calculator",
+      "metaTitle": "Calculadora de Relación Riesgo Recompensa – Calculadora de R:R para Trading",
+      "metaDescription": "Calcula la relación riesgo/recompensa para cualquier operación. Ingresa el precio de entrada, stop loss y take profit para encontrar tu relación R:R al instante. Calculadora de riesgo/recompensa gratuita para trading.",
+      "keywords": [
+        "calculadora de relación riesgo recompensa",
+        "calculadora de relación rr",
+        "trading de riesgo recompensa",
+        "calcular riesgo recompensa",
+        "calculadora de riesgo en trading"
+      ],
+      "defaultVariant": "rr",
+      "headline": "Calcula la relación riesgo/recompensa para cualquier operación antes de entrar. Los traders profesionales solo realizan operaciones con R:R ≥ 1:2 — descubre si tu configuración califica."
+    },
+    {
+      "variantSlug": "futures-liquidation-price-calculator",
+      "metaTitle": "Calculadora de Precio de Liquidación de Futuros – Liquidación de Cripto con Apalancamiento",
+      "metaDescription": "Calcula tu precio de liquidación para trading de futuros apalancados. Ingresa el precio de entrada y el apalancamiento para saber cuándo se liquidará tu posición. Calculadora de liquidación gratuita.",
+      "keywords": [
+        "calculadora de precio de liquidación",
+        "calculadora de liquidación cripto",
+        "precio de liquidación de futuros",
+        "calculadora de liquidación con apalancamiento",
+        "precio de liquidación de binance"
+      ],
+      "defaultVariant": "liquidation",
+      "headline": "Calcula el precio exacto al que se liquidará tu posición de futuros apalancados. Conoce tu precio de liquidación antes de entrar en cualquier operación apalancada."
+    }
+  ]
+}

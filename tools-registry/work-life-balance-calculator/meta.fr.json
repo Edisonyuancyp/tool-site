@@ -1,0 +1,59 @@
+{
+  "slug": "work-life-balance-calculator",
+  "name": "Calculateur d'Équilibre Vie-Travail",
+  "tagline": "Évaluez votre équilibre vie-travail aujourd'hui",
+  "description": "Cet outil évalue votre équilibre entre vie professionnelle et vie personnelle en analysant votre répartition du temps entre les activités professionnelles et personnelles. Idéal pour quiconque cherchant à améliorer son bien-être général et sa productivité.",
+  "metaTitle": "Équilibre Vie-Travail – Outil de Productivité | Outil en Ligne Gratuit",
+  "metaDescription": "Évaluez votre équilibre vie-travail avec notre calculateur gratuit, sans inscription requise, obtenez des résultats instantanés.",
+  "keywords": [
+    "équilibre vie-travail",
+    "évaluation de l'équilibre",
+    "évaluation de la productivité",
+    "bien-être personnel",
+    "gestion du temps"
+  ],
+  "category": "Productivité",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "Comment fonctionne le calculateur ?",
+      "answer": "Vous saisissez votre temps passé sur des activités professionnelles et personnelles, et il calcule votre équilibre."
+    },
+    {
+      "question": "Cet outil est-il vraiment gratuit ?",
+      "answer": "Oui, il n'y a pas de frais ni d'exigences d'inscription pour utiliser cet outil."
+    },
+    {
+      "question": "Puis-je améliorer mon équilibre en fonction des résultats ?",
+      "answer": "Absolument ! L'outil fournit des conseils sur la manière de mieux gérer votre temps."
+    }
+  ],
+  "relatedTools": [
+    "daily-goal-tracker",
+    "time-blocking-scheduler"
+  ],
+  "variants": [
+    {
+      "variantSlug": "employee-work-life-balance",
+      "metaTitle": "Calculateur d'Équilibre Vie-Travail pour Employés",
+      "metaDescription": "Évaluez l'équilibre vie-travail spécifiquement pour les employés.",
+      "keywords": [
+        "bien-être des employés",
+        "satisfaction au travail"
+      ],
+      "defaultVariant": "employee-balance-key",
+      "headline": "Conçu pour évaluer l'équilibre vie-travail des employés."
+    },
+    {
+      "variantSlug": "freelance-work-life-balance",
+      "metaTitle": "Calculateur d'Équilibre Vie-Travail pour Freelances",
+      "metaDescription": "Vérifiez votre équilibre en tant que freelance avec cette variante.",
+      "keywords": [
+        "productivité des freelances",
+        "équilibre des travailleurs indépendants"
+      ],
+      "defaultVariant": "freelance-balance-key",
+      "headline": "Parfait pour les freelances évaluant leur gestion du temps."
+    }
+  ]
+}

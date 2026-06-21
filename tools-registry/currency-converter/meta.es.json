@@ -1,0 +1,108 @@
+{
+  "slug": "currency-converter",
+  "name": "Convertidor de Divisas",
+  "tagline": "Convierte divisas con tasas de cambio en tiempo real",
+  "description": "Convierte entre más de 25 divisas del mundo utilizando tasas de cambio en vivo del Banco Central Europeo (BCE). Incluye una tabla de referencia rápida y un respaldo automático a tasas fuera de línea cuando sea necesario.",
+  "metaTitle": "Convertidor de Divisas – Calculadora de Tasas de Cambio en Vivo Gratis",
+  "metaDescription": "Convierte USD, EUR, GBP, JPY, CNY y más de 20 divisas con tasas de cambio en vivo del BCE. Convertidor de divisas en línea gratuito — sin registro, resultados instantáneos.",
+  "keywords": [
+    "convertidor de divisas",
+    "calculadora de tasas de cambio",
+    "usd a eur",
+    "cambio de divisas en línea",
+    "tasas de divisas en vivo"
+  ],
+  "category": "Finanzas",
+  "icon": "💱",
+  "faqs": [
+    {
+      "question": "¿De dónde provienen las tasas de cambio?",
+      "answer": "Las tasas se obtienen del Banco Central Europeo (BCE) a través de la API de Frankfurter, una fuente gratuita y confiable actualizada diariamente. Cuando está fuera de línea, la herramienta utiliza tasas de referencia estáticas."
+    },
+    {
+      "question": "¿Con qué frecuencia se actualizan las tasas?",
+      "answer": "Las tasas del BCE se actualizan una vez por día hábil. Las tasas no son datos en tiempo real, pero son precisas para la mayoría de las conversiones diarias."
+    },
+    {
+      "question": "¿Qué divisas son compatibles?",
+      "answer": "Más de 25 divisas, incluyendo USD, EUR, GBP, JPY, CNY, KRW, AUD, CAD, CHF, HKD, SGD, INR, THB, VND, MYR, IDR, PHP y más."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "usd-to-eur",
+      "metaTitle": "Convertidor de USD a EUR – Tasa de Cambio de Dólar a Euro",
+      "metaDescription": "Convierte USD a EUR instantáneamente con tasas de cambio en vivo. Convertidor gratuito de Dólar a Euro. Actualizado diariamente por el Banco Central Europeo.",
+      "keywords": [
+        "usd a eur",
+        "convertidor de dólar a euro",
+        "tasa de cambio usd eur",
+        "convertir usd a euro",
+        "calculadora dólar euro"
+      ],
+      "defaultVariant": "usd-eur",
+      "headline": "Convierte Dólares Estadounidenses a Euros utilizando la tasa de cambio más reciente del BCE. El par USD/EUR es el par de divisas más negociado del mundo."
+    },
+    {
+      "variantSlug": "usd-to-cny",
+      "metaTitle": "Convertidor de USD a CNY – Dólar a Yuan Chino",
+      "metaDescription": "Convierte USD a CNY (Yuan Chino / RMB) con tasas de cambio en vivo. Convertidor gratuito de dólar a yuan. Actualizado diariamente.",
+      "keywords": [
+        "usd a cny",
+        "convertidor de dólar a yuan",
+        "tasa de cambio usd cny",
+        "dólar a rmb",
+        "usd a renminbi"
+      ],
+      "defaultVariant": "usd-cny",
+      "headline": "Convierte Dólares Estadounidenses a Yuan Chino (RMB/CNY) utilizando tasas de cambio actualizadas diariamente del BCE."
+    },
+    {
+      "variantSlug": "usd-to-jpy",
+      "metaTitle": "Convertidor de USD a JPY – Dólar a Yen Japonés",
+      "metaDescription": "Convierte USD a JPY con tasas de cambio en vivo. Convertidor gratuito de Dólar Estadounidense a Yen Japonés. Actualizado diariamente por el Banco Central Europeo.",
+      "keywords": [
+        "usd a jpy",
+        "convertidor de dólar a yen",
+        "tasa de cambio usd jpy",
+        "calculadora dólar yen",
+        "convertir usd a yen japonés"
+      ],
+      "defaultVariant": "usd-jpy",
+      "headline": "Convierte Dólares Estadounidenses a Yen Japonés utilizando la tasa de cambio diaria más reciente. JPY es una moneda de reserva importante y un activo refugio."
+    },
+    {
+      "variantSlug": "usd-to-gbp",
+      "metaTitle": "Convertidor de USD a GBP – Dólar a Libra Esterlina",
+      "metaDescription": "Convierte USD a GBP con tasas de cambio en vivo. Convertidor gratuito de Dólar Estadounidense a Libra Esterlina. Actualizado diariamente.",
+      "keywords": [
+        "usd a gbp",
+        "convertidor de dólar a libra",
+        "tasa de cambio usd gbp",
+        "dólar a esterlina",
+        "convertir usd a libras"
+      ],
+      "defaultVariant": "usd-gbp",
+      "headline": "Convierte Dólares Estadounidenses a Libras Esterlinas utilizando tasas de cambio diarias del BCE. GBP es una de las monedas más antiguas y negociadas del mundo."
+    },
+    {
+      "variantSlug": "eur-to-usd",
+      "metaTitle": "Convertidor de EUR a USD – Tasa de Cambio de Euro a Dólar Estadounidense",
+      "metaDescription": "Convierte EUR a USD con tasas de cambio en vivo. Convertidor gratuito de Euro a Dólar Estadounidense actualizado diariamente por el Banco Central Europeo.",
+      "keywords": [
+        "eur a usd",
+        "convertidor de euro a dólar",
+        "tasa de cambio eur usd",
+        "convertir euro a usd",
+        "calculadora euro dólar"
+      ],
+      "defaultVariant": "eur-usd",
+      "headline": "Convierte Euros a Dólares Estadounidenses utilizando la tasa de cambio más reciente del BCE. EUR/USD es el par de divisas más líquido en el mercado de divisas."
+    }
+  ]
+}

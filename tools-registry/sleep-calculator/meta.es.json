@@ -1,0 +1,79 @@
+{
+  "slug": "sleep-calculator",
+  "name": "Calculadora de Sueño",
+  "tagline": "Encuentra el mejor momento para despertarte o irte a dormir",
+  "description": "Calcula la mejor hora para dormir o despertarte basándote en ciclos de sueño de 90 minutos. Despertar al final de un ciclo se siente más refrescante que ser despertado a mitad de ciclo.",
+  "metaTitle": "Calculadora de Sueño – Mejor Calculadora de Hora de Dormir y Despertar",
+  "metaDescription": "Encuentra el mejor momento para despertarte o irte a dormir basándote en ciclos de sueño de 90 minutos. Calculadora de sueño gratuita: despiértate renovado cada mañana.",
+  "keywords": [
+    "calculadora de sueño",
+    "calculadora de hora de despertar",
+    "calculadora de hora de dormir",
+    "calculadora de ciclos de sueño",
+    "mejor hora para despertar"
+  ],
+  "category": "Salud",
+  "icon": "😴",
+  "faqs": [
+    {
+      "question": "¿Cómo funciona la calculadora de ciclos de sueño?",
+      "answer": "El sueño ocurre en ciclos de 90 minutos. Despertar al final de un ciclo (en lugar de a mitad de ciclo) te hace sentir más descansado. La calculadora añade 14 minutos para el inicio promedio del sueño."
+    },
+    {
+      "question": "¿Cuántos ciclos de sueño debo tener?",
+      "answer": "La mayoría de los adultos se sienten mejor con 5–6 ciclos de sueño completos (7.5–9 horas). Los adolescentes necesitan más, típicamente 6–8 ciclos."
+    },
+    {
+      "question": "¿A qué hora debo irme a dormir para despertar a las 6am?",
+      "answer": "Para despertar a las 6:00 am sintiéndote renovado, ve a dormir a las 8:46 pm, 10:16 pm, 11:46 pm o 1:16 am, siendo cada una un número completo de ciclos de 90 minutos antes de tu hora de despertar."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "sleep-calculator-for-teens",
+      "metaTitle": "Calculadora de Sueño para Adolescentes – Calculadora de Ciclos de Sueño para Adolescentes",
+      "metaDescription": "Calcula los horarios ideales de sueño para adolescentes. Los adolescentes necesitan de 8 a 10 horas de sueño. Encuentra la mejor hora de dormir y de despertar para los ciclos de sueño de los adolescentes.",
+      "keywords": [
+        "calculadora de sueño para adolescentes",
+        "calculadora de sueño para jóvenes",
+        "calculadora de hora de dormir para adolescentes",
+        "cuánto sueño necesitan los adolescentes"
+      ],
+      "defaultVariant": "teen",
+      "headline": "Los adolescentes necesitan de 8 a 10 horas de sueño por noche (5–6+ ciclos). Esta calculadora encuentra la hora ideal de dormir y despertar para los adolescentes según su horario escolar."
+    },
+    {
+      "variantSlug": "sleep-calculator-for-babies",
+      "metaTitle": "Calculadora de Sueño para Bebés – Horario de Sueño para Infantes y Niños Pequeños",
+      "metaDescription": "Calcula las necesidades de sueño para bebés y niños pequeños. Encuentra horarios de siesta y horas totales de sueño por edad. Calculadora gratuita de horarios de sueño para bebés.",
+      "keywords": [
+        "calculadora de sueño para bebés",
+        "horario de sueño para infantes",
+        "calculadora de sueño para niños pequeños",
+        "cuánto sueño necesita un bebé",
+        "calculadora de siestas para bebés"
+      ],
+      "defaultVariant": "baby",
+      "headline": "Los bebés y niños pequeños tienen necesidades de sueño muy diferentes a las de los adultos. Esta calculadora muestra las horas totales de sueño recomendadas y las ventanas de siesta por edad (0–36 meses)."
+    },
+    {
+      "variantSlug": "nap-calculator",
+      "metaTitle": "Calculadora de Siestas – Mejor Duración de Siesta y Hora de Despertar",
+      "metaDescription": "Encuentra la duración ideal de la siesta. Siesta de 20 minutos frente a un ciclo completo de 90 minutos: calcula el mejor momento para la siesta y evitar la inercia del sueño.",
+      "keywords": [
+        "calculadora de siestas",
+        "calculadora de siesta corta",
+        "mejor duración de siesta",
+        "cuánto tiempo debo dormir la siesta",
+        "calculadora de tiempo de siesta"
+      ],
+      "defaultVariant": "nap",
+      "headline": "No todas las siestas son iguales. Una siesta corta de 20 minutos aumenta la alerta sin somnolencia. Un ciclo completo de 90 minutos incluye sueño REM para la consolidación de la memoria. Encuentra tu ventana ideal para la siesta."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "word-counter",
+  "name": "Compteur de Mots",
+  "tagline": "Comptez les mots, caractères, phrases et le temps de lecture",
+  "description": "Collez votre texte pour compter instantanément les mots, caractères, phrases, paragraphes et le temps de lecture estimé. Utile pour les essais, articles, contenu SEO et publications sur les réseaux sociaux.",
+  "metaTitle": "Compteur de Mots – Outil de Comptage de Mots en Ligne Gratuit",
+  "metaDescription": "Comptez les mots et caractères instantanément. Compteur de mots en ligne gratuit pour essais, articles et réseaux sociaux. Obtenez le nombre de mots, le nombre de caractères et le temps de lecture.",
+  "keywords": [
+    "compteur de mots",
+    "compteur de caractères",
+    "outil de comptage de mots",
+    "compteur de mots en ligne",
+    "compter les mots en ligne"
+  ],
+  "category": "Utilitaires",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Comment puis-je compter les mots dans mon texte ?",
+      "answer": "Collez votre texte dans la zone ci-dessus. Le nombre de mots se met à jour instantanément pendant que vous tapez ou collez."
+    },
+    {
+      "question": "Compte-t-il les caractères avec ou sans espaces ?",
+      "answer": "Les deux. L'outil affiche séparément les caractères avec espaces et sans espaces."
+    },
+    {
+      "question": "Comment le temps de lecture est-il calculé ?",
+      "answer": "Le temps de lecture est basé sur une vitesse de lecture moyenne de 200 à 250 mots par minute pour les adultes."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "twitter-character-counter",
+      "metaTitle": "Compteur de Caractères Twitter – Vérificateur de Longueur de Post X",
+      "metaDescription": "Comptez les caractères pour les publications Twitter/X. Voir les caractères restants, vérifier si votre tweet tient dans 280 caractères. Compteur Twitter instantané gratuit.",
+      "keywords": [
+        "compteur de caractères twitter",
+        "compteur de caractères tweet",
+        "limite de caractères post x",
+        "compteur de 280 caractères",
+        "limite de mots twitter"
+      ],
+      "defaultVariant": "twitter",
+      "headline": "Vérifiez la longueur de votre tweet avant de publier. Twitter (X) limite les publications à 280 caractères — ce compteur montre exactement combien il vous en reste en temps réel."
+    },
+    {
+      "variantSlug": "essay-word-counter",
+      "metaTitle": "Compteur de Mots pour Essai – Comptez les Mots pour Essais et Travaux",
+      "metaDescription": "Comptez les mots dans votre essai ou travail académique. Vérifiez si vous respectez votre exigence de nombre de mots. Compteur de mots pour essai gratuit avec répartition par paragraphes et phrases.",
+      "keywords": [
+        "compteur de mots pour essai",
+        "nombre de mots pour essai",
+        "compteur de mots académique",
+        "vérificateur de nombre de mots pour travail",
+        "compter les mots essai"
+      ],
+      "defaultVariant": "essay",
+      "headline": "Comptez les mots dans votre essai ou travail. Affiche le total des mots, paragraphes, phrases et le temps de lecture estimé — tout ce dont vous avez besoin pour atteindre votre objectif de nombre de mots."
+    },
+    {
+      "variantSlug": "seo-content-analyzer",
+      "metaTitle": "Analyseur de Contenu SEO – Vérificateur de Nombre de Mots et Densité de Mots-Clés",
+      "metaDescription": "Analysez votre contenu pour le SEO. Vérifiez le nombre de mots, la densité de mots-clés et le niveau de lecture. Outil de comptage de mots pour contenu SEO gratuit.",
+      "keywords": [
+        "vérificateur de nombre de mots SEO",
+        "nombre de mots pour contenu SEO",
+        "vérificateur de densité de mots-clés",
+        "analyseur de contenu SEO",
+        "nombre de mots écriture SEO"
+      ],
+      "defaultVariant": "seo",
+      "headline": "Analysez votre contenu pour le SEO : les articles de blog optimaux font entre 1 500 et 2 500 mots. Cet outil montre votre nombre de mots, la densité de mots-clés et le temps de lecture estimé d'un coup d'œil."
+    }
+  ]
+}

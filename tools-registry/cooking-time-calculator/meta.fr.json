@@ -1,0 +1,60 @@
+{
+  "slug": "cooking-time-calculator",
+  "name": "Calculateur de Temps de Cuisson",
+  "tagline": "Calculez facilement les temps de cuisson.",
+  "description": "Déterminez le temps de cuisson idéal pour différents types de viandes et de plats en fonction du poids et de la méthode de cuisson. Parfait pour les cuisiniers à domicile souhaitant éviter de sous-cuire ou de trop cuire leurs repas.",
+  "metaTitle": "Calculateur de Temps de Cuisson – Temps de Cuisson Idéaux | Outil en Ligne Gratuit",
+  "metaDescription": "Utilisez notre calculateur de temps de cuisson pour des temps de cuisson précis. Outil gratuit, sans inscription, résultats instantanés.",
+  "keywords": [
+    "calculateur de temps de cuisson",
+    "temps de cuisson de la viande",
+    "temps de cuisson des recettes",
+    "durée de cuisson idéale"
+  ],
+  "category": "Cuisine",
+  "icon": "⏲️",
+  "faqs": [
+    {
+      "question": "Comment utiliser le calculateur de temps de cuisson ?",
+      "answer": "Il suffit d'entrer le type de viande ou de plat, son poids, et de sélectionner la méthode de cuisson pour obtenir le temps de cuisson idéal."
+    },
+    {
+      "question": "Ce calculateur est-il précis pour toutes les recettes ?",
+      "answer": "Bien qu'il fournisse une excellente ligne directrice, les temps de cuisson peuvent varier en fonction des recettes spécifiques et de l'équipement."
+    },
+    {
+      "question": "Puis-je l'utiliser pour la pâtisserie également ?",
+      "answer": "Cet outil se concentre principalement sur la cuisson de la viande et des plats principaux, mais il peut offrir des indications pour certains produits de boulangerie."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "meat-cooking-time-variant",
+      "metaTitle": "Calculateur de Temps de Cuisson de la Viande",
+      "metaDescription": "Calculez des temps de cuisson précis pour diverses viandes.",
+      "keywords": [
+        "temps de cuisson de la viande",
+        "calculateur de cuisson de volaille",
+        "durée de cuisson du bœuf"
+      ],
+      "defaultVariant": "meat-variant-key",
+      "headline": "Obtenez des temps de cuisson précis pour tous les types de viande."
+    },
+    {
+      "variantSlug": "baking-time-variant",
+      "metaTitle": "Calculateur de Temps de Pâtisserie",
+      "metaDescription": "Calculez les temps de cuisson pour gâteaux, biscuits et pains.",
+      "keywords": [
+        "calculateur de temps de pâtisserie",
+        "durée de cuisson des gâteaux",
+        "temps de cuisson des biscuits"
+      ],
+      "defaultVariant": "baking-variant-key",
+      "headline": "Calculez les temps de cuisson parfaits pour vos douceurs préférées."
+    }
+  ]
+}

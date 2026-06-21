@@ -1,0 +1,84 @@
+{
+  "slug": "age-calculator",
+  "name": "Calculateur d'âge",
+  "tagline": "Découvrez votre âge exact en années, mois et jours",
+  "description": "Calculez votre âge exact depuis votre date de naissance jusqu'à aujourd'hui — ou jusqu'à une date spécifique. Obtenez des résultats en années, mois, jours, heures et minutes instantanément.",
+  "metaTitle": "Calculateur d'âge – Trouvez votre âge exact en ligne gratuitement",
+  "metaDescription": "Calculez votre âge exact à partir de votre date de naissance. Obtenez votre âge en années, mois et jours instantanément. Calculateur d'âge gratuit — aucune inscription requise.",
+  "keywords": [
+    "calculateur d'âge",
+    "calculer l'âge à partir de la date de naissance",
+    "quel âge ai-je",
+    "calculateur d'âge exact",
+    "calculateur de date de naissance"
+  ],
+  "category": "Date & Heure",
+  "icon": "📅",
+  "faqs": [
+    {
+      "question": "Comment puis-je calculer mon âge exact ?",
+      "answer": "Entrez votre date de naissance dans le calculateur d'âge ci-dessus. Il calculera la différence précise entre votre date de naissance et aujourd'hui en années, mois et jours."
+    },
+    {
+      "question": "Puis-je calculer l'âge entre deux dates spécifiques ?",
+      "answer": "Oui. Définissez votre date de début comme la date de naissance et votre date de fin comme n'importe quelle date cible pour trouver l'âge exact ou la durée entre elles."
+    },
+    {
+      "question": "Quel âge ai-je en jours ?",
+      "answer": "Le calculateur affiche votre âge total en jours ainsi qu'en années et mois. Il vous suffit d'entrer votre date de naissance pour voir le résultat."
+    },
+    {
+      "question": "Le calculateur d'âge prend-il en compte les années bissextiles ?",
+      "answer": "Oui. Le calculateur gère correctement les années bissextiles lors du calcul des jours et des durées totales."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "holiday-calculator",
+    "unix-timestamp-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "days-old-calculator",
+      "metaTitle": "Quel âge ai-je en jours ? – Calculateur d'âge en jours",
+      "metaDescription": "Calculez exactement combien de jours vous avez. Trouvez votre âge en jours, semaines, heures et minutes. Calculateur d'âge en jours gratuit.",
+      "keywords": [
+        "quel âge ai-je en jours",
+        "calculateur d'âge en jours",
+        "calculateur d'âge en jours",
+        "quel âge ai-je en jours",
+        "calculer l'âge en jours"
+      ],
+      "defaultVariant": "days",
+      "headline": "Découvrez exactement combien de jours, semaines et heures vous avez. Plus précis que les années — chaque jour compte."
+    },
+    {
+      "variantSlug": "age-difference-calculator",
+      "metaTitle": "Calculateur de différence d'âge – Combien d'années entre deux personnes",
+      "metaDescription": "Calculez la différence d'âge entre deux personnes ou deux dates. Trouvez les années, mois et jours exacts entre deux dates de naissance. Calculateur d'écart d'âge gratuit.",
+      "keywords": [
+        "calculateur de différence d'âge",
+        "calculateur d'écart d'âge",
+        "calculer la différence d'âge",
+        "combien d'années entre deux dates",
+        "âge entre deux personnes"
+      ],
+      "defaultVariant": "difference",
+      "headline": "Calculez la différence d'âge exacte entre deux personnes. Entrez les deux dates de naissance pour trouver l'écart en années, mois et jours."
+    },
+    {
+      "variantSlug": "retirement-age-calculator",
+      "metaTitle": "Calculateur d'âge de départ à la retraite – Combien d'années avant la retraite",
+      "metaDescription": "Calculez combien d'années il vous reste avant de pouvoir prendre votre retraite. Trouvez votre date de départ à la retraite en fonction de votre âge actuel et de votre âge de départ à la retraite cible. Calculateur de compte à rebours pour la retraite gratuit.",
+      "keywords": [
+        "calculateur d'âge de départ à la retraite",
+        "années avant la retraite",
+        "quand puis-je prendre ma retraite",
+        "compte à rebours pour la retraite",
+        "combien d'années avant la retraite"
+      ],
+      "defaultVariant": "retirement",
+      "headline": "Calculez combien d'années, mois et jours il vous reste avant d'atteindre votre âge de départ à la retraite cible. Planifiez à l'avance avec un compte à rebours clair jusqu'à votre date de retraite."
+    }
+  ]
+}

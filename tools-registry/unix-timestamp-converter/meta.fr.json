@@ -1,0 +1,80 @@
+{
+  "slug": "unix-timestamp-converter",
+  "name": "Convertisseur de Timestamp Unix",
+  "tagline": "Convertissez les timestamps Unix en dates lisibles par l'homme instantanément",
+  "description": "Convertissez les timestamps d'époque Unix en dates formatées et vice versa. Prend en charge les secondes et les millisecondes, plus de 12 fuseaux horaires, sortie ISO 8601, temps relatif et une horloge en temps réel.",
+  "metaTitle": "Convertisseur de Timestamp Unix – Époque à Date & Date à Timestamp en Ligne",
+  "metaDescription": "Convertisseur de timestamp Unix gratuit. Convertissez l'époque en date humaine ou la date en timestamp Unix. Prend en charge les secondes, les millisecondes, UTC et plus de 12 fuseaux horaires. Horloge en direct incluse.",
+  "keywords": [
+    "convertisseur de timestamp unix",
+    "époque à date",
+    "timestamp à date",
+    "convertisseur de temps unix en ligne",
+    "convertisseur d'époque"
+  ],
+  "category": "Développeur",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "Qu'est-ce qu'un timestamp Unix ?",
+      "answer": "Un timestamp Unix (temps d'époque) est le nombre de secondes écoulées depuis le 1er janvier 1970 00:00:00 UTC. Il est utilisé universellement en programmation, bases de données et API pour représenter des moments dans le temps sous forme d'un entier unique."
+    },
+    {
+      "question": "Secondes vs millisecondes — comment savoir lequel j'ai ?",
+      "answer": "Un nombre à 10 chiffres (par exemple, 1700000000) représente des secondes. Un nombre à 13 chiffres (par exemple, 1700000000000) représente des millisecondes."
+    },
+    {
+      "question": "Quel est le problème de 2038 ?",
+      "answer": "Les entiers signés de 32 bits ne peuvent stocker des valeurs que jusqu'à 2 147 483 647 — le 19 janvier 2038 à 03:14:07 UTC. Les systèmes utilisant des timestamps de 32 bits débordent à cette date."
+    }
+  ],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "epoch-to-date",
+      "metaTitle": "Convertisseur d'Époque à Date – Timestamp Unix à Date Humaine",
+      "metaDescription": "Convertissez n'importe quel timestamp d'époque Unix en une date et une heure lisibles. Prend en charge les secondes et les millisecondes. Convertisseur d'époque à date gratuit en ligne.",
+      "keywords": [
+        "convertisseur d'époque à date",
+        "époque unix à date",
+        "convertir époque en datetime",
+        "timestamp à date humaine",
+        "temps d'époque à date"
+      ],
+      "defaultVariant": "to-date",
+      "headline": "Collez un timestamp d'époque Unix pour le convertir instantanément en une date et une heure lisibles dans n'importe quel fuseau horaire."
+    },
+    {
+      "variantSlug": "date-to-timestamp",
+      "metaTitle": "Convertisseur de Date à Timestamp Unix – Convertir Date en Époque",
+      "metaDescription": "Convertissez n'importe quelle date et heure en un timestamp Unix (époque). Obtenez des secondes ou des millisecondes. Convertisseur de date à timestamp gratuit en ligne.",
+      "keywords": [
+        "date à timestamp unix",
+        "convertir date en époque",
+        "convertisseur de date à timestamp",
+        "datetime à unix",
+        "date à secondes d'époque"
+      ],
+      "defaultVariant": "to-timestamp",
+      "headline": "Entrez n'importe quelle date et heure pour obtenir le timestamp Unix correspondant en secondes ou millisecondes."
+    },
+    {
+      "variantSlug": "milliseconds-to-date",
+      "metaTitle": "Convertisseur de Millisecondes à Date – Convertir Timestamp ms en Date",
+      "metaDescription": "Convertissez un timestamp Unix en millisecondes en une date lisible. JavaScript utilise les millisecondes — entrez votre timestamp à 13 chiffres pour une conversion instantanée.",
+      "keywords": [
+        "convertisseur de millisecondes à date",
+        "timestamp ms à date",
+        "convertisseur de timestamp javascript",
+        "convertisseur de timestamp à 13 chiffres",
+        "convertir millisecondes en datetime"
+      ],
+      "defaultVariant": "ms",
+      "headline": "Date.now() de JavaScript renvoie des millisecondes. Collez votre timestamp à 13 chiffres pour le convertir en une date et une heure lisibles."
+    }
+  ]
+}

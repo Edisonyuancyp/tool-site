@@ -61,7 +61,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: tool.metaTitle,
     description: tool.metaDescription,
     keywords: tool.keywords,
-    alternates: { canonical: toolUrl },
+    alternates: {
+      canonical: toolUrl,
+      languages: {
+        "en":        toolUrl,
+        "es":        `https://getfastcalc.com/es/tools/${slug}`,
+        "fr":        `https://getfastcalc.com/fr/tools/${slug}`,
+        "x-default": toolUrl,
+      },
+    },
     openGraph: {
       title: tool.metaTitle,
       description: tool.metaDescription,

@@ -1,0 +1,60 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "Calculateur de Priorité des Tâches",
+  "tagline": "Classez vos tâches pour une efficacité maximale",
+  "description": "Cet outil vous aide à prioriser vos tâches quotidiennes en fonction de leur urgence et de leur importance. Idéal pour les professionnels et les étudiants cherchant à optimiser leurs listes de tâches.",
+  "metaTitle": "Priorité des Tâches – Outil de Productivité | Outil en Ligne Gratuit",
+  "metaDescription": "Utilisez notre calculateur de priorité des tâches gratuit pour classer vos tâches par urgence et importance pour une meilleure productivité. Pas d'inscription, résultats instantanés.",
+  "keywords": [
+    "priorité des tâches",
+    "outil de classement des tâches",
+    "tâches urgentes",
+    "tâches importantes",
+    "calculateur de productivité"
+  ],
+  "category": "Productivité",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "Comment fonctionne le calculateur ?",
+      "answer": "Vous saisissez vos tâches avec des évaluations d'urgence et d'importance, et le calculateur les classe pour vous."
+    },
+    {
+      "question": "C'est vraiment gratuit ?",
+      "answer": "Oui, cet outil est entièrement gratuit à utiliser, sans frais cachés ni inscription requise."
+    },
+    {
+      "question": "Puis-je l'utiliser pour des tâches d'équipe ?",
+      "answer": "Absolument ! Vous pouvez utiliser cet outil pour la priorisation des tâches personnelles et d'équipe."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": [
+    {
+      "variantSlug": "team-task-priority",
+      "metaTitle": "Calculateur de Priorité des Tâches d'Équipe",
+      "metaDescription": "Priorisez les tâches d'équipe efficacement avec notre outil gratuit.",
+      "keywords": [
+        "tâches d'équipe",
+        "collaboration",
+        "gestion des tâches"
+      ],
+      "defaultVariant": "team-key",
+      "headline": "Optimisez la gestion des tâches de votre équipe avec cette variante."
+    },
+    {
+      "variantSlug": "personal-task-priority",
+      "metaTitle": "Calculateur de Priorité des Tâches Personnelles",
+      "metaDescription": "Concentrez-vous sur vos tâches personnelles avec notre outil facile à utiliser.",
+      "keywords": [
+        "tâches personnelles",
+        "productivité individuelle"
+      ],
+      "defaultVariant": "personal-key",
+      "headline": "Idéal pour gérer et prioriser vos tâches personnelles."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "Calculadora de Edad Fitness",
+  "tagline": "¡Descubre tu edad fitness ahora!",
+  "description": "Esta herramienta calcula tu edad fitness en función de tus niveles de actividad física y métricas de salud. Es perfecta para quienes buscan entender su nivel de fitness en relación con su edad cronológica.",
+  "metaTitle": "Calculadora de Edad Fitness – Refleja Tu Salud | Herramienta Online Gratuita",
+  "metaDescription": "Calcula tu edad fitness al instante y gratis, sin necesidad de registrarte. Comprende tu estado de salud con esta sencilla herramienta.",
+  "keywords": [
+    "edad fitness",
+    "calcular edad fitness",
+    "métricas de salud",
+    "niveles de actividad",
+    "evaluación de fitness"
+  ],
+  "category": "Fitness",
+  "icon": "🧘",
+  "faqs": [
+    {
+      "question": "¿Cómo se calcula la edad fitness?",
+      "answer": "La edad fitness se determina analizando diversas métricas de salud y niveles de actividad para proporcionar una edad que refleje tu estado físico."
+    },
+    {
+      "question": "¿Es precisa esta herramienta?",
+      "answer": "Si bien proporciona una buena estimación, los resultados individuales pueden variar según factores de salud personales."
+    },
+    {
+      "question": "¿Puedo mejorar mi edad fitness?",
+      "answer": "Sí, al aumentar tu actividad física y mantener un estilo de vida saludable, puedes reducir tu edad fitness."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

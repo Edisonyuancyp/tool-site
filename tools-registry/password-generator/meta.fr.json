@@ -1,0 +1,76 @@
+{
+  "slug": "password-generator",
+  "name": "Générateur de mots de passe",
+  "tagline": "Générez des mots de passe forts et sécurisés instantanément",
+  "description": "Créez des mots de passe aléatoires forts avec une longueur et des ensembles de caractères personnalisés. Choisissez des majuscules, des minuscules, des chiffres et des symboles. Copiez en un clic.",
+  "metaTitle": "Générateur de mots de passe – Générateur de mots de passe forts gratuit en ligne",
+  "metaDescription": "Générez instantanément des mots de passe aléatoires et forts. Personnalisez la longueur, les majuscules, les minuscules, les chiffres et les symboles. Générateur de mots de passe sécurisé gratuit — sans inscription requise.",
+  "keywords": [
+    "générateur de mots de passe",
+    "générateur de mots de passe forts",
+    "générateur de mots de passe aléatoires",
+    "créateur de mots de passe sécurisés"
+  ],
+  "category": "Sécurité",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "Qu'est-ce qui rend un mot de passe fort ?",
+      "answer": "Un mot de passe fort fait au moins 12 caractères de long et utilise un mélange de lettres majuscules, de lettres minuscules, de chiffres et de symboles spéciaux."
+    },
+    {
+      "question": "Ce générateur de mots de passe est-il sûr à utiliser ?",
+      "answer": "Oui. Les mots de passe sont générés entièrement dans votre navigateur en utilisant la fonction aléatoire cryptographique de JavaScript. Ils ne sont jamais envoyés à un serveur."
+    },
+    {
+      "question": "Quelle devrait être la longueur de mon mot de passe ?",
+      "answer": "Nous recommandons au moins 16 caractères pour les comptes importants. Plus le mot de passe est long, plus il est difficile à craquer."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "random-number-generator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "wifi-password-generator",
+      "metaTitle": "Générateur de mots de passe WiFi – Mots de passe WiFi aléatoires et forts",
+      "metaDescription": "Générez un mot de passe WiFi aléatoire et fort. Facile à partager, difficile à craquer. Générateur de mots de passe WiFi gratuit — alphanumérique, sans caractères confus.",
+      "keywords": [
+        "générateur de mots de passe wifi",
+        "mot de passe wifi aléatoire",
+        "mot de passe wifi fort",
+        "générateur de mot de passe wpa2"
+      ],
+      "defaultVariant": "wifi",
+      "headline": "Générez un mot de passe WiFi sécurisé, assez fort pour protéger votre réseau mais suffisamment facile à partager avec des invités. Évite les caractères confus comme 0/O et 1/l/I."
+    },
+    {
+      "variantSlug": "pin-generator",
+      "metaTitle": "Générateur de PIN – Numéros de PIN aléatoires de 4 et 6 chiffres",
+      "metaDescription": "Générez un PIN aléatoire de 4 chiffres ou de 6 chiffres. Générateur de PIN sécurisé cryptographiquement pour cartes bancaires, téléphones et applications. Gratuit et instantané.",
+      "keywords": [
+        "générateur de pin",
+        "numéro de pin aléatoire",
+        "générateur de pin 4 chiffres",
+        "générateur de pin 6 chiffres",
+        "pin sécurisé"
+      ],
+      "defaultVariant": "pin",
+      "headline": "Générez un numéro de PIN aléatoire — 4 chiffres, 6 chiffres ou longueur personnalisée. Sécurisé cryptographiquement, généré entièrement dans votre navigateur."
+    },
+    {
+      "variantSlug": "memorable-password-generator",
+      "metaTitle": "Générateur de mots de passe mémorables – Mots de passe forts et faciles à retenir",
+      "metaDescription": "Générez des mots de passe qui sont à la fois forts et mémorables. Mots de passe basés sur des mots avec des chiffres et des symboles — plus faciles à taper, plus difficiles à craquer.",
+      "keywords": [
+        "générateur de mots de passe mémorables",
+        "mot de passe facile à retenir",
+        "générateur de phrase de passe",
+        "générateur de mots de passe par mots"
+      ],
+      "defaultVariant": "memorable",
+      "headline": "Générez des mots de passe qui combinent des mots aléatoires avec des chiffres et des symboles — assez forts pour résister aux attaques par force brute, mais suffisamment faciles à retenir."
+    }
+  ]
+}

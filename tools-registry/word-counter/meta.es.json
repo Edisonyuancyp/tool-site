@@ -1,0 +1,79 @@
+{
+  "slug": "word-counter",
+  "name": "Contador de Palabras",
+  "tagline": "Cuenta palabras, caracteres, oraciones y tiempo de lectura",
+  "description": "Pega tu texto para contar instantáneamente palabras, caracteres, oraciones, párrafos y tiempo de lectura estimado. Útil para ensayos, artículos, contenido SEO y publicaciones en redes sociales.",
+  "metaTitle": "Contador de Palabras – Herramienta de Conteo de Palabras en Línea Gratis",
+  "metaDescription": "Cuenta palabras y caracteres al instante. Contador de palabras en línea gratuito para ensayos, artículos y redes sociales. Obtén el conteo de palabras, conteo de caracteres y tiempo de lectura.",
+  "keywords": [
+    "contador de palabras",
+    "contador de caracteres",
+    "herramienta de conteo de palabras",
+    "contador de palabras en línea",
+    "contar palabras en línea"
+  ],
+  "category": "Utilities",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "¿Cómo cuento palabras en mi texto?",
+      "answer": "Pega tu texto en el cuadro de arriba. El conteo de palabras se actualiza instantáneamente mientras escribes o pegas."
+    },
+    {
+      "question": "¿Cuenta caracteres con o sin espacios?",
+      "answer": "Ambos. La herramienta muestra los caracteres con espacios y los caracteres sin espacios por separado."
+    },
+    {
+      "question": "¿Cómo se calcula el tiempo de lectura?",
+      "answer": "El tiempo de lectura se basa en una velocidad de lectura promedio de 200–250 palabras por minuto para adultos."
+    }
+  ],
+  "relatedTools": [
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "twitter-character-counter",
+      "metaTitle": "Contador de Caracteres de Twitter – Verificador de Longitud de Publicaciones X",
+      "metaDescription": "Cuenta caracteres para publicaciones de Twitter/X. Ve los caracteres restantes, verifica si tu tweet cabe en 280 caracteres. Contador de Twitter instantáneo y gratuito.",
+      "keywords": [
+        "contador de caracteres de twitter",
+        "contador de caracteres de tweet",
+        "límite de caracteres de publicación x",
+        "contador de 280 caracteres",
+        "límite de palabras de twitter"
+      ],
+      "defaultVariant": "twitter",
+      "headline": "Verifica la longitud de tu tweet antes de publicar. Twitter (X) limita las publicaciones a 280 caracteres; este contador muestra exactamente cuántos te quedan en tiempo real."
+    },
+    {
+      "variantSlug": "essay-word-counter",
+      "metaTitle": "Contador de Palabras para Ensayos – Cuenta Palabras para Ensayos y Trabajos",
+      "metaDescription": "Cuenta palabras en tu ensayo o trabajo académico. Verifica si cumples con el requisito de conteo de palabras. Contador de palabras para ensayos gratuito con desglose de párrafos y oraciones.",
+      "keywords": [
+        "contador de palabras para ensayos",
+        "conteo de palabras para ensayo",
+        "contador de palabras académico",
+        "verificador de conteo de palabras de trabajo",
+        "contar palabras en ensayo"
+      ],
+      "defaultVariant": "essay",
+      "headline": "Cuenta palabras en tu ensayo o trabajo. Muestra el total de palabras, párrafos, oraciones y tiempo de lectura estimado: todo lo que necesitas para alcanzar tu objetivo de conteo de palabras."
+    },
+    {
+      "variantSlug": "seo-content-analyzer",
+      "metaTitle": "Analizador de Contenido SEO – Verificador de Conteo de Palabras y Densidad de Palabras Clave",
+      "metaDescription": "Analiza tu contenido para SEO. Verifica el conteo de palabras, la densidad de palabras clave y el nivel de lectura. Herramienta gratuita de contador de palabras para contenido SEO.",
+      "keywords": [
+        "verificador de conteo de palabras SEO",
+        "conteo de palabras de contenido SEO",
+        "verificador de densidad de palabras clave",
+        "analizador de contenido SEO",
+        "conteo de palabras en escritura SEO"
+      ],
+      "defaultVariant": "seo",
+      "headline": "Analiza tu contenido para SEO: las publicaciones de blog óptimas tienen entre 1,500 y 2,500 palabras. Esta herramienta muestra tu conteo de palabras, densidad de palabras clave y tiempo de lectura estimado de un vistazo."
+    }
+  ]
+}

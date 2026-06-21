@@ -1,0 +1,76 @@
+{
+  "slug": "password-generator",
+  "name": "Generador de Contraseñas",
+  "tagline": "Genera contraseñas fuertes y seguras al instante",
+  "description": "Crea contraseñas aleatorias fuertes con longitud y conjuntos de caracteres personalizados. Elige mayúsculas, minúsculas, números y símbolos. Copia con un clic.",
+  "metaTitle": "Generador de Contraseñas – Generador de Contraseñas Fuertes Gratis en Línea",
+  "metaDescription": "Genera contraseñas aleatorias fuertes al instante. Personaliza la longitud, mayúsculas, minúsculas, números y símbolos. Generador de contraseñas seguro y gratuito — sin necesidad de registro.",
+  "keywords": [
+    "generador de contraseñas",
+    "generador de contraseñas fuertes",
+    "generador de contraseñas aleatorias",
+    "creador de contraseñas seguras"
+  ],
+  "category": "Seguridad",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "¿Qué hace que una contraseña sea fuerte?",
+      "answer": "Una contraseña fuerte tiene al menos 12 caracteres y utiliza una mezcla de letras mayúsculas, letras minúsculas, números y símbolos especiales."
+    },
+    {
+      "question": "¿Es seguro usar este generador de contraseñas?",
+      "answer": "Sí. Las contraseñas se generan completamente en tu navegador utilizando la función aleatoria criptográfica de JavaScript. Nunca se envían a ningún servidor."
+    },
+    {
+      "question": "¿Cuánto debería medir mi contraseña?",
+      "answer": "Recomendamos al menos 16 caracteres para cuentas importantes. Cuanto más larga sea la contraseña, más difícil será de descifrar."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "random-number-generator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "wifi-password-generator",
+      "metaTitle": "Generador de Contraseñas WiFi – Contraseñas WiFi Aleatorias Fuertes",
+      "metaDescription": "Genera una contraseña WiFi aleatoria y fuerte. Fácil de compartir, difícil de descifrar. Generador de contraseñas WiFi gratuito — alfanumérico, sin caracteres confusos.",
+      "keywords": [
+        "generador de contraseñas wifi",
+        "contraseña wifi aleatoria",
+        "contraseña wifi fuerte",
+        "generador de contraseñas wpa2"
+      ],
+      "defaultVariant": "wifi",
+      "headline": "Genera una contraseña WiFi segura que sea lo suficientemente fuerte para proteger tu red pero lo suficientemente fácil de compartir con los invitados. Evita caracteres confusos como 0/O y 1/l/I."
+    },
+    {
+      "variantSlug": "pin-generator",
+      "metaTitle": "Generador de PIN – Números PIN Aleatorios de 4 y 6 Dígitos",
+      "metaDescription": "Genera un PIN aleatorio de 4 o 6 dígitos. Generador de PIN criptográficamente seguro para tarjetas bancarias, teléfonos y aplicaciones. Gratis e instantáneo.",
+      "keywords": [
+        "generador de pin",
+        "número pin aleatorio",
+        "generador de pin de 4 dígitos",
+        "generador de pin de 6 dígitos",
+        "pin seguro"
+      ],
+      "defaultVariant": "pin",
+      "headline": "Genera un número PIN aleatorio — de 4 dígitos, 6 dígitos o longitud personalizada. Criptográficamente seguro, generado completamente en tu navegador."
+    },
+    {
+      "variantSlug": "memorable-password-generator",
+      "metaTitle": "Generador de Contraseñas Memorables – Contraseñas Fuertes y Fáciles de Recordar",
+      "metaDescription": "Genera contraseñas que son fuertes y memorables. Contraseñas basadas en palabras con números y símbolos — más fáciles de escribir, más difíciles de descifrar.",
+      "keywords": [
+        "generador de contraseñas memorables",
+        "contraseña fácil de recordar",
+        "generador de frases de contraseña",
+        "generador de contraseñas por palabras"
+      ],
+      "defaultVariant": "memorable",
+      "headline": "Genera contraseñas que combinan palabras aleatorias con números y símbolos — lo suficientemente fuertes para resistir ataques de fuerza bruta, pero lo suficientemente fáciles de recordar."
+    }
+  ]
+}

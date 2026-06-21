@@ -1,0 +1,80 @@
+{
+  "slug": "loan-calculator",
+  "name": "Calculadora de Préstamos",
+  "tagline": "Calcula los pagos mensuales, el interés total y el calendario de amortización",
+  "description": "Calcula los pagos mensuales de un préstamo, el interés total pagado y genera un calendario de amortización completo. Funciona para hipotecas, préstamos de automóviles, préstamos personales y préstamos estudiantiles.",
+  "metaTitle": "Calculadora de Préstamos – Pago Mensual, Interés Total y Amortización",
+  "metaDescription": "Calculadora de préstamos gratuita. Ingresa el monto del préstamo, la tasa de interés y el plazo para encontrar el pago mensual y el interés total. Incluye un calendario de amortización completo.",
+  "keywords": [
+    "calculadora de préstamos",
+    "calculadora de pagos mensuales",
+    "calculadora de interés de préstamos",
+    "calculadora de amortización",
+    "calculadora de pagos de hipoteca"
+  ],
+  "category": "Finanzas",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "¿Cómo se calcula mi pago mensual del préstamo?",
+      "answer": "Pago mensual = P × [r(1+r)^n] / [(1+r)^n - 1], donde P es el capital, r es la tasa de interés mensual y n es el número total de pagos."
+    },
+    {
+      "question": "¿Qué es un calendario de amortización?",
+      "answer": "Un calendario de amortización muestra cada pago mensual desglosado en capital e interés. Los pagos iniciales son principalmente de interés; los pagos posteriores son principalmente de capital."
+    },
+    {
+      "question": "¿Cómo puedo reducir el interés total pagado?",
+      "answer": "Hacer pagos adicionales de capital temprano reduce el saldo del préstamo más rápido, disminuyendo significativamente el interés total. Incluso un pago adicional al año puede ahorrar miles."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "mortgage-calculator",
+      "metaTitle": "Calculadora de Hipotecas – Calculadora de Pagos Mensuales de Hipoteca",
+      "metaDescription": "Calcula tu pago mensual de hipoteca. Ingresa el precio de la casa, el pago inicial, la tasa de interés y el plazo del préstamo. Calculadora de hipoteca gratuita con calendario de amortización.",
+      "keywords": [
+        "calculadora de hipotecas",
+        "calculadora de pagos mensuales de hipoteca",
+        "calculadora de préstamos para vivienda",
+        "estimador de pagos de hipoteca",
+        "calculadora de pagos de casa"
+      ],
+      "defaultVariant": "mortgage",
+      "headline": "Calcula tu pago mensual de hipoteca incluyendo capital e interés. Ingresa el precio de la casa, el porcentaje de pago inicial, la tasa de interés y el plazo del préstamo para ver la amortización completa."
+    },
+    {
+      "variantSlug": "car-loan-calculator",
+      "metaTitle": "Calculadora de Préstamos de Automóvil – Calculadora de Pagos Mensuales de Préstamo de Auto",
+      "metaDescription": "Calcula los pagos mensuales de préstamos de automóvil. Ingresa el precio del vehículo, el pago inicial, la tasa de interés y el plazo del préstamo. Calculadora de préstamos de auto gratuita.",
+      "keywords": [
+        "calculadora de préstamos de automóvil",
+        "calculadora de préstamos de auto",
+        "calculadora de pagos mensuales de automóvil",
+        "calculadora de préstamos para vehículos",
+        "calculadora de financiamiento de auto"
+      ],
+      "defaultVariant": "car",
+      "headline": "Calcula tu pago mensual de préstamo de automóvil. Ingresa el precio del vehículo, el pago inicial, el valor de intercambio, la tasa de interés y el plazo del préstamo para ver tu pago exacto."
+    },
+    {
+      "variantSlug": "personal-loan-calculator",
+      "metaTitle": "Calculadora de Préstamos Personales – Pago Mensual de Préstamo Personal",
+      "metaDescription": "Calcula los pagos mensuales de préstamos personales y el interés total. Calculadora de préstamos personales gratuita: ingresa el monto, la tasa y el plazo para obtener resultados instantáneos.",
+      "keywords": [
+        "calculadora de préstamos personales",
+        "calculadora de pagos de préstamos personales",
+        "estimador de pagos de préstamos",
+        "calculadora de préstamos no garantizados",
+        "cuánto préstamo puedo pagar"
+      ],
+      "defaultVariant": "personal",
+      "headline": "Calcula tu pago mensual de préstamo personal y el costo total del interés. Te ayuda a comparar ofertas de préstamos y elegir las mejores condiciones."
+    }
+  ]
+}

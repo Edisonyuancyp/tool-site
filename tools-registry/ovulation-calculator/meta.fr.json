@@ -1,0 +1,76 @@
+{
+  "slug": "ovulation-calculator",
+  "name": "Suivi de l'ovulation et du cycle",
+  "tagline": "Prédisez la fenêtre fertile, la date d'ovulation et vos prochaines règles",
+  "description": "Calculez votre fenêtre fertile, la date d'ovulation, les dates de vos règles et les phases de votre cycle pour jusqu'à 6 cycles futurs. Tous les calculs se font entièrement dans votre navigateur — aucune donnée n'est envoyée à un serveur.",
+  "metaTitle": "Calculateur d'ovulation – Suivi de la fenêtre fertile et des règles (uniquement dans le navigateur)",
+  "metaDescription": "Calculateur gratuit d'ovulation et de règles. Trouvez votre fenêtre fertile, la date d'ovulation et vos prochaines règles pour jusqu'à 6 cycles. 100 % privé — fonctionne dans votre navigateur, aucune donnée stockée.",
+  "keywords": [
+    "calculateur d'ovulation",
+    "calculateur de fenêtre fertile",
+    "suivi des règles",
+    "calculateur de cycle menstruel",
+    "quand suis-je le plus fertile"
+  ],
+  "category": "Santé",
+  "icon": "🌸",
+  "faqs": [
+    {
+      "question": "Comment est calculée la fenêtre fertile ?",
+      "answer": "L'ovulation se produit généralement 14 jours avant les prochaines règles. La fenêtre fertile est de 5 jours avant l'ovulation plus le jour de l'ovulation lui-même."
+    },
+    {
+      "question": "Ces données sont-elles stockées quelque part ?",
+      "answer": "Non. Tous les calculs sont effectués en JavaScript dans votre navigateur. Rien n'est envoyé à un serveur ou partagé avec un tiers."
+    }
+  ],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "fertile-window-calculator",
+      "metaTitle": "Calculateur de fenêtre fertile – Quand êtes-vous le plus fertile ?",
+      "metaDescription": "Calculez votre fenêtre fertile — les jours de chaque mois où vous êtes le plus susceptible de concevoir. Calculateur de fenêtre fertile gratuit, 100 % privé et uniquement dans le navigateur.",
+      "keywords": [
+        "calculateur de fenêtre fertile",
+        "quand suis-je le plus fertile",
+        "calculateur de fenêtre de fertilité",
+        "meilleurs jours pour concevoir",
+        "calculateur de jours fertiles"
+      ],
+      "defaultVariant": "fertile",
+      "headline": "Trouvez votre fenêtre fertile — la fenêtre de 6 jours de chaque cycle où une grossesse est possible. Basé sur vos dernières règles et la durée de votre cycle."
+    },
+    {
+      "variantSlug": "period-tracker-calculator",
+      "metaTitle": "Calculateur de suivi des règles – Prédisez la date de vos prochaines règles",
+      "metaDescription": "Calculez la date de vos prochaines règles et suivez votre cycle menstruel. Suivi des règles gratuit — prévoyez vos prochaines règles pour 6 mois. Uniquement dans le navigateur, 100 % privé.",
+      "keywords": [
+        "calculateur de suivi des règles",
+        "calculateur de date des prochaines règles",
+        "suivi du cycle menstruel",
+        "prédicteur de date des règles",
+        "quand sont mes prochaines règles"
+      ],
+      "defaultVariant": "period",
+      "headline": "Prédisez la date de vos prochaines règles et les dates des cycles à venir pour les 6 prochains mois. Entrez la date de vos dernières règles et la durée moyenne de votre cycle."
+    },
+    {
+      "variantSlug": "ovulation-calculator-irregular-periods",
+      "metaTitle": "Calculateur d'ovulation pour cycles irréguliers",
+      "metaDescription": "Calculez l'ovulation et la fenêtre fertile pour des cycles menstruels irréguliers. Ajustez la durée de votre cycle pour tenir compte des règles irrégulières. Calculateur d'ovulation gratuit.",
+      "keywords": [
+        "calculateur d'ovulation cycles irréguliers",
+        "calculateur d'ovulation pour cycle irrégulier",
+        "fenêtre fertile cycle irrégulier",
+        "ovulation règles irrégulières",
+        "calculateur de cycle menstruel irrégulier"
+      ],
+      "defaultVariant": "irregular",
+      "headline": "Les cycles irréguliers rendent plus difficile la prédiction de l'ovulation. Ajustez la plage de durée de votre cycle pour voir la fenêtre fertile estimée selon la durée variable de votre cycle."
+    }
+  ]
+}

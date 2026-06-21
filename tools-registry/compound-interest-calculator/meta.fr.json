@@ -1,0 +1,77 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "Calculateur d'Intérêts Composés",
+  "tagline": "Découvrez comment votre argent croît au fil du temps grâce aux intérêts composés",
+  "description": "Calculez les intérêts composés avec des contributions mensuelles optionnelles. Entrez votre capital, votre taux annuel, votre période d'investissement et votre fréquence de capitalisation pour voir votre solde final, le total des intérêts gagnés et un graphique de croissance année par année.",
+  "metaTitle": "Calculateur d'Intérêts Composés – Calculateur de Croissance d'Investissement Gratuit",
+  "metaDescription": "Calculez les intérêts composés en ligne. Entrez le capital, le taux, les années et les contributions mensuelles pour voir votre investissement croître. Calculateur d'intérêts composés gratuit avec graphique.",
+  "keywords": [
+    "calculateur d'intérêts composés",
+    "calculateur d'investissement",
+    "formule des intérêts composés",
+    "calculateur d'épargne",
+    "calculateur d'intérêts en ligne"
+  ],
+  "category": "Finance",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que les intérêts composés ?",
+      "answer": "Les intérêts composés sont des intérêts calculés à la fois sur le capital initial et sur les intérêts accumulés des périodes précédentes. Ils croissent de manière exponentielle au fil du temps."
+    },
+    {
+      "question": "À quelle fréquence les intérêts doivent-ils être composés ?",
+      "answer": "Une capitalisation plus fréquente signifie des rendements légèrement plus élevés. La capitalisation quotidienne génère le plus, mais la différence par rapport à la mensualisation est faible. La plupart des comptes d'épargne et des produits d'investissement capitalisent mensuellement."
+    },
+    {
+      "question": "Qu'est-ce que la Règle des 72 ?",
+      "answer": "Divisez 72 par votre taux d'intérêt annuel pour estimer combien d'années il faut pour doubler votre argent. À 6 %, votre argent double en environ 12 ans."
+    },
+    {
+      "question": "Ce calculateur inclut-il des contributions mensuelles ?",
+      "answer": "Oui. Vous pouvez ajouter un montant de contribution mensuelle pour simuler des dépôts d'épargne réguliers en plus de votre capital initial."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "compound-interest-calculator-monthly",
+      "metaTitle": "Calculateur d'Intérêts Composés Mensuels – Capitalisation Mensuelle",
+      "metaDescription": "Calculez les intérêts composés avec une capitalisation mensuelle. Découvrez comment la capitalisation mensuelle fait croître vos économies. Gratuit, instantané, sans inscription.",
+      "keywords": [
+        "calculateur d'intérêts composés mensuels",
+        "calculateur de capitalisation mensuelle",
+        "calculateur d'intérêts mensuels"
+      ],
+      "defaultVariant": "monthly",
+      "headline": "Calculez les intérêts composés capitalisés mensuellement — la fréquence la plus courante pour les comptes d'épargne, les CD et la plupart des produits d'investissement."
+    },
+    {
+      "variantSlug": "compound-interest-calculator-daily",
+      "metaTitle": "Calculateur d'Intérêts Composés Quotidiens – Capitalisation Quotidienne",
+      "metaDescription": "Calculez les intérêts composés avec une capitalisation quotidienne. La capitalisation quotidienne maximise les rendements — découvrez la différence par rapport à la capitalisation mensuelle. Calculateur gratuit.",
+      "keywords": [
+        "calculateur d'intérêts composés quotidiens",
+        "calculateur de capitalisation quotidienne",
+        "calculateur de taux d'intérêt quotidien"
+      ],
+      "defaultVariant": "daily",
+      "headline": "La capitalisation quotidienne offre le rendement le plus élevé possible sur un taux annuel donné. Comparez combien vous gagnez de plus par rapport à la capitalisation mensuelle."
+    },
+    {
+      "variantSlug": "compound-interest-calculator-annually",
+      "metaTitle": "Calculateur d'Intérêts Composés Annuels – Capitalisation Annuelle",
+      "metaDescription": "Calculez les intérêts composés avec une capitalisation annuelle. Calculateur simple de croissance des intérêts annuels. Gratuit et instantané.",
+      "keywords": [
+        "calculateur d'intérêts composés annuels",
+        "intérêts composés annuels",
+        "calculateur de capitalisation annuelle"
+      ],
+      "defaultVariant": "annually",
+      "headline": "Calculez les intérêts capitalisés une fois par an — la forme la plus simple des intérêts composés. Souvent utilisé pour les obligations, les dépôts à terme et les prêts à long terme."
+    }
+  ]
+}

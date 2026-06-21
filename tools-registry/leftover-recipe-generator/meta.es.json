@@ -1,0 +1,59 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "Generador de Recetas con Sobras",
+  "tagline": "Convierte las sobras en comidas deliciosas.",
+  "description": "Introduce las sobras que tienes y obtén ideas creativas de recetas para utilizarlas. Perfecto para reducir el desperdicio de alimentos y maximizar tu despensa.",
+  "metaTitle": "Generador de Recetas con Sobras – Ideas Creativas de Comidas | Herramienta Gratuita en Línea",
+  "metaDescription": "Genera recetas basadas en tus sobras con esta herramienta gratuita. No se requiere registro.",
+  "keywords": [
+    "ideas de recetas con sobras",
+    "cocinar con sobras",
+    "ideas de comidas con sobras"
+  ],
+  "category": "Cocina",
+  "icon": "🥡",
+  "faqs": [
+    {
+      "question": "¿Cómo funciona el generador de recetas con sobras?",
+      "answer": "Simplemente introduce los ingredientes que te quedan y el generador sugerirá posibles recetas."
+    },
+    {
+      "question": "¿Puedo agregar múltiples sobras?",
+      "answer": "Sí, puedes ingresar tantos ingredientes sobrantes como desees para obtener sugerencias de recetas personalizadas."
+    },
+    {
+      "question": "¿Son fáciles de seguir las recetas?",
+      "answer": "Las recetas sugeridas suelen ser simples y están diseñadas para una preparación rápida."
+    }
+  ],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "vegetarian-leftover-variant",
+      "metaTitle": "Generador de Recetas Vegetarianas con Sobras",
+      "metaDescription": "Crea comidas vegetarianas a partir de tus sobras.",
+      "keywords": [
+        "sobras vegetarianas",
+        "ideas de comidas a base de plantas",
+        "recetas veganas con sobras"
+      ],
+      "defaultVariant": "vegetarian-variant-key",
+      "headline": "Transforma tus sobras vegetarianas en comidas deliciosas."
+    },
+    {
+      "variantSlug": "quick-meal-leftover-variant",
+      "metaTitle": "Generador de Comidas Rápidas con Sobras",
+      "metaDescription": "Encuentra recetas rápidas para utilizar las sobras.",
+      "keywords": [
+        "comidas rápidas con sobras",
+        "recetas fáciles con sobras",
+        "cocina rápida con sobras"
+      ],
+      "defaultVariant": "quick-meal-variant-key",
+      "headline": "Obtén ideas de comidas rápidas para usar tus sobras sin esfuerzo."
+    }
+  ]
+}

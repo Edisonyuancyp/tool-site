@@ -1,0 +1,115 @@
+{
+  "slug": "budget-calculator",
+  "name": "Calculateur de Budget",
+  "tagline": "Suivez vos revenus et vos dépenses et voyez exactement où va votre argent",
+  "description": "Entrez vos revenus et dépenses mensuels pour obtenir une répartition instantanée de votre budget. Découvrez comment vos dépenses se comparent à la règle 50/30/20 — 50 % pour les besoins, 30 % pour les envies, 20 % pour l'épargne. Gratuit, sans inscription.",
+  "metaTitle": "Calculateur de Budget – Planificateur de Budget Personnel Mensuel Gratuit en Ligne",
+  "metaDescription": "Calculateur de budget mensuel gratuit. Entrez vos revenus et dépenses pour voir la répartition de votre budget et comparez-la à la règle 50/30/20. Résultats instantanés, sans inscription requise.",
+  "keywords": [
+    "calculateur de budget",
+    "calculateur de budget mensuel",
+    "planificateur de budget personnel",
+    "calculateur de règle 50 30 20",
+    "suivi des dépenses",
+    "calculateur de revenus et dépenses",
+    "calculateur de gestion financière"
+  ],
+  "category": "Finance",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Qu'est-ce que la règle budgétaire 50/30/20 ?",
+      "answer": "La règle 50/30/20 divise votre revenu après impôts en trois catégories : 50 % pour les besoins (loyer, nourriture, services publics), 30 % pour les envies (restaurants, loisirs) et 20 % pour l'épargne et le remboursement des dettes. C'est un cadre simple popularisé par la sénatrice Elizabeth Warren."
+    },
+    {
+      "question": "Comment utiliser ce calculateur de budget ?",
+      "answer": "Entrez votre revenu mensuel net et listez vos dépenses mensuelles par catégorie. Le calculateur affiche instantanément votre excédent ou déficit, et comment vos dépenses se comparent à la directive 50/30/20."
+    },
+    {
+      "question": "Qu'est-ce qui compte comme un 'besoin' et un 'envie' ?",
+      "answer": "Les besoins sont des dépenses essentielles sans lesquelles vous ne pouvez pas vivre : loyer/hypothèque, courses, services publics, assurances et paiements minimums de dettes. Les envies sont des choix de style de vie : restaurants, abonnements, loisirs, vacances."
+    },
+    {
+      "question": "Combien devrais-je épargner chaque mois ?",
+      "answer": "La règle 50/30/20 recommande d'épargner au moins 20 % de votre revenu net. Si ce n'est pas possible, commencez par n'importe quel montant — même 5 à 10 % — et augmentez-le au fil du temps en réduisant les dépenses discrétionnaires."
+    }
+  ],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "family-budget-calculator",
+      "metaTitle": "Calculateur de Budget Familial – Planificateur de Budget Mensuel pour Ménage",
+      "metaDescription": "Calculateur de budget familial gratuit. Suivez les revenus du ménage et les dépenses partagées pour 2 personnes ou plus. Découvrez comment votre budget familial se compare à la règle 50/30/20. Pas d'inscription.",
+      "keywords": [
+        "calculateur de budget familial",
+        "calculateur de budget pour ménage",
+        "budget mensuel pour ménage",
+        "suivi des dépenses familiales",
+        "calculateur de budget familial"
+      ],
+      "defaultVariant": "family",
+      "headline": "Suivez vos revenus et dépenses partagées en famille. Entrez les revenus combinés et répartissez les dépenses par catégories pour voir votre budget familial en un coup d'œil."
+    },
+    {
+      "variantSlug": "student-budget-calculator",
+      "metaTitle": "Calculateur de Budget Étudiant – Planificateur de Budget Mensuel pour Étudiants",
+      "metaDescription": "Calculateur de budget étudiant gratuit pour les étudiants de collège et d'université. Suivez les frais de scolarité, le loyer, la nourriture et les loisirs avec un revenu étudiant. Découvrez jusqu'où va votre argent chaque mois.",
+      "keywords": [
+        "calculateur de budget étudiant",
+        "calculateur de budget pour collège",
+        "budget étudiant universitaire",
+        "dépenses mensuelles des étudiants",
+        "budget pour étudiants"
+      ],
+      "defaultVariant": "student",
+      "headline": "Budget conçu pour la vie étudiante. Suivez vos revenus d'étudiant (emploi à temps partiel, allocation, bourses) par rapport aux frais de scolarité, au loyer, à la nourriture et aux sorties — et voyez votre solde mensuel."
+    },
+    {
+      "variantSlug": "zero-based-budget-calculator",
+      "metaTitle": "Calculateur de Budget à Zéro – Chaque Dollar a un Rôle",
+      "metaDescription": "Calculateur de budget à zéro gratuit. Allouez chaque dollar de votre revenu à des dépenses et à des économies spécifiques jusqu'à atteindre zéro. La méthode de Dave Ramsey simplifiée.",
+      "keywords": [
+        "calculateur de budget à zéro",
+        "budget à zéro",
+        "budget chaque dollar",
+        "budget de dave ramsey",
+        "budget à somme nulle"
+      ],
+      "defaultVariant": "zero-based",
+      "headline": "Le budget à zéro signifie donner un rôle à chaque dollar jusqu'à ce que le revenu moins les dépenses soit égal à zéro. Ce calculateur vous guide pour attribuer tous vos revenus à des catégories afin que rien ne reste non planifié."
+    },
+    {
+      "variantSlug": "monthly-budget-calculator",
+      "metaTitle": "Calculateur de Budget Mensuel – Planifiez Vos Finances Mensuelles",
+      "metaDescription": "Calculateur de budget mensuel gratuit. Entrez votre salaire mensuel et vos factures pour voir la répartition de vos dépenses et combien vous pouvez économiser. Planificateur de budget instantané sans inscription.",
+      "keywords": [
+        "calculateur de budget mensuel",
+        "planificateur de budget mensuel",
+        "calculateur de revenus et dépenses mensuels",
+        "comment budgétiser mensuellement",
+        "calculateur de dépenses mensuelles"
+      ],
+      "defaultVariant": "monthly",
+      "headline": "Planifiez votre mois avant qu'il ne commence. Entrez votre revenu net mensuel et toutes les dépenses prévues pour voir votre solde projeté et identifier les domaines à réduire."
+    },
+    {
+      "variantSlug": "weekly-budget-calculator",
+      "metaTitle": "Calculateur de Budget Hebdomadaire – Planifiez Vos Dépenses Hebdomadaires",
+      "metaDescription": "Calculateur de budget hebdomadaire gratuit. Décomposez votre budget mensuel en limites de dépenses hebdomadaires. Parfait si vous êtes payé chaque semaine ou si vous souhaitez un contrôle plus strict sur vos dépenses.",
+      "keywords": [
+        "calculateur de budget hebdomadaire",
+        "planificateur de dépenses hebdomadaires",
+        "budget par semaine",
+        "combien dépenser par semaine",
+        "calculateur d'allocation hebdomadaire"
+      ],
+      "defaultVariant": "weekly",
+      "headline": "Décomposer votre budget en tranches hebdomadaires rend le dépassement de budget beaucoup plus difficile à ignorer. Entrez vos revenus et dépenses mensuels et voyez votre limite de dépenses hebdomadaire en un coup d'œil."
+    }
+  ]
+}

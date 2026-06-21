@@ -1,0 +1,108 @@
+{
+  "slug": "currency-converter",
+  "name": "Convertisseur de devises",
+  "tagline": "Convertissez des devises avec des taux de change en direct",
+  "description": "Convertissez plus de 25 devises mondiales en utilisant les taux de change en direct de la Banque centrale européenne (BCE). Comprend un tableau de référence rapide et un retour automatique aux taux hors ligne si nécessaire.",
+  "metaTitle": "Convertisseur de devises – Calculateur gratuit de taux de change en direct",
+  "metaDescription": "Convertissez USD, EUR, GBP, JPY, CNY et plus de 20 devises avec les taux de change en direct de la BCE. Convertisseur de devises en ligne gratuit — sans inscription, résultats instantanés.",
+  "keywords": [
+    "convertisseur de devises",
+    "calculateur de taux de change",
+    "usd en eur",
+    "échange de devises en ligne",
+    "taux de change en direct"
+  ],
+  "category": "Finance",
+  "icon": "💱",
+  "faqs": [
+    {
+      "question": "D'où viennent les taux de change ?",
+      "answer": "Les taux sont récupérés auprès de la Banque centrale européenne (BCE) via l'API Frankfurter — une source gratuite et fiable mise à jour quotidiennement. En mode hors ligne, l'outil utilise des taux de référence statiques."
+    },
+    {
+      "question": "À quelle fréquence les taux sont-ils mis à jour ?",
+      "answer": "Les taux de la BCE sont mis à jour une fois par jour ouvrable. Les taux ne sont pas des données en temps réel, mais sont précis pour la plupart des conversions quotidiennes."
+    },
+    {
+      "question": "Quelles devises sont prises en charge ?",
+      "answer": "Plus de 25 devises, y compris USD, EUR, GBP, JPY, CNY, KRW, AUD, CAD, CHF, HKD, SGD, INR, THB, VND, MYR, IDR, PHP, et plus encore."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "usd-to-eur",
+      "metaTitle": "Convertisseur USD en EUR – Taux de change Dollar américain à Euro",
+      "metaDescription": "Convertissez USD en EUR instantanément avec des taux de change en direct. Convertisseur gratuit de Dollar américain à Euro. Mis à jour quotidiennement par la Banque centrale européenne.",
+      "keywords": [
+        "usd en eur",
+        "convertisseur dollar en euro",
+        "taux de change usd eur",
+        "convertir usd en euro",
+        "calculateur dollar euro"
+      ],
+      "defaultVariant": "usd-eur",
+      "headline": "Convertissez des Dollars américains en Euros en utilisant le dernier taux de change de la BCE. La paire USD/EUR est la paire de devises la plus échangée au monde."
+    },
+    {
+      "variantSlug": "usd-to-cny",
+      "metaTitle": "Convertisseur USD en CNY – Dollar en Yuan chinois",
+      "metaDescription": "Convertissez USD en CNY (Yuan chinois / RMB) avec des taux de change en direct. Convertisseur gratuit de dollar en yuan. Mis à jour quotidiennement.",
+      "keywords": [
+        "usd en cny",
+        "convertisseur dollar en yuan",
+        "taux de change usd cny",
+        "dollar en rmb",
+        "usd en renminbi"
+      ],
+      "defaultVariant": "usd-cny",
+      "headline": "Convertissez des Dollars américains en Yuan chinois (RMB/CNY) en utilisant les taux de change mis à jour quotidiennement par la BCE."
+    },
+    {
+      "variantSlug": "usd-to-jpy",
+      "metaTitle": "Convertisseur USD en JPY – Dollar en Yen japonais",
+      "metaDescription": "Convertissez USD en JPY avec des taux de change en direct. Convertisseur gratuit de Dollar américain en Yen japonais. Mis à jour quotidiennement par la Banque centrale européenne.",
+      "keywords": [
+        "usd en jpy",
+        "convertisseur dollar en yen",
+        "taux de change usd jpy",
+        "calculateur dollar yen",
+        "convertir usd en yen japonais"
+      ],
+      "defaultVariant": "usd-jpy",
+      "headline": "Convertissez des Dollars américains en Yen japonais en utilisant le dernier taux de change quotidien. Le JPY est une devise de réserve majeure et un actif refuge."
+    },
+    {
+      "variantSlug": "usd-to-gbp",
+      "metaTitle": "Convertisseur USD en GBP – Dollar en Livre sterling britannique",
+      "metaDescription": "Convertissez USD en GBP avec des taux de change en direct. Convertisseur gratuit de Dollar américain en Livre sterling britannique. Mis à jour quotidiennement.",
+      "keywords": [
+        "usd en gbp",
+        "convertisseur dollar en livre",
+        "taux de change usd gbp",
+        "dollar en sterling",
+        "convertir usd en livres"
+      ],
+      "defaultVariant": "usd-gbp",
+      "headline": "Convertissez des Dollars américains en Livres sterling britanniques en utilisant les taux de change quotidiens de la BCE. La GBP est l'une des devises les plus anciennes et les plus échangées au monde."
+    },
+    {
+      "variantSlug": "eur-to-usd",
+      "metaTitle": "Convertisseur EUR en USD – Taux de change Euro en Dollar américain",
+      "metaDescription": "Convertissez EUR en USD avec des taux de change en direct. Convertisseur gratuit d'Euro en Dollar américain mis à jour quotidiennement par la Banque centrale européenne.",
+      "keywords": [
+        "eur en usd",
+        "convertisseur euro en dollar",
+        "taux de change eur usd",
+        "convertir euro en usd",
+        "calculateur euro dollar"
+      ],
+      "defaultVariant": "eur-usd",
+      "headline": "Convertissez des Euros en Dollars américains en utilisant le dernier taux de change de la BCE. L'EUR/USD est la paire de devises la plus liquide sur le marché des changes."
+    }
+  ]
+}

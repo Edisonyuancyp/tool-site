@@ -1,0 +1,76 @@
+{
+  "slug": "base64-tool",
+  "name": "Codificador / Decodificador Base64",
+  "tagline": "Codifica y decodifica cadenas Base64 y URL de forma instantánea",
+  "description": "Codifica cualquier texto a Base64 o decodifica Base64 de vuelta a texto plano. También soporta codificación/decodificación URL. Maneja correctamente UTF-8. Incluye botón de intercambio, validación en tiempo real y copiar al portapapeles.",
+  "metaTitle": "Codificador Decodificador Base64 en Línea – Herramienta de Codificación y Decodificación URL",
+  "metaDescription": "Codificador y decodificador Base64 gratuito. Codifica texto a Base64 o decodifica cadenas Base64. También codifica/decodifica URL. Seguro para UTF-8, solo en navegador, resultados instantáneos.",
+  "keywords": [
+    "codificador decodificador base64",
+    "decodificar base64 en línea",
+    "codificar decodificar url",
+    "convertidor base64",
+    "herramienta de codificación porcentual"
+  ],
+  "category": "Desarrollador",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "¿Para qué se utiliza Base64?",
+      "answer": "Base64 se utiliza para codificar datos binarios como texto ASCII para una transmisión segura — en URIs de datos, encabezados de autenticación básica HTTP, tokens JWT, archivos adjuntos de correo electrónico y cargas útiles JSON."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre Base64 y la codificación URL?",
+      "answer": "Base64 codifica cualquier byte en un alfabeto de 64 caracteres. La codificación URL reemplaza caracteres inseguros de URL con secuencias hexadecimales %XX. Usa la codificación URL para parámetros de consulta; Base64 para datos binarios en formatos de texto."
+    }
+  ],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "base64-encode-online",
+      "metaTitle": "Codificar Base64 en Línea – Convertir Texto a Cadena Base64",
+      "metaDescription": "Codifica texto o datos a formato Base64 de forma instantánea. Codificador Base64 en línea gratuito — seguro para UTF-8, solo en navegador, sin necesidad de registro.",
+      "keywords": [
+        "codificar base64 en línea",
+        "texto a base64",
+        "codificar base64",
+        "codificador base64 en línea",
+        "convertir a base64"
+      ],
+      "defaultVariant": "encode",
+      "headline": "Codifica cualquier texto o dato a formato Base64. Útil para incrustar datos en HTML, CSS, JSON y cargas útiles de API."
+    },
+    {
+      "variantSlug": "base64-decode-online",
+      "metaTitle": "Decodificar Base64 en Línea – Decodificar Base64 a Texto",
+      "metaDescription": "Decodifica cadenas Base64 de vuelta a texto plano de forma instantánea. Decodificador Base64 en línea gratuito — pega tu cadena codificada y obtén el texto original.",
+      "keywords": [
+        "decodificar base64 en línea",
+        "decodificar cadena base64",
+        "base64 a texto",
+        "decodificador base64 en línea",
+        "convertir de base64"
+      ],
+      "defaultVariant": "decode",
+      "headline": "Pega una cadena codificada en Base64 para decodificarla de vuelta a texto plano. Maneja variantes estándar de Base64 y Base64 seguro para URL."
+    },
+    {
+      "variantSlug": "url-encode-decode",
+      "metaTitle": "Codificar Decodificar URL en Línea – Herramienta de Codificación Porcentual",
+      "metaDescription": "Codifica o decodifica cadenas URL de forma instantánea. Convierte caracteres especiales a formato codificado porcentualmente para un uso seguro en URLs. Codificador/decodificador URL gratuito en línea.",
+      "keywords": [
+        "codificar decodificar url",
+        "herramienta de codificación porcentual",
+        "codificador url en línea",
+        "decodificador url en línea",
+        "codificar parámetros url"
+      ],
+      "defaultVariant": "url",
+      "headline": "Codifica o decodifica cadenas URL (codificación porcentual). Convierte caracteres especiales como espacios, &, =, y # a sus equivalentes %XX para un uso seguro en URLs y parámetros de consulta."
+    }
+  ]
+}

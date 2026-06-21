@@ -1,0 +1,76 @@
+{
+  "slug": "ideal-weight-calculator",
+  "name": "Calculadora de Peso Ideal",
+  "tagline": "Encuentra tu peso ideal utilizando 4 fórmulas médicas + rango de IMC saludable",
+  "description": "Calcula tu peso corporal ideal utilizando las fórmulas de Robinson, Miller, Devine y Hamwi, además del rango de IMC saludable. Ingresa tu altura y género para comparar los cuatro resultados.",
+  "metaTitle": "Calculadora de Peso Ideal – Fórmulas de Robinson, Miller, Devine y Hamwi",
+  "metaDescription": "Calculadora de peso ideal gratuita utilizando 4 fórmulas médicas. Ingresa altura y género para encontrar tu peso ideal según los métodos de Robinson, Miller, Devine y Hamwi, además del rango de IMC saludable.",
+  "keywords": [
+    "calculadora de peso ideal",
+    "¿cuánto debería pesar?",
+    "fórmula de peso corporal ideal",
+    "calculadora de peso saludable",
+    "fórmula de Robinson Devine Miller Hamwi"
+  ],
+  "category": "Health",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "¿Cuál fórmula de peso ideal es la más precisa?",
+      "answer": "La fórmula de Robinson (1983) es la más citada en la literatura moderna. Sin embargo, las cuatro fórmulas son estimaciones para adultos de complexión promedio."
+    },
+    {
+      "question": "¿Por qué las fórmulas son diferentes del IMC?",
+      "answer": "El IMC proporciona un rango basado únicamente en la altura, mientras que estas fórmulas ofrecen un peso objetivo único basado en observaciones clínicas."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "ideal-weight-calculator-female",
+      "metaTitle": "Calculadora de Peso Ideal para Mujeres – Peso Saludable para Females",
+      "metaDescription": "Calcula el peso corporal ideal para mujeres utilizando las fórmulas de Robinson, Miller, Devine y Hamwi. Calculadora de peso ideal gratuita para mujeres.",
+      "keywords": [
+        "calculadora de peso ideal mujer",
+        "peso ideal para mujeres",
+        "calculadora de peso saludable mujeres",
+        "¿cuánto debería pesar una mujer?",
+        "peso corporal ideal mujer"
+      ],
+      "defaultVariant": "female",
+      "headline": "Encuentra tu peso ideal como mujer utilizando cuatro fórmulas médicas establecidas. Los resultados muestran el rango de peso objetivo para tu altura basado en cálculos específicos para mujeres."
+    },
+    {
+      "variantSlug": "ideal-weight-calculator-male",
+      "metaTitle": "Calculadora de Peso Ideal para Hombres – Peso Saludable para Males",
+      "metaDescription": "Calcula el peso corporal ideal para hombres utilizando las fórmulas de Robinson, Miller, Devine y Hamwi. Calculadora de peso ideal gratuita para hombres.",
+      "keywords": [
+        "calculadora de peso ideal hombre",
+        "peso ideal para hombres",
+        "calculadora de peso saludable hombres",
+        "¿cuánto debería pesar un hombre?",
+        "peso corporal ideal hombre"
+      ],
+      "defaultVariant": "male",
+      "headline": "Encuentra tu peso ideal como hombre utilizando cuatro fórmulas médicas establecidas. Compara los resultados de Robinson, Miller, Devine y Hamwi lado a lado."
+    },
+    {
+      "variantSlug": "ideal-weight-calculator-height",
+      "metaTitle": "Peso Ideal por Tabla de Altura – Calculadora de Peso por Altura",
+      "metaDescription": "Encuentra el peso ideal para tu altura. Consulta los rangos de peso saludable para cada altura desde 4'10\" hasta 6'6\". Calculadora de peso ideal por altura gratuita.",
+      "keywords": [
+        "peso ideal para altura",
+        "calculadora de peso por altura",
+        "tabla de peso ideal por altura",
+        "peso saludable por altura",
+        "tabla de peso altura"
+      ],
+      "defaultVariant": "height-chart",
+      "headline": "Consulta el rango de peso ideal para tu altura exacta utilizando las cuatro fórmulas médicas. Incluye una tabla de referencia que muestra los rangos de peso saludable desde 150cm hasta 200cm."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "Rastreador de Metas Diarias",
+  "tagline": "Establece y sigue tus metas diarias fácilmente",
+  "description": "Esta herramienta te permite establecer, monitorear y evaluar tus metas diarias para mejorar la productividad. Ideal para cualquiera que busque mantenerse enfocado y lograr más cada día.",
+  "metaTitle": "Rastreador de Metas Diarias – Herramienta de Productividad | Herramienta Online Gratuita",
+  "metaDescription": "Sigue tus metas diarias con nuestra herramienta online gratuita para una mejor productividad. Sin necesidad de registro, obtén resultados instantáneos.",
+  "keywords": [
+    "rastreador de metas diarias",
+    "herramienta para establecer metas",
+    "metas de productividad",
+    "logros diarios",
+    "monitorear progreso"
+  ],
+  "category": "Productividad",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "¿Qué tipo de metas puedo rastrear?",
+      "answer": "Puedes rastrear cualquier tipo de metas personales o profesionales, desde fitness hasta proyectos laborales."
+    },
+    {
+      "question": "¿Hay un límite en el número de metas?",
+      "answer": "No, puedes establecer tantas metas como desees cada día."
+    },
+    {
+      "question": "¿Puedo revisar metas pasadas?",
+      "answer": "Sí, puedes acceder a tus metas pasadas y su estado para reflexionar."
+    }
+  ],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "weekly-goal-tracker",
+      "metaTitle": "Rastreador de Metas Semanales",
+      "metaDescription": "Establece y monitorea tus metas semanalmente.",
+      "keywords": [
+        "metas semanales",
+        "rastrear progreso semanal"
+      ],
+      "defaultVariant": "weekly-key",
+      "headline": "Amplía tu seguimiento a metas semanales para obtener una visión más amplia."
+    },
+    {
+      "variantSlug": "monthly-goal-tracker",
+      "metaTitle": "Rastreador de Metas Mensuales",
+      "metaDescription": "Monitorea tus metas mensuales con facilidad.",
+      "keywords": [
+        "metas mensuales",
+        "seguimiento a largo plazo"
+      ],
+      "defaultVariant": "monthly-key",
+      "headline": "Perfecto para quienes prefieren una visión mensual de sus metas."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "holiday-calculator",
+  "name": "Calculateur de Jours Fériés",
+  "tagline": "Trouvez les jours fériés et calculez le nombre de jours jusqu'au prochain",
+  "description": "Parcourez les jours fériés de plus de 20 pays. Trouvez le prochain jour férié à venir, calculez combien de jours il reste jusqu'à celui-ci, et consultez tous les jours fériés de l'année en cours et de l'année suivante. Aucun login requis.",
+  "metaTitle": "Calculateur de Jours Fériés – Jours Fériés & Jours Jusqu'au Prochain Jour Férié",
+  "metaDescription": "Trouvez les jours fériés de plus de 20 pays. Calculez le nombre de jours jusqu'à votre prochain jour férié. Calculateur de jours fériés gratuit — États-Unis, Royaume-Uni, Australie, Canada, et plus.",
+  "keywords": [
+    "calculateur de jours fériés",
+    "jours fériés 2025",
+    "jours jusqu'au prochain jour férié",
+    "dates des jours fériés",
+    "prochain jour férié"
+  ],
+  "category": "Date & Heure",
+  "icon": "🎉",
+  "faqs": [
+    {
+      "question": "Quels pays sont pris en charge ?",
+      "answer": "Plus de 20 pays, y compris les États-Unis, le Royaume-Uni, le Canada, l'Australie, l'Allemagne, la France, le Japon, l'Inde, et plus encore."
+    },
+    {
+      "question": "Comment est calculé le compte à rebours des jours ?",
+      "answer": "L'outil calcule la différence entre la date d'aujourd'hui et chaque jour férié à venir, se mettant à jour à minuit."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "us-public-holidays-2025",
+      "metaTitle": "Jours Fériés aux États-Unis 2025 – Calendrier des Jours Fériés Fédéraux",
+      "metaDescription": "Liste complète des jours fériés fédéraux aux États-Unis en 2025. Trouvez toutes les dates officielles des jours fériés américains, les jours de la semaine, et le nombre de jours jusqu'à chaque jour férié. Calendrier des jours fériés américain gratuit.",
+      "keywords": [
+        "jours fériés américains 2025",
+        "jours fériés fédéraux 2025 usa",
+        "calendrier des jours fériés américains 2025",
+        "jours fériés aux États-Unis",
+        "dates des jours fériés fédéraux 2025"
+      ],
+      "defaultVariant": "us",
+      "headline": "Liste complète des jours fériés fédéraux aux États-Unis en 2025. Trouvez la date exacte, le jour de la semaine, et le compte à rebours pour chaque jour férié officiel américain."
+    },
+    {
+      "variantSlug": "uk-public-holidays-2025",
+      "metaTitle": "Jours Fériés au Royaume-Uni 2025 – Jours Fériés Bancaires Angleterre, Écosse, Pays de Galles",
+      "metaDescription": "Liste complète des jours fériés bancaires au Royaume-Uni en 2025 pour l'Angleterre, l'Écosse, le Pays de Galles et l'Irlande du Nord. Trouvez toutes les dates officielles des jours fériés au Royaume-Uni et les comptes à rebours.",
+      "keywords": [
+        "jours fériés au Royaume-Uni 2025",
+        "jours fériés bancaires 2025 uk",
+        "jours fériés bancaires en Angleterre 2025",
+        "calendrier des jours fériés au Royaume-Uni 2025",
+        "jours fériés britanniques"
+      ],
+      "defaultVariant": "uk",
+      "headline": "Liste complète des jours fériés bancaires au Royaume-Uni en 2025. Couvre séparément l'Angleterre et le Pays de Galles, l'Écosse, et l'Irlande du Nord — car toutes les régions n'ont pas les mêmes jours fériés."
+    },
+    {
+      "variantSlug": "days-until-christmas",
+      "metaTitle": "Jours Jusqu'à Noël 2025 – Calculateur de Compte à Rebours de Noël",
+      "metaDescription": "Découvrez combien de jours il reste avant Noël 2025. Compte à rebours de Noël en temps réel avec heures, minutes et secondes. Calculateur de jours jusqu'à Noël gratuit.",
+      "keywords": [
+        "jours jusqu'à Noël",
+        "compte à rebours de Noël 2025",
+        "combien de jours jusqu'à Noël",
+        "calculateur de compte à rebours de Noël",
+        "jours avant Noël"
+      ],
+      "defaultVariant": "christmas",
+      "headline": "Combien de jours restent jusqu'à Noël 2025 ? Voyez le compte à rebours exact en jours, heures, minutes et secondes — mis à jour en temps réel."
+    }
+  ]
+}

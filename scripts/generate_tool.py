@@ -30,6 +30,35 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
 TASKS_FILE = Path(__file__).resolve().parent / "tasks.json"
+PALETTE_RECIPES_FILE = Path(__file__).resolve().parent / "palette-recipes.json"
+
+# ── Category → URL prefix mapping ────────────────────────────────────────────
+# Determines the hierarchical URL path: /tools/<prefix>/<slug>
+# Categories not listed here fall back to /tools/<slug> (no sub-directory).
+CATEGORY_URL_PREFIX: dict[str, str] = {
+    # Calculator tools
+    "Finance":    "calc",
+    "Math":       "calc",
+    "Health":     "calc",
+    "Crypto":     "calc",
+    # Design / visual tools
+    "Design":     "design",
+    "Generators": "design",
+    # Developer / text tools
+    "Developer":  "dev",
+    "Text":       "dev",
+    "Security":   "dev",
+    # Date & scheduling
+    "Date & Time": "time",
+}
+
+
+def get_url_path(slug: str, category: str) -> str:
+    """Return the canonical URL path for a tool, e.g. /tools/calc/tip-calculator"""
+    prefix = CATEGORY_URL_PREFIX.get(category)
+    if prefix:
+        return f"/tools/{prefix}/{slug}"
+    return f"/tools/{slug}"
 
 # ── view.tsx stub template ────────────────────────────────────────────────────
 # Uses str.replace() substitution (not .format()) to avoid brace-escaping issues.
@@ -131,6 +160,10 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False) -> str:
 
     name = task.get("name", slug)
     component = slug_to_component_name(slug)
+    category = task.get("category", "Utilities")
+
+    if category not in CATEGORY_URL_PREFIX:
+        print(f"  [WARN] Category '{category}' has no URL prefix mapping — add it to CATEGORY_URL_PREFIX in generate_tool.py")
 
     # ── meta.json ────────────────────────────────────────────────────────────
     meta = {
@@ -141,7 +174,8 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False) -> str:
         "metaTitle":       task.get("metaTitle", f"{name} – Free Online Tool"),
         "metaDescription": task.get("metaDescription", ""),
         "keywords":        task.get("keywords", [slug, name.lower()]),
-        "category":        task.get("category", "Utilities"),
+        "category":        category,
+        "urlPath":         get_url_path(slug, category),
         "icon":            task.get("icon", "🔧"),
         "faqs":            task.get("faqs", []),
         "relatedTools":    task.get("relatedTools", []),
@@ -157,15 +191,149 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False) -> str:
     return "created"
 
 
+# ── Palette view.tsx template ─────────────────────────────────────────────────
+PALETTE_VIEW_TEMPLATE = '''"use client";
+import ColorPalette from "@/components/ColorLab/ColorPalette";
+
+export interface ToolProps { variant?: string; }
+
+export default function __COMPONENT__View({ variant }: ToolProps) {
+  return <ColorPalette recipeId="__RECIPE_ID__" />;
+}
+'''
+
+# ── Shared SEO keywords injected into every palette page ──────────────────────
+PALETTE_SEO_KEYWORDS = [
+    "Pantone matching",
+    "CMYK conversion",
+    "Web color palette",
+    "Tailwind CSS scheme",
+]
+
+
+def load_palette_recipes() -> list[dict]:
+    if not PALETTE_RECIPES_FILE.exists():
+        print(f"[ERROR] palette-recipes.json not found at {PALETTE_RECIPES_FILE}")
+        sys.exit(1)
+    with open(PALETTE_RECIPES_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, list):
+        print("[ERROR] palette-recipes.json must be a JSON array")
+        sys.exit(1)
+    return data
+
+
+def generate_palette_tool(recipe: dict, dry_run: bool, force: bool = False) -> str:
+    """Generate a per-recipe static page entry in tools-registry."""
+    recipe_id = recipe.get("id", "").strip()
+    if not recipe_id:
+        print(f"  [WARN] Recipe missing 'id' — skipping")
+        return "error"
+
+    slug = f"palette-{recipe_id}"
+    name = recipe.get("name", slug)
+    category = "Design"
+    tool_dir = REGISTRY_DIR / slug
+
+    if tool_dir.exists() and not dry_run and not force:
+        print(f"  ⏭  Skipped (already exists): {slug}")
+        return "skipped"
+
+    # Build keyword list: recipe-specific + mandatory SEO keywords
+    hex_values = [c.get("hex", "") for c in recipe.get("colors", [])]
+    recipe_keywords = [
+        f"{name} color palette",
+        f"{name} color scheme",
+        f"{name} HEX codes",
+    ] + hex_values[:3]
+    keywords = recipe_keywords + [k for k in PALETTE_SEO_KEYWORDS if k not in recipe_keywords]
+
+    meta = {
+        "slug":            slug,
+        "name":            f"{name} Color Palette",
+        "tagline":         recipe.get("description", f"{name} industry color palette"),
+        "description":     recipe.get("description", ""),
+        "metaTitle":       f"{name} Color Palette – HEX, CMYK, Tailwind & Pantone Reference",
+        "metaDescription": (
+            f"Free {name.lower()} color palette with HEX codes, Tailwind CSS classes, "
+            f"CMYK values, and Pantone approximate references. Copy any color instantly."
+        ),
+        "keywords":        keywords,
+        "category":        category,
+        "urlPath":         get_url_path(slug, category),
+        "icon":            "🎨",
+        "faqs": [
+            {
+                "question": "Are the Pantone references exact matches?",
+                "answer": (
+                    "No. Pantone codes shown are the closest visual approximations. "
+                    "For production print work, always verify against a physical Pantone Fan Deck."
+                ),
+            },
+            {
+                "question": "How are CMYK values calculated?",
+                "answer": (
+                    "CMYK values use the device-independent formula: K = 1 − max(R,G,B); "
+                    "C/M/Y derived from RGB ratios. Actual output depends on printer profile and paper."
+                ),
+            },
+        ],
+        "relatedTools":    ["color-palette-lab"],
+        "variants":        [],
+    }
+
+    meta_json = json.dumps(meta, ensure_ascii=False, indent=2) + "\n"
+    write_file(tool_dir / "meta.json", meta_json, dry_run)
+
+    component = slug_to_component_name(slug)
+    view_content = (
+        PALETTE_VIEW_TEMPLATE
+        .replace("__COMPONENT__", component)
+        .replace("__RECIPE_ID__", recipe_id)
+    )
+    write_file(tool_dir / "view.tsx", view_content, dry_run)
+
+    return "created"
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Generate tools-registry entries from tasks.json")
-    parser.add_argument("--slug",    help="Only process this specific slug")
-    parser.add_argument("--dry-run", action="store_true", help="Preview only, no files written")
-    parser.add_argument("--force",   action="store_true", help="Overwrite existing tool folders")
+    parser.add_argument("--slug",            help="Only process this specific slug")
+    parser.add_argument("--dry-run",         action="store_true", help="Preview only, no files written")
+    parser.add_argument("--force",           action="store_true", help="Overwrite existing tool folders")
+    parser.add_argument("--palette-recipes", action="store_true",
+                        help="Generate per-recipe palette pages from palette-recipes.json")
     args = parser.parse_args()
 
+    if args.dry_run:
+        print("🔍 DRY-RUN mode — no files will be written\n")
+
+    # ── Palette-recipes mode ──────────────────────────────────────────────────
+    if args.palette_recipes:
+        recipes = load_palette_recipes()
+        counts: dict[str, int] = {"created": 0, "skipped": 0, "error": 0}
+        print(f"🎨 Processing {len(recipes)} palette recipe(s) from {PALETTE_RECIPES_FILE.name}\n")
+        for recipe in recipes:
+            rid = recipe.get("id", "?")
+            name = recipe.get("name", rid)
+            print(f"→ palette-{rid}  ({name})")
+            status = generate_palette_tool(recipe, dry_run=args.dry_run, force=args.force)
+            counts[status] += 1
+            print()
+        print("─" * 50)
+        print(f"✅ Created:  {counts['created']}")
+        print(f"⏭  Skipped:  {counts['skipped']}")
+        print(f"❌ Errors:   {counts['error']}")
+        if counts["created"] > 0:
+            print(f"\n🚀 {counts['created']} palette page(s) added to tools-registry/")
+            print(f"\nNext steps:")
+            print(f"  1. Run: npm run build")
+            print(f"  2. Verify pages appear in out/tools/design/palette-*/")
+        return
+
+    # ── Default: tasks.json mode ──────────────────────────────────────────────
     tasks = load_tasks()
 
     if args.slug:
@@ -173,9 +341,6 @@ def main():
         if not tasks:
             print(f"[ERROR] No task with slug '{args.slug}' found in tasks.json")
             sys.exit(1)
-
-    if args.dry_run:
-        print("🔍 DRY-RUN mode — no files will be written\n")
 
     counts = {"created": 0, "skipped": 0, "error": 0}
 

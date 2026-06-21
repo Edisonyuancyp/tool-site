@@ -1,0 +1,80 @@
+{
+  "slug": "diff-checker",
+  "name": "Vérificateur de Différences en Ligne",
+  "tagline": "Comparez deux textes, fichiers ou extraits de code côte à côte",
+  "description": "Collez deux morceaux de texte pour voir instantanément les ajouts, suppressions et lignes inchangées mises en évidence. Prend en charge la vue scindée et la vue unifiée, ignore les espaces, ignore la casse, et comprend des exemples de code et JSON.",
+  "metaTitle": "Vérificateur de Différences en Ligne – Comparez Texte, Code & JSON Côte à Côte",
+  "metaDescription": "Vérificateur de différences en ligne gratuit. Comparez deux textes, fichiers de code ou JSON côte à côte avec une mise en évidence ligne par ligne. Vue scindée et unifiée, ignore les espaces, aucun serveur nécessaire.",
+  "keywords": [
+    "vérificateur de différences en ligne",
+    "outil de comparaison de texte",
+    "outil de comparaison de code",
+    "visualiseur de différences en ligne",
+    "comparer deux textes en ligne"
+  ],
+  "category": "Développeur",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Mes données sont-elles envoyées à un serveur ?",
+      "answer": "Non. La différence est calculée entièrement dans votre navigateur en utilisant JavaScript. Votre texte ne quitte jamais votre appareil."
+    },
+    {
+      "question": "Quel algorithme de différence est utilisé ?",
+      "answer": "L'outil utilise l'algorithme de différence de Myers — le même algorithme utilisé par Git, GNU diff et la plupart des systèmes de contrôle de version modernes."
+    },
+    {
+      "question": "Que fait l'option 'ignorer les espaces' ?",
+      "answer": "Lorsqu'elle est activée, les espaces de début et de fin sont supprimés de chaque ligne avant la comparaison. Les lignes qui diffèrent uniquement par l'indentation seront considérées comme égales."
+    }
+  ],
+  "relatedTools": [
+    "json-csv-formatter",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "json-diff-checker",
+      "metaTitle": "Vérificateur de Différences JSON – Comparez Deux Fichiers JSON en Ligne",
+      "metaDescription": "Comparez deux fichiers ou objets JSON côte à côte. Trouvez les différences dans les clés et les valeurs. Outil de différence JSON gratuit — uniquement dans le navigateur, aucune donnée envoyée aux serveurs.",
+      "keywords": [
+        "vérificateur de différences JSON",
+        "comparer JSON en ligne",
+        "trouveur de différences JSON",
+        "outil de comparaison JSON",
+        "différence entre deux fichiers JSON"
+      ],
+      "defaultVariant": "json",
+      "headline": "Comparez deux objets JSON pour trouver les clés et valeurs ajoutées, supprimées ou modifiées. Préchargé avec des exemples JSON — collez simplement vos propres données."
+    },
+    {
+      "variantSlug": "code-diff-checker",
+      "metaTitle": "Vérificateur de Différences de Code – Comparez des Fichiers de Code en Ligne Côte à Côte",
+      "metaDescription": "Comparez deux fichiers ou extraits de code côte à côte. Différence sensible à la syntaxe avec numéros de ligne. Outil de comparaison de code en ligne gratuit — aucune inscription requise.",
+      "keywords": [
+        "vérificateur de différences de code",
+        "comparer du code en ligne",
+        "outil de comparaison de code",
+        "différence de code source",
+        "différence entre deux fichiers en ligne"
+      ],
+      "defaultVariant": "code",
+      "headline": "Comparez deux fichiers de code côte à côte. Les modifications sont mises en évidence ligne par ligne — parfait pour la révision de code, la comparaison de versions et le débogage."
+    },
+    {
+      "variantSlug": "text-compare-online",
+      "metaTitle": "Comparaison de Texte en Ligne – Trouvez les Différences Entre Deux Textes",
+      "metaDescription": "Comparez deux textes en ligne et trouvez toutes les différences instantanément. Différence au niveau des mots et des lignes. Outil de comparaison de texte gratuit — privé, uniquement dans le navigateur.",
+      "keywords": [
+        "comparaison de texte en ligne",
+        "comparer deux textes",
+        "trouver des différences dans le texte",
+        "trouveur de différences de texte",
+        "comparaison de texte en ligne"
+      ],
+      "defaultVariant": "text",
+      "headline": "Collez deux textes pour voir chaque ajout, suppression et changement mis en évidence. Parfait pour comparer des versions de documents, relire des modifications et examiner des contrats."
+    }
+  ]
+}

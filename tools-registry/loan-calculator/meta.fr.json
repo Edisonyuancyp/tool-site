@@ -1,0 +1,80 @@
+{
+  "slug": "loan-calculator",
+  "name": "Calculateur de Prêt",
+  "tagline": "Calculez les paiements mensuels, l'intérêt total et le calendrier d'amortissement",
+  "description": "Calculez les paiements mensuels de prêt, l'intérêt total payé et générez un calendrier d'amortissement complet. Fonctionne pour les prêts hypothécaires, les prêts automobiles, les prêts personnels et les prêts étudiants.",
+  "metaTitle": "Calculateur de Prêt – Paiement Mensuel, Intérêt Total & Amortissement",
+  "metaDescription": "Calculateur de prêt gratuit. Entrez le montant du prêt, le taux d'intérêt et la durée pour trouver le paiement mensuel et l'intérêt total. Inclut un calendrier d'amortissement complet.",
+  "keywords": [
+    "calculateur de prêt",
+    "calculateur de paiement mensuel",
+    "calculateur d'intérêt de prêt",
+    "calculateur d'amortissement",
+    "calculateur de paiement hypothécaire"
+  ],
+  "category": "Finance",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "Comment est calculé mon paiement mensuel de prêt ?",
+      "answer": "Le paiement mensuel = P × [r(1+r)^n] / [(1+r)^n - 1], où P est le principal, r est le taux d'intérêt mensuel, et n est le nombre total de paiements."
+    },
+    {
+      "question": "Qu'est-ce qu'un calendrier d'amortissement ?",
+      "answer": "Un calendrier d'amortissement montre chaque paiement mensuel décomposé en principal et en intérêt. Les paiements précoces sont principalement des intérêts ; les paiements ultérieurs sont principalement du principal."
+    },
+    {
+      "question": "Comment puis-je réduire l'intérêt total payé ?",
+      "answer": "Faire des paiements supplémentaires sur le principal tôt réduit le solde du prêt plus rapidement, ce qui diminue considérablement l'intérêt total. Même un paiement supplémentaire par an peut économiser des milliers."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "mortgage-calculator",
+      "metaTitle": "Calculateur Hypothécaire – Calculateur de Paiement Mensuel Hypothécaire",
+      "metaDescription": "Calculez votre paiement mensuel hypothécaire. Entrez le prix de la maison, l'apport, le taux d'intérêt et la durée du prêt. Calculateur hypothécaire gratuit avec calendrier d'amortissement.",
+      "keywords": [
+        "calculateur hypothécaire",
+        "calculateur de paiement mensuel hypothécaire",
+        "calculateur de prêt immobilier",
+        "estimation de paiement hypothécaire",
+        "calculateur de paiement de maison"
+      ],
+      "defaultVariant": "mortgage",
+      "headline": "Calculez votre paiement mensuel hypothécaire incluant le principal et les intérêts. Entrez le prix de la maison, le pourcentage d'apport, le taux d'intérêt et la durée du prêt pour voir l'amortissement complet."
+    },
+    {
+      "variantSlug": "car-loan-calculator",
+      "metaTitle": "Calculateur de Prêt Automobile – Calculateur de Paiement Mensuel de Prêt Auto",
+      "metaDescription": "Calculez les paiements mensuels de prêt automobile. Entrez le prix du véhicule, l'apport, le taux d'intérêt et la durée du prêt. Calculateur de prêt auto gratuit.",
+      "keywords": [
+        "calculateur de prêt automobile",
+        "calculateur de prêt auto",
+        "calculateur de paiement mensuel de voiture",
+        "calculateur de prêt véhicule",
+        "calculateur de financement automobile"
+      ],
+      "defaultVariant": "car",
+      "headline": "Calculez votre paiement mensuel de prêt automobile. Entrez le prix du véhicule, l'apport, la valeur de reprise, le taux d'intérêt et la durée du prêt pour voir votre paiement exact."
+    },
+    {
+      "variantSlug": "personal-loan-calculator",
+      "metaTitle": "Calculateur de Prêt Personnel – Paiement Mensuel de Prêt Personnel",
+      "metaDescription": "Calculez les paiements mensuels de prêt personnel et l'intérêt total. Calculateur de prêt personnel gratuit — entrez le montant, le taux et la durée pour des résultats instantanés.",
+      "keywords": [
+        "calculateur de prêt personnel",
+        "calculateur de paiement de prêt personnel",
+        "estimation de paiement de prêt",
+        "calculateur de prêt non garanti",
+        "quel montant de prêt puis-je me permettre"
+      ],
+      "defaultVariant": "personal",
+      "headline": "Calculez votre paiement mensuel de prêt personnel et le coût total des intérêts. Vous aide à comparer les offres de prêt et à choisir les meilleures conditions."
+    }
+  ]
+}

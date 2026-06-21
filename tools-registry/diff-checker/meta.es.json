@@ -1,0 +1,80 @@
+{
+  "slug": "diff-checker",
+  "name": "Comparador de Diferencias en Línea",
+  "tagline": "Compara dos textos, archivos o fragmentos de código lado a lado",
+  "description": "Pega dos fragmentos de texto para ver instantáneamente las adiciones, eliminaciones y líneas sin cambios resaltadas. Soporta vista dividida y vista unificada, ignora espacios en blanco, ignora mayúsculas y minúsculas, y viene con ejemplos de código y JSON.",
+  "metaTitle": "Comparador de Diferencias en Línea – Compara Texto, Código y JSON Lado a Lado",
+  "metaDescription": "Comparador de diferencias en línea gratuito. Compara dos textos, archivos de código o JSON lado a lado con resaltado línea por línea. Vista dividida y unificada, ignora espacios en blanco, sin necesidad de servidor.",
+  "keywords": [
+    "comparador de diferencias en línea",
+    "herramienta de comparación de texto",
+    "herramienta de comparación de código",
+    "visor de diferencias en línea",
+    "compara dos textos en línea"
+  ],
+  "category": "Desarrollador",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "¿Se envían mis datos a un servidor?",
+      "answer": "No. La diferencia se calcula completamente en tu navegador usando JavaScript. Tu texto nunca sale de tu dispositivo."
+    },
+    {
+      "question": "¿Qué algoritmo de diferencia se utiliza?",
+      "answer": "La herramienta utiliza el algoritmo de diferencia de Myers, el mismo algoritmo que usa Git, GNU diff y la mayoría de los sistemas de control de versiones modernos."
+    },
+    {
+      "question": "¿Qué hace 'ignorar espacios en blanco'?",
+      "answer": "Cuando está habilitado, los espacios al principio y al final de cada línea se eliminan antes de la comparación. Las líneas que solo difieren en la indentación se tratarán como iguales."
+    }
+  ],
+  "relatedTools": [
+    "json-csv-formatter",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "json-diff-checker",
+      "metaTitle": "Comparador de Diferencias JSON – Compara Dos Archivos JSON en Línea",
+      "metaDescription": "Compara dos archivos u objetos JSON lado a lado. Encuentra diferencias en claves y valores. Herramienta de diferencias JSON gratuita — solo en navegador, sin datos enviados a servidores.",
+      "keywords": [
+        "comparador de diferencias json",
+        "compara json en línea",
+        "buscador de diferencias json",
+        "herramienta de comparación json",
+        "diferencias entre dos archivos json"
+      ],
+      "defaultVariant": "json",
+      "headline": "Compara dos objetos JSON para encontrar claves y valores añadidos, eliminados o cambiados. Precargado con ejemplos de JSON — solo pega tus propios datos."
+    },
+    {
+      "variantSlug": "code-diff-checker",
+      "metaTitle": "Comparador de Diferencias de Código – Compara Archivos de Código en Línea Lado a Lado",
+      "metaDescription": "Compara dos archivos o fragmentos de código lado a lado. Diferencias con conocimiento de sintaxis y números de línea. Herramienta de comparación de código en línea gratuita — sin registro requerido.",
+      "keywords": [
+        "comparador de diferencias de código",
+        "compara código en línea",
+        "herramienta de comparación de código",
+        "diferencias de código fuente",
+        "diferencias entre dos archivos en línea"
+      ],
+      "defaultVariant": "code",
+      "headline": "Compara dos archivos de código lado a lado. Los cambios se resaltan línea por línea — perfecto para revisión de código, comparación de versiones y depuración."
+    },
+    {
+      "variantSlug": "text-compare-online",
+      "metaTitle": "Comparar Texto en Línea – Encuentra Diferencias Entre Dos Textos",
+      "metaDescription": "Compara dos textos en línea y encuentra todas las diferencias al instante. Diferencias a nivel de palabra y línea. Herramienta de comparación de texto gratuita — privada, solo en navegador.",
+      "keywords": [
+        "comparar texto en línea",
+        "compara dos textos",
+        "encuentra diferencias en el texto",
+        "buscador de diferencias de texto",
+        "comparación de texto en línea"
+      ],
+      "defaultVariant": "text",
+      "headline": "Pega dos textos para ver cada adición, eliminación y cambio resaltado. Perfecto para comparar versiones de documentos, editar correcciones y revisar contratos."
+    }
+  ]
+}

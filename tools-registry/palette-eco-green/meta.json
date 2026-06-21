@@ -1,0 +1,37 @@
+{
+  "slug": "palette-eco-green",
+  "name": "Eco Green Color Palette",
+  "tagline": "Nature-inspired organic palette for sustainability brands, wellness, and environmental products. Deep forest greens and warm earth tones.",
+  "description": "Nature-inspired organic palette for sustainability brands, wellness, and environmental products. Deep forest greens and warm earth tones.",
+  "metaTitle": "Eco Green Color Palette – HEX, CMYK, Tailwind & Pantone Reference",
+  "metaDescription": "Free eco green color palette with HEX codes, Tailwind CSS classes, CMYK values, and Pantone approximate references. Copy any color instantly.",
+  "keywords": [
+    "Eco Green color palette",
+    "Eco Green color scheme",
+    "Eco Green HEX codes",
+    "#166534",
+    "#4ADE80",
+    "#92400E",
+    "Pantone matching",
+    "CMYK conversion",
+    "Web color palette",
+    "Tailwind CSS scheme"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/palette-eco-green",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Are the Pantone references exact matches?",
+      "answer": "No. Pantone codes shown are the closest visual approximations. For production print work, always verify against a physical Pantone Fan Deck."
+    },
+    {
+      "question": "How are CMYK values calculated?",
+      "answer": "CMYK values use the device-independent formula: K = 1 − max(R,G,B); C/M/Y derived from RGB ratios. Actual output depends on printer profile and paper."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

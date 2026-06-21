@@ -1,0 +1,37 @@
+{
+  "slug": "palette-dark-tech",
+  "name": "Dark Tech Color Palette",
+  "tagline": "High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep blacks with electric neon accents.",
+  "description": "High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep blacks with electric neon accents.",
+  "metaTitle": "Dark Tech Color Palette – HEX, CMYK, Tailwind & Pantone Reference",
+  "metaDescription": "Free dark tech color palette with HEX codes, Tailwind CSS classes, CMYK values, and Pantone approximate references. Copy any color instantly.",
+  "keywords": [
+    "Dark Tech color palette",
+    "Dark Tech color scheme",
+    "Dark Tech HEX codes",
+    "#0F172A",
+    "#1E293B",
+    "#22D3EE",
+    "Pantone matching",
+    "CMYK conversion",
+    "Web color palette",
+    "Tailwind CSS scheme"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/palette-dark-tech",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Are the Pantone references exact matches?",
+      "answer": "No. Pantone codes shown are the closest visual approximations. For production print work, always verify against a physical Pantone Fan Deck."
+    },
+    {
+      "question": "How are CMYK values calculated?",
+      "answer": "CMYK values use the device-independent formula: K = 1 − max(R,G,B); C/M/Y derived from RGB ratios. Actual output depends on printer profile and paper."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "Calculadora de Arrendamiento de Autos",
+  "tagline": "¡Calcula tus pagos de arrendamiento rápidamente!",
+  "description": "Esta herramienta ayuda a los usuarios a estimar sus pagos mensuales de arrendamiento de autos basándose en el precio del vehículo, el pago inicial, la tasa de interés y el plazo del arrendamiento. Perfecta para cualquiera que esté considerando arrendar un vehículo y quiera entender su estructura de pagos.",
+  "metaTitle": "Calculadora de Arrendamiento de Autos – Estima Tus Pagos | Herramienta Online Gratuita",
+  "metaDescription": "Calcula fácilmente tus pagos de arrendamiento de autos. Gratis, sin necesidad de registrarse, ¡resultados instantáneos!",
+  "keywords": [
+    "calculadora de arrendamiento de autos",
+    "estimador de pagos de arrendamiento",
+    "arrendamiento de vehículos",
+    "pago mensual de arrendamiento",
+    "calculadora de financiamiento de autos"
+  ],
+  "category": "Finanzas",
+  "icon": "🚗",
+  "faqs": [
+    {
+      "question": "¿Qué factores determinan mi pago de arrendamiento?",
+      "answer": "Tu pago de arrendamiento está influenciado por el precio del vehículo, el valor residual, la tasa de interés, el plazo del arrendamiento y el pago inicial."
+    },
+    {
+      "question": "¿Puedo usar esta calculadora para diferentes autos?",
+      "answer": "Sí, puedes ingresar diferentes valores para cualquier auto y ver cómo afecta tu pago de arrendamiento."
+    },
+    {
+      "question": "¿Esta herramienta es solo para autos nuevos?",
+      "answer": "No, la calculadora se puede usar tanto para autos nuevos como usados que estén disponibles para arrendamiento."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

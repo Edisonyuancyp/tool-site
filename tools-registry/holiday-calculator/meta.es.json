@@ -1,0 +1,76 @@
+{
+  "slug": "holiday-calculator",
+  "name": "Calculadora de Días Festivos",
+  "tagline": "Encuentra días festivos y calcula los días hasta el próximo",
+  "description": "Consulta los días festivos de más de 20 países. Encuentra el próximo día festivo, calcula cuántos días faltan para él y ve todos los días festivos del año actual y el siguiente. No se requiere registro.",
+  "metaTitle": "Calculadora de Días Festivos – Días Festivos Públicos y Días Hasta el Próximo",
+  "metaDescription": "Encuentra días festivos de más de 20 países. Calcula los días hasta tu próximo día festivo. Calculadora de días festivos gratuita — EE. UU., Reino Unido, Australia, Canadá y más.",
+  "keywords": [
+    "calculadora de días festivos",
+    "días festivos 2025",
+    "días hasta el próximo día festivo",
+    "fechas de días festivos",
+    "próximo día festivo"
+  ],
+  "category": "Fecha y Hora",
+  "icon": "🎉",
+  "faqs": [
+    {
+      "question": "¿Qué países están soportados?",
+      "answer": "Más de 20 países, incluyendo EE. UU., Reino Unido, Canadá, Australia, Alemania, Francia, Japón, India y más."
+    },
+    {
+      "question": "¿Cómo se calcula la cuenta regresiva de días?",
+      "answer": "La herramienta calcula la diferencia entre la fecha de hoy y cada día festivo próximo, actualizándose a medianoche."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "us-public-holidays-2025",
+      "metaTitle": "Días Festivos Públicos de EE. UU. 2025 – Calendario de Días Festivos Federales",
+      "metaDescription": "Lista completa de días festivos federales de EE. UU. en 2025. Encuentra todas las fechas oficiales de días festivos en EE. UU., días de la semana y días hasta cada festivo. Calendario de días festivos de EE. UU. gratuito.",
+      "keywords": [
+        "días festivos públicos ee. uu. 2025",
+        "días festivos federales 2025 ee. uu.",
+        "calendario de días festivos ee. uu. 2025",
+        "días festivos americanos",
+        "fechas de días festivos federales 2025"
+      ],
+      "defaultVariant": "us",
+      "headline": "Lista completa de días festivos federales de EE. UU. en 2025. Encuentra la fecha exacta, el día de la semana y la cuenta regresiva para cada día festivo oficial americano."
+    },
+    {
+      "variantSlug": "uk-public-holidays-2025",
+      "metaTitle": "Días Festivos Públicos del Reino Unido 2025 – Días Festivos Bancarios Inglaterra, Escocia, Gales",
+      "metaDescription": "Lista completa de días festivos bancarios del Reino Unido en 2025 para Inglaterra, Escocia, Gales e Irlanda del Norte. Encuentra todas las fechas oficiales de días festivos del Reino Unido y sus cuentas regresivas.",
+      "keywords": [
+        "días festivos públicos reino unido 2025",
+        "días festivos bancarios 2025 reino unido",
+        "días festivos bancarios inglaterra 2025",
+        "calendario de días festivos reino unido 2025",
+        "días festivos británicos"
+      ],
+      "defaultVariant": "uk",
+      "headline": "Lista completa de días festivos bancarios del Reino Unido en 2025. Cubre Inglaterra y Gales, Escocia e Irlanda del Norte por separado — porque no todas las regiones comparten los mismos días festivos."
+    },
+    {
+      "variantSlug": "days-until-christmas",
+      "metaTitle": "Días Hasta Navidad 2025 – Calculadora de Cuenta Regresiva de Navidad",
+      "metaDescription": "Descubre cuántos días faltan para Navidad 2025. Cuenta regresiva de Navidad en tiempo real con horas, minutos y segundos. Calculadora de días hasta Navidad gratuita.",
+      "keywords": [
+        "días hasta navidad",
+        "cuenta regresiva navidad 2025",
+        "cuántos días hasta navidad",
+        "calculadora de cuenta regresiva navidad",
+        "días para navidad"
+      ],
+      "defaultVariant": "christmas",
+      "headline": "¿Cuántos días faltan para Navidad 2025? Ve la cuenta regresiva exacta en días, horas, minutos y segundos — actualizada en tiempo real."
+    }
+  ]
+}

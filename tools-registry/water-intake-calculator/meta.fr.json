@@ -1,0 +1,76 @@
+{
+  "slug": "water-intake-calculator",
+  "name": "Calculateur de Consommation Quotidienne d'Eau",
+  "tagline": "Quelle quantité d'eau devriez-vous boire par jour ? Trouvez votre objectif personnalisé",
+  "description": "Obtenez une recommandation personnalisée de consommation quotidienne d'eau basée sur le poids corporel, le niveau d'activité, le climat et le statut de grossesse/allaitement. Affiche les résultats en litres, tasses et bouteilles de 500 mL.",
+  "metaTitle": "Calculateur de Consommation d'Eau – Quelle Quantité d'Eau Devriez-Vous Boire Par Jour ?",
+  "metaDescription": "Calculateur gratuit de consommation quotidienne d'eau. Découvrez combien d'eau vous devriez boire en fonction de votre poids, de votre niveau d'activité et du climat. Résultats en litres, tasses et bouteilles.",
+  "keywords": [
+    "calculateur de consommation d'eau",
+    "combien d'eau devrais-je boire",
+    "calculateur d'eau quotidien",
+    "calculateur d'hydratation",
+    "consommation d'eau par jour"
+  ],
+  "category": "Santé",
+  "icon": "💧",
+  "faqs": [
+    {
+      "question": "La règle des '8 verres par jour' est-elle précise ?",
+      "answer": "La règle des 8×8 est une approximation. Les besoins réels varient selon le poids corporel, l'activité et le climat. Un athlète de 100 kg par temps chaud peut avoir besoin de plus de 4 litres ; une personne sédentaire de 50 kg a besoin d'environ 1,7 litre."
+    },
+    {
+      "question": "Le café compte-t-il dans la consommation quotidienne d'eau ?",
+      "answer": "Oui — le café et le thé sont composés d'environ 98-99 % d'eau et contribuent à une hydratation nette positive. L'alcool ne compte pas et augmente les besoins en eau."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "bmi-calculator",
+    "running-pace-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "water-intake-calculator-weight",
+      "metaTitle": "Calculateur de Consommation d'Eau par Poids – Quelle Quantité d'Eau par kg",
+      "metaDescription": "Calculez votre consommation quotidienne d'eau en fonction de votre poids corporel. Découvrez combien de ml ou de litres d'eau vous avez besoin par kg de poids corporel. Calculateur d'eau gratuit.",
+      "keywords": [
+        "calculateur de consommation d'eau par poids",
+        "eau par kg de poids corporel",
+        "consommation d'eau quotidienne par poids",
+        "combien d'eau par kg",
+        "formule de consommation d'eau par poids"
+      ],
+      "defaultVariant": "weight",
+      "headline": "Calculez votre consommation d'eau en fonction de votre poids corporel. La base de l'OMS est de 35 mL par kg de poids corporel par jour — ce calculateur applique cette formule avec des ajustements pour l'activité et le climat."
+    },
+    {
+      "variantSlug": "water-intake-calculator-athlete",
+      "metaTitle": "Calculateur de Consommation d'Eau pour Athlètes – Calculateur d'Hydratation Sportive",
+      "metaDescription": "Calculez la consommation quotidienne d'eau pour les athlètes et les personnes actives. Prend en compte la perte de sueur pendant l'exercice. Calculateur d'hydratation sportive gratuit.",
+      "keywords": [
+        "calculateur de consommation d'eau athlète",
+        "calculateur d'hydratation sportive",
+        "besoins en eau des athlètes",
+        "calculateur de consommation d'eau pendant l'exercice",
+        "combien d'eau boire pendant l'entraînement"
+      ],
+      "defaultVariant": "athlete",
+      "headline": "Les athlètes ont besoin de beaucoup plus d'eau que les individus sédentaires. Ce calculateur estime vos besoins en hydratation en fonction de la durée et de l'intensité de l'exercice."
+    },
+    {
+      "variantSlug": "pregnancy-water-intake-calculator",
+      "metaTitle": "Calculateur de Consommation d'Eau pour la Grossesse – Quelle Quantité Boire Pendant la Grossesse",
+      "metaDescription": "Calculez la consommation quotidienne d'eau pendant la grossesse. Découvrez combien d'eau boire lorsque vous êtes enceinte ou allaitante. Calculateur d'hydratation pendant la grossesse gratuit.",
+      "keywords": [
+        "calculateur de consommation d'eau grossesse",
+        "combien d'eau boire pendant la grossesse",
+        "consommation d'eau pendant la grossesse",
+        "consommation d'eau pendant l'allaitement",
+        "hydratation pendant la grossesse"
+      ],
+      "defaultVariant": "pregnancy",
+      "headline": "Les femmes enceintes et allaitantes ont des besoins en hydratation plus élevés. Ce calculateur prend en compte votre stade de grossesse ou d'allaitement pour donner un objectif quotidien d'eau personnalisé."
+    }
+  ]
+}

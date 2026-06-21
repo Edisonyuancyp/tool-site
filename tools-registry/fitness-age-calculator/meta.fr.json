@@ -1,0 +1,36 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "Calculateur d'âge de forme physique",
+  "tagline": "Découvrez votre âge de forme physique dès maintenant !",
+  "description": "Cet outil calcule votre âge de forme physique en fonction de vos niveaux d'activité physique et de vos indicateurs de santé. Il est parfait pour les personnes cherchant à comprendre leur niveau de forme par rapport à leur âge chronologique.",
+  "metaTitle": "Calculateur d'âge de forme physique – Réfléchissez à votre santé | Outil en ligne gratuit",
+  "metaDescription": "Calculez instantanément votre âge de forme physique gratuitement, sans inscription requise. Comprenez votre état de santé avec cet outil simple.",
+  "keywords": [
+    "âge de forme",
+    "calculer âge de forme",
+    "indicateurs de santé",
+    "niveaux d'activité",
+    "évaluation de la forme physique"
+  ],
+  "category": "Fitness",
+  "icon": "🧘",
+  "faqs": [
+    {
+      "question": "Comment l'âge de forme physique est-il calculé ?",
+      "answer": "L'âge de forme physique est déterminé en analysant divers indicateurs de santé et niveaux d'activité pour fournir un âge qui reflète votre forme physique."
+    },
+    {
+      "question": "Cet outil est-il précis ?",
+      "answer": "Bien qu'il fournisse une bonne estimation, les résultats individuels peuvent varier en fonction de facteurs de santé personnels."
+    },
+    {
+      "question": "Puis-je améliorer mon âge de forme physique ?",
+      "answer": "Oui, en augmentant votre activité physique et en maintenant un mode de vie sain, vous pouvez réduire votre âge de forme physique."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

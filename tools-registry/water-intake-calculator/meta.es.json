@@ -1,0 +1,76 @@
+{
+  "slug": "water-intake-calculator",
+  "name": "Calculadora de Ingesta Diaria de Agua",
+  "tagline": "¿Cuánta agua deberías beber al día? Encuentra tu objetivo personalizado",
+  "description": "Obtén una recomendación personalizada de ingesta diaria de agua basada en el peso corporal, nivel de actividad, clima y estado de embarazo/lactancia. Muestra el resultado en litros, tazas y botellas de 500 mL.",
+  "metaTitle": "Calculadora de Ingesta de Agua – ¿Cuánta Agua Deberías Beber al Día?",
+  "metaDescription": "Calculadora gratuita de ingesta diaria de agua. Descubre cuánta agua deberías beber según tu peso, nivel de actividad y clima. Resultados en litros, tazas y botellas.",
+  "keywords": [
+    "calculadora de ingesta de agua",
+    "cuánta agua debo beber",
+    "calculadora de agua diaria",
+    "calculadora de hidratación",
+    "ingesta de agua diaria"
+  ],
+  "category": "Health",
+  "icon": "💧",
+  "faqs": [
+    {
+      "question": "¿Es precisa la regla de '8 vasos al día'?",
+      "answer": "La regla de 8×8 es una aproximación. Las necesidades reales varían según el peso corporal, la actividad y el clima. Un atleta de 100 kg en clima cálido puede necesitar más de 4 litros; una persona sedentaria de 50 kg necesita aproximadamente 1.7 litros."
+    },
+    {
+      "question": "¿El café cuenta para la ingesta diaria de agua?",
+      "answer": "Sí, el café y el té son aproximadamente un 98-99% agua y contribuyen a una hidratación neta positiva. El alcohol no cuenta y aumenta las necesidades de agua."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "bmi-calculator",
+    "running-pace-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "water-intake-calculator-weight",
+      "metaTitle": "Calculadora de Ingesta de Agua por Peso – ¿Cuánta Agua por kg?",
+      "metaDescription": "Calcula tu ingesta diaria de agua según tu peso corporal. Descubre cuántos ml o litros de agua necesitas por kg de peso corporal. Calculadora de agua gratuita.",
+      "keywords": [
+        "calculadora de ingesta de agua por peso",
+        "agua por kg de peso corporal",
+        "ingesta diaria de agua por peso",
+        "cuánta agua por kg",
+        "fórmula de ingesta de agua por peso"
+      ],
+      "defaultVariant": "weight",
+      "headline": "Calcula tu ingesta de agua según el peso corporal. La línea base de la OMS es de 35 mL por kg de peso corporal al día; esta calculadora aplica esa fórmula con ajustes para la actividad y el clima."
+    },
+    {
+      "variantSlug": "water-intake-calculator-athlete",
+      "metaTitle": "Calculadora de Ingesta de Agua para Atletas – Calculadora de Hidratación Deportiva",
+      "metaDescription": "Calcula la ingesta diaria de agua para atletas y personas activas. Considera la pérdida de sudor durante el ejercicio. Calculadora de hidratación deportiva gratuita.",
+      "keywords": [
+        "calculadora de ingesta de agua atleta",
+        "calculadora de hidratación deportiva",
+        "necesidades de agua para atletas",
+        "calculadora de ingesta de agua durante el ejercicio",
+        "cuánta agua beber al hacer ejercicio"
+      ],
+      "defaultVariant": "athlete",
+      "headline": "Los atletas necesitan significativamente más agua que las personas sedentarias. Esta calculadora estima tus necesidades de hidratación según la duración e intensidad del ejercicio."
+    },
+    {
+      "variantSlug": "pregnancy-water-intake-calculator",
+      "metaTitle": "Calculadora de Ingesta de Agua para Embarazo – ¿Cuánta Beber Durante el Embarazo?",
+      "metaDescription": "Calcula la ingesta diaria de agua durante el embarazo. Descubre cuánta agua beber cuando estás embarazada o lactando. Calculadora de hidratación durante el embarazo gratuita.",
+      "keywords": [
+        "calculadora de ingesta de agua durante el embarazo",
+        "cuánta agua beber durante el embarazo",
+        "ingesta de agua durante el embarazo",
+        "ingesta de agua durante la lactancia",
+        "hidratación durante el embarazo"
+      ],
+      "defaultVariant": "pregnancy",
+      "headline": "Las mujeres embarazadas y lactantes tienen mayores necesidades de hidratación. Esta calculadora tiene en cuenta tu etapa de embarazo o lactancia para ofrecer un objetivo diario de agua personalizado."
+    }
+  ]
+}

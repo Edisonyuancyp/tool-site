@@ -1,0 +1,80 @@
+{
+  "slug": "unix-timestamp-converter",
+  "name": "Convertidor de Timestamp Unix",
+  "tagline": "Convierte timestamps Unix a fechas legibles instantáneamente",
+  "description": "Convierte timestamps de época Unix a fechas formateadas y viceversa. Soporta segundos y milisegundos, más de 12 zonas horarias, salida en ISO 8601, tiempo relativo y un reloj en tiempo real.",
+  "metaTitle": "Convertidor de Timestamp Unix – Época a Fecha & Fecha a Timestamp en Línea",
+  "metaDescription": "Convertidor de timestamp Unix gratuito. Convierte época a fecha humana o fecha a timestamp Unix. Soporta segundos, milisegundos, UTC y más de 12 zonas horarias. Reloj en vivo incluido.",
+  "keywords": [
+    "convertidor de timestamp unix",
+    "época a fecha",
+    "timestamp a fecha",
+    "convertidor de tiempo unix en línea",
+    "convertidor de época"
+  ],
+  "category": "Developer",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "¿Qué es un timestamp Unix?",
+      "answer": "Un timestamp Unix (tiempo de época) es el número de segundos transcurridos desde el 1 de enero de 1970 00:00:00 UTC. Se utiliza universalmente en programación, bases de datos y APIs para representar momentos en el tiempo como un único entero."
+    },
+    {
+      "question": "¿Segundos vs milisegundos — cómo sé cuál tengo?",
+      "answer": "Un número de 10 dígitos (por ejemplo, 1700000000) son segundos. Un número de 13 dígitos (por ejemplo, 1700000000000) son milisegundos."
+    },
+    {
+      "question": "¿Cuál es el problema de 2038?",
+      "answer": "Los enteros con signo de 32 bits solo pueden almacenar valores hasta 2,147,483,647 — 19 de enero de 2038 03:14:07 UTC. Los sistemas que utilizan timestamps de 32 bits se desbordarán en esa fecha."
+    }
+  ],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "epoch-to-date",
+      "metaTitle": "Convertidor de Época a Fecha – Timestamp Unix a Fecha Humana",
+      "metaDescription": "Convierte cualquier timestamp de época Unix a una fecha y hora legible. Soporta segundos y milisegundos. Convertidor de época a fecha gratuito en línea.",
+      "keywords": [
+        "convertidor de época a fecha",
+        "época unix a fecha",
+        "convertir época a fecha y hora",
+        "timestamp a fecha humana",
+        "tiempo de época a fecha"
+      ],
+      "defaultVariant": "to-date",
+      "headline": "Pega un timestamp de época Unix para convertirlo instantáneamente a una fecha y hora legible en cualquier zona horaria."
+    },
+    {
+      "variantSlug": "date-to-timestamp",
+      "metaTitle": "Convertidor de Fecha a Timestamp Unix – Convierte Fecha a Época",
+      "metaDescription": "Convierte cualquier fecha y hora a un timestamp Unix (época). Obtén segundos o milisegundos. Convertidor de fecha a timestamp gratuito en línea.",
+      "keywords": [
+        "fecha a timestamp unix",
+        "convertir fecha a época",
+        "convertidor de fecha a timestamp",
+        "fecha y hora a unix",
+        "fecha a segundos de época"
+      ],
+      "defaultVariant": "to-timestamp",
+      "headline": "Ingresa cualquier fecha y hora para obtener el timestamp Unix correspondiente en segundos o milisegundos."
+    },
+    {
+      "variantSlug": "milliseconds-to-date",
+      "metaTitle": "Convertidor de Milisegundos a Fecha – Convierte Timestamp ms a Fecha",
+      "metaDescription": "Convierte un timestamp Unix en milisegundos a una fecha legible. JavaScript utiliza milisegundos — ingresa tu timestamp de 13 dígitos para una conversión instantánea.",
+      "keywords": [
+        "convertidor de milisegundos a fecha",
+        "timestamp ms a fecha",
+        "convertidor de timestamp javascript",
+        "convertidor de timestamp de 13 dígitos",
+        "convertir milisegundos a fecha y hora"
+      ],
+      "defaultVariant": "ms",
+      "headline": "Date.now() de JavaScript devuelve milisegundos. Pega tu timestamp de 13 dígitos para convertirlo a una fecha y hora legible."
+    }
+  ]
+}

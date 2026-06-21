@@ -1,0 +1,80 @@
+{
+  "slug": "base-converter",
+  "name": "Convertisseur de Bases Numériques",
+  "tagline": "Convertissez des nombres entre n'importe quelles bases — binaire, octale, décimale, hexadécimale, et plus",
+  "description": "Convertissez des entiers entre les bases 2 et 64, y compris binaire, octale, décimale, hexadécimale, Base58, et Base64. Utilise BigInt pour une précision illimitée. Affiche une sortie formatée avec un espacement par nibble/octet.",
+  "metaTitle": "Convertisseur de Bases Numériques – Binaire, Octal, Décimal, Hex & Toutes les Bases",
+  "metaDescription": "Convertisseur de bases numériques gratuit. Convertissez entre binaire, octal, décimal, hexadécimal, base 32, base 36, base 58, et toutes les bases de 2 à 64. Précision BigInt, conversion instantanée.",
+  "keywords": [
+    "convertisseur de bases numériques",
+    "convertisseur binaire vers décimal",
+    "convertisseur hexadécimal vers décimal",
+    "convertisseur binaire octal hexadécimal",
+    "calculateur de conversion de bases"
+  ],
+  "category": "Développeur",
+  "icon": "🔢",
+  "faqs": [
+    {
+      "question": "Quelles bases sont supportées ?",
+      "answer": "Toutes les bases entières de 2 à 64, y compris Binaire (2), Octale (8), Décimale (10), Hexadécimale (16), Base32 (32), Base36 (36), Base58 (Bitcoin, 58), et Base64 (64)."
+    },
+    {
+      "question": "À quoi sert l'hexadécimal ?",
+      "answer": "L'hexadécimal est omniprésent en informatique : adresses mémoire, codes couleur (#FF5733), valeurs d'octet, sorties de hachage (MD5, SHA256), et ensembles d'instructions CPU."
+    },
+    {
+      "question": "Quelle est la différence entre Base58 et Base64 ?",
+      "answer": "Base58 omet les caractères visuellement ambigus (0, O, I, l) pour éviter les erreurs de transcription humaine. Base64 utilise l'alphabet complet de 64 caractères et est conçu pour l'encodage de données machine à machine."
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "unix-timestamp-converter",
+    "diff-checker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "binary-to-decimal",
+      "metaTitle": "Convertisseur Binaire vers Décimal – Convertissez des Nombres Binaires en Ligne",
+      "metaDescription": "Convertissez des nombres binaires en décimaux instantanément. Convertisseur binaire vers décimal gratuit — entrez n'importe quel nombre binaire et obtenez le résultat décimal. Affiche également les valeurs hexadécimales et octales.",
+      "keywords": [
+        "convertisseur binaire vers décimal",
+        "binaire vers décimal",
+        "convertir binaire en décimal",
+        "convertisseur de nombres binaires",
+        "base 2 vers base 10"
+      ],
+      "defaultVariant": "binary-decimal",
+      "headline": "Convertissez des nombres binaires (base 2) en décimaux (base 10). Affiche également les équivalents octaux et hexadécimaux. Utilise BigInt pour des nombres de toute taille."
+    },
+    {
+      "variantSlug": "hex-to-decimal",
+      "metaTitle": "Convertisseur Hexadécimal vers Décimal – Convertissez des Valeurs Hexadécimales en Décimal en Ligne",
+      "metaDescription": "Convertissez des valeurs hexadécimales en décimales instantanément. Convertisseur hexadécimal vers décimal gratuit — entrez n'importe quelle valeur hexadécimale et obtenez le résultat décimal. Affiche également les valeurs binaires et octales.",
+      "keywords": [
+        "convertisseur hexadécimal vers décimal",
+        "hexadécimal vers décimal",
+        "convertir hex en décimal",
+        "convertisseur de nombres hexadécimaux",
+        "base 16 vers base 10"
+      ],
+      "defaultVariant": "hex-decimal",
+      "headline": "Convertissez des valeurs hexadécimales (base 16) en décimales (base 10). Couramment utilisé pour les codes couleur, les adresses mémoire, et les hachages cryptographiques."
+    },
+    {
+      "variantSlug": "decimal-to-binary",
+      "metaTitle": "Convertisseur Décimal vers Binaire – Convertissez des Nombres en Binaire en Ligne",
+      "metaDescription": "Convertissez des nombres décimaux en binaires instantanément. Convertisseur décimal vers binaire gratuit — affiche les équivalents binaires, hexadécimaux et octaux. Fonctionne uniquement dans le navigateur.",
+      "keywords": [
+        "convertisseur décimal vers binaire",
+        "décimal vers binaire",
+        "convertir décimal en binaire",
+        "nombre vers binaire",
+        "base 10 vers base 2"
+      ],
+      "defaultVariant": "decimal-binary",
+      "headline": "Convertissez des nombres décimaux (base 10) en binaires (base 2). Affiche également la représentation hexadécimale et octale. Prend en charge des nombres de toute taille grâce à BigInt."
+    }
+  ]
+}

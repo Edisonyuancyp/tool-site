@@ -1,0 +1,33 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "Estimateur de Dépenses de Voyage",
+  "tagline": "Estimez rapidement le coût de votre voyage.",
+  "description": "Calculez vos dépenses de voyage totales en entrant votre destination, mode de transport, durée et dépenses quotidiennes. Parfait pour les voyageurs soucieux de leur budget qui planifient leur prochain voyage.",
+  "metaTitle": "Estimateur de Dépenses de Voyage – Planificateur de Voyage Budget | Outil en Ligne Gratuit",
+  "metaDescription": "Estimez instantanément vos dépenses de voyage gratuitement, sans inscription nécessaire. Obtenez un budget clair pour votre prochaine aventure !",
+  "keywords": [
+    "estimation des dépenses de voyage",
+    "calculateur de coûts de voyage",
+    "outil de voyage économique",
+    "budget de voyage",
+    "coût du voyage"
+  ],
+  "category": "Travel",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Comment puis-je calculer mes dépenses de voyage ?",
+      "answer": "Entrez votre destination, mode de transport, durée et coûts quotidiens pour obtenir une estimation."
+    },
+    {
+      "question": "Puis-je enregistrer mes estimations ?",
+      "answer": "Actuellement, l'outil ne prend pas en charge l'enregistrement des estimations, mais vous pouvez les noter."
+    },
+    {
+      "question": "Cet outil est-il gratuit à utiliser ?",
+      "answer": "Oui, l'Estimateur de Dépenses de Voyage est entièrement gratuit sans besoin d'inscription."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

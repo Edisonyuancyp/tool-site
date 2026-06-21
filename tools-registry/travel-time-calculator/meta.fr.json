@@ -1,0 +1,33 @@
+{
+  "slug": "travel-time-calculator",
+  "name": "Calculateur de Temps de Voyage",
+  "tagline": "Calculez la durée de votre voyage.",
+  "description": "Entrez votre distance et votre vitesse moyenne pour découvrir combien de temps votre voyage prendra. Idéal pour les voyageurs planifiant des road trips ou des voyages longue distance.",
+  "metaTitle": "Calculateur de Temps de Voyage – Estimation de la Durée du Voyage | Outil en Ligne Gratuit",
+  "metaDescription": "Calculez votre temps de voyage gratuitement sans inscription requise. Obtenez facilement des estimations de durée de voyage instantanées !",
+  "keywords": [
+    "calculateur de temps de voyage",
+    "estimation de la durée du voyage",
+    "calculer le temps de voyage",
+    "planificateur de road trip",
+    "durée de voyage"
+  ],
+  "category": "Voyage",
+  "icon": "⏳",
+  "faqs": [
+    {
+      "question": "Comment puis-je calculer mon temps de voyage ?",
+      "answer": "Saisissez la distance et votre vitesse moyenne pour obtenir une estimation du temps de voyage."
+    },
+    {
+      "question": "Puis-je l'utiliser pour différents modes de transport ?",
+      "answer": "Oui, vous pouvez ajuster la vitesse moyenne en fonction de votre méthode de voyage."
+    },
+    {
+      "question": "Y a-t-il une limite à la distance que je peux entrer ?",
+      "answer": "Non, vous pouvez entrer n'importe quelle distance pour votre estimation de temps de voyage."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

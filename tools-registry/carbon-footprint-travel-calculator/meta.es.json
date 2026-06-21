@@ -1,0 +1,33 @@
+{
+  "slug": "carbon-footprint-travel-calculator",
+  "name": "Calculadora de Huella de Carbono en Viajes",
+  "tagline": "Calcula el impacto de carbono de tu viaje.",
+  "description": "Evalúa la huella de carbono de tus planes de viaje ingresando la distancia, el modo de transporte y el tipo de alojamiento. Ideal para viajeros conscientes del medio ambiente que buscan minimizar su impacto ambiental.",
+  "metaTitle": "Calculadora de Huella de Carbono en Viajes – Viajes Ecológicos | Herramienta Online Gratuita",
+  "metaDescription": "Calcula la huella de carbono de tu viaje de forma gratuita y encuentra maneras de viajar de manera más ecológica. Resultados instantáneos, sin necesidad de registro.",
+  "keywords": [
+    "calculadora de huella de carbono",
+    "viajes ecológicos",
+    "impacto de carbono en viajes",
+    "viajes sostenibles",
+    "calculadora de viajes verdes"
+  ],
+  "category": "Travel",
+  "icon": "🌍",
+  "faqs": [
+    {
+      "question": "¿Qué mide esta calculadora?",
+      "answer": "Mide la huella de carbono según tu modo de viaje, distancia y alojamientos."
+    },
+    {
+      "question": "¿Puedo comparar diferentes opciones de viaje?",
+      "answer": "Sí, puedes ingresar diferentes escenarios para ver cuál tiene un menor impacto de carbono."
+    },
+    {
+      "question": "¿Es precisa esta herramienta?",
+      "answer": "La calculadora proporciona estimaciones basadas en datos promedio de emisiones para varios métodos de viaje."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

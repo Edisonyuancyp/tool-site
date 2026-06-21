@@ -1,0 +1,237 @@
+[
+  {
+    "id": "saas",
+    "name": "Minimal SaaS",
+    "description": "Clean, high-contrast palette used by modern SaaS products. Neutral grays anchored by a confident indigo accent.",
+    "colors": [
+      {
+        "role": "Primary",
+        "hex": "#6366F1",
+        "rgb": { "r": 99, "g": 102, "b": 241 },
+        "cmyk": { "c": 59, "m": 58, "y": 0, "k": 5 },
+        "pantone_approx": "PMS 2736 C",
+        "tailwind_class": "bg-indigo-500"
+      },
+      {
+        "role": "Secondary",
+        "hex": "#A5B4FC",
+        "rgb": { "r": 165, "g": 180, "b": 252 },
+        "cmyk": { "c": 35, "m": 29, "y": 0, "k": 1 },
+        "pantone_approx": "PMS 2715 C",
+        "tailwind_class": "bg-indigo-300"
+      },
+      {
+        "role": "Surface",
+        "hex": "#F9FAFB",
+        "rgb": { "r": 249, "g": 250, "b": 251 },
+        "cmyk": { "c": 1, "m": 0, "y": 0, "k": 2 },
+        "pantone_approx": "PMS Cool Gray 1 C",
+        "tailwind_class": "bg-gray-50"
+      },
+      {
+        "role": "Text",
+        "hex": "#111827",
+        "rgb": { "r": 17, "g": 24, "b": 39 },
+        "cmyk": { "c": 56, "m": 38, "y": 0, "k": 85 },
+        "pantone_approx": "PMS Black 6 C",
+        "tailwind_class": "bg-gray-900"
+      },
+      {
+        "role": "Accent",
+        "hex": "#10B981",
+        "rgb": { "r": 16, "g": 185, "b": 129 },
+        "cmyk": { "c": 91, "m": 0, "y": 30, "k": 27 },
+        "pantone_approx": "PMS 339 C",
+        "tailwind_class": "bg-emerald-500"
+      }
+    ]
+  },
+  {
+    "id": "medical",
+    "name": "Medical Blue",
+    "description": "Trustworthy, sterile palette for healthcare and medical applications. Calming blues and whites communicate safety and precision.",
+    "colors": [
+      {
+        "role": "Primary",
+        "hex": "#0EA5E9",
+        "rgb": { "r": 14, "g": 165, "b": 233 },
+        "cmyk": { "c": 94, "m": 29, "y": 0, "k": 9 },
+        "pantone_approx": "PMS 2995 C",
+        "tailwind_class": "bg-sky-500"
+      },
+      {
+        "role": "Deep",
+        "hex": "#0369A1",
+        "rgb": { "r": 3, "g": 105, "b": 161 },
+        "cmyk": { "c": 98, "m": 35, "y": 0, "k": 37 },
+        "pantone_approx": "PMS 300 C",
+        "tailwind_class": "bg-sky-700"
+      },
+      {
+        "role": "Surface",
+        "hex": "#F0F9FF",
+        "rgb": { "r": 240, "g": 249, "b": 255 },
+        "cmyk": { "c": 6, "m": 2, "y": 0, "k": 0 },
+        "pantone_approx": "PMS 9421 C",
+        "tailwind_class": "bg-sky-50"
+      },
+      {
+        "role": "Neutral",
+        "hex": "#CBD5E1",
+        "rgb": { "r": 203, "g": 213, "b": 225 },
+        "cmyk": { "c": 10, "m": 5, "y": 0, "k": 12 },
+        "pantone_approx": "PMS Cool Gray 4 C",
+        "tailwind_class": "bg-slate-300"
+      },
+      {
+        "role": "Alert",
+        "hex": "#EF4444",
+        "rgb": { "r": 239, "g": 68, "b": 68 },
+        "cmyk": { "c": 0, "m": 72, "y": 72, "k": 6 },
+        "pantone_approx": "PMS 485 C",
+        "tailwind_class": "bg-red-500"
+      }
+    ]
+  },
+  {
+    "id": "retro-film",
+    "name": "Retro Film",
+    "description": "Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and worn-paper cream.",
+    "colors": [
+      {
+        "role": "Warm Base",
+        "hex": "#D97706",
+        "rgb": { "r": 217, "g": 119, "b": 6 },
+        "cmyk": { "c": 0, "m": 45, "y": 97, "k": 15 },
+        "pantone_approx": "PMS 144 C",
+        "tailwind_class": "bg-amber-600"
+      },
+      {
+        "role": "Dusty Rose",
+        "hex": "#FDA4AF",
+        "rgb": { "r": 253, "g": 164, "b": 175 },
+        "cmyk": { "c": 0, "m": 35, "y": 31, "k": 1 },
+        "pantone_approx": "PMS 196 C",
+        "tailwind_class": "bg-rose-300"
+      },
+      {
+        "role": "Paper",
+        "hex": "#FEF3C7",
+        "rgb": { "r": 254, "g": 243, "b": 199 },
+        "cmyk": { "c": 0, "m": 4, "y": 22, "k": 0 },
+        "pantone_approx": "PMS 1205 C",
+        "tailwind_class": "bg-amber-100"
+      },
+      {
+        "role": "Shadow",
+        "hex": "#78350F",
+        "rgb": { "r": 120, "g": 53, "b": 15 },
+        "cmyk": { "c": 0, "m": 56, "y": 88, "k": 53 },
+        "pantone_approx": "PMS 1615 C",
+        "tailwind_class": "bg-amber-900"
+      },
+      {
+        "role": "Muted Teal",
+        "hex": "#5EEAD4",
+        "rgb": { "r": 94, "g": 234, "b": 212 },
+        "cmyk": { "c": 60, "m": 0, "y": 10, "k": 8 },
+        "pantone_approx": "PMS 3255 C",
+        "tailwind_class": "bg-teal-300"
+      }
+    ]
+  },
+  {
+    "id": "dark-tech",
+    "name": "Dark Tech",
+    "description": "High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep blacks with electric neon accents.",
+    "colors": [
+      {
+        "role": "Background",
+        "hex": "#0F172A",
+        "rgb": { "r": 15, "g": 23, "b": 42 },
+        "cmyk": { "c": 64, "m": 45, "y": 0, "k": 84 },
+        "pantone_approx": "PMS 2767 C",
+        "tailwind_class": "bg-slate-900"
+      },
+      {
+        "role": "Surface",
+        "hex": "#1E293B",
+        "rgb": { "r": 30, "g": 41, "b": 59 },
+        "cmyk": { "c": 49, "m": 31, "y": 0, "k": 77 },
+        "pantone_approx": "PMS 2768 C",
+        "tailwind_class": "bg-slate-800"
+      },
+      {
+        "role": "Neon Cyan",
+        "hex": "#22D3EE",
+        "rgb": { "r": 34, "g": 211, "b": 238 },
+        "cmyk": { "c": 86, "m": 11, "y": 0, "k": 7 },
+        "pantone_approx": "PMS 306 C",
+        "tailwind_class": "bg-cyan-400"
+      },
+      {
+        "role": "Neon Purple",
+        "hex": "#A78BFA",
+        "rgb": { "r": 167, "g": 139, "b": 250 },
+        "cmyk": { "c": 33, "m": 44, "y": 0, "k": 2 },
+        "pantone_approx": "PMS 2665 C",
+        "tailwind_class": "bg-violet-400"
+      },
+      {
+        "role": "Muted Text",
+        "hex": "#94A3B8",
+        "rgb": { "r": 148, "g": 163, "b": 184 },
+        "cmyk": { "c": 20, "m": 11, "y": 0, "k": 28 },
+        "pantone_approx": "PMS Cool Gray 7 C",
+        "tailwind_class": "bg-slate-400"
+      }
+    ]
+  },
+  {
+    "id": "eco-green",
+    "name": "Eco Green",
+    "description": "Nature-inspired organic palette for sustainability brands, wellness, and environmental products. Deep forest greens and warm earth tones.",
+    "colors": [
+      {
+        "role": "Forest",
+        "hex": "#166534",
+        "rgb": { "r": 22, "g": 101, "b": 52 },
+        "cmyk": { "c": 78, "m": 0, "y": 49, "k": 60 },
+        "pantone_approx": "PMS 349 C",
+        "tailwind_class": "bg-green-800"
+      },
+      {
+        "role": "Leaf",
+        "hex": "#4ADE80",
+        "rgb": { "r": 74, "g": 222, "b": 128 },
+        "cmyk": { "c": 67, "m": 0, "y": 42, "k": 13 },
+        "pantone_approx": "PMS 360 C",
+        "tailwind_class": "bg-green-400"
+      },
+      {
+        "role": "Earth",
+        "hex": "#92400E",
+        "rgb": { "r": 146, "g": 64, "b": 14 },
+        "cmyk": { "c": 0, "m": 56, "y": 90, "k": 43 },
+        "pantone_approx": "PMS 1615 C",
+        "tailwind_class": "bg-amber-800"
+      },
+      {
+        "role": "Cream",
+        "hex": "#ECFCCB",
+        "rgb": { "r": 236, "g": 252, "b": 203 },
+        "cmyk": { "c": 6, "m": 0, "y": 19, "k": 1 },
+        "pantone_approx": "PMS 394 C",
+        "tailwind_class": "bg-lime-100"
+      },
+      {
+        "role": "Stone",
+        "hex": "#78716C",
+        "rgb": { "r": 120, "g": 113, "b": 108 },
+        "cmyk": { "c": 0, "m": 6, "y": 10, "k": 53 },
+        "pantone_approx": "PMS Warm Gray 9 C",
+        "tailwind_class": "bg-stone-500"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "Calculateur de Frais Financiers",
+  "tagline": "Calculez vos frais financiers sans effort !",
+  "description": "Cet outil aide les utilisateurs à calculer les frais financiers sur les prêts et les cartes de crédit en fonction de leurs soldes impayés et des taux d'intérêt. Parfait pour quiconque cherchant à comprendre ses coûts d'emprunt et à mieux gérer ses finances.",
+  "metaTitle": "Calculateur de Frais Financiers – Calculez Vos Coûts | Outil Gratuit en Ligne",
+  "metaDescription": "Calculez instantanément les frais financiers sur les prêts et les cartes de crédit. Gratuit, sans inscription, résultats rapides !",
+  "keywords": [
+    "frais financiers",
+    "calculer frais financiers",
+    "frais de carte de crédit",
+    "frais de prêt",
+    "gestion de la dette"
+  ],
+  "category": "Finance",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Qu'est-ce qu'un frais financier ?",
+      "answer": "Un frais financier est le coût d'emprunter de l'argent, exprimé en pourcentage du montant total dû. Il comprend généralement les intérêts et tous les frais applicables."
+    },
+    {
+      "question": "Comment puis-je calculer mes frais financiers ?",
+      "answer": "Entrez votre solde impayé, votre taux d'intérêt et votre cycle de facturation dans le calculateur pour découvrir vos frais financiers."
+    },
+    {
+      "question": "Puis-je utiliser ce calculateur pour n'importe quel prêt ?",
+      "answer": "Oui, ce calculateur peut être utilisé pour différents types de prêts, y compris les cartes de crédit, les prêts personnels et les prêts automobiles."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

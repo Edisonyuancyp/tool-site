@@ -1,0 +1,59 @@
+{
+  "slug": "work-life-balance-calculator",
+  "name": "Calculadora de Equilibrio entre Trabajo y Vida Personal",
+  "tagline": "Evalúa tu equilibrio entre trabajo y vida personal hoy",
+  "description": "Esta herramienta evalúa tu equilibrio entre trabajo y vida personal analizando la distribución de tu tiempo entre actividades profesionales y personales. Ideal para cualquier persona que busque mejorar su bienestar general y productividad.",
+  "metaTitle": "Equilibrio entre Trabajo y Vida Personal – Herramienta de Productividad | Herramienta Online Gratuita",
+  "metaDescription": "Evalúa tu equilibrio entre trabajo y vida personal con nuestra calculadora gratuita, sin necesidad de registro, obtén resultados instantáneos.",
+  "keywords": [
+    "equilibrio trabajo-vida",
+    "evaluación de equilibrio",
+    "evaluación de productividad",
+    "bienestar personal",
+    "gestión del tiempo"
+  ],
+  "category": "Productividad",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "¿Cómo funciona la calculadora?",
+      "answer": "Ingresas el tiempo que dedicas a actividades laborales y personales, y calcula tu equilibrio."
+    },
+    {
+      "question": "¿Esta herramienta es realmente gratuita?",
+      "answer": "Sí, no hay tarifas ni requisitos de registro para usar esta herramienta."
+    },
+    {
+      "question": "¿Puedo mejorar mi equilibrio basado en los resultados?",
+      "answer": "¡Absolutamente! La herramienta proporciona información sobre cómo gestionar mejor tu tiempo."
+    }
+  ],
+  "relatedTools": [
+    "daily-goal-tracker",
+    "time-blocking-scheduler"
+  ],
+  "variants": [
+    {
+      "variantSlug": "employee-work-life-balance",
+      "metaTitle": "Calculadora de Equilibrio entre Trabajo y Vida Personal para Empleados",
+      "metaDescription": "Evalúa el equilibrio entre trabajo y vida personal específicamente para empleados.",
+      "keywords": [
+        "bienestar de empleados",
+        "satisfacción laboral"
+      ],
+      "defaultVariant": "employee-balance-key",
+      "headline": "Diseñada para evaluar el equilibrio entre trabajo y vida personal de los empleados."
+    },
+    {
+      "variantSlug": "freelance-work-life-balance",
+      "metaTitle": "Calculadora de Equilibrio entre Trabajo y Vida Personal para Freelancers",
+      "metaDescription": "Verifica tu equilibrio como freelancer con esta variante.",
+      "keywords": [
+        "productividad de freelancers",
+        "equilibrio para autónomos"
+      ],
+      "defaultVariant": "freelance-balance-key",
+      "headline": "Perfecta para freelancers que evalúan su gestión del tiempo."
+    }
+  ]
+}

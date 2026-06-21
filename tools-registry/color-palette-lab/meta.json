@@ -1,0 +1,43 @@
+{
+  "slug": "color-palette-lab",
+  "name": "Professional Color Palette Lab",
+  "tagline": "Explore curated industry palettes with HEX, Tailwind, CMYK, and Pantone reference",
+  "description": "Browse 5 industry-grade color palettes — Minimal SaaS, Medical Blue, Retro Film, Dark Tech, and Eco Green. Switch between Web Design mode (HEX, Tailwind CSS classes, RGB) and Print mode (CMYK values and Pantone approximate references). Copy any value with one click.",
+  "metaTitle": "Professional Color Palette Lab – HEX, Tailwind CSS, CMYK & Pantone Reference",
+  "metaDescription": "Free color palette tool with 5 industry palettes. Copy HEX codes, Tailwind CSS classes, CMYK values, and Pantone approximate references instantly. Web design and print modes.",
+  "keywords": [
+    "color palette generator",
+    "Pantone matching",
+    "CMYK conversion",
+    "Web color palette",
+    "Tailwind CSS scheme",
+    "color palette for designers",
+    "HEX to CMYK converter",
+    "Pantone color reference",
+    "SaaS color palette",
+    "UI color scheme"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/color-palette-lab",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Are the Pantone references exact matches?",
+      "answer": "No. Pantone codes shown are the closest visual approximations to the hex colors. For production print work, always verify against a physical Pantone Fan Deck or Pantone Color Guide."
+    },
+    {
+      "question": "How are CMYK values calculated?",
+      "answer": "CMYK values are computed using the standard device-independent formula: K = 1 − max(R,G,B); C = (1−R−K)/(1−K); M = (1−G−K)/(1−K); Y = (1−B−K)/(1−K). Actual printed output depends on your printer profile and paper stock."
+    },
+    {
+      "question": "Can I use these palettes in commercial projects?",
+      "answer": "Yes. The palettes are provided as reference inspiration. The HEX and Tailwind values are free to use in any project. Pantone color names are trademarks of Pantone LLC."
+    },
+    {
+      "question": "What does the Tailwind class mean?",
+      "answer": "Each color shows the nearest Tailwind CSS utility class (e.g. bg-indigo-500). Copy it and use directly in your HTML or JSX without any custom CSS."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

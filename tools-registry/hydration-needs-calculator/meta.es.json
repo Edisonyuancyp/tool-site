@@ -1,0 +1,36 @@
+{
+  "slug": "hydration-needs-calculator",
+  "name": "Calculadora de Necesidades de Hidratación",
+  "tagline": "¡Calcula tus necesidades diarias de hidratación!",
+  "description": "Esta calculadora te ayuda a determinar cuánta agua deberías beber diariamente según tu nivel de actividad, edad y peso. Esencial para los entusiastas del fitness que buscan optimizar su hidratación.",
+  "metaTitle": "Calculadora de Necesidades de Hidratación – Mantente Hidratado | Herramienta Gratuita",
+  "metaDescription": "¡Descubre tus necesidades diarias de hidratación al instante y gratis! No es necesario registrarse, solo ingresa tus datos y obtén tus resultados.",
+  "keywords": [
+    "necesidades de hidratación",
+    "calculadora de ingesta de agua",
+    "hidratación diaria",
+    "hidratación para fitness",
+    "mantente hidratado"
+  ],
+  "category": "Fitness",
+  "icon": "💧",
+  "faqs": [
+    {
+      "question": "¿Cómo sé si estoy hidratado?",
+      "answer": "Los signos de hidratación incluyen orina clara, niveles de energía y elasticidad de la piel; esta herramienta te ayuda a cuantificar tus necesidades."
+    },
+    {
+      "question": "¿Puedo ajustar mi ingesta de agua?",
+      "answer": "Sí, puedes ajustar según los niveles de actividad, el clima y la salud personal."
+    },
+    {
+      "question": "¿Es esta herramienta adecuada para todos?",
+      "answer": "Está diseñada para la mayoría de los adultos; sin embargo, aquellos con condiciones de salud específicas deben consultar a un profesional."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

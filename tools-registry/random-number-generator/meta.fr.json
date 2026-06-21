@@ -1,0 +1,81 @@
+{
+  "slug": "random-number-generator",
+  "name": "Générateur de Nombres Aléatoires",
+  "tagline": "Générez des nombres vraiment aléatoires instantanément — unique, liste ou dés",
+  "description": "Générez des nombres aléatoires cryptographiquement sécurisés dans n'importe quelle plage. Nombre unique, liste de nombres, lancer de dés, tirage de pièce et sélection d'éléments aléatoires — tout cela dans un outil gratuit.",
+  "metaTitle": "Générateur de Nombres Aléatoires – Outil de Tirage de Nombres Aléatoires en Ligne Gratuit",
+  "metaDescription": "Générez des nombres aléatoires en ligne instantanément. Nombre unique, liste de nombres aléatoires, lancer de dés, tirage de pièce. Générateur de nombres aléatoires gratuit — sécurisé cryptographiquement.",
+  "keywords": [
+    "générateur de nombres aléatoires",
+    "sélecteur de nombres aléatoires",
+    "nombre aléatoire entre 1 et 100",
+    "lancer de dés en ligne",
+    "générateur de nombres aléatoires en ligne"
+  ],
+  "category": "Generators",
+  "icon": "🎲",
+  "faqs": [
+    {
+      "question": "Le nombre aléatoire est-il vraiment aléatoire ?",
+      "answer": "Oui. L'outil utilise l'API de Cryptographie Web (crypto.getRandomValues) qui fournit des nombres aléatoires sécurisés cryptographiquement, contrairement à Math.random()."
+    },
+    {
+      "question": "Puis-je générer plusieurs nombres aléatoires à la fois ?",
+      "answer": "Oui. Utilisez le mode 'Liste' pour générer un lot de nombres aléatoires uniques ou répétables dans n'importe quelle plage."
+    },
+    {
+      "question": "Quel est le plus grand nombre que je peux générer ?",
+      "answer": "L'outil prend en charge des nombres allant jusqu'à Number.MAX_SAFE_INTEGER (9,007,199,254,740,991) en utilisant BigInt pour des plages au-delà des entiers standard."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "random-number-1-10",
+      "metaTitle": "Nombre Aléatoire Entre 1 et 10 – Générateur de Nombres Aléatoires 1-10",
+      "metaDescription": "Générez un nombre aléatoire entre 1 et 10 instantanément. Sélecteur de nombres aléatoires gratuit de 1 à 10. Cliquez pour générer un nouveau nombre aléatoire.",
+      "keywords": [
+        "nombre aléatoire entre 1 et 10",
+        "nombre aléatoire 1-10",
+        "tirer un nombre aléatoire de 1 à 10",
+        "générateur de nombres aléatoires 1 à 10",
+        "nombre entre 1 et 10"
+      ],
+      "defaultVariant": "1-10",
+      "headline": "Générez un nombre aléatoire entre 1 et 10. Cliquez sur le bouton pour choisir instantanément un nouveau nombre aléatoire."
+    },
+    {
+      "variantSlug": "random-number-1-100",
+      "metaTitle": "Nombre Aléatoire Entre 1 et 100 – Générateur de Nombres Aléatoires 1-100",
+      "metaDescription": "Générez un nombre aléatoire entre 1 et 100 instantanément. Sélecteur de nombres aléatoires gratuit 1-100. Parfait pour les jeux, les tirages au sort et les décisions.",
+      "keywords": [
+        "nombre aléatoire entre 1 et 100",
+        "nombre aléatoire 1-100",
+        "tirer un nombre aléatoire de 1 à 100",
+        "générateur de nombres aléatoires 1 à 100",
+        "nombre entre 1 et 100"
+      ],
+      "defaultVariant": "1-100",
+      "headline": "Générez un nombre aléatoire entre 1 et 100. Idéal pour les jeux, les tirages au sort, les alternatives au tirage de pièce et la sélection aléatoire."
+    },
+    {
+      "variantSlug": "dice-roller-online",
+      "metaTitle": "Lancer de Dés en Ligne – Lancez des Dés Virtuels (D4 D6 D8 D10 D12 D20)",
+      "metaDescription": "Lancez des dés virtuels en ligne. Prend en charge D4, D6, D8, D10, D12, D20 et des dés personnalisés. Lancer de dés en ligne gratuit — parfait pour les RPG sur table, les jeux de société et Donjons & Dragons.",
+      "keywords": [
+        "lancer de dés en ligne",
+        "lancer de dés virtuel",
+        "lancer des dés en ligne",
+        "lancer de dés d20",
+        "lancer de dés Donjons et Dragons",
+        "dés d6 d20"
+      ],
+      "defaultVariant": "dice",
+      "headline": "Lancez n'importe quel type de dés en ligne — D4, D6, D8, D10, D12, D20 ou personnalisé. Parfait pour Donjons & Dragons, les RPG sur table et les jeux de société."
+    }
+  ]
+}

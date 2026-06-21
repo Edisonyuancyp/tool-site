@@ -1,0 +1,76 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "Calculadora de Porcentaje de Grasa Corporal",
+  "tagline": "Calcula tu porcentaje de grasa corporal utilizando el método de medición de la Marina de los EE. UU.",
+  "description": "Estima el porcentaje de grasa corporal utilizando el método de la Marina de los EE. UU. — solo necesitas las medidas de cintura, cuello y cadera (mujeres). Muestra la masa grasa, masa magra, categoría y un indicador visual. No se necesitan calibradores.",
+  "metaTitle": "Calculadora de Porcentaje de Grasa Corporal – Método de la Marina de los EE. UU. (Cintura, Cuello, Cadera)",
+  "metaDescription": "Calculadora gratuita de porcentaje de grasa corporal utilizando el método de la Marina de los EE. UU. Ingresa las medidas de cintura, cuello y cadera para calcular el porcentaje de grasa corporal, masa grasa, masa magra y categoría de condición física.",
+  "keywords": [
+    "calculadora de porcentaje de grasa corporal",
+    "calculadora de grasa corporal marina",
+    "calculadora de grasa corporal cintura cuello cadera",
+    "cómo calcular la grasa corporal",
+    "medición de porcentaje de grasa corporal"
+  ],
+  "category": "Salud",
+  "icon": "💪",
+  "faqs": [
+    {
+      "question": "¿Qué tan preciso es el método de grasa corporal de la Marina de los EE. UU.?",
+      "answer": "El método de la Marina de los EE. UU. tiene un margen de error de ±3–4% en comparación con DEXA (estándar de oro). Es significativamente más útil que el IMC para el seguimiento de la condición física."
+    },
+    {
+      "question": "¿Qué porcentaje de grasa corporal se considera saludable?",
+      "answer": "Para hombres: Atlético 6–13%, Fitness 14–17%, Promedio 18–24%. Para mujeres: Atlético 14–20%, Fitness 21–24%, Promedio 25–31%."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "ideal-weight-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "body-fat-calculator-female",
+      "metaTitle": "Calculadora de Grasa Corporal para Mujeres – Porcentaje de Grasa Corporal Femenina",
+      "metaDescription": "Calcula el porcentaje de grasa corporal para mujeres utilizando el método de la Marina de los EE. UU. Ingresa las medidas de cintura, cuello y cadera. Calculadora de grasa corporal femenina gratuita.",
+      "keywords": [
+        "calculadora de grasa corporal femenina",
+        "porcentaje de grasa corporal mujeres",
+        "calculadora de grasa corporal mujer",
+        "método marina mujeres",
+        "cómo medir grasa corporal mujeres"
+      ],
+      "defaultVariant": "female",
+      "headline": "Calcula el porcentaje de grasa corporal para mujeres utilizando el método de circunferencia de la Marina de los EE. UU. Requiere medidas de cintura, cuello y cadera — no se necesitan calibradores ni DEXA."
+    },
+    {
+      "variantSlug": "body-fat-calculator-male",
+      "metaTitle": "Calculadora de Grasa Corporal para Hombres – Porcentaje de Grasa Corporal Masculina",
+      "metaDescription": "Calcula el porcentaje de grasa corporal para hombres utilizando el método de la Marina de los EE. UU. Ingresa las medidas de cintura y cuello. Calculadora de grasa corporal masculina gratuita.",
+      "keywords": [
+        "calculadora de grasa corporal masculina",
+        "porcentaje de grasa corporal hombres",
+        "calculadora de grasa corporal hombre",
+        "método marina hombres",
+        "cómo medir grasa corporal hombres"
+      ],
+      "defaultVariant": "male",
+      "headline": "Calcula el porcentaje de grasa corporal para hombres utilizando el método de circunferencia de la Marina de los EE. UU. Solo requiere medidas de cintura y cuello."
+    },
+    {
+      "variantSlug": "body-fat-calculator-imperial",
+      "metaTitle": "Calculadora de Grasa Corporal en Pulgadas y Libras – Grasa Corporal en Unidades Imperiales",
+      "metaDescription": "Calcula el porcentaje de grasa corporal utilizando pulgadas y libras. Método de la Marina de los EE. UU. con unidades imperiales. Calculadora de grasa corporal gratuita en lbs y pulgadas.",
+      "keywords": [
+        "calculadora de grasa corporal pulgadas",
+        "calculadora de grasa corporal libras",
+        "grasa corporal unidades imperiales",
+        "grasa corporal marina lbs pulgadas",
+        "calculadora de grasa corporal EE. UU."
+      ],
+      "defaultVariant": "imperial",
+      "headline": "Calcula el porcentaje de grasa corporal utilizando medidas en pulgadas y peso en libras — no se necesita conversión métrica."
+    }
+  ]
+}

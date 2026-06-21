@@ -1,0 +1,89 @@
+{
+  "slug": "running-pace-calculator",
+  "name": "Calculadora de Ritmo de Carrera",
+  "tagline": "Calcula tu ritmo de carrera, velocidad y tiempo de finalización",
+  "description": "Calcula tu ritmo de carrera por km o milla, convierte entre ritmo y velocidad, y estima tu tiempo de finalización para cualquier distancia de carrera.",
+  "metaTitle": "Calculadora de Ritmo de Carrera – Calculadora de Ritmo de Carrera Gratis en Línea",
+  "metaDescription": "Calcula el ritmo de carrera, velocidad y tiempo de finalización. Soporta km y millas. Calculadora de ritmo de carrera gratis para 5K, 10K, media maratón y maratón.",
+  "keywords": [
+    "calculadora de ritmo de carrera",
+    "calculadora de ritmo de carrera",
+    "calculadora de ritmo por km",
+    "calculadora de velocidad de carrera"
+  ],
+  "category": "Salud",
+  "icon": "🏃",
+  "faqs": [
+    {
+      "question": "¿Cómo calculo mi ritmo de carrera?",
+      "answer": "Divide tu tiempo total por la distancia. Por ejemplo, si corres 5 km en 30 minutos, tu ritmo es de 6:00 min/km."
+    },
+    {
+      "question": "¿Cuál es un buen ritmo de carrera para principiantes?",
+      "answer": "Para principiantes, un ritmo cómodo de 8–10 min/km (13–16 min/milla) es perfectamente aceptable. Concéntrate en terminar, no en la velocidad."
+    },
+    {
+      "question": "¿Cómo convierto el ritmo de km a millas?",
+      "answer": "Multiplica tu ritmo en min/km por 1.60934 para obtener min/milla. Por ejemplo, 6:00 min/km = 9:39 min/milla."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "5k-pace-calculator",
+      "metaTitle": "Calculadora de Ritmo de 5K – Calculadora de Tiempo de Finalización y Divisiones",
+      "metaDescription": "Calcula tu ritmo de carrera de 5K y el tiempo de finalización previsto. Establece un tiempo objetivo y encuentra el ritmo que necesitas. Calculadora de ritmo de 5K gratis.",
+      "keywords": [
+        "calculadora de ritmo de 5k",
+        "calculadora de tiempo de finalización de 5k",
+        "calculadora de ritmo de 5km",
+        "calculadora de tiempo para correr 5k"
+      ],
+      "defaultVariant": "5k",
+      "headline": "Planifica tu carrera de 5K. Ingresa tu tiempo de finalización objetivo para encontrar el ritmo exacto por km que necesitas mantener, o ingresa tu ritmo para predecir tu tiempo de finalización."
+    },
+    {
+      "variantSlug": "marathon-pace-calculator",
+      "metaTitle": "Calculadora de Ritmo de Maratón – Ritmo de Carrera de 26.2 Millas y Tiempos de División",
+      "metaDescription": "Calcula el ritmo de maratón y el tiempo de finalización proyectado. Obtén divisiones por km y por milla. Calculadora de ritmo de maratón gratis para la planificación del día de la carrera.",
+      "keywords": [
+        "calculadora de ritmo de maratón",
+        "calculadora de tiempo de finalización de maratón",
+        "ritmo de 26.2 millas",
+        "calculadora de divisiones de maratón"
+      ],
+      "defaultVariant": "marathon",
+      "headline": "Planifica tu carrera de maratón. Calcula el ritmo por km o milla que necesitas para alcanzar tu tiempo objetivo, con tiempos de división cada 5 km para el día de la carrera."
+    },
+    {
+      "variantSlug": "half-marathon-pace-calculator",
+      "metaTitle": "Calculadora de Ritmo de Media Maratón – Ritmo de Carrera de 13.1 Millas",
+      "metaDescription": "Calcula el ritmo de media maratón y el tiempo de finalización. Obtén divisiones para cada km y milla. Calculadora de ritmo de media maratón gratis.",
+      "keywords": [
+        "calculadora de ritmo de media maratón",
+        "calculadora de ritmo de 13.1 millas",
+        "tiempo de finalización de media maratón",
+        "calculadora de divisiones de media maratón"
+      ],
+      "defaultVariant": "half-marathon",
+      "headline": "Planifica tu media maratón. Ingresa tu tiempo de finalización objetivo para obtener el ritmo exacto que necesitas y las divisiones por km para el recorrido de 21.1 km."
+    },
+    {
+      "variantSlug": "10k-pace-calculator",
+      "metaTitle": "Calculadora de Ritmo de 10K – Ritmo de Carrera y Tiempo de Finalización",
+      "metaDescription": "Calcula tu ritmo de carrera de 10K y el tiempo de finalización. Establece tu objetivo y encuentra el ritmo por km necesario. Calculadora de ritmo de 10K gratis.",
+      "keywords": [
+        "calculadora de ritmo de 10k",
+        "calculadora de ritmo de 10km",
+        "calculadora de tiempo de finalización de 10k",
+        "ritmo de carrera de 10k"
+      ],
+      "defaultVariant": "10k",
+      "headline": "Planifica tu carrera de 10K. Encuentra el ritmo que necesitas para alcanzar tu tiempo objetivo o predice tu tiempo de finalización a partir de tu ritmo de entrenamiento."
+    }
+  ]
+}

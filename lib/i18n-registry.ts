@@ -1,0 +1,95 @@
+import "server-only";
+import fs from "fs";
+import path from "path";
+import type { ToolMeta } from "./tools";
+import type { RegistryMeta, ToolVariant } from "./registry";
+
+export type SupportedLocale = "es" | "fr";
+export const SUPPORTED_LOCALES: SupportedLocale[] = ["es", "fr"];
+export const LOCALE_LABELS: Record<SupportedLocale, string> = { es: "Español", fr: "Français" };
+
+const REGISTRY_DIR = path.join(process.cwd(), "tools-registry");
+
+function loadLocalizedMeta(slug: string, locale: SupportedLocale): RegistryMeta | null {
+  const localePath = path.join(REGISTRY_DIR, slug, `meta.${locale}.json`);
+  const fallbackPath = path.join(REGISTRY_DIR, slug, "meta.json");
+
+  const filePath = fs.existsSync(localePath) ? localePath : fallbackPath;
+  if (!fs.existsSync(filePath)) return null;
+
+  try {
+    const raw = fs.readFileSync(filePath, "utf-8");
+    const meta = JSON.parse(raw) as RegistryMeta;
+    if (!meta.variants) meta.variants = [];
+    // Always use the base English slug for routing
+    meta.slug = slug;
+    return meta;
+  } catch {
+    return null;
+  }
+}
+
+export function getI18nRegistrySlugs(locale: SupportedLocale): string[] {
+  if (!fs.existsSync(REGISTRY_DIR)) return [];
+  const slugs: string[] = [];
+
+  for (const entry of fs.readdirSync(REGISTRY_DIR, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
+    const meta = loadLocalizedMeta(entry.name, locale);
+    if (!meta) continue;
+    slugs.push(meta.slug);
+    for (const v of meta.variants) {
+      slugs.push(v.variantSlug);
+    }
+  }
+  return slugs;
+}
+
+export function resolveI18nSlug(
+  slug: string,
+  locale: SupportedLocale
+): { meta: RegistryMeta; variant?: string; baseSlug: string } | null {
+  if (!fs.existsSync(REGISTRY_DIR)) return null;
+
+  for (const entry of fs.readdirSync(REGISTRY_DIR, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
+
+    const meta = loadLocalizedMeta(entry.name, locale);
+    if (!meta) continue;
+
+    // Base slug match
+    if (meta.slug === slug) {
+      return { meta, baseSlug: meta.slug };
+    }
+
+    // Variant slug match
+    for (const v of meta.variants) {
+      if (v.variantSlug === slug) {
+        const merged: RegistryMeta = {
+          ...meta,
+          slug: v.variantSlug,
+          metaTitle: v.metaTitle,
+          metaDescription: v.metaDescription,
+          keywords: v.keywords ?? meta.keywords,
+          description: v.headline ?? meta.description,
+        };
+        return { meta: merged, variant: v.defaultVariant, baseSlug: meta.slug };
+      }
+    }
+  }
+  return null;
+}
+
+export function getI18nToolMetas(locale: SupportedLocale): ToolMeta[] {
+  if (!fs.existsSync(REGISTRY_DIR)) return [];
+  const metas: ToolMeta[] = [];
+
+  for (const entry of fs.readdirSync(REGISTRY_DIR, { withFileTypes: true })) {
+    if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
+    const meta = loadLocalizedMeta(entry.name, locale);
+    if (!meta) continue;
+    const { variants: _v, ...rest } = meta;
+    metas.push(rest);
+  }
+  return metas;
+}

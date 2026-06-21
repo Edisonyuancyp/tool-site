@@ -1,0 +1,76 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "Calculateur de pourcentage de graisse corporelle",
+  "tagline": "Calculez votre pourcentage de graisse corporelle en utilisant la méthode de mesure de la Marine américaine",
+  "description": "Estimez le pourcentage de graisse corporelle en utilisant la méthode de la Marine américaine — il suffit de mesurer la taille, le cou et les hanches (pour les femmes). Affiche la masse grasse, la masse maigre, la catégorie et un indicateur visuel. Pas besoin de pince à graisse.",
+  "metaTitle": "Calculateur de pourcentage de graisse corporelle – Méthode de la Marine américaine (Taille, Cou, Hanches)",
+  "metaDescription": "Calculateur gratuit de pourcentage de graisse corporelle utilisant la méthode de la Marine américaine. Entrez les mesures de taille, de cou et de hanches pour calculer le pourcentage de graisse corporelle, la masse grasse, la masse maigre et la catégorie de forme physique.",
+  "keywords": [
+    "calculateur de pourcentage de graisse corporelle",
+    "calculateur de graisse corporelle marine",
+    "calculateur de graisse corporelle taille cou hanches",
+    "comment calculer la graisse corporelle",
+    "mesure du pourcentage de graisse corporelle"
+  ],
+  "category": "Santé",
+  "icon": "💪",
+  "faqs": [
+    {
+      "question": "Quelle est la précision de la méthode de graisse corporelle de la Marine américaine ?",
+      "answer": "La méthode de la Marine américaine a une marge d'erreur de ±3–4 % par rapport à DEXA (étalon-or). Elle est nettement plus utile que l'IMC pour le suivi de la forme physique."
+    },
+    {
+      "question": "Quel pourcentage de graisse corporelle est considéré comme sain ?",
+      "answer": "Pour les hommes : Athlétique 6–13 %, Forme 14–17 %, Moyenne 18–24 %. Pour les femmes : Athlétique 14–20 %, Forme 21–24 %, Moyenne 25–31 %."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "ideal-weight-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "body-fat-calculator-female",
+      "metaTitle": "Calculateur de graisse corporelle pour femmes – Pourcentage de graisse corporelle féminine",
+      "metaDescription": "Calculez le pourcentage de graisse corporelle pour les femmes en utilisant la méthode de la Marine américaine. Entrez les mesures de taille, de cou et de hanches. Calculateur de graisse corporelle féminin gratuit.",
+      "keywords": [
+        "calculateur de graisse corporelle femme",
+        "pourcentage de graisse corporelle femmes",
+        "calculateur de graisse corporelle féminin",
+        "méthode marine femmes",
+        "comment mesurer la graisse corporelle femmes"
+      ],
+      "defaultVariant": "female",
+      "headline": "Calculez le pourcentage de graisse corporelle pour les femmes en utilisant la méthode de circonférence de la Marine américaine. Nécessite les mesures de taille, de cou et de hanches — pas besoin de pinces ou de DEXA."
+    },
+    {
+      "variantSlug": "body-fat-calculator-male",
+      "metaTitle": "Calculateur de graisse corporelle pour hommes – Pourcentage de graisse corporelle masculine",
+      "metaDescription": "Calculez le pourcentage de graisse corporelle pour les hommes en utilisant la méthode de la Marine américaine. Entrez les mesures de taille et de cou. Calculateur de graisse corporelle masculin gratuit.",
+      "keywords": [
+        "calculateur de graisse corporelle homme",
+        "pourcentage de graisse corporelle hommes",
+        "calculateur de graisse corporelle masculin",
+        "méthode marine hommes",
+        "comment mesurer la graisse corporelle hommes"
+      ],
+      "defaultVariant": "male",
+      "headline": "Calculez le pourcentage de graisse corporelle pour les hommes en utilisant la méthode de circonférence de la Marine américaine. Nécessite uniquement les mesures de taille et de cou."
+    },
+    {
+      "variantSlug": "body-fat-calculator-imperial",
+      "metaTitle": "Calculateur de graisse corporelle en pouces et livres – Graisse corporelle en unités impériales",
+      "metaDescription": "Calculez le pourcentage de graisse corporelle en utilisant des pouces et des livres. Méthode de la Marine américaine avec unités impériales. Calculateur de graisse corporelle gratuit en lbs et pouces.",
+      "keywords": [
+        "calculateur de graisse corporelle pouces",
+        "calculateur de graisse corporelle livres",
+        "graisse corporelle unités impériales",
+        "graisse corporelle marine lbs pouces",
+        "calculateur de graisse corporelle usa"
+      ],
+      "defaultVariant": "imperial",
+      "headline": "Calculez le pourcentage de graisse corporelle en utilisant des mesures en pouces et un poids en livres — aucune conversion métrique nécessaire."
+    }
+  ]
+}

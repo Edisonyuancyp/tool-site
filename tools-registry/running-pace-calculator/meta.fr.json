@@ -1,0 +1,89 @@
+{
+  "slug": "running-pace-calculator",
+  "name": "Calculateur de Vitesse de Course",
+  "tagline": "Calculez votre vitesse de course, votre vitesse et votre temps d'arrivée",
+  "description": "Calculez votre vitesse de course par km ou mile, convertissez entre vitesse et allure, et estimez votre temps d'arrivée pour n'importe quelle distance de course.",
+  "metaTitle": "Calculateur de Vitesse de Course – Calculateur de Vitesse de Course Gratuit en Ligne",
+  "metaDescription": "Calculez l'allure de course, la vitesse et le temps d'arrivée. Prend en charge les km et les miles. Calculateur de vitesse de course gratuit pour 5K, 10K, semi-marathon et marathon.",
+  "keywords": [
+    "calculateur de vitesse de course",
+    "calculateur d'allure de course",
+    "calculateur d'allure par km",
+    "calculateur de vitesse de course"
+  ],
+  "category": "Santé",
+  "icon": "🏃",
+  "faqs": [
+    {
+      "question": "Comment puis-je calculer ma vitesse de course ?",
+      "answer": "Divisez votre temps total par la distance. Par exemple, si vous courez 5 km en 30 minutes, votre allure est de 6:00 min/km."
+    },
+    {
+      "question": "Quelle est une bonne allure de course pour les débutants ?",
+      "answer": "Pour les débutants, une allure confortable de 8 à 10 min/km (13 à 16 min/mile) est tout à fait acceptable. Concentrez-vous sur l'arrivée, pas sur la vitesse."
+    },
+    {
+      "question": "Comment convertir l'allure de km en miles ?",
+      "answer": "Multipliez votre allure en min/km par 1,60934 pour obtenir min/mile. Par exemple, 6:00 min/km = 9:39 min/mile."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "5k-pace-calculator",
+      "metaTitle": "Calculateur d'Allure de 5K – Calculateur de Temps d'Arrivée et de Fractionnement",
+      "metaDescription": "Calculez votre allure de course de 5K et le temps d'arrivée prévu. Définissez un temps cible et trouvez l'allure dont vous avez besoin. Calculateur d'allure de 5K gratuit.",
+      "keywords": [
+        "calculateur d'allure de 5k",
+        "calculateur de temps d'arrivée de 5k",
+        "calculateur d'allure de 5km",
+        "calculateur de temps de course de 5k"
+      ],
+      "defaultVariant": "5k",
+      "headline": "Planifiez votre course de 5K. Entrez votre temps d'arrivée cible pour trouver l'allure exacte par km que vous devez maintenir, ou entrez votre allure pour prédire votre temps d'arrivée."
+    },
+    {
+      "variantSlug": "marathon-pace-calculator",
+      "metaTitle": "Calculateur d'Allure de Marathon – Allure de Course de 26,2 Miles & Temps de Fractionnement",
+      "metaDescription": "Calculez l'allure de marathon et le temps d'arrivée projeté. Obtenez des temps de fractionnement par km et par mile. Calculateur d'allure de marathon gratuit pour la planification du jour de la course.",
+      "keywords": [
+        "calculateur d'allure de marathon",
+        "calculateur de temps d'arrivée de marathon",
+        "allure de 26,2 miles",
+        "calculateur de fractionnement de marathon"
+      ],
+      "defaultVariant": "marathon",
+      "headline": "Planifiez votre course de marathon. Calculez l'allure par km ou mile dont vous avez besoin pour atteindre votre temps cible, avec des temps de fractionnement par 5 km pour le jour de la course."
+    },
+    {
+      "variantSlug": "half-marathon-pace-calculator",
+      "metaTitle": "Calculateur d'Allure de Semi-Marathon – Allure de Course de 13,1 Miles",
+      "metaDescription": "Calculez l'allure de semi-marathon et le temps d'arrivée. Obtenez des temps de fractionnement pour chaque km et mile. Calculateur d'allure de semi-marathon gratuit.",
+      "keywords": [
+        "calculateur d'allure de semi-marathon",
+        "calculateur d'allure de 13,1 miles",
+        "temps d'arrivée de semi-marathon",
+        "calculateur de fractionnement de semi-marathon"
+      ],
+      "defaultVariant": "half-marathon",
+      "headline": "Planifiez votre semi-marathon. Entrez votre temps d'arrivée cible pour obtenir l'allure exacte dont vous avez besoin et les temps de fractionnement par km pour le parcours de 21,1 km."
+    },
+    {
+      "variantSlug": "10k-pace-calculator",
+      "metaTitle": "Calculateur d'Allure de 10K – Allure de Course et Temps d'Arrivée",
+      "metaDescription": "Calculez votre allure de course de 10K et votre temps d'arrivée. Définissez votre objectif et trouvez l'allure par km nécessaire. Calculateur d'allure de 10K gratuit.",
+      "keywords": [
+        "calculateur d'allure de 10k",
+        "calculateur d'allure de 10km",
+        "calculateur de temps d'arrivée de 10k",
+        "allure de course de 10k"
+      ],
+      "defaultVariant": "10k",
+      "headline": "Planifiez votre course de 10K. Trouvez l'allure dont vous avez besoin pour atteindre votre temps cible ou prédisez votre temps d'arrivée à partir de votre allure d'entraînement."
+    }
+  ]
+}

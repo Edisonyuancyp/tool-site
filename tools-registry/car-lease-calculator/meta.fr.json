@@ -1,0 +1,36 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "Calculateur de Location de Voiture",
+  "tagline": "Calculez rapidement vos paiements de location !",
+  "description": "Cet outil aide les utilisateurs à estimer leurs paiements mensuels de location de voiture en fonction du prix du véhicule, de l'acompte, du taux d'intérêt et de la durée de la location. Parfait pour quiconque envisage de louer un véhicule et souhaite comprendre la structure de ses paiements.",
+  "metaTitle": "Calculateur de Location de Voiture – Estimez Vos Paiements | Outil En Ligne Gratuit",
+  "metaDescription": "Calculez facilement vos paiements de location de voiture. Gratuit, sans inscription, résultats instantanés !",
+  "keywords": [
+    "calculateur de location de voiture",
+    "estimation de paiement de location",
+    "location de véhicule",
+    "paiement de location mensuel",
+    "calculateur de financement automobile"
+  ],
+  "category": "Finance",
+  "icon": "🚗",
+  "faqs": [
+    {
+      "question": "Quels facteurs déterminent mon paiement de location ?",
+      "answer": "Votre paiement de location est influencé par le prix du véhicule, la valeur résiduelle, le taux d'intérêt, la durée de la location et l'acompte."
+    },
+    {
+      "question": "Puis-je utiliser ce calculateur pour différentes voitures ?",
+      "answer": "Oui, vous pouvez entrer différentes valeurs pour n'importe quelle voiture afin de voir comment cela affecte votre paiement de location."
+    },
+    {
+      "question": "Cet outil est-il uniquement pour les voitures neuves ?",
+      "answer": "Non, le calculateur peut être utilisé pour les voitures neuves et d'occasion disponibles à la location."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "group-trip-cost-splitter",
+  "name": "Calculateur de Répartition des Coûts de Voyage en Groupe",
+  "tagline": "Répartissez facilement les coûts de voyage entre amis.",
+  "description": "Saisissez vos dépenses totales de voyage et le nombre de voyageurs pour voir combien chaque personne doit. Parfait pour les groupes qui planifient des vacances ensemble sans le tracas de suivre les dépenses individuelles.",
+  "metaTitle": "Calculateur de Répartition des Coûts de Voyage en Groupe – Partage Équitable des Dépenses de Voyage | Outil en Ligne Gratuit",
+  "metaDescription": "Répartissez facilement vos coûts de voyage en groupe gratuitement, sans inscription nécessaire. Obtenez instantanément des résultats de partage équitable des dépenses !",
+  "keywords": [
+    "calculateur de répartition des coûts de voyage en groupe",
+    "calculateur de partage des dépenses",
+    "calculateur de coûts de voyage",
+    "voyager avec des amis",
+    "outil de partage des coûts"
+  ],
+  "category": "Voyage",
+  "icon": "👥",
+  "faqs": [
+    {
+      "question": "Comment utiliser le calculateur de répartition des coûts ?",
+      "answer": "Entrez vos dépenses totales de voyage et le nombre de voyageurs pour calculer les parts individuelles."
+    },
+    {
+      "question": "Puis-je ajouter différents types de dépenses ?",
+      "answer": "Actuellement, l'outil calcule une répartition totale basée sur un montant de dépense unique."
+    },
+    {
+      "question": "Cet outil est-il gratuit ?",
+      "answer": "Oui, le Calculateur de Répartition des Coûts de Voyage en Groupe est entièrement gratuit à utiliser."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "Calculadora de Cargos Financieros",
+  "tagline": "¡Calcula tus cargos financieros sin esfuerzo!",
+  "description": "Esta herramienta ayuda a los usuarios a calcular los cargos financieros en préstamos y tarjetas de crédito basándose en sus saldos pendientes y tasas de interés. Perfecta para cualquiera que busque entender sus costos de endeudamiento y gestionar mejor sus finanzas.",
+  "metaTitle": "Calculadora de Cargos Financieros – Calcula tus Costos | Herramienta Online Gratuita",
+  "metaDescription": "Calcula instantáneamente los cargos financieros en préstamos y tarjetas de crédito. ¡Gratis, sin necesidad de registro, resultados rápidos!",
+  "keywords": [
+    "cargos financieros",
+    "calcular cargos financieros",
+    "cargos financieros de tarjetas de crédito",
+    "cargos financieros de préstamos",
+    "gestión de deudas"
+  ],
+  "category": "Finance",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "¿Qué es un cargo financiero?",
+      "answer": "Un cargo financiero es el costo de pedir dinero prestado, expresado como un porcentaje del monto total adeudado. Normalmente incluye intereses y cualquier tarifa aplicable."
+    },
+    {
+      "question": "¿Cómo calculo mis cargos financieros?",
+      "answer": "Introduce tu saldo pendiente, tasa de interés y ciclo de facturación en la calculadora para conocer tus cargos financieros."
+    },
+    {
+      "question": "¿Puedo usar esta calculadora para cualquier préstamo?",
+      "answer": "Sí, esta calculadora se puede usar para varios tipos de préstamos, incluyendo tarjetas de crédito, préstamos personales y préstamos para automóviles."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

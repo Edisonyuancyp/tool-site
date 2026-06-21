@@ -1,0 +1,36 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "Cuestionario de Nivel de Fitness",
+  "tagline": "¡Evalúa tu nivel de fitness hoy!",
+  "description": "Realiza este rápido cuestionario para evaluar tu nivel de fitness actual basado en tus hábitos de ejercicio y estilo de vida. Perfecto para cualquier persona que quiera medir su condición física e identificar áreas de mejora.",
+  "metaTitle": "Cuestionario de Nivel de Fitness – Herramienta de Autoevaluación | Herramienta Online Gratuita",
+  "metaDescription": "Evalúa tu nivel de fitness con este divertido y rápido cuestionario. ¡Obtén resultados instantáneos de forma gratuita, sin necesidad de registrarte!",
+  "keywords": [
+    "cuestionario de nivel de fitness",
+    "autoevaluación",
+    "hábitos de ejercicio",
+    "evaluación de fitness",
+    "cuestionario de salud"
+  ],
+  "category": "Fitness",
+  "icon": "🏋️‍♀️",
+  "faqs": [
+    {
+      "question": "¿Cuánto tiempo toma el cuestionario?",
+      "answer": "El cuestionario toma aproximadamente 5 minutos para completarse, proporcionando una visión rápida de tu nivel de fitness."
+    },
+    {
+      "question": "¿Qué aprenderé de los resultados?",
+      "answer": "Obtendrás información sobre tu nivel de fitness actual y consejos sobre cómo mejorar."
+    },
+    {
+      "question": "¿Hay algún costo para realizar el cuestionario?",
+      "answer": "No, el cuestionario es completamente gratuito y no requiere registro."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}

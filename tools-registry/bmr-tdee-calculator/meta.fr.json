@@ -1,0 +1,76 @@
+{
+  "slug": "bmr-tdee-calculator",
+  "name": "Calculateur BMR & TDEE",
+  "tagline": "Découvrez votre dépense calorique quotidienne et fixez l'objectif parfait pour votre but",
+  "description": "Calculez votre Taux Métabolique Basal (BMR) et votre Dépense Énergétique Quotidienne Totale (TDEE) en utilisant les formules de Mifflin-St Jeor, Harris-Benedict et Katch-McArdle. Affiche les objectifs caloriques pour la perte de poids, le maintien et la prise de masse avec une répartition des macronutriments.",
+  "metaTitle": "Calculateur BMR TDEE – Besoins Caloriques Quotidiens pour Perte de Poids & Prise de Muscle",
+  "metaDescription": "Calculateur BMR et TDEE gratuit. Découvrez votre dépense calorique quotidienne en utilisant la formule de Mifflin-St Jeor. Fixez des objectifs pour la perte de poids, le maintien ou la prise de masse avec une répartition des macronutriments.",
+  "keywords": [
+    "calculateur BMR",
+    "calculateur TDEE",
+    "calculateur de calories quotidiennes",
+    "combien de calories je brûle",
+    "calculateur du taux métabolique basal"
+  ],
+  "category": "Santé",
+  "icon": "🔥",
+  "faqs": [
+    {
+      "question": "Quelle est la différence entre BMR et TDEE ?",
+      "answer": "Le BMR est le nombre de calories que votre corps brûle au repos complet. Le TDEE multiplie le BMR par votre niveau d'activité pour obtenir votre dépense calorique quotidienne réelle. Mangez en dessous du TDEE pour perdre du poids."
+    },
+    {
+      "question": "Quelle formule BMR est la plus précise ?",
+      "answer": "La formule de Mifflin-St Jeor (1990) est considérée comme la plus précise pour la plupart des gens. La formule de Katch-McArdle est plus précise si vous connaissez votre masse corporelle maigre."
+    }
+  ],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "calorie-calculator-weight-loss",
+      "metaTitle": "Calculateur de Calories pour Perte de Poids – Déficit Calorique Quotidien",
+      "metaDescription": "Calculez votre objectif calorique quotidien pour la perte de poids. Découvrez votre TDEE et le déficit nécessaire pour perdre 0,5 kg ou 1 kg par semaine. Calculateur de calories gratuit.",
+      "keywords": [
+        "calculateur de calories perte de poids",
+        "calculateur de déficit calorique",
+        "combien de calories pour perdre du poids",
+        "objectif calorique perte de poids",
+        "calories pour perdre 1 kg par semaine"
+      ],
+      "defaultVariant": "cut",
+      "headline": "Découvrez exactement combien de calories vous devez consommer quotidiennement pour perdre du poids à un rythme sûr et durable — 0,5 kg ou 1 kg par semaine."
+    },
+    {
+      "variantSlug": "calorie-calculator-muscle-gain",
+      "metaTitle": "Calculateur de Calories pour Prise de Muscle – Surplus Calorique pour Prise de Masse",
+      "metaDescription": "Calculez votre surplus calorique quotidien pour la prise de muscle. Découvrez votre TDEE et votre objectif de prise de masse. Calculateur de calories gratuit pour développer vos muscles.",
+      "keywords": [
+        "calculateur de calories prise de muscle",
+        "calculateur de surplus calorique",
+        "combien de calories pour prendre du muscle",
+        "calculateur de calories pour prise de masse",
+        "calories pour la croissance musculaire"
+      ],
+      "defaultVariant": "bulk",
+      "headline": "Trouvez votre objectif calorique quotidien pour la prise de muscle. Une prise de masse maigre nécessite un surplus modeste de 200 à 300 calories au-dessus de votre TDEE pour maximiser la croissance musculaire tout en minimisant la prise de graisse."
+    },
+    {
+      "variantSlug": "tdee-calculator",
+      "metaTitle": "Calculateur TDEE – Calculateur de Dépense Énergétique Quotidienne Totale",
+      "metaDescription": "Calculez votre Dépense Énergétique Quotidienne Totale (TDEE). Découvrez combien de calories vous brûlez par jour en fonction de votre niveau d'activité. Calculateur TDEE gratuit.",
+      "keywords": [
+        "calculateur TDEE",
+        "dépense énergétique quotidienne totale",
+        "combien de calories je brûle par jour",
+        "calculateur de calories de maintien",
+        "calculateur de dépense calorique quotidienne"
+      ],
+      "defaultVariant": "tdee",
+      "headline": "Calculez votre Dépense Énergétique Quotidienne Totale — le nombre réel de calories que votre corps brûle chaque jour, y compris l'activité. C'est votre niveau calorique de maintien."
+    }
+  ]
+}

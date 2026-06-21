@@ -1,0 +1,59 @@
+{
+  "slug": "time-blocking-scheduler",
+  "name": "Planificateur de Temps par Blocs",
+  "tagline": "Planifiez votre journée avec des blocs de temps",
+  "description": "Cet outil vous aide à créer un emploi du temps par blocs de temps pour améliorer votre concentration et votre productivité. Idéal pour les professionnels et les étudiants qui souhaitent gérer leur temps efficacement.",
+  "metaTitle": "Planification par Blocs de Temps – Planificateur de Productivité | Outil en Ligne Gratuit",
+  "metaDescription": "Planifiez votre journée avec notre planificateur de blocs de temps gratuit pour améliorer votre productivité. Pas d'inscription, résultats instantanés.",
+  "keywords": [
+    "planification par blocs de temps",
+    "planificateur d'emploi du temps",
+    "emploi du temps productif",
+    "planificateur quotidien",
+    "outil de concentration"
+  ],
+  "category": "Productivité",
+  "icon": "🗓️",
+  "faqs": [
+    {
+      "question": "Comment créer un bloc de temps ?",
+      "answer": "Il vous suffit d'entrer vos tâches et le temps que vous souhaitez allouer à chacune, et le planificateur les organisera."
+    },
+    {
+      "question": "Puis-je ajuster mes blocs de temps ?",
+      "answer": "Oui, vous pouvez facilement ajuster vos blocs de temps selon vos besoins."
+    },
+    {
+      "question": "Est-ce adapté à la planification d'équipe ?",
+      "answer": "Bien qu'il soit principalement conçu pour un usage individuel, il peut également être adapté à la planification d'équipe."
+    }
+  ],
+  "relatedTools": [
+    "task-priority-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "team-time-blocking",
+      "metaTitle": "Planificateur de Temps par Blocs pour Équipe",
+      "metaDescription": "Planifiez le temps de votre équipe de manière efficace avec cette variante.",
+      "keywords": [
+        "productivité d'équipe",
+        "planification collaborative"
+      ],
+      "defaultVariant": "team-blocking-key",
+      "headline": "Optimisez la planification de votre équipe avec des blocs de temps."
+    },
+    {
+      "variantSlug": "personal-time-blocking",
+      "metaTitle": "Planificateur de Temps par Blocs Personnel",
+      "metaDescription": "Concentrez-vous sur vos tâches personnelles avec notre outil de planification par blocs de temps.",
+      "keywords": [
+        "planification personnelle",
+        "gestion du temps individuelle"
+      ],
+      "defaultVariant": "personal-blocking-key",
+      "headline": "Idéal pour gérer efficacement votre emploi du temps individuel."
+    }
+  ]
+}

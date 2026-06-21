@@ -1,0 +1,81 @@
+{
+  "slug": "random-number-generator",
+  "name": "Generador de Números Aleatorios",
+  "tagline": "Genera números verdaderamente aleatorios al instante: único, lista o dados",
+  "description": "Genera números aleatorios criptográficamente seguros en cualquier rango. Número único, lista de números, lanzador de dados, lanzamiento de moneda y selector de ítems aleatorios: todo en una herramienta gratuita.",
+  "metaTitle": "Generador de Números Aleatorios – Selector de Números Aleatorios en Línea Gratis",
+  "metaDescription": "Genera números aleatorios en línea al instante. Número único, lista de números aleatorios, lanzador de dados, lanzamiento de moneda. Generador de números aleatorios gratuito: seguro criptográficamente.",
+  "keywords": [
+    "generador de números aleatorios",
+    "selector de números aleatorios",
+    "número aleatorio entre 1 y 100",
+    "lanzador de dados en línea",
+    "generador de números aleatorios en línea"
+  ],
+  "category": "Generators",
+  "icon": "🎲",
+  "faqs": [
+    {
+      "question": "¿Es el número aleatorio realmente aleatorio?",
+      "answer": "Sí. La herramienta utiliza la API de Criptografía Web (crypto.getRandomValues) que proporciona números aleatorios seguros criptográficamente, a diferencia de Math.random()."
+    },
+    {
+      "question": "¿Puedo generar múltiples números aleatorios a la vez?",
+      "answer": "Sí. Usa el modo 'Lista' para generar un lote de números aleatorios únicos o repetibles en cualquier rango."
+    },
+    {
+      "question": "¿Cuál es el número más grande que puedo generar?",
+      "answer": "La herramienta soporta números hasta Number.MAX_SAFE_INTEGER (9,007,199,254,740,991) utilizando BigInt para rangos más allá de los enteros estándar."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "random-number-1-10",
+      "metaTitle": "Número Aleatorio Entre 1 y 10 – Generador de Números Aleatorios 1-10",
+      "metaDescription": "Genera un número aleatorio entre 1 y 10 al instante. Selector de números aleatorios gratuito de 1 a 10. Haz clic para generar un nuevo número aleatorio.",
+      "keywords": [
+        "número aleatorio entre 1 y 10",
+        "número aleatorio 1-10",
+        "seleccionar número aleatorio de 1 a 10",
+        "generador de números aleatorios de 1 a 10",
+        "número entre 1 y 10"
+      ],
+      "defaultVariant": "1-10",
+      "headline": "Genera un número aleatorio entre 1 y 10. Haz clic en el botón para seleccionar un nuevo número aleatorio al instante."
+    },
+    {
+      "variantSlug": "random-number-1-100",
+      "metaTitle": "Número Aleatorio Entre 1 y 100 – Generador de Números Aleatorios 1-100",
+      "metaDescription": "Genera un número aleatorio entre 1 y 100 al instante. Selector de números aleatorios gratuito de 1 a 100. Perfecto para juegos, rifas y decisiones.",
+      "keywords": [
+        "número aleatorio entre 1 y 100",
+        "número aleatorio 1-100",
+        "seleccionar número aleatorio de 1 a 100",
+        "generador de números aleatorios de 1 a 100",
+        "número entre 1 y 100"
+      ],
+      "defaultVariant": "1-100",
+      "headline": "Genera un número aleatorio entre 1 y 100. Ideal para juegos, rifas, alternativas de lanzamiento de moneda y selección aleatoria."
+    },
+    {
+      "variantSlug": "dice-roller-online",
+      "metaTitle": "Lanzador de Dados en Línea – Lanza Dados Virtuales (D4 D6 D8 D10 D12 D20)",
+      "metaDescription": "Lanza dados virtuales en línea. Soporta D4, D6, D8, D10, D12, D20 y dados personalizados. Lanzador de dados en línea gratuito: perfecto para RPG de mesa, juegos de mesa y Dungeons & Dragons.",
+      "keywords": [
+        "lanzador de dados en línea",
+        "lanzador de dados virtual",
+        "lanzar dados en línea",
+        "lanzador de dados d20",
+        "lanzador de dados de Dungeons y dragones",
+        "dados d6 d20"
+      ],
+      "defaultVariant": "dice",
+      "headline": "Lanza cualquier tipo de dado en línea: D4, D6, D8, D10, D12, D20 o personalizado. Perfecto para Dungeons & Dragons, RPG de mesa y juegos de mesa."
+    }
+  ]
+}
