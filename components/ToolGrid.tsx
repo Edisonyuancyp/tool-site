@@ -5,7 +5,7 @@ import type { ToolMeta } from "@/lib/tools";
 import { getToolPath } from "@/lib/tools";
 import { useWorkbench } from "@/lib/WorkbenchContext";
 
-function ToolCard({ tool }: { tool: ToolMeta }) {
+function ToolCard({ tool, showCategory = false }: { tool: ToolMeta; showCategory?: boolean }) {
   const { isFav, toggleFav } = useWorkbench();
   const faved = isFav(tool.slug);
 
@@ -33,9 +33,11 @@ function ToolCard({ tool }: { tool: ToolMeta }) {
       <Link href={getToolPath(tool)} className="flex flex-col gap-3 flex-1">
         <div className="flex items-center justify-between">
           <span className="text-2xl">{tool.icon}</span>
-          <span className="text-xs font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full border border-gray-100">
-            {tool.category}
-          </span>
+          {showCategory && (
+            <span className="text-xs font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full border border-gray-100">
+              {tool.category}
+            </span>
+          )}
         </div>
         <div>
           <h2 className="font-semibold text-gray-900 group-hover:text-black transition-colors pr-6">
@@ -62,16 +64,6 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
   const [query, setQuery] = useState("");
 
   const q = query.trim().toLowerCase();
-  const filtered = tools.filter((t) => {
-    if (q) {
-      return (
-        t.name.toLowerCase().includes(q) ||
-        (t.tagline ?? "").toLowerCase().includes(q) ||
-        t.category.toLowerCase().includes(q)
-      );
-    }
-    return activeCategory ? t.category === activeCategory : true;
-  });
 
   return (
     <>
@@ -100,38 +92,27 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
         )}
       </div>
 
-      {/* Category filter — hidden during search */}
+      {/* Category filter pills — hidden during search */}
       {!q && (
-        <div className="mb-6">
+        <div className="mb-8">
           <div className="flex flex-wrap gap-2">
-            <button
-              type="button"
-              onClick={() => setActiveCategory(null)}
-              className={
-                "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
+            <button type="button" onClick={() => setActiveCategory(null)}
+              className={"px-4 py-2 rounded-full text-sm font-medium border transition-all " +
                 (activeCategory === null
                   ? "bg-gray-900 text-white border-gray-900"
-                  : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
-              }
-            >
+                  : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")}>
               All ({tools.length})
             </button>
             {categories.map((cat) => {
-              const count = tools.filter((t) => t.category === cat).length;
               const isActive = activeCategory === cat;
               return (
-                <button
-                  type="button"
-                  key={cat}
+                <button type="button" key={cat}
                   onClick={() => setActiveCategory(isActive ? null : cat)}
-                  className={
-                    "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
+                  className={"px-4 py-2 rounded-full text-sm font-medium border transition-all " +
                     (isActive
                       ? "bg-gray-900 text-white border-gray-900"
-                      : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
-                  }
-                >
-                  {cat} ({count})
+                      : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")}>
+                  {cat} ({tools.filter(t => t.category === cat).length})
                 </button>
               );
             })}
@@ -139,28 +120,59 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
         </div>
       )}
 
-      {/* Search result count */}
-      {q && (
-        <p className="text-sm text-gray-400 mb-4">
-          {filtered.length === 0 ? "No tools found" : `${filtered.length} result${filtered.length === 1 ? "" : "s"} for "${query}"`}
-        </p>
-      )}
+      {/* ── SEARCH results (flat, with category badge) ── */}
+      {q && (() => {
+        const results = tools.filter(t =>
+          t.name.toLowerCase().includes(q) ||
+          (t.tagline ?? "").toLowerCase().includes(q) ||
+          t.category.toLowerCase().includes(q)
+        );
+        return results.length > 0 ? (
+          <>
+            <p className="text-sm text-gray-400 mb-4">
+              {results.length} result{results.length === 1 ? "" : "s"} for &ldquo;{query}&rdquo;
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {results.map(tool => <ToolCard key={tool.slug} tool={tool} showCategory />)}
+            </div>
+          </>
+        ) : (
+          <div className="py-16 text-center">
+            <p className="text-4xl mb-3">🔍</p>
+            <p className="text-gray-500 font-medium">No tools match &ldquo;{query}&rdquo;</p>
+            <p className="text-sm text-gray-400 mt-1">Try a different keyword or browse by category</p>
+            <button onClick={() => setQuery("")} className="mt-4 text-sm text-gray-600 underline hover:text-gray-900">Clear search</button>
+          </div>
+        );
+      })()}
 
-      {/* Tool Grid */}
-      {filtered.length > 0 ? (
+      {/* ── FILTERED by single category (flat, no badge) ── */}
+      {!q && activeCategory && (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((tool) => (
+          {tools.filter(t => t.category === activeCategory).map(tool => (
             <ToolCard key={tool.slug} tool={tool} />
           ))}
         </div>
-      ) : (
-        <div className="py-16 text-center">
-          <p className="text-4xl mb-3">🔍</p>
-          <p className="text-gray-500 font-medium">No tools match &ldquo;{query}&rdquo;</p>
-          <p className="text-sm text-gray-400 mt-1">Try a different keyword or browse by category</p>
-          <button onClick={() => setQuery("")} className="mt-4 text-sm text-gray-600 underline hover:text-gray-900">
-            Clear search
-          </button>
+      )}
+
+      {/* ── DEFAULT grouped by category (section headings, no badge) ── */}
+      {!q && !activeCategory && (
+        <div className="space-y-12">
+          {categories.map(cat => {
+            const catTools = tools.filter(t => t.category === cat);
+            return (
+              <section key={cat}>
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-1 h-5 bg-gray-300 rounded-full" />
+                  <h2 className="text-base font-semibold text-gray-700">{cat}</h2>
+                  <span className="text-xs text-gray-400">{catTools.length} tools</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {catTools.map(tool => <ToolCard key={tool.slug} tool={tool} />)}
+                </div>
+              </section>
+            );
+          })}
         </div>
       )}
     </>
