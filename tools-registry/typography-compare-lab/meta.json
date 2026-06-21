@@ -1,0 +1,58 @@
+{
+  "slug": "typography-compare-lab",
+  "name": "Typography Compare Lab",
+  "tagline": "Compare two Google Fonts side-by-side — instant preview, no signup",
+  "description": "Pick any two Google Fonts and preview them side-by-side with your own text. Adjust font size, line height, letter spacing, and color. Perfect for designers choosing between typefaces for a project.",
+  "metaTitle": "Typography Compare Lab – Compare Google Fonts Side by Side | GetFastCalc",
+  "metaDescription": "Free font comparison tool. Compare any two Google Fonts side-by-side with live preview. Adjust size, weight, spacing and color. No signup, instant results.",
+  "keywords": [
+    "font comparison tool",
+    "compare google fonts",
+    "font vs font",
+    "typography tool online",
+    "Inter vs Merriweather",
+    "best font for website",
+    "google fonts preview",
+    "typeface comparison",
+    "font picker online free",
+    "web typography tool"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/typography-compare-lab",
+  "icon": "🔤",
+  "seoContent": {
+    "h1Tendency": "instant Typography Compare Lab",
+    "painPoints": [
+      "How to choose between two fonts without downloading anything",
+      "Best free tool to compare Google Fonts side by side",
+      "How to preview Inter vs Roboto before committing to a font",
+      "Free font comparison tool for web designers and developers",
+      "Generate font pairing previews in seconds"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "How does the Typography Compare Lab work?",
+      "answer": "Select two fonts from our curated list of 50+ popular Google Fonts. The tool dynamically loads them from Google's CDN and renders your custom text in both fonts side-by-side so you can compare them instantly."
+    },
+    {
+      "question": "Do I need a Google Fonts API key?",
+      "answer": "No. The tool loads fonts directly from fonts.googleapis.com for free. No API key or account is required."
+    },
+    {
+      "question": "Can I share my font comparison?",
+      "answer": "Yes. The URL updates automatically as you select fonts (e.g. ?a=Inter&b=Merriweather). Copy the URL from your browser to share the exact comparison with anyone."
+    },
+    {
+      "question": "Which fonts are available?",
+      "answer": "We include 50+ of the most popular Google Fonts across serif, sans-serif, monospace, and display categories — including Inter, Roboto, Merriweather, Playfair Display, Lato, Open Sans, and many more."
+    },
+    {
+      "question": "Can I use this to find the best font for my website?",
+      "answer": "Absolutely. Type your actual headline or body copy into the preview field, then compare different fonts to see which one looks best for your specific content and use case."
+    }
+  ],
+  "relatedTools": ["color-palette-lab", "qr-code-generator", "password-generator"],
+  "variants": []
+}
