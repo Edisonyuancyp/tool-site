@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { mergeWithRegistry } from "@/lib/tools";
+import { mergeWithRegistry, CATEGORY_URL_PREFIX, getToolPath } from "@/lib/tools";
 import { registryToToolMetas, getRegistryTools } from "@/lib/registry";
 import { SUPPORTED_LOCALES, getI18nRegistrySlugs } from "@/lib/i18n-registry";
 
@@ -18,25 +18,8 @@ const HIGH_PRIORITY = new Set([
   "water-intake-calculator", "running-pace-calculator",
 ]);
 
-/** Mirrors generate_tool.py CATEGORY_URL_PREFIX */
-const CATEGORY_URL_PREFIX: Record<string, string> = {
-  Finance:       "calc",
-  Math:          "calc",
-  Health:        "calc",
-  Crypto:        "calc",
-  Design:        "design",
-  Generators:    "design",
-  Developer:     "dev",
-  Text:          "dev",
-  Security:      "dev",
-  "Date & Time": "time",
-};
-
-function toolUrl(slug: string, category: string): string {
-  const prefix = CATEGORY_URL_PREFIX[category];
-  return prefix
-    ? `${BASE}/tools/${prefix}/${slug}`
-    : `${BASE}/tools/${slug}`;
+function toolUrl(tool: { slug: string; category: string }): string {
+  return `${BASE}${getToolPath(tool)}`;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -58,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ── Individual tool pages, grouped under category prefix ──────────────────
   const toolPages: MetadataRoute.Sitemap = allTools.map((tool) => ({
-    url: toolUrl(tool.slug, tool.category),
+    url: toolUrl(tool),
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: HIGH_PRIORITY.has(tool.slug) ? 0.9 : 0.8,
@@ -71,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     meta.variants
       .filter((v) => !baseSlugs.has(v.variantSlug))
       .map((v) => ({
-        url: toolUrl(v.variantSlug, meta.category),
+        url: toolUrl({ slug: v.variantSlug, category: meta.category }),
         lastModified: now,
         changeFrequency: "monthly" as const,
         priority: 0.75,

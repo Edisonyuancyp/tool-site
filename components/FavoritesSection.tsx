@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useFavorites } from "@/components/FavoriteButton";
 import type { ToolMeta } from "@/lib/tools";
+import { getToolPath } from "@/lib/tools";
 
 export default function FavoritesSection({ allTools }: { allTools: ToolMeta[] }) {
   const { favs, toggle } = useFavorites();
@@ -25,7 +26,7 @@ export default function FavoritesSection({ allTools }: { allTools: ToolMeta[] })
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {favTools.map((tool) => (
           <div key={tool.slug} className="group relative flex items-center gap-3 p-4 border border-red-100 rounded-xl bg-red-50 hover:border-red-200 hover:bg-red-50 transition-all">
-            <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
+            <Link href={getToolPath(tool)} className="flex items-center gap-3 flex-1 min-w-0">
               <span className="text-2xl shrink-0">{tool.icon}</span>
               <div className="min-w-0">
                 <p className="font-semibold text-gray-900 text-sm truncate">{tool.name}</p>

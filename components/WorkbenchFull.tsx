@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useWorkbench } from "@/lib/WorkbenchContext";
 import type { ToolMeta } from "@/lib/tools";
+import { getToolPath } from "@/lib/tools";
 
 function timeAgo(ms: number): string {
   const diff = Date.now() - ms;
@@ -48,7 +49,7 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
             {favTools.map(tool => (
               <div key={tool.slug}
                 className="flex items-center gap-3 p-4 border border-red-100 bg-red-50 rounded-xl hover:border-red-200 transition-all">
-                <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
+                <Link href={getToolPath(tool)} className="flex items-center gap-3 flex-1 min-w-0">
                   <span className="text-2xl shrink-0">{tool.icon}</span>
                   <div className="min-w-0">
                     <p className="font-semibold text-sm text-gray-900 truncate">{tool.name}</p>
@@ -91,7 +92,7 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
           <div className="divide-y divide-gray-100 border border-gray-100 rounded-xl overflow-hidden">
             {recentEntries.map(({ tool, visitedAt }) => (
               <div key={tool.slug} className="flex items-center gap-3 px-4 py-3 bg-white hover:bg-gray-50 transition-colors">
-                <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
+                <Link href={getToolPath(tool)} className="flex items-center gap-3 flex-1 min-w-0">
                   <span className="text-xl shrink-0">{tool.icon}</span>
                   <div className="min-w-0">
                     <p className="font-medium text-sm text-gray-900 truncate">{tool.name}</p>

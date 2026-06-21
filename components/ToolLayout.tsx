@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ToolMeta, tools as legacyTools } from "@/lib/tools";
+import { ToolMeta, tools as legacyTools, getToolPath, getCategoryListPath } from "@/lib/tools";
 import AccuracyFeedback from "@/components/AccuracyFeedback";
 import FavoriteButton from "@/components/FavoriteButton";
 import VisitTracker from "@/components/VisitTracker";
@@ -60,24 +60,6 @@ interface ToolLayoutProps {
   allTools?: ToolMeta[];
 }
 
-/** Maps category name → URL prefix segment, mirroring generate_tool.py */
-const CATEGORY_URL_PREFIX: Record<string, string> = {
-  Finance:      "calc",
-  Math:         "calc",
-  Health:       "calc",
-  Crypto:       "calc",
-  Design:       "design",
-  Generators:   "design",
-  Developer:    "dev",
-  Text:         "dev",
-  Security:     "dev",
-  "Date & Time": "time",
-};
-
-function getCategoryPath(category: string): string {
-  const prefix = CATEGORY_URL_PREFIX[category];
-  return prefix ? `/tools/${prefix}` : "/tools";
-}
 
 /** Returns up to 4 related tools from the SAME category only. */
 function getAutoRelated(tool: ToolMeta, allTools: ToolMeta[]): ToolMeta[] {
@@ -108,8 +90,8 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
   const relatedTools = getAutoRelated(tool, pool);
 
   const BASE_URL = "https://getfastcalc.com";
-  const toolUrl = `${BASE_URL}/tools/${tool.slug}`;
-  const categoryPath = getCategoryPath(tool.category);
+  const toolUrl = `${BASE_URL}${getToolPath(tool)}`;
+  const categoryPath = getCategoryListPath(tool.category);
   const categoryUrl = `${BASE_URL}${categoryPath}`;
 
   const softwareSchema = {
@@ -295,7 +277,7 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
                 {relatedTools.map((t) => (
                   <Link
                     key={t.slug}
-                    href={`/tools/${t.slug}`}
+                    href={getToolPath(t)}
                     className="flex items-center gap-3 p-4 border border-gray-100 rounded-lg hover:border-gray-300 hover:bg-gray-50 transition-all group"
                   >
                     <span className="text-2xl">{t.icon}</span>

@@ -1,12 +1,10 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { tools, getToolBySlug, mergeWithRegistry } from "@/lib/tools";
-import { getRegistrySlugs, resolveRegistrySlug, registryToToolMetas } from "@/lib/registry";
+import { tools, getToolBySlug, mergeWithRegistry, CATEGORY_URL_PREFIX, getToolPath, getCategoryListPath } from "@/lib/tools";
+import { getRegistryTools, resolveRegistrySlug, registryToToolMetas } from "@/lib/registry";
 import ToolLayout from "@/components/ToolLayout";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CategoryPage from "@/components/CategoryPage";
-
 import BmiCalculator from "@/components/tools/BmiCalculator";
 import AgeCalculator from "@/components/tools/AgeCalculator";
 import QrCodeGenerator from "@/components/tools/QrCodeGenerator";
@@ -35,51 +33,44 @@ import Base64Tool from "@/components/tools/Base64Tool";
 import WordCounter from "@/components/tools/WordCounter";
 import BaseConverter from "@/components/tools/BaseConverter";
 
-/** Category URL prefix slugs that serve as listing pages */
-const CATEGORY_PREFIXES = new Set(["calc", "dev", "design", "time", "converter"]);
-
 interface Props {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ category: string; slug: string }>;
 }
+
+/** All valid [category] segments */
+const VALID_CATEGORIES = new Set(Object.values(CATEGORY_URL_PREFIX));
 
 export async function generateStaticParams() {
-  const legacySlugs = tools.map((t) => ({ slug: t.slug }));
-  const registrySlugs = getRegistrySlugs().map((s) => ({ slug: s }));
-  const categorySlugs = Array.from(CATEGORY_PREFIXES).map((s) => ({ slug: s }));
-  // Merge, registry slugs override duplicates
-  const seen = new Set(registrySlugs.map((r) => r.slug));
-  return [
-    ...legacySlugs.filter((l) => !seen.has(l.slug)),
-    ...registrySlugs,
-    ...categorySlugs,
-  ];
-}
+  const allTools = mergeWithRegistry(registryToToolMetas());
 
-const CATEGORY_TITLES: Record<string, string> = {
-  calc: "Calculators — Finance, Health, Math & Crypto | GetFastCalc",
-  dev: "Developer Tools — Encoding, Formatting & Security | GetFastCalc",
-  design: "Design & Generator Tools | GetFastCalc",
-  time: "Date & Time Tools | GetFastCalc",
-  converter: "Unit Converter Tools | GetFastCalc",
-};
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-
-  // Category listing page metadata
-  if (CATEGORY_PREFIXES.has(slug)) {
-    return {
-      title: CATEGORY_TITLES[slug] ?? "Tools | GetFastCalc",
-      alternates: { canonical: `https://getfastcalc.com/tools/${slug}` },
-    };
+  // Legacy base tool slugs
+  const params: { category: string; slug: string }[] = [];
+  for (const tool of allTools) {
+    const prefix = CATEGORY_URL_PREFIX[tool.category];
+    if (prefix) params.push({ category: prefix, slug: tool.slug });
   }
 
-  // Registry-first
+  // Registry variant slugs
+  for (const meta of getRegistryTools()) {
+    const prefix = CATEGORY_URL_PREFIX[meta.category];
+    if (!prefix) continue;
+    for (const v of meta.variants) {
+      params.push({ category: prefix, slug: v.variantSlug });
+    }
+  }
+
+  return params;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { category, slug } = await params;
+  if (!VALID_CATEGORIES.has(category)) return {};
+
   const registryResult = resolveRegistrySlug(slug);
   const tool = registryResult?.meta ?? getToolBySlug(slug);
   if (!tool) return {};
 
-  const toolUrl = `https://getfastcalc.com/tools/${slug}`;
+  const toolUrl = `https://getfastcalc.com${getToolPath(tool)}`;
   return {
     title: tool.metaTitle,
     description: tool.metaDescription,
@@ -108,56 +99,53 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-// Legacy tool components (unchanged)
 const legacyComponents: Record<string, React.ReactNode> = {
-  "bmi-calculator": <BmiCalculator />,
-  "age-calculator": <AgeCalculator />,
-  "qr-code-generator": <QrCodeGenerator />,
-  "password-generator": <PasswordGenerator />,
-  "text-case-converter": <TextCaseConverter />,
-  "random-number-generator": <RandomNumberGenerator />,
-  "emoji-picker": <EmojiPicker />,
-  "holiday-calculator": <HolidayCalculator />,
-  "compound-interest-calculator": <CompoundInterestCalculator />,
-  "currency-converter": <CurrencyConverter />,
-  "percentage-calculator": <PercentageCalculator />,
-  "tp-sl-calculator": <TpSlCalculator />,
-  "position-size-calculator": <PositionSizeCalculator />,
-  "crypto-market-cap-comparator": <CryptoMarketCapComparator />,
-  "unix-timestamp-converter": <UnixTimestampConverter />,
-  "diff-checker": <DiffChecker />,
-  "ideal-weight-calculator": <IdealWeightCalculator />,
-  "body-fat-calculator": <BodyFatCalculator />,
-  "bmr-tdee-calculator": <BmrTdeeCalculator />,
-  "water-intake-calculator": <WaterIntakeCalculator />,
-  "running-pace-calculator": <RunningPaceCalculator />,
-  "ovulation-calculator": <OvulationCalculator />,
-  "sleep-calculator": <SleepCalculator />,
-  "json-csv-formatter": <JsonCsvFormatter />,
-  "base64-tool": <Base64Tool />,
-  "word-counter": <WordCounter />,
-  "base-converter": <BaseConverter />,
+  "bmi-calculator":              <BmiCalculator />,
+  "age-calculator":              <AgeCalculator />,
+  "qr-code-generator":           <QrCodeGenerator />,
+  "password-generator":          <PasswordGenerator />,
+  "text-case-converter":         <TextCaseConverter />,
+  "random-number-generator":     <RandomNumberGenerator />,
+  "emoji-picker":                <EmojiPicker />,
+  "holiday-calculator":          <HolidayCalculator />,
+  "compound-interest-calculator":<CompoundInterestCalculator />,
+  "currency-converter":          <CurrencyConverter />,
+  "percentage-calculator":       <PercentageCalculator />,
+  "tp-sl-calculator":            <TpSlCalculator />,
+  "position-size-calculator":    <PositionSizeCalculator />,
+  "crypto-market-cap-comparator":<CryptoMarketCapComparator />,
+  "unix-timestamp-converter":    <UnixTimestampConverter />,
+  "diff-checker":                <DiffChecker />,
+  "ideal-weight-calculator":     <IdealWeightCalculator />,
+  "body-fat-calculator":         <BodyFatCalculator />,
+  "bmr-tdee-calculator":         <BmrTdeeCalculator />,
+  "water-intake-calculator":     <WaterIntakeCalculator />,
+  "running-pace-calculator":     <RunningPaceCalculator />,
+  "ovulation-calculator":        <OvulationCalculator />,
+  "sleep-calculator":            <SleepCalculator />,
+  "json-csv-formatter":          <JsonCsvFormatter />,
+  "base64-tool":                 <Base64Tool />,
+  "word-counter":                <WordCounter />,
+  "base-converter":              <BaseConverter />,
 };
 
 export default async function ToolPage({ params }: Props) {
-  const { slug } = await params;
+  const { category, slug } = await params;
+
+  // Validate category segment
+  if (!VALID_CATEGORIES.has(category)) notFound();
+
   const allTools = mergeWithRegistry(registryToToolMetas());
 
-  // 0. Category listing pages (/tools/calc, /tools/dev, etc.)
-  if (CATEGORY_PREFIXES.has(slug)) {
-    return (
-      <>
-        <Header />
-        <CategoryPage prefix={slug} allTools={allTools} />
-        <Footer />
-      </>
-    );
-  }
-
-  // 1. Try registry first (new architecture)
+  // 1. Registry-first (new architecture)
   const registryResult = resolveRegistrySlug(slug);
   if (registryResult) {
     const { meta, variant, baseSlug } = registryResult;
+
+    // Guard: ensure slug belongs to this category
+    const expectedPrefix = CATEGORY_URL_PREFIX[meta.category];
+    if (expectedPrefix !== category) notFound();
+
     let mod: { default: React.ComponentType<{ variant?: string }> };
     try {
       mod = await import(`@/tools-registry/${baseSlug}/view`);
@@ -176,9 +164,12 @@ export default async function ToolPage({ params }: Props) {
     );
   }
 
-  // 2. Fallback to legacy components
+  // 2. Legacy components
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
+
+  const expectedPrefix = CATEGORY_URL_PREFIX[tool.category];
+  if (expectedPrefix !== category) notFound();
 
   const toolUI = legacyComponents[slug];
   if (!toolUI) notFound();

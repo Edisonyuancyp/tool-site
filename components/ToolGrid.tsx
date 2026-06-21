@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { ToolMeta } from "@/lib/tools";
+import { getToolPath } from "@/lib/tools";
 import { useWorkbench } from "@/lib/WorkbenchContext";
 
 function ToolCard({ tool }: { tool: ToolMeta }) {
@@ -29,7 +30,7 @@ function ToolCard({ tool }: { tool: ToolMeta }) {
         </svg>
       </button>
 
-      <Link href={`/tools/${tool.slug}`} className="flex flex-col gap-3 flex-1">
+      <Link href={getToolPath(tool)} className="flex flex-col gap-3 flex-1">
         <div className="flex items-center justify-between">
           <span className="text-2xl">{tool.icon}</span>
           <span className="text-xs font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full border border-gray-100">

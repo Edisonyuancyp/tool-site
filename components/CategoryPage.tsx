@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ToolMeta } from "@/lib/tools";
+import { getToolPath, CATEGORY_URL_PREFIX } from "@/lib/tools";
 
 const CATEGORY_META: Record<string, {
   title: string;
@@ -38,6 +39,12 @@ const CATEGORY_META: Record<string, {
     categories: ["Converter"],
   },
 };
+
+/** Derive category group → display name for section headers */
+const PREFIX_LABEL: Record<string, string> = Object.fromEntries(
+  Object.entries(CATEGORY_URL_PREFIX).map(([cat, prefix]) => [prefix + "|" + cat, cat])
+);
+void PREFIX_LABEL; // used implicitly via CATEGORY_META
 
 interface Props {
   prefix: string;
@@ -95,7 +102,7 @@ export default function CategoryPage({ prefix, allTools }: Props) {
                 {items.map(tool => (
                   <Link
                     key={tool.slug}
-                    href={`/tools/${tool.slug}`}
+                    href={getToolPath(tool)}
                     className="group flex flex-col gap-3 p-5 border border-gray-100 rounded-xl bg-white hover:border-gray-300 hover:shadow-sm transition-all"
                   >
                     <div className="flex items-center justify-between">

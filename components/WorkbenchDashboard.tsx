@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useWorkbench } from "@/lib/WorkbenchContext";
 import type { ToolMeta } from "@/lib/tools";
+import { getToolPath } from "@/lib/tools";
 
 const HeartIcon = ({ filled }: { filled: boolean }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -15,7 +16,7 @@ const HeartIcon = ({ filled }: { filled: boolean }) => (
 function ToolCard({ tool, onUnfav, isFav }: { tool: ToolMeta; onUnfav?: () => void; isFav: boolean }) {
   return (
     <div className="group relative flex items-center gap-3 p-3.5 border border-gray-100 rounded-xl bg-white hover:border-gray-200 hover:shadow-sm transition-all">
-      <Link href={`/tools/${tool.slug}`} className="flex items-center gap-3 flex-1 min-w-0">
+      <Link href={getToolPath(tool)} className="flex items-center gap-3 flex-1 min-w-0">
         <span className="text-xl shrink-0">{tool.icon}</span>
         <div className="min-w-0">
           <p className="font-medium text-gray-900 text-sm truncate">{tool.name}</p>
@@ -63,7 +64,7 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
           {featured.map(tool => (
             <div key={tool.slug}
               className="group relative flex items-center gap-2 p-2.5 border border-gray-200 rounded-xl bg-white hover:border-gray-300 transition-all">
-              <Link href={`/tools/${tool.slug}`} className="flex items-center gap-2 flex-1 min-w-0">
+              <Link href={getToolPath(tool)} className="flex items-center gap-2 flex-1 min-w-0">
                 <span className="text-lg shrink-0">{tool.icon}</span>
                 <span className="text-xs font-medium text-gray-700 truncate">{tool.name}</span>
               </Link>
@@ -138,7 +139,7 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest flex items-center gap-1.5">
               <span>🎨</span> Saved Palettes ({savedPalettes.length})
             </p>
-            <Link href="/tools/color-palette-explorer" className="text-xs text-gray-400 hover:text-gray-700 transition-colors underline underline-offset-2">
+            <Link href="/tools/design/color-palette-explorer" className="text-xs text-gray-400 hover:text-gray-700 transition-colors underline underline-offset-2">
               Open ColorLab →
             </Link>
           </div>
@@ -167,7 +168,7 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest flex items-center gap-1.5">
               <span>📐</span> Quant Configs ({savedQuantConfigs.length})
             </p>
-            <Link href="/tools/risk-calculator" className="text-xs text-gray-400 hover:text-gray-700 transition-colors underline underline-offset-2">
+            <Link href="/tools/calc/risk-calculator" className="text-xs text-gray-400 hover:text-gray-700 transition-colors underline underline-offset-2">
               Open Calculator →
             </Link>
           </div>
@@ -175,7 +176,7 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
             {savedQuantConfigs.map(c => (
               <div key={c.id} className="flex items-center gap-1 bg-white border border-gray-200 rounded-lg overflow-hidden">
                 <Link
-                  href={`/tools/risk-calculator?${new URLSearchParams(c.params).toString()}`}
+                  href={`/tools/calc/risk-calculator?${new URLSearchParams(c.params).toString()}`}
                   className="px-3 py-1.5 text-xs text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-colors font-medium">
                   {c.label}
                 </Link>

@@ -1026,6 +1026,33 @@ export function getToolBySlug(slug: string): ToolMeta | undefined {
   return tools.find((t) => t.slug === slug);
 }
 
+/** Maps category name → URL path segment */
+export const CATEGORY_URL_PREFIX: Record<string, string> = {
+  Finance:       "calc",
+  Math:          "calc",
+  Health:        "calc",
+  Crypto:        "calc",
+  Design:        "design",
+  Generators:    "design",
+  Developer:     "dev",
+  Text:          "dev",
+  Security:      "dev",
+  "Date & Time": "time",
+  Converter:     "converter",
+};
+
+/** Returns the canonical URL path for a tool, e.g. /tools/dev/base-converter */
+export function getToolPath(tool: Pick<ToolMeta, "slug" | "category">): string {
+  const prefix = CATEGORY_URL_PREFIX[tool.category];
+  return prefix ? `/tools/${prefix}/${tool.slug}` : `/tools/${tool.slug}`;
+}
+
+/** Returns the category listing path, e.g. /tools/dev */
+export function getCategoryListPath(category: string): string {
+  const prefix = CATEGORY_URL_PREFIX[category];
+  return prefix ? `/tools/${prefix}` : "/tools";
+}
+
 export function getRelatedTools(slugs: string[]): ToolMeta[] {
   return slugs
     .map((s) => getToolBySlug(s))
