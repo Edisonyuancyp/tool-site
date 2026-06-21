@@ -1262,5 +1262,113 @@
       "ideal-weight-calculator"
     ],
     "variants": []
+  },
+  {
+    "slug": "finance-charge-calculator",
+    "name": "Finance Charge Calculator",
+    "tagline": "Calculate your finance charges effortlessly!",
+    "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
+    "metaTitle": "Finance Charge Calculator – Calculate Your Costs | Free Online Tool",
+    "metaDescription": "Instantly calculate finance charges on loans and credit cards. Free, no signup needed, quick results!",
+    "keywords": [
+      "finance charge",
+      "calculate finance charge",
+      "credit card finance charges",
+      "loan finance charges",
+      "debt management"
+    ],
+    "category": "Finance",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "What is a finance charge?",
+        "answer": "A finance charge is the cost of borrowing money, expressed as a percentage of the total amount owed. It typically includes interest and any applicable fees."
+      },
+      {
+        "question": "How do I calculate my finance charges?",
+        "answer": "Input your outstanding balance, interest rate, and billing cycle into the calculator to find out your finance charges."
+      },
+      {
+        "question": "Can I use this calculator for any loan?",
+        "answer": "Yes, this calculator can be used for various types of loans, including credit cards, personal loans, and auto loans."
+      }
+    ],
+    "relatedTools": [
+      "loan-calculator",
+      "debt-repayment-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "savings-goal-calculator",
+    "name": "Savings Goal Calculator",
+    "tagline": "Plan your savings easily!",
+    "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
+    "metaTitle": "Savings Goal Calculator – Plan Your Savings | Free Online Tool",
+    "metaDescription": "Calculate monthly savings needed to reach your goals. Free, no signup required, instant results!",
+    "keywords": [
+      "savings goal",
+      "monthly savings calculator",
+      "financial planning",
+      "emergency fund calculator",
+      "vacation savings"
+    ],
+    "category": "Finance",
+    "icon": "🏦",
+    "faqs": [
+      {
+        "question": "How does the savings goal calculator work?",
+        "answer": "Enter your savings goal amount, your target date, and the calculator will show how much you need to save monthly to reach it."
+      },
+      {
+        "question": "Can I adjust my goal after starting?",
+        "answer": "Yes, you can modify your goal amount and timeline at any time to reflect your current financial situation."
+      },
+      {
+        "question": "Is this tool suitable for all types of savings goals?",
+        "answer": "Absolutely! Whether it's a short-term goal or a long-term investment, this calculator can help you plan."
+      }
+    ],
+    "relatedTools": [
+      "budget-calculator",
+      "investment-return-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "car-lease-calculator",
+    "name": "Car Lease Calculator",
+    "tagline": "Calculate your lease payments quickly!",
+    "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
+    "metaTitle": "Car Lease Calculator – Estimate Your Payments | Free Online Tool",
+    "metaDescription": "Easily calculate your car lease payments. Free, no signup needed, instant results!",
+    "keywords": [
+      "car lease calculator",
+      "lease payment estimator",
+      "vehicle leasing",
+      "monthly lease payment",
+      "auto finance calculator"
+    ],
+    "category": "Finance",
+    "icon": "🚗",
+    "faqs": [
+      {
+        "question": "What factors determine my lease payment?",
+        "answer": "Your lease payment is influenced by the vehicle's price, residual value, interest rate, lease term, and down payment."
+      },
+      {
+        "question": "Can I use this calculator for different cars?",
+        "answer": "Yes, you can input different values for any car to see how it affects your lease payment."
+      },
+      {
+        "question": "Is this tool only for new cars?",
+        "answer": "No, the calculator can be used for both new and used cars that are available for leasing."
+      }
+    ],
+    "relatedTools": [
+      "loan-calculator",
+      "finance-charge-calculator"
+    ],
+    "variants": []
   }
 ]

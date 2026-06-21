@@ -1,0 +1,36 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "Finance Charge Calculator",
+  "tagline": "Calculate your finance charges effortlessly!",
+  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
+  "metaTitle": "Finance Charge Calculator – Calculate Your Costs | Free Online Tool",
+  "metaDescription": "Instantly calculate finance charges on loans and credit cards. Free, no signup needed, quick results!",
+  "keywords": [
+    "finance charge",
+    "calculate finance charge",
+    "credit card finance charges",
+    "loan finance charges",
+    "debt management"
+  ],
+  "category": "Finance",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "What is a finance charge?",
+      "answer": "A finance charge is the cost of borrowing money, expressed as a percentage of the total amount owed. It typically includes interest and any applicable fees."
+    },
+    {
+      "question": "How do I calculate my finance charges?",
+      "answer": "Input your outstanding balance, interest rate, and billing cycle into the calculator to find out your finance charges."
+    },
+    {
+      "question": "Can I use this calculator for any loan?",
+      "answer": "Yes, this calculator can be used for various types of loans, including credit cards, personal loans, and auto loans."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

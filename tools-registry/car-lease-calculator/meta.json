@@ -1,0 +1,36 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "Car Lease Calculator",
+  "tagline": "Calculate your lease payments quickly!",
+  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
+  "metaTitle": "Car Lease Calculator – Estimate Your Payments | Free Online Tool",
+  "metaDescription": "Easily calculate your car lease payments. Free, no signup needed, instant results!",
+  "keywords": [
+    "car lease calculator",
+    "lease payment estimator",
+    "vehicle leasing",
+    "monthly lease payment",
+    "auto finance calculator"
+  ],
+  "category": "Finance",
+  "icon": "🚗",
+  "faqs": [
+    {
+      "question": "What factors determine my lease payment?",
+      "answer": "Your lease payment is influenced by the vehicle's price, residual value, interest rate, lease term, and down payment."
+    },
+    {
+      "question": "Can I use this calculator for different cars?",
+      "answer": "Yes, you can input different values for any car to see how it affects your lease payment."
+    },
+    {
+      "question": "Is this tool only for new cars?",
+      "answer": "No, the calculator can be used for both new and used cars that are available for leasing."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "Savings Goal Calculator",
+  "tagline": "Plan your savings easily!",
+  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
+  "metaTitle": "Savings Goal Calculator – Plan Your Savings | Free Online Tool",
+  "metaDescription": "Calculate monthly savings needed to reach your goals. Free, no signup required, instant results!",
+  "keywords": [
+    "savings goal",
+    "monthly savings calculator",
+    "financial planning",
+    "emergency fund calculator",
+    "vacation savings"
+  ],
+  "category": "Finance",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "How does the savings goal calculator work?",
+      "answer": "Enter your savings goal amount, your target date, and the calculator will show how much you need to save monthly to reach it."
+    },
+    {
+      "question": "Can I adjust my goal after starting?",
+      "answer": "Yes, you can modify your goal amount and timeline at any time to reflect your current financial situation."
+    },
+    {
+      "question": "Is this tool suitable for all types of savings goals?",
+      "answer": "Absolutely! Whether it's a short-term goal or a long-term investment, this calculator can help you plan."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}
