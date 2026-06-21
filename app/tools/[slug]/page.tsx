@@ -5,6 +5,8 @@ import { getRegistrySlugs, resolveRegistrySlug, registryToToolMetas } from "@/li
 import ToolLayout from "@/components/ToolLayout";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CategoryPage from "@/components/CategoryPage";
+
 import BmiCalculator from "@/components/tools/BmiCalculator";
 import AgeCalculator from "@/components/tools/AgeCalculator";
 import QrCodeGenerator from "@/components/tools/QrCodeGenerator";
@@ -33,6 +35,9 @@ import Base64Tool from "@/components/tools/Base64Tool";
 import WordCounter from "@/components/tools/WordCounter";
 import BaseConverter from "@/components/tools/BaseConverter";
 
+/** Category URL prefix slugs that serve as listing pages */
+const CATEGORY_PREFIXES = new Set(["calc", "dev", "design", "time", "converter"]);
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -40,16 +45,34 @@ interface Props {
 export async function generateStaticParams() {
   const legacySlugs = tools.map((t) => ({ slug: t.slug }));
   const registrySlugs = getRegistrySlugs().map((s) => ({ slug: s }));
+  const categorySlugs = Array.from(CATEGORY_PREFIXES).map((s) => ({ slug: s }));
   // Merge, registry slugs override duplicates
   const seen = new Set(registrySlugs.map((r) => r.slug));
   return [
     ...legacySlugs.filter((l) => !seen.has(l.slug)),
     ...registrySlugs,
+    ...categorySlugs,
   ];
 }
 
+const CATEGORY_TITLES: Record<string, string> = {
+  calc: "Calculators — Finance, Health, Math & Crypto | GetFastCalc",
+  dev: "Developer Tools — Encoding, Formatting & Security | GetFastCalc",
+  design: "Design & Generator Tools | GetFastCalc",
+  time: "Date & Time Tools | GetFastCalc",
+  converter: "Unit Converter Tools | GetFastCalc",
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+
+  // Category listing page metadata
+  if (CATEGORY_PREFIXES.has(slug)) {
+    return {
+      title: CATEGORY_TITLES[slug] ?? "Tools | GetFastCalc",
+      alternates: { canonical: `https://getfastcalc.com/tools/${slug}` },
+    };
+  }
 
   // Registry-first
   const registryResult = resolveRegistrySlug(slug);
@@ -119,6 +142,17 @@ const legacyComponents: Record<string, React.ReactNode> = {
 export default async function ToolPage({ params }: Props) {
   const { slug } = await params;
   const allTools = mergeWithRegistry(registryToToolMetas());
+
+  // 0. Category listing pages (/tools/calc, /tools/dev, etc.)
+  if (CATEGORY_PREFIXES.has(slug)) {
+    return (
+      <>
+        <Header />
+        <CategoryPage prefix={slug} allTools={allTools} />
+        <Footer />
+      </>
+    );
+  }
 
   // 1. Try registry first (new architecture)
   const registryResult = resolveRegistrySlug(slug);
