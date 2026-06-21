@@ -75,7 +75,7 @@ export default function RootLayout({
     <html lang="en" className={`${geistSans.variable} h-full`}>
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-LSG3NFQFWD"
+          src="https://www.googletagmanager.com/gtag/js?id=G-7SV21HLQZW"
           strategy="afterInteractive"
         />
         <Script id="ga4-init" strategy="afterInteractive">
@@ -83,7 +83,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-LSG3NFQFWD');
+            gtag('config', 'G-7SV21HLQZW');
           `}
         </Script>
       </head>
