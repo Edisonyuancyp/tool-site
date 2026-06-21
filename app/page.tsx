@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <HomeSchema />
+      <HomeSchema tools={allTools} />
       <Header />
       <main className="flex-1">
         <div className="max-w-4xl mx-auto px-4 py-14">

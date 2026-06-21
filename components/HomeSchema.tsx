@@ -1,8 +1,8 @@
-import { tools } from "@/lib/tools";
+import type { ToolMeta } from "@/lib/tools";
 
 const BASE_URL = "https://getfastcalc.com";
 
-export default function HomeSchema() {
+export default function HomeSchema({ tools }: { tools: ToolMeta[] }) {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",

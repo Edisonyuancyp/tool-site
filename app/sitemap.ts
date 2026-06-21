@@ -11,6 +11,10 @@ const HIGH_PRIORITY = new Set([
   "compound-interest-calculator", "currency-converter", "percentage-calculator",
   "unix-timestamp-converter", "base64-tool", "word-counter", "base-converter",
   "json-csv-formatter", "diff-checker", "sleep-calculator", "bmr-tdee-calculator",
+  "tax-calculator", "retirement-savings-calculator", "investment-return-calculator",
+  "debt-repayment-calculator", "budget-calculator", "loan-calculator",
+  "tip-calculator", "gpa-calculator", "body-fat-calculator", "ideal-weight-calculator",
+  "water-intake-calculator", "running-pace-calculator",
 ]);
 
 export default function sitemap(): MetadataRoute.Sitemap {

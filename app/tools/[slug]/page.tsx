@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { tools, getToolBySlug } from "@/lib/tools";
 import { getRegistrySlugs, resolveRegistrySlug } from "@/lib/registry";
 import ToolLayout from "@/components/ToolLayout";
+import ToolSchema from "@/components/ToolSchema";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BmiCalculator from "@/components/tools/BmiCalculator";
@@ -124,6 +125,7 @@ export default async function ToolPage({ params }: Props) {
     const ToolView = mod!.default;
     return (
       <>
+        <ToolSchema tool={meta} slug={slug} />
         <Header />
         <ToolLayout tool={meta}>
           <ToolView variant={variant} />
@@ -142,6 +144,7 @@ export default async function ToolPage({ params }: Props) {
 
   return (
     <>
+      <ToolSchema tool={tool} slug={slug} />
       <Header />
       <ToolLayout tool={tool}>{toolUI}</ToolLayout>
       <Footer />
