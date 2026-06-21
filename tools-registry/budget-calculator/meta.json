@@ -1,61 +1,115 @@
 {
   "slug": "budget-calculator",
   "name": "Budget Calculator",
-  "tagline": "Create your personal budget easily.",
-  "description": "This tool allows users to create and manage a personal budget by inputting their income and expenses. Perfect for individuals looking to gain control over their finances.",
-  "metaTitle": "Budget Calculator | Free Online Tool",
-  "metaDescription": "Create your personal budget effortlessly. Free tool, no signup required!",
+  "tagline": "Track income vs. expenses and see exactly where your money goes",
+  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
+  "metaTitle": "Budget Calculator – Monthly Personal Budget Planner Free Online",
+  "metaDescription": "Free monthly budget calculator. Enter income and expenses to see your budget breakdown and compare against the 50/30/20 rule. Instant results, no signup needed.",
   "keywords": [
     "budget calculator",
-    "personal budgeting",
-    "financial planning",
-    "expense tracking",
-    "money management"
+    "monthly budget calculator",
+    "personal budget planner",
+    "50 30 20 rule calculator",
+    "expense tracker",
+    "income expense calculator",
+    "money management calculator"
   ],
   "category": "Finance",
   "icon": "📊",
   "faqs": [
     {
-      "question": "How do I start?",
-      "answer": "Input your monthly income and expenses to see your budget breakdown."
+      "question": "What is the 50/30/20 budget rule?",
+      "answer": "The 50/30/20 rule divides your after-tax income into three buckets: 50% for needs (rent, food, utilities), 30% for wants (dining out, entertainment), and 20% for savings and debt repayment. It's a simple framework popularized by Senator Elizabeth Warren."
     },
     {
-      "question": "Can I adjust my expenses?",
-      "answer": "Yes, you can modify expenses to see how it affects your overall budget."
+      "question": "How do I use this budget calculator?",
+      "answer": "Enter your monthly take-home income and list your monthly expenses by category. The calculator instantly shows your surplus or deficit, and how your spending compares to the 50/30/20 guideline."
     },
     {
-      "question": "What is the purpose of this calculator?",
-      "answer": "It helps you understand your spending habits and manage your finances better."
+      "question": "What counts as a 'need' vs a 'want'?",
+      "answer": "Needs are essential expenses you can't live without: rent/mortgage, groceries, utilities, insurance, and minimum debt payments. Wants are lifestyle choices: restaurants, subscriptions, hobbies, vacations."
+    },
+    {
+      "question": "How much should I save each month?",
+      "answer": "The 50/30/20 rule recommends saving at least 20% of your take-home pay. If that's not possible, start with any amount — even 5–10% — and increase it over time as you cut discretionary spending."
     }
   ],
   "relatedTools": [
     "debt-repayment-calculator",
-    "tax-calculator"
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
   ],
   "variants": [
     {
-      "variantSlug": "family-budget-variant",
-      "metaTitle": "Family Budget Calculator",
-      "metaDescription": "Create a budget tailored for family needs.",
+      "variantSlug": "family-budget-calculator",
+      "metaTitle": "Family Budget Calculator – Household Monthly Budget Planner",
+      "metaDescription": "Free family budget calculator. Track household income and shared expenses for 2+ people. See how your family budget compares to the 50/30/20 rule. No signup.",
       "keywords": [
-        "family budgeting",
-        "household expenses",
-        "family finance"
+        "family budget calculator",
+        "household budget calculator",
+        "monthly household budget",
+        "family expense tracker",
+        "home budget calculator"
       ],
-      "defaultVariant": "family-budget",
-      "headline": "Manage your family finances with ease using this calculator."
+      "defaultVariant": "family",
+      "headline": "Track your household income and shared expenses as a family. Enter combined income and split expenses across categories to see your family budget at a glance."
     },
     {
-      "variantSlug": "student-budget-variant",
-      "metaTitle": "Student Budget Calculator",
-      "metaDescription": "Create a budget specifically for students.",
+      "variantSlug": "student-budget-calculator",
+      "metaTitle": "Student Budget Calculator – College Monthly Budget Planner",
+      "metaDescription": "Free student budget calculator for college and university students. Track tuition, rent, food, and fun on a student income. See how far your money goes each month.",
       "keywords": [
-        "student budget",
-        "college finance",
-        "student expenses"
+        "student budget calculator",
+        "college budget calculator",
+        "university student budget",
+        "student monthly expenses",
+        "budget for college students"
       ],
-      "defaultVariant": "student-budget",
-      "headline": "Help students manage their finances effectively."
+      "defaultVariant": "student",
+      "headline": "Budget built for college life. Track your student income (part-time job, allowance, grants) against tuition fees, rent, food, and going out — and see your monthly balance."
+    },
+    {
+      "variantSlug": "zero-based-budget-calculator",
+      "metaTitle": "Zero-Based Budget Calculator – Every Dollar Has a Job",
+      "metaDescription": "Free zero-based budgeting calculator. Allocate every dollar of your income to specific expenses and savings until you reach zero. The Dave Ramsey method made easy.",
+      "keywords": [
+        "zero based budget calculator",
+        "zero based budgeting",
+        "every dollar budget",
+        "dave ramsey budget",
+        "zero sum budget"
+      ],
+      "defaultVariant": "zero-based",
+      "headline": "Zero-based budgeting means giving every dollar a job until income minus expenses equals zero. This calculator guides you through assigning all your income to categories so nothing is left unplanned."
+    },
+    {
+      "variantSlug": "monthly-budget-calculator",
+      "metaTitle": "Monthly Budget Calculator – Plan Your Monthly Finances",
+      "metaDescription": "Free monthly budget calculator. Enter your monthly salary and bills to see your spending breakdown and how much you can save. Instant no-signup budget planner.",
+      "keywords": [
+        "monthly budget calculator",
+        "budget planner monthly",
+        "monthly income expense calculator",
+        "how to budget monthly",
+        "monthly spending calculator"
+      ],
+      "defaultVariant": "monthly",
+      "headline": "Plan your month before it starts. Enter your monthly take-home pay and all expected expenses to see your projected balance and identify areas to cut back."
+    },
+    {
+      "variantSlug": "weekly-budget-calculator",
+      "metaTitle": "Weekly Budget Calculator – Plan Your Weekly Spending",
+      "metaDescription": "Free weekly budget calculator. Break your monthly budget down into weekly spending limits. Perfect if you get paid weekly or want tighter control over spending.",
+      "keywords": [
+        "weekly budget calculator",
+        "weekly spending planner",
+        "budget per week",
+        "how much to spend per week",
+        "weekly allowance calculator"
+      ],
+      "defaultVariant": "weekly",
+      "headline": "Breaking your budget into weekly chunks makes overspending much harder to ignore. Enter your monthly income and expenses and see your weekly spending limit at a glance."
     }
   ]
 }

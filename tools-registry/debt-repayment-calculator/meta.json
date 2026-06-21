@@ -1,61 +1,100 @@
 {
   "slug": "debt-repayment-calculator",
   "name": "Debt Repayment Calculator",
-  "tagline": "Plan your debt repayment strategy.",
-  "description": "This calculator helps users determine how long it will take to pay off debts based on their payments and interest rates. Ideal for anyone looking to manage their debts effectively.",
-  "metaTitle": "Debt Repayment Calculator | Free Online Tool",
-  "metaDescription": "Plan your debt repayment easily. Free tool, no signup required!",
+  "tagline": "See how long to pay off debt and how much interest you'll pay",
+  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
+  "metaTitle": "Debt Repayment Calculator – Debt Payoff Calculator Free Online",
+  "metaDescription": "Free debt repayment calculator. Enter balance, interest rate, and monthly payment to see payoff date and total interest. Shows savings from extra payments. No signup.",
   "keywords": [
-    "debt repayment",
-    "debt management",
-    "financial health",
-    "debt payoff",
-    "payment strategy"
+    "debt repayment calculator",
+    "debt payoff calculator",
+    "how long to pay off debt",
+    "debt free calculator",
+    "loan payoff calculator",
+    "debt interest calculator"
   ],
   "category": "Finance",
   "icon": "💳",
   "faqs": [
     {
-      "question": "What do I need to input?",
-      "answer": "Enter your total debt, monthly payment, and interest rate."
+      "question": "What is the debt avalanche vs. debt snowball method?",
+      "answer": "Debt avalanche: pay minimums on all debts, put extra money toward the highest-interest debt first. Saves the most interest. Debt snowball: pay off smallest balances first for quick wins and motivation. Both work — the best method is the one you'll stick to."
     },
     {
-      "question": "Can I adjust my monthly payment?",
-      "answer": "Yes, the calculator allows you to see how different payments affect your repayment timeline."
+      "question": "How much does making extra payments save?",
+      "answer": "Even small extra payments dramatically reduce total interest and payoff time. On a $10,000 credit card at 20% APR with $300/month minimum, you'd pay for 6 years. Adding just $100/month extra cuts it to 3.5 years and saves ~$2,000 in interest."
     },
     {
-      "question": "What is the benefit of this tool?",
-      "answer": "It helps you visualize your debt payoff process and manage your finances better."
+      "question": "What is an amortization schedule?",
+      "answer": "An amortization schedule shows every payment broken down into principal and interest. Early payments are mostly interest; later payments are mostly principal. This calculator generates a full amortization table so you can see your progress month by month."
+    },
+    {
+      "question": "Should I pay off debt or invest?",
+      "answer": "If your debt interest rate is higher than your expected investment return, pay off debt first. Credit card debt at 20%+ APR should always be paid off before investing. Mortgage or student loan debt at 4–6% is a toss-up — many people do both simultaneously."
     }
   ],
   "relatedTools": [
     "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
     "investment-return-calculator"
   ],
   "variants": [
     {
-      "variantSlug": "student-loan-variant",
-      "metaTitle": "Student Loan Repayment Calculator",
-      "metaDescription": "Estimate repayment time for student loans.",
+      "variantSlug": "credit-card-payoff-calculator",
+      "metaTitle": "Credit Card Payoff Calculator – How Long to Pay Off Credit Card Debt?",
+      "metaDescription": "Free credit card payoff calculator. Enter balance, APR, and monthly payment to see payoff date and total interest. Shows how much extra payments save you.",
       "keywords": [
-        "student loans",
-        "student debt",
-        "education financing"
+        "credit card payoff calculator",
+        "credit card debt calculator",
+        "how long to pay off credit card",
+        "credit card interest calculator",
+        "pay off credit card calculator"
       ],
-      "defaultVariant": "student-loan",
-      "headline": "Calculate how long it will take to pay off your student loans."
+      "defaultVariant": "credit-card",
+      "headline": "Enter your credit card balance, APR, and monthly payment to see exactly when you'll be debt-free — and how much interest you'll pay. See how adding even $50 extra per month changes everything."
     },
     {
-      "variantSlug": "credit-card-debt-variant",
-      "metaTitle": "Credit Card Debt Repayment Calculator",
-      "metaDescription": "Calculate repayment time for credit card debt.",
+      "variantSlug": "student-loan-repayment-calculator",
+      "metaTitle": "Student Loan Repayment Calculator – Monthly Payment & Payoff Date",
+      "metaDescription": "Free student loan repayment calculator. Enter loan balance, interest rate, and repayment term to calculate monthly payment and total interest paid over the life of the loan.",
       "keywords": [
-        "credit card debt",
-        "credit debt",
-        "debt payment"
+        "student loan repayment calculator",
+        "student loan calculator",
+        "student debt payoff calculator",
+        "how long to pay off student loans",
+        "student loan monthly payment calculator"
       ],
-      "defaultVariant": "credit-card-debt",
-      "headline": "Manage your credit card debt repayment effectively."
+      "defaultVariant": "student-loan",
+      "headline": "Calculate your monthly student loan payment and total interest across 10, 20, or 25-year repayment plans. See how refinancing to a lower rate affects your payoff timeline."
+    },
+    {
+      "variantSlug": "debt-snowball-calculator",
+      "metaTitle": "Debt Snowball Calculator – Pay Off Debt Fastest with Snowball Method",
+      "metaDescription": "Free debt snowball calculator. List all your debts and see the exact payoff order and timeline using the snowball method (smallest balance first). Includes payoff schedule.",
+      "keywords": [
+        "debt snowball calculator",
+        "snowball debt payoff calculator",
+        "debt snowball method calculator",
+        "pay off multiple debts calculator",
+        "debt payoff order calculator"
+      ],
+      "defaultVariant": "snowball",
+      "headline": "The debt snowball method has you pay minimums on everything, then throw all extra money at your smallest debt. Once it's gone, roll that payment to the next one. This calculator shows your exact snowball payoff schedule."
+    },
+    {
+      "variantSlug": "debt-avalanche-calculator",
+      "metaTitle": "Debt Avalanche Calculator – Save the Most Interest on Debt Payoff",
+      "metaDescription": "Free debt avalanche calculator. List your debts and see the mathematically optimal payoff order (highest interest first) to minimize total interest paid. Includes comparison vs snowball.",
+      "keywords": [
+        "debt avalanche calculator",
+        "avalanche debt payoff calculator",
+        "highest interest debt calculator",
+        "debt payoff strategy calculator",
+        "minimize debt interest calculator"
+      ],
+      "defaultVariant": "avalanche",
+      "headline": "The debt avalanche method directs extra payments to your highest-interest debt first, minimizing total interest paid. This calculator shows your avalanche payoff schedule and compares it to the snowball method."
     }
   ]
 }

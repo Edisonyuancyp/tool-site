@@ -57,6 +57,34 @@
       ],
       "defaultVariant": "split",
       "headline": "Split any bill evenly among friends. Enter the total, choose a tip percentage, and see exactly how much each person pays."
+    },
+    {
+      "variantSlug": "delivery-tip-calculator",
+      "metaTitle": "Delivery Tip Calculator – How Much to Tip Food Delivery Driver",
+      "metaDescription": "Free delivery tip calculator. Find out how much to tip your DoorDash, Uber Eats, or Grubhub driver based on order total and delivery distance. Standard is 15–20%.",
+      "keywords": [
+        "delivery tip calculator",
+        "how much to tip delivery driver",
+        "doordash tip calculator",
+        "uber eats tip calculator",
+        "food delivery tip"
+      ],
+      "defaultVariant": "delivery",
+      "headline": "Tipping food delivery drivers is standard — typically 15–20% of the order total, or a minimum of $3–5 for small orders. Enter your order total and see the recommended tip range for delivery."
+    },
+    {
+      "variantSlug": "taxi-tip-calculator",
+      "metaTitle": "Taxi & Uber Tip Calculator – How Much to Tip Your Driver",
+      "metaDescription": "Free taxi and rideshare tip calculator. Enter your fare to find how much to tip an Uber, Lyft, or taxi driver. Standard tip is 15–20% for rideshare.",
+      "keywords": [
+        "taxi tip calculator",
+        "uber tip calculator",
+        "lyft tip calculator",
+        "rideshare tip calculator",
+        "how much to tip taxi driver"
+      ],
+      "defaultVariant": "taxi",
+      "headline": "Not sure how much to tip your Uber, Lyft, or taxi driver? Enter the fare and this calculator shows the standard tip range (15–20%) and exact amounts so you never have to do the math."
     }
   ]
 }

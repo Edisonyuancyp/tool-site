@@ -61,6 +61,20 @@
       ],
       "defaultVariant": "highschool",
       "headline": "Calculate your high school GPA — both weighted (including AP/IB/Honors bonuses) and unweighted (standard 4.0 scale) — for college applications."
+    },
+    {
+      "variantSlug": "grade-calculator",
+      "metaTitle": "Grade Calculator – Calculate Your Final Grade & What You Need to Pass",
+      "metaDescription": "Free grade calculator. Enter your current grades and weights to calculate your overall course grade. Shows what score you need on the final exam to get your target grade.",
+      "keywords": [
+        "grade calculator",
+        "final grade calculator",
+        "what grade do i need to pass",
+        "course grade calculator",
+        "weighted grade calculator"
+      ],
+      "defaultVariant": "grade",
+      "headline": "Enter your assignment scores and their weights to calculate your current course grade. Then find out exactly what score you need on your final exam to hit your target grade (A, B, C, or pass)."
     }
   ]
 }

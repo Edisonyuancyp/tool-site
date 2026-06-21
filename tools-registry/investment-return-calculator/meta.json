@@ -1,61 +1,100 @@
 {
   "slug": "investment-return-calculator",
   "name": "Investment Return Calculator",
-  "tagline": "Estimate your investment returns.",
-  "description": "This tool helps you calculate the potential returns on your investments based on initial amount, interest rate, and duration. Great for investors wanting to project their investment growth.",
-  "metaTitle": "Investment Return Calculator | Free Online Tool",
-  "metaDescription": "Estimate your investment returns instantly. Free tool, no signup required!",
+  "tagline": "Calculate ROI, CAGR, and future value for any investment",
+  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
+  "metaTitle": "Investment Return Calculator – ROI, CAGR & Future Value Calculator",
+  "metaDescription": "Free investment return calculator. Enter initial amount, annual return, and years to calculate future value, ROI, and CAGR. Supports monthly contributions. No signup.",
   "keywords": [
-    "investment return",
-    "investment growth",
-    "financial forecasting",
-    "future value",
-    "investment planning"
+    "investment return calculator",
+    "roi calculator",
+    "cagr calculator",
+    "future value calculator",
+    "investment growth calculator",
+    "return on investment calculator"
   ],
   "category": "Finance",
   "icon": "📈",
   "faqs": [
     {
-      "question": "What inputs do I need?",
-      "answer": "Enter your initial investment, expected annual return rate, and investment duration."
+      "question": "What is ROI and how is it calculated?",
+      "answer": "ROI (Return on Investment) = (Final Value − Initial Investment) / Initial Investment × 100%. For example, investing $10,000 that grows to $15,000 gives ROI = 50%. It doesn't account for time — use CAGR to compare investments of different durations."
     },
     {
-      "question": "Can I see monthly returns?",
-      "answer": "This calculator provides annual returns, but you can adjust your inputs for more frequent analysis."
+      "question": "What is CAGR?",
+      "answer": "CAGR (Compound Annual Growth Rate) is the annual rate at which an investment would have grown if it grew at a steady rate. Formula: CAGR = (End Value / Start Value)^(1/years) − 1. It's the best single number for comparing investment performance."
     },
     {
-      "question": "What is compound interest?",
-      "answer": "Compound interest is the interest on your investment that accumulates over time, increasing your total returns."
+      "question": "What is a good annual return on investment?",
+      "answer": "The S&P 500 has averaged ~10% annually (7% after inflation) over the long term. Real estate typically returns 8–12% including rental yield. High-yield savings accounts currently offer 4–5%. Anything above 15% consistently is exceptional."
+    },
+    {
+      "question": "How do monthly contributions affect investment returns?",
+      "answer": "Monthly contributions dramatically increase final value because each contribution also compounds over time. Even small regular additions (e.g., $200/month) can double or triple your final balance over 20–30 years compared to a lump-sum investment alone."
     }
   ],
   "relatedTools": [
-    "loan-calculator",
-    "retirement-savings-calculator"
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
   ],
   "variants": [
     {
-      "variantSlug": "real-estate-investment-variant",
-      "metaTitle": "Real Estate Investment Return Calculator",
-      "metaDescription": "Estimate returns specifically for real estate investments.",
+      "variantSlug": "roi-calculator",
+      "metaTitle": "ROI Calculator – Return on Investment Calculator Free Online",
+      "metaDescription": "Free ROI calculator. Enter your investment cost and final value to calculate return on investment percentage instantly. Works for stocks, real estate, and any asset.",
       "keywords": [
-        "real estate",
-        "property investment",
-        "real estate returns"
+        "roi calculator",
+        "return on investment calculator",
+        "calculate roi",
+        "investment profit calculator",
+        "roi percentage calculator"
       ],
-      "defaultVariant": "real-estate",
-      "headline": "Calculate potential returns on your real estate investments."
+      "defaultVariant": "roi",
+      "headline": "Calculate your Return on Investment (ROI) instantly. Enter what you paid, what it's worth now, and how long you held it — and get ROI %, annualized return, and total profit."
     },
     {
-      "variantSlug": "stock-market-investment-variant",
-      "metaTitle": "Stock Market Investment Return Calculator",
-      "metaDescription": "Estimate returns on stock market investments.",
+      "variantSlug": "cagr-calculator",
+      "metaTitle": "CAGR Calculator – Compound Annual Growth Rate Calculator",
+      "metaDescription": "Free CAGR calculator. Enter start value, end value, and number of years to calculate Compound Annual Growth Rate. Compare investment performance accurately.",
       "keywords": [
-        "stock market",
-        "stocks",
-        "stock return"
+        "cagr calculator",
+        "compound annual growth rate calculator",
+        "investment growth rate calculator",
+        "annualized return calculator",
+        "cagr formula calculator"
       ],
-      "defaultVariant": "stock-market",
-      "headline": "Project your returns from stock market investments."
+      "defaultVariant": "cagr",
+      "headline": "CAGR (Compound Annual Growth Rate) is the most accurate way to compare two investments of different lengths. Enter start value, end value, and years to get the annualized growth rate."
+    },
+    {
+      "variantSlug": "stock-investment-calculator",
+      "metaTitle": "Stock Investment Calculator – How Much Will My Stocks Be Worth?",
+      "metaDescription": "Free stock investment calculator. Enter shares, purchase price, and expected annual return to see your portfolio value in 5, 10, and 20 years. Includes dividend reinvestment.",
+      "keywords": [
+        "stock investment calculator",
+        "stock portfolio calculator",
+        "how much will my stocks be worth",
+        "stock return calculator",
+        "equity investment calculator"
+      ],
+      "defaultVariant": "stock",
+      "headline": "Project the future value of a stock investment. Enter number of shares, purchase price, expected annual return, and optional dividend yield to see your portfolio in 5, 10, and 20 years."
+    },
+    {
+      "variantSlug": "real-estate-investment-calculator",
+      "metaTitle": "Real Estate Investment Calculator – Rental Property ROI Calculator",
+      "metaDescription": "Free real estate investment calculator. Enter property price, rental income, expenses, and appreciation rate to calculate rental yield, cash flow, and total ROI.",
+      "keywords": [
+        "real estate investment calculator",
+        "rental property roi calculator",
+        "rental yield calculator",
+        "property investment return",
+        "buy to let calculator"
+      ],
+      "defaultVariant": "real-estate",
+      "headline": "Calculate the total return on a rental property investment. Enter purchase price, monthly rent, expenses, and expected appreciation to see annual yield, monthly cash flow, and 10-year ROI."
     }
   ]
 }

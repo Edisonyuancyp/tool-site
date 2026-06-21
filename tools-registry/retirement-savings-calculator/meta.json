@@ -1,61 +1,100 @@
 {
   "slug": "retirement-savings-calculator",
   "name": "Retirement Savings Calculator",
-  "tagline": "Plan your retirement savings effortlessly.",
-  "description": "This tool helps users estimate how much they need to save for retirement based on their current savings, desired retirement age, and lifestyle. Perfect for anyone looking to secure their financial future.",
-  "metaTitle": "Retirement Savings Calculator | Free Online Tool",
-  "metaDescription": "Estimate your retirement savings needs instantly. Free tool, no signup required!",
+  "tagline": "See how much you need to save to retire comfortably",
+  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
+  "metaTitle": "Retirement Savings Calculator – Am I Saving Enough to Retire?",
+  "metaDescription": "Free retirement savings calculator. Enter age, current savings, and monthly contributions to see your projected retirement nest egg and monthly income. No signup needed.",
   "keywords": [
-    "retirement savings",
+    "retirement savings calculator",
     "retirement calculator",
-    "financial planning",
-    "savings estimator",
-    "future planning"
+    "how much to save for retirement",
+    "retirement nest egg calculator",
+    "retirement planning calculator",
+    "am i saving enough for retirement"
   ],
   "category": "Finance",
   "icon": "💰",
   "faqs": [
     {
-      "question": "How do I use this calculator?",
-      "answer": "Simply enter your current savings, desired retirement age, and expected yearly expenses."
+      "question": "How much should I have saved for retirement by age?",
+      "answer": "Fidelity's rule of thumb: 1× salary by 30, 3× by 40, 6× by 50, 8× by 60, and 10× by 67. So if you earn $60,000, you should have $600,000 saved by age 67. These are guidelines — your actual number depends on your desired lifestyle in retirement."
     },
     {
-      "question": "What if I don't have any savings yet?",
-      "answer": "You can still use the tool to see how much you need to save monthly to reach your goals."
+      "question": "What is the 4% rule for retirement?",
+      "answer": "The 4% rule suggests you can safely withdraw 4% of your retirement portfolio each year without running out of money over a 30-year retirement. So if you need $50,000/year, you need $1.25M saved ($50,000 ÷ 0.04)."
     },
     {
-      "question": "Can I adjust my expected retirement age?",
-      "answer": "Yes, you can change your retirement age to see how it affects your savings needs."
+      "question": "What rate of return should I use?",
+      "answer": "The S&P 500 has historically returned ~7% annually after inflation. For a conservative estimate use 5–6%; for an optimistic projection use 8–10%. The calculator uses 7% as the default."
+    },
+    {
+      "question": "What if I start saving late?",
+      "answer": "Starting later means you need to save more aggressively. Use this calculator to find the monthly contribution required to reach your target. The key levers are increasing contributions, delaying retirement by a few years, or reducing expected retirement spending."
     }
   ],
   "relatedTools": [
-    "loan-calculator",
-    "bmr-tdee-calculator"
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
   ],
   "variants": [
     {
-      "variantSlug": "early-retirement-variant",
-      "metaTitle": "Early Retirement Savings Calculator",
-      "metaDescription": "Plan for early retirement with tailored savings estimates.",
+      "variantSlug": "401k-calculator",
+      "metaTitle": "401(k) Calculator – How Much Will My 401k Be Worth at Retirement?",
+      "metaDescription": "Free 401k calculator. Enter your salary, contribution %, employer match, and years to retirement to see your projected 401k balance. Includes employer match calculation.",
       "keywords": [
-        "early retirement",
-        "savings plan",
-        "financial independence"
+        "401k calculator",
+        "401k retirement calculator",
+        "how much will my 401k be worth",
+        "401k contribution calculator",
+        "employer match 401k calculator"
       ],
-      "defaultVariant": "early-retirement",
-      "headline": "Calculate how much you need to save to retire early!"
+      "defaultVariant": "401k",
+      "headline": "Project your 401(k) balance at retirement. Enter your salary, your contribution percentage, and your employer's match to see how your workplace retirement account grows year by year."
     },
     {
-      "variantSlug": "retirement-income-variant",
-      "metaTitle": "Retirement Income Calculator",
-      "metaDescription": "Estimate your income needs during retirement.",
+      "variantSlug": "roth-ira-calculator",
+      "metaTitle": "Roth IRA Calculator – How Much Will My Roth IRA Grow?",
+      "metaDescription": "Free Roth IRA calculator. Enter annual contributions and years to retirement to see tax-free growth. Shows projected balance and tax-free withdrawal amount at retirement.",
       "keywords": [
-        "retirement income",
-        "income needs",
-        "financial security"
+        "roth ira calculator",
+        "roth ira growth calculator",
+        "roth ira retirement calculator",
+        "how much will my roth ira be worth",
+        "roth ira contribution calculator"
       ],
-      "defaultVariant": "retirement-income",
-      "headline": "Understand how much income you'll need in retirement."
+      "defaultVariant": "roth-ira",
+      "headline": "Roth IRA contributions grow tax-free and withdrawals in retirement are also tax-free. Enter your annual contribution and see how powerful tax-free compounding is over decades."
+    },
+    {
+      "variantSlug": "early-retirement-calculator",
+      "metaTitle": "Early Retirement Calculator – FIRE Calculator (Financial Independence)",
+      "metaDescription": "Free FIRE calculator. Find out when you can retire early based on your savings rate and current net worth. Uses the 4% safe withdrawal rule. Financial independence calculator.",
+      "keywords": [
+        "early retirement calculator",
+        "fire calculator",
+        "financial independence calculator",
+        "retire early calculator",
+        "how soon can i retire"
+      ],
+      "defaultVariant": "fire",
+      "headline": "The FIRE movement (Financial Independence, Retire Early) is based on one principle: save 25× your annual expenses and you can retire — at any age. Enter your numbers to find your FIRE date."
+    },
+    {
+      "variantSlug": "retirement-income-calculator",
+      "metaTitle": "Retirement Income Calculator – How Much Monthly Income Will I Have?",
+      "metaDescription": "Free retirement income calculator. Enter your nest egg and see how much monthly income you can safely withdraw in retirement using the 4% rule. No signup required.",
+      "keywords": [
+        "retirement income calculator",
+        "how much retirement income",
+        "monthly retirement income calculator",
+        "retirement withdrawal calculator",
+        "safe withdrawal rate calculator"
+      ],
+      "defaultVariant": "income",
+      "headline": "Turn your retirement nest egg into a monthly income number. Enter your projected savings at retirement and see how much you can safely withdraw each month without running out of money."
     }
   ]
 }
