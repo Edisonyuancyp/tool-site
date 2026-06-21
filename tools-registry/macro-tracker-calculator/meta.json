@@ -1,0 +1,36 @@
+{
+  "slug": "macro-tracker-calculator",
+  "name": "Macro Tracker Calculator",
+  "tagline": "Track your macros effectively!",
+  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
+  "metaTitle": "Macro Tracker Calculator – Nutrient Management | Free Tool",
+  "metaDescription": "Easily track your macros for free with this instant calculator. No signup needed, just enter your goals and get started!",
+  "keywords": [
+    "macro tracking",
+    "macronutrients calculator",
+    "diet planning",
+    "fitness goals",
+    "nutrition"
+  ],
+  "category": "Fitness",
+  "icon": "🍏",
+  "faqs": [
+    {
+      "question": "What are macronutrients?",
+      "answer": "Macronutrients include proteins, fats, and carbohydrates, which are essential for energy and growth."
+    },
+    {
+      "question": "How do I use this calculator?",
+      "answer": "Simply input your fitness goals, and the calculator will provide you with the macro breakdown needed."
+    },
+    {
+      "question": "Can I adjust my goals later?",
+      "answer": "Yes, you can revisit the calculator anytime to adjust your goals and see how your macros change."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

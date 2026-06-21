@@ -511,5 +511,756 @@
         "headline": "Help students manage their finances effectively."
       }
     ]
+  },
+  {
+    "slug": "task-priority-calculator",
+    "name": "Task Priority Calculator",
+    "tagline": "Rank your tasks for maximum efficiency",
+    "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
+    "metaTitle": "Task Priority – Productivity Tool | Free Online Tool",
+    "metaDescription": "Use our free task priority calculator to rank your tasks by urgency and importance for better productivity. No signup, instant results.",
+    "keywords": [
+      "task priority",
+      "task ranking tool",
+      "urgent tasks",
+      "important tasks",
+      "productivity calculator"
+    ],
+    "category": "Productivity",
+    "icon": "📋",
+    "faqs": [
+      {
+        "question": "How does the calculator work?",
+        "answer": "You input your tasks with urgency and importance ratings, and the calculator ranks them for you."
+      },
+      {
+        "question": "Is it really free?",
+        "answer": "Yes, this tool is completely free to use, with no hidden fees or signup required."
+      },
+      {
+        "question": "Can I use it for team tasks?",
+        "answer": "Absolutely! You can use this tool for both personal and team task prioritization."
+      }
+    ],
+    "relatedTools": [
+      "budget-calculator",
+      "time-tracking-tool"
+    ],
+    "variants": [
+      {
+        "variantSlug": "team-task-priority",
+        "metaTitle": "Team Task Priority Calculator",
+        "metaDescription": "Prioritize team tasks efficiently with our free tool.",
+        "keywords": [
+          "team tasks",
+          "collaboration",
+          "task management"
+        ],
+        "defaultVariant": "team-key",
+        "headline": "Optimize your team's task management with this variant."
+      },
+      {
+        "variantSlug": "personal-task-priority",
+        "metaTitle": "Personal Task Priority Calculator",
+        "metaDescription": "Focus on personal tasks with our easy-to-use tool.",
+        "keywords": [
+          "personal tasks",
+          "individual productivity"
+        ],
+        "defaultVariant": "personal-key",
+        "headline": "Perfect for managing and prioritizing your personal tasks."
+      }
+    ]
+  },
+  {
+    "slug": "daily-goal-tracker",
+    "name": "Daily Goal Tracker",
+    "tagline": "Set and track your daily goals easily",
+    "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
+    "metaTitle": "Daily Goal Tracker – Productivity Tool | Free Online Tool",
+    "metaDescription": "Track your daily goals with our free online tool for better productivity. No signup required, get instant results.",
+    "keywords": [
+      "daily goal tracker",
+      "goal setting tool",
+      "productivity goals",
+      "daily achievements",
+      "monitor progress"
+    ],
+    "category": "Productivity",
+    "icon": "🎯",
+    "faqs": [
+      {
+        "question": "What kind of goals can I track?",
+        "answer": "You can track any type of personal or professional goals, from fitness to work projects."
+      },
+      {
+        "question": "Is there a limit on the number of goals?",
+        "answer": "No, you can set as many goals as you want each day."
+      },
+      {
+        "question": "Can I review past goals?",
+        "answer": "Yes, you can access your past goals and their status for reflection."
+      }
+    ],
+    "relatedTools": [
+      "time-tracking-tool",
+      "habit-tracker"
+    ],
+    "variants": [
+      {
+        "variantSlug": "weekly-goal-tracker",
+        "metaTitle": "Weekly Goal Tracker",
+        "metaDescription": "Set and monitor your goals on a weekly basis.",
+        "keywords": [
+          "weekly goals",
+          "track weekly progress"
+        ],
+        "defaultVariant": "weekly-key",
+        "headline": "Expand your tracking to weekly goals for broader insights."
+      },
+      {
+        "variantSlug": "monthly-goal-tracker",
+        "metaTitle": "Monthly Goal Tracker",
+        "metaDescription": "Monitor your monthly goals with ease.",
+        "keywords": [
+          "monthly goals",
+          "long-term tracking"
+        ],
+        "defaultVariant": "monthly-key",
+        "headline": "Perfect for those who prefer a monthly overview of their goals."
+      }
+    ]
+  },
+  {
+    "slug": "time-blocking-scheduler",
+    "name": "Time Blocking Scheduler",
+    "tagline": "Plan your day with time blocks",
+    "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
+    "metaTitle": "Time Blocking – Productivity Scheduler | Free Online Tool",
+    "metaDescription": "Plan your day using our free time blocking scheduler for improved productivity. No signup, instant results.",
+    "keywords": [
+      "time blocking",
+      "schedule planner",
+      "productivity schedule",
+      "daily planner",
+      "focus tool"
+    ],
+    "category": "Productivity",
+    "icon": "🗓️",
+    "faqs": [
+      {
+        "question": "How do I create a time block?",
+        "answer": "Simply input your tasks and the time you want to allocate for each, and the scheduler will organize them."
+      },
+      {
+        "question": "Can I adjust my time blocks?",
+        "answer": "Yes, you can easily adjust your time blocks as needed."
+      },
+      {
+        "question": "Is this suitable for team scheduling?",
+        "answer": "While primarily designed for individual use, it can also be adapted for team planning."
+      }
+    ],
+    "relatedTools": [
+      "task-priority-calculator",
+      "daily-goal-tracker"
+    ],
+    "variants": [
+      {
+        "variantSlug": "team-time-blocking",
+        "metaTitle": "Team Time Blocking Scheduler",
+        "metaDescription": "Schedule your team's time efficiently with this variant.",
+        "keywords": [
+          "team productivity",
+          "collaborative scheduling"
+        ],
+        "defaultVariant": "team-blocking-key",
+        "headline": "Optimize your team's scheduling with time blocks."
+      },
+      {
+        "variantSlug": "personal-time-blocking",
+        "metaTitle": "Personal Time Blocking Scheduler",
+        "metaDescription": "Focus on personal tasks with our time blocking tool.",
+        "keywords": [
+          "personal scheduling",
+          "individual time management"
+        ],
+        "defaultVariant": "personal-blocking-key",
+        "headline": "Perfect for managing your individual schedule effectively."
+      }
+    ]
+  },
+  {
+    "slug": "work-life-balance-calculator",
+    "name": "Work-Life Balance Calculator",
+    "tagline": "Assess your work-life balance today",
+    "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
+    "metaTitle": "Work-Life Balance – Productivity Tool | Free Online Tool",
+    "metaDescription": "Evaluate your work-life balance with our free calculator, no signup required, get instant results.",
+    "keywords": [
+      "work-life balance",
+      "balance assessment",
+      "productivity evaluation",
+      "personal well-being",
+      "time management"
+    ],
+    "category": "Productivity",
+    "icon": "⚖️",
+    "faqs": [
+      {
+        "question": "How does the calculator work?",
+        "answer": "You input your time spent on work and personal activities, and it calculates your balance."
+      },
+      {
+        "question": "Is this tool really free?",
+        "answer": "Yes, there are no fees or signup requirements to use this tool."
+      },
+      {
+        "question": "Can I improve my balance based on the results?",
+        "answer": "Absolutely! The tool provides insights on how to better manage your time."
+      }
+    ],
+    "relatedTools": [
+      "daily-goal-tracker",
+      "time-blocking-scheduler"
+    ],
+    "variants": [
+      {
+        "variantSlug": "employee-work-life-balance",
+        "metaTitle": "Employee Work-Life Balance Calculator",
+        "metaDescription": "Evaluate the work-life balance specifically for employees.",
+        "keywords": [
+          "employee well-being",
+          "work satisfaction"
+        ],
+        "defaultVariant": "employee-balance-key",
+        "headline": "Tailored for assessing employees' work-life balance."
+      },
+      {
+        "variantSlug": "freelance-work-life-balance",
+        "metaTitle": "Freelance Work-Life Balance Calculator",
+        "metaDescription": "Check your balance as a freelancer with this variant.",
+        "keywords": [
+          "freelancer productivity",
+          "self-employed balance"
+        ],
+        "defaultVariant": "freelance-balance-key",
+        "headline": "Perfect for freelancers assessing their time management."
+      }
+    ]
+  },
+  {
+    "slug": "cooking-time-calculator",
+    "name": "Cooking Time Calculator",
+    "tagline": "Calculate cooking times easily.",
+    "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
+    "metaTitle": "Cooking Time Calculator – Ideal Cooking Times | Free Online Tool",
+    "metaDescription": "Use our cooking time calculator for accurate cooking times. Free tool, no signup, instant results.",
+    "keywords": [
+      "cooking time calculator",
+      "meat cooking time",
+      "recipe cooking times",
+      "ideal cooking duration"
+    ],
+    "category": "Cooking",
+    "icon": "⏲️",
+    "faqs": [
+      {
+        "question": "How do I use the cooking time calculator?",
+        "answer": "Simply input the type of meat or dish, its weight, and select the cooking method to get the ideal cooking time."
+      },
+      {
+        "question": "Is this calculator accurate for all recipes?",
+        "answer": "While it provides a great guideline, cooking times can vary based on specific recipes and equipment."
+      },
+      {
+        "question": "Can I use this for baking as well?",
+        "answer": "This tool primarily focuses on cooking meat and main dishes, but it can offer insights for some baked goods."
+      }
+    ],
+    "relatedTools": [
+      "bmi-calculator",
+      "loan-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "meat-cooking-time-variant",
+        "metaTitle": "Meat Cooking Time Calculator",
+        "metaDescription": "Calculate precise cooking times for various meats.",
+        "keywords": [
+          "meat cooking times",
+          "poultry cooking calculator",
+          "beef cooking duration"
+        ],
+        "defaultVariant": "meat-variant-key",
+        "headline": "Get accurate cooking times for all types of meat."
+      },
+      {
+        "variantSlug": "baking-time-variant",
+        "metaTitle": "Baking Time Calculator",
+        "metaDescription": "Calculate baking times for cakes, cookies, and bread.",
+        "keywords": [
+          "baking time calculator",
+          "cake baking duration",
+          "cookie baking times"
+        ],
+        "defaultVariant": "baking-variant-key",
+        "headline": "Calculate the perfect baking times for your favorite treats."
+      }
+    ]
+  },
+  {
+    "slug": "ingredient-substitution-calculator",
+    "name": "Ingredient Substitution Calculator",
+    "tagline": "Find substitutes for missing ingredients.",
+    "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
+    "metaTitle": "Ingredient Substitution Calculator – Cooking Alternatives | Free Online Tool",
+    "metaDescription": "Find ingredient substitutes instantly with our free tool. No signup required.",
+    "keywords": [
+      "ingredient substitution",
+      "recipe alternatives",
+      "cooking ingredient swaps"
+    ],
+    "category": "Cooking",
+    "icon": "🥄",
+    "faqs": [
+      {
+        "question": "How do I find a substitute for an ingredient?",
+        "answer": "Enter the ingredient you need to replace and the calculator will suggest suitable alternatives."
+      },
+      {
+        "question": "Are the substitutions always accurate?",
+        "answer": "Most suggestions are accurate, but the flavor and texture may vary depending on the substitute used."
+      },
+      {
+        "question": "Can I suggest new substitutes?",
+        "answer": "Yes! We welcome user suggestions to improve our database of ingredient alternatives."
+      }
+    ],
+    "relatedTools": [
+      "age-calculator",
+      "budget-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "vegetarian-substitution-variant",
+        "metaTitle": "Vegetarian Ingredient Substitution",
+        "metaDescription": "Find vegetarian alternatives for your recipes.",
+        "keywords": [
+          "vegetarian substitutes",
+          "plant-based ingredient swaps",
+          "vegan cooking alternatives"
+        ],
+        "defaultVariant": "vegetarian-variant-key",
+        "headline": "Discover plant-based substitutes for common ingredients."
+      },
+      {
+        "variantSlug": "gluten-free-substitution-variant",
+        "metaTitle": "Gluten-Free Ingredient Substitution",
+        "metaDescription": "Find gluten-free alternatives for your cooking needs.",
+        "keywords": [
+          "gluten-free substitutes",
+          "cooking without gluten",
+          "gluten alternatives"
+        ],
+        "defaultVariant": "gluten-free-variant-key",
+        "headline": "Easily find gluten-free alternatives for your favorite recipes."
+      }
+    ]
+  },
+  {
+    "slug": "serving-size-calculator",
+    "name": "Serving Size Calculator",
+    "tagline": "Adjust recipes for any number of servings.",
+    "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
+    "metaTitle": "Serving Size Calculator – Adjust Recipe Portions | Free Online Tool",
+    "metaDescription": "Easily adjust ingredients based on servings with our free tool. No signup needed.",
+    "keywords": [
+      "serving size calculator",
+      "recipe scaling",
+      "portion calculator",
+      "meal prep servings"
+    ],
+    "category": "Cooking",
+    "icon": "🍽️",
+    "faqs": [
+      {
+        "question": "How do I scale a recipe?",
+        "answer": "Input the original serving size and your desired serving size to get precise ingredient amounts."
+      },
+      {
+        "question": "Can this work for any recipe?",
+        "answer": "Yes, it works for most recipes, making adjustments for any ingredient."
+      },
+      {
+        "question": "What if I want to adjust only one ingredient?",
+        "answer": "You can adjust individual ingredients by entering their original amounts and desired servings."
+      }
+    ],
+    "relatedTools": [
+      "body-fat-calculator",
+      "daily-goal-tracker"
+    ],
+    "variants": [
+      {
+        "variantSlug": "small-batch-serving-variant",
+        "metaTitle": "Small Batch Serving Size Calculator",
+        "metaDescription": "Scale recipes down for smaller portions.",
+        "keywords": [
+          "small batch recipes",
+          "mini servings",
+          "tiny recipe calculator"
+        ],
+        "defaultVariant": "small-batch-variant-key",
+        "headline": "Easily adjust recipes for smaller gatherings or meals."
+      },
+      {
+        "variantSlug": "family-size-serving-variant",
+        "metaTitle": "Family Size Serving Size Calculator",
+        "metaDescription": "Scale recipes up for family meals.",
+        "keywords": [
+          "family-sized recipes",
+          "large servings",
+          "big batch calculator"
+        ],
+        "defaultVariant": "family-size-variant-key",
+        "headline": "Adjust recipes to feed the whole family with ease."
+      }
+    ]
+  },
+  {
+    "slug": "leftover-recipe-generator",
+    "name": "Leftover Recipe Generator",
+    "tagline": "Turn leftovers into delicious meals.",
+    "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
+    "metaTitle": "Leftover Recipe Generator – Creative Meal Ideas | Free Online Tool",
+    "metaDescription": "Generate recipes based on your leftovers with this free tool. No signup required.",
+    "keywords": [
+      "leftover recipe ideas",
+      "cooking with leftovers",
+      "meal ideas from leftovers"
+    ],
+    "category": "Cooking",
+    "icon": "🥡",
+    "faqs": [
+      {
+        "question": "How does the leftover recipe generator work?",
+        "answer": "Simply enter the ingredients you have left, and the generator will suggest possible recipes."
+      },
+      {
+        "question": "Can I add multiple leftovers?",
+        "answer": "Yes, you can input as many leftover ingredients as you like for tailored recipe suggestions."
+      },
+      {
+        "question": "Are the recipes easy to follow?",
+        "answer": "The recipes suggested are usually simple and designed for quick preparation."
+      }
+    ],
+    "relatedTools": [
+      "cooking-time-calculator",
+      "ingredient-substitution-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "vegetarian-leftover-variant",
+        "metaTitle": "Vegetarian Leftover Recipe Generator",
+        "metaDescription": "Create vegetarian meals from your leftovers.",
+        "keywords": [
+          "vegetarian leftovers",
+          "plant-based meal ideas",
+          "vegan leftover recipes"
+        ],
+        "defaultVariant": "vegetarian-variant-key",
+        "headline": "Transform your vegetarian leftovers into delicious meals."
+      },
+      {
+        "variantSlug": "quick-meal-leftover-variant",
+        "metaTitle": "Quick Meal Leftover Generator",
+        "metaDescription": "Find quick recipes to use up leftovers.",
+        "keywords": [
+          "quick leftover meals",
+          "easy recipes from leftovers",
+          "fast cooking with leftovers"
+        ],
+        "defaultVariant": "quick-meal-variant-key",
+        "headline": "Get quick meal ideas to effortlessly use your leftovers."
+      }
+    ]
+  },
+  {
+    "slug": "travel-expense-estimator",
+    "name": "Travel Expense Estimator",
+    "tagline": "Estimate your trip costs quickly.",
+    "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
+    "metaTitle": "Travel Expense Estimator – Budget Trip Planner | Free Online Tool",
+    "metaDescription": "Estimate your travel expenses instantly for free, no signup needed. Get a clear budget for your next adventure!",
+    "keywords": [
+      "travel expense estimator",
+      "trip costs calculator",
+      "budget travel tool",
+      "travel budgeting",
+      "cost of travel"
+    ],
+    "category": "Travel",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How do I calculate my travel expenses?",
+        "answer": "Enter your destination, travel mode, duration, and daily costs for an estimate."
+      },
+      {
+        "question": "Can I save my estimates?",
+        "answer": "Currently, the tool does not support saving estimates, but you can note them down."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, the Travel Expense Estimator is completely free with no signup required."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "carbon-footprint-travel-calculator",
+    "name": "Carbon Footprint Travel Calculator",
+    "tagline": "Calculate your trip's carbon impact.",
+    "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
+    "metaTitle": "Carbon Footprint Travel Calculator – Eco-Friendly Travel | Free Online Tool",
+    "metaDescription": "Calculate your travel's carbon footprint for free and find ways to travel greener. Instant results, no signup required.",
+    "keywords": [
+      "carbon footprint calculator",
+      "eco-friendly travel",
+      "travel carbon impact",
+      "sustainable travel",
+      "green travel calculator"
+    ],
+    "category": "Travel",
+    "icon": "🌍",
+    "faqs": [
+      {
+        "question": "What does this calculator measure?",
+        "answer": "It measures the carbon footprint based on your travel mode, distance, and accommodations."
+      },
+      {
+        "question": "Can I compare different travel options?",
+        "answer": "Yes, you can input different scenarios to see which has a lower carbon impact."
+      },
+      {
+        "question": "Is this tool accurate?",
+        "answer": "The calculator provides estimates based on average emissions data for various travel methods."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "group-trip-cost-splitter",
+    "name": "Group Trip Cost Splitter",
+    "tagline": "Split trip costs among friends easily.",
+    "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
+    "metaTitle": "Group Trip Cost Splitter – Fair Trip Expense Sharing | Free Online Tool",
+    "metaDescription": "Easily split your group trip costs for free, with no signup needed. Get fair expense sharing results instantly!",
+    "keywords": [
+      "group trip cost splitter",
+      "expense sharing calculator",
+      "trip cost calculator",
+      "travel with friends",
+      "cost sharing tool"
+    ],
+    "category": "Travel",
+    "icon": "👥",
+    "faqs": [
+      {
+        "question": "How do I use the cost splitter?",
+        "answer": "Enter your total trip expenses and the number of travelers to calculate individual shares."
+      },
+      {
+        "question": "Can I add different types of expenses?",
+        "answer": "Currently, the tool calculates a total split based on one input expense amount."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, the Group Trip Cost Splitter is completely free to use."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "travel-time-calculator",
+    "name": "Travel Time Calculator",
+    "tagline": "Calculate how long your trip will take.",
+    "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
+    "metaTitle": "Travel Time Calculator – Trip Duration Estimator | Free Online Tool",
+    "metaDescription": "Calculate your travel time for free with no signup required. Get instant trip duration estimates easily!",
+    "keywords": [
+      "travel time calculator",
+      "trip duration estimator",
+      "calculate travel time",
+      "road trip planner",
+      "travel duration"
+    ],
+    "category": "Travel",
+    "icon": "⏳",
+    "faqs": [
+      {
+        "question": "How do I calculate my travel time?",
+        "answer": "Input the distance and your average speed to get an estimated travel time."
+      },
+      {
+        "question": "Can I use this for different travel modes?",
+        "answer": "Yes, you can adjust the average speed based on your travel method."
+      },
+      {
+        "question": "Is there a limit to the distance I can enter?",
+        "answer": "No, you can input any distance for your travel time estimation."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "fitness-age-calculator",
+    "name": "Fitness Age Calculator",
+    "tagline": "Discover your fitness age now!",
+    "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
+    "metaTitle": "Fitness Age Calculator – Reflect Your Health | Free Online Tool",
+    "metaDescription": "Calculate your fitness age instantly for free, no signup required. Understand your health status with this simple tool.",
+    "keywords": [
+      "fitness age",
+      "calculate fitness age",
+      "health metrics",
+      "activity levels",
+      "fitness assessment"
+    ],
+    "category": "Fitness",
+    "icon": "🧘",
+    "faqs": [
+      {
+        "question": "How is fitness age calculated?",
+        "answer": "Fitness age is determined by analyzing various health metrics and activity levels to provide an age that reflects your fitness."
+      },
+      {
+        "question": "Is this tool accurate?",
+        "answer": "While it provides a good estimate, individual results may vary based on personal health factors."
+      },
+      {
+        "question": "Can I improve my fitness age?",
+        "answer": "Yes, by increasing your physical activity and maintaining a healthy lifestyle, you can lower your fitness age."
+      }
+    ],
+    "relatedTools": [
+      "bmi-calculator",
+      "bmr-tdee-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "macro-tracker-calculator",
+    "name": "Macro Tracker Calculator",
+    "tagline": "Track your macros effectively!",
+    "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
+    "metaTitle": "Macro Tracker Calculator – Nutrient Management | Free Tool",
+    "metaDescription": "Easily track your macros for free with this instant calculator. No signup needed, just enter your goals and get started!",
+    "keywords": [
+      "macro tracking",
+      "macronutrients calculator",
+      "diet planning",
+      "fitness goals",
+      "nutrition"
+    ],
+    "category": "Fitness",
+    "icon": "🍏",
+    "faqs": [
+      {
+        "question": "What are macronutrients?",
+        "answer": "Macronutrients include proteins, fats, and carbohydrates, which are essential for energy and growth."
+      },
+      {
+        "question": "How do I use this calculator?",
+        "answer": "Simply input your fitness goals, and the calculator will provide you with the macro breakdown needed."
+      },
+      {
+        "question": "Can I adjust my goals later?",
+        "answer": "Yes, you can revisit the calculator anytime to adjust your goals and see how your macros change."
+      }
+    ],
+    "relatedTools": [
+      "bmr-tdee-calculator",
+      "ideal-weight-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "fitness-level-quiz",
+    "name": "Fitness Level Quiz",
+    "tagline": "Assess your fitness level today!",
+    "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
+    "metaTitle": "Fitness Level Quiz – Self-Assessment Tool | Free Online Tool",
+    "metaDescription": "Assess your fitness level with this fun and quick quiz. Get instant results for free, no signup required!",
+    "keywords": [
+      "fitness level quiz",
+      "self-assessment",
+      "exercise habits",
+      "fitness evaluation",
+      "health quiz"
+    ],
+    "category": "Fitness",
+    "icon": "🏋️‍♀️",
+    "faqs": [
+      {
+        "question": "How long does the quiz take?",
+        "answer": "The quiz takes about 5 minutes to complete, providing a quick overview of your fitness level."
+      },
+      {
+        "question": "What will I learn from the results?",
+        "answer": "You'll get insights into your current fitness level and tips on how to improve."
+      },
+      {
+        "question": "Is there a cost to take the quiz?",
+        "answer": "No, the quiz is completely free with no signup required."
+      }
+    ],
+    "relatedTools": [
+      "bmi-calculator",
+      "body-fat-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "hydration-needs-calculator",
+    "name": "Hydration Needs Calculator",
+    "tagline": "Calculate your daily hydration needs!",
+    "description": "This calculator helps you determine how much water you should be drinking daily based on your activity level, age, and weight. Essential for fitness enthusiasts looking to optimize their hydration.",
+    "metaTitle": "Hydration Needs Calculator – Stay Hydrated | Free Tool",
+    "metaDescription": "Find out your daily hydration needs instantly for free! No signup necessary, just enter your details and get your results.",
+    "keywords": [
+      "hydration needs",
+      "water intake calculator",
+      "daily hydration",
+      "fitness hydration",
+      "stay hydrated"
+    ],
+    "category": "Fitness",
+    "icon": "💧",
+    "faqs": [
+      {
+        "question": "How do I know if I'm hydrated?",
+        "answer": "Signs of hydration include clear urine, energy levels, and skin elasticity; this tool helps you quantify your needs."
+      },
+      {
+        "question": "Can I adjust my water intake?",
+        "answer": "Yes, you can adjust based on activity levels, climate, and personal health."
+      },
+      {
+        "question": "Is this tool suitable for everyone?",
+        "answer": "It's designed for most adults; however, those with specific health conditions should consult a professional."
+      }
+    ],
+    "relatedTools": [
+      "bmr-tdee-calculator",
+      "ideal-weight-calculator"
+    ],
+    "variants": []
   }
 ]

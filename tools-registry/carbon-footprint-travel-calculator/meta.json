@@ -1,0 +1,33 @@
+{
+  "slug": "carbon-footprint-travel-calculator",
+  "name": "Carbon Footprint Travel Calculator",
+  "tagline": "Calculate your trip's carbon impact.",
+  "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
+  "metaTitle": "Carbon Footprint Travel Calculator – Eco-Friendly Travel | Free Online Tool",
+  "metaDescription": "Calculate your travel's carbon footprint for free and find ways to travel greener. Instant results, no signup required.",
+  "keywords": [
+    "carbon footprint calculator",
+    "eco-friendly travel",
+    "travel carbon impact",
+    "sustainable travel",
+    "green travel calculator"
+  ],
+  "category": "Travel",
+  "icon": "🌍",
+  "faqs": [
+    {
+      "question": "What does this calculator measure?",
+      "answer": "It measures the carbon footprint based on your travel mode, distance, and accommodations."
+    },
+    {
+      "question": "Can I compare different travel options?",
+      "answer": "Yes, you can input different scenarios to see which has a lower carbon impact."
+    },
+    {
+      "question": "Is this tool accurate?",
+      "answer": "The calculator provides estimates based on average emissions data for various travel methods."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

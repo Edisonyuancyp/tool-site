@@ -1,0 +1,36 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "Fitness Age Calculator",
+  "tagline": "Discover your fitness age now!",
+  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
+  "metaTitle": "Fitness Age Calculator – Reflect Your Health | Free Online Tool",
+  "metaDescription": "Calculate your fitness age instantly for free, no signup required. Understand your health status with this simple tool.",
+  "keywords": [
+    "fitness age",
+    "calculate fitness age",
+    "health metrics",
+    "activity levels",
+    "fitness assessment"
+  ],
+  "category": "Fitness",
+  "icon": "🧘",
+  "faqs": [
+    {
+      "question": "How is fitness age calculated?",
+      "answer": "Fitness age is determined by analyzing various health metrics and activity levels to provide an age that reflects your fitness."
+    },
+    {
+      "question": "Is this tool accurate?",
+      "answer": "While it provides a good estimate, individual results may vary based on personal health factors."
+    },
+    {
+      "question": "Can I improve my fitness age?",
+      "answer": "Yes, by increasing your physical activity and maintaining a healthy lifestyle, you can lower your fitness age."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

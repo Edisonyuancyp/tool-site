@@ -1,0 +1,59 @@
+{
+  "slug": "work-life-balance-calculator",
+  "name": "Work-Life Balance Calculator",
+  "tagline": "Assess your work-life balance today",
+  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
+  "metaTitle": "Work-Life Balance – Productivity Tool | Free Online Tool",
+  "metaDescription": "Evaluate your work-life balance with our free calculator, no signup required, get instant results.",
+  "keywords": [
+    "work-life balance",
+    "balance assessment",
+    "productivity evaluation",
+    "personal well-being",
+    "time management"
+  ],
+  "category": "Productivity",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "How does the calculator work?",
+      "answer": "You input your time spent on work and personal activities, and it calculates your balance."
+    },
+    {
+      "question": "Is this tool really free?",
+      "answer": "Yes, there are no fees or signup requirements to use this tool."
+    },
+    {
+      "question": "Can I improve my balance based on the results?",
+      "answer": "Absolutely! The tool provides insights on how to better manage your time."
+    }
+  ],
+  "relatedTools": [
+    "daily-goal-tracker",
+    "time-blocking-scheduler"
+  ],
+  "variants": [
+    {
+      "variantSlug": "employee-work-life-balance",
+      "metaTitle": "Employee Work-Life Balance Calculator",
+      "metaDescription": "Evaluate the work-life balance specifically for employees.",
+      "keywords": [
+        "employee well-being",
+        "work satisfaction"
+      ],
+      "defaultVariant": "employee-balance-key",
+      "headline": "Tailored for assessing employees' work-life balance."
+    },
+    {
+      "variantSlug": "freelance-work-life-balance",
+      "metaTitle": "Freelance Work-Life Balance Calculator",
+      "metaDescription": "Check your balance as a freelancer with this variant.",
+      "keywords": [
+        "freelancer productivity",
+        "self-employed balance"
+      ],
+      "defaultVariant": "freelance-balance-key",
+      "headline": "Perfect for freelancers assessing their time management."
+    }
+  ]
+}

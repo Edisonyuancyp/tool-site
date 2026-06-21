@@ -1,0 +1,59 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "Daily Goal Tracker",
+  "tagline": "Set and track your daily goals easily",
+  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
+  "metaTitle": "Daily Goal Tracker – Productivity Tool | Free Online Tool",
+  "metaDescription": "Track your daily goals with our free online tool for better productivity. No signup required, get instant results.",
+  "keywords": [
+    "daily goal tracker",
+    "goal setting tool",
+    "productivity goals",
+    "daily achievements",
+    "monitor progress"
+  ],
+  "category": "Productivity",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "What kind of goals can I track?",
+      "answer": "You can track any type of personal or professional goals, from fitness to work projects."
+    },
+    {
+      "question": "Is there a limit on the number of goals?",
+      "answer": "No, you can set as many goals as you want each day."
+    },
+    {
+      "question": "Can I review past goals?",
+      "answer": "Yes, you can access your past goals and their status for reflection."
+    }
+  ],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "weekly-goal-tracker",
+      "metaTitle": "Weekly Goal Tracker",
+      "metaDescription": "Set and monitor your goals on a weekly basis.",
+      "keywords": [
+        "weekly goals",
+        "track weekly progress"
+      ],
+      "defaultVariant": "weekly-key",
+      "headline": "Expand your tracking to weekly goals for broader insights."
+    },
+    {
+      "variantSlug": "monthly-goal-tracker",
+      "metaTitle": "Monthly Goal Tracker",
+      "metaDescription": "Monitor your monthly goals with ease.",
+      "keywords": [
+        "monthly goals",
+        "long-term tracking"
+      ],
+      "defaultVariant": "monthly-key",
+      "headline": "Perfect for those who prefer a monthly overview of their goals."
+    }
+  ]
+}

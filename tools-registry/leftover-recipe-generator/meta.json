@@ -1,0 +1,59 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "Leftover Recipe Generator",
+  "tagline": "Turn leftovers into delicious meals.",
+  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
+  "metaTitle": "Leftover Recipe Generator – Creative Meal Ideas | Free Online Tool",
+  "metaDescription": "Generate recipes based on your leftovers with this free tool. No signup required.",
+  "keywords": [
+    "leftover recipe ideas",
+    "cooking with leftovers",
+    "meal ideas from leftovers"
+  ],
+  "category": "Cooking",
+  "icon": "🥡",
+  "faqs": [
+    {
+      "question": "How does the leftover recipe generator work?",
+      "answer": "Simply enter the ingredients you have left, and the generator will suggest possible recipes."
+    },
+    {
+      "question": "Can I add multiple leftovers?",
+      "answer": "Yes, you can input as many leftover ingredients as you like for tailored recipe suggestions."
+    },
+    {
+      "question": "Are the recipes easy to follow?",
+      "answer": "The recipes suggested are usually simple and designed for quick preparation."
+    }
+  ],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "vegetarian-leftover-variant",
+      "metaTitle": "Vegetarian Leftover Recipe Generator",
+      "metaDescription": "Create vegetarian meals from your leftovers.",
+      "keywords": [
+        "vegetarian leftovers",
+        "plant-based meal ideas",
+        "vegan leftover recipes"
+      ],
+      "defaultVariant": "vegetarian-variant-key",
+      "headline": "Transform your vegetarian leftovers into delicious meals."
+    },
+    {
+      "variantSlug": "quick-meal-leftover-variant",
+      "metaTitle": "Quick Meal Leftover Generator",
+      "metaDescription": "Find quick recipes to use up leftovers.",
+      "keywords": [
+        "quick leftover meals",
+        "easy recipes from leftovers",
+        "fast cooking with leftovers"
+      ],
+      "defaultVariant": "quick-meal-variant-key",
+      "headline": "Get quick meal ideas to effortlessly use your leftovers."
+    }
+  ]
+}

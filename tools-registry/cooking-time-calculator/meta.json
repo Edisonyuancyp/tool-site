@@ -1,0 +1,60 @@
+{
+  "slug": "cooking-time-calculator",
+  "name": "Cooking Time Calculator",
+  "tagline": "Calculate cooking times easily.",
+  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
+  "metaTitle": "Cooking Time Calculator – Ideal Cooking Times | Free Online Tool",
+  "metaDescription": "Use our cooking time calculator for accurate cooking times. Free tool, no signup, instant results.",
+  "keywords": [
+    "cooking time calculator",
+    "meat cooking time",
+    "recipe cooking times",
+    "ideal cooking duration"
+  ],
+  "category": "Cooking",
+  "icon": "⏲️",
+  "faqs": [
+    {
+      "question": "How do I use the cooking time calculator?",
+      "answer": "Simply input the type of meat or dish, its weight, and select the cooking method to get the ideal cooking time."
+    },
+    {
+      "question": "Is this calculator accurate for all recipes?",
+      "answer": "While it provides a great guideline, cooking times can vary based on specific recipes and equipment."
+    },
+    {
+      "question": "Can I use this for baking as well?",
+      "answer": "This tool primarily focuses on cooking meat and main dishes, but it can offer insights for some baked goods."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "loan-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "meat-cooking-time-variant",
+      "metaTitle": "Meat Cooking Time Calculator",
+      "metaDescription": "Calculate precise cooking times for various meats.",
+      "keywords": [
+        "meat cooking times",
+        "poultry cooking calculator",
+        "beef cooking duration"
+      ],
+      "defaultVariant": "meat-variant-key",
+      "headline": "Get accurate cooking times for all types of meat."
+    },
+    {
+      "variantSlug": "baking-time-variant",
+      "metaTitle": "Baking Time Calculator",
+      "metaDescription": "Calculate baking times for cakes, cookies, and bread.",
+      "keywords": [
+        "baking time calculator",
+        "cake baking duration",
+        "cookie baking times"
+      ],
+      "defaultVariant": "baking-variant-key",
+      "headline": "Calculate the perfect baking times for your favorite treats."
+    }
+  ]
+}

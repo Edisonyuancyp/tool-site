@@ -1,0 +1,59 @@
+{
+  "slug": "time-blocking-scheduler",
+  "name": "Time Blocking Scheduler",
+  "tagline": "Plan your day with time blocks",
+  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
+  "metaTitle": "Time Blocking – Productivity Scheduler | Free Online Tool",
+  "metaDescription": "Plan your day using our free time blocking scheduler for improved productivity. No signup, instant results.",
+  "keywords": [
+    "time blocking",
+    "schedule planner",
+    "productivity schedule",
+    "daily planner",
+    "focus tool"
+  ],
+  "category": "Productivity",
+  "icon": "🗓️",
+  "faqs": [
+    {
+      "question": "How do I create a time block?",
+      "answer": "Simply input your tasks and the time you want to allocate for each, and the scheduler will organize them."
+    },
+    {
+      "question": "Can I adjust my time blocks?",
+      "answer": "Yes, you can easily adjust your time blocks as needed."
+    },
+    {
+      "question": "Is this suitable for team scheduling?",
+      "answer": "While primarily designed for individual use, it can also be adapted for team planning."
+    }
+  ],
+  "relatedTools": [
+    "task-priority-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "team-time-blocking",
+      "metaTitle": "Team Time Blocking Scheduler",
+      "metaDescription": "Schedule your team's time efficiently with this variant.",
+      "keywords": [
+        "team productivity",
+        "collaborative scheduling"
+      ],
+      "defaultVariant": "team-blocking-key",
+      "headline": "Optimize your team's scheduling with time blocks."
+    },
+    {
+      "variantSlug": "personal-time-blocking",
+      "metaTitle": "Personal Time Blocking Scheduler",
+      "metaDescription": "Focus on personal tasks with our time blocking tool.",
+      "keywords": [
+        "personal scheduling",
+        "individual time management"
+      ],
+      "defaultVariant": "personal-blocking-key",
+      "headline": "Perfect for managing your individual schedule effectively."
+    }
+  ]
+}

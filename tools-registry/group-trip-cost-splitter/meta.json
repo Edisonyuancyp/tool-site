@@ -1,0 +1,33 @@
+{
+  "slug": "group-trip-cost-splitter",
+  "name": "Group Trip Cost Splitter",
+  "tagline": "Split trip costs among friends easily.",
+  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
+  "metaTitle": "Group Trip Cost Splitter – Fair Trip Expense Sharing | Free Online Tool",
+  "metaDescription": "Easily split your group trip costs for free, with no signup needed. Get fair expense sharing results instantly!",
+  "keywords": [
+    "group trip cost splitter",
+    "expense sharing calculator",
+    "trip cost calculator",
+    "travel with friends",
+    "cost sharing tool"
+  ],
+  "category": "Travel",
+  "icon": "👥",
+  "faqs": [
+    {
+      "question": "How do I use the cost splitter?",
+      "answer": "Enter your total trip expenses and the number of travelers to calculate individual shares."
+    },
+    {
+      "question": "Can I add different types of expenses?",
+      "answer": "Currently, the tool calculates a total split based on one input expense amount."
+    },
+    {
+      "question": "Is this tool free?",
+      "answer": "Yes, the Group Trip Cost Splitter is completely free to use."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

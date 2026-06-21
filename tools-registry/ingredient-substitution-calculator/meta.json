@@ -1,0 +1,59 @@
+{
+  "slug": "ingredient-substitution-calculator",
+  "name": "Ingredient Substitution Calculator",
+  "tagline": "Find substitutes for missing ingredients.",
+  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
+  "metaTitle": "Ingredient Substitution Calculator – Cooking Alternatives | Free Online Tool",
+  "metaDescription": "Find ingredient substitutes instantly with our free tool. No signup required.",
+  "keywords": [
+    "ingredient substitution",
+    "recipe alternatives",
+    "cooking ingredient swaps"
+  ],
+  "category": "Cooking",
+  "icon": "🥄",
+  "faqs": [
+    {
+      "question": "How do I find a substitute for an ingredient?",
+      "answer": "Enter the ingredient you need to replace and the calculator will suggest suitable alternatives."
+    },
+    {
+      "question": "Are the substitutions always accurate?",
+      "answer": "Most suggestions are accurate, but the flavor and texture may vary depending on the substitute used."
+    },
+    {
+      "question": "Can I suggest new substitutes?",
+      "answer": "Yes! We welcome user suggestions to improve our database of ingredient alternatives."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "budget-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "vegetarian-substitution-variant",
+      "metaTitle": "Vegetarian Ingredient Substitution",
+      "metaDescription": "Find vegetarian alternatives for your recipes.",
+      "keywords": [
+        "vegetarian substitutes",
+        "plant-based ingredient swaps",
+        "vegan cooking alternatives"
+      ],
+      "defaultVariant": "vegetarian-variant-key",
+      "headline": "Discover plant-based substitutes for common ingredients."
+    },
+    {
+      "variantSlug": "gluten-free-substitution-variant",
+      "metaTitle": "Gluten-Free Ingredient Substitution",
+      "metaDescription": "Find gluten-free alternatives for your cooking needs.",
+      "keywords": [
+        "gluten-free substitutes",
+        "cooking without gluten",
+        "gluten alternatives"
+      ],
+      "defaultVariant": "gluten-free-variant-key",
+      "headline": "Easily find gluten-free alternatives for your favorite recipes."
+    }
+  ]
+}

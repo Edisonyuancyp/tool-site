@@ -1,0 +1,60 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "Task Priority Calculator",
+  "tagline": "Rank your tasks for maximum efficiency",
+  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
+  "metaTitle": "Task Priority – Productivity Tool | Free Online Tool",
+  "metaDescription": "Use our free task priority calculator to rank your tasks by urgency and importance for better productivity. No signup, instant results.",
+  "keywords": [
+    "task priority",
+    "task ranking tool",
+    "urgent tasks",
+    "important tasks",
+    "productivity calculator"
+  ],
+  "category": "Productivity",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "How does the calculator work?",
+      "answer": "You input your tasks with urgency and importance ratings, and the calculator ranks them for you."
+    },
+    {
+      "question": "Is it really free?",
+      "answer": "Yes, this tool is completely free to use, with no hidden fees or signup required."
+    },
+    {
+      "question": "Can I use it for team tasks?",
+      "answer": "Absolutely! You can use this tool for both personal and team task prioritization."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": [
+    {
+      "variantSlug": "team-task-priority",
+      "metaTitle": "Team Task Priority Calculator",
+      "metaDescription": "Prioritize team tasks efficiently with our free tool.",
+      "keywords": [
+        "team tasks",
+        "collaboration",
+        "task management"
+      ],
+      "defaultVariant": "team-key",
+      "headline": "Optimize your team's task management with this variant."
+    },
+    {
+      "variantSlug": "personal-task-priority",
+      "metaTitle": "Personal Task Priority Calculator",
+      "metaDescription": "Focus on personal tasks with our easy-to-use tool.",
+      "keywords": [
+        "personal tasks",
+        "individual productivity"
+      ],
+      "defaultVariant": "personal-key",
+      "headline": "Perfect for managing and prioritizing your personal tasks."
+    }
+  ]
+}

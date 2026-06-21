@@ -1,0 +1,60 @@
+{
+  "slug": "serving-size-calculator",
+  "name": "Serving Size Calculator",
+  "tagline": "Adjust recipes for any number of servings.",
+  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
+  "metaTitle": "Serving Size Calculator – Adjust Recipe Portions | Free Online Tool",
+  "metaDescription": "Easily adjust ingredients based on servings with our free tool. No signup needed.",
+  "keywords": [
+    "serving size calculator",
+    "recipe scaling",
+    "portion calculator",
+    "meal prep servings"
+  ],
+  "category": "Cooking",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "How do I scale a recipe?",
+      "answer": "Input the original serving size and your desired serving size to get precise ingredient amounts."
+    },
+    {
+      "question": "Can this work for any recipe?",
+      "answer": "Yes, it works for most recipes, making adjustments for any ingredient."
+    },
+    {
+      "question": "What if I want to adjust only one ingredient?",
+      "answer": "You can adjust individual ingredients by entering their original amounts and desired servings."
+    }
+  ],
+  "relatedTools": [
+    "body-fat-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": [
+    {
+      "variantSlug": "small-batch-serving-variant",
+      "metaTitle": "Small Batch Serving Size Calculator",
+      "metaDescription": "Scale recipes down for smaller portions.",
+      "keywords": [
+        "small batch recipes",
+        "mini servings",
+        "tiny recipe calculator"
+      ],
+      "defaultVariant": "small-batch-variant-key",
+      "headline": "Easily adjust recipes for smaller gatherings or meals."
+    },
+    {
+      "variantSlug": "family-size-serving-variant",
+      "metaTitle": "Family Size Serving Size Calculator",
+      "metaDescription": "Scale recipes up for family meals.",
+      "keywords": [
+        "family-sized recipes",
+        "large servings",
+        "big batch calculator"
+      ],
+      "defaultVariant": "family-size-variant-key",
+      "headline": "Adjust recipes to feed the whole family with ease."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "travel-time-calculator",
+  "name": "Travel Time Calculator",
+  "tagline": "Calculate how long your trip will take.",
+  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
+  "metaTitle": "Travel Time Calculator – Trip Duration Estimator | Free Online Tool",
+  "metaDescription": "Calculate your travel time for free with no signup required. Get instant trip duration estimates easily!",
+  "keywords": [
+    "travel time calculator",
+    "trip duration estimator",
+    "calculate travel time",
+    "road trip planner",
+    "travel duration"
+  ],
+  "category": "Travel",
+  "icon": "⏳",
+  "faqs": [
+    {
+      "question": "How do I calculate my travel time?",
+      "answer": "Input the distance and your average speed to get an estimated travel time."
+    },
+    {
+      "question": "Can I use this for different travel modes?",
+      "answer": "Yes, you can adjust the average speed based on your travel method."
+    },
+    {
+      "question": "Is there a limit to the distance I can enter?",
+      "answer": "No, you can input any distance for your travel time estimation."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

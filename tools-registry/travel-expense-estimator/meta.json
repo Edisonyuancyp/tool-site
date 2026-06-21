@@ -1,0 +1,33 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "Travel Expense Estimator",
+  "tagline": "Estimate your trip costs quickly.",
+  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
+  "metaTitle": "Travel Expense Estimator – Budget Trip Planner | Free Online Tool",
+  "metaDescription": "Estimate your travel expenses instantly for free, no signup needed. Get a clear budget for your next adventure!",
+  "keywords": [
+    "travel expense estimator",
+    "trip costs calculator",
+    "budget travel tool",
+    "travel budgeting",
+    "cost of travel"
+  ],
+  "category": "Travel",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "How do I calculate my travel expenses?",
+      "answer": "Enter your destination, travel mode, duration, and daily costs for an estimate."
+    },
+    {
+      "question": "Can I save my estimates?",
+      "answer": "Currently, the tool does not support saving estimates, but you can note them down."
+    },
+    {
+      "question": "Is this tool free to use?",
+      "answer": "Yes, the Travel Expense Estimator is completely free with no signup required."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

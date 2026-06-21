@@ -1,0 +1,36 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "Fitness Level Quiz",
+  "tagline": "Assess your fitness level today!",
+  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
+  "metaTitle": "Fitness Level Quiz – Self-Assessment Tool | Free Online Tool",
+  "metaDescription": "Assess your fitness level with this fun and quick quiz. Get instant results for free, no signup required!",
+  "keywords": [
+    "fitness level quiz",
+    "self-assessment",
+    "exercise habits",
+    "fitness evaluation",
+    "health quiz"
+  ],
+  "category": "Fitness",
+  "icon": "🏋️‍♀️",
+  "faqs": [
+    {
+      "question": "How long does the quiz take?",
+      "answer": "The quiz takes about 5 minutes to complete, providing a quick overview of your fitness level."
+    },
+    {
+      "question": "What will I learn from the results?",
+      "answer": "You'll get insights into your current fitness level and tips on how to improve."
+    },
+    {
+      "question": "Is there a cost to take the quiz?",
+      "answer": "No, the quiz is completely free with no signup required."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}
