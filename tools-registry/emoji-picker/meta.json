@@ -1,0 +1,43 @@
+{
+  "slug": "emoji-picker",
+  "name": "Emoji Picker",
+  "tagline": "Search, copy, and use any emoji instantly",
+  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
+  "metaTitle": "Emoji Picker – Search and Copy Any Emoji Online Free",
+  "metaDescription": "Search and copy any emoji instantly. Browse all emoji categories — smileys, animals, food, flags, and more. Free online emoji picker — click to copy.",
+  "keywords": ["emoji picker", "emoji search", "copy emoji online", "find emoji by keyword", "emoji keyboard online"],
+  "category": "Utilities",
+  "icon": "😊",
+  "faqs": [
+    { "question": "How do I copy an emoji?", "answer": "Click any emoji to copy it to your clipboard. You can then paste it anywhere — in messages, documents, social media, or code." },
+    { "question": "Can I search for emoji by name?", "answer": "Yes. Type any keyword in the search box to find matching emojis by name, category, or description." },
+    { "question": "Which emoji versions are supported?", "answer": "The picker supports all Unicode 15.0 emoji, which covers all modern emoji available on iOS, Android, Windows, and macOS." }
+  ],
+  "relatedTools": ["text-case-converter", "word-counter", "random-number-generator"],
+  "variants": [
+    {
+      "variantSlug": "heart-emoji-copy-paste",
+      "metaTitle": "Heart Emoji Copy and Paste – All Heart Emojis ❤️🧡💛",
+      "metaDescription": "Copy and paste heart emojis. All heart emojis in one place — red heart, pink heart, broken heart, sparkling heart, and more. Click to copy any heart emoji.",
+      "keywords": ["heart emoji copy paste", "all heart emojis", "❤️ copy paste", "heart emoji list", "heart symbols copy paste"],
+      "defaultVariant": "hearts",
+      "headline": "Every heart emoji in one place — click to copy any heart instantly. From ❤️ to 💔, 🖤 to 🩷, all 30+ heart variants ready to paste."
+    },
+    {
+      "variantSlug": "face-emoji-copy-paste",
+      "metaTitle": "Face Emoji Copy and Paste – All Smiley Face Emojis 😀😂🥹",
+      "metaDescription": "Copy and paste face and smiley emojis. All face emojis in one place — happy, sad, crying, laughing, and more. Click to copy any face emoji.",
+      "keywords": ["face emoji copy paste", "smiley emoji copy paste", "all face emojis", "smiley face emoji list", "emoji faces copy paste"],
+      "defaultVariant": "faces",
+      "headline": "Every smiley and face emoji in one place — click to copy instantly. From 😀 to 😭, 😂 to 🥹, all facial expression emojis ready to paste."
+    },
+    {
+      "variantSlug": "flag-emoji-copy-paste",
+      "metaTitle": "Flag Emoji Copy and Paste – Country Flag Emojis 🏳️🇺🇸🇬🇧",
+      "metaDescription": "Copy and paste country flag emojis. Find any country's flag emoji and copy it instantly. All 250+ country flags available.",
+      "keywords": ["flag emoji copy paste", "country flag emoji", "national flag emoji", "flag emojis all countries", "copy flag emoji"],
+      "defaultVariant": "flags",
+      "headline": "All 250+ country flag emojis in one place. Search by country name or browse the full list — click to copy any flag emoji instantly."
+    }
+  ]
+}

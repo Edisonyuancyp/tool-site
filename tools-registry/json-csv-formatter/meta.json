@@ -1,0 +1,43 @@
+{
+  "slug": "json-csv-formatter",
+  "name": "JSON & CSV Formatter / Validator",
+  "tagline": "Format, validate, and convert JSON and CSV instantly in your browser",
+  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
+  "metaTitle": "JSON CSV Formatter & Validator – Online JSON Beautifier & CSV Converter",
+  "metaDescription": "Free online JSON formatter, validator, and CSV formatter. Paste JSON to beautify or minify. Paste CSV to format or convert to JSON. Supports all delimiters. Browser-only.",
+  "keywords": ["json formatter online", "json validator", "csv formatter online", "json beautifier", "csv to json converter"],
+  "category": "Developer",
+  "icon": "📋",
+  "faqs": [
+    { "question": "What does JSON formatting do?", "answer": "JSON formatting (beautifying) adds consistent indentation and line breaks to make compact JSON human-readable. Minifying removes all whitespace to reduce file size." },
+    { "question": "Is my data sent to a server?", "answer": "No. All formatting and validation runs entirely in your browser. Your data never leaves your device." },
+    { "question": "What CSV delimiters are supported?", "answer": "Comma (,), semicolon (;), tab (TSV), and pipe (|). The tool also handles RFC 4180 quoted fields and escaped quotes." }
+  ],
+  "relatedTools": ["diff-checker", "base64-tool", "word-counter"],
+  "variants": [
+    {
+      "variantSlug": "json-formatter-online",
+      "metaTitle": "JSON Formatter Online – Beautify & Pretty Print JSON",
+      "metaDescription": "Format and beautify JSON online instantly. Pretty print JSON with proper indentation. Free JSON formatter — validate, format, and copy. Browser-only.",
+      "keywords": ["json formatter online", "json beautifier", "pretty print json", "format json online", "json pretty printer"],
+      "defaultVariant": "json-format",
+      "headline": "Paste minified or messy JSON to instantly format it with proper indentation. Also validates your JSON and reports any syntax errors."
+    },
+    {
+      "variantSlug": "json-validator-online",
+      "metaTitle": "JSON Validator Online – Check if JSON is Valid",
+      "metaDescription": "Validate JSON online instantly. Check if your JSON is valid, find syntax errors, and see the structure. Free JSON validator — browser-only.",
+      "keywords": ["json validator online", "validate json", "check json syntax", "is my json valid", "json syntax checker"],
+      "defaultVariant": "json-validate",
+      "headline": "Paste any JSON to validate it instantly. The validator shows exactly where syntax errors occur and counts keys and nested objects."
+    },
+    {
+      "variantSlug": "csv-to-json-converter",
+      "metaTitle": "CSV to JSON Converter – Convert CSV File to JSON Online",
+      "metaDescription": "Convert CSV to JSON online instantly. Paste your CSV data and get a clean JSON array. Free CSV to JSON converter — supports all delimiters, browser-only.",
+      "keywords": ["csv to json converter", "convert csv to json", "csv json online", "csv to json array", "csv to json free"],
+      "defaultVariant": "csv-json",
+      "headline": "Convert any CSV file or data to a JSON array. Supports comma, semicolon, tab, and pipe delimiters. Each row becomes a JSON object with column names as keys."
+    }
+  ]
+}

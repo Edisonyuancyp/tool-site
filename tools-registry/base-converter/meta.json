@@ -1,0 +1,43 @@
+{
+  "slug": "base-converter",
+  "name": "Number Base Converter",
+  "tagline": "Convert numbers between any bases — binary, octal, decimal, hex, and more",
+  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
+  "metaTitle": "Number Base Converter – Binary, Octal, Decimal, Hex & All Bases",
+  "metaDescription": "Free number base converter. Convert between binary, octal, decimal, hex, base 32, base 36, base 58, and all bases 2–64. BigInt precision, instant conversion.",
+  "keywords": ["number base converter", "binary to decimal converter", "hex to decimal converter", "binary octal hex converter", "base conversion calculator"],
+  "category": "Developer",
+  "icon": "🔢",
+  "faqs": [
+    { "question": "What bases are supported?", "answer": "All integer bases from 2 to 64, including Binary (2), Octal (8), Decimal (10), Hexadecimal (16), Base32 (32), Base36 (36), Base58 (Bitcoin, 58), and Base64 (64)." },
+    { "question": "What is hexadecimal used for?", "answer": "Hex is ubiquitous in computing: memory addresses, color codes (#FF5733), byte values, hash outputs (MD5, SHA256), and CPU instruction sets." },
+    { "question": "What is the difference between Base58 and Base64?", "answer": "Base58 omits visually ambiguous characters (0, O, I, l) to prevent human transcription errors. Base64 uses the full 64-character alphabet and is designed for machine-to-machine data encoding." }
+  ],
+  "relatedTools": ["base64-tool", "unix-timestamp-converter", "diff-checker"],
+  "variants": [
+    {
+      "variantSlug": "binary-to-decimal",
+      "metaTitle": "Binary to Decimal Converter – Convert Binary Numbers Online",
+      "metaDescription": "Convert binary numbers to decimal instantly. Free binary to decimal converter — enter any binary number and get the decimal result. Also shows hex and octal.",
+      "keywords": ["binary to decimal converter", "binary to decimal", "convert binary to decimal", "binary number converter", "base 2 to base 10"],
+      "defaultVariant": "binary-decimal",
+      "headline": "Convert binary (base 2) numbers to decimal (base 10). Also shows the octal and hexadecimal equivalents. Uses BigInt for numbers of any size."
+    },
+    {
+      "variantSlug": "hex-to-decimal",
+      "metaTitle": "Hex to Decimal Converter – Hexadecimal to Decimal Online",
+      "metaDescription": "Convert hexadecimal to decimal instantly. Free hex to decimal converter — enter any hex value and get the decimal result. Also shows binary and octal.",
+      "keywords": ["hex to decimal converter", "hexadecimal to decimal", "convert hex to decimal", "hex number converter", "base 16 to base 10"],
+      "defaultVariant": "hex-decimal",
+      "headline": "Convert hexadecimal (base 16) values to decimal (base 10). Commonly used for color codes, memory addresses, and cryptographic hashes."
+    },
+    {
+      "variantSlug": "decimal-to-binary",
+      "metaTitle": "Decimal to Binary Converter – Convert Numbers to Binary Online",
+      "metaDescription": "Convert decimal numbers to binary instantly. Free decimal to binary converter — shows the binary, hex, and octal equivalents. Browser-only.",
+      "keywords": ["decimal to binary converter", "decimal to binary", "convert decimal to binary", "number to binary", "base 10 to base 2"],
+      "defaultVariant": "decimal-binary",
+      "headline": "Convert decimal (base 10) numbers to binary (base 2). Also shows the hexadecimal and octal representation. Supports numbers of any size using BigInt."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "Body Fat Percentage Calculator",
+  "tagline": "Calculate your body fat % using the US Navy measurement method",
+  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
+  "metaTitle": "Body Fat Percentage Calculator – US Navy Method (Waist, Neck, Hip)",
+  "metaDescription": "Free body fat percentage calculator using the US Navy method. Enter waist, neck, and hip measurements to calculate body fat %, fat mass, lean mass, and fitness category.",
+  "keywords": ["body fat percentage calculator", "navy body fat calculator", "body fat calculator waist neck hip", "how to calculate body fat", "body fat percentage measurement"],
+  "category": "Health",
+  "icon": "💪",
+  "faqs": [
+    { "question": "How accurate is the US Navy body fat method?", "answer": "The US Navy method has an error of ±3–4% compared to DEXA (gold standard). It's significantly more useful than BMI for fitness tracking." },
+    { "question": "What body fat percentage is considered healthy?", "answer": "For men: Athletic 6–13%, Fitness 14–17%, Average 18–24%. For women: Athletic 14–20%, Fitness 21–24%, Average 25–31%." }
+  ],
+  "relatedTools": ["bmi-calculator", "ideal-weight-calculator", "bmr-tdee-calculator"],
+  "variants": [
+    {
+      "variantSlug": "body-fat-calculator-female",
+      "metaTitle": "Body Fat Calculator for Women – Female Body Fat Percentage",
+      "metaDescription": "Calculate body fat percentage for women using the US Navy method. Enter waist, neck, and hip measurements. Free female body fat calculator.",
+      "keywords": ["body fat calculator female", "body fat percentage women", "female body fat calculator", "navy method women", "how to measure body fat women"],
+      "defaultVariant": "female",
+      "headline": "Calculate body fat percentage for women using the US Navy circumference method. Requires waist, neck, and hip measurements — no calipers or DEXA needed."
+    },
+    {
+      "variantSlug": "body-fat-calculator-male",
+      "metaTitle": "Body Fat Calculator for Men – Male Body Fat Percentage",
+      "metaDescription": "Calculate body fat percentage for men using the US Navy method. Enter waist and neck measurements. Free male body fat calculator.",
+      "keywords": ["body fat calculator male", "body fat percentage men", "male body fat calculator", "navy method men", "how to measure body fat men"],
+      "defaultVariant": "male",
+      "headline": "Calculate body fat percentage for men using the US Navy circumference method. Requires only waist and neck measurements."
+    },
+    {
+      "variantSlug": "body-fat-calculator-imperial",
+      "metaTitle": "Body Fat Calculator Inches & Pounds – Imperial Unit Body Fat",
+      "metaDescription": "Calculate body fat percentage using inches and pounds. US Navy method with imperial units. Free body fat calculator in lbs and inches.",
+      "keywords": ["body fat calculator inches", "body fat calculator pounds", "body fat imperial units", "navy body fat lbs inches", "body fat calculator usa"],
+      "defaultVariant": "imperial",
+      "headline": "Calculate body fat percentage using measurements in inches and weight in pounds — no metric conversion needed."
+    }
+  ]
+}

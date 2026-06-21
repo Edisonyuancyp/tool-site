@@ -1,0 +1,42 @@
+{
+  "slug": "ideal-weight-calculator",
+  "name": "Ideal Weight Calculator",
+  "tagline": "Find your ideal weight using 4 medical formulas + healthy BMI range",
+  "description": "Calculate your ideal body weight using the Robinson, Miller, Devine, and Hamwi formulas, plus the healthy BMI range. Enter your height and gender to compare all four results.",
+  "metaTitle": "Ideal Weight Calculator – Robinson, Miller, Devine & Hamwi Formulas",
+  "metaDescription": "Free ideal weight calculator using 4 medical formulas. Enter height and gender to find your ideal weight by Robinson, Miller, Devine, and Hamwi methods plus healthy BMI range.",
+  "keywords": ["ideal weight calculator", "what should I weigh", "ideal body weight formula", "healthy weight calculator", "Robinson Devine Miller Hamwi formula"],
+  "category": "Health",
+  "icon": "⚖️",
+  "faqs": [
+    { "question": "Which ideal weight formula is most accurate?", "answer": "The Robinson (1983) formula is the most widely cited in modern literature. However, all four formulas are estimates for average-framed adults." },
+    { "question": "Why are the formulas different from BMI?", "answer": "BMI gives a range based purely on height, while these formulas give a single target weight based on clinical observations." }
+  ],
+  "relatedTools": ["bmi-calculator", "body-fat-calculator", "bmr-tdee-calculator"],
+  "variants": [
+    {
+      "variantSlug": "ideal-weight-calculator-female",
+      "metaTitle": "Ideal Weight Calculator for Women – Healthy Weight for Females",
+      "metaDescription": "Calculate ideal body weight for women using Robinson, Miller, Devine, and Hamwi formulas. Free ideal weight calculator for females.",
+      "keywords": ["ideal weight calculator female", "ideal weight for women", "healthy weight calculator women", "what should a woman weigh", "ideal body weight female"],
+      "defaultVariant": "female",
+      "headline": "Find your ideal weight as a woman using four established medical formulas. Results show the target weight range for your height based on female-specific calculations."
+    },
+    {
+      "variantSlug": "ideal-weight-calculator-male",
+      "metaTitle": "Ideal Weight Calculator for Men – Healthy Weight for Males",
+      "metaDescription": "Calculate ideal body weight for men using Robinson, Miller, Devine, and Hamwi formulas. Free ideal weight calculator for males.",
+      "keywords": ["ideal weight calculator male", "ideal weight for men", "healthy weight calculator men", "what should a man weigh", "ideal body weight male"],
+      "defaultVariant": "male",
+      "headline": "Find your ideal weight as a man using four established medical formulas. Compares Robinson, Miller, Devine, and Hamwi results side by side."
+    },
+    {
+      "variantSlug": "ideal-weight-calculator-height",
+      "metaTitle": "Ideal Weight by Height Chart – Weight for Height Calculator",
+      "metaDescription": "Find the ideal weight for your height. See healthy weight ranges for every height from 4'10\" to 6'6\". Free ideal weight by height calculator.",
+      "keywords": ["ideal weight for height", "weight for height calculator", "ideal weight chart by height", "healthy weight by height", "weight height chart"],
+      "defaultVariant": "height-chart",
+      "headline": "See the ideal weight range for your exact height using all four medical formulas. Includes a reference chart showing healthy weight ranges from 150cm to 200cm."
+    }
+  ]
+}

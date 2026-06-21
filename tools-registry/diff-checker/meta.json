@@ -1,0 +1,43 @@
+{
+  "slug": "diff-checker",
+  "name": "Online Diff Checker",
+  "tagline": "Compare two texts, files, or code snippets side by side",
+  "description": "Paste two pieces of text to instantly see additions, deletions, and unchanged lines highlighted. Supports split view and unified view, ignore whitespace, ignore case, and comes with code and JSON samples.",
+  "metaTitle": "Online Diff Checker – Compare Text, Code & JSON Side by Side",
+  "metaDescription": "Free online diff checker. Compare two texts, code files, or JSON side by side with line-by-line highlighting. Split and unified view, ignore whitespace, no server needed.",
+  "keywords": ["online diff checker", "text diff tool", "code comparison tool", "diff viewer online", "compare two texts online"],
+  "category": "Developer",
+  "icon": "🔍",
+  "faqs": [
+    { "question": "Is my data sent to a server?", "answer": "No. The diff is computed entirely in your browser using JavaScript. Your text never leaves your device." },
+    { "question": "What diff algorithm is used?", "answer": "The tool uses the Myers diff algorithm — the same algorithm used by Git, GNU diff, and most modern version control systems." },
+    { "question": "What does 'ignore whitespace' do?", "answer": "When enabled, leading and trailing spaces are trimmed from each line before comparison. Lines that differ only in indentation will be treated as equal." }
+  ],
+  "relatedTools": ["json-csv-formatter", "base64-tool", "word-counter"],
+  "variants": [
+    {
+      "variantSlug": "json-diff-checker",
+      "metaTitle": "JSON Diff Checker – Compare Two JSON Files Online",
+      "metaDescription": "Compare two JSON files or objects side by side. Find differences in keys and values. Free JSON diff tool — browser-only, no data sent to servers.",
+      "keywords": ["json diff checker", "compare json online", "json difference finder", "json comparison tool", "diff two json files"],
+      "defaultVariant": "json",
+      "headline": "Compare two JSON objects to find added, removed, or changed keys and values. Preloaded with JSON samples — just paste your own data."
+    },
+    {
+      "variantSlug": "code-diff-checker",
+      "metaTitle": "Code Diff Checker – Compare Code Files Online Side by Side",
+      "metaDescription": "Compare two code files or snippets side by side. Syntax-aware diff with line numbers. Free online code comparison tool — no signup required.",
+      "keywords": ["code diff checker", "compare code online", "code comparison tool", "source code diff", "diff two files online"],
+      "defaultVariant": "code",
+      "headline": "Compare two code files side by side. Changes are highlighted line-by-line — perfect for code review, version comparison, and debugging."
+    },
+    {
+      "variantSlug": "text-compare-online",
+      "metaTitle": "Text Compare Online – Find Differences Between Two Texts",
+      "metaDescription": "Compare two texts online and find all differences instantly. Word-level and line-level diff. Free text comparison tool — private, browser-only.",
+      "keywords": ["text compare online", "compare two texts", "find differences in text", "text difference finder", "online text comparison"],
+      "defaultVariant": "text",
+      "headline": "Paste two texts to see every addition, deletion, and change highlighted. Perfect for comparing document versions, proofreading edits, and contract reviews."
+    }
+  ]
+}

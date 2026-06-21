@@ -1,0 +1,44 @@
+{
+  "slug": "age-calculator",
+  "name": "Age Calculator",
+  "tagline": "Find your exact age in years, months, and days",
+  "description": "Calculate your exact age from your date of birth to today — or to any specific date. Get results in years, months, days, hours, and minutes instantly.",
+  "metaTitle": "Age Calculator – Find Your Exact Age Online Free",
+  "metaDescription": "Calculate your exact age from your date of birth. Get your age in years, months, and days instantly. Free age calculator — no signup required.",
+  "keywords": ["age calculator", "calculate age from date of birth", "how old am i", "exact age calculator", "date of birth calculator"],
+  "category": "Date & Time",
+  "icon": "📅",
+  "faqs": [
+    { "question": "How do I calculate my exact age?", "answer": "Enter your date of birth into the age calculator above. It will compute the precise difference between your birth date and today in years, months, and days." },
+    { "question": "Can I calculate age between two specific dates?", "answer": "Yes. Set your start date as the birth date and your end date as any target date to find the exact age or duration between them." },
+    { "question": "How many days old am I?", "answer": "The calculator shows your total age in days along with years and months. Simply enter your birthdate to see the result." },
+    { "question": "Does the age calculator account for leap years?", "answer": "Yes. The calculator correctly handles leap years when computing days and total durations." }
+  ],
+  "relatedTools": ["bmi-calculator", "holiday-calculator", "unix-timestamp-converter"],
+  "variants": [
+    {
+      "variantSlug": "days-old-calculator",
+      "metaTitle": "How Many Days Old Am I? – Days Old Calculator",
+      "metaDescription": "Calculate exactly how many days old you are. Find your age in total days, weeks, hours, and minutes. Free days old calculator.",
+      "keywords": ["how many days old am i", "days old calculator", "age in days calculator", "how old am i in days", "calculate age in days"],
+      "defaultVariant": "days",
+      "headline": "Find out exactly how many days, weeks, and hours old you are. More precise than years — every day counts."
+    },
+    {
+      "variantSlug": "age-difference-calculator",
+      "metaTitle": "Age Difference Calculator – How Many Years Between Two People",
+      "metaDescription": "Calculate the age difference between two people or two dates. Find exact years, months, and days between any two birthdates. Free age gap calculator.",
+      "keywords": ["age difference calculator", "age gap calculator", "calculate age difference", "how many years between two dates", "age between two people"],
+      "defaultVariant": "difference",
+      "headline": "Calculate the exact age difference between two people. Enter both birthdates to find the gap in years, months, and days."
+    },
+    {
+      "variantSlug": "retirement-age-calculator",
+      "metaTitle": "Retirement Age Calculator – How Many Years Until Retirement",
+      "metaDescription": "Calculate how many years until you can retire. Find your retirement date based on your current age and target retirement age. Free retirement countdown calculator.",
+      "keywords": ["retirement age calculator", "years until retirement calculator", "when can i retire calculator", "retirement countdown", "how many years to retirement"],
+      "defaultVariant": "retirement",
+      "headline": "Calculate how many years, months, and days until you reach your target retirement age. Plan ahead with a clear countdown to your retirement date."
+    }
+  ]
+}
