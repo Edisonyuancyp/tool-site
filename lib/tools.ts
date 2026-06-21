@@ -1032,13 +1032,20 @@ export const CATEGORY_URL_PREFIX: Record<string, string> = {
   Math:          "calc",
   Health:        "calc",
   Crypto:        "calc",
+  Fitness:       "calc",
+  Quant:         "calc",
   Design:        "design",
   Generators:    "design",
   Developer:     "dev",
   Text:          "dev",
   Security:      "dev",
+  Content:       "dev",
+  Utilities:     "dev",
   "Date & Time": "time",
+  Travel:        "time",
   Converter:     "converter",
+  Cooking:       "converter",
+  Productivity:  "converter",
 };
 
 /** Returns the canonical URL path for a tool, e.g. /tools/dev/base-converter */

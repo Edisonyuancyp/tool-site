@@ -13,11 +13,11 @@ interface Props {
 const VALID_CATEGORIES = new Set(Object.values(CATEGORY_URL_PREFIX));
 
 const CATEGORY_TITLES: Record<string, { title: string; description: string }> = {
-  calc:      { title: "Calculators",        description: "Finance, health, math, and crypto calculators — free, instant, no signup." },
-  dev:       { title: "Developer Tools",    description: "Encoding, decoding, formatting, and security tools for developers." },
-  design:    { title: "Design & Generators",description: "Color tools, QR codes, generators, and design utilities." },
-  time:      { title: "Date & Time Tools",  description: "Timestamps, age calculators, holiday finders, and more." },
-  converter: { title: "Unit Converters",    description: "Convert length, weight, temperature, and other units instantly." },
+  calc:      { title: "Calculators",              description: "Finance, health, fitness, math, and crypto calculators — free, instant, no signup." },
+  dev:       { title: "Developer Tools",          description: "Encoding, decoding, formatting, security, content, and utility tools for developers." },
+  design:    { title: "Design & Generators",      description: "Color tools, QR codes, generators, and design utilities." },
+  time:      { title: "Date, Time & Travel Tools",description: "Timestamps, age calculators, travel tools, holiday finders, and more." },
+  converter: { title: "Converters & Productivity",description: "Unit converters, cooking calculators, and productivity tools." },
 };
 
 export async function generateStaticParams() {

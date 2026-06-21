@@ -10,15 +10,15 @@ const CATEGORY_META: Record<string, {
 }> = {
   calc: {
     title: "Calculators",
-    description: "Financial, health, math, and crypto calculators — get instant results without sign-up.",
+    description: "Finance, health, fitness, math, and crypto calculators — get instant results without sign-up.",
     icon: "🧮",
-    categories: ["Finance", "Math", "Health", "Crypto"],
+    categories: ["Finance", "Math", "Health", "Crypto", "Fitness", "Quant"],
   },
   dev: {
     title: "Developer Tools",
-    description: "Encoding, decoding, formatting, security, and text tools for developers.",
+    description: "Encoding, decoding, formatting, security, content, and utility tools for developers.",
     icon: "💻",
-    categories: ["Developer", "Text", "Security"],
+    categories: ["Developer", "Text", "Security", "Content", "Utilities"],
   },
   design: {
     title: "Design & Generator Tools",
@@ -27,16 +27,16 @@ const CATEGORY_META: Record<string, {
     categories: ["Design", "Generators"],
   },
   time: {
-    title: "Date & Time Tools",
-    description: "Time zone converters, timestamp tools, and date calculators.",
+    title: "Date, Time & Travel Tools",
+    description: "Time zone converters, timestamp tools, date calculators, and travel utilities.",
     icon: "🕐",
-    categories: ["Date & Time"],
+    categories: ["Date & Time", "Travel"],
   },
   converter: {
-    title: "Converters",
-    description: "Unit conversion tools for length, weight, temperature, and more.",
+    title: "Converters & Productivity",
+    description: "Unit converters, cooking calculators, and productivity tools.",
     icon: "🔄",
-    categories: ["Converter"],
+    categories: ["Converter", "Cooking", "Productivity"],
   },
 };
 
