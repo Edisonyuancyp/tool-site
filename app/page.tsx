@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HomeSchema from "@/components/HomeSchema";
 import ToolGrid from "@/components/ToolGrid";
+import ToolRequestBanner from "@/components/ToolRequestBanner";
 
 export default function Home() {
   const allTools = mergeWithRegistry(registryToToolMetas());
@@ -23,6 +24,11 @@ export default function Home() {
               Fast, free tools that work instantly in your browser.
               No signup. No ads. Just results.
             </p>
+          </div>
+
+          {/* Tool request banner */}
+          <div className="mb-10">
+            <ToolRequestBanner />
           </div>
 
           <ToolGrid tools={allTools} />
