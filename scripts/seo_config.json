@@ -234,6 +234,58 @@
       ]
     },
 
+    "Business": {
+      "url_prefix": "finance",
+      "seed_keywords": [
+        "free business calculator",
+        "online financial tool",
+        "no signup required",
+        "instant results"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Instant results, no signup required.",
+      "title_template": "{name} – Free Business {type} | GetFastCalc",
+      "h1_tendency": "accurate {name}",
+      "pain_points": [
+        "How to calculate {topic} quickly without Excel",
+        "Best free {name} for small business owners",
+        "What is the formula for {topic}",
+        "Free {name} online — instant results",
+        "How to work out {topic} percentage"
+      ],
+      "long_tail_suffixes": [
+        "calculator free online",
+        "formula calculator",
+        "business tool no signup",
+        "instant results"
+      ]
+    },
+
+    "Content": {
+      "url_prefix": "content",
+      "seed_keywords": [
+        "free writing tool",
+        "online text utility",
+        "no software needed",
+        "instant results"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Works instantly in your browser. No software, no signup.",
+      "title_template": "{name} – Free Online {type} | GetFastCalc",
+      "h1_tendency": "instant {name}",
+      "pain_points": [
+        "How to {topic} text online for free",
+        "Best free {name} tool for writers",
+        "Free {name} — no Word, no software needed",
+        "Quick {topic} tool that works in browser",
+        "How many {topic} does my text have"
+      ],
+      "long_tail_suffixes": [
+        "tool online free",
+        "checker no signup",
+        "converter browser",
+        "instant results"
+      ]
+    },
+
     "Quant": {
       "url_prefix": "quant",
       "seed_keywords": [

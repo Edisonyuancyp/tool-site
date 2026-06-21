@@ -1,0 +1,48 @@
+{
+  "slug": "url-encoder",
+  "name": "URL Encoder / Decoder",
+  "tagline": "Encode or decode URL strings instantly — no signup, no ads",
+  "description": "Encode special characters in URLs or decode percent-encoded strings back to readable text. Essential for debugging APIs, query strings, and web requests.",
+  "metaTitle": "URL Encoder / Decoder – Free Online Tool | GetFastCalc",
+  "metaDescription": "Free URL encoder and decoder. Encode special characters or decode percent-encoded URLs instantly in your browser. No signup, no ads.",
+  "keywords": [
+    "url encoder decoder",
+    "percent encoding tool",
+    "url encode online free",
+    "decode url string",
+    "url decode online",
+    "encode url special characters",
+    "urlencode urldecode tool",
+    "api url encoder free"
+  ],
+  "category": "Developer",
+  "urlPath": "/tools/dev/url-encoder",
+  "icon": "🔗",
+  "seoContent": {
+    "h1Tendency": "fast URL Encoder / Decoder",
+    "painPoints": [
+      "How to decode a percent-encoded URL string online",
+      "How to encode special characters in a URL for free",
+      "Best free URL encoder decoder tool — no signup",
+      "How to fix %20 and other URL encoding issues",
+      "URL encode query strings for API requests instantly"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "What is URL encoding?",
+      "answer": "URL encoding (percent-encoding) replaces special characters in a URL with a % followed by two hexadecimal digits. For example, a space becomes %20. This ensures URLs are valid and safely transmitted over the internet."
+    },
+    {
+      "question": "When do I need to URL encode a string?",
+      "answer": "You need URL encoding when passing special characters (spaces, &, =, ?, #, etc.) in query parameters or when building API requests programmatically."
+    },
+    {
+      "question": "What is the difference between encodeURI and encodeURIComponent?",
+      "answer": "encodeURI encodes a full URL and preserves characters like /, ?, &. encodeURIComponent encodes a single value within a URL and encodes those reserved characters too. This tool uses encodeURIComponent for maximum compatibility."
+    }
+  ],
+  "relatedTools": ["base64-tool", "base-converter", "json-csv-formatter"],
+  "variants": []
+}

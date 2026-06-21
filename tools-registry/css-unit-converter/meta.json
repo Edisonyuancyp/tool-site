@@ -1,0 +1,48 @@
+{
+  "slug": "css-unit-converter",
+  "name": "CSS Unit Converter",
+  "tagline": "Convert px to rem, em, vw and more — instant CSS unit calculations",
+  "description": "Convert between CSS units: px, rem, em, vw, vh, pt, and cm. Set your base font size and get instant conversions for responsive web design.",
+  "metaTitle": "CSS Unit Converter – px to rem, em, vw | Free Online Tool | GetFastCalc",
+  "metaDescription": "Free CSS unit converter. Convert px to rem, em, vw, vh, pt instantly. Set custom base font size. No signup required.",
+  "keywords": [
+    "css unit converter",
+    "px to rem converter",
+    "px to em converter",
+    "rem to px online",
+    "css px rem calculator",
+    "responsive design unit converter",
+    "convert pixels to rem free",
+    "em to px calculator"
+  ],
+  "category": "Developer",
+  "urlPath": "/tools/dev/css-unit-converter",
+  "icon": "📐",
+  "seoContent": {
+    "h1Tendency": "instant CSS Unit Converter",
+    "painPoints": [
+      "How to convert px to rem for responsive design",
+      "Best free px to rem calculator online",
+      "How to convert pixels to em without doing math",
+      "CSS unit conversion tool — no signup needed",
+      "How do rem and em units work in CSS"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "What is the formula for px to rem?",
+      "answer": "rem = px ÷ base font size. The default browser base font size is 16px, so 32px = 2rem. You can change the base size in this tool to match your project."
+    },
+    {
+      "question": "What is the difference between rem and em?",
+      "answer": "rem (root em) is relative to the root element font size. em is relative to the current element's font size, which can cascade and cause unexpected results. rem is generally preferred for consistent responsive layouts."
+    },
+    {
+      "question": "How do I convert px to vw?",
+      "answer": "vw = (px ÷ viewport width) × 100. Enter your viewport width in the tool and it will calculate the vw value automatically."
+    }
+  ],
+  "relatedTools": ["css-variables-generator", "typography-compare-lab", "color-palette-lab"],
+  "variants": []
+}

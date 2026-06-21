@@ -1,0 +1,48 @@
+{
+  "slug": "markdown-previewer",
+  "name": "Markdown Previewer",
+  "tagline": "Write and preview Markdown live — clean editor, instant rendered output",
+  "description": "Write Markdown in the left panel and see the rendered HTML preview on the right, updated as you type. Supports headings, bold, italic, lists, code blocks, tables, and links. No signup required.",
+  "metaTitle": "Markdown Previewer – Live Editor & Preview Online | GetFastCalc",
+  "metaDescription": "Free online Markdown previewer. Write Markdown and see the rendered output live. Supports GFM tables, code blocks, and more. No signup required.",
+  "keywords": [
+    "markdown previewer online",
+    "markdown editor online free",
+    "live markdown preview",
+    "markdown to html converter",
+    "markdown renderer online",
+    "github flavored markdown preview",
+    "markdown viewer online",
+    "markdown live editor"
+  ],
+  "category": "Content",
+  "urlPath": "/tools/content/markdown-previewer",
+  "icon": "📝",
+  "seoContent": {
+    "h1Tendency": "instant Markdown Previewer",
+    "painPoints": [
+      "How to preview Markdown without installing software",
+      "Best free online Markdown editor with live preview",
+      "How to render Markdown to HTML in the browser",
+      "Free Markdown previewer that supports tables and code blocks",
+      "Where to test Markdown formatting online instantly"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "What Markdown syntax is supported?",
+      "answer": "This tool supports standard Markdown including headings (#, ##), bold (**text**), italic (*text*), lists, code blocks (```), inline code, links, images, blockquotes, and GitHub Flavored Markdown (GFM) tables."
+    },
+    {
+      "question": "Can I use this to preview README files?",
+      "answer": "Yes. Paste the contents of any README.md or documentation file and see exactly how it will render on GitHub or other Markdown platforms."
+    },
+    {
+      "question": "Is my text saved anywhere?",
+      "answer": "No. Everything stays in your browser. Your Markdown is never sent to any server."
+    }
+  ],
+  "relatedTools": ["word-counter", "text-case-converter", "diff-checker"],
+  "variants": []
+}

@@ -38,17 +38,21 @@ SEO_CONFIG_FILE = Path(__file__).resolve().parent / "seo_config.json"
 # Categories not listed here fall back to /tools/<slug> (no sub-directory).
 CATEGORY_URL_PREFIX: dict[str, str] = {
     # Calculator tools
-    "Finance":    "calc",
     "Math":       "calc",
     "Health":     "calc",
     "Crypto":     "calc",
+    # Finance & business
+    "Finance":    "finance",
+    "Business":   "finance",
     # Design / visual tools
     "Design":     "design",
     "Generators": "design",
     # Developer / text tools
     "Developer":  "dev",
-    "Text":       "dev",
     "Security":   "dev",
+    # Content / writing tools
+    "Text":       "content",
+    "Content":    "content",
     # Date & scheduling
     "Date & Time": "time",
     # Quantitative / trading tools

@@ -1,0 +1,48 @@
+{
+  "slug": "profit-margin-calculator",
+  "name": "Profit Margin Calculator",
+  "tagline": "Calculate gross profit margin, markup, and revenue — instant results",
+  "description": "Calculate gross profit margin, net margin, markup percentage, and revenue from cost and selling price. Works for retail, freelance pricing, and business analysis.",
+  "metaTitle": "Profit Margin Calculator – Gross Margin & Markup | GetFastCalc",
+  "metaDescription": "Free profit margin calculator. Calculate gross margin, markup percentage, and net profit instantly. Works for retail, ecommerce, and freelancers. No signup.",
+  "keywords": [
+    "profit margin calculator",
+    "gross margin calculator",
+    "markup calculator",
+    "profit percentage calculator",
+    "gross profit formula",
+    "margin vs markup calculator",
+    "business profit calculator free",
+    "selling price calculator"
+  ],
+  "category": "Finance",
+  "urlPath": "/tools/finance/profit-margin-calculator",
+  "icon": "💹",
+  "seoContent": {
+    "h1Tendency": "accurate Profit Margin Calculator",
+    "painPoints": [
+      "How to calculate gross profit margin from cost and price",
+      "What is the difference between margin and markup",
+      "Best free profit margin calculator for small business",
+      "How to price a product with the right markup",
+      "Gross margin formula explained with examples"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "What is the gross profit margin formula?",
+      "answer": "Gross Profit Margin = ((Revenue - Cost) / Revenue) × 100. For example, if you sell something for $100 that cost $60, your gross margin is 40%."
+    },
+    {
+      "question": "What is the difference between margin and markup?",
+      "answer": "Margin is profit as a percentage of revenue. Markup is profit as a percentage of cost. A 40% margin equals a 66.7% markup. They measure the same profit from different bases."
+    },
+    {
+      "question": "What is a good profit margin?",
+      "answer": "It varies by industry. Retail averages 2-5%, SaaS can be 70%+, restaurants aim for 3-9%. A healthy gross margin for most small businesses is 40-60%."
+    }
+  ],
+  "relatedTools": ["percentage-calculator", "tax-calculator", "risk-calculator"],
+  "variants": []
+}

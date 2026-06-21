@@ -1,0 +1,48 @@
+{
+  "slug": "discount-calculator",
+  "name": "Discount Calculator",
+  "tagline": "Calculate sale price, savings, and original price from any discount percentage",
+  "description": "Calculate the discounted price from a percentage off, find the original price from a sale price, or work out what percentage discount was applied. Instant results for shoppers, retailers, and marketers.",
+  "metaTitle": "Discount Calculator – Sale Price & Original Price | GetFastCalc",
+  "metaDescription": "Free discount calculator. Find sale price from % off, reverse-calculate original price, or find the discount percentage. Instant, no signup.",
+  "keywords": [
+    "discount calculator",
+    "sale price calculator",
+    "percent off calculator",
+    "original price calculator",
+    "reverse discount calculator",
+    "how much is 20 percent off",
+    "discount percentage calculator free",
+    "price after discount calculator"
+  ],
+  "category": "Finance",
+  "urlPath": "/tools/finance/discount-calculator",
+  "icon": "🏷️",
+  "seoContent": {
+    "h1Tendency": "instant Discount Calculator",
+    "painPoints": [
+      "How to calculate the sale price after a percentage discount",
+      "How to find the original price from a discounted price",
+      "What is 30% off $85? — instant discount calculator",
+      "Best free percent off calculator online",
+      "How to reverse-calculate the original price from a sale"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "How do I calculate a percentage discount?",
+      "answer": "Sale Price = Original Price × (1 - Discount% / 100). For example, 20% off $50 = $50 × 0.8 = $40."
+    },
+    {
+      "question": "How do I find the original price from a discounted price?",
+      "answer": "Original Price = Sale Price ÷ (1 - Discount% / 100). If something costs $40 after a 20% discount, the original was $40 ÷ 0.8 = $50."
+    },
+    {
+      "question": "How do I calculate what percentage discount was applied?",
+      "answer": "Discount % = ((Original Price - Sale Price) / Original Price) × 100. If an item went from $80 to $60, the discount is (20/80) × 100 = 25%."
+    }
+  ],
+  "relatedTools": ["percentage-calculator", "profit-margin-calculator", "tax-calculator"],
+  "variants": []
+}
