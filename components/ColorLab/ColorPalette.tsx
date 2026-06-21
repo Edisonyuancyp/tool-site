@@ -167,16 +167,17 @@ function ColorSwatch({ color, mode, paletteId, copied, onCopy }: ColorSwatchProp
             {/* Pantone row */}
             <div className="flex items-center justify-between gap-2">
               <span
-                className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-xs font-medium"
+                title="Manually estimated by visual RGB proximity. Not derived from official Pantone data. Verify with physical swatches."
+                className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-xs font-medium cursor-help"
                 style={{ backgroundColor: color.hex, color: white ? "#fff" : "#111" }}
               >
                 <span
                   className="w-2.5 h-2.5 rounded-full border border-white/30 flex-shrink-0"
                   style={{ backgroundColor: color.hex }}
                 />
-                {color.pantone_approx}
+                ~{color.pantone_approx}
               </span>
-              <span className="text-xs text-gray-400 italic">approx.</span>
+              <span className="text-xs text-gray-400 italic" title="Visual estimate only">est.</span>
             </div>
           </>
         )}
@@ -268,8 +269,10 @@ export default function ColorPalette({ recipeId }: Props) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v2m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
           </svg>
           <p>
-            <strong>Pantone colors are approximations for preview; refer to physical swatches for exact matching.</strong>{" "}
-            CMYK values are device-independent conversions and may vary by printer profile and paper stock.
+            <strong>Pantone references are visual estimates only.</strong>{" "}
+            They were manually assigned by visual RGB proximity — not computed from an official Pantone database (which is proprietary).
+            CMYK values are calculated via the standard device-independent formula and may vary by printer profile and paper stock.
+            {" "}Always verify against a physical <em>Pantone Formula Guide</em> before production use.
           </p>
         </div>
       )}

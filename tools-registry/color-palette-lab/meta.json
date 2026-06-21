@@ -23,7 +23,7 @@
   "faqs": [
     {
       "question": "Are the Pantone references exact matches?",
-      "answer": "No. Pantone codes shown are the closest visual approximations to the hex colors. For production print work, always verify against a physical Pantone Fan Deck or Pantone Color Guide."
+      "answer": "No. The Pantone codes shown are manually estimated by visual RGB proximity — they are not derived from Pantone's proprietary database. Pantone's official sRGB mappings are not publicly licensed. Always verify against a physical Pantone Fan Deck or Pantone Formula Guide before production use."
     },
     {
       "question": "How are CMYK values calculated?",
