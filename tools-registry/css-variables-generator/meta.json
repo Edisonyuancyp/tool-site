@@ -1,0 +1,54 @@
+{
+  "slug": "css-variables-generator",
+  "name": "CSS Variables Generator",
+  "tagline": "Build a custom color palette and export ready-to-use CSS variables and Tailwind config",
+  "description": "Create a custom color palette from scratch, then instantly generate :root CSS variables, Tailwind config, and copy-ready code snippets. No signup, no install — runs in your browser.",
+  "metaTitle": "CSS Variables Generator – Build Color Palettes & Export :root CSS Vars | GetFastCalc",
+  "metaDescription": "Free CSS variables generator. Pick colors, name them, and instantly get :root CSS variables, Tailwind config.js, and copy-ready code. No signup required.",
+  "keywords": [
+    "css variables generator",
+    "css custom properties generator",
+    "tailwind config generator",
+    "color palette to css variables",
+    ":root css variables",
+    "design token generator",
+    "css color variables online",
+    "tailwind color config",
+    "css variables online free",
+    "generate css variables from colors"
+  ],
+  "category": "Developer",
+  "urlPath": "/tools/dev/css-variables-generator",
+  "icon": "🎨",
+  "seoContent": {
+    "h1Tendency": "fast CSS Variables Generator",
+    "painPoints": [
+      "How to convert HEX colors to CSS variables quickly",
+      "How to generate a tailwind.config.js color palette online",
+      "Best free CSS custom properties generator",
+      "How to create design tokens without a design system",
+      "Generate :root CSS variables from a color palette instantly"
+    ],
+    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+  },
+  "faqs": [
+    {
+      "question": "What are CSS variables (custom properties)?",
+      "answer": "CSS variables, also called custom properties, are entities defined by CSS authors that represent specific values to be reused throughout a document. They use the syntax --variable-name and are set on :root to make them globally available."
+    },
+    {
+      "question": "How do I use the generated CSS variables in my project?",
+      "answer": "Copy the :root block and paste it into your main CSS file (e.g. global.css or index.css). Then reference the variables anywhere in your stylesheet using var(--color-primary) etc."
+    },
+    {
+      "question": "Can I use the Tailwind output directly?",
+      "answer": "Yes. Copy the generated tailwind.config.js block and paste it into your project's tailwind.config.js file under theme.extend.colors. Your custom color names will then be available as Tailwind classes."
+    },
+    {
+      "question": "What are design tokens?",
+      "answer": "Design tokens are named values that store design decisions like colors, spacing, or typography. CSS variables are a common way to implement design tokens in web projects."
+    }
+  ],
+  "relatedTools": ["color-palette-lab", "typography-compare-lab", "base64-tool"],
+  "variants": []
+}
