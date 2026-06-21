@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { mergeWithRegistry } from "@/lib/tools";
 import { registryToToolMetas, getRegistryTools } from "@/lib/registry";
+import { SUPPORTED_LOCALES, getI18nRegistrySlugs } from "@/lib/i18n-registry";
 
 export const dynamic = "force-static";
 
@@ -77,10 +78,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
   );
 
+  // ── i18n homepages (/es, /fr) ────────────────────────────────────────────
+  const i18nHomePages: MetadataRoute.Sitemap = SUPPORTED_LOCALES.map((locale) => ({
+    url: `${BASE}/${locale}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }));
+
+  // ── i18n tool pages (/es/tools/slug, /fr/tools/slug) ─────────────────────
+  const i18nToolPages: MetadataRoute.Sitemap = SUPPORTED_LOCALES.flatMap((locale) =>
+    getI18nRegistrySlugs(locale).map((slug) => ({
+      url: `${BASE}/${locale}/tools/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: HIGH_PRIORITY.has(slug) ? 0.8 : 0.7,
+    }))
+  );
+
   return [
     { url: BASE, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
+    ...i18nHomePages,
     ...categoryIndexPages,
     ...toolPages,
     ...variantPages,
+    ...i18nToolPages,
   ];
 }
