@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ToolMeta, tools as legacyTools } from "@/lib/tools";
+import AccuracyFeedback from "@/components/AccuracyFeedback";
 
 interface ToolLayoutProps {
   tool: ToolMeta;
@@ -133,6 +134,9 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
           {/* Tool UI */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 sm:p-8 mb-10 shadow-sm">
             {children}
+            <div className="mt-6 pt-5 border-t border-gray-100">
+              <AccuracyFeedback toolSlug={tool.slug} />
+            </div>
           </div>
 
           {/* How it works */}
