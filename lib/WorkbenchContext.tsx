@@ -8,18 +8,42 @@ export interface RecentEntry {
   visitedAt: number; // unix ms
 }
 
+export interface SavedPalette {
+  id: string;           // nanoid-style
+  name: string;
+  colors: { role: string; hex: string }[];
+  savedAt: number;
+}
+
+export interface SavedQuantConfig {
+  id: string;
+  label: string;        // user-facing name e.g. "BTC 1% rule"
+  params: Record<string, string>;
+  savedAt: number;
+}
+
 interface WorkbenchState {
-  favorites: string[];          // slugs
-  recents: RecentEntry[];       // last 10, newest first
+  favorites: string[];
+  recents: RecentEntry[];
+  savedPalettes: SavedPalette[];
+  savedQuantConfigs: SavedQuantConfig[];
   isFav: (slug: string) => boolean;
   toggleFav: (slug: string) => void;
   recordVisit: (slug: string) => void;
   clearRecents: () => void;
+  savePalette: (p: Omit<SavedPalette, "id" | "savedAt">) => void;
+  deletePalette: (id: string) => void;
+  saveQuantConfig: (c: Omit<SavedQuantConfig, "id" | "savedAt">) => void;
+  deleteQuantConfig: (id: string) => void;
 }
 
 // ─── Storage helpers ──────────────────────────────────────────────────────────
 
-const KEYS = { favs: "wb_favs", recents: "wb_recents" } as const;
+const KEYS = { favs: "wb_favs", recents: "wb_recents", palettes: "wb_palettes", quant: "wb_quant" } as const;
+
+function uid() {
+  return Math.random().toString(36).slice(2, 10);
+}
 const MAX_RECENTS = 10;
 
 function load<T>(key: string, fallback: T): T {
@@ -35,13 +59,17 @@ function save(key: string, value: unknown) {
 const WorkbenchContext = createContext<WorkbenchState | null>(null);
 
 export function WorkbenchProvider({ children }: { children: ReactNode }) {
-  const [favorites, setFavorites] = useState<string[]>([]);
-  const [recents,   setRecents]   = useState<RecentEntry[]>([]);
+  const [favorites,        setFavorites]        = useState<string[]>([]);
+  const [recents,          setRecents]          = useState<RecentEntry[]>([]);
+  const [savedPalettes,    setSavedPalettes]    = useState<SavedPalette[]>([]);
+  const [savedQuantConfigs,setSavedQuantConfigs]= useState<SavedQuantConfig[]>([]);
 
   // Hydrate from localStorage once on mount
   useEffect(() => {
     setFavorites(load<string[]>(KEYS.favs, []));
     setRecents(load<RecentEntry[]>(KEYS.recents, []));
+    setSavedPalettes(load<SavedPalette[]>(KEYS.palettes, []));
+    setSavedQuantConfigs(load<SavedQuantConfig[]>(KEYS.quant, []));
 
     // Migrate legacy "fav_tools" key if present
     try {
@@ -83,8 +111,44 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
     setRecents([]);
   }, []);
 
+  const savePalette = useCallback((p: Omit<SavedPalette, "id" | "savedAt">) => {
+    setSavedPalettes((prev) => {
+      const next = [{ ...p, id: uid(), savedAt: Date.now() }, ...prev].slice(0, 20);
+      save(KEYS.palettes, next);
+      return next;
+    });
+  }, []);
+
+  const deletePalette = useCallback((id: string) => {
+    setSavedPalettes((prev) => {
+      const next = prev.filter((p) => p.id !== id);
+      save(KEYS.palettes, next);
+      return next;
+    });
+  }, []);
+
+  const saveQuantConfig = useCallback((c: Omit<SavedQuantConfig, "id" | "savedAt">) => {
+    setSavedQuantConfigs((prev) => {
+      const next = [{ ...c, id: uid(), savedAt: Date.now() }, ...prev].slice(0, 20);
+      save(KEYS.quant, next);
+      return next;
+    });
+  }, []);
+
+  const deleteQuantConfig = useCallback((id: string) => {
+    setSavedQuantConfigs((prev) => {
+      const next = prev.filter((c) => c.id !== id);
+      save(KEYS.quant, next);
+      return next;
+    });
+  }, []);
+
   return (
-    <WorkbenchContext.Provider value={{ favorites, recents, isFav, toggleFav, recordVisit, clearRecents }}>
+    <WorkbenchContext.Provider value={{
+      favorites, recents, savedPalettes, savedQuantConfigs,
+      isFav, toggleFav, recordVisit, clearRecents,
+      savePalette, deletePalette, saveQuantConfig, deleteQuantConfig,
+    }}>
       {children}
     </WorkbenchContext.Provider>
   );

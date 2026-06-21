@@ -1,5 +1,9 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, Suspense } from "react";
+import { useToolState } from "@/lib/useToolState";
+import ShareButton from "@/components/ShareButton";
+import ResultCardExport from "@/components/ResultCard";
+import { useWorkbench } from "@/lib/WorkbenchContext";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -119,26 +123,35 @@ function ResultCard({
   );
 }
 
-// ── Main export ───────────────────────────────────────────────────────────────
+// ── Inner component (uses hooks that need Suspense for useSearchParams) ───────
 
-export default function RiskCalculator() {
-  const [inputs, setInputs] = useState<Inputs>({
+function RiskCalculatorInner() {
+  const { saveQuantConfig, savedQuantConfigs, deleteQuantConfig } = useWorkbench();
+
+  const [urlInputs, setUrlInputs] = useToolState({
     accountBalance: "10000",
     riskPercent: "1",
     entryPrice: "45000",
     stopLossPrice: "43200",
   });
+
   const [result, setResult] = useState<Result | string | null>(null);
   const [copied, setCopied] = useState(false);
+  const [showCard, setShowCard] = useState(false);
+  const [saveLabel, setSaveLabel] = useState("");
+  const [showSaveInput, setShowSaveInput] = useState(false);
+  const [saved, setSaved] = useState(false);
 
-  const set = useCallback((field: keyof Inputs) => (v: string) => {
-    setInputs((prev) => ({ ...prev, [field]: v }));
+  const set = useCallback((field: keyof typeof urlInputs) => (v: string) => {
+    setUrlInputs({ [field]: v } as Partial<typeof urlInputs>);
     setResult(null);
-  }, []);
+    setShowCard(false);
+  }, [setUrlInputs]);
 
   const handleCalc = () => {
-    const r = calculate(inputs);
+    const r = calculate(urlInputs);
     setResult(r);
+    setShowCard(false);
   };
 
   const handleCopy = () => {
@@ -152,16 +165,53 @@ export default function RiskCalculator() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const riskPct = parseFloat(inputs.riskPercent) || 0;
+  const handleSaveConfig = () => {
+    const label = saveLabel.trim() || `Config ${new Date().toLocaleTimeString()}`;
+    saveQuantConfig({ label, params: { ...urlInputs } });
+    setSaved(true);
+    setShowSaveInput(false);
+    setSaveLabel("");
+    setTimeout(() => setSaved(false), 2000);
+  };
+
+  const loadConfig = (params: Record<string, string>) => {
+    setUrlInputs(params as Partial<typeof urlInputs>);
+    setResult(null);
+    setShowCard(false);
+  };
+
+  const riskPct = parseFloat(urlInputs.riskPercent) || 0;
+  const resultObj = typeof result === "object" && result !== null ? result : null;
 
   return (
     <div className="space-y-6">
+      {/* ── Saved configs ── */}
+      {savedQuantConfigs.length > 0 && (
+        <div className="bg-gray-50 border border-gray-100 rounded-xl p-3">
+          <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-2">Saved Configs</p>
+          <div className="flex flex-wrap gap-2">
+            {savedQuantConfigs.map((c) => (
+              <div key={c.id} className="flex items-center gap-1 bg-white border border-gray-200 rounded-lg overflow-hidden">
+                <button onClick={() => loadConfig(c.params)}
+                  className="px-2.5 py-1 text-xs text-gray-700 hover:text-gray-900 hover:bg-gray-50 transition-colors">
+                  {c.label}
+                </button>
+                <button onClick={() => deleteQuantConfig(c.id)}
+                  className="px-1.5 py-1 text-gray-300 hover:text-red-500 transition-colors text-xs border-l border-gray-100">
+                  ×
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* ── Inputs ── */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <InputRow
           label="Account Balance"
           prefix="$"
-          value={inputs.accountBalance}
+          value={urlInputs.accountBalance}
           onChange={set("accountBalance")}
           placeholder="10000"
           hint="Your total capital"
@@ -170,7 +220,7 @@ export default function RiskCalculator() {
           <InputRow
             label="Risk Per Trade"
             suffix="%"
-            value={inputs.riskPercent}
+            value={urlInputs.riskPercent}
             onChange={set("riskPercent")}
             placeholder="1"
             hint="Recommended: 1–2%"
@@ -179,44 +229,48 @@ export default function RiskCalculator() {
             <RiskBar pct={riskPct} />
             <div className="flex justify-between text-[10px] text-gray-400 mt-1">
               <span>Conservative</span>
-              <span
-                className={
-                  riskPct <= 1 ? "text-emerald-500" :
-                  riskPct <= 2 ? "text-amber-500" :
-                  riskPct <= 5 ? "text-orange-500" : "text-red-500"
-                }
-              >
+              <span className={riskPct <= 1 ? "text-emerald-500" : riskPct <= 2 ? "text-amber-500" : riskPct <= 5 ? "text-orange-500" : "text-red-500"}>
                 {riskPct <= 1 ? "Safe" : riskPct <= 2 ? "Moderate" : riskPct <= 5 ? "High" : "Dangerous"}
               </span>
               <span>Aggressive</span>
             </div>
           </div>
         </div>
-        <InputRow
-          label="Entry Price"
-          prefix="$"
-          value={inputs.entryPrice}
-          onChange={set("entryPrice")}
-          placeholder="45000"
-          hint="Where you buy"
-        />
-        <InputRow
-          label="Stop-Loss Price"
-          prefix="$"
-          value={inputs.stopLossPrice}
-          onChange={set("stopLossPrice")}
-          placeholder="43200"
-          hint="Must be below entry"
-        />
+        <InputRow label="Entry Price" prefix="$" value={urlInputs.entryPrice} onChange={set("entryPrice")} placeholder="45000" hint="Where you buy" />
+        <InputRow label="Stop-Loss Price" prefix="$" value={urlInputs.stopLossPrice} onChange={set("stopLossPrice")} placeholder="43200" hint="Must be below entry" />
       </div>
 
-      {/* ── Calculate button ── */}
-      <button
-        onClick={handleCalc}
-        className="w-full py-3.5 bg-gray-900 text-white font-semibold rounded-xl hover:bg-black transition-colors text-sm tracking-wide"
-      >
-        Calculate Position Size →
-      </button>
+      {/* ── Action bar ── */}
+      <div className="flex items-center gap-2 flex-wrap">
+        <button onClick={handleCalc}
+          className="flex-1 min-w-[180px] py-3.5 bg-gray-900 text-white font-semibold rounded-xl hover:bg-black transition-colors text-sm tracking-wide">
+          Calculate Position Size →
+        </button>
+        <ShareButton
+          title="Position Size Calculator — GetFastCalc"
+          text={`I used this free position size calculator: `}
+          label="Share"
+        />
+        <button onClick={() => setShowSaveInput((v) => !v)}
+          className="flex items-center gap-1.5 px-3 py-2 border border-gray-200 rounded-lg text-xs text-gray-500 hover:border-gray-400 hover:text-gray-800 transition-all bg-white">
+          {saved ? "✓ Saved!" : "💾 Save config"}
+        </button>
+      </div>
+
+      {/* Save label input */}
+      {showSaveInput && (
+        <div className="flex items-center gap-2">
+          <input value={saveLabel} onChange={e => setSaveLabel(e.target.value)}
+            placeholder='Label, e.g. "BTC 1% rule"'
+            className="flex-1 border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-gray-400"
+            onKeyDown={e => e.key === "Enter" && handleSaveConfig()}
+          />
+          <button onClick={handleSaveConfig}
+            className="px-3 py-2 bg-gray-900 text-white text-xs font-medium rounded-lg hover:bg-black transition-colors">
+            Save
+          </button>
+        </div>
+      )}
 
       {/* ── Error ── */}
       {typeof result === "string" && (
@@ -226,63 +280,66 @@ export default function RiskCalculator() {
       )}
 
       {/* ── Results panel ── */}
-      {typeof result === "object" && result !== null && (
+      {resultObj !== null && (
         <div className="space-y-4">
-          {/* Main result cards */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <ResultCard
-              label="Position Size"
-              value={fmt(result.positionSize)}
-              sub="units / coins"
-              accent
-            />
-            <ResultCard
-              label="Max Risk Amount"
-              value={`$${fmt(result.riskAmount, 2)}`}
-              sub={`${inputs.riskPercent}% of account`}
-            />
-            <ResultCard
-              label="Risk Per Unit"
-              value={`$${fmt(result.riskPerUnit, 2)}`}
-              sub="entry − stop loss"
-            />
+            <ResultCard label="Position Size" value={fmt(resultObj.positionSize)} sub="units / coins" accent />
+            <ResultCard label="Max Risk Amount" value={`$${fmt(resultObj.riskAmount, 2)}`} sub={`${urlInputs.riskPercent}% of account`} />
+            <ResultCard label="Risk Per Unit" value={`$${fmt(resultObj.riskPerUnit, 2)}`} sub="entry − stop loss" />
           </div>
 
-          {/* Formula explanation */}
           <div className="bg-gray-50 border border-gray-100 rounded-xl p-4 space-y-2">
             <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest">Formula Used</p>
             <code className="block text-xs font-mono text-gray-700 leading-relaxed">
-              PositionSize = (${parseFloat(inputs.accountBalance).toLocaleString()} × {inputs.riskPercent}%) ÷ (${inputs.entryPrice} − ${inputs.stopLossPrice})<br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ${fmt(result.riskAmount, 2)} ÷ ${fmt(result.riskPerUnit, 2)}<br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <strong>{fmt(result.positionSize)} units</strong>
+              PositionSize = (${parseFloat(urlInputs.accountBalance).toLocaleString()} × {urlInputs.riskPercent}%) ÷ (${urlInputs.entryPrice} − ${urlInputs.stopLossPrice})<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ${fmt(resultObj.riskAmount, 2)} ÷ ${fmt(resultObj.riskPerUnit, 2)}<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <strong>{fmt(resultObj.positionSize)} units</strong>
             </code>
           </div>
 
-          {/* Copy button */}
-          <div className="flex justify-end">
-            <button
-              onClick={handleCopy}
-              className={`px-4 py-2 text-xs font-medium rounded-lg border transition-all ${
-                copied
-                  ? "bg-green-50 border-green-300 text-green-700"
-                  : "bg-white border-gray-200 text-gray-500 hover:border-gray-400 hover:text-gray-800"
-              }`}
-            >
-              {copied ? "✓ Copied to clipboard" : "Copy results"}
+          {/* Action buttons */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <button onClick={handleCopy}
+              className={`px-4 py-2 text-xs font-medium rounded-lg border transition-all ${copied ? "bg-green-50 border-green-300 text-green-700" : "bg-white border-gray-200 text-gray-500 hover:border-gray-400 hover:text-gray-800"}`}>
+              {copied ? "✓ Copied" : "Copy results"}
+            </button>
+            <button onClick={() => setShowCard((v) => !v)}
+              className="flex items-center gap-1.5 px-3 py-2 border border-gray-200 rounded-lg text-xs text-gray-500 hover:border-gray-400 hover:text-gray-800 transition-all bg-white">
+              🖼 {showCard ? "Hide card" : "Export result card"}
             </button>
           </div>
 
-          {/* Risk warning */}
-          {parseFloat(inputs.riskPercent) > 2 && (
+          {/* Shareable result card */}
+          {showCard && (
+            <ResultCardExport
+              title="Position Size Calculator"
+              accentColor="#111827"
+              results={[
+                { label: "Position Size", value: `${fmt(resultObj.positionSize)} units` },
+                { label: "Max Risk Amount", value: `$${fmt(resultObj.riskAmount, 2)}`, sub: `${urlInputs.riskPercent}% of $${parseFloat(urlInputs.accountBalance).toLocaleString()}` },
+                { label: "Risk Per Unit", value: `$${fmt(resultObj.riskPerUnit, 2)}` },
+              ]}
+            />
+          )}
+
+          {parseFloat(urlInputs.riskPercent) > 2 && (
             <div className="flex items-start gap-2 p-3 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-700">
               <span className="shrink-0 mt-0.5">⚠️</span>
-              <p>
-                <strong>High risk detected ({inputs.riskPercent}% per trade).</strong> Professional traders typically risk no more than 1–2% per position. Consistent high risk leads to rapid account drawdown.
-              </p>
+              <p><strong>High risk detected ({urlInputs.riskPercent}% per trade).</strong> Professional traders typically risk no more than 1–2% per position. Consistent high risk leads to rapid account drawdown.</p>
             </div>
           )}
         </div>
       )}
     </div>
+  );
+}
+
+// ── Main export (wrapped in Suspense for useSearchParams) ─────────────────────
+
+export default function RiskCalculator() {
+  return (
+    <Suspense fallback={<div className="h-48 flex items-center justify-center text-gray-400 text-sm">Loading…</div>}>
+      <RiskCalculatorInner />
+    </Suspense>
   );
 }
