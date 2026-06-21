@@ -1,0 +1,269 @@
+{
+  "us": {
+    "name": "United States",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "year": 2024,
+    "system": "progressive",
+    "filingStatuses": ["single", "married"],
+    "brackets": {
+      "single": [
+        [0,       11600,  0.10],
+        [11600,   47150,  0.12],
+        [47150,   100525, 0.22],
+        [100525,  191950, 0.24],
+        [191950,  243725, 0.32],
+        [243725,  609350, 0.35],
+        [609350,  null,   0.37]
+      ],
+      "married": [
+        [0,       23200,  0.10],
+        [23200,   94300,  0.12],
+        [94300,   201050, 0.22],
+        [201050,  383900, 0.24],
+        [383900,  487450, 0.32],
+        [487450,  731200, 0.35],
+        [731200,  null,   0.37]
+      ]
+    },
+    "standardDeduction": {
+      "single":  14600,
+      "married": 29200
+    },
+    "selfEmploymentTaxRate": 0.1413,
+    "selfEmploymentDeductionRate": 0.5,
+    "notes": "Federal income tax only. State taxes vary (0–13.3%). Self-employment tax = 15.3% on 92.35% of net earnings."
+  },
+
+  "uk": {
+    "name": "United Kingdom",
+    "currency": "GBP",
+    "currencySymbol": "£",
+    "year": "2024-25",
+    "system": "progressive",
+    "filingStatuses": ["individual"],
+    "brackets": {
+      "individual": [
+        [0,       12570, 0.00],
+        [12570,   50270, 0.20],
+        [50270,   125140, 0.40],
+        [125140,  null,   0.45]
+      ]
+    },
+    "standardDeduction": {
+      "individual": 0
+    },
+    "personalAllowance": 12570,
+    "personalAllowanceTaperStart": 100000,
+    "nationalInsurance": {
+      "rate1": 0.08,
+      "threshold1": 12570,
+      "rate2": 0.02,
+      "threshold2": 50270
+    },
+    "notes": "Personal Allowance tapers by £1 for every £2 of income above £100,000. NI Class 1 rates shown."
+  },
+
+  "ca": {
+    "name": "Canada",
+    "currency": "CAD",
+    "currencySymbol": "$",
+    "year": 2024,
+    "system": "progressive",
+    "filingStatuses": ["individual"],
+    "brackets": {
+      "individual": [
+        [0,       55867,  0.15],
+        [55867,   111733, 0.205],
+        [111733,  154906, 0.26],
+        [154906,  220000, 0.29],
+        [220000,  null,   0.33]
+      ]
+    },
+    "standardDeduction": {
+      "individual": 0
+    },
+    "basicPersonalAmount": 15705,
+    "basicPersonalAmountCredit": 0.15,
+    "cppRate": 0.0495,
+    "cppMax": 3867,
+    "eiRate": 0.0166,
+    "eiMax": 1049,
+    "notes": "Federal tax only. Provincial rates range from ~5–21%. CPP & EI contributions shown. Basic Personal Amount gives a 15% credit."
+  },
+
+  "au": {
+    "name": "Australia",
+    "currency": "AUD",
+    "currencySymbol": "$",
+    "year": "2024-25",
+    "system": "progressive",
+    "filingStatuses": ["resident", "nonresident"],
+    "brackets": {
+      "resident": [
+        [0,       18200,  0.00],
+        [18200,   45000,  0.19],
+        [45000,   120000, 0.325],
+        [120000,  180000, 0.37],
+        [180000,  null,   0.45]
+      ],
+      "nonresident": [
+        [0,       120000, 0.325],
+        [120000,  180000, 0.37],
+        [180000,  null,   0.45]
+      ]
+    },
+    "standardDeduction": {
+      "resident":    0,
+      "nonresident": 0
+    },
+    "medicareLevy": 0.02,
+    "medicareLevyThreshold": 26000,
+    "lowIncomeTaxOffset": { "max": 700, "start": 37500, "end": 45000 },
+    "notes": "Includes 2% Medicare Levy for residents. Low Income Tax Offset (LITO) up to $700. Stage 3 tax cuts applied from July 2024."
+  },
+
+  "de": {
+    "name": "Germany",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "year": 2024,
+    "system": "progressive",
+    "filingStatuses": ["individual", "married"],
+    "brackets": {
+      "individual": [
+        [0,       11604, 0.00],
+        [11604,   17005, 0.14],
+        [17005,   66760, 0.2397],
+        [66760,   277825, 0.42],
+        [277825,  null,   0.45]
+      ],
+      "married": [
+        [0,       23208, 0.00],
+        [23208,   34010, 0.14],
+        [34010,   133520, 0.2397],
+        [133520,  555650, 0.42],
+        [555650,  null,   0.45]
+      ]
+    },
+    "standardDeduction": {
+      "individual": 1230,
+      "married":    2460
+    },
+    "solidaritySurcharge": 0.055,
+    "solidaritySurchargeThreshold": 18130,
+    "socialSecurity": {
+      "healthInsurance":    0.073,
+      "pensionInsurance":   0.093,
+      "unemploymentInsurance": 0.013,
+      "longTermCare":       0.017
+    },
+    "notes": "Solidarity surcharge (Solidaritätszuschlag) applies at 5.5% of tax above €18,130. Social security rates are employee share."
+  },
+
+  "sg": {
+    "name": "Singapore",
+    "currency": "SGD",
+    "currencySymbol": "$",
+    "year": "YA2024",
+    "system": "progressive",
+    "filingStatuses": ["individual"],
+    "brackets": {
+      "individual": [
+        [0,       20000,  0.00],
+        [20000,   30000,  0.02],
+        [30000,   40000,  0.035],
+        [40000,   80000,  0.07],
+        [80000,   120000, 0.115],
+        [120000,  160000, 0.15],
+        [160000,  200000, 0.18],
+        [200000,  240000, 0.19],
+        [240000,  280000, 0.195],
+        [280000,  320000, 0.20],
+        [320000,  500000, 0.22],
+        [500000,  1000000, 0.23],
+        [1000000, null,   0.24]
+      ]
+    },
+    "standardDeduction": {
+      "individual": 0
+    },
+    "earnedIncomeRelief": { "below55": 1000, "55to59": 6000, "60plus": 8000 },
+    "cpfEmployee": {
+      "below55":    0.20,
+      "55to60":     0.15,
+      "60to65":     0.105,
+      "65to70":     0.075,
+      "above70":    0.05,
+      "wageBase":   102000
+    },
+    "notes": "Earned Income Relief automatically deducted. CPF rates depend on age group. Tax is assessed on preceding year income."
+  },
+
+  "fr": {
+    "name": "France",
+    "currency": "EUR",
+    "currencySymbol": "€",
+    "year": 2024,
+    "system": "progressive",
+    "filingStatuses": ["single", "married"],
+    "brackets": {
+      "single": [
+        [0,       11294, 0.00],
+        [11294,   28797, 0.11],
+        [28797,   82341, 0.30],
+        [82341,   177106, 0.41],
+        [177106,  null,   0.45]
+      ],
+      "married": [
+        [0,       22588, 0.00],
+        [22588,   57594, 0.11],
+        [57594,   164682, 0.30],
+        [164682,  354212, 0.41],
+        [354212,  null,   0.45]
+      ]
+    },
+    "standardDeduction": {
+      "single":  0,
+      "married": 0
+    },
+    "professionalExpenseDeduction": 0.10,
+    "professionalExpenseMax": 14171,
+    "socialCharges": 0.172,
+    "notes": "10% professional expense deduction (max €14,171) applied before tax. Social charges (CSG/CRDS) of 17.2% apply to most income."
+  },
+
+  "jp": {
+    "name": "Japan",
+    "currency": "JPY",
+    "currencySymbol": "¥",
+    "year": 2024,
+    "system": "progressive",
+    "filingStatuses": ["individual"],
+    "brackets": {
+      "individual": [
+        [0,       1950000,  0.05],
+        [1950000, 3300000,  0.10],
+        [3300000, 6950000,  0.20],
+        [6950000, 9000000,  0.23],
+        [9000000, 18000000, 0.33],
+        [18000000, 40000000, 0.40],
+        [40000000, null,    0.45]
+      ]
+    },
+    "standardDeduction": {
+      "individual": 480000
+    },
+    "employmentIncomeDeduction": [
+      [0, 1625000,  550000],
+      [1625000, 1800000, null, 0.40, 100000],
+      [1800000, 3600000, null, 0.30, 280000],
+      [3600000, 6600000, null, 0.20, 640000],
+      [6600000, 8500000, null, 0.10, 1300000],
+      [8500000, null,    1950000]
+    ],
+    "reconstructionSurtax": 0.021,
+    "localTaxRate": 0.10,
+    "notes": "National tax + 2.1% reconstruction surtax + ~10% local (inhabitant) tax. Employment income deduction shown as simplified schedule."
+  }
+}
