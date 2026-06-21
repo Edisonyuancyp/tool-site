@@ -1,0 +1,56 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "Compound Interest Calculator",
+  "tagline": "See how your money grows over time with compound interest",
+  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
+  "metaTitle": "Compound Interest Calculator – Free Investment Growth Calculator",
+  "metaDescription": "Calculate compound interest online. Enter principal, rate, years and monthly contributions to see your investment grow. Free compound interest calculator with chart.",
+  "keywords": ["compound interest calculator", "investment calculator", "compound interest formula", "savings calculator", "interest calculator online"],
+  "category": "Finance",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "What is compound interest?",
+      "answer": "Compound interest is interest calculated on both the initial principal and the accumulated interest from previous periods. It grows exponentially over time."
+    },
+    {
+      "question": "How often should interest compound?",
+      "answer": "More frequent compounding means slightly higher returns. Daily compounding yields the most, but the difference vs. monthly is small. Most savings accounts and investment products compound monthly."
+    },
+    {
+      "question": "What is the Rule of 72?",
+      "answer": "Divide 72 by your annual interest rate to estimate how many years it takes to double your money. At 6%, your money doubles in about 12 years."
+    },
+    {
+      "question": "Does this calculator include monthly contributions?",
+      "answer": "Yes. You can add a monthly contribution amount to simulate regular savings deposits on top of your initial principal."
+    }
+  ],
+  "relatedTools": ["percentage-calculator", "currency-converter"],
+  "variants": [
+    {
+      "variantSlug": "compound-interest-calculator-monthly",
+      "metaTitle": "Monthly Compound Interest Calculator – Compounded Monthly",
+      "metaDescription": "Calculate compound interest compounded monthly. See how monthly compounding grows your savings. Free, instant, no signup.",
+      "keywords": ["monthly compound interest calculator", "compounded monthly calculator", "monthly interest calculator"],
+      "defaultVariant": "monthly",
+      "headline": "Calculate compound interest compounded monthly — the most common frequency for savings accounts, CDs, and most investment products."
+    },
+    {
+      "variantSlug": "compound-interest-calculator-daily",
+      "metaTitle": "Daily Compound Interest Calculator – Compounded Daily",
+      "metaDescription": "Calculate compound interest compounded daily. Daily compounding maximises returns — see the difference vs monthly. Free calculator.",
+      "keywords": ["daily compound interest calculator", "compounded daily calculator", "daily interest rate calculator"],
+      "defaultVariant": "daily",
+      "headline": "Daily compounding gives the highest possible return on a given annual rate. Compare how much more you earn vs. monthly compounding."
+    },
+    {
+      "variantSlug": "compound-interest-calculator-annually",
+      "metaTitle": "Annual Compound Interest Calculator – Yearly Compounding",
+      "metaDescription": "Calculate compound interest compounded annually. Simple yearly interest growth calculator. Free and instant.",
+      "keywords": ["annual compound interest calculator", "yearly compound interest", "compounded annually calculator"],
+      "defaultVariant": "annually",
+      "headline": "Calculate interest compounded once per year — the simplest form of compound interest. Often used for bonds, fixed deposits, and long-term loans."
+    }
+  ]
+}
