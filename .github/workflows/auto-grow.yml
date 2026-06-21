@@ -6,9 +6,9 @@ on:
   workflow_dispatch:        # Allow manual trigger from GitHub UI
     inputs:
       category:
-        description: "Tool category to grow (e.g. finance, health, math)"
+        description: "Override category (leave blank for auto-rotation)"
         required: false
-        default: "finance"
+        default: ""
       count:
         description: "Number of new tools to generate"
         required: false
@@ -25,6 +25,40 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Auto-select category by week number
+        id: pick_category
+        run: |
+          # Rotate through 12 categories based on ISO week number
+          CATEGORIES=(
+            "education"
+            "home"
+            "legal"
+            "pet"
+            "parenting"
+            "math"
+            "science"
+            "business"
+            "language"
+            "environment"
+            "sports"
+            "health"
+          )
+          WEEK=$(date +%V | sed 's/^0*//')   # ISO week number, strip leading zero
+          INDEX=$(( (WEEK - 1) % ${#CATEGORIES[@]} ))
+          AUTO_CATEGORY="${CATEGORIES[$INDEX]}"
+
+          # Use manual override if provided
+          MANUAL="${{ github.event.inputs.category }}"
+          if [ -n "$MANUAL" ]; then
+            CATEGORY="$MANUAL"
+            echo "Using manual category: $CATEGORY"
+          else
+            CATEGORY="$AUTO_CATEGORY"
+            echo "Week $WEEK → auto-selected category: $CATEGORY"
+          fi
+
+          echo "category=$CATEGORY" >> $GITHUB_OUTPUT
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -48,17 +82,15 @@ jobs:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          CATEGORY="${{ github.event.inputs.category || 'finance' }}"
-          python scripts/research.py --category "$CATEGORY"
+          python scripts/research.py --category "${{ steps.pick_category.outputs.category }}"
 
       - name: Generate new tool ideas (OpenAI)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
-          CATEGORY="${{ github.event.inputs.category || 'finance' }}"
           COUNT="${{ github.event.inputs.count || '3' }}"
-          python scripts/ai_generate.py --category "$CATEGORY" --count "$COUNT"
+          python scripts/ai_generate.py --category "${{ steps.pick_category.outputs.category }}" --count "$COUNT"
 
       - name: Generate tool files
         run: python scripts/generate_tool.py
@@ -71,11 +103,10 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          # Only commit if there are changes
           if git diff --cached --quiet; then
             echo "No new tools generated — nothing to commit."
           else
-            CATEGORY="${{ github.event.inputs.category || 'finance' }}"
+            CATEGORY="${{ steps.pick_category.outputs.category }}"
             COUNT=$(git diff --cached --name-only | grep "tools-registry" | grep "meta.json" | wc -l | tr -d ' ')
             git commit -m "feat(auto-grow): +${COUNT} new ${CATEGORY} tools [skip ci]"
             git push
