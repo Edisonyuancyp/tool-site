@@ -2,6 +2,7 @@
 import { useState, useCallback } from "react";
 import { hexToCmyk, hexToRgb, needsWhiteText, cmykToString, rgbToString } from "./colorUtils";
 import recipes from "./palette-recipes.json";
+import CodePanel from "./CodePanel";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -276,6 +277,9 @@ function PaletteSection({
           />
         )}
       </div>
+
+      {/* Code Panel — live code output for this palette */}
+      <CodePanel recipe={recipe} activeColor={selectedColor} />
     </section>
   );
 }
