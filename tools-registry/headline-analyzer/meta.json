@@ -1,0 +1,57 @@
+{
+  "slug": "headline-analyzer",
+  "name": "SEO Headline Analyzer",
+  "tagline": "Score your title for clicks, emotion, SEO power, and length",
+  "description": "Analyze any headline or article title for SEO effectiveness. Scores keyword power, emotional words, headline length, word balance, and provides specific improvement suggestions.",
+  "metaTitle": "SEO Headline Analyzer — Score Your Title for Clicks & Rankings | GetFastCalc",
+  "metaDescription": "Analyze your headline for SEO impact, emotional power, and readability. Get an instant score with specific suggestions to improve click-through rates.",
+  "keywords": ["headline analyzer", "seo title analyzer", "headline score", "title analyzer", "headline checker", "seo headline tool", "headline optimizer"],
+  "category": "Text",
+  "urlPath": "/tools/dev/headline-analyzer",
+  "icon": "📰",
+  "faqs": [
+    {
+      "question": "What makes a good SEO headline?",
+      "answer": "An effective SEO headline typically: (1) includes the target keyword near the start, (2) is 50–60 characters for search results (up to 70 is acceptable), (3) uses numbers when possible (listicles get 36% more clicks), (4) creates curiosity or urgency, and (5) matches the searcher's intent."
+    },
+    {
+      "question": "How long should a headline be for SEO?",
+      "answer": "For Google search results, keep titles under 60 characters (about 580px display width). Titles over 60 characters get truncated with '...'. For social sharing, 40–65 characters performs best. For email subject lines, under 50 characters."
+    },
+    {
+      "question": "Do emotional words in headlines improve CTR?",
+      "answer": "Yes — multiple studies show that headlines with strong positive or negative emotional words achieve higher click-through rates. CoSchedule's research found that headlines scoring 0.2 or higher on emotional value get significantly more shares. Words like 'amazing', 'essential', 'surprising', and 'proven' consistently perform well."
+    },
+    {
+      "question": "Should I put the keyword at the start of the title?",
+      "answer": "Generally yes for SEO — Google gives slightly more weight to words that appear earlier in the title. However, readability and CTR should take priority. A title that doesn't compel a click provides no SEO benefit even if it ranks."
+    },
+    {
+      "question": "What is headline sentiment and why does it matter?",
+      "answer": "Sentiment analysis measures whether a headline is positive, negative, or neutral. Both strong positive and strong negative headlines outperform neutral ones in click-through rate. Pure neutral headlines feel flat and don't trigger emotional engagement."
+    }
+  ],
+  "relatedTools": ["character-counter", "word-counter", "markdown-previewer"],
+  "variants": [],
+  "article": {
+    "title": "How to Write High-CTR Headlines: A Data-Driven Guide",
+    "sections": [
+      {
+        "heading": "The Anatomy of a High-Performing Headline",
+        "body": "After analyzing millions of headlines, researchers have identified consistent patterns in high-performing titles. The best headlines balance 4 dimensions:\n\n1. **Utility** — makes a clear promise (e.g., 'How to', 'Why you should', '5 ways to')\n2. **Uniqueness** — differentiates from hundreds of similar articles\n3. **Ultra-specificity** — numbers, specifics, and data beat vague claims ('37% faster' vs 'much faster')\n4. **Urgency** — creates a reason to read now ('before it's too late', 'in 2024')\n\nYou don't need all 4, but the best headlines hit at least 2–3 of these dimensions simultaneously."
+      },
+      {
+        "heading": "Numbers, Lists, and Why '7 Tips' Outperforms 'Tips'",
+        "body": "Research from Conductor found that **numbered headlines (listicles) outperform other headline formats by 36%** in click-through rate.\n\nWhy? Numbers provide:\n- **Cognitive ease**: Readers know exactly what they're getting\n- **Implied comprehensiveness**: 'The 10 Best...' feels authoritative\n- **Scannability**: List format is the easiest content to consume\n\nBest practices for numbers in headlines:\n- Odd numbers (7, 9, 11) outperform even numbers — they feel less 'rounded'\n- Specific numbers ('23 ways') outperform round numbers ('20 ways') by appearing more researched\n- Numbers above 10 signal depth and comprehensive coverage"
+      },
+      {
+        "heading": "Power Words and Emotional Triggers That Drive Clicks",
+        "body": "Certain words consistently trigger emotional responses that increase engagement:\n\n**Curiosity triggers**: 'secret', 'nobody talks about', 'surprising', 'hidden', 'little-known'\n\n**Authority signals**: 'proven', 'science-backed', 'data shows', 'according to research', 'experts'\n\n**Urgency creators**: 'now', 'today', 'before it's too late', 'immediately', 'in 2024'\n\n**Value indicators**: 'free', 'complete guide', 'ultimate', 'essential', 'step-by-step'\n\n**Warning/Fear**: 'stop', 'never', 'mistake', 'danger', 'warning', 'avoid'\n\nNegative emotional headlines (fear, warnings) often outperform positive ones — but they can erode brand trust if overused. Use sparingly."
+      },
+      {
+        "heading": "Platform-Specific Headline Strategies",
+        "body": "Headlines perform differently across platforms — optimize for where your content lives:\n\n**Google Search**: Front-load keywords. Keep under 60 characters. Match search intent precisely.\n\n**Twitter/X**: Conversational tone performs better. Under 100 characters. Questions drive engagement.\n\n**LinkedIn**: Professional framing. Data and career relevance. 'How I...' stories perform well.\n\n**Facebook**: Emotional appeal, storytelling, and controversy drive shares. Longer OK (up to 80 chars).\n\n**Email subject lines**: Under 50 chars. Personalization (first name) lifts open rates 6%. Emojis in subject lines increase open rates by 45% in some studies — but test with your audience."
+      }
+    ]
+  }
+}

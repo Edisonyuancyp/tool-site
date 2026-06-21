@@ -1,0 +1,57 @@
+{
+  "slug": "inflation-calculator",
+  "name": "Inflation & Purchasing Power Calculator",
+  "tagline": "What is $10,000 from 10 years ago worth today?",
+  "description": "Calculate how inflation has eroded (or will erode) the purchasing power of money over time. Uses historical CPI data and shows a year-by-year curve of value decay.",
+  "metaTitle": "Inflation Calculator — Purchasing Power Over Time | GetFastCalc",
+  "metaDescription": "Find out what a past amount of money is worth in today's dollars, or project future purchasing power loss. Historical CPI-based chart included.",
+  "keywords": ["inflation calculator", "purchasing power calculator", "inflation rate calculator", "cpi calculator", "money value over time", "real vs nominal value"],
+  "category": "Finance",
+  "urlPath": "/tools/calc/inflation-calculator",
+  "icon": "📉",
+  "faqs": [
+    {
+      "question": "What does 'purchasing power' mean?",
+      "answer": "Purchasing power is the amount of goods or services one unit of currency can buy. When inflation rises, each dollar buys less — so purchasing power falls. $100 in 2000 had the purchasing power of about $175 in 2024 due to cumulative inflation."
+    },
+    {
+      "question": "What is the average US inflation rate historically?",
+      "answer": "The US long-term average CPI inflation rate is approximately 3.1% per year since 1913. In the decade 2010–2020, it averaged about 1.8%. The 2021–2023 surge brought it to 6–9% temporarily."
+    },
+    {
+      "question": "How does inflation affect savings accounts?",
+      "answer": "If your savings account earns 2% and inflation is 3%, your real return is -1% per year. Your balance number grows, but its purchasing power shrinks. This is called 'negative real interest rate' — a silent tax on savings."
+    },
+    {
+      "question": "What is the Rule of 72 for inflation?",
+      "answer": "Divide 72 by the annual inflation rate to estimate how many years until purchasing power halves. At 3% inflation: 72 ÷ 3 = 24 years until money loses half its value."
+    },
+    {
+      "question": "What assets protect against inflation?",
+      "answer": "Historically: real estate (hard asset), stocks (ownership of productive businesses), TIPS (Treasury Inflation-Protected Securities), commodities like gold, and Series I savings bonds (whose yield adjusts with CPI). Cash and bonds typically lose purchasing power during high inflation."
+    }
+  ],
+  "relatedTools": ["compound-interest-calculator", "rent-vs-buy-calculator", "budget-calculator"],
+  "variants": [],
+  "article": {
+    "title": "Inflation & Purchasing Power: A Complete Financial Guide",
+    "sections": [
+      {
+        "heading": "What Is Inflation Really Doing to Your Money?",
+        "body": "Inflation is often described as 'rising prices' — but the more precise framing is **falling purchasing power of money**. Every year, the same dollar amount buys slightly less.\n\nThe Consumer Price Index (CPI), published monthly by the US Bureau of Labor Statistics, tracks the cost of a representative 'basket' of goods and services: food, housing, energy, healthcare, and more. When CPI rises 3%, it means that basket now costs 3% more than a year ago.\n\nFor someone holding $100,000 in a savings account earning 0.5% interest with 3% inflation, the **real loss is -2.5% per year** — or $2,500 in purchasing power in year one alone.\n\n> \"Inflation is the one form of taxation that can be imposed without legislation.\" — Milton Friedman"
+      },
+      {
+        "heading": "The Compounding Nature of Inflation: Why Small Rates Matter",
+        "body": "Inflation compounds just like investment returns — but in reverse for savers. The math is unforgiving over long periods.\n\nAt **2% annual inflation**:\n- $100,000 today → worth $67,297 in 20 years\n- Worth $45,289 in 40 years\n\nAt **4% annual inflation**:\n- $100,000 today → worth $45,639 in 20 years\n- Worth $20,829 in 40 years\n\nThis is why **retirees are especially vulnerable**: a 30-year retirement at 3% inflation means living costs roughly **double** by the end. Planning with inflation in mind is not optional — it's essential."
+      },
+      {
+        "heading": "Nominal vs Real Returns: The Most Misunderstood Financial Concept",
+        "body": "Most financial figures reported in the media are **nominal** — not adjusted for inflation. Real returns subtract inflation.\n\nFormula: `Real Return = ((1 + Nominal Rate) ÷ (1 + Inflation Rate)) − 1`\n\nExamples:\n- Stock market returned 10% nominal, inflation was 3% → **real return ≈ 6.8%**\n- Bond paying 4%, inflation 4% → **real return ≈ 0%** (you're running in place)\n- Savings account at 0.5%, inflation 3% → **real return ≈ -2.4%** (you're losing)\n\nAlways ask: what is the **real, inflation-adjusted return** on any investment?"
+      },
+      {
+        "heading": "How Central Banks Target Inflation (And Why 2% Is the Goal)",
+        "body": "Most central banks (the US Federal Reserve, European Central Bank, Bank of England) target **2% annual inflation**. Why not 0%?\n\n- **Deflation is dangerous**: if prices fall, consumers delay purchases ('Why buy today if it's cheaper tomorrow?'), causing economic contraction\n- **2% provides a buffer**: allows real interest rates to go negative during recessions (a policy tool)\n- **Wage adjustment**: mild inflation makes it easier for employers to cut real wages without nominal pay cuts\n\nThe 2021–2023 inflation surge (peaking at 9.1% CPI in June 2022 in the US) was driven by pandemic supply chain disruptions, energy shocks, and massive fiscal stimulus. The Fed responded with the fastest rate hiking cycle since the 1980s, raising the federal funds rate from 0.25% to 5.5% in 18 months."
+      }
+    ]
+  }
+}

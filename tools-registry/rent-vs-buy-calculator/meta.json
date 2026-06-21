@@ -1,0 +1,57 @@
+{
+  "slug": "rent-vs-buy-calculator",
+  "name": "Rent vs Buy Calculator",
+  "tagline": "Is it cheaper to rent or buy a home? Find out in 60 seconds.",
+  "description": "Compare the true financial cost of renting vs buying a home. Factors in mortgage payments, opportunity cost, maintenance, appreciation, and tax benefits to give you a break-even timeline.",
+  "metaTitle": "Rent vs Buy Calculator — Is It Cheaper to Rent or Buy? | GetFastCalc",
+  "metaDescription": "Calculate whether renting or buying a home makes more financial sense. Input your local prices, rate, and horizon to get a break-even timeline and 10-year cost comparison.",
+  "keywords": ["rent vs buy calculator", "should i rent or buy", "rent or buy home", "buy vs rent comparison", "mortgage vs rent calculator", "break-even rent buy"],
+  "category": "Finance",
+  "urlPath": "/tools/calc/rent-vs-buy-calculator",
+  "icon": "🏠",
+  "faqs": [
+    {
+      "question": "What is the 5% rule for renting vs buying?",
+      "answer": "The 5% rule (popularized by financial planner Ben Felix) says: multiply the home price by 5%, divide by 12, and compare to your monthly rent. If rent is less than this amount, renting is likely cheaper. The 5% covers roughly 3% opportunity cost + 1% maintenance + 1% property tax."
+    },
+    {
+      "question": "Does the calculator account for home appreciation?",
+      "answer": "Yes. You can set an expected annual appreciation rate. Historically, US home prices have appreciated at roughly 3–4% per year nominally, or about 0–1% above inflation. The calculator compares net worth under both scenarios."
+    },
+    {
+      "question": "What is the break-even point in rent vs buy?",
+      "answer": "The break-even point is how many years you must stay in a home before buying becomes cheaper than renting, considering all upfront costs (down payment, closing costs), mortgage interest, and the gradual building of equity."
+    },
+    {
+      "question": "What hidden costs does buying include?",
+      "answer": "Beyond the mortgage payment: property taxes (0.5–2% of value annually), maintenance (1% rule of thumb per year), HOA fees if applicable, closing costs (2–5% upfront), and homeowner's insurance. These often add 2–3% of home value per year."
+    },
+    {
+      "question": "Is renting always throwing money away?",
+      "answer": "No — this is a myth. When you rent, you preserve capital that can be invested (the down payment you don't make). If you invest the difference between rent and mortgage cost, you may end up ahead. This calculator models both scenarios."
+    }
+  ],
+  "relatedTools": ["compound-interest-calculator", "inflation-calculator", "mortgage-calculator"],
+  "variants": [],
+  "article": {
+    "title": "Rent vs Buy: The Financial Analysis Most People Never Do",
+    "sections": [
+      {
+        "heading": "Why the 'Renting Is Throwing Money Away' Myth Is Wrong",
+        "body": "One of the most persistent pieces of financial advice is that **renting is throwing money away** while buying builds wealth. This is oversimplified to the point of being wrong.\n\nWhen you rent, you pay for housing — just like when you buy, you pay mortgage interest, property taxes, and maintenance. The difference is what you do with the capital you're NOT tying up in a down payment.\n\nA $500,000 home typically requires $100,000 down (20%) plus ~$15,000 in closing costs. That $115,000 invested in a diversified index fund at a historical 7% real return would grow to over **$220,000 in 10 years**. This **opportunity cost** is the missing variable in most rent-vs-buy debates.\n\n> The true question isn't \"rent or buy?\" — it's \"which gives me greater net worth in N years given my local market conditions?\""
+      },
+      {
+        "heading": "The 5 Real Costs of Homeownership (That Salespeople Don't Mention)",
+        "body": "Most people calculate affordability based on the mortgage payment alone. Here are the full costs:\n\n1. **Mortgage interest** — in early years, 70–90% of your payment is interest, not equity\n2. **Property taxes** — typically 0.5–2% of assessed value per year, unavoidable\n3. **Maintenance & repairs** — the 1% rule: budget 1% of home value per year (roof, HVAC, plumbing)\n4. **Closing costs** — 2–5% upfront to buy; 6–8% to sell (agent commissions + fees)\n5. **Opportunity cost** — the return you forfeit by locking up capital in home equity\n\nFor a $600,000 home, these 5 costs can easily total **$3,000–$5,000/month** before you've built any equity — often more than equivalent rent."
+      },
+      {
+        "heading": "When Buying Wins: The Break-Even Timeline",
+        "body": "Buying eventually wins if you stay long enough. The break-even horizon depends on:\n\n- **Local price-to-rent ratio**: If homes cost 25× annual rent or more, it takes longer to break even\n- **Your mortgage rate**: At 7%+, the interest burden is significant in the early years\n- **Home appreciation**: Markets appreciating 5%+ per year accelerate the break-even\n- **Tax benefits**: The mortgage interest deduction (if you itemize) reduces effective cost\n\nIn high-cost cities (NYC, SF, London), break-even is often **10–15 years**. In affordable Midwest markets, it may be just **3–5 years**.\n\n**Rule of thumb**: If you plan to stay less than 5 years, renting is almost always better financially."
+      },
+      {
+        "heading": "The Investment Angle: What to Do With Your Down Payment If You Rent",
+        "body": "The rent-vs-buy comparison is only valid if renters actually invest the difference. Here's the comparison:\n\n- Buyer: builds home equity (leveraged), benefits from appreciation, but carries debt risk\n- Renter who invests: builds portfolio equity (unleveraged), more liquid, no maintenance risk\n\nHistorically, **stocks have outperformed real estate** on a risk-adjusted basis over long periods. However, the leverage effect of a mortgage (putting 20% down to control 100% of the asset) can amplify real estate returns significantly in appreciating markets.\n\nThe calculator models both paths and shows 10-year net worth under each scenario."
+      }
+    ]
+  }
+}

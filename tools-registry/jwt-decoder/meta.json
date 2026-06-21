@@ -1,0 +1,53 @@
+{
+  "slug": "jwt-decoder",
+  "name": "JWT Decoder & Security Checker",
+  "tagline": "Decode and inspect any JWT token — with security analysis",
+  "description": "Paste any JSON Web Token to instantly decode the header, payload, and expiry. Includes a security checklist: checks for missing expiry (exp), weak algorithms, and common misconfiguration warnings.",
+  "metaTitle": "JWT Decoder & Security Checker — Free Online Tool | GetFastCalc",
+  "metaDescription": "Decode JWT tokens instantly. View header, payload, and expiry. Built-in security analyzer flags missing exp, weak algorithms, and other JWT security issues.",
+  "keywords": ["jwt decoder", "jwt debugger", "decode jwt token", "json web token decoder", "jwt security checker", "jwt payload viewer"],
+  "category": "Developer",
+  "urlPath": "/tools/dev/jwt-decoder",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "Is it safe to paste my JWT token here?",
+      "answer": "This tool decodes JWT tokens entirely in your browser — no data is sent to any server. The decoding happens with JavaScript's atob() function client-side. That said, never share production tokens in public or untrusted environments."
+    },
+    {
+      "question": "What are the three parts of a JWT?",
+      "answer": "A JWT has three Base64URL-encoded sections separated by dots: 1) Header (algorithm type and token type), 2) Payload (claims like user ID, roles, expiration), and 3) Signature (used to verify the token wasn't tampered with — cannot be verified without the secret key)."
+    },
+    {
+      "question": "Can this tool verify the JWT signature?",
+      "answer": "No — and no client-side tool can, because signature verification requires the private secret/key that signs the token. This tool decodes and inspects the payload only. For signature verification, use your server-side library."
+    },
+    {
+      "question": "What does 'exp' mean in a JWT payload?",
+      "answer": "exp is the 'expiration time' claim — a Unix timestamp after which the token must be rejected. If missing, the token never expires, which is a serious security risk. Always set short expiry times (15 min for access tokens, longer for refresh tokens)."
+    },
+    {
+      "question": "What is the difference between HS256 and RS256?",
+      "answer": "HS256 (HMAC-SHA256) uses a single shared secret — both issuer and verifier need the same key. RS256 (RSA-SHA256) uses a public/private key pair — the issuer signs with the private key, and anyone can verify with the public key. RS256 is preferred for distributed systems where multiple services need to verify tokens."
+    }
+  ],
+  "relatedTools": ["base64-tool", "url-encoder", "password-generator"],
+  "variants": [],
+  "article": {
+    "title": "JWT Security: Best Practices Every Developer Should Know",
+    "sections": [
+      {
+        "heading": "The 7 Most Common JWT Security Mistakes",
+        "body": "JWT is a powerful authentication mechanism — but it's frequently misimplemented. Here are the most common security mistakes:\n\n1. **No expiration time (exp)**: Tokens without `exp` are valid forever. A stolen token grants permanent access. Always set short lifetimes (15–60 minutes for access tokens).\n2. **Using the `none` algorithm**: Some early JWT libraries accepted `alg: none`, meaning no signature. Never accept unsigned tokens in production.\n3. **Storing JWTs in localStorage**: Accessible to any JavaScript on the page, including XSS payloads. Prefer `httpOnly` cookies.\n4. **Not validating the `iss` (issuer) claim**: Allows tokens from any issuer to be accepted.\n5. **Symmetric keys that are too short**: For HS256, use a secret of at least 256 bits (32 bytes).\n6. **Not rotating secrets**: If your signing secret leaks, all tokens signed with it are compromised.\n7. **Trusting the `kid` (key ID) without validation**: Advanced but critical — always whitelist valid key IDs."
+      },
+      {
+        "heading": "Access Tokens vs Refresh Tokens: The Right Architecture",
+        "body": "A common pattern for JWT-based authentication uses two token types:\n\n**Access Token** (short-lived, 15 min):\n- Sent with every API request in `Authorization: Bearer <token>`\n- Stateless — no database lookup needed to verify\n- If stolen, attacker has limited window before it expires\n\n**Refresh Token** (long-lived, 7–30 days):\n- Stored securely (httpOnly cookie or server-side session)\n- Used only to obtain a new access token\n- Can be revoked by deleting it server-side\n\nThis separation is the industry best practice. It gives you the performance of stateless auth (no DB lookup per request) with the security of revocable sessions.\n\n> Never store sensitive user data in the JWT payload — it's only Base64-encoded, not encrypted. Anyone who intercepts it can read it."
+      },
+      {
+        "heading": "Algorithm Selection: HS256 vs RS256 vs ES256",
+        "body": "Choosing the right signing algorithm matters:\n\n- **HS256 (HMAC-SHA256)**: Fast, simple. Single shared secret. Good for monolithic apps where the same service issues and verifies tokens. Risk: if any service that can verify tokens is compromised, attacker can forge tokens.\n\n- **RS256 (RSA-SHA256)**: Asymmetric. Private key signs, public key verifies. Ideal for microservices — each service can verify without access to the signing key. Slower than HS256.\n\n- **ES256 (ECDSA with P-256)**: Like RS256 but with smaller, faster keys. Modern choice for APIs with high throughput requirements.\n\n**Recommendation**: For new projects, use **RS256 or ES256**. The performance overhead is minimal compared to the security benefit."
+      }
+    ]
+  }
+}

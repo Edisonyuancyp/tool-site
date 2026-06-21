@@ -1,0 +1,53 @@
+{
+  "slug": "cron-expression-generator",
+  "name": "Cron Expression Generator & Explainer",
+  "tagline": "Build cron schedules visually, understand any cron string instantly",
+  "description": "Generate or decode any cron expression with a visual builder. See the human-readable schedule, next 5 run times, and a quick-reference cheat sheet of 20+ common cron patterns.",
+  "metaTitle": "Cron Expression Generator & Explainer — Free Online Tool | GetFastCalc",
+  "metaDescription": "Generate cron schedules with a visual builder, or paste any cron expression to decode it. Shows next run times and includes 20+ common patterns cheat sheet.",
+  "keywords": ["cron expression generator", "cron job generator", "cron expression explainer", "cron syntax", "cron schedule builder", "cron decoder"],
+  "category": "Developer",
+  "urlPath": "/tools/dev/cron-expression-generator",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "What is a cron expression?",
+      "answer": "A cron expression is a string with 5 (or 6) space-separated fields that define when a scheduled task should run: minute, hour, day of month, month, and day of week. Example: '0 9 * * 1' means 'at 9:00 AM every Monday'."
+    },
+    {
+      "question": "What does * mean in cron?",
+      "answer": "An asterisk (*) means 'every'. '* * * * *' runs every minute. '0 * * * *' runs at minute 0 of every hour (i.e., every hour on the hour)."
+    },
+    {
+      "question": "What is the difference between 5-field and 6-field cron?",
+      "answer": "Standard Unix/Linux cron uses 5 fields: minute, hour, day, month, weekday. Some systems (like Spring, AWS EventBridge) add a 6th field for seconds at the start, or a year field at the end. This tool uses standard 5-field cron."
+    },
+    {
+      "question": "Can I run a cron job every 5 minutes?",
+      "answer": "Yes: '*/5 * * * *' means 'every 5 minutes'. The */n syntax means 'every n units'. Similarly, '0 */2 * * *' runs every 2 hours."
+    },
+    {
+      "question": "What is the most common cron expression mistake?",
+      "answer": "Confusing day-of-month and day-of-week interaction. When both fields are set (not *), most systems run the job when EITHER condition is true (OR logic), not both. Use '*' for the field you don't need to avoid ambiguity."
+    }
+  ],
+  "relatedTools": ["jwt-decoder", "url-encoder", "base64-tool"],
+  "variants": [],
+  "article": {
+    "title": "Cron Jobs: The Complete Developer Reference",
+    "sections": [
+      {
+        "heading": "Cron Syntax Explained: All 5 Fields",
+        "body": "The standard cron format has exactly 5 space-separated fields:\n\n`[minute] [hour] [day-of-month] [month] [day-of-week]`\n\nField ranges:\n- **Minute**: 0–59\n- **Hour**: 0–23 (24-hour clock)\n- **Day of month**: 1–31\n- **Month**: 1–12 (or JAN–DEC)\n- **Day of week**: 0–7 (0 and 7 both = Sunday, or SUN–SAT)\n\nSpecial characters:\n- `*` — every value\n- `*/n` — every n-th value (e.g., `*/5` for every 5 minutes)\n- `a-b` — range (e.g., `1-5` for Mon–Fri)\n- `a,b,c` — list (e.g., `1,15` for the 1st and 15th)\n- `L` — last (e.g., `L` in day-of-month = last day of month, not all systems support this)"
+      },
+      {
+        "heading": "20 Essential Cron Patterns Every Developer Should Know",
+        "body": "Here are the most commonly used cron patterns:\n\n- `* * * * *` — Every minute\n- `*/5 * * * *` — Every 5 minutes\n- `0 * * * *` — Every hour (on the hour)\n- `0 0 * * *` — Every day at midnight\n- `0 9 * * *` — Every day at 9:00 AM\n- `0 9 * * 1` — Every Monday at 9:00 AM\n- `0 9-17 * * 1-5` — Every hour from 9 AM to 5 PM, Mon–Fri\n- `0 0 1 * *` — First day of every month at midnight\n- `0 0 L * *` — Last day of every month (Linux cron)\n- `0 0 * * 0` — Every Sunday at midnight\n- `30 23 * * *` — Every day at 11:30 PM\n- `0 */6 * * *` — Every 6 hours\n- `0 0 1 1 *` — January 1st at midnight (New Year's reset)\n- `*/15 9-17 * * 1-5` — Every 15 min during business hours\n- `0 2 * * *` — Every night at 2:00 AM (common for backups)"
+      },
+      {
+        "heading": "Cron Across Different Platforms: Key Differences",
+        "body": "Cron syntax varies between platforms — watch for these differences:\n\n**Linux/Unix crontab**: Standard 5-field format. Supports `@reboot`, `@daily`, `@hourly` shortcuts.\n\n**AWS EventBridge / CloudWatch**: Uses 6-field format with year: `cron(0 9 ? * MON-FRI *)`. Also uses `?` for 'no specific value' in day fields.\n\n**Spring Framework (@Scheduled)**: 6-field with seconds first: `0 0 9 * * MON-FRI`.\n\n**GitHub Actions**: Uses standard 5-field cron syntax in `schedule:` triggers. Runs in UTC.\n\n**Kubernetes CronJobs**: Standard 5-field. Timezone support was added in Kubernetes 1.27 with `timeZone` field.\n\n> Always test cron expressions in a staging environment. An off-by-one in the hour field can cause jobs to run at 3 AM instead of 9 AM."
+      }
+    ]
+  }
+}

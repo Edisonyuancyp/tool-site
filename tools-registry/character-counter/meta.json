@@ -1,0 +1,53 @@
+{
+  "slug": "character-counter",
+  "name": "Character Counter for Social Media",
+  "tagline": "Real-time character & word count for Twitter, LinkedIn, Instagram, and more",
+  "description": "Count characters and words in real time with platform-specific limits for Twitter/X (280), LinkedIn (3000 post / 220 preview), Instagram (2200), TikTok (2200), YouTube (5000), and more. Color-coded warnings.",
+  "metaTitle": "Character Counter for Social Media — Twitter, LinkedIn, Instagram | GetFastCalc",
+  "metaDescription": "Real-time character counter with limits for every social platform. Color-coded warnings for Twitter, LinkedIn, Instagram, TikTok, YouTube, and email subject lines.",
+  "keywords": ["character counter", "twitter character count", "linkedin character limit", "instagram caption length", "social media character counter", "word counter"],
+  "category": "Text",
+  "urlPath": "/tools/dev/character-counter",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "What is Twitter/X's character limit?",
+      "answer": "Twitter/X allows 280 characters for standard accounts. Twitter Blue/X Premium subscribers can post up to 25,000 characters (long-form posts). URLs count as 23 characters regardless of actual length. Usernames in replies are included in the count."
+    },
+    {
+      "question": "What is LinkedIn's character limit?",
+      "answer": "LinkedIn post body: 3,000 characters. However, posts are truncated at approximately 140–220 characters in the feed with a 'see more' button. The first 140–220 characters function as your 'hook'. LinkedIn article titles: 100 characters. LinkedIn connection request message: 300 characters."
+    },
+    {
+      "question": "What is Instagram's caption character limit?",
+      "answer": "Instagram captions can be up to 2,200 characters, but only the first 125 characters are visible before 'more' is shown. Hashtags work best when placed in the caption or first comment. Maximum 30 hashtags per post."
+    },
+    {
+      "question": "Does a space count as a character?",
+      "answer": "Yes — spaces count as characters on all social platforms. This tool counts them by default, which matches Twitter, LinkedIn, and Instagram's behavior."
+    },
+    {
+      "question": "How many characters should an email subject line be?",
+      "answer": "Email subject lines should be 40–50 characters for desktop clients and 25–30 characters for mobile (where most email is read). Preheader text (the preview line) should be 85–100 characters. Combined, they should tell a complete story."
+    }
+  ],
+  "relatedTools": ["headline-analyzer", "markdown-previewer", "word-counter"],
+  "variants": [],
+  "article": {
+    "title": "Social Media Character Limits: The Complete 2024 Guide",
+    "sections": [
+      {
+        "heading": "Every Platform's Character Limits at a Glance",
+        "body": "Here's a comprehensive reference table of character limits across major platforms:\n\n**Twitter/X**:\n- Tweet: 280 characters (25,000 for X Premium)\n- Bio: 160 characters\n- Display name: 50 characters\n- URL: always counted as 23 characters\n\n**LinkedIn**:\n- Post: 3,000 characters (220 visible before 'more')\n- Article title: 100 characters\n- Connection request: 300 characters\n- Headline: 220 characters\n- About section: 2,600 characters\n\n**Instagram**:\n- Caption: 2,200 characters (125 visible)\n- Bio: 150 characters\n- Comment: 2,200 characters\n- Hashtags: 30 per post\n\n**TikTok**:\n- Caption: 2,200 characters\n- Bio: 80 characters\n\n**YouTube**:\n- Title: 100 characters (70 recommended)\n- Description: 5,000 characters\n- Tags: 500 characters total"
+      },
+      {
+        "heading": "The 'Preview Problem': Why Your First 140 Characters Are Everything",
+        "body": "On LinkedIn, Twitter, Facebook, and most platforms, your audience sees only the **first 140–280 characters** before a 'see more' / 'show more' truncation.\n\nThis means your **hook must be in the first sentence**. The rest of your content — no matter how valuable — will only be seen by people who click through.\n\nHigh-performing first sentences follow these formulas:\n\n1. **Bold claim**: 'I doubled my freelance income in 6 months. Here's the exact system:'\n2. **Surprising statistic**: '73% of LinkedIn posts get zero engagement. Here's why...'\n3. **Provocative question**: 'What if everything you know about productivity is wrong?'\n4. **Story opener**: 'In 2019 I was $40,000 in debt. Last month I hit $20k MRR.'\n\n> The job of the first line is to make the reader click 'see more'. The job of the rest is to deliver on that promise."
+      },
+      {
+        "heading": "Hashtag Strategy by Platform",
+        "body": "Hashtag best practices differ significantly between platforms:\n\n**Instagram**: Up to 30 hashtags, but 3–5 highly relevant ones outperform 30 generic ones. Place them at the end of the caption or in the first comment.\n\n**Twitter/X**: 1–2 hashtags maximum. They eat into your 280-character limit. More than 2 looks spammy and reduces engagement.\n\n**LinkedIn**: 3–5 hashtags, placed at the end of the post. LinkedIn's algorithm actively boosts posts with relevant hashtags. Avoid overly broad ones (#business, #success) — they're too competitive.\n\n**TikTok**: 3–5 hashtags mixing trending (#fyp, #foryou) with niche-specific ones. Trending hashtags get you initial reach; niche hashtags find your actual audience.\n\n**YouTube**: Hashtags in descriptions (max 15) appear above the title. First 3 hashtags are shown most prominently."
+      }
+    ]
+  }
+}

@@ -6,6 +6,54 @@ import VisitTracker from "@/components/VisitTracker";
 import SEOContent from "@/components/SEOContent";
 import ShareButton from "@/components/ShareButton";
 
+/** Minimal markdown → JSX: **bold**, `code`, blank-line paragraphs */
+function MdLine({ text }: { text: string }) {
+  const parts: React.ReactNode[] = [];
+  const re = /(\*\*[^*]+\*\*|`[^`]+`)/g;
+  let last = 0, m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    if (m[0].startsWith("**")) parts.push(<strong key={m.index}>{m[0].slice(2, -2)}</strong>);
+    else parts.push(<code key={m.index} className="bg-gray-100 text-gray-800 px-1 py-0.5 rounded text-[0.85em] font-mono">{m[0].slice(1, -1)}</code>);
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return <>{parts}</>;
+}
+
+function ArticleBody({ body }: { body: string }) {
+  const paras = body.split(/\n{2,}/);
+  return (
+    <div className="space-y-4 text-gray-600 leading-relaxed text-sm">
+      {paras.map((para, i) => {
+        const lines = para.split("\n");
+        if (lines[0].match(/^\d+\.\s/)) {
+          return (
+            <ol key={i} className="list-decimal list-inside space-y-1.5">
+              {lines.map((l, j) => <li key={j}><MdLine text={l.replace(/^\d+\.\s/, "")} /></li>)}
+            </ol>
+          );
+        }
+        if (lines[0].match(/^[-•]\s/)) {
+          return (
+            <ul key={i} className="list-disc list-inside space-y-1.5">
+              {lines.map((l, j) => <li key={j}><MdLine text={l.replace(/^[-•]\s/, "")} /></li>)}
+            </ul>
+          );
+        }
+        if (lines[0].startsWith("> ")) {
+          return (
+            <blockquote key={i} className="border-l-4 border-blue-200 pl-4 text-gray-500 italic">
+              {lines.map((l, j) => <p key={j}><MdLine text={l.replace(/^>\s/, "")} /></p>)}
+            </blockquote>
+          );
+        }
+        return <p key={i}>{lines.map((l, j) => <span key={j}><MdLine text={l} />{j < lines.length - 1 && <br />}</span>)}</p>;
+      })}
+    </div>
+  );
+}
+
 interface ToolLayoutProps {
   tool: ToolMeta;
   children: React.ReactNode;
@@ -215,6 +263,26 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
               ))}
             </div>
           </section>
+
+          {/* Article sections — deep content for E-E-A-T and long-tail SEO */}
+          {(tool as any).article?.sections?.length > 0 && (
+            <article className="mb-10 prose-none">
+              <h2 className="text-xl font-semibold text-gray-900 mb-6">
+                {(tool as any).article.title ?? "In-Depth Guide"}
+              </h2>
+              <div className="space-y-8">
+                {(tool as any).article.sections.map((s: { heading: string; body: string }, i: number) => (
+                  <section key={i}>
+                    <h3 className="text-base font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                      <span className="w-1 h-5 bg-blue-500 rounded-full inline-block" />
+                      {s.heading}
+                    </h3>
+                    <ArticleBody body={s.body} />
+                  </section>
+                ))}
+              </div>
+            </article>
+          )}
 
           {/* SEO Content — pain points + trust signals (server-rendered for crawlers) */}
           <SEOContent tool={tool} />
