@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Script from "next/script";
 import { WorkbenchProvider } from "@/lib/WorkbenchContext";
+import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -86,9 +87,10 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className="min-h-full flex flex-col bg-white text-gray-900">
+      <body className="min-h-full flex flex-col bg-white text-gray-900 pb-14 lg:pb-0">
         <WorkbenchProvider>
           {children}
+          <Sidebar />
         </WorkbenchProvider>
       </body>
     </html>
