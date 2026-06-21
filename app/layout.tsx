@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Script from "next/script";
+import { WorkbenchProvider } from "@/lib/WorkbenchContext";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -86,7 +87,9 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900">
-        {children}
+        <WorkbenchProvider>
+          {children}
+        </WorkbenchProvider>
       </body>
     </html>
   );

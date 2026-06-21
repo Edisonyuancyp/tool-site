@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import HomeSchema from "@/components/HomeSchema";
 import ToolGrid from "@/components/ToolGrid";
 import ToolRequestBanner from "@/components/ToolRequestBanner";
-import FavoritesSection from "@/components/FavoritesSection";
+import WorkbenchDashboard from "@/components/WorkbenchDashboard";
 
 export default function Home() {
   const allTools = mergeWithRegistry(registryToToolMetas());
@@ -32,8 +32,8 @@ export default function Home() {
             <ToolRequestBanner />
           </div>
 
-          {/* Saved tools — client-side, only shows when user has favorites */}
-          <FavoritesSection allTools={allTools} />
+          {/* Workbench — client-side, only shows when user has history */}
+          <WorkbenchDashboard allTools={allTools} />
 
           <ToolGrid tools={allTools} />
 

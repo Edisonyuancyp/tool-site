@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ToolMeta, tools as legacyTools } from "@/lib/tools";
 import AccuracyFeedback from "@/components/AccuracyFeedback";
 import FavoriteButton from "@/components/FavoriteButton";
+import VisitTracker from "@/components/VisitTracker";
 
 interface ToolLayoutProps {
   tool: ToolMeta;
@@ -152,6 +153,7 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
             <span className="text-gray-600">{tool.name}</span>
           </nav>
 
+          <VisitTracker slug={tool.slug} />
           {/* Title */}
           <div className="mb-8">
             <div className="flex items-center justify-between gap-3 mb-3">
