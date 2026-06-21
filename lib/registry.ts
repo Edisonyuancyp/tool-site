@@ -27,6 +27,8 @@ export interface ToolVariant {
   metaDescription: string;
   keywords?: string[];
   defaultVariant: string;
+  /** Short intro shown at top of variant page (replaces generic description) */
+  headline?: string;
 }
 
 export interface RegistryMeta extends ToolMeta {
@@ -77,13 +79,15 @@ export function getRegistrySlugs(): string[] {
   return slugs;
 }
 
-// Resolve a slug to { baseMeta, variant } — handles both base and variant slugs
+// Resolve a slug to { baseMeta, variant, baseSlug } — handles both base and variant slugs
 export function resolveRegistrySlug(slug: string): {
   meta: RegistryMeta;
   variant?: string;
+  baseSlug: string;
+  headline?: string;
 } | null {
   for (const meta of loadRegistryMetas()) {
-    if (meta.slug === slug) return { meta };
+    if (meta.slug === slug) return { meta, baseSlug: meta.slug };
     for (const v of meta.variants) {
       if (v.variantSlug === slug) {
         const merged: RegistryMeta = {
@@ -92,8 +96,15 @@ export function resolveRegistrySlug(slug: string): {
           metaTitle: v.metaTitle,
           metaDescription: v.metaDescription,
           keywords: v.keywords ?? meta.keywords,
+          // Override description with variant headline if provided
+          description: v.headline ?? meta.description,
         };
-        return { meta: merged, variant: v.defaultVariant };
+        return {
+          meta: merged,
+          variant: v.defaultVariant,
+          baseSlug: meta.slug,
+          headline: v.headline,
+        };
       }
     }
   }

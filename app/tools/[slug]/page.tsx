@@ -114,12 +114,10 @@ export default async function ToolPage({ params }: Props) {
   // 1. Try registry first (new architecture)
   const registryResult = resolveRegistrySlug(slug);
   if (registryResult) {
-    const { meta, variant } = registryResult;
-    // Dynamic import from tools-registry/<baseslug>/view.tsx
-    const baseslug = meta.slug === slug ? slug : registryResult.meta.slug;
+    const { meta, variant, baseSlug } = registryResult;
     let mod: { default: React.ComponentType<{ variant?: string }> };
     try {
-      mod = await import(`@/tools-registry/${baseslug}/view`);
+      mod = await import(`@/tools-registry/${baseSlug}/view`);
     } catch {
       notFound();
     }
