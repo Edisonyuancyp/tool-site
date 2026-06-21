@@ -6,7 +6,13 @@
     "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
     "metaTitle": "Tip Calculator – Split Bill and Calculate Tip Instantly",
     "metaDescription": "Free tip calculator. Enter bill amount and tip % to find tip per person and total per person. Perfect for restaurants, taxis, and delivery.",
-    "keywords": ["tip calculator", "restaurant tip calculator", "bill splitter", "how much to tip", "tip calculator split bill"],
+    "keywords": [
+      "tip calculator",
+      "restaurant tip calculator",
+      "bill splitter",
+      "how much to tip",
+      "tip calculator split bill"
+    ],
     "category": "Finance",
     "icon": "🍽️",
     "faqs": [
@@ -19,13 +25,23 @@
         "answer": "Enter the bill total, select your tip percentage, and enter the number of people. The calculator shows exactly how much each person owes including tip."
       }
     ],
-    "relatedTools": ["percentage-calculator", "currency-converter", "compound-interest-calculator"],
+    "relatedTools": [
+      "percentage-calculator",
+      "currency-converter",
+      "compound-interest-calculator"
+    ],
     "variants": [
       {
         "variantSlug": "restaurant-tip-calculator",
         "metaTitle": "Restaurant Tip Calculator – How Much to Tip at a Restaurant",
         "metaDescription": "Calculate your restaurant tip instantly. Enter bill amount and service quality to find the right tip. Free restaurant tip calculator.",
-        "keywords": ["restaurant tip calculator", "how much to tip at restaurant", "dining tip calculator", "waiter tip calculator", "tip for restaurant bill"],
+        "keywords": [
+          "restaurant tip calculator",
+          "how much to tip at restaurant",
+          "dining tip calculator",
+          "waiter tip calculator",
+          "tip for restaurant bill"
+        ],
         "defaultVariant": "restaurant",
         "headline": "Calculate the perfect restaurant tip. Choose 15%, 18%, 20%, or custom — and split evenly across the whole table."
       },
@@ -33,7 +49,13 @@
         "variantSlug": "bill-splitter-calculator",
         "metaTitle": "Bill Splitter Calculator – Split Restaurant Bill Evenly",
         "metaDescription": "Split a restaurant bill evenly among any number of people. Includes tip calculation. Free bill splitting calculator — no app needed.",
-        "keywords": ["bill splitter calculator", "split bill calculator", "split restaurant bill", "divide bill calculator", "how to split a bill"],
+        "keywords": [
+          "bill splitter calculator",
+          "split bill calculator",
+          "split restaurant bill",
+          "divide bill calculator",
+          "how to split a bill"
+        ],
         "defaultVariant": "split",
         "headline": "Split any bill evenly among friends. Enter the total, choose a tip percentage, and see exactly how much each person pays."
       }
@@ -46,7 +68,13 @@
     "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
     "metaTitle": "GPA Calculator – Calculate GPA from Letter Grades | Free Online",
     "metaDescription": "Free GPA calculator. Enter your letter grades or percentages to calculate GPA on a 4.0 scale. Supports weighted GPA and cumulative GPA.",
-    "keywords": ["gpa calculator", "grade point average calculator", "letter grade to gpa", "calculate gpa 4.0 scale", "cumulative gpa calculator"],
+    "keywords": [
+      "gpa calculator",
+      "grade point average calculator",
+      "letter grade to gpa",
+      "calculate gpa 4.0 scale",
+      "cumulative gpa calculator"
+    ],
     "category": "Utilities",
     "icon": "🎓",
     "faqs": [
@@ -63,13 +91,23 @@
         "answer": "Unweighted GPA treats all courses equally (max 4.0). Weighted GPA gives extra points for honors, AP, or IB courses (max 5.0), rewarding academic rigor."
       }
     ],
-    "relatedTools": ["percentage-calculator", "age-calculator", "word-counter"],
+    "relatedTools": [
+      "percentage-calculator",
+      "age-calculator",
+      "word-counter"
+    ],
     "variants": [
       {
         "variantSlug": "college-gpa-calculator",
         "metaTitle": "College GPA Calculator – Calculate University GPA Online",
         "metaDescription": "Calculate your college or university GPA. Enter course name, credit hours, and grade to find your semester and cumulative GPA. Free college GPA calculator.",
-        "keywords": ["college gpa calculator", "university gpa calculator", "semester gpa calculator", "cumulative gpa calculator college", "college grade calculator"],
+        "keywords": [
+          "college gpa calculator",
+          "university gpa calculator",
+          "semester gpa calculator",
+          "cumulative gpa calculator college",
+          "college grade calculator"
+        ],
         "defaultVariant": "college",
         "headline": "Calculate your college GPA by entering each course, its credit hours, and your letter grade. Shows both semester GPA and cumulative GPA."
       },
@@ -77,7 +115,13 @@
         "variantSlug": "high-school-gpa-calculator",
         "metaTitle": "High School GPA Calculator – Weighted & Unweighted GPA",
         "metaDescription": "Calculate your high school GPA — weighted (with AP/IB bonus) and unweighted. Free high school GPA calculator for college applications.",
-        "keywords": ["high school gpa calculator", "weighted gpa calculator", "unweighted gpa calculator", "ap class gpa calculator", "gpa for college applications"],
+        "keywords": [
+          "high school gpa calculator",
+          "weighted gpa calculator",
+          "unweighted gpa calculator",
+          "ap class gpa calculator",
+          "gpa for college applications"
+        ],
         "defaultVariant": "highschool",
         "headline": "Calculate your high school GPA — both weighted (including AP/IB/Honors bonuses) and unweighted (standard 4.0 scale) — for college applications."
       }
@@ -90,7 +134,13 @@
     "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
     "metaTitle": "Loan Calculator – Monthly Payment, Total Interest & Amortization",
     "metaDescription": "Free loan calculator. Enter loan amount, interest rate, and term to find monthly payment and total interest. Includes full amortization schedule.",
-    "keywords": ["loan calculator", "monthly payment calculator", "loan interest calculator", "amortization calculator", "mortgage payment calculator"],
+    "keywords": [
+      "loan calculator",
+      "monthly payment calculator",
+      "loan interest calculator",
+      "amortization calculator",
+      "mortgage payment calculator"
+    ],
     "category": "Finance",
     "icon": "🏦",
     "faqs": [
@@ -107,13 +157,23 @@
         "answer": "Making extra principal payments early reduces the loan balance faster, cutting total interest significantly. Even one extra payment per year can save thousands."
       }
     ],
-    "relatedTools": ["compound-interest-calculator", "percentage-calculator", "currency-converter"],
+    "relatedTools": [
+      "compound-interest-calculator",
+      "percentage-calculator",
+      "currency-converter"
+    ],
     "variants": [
       {
         "variantSlug": "mortgage-calculator",
         "metaTitle": "Mortgage Calculator – Monthly Mortgage Payment Calculator",
         "metaDescription": "Calculate your monthly mortgage payment. Enter home price, down payment, interest rate, and loan term. Free mortgage calculator with amortization schedule.",
-        "keywords": ["mortgage calculator", "monthly mortgage payment calculator", "home loan calculator", "mortgage payment estimator", "house payment calculator"],
+        "keywords": [
+          "mortgage calculator",
+          "monthly mortgage payment calculator",
+          "home loan calculator",
+          "mortgage payment estimator",
+          "house payment calculator"
+        ],
         "defaultVariant": "mortgage",
         "headline": "Calculate your monthly mortgage payment including principal and interest. Enter home price, down payment %, interest rate, and loan term to see full amortization."
       },
@@ -121,7 +181,13 @@
         "variantSlug": "car-loan-calculator",
         "metaTitle": "Car Loan Calculator – Monthly Auto Loan Payment Calculator",
         "metaDescription": "Calculate monthly car loan payments. Enter vehicle price, down payment, interest rate, and loan term. Free auto loan calculator.",
-        "keywords": ["car loan calculator", "auto loan calculator", "monthly car payment calculator", "vehicle loan calculator", "car financing calculator"],
+        "keywords": [
+          "car loan calculator",
+          "auto loan calculator",
+          "monthly car payment calculator",
+          "vehicle loan calculator",
+          "car financing calculator"
+        ],
         "defaultVariant": "car",
         "headline": "Calculate your monthly car loan payment. Enter the vehicle price, down payment, trade-in value, interest rate, and loan term to see your exact payment."
       },
@@ -129,9 +195,320 @@
         "variantSlug": "personal-loan-calculator",
         "metaTitle": "Personal Loan Calculator – Monthly Personal Loan Payment",
         "metaDescription": "Calculate monthly personal loan payments and total interest. Free personal loan calculator — enter amount, rate, and term for instant results.",
-        "keywords": ["personal loan calculator", "personal loan payment calculator", "loan payment estimator", "unsecured loan calculator", "how much loan can i afford"],
+        "keywords": [
+          "personal loan calculator",
+          "personal loan payment calculator",
+          "loan payment estimator",
+          "unsecured loan calculator",
+          "how much loan can i afford"
+        ],
         "defaultVariant": "personal",
         "headline": "Calculate your personal loan monthly payment and total interest cost. Helps you compare loan offers and choose the best terms."
+      }
+    ]
+  },
+  {
+    "slug": "retirement-savings-calculator",
+    "name": "Retirement Savings Calculator",
+    "tagline": "Plan your retirement savings effortlessly.",
+    "description": "This tool helps users estimate how much they need to save for retirement based on their current savings, desired retirement age, and lifestyle. Perfect for anyone looking to secure their financial future.",
+    "metaTitle": "Retirement Savings Calculator | Free Online Tool",
+    "metaDescription": "Estimate your retirement savings needs instantly. Free tool, no signup required!",
+    "keywords": [
+      "retirement savings",
+      "retirement calculator",
+      "financial planning",
+      "savings estimator",
+      "future planning"
+    ],
+    "category": "Finance",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How do I use this calculator?",
+        "answer": "Simply enter your current savings, desired retirement age, and expected yearly expenses."
+      },
+      {
+        "question": "What if I don't have any savings yet?",
+        "answer": "You can still use the tool to see how much you need to save monthly to reach your goals."
+      },
+      {
+        "question": "Can I adjust my expected retirement age?",
+        "answer": "Yes, you can change your retirement age to see how it affects your savings needs."
+      }
+    ],
+    "relatedTools": [
+      "loan-calculator",
+      "bmr-tdee-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "early-retirement-variant",
+        "metaTitle": "Early Retirement Savings Calculator",
+        "metaDescription": "Plan for early retirement with tailored savings estimates.",
+        "keywords": [
+          "early retirement",
+          "savings plan",
+          "financial independence"
+        ],
+        "defaultVariant": "early-retirement",
+        "headline": "Calculate how much you need to save to retire early!"
+      },
+      {
+        "variantSlug": "retirement-income-variant",
+        "metaTitle": "Retirement Income Calculator",
+        "metaDescription": "Estimate your income needs during retirement.",
+        "keywords": [
+          "retirement income",
+          "income needs",
+          "financial security"
+        ],
+        "defaultVariant": "retirement-income",
+        "headline": "Understand how much income you'll need in retirement."
+      }
+    ]
+  },
+  {
+    "slug": "tax-calculator",
+    "name": "Tax Calculator",
+    "tagline": "Calculate your tax liability quickly.",
+    "description": "This simple tool helps users estimate their tax obligations based on their income and deductions. Ideal for individuals and small business owners wanting to plan their finances better.",
+    "metaTitle": "Tax Calculator | Free Online Tool",
+    "metaDescription": "Calculate your taxes easily and swiftly. Free tool, no signup required!",
+    "keywords": [
+      "tax calculator",
+      "tax estimation",
+      "income tax",
+      "deductions",
+      "financial planning"
+    ],
+    "category": "Finance",
+    "icon": "🧾",
+    "faqs": [
+      {
+        "question": "What information do I need?",
+        "answer": "You'll need your income, any deductions, and filing status."
+      },
+      {
+        "question": "Is this calculator accurate?",
+        "answer": "It provides an estimation based on current tax laws."
+      },
+      {
+        "question": "Can I save the results?",
+        "answer": "Currently, this tool does not save results, but you can note them down."
+      }
+    ],
+    "relatedTools": [
+      "loan-calculator",
+      "retirement-savings-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "self-employed-tax-variant",
+        "metaTitle": "Self-Employed Tax Calculator",
+        "metaDescription": "Estimate taxes specifically for self-employed individuals.",
+        "keywords": [
+          "self-employed taxes",
+          "freelancer tax",
+          "business tax"
+        ],
+        "defaultVariant": "self-employed",
+        "headline": "Calculate your tax obligations as a self-employed individual."
+      },
+      {
+        "variantSlug": "state-tax-variant",
+        "metaTitle": "State Tax Calculator",
+        "metaDescription": "Calculate state-specific tax obligations.",
+        "keywords": [
+          "state tax",
+          "local tax",
+          "tax by state"
+        ],
+        "defaultVariant": "state-tax",
+        "headline": "Understand your tax obligations based on your state."
+      }
+    ]
+  },
+  {
+    "slug": "investment-return-calculator",
+    "name": "Investment Return Calculator",
+    "tagline": "Estimate your investment returns.",
+    "description": "This tool helps you calculate the potential returns on your investments based on initial amount, interest rate, and duration. Great for investors wanting to project their investment growth.",
+    "metaTitle": "Investment Return Calculator | Free Online Tool",
+    "metaDescription": "Estimate your investment returns instantly. Free tool, no signup required!",
+    "keywords": [
+      "investment return",
+      "investment growth",
+      "financial forecasting",
+      "future value",
+      "investment planning"
+    ],
+    "category": "Finance",
+    "icon": "📈",
+    "faqs": [
+      {
+        "question": "What inputs do I need?",
+        "answer": "Enter your initial investment, expected annual return rate, and investment duration."
+      },
+      {
+        "question": "Can I see monthly returns?",
+        "answer": "This calculator provides annual returns, but you can adjust your inputs for more frequent analysis."
+      },
+      {
+        "question": "What is compound interest?",
+        "answer": "Compound interest is the interest on your investment that accumulates over time, increasing your total returns."
+      }
+    ],
+    "relatedTools": [
+      "loan-calculator",
+      "retirement-savings-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "real-estate-investment-variant",
+        "metaTitle": "Real Estate Investment Return Calculator",
+        "metaDescription": "Estimate returns specifically for real estate investments.",
+        "keywords": [
+          "real estate",
+          "property investment",
+          "real estate returns"
+        ],
+        "defaultVariant": "real-estate",
+        "headline": "Calculate potential returns on your real estate investments."
+      },
+      {
+        "variantSlug": "stock-market-investment-variant",
+        "metaTitle": "Stock Market Investment Return Calculator",
+        "metaDescription": "Estimate returns on stock market investments.",
+        "keywords": [
+          "stock market",
+          "stocks",
+          "stock return"
+        ],
+        "defaultVariant": "stock-market",
+        "headline": "Project your returns from stock market investments."
+      }
+    ]
+  },
+  {
+    "slug": "debt-repayment-calculator",
+    "name": "Debt Repayment Calculator",
+    "tagline": "Plan your debt repayment strategy.",
+    "description": "This calculator helps users determine how long it will take to pay off debts based on their payments and interest rates. Ideal for anyone looking to manage their debts effectively.",
+    "metaTitle": "Debt Repayment Calculator | Free Online Tool",
+    "metaDescription": "Plan your debt repayment easily. Free tool, no signup required!",
+    "keywords": [
+      "debt repayment",
+      "debt management",
+      "financial health",
+      "debt payoff",
+      "payment strategy"
+    ],
+    "category": "Finance",
+    "icon": "💳",
+    "faqs": [
+      {
+        "question": "What do I need to input?",
+        "answer": "Enter your total debt, monthly payment, and interest rate."
+      },
+      {
+        "question": "Can I adjust my monthly payment?",
+        "answer": "Yes, the calculator allows you to see how different payments affect your repayment timeline."
+      },
+      {
+        "question": "What is the benefit of this tool?",
+        "answer": "It helps you visualize your debt payoff process and manage your finances better."
+      }
+    ],
+    "relatedTools": [
+      "loan-calculator",
+      "investment-return-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "student-loan-variant",
+        "metaTitle": "Student Loan Repayment Calculator",
+        "metaDescription": "Estimate repayment time for student loans.",
+        "keywords": [
+          "student loans",
+          "student debt",
+          "education financing"
+        ],
+        "defaultVariant": "student-loan",
+        "headline": "Calculate how long it will take to pay off your student loans."
+      },
+      {
+        "variantSlug": "credit-card-debt-variant",
+        "metaTitle": "Credit Card Debt Repayment Calculator",
+        "metaDescription": "Calculate repayment time for credit card debt.",
+        "keywords": [
+          "credit card debt",
+          "credit debt",
+          "debt payment"
+        ],
+        "defaultVariant": "credit-card-debt",
+        "headline": "Manage your credit card debt repayment effectively."
+      }
+    ]
+  },
+  {
+    "slug": "budget-calculator",
+    "name": "Budget Calculator",
+    "tagline": "Create your personal budget easily.",
+    "description": "This tool allows users to create and manage a personal budget by inputting their income and expenses. Perfect for individuals looking to gain control over their finances.",
+    "metaTitle": "Budget Calculator | Free Online Tool",
+    "metaDescription": "Create your personal budget effortlessly. Free tool, no signup required!",
+    "keywords": [
+      "budget calculator",
+      "personal budgeting",
+      "financial planning",
+      "expense tracking",
+      "money management"
+    ],
+    "category": "Finance",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "How do I start?",
+        "answer": "Input your monthly income and expenses to see your budget breakdown."
+      },
+      {
+        "question": "Can I adjust my expenses?",
+        "answer": "Yes, you can modify expenses to see how it affects your overall budget."
+      },
+      {
+        "question": "What is the purpose of this calculator?",
+        "answer": "It helps you understand your spending habits and manage your finances better."
+      }
+    ],
+    "relatedTools": [
+      "debt-repayment-calculator",
+      "tax-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "family-budget-variant",
+        "metaTitle": "Family Budget Calculator",
+        "metaDescription": "Create a budget tailored for family needs.",
+        "keywords": [
+          "family budgeting",
+          "household expenses",
+          "family finance"
+        ],
+        "defaultVariant": "family-budget",
+        "headline": "Manage your family finances with ease using this calculator."
+      },
+      {
+        "variantSlug": "student-budget-variant",
+        "metaTitle": "Student Budget Calculator",
+        "metaDescription": "Create a budget specifically for students.",
+        "keywords": [
+          "student budget",
+          "college finance",
+          "student expenses"
+        ],
+        "defaultVariant": "student-budget",
+        "headline": "Help students manage their finances effectively."
       }
     ]
   }

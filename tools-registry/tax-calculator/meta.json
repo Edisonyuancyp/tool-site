@@ -1,0 +1,61 @@
+{
+  "slug": "tax-calculator",
+  "name": "Tax Calculator",
+  "tagline": "Calculate your tax liability quickly.",
+  "description": "This simple tool helps users estimate their tax obligations based on their income and deductions. Ideal for individuals and small business owners wanting to plan their finances better.",
+  "metaTitle": "Tax Calculator | Free Online Tool",
+  "metaDescription": "Calculate your taxes easily and swiftly. Free tool, no signup required!",
+  "keywords": [
+    "tax calculator",
+    "tax estimation",
+    "income tax",
+    "deductions",
+    "financial planning"
+  ],
+  "category": "Finance",
+  "icon": "🧾",
+  "faqs": [
+    {
+      "question": "What information do I need?",
+      "answer": "You'll need your income, any deductions, and filing status."
+    },
+    {
+      "question": "Is this calculator accurate?",
+      "answer": "It provides an estimation based on current tax laws."
+    },
+    {
+      "question": "Can I save the results?",
+      "answer": "Currently, this tool does not save results, but you can note them down."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "retirement-savings-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "self-employed-tax-variant",
+      "metaTitle": "Self-Employed Tax Calculator",
+      "metaDescription": "Estimate taxes specifically for self-employed individuals.",
+      "keywords": [
+        "self-employed taxes",
+        "freelancer tax",
+        "business tax"
+      ],
+      "defaultVariant": "self-employed",
+      "headline": "Calculate your tax obligations as a self-employed individual."
+    },
+    {
+      "variantSlug": "state-tax-variant",
+      "metaTitle": "State Tax Calculator",
+      "metaDescription": "Calculate state-specific tax obligations.",
+      "keywords": [
+        "state tax",
+        "local tax",
+        "tax by state"
+      ],
+      "defaultVariant": "state-tax",
+      "headline": "Understand your tax obligations based on your state."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "Debt Repayment Calculator",
+  "tagline": "Plan your debt repayment strategy.",
+  "description": "This calculator helps users determine how long it will take to pay off debts based on their payments and interest rates. Ideal for anyone looking to manage their debts effectively.",
+  "metaTitle": "Debt Repayment Calculator | Free Online Tool",
+  "metaDescription": "Plan your debt repayment easily. Free tool, no signup required!",
+  "keywords": [
+    "debt repayment",
+    "debt management",
+    "financial health",
+    "debt payoff",
+    "payment strategy"
+  ],
+  "category": "Finance",
+  "icon": "💳",
+  "faqs": [
+    {
+      "question": "What do I need to input?",
+      "answer": "Enter your total debt, monthly payment, and interest rate."
+    },
+    {
+      "question": "Can I adjust my monthly payment?",
+      "answer": "Yes, the calculator allows you to see how different payments affect your repayment timeline."
+    },
+    {
+      "question": "What is the benefit of this tool?",
+      "answer": "It helps you visualize your debt payoff process and manage your finances better."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "student-loan-variant",
+      "metaTitle": "Student Loan Repayment Calculator",
+      "metaDescription": "Estimate repayment time for student loans.",
+      "keywords": [
+        "student loans",
+        "student debt",
+        "education financing"
+      ],
+      "defaultVariant": "student-loan",
+      "headline": "Calculate how long it will take to pay off your student loans."
+    },
+    {
+      "variantSlug": "credit-card-debt-variant",
+      "metaTitle": "Credit Card Debt Repayment Calculator",
+      "metaDescription": "Calculate repayment time for credit card debt.",
+      "keywords": [
+        "credit card debt",
+        "credit debt",
+        "debt payment"
+      ],
+      "defaultVariant": "credit-card-debt",
+      "headline": "Manage your credit card debt repayment effectively."
+    }
+  ]
+}

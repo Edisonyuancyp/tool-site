@@ -1,0 +1,61 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "Retirement Savings Calculator",
+  "tagline": "Plan your retirement savings effortlessly.",
+  "description": "This tool helps users estimate how much they need to save for retirement based on their current savings, desired retirement age, and lifestyle. Perfect for anyone looking to secure their financial future.",
+  "metaTitle": "Retirement Savings Calculator | Free Online Tool",
+  "metaDescription": "Estimate your retirement savings needs instantly. Free tool, no signup required!",
+  "keywords": [
+    "retirement savings",
+    "retirement calculator",
+    "financial planning",
+    "savings estimator",
+    "future planning"
+  ],
+  "category": "Finance",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "How do I use this calculator?",
+      "answer": "Simply enter your current savings, desired retirement age, and expected yearly expenses."
+    },
+    {
+      "question": "What if I don't have any savings yet?",
+      "answer": "You can still use the tool to see how much you need to save monthly to reach your goals."
+    },
+    {
+      "question": "Can I adjust my expected retirement age?",
+      "answer": "Yes, you can change your retirement age to see how it affects your savings needs."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "early-retirement-variant",
+      "metaTitle": "Early Retirement Savings Calculator",
+      "metaDescription": "Plan for early retirement with tailored savings estimates.",
+      "keywords": [
+        "early retirement",
+        "savings plan",
+        "financial independence"
+      ],
+      "defaultVariant": "early-retirement",
+      "headline": "Calculate how much you need to save to retire early!"
+    },
+    {
+      "variantSlug": "retirement-income-variant",
+      "metaTitle": "Retirement Income Calculator",
+      "metaDescription": "Estimate your income needs during retirement.",
+      "keywords": [
+        "retirement income",
+        "income needs",
+        "financial security"
+      ],
+      "defaultVariant": "retirement-income",
+      "headline": "Understand how much income you'll need in retirement."
+    }
+  ]
+}

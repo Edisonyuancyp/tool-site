@@ -1,0 +1,61 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "Investment Return Calculator",
+  "tagline": "Estimate your investment returns.",
+  "description": "This tool helps you calculate the potential returns on your investments based on initial amount, interest rate, and duration. Great for investors wanting to project their investment growth.",
+  "metaTitle": "Investment Return Calculator | Free Online Tool",
+  "metaDescription": "Estimate your investment returns instantly. Free tool, no signup required!",
+  "keywords": [
+    "investment return",
+    "investment growth",
+    "financial forecasting",
+    "future value",
+    "investment planning"
+  ],
+  "category": "Finance",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "What inputs do I need?",
+      "answer": "Enter your initial investment, expected annual return rate, and investment duration."
+    },
+    {
+      "question": "Can I see monthly returns?",
+      "answer": "This calculator provides annual returns, but you can adjust your inputs for more frequent analysis."
+    },
+    {
+      "question": "What is compound interest?",
+      "answer": "Compound interest is the interest on your investment that accumulates over time, increasing your total returns."
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "retirement-savings-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "real-estate-investment-variant",
+      "metaTitle": "Real Estate Investment Return Calculator",
+      "metaDescription": "Estimate returns specifically for real estate investments.",
+      "keywords": [
+        "real estate",
+        "property investment",
+        "real estate returns"
+      ],
+      "defaultVariant": "real-estate",
+      "headline": "Calculate potential returns on your real estate investments."
+    },
+    {
+      "variantSlug": "stock-market-investment-variant",
+      "metaTitle": "Stock Market Investment Return Calculator",
+      "metaDescription": "Estimate returns on stock market investments.",
+      "keywords": [
+        "stock market",
+        "stocks",
+        "stock return"
+      ],
+      "defaultVariant": "stock-market",
+      "headline": "Project your returns from stock market investments."
+    }
+  ]
+}

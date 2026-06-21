@@ -1,0 +1,61 @@
+{
+  "slug": "budget-calculator",
+  "name": "Budget Calculator",
+  "tagline": "Create your personal budget easily.",
+  "description": "This tool allows users to create and manage a personal budget by inputting their income and expenses. Perfect for individuals looking to gain control over their finances.",
+  "metaTitle": "Budget Calculator | Free Online Tool",
+  "metaDescription": "Create your personal budget effortlessly. Free tool, no signup required!",
+  "keywords": [
+    "budget calculator",
+    "personal budgeting",
+    "financial planning",
+    "expense tracking",
+    "money management"
+  ],
+  "category": "Finance",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "How do I start?",
+      "answer": "Input your monthly income and expenses to see your budget breakdown."
+    },
+    {
+      "question": "Can I adjust my expenses?",
+      "answer": "Yes, you can modify expenses to see how it affects your overall budget."
+    },
+    {
+      "question": "What is the purpose of this calculator?",
+      "answer": "It helps you understand your spending habits and manage your finances better."
+    }
+  ],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "family-budget-variant",
+      "metaTitle": "Family Budget Calculator",
+      "metaDescription": "Create a budget tailored for family needs.",
+      "keywords": [
+        "family budgeting",
+        "household expenses",
+        "family finance"
+      ],
+      "defaultVariant": "family-budget",
+      "headline": "Manage your family finances with ease using this calculator."
+    },
+    {
+      "variantSlug": "student-budget-variant",
+      "metaTitle": "Student Budget Calculator",
+      "metaDescription": "Create a budget specifically for students.",
+      "keywords": [
+        "student budget",
+        "college finance",
+        "student expenses"
+      ],
+      "defaultVariant": "student-budget",
+      "headline": "Help students manage their finances effectively."
+    }
+  ]
+}
