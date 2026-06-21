@@ -1,6 +1,7 @@
 "use client";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { toPng } from "html-to-image";
+import QRCode from "qrcode";
 
 interface ShareResultCardProps {
   toolName: string;
@@ -20,6 +21,17 @@ export default function ShareResultCard({
 }: ShareResultCardProps) {
   const cardRef  = useRef<HTMLDivElement>(null);
   const [status, setStatus] = useState<"idle" | "generating" | "done" | "error">("idle");
+  const [qrDataUrl, setQrDataUrl] = useState<string>("");
+
+  const toolUrl = `https://${SITE}/tools/${slug}`;
+
+  useEffect(() => {
+    QRCode.toDataURL(toolUrl, {
+      width: 120,
+      margin: 1,
+      color: { dark: "#ffffff", light: "#00000000" }, // white on transparent
+    }).then(setQrDataUrl).catch(() => {});
+  }, [toolUrl]);
 
   async function downloadImage() {
     if (!cardRef.current) return;
@@ -109,19 +121,35 @@ export default function ShareResultCard({
               alignItems: "center",
             }}
           >
-            <span style={{ fontSize: 13, color: "#666" }}>Free · No signup · 100% browser</span>
-            <span
-              style={{
-                fontSize: 13,
-                fontWeight: 700,
-                color: "#fff",
-                background: "rgba(255,255,255,0.12)",
-                padding: "4px 12px",
-                borderRadius: 20,
-              }}
-            >
-              {SITE}
-            </span>
+            <div>
+              <span style={{ fontSize: 13, color: "#666" }}>Free · No signup · 100% browser</span>
+              <div style={{ fontSize: 11, color: "#555", marginTop: 3 }}>Scan to try it yourself →</div>
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              {qrDataUrl && (
+                <div style={{
+                  background: "rgba(255,255,255,0.1)",
+                  borderRadius: 10,
+                  padding: 6,
+                  display: "flex",
+                }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={qrDataUrl} alt="QR" width={72} height={72} style={{ display: "block" }} />
+                </div>
+              )}
+              <span
+                style={{
+                  fontSize: 13,
+                  fontWeight: 700,
+                  color: "#fff",
+                  background: "rgba(255,255,255,0.12)",
+                  padding: "4px 12px",
+                  borderRadius: 20,
+                }}
+              >
+                {SITE}
+              </span>
+            </div>
           </div>
         </div>
       </div>
@@ -156,9 +184,20 @@ export default function ShareResultCard({
             ))}
           </div>
 
-          <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between">
-            <span className="text-xs text-gray-600">Free · No signup · 100% browser</span>
-            <span className="text-xs font-bold text-white bg-white/10 px-3 py-1 rounded-full">{SITE}</span>
+          <div className="mt-5 pt-4 border-t border-white/10 flex items-center justify-between gap-3">
+            <div>
+              <span className="text-xs text-gray-600">Free · No signup · 100% browser</span>
+              <p className="text-xs text-gray-600 mt-0.5">Scan to try it yourself →</p>
+            </div>
+            <div className="flex items-center gap-3 shrink-0">
+              {qrDataUrl && (
+                <div className="rounded-xl p-1.5" style={{ background: "rgba(255,255,255,0.1)" }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={qrDataUrl} alt="QR code" width={56} height={56} />
+                </div>
+              )}
+              <span className="text-xs font-bold text-white bg-white/10 px-3 py-1 rounded-full">{SITE}</span>
+            </div>
           </div>
         </div>
       </div>
