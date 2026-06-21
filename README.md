@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ToolCalc — Free Online Tools & Calculators
 
-## Getting Started
+A static web tool site with 30+ free browser-based calculators and utilities. Built with Next.js (static export), React, and Tailwind CSS. All tools run 100% client-side — no backend, no database, no user data collected.
 
-First, run the development server:
+## Tools Included
+
+**Health** — BMI Calculator, Ideal Weight, Body Fat %, BMR & TDEE, Water Intake, Running Pace, Ovulation Calculator, Sleep Calculator
+
+**Finance** — Compound Interest, Currency Converter, Percentage Calculator, TP/SL Calculator, Position Size Calculator, Crypto Market Cap Comparator
+
+**Developer** — Unix Timestamp Converter, Diff Checker, JSON/CSV Formatter, Base64 Encoder/Decoder, Word Counter, Number Base Converter
+
+**Date & Time** — Age Calculator, Holiday Calculator
+
+**Utilities** — QR Code Generator, Password Generator, Text Case Converter, Random Number Generator, Emoji Picker
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Generates a fully static site in the `out/` directory.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy on Cloudflare Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Connect this GitHub repository to [Cloudflare Pages](https://pages.cloudflare.com/) with these settings:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Setting | Value |
+|---|---|
+| **Framework preset** | None |
+| **Build command** | `npm run build` |
+| **Build output directory** | `out` |
+| **Node.js version** | `20` |
 
-## Deploy on Vercel
+No environment variables required — all tools are client-side only.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js 15](https://nextjs.org/) — static export (`output: "export"`)
+- [React 19](https://react.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Recharts](https://recharts.org/) — charts for compound interest
+- [qrcode](https://www.npmjs.com/package/qrcode) — QR code generation
+
+## SEO
+
+- Per-page `<title>` and `<meta description>` via Next.js `generateMetadata`
+- Schema.org structured data: `SoftwareApplication`, `FAQPage`, `BreadcrumbList` on every tool page
+- `WebSite`, `ItemList`, `Organization` schema on homepage
+- `sitemap.xml` and `robots.txt` auto-generated
+- Canonical URLs on all pages

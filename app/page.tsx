@@ -1,65 +1,115 @@
-import Image from "next/image";
+"use client";
+import { useState } from "react";
+import Link from "next/link";
+import { tools } from "@/lib/tools";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import HomeSchema from "@/components/HomeSchema";
+
+const categories = [...new Set(tools.map((t) => t.category))];
 
 export default function Home() {
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  const filtered = activeCategory
+    ? tools.filter((t) => t.category === activeCategory)
+    : tools;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+    <>
+      <HomeSchema />
+      <Header />
+      <main className="flex-1">
+        <div className="max-w-4xl mx-auto px-4 py-14">
+          {/* Hero */}
+          <div className="text-center mb-10">
+            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 tracking-tight mb-4 leading-tight">
+              Free Online Tools &amp;<br className="hidden sm:block" /> Calculators
+            </h1>
+            <p className="text-lg text-gray-500 max-w-xl mx-auto leading-relaxed">
+              Fast, free tools that work instantly in your browser.
+              No signup. No ads. Just results.
+            </p>
+          </div>
+
+          {/* Category filter */}
+          <div className="mb-8">
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setActiveCategory(null)}
+                className={
+                  "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
+                  (activeCategory === null
+                    ? "bg-gray-900 text-white border-gray-900"
+                    : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
+                }
+              >
+                All ({tools.length})
+              </button>
+              {categories.map((cat) => {
+                const count = tools.filter((t) => t.category === cat).length;
+                const isActive = activeCategory === cat;
+                return (
+                  <button
+                    type="button"
+                    key={cat}
+                    onClick={() => setActiveCategory(isActive ? null : cat)}
+                    className={
+                      "px-4 py-2 rounded-full text-sm font-medium border transition-all " +
+                      (isActive
+                        ? "bg-gray-900 text-white border-gray-900"
+                        : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
+                    }
+                  >
+                    {cat} ({count})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Tool Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filtered.map((tool) => (
+              <Link
+                key={tool.slug}
+                href={`/tools/${tool.slug}`}
+                className="group flex flex-col gap-3 p-5 border border-gray-100 rounded-xl bg-white hover:border-gray-300 hover:shadow-sm transition-all"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-2xl">{tool.icon}</span>
+                  <span className="text-xs font-medium text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full border border-gray-100">
+                    {tool.category}
+                  </span>
+                </div>
+                <div>
+                  <h2 className="font-semibold text-gray-900 group-hover:text-black transition-colors">
+                    {tool.name}
+                  </h2>
+                  <p className="text-sm text-gray-400 mt-0.5 leading-relaxed">
+                    {tool.tagline}
+                  </p>
+                </div>
+                <div className="flex items-center text-xs text-gray-400 group-hover:text-gray-600 transition-colors mt-auto">
+                  Use tool
+                  <svg className="w-3.5 h-3.5 ml-1 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* Trust line */}
+          <div className="mt-12 text-center">
+            <p className="text-sm text-gray-400">
+              All tools run 100% in your browser · No data stored · No account required
+            </p>
+          </div>
         </div>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
