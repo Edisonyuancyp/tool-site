@@ -3,6 +3,7 @@ import { ToolMeta, tools as legacyTools } from "@/lib/tools";
 import AccuracyFeedback from "@/components/AccuracyFeedback";
 import FavoriteButton from "@/components/FavoriteButton";
 import VisitTracker from "@/components/VisitTracker";
+import SEOContent from "@/components/SEOContent";
 
 interface ToolLayoutProps {
   tool: ToolMeta;
@@ -205,6 +206,9 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
               ))}
             </div>
           </section>
+
+          {/* SEO Content — pain points + trust signals (server-rendered for crawlers) */}
+          <SEOContent tool={tool} />
 
           {/* Related tools */}
           {relatedTools.length > 0 && (

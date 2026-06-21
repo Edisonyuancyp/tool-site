@@ -182,3 +182,4 @@ node scripts/translate-metas.mjs --locale es
 | 2026-06-21 | 实现 WorkbenchContext（收藏 + 最近访问），/workbench 页面（noindex） |
 | 2026-06-21 | 创建 /es 和 /fr 本地化首页 |
 | 2026-06-21 | Sitemap 更新至 586 条 URL，添加 netlify.toml 修复 i18n 404 |
+| 2026-06-21 | SEO 自动化：创建 seo_config.json（10个分类模板），升级 generate_tool.py 自动注入关键词/描述/痛点，新增 SEOContent 组件 |

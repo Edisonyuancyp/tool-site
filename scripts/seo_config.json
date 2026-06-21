@@ -1,0 +1,277 @@
+{
+  "_comment": "SEO template library. Each category defines keyword seeds, meta description patterns, H1 tendencies, and pain-point phrases injected into SEOContent on tool pages.",
+
+  "categories": {
+
+    "Finance": {
+      "url_prefix": "calc",
+      "seed_keywords": [
+        "free online calculator",
+        "no signup required",
+        "instant results",
+        "financial planning tool"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. No signup, no ads. Instant results in your browser.",
+      "title_template": "{name} – Free Online {type} | GetFastCalc",
+      "h1_tendency": "accurate {name}",
+      "pain_points": [
+        "How to quickly calculate {topic} without Excel",
+        "Best free {name} online",
+        "How to estimate {topic} in seconds",
+        "What is the formula for {topic}",
+        "How much {topic} do I need"
+      ],
+      "long_tail_suffixes": [
+        "calculator free",
+        "calculator online no signup",
+        "estimator tool",
+        "with formula",
+        "step by step"
+      ]
+    },
+
+    "Math": {
+      "url_prefix": "calc",
+      "seed_keywords": [
+        "free math calculator",
+        "step by step",
+        "instant answer",
+        "no download needed"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Instant results with step-by-step breakdown. No signup.",
+      "title_template": "{name} – Free Online Math Tool | GetFastCalc",
+      "h1_tendency": "fast {name}",
+      "pain_points": [
+        "How to calculate {topic} step by step",
+        "What is the easiest way to {topic}",
+        "Free {name} with explanation",
+        "{topic} formula explained simply"
+      ],
+      "long_tail_suffixes": [
+        "step by step calculator",
+        "with solution",
+        "formula calculator",
+        "solver online free"
+      ]
+    },
+
+    "Health": {
+      "url_prefix": "calc",
+      "seed_keywords": [
+        "free health calculator",
+        "body metrics tool",
+        "no account needed",
+        "science-based formula"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Science-based formula, instant results. No signup required.",
+      "title_template": "{name} – Free {type} Calculator | GetFastCalc",
+      "h1_tendency": "accurate {name}",
+      "pain_points": [
+        "How to calculate {topic} accurately",
+        "What is a healthy {topic} for my age",
+        "Free {name} used by doctors",
+        "How do I know my {topic}",
+        "Best {name} online for {topic}"
+      ],
+      "long_tail_suffixes": [
+        "calculator for adults",
+        "calculator by age and weight",
+        "online free accurate",
+        "metric and imperial",
+        "for men and women"
+      ]
+    },
+
+    "Crypto": {
+      "url_prefix": "calc",
+      "seed_keywords": [
+        "crypto calculator",
+        "real-time crypto tool",
+        "no login required",
+        "trading calculator"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Real-time crypto calculations in your browser. No signup.",
+      "title_template": "{name} – Free Crypto {type} | GetFastCalc",
+      "h1_tendency": "real-time {name}",
+      "pain_points": [
+        "How to calculate {topic} for crypto trading",
+        "Best free {name} for beginners",
+        "How to manage risk with {topic}",
+        "{topic} calculator for Bitcoin and altcoins"
+      ],
+      "long_tail_suffixes": [
+        "crypto calculator free",
+        "for bitcoin ethereum",
+        "trading tool online",
+        "no registration"
+      ]
+    },
+
+    "Design": {
+      "url_prefix": "design",
+      "seed_keywords": [
+        "free design tool",
+        "color palette generator",
+        "instant preview",
+        "no Photoshop needed"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Instant visual preview, copy HEX codes in one click. No signup.",
+      "title_template": "{name} – Free Online Design Tool | GetFastCalc",
+      "h1_tendency": "instant {name}",
+      "pain_points": [
+        "Best free {name} online",
+        "How to create {topic} without software",
+        "Where to find {topic} color codes",
+        "Free {name} for web designers",
+        "Generate {topic} in seconds"
+      ],
+      "long_tail_suffixes": [
+        "generator free",
+        "online tool no download",
+        "HEX codes",
+        "for web design",
+        "color scheme creator"
+      ]
+    },
+
+    "Generators": {
+      "url_prefix": "design",
+      "seed_keywords": [
+        "free generator tool",
+        "instant output",
+        "no signup",
+        "browser-based tool"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Generate instantly in your browser. No account required.",
+      "title_template": "{name} – Free Online Generator | GetFastCalc",
+      "h1_tendency": "fast {name}",
+      "pain_points": [
+        "How to generate {topic} for free",
+        "Best {name} online no signup",
+        "Free {topic} generator with custom options",
+        "How to create a strong {topic} instantly"
+      ],
+      "long_tail_suffixes": [
+        "generator online free",
+        "maker no signup",
+        "custom generator",
+        "instant results"
+      ]
+    },
+
+    "Developer": {
+      "url_prefix": "dev",
+      "seed_keywords": [
+        "free developer tool",
+        "online utility",
+        "no install required",
+        "browser-based dev tool"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Fast browser-based tool for developers. No install, no signup.",
+      "title_template": "{name} – Free Online Dev Tool | GetFastCalc",
+      "h1_tendency": "fast {name}",
+      "pain_points": [
+        "How to {topic} online without installing anything",
+        "Free {name} for developers",
+        "Quick {topic} converter online",
+        "Best online {name} tool"
+      ],
+      "long_tail_suffixes": [
+        "online tool free",
+        "converter browser",
+        "no install dev tool",
+        "for developers"
+      ]
+    },
+
+    "Text": {
+      "url_prefix": "dev",
+      "seed_keywords": [
+        "free text tool",
+        "online text utility",
+        "instant processing",
+        "no software needed"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Process text instantly in your browser. No software, no signup.",
+      "title_template": "{name} – Free Online Text Tool | GetFastCalc",
+      "h1_tendency": "instant {name}",
+      "pain_points": [
+        "How to {topic} text online for free",
+        "Best free {name} tool",
+        "Convert or process text without Word or software",
+        "Fast {topic} tool online"
+      ],
+      "long_tail_suffixes": [
+        "text tool online free",
+        "converter online",
+        "processor no signup",
+        "instant results"
+      ]
+    },
+
+    "Security": {
+      "url_prefix": "dev",
+      "seed_keywords": [
+        "free security tool",
+        "privacy-first",
+        "runs in browser",
+        "no data stored"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Runs 100% in your browser. No data stored, no signup.",
+      "title_template": "{name} – Free Online Security Tool | GetFastCalc",
+      "h1_tendency": "secure {name}",
+      "pain_points": [
+        "How to {topic} safely online",
+        "Free {name} that doesn't store data",
+        "Best privacy-friendly {name}",
+        "Secure {topic} tool with no account"
+      ],
+      "long_tail_suffixes": [
+        "free secure tool",
+        "privacy-friendly online",
+        "no data stored",
+        "browser-based security"
+      ]
+    },
+
+    "Date & Time": {
+      "url_prefix": "time",
+      "seed_keywords": [
+        "free date calculator",
+        "time zone converter",
+        "instant result",
+        "no signup"
+      ],
+      "meta_description_template": "Free {name} — {tagline}. Instant date and time calculations in your browser. No signup.",
+      "title_template": "{name} – Free Date & Time Tool | GetFastCalc",
+      "h1_tendency": "accurate {name}",
+      "pain_points": [
+        "How to calculate {topic} quickly",
+        "Free {name} online",
+        "How many {topic} between two dates",
+        "Best {name} with time zone support"
+      ],
+      "long_tail_suffixes": [
+        "calculator online free",
+        "date tool no signup",
+        "time calculator browser",
+        "instant date math"
+      ]
+    }
+  },
+
+  "global": {
+    "brand_suffix": "| GetFastCalc",
+    "trust_signals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ],
+    "canonical_base": "https://getfastcalc.com",
+    "max_meta_description_length": 160,
+    "max_title_length": 65,
+    "min_keywords_count": 5
+  }
+}

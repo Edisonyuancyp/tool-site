@@ -31,6 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
 TASKS_FILE = Path(__file__).resolve().parent / "tasks.json"
 PALETTE_RECIPES_FILE = Path(__file__).resolve().parent / "palette-recipes.json"
+SEO_CONFIG_FILE = Path(__file__).resolve().parent / "seo_config.json"
 
 # ── Category → URL prefix mapping ────────────────────────────────────────────
 # Determines the hierarchical URL path: /tools/<prefix>/<slug>
@@ -59,6 +60,100 @@ def get_url_path(slug: str, category: str) -> str:
     if prefix:
         return f"/tools/{prefix}/{slug}"
     return f"/tools/{slug}"
+
+
+# ── SEO Config ────────────────────────────────────────────────────────────────
+
+def load_seo_config() -> dict:
+    """Load seo_config.json; returns empty dict on failure."""
+    if not SEO_CONFIG_FILE.exists():
+        print(f"  [WARN] seo_config.json not found — SEO enhancement skipped")
+        return {}
+    with open(SEO_CONFIG_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def enhance_meta_with_seo(meta: dict, seo_config: dict) -> dict:
+    """
+    Enrich meta.json fields using seo_config.json templates.
+    Rules:
+    - Only fills fields that are empty/generic (never overwrites explicit task data).
+    - metaTitle: applies title_template if current title is the generic fallback.
+    - metaDescription: applies meta_description_template, ensuring 2+ long-tail keywords,
+      capped at 160 chars.
+    - keywords: merges task keywords with seed_keywords + long_tail_suffixes;
+      deduplicates; min 5 entries.
+    - pain_points: stored in meta for SEOContent component to use.
+    """
+    category = meta.get("category", "")
+    categories_cfg = seo_config.get("categories", {})
+    cat_cfg = categories_cfg.get(category, {})
+    global_cfg = seo_config.get("global", {})
+
+    if not cat_cfg:
+        return meta  # unknown category, skip
+
+    name    = meta.get("name", "")
+    tagline = meta.get("tagline", "")
+    slug    = meta.get("slug", "")
+    # Simple topic word: first noun-ish word of the name, lowercased
+    topic = name.lower().replace(" calculator", "").replace(" tool", "").strip()
+    tool_type = "Calculator" if "calculator" in name.lower() else "Tool"
+
+    # ── metaTitle ──────────────────────────────────────────────────────────────
+    generic_title = f"{name} – Free Online Tool"
+    if meta.get("metaTitle", "") in ("", generic_title):
+        tpl = cat_cfg.get("title_template", "{name} – Free Online Tool | GetFastCalc")
+        title = tpl.replace("{name}", name).replace("{type}", tool_type)
+        max_len = global_cfg.get("max_title_length", 65)
+        meta["metaTitle"] = title[:max_len]
+
+    # ── metaDescription ────────────────────────────────────────────────────────
+    if not meta.get("metaDescription", "").strip():
+        tpl = cat_cfg.get("meta_description_template",
+                          "Free {name} — {tagline}. No signup required.")
+        desc = (tpl
+                .replace("{name}", name)
+                .replace("{tagline}", tagline)
+                .replace("{topic}", topic)
+                .replace("{type}", tool_type))
+        # Append a long-tail suffix to guarantee 2 keyword mentions
+        suffixes = cat_cfg.get("long_tail_suffixes", [])
+        if suffixes:
+            suffix = f" Try our {name.lower()} {suffixes[0]}."
+            candidate = desc + suffix
+            max_len = global_cfg.get("max_meta_description_length", 160)
+            if len(candidate) <= max_len:
+                desc = candidate
+            else:
+                desc = desc[:max_len]
+        meta["metaDescription"] = desc
+
+    # ── keywords ──────────────────────────────────────────────────────────────
+    existing_kw = meta.get("keywords", [])
+    seed_kw     = cat_cfg.get("seed_keywords", [])
+    suffixes    = cat_cfg.get("long_tail_suffixes", [])
+    # Build long-tail variants: "<name> <suffix>"
+    long_tail_kw = [f"{name.lower()} {s}" for s in suffixes[:3]]
+    # Merge: task-defined first (highest priority), then seeds, then long-tail
+    merged = list(dict.fromkeys(existing_kw + long_tail_kw + seed_kw))
+    min_kw = global_cfg.get("min_keywords_count", 5)
+    if len(merged) < min_kw:
+        merged += [f"{slug} tool", f"free {slug}"]
+    meta["keywords"] = merged
+
+    # ── pain_points (for SEOContent component) ────────────────────────────────
+    raw_pain_points = cat_cfg.get("pain_points", [])
+    meta["seoContent"] = {
+        "h1Tendency": cat_cfg.get("h1_tendency", "").replace("{name}", name),
+        "painPoints": [
+            p.replace("{topic}", topic).replace("{name}", name)
+            for p in raw_pain_points
+        ],
+        "trustSignals": global_cfg.get("trust_signals", []),
+    }
+
+    return meta
 
 # ── view.tsx stub template ────────────────────────────────────────────────────
 # Uses str.replace() substitution (not .format()) to avoid brace-escaping issues.
@@ -144,7 +239,8 @@ def write_file(path: Path, content: str, dry_run: bool) -> None:
     print(f"  ✅ Written: {path.relative_to(ROOT)}")
 
 
-def generate_tool(task: dict, dry_run: bool, force: bool = False) -> str:
+def generate_tool(task: dict, dry_run: bool, force: bool = False,
+                  seo_config: dict | None = None) -> str:
     """Returns one of: 'created' | 'skipped' | 'error'"""
     slug = task.get("slug", "").strip()
     if not slug:
@@ -181,6 +277,12 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False) -> str:
         "relatedTools":    task.get("relatedTools", []),
         "variants":        task.get("variants", []),
     }
+
+    # ── SEO enhancement via seo_config.json ──────────────────────────────────
+    if seo_config:
+        meta = enhance_meta_with_seo(meta, seo_config)
+        print(f"  🔍 SEO enhanced: {len(meta['keywords'])} keywords, pain_points injected")
+
     meta_json = json.dumps(meta, ensure_ascii=False, indent=2) + "\n"
     write_file(tool_dir / "meta.json", meta_json, dry_run)
 
@@ -334,6 +436,7 @@ def main():
         return
 
     # ── Default: tasks.json mode ──────────────────────────────────────────────
+    seo_config = load_seo_config()
     tasks = load_tasks()
 
     if args.slug:
@@ -349,7 +452,7 @@ def main():
         slug = task.get("slug", "?")
         name = task.get("name", slug)
         print(f"→ {slug}  ({name})")
-        status = generate_tool(task, dry_run=args.dry_run, force=args.force)
+        status = generate_tool(task, dry_run=args.dry_run, force=args.force, seo_config=seo_config)
         counts[status] += 1
         print()
 
