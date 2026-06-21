@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { tools, getToolBySlug } from "@/lib/tools";
+import { getRegistrySlugs, resolveRegistrySlug } from "@/lib/registry";
 import ToolLayout from "@/components/ToolLayout";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -37,14 +38,25 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return tools.map((t) => ({ slug: t.slug }));
+  const legacySlugs = tools.map((t) => ({ slug: t.slug }));
+  const registrySlugs = getRegistrySlugs().map((s) => ({ slug: s }));
+  // Merge, registry slugs override duplicates
+  const seen = new Set(registrySlugs.map((r) => r.slug));
+  return [
+    ...legacySlugs.filter((l) => !seen.has(l.slug)),
+    ...registrySlugs,
+  ];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const tool = getToolBySlug(slug);
+
+  // Registry-first
+  const registryResult = resolveRegistrySlug(slug);
+  const tool = registryResult?.meta ?? getToolBySlug(slug);
   if (!tool) return {};
-  const toolUrl = `https://getfastcalc.com/tools/${tool.slug}`;
+
+  const toolUrl = `https://getfastcalc.com/tools/${slug}`;
   return {
     title: tool.metaTitle,
     description: tool.metaDescription,
@@ -65,7 +77,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const toolComponents: Record<string, React.ReactNode> = {
+// Legacy tool components (unchanged)
+const legacyComponents: Record<string, React.ReactNode> = {
   "bmi-calculator": <BmiCalculator />,
   "age-calculator": <AgeCalculator />,
   "qr-code-generator": <QrCodeGenerator />,
@@ -97,10 +110,36 @@ const toolComponents: Record<string, React.ReactNode> = {
 
 export default async function ToolPage({ params }: Props) {
   const { slug } = await params;
+
+  // 1. Try registry first (new architecture)
+  const registryResult = resolveRegistrySlug(slug);
+  if (registryResult) {
+    const { meta, variant } = registryResult;
+    // Dynamic import from tools-registry/<baseslug>/view.tsx
+    const baseslug = meta.slug === slug ? slug : registryResult.meta.slug;
+    let mod: { default: React.ComponentType<{ variant?: string }> };
+    try {
+      mod = await import(`@/tools-registry/${baseslug}/view`);
+    } catch {
+      notFound();
+    }
+    const ToolView = mod!.default;
+    return (
+      <>
+        <Header />
+        <ToolLayout tool={meta}>
+          <ToolView variant={variant} />
+        </ToolLayout>
+        <Footer />
+      </>
+    );
+  }
+
+  // 2. Fallback to legacy components
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 
-  const toolUI = toolComponents[slug];
+  const toolUI = legacyComponents[slug];
   if (!toolUI) notFound();
 
   return (

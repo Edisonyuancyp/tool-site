@@ -1031,3 +1031,22 @@ export function getRelatedTools(slugs: string[]): ToolMeta[] {
     .map((s) => getToolBySlug(s))
     .filter((t): t is ToolMeta => t !== undefined);
 }
+
+/**
+ * Merge legacy tools with registry tools.
+ * Registry tools override legacy ones with the same slug.
+ * Call this only in server contexts (page.tsx, sitemap.ts, etc.)
+ * by importing registryToToolMetas from ./registry separately.
+ */
+export function mergeWithRegistry(registryTools: ToolMeta[]): ToolMeta[] {
+  const registrySlugs = new Set(registryTools.map((t) => t.slug));
+  return [
+    ...tools.filter((t) => !registrySlugs.has(t.slug)),
+    ...registryTools,
+  ];
+}
+
+/** Alias kept for server-only callers that import registry themselves */
+export function getAllTools(): ToolMeta[] {
+  return tools;
+}

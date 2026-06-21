@@ -1,0 +1,23 @@
+{
+  "slug": "your-tool-slug",
+  "name": "Your Tool Name",
+  "tagline": "One-line description shown on homepage cards",
+  "description": "Full description shown on the tool page (1-2 sentences).",
+  "metaTitle": "Your Tool Name – Free Online Tool",
+  "metaDescription": "160-char SEO description. Include primary keyword, mention free/fast/no signup.",
+  "keywords": ["primary keyword", "secondary keyword", "long tail keyword"],
+  "category": "Health | Finance | Developer | Date & Time | Generators | Security | Utilities",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "What does this tool do?",
+      "answer": "Explain the tool clearly in 1-2 sentences."
+    },
+    {
+      "question": "Is it free?",
+      "answer": "Yes, completely free with no signup required."
+    }
+  ],
+  "relatedTools": ["other-tool-slug"],
+  "variants": []
+}
