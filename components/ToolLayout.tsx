@@ -4,6 +4,7 @@ import AccuracyFeedback from "@/components/AccuracyFeedback";
 import FavoriteButton from "@/components/FavoriteButton";
 import VisitTracker from "@/components/VisitTracker";
 import SEOContent from "@/components/SEOContent";
+import ShareButton from "@/components/ShareButton";
 
 interface ToolLayoutProps {
   tool: ToolMeta;
@@ -164,7 +165,15 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
                   {tool.category}
                 </span>
               </div>
-              <FavoriteButton slug={tool.slug} />
+              <div className="flex items-center gap-2">
+                <ShareButton
+                  url={toolUrl}
+                  title={`${tool.name} — Free Online Tool | GetFastCalc`}
+                  text={`Free ${tool.name}: `}
+                  compact
+                />
+                <FavoriteButton slug={tool.slug} />
+              </div>
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-3">
               {tool.name}

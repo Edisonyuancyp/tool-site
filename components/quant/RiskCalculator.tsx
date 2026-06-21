@@ -4,6 +4,7 @@ import { useToolState } from "@/lib/useToolState";
 import ShareButton from "@/components/ShareButton";
 import ResultCardExport from "@/components/ResultCard";
 import { useWorkbench } from "@/lib/WorkbenchContext";
+import ContextualTip, { type Tip } from "@/components/ContextualTip";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -123,6 +124,28 @@ function ResultCard({
   );
 }
 
+// ── Contextual tip content ────────────────────────────────────────────────────
+
+const RISK_TIP: Tip = {
+  trigger: "How to avoid liquidation with this calculator?",
+  title: "The 1% Rule: Avoid 90% of Liquidations",
+  body: `Most traders blow up their accounts not from bad picks, but from **oversizing positions**. Here's how to use this calculator to stay safe.
+
+**The 3-step process:**
+
+1. Set your **Account Balance** to your total capital (not just margin)
+2. Set **Risk Per Trade** to 1% or less — never exceed 2% on a single trade
+3. Enter your **Entry Price** and your **Stop-Loss** (where you're wrong)
+
+The result is the **exact position size** that limits your loss to your chosen %.
+
+⚠️ If your risk % is above 2%, a streak of 5 losing trades can wipe out 10% of your account. At 5%, you're in serious danger.
+
+✅ **Professional rule:** Risk ≤ 1% per trade. Even with a 50% win rate at 2:1 R:R, your account will grow consistently.
+
+💡 **Tip:** Save your config with a label like "BTC 1% rule" so you can load it instantly next time without recalculating.`,
+};
+
 // ── Inner component (uses hooks that need Suspense for useSearchParams) ───────
 
 function RiskCalculatorInner() {
@@ -205,6 +228,9 @@ function RiskCalculatorInner() {
           </div>
         </div>
       )}
+
+      {/* ── Contextual tip ── */}
+      <ContextualTip tip={RISK_TIP} />
 
       {/* ── Inputs ── */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

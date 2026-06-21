@@ -1,5 +1,6 @@
 "use client";
 import { useState, useCallback } from "react";
+import { useWorkbench } from "@/lib/WorkbenchContext";
 import { hexToCmyk, hexToRgb, needsWhiteText, cmykToString, rgbToString } from "./colorUtils";
 import recipes from "./palette-recipes.json";
 import CodePanel from "./CodePanel";
@@ -247,6 +248,17 @@ function PaletteSection({
   onSelect: (c: ColorEntry | null, recipeId: string) => void;
 }) {
   const isAnySelected = selectedColor !== null;
+  const { savePalette } = useWorkbench();
+  const [saved, setSaved] = useState(false);
+
+  const handleSave = () => {
+    savePalette({
+      name: recipe.name,
+      colors: recipe.colors.map(c => ({ role: c.role, hex: c.hex })),
+    });
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  };
 
   return (
     <section className="mb-10">
@@ -256,9 +268,21 @@ function PaletteSection({
           <h2 className="text-lg font-bold text-gray-900">{recipe.name}</h2>
           <p className="text-xs text-gray-500 mt-0.5">{recipe.description}</p>
         </div>
-        <span className="text-[10px] text-gray-400 bg-gray-100 px-2 py-1 rounded-full font-medium mt-0.5">
-          {recipe.colors.length} colors
-        </span>
+        <div className="flex items-center gap-2 mt-0.5">
+          <button
+            onClick={handleSave}
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold border transition-all ${
+              saved
+                ? "bg-green-50 border-green-300 text-green-700"
+                : "bg-white border-gray-200 text-gray-500 hover:border-gray-400 hover:text-gray-800"
+            }`}
+          >
+            {saved ? "✓ Saved" : "♡ Save palette"}
+          </button>
+          <span className="text-[10px] text-gray-400 bg-gray-100 px-2 py-1 rounded-full font-medium">
+            {recipe.colors.length} colors
+          </span>
+        </div>
       </div>
 
       <div className={`grid gap-4 ${isAnySelected ? "grid-cols-1 lg:grid-cols-[1fr_280px]" : "grid-cols-1"}`}>
@@ -292,8 +316,8 @@ interface Props {
 }
 
 export default function ColorPalette({ recipeId }: Props) {
-  // selectedColor keyed by recipeId so each palette has independent selection
   const [selections, setSelections] = useState<Record<string, ColorEntry | null>>({});
+  const { savedPalettes, deletePalette } = useWorkbench();
 
   const displayRecipes = recipeId
     ? (recipes as Recipe[]).filter((r) => r.id === recipeId)
@@ -305,6 +329,33 @@ export default function ColorPalette({ recipeId }: Props) {
 
   return (
     <div className="space-y-2">
+      {/* Saved palettes strip */}
+      {savedPalettes.length > 0 && (
+        <div className="bg-gray-50 border border-gray-100 rounded-xl p-3 mb-2">
+          <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-2">Your Saved Palettes</p>
+          <div className="flex flex-wrap gap-2">
+            {savedPalettes.map((p) => (
+              <div key={p.id} className="flex items-center gap-1 bg-white border border-gray-200 rounded-lg overflow-hidden">
+                {/* Mini color strip */}
+                <div className="flex h-6">
+                  {p.colors.slice(0, 5).map((c, i) => (
+                    <div key={i} className="w-4 h-6" style={{ backgroundColor: c.hex }} />
+                  ))}
+                </div>
+                <span className="px-2 text-xs text-gray-700 font-medium">{p.name}</span>
+                <button
+                  onClick={() => deletePalette(p.id)}
+                  className="px-1.5 text-gray-300 hover:text-red-500 transition-colors text-sm border-l border-gray-100 h-full"
+                  aria-label="Remove saved palette"
+                >
+                  ×
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Instruction hint */}
       <div className="flex items-center gap-2 text-xs text-gray-500 mb-4">
         <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
