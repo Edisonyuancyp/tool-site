@@ -1,0 +1,66 @@
+{
+  "slug": "gpa-calculator",
+  "name": "GPA Calculator",
+  "tagline": "Calculate your GPA instantly from letter grades or percentages",
+  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
+  "metaTitle": "GPA Calculator – Calculate GPA from Letter Grades | Free Online",
+  "metaDescription": "Free GPA calculator. Enter your letter grades or percentages to calculate GPA on a 4.0 scale. Supports weighted GPA and cumulative GPA.",
+  "keywords": [
+    "gpa calculator",
+    "grade point average calculator",
+    "letter grade to gpa",
+    "calculate gpa 4.0 scale",
+    "cumulative gpa calculator"
+  ],
+  "category": "Utilities",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "How is GPA calculated?",
+      "answer": "GPA is calculated by converting each letter grade to a grade point (A=4.0, B=3.0, C=2.0, D=1.0, F=0.0), then averaging across all courses weighted by credit hours."
+    },
+    {
+      "question": "What is a good GPA?",
+      "answer": "A GPA of 3.5–4.0 is considered excellent (Dean's List at most universities). 3.0–3.5 is good. Below 2.0 may put you on academic probation at many schools."
+    },
+    {
+      "question": "What is the difference between weighted and unweighted GPA?",
+      "answer": "Unweighted GPA treats all courses equally (max 4.0). Weighted GPA gives extra points for honors, AP, or IB courses (max 5.0), rewarding academic rigor."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "college-gpa-calculator",
+      "metaTitle": "College GPA Calculator – Calculate University GPA Online",
+      "metaDescription": "Calculate your college or university GPA. Enter course name, credit hours, and grade to find your semester and cumulative GPA. Free college GPA calculator.",
+      "keywords": [
+        "college gpa calculator",
+        "university gpa calculator",
+        "semester gpa calculator",
+        "cumulative gpa calculator college",
+        "college grade calculator"
+      ],
+      "defaultVariant": "college",
+      "headline": "Calculate your college GPA by entering each course, its credit hours, and your letter grade. Shows both semester GPA and cumulative GPA."
+    },
+    {
+      "variantSlug": "high-school-gpa-calculator",
+      "metaTitle": "High School GPA Calculator – Weighted & Unweighted GPA",
+      "metaDescription": "Calculate your high school GPA — weighted (with AP/IB bonus) and unweighted. Free high school GPA calculator for college applications.",
+      "keywords": [
+        "high school gpa calculator",
+        "weighted gpa calculator",
+        "unweighted gpa calculator",
+        "ap class gpa calculator",
+        "gpa for college applications"
+      ],
+      "defaultVariant": "highschool",
+      "headline": "Calculate your high school GPA — both weighted (including AP/IB/Honors bonuses) and unweighted (standard 4.0 scale) — for college applications."
+    }
+  ]
+}

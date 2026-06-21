@@ -1,0 +1,138 @@
+[
+  {
+    "slug": "tip-calculator",
+    "name": "Tip Calculator",
+    "tagline": "Calculate tip amount and split the bill instantly",
+    "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
+    "metaTitle": "Tip Calculator – Split Bill and Calculate Tip Instantly",
+    "metaDescription": "Free tip calculator. Enter bill amount and tip % to find tip per person and total per person. Perfect for restaurants, taxis, and delivery.",
+    "keywords": ["tip calculator", "restaurant tip calculator", "bill splitter", "how much to tip", "tip calculator split bill"],
+    "category": "Finance",
+    "icon": "🍽️",
+    "faqs": [
+      {
+        "question": "What is a standard tip percentage?",
+        "answer": "In the US, 15–20% is standard for restaurant service. 18% is considered the baseline for good service; 20%+ for excellent service."
+      },
+      {
+        "question": "How do I split the bill evenly?",
+        "answer": "Enter the bill total, select your tip percentage, and enter the number of people. The calculator shows exactly how much each person owes including tip."
+      }
+    ],
+    "relatedTools": ["percentage-calculator", "currency-converter", "compound-interest-calculator"],
+    "variants": [
+      {
+        "variantSlug": "restaurant-tip-calculator",
+        "metaTitle": "Restaurant Tip Calculator – How Much to Tip at a Restaurant",
+        "metaDescription": "Calculate your restaurant tip instantly. Enter bill amount and service quality to find the right tip. Free restaurant tip calculator.",
+        "keywords": ["restaurant tip calculator", "how much to tip at restaurant", "dining tip calculator", "waiter tip calculator", "tip for restaurant bill"],
+        "defaultVariant": "restaurant",
+        "headline": "Calculate the perfect restaurant tip. Choose 15%, 18%, 20%, or custom — and split evenly across the whole table."
+      },
+      {
+        "variantSlug": "bill-splitter-calculator",
+        "metaTitle": "Bill Splitter Calculator – Split Restaurant Bill Evenly",
+        "metaDescription": "Split a restaurant bill evenly among any number of people. Includes tip calculation. Free bill splitting calculator — no app needed.",
+        "keywords": ["bill splitter calculator", "split bill calculator", "split restaurant bill", "divide bill calculator", "how to split a bill"],
+        "defaultVariant": "split",
+        "headline": "Split any bill evenly among friends. Enter the total, choose a tip percentage, and see exactly how much each person pays."
+      }
+    ]
+  },
+  {
+    "slug": "gpa-calculator",
+    "name": "GPA Calculator",
+    "tagline": "Calculate your GPA instantly from letter grades or percentages",
+    "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
+    "metaTitle": "GPA Calculator – Calculate GPA from Letter Grades | Free Online",
+    "metaDescription": "Free GPA calculator. Enter your letter grades or percentages to calculate GPA on a 4.0 scale. Supports weighted GPA and cumulative GPA.",
+    "keywords": ["gpa calculator", "grade point average calculator", "letter grade to gpa", "calculate gpa 4.0 scale", "cumulative gpa calculator"],
+    "category": "Utilities",
+    "icon": "🎓",
+    "faqs": [
+      {
+        "question": "How is GPA calculated?",
+        "answer": "GPA is calculated by converting each letter grade to a grade point (A=4.0, B=3.0, C=2.0, D=1.0, F=0.0), then averaging across all courses weighted by credit hours."
+      },
+      {
+        "question": "What is a good GPA?",
+        "answer": "A GPA of 3.5–4.0 is considered excellent (Dean's List at most universities). 3.0–3.5 is good. Below 2.0 may put you on academic probation at many schools."
+      },
+      {
+        "question": "What is the difference between weighted and unweighted GPA?",
+        "answer": "Unweighted GPA treats all courses equally (max 4.0). Weighted GPA gives extra points for honors, AP, or IB courses (max 5.0), rewarding academic rigor."
+      }
+    ],
+    "relatedTools": ["percentage-calculator", "age-calculator", "word-counter"],
+    "variants": [
+      {
+        "variantSlug": "college-gpa-calculator",
+        "metaTitle": "College GPA Calculator – Calculate University GPA Online",
+        "metaDescription": "Calculate your college or university GPA. Enter course name, credit hours, and grade to find your semester and cumulative GPA. Free college GPA calculator.",
+        "keywords": ["college gpa calculator", "university gpa calculator", "semester gpa calculator", "cumulative gpa calculator college", "college grade calculator"],
+        "defaultVariant": "college",
+        "headline": "Calculate your college GPA by entering each course, its credit hours, and your letter grade. Shows both semester GPA and cumulative GPA."
+      },
+      {
+        "variantSlug": "high-school-gpa-calculator",
+        "metaTitle": "High School GPA Calculator – Weighted & Unweighted GPA",
+        "metaDescription": "Calculate your high school GPA — weighted (with AP/IB bonus) and unweighted. Free high school GPA calculator for college applications.",
+        "keywords": ["high school gpa calculator", "weighted gpa calculator", "unweighted gpa calculator", "ap class gpa calculator", "gpa for college applications"],
+        "defaultVariant": "highschool",
+        "headline": "Calculate your high school GPA — both weighted (including AP/IB/Honors bonuses) and unweighted (standard 4.0 scale) — for college applications."
+      }
+    ]
+  },
+  {
+    "slug": "loan-calculator",
+    "name": "Loan Calculator",
+    "tagline": "Calculate monthly payments, total interest, and amortization schedule",
+    "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
+    "metaTitle": "Loan Calculator – Monthly Payment, Total Interest & Amortization",
+    "metaDescription": "Free loan calculator. Enter loan amount, interest rate, and term to find monthly payment and total interest. Includes full amortization schedule.",
+    "keywords": ["loan calculator", "monthly payment calculator", "loan interest calculator", "amortization calculator", "mortgage payment calculator"],
+    "category": "Finance",
+    "icon": "🏦",
+    "faqs": [
+      {
+        "question": "How is my monthly loan payment calculated?",
+        "answer": "Monthly payment = P × [r(1+r)^n] / [(1+r)^n - 1], where P is principal, r is monthly interest rate, and n is total number of payments."
+      },
+      {
+        "question": "What is an amortization schedule?",
+        "answer": "An amortization schedule shows each monthly payment broken down into principal vs interest. Early payments are mostly interest; later payments are mostly principal."
+      },
+      {
+        "question": "How can I reduce total interest paid?",
+        "answer": "Making extra principal payments early reduces the loan balance faster, cutting total interest significantly. Even one extra payment per year can save thousands."
+      }
+    ],
+    "relatedTools": ["compound-interest-calculator", "percentage-calculator", "currency-converter"],
+    "variants": [
+      {
+        "variantSlug": "mortgage-calculator",
+        "metaTitle": "Mortgage Calculator – Monthly Mortgage Payment Calculator",
+        "metaDescription": "Calculate your monthly mortgage payment. Enter home price, down payment, interest rate, and loan term. Free mortgage calculator with amortization schedule.",
+        "keywords": ["mortgage calculator", "monthly mortgage payment calculator", "home loan calculator", "mortgage payment estimator", "house payment calculator"],
+        "defaultVariant": "mortgage",
+        "headline": "Calculate your monthly mortgage payment including principal and interest. Enter home price, down payment %, interest rate, and loan term to see full amortization."
+      },
+      {
+        "variantSlug": "car-loan-calculator",
+        "metaTitle": "Car Loan Calculator – Monthly Auto Loan Payment Calculator",
+        "metaDescription": "Calculate monthly car loan payments. Enter vehicle price, down payment, interest rate, and loan term. Free auto loan calculator.",
+        "keywords": ["car loan calculator", "auto loan calculator", "monthly car payment calculator", "vehicle loan calculator", "car financing calculator"],
+        "defaultVariant": "car",
+        "headline": "Calculate your monthly car loan payment. Enter the vehicle price, down payment, trade-in value, interest rate, and loan term to see your exact payment."
+      },
+      {
+        "variantSlug": "personal-loan-calculator",
+        "metaTitle": "Personal Loan Calculator – Monthly Personal Loan Payment",
+        "metaDescription": "Calculate monthly personal loan payments and total interest. Free personal loan calculator — enter amount, rate, and term for instant results.",
+        "keywords": ["personal loan calculator", "personal loan payment calculator", "loan payment estimator", "unsecured loan calculator", "how much loan can i afford"],
+        "defaultVariant": "personal",
+        "headline": "Calculate your personal loan monthly payment and total interest cost. Helps you compare loan offers and choose the best terms."
+      }
+    ]
+  }
+]

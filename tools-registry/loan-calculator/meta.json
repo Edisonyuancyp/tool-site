@@ -1,0 +1,80 @@
+{
+  "slug": "loan-calculator",
+  "name": "Loan Calculator",
+  "tagline": "Calculate monthly payments, total interest, and amortization schedule",
+  "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
+  "metaTitle": "Loan Calculator – Monthly Payment, Total Interest & Amortization",
+  "metaDescription": "Free loan calculator. Enter loan amount, interest rate, and term to find monthly payment and total interest. Includes full amortization schedule.",
+  "keywords": [
+    "loan calculator",
+    "monthly payment calculator",
+    "loan interest calculator",
+    "amortization calculator",
+    "mortgage payment calculator"
+  ],
+  "category": "Finance",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "How is my monthly loan payment calculated?",
+      "answer": "Monthly payment = P × [r(1+r)^n] / [(1+r)^n - 1], where P is principal, r is monthly interest rate, and n is total number of payments."
+    },
+    {
+      "question": "What is an amortization schedule?",
+      "answer": "An amortization schedule shows each monthly payment broken down into principal vs interest. Early payments are mostly interest; later payments are mostly principal."
+    },
+    {
+      "question": "How can I reduce total interest paid?",
+      "answer": "Making extra principal payments early reduces the loan balance faster, cutting total interest significantly. Even one extra payment per year can save thousands."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "mortgage-calculator",
+      "metaTitle": "Mortgage Calculator – Monthly Mortgage Payment Calculator",
+      "metaDescription": "Calculate your monthly mortgage payment. Enter home price, down payment, interest rate, and loan term. Free mortgage calculator with amortization schedule.",
+      "keywords": [
+        "mortgage calculator",
+        "monthly mortgage payment calculator",
+        "home loan calculator",
+        "mortgage payment estimator",
+        "house payment calculator"
+      ],
+      "defaultVariant": "mortgage",
+      "headline": "Calculate your monthly mortgage payment including principal and interest. Enter home price, down payment %, interest rate, and loan term to see full amortization."
+    },
+    {
+      "variantSlug": "car-loan-calculator",
+      "metaTitle": "Car Loan Calculator – Monthly Auto Loan Payment Calculator",
+      "metaDescription": "Calculate monthly car loan payments. Enter vehicle price, down payment, interest rate, and loan term. Free auto loan calculator.",
+      "keywords": [
+        "car loan calculator",
+        "auto loan calculator",
+        "monthly car payment calculator",
+        "vehicle loan calculator",
+        "car financing calculator"
+      ],
+      "defaultVariant": "car",
+      "headline": "Calculate your monthly car loan payment. Enter the vehicle price, down payment, trade-in value, interest rate, and loan term to see your exact payment."
+    },
+    {
+      "variantSlug": "personal-loan-calculator",
+      "metaTitle": "Personal Loan Calculator – Monthly Personal Loan Payment",
+      "metaDescription": "Calculate monthly personal loan payments and total interest. Free personal loan calculator — enter amount, rate, and term for instant results.",
+      "keywords": [
+        "personal loan calculator",
+        "personal loan payment calculator",
+        "loan payment estimator",
+        "unsecured loan calculator",
+        "how much loan can i afford"
+      ],
+      "defaultVariant": "personal",
+      "headline": "Calculate your personal loan monthly payment and total interest cost. Helps you compare loan offers and choose the best terms."
+    }
+  ]
+}
