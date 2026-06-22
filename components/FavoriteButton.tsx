@@ -1,5 +1,6 @@
 "use client";
 import { useWorkbench } from "@/lib/WorkbenchContext";
+import { trackFavorite } from "@/lib/analytics";
 
 /** @deprecated use useWorkbench() directly */
 export function useFavorites() {
@@ -13,7 +14,7 @@ export default function FavoriteButton({ slug }: { slug: string }) {
 
   return (
     <button
-      onClick={() => toggleFav(slug)}
+      onClick={() => { toggleFav(slug); trackFavorite({ tool_slug: slug, action: isF ? "remove" : "add" }); }}
       aria-label={isF ? "Remove from favorites" : "Add to favorites"}
       title={isF ? "Remove from favorites" : "Save this tool"}
       className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border text-sm transition-all ${

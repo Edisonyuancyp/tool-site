@@ -1,5 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
+import { trackShare } from "@/lib/analytics";
 
 interface Props {
   url?: string;          // override URL (defaults to window.location.href)
@@ -87,6 +88,7 @@ export default function ShareButton({ url, title = "Check this out on GetFastCal
     if (navigator.share) {
       try {
         await navigator.share({ title, text: text || title, url: shareUrl });
+        trackShare({ tool_slug: shareUrl, method: "native" });
         return;
       } catch { /* user cancelled */ }
     }
@@ -118,7 +120,7 @@ export default function ShareButton({ url, title = "Check this out on GetFastCal
               href={p.getUrl(shareUrl, title, text ?? "")}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
+              onClick={() => { setOpen(false); trackShare({ tool_slug: shareUrl, method: p.key }); }}
               className={`flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 transition-colors ${p.color}`}
             >
               {p.icon}

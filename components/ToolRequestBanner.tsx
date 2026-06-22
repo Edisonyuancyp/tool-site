@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { trackToolRequest } from "@/lib/analytics";
 
 type State = "idle" | "submitted";
 
@@ -29,6 +30,7 @@ export default function ToolRequestBanner({ sidebar = false }: { sidebar?: boole
         });
       }
     } catch {}
+    trackToolRequest({ tool_name: tool.trim() });
     setLoading(false);
     setState("submitted");
   }
