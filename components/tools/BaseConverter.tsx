@@ -66,7 +66,9 @@ const BASES = [
   { base: 8,  name: "Octal",       digits: "0–7",        color: "purple" },
   { base: 10, name: "Decimal",     digits: "0–9",        color: "green" },
   { base: 16, name: "Hexadecimal", digits: "0–9, a–f",   color: "amber" },
+  { base: 31, name: "Base 31",     digits: "0–9, consonants", color: "gray" },
   { base: 32, name: "Base 32",     digits: "0–9, a–v",   color: "gray" },
+  { base: 34, name: "Base 34",     digits: "0–9, a–z",   color: "gray" },
   { base: 36, name: "Base 36",     digits: "0–9, a–z",   color: "gray" },
 ];
 
