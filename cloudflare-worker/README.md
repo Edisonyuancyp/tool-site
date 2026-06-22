@@ -1,14 +1,29 @@
-# Notion Proxy — Cloudflare Worker
+# Telegram Bot Proxy — Cloudflare Worker
 
-## Deploy steps
+## Setup (one-time, ~5 min)
 
-1. Go to https://dash.cloudflare.com → Workers & Pages → Create Worker
-2. Paste the contents of `notion-proxy.js` into the editor
-3. Click **Deploy**
-4. Go to **Settings → Variables** → add:
-   - `NOTION_TOKEN`  = your `secret_xxx...` integration token
-   - `NOTION_DB_ID`  = 32-char database ID from the Notion page URL
-   - `ALLOWED_ORIGIN` = `https://getfastcalc.com`
-5. Copy the Worker URL (e.g. `https://notion-proxy.YOUR_NAME.workers.dev`)
-6. Paste it into `.env.local` as `NEXT_PUBLIC_NOTION_PROXY_URL=https://...`
-7. Rebuild and redeploy the site
+### 1. Create Telegram Bot
+- Open Telegram → search **@BotFather** → send `/newbot`
+- Choose a name and username → copy the **Bot Token** (`123456789:ABCxxx`)
+
+### 2. Get your Chat ID
+- Search **@userinfobot** on Telegram → send any message → copy your **Id** number
+
+### 3. Deploy Cloudflare Worker
+- Go to https://dash.cloudflare.com → **Workers & Pages** → **Create Worker**
+- Paste contents of `notion-proxy.js` → **Deploy**
+- Go to **Settings → Variables** → add:
+  - `TG_BOT_TOKEN`   = Bot Token from BotFather
+  - `TG_CHAT_ID`     = your numeric Chat ID
+  - `ALLOWED_ORIGIN` = `https://getfastcalc.com`
+- Copy the Worker URL (e.g. `https://tg-proxy.YOUR_NAME.workers.dev`)
+
+### 4. Start the bot
+- Open Telegram → search your bot by username → send `/start`
+  (required so the bot can message you)
+
+### 5. Connect to site
+- Paste Worker URL into `.env.local`:
+  `NEXT_PUBLIC_NOTION_PROXY_URL=https://tg-proxy.YOUR_NAME.workers.dev`
+- Cloudflare Pages: add the env var in Pages → Settings → Environment variables
+- Redeploy
