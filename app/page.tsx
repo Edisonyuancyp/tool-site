@@ -18,12 +18,17 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-10">
           {/* Hero */}
           <div className="text-center mb-8">
+            <div className="inline-flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5 text-xs font-medium text-gray-500 mb-5">
+              <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
+              No signup · No ads · Instant answers
+            </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 tracking-tight mb-4 leading-tight">
-              Free Online Tools &amp;<br className="hidden sm:block" /> Calculators
+              Got a question?<br className="hidden sm:block" />
+              <span className="text-gray-400 font-normal"> GetFastCalc has the answer.</span>
             </h1>
-            <p className="text-lg text-gray-500 max-w-xl mx-auto leading-relaxed">
-              Fast, free tools that work instantly in your browser.
-              No signup. No ads. Just results.
+            <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
+              From finance to dev, design to health — find the right tool for your problem in seconds.
+              Everything runs in your browser, nothing is stored.
             </p>
           </div>
 

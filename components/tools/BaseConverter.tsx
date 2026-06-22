@@ -61,12 +61,22 @@ const COLORS: Record<string, { card: string; label: string; value: string; borde
   gray:   { card: "bg-gray-50",   label: "text-gray-500",  value: "text-gray-800",  border: "border-gray-200" },
 };
 
-const INPUT_BASES = [
-  { base: 2, label: "Binary (2)" },
-  { base: 8, label: "Octal (8)" },
-  { base: 10, label: "Decimal (10)" },
-  { base: 16, label: "Hex (16)" },
-];
+// All bases 2-36 with labels for common ones
+const ALL_INPUT_BASES = Array.from({ length: 35 }, (_, i) => {
+  const b = i + 2;
+  const names: Record<number, string> = {
+    2: "Binary", 3: "Ternary", 4: "Base 4", 5: "Base 5", 6: "Base 6",
+    7: "Base 7", 8: "Octal", 9: "Base 9", 10: "Decimal",
+    11: "Base 11", 12: "Duodecimal", 13: "Base 13", 14: "Base 14",
+    15: "Base 15", 16: "Hexadecimal", 17: "Base 17", 18: "Base 18",
+    19: "Base 19", 20: "Vigesimal", 21: "Base 21", 22: "Base 22",
+    23: "Base 23", 24: "Base 24", 25: "Base 25", 26: "Base 26",
+    27: "Base 27", 28: "Base 28", 29: "Base 29", 30: "Base 30",
+    31: "Base 31", 32: "Base 32", 33: "Base 33", 34: "Base 34",
+    35: "Base 35", 36: "Base 36",
+  };
+  return { base: b, label: `Base ${b}${names[b] !== `Base ${b}` ? ` — ${names[b]}` : ""}` };
+});
 
 export default function BaseConverter() {
   const [input, setInput] = useState("255");
@@ -87,25 +97,35 @@ export default function BaseConverter() {
     setTimeout(() => setCopied(null), 1500);
   }
 
+  // Valid digits hint for current fromBase
+  const digitHint = fromBase <= 10
+    ? `0–${ALPHA[fromBase - 1]}`
+    : `0–9, a–${ALPHA[fromBase - 1]}`;
+
   return (
     <div className="space-y-6">
 
-      {/* ── Step 1: choose input base ── */}
+      {/* ── Step 1: choose input base via dropdown ── */}
       <div>
-        <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">① Select input base</div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-          {INPUT_BASES.map((b) => (
-            <button key={b.base} type="button"
-              onClick={() => { setFromBase(b.base); setInput(""); }}
-              className={`py-3 rounded-xl border-2 text-sm font-bold transition-all ${
-                fromBase === b.base
-                  ? "bg-gray-900 text-white border-gray-900 shadow-md scale-[1.02]"
-                  : "bg-white text-gray-600 border-gray-200 hover:border-gray-400"
-              }`}>
-              {b.label}
-            </button>
-          ))}
+        <label className="block text-xs font-bold text-gray-400 uppercase tracking-widest mb-2">
+          ① Select input base
+        </label>
+        <div className="relative">
+          <select
+            value={fromBase}
+            onChange={(e) => { setFromBase(Number(e.target.value)); setInput(""); }}
+            className="w-full appearance-none bg-white border-2 border-gray-200 rounded-xl px-4 py-3 pr-10 text-sm font-semibold text-gray-800 focus:outline-none focus:border-gray-900 cursor-pointer transition-all"
+          >
+            {ALL_INPUT_BASES.map(({ base, label }) => (
+              <option key={base} value={base}>{label}</option>
+            ))}
+          </select>
+          <svg className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
         </div>
+        <p className="mt-1.5 text-xs text-gray-400">Valid digits: <span className="font-mono font-semibold">{digitHint}</span></p>
       </div>
 
       {/* ── Step 2: big input box ── */}

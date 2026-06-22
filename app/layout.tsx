@@ -13,11 +13,11 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Free Online Tools & Calculators – GetFastCalc",
+    default: "GetFastCalc — Got a Question? Get an Instant Answer.",
     template: "%s | GetFastCalc",
   },
   description:
-    "Free online tools and calculators: BMI, age, compound interest, currency converter, QR code, password generator, base converter, word counter, and more. Instant results, no signup.",
+    "GetFastCalc solves your everyday problems instantly — finance, health, dev, design, time, and more. 200+ free browser-based tools. No signup, no ads, just answers.",
   keywords: [
     "online tools", "free calculators", "bmi calculator", "age calculator",
     "qr code generator", "password generator", "compound interest calculator",
