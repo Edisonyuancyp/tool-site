@@ -1,0 +1,62 @@
+{
+  "slug": "home-loan-affordability-calculator",
+  "name": "Home Loan Affordability Calculator",
+  "tagline": "Determine how much home you can afford.",
+  "description": "Calculate your home loan affordability based on income and expenses. This tool is essential for potential homebuyers looking to understand their purchasing power.",
+  "metaTitle": "Home Loan Affordability Calculator – Know Your Budget | Free Online Tool",
+  "metaDescription": "Calculate your home loan affordability for free. Get instant results to understand your budget and purchasing power.",
+  "keywords": [
+    "home loan affordability",
+    "mortgage calculator",
+    "buying a home",
+    "home budget calculator",
+    "real estate affordability"
+  ],
+  "category": "Home",
+  "urlPath": "/tools/home-loan-affordability-calculator",
+  "icon": "🏡",
+  "faqs": [
+    {
+      "question": "What does this calculator do?",
+      "answer": "It helps you determine how much you can afford for a home loan based on your income and expenses."
+    },
+    {
+      "question": "Is this tool free?",
+      "answer": "Yes, it's completely free with no signup required."
+    },
+    {
+      "question": "Can I use this for different loan types?",
+      "answer": "Yes, you can use it for different types of home loans."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "first-time-homebuyer",
+      "metaTitle": "First-Time Homebuyer Affordability Calculator",
+      "metaDescription": "Calculate affordability for first-time homebuyers.",
+      "keywords": [
+        "first-time homebuyer",
+        "mortgage affordability",
+        "new home budget"
+      ],
+      "defaultVariant": "first-time-buyers",
+      "headline": "A tailored affordability calculator for first-time homebuyers."
+    },
+    {
+      "variantSlug": "investor-home-loan",
+      "metaTitle": "Investor Home Loan Affordability Calculator",
+      "metaDescription": "Calculate affordability for real estate investors.",
+      "keywords": [
+        "real estate investing",
+        "investment property",
+        "investor mortgage"
+      ],
+      "defaultVariant": "investor-affordability",
+      "headline": "Estimate affordability for purchasing investment properties."
+    }
+  ]
+}

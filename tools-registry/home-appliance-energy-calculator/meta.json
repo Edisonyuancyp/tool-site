@@ -1,0 +1,62 @@
+{
+  "slug": "home-appliance-energy-calculator",
+  "name": "Home Appliance Energy Calculator",
+  "tagline": "Calculate energy costs for your appliances.",
+  "description": "Estimate the energy consumption and costs of your home appliances. This tool is ideal for homeowners looking to save on their energy bills by understanding appliance usage.",
+  "metaTitle": "Home Appliance Energy Calculator – Save on Energy Costs | Free Online Tool",
+  "metaDescription": "Calculate energy costs for your home appliances for free. Instant results, no signup required to help you save on your energy bills.",
+  "keywords": [
+    "appliance energy cost",
+    "home energy calculator",
+    "energy consumption",
+    "utility bill savings",
+    "home appliances"
+  ],
+  "category": "Home",
+  "urlPath": "/tools/home-appliance-energy-calculator",
+  "icon": "💡",
+  "faqs": [
+    {
+      "question": "What can I calculate with this tool?",
+      "answer": "You can calculate energy consumption and costs for various home appliances."
+    },
+    {
+      "question": "Is it free to use?",
+      "answer": "Absolutely, it's free with no signup needed."
+    },
+    {
+      "question": "How accurate are the results?",
+      "answer": "Results are based on standard usage estimates; actual costs may vary."
+    }
+  ],
+  "relatedTools": [
+    "carbon-footprint-travel-calculator",
+    "budget-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "small-appliance-energy",
+      "metaTitle": "Small Appliance Energy Calculator",
+      "metaDescription": "Estimate energy costs for small appliances.",
+      "keywords": [
+        "small appliance energy",
+        "kitchen appliance costs",
+        "energy savings"
+      ],
+      "defaultVariant": "small-appliances",
+      "headline": "Quickly estimate energy costs for small kitchen and home appliances."
+    },
+    {
+      "variantSlug": "large-appliance-energy",
+      "metaTitle": "Large Appliance Energy Calculator",
+      "metaDescription": "Estimate energy costs for large appliances.",
+      "keywords": [
+        "large appliance energy",
+        "washer dryer costs",
+        "energy consumption"
+      ],
+      "defaultVariant": "large-appliances",
+      "headline": "Calculate energy costs for larger home appliances like refrigerators and washers."
+    }
+  ]
+}

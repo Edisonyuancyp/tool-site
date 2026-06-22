@@ -1370,5 +1370,188 @@
       "finance-charge-calculator"
     ],
     "variants": []
+  },
+  {
+    "slug": "home-tool-cost-calculator",
+    "name": "Home Tool Cost Calculator",
+    "tagline": "Estimate your home tool expenses easily.",
+    "description": "Calculate the estimated cost of building your home tool kit based on your needs. This tool is perfect for homeowners and DIY enthusiasts looking to budget for essential tools.",
+    "metaTitle": "Home Tool Cost Calculator – Budget Your Tool Expenses | Free Online Tool",
+    "metaDescription": "Calculate your home tool expenses for free, no signup required. Get instant results on budgeting for your essential tools.",
+    "keywords": [
+      "home tool cost",
+      "tool kit budgeting",
+      "essential tools cost",
+      "DIY tool expenses",
+      "home improvement tools"
+    ],
+    "category": "Home",
+    "icon": "🛠️",
+    "faqs": [
+      {
+        "question": "What does this calculator help with?",
+        "answer": "It helps estimate costs for building a home tool kit based on specific needs."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, it's completely free with no signup required."
+      },
+      {
+        "question": "Can I save my calculations?",
+        "answer": "Currently, the tool does not support saving calculations, but you can jot them down."
+      }
+    ],
+    "relatedTools": [
+      "budget-calculator",
+      "debt-repayment-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "basic-tool-cost",
+        "metaTitle": "Basic Home Tool Cost Estimator",
+        "metaDescription": "Estimate costs for a basic home tool kit.",
+        "keywords": [
+          "basic tool costs",
+          "affordable tools",
+          "home repair tools"
+        ],
+        "defaultVariant": "basic-tools",
+        "headline": "Quickly estimate the costs for a basic set of home tools."
+      },
+      {
+        "variantSlug": "advanced-tool-cost",
+        "metaTitle": "Advanced Home Tool Cost Estimator",
+        "metaDescription": "Estimate costs for an advanced tool kit.",
+        "keywords": [
+          "advanced tools",
+          "professional tool costs",
+          "high-end tools"
+        ],
+        "defaultVariant": "advanced-tools",
+        "headline": "Estimate the costs for a comprehensive, advanced home tool kit."
+      }
+    ]
+  },
+  {
+    "slug": "home-appliance-energy-calculator",
+    "name": "Home Appliance Energy Calculator",
+    "tagline": "Calculate energy costs for your appliances.",
+    "description": "Estimate the energy consumption and costs of your home appliances. This tool is ideal for homeowners looking to save on their energy bills by understanding appliance usage.",
+    "metaTitle": "Home Appliance Energy Calculator – Save on Energy Costs | Free Online Tool",
+    "metaDescription": "Calculate energy costs for your home appliances for free. Instant results, no signup required to help you save on your energy bills.",
+    "keywords": [
+      "appliance energy cost",
+      "home energy calculator",
+      "energy consumption",
+      "utility bill savings",
+      "home appliances"
+    ],
+    "category": "Home",
+    "icon": "💡",
+    "faqs": [
+      {
+        "question": "What can I calculate with this tool?",
+        "answer": "You can calculate energy consumption and costs for various home appliances."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Absolutely, it's free with no signup needed."
+      },
+      {
+        "question": "How accurate are the results?",
+        "answer": "Results are based on standard usage estimates; actual costs may vary."
+      }
+    ],
+    "relatedTools": [
+      "carbon-footprint-travel-calculator",
+      "budget-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "small-appliance-energy",
+        "metaTitle": "Small Appliance Energy Calculator",
+        "metaDescription": "Estimate energy costs for small appliances.",
+        "keywords": [
+          "small appliance energy",
+          "kitchen appliance costs",
+          "energy savings"
+        ],
+        "defaultVariant": "small-appliances",
+        "headline": "Quickly estimate energy costs for small kitchen and home appliances."
+      },
+      {
+        "variantSlug": "large-appliance-energy",
+        "metaTitle": "Large Appliance Energy Calculator",
+        "metaDescription": "Estimate energy costs for large appliances.",
+        "keywords": [
+          "large appliance energy",
+          "washer dryer costs",
+          "energy consumption"
+        ],
+        "defaultVariant": "large-appliances",
+        "headline": "Calculate energy costs for larger home appliances like refrigerators and washers."
+      }
+    ]
+  },
+  {
+    "slug": "home-loan-affordability-calculator",
+    "name": "Home Loan Affordability Calculator",
+    "tagline": "Determine how much home you can afford.",
+    "description": "Calculate your home loan affordability based on income and expenses. This tool is essential for potential homebuyers looking to understand their purchasing power.",
+    "metaTitle": "Home Loan Affordability Calculator – Know Your Budget | Free Online Tool",
+    "metaDescription": "Calculate your home loan affordability for free. Get instant results to understand your budget and purchasing power.",
+    "keywords": [
+      "home loan affordability",
+      "mortgage calculator",
+      "buying a home",
+      "home budget calculator",
+      "real estate affordability"
+    ],
+    "category": "Home",
+    "icon": "🏡",
+    "faqs": [
+      {
+        "question": "What does this calculator do?",
+        "answer": "It helps you determine how much you can afford for a home loan based on your income and expenses."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, it's completely free with no signup required."
+      },
+      {
+        "question": "Can I use this for different loan types?",
+        "answer": "Yes, you can use it for different types of home loans."
+      }
+    ],
+    "relatedTools": [
+      "budget-calculator",
+      "debt-repayment-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "first-time-homebuyer",
+        "metaTitle": "First-Time Homebuyer Affordability Calculator",
+        "metaDescription": "Calculate affordability for first-time homebuyers.",
+        "keywords": [
+          "first-time homebuyer",
+          "mortgage affordability",
+          "new home budget"
+        ],
+        "defaultVariant": "first-time-buyers",
+        "headline": "A tailored affordability calculator for first-time homebuyers."
+      },
+      {
+        "variantSlug": "investor-home-loan",
+        "metaTitle": "Investor Home Loan Affordability Calculator",
+        "metaDescription": "Calculate affordability for real estate investors.",
+        "keywords": [
+          "real estate investing",
+          "investment property",
+          "investor mortgage"
+        ],
+        "defaultVariant": "investor-affordability",
+        "headline": "Estimate affordability for purchasing investment properties."
+      }
+    ]
   }
 ]
