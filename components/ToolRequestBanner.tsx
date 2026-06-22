@@ -15,9 +15,19 @@ export default function ToolRequestBanner({ sidebar = false }: { sidebar?: boole
     setLoading(true);
     try {
       const entry = { tool: tool.trim(), detail: detail.trim(), ts: Date.now() };
+      // Save locally as backup
       const prev = JSON.parse(localStorage.getItem("tool_requests") ?? "[]");
       prev.push(entry);
       localStorage.setItem("tool_requests", JSON.stringify(prev));
+      // Send to Notion via Cloudflare Worker proxy
+      const proxyUrl = process.env.NEXT_PUBLIC_NOTION_PROXY_URL;
+      if (proxyUrl) {
+        await fetch(proxyUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(entry),
+        });
+      }
     } catch {}
     setLoading(false);
     setState("submitted");
