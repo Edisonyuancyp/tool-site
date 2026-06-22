@@ -3,10 +3,25 @@ import { useState } from "react";
 
 const ALPHA = "0123456789abcdefghijklmnopqrstuvwxyz";
 
+const CUSTOM_ALPHABETS: Record<number, { alpha: string; excluded: string }> = {
+  // 0-9 + 21 consonants (no A, E, I, O, U)
+  31: { alpha: "0123456789bcdfghjklmnpqrstvwxyz", excluded: "A, E, I, O, U" },
+  // 0-9 + 22 chars without I, O, Q, U
+  32: { alpha: "0123456789abcdefghjklmnprstvwxyz", excluded: "I, O, Q, U" },
+};
+
+function getAlpha(base: number): string {
+  return CUSTOM_ALPHABETS[base]?.alpha ?? ALPHA.slice(0, base);
+}
+
+function getExcluded(base: number): string | null {
+  return CUSTOM_ALPHABETS[base]?.excluded ?? null;
+}
+
 function parseB(raw: string, base: number): bigint | null {
   const v = raw.trim().toLowerCase();
   if (!v) return 0n;
-  const alpha = ALPHA.slice(0, base);
+  const alpha = getAlpha(base);
   let n = 0n;
   const b = BigInt(base);
   for (const ch of v) {
@@ -19,7 +34,7 @@ function parseB(raw: string, base: number): bigint | null {
 
 function toB(n: bigint, base: number): string {
   if (n === 0n) return "0";
-  const alpha = ALPHA.slice(0, base);
+  const alpha = getAlpha(base);
   const b = BigInt(base);
   let s = "";
   let r = n;
@@ -98,9 +113,12 @@ export default function BaseConverter() {
   }
 
   // Valid digits hint for current fromBase
-  const digitHint = fromBase <= 10
-    ? `0–${ALPHA[fromBase - 1]}`
-    : `0–9, a–${ALPHA[fromBase - 1]}`;
+  const excludedHint = getExcluded(fromBase);
+  const digitHint = excludedHint
+    ? `0–9, ${getAlpha(fromBase).slice(10).split("").join(", ")}`
+    : fromBase <= 10
+      ? `0–${ALPHA[fromBase - 1]}`
+      : `0–9, a–${ALPHA[fromBase - 1]}`;
 
   return (
     <div className="space-y-6">
@@ -125,7 +143,12 @@ export default function BaseConverter() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
           </svg>
         </div>
-        <p className="mt-1.5 text-xs text-gray-400">Valid digits: <span className="font-mono font-semibold">{digitHint}</span></p>
+        <p className="mt-1.5 text-xs text-gray-400">
+          Valid digits: <span className="font-mono font-semibold">{digitHint}</span>
+          {excludedHint && (
+            <span className="ml-2 text-amber-600 font-medium">(excluded: {excludedHint})</span>
+          )}
+        </p>
       </div>
 
       {/* ── Step 2: big input box ── */}
@@ -174,6 +197,7 @@ export default function BaseConverter() {
               const formatted = formatVal(raw, b.base);
               const isSource = b.base === fromBase;
               const c = COLORS[b.color];
+              const excluded = getExcluded(b.base);
 
               return (
                 <div key={b.base}
@@ -187,6 +211,11 @@ export default function BaseConverter() {
                       {b.name} (Base {b.base})
                       {isSource && <span className="ml-2 normal-case text-gray-500 font-normal">← input</span>}
                     </div>
+                    {excluded && (
+                      <div className={`text-[10px] leading-tight mb-1.5 ${isSource ? "text-gray-500" : "text-amber-600/80"}`}>
+                        Excluded letters: {excluded}
+                      </div>
+                    )}
                     <div className={`font-mono font-black text-xl sm:text-2xl break-all ${isSource ? "text-white" : c.value}`}>
                       {formatted}
                     </div>
