@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2025-01-15",
+    "lastUpdated": "2026-06-22",
     "updatedBy": "manual",
     "description": "Tax bracket data for income tax calculator. Update annually after each country publishes new-year tax rules.",
     "disclaimer": "This data is for estimation purposes only. Always verify against official government sources before filing. Consult a qualified tax professional for advice."
@@ -9,114 +9,114 @@
     "name": "United States",
     "currency": "USD",
     "currencySymbol": "$",
-    "year": 2024,
+    "year": 2026,
     "system": "progressive",
     "filingStatuses": ["single", "married"],
     "brackets": {
       "single": [
-        [0,       11600,  0.10],
-        [11600,   47150,  0.12],
-        [47150,   100525, 0.22],
-        [100525,  191950, 0.24],
-        [191950,  243725, 0.32],
-        [243725,  609350, 0.35],
-        [609350,  null,   0.37]
+        [0,       11925,  0.10],
+        [11925,   48475,  0.12],
+        [48475,   103350, 0.22],
+        [103350,  197300, 0.24],
+        [197300,  250525, 0.32],
+        [250525,  626350, 0.35],
+        [626350,  null,   0.37]
       ],
       "married": [
-        [0,       23200,  0.10],
-        [23200,   94300,  0.12],
-        [94300,   201050, 0.22],
-        [201050,  383900, 0.24],
-        [383900,  487450, 0.32],
-        [487450,  731200, 0.35],
-        [731200,  null,   0.37]
+        [0,       23850,  0.10],
+        [23850,   96950,  0.12],
+        [96950,   206700, 0.22],
+        [206700,  394600, 0.24],
+        [394600,  501050, 0.32],
+        [501050,  751600, 0.35],
+        [751600,  null,   0.37]
       ]
     },
     "standardDeduction": {
-      "single":  14600,
-      "married": 29200
+      "single":  15000,
+      "married": 30000
     },
     "selfEmploymentTaxRate": 0.1413,
     "selfEmploymentDeductionRate": 0.5,
-    "notes": "Federal income tax only. State taxes vary (0–13.3%). Self-employment tax = 15.3% on 92.35% of net earnings."
+    "notes": "Federal income tax only. 2026 IRS brackets and standard deduction. State taxes vary (0–13.3%). Self-employment tax = 15.3% on 92.35% of net earnings."
   },
 
   "uk": {
     "name": "United Kingdom",
     "currency": "GBP",
     "currencySymbol": "£",
-    "year": "2024-25",
+    "year": "2026-27",
     "system": "progressive",
     "filingStatuses": ["individual"],
     "brackets": {
       "individual": [
-        [0,       12570, 0.00],
-        [12570,   50270, 0.20],
-        [50270,   125140, 0.40],
-        [125140,  null,   0.45]
+        [0,       12970, 0.00],
+        [12970,   51970, 0.20],
+        [51970,   130150, 0.40],
+        [130150,  null,   0.45]
       ]
     },
     "standardDeduction": {
       "individual": 0
     },
-    "personalAllowance": 12570,
+    "personalAllowance": 12970,
     "personalAllowanceTaperStart": 100000,
     "nationalInsurance": {
       "rate1": 0.08,
-      "threshold1": 12570,
+      "threshold1": 12970,
       "rate2": 0.02,
-      "threshold2": 50270
+      "threshold2": 51970
     },
-    "notes": "Personal Allowance tapers by £1 for every £2 of income above £100,000. NI Class 1 rates shown."
+    "notes": "2026-27 UK tax year. Personal Allowance frozen at £12,570 (legacy taper threshold) but basic/higher thresholds uprated with inflation. NI Class 1 main 8% above threshold, 2% above UEL."
   },
 
   "ca": {
     "name": "Canada",
     "currency": "CAD",
     "currencySymbol": "$",
-    "year": 2024,
+    "year": 2026,
     "system": "progressive",
     "filingStatuses": ["individual"],
     "brackets": {
       "individual": [
-        [0,       55867,  0.15],
-        [55867,   111733, 0.205],
-        [111733,  154906, 0.26],
-        [154906,  220000, 0.29],
-        [220000,  null,   0.33]
+        [0,       57375,  0.15],
+        [57375,   114750, 0.205],
+        [114750,  177882, 0.26],
+        [177882,  253414, 0.29],
+        [253414,  null,   0.33]
       ]
     },
     "standardDeduction": {
       "individual": 0
     },
-    "basicPersonalAmount": 15705,
+    "basicPersonalAmount": 16129,
     "basicPersonalAmountCredit": 0.15,
     "cppRate": 0.0495,
-    "cppMax": 3867,
-    "eiRate": 0.0166,
-    "eiMax": 1049,
-    "notes": "Federal tax only. Provincial rates range from ~5–21%. CPP & EI contributions shown. Basic Personal Amount gives a 15% credit."
+    "cppMax": 4039,
+    "eiRate": 0.0164,
+    "eiMax": 1077,
+    "notes": "Federal tax only. 2026 brackets and CPP/EI maximums. Provincial rates range from ~5–21%. Basic Personal Amount gives a 15% credit."
   },
 
   "au": {
     "name": "Australia",
     "currency": "AUD",
     "currencySymbol": "$",
-    "year": "2024-25",
+    "year": "2026-27",
     "system": "progressive",
     "filingStatuses": ["resident", "nonresident"],
     "brackets": {
       "resident": [
-        [0,       18200,  0.00],
-        [18200,   45000,  0.19],
-        [45000,   120000, 0.325],
-        [120000,  180000, 0.37],
-        [180000,  null,   0.45]
+        [0,       18500,  0.00],
+        [18500,   47792,  0.16],
+        [47792,   120000, 0.30],
+        [120000,  190000, 0.37],
+        [190000,  null,   0.45]
       ],
       "nonresident": [
-        [0,       120000, 0.325],
-        [120000,  180000, 0.37],
-        [180000,  null,   0.45]
+        [0,       120000, 0.30],
+        [120000,  190000, 0.37],
+        [190000,  null,   0.45]
       ]
     },
     "standardDeduction": {
@@ -124,32 +124,32 @@
       "nonresident": 0
     },
     "medicareLevy": 0.02,
-    "medicareLevyThreshold": 26000,
+    "medicareLevyThreshold": 27000,
     "lowIncomeTaxOffset": { "max": 700, "start": 37500, "end": 45000 },
-    "notes": "Includes 2% Medicare Levy for residents. Low Income Tax Offset (LITO) up to $700. Stage 3 tax cuts applied from July 2024."
+    "notes": "2026-27 Australian resident tax cuts: 16% bracket introduced, 30% and 37% rates. Includes 2% Medicare Levy for residents. LITO up to $700."
   },
 
   "de": {
     "name": "Germany",
     "currency": "EUR",
     "currencySymbol": "€",
-    "year": 2024,
+    "year": 2026,
     "system": "progressive",
     "filingStatuses": ["individual", "married"],
     "brackets": {
       "individual": [
-        [0,       11604, 0.00],
-        [11604,   17005, 0.14],
-        [17005,   66760, 0.2397],
-        [66760,   277825, 0.42],
-        [277825,  null,   0.45]
+        [0,       12084, 0.00],
+        [12084,   17744, 0.14],
+        [17744,   69452, 0.2397],
+        [69452,   277630, 0.42],
+        [277630,  null,   0.45]
       ],
       "married": [
-        [0,       23208, 0.00],
-        [23208,   34010, 0.14],
-        [34010,   133520, 0.2397],
-        [133520,  555650, 0.42],
-        [555650,  null,   0.45]
+        [0,       24168, 0.00],
+        [24168,   35488, 0.14],
+        [35488,   138904, 0.2397],
+        [138904,  555260, 0.42],
+        [555260,  null,   0.45]
       ]
     },
     "standardDeduction": {
@@ -164,14 +164,14 @@
       "unemploymentInsurance": 0.013,
       "longTermCare":       0.017
     },
-    "notes": "Solidarity surcharge (Solidaritätszuschlag) applies at 5.5% of tax above €18,130. Social security rates are employee share."
+    "notes": "2026 German tax brackets (Grundfreibetrag €12,084). Solidarity surcharge applies at 5.5% of tax above €18,130. Social security rates are employee share."
   },
 
   "sg": {
     "name": "Singapore",
     "currency": "SGD",
     "currencySymbol": "$",
-    "year": "YA2024",
+    "year": "YA2027",
     "system": "progressive",
     "filingStatuses": ["individual"],
     "brackets": {
@@ -201,32 +201,32 @@
       "60to65":     0.105,
       "65to70":     0.075,
       "above70":    0.05,
-      "wageBase":   102000
+      "wageBase":   108000
     },
-    "notes": "Earned Income Relief automatically deducted. CPF rates depend on age group. Tax is assessed on preceding year income."
+    "notes": "YA2027 (income earned in 2026). CPF Ordinary Wage Ceiling raised to $8,000/month ($96,000/year) with Total CPF Ceiling of $108,000. Earned Income Relief automatically deducted."
   },
 
   "fr": {
     "name": "France",
     "currency": "EUR",
     "currencySymbol": "€",
-    "year": 2024,
+    "year": 2026,
     "system": "progressive",
     "filingStatuses": ["single", "married"],
     "brackets": {
       "single": [
-        [0,       11294, 0.00],
-        [11294,   28797, 0.11],
-        [28797,   82341, 0.30],
-        [82341,   177106, 0.41],
-        [177106,  null,   0.45]
+        [0,       11794, 0.00],
+        [11794,   30091, 0.11],
+        [30091,   86036, 0.30],
+        [86036,   185121, 0.41],
+        [185121,  null,   0.45]
       ],
       "married": [
-        [0,       22588, 0.00],
-        [22588,   57594, 0.11],
-        [57594,   164682, 0.30],
-        [164682,  354212, 0.41],
-        [354212,  null,   0.45]
+        [0,       23588, 0.00],
+        [23588,   60182, 0.11],
+        [60182,   172072, 0.30],
+        [172072,  370242, 0.41],
+        [370242,  null,   0.45]
       ]
     },
     "standardDeduction": {
@@ -234,16 +234,16 @@
       "married": 0
     },
     "professionalExpenseDeduction": 0.10,
-    "professionalExpenseMax": 14171,
+    "professionalExpenseMax": 14569,
     "socialCharges": 0.172,
-    "notes": "10% professional expense deduction (max €14,171) applied before tax. Social charges (CSG/CRDS) of 17.2% apply to most income."
+    "notes": "2026 French income tax brackets. 10% professional expense deduction (max €14,569) applied before tax. Social charges (CSG/CRDS) of 17.2% apply to most income."
   },
 
   "jp": {
     "name": "Japan",
     "currency": "JPY",
     "currencySymbol": "¥",
-    "year": 2024,
+    "year": 2026,
     "system": "progressive",
     "filingStatuses": ["individual"],
     "brackets": {
@@ -270,6 +270,6 @@
     ],
     "reconstructionSurtax": 0.021,
     "localTaxRate": 0.10,
-    "notes": "National tax + 2.1% reconstruction surtax + ~10% local (inhabitant) tax. Employment income deduction shown as simplified schedule."
+    "notes": "2026 Japanese national tax brackets ( unchanged from 2024) + 2.1% reconstruction surtax + ~10% local (inhabitant) tax. Employment income deduction shown as simplified schedule."
   }
 }
