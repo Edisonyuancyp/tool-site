@@ -70,7 +70,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tool = registryResult?.meta ?? getToolBySlug(slug);
   if (!tool) return {};
 
-  const toolUrl = `https://getfastcalc.com${getToolPath(tool)}`;
+  const prefix = CATEGORY_URL_PREFIX[tool.category] ?? category;
+  const canonicalPath = `/tools/${prefix}/${slug}`;
+  const toolUrl = `https://getfastcalc.com${canonicalPath}`;
   return {
     title: tool.metaTitle,
     description: tool.metaDescription,
@@ -79,8 +81,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: toolUrl,
       languages: {
         "en":        toolUrl,
-        "es":        `https://getfastcalc.com/es/tools/${slug}`,
-        "fr":        `https://getfastcalc.com/fr/tools/${slug}`,
+        "es":        `https://getfastcalc.com/es${canonicalPath}`,
+        "fr":        `https://getfastcalc.com/fr${canonicalPath}`,
         "x-default": toolUrl,
       },
     },
@@ -155,7 +157,7 @@ export default async function ToolPage({ params }: Props) {
     const ToolView = mod!.default;
     return (
       <>
-        <Header />
+        <Header allTools={allTools} />
         <ToolLayout tool={meta} allTools={allTools}>
           <ToolView variant={variant} />
         </ToolLayout>
@@ -176,7 +178,7 @@ export default async function ToolPage({ params }: Props) {
 
   return (
     <>
-      <Header />
+      <Header allTools={allTools} />
       <ToolLayout tool={tool} allTools={allTools}>{toolUI}</ToolLayout>
       <Footer />
     </>

@@ -185,7 +185,7 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
             <span className="text-gray-600">{tool.name}</span>
           </nav>
 
-          <VisitTracker slug={tool.slug} />
+          <VisitTracker slug={tool.slug} name={tool.name} category={tool.category} />
           {/* Title */}
           <div className="mb-8">
             <div className="flex items-center justify-between gap-3 mb-3">
