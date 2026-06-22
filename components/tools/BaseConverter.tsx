@@ -8,6 +8,8 @@ const CUSTOM_ALPHABETS: Record<number, { alpha: string; excluded: string }> = {
   31: { alpha: "0123456789bcdfghjklmnpqrstvwxyz", excluded: "A, E, I, O, U" },
   // 0-9 + 22 chars without I, O, Q, U
   32: { alpha: "0123456789abcdefghjklmnprstvwxyz", excluded: "I, O, Q, U" },
+  // 0-9 + a-z excluding I, O to avoid confusion with 1 and 0
+  34: { alpha: "0123456789abcdefghjklmnpqrstuvwxyz", excluded: "I, O" },
 };
 
 function getAlpha(base: number): string {
