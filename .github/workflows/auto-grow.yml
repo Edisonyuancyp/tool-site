@@ -3,16 +3,16 @@ name: Auto-Grow Tools (Weekly)
 on:
   schedule:
     - cron: "0 2 * * 1"   # Every Monday at 02:00 UTC
-  workflow_dispatch:        # Allow manual trigger from GitHub UI
+  workflow_dispatch:        # Manual trigger from GitHub UI
     inputs:
       category:
-        description: "Override category (leave blank for auto-rotation)"
+        description: "Single category override (leave blank for full weekly run)"
         required: false
         default: ""
       count:
-        description: "Number of new tools to generate"
+        description: "Number of tools per category"
         required: false
-        default: "3"
+        default: "5"
 
 jobs:
   grow:
@@ -25,40 +25,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Auto-select category by week number
-        id: pick_category
-        run: |
-          # Rotate through 12 categories based on ISO week number
-          CATEGORIES=(
-            "education"
-            "home"
-            "legal"
-            "pet"
-            "parenting"
-            "math"
-            "science"
-            "business"
-            "language"
-            "environment"
-            "sports"
-            "health"
-          )
-          WEEK=$(date +%V | sed 's/^0*//')   # ISO week number, strip leading zero
-          INDEX=$(( (WEEK - 1) % ${#CATEGORIES[@]} ))
-          AUTO_CATEGORY="${CATEGORIES[$INDEX]}"
-
-          # Use manual override if provided
-          MANUAL="${{ github.event.inputs.category }}"
-          if [ -n "$MANUAL" ]; then
-            CATEGORY="$MANUAL"
-            echo "Using manual category: $CATEGORY"
-          else
-            CATEGORY="$AUTO_CATEGORY"
-            echo "Week $WEEK → auto-selected category: $CATEGORY"
-          fi
-
-          echo "category=$CATEGORY" >> $GITHUB_OUTPUT
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -77,37 +43,71 @@ jobs:
       - name: Install Node dependencies
         run: npm ci
 
-      - name: Run research (SerpAPI)
+      # ── Priority run: ecommerce → quant → design (5 each) ──────────────────
+      - name: Research + Generate — ecommerce
+        if: ${{ github.event.inputs.category == '' || github.event.inputs.category == 'ecommerce' }}
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python scripts/research.py --category "${{ steps.pick_category.outputs.category }}"
+          COUNT="${{ github.event.inputs.count || '5' }}"
+          python scripts/research.py --category ecommerce
+          python scripts/ai_generate.py --category ecommerce --count "$COUNT"
 
-      - name: Generate new tool ideas (OpenAI)
+      - name: Research + Generate — quant
+        if: ${{ github.event.inputs.category == '' || github.event.inputs.category == 'quant' }}
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          COUNT="${{ github.event.inputs.count || '5' }}"
+          python scripts/research.py --category quant
+          python scripts/ai_generate.py --category quant --count "$COUNT"
+
+      - name: Research + Generate — design
+        if: ${{ github.event.inputs.category == '' || github.event.inputs.category == 'design' }}
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          COUNT="${{ github.event.inputs.count || '5' }}"
+          python scripts/research.py --category design
+          python scripts/ai_generate.py --category design --count "$COUNT"
+
+      # ── Manual override: any other single category ──────────────────────────
+      - name: Research + Generate — custom category
+        if: ${{ github.event.inputs.category != '' && github.event.inputs.category != 'ecommerce' && github.event.inputs.category != 'quant' && github.event.inputs.category != 'design' }}
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          CAT="${{ github.event.inputs.category }}"
+          COUNT="${{ github.event.inputs.count || '5' }}"
+          python scripts/research.py --category "$CAT"
+          python scripts/ai_generate.py --category "$CAT" --count "$COUNT"
+
+      # ── Generate files + auto-fix + build ──────────────────────────────────
+      - name: Generate registry files
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-        run: |
-          COUNT="${{ github.event.inputs.count || '3' }}"
-          python scripts/ai_generate.py --category "${{ steps.pick_category.outputs.category }}" --count "$COUNT"
-
-      - name: Generate tool files
         run: python scripts/generate_tool.py
+
+      - name: Auto-fix broken tool views
+        run: node scripts/fix-broken-tools.mjs
 
       - name: Build Next.js site
         run: npm run build
 
+      # ── Commit & push ───────────────────────────────────────────────────────
       - name: Commit and push new tools
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "No new tools generated — nothing to commit."
+            echo "✅ No new tools generated — nothing to commit."
           else
-            CATEGORY="${{ steps.pick_category.outputs.category }}"
             COUNT=$(git diff --cached --name-only | grep "tools-registry" | grep "meta.json" | wc -l | tr -d ' ')
-            git commit -m "feat(auto-grow): +${COUNT} new ${CATEGORY} tools [skip ci]"
+            git commit -m "feat(auto-grow): +${COUNT} new tools [ecommerce/quant/design] [skip ci]"
             git push
           fi
