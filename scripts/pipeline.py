@@ -112,7 +112,13 @@ def main():
         print(f"{'═' * 60}")
         return
 
-    # ── Step 4: Git push ──────────────────────────────────────────────────────
+    # ── Step 4: Auto-fix broken view.tsx ─────────────────────────────────────
+    print(f"\n{'─' * 60}")
+    print(f"STEP 4/5 — Auto-fix broken tool views")
+    print(f"{'─' * 60}")
+    run(["node", str(SCRIPTS_DIR / "fix-broken-tools.mjs")], check=False)
+
+    # ── Step 5: Git push ──────────────────────────────────────────────────────
     tasks_after = count_tasks_before()
     new_count = tasks_after - tasks_before
 
@@ -125,7 +131,7 @@ def main():
         return
 
     print(f"\n{'─' * 60}")
-    print(f"STEP 4/4 — Build & Push")
+    print(f"STEP 5/5 — Build & Push")
     print(f"{'─' * 60}")
 
     run(["npm", "run", "build"])

@@ -5,6 +5,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import VisitTracker from "@/components/VisitTracker";
 import SEOContent from "@/components/SEOContent";
 import ShareButton from "@/components/ShareButton";
+import ToolErrorBoundary from "@/components/ToolErrorBoundary";
 
 /** Minimal markdown → JSX: **bold**, `code`, blank-line paragraphs */
 function MdLine({ text }: { text: string }) {
@@ -215,7 +216,9 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
 
           {/* Tool UI */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 sm:p-8 mb-10 shadow-sm">
-            {children}
+            <ToolErrorBoundary toolName={tool.name}>
+              {children}
+            </ToolErrorBoundary>
             <div className="mt-6 pt-5 border-t border-gray-100">
               <AccuracyFeedback toolSlug={tool.slug} />
             </div>
