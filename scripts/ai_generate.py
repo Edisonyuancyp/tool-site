@@ -26,6 +26,42 @@ SCRIPTS_DIR = Path(__file__).parent
 CACHE_DIR   = SCRIPTS_DIR / "research_cache"
 TASKS_FILE  = SCRIPTS_DIR / "tasks.json"
 
+# ── Priority category focus instructions injected into the AI prompt ──────────
+PRIORITY_FOCUS: dict[str, str] = {
+    "ecommerce": """\
+PRIORITY FOCUS — E-Commerce Sellers:
+Target users who sell on Shopify, Amazon FBA, Etsy, WooCommerce, or run dropshipping businesses.
+High-value tool ideas include: profit margin calculators, break-even analysis, ROAS/ROAS target calculators,
+FBA fee estimators, landed cost / customs duty calculators, Etsy listing fee calculators, pricing strategy
+tools, inventory reorder point calculators, shipping rate comparators, and Amazon PPC bid calculators.
+Prefer tools that solve real operational pain points that sellers discuss in r/shopify, r/amazonseller, r/Etsy.""",
+
+    "quant": """\
+PRIORITY FOCUS — Traders & Quant Finance:
+Target algorithmic traders, retail investors, options traders, and forex/crypto market participants.
+High-value tool ideas include: Kelly Criterion position sizer, Sharpe/Sortino ratio calculator, max drawdown
+estimator, options Greeks calculator (delta/gamma/theta/vega), implied volatility calculator, risk-reward
+ratio tool, backtesting metrics summarizer, correlation matrix tool, portfolio VaR calculator, and
+funding rate / carry cost calculators for crypto perps.
+Prefer tools discussed in r/algotrading, r/options, r/quant, r/Forex.""",
+
+    "design": """\
+PRIORITY FOCUS — Designers & Creative Professionals:
+Target UI/UX designers, graphic designers, and front-end developers who use Figma, Sketch, or code.
+High-value tool ideas include: contrast ratio checker (WCAG), spacing/grid calculator, type scale generator,
+CSS gradient builder, SVG path generator, color palette extractor, font pairing tool, aspect ratio calculator,
+icon grid calculator, and animation timing curve generator.
+Prefer tools that designers request in r/graphic_design, r/UI_Design, r/web_design, r/figma.""",
+
+    "market": """\
+PRIORITY FOCUS — Market Research & Data Analytics:
+Target product managers, growth marketers, and business analysts who need data-driven decision tools.
+High-value tool ideas include: TAM/SAM/SOM calculator, customer LTV calculator, churn rate calculator,
+cohort retention analyzer, price elasticity estimator, NPS score interpreter, A/B test significance
+calculator, funnel conversion rate optimizer, and market share calculator.
+Prefer tools that PMs and analysts discuss in r/ProductManagement, r/marketing, r/datascience.""",
+}
+
 # ── Existing registry slugs — avoid duplicating tools already built ───────────
 def get_existing_slugs() -> set[str]:
     registry = SCRIPTS_DIR.parent / "tools-registry"
@@ -84,8 +120,10 @@ def build_prompt(category: str, snippets: list[dict], count: int, existing: set[
         for r in snippets[:40]
     )
     existing_list = ", ".join(sorted(existing)[:30]) + ("…" if len(existing) > 30 else "")
+    priority_block = PRIORITY_FOCUS.get(category, "")
 
     return f"""You are a tool-website product manager. Your job is to identify high-traffic, high-intent calculator/tool ideas that people are searching for online.
+{priority_block}
 
 CATEGORY: {category}
 

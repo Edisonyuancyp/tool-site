@@ -20,7 +20,7 @@ from urllib.request import urlopen, Request
 
 CACHE_DIR = Path(__file__).parent / "research_cache"
 
-# ── Query templates — mix of Reddit, Quora, and general "how do I" patterns ──
+# ── Default query templates ──────────────────────────────────────────────────
 QUERY_TEMPLATES = [
     'site:reddit.com "{category} calculator" OR "{category} tool" how',
     'site:reddit.com "need a {category} calculator" OR "looking for {category} tool"',
@@ -28,6 +28,42 @@ QUERY_TEMPLATES = [
     '"{category} calculator" "I wish" OR "why doesn\'t" OR "is there a way"',
     '"how to calculate {category}" OR "{category} formula" free tool online',
 ]
+
+# ── Priority category overrides — more targeted Reddit/forum queries ───────────
+PRIORITY_QUERY_TEMPLATES: dict[str, list[str]] = {
+    # E-commerce sellers (Shopify, Amazon, Etsy, dropshipping)
+    "ecommerce": [
+        'site:reddit.com (r/shopify OR r/amazonseller OR r/etsy OR r/dropship) "calculator" OR "spreadsheet" OR "tool"',
+        'site:reddit.com "profit margin" OR "break even" OR "shipping cost" OR "ROAS" calculator ecommerce',
+        'site:reddit.com "I need a tool" OR "is there a way to calculate" ecommerce OR shopify OR amazon seller',
+        'site:reddit.com "pricing calculator" OR "landed cost" OR "customs duty" OR "FBA fee" calculator',
+        '"ecommerce calculator" OR "shopify calculator" "I wish" OR "wish there was" OR "doesn\'t exist"',
+    ],
+    # Trading / quant finance
+    "quant": [
+        'site:reddit.com (r/algotrading OR r/quant OR r/stocks OR r/options OR r/Forex) "calculator" OR "tool" OR "spreadsheet"',
+        'site:reddit.com "position size" OR "kelly criterion" OR "sharpe ratio" OR "drawdown" OR "backtesting" tool',
+        'site:reddit.com "options calculator" OR "greeks" OR "implied volatility" OR "risk/reward" tool',
+        'site:reddit.com "I need a" OR "looking for" trading OR quant calculator OR tool 2024 OR 2025',
+        '"trading calculator" OR "quant tool" free online "I wish" OR "why isn\'t there"',
+    ],
+    # Design / creative tools
+    "design": [
+        'site:reddit.com (r/graphic_design OR r/UI_Design OR r/web_design OR r/figma) "tool" OR "calculator" OR "generator"',
+        'site:reddit.com "color palette" OR "font pairing" OR "spacing" OR "contrast ratio" tool designer',
+        'site:reddit.com "I wish there was a tool" OR "does anyone know a tool" design OR Figma OR Canva',
+        'site:reddit.com "svg generator" OR "css generator" OR "gradient generator" OR "icon" tool free',
+        '"design tool" OR "designer calculator" free online "I wish" OR "why doesn\'t" site:reddit.com',
+    ],
+    # Market research / data analytics
+    "market": [
+        'site:reddit.com "market research" OR "data analysis" tool OR calculator OR spreadsheet',
+        'site:reddit.com "TAM calculator" OR "market size" OR "cohort analysis" OR "churn rate" tool',
+        'site:reddit.com "pricing strategy" OR "price elasticity" OR "customer LTV" calculator',
+        'site:reddit.com "I need a tool" OR "is there a free" market research OR analytics tool',
+        '"market analysis calculator" OR "business metrics" free online tool site:reddit.com',
+    ],
+}
 
 
 def load_key() -> str:
@@ -77,7 +113,11 @@ def research_category(category: str, num_queries: int, results_per_query: int) -
     all_results: list[dict] = []
     seen_links: set[str] = set()
 
-    queries = [t.replace("{category}", category) for t in QUERY_TEMPLATES[:num_queries]]
+    # Use priority templates if defined for this category, else fall back to defaults
+    templates = PRIORITY_QUERY_TEMPLATES.get(category, QUERY_TEMPLATES)
+    if category in PRIORITY_QUERY_TEMPLATES:
+        print(f"  🎯 Using priority query templates for '{category}'")
+    queries = [t.replace("{category}", category) for t in templates[:num_queries]]
 
     for i, query in enumerate(queries):
         print(f"  [{i+1}/{len(queries)}] Searching: {query[:80]}…")
