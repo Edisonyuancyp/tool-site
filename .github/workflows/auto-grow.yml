@@ -92,6 +92,11 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_tool.py
 
+      - name: Write Claude tutorials for new tools
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: python scripts/write-tool-guide.py --delay 1.5
+
       - name: Auto-fix broken tool views
         run: node scripts/fix-broken-tools.mjs
 
