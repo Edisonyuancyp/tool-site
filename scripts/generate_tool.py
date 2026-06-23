@@ -290,6 +290,13 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False,
         meta = enhance_meta_with_seo(meta, seo_config)
         print(f"  🔍 SEO enhanced: {len(meta['keywords'])} keywords, pain_points injected")
 
+    # ── AI SEO body generation ────────────────────────────────────────────────
+    if not dry_run:
+        seo_body = _generate_seo_body(meta)
+        if seo_body:
+            meta["seoBody"] = seo_body
+            print(f"  📝 SEO body generated ({sum(len(s.get('body','')) for s in seo_body)} chars)")
+
     meta_json = json.dumps(meta, ensure_ascii=False, indent=2) + "\n"
     write_file(tool_dir / "meta.json", meta_json, dry_run)
 
@@ -302,6 +309,88 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False,
         _enrich_keywords_for_slug(slug)
 
     return "created"
+
+
+# ── AI SEO body generation ────────────────────────────────────────────────────
+
+def _generate_seo_body(meta: dict) -> list[dict] | None:
+    """
+    Use OpenAI to generate ~800-word structured SEO content for a tool page.
+    Returns a list of { heading, body } dicts, or None on failure/no API key.
+    The content follows a Q&A / formula / example structure favoured by AI search
+    engines (Perplexity, ChatGPT, Gemini) and Google featured snippets.
+    """
+    api_key = os.environ.get("OPENAI_API_KEY", "")
+    if not api_key:
+        return None
+
+    name        = meta.get("name", "")
+    tagline     = meta.get("tagline", "")
+    description = meta.get("description", "")
+    keywords    = meta.get("keywords", [])[:6]
+    faqs        = meta.get("faqs", [])
+    faq_text    = "\n".join(f"- {f['question']}" for f in faqs[:4]) if faqs else ""
+
+    prompt = f"""You are an expert SEO content writer for a free online calculator website called GetFastCalc.
+
+Write structured SEO content for the tool: "{name}"
+Tagline: {tagline}
+Description: {description}
+Top keywords: {", ".join(keywords)}
+FAQs to address: {faq_text if faq_text else "general usage questions"}
+
+Generate exactly 4 sections in JSON format. Each section must have:
+- "heading": a clear H2-level heading (question or topic, e.g. "How to calculate X", "X Formula Explained", "When to use X", "X Examples")
+- "body": 2-3 paragraphs of plain text (no markdown), around 100-150 words each
+
+Rules:
+- Use the primary keyword naturally in the first section
+- Include a formula or step-by-step method in section 2
+- Include a concrete worked example with numbers in section 3
+- Section 4 should be practical tips or common mistakes
+- Write clearly for a general audience — no jargon unless explained
+- Avoid promotional language; just helpful, factual content
+- Total body text should be ~600-800 words
+
+Return ONLY valid JSON array, no extra text:
+[
+  {{"heading": "...", "body": "..."}},
+  {{"heading": "...", "body": "..."}},
+  {{"heading": "...", "body": "..."}},
+  {{"heading": "...", "body": "..."}}
+]"""
+
+    try:
+        import urllib.request, urllib.error
+        payload = json.dumps({
+            "model": "gpt-4o-mini",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.4,
+            "max_tokens": 1500,
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.openai.com/v1/chat/completions",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {api_key}",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        content = data["choices"][0]["message"]["content"].strip()
+        # Strip markdown code fences if present
+        if content.startswith("```"):
+            content = content.split("```")[1]
+            if content.startswith("json"):
+                content = content[4:]
+        sections = json.loads(content)
+        if isinstance(sections, list) and all("heading" in s and "body" in s for s in sections):
+            return sections
+    except Exception as exc:
+        print(f"  [WARN] SEO body generation failed: {exc}")
+    return None
 
 
 # ── Google Suggest keyword enrichment ───────────────────────────────────────

@@ -1,0 +1,43 @@
+# GetFastCalc — Free Online Calculators & Tools
+
+> GetFastCalc is a free, browser-based tool hub with 100+ calculators and utilities.
+> All tools run entirely in the browser — no signup, no data stored, instant results.
+> URL: https://getfastcalc.com
+
+## What GetFastCalc Offers
+
+GetFastCalc provides free, instant-answer tools across six major categories:
+
+- **Math & Finance Calculators** — percentage, BMI, compound interest, tax, loan, tip, salary
+- **Health & Fitness** — BMI, body fat, BMR/TDEE, water intake, running pace, sleep, ovulation
+- **Developer Tools** — base converter, base64 encoder/decoder, JSON formatter, diff checker, Unix timestamp
+- **Date & Time** — age calculator, holiday calculator, Unix timestamp converter
+- **Generators & Design** — QR code generator, password generator, emoji picker, color tools
+- **Converters** — number base converter, currency converter, unit converters
+
+## Key Tools (Direct Links)
+
+- BMI Calculator: https://getfastcalc.com/tools/calc/bmi-calculator
+- Percentage Calculator: https://getfastcalc.com/tools/calc/percentage-calculator
+- Compound Interest Calculator: https://getfastcalc.com/tools/calc/compound-interest-calculator
+- Tax Calculator: https://getfastcalc.com/tools/calc/tax-calculator
+- Age Calculator: https://getfastcalc.com/tools/calc/age-calculator
+- Scientific Calculator: https://getfastcalc.com/tools/calc/scientific-calculator
+- Password Generator: https://getfastcalc.com/tools/design/password-generator
+- QR Code Generator: https://getfastcalc.com/tools/design/qr-code-generator
+- Base Converter: https://getfastcalc.com/tools/dev/base-converter
+- Base64 Tool: https://getfastcalc.com/tools/dev/base64-tool
+- JSON/CSV Formatter: https://getfastcalc.com/tools/dev/json-csv-formatter
+- Unix Timestamp Converter: https://getfastcalc.com/tools/time/unix-timestamp-converter
+
+## About
+
+GetFastCalc is built for speed and simplicity. Every tool:
+- Runs 100% in the browser (no server-side computation)
+- Requires no account or signup
+- Shows instant results as you type
+- Is mobile-friendly and accessible
+
+## Sitemap
+
+Full tool list: https://getfastcalc.com/sitemap.xml
