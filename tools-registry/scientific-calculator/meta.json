@@ -1,0 +1,36 @@
+{
+  "slug": "scientific-calculator",
+  "name": "Scientific Calculator",
+  "tagline": "Full-featured scientific calculator — trig, log, powers and more",
+  "description": "A free online scientific calculator supporting trigonometry (sin, cos, tan), logarithms, exponents, square roots, factorials, and constants like π and e. Works entirely in your browser.",
+  "metaTitle": "Scientific Calculator – Free Online Scientific Calculator",
+  "metaDescription": "Free scientific calculator online. Supports sin, cos, tan, log, ln, sqrt, powers, factorials, π, e and more. No signup, instant results.",
+  "keywords": [
+    "scientific calculator",
+    "scientific calculator online",
+    "free scientific calculator",
+    "scientific calculator with sin cos tan",
+    "online calculator with log and exponents",
+    "trigonometry calculator",
+    "scientific notation calculator",
+    "advanced calculator online free"
+  ],
+  "category": "Math",
+  "icon": "🧮",
+  "faqs": [
+    {
+      "question": "What functions does this scientific calculator support?",
+      "answer": "It supports basic arithmetic, trigonometry (sin, cos, tan and their inverses), logarithms (log base 10, natural log ln), square root, powers, factorials, and constants π and e."
+    },
+    {
+      "question": "Are trig functions in degrees or radians?",
+      "answer": "You can switch between DEG and RAD mode using the DEG/RAD toggle button. The current mode is always shown on screen."
+    },
+    {
+      "question": "Is this calculator free to use?",
+      "answer": "Yes, completely free with no signup required. All calculations run in your browser."
+    }
+  ],
+  "relatedTools": ["percentage-calculator", "age-calculator", "bmi-calculator"],
+  "variants": []
+}
