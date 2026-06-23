@@ -5,20 +5,57 @@
   "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
   "metaTitle": "BMR TDEE Calculator – Daily Calorie Needs for Weight Loss & Muscle Gain",
   "metaDescription": "Free BMR and TDEE calculator. Find your daily calorie burn using Mifflin-St Jeor formula. Set goals for cutting, maintaining, or bulking with macro breakdown.",
-  "keywords": ["BMR calculator", "TDEE calculator", "daily calorie calculator", "how many calories do I burn", "basal metabolic rate calculator"],
+  "keywords": [
+    "bmr calculator",
+    "tdee calculator",
+    "daily calorie calculator",
+    "how many calories do i burn",
+    "basal metabolic rate calculator",
+    "bmr tdee calculator",
+    "bmr tdee calculator weight loss",
+    "bmr tdee calculator bodybuilding",
+    "bmr tdee calculator to lose weight",
+    "bmr tdee calculators",
+    "bmr tdee calculator free",
+    "free bmr and tdee calculator",
+    "bmr calculator for women",
+    "bmr calculator for men",
+    "bmr-calculator-loseweight",
+    "bmr calculator uk",
+    "bmr calculator formula",
+    "tdee calculator free",
+    "tdee calculator lean body mass",
+    "tdee calculator learn your total daily energy expenditure"
+  ],
   "category": "Health",
   "icon": "🔥",
   "faqs": [
-    { "question": "What is the difference between BMR and TDEE?", "answer": "BMR is the calories your body burns at complete rest. TDEE multiplies BMR by your activity level to get your actual daily calorie burn. Eat below TDEE to lose weight." },
-    { "question": "Which BMR formula is most accurate?", "answer": "Mifflin-St Jeor (1990) is considered most accurate for most people. Katch-McArdle is more accurate if you know your lean body mass." }
+    {
+      "question": "What is the difference between BMR and TDEE?",
+      "answer": "BMR is the calories your body burns at complete rest. TDEE multiplies BMR by your activity level to get your actual daily calorie burn. Eat below TDEE to lose weight."
+    },
+    {
+      "question": "Which BMR formula is most accurate?",
+      "answer": "Mifflin-St Jeor (1990) is considered most accurate for most people. Katch-McArdle is more accurate if you know your lean body mass."
+    }
   ],
-  "relatedTools": ["body-fat-calculator", "ideal-weight-calculator", "water-intake-calculator"],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "calorie-calculator-weight-loss",
       "metaTitle": "Calorie Calculator for Weight Loss – Daily Calorie Deficit",
       "metaDescription": "Calculate your daily calorie target for weight loss. Find your TDEE and the deficit needed to lose 0.5kg or 1kg per week. Free calorie calculator.",
-      "keywords": ["calorie calculator weight loss", "calorie deficit calculator", "how many calories to lose weight", "weight loss calorie target", "calories to lose 1kg per week"],
+      "keywords": [
+        "calorie calculator weight loss",
+        "calorie deficit calculator",
+        "how many calories to lose weight",
+        "weight loss calorie target",
+        "calories to lose 1kg per week"
+      ],
       "defaultVariant": "cut",
       "headline": "Find exactly how many calories you need to eat daily to lose weight at a safe, sustainable rate — 0.5kg or 1kg per week."
     },
@@ -26,7 +63,13 @@
       "variantSlug": "calorie-calculator-muscle-gain",
       "metaTitle": "Calorie Calculator for Muscle Gain – Calorie Surplus for Bulking",
       "metaDescription": "Calculate your daily calorie surplus for muscle gain. Find your TDEE and bulking target. Free calorie calculator for building muscle.",
-      "keywords": ["calorie calculator muscle gain", "calorie surplus calculator", "how many calories to build muscle", "bulking calorie calculator", "calories for muscle growth"],
+      "keywords": [
+        "calorie calculator muscle gain",
+        "calorie surplus calculator",
+        "how many calories to build muscle",
+        "bulking calorie calculator",
+        "calories for muscle growth"
+      ],
       "defaultVariant": "bulk",
       "headline": "Find your daily calorie target for muscle gain. A lean bulk requires a modest 200–300 calorie surplus above your TDEE to maximise muscle growth while minimising fat gain."
     },
@@ -34,7 +77,13 @@
       "variantSlug": "tdee-calculator",
       "metaTitle": "TDEE Calculator – Total Daily Energy Expenditure Calculator",
       "metaDescription": "Calculate your Total Daily Energy Expenditure (TDEE). Find out how many calories you burn per day based on your activity level. Free TDEE calculator.",
-      "keywords": ["tdee calculator", "total daily energy expenditure", "how many calories do i burn a day", "maintenance calories calculator", "daily calorie burn calculator"],
+      "keywords": [
+        "tdee calculator",
+        "total daily energy expenditure",
+        "how many calories do i burn a day",
+        "maintenance calories calculator",
+        "daily calorie burn calculator"
+      ],
       "defaultVariant": "tdee",
       "headline": "Calculate your Total Daily Energy Expenditure — the actual number of calories your body burns every day including activity. This is your maintenance calorie level."
     }

@@ -5,7 +5,28 @@
   "description": "Generate or decode any cron expression with a visual builder. See the human-readable schedule, next 5 run times, and a quick-reference cheat sheet of 20+ common cron patterns.",
   "metaTitle": "Cron Expression Generator & Explainer — Free Online Tool | GetFastCalc",
   "metaDescription": "Generate cron schedules with a visual builder, or paste any cron expression to decode it. Shows next run times and includes 20+ common patterns cheat sheet.",
-  "keywords": ["cron expression generator", "cron job generator", "cron expression explainer", "cron syntax", "cron schedule builder", "cron decoder"],
+  "keywords": [
+    "cron expression generator",
+    "cron job generator",
+    "cron expression explainer",
+    "cron syntax",
+    "cron schedule builder",
+    "cron decoder",
+    "cron expression generator & explainer",
+    "cron expression generator & explainer quartz",
+    "cron expression generator online",
+    "cron expression generator quartz",
+    "cron expression generator aws",
+    "cron expression generator for spring boot",
+    "cron expression generator spring",
+    "cron expression generator for azure function",
+    "cron expression generator 7 fields",
+    "cron job generator online",
+    "cron job generator spring boot",
+    "cron job generator every 5 minutes",
+    "cron job generator quartz",
+    "cron job format generator"
+  ],
   "category": "Developer",
   "urlPath": "/tools/dev/cron-expression-generator",
   "icon": "⏱️",
@@ -31,7 +52,11 @@
       "answer": "Confusing day-of-month and day-of-week interaction. When both fields are set (not *), most systems run the job when EITHER condition is true (OR logic), not both. Use '*' for the field you don't need to avoid ambiguity."
     }
   ],
-  "relatedTools": ["jwt-decoder", "url-encoder", "base64-tool"],
+  "relatedTools": [
+    "jwt-decoder",
+    "url-encoder",
+    "base64-tool"
+  ],
   "variants": [],
   "article": {
     "title": "Cron Jobs: The Complete Developer Reference",

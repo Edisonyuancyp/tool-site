@@ -5,7 +5,28 @@
   "description": "Create strong random passwords with custom length and character sets. Choose uppercase, lowercase, numbers, and symbols. Copy with one click.",
   "metaTitle": "Password Generator – Free Strong Password Generator Online",
   "metaDescription": "Generate strong random passwords instantly. Customize length, uppercase, lowercase, numbers, and symbols. Free secure password generator — no signup needed.",
-  "keywords": ["password generator", "strong password generator", "random password generator", "secure password maker"],
+  "keywords": [
+    "password generator",
+    "strong password generator",
+    "random password generator",
+    "secure password maker",
+    "password generator 12 characters",
+    "password generator 10 characters",
+    "password generator - lastpass",
+    "password generator 8 characters",
+    "password generator 16 characters",
+    "password generator free",
+    "password generator word",
+    "password generator complex",
+    "free password generator 12 characters",
+    "free password generator 15 characters",
+    "free password generator 8 characters",
+    "free password generator 16 characters",
+    "free password generator 10 characters",
+    "free password generator with words",
+    "free password generator 14 characters",
+    "free password generator strong"
+  ],
   "category": "Security",
   "icon": "🔐",
   "faqs": [
@@ -22,13 +43,21 @@
       "answer": "We recommend at least 16 characters for important accounts. The longer the password, the harder it is to crack."
     }
   ],
-  "relatedTools": ["qr-code-generator", "random-number-generator"],
+  "relatedTools": [
+    "qr-code-generator",
+    "random-number-generator"
+  ],
   "variants": [
     {
       "variantSlug": "wifi-password-generator",
       "metaTitle": "WiFi Password Generator – Strong Random WiFi Passwords",
       "metaDescription": "Generate a strong random WiFi password. Easy to share, hard to crack. Free WiFi password generator — alphanumeric, no confusing characters.",
-      "keywords": ["wifi password generator", "random wifi password", "strong wifi password", "wpa2 password generator"],
+      "keywords": [
+        "wifi password generator",
+        "random wifi password",
+        "strong wifi password",
+        "wpa2 password generator"
+      ],
       "defaultVariant": "wifi",
       "headline": "Generate a secure WiFi password that's strong enough to protect your network but easy enough to share with guests. Avoids confusing characters like 0/O and 1/l/I."
     },
@@ -36,7 +65,13 @@
       "variantSlug": "pin-generator",
       "metaTitle": "PIN Generator – Random 4 and 6 Digit PIN Numbers",
       "metaDescription": "Generate a random 4-digit or 6-digit PIN. Cryptographically secure PIN generator for bank cards, phones, and apps. Free and instant.",
-      "keywords": ["pin generator", "random pin number", "4 digit pin generator", "6 digit pin generator", "secure pin"],
+      "keywords": [
+        "pin generator",
+        "random pin number",
+        "4 digit pin generator",
+        "6 digit pin generator",
+        "secure pin"
+      ],
       "defaultVariant": "pin",
       "headline": "Generate a random PIN number — 4-digit, 6-digit, or custom length. Cryptographically secure, generated entirely in your browser."
     },
@@ -44,7 +79,12 @@
       "variantSlug": "memorable-password-generator",
       "metaTitle": "Memorable Password Generator – Easy to Remember Strong Passwords",
       "metaDescription": "Generate passwords that are both strong and memorable. Word-based passwords with numbers and symbols — easier to type, harder to crack.",
-      "keywords": ["memorable password generator", "easy to remember password", "passphrase generator", "word password generator"],
+      "keywords": [
+        "memorable password generator",
+        "easy to remember password",
+        "passphrase generator",
+        "word password generator"
+      ],
       "defaultVariant": "memorable",
       "headline": "Generate passwords that combine random words with numbers and symbols — strong enough to resist brute force, but easy enough to actually remember."
     }

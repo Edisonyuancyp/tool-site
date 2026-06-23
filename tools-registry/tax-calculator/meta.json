@@ -8,9 +8,24 @@
   "keywords": [
     "income tax calculator",
     "tax calculator 2024",
-    "how much tax do I pay",
+    "how much tax do i pay",
     "take home pay calculator",
-    "global tax calculator"
+    "global tax calculator",
+    "income tax calculator ay 2025 26",
+    "income tax calculator fy 2024 25",
+    "income tax calculator ay 2026 27",
+    "income tax calculator uk",
+    "income tax calculator ontario",
+    "income tax calculator old vs new",
+    "income tax calculator australia",
+    "income tax calculator online",
+    "income tax calculator online india",
+    "income tax calculator online new regime",
+    "income tax calculator online fy 2025-26",
+    "income tax calculator online excel",
+    "income tax calculator online free",
+    "income tax calculator online 2026-27",
+    "income tax calculator online fy 2026-27"
   ],
   "category": "Finance",
   "icon": "🧾",
@@ -46,7 +61,13 @@
       "variantSlug": "uk-income-tax-calculator",
       "metaTitle": "UK Income Tax Calculator 2024-25 — Take Home Pay & NI",
       "metaDescription": "Calculate your UK income tax and National Insurance for 2024-25. Enter gross salary → see take-home pay, effective rate, and NI contributions.",
-      "keywords": ["uk income tax calculator", "uk tax calculator 2024", "take home pay uk", "national insurance calculator", "hmrc tax estimate"],
+      "keywords": [
+        "uk income tax calculator",
+        "uk tax calculator 2024",
+        "take home pay uk",
+        "national insurance calculator",
+        "hmrc tax estimate"
+      ],
       "defaultVariant": "uk",
       "headline": "Calculate your UK income tax and National Insurance contributions for 2024-25. Includes Personal Allowance taper for high earners."
     },
@@ -54,7 +75,13 @@
       "variantSlug": "canada-income-tax-calculator",
       "metaTitle": "Canada Income Tax Calculator 2024 — Federal Tax & CPP/EI",
       "metaDescription": "Calculate Canadian federal income tax for 2024. Includes Basic Personal Amount credit, CPP contributions, and EI premiums. Free CRA tax estimator.",
-      "keywords": ["canada income tax calculator", "canadian tax calculator 2024", "cra tax calculator", "cpp ei calculator", "canada take home pay"],
+      "keywords": [
+        "canada income tax calculator",
+        "canadian tax calculator 2024",
+        "cra tax calculator",
+        "cpp ei calculator",
+        "canada take home pay"
+      ],
       "defaultVariant": "ca",
       "headline": "Calculate your Canadian federal income tax, CPP contributions, and EI premiums for 2024. Provincial taxes vary — this covers federal only."
     },
@@ -62,7 +89,13 @@
       "variantSlug": "australia-income-tax-calculator",
       "metaTitle": "Australia Income Tax Calculator 2024-25 — ATO Tax Estimate",
       "metaDescription": "Calculate Australian income tax for 2024-25 including Medicare Levy and Low Income Tax Offset. Free ATO tax estimator for residents and non-residents.",
-      "keywords": ["australia income tax calculator", "ato tax calculator 2024", "australian tax calculator", "medicare levy calculator", "take home pay australia"],
+      "keywords": [
+        "australia income tax calculator",
+        "ato tax calculator 2024",
+        "australian tax calculator",
+        "medicare levy calculator",
+        "take home pay australia"
+      ],
       "defaultVariant": "au",
       "headline": "Calculate your Australian income tax for 2024-25, including the 2% Medicare Levy and Low Income Tax Offset (LITO) for residents."
     },
@@ -70,7 +103,13 @@
       "variantSlug": "germany-income-tax-calculator",
       "metaTitle": "Germany Income Tax Calculator 2024 — Einkommensteuer",
       "metaDescription": "Calculate German income tax (Einkommensteuer) for 2024. Includes solidarity surcharge and social security contributions. Free German tax estimator.",
-      "keywords": ["germany income tax calculator", "german tax calculator 2024", "einkommensteuer rechner", "solidarity surcharge calculator", "germany take home pay"],
+      "keywords": [
+        "germany income tax calculator",
+        "german tax calculator 2024",
+        "einkommensteuer rechner",
+        "solidarity surcharge calculator",
+        "germany take home pay"
+      ],
       "defaultVariant": "de",
       "headline": "Calculate your German income tax (Einkommensteuer) for 2024, including the solidarity surcharge (Soli) and employee social security contributions."
     },
@@ -78,7 +117,13 @@
       "variantSlug": "singapore-income-tax-calculator",
       "metaTitle": "Singapore Income Tax Calculator 2024 — IRAS Tax Estimate",
       "metaDescription": "Calculate Singapore personal income tax for YA2024. Includes CPF contributions and Earned Income Relief. Free IRAS tax estimator.",
-      "keywords": ["singapore income tax calculator", "iras tax calculator", "singapore tax 2024", "cpf calculator singapore", "singapore take home pay"],
+      "keywords": [
+        "singapore income tax calculator",
+        "iras tax calculator",
+        "singapore tax 2024",
+        "cpf calculator singapore",
+        "singapore take home pay"
+      ],
       "defaultVariant": "sg",
       "headline": "Calculate your Singapore personal income tax for YA2024. Includes Earned Income Relief and CPF contribution rates by age group."
     },
@@ -86,7 +131,13 @@
       "variantSlug": "self-employed-tax-calculator",
       "metaTitle": "Self-Employed Tax Calculator USA 2024 — SE Tax + Federal",
       "metaDescription": "Calculate US self-employment tax and federal income tax for 2024. Includes 15.3% SE tax and half-SE deduction. Free freelancer tax estimator.",
-      "keywords": ["self employed tax calculator", "freelancer tax calculator usa", "self employment tax 2024", "1099 tax calculator", "schedule c tax calculator"],
+      "keywords": [
+        "self employed tax calculator",
+        "freelancer tax calculator usa",
+        "self employment tax 2024",
+        "1099 tax calculator",
+        "schedule c tax calculator"
+      ],
       "defaultVariant": "self-employed",
       "headline": "Calculate your US self-employment tax plus federal income tax for 2024. Shows SE tax (15.3%), the half-SE deduction, and your total tax burden."
     }

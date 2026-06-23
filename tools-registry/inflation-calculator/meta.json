@@ -5,7 +5,28 @@
   "description": "Calculate how inflation has eroded (or will erode) the purchasing power of money over time. Uses historical CPI data and shows a year-by-year curve of value decay.",
   "metaTitle": "Inflation Calculator — Purchasing Power Over Time | GetFastCalc",
   "metaDescription": "Find out what a past amount of money is worth in today's dollars, or project future purchasing power loss. Historical CPI-based chart included.",
-  "keywords": ["inflation calculator", "purchasing power calculator", "inflation rate calculator", "cpi calculator", "money value over time", "real vs nominal value"],
+  "keywords": [
+    "inflation calculator",
+    "purchasing power calculator",
+    "inflation rate calculator",
+    "cpi calculator",
+    "money value over time",
+    "real vs nominal value",
+    "inflation purchasing power calculator",
+    "inflation adjusted purchasing power calculator",
+    "inflation loss of purchasing power calculator",
+    "purchasing power parity inflation calculator",
+    "effect of inflation on purchasing power calculator",
+    "inflation calculator usd",
+    "inflation calculator thailand",
+    "inflation calculator uk",
+    "inflation calculator by year",
+    "inflation calculator india",
+    "inflation calculator us",
+    "inflation calculator pounds",
+    "purchasing power calculator by year",
+    "purchasing power calculator canada"
+  ],
   "category": "Finance",
   "urlPath": "/tools/calc/inflation-calculator",
   "icon": "📉",
@@ -31,7 +52,11 @@
       "answer": "Historically: real estate (hard asset), stocks (ownership of productive businesses), TIPS (Treasury Inflation-Protected Securities), commodities like gold, and Series I savings bonds (whose yield adjusts with CPI). Cash and bonds typically lose purchasing power during high inflation."
     }
   ],
-  "relatedTools": ["compound-interest-calculator", "rent-vs-buy-calculator", "budget-calculator"],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "rent-vs-buy-calculator",
+    "budget-calculator"
+  ],
   "variants": [],
   "article": {
     "title": "Inflation & Purchasing Power: A Complete Financial Guide",

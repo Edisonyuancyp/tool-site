@@ -5,7 +5,28 @@
   "description": "Convert Celsius to Fahrenheit (and °F to °C) instantly. Includes a visual temperature scale so you always know if it's hot, cold, or just right. Used by travelers, cooks, and students.",
   "metaTitle": "Celsius to Fahrenheit Converter — Free Online Tool | GetFastCalc",
   "metaDescription": "Convert Celsius to Fahrenheit instantly. Visual scale shows hot/cold context. Free, fast, no ads.",
-  "keywords": ["celsius to fahrenheit", "c to f", "fahrenheit to celsius", "temperature converter", "celsius fahrenheit conversion"],
+  "keywords": [
+    "celsius to fahrenheit",
+    "c to f",
+    "fahrenheit to celsius",
+    "temperature converter",
+    "celsius fahrenheit conversion",
+    "= 33.8 degrees fahrenheit",
+    "celsius to fahrenheit converter online",
+    "free fahrenheit to celsius converter",
+    "how to make a celsius to fahrenheit converter in python",
+    "celsius to fahrenheit conversion",
+    "celsius to fahrenheit formula",
+    "c to f converter",
+    "c to f formula",
+    "c to f temp",
+    "c to f conversion",
+    "c to fahrenheit",
+    "= -17.2222222 degrees celsius",
+    "fahrenheit to celsius formula",
+    "fahrenheit to celsius converter",
+    "fahrenheit to celsius calculator"
+  ],
   "category": "Converter",
   "urlPath": "/tools/converter/celsius-to-fahrenheit",
   "icon": "🌡️",
@@ -31,13 +52,21 @@
       "answer": "Double the Celsius value and add 30. E.g. 20°C → 40+30 = 70°F (actual: 68°F). Quick and close enough."
     }
   ],
-  "relatedTools": ["kg-to-lbs", "cm-to-inch", "m-to-feet"],
+  "relatedTools": [
+    "kg-to-lbs",
+    "cm-to-inch",
+    "m-to-feet"
+  ],
   "variants": [
     {
       "variantSlug": "fahrenheit-to-celsius",
       "metaTitle": "Fahrenheit to Celsius Converter — Free Online Tool | GetFastCalc",
       "metaDescription": "Convert Fahrenheit to Celsius instantly. Visual temperature scale included. Free, fast, no ads.",
-      "keywords": ["fahrenheit to celsius", "f to c", "fahrenheit celsius converter"],
+      "keywords": [
+        "fahrenheit to celsius",
+        "f to c",
+        "fahrenheit celsius converter"
+      ],
       "defaultVariant": "f-to-c",
       "headline": "Fahrenheit → Celsius — type and convert instantly"
     }

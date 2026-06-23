@@ -5,21 +5,61 @@
   "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
   "metaTitle": "Text Case Converter – Upper, Lower, Title, Camel, Snake Case Online",
   "metaDescription": "Free text case converter. Convert text to UPPERCASE, lowercase, Title Case, camelCase, PascalCase, snake_case, kebab-case instantly. Copy with one click.",
-  "keywords": ["text case converter", "uppercase converter", "lowercase converter", "camelcase converter", "snake case converter", "title case converter"],
+  "keywords": [
+    "text case converter",
+    "uppercase converter",
+    "lowercase converter",
+    "camelcase converter",
+    "snake case converter",
+    "title case converter",
+    "text case converter extension",
+    "text case converter chrome extension",
+    "text case converter online",
+    "text case converter online free",
+    "text case converter tool",
+    "text case converter chrome",
+    "lower case text converter",
+    "free online text case converter tool",
+    "free text case converter",
+    "uppercase converter online",
+    "uppercase converter js",
+    "uppercase converter in excel",
+    "uppercase converter extension",
+    "uppercase converter in word"
+  ],
   "category": "Utilities",
   "icon": "🔤",
   "faqs": [
-    { "question": "What is camelCase?", "answer": "camelCase joins words without spaces, capitalizing each word except the first. Used in JavaScript variable names: firstName, totalAmount." },
-    { "question": "What is snake_case?", "answer": "snake_case uses underscores between words, all lowercase. Common in Python and database column names: first_name, total_amount." },
-    { "question": "What is title case?", "answer": "Title Case capitalizes the first letter of each major word. Used in article titles and headings: 'The Quick Brown Fox'." }
+    {
+      "question": "What is camelCase?",
+      "answer": "camelCase joins words without spaces, capitalizing each word except the first. Used in JavaScript variable names: firstName, totalAmount."
+    },
+    {
+      "question": "What is snake_case?",
+      "answer": "snake_case uses underscores between words, all lowercase. Common in Python and database column names: first_name, total_amount."
+    },
+    {
+      "question": "What is title case?",
+      "answer": "Title Case capitalizes the first letter of each major word. Used in article titles and headings: 'The Quick Brown Fox'."
+    }
   ],
-  "relatedTools": ["word-counter", "diff-checker", "emoji-picker"],
+  "relatedTools": [
+    "word-counter",
+    "diff-checker",
+    "emoji-picker"
+  ],
   "variants": [
     {
       "variantSlug": "camelcase-converter",
       "metaTitle": "camelCase Converter – Convert Text to camelCase Online",
       "metaDescription": "Convert any text to camelCase instantly. Free online camelCase converter for JavaScript, Java, and API developers. Paste text and copy the result.",
-      "keywords": ["camelcase converter", "text to camelcase", "convert to camelcase", "camelcase generator", "camelcase online"],
+      "keywords": [
+        "camelcase converter",
+        "text to camelcase",
+        "convert to camelcase",
+        "camelcase generator",
+        "camelcase online"
+      ],
       "defaultVariant": "camel",
       "headline": "Convert text to camelCase — the standard naming convention for JavaScript variables, JSON keys, and object properties. Paste any text and copy the result instantly."
     },
@@ -27,7 +67,13 @@
       "variantSlug": "snake-case-converter",
       "metaTitle": "snake_case Converter – Convert Text to snake_case Online",
       "metaDescription": "Convert any text to snake_case instantly. Free online snake_case converter for Python, SQL, and database developers.",
-      "keywords": ["snake case converter", "text to snake case", "convert to snake_case", "snake_case generator", "underscore case converter"],
+      "keywords": [
+        "snake case converter",
+        "text to snake case",
+        "convert to snake_case",
+        "snake_case generator",
+        "underscore case converter"
+      ],
       "defaultVariant": "snake",
       "headline": "Convert text to snake_case — the standard naming convention for Python variables, SQL columns, and file names. Paste text and copy the result."
     },
@@ -35,7 +81,13 @@
       "variantSlug": "title-case-converter",
       "metaTitle": "Title Case Converter – Capitalize Title Case Online Free",
       "metaDescription": "Convert text to proper Title Case instantly. Follows AP, APA, and Chicago style title capitalization rules. Free online title case converter.",
-      "keywords": ["title case converter", "title capitalization tool", "capitalize title online", "title case generator", "proper title case"],
+      "keywords": [
+        "title case converter",
+        "title capitalization tool",
+        "capitalize title online",
+        "title case generator",
+        "proper title case"
+      ],
       "defaultVariant": "title",
       "headline": "Convert text to Title Case following standard capitalization rules. Perfect for blog post titles, article headings, and book titles."
     }

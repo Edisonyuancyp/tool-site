@@ -5,7 +5,28 @@
   "description": "Count characters and words in real time with platform-specific limits for Twitter/X (280), LinkedIn (3000 post / 220 preview), Instagram (2200), TikTok (2200), YouTube (5000), and more. Color-coded warnings.",
   "metaTitle": "Character Counter for Social Media — Twitter, LinkedIn, Instagram | GetFastCalc",
   "metaDescription": "Real-time character counter with limits for every social platform. Color-coded warnings for Twitter, LinkedIn, Instagram, TikTok, YouTube, and email subject lines.",
-  "keywords": ["character counter", "twitter character count", "linkedin character limit", "instagram caption length", "social media character counter", "word counter"],
+  "keywords": [
+    "character counter",
+    "twitter character count",
+    "linkedin character limit",
+    "instagram caption length",
+    "social media character counter",
+    "word counter",
+    "character counter for social media",
+    "character counter with spaces",
+    "character count online",
+    "character counter text",
+    "character counters",
+    "character and word counter",
+    "character counter grammarly",
+    "character counter chinese",
+    "twitter character counter",
+    "twitter character count limit",
+    "twitter character counter - check your tweet length and more",
+    "twitter character count check",
+    "twitter character count 2025",
+    "twitter character count max"
+  ],
   "category": "Text",
   "urlPath": "/tools/dev/character-counter",
   "icon": "📝",
@@ -31,7 +52,11 @@
       "answer": "Email subject lines should be 40–50 characters for desktop clients and 25–30 characters for mobile (where most email is read). Preheader text (the preview line) should be 85–100 characters. Combined, they should tell a complete story."
     }
   ],
-  "relatedTools": ["headline-analyzer", "markdown-previewer", "word-counter"],
+  "relatedTools": [
+    "headline-analyzer",
+    "markdown-previewer",
+    "word-counter"
+  ],
   "variants": [],
   "article": {
     "title": "Social Media Character Limits: The Complete 2024 Guide",

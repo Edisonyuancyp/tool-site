@@ -13,7 +13,19 @@
     "reverse discount calculator",
     "how much is 20 percent off",
     "discount percentage calculator free",
-    "price after discount calculator"
+    "price after discount calculator",
+    "discount calculator formula",
+    "discount calculator online",
+    "discount calculator with tax",
+    "discount calculator percentage",
+    "discount calculator omni",
+    "discount calculator app",
+    "discount calculator price",
+    "discount calculator online india",
+    "discount calculator online free",
+    "discount percentage calculator online",
+    "discount calculator online discount formula shiprocket",
+    "discount factor calculator online"
   ],
   "category": "Finance",
   "urlPath": "/tools/calc/discount-calculator",
@@ -27,7 +39,13 @@
       "Best free percent off calculator online",
       "How to reverse-calculate the original price from a sale"
     ],
-    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
   },
   "faqs": [
     {
@@ -43,6 +61,10 @@
       "answer": "Discount % = ((Original Price - Sale Price) / Original Price) × 100. If an item went from $80 to $60, the discount is (20/80) × 100 = 25%."
     }
   ],
-  "relatedTools": ["percentage-calculator", "profit-margin-calculator", "tax-calculator"],
+  "relatedTools": [
+    "percentage-calculator",
+    "profit-margin-calculator",
+    "tax-calculator"
+  ],
   "variants": []
 }

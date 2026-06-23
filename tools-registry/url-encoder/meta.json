@@ -13,7 +13,15 @@
     "url decode online",
     "encode url special characters",
     "urlencode urldecode tool",
-    "api url encoder free"
+    "api url encoder free",
+    "url encoder / decoder",
+    "url encoder decoder online",
+    "url encoder decoder online tool",
+    "url encoder decoder tool",
+    "url decoder encoder meyerweb com",
+    "url decoder encoder javascript",
+    "html url encoder decoder",
+    "freeformatter url encoder decoder"
   ],
   "category": "Developer",
   "urlPath": "/tools/dev/url-encoder",
@@ -27,7 +35,13 @@
       "How to fix %20 and other URL encoding issues",
       "URL encode query strings for API requests instantly"
     ],
-    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
   },
   "faqs": [
     {
@@ -43,6 +57,10 @@
       "answer": "encodeURI encodes a full URL and preserves characters like /, ?, &. encodeURIComponent encodes a single value within a URL and encodes those reserved characters too. This tool uses encodeURIComponent for maximum compatibility."
     }
   ],
-  "relatedTools": ["base64-tool", "base-converter", "json-csv-formatter"],
+  "relatedTools": [
+    "base64-tool",
+    "base-converter",
+    "json-csv-formatter"
+  ],
   "variants": []
 }

@@ -5,7 +5,28 @@
   "description": "Convert kilograms to pounds (and lbs to kg) with instant results. Essential for gym-goers, travelers, shipping, and cooking with international recipes.",
   "metaTitle": "KG to LBS Converter — Free Online Tool | GetFastCalc",
   "metaDescription": "Convert kilograms to pounds instantly. Type any weight and see both directions at once. Free, fast, no ads.",
-  "keywords": ["kg to lbs", "kilograms to pounds", "kg to pounds", "lbs to kg", "weight converter"],
+  "keywords": [
+    "kg to lbs",
+    "kilograms to pounds",
+    "kg to pounds",
+    "lbs to kg",
+    "weight converter",
+    "= 2.20462262 pounds",
+    "kg to lbs converter",
+    "kg to lbs converter online",
+    "kg to lbs converter calculator online",
+    "free weight converter kg to lbs",
+    "kilograms to pounds conversion",
+    "kilograms to pounds calculator",
+    "kilograms to pounds chart",
+    "kilograms to pounds formula",
+    "kilograms to pounds conversion chart",
+    "kilograms to pounds and stones",
+    "kilograms to pounds conversion table",
+    "kg to pounds conversion",
+    "kg to pounds and ounces",
+    "kg to pounds calculator"
+  ],
   "category": "Converter",
   "urlPath": "/tools/converter/kg-to-lbs",
   "icon": "⚖️",
@@ -27,13 +48,21 @@
       "answer": "100 lbs ÷ 2.20462 = 45.36 kg."
     }
   ],
-  "relatedTools": ["g-to-oz", "cm-to-inch", "celsius-to-fahrenheit"],
+  "relatedTools": [
+    "g-to-oz",
+    "cm-to-inch",
+    "celsius-to-fahrenheit"
+  ],
   "variants": [
     {
       "variantSlug": "lbs-to-kg",
       "metaTitle": "LBS to KG Converter — Free Online Tool | GetFastCalc",
       "metaDescription": "Convert pounds to kilograms instantly. Free, fast, no ads.",
-      "keywords": ["lbs to kg", "pounds to kilograms", "lb to kg converter"],
+      "keywords": [
+        "lbs to kg",
+        "pounds to kilograms",
+        "lb to kg converter"
+      ],
       "defaultVariant": "lbs-to-kg",
       "headline": "Pounds → Kilograms — type and convert instantly"
     }

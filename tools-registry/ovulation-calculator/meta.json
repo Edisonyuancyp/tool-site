@@ -5,20 +5,57 @@
   "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
   "metaTitle": "Ovulation Calculator – Fertile Window & Period Tracker (Browser Only)",
   "metaDescription": "Free ovulation and period calculator. Find your fertile window, ovulation date, and next period for up to 6 cycles. 100% private — runs in your browser, no data stored.",
-  "keywords": ["ovulation calculator", "fertile window calculator", "period tracker", "menstrual cycle calculator", "when am I most fertile"],
+  "keywords": [
+    "ovulation calculator",
+    "fertile window calculator",
+    "period tracker",
+    "menstrual cycle calculator",
+    "when am i most fertile",
+    "ovulation cycle tracker",
+    "ovulation cycle tracker app",
+    "vtuber ovulation cycle tracker",
+    "best ovulation cycle tracker",
+    "free ovulation cycle tracker",
+    "period ovulation cycle tracker",
+    "ovulation calculator app",
+    "pregnancy calculator ovulation",
+    "ovulation calculator flo",
+    "ovulation calculator babymed",
+    "ovulation calculator period",
+    "ovulation calculator boy",
+    "ovulation calculator for boy twins",
+    "fertile window calculator online",
+    "fertile window calculator india"
+  ],
   "category": "Health",
   "icon": "🌸",
   "faqs": [
-    { "question": "How is the fertile window calculated?", "answer": "Ovulation typically occurs 14 days before the next period. The fertile window is the 5 days before ovulation plus ovulation day itself." },
-    { "question": "Is this data stored anywhere?", "answer": "No. All calculations are done in JavaScript in your browser. Nothing is sent to a server or shared with any third party." }
+    {
+      "question": "How is the fertile window calculated?",
+      "answer": "Ovulation typically occurs 14 days before the next period. The fertile window is the 5 days before ovulation plus ovulation day itself."
+    },
+    {
+      "question": "Is this data stored anywhere?",
+      "answer": "No. All calculations are done in JavaScript in your browser. Nothing is sent to a server or shared with any third party."
+    }
   ],
-  "relatedTools": ["sleep-calculator", "water-intake-calculator", "age-calculator"],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "fertile-window-calculator",
       "metaTitle": "Fertile Window Calculator – When Are You Most Fertile?",
       "metaDescription": "Calculate your fertile window — the days each month when you're most likely to conceive. Free fertile window calculator, 100% private browser-only.",
-      "keywords": ["fertile window calculator", "when am i most fertile", "fertility window calculator", "best days to conceive calculator", "fertile days calculator"],
+      "keywords": [
+        "fertile window calculator",
+        "when am i most fertile",
+        "fertility window calculator",
+        "best days to conceive calculator",
+        "fertile days calculator"
+      ],
       "defaultVariant": "fertile",
       "headline": "Find your fertile window — the 6-day window each cycle when pregnancy is possible. Based on your last period and cycle length."
     },
@@ -26,7 +63,13 @@
       "variantSlug": "period-tracker-calculator",
       "metaTitle": "Period Tracker Calculator – Predict Next Period Date",
       "metaDescription": "Calculate your next period date and track your menstrual cycle. Free period tracker — predict upcoming periods for 6 months. Browser-only, 100% private.",
-      "keywords": ["period tracker calculator", "next period date calculator", "menstrual cycle tracker", "period date predictor", "when is my next period"],
+      "keywords": [
+        "period tracker calculator",
+        "next period date calculator",
+        "menstrual cycle tracker",
+        "period date predictor",
+        "when is my next period"
+      ],
       "defaultVariant": "period",
       "headline": "Predict your next period date and upcoming cycle dates for the next 6 months. Enter your last period date and average cycle length."
     },
@@ -34,7 +77,13 @@
       "variantSlug": "ovulation-calculator-irregular-periods",
       "metaTitle": "Ovulation Calculator for Irregular Periods",
       "metaDescription": "Calculate ovulation and fertile window for irregular menstrual cycles. Adjust your cycle length to account for irregular periods. Free ovulation calculator.",
-      "keywords": ["ovulation calculator irregular periods", "irregular cycle ovulation calculator", "fertile window irregular cycle", "ovulation irregular period", "irregular menstrual cycle calculator"],
+      "keywords": [
+        "ovulation calculator irregular periods",
+        "irregular cycle ovulation calculator",
+        "fertile window irregular cycle",
+        "ovulation irregular period",
+        "irregular menstrual cycle calculator"
+      ],
       "defaultVariant": "irregular",
       "headline": "Irregular cycles make it harder to predict ovulation. Adjust your cycle length range to see the estimated fertile window across your variable cycle length."
     }

@@ -5,20 +5,57 @@
   "description": "Get a personalized daily water intake recommendation based on body weight, activity level, climate, and pregnancy/breastfeeding status. Shows result in liters, cups, and 500mL bottles.",
   "metaTitle": "Water Intake Calculator – How Much Water Should You Drink Per Day?",
   "metaDescription": "Free daily water intake calculator. Find how much water you should drink based on weight, activity level, and climate. Results in liters, cups, and bottles.",
-  "keywords": ["water intake calculator", "how much water should I drink", "daily water calculator", "hydration calculator", "water intake per day"],
+  "keywords": [
+    "water intake calculator",
+    "how much water should i drink",
+    "daily water calculator",
+    "hydration calculator",
+    "water intake per day",
+    "daily water intake calculator",
+    "daily water intake calculator uk",
+    "daily water intake calculator by weight",
+    "daily water intake calculator for weight loss",
+    "daily water intake calculator dog",
+    "daily water intake calculator formula",
+    "daily water intake calculator kg",
+    "daily water intake calculator australia",
+    "water intake calculator kg litre",
+    "water intake calculator for weight loss",
+    "water intake calculator by weight",
+    "water intake calculator with creatine",
+    "water intake calculator app",
+    "water intake dog calculator",
+    "water intake calculator cat"
+  ],
   "category": "Health",
   "icon": "💧",
   "faqs": [
-    { "question": "Is the '8 glasses a day' rule accurate?", "answer": "The 8×8 rule is a rough approximation. Actual needs vary by body weight, activity, and climate. A 100kg athlete in hot weather may need 4+ liters; a 50kg sedentary person needs ~1.7 liters." },
-    { "question": "Does coffee count toward daily water intake?", "answer": "Yes — coffee and tea are ~98-99% water and contribute net positive hydration. Alcohol does not count and increases water needs." }
+    {
+      "question": "Is the '8 glasses a day' rule accurate?",
+      "answer": "The 8×8 rule is a rough approximation. Actual needs vary by body weight, activity, and climate. A 100kg athlete in hot weather may need 4+ liters; a 50kg sedentary person needs ~1.7 liters."
+    },
+    {
+      "question": "Does coffee count toward daily water intake?",
+      "answer": "Yes — coffee and tea are ~98-99% water and contribute net positive hydration. Alcohol does not count and increases water needs."
+    }
   ],
-  "relatedTools": ["bmr-tdee-calculator", "bmi-calculator", "running-pace-calculator"],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "bmi-calculator",
+    "running-pace-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "water-intake-calculator-weight",
       "metaTitle": "Water Intake Calculator by Weight – How Much Water per kg",
       "metaDescription": "Calculate your daily water intake based on your body weight. Find how many ml or liters of water you need per kg of body weight. Free water calculator.",
-      "keywords": ["water intake calculator by weight", "water per kg body weight", "daily water intake by weight", "how much water per kg", "water intake formula by weight"],
+      "keywords": [
+        "water intake calculator by weight",
+        "water per kg body weight",
+        "daily water intake by weight",
+        "how much water per kg",
+        "water intake formula by weight"
+      ],
       "defaultVariant": "weight",
       "headline": "Calculate your water intake based on body weight. The WHO baseline is 35mL per kg of body weight per day — this calculator applies that formula with adjustments for activity and climate."
     },
@@ -26,7 +63,13 @@
       "variantSlug": "water-intake-calculator-athlete",
       "metaTitle": "Water Intake Calculator for Athletes – Sports Hydration Calculator",
       "metaDescription": "Calculate daily water intake for athletes and active people. Accounts for sweat loss during exercise. Free sports hydration calculator.",
-      "keywords": ["water intake calculator athlete", "sports hydration calculator", "athlete water needs", "exercise water intake calculator", "how much water to drink when working out"],
+      "keywords": [
+        "water intake calculator athlete",
+        "sports hydration calculator",
+        "athlete water needs",
+        "exercise water intake calculator",
+        "how much water to drink when working out"
+      ],
       "defaultVariant": "athlete",
       "headline": "Athletes need significantly more water than sedentary individuals. This calculator estimates your hydration needs based on exercise duration and intensity."
     },
@@ -34,7 +77,13 @@
       "variantSlug": "pregnancy-water-intake-calculator",
       "metaTitle": "Water Intake Calculator for Pregnancy – How Much to Drink While Pregnant",
       "metaDescription": "Calculate daily water intake during pregnancy. Find out how much water to drink when pregnant or breastfeeding. Free pregnancy hydration calculator.",
-      "keywords": ["pregnancy water intake calculator", "how much water to drink when pregnant", "water intake during pregnancy", "breastfeeding water intake", "hydration during pregnancy"],
+      "keywords": [
+        "pregnancy water intake calculator",
+        "how much water to drink when pregnant",
+        "water intake during pregnancy",
+        "breastfeeding water intake",
+        "hydration during pregnancy"
+      ],
       "defaultVariant": "pregnancy",
       "headline": "Pregnant and breastfeeding women have higher hydration needs. This calculator factors in your stage of pregnancy or breastfeeding to give a personalised daily water target."
     }

@@ -5,21 +5,61 @@
   "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
   "metaTitle": "Currency Converter – Free Live Exchange Rate Calculator",
   "metaDescription": "Convert USD, EUR, GBP, JPY, CNY and 20+ currencies with live ECB exchange rates. Free online currency converter — no signup, instant results.",
-  "keywords": ["currency converter", "exchange rate calculator", "usd to eur", "currency exchange online", "live currency rates"],
+  "keywords": [
+    "currency converter",
+    "exchange rate calculator",
+    "usd to eur",
+    "currency exchange online",
+    "live currency rates",
+    "currency converter usd to thb",
+    "currency converter euro to thb",
+    "currency converter vnd to thb",
+    "currency converter jpy to thb",
+    "currency converter calculator",
+    "currency converter extension",
+    "currency converter thb to chf",
+    "currency converter online",
+    "currency converter online free",
+    "currency converter online india",
+    "currency converter online - exchange rate currency calculator xchange of america",
+    "currency converter online calculator",
+    "currency converter online dubai to india",
+    "currency converter online aed to inr",
+    "currency converter online google"
+  ],
   "category": "Finance",
   "icon": "💱",
   "faqs": [
-    { "question": "Where do the exchange rates come from?", "answer": "Rates are fetched from the European Central Bank (ECB) via the Frankfurter API — a free, reliable source updated daily. When offline, the tool falls back to static reference rates." },
-    { "question": "How often are rates updated?", "answer": "ECB rates are updated once per business day. Rates are not real-time tick data, but are accurate for most everyday conversions." },
-    { "question": "Which currencies are supported?", "answer": "25+ currencies including USD, EUR, GBP, JPY, CNY, KRW, AUD, CAD, CHF, HKD, SGD, INR, THB, VND, MYR, IDR, PHP, and more." }
+    {
+      "question": "Where do the exchange rates come from?",
+      "answer": "Rates are fetched from the European Central Bank (ECB) via the Frankfurter API — a free, reliable source updated daily. When offline, the tool falls back to static reference rates."
+    },
+    {
+      "question": "How often are rates updated?",
+      "answer": "ECB rates are updated once per business day. Rates are not real-time tick data, but are accurate for most everyday conversions."
+    },
+    {
+      "question": "Which currencies are supported?",
+      "answer": "25+ currencies including USD, EUR, GBP, JPY, CNY, KRW, AUD, CAD, CHF, HKD, SGD, INR, THB, VND, MYR, IDR, PHP, and more."
+    }
   ],
-  "relatedTools": ["compound-interest-calculator", "percentage-calculator", "tp-sl-calculator"],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "usd-to-eur",
       "metaTitle": "USD to EUR Currency Converter – US Dollar to Euro Exchange Rate",
       "metaDescription": "Convert USD to EUR instantly with live exchange rates. Free US Dollar to Euro converter. Updated daily from the European Central Bank.",
-      "keywords": ["usd to eur", "dollar to euro converter", "usd eur exchange rate", "convert usd to euro", "dollar euro calculator"],
+      "keywords": [
+        "usd to eur",
+        "dollar to euro converter",
+        "usd eur exchange rate",
+        "convert usd to euro",
+        "dollar euro calculator"
+      ],
       "defaultVariant": "usd-eur",
       "headline": "Convert US Dollars to Euros using the latest ECB exchange rate. The USD/EUR pair is the world's most traded currency pair."
     },
@@ -27,7 +67,13 @@
       "variantSlug": "usd-to-cny",
       "metaTitle": "USD to CNY Currency Converter – Dollar to Chinese Yuan",
       "metaDescription": "Convert USD to CNY (Chinese Yuan / RMB) with live exchange rates. Free dollar to yuan converter. Updated daily.",
-      "keywords": ["usd to cny", "dollar to yuan converter", "usd cny exchange rate", "dollar to rmb", "usd to renminbi"],
+      "keywords": [
+        "usd to cny",
+        "dollar to yuan converter",
+        "usd cny exchange rate",
+        "dollar to rmb",
+        "usd to renminbi"
+      ],
       "defaultVariant": "usd-cny",
       "headline": "Convert US Dollars to Chinese Yuan (RMB/CNY) using daily updated exchange rates from the ECB."
     },
@@ -35,7 +81,13 @@
       "variantSlug": "usd-to-jpy",
       "metaTitle": "USD to JPY Currency Converter – Dollar to Japanese Yen",
       "metaDescription": "Convert USD to JPY with live exchange rates. Free US Dollar to Japanese Yen converter. Updated daily from the European Central Bank.",
-      "keywords": ["usd to jpy", "dollar to yen converter", "usd jpy exchange rate", "dollar yen calculator", "convert usd to japanese yen"],
+      "keywords": [
+        "usd to jpy",
+        "dollar to yen converter",
+        "usd jpy exchange rate",
+        "dollar yen calculator",
+        "convert usd to japanese yen"
+      ],
       "defaultVariant": "usd-jpy",
       "headline": "Convert US Dollars to Japanese Yen using the latest daily exchange rate. JPY is a major reserve currency and safe-haven asset."
     },
@@ -43,7 +95,13 @@
       "variantSlug": "usd-to-gbp",
       "metaTitle": "USD to GBP Currency Converter – Dollar to British Pound",
       "metaDescription": "Convert USD to GBP with live exchange rates. Free US Dollar to British Pound Sterling converter. Updated daily.",
-      "keywords": ["usd to gbp", "dollar to pound converter", "usd gbp exchange rate", "dollar to sterling", "convert usd to pounds"],
+      "keywords": [
+        "usd to gbp",
+        "dollar to pound converter",
+        "usd gbp exchange rate",
+        "dollar to sterling",
+        "convert usd to pounds"
+      ],
       "defaultVariant": "usd-gbp",
       "headline": "Convert US Dollars to British Pounds Sterling using daily ECB exchange rates. GBP is one of the oldest and most traded currencies in the world."
     },
@@ -51,7 +109,13 @@
       "variantSlug": "eur-to-usd",
       "metaTitle": "EUR to USD Currency Converter – Euro to US Dollar Exchange Rate",
       "metaDescription": "Convert EUR to USD with live exchange rates. Free Euro to US Dollar converter updated daily from the European Central Bank.",
-      "keywords": ["eur to usd", "euro to dollar converter", "eur usd exchange rate", "convert euro to usd", "euro dollar calculator"],
+      "keywords": [
+        "eur to usd",
+        "euro to dollar converter",
+        "eur usd exchange rate",
+        "convert euro to usd",
+        "euro dollar calculator"
+      ],
       "defaultVariant": "eur-usd",
       "headline": "Convert Euros to US Dollars using the latest ECB exchange rate. EUR/USD is the most liquid currency pair in the forex market."
     }

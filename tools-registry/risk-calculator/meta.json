@@ -15,7 +15,17 @@
     "lot size calculator forex",
     "crypto position size free",
     "trading risk percent calculator",
-    "stop loss position size"
+    "stop loss position size",
+    "position size calculator mt5",
+    "position size calculator mt5 free download",
+    "position size calculator forex",
+    "position size calculator crypto",
+    "position size calculator myfxbook",
+    "position size calculator xauusd",
+    "position size calculator babypips",
+    "position size calculator online",
+    "forex position size calculator online",
+    "position size calculator mt5 online"
   ],
   "category": "Quant",
   "urlPath": "/tools/calc/risk-calculator",
@@ -29,7 +39,13 @@
       "How to set stop loss and position size correctly",
       "Free trading risk calculator — no signup required"
     ],
-    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
   },
   "faqs": [
     {
@@ -53,6 +69,10 @@
       "answer": "No. All calculations run entirely in your browser using JavaScript. Nothing is sent to any server."
     }
   ],
-  "relatedTools": ["position-size-calculator", "tp-sl-calculator", "crypto-market-cap-comparator"],
+  "relatedTools": [
+    "position-size-calculator",
+    "tp-sl-calculator",
+    "crypto-market-cap-comparator"
+  ],
   "variants": []
 }

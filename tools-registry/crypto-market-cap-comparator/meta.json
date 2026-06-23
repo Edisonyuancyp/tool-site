@@ -5,21 +5,53 @@
   "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
   "metaTitle": "Crypto Market Cap Comparator – If X Reached Y's Market Cap Price Calculator",
   "metaDescription": "Free crypto market cap calculator. See what price Bitcoin, Ethereum, Solana or any altcoin would reach if it matched another coin's market cap. Live data from CoinGecko.",
-  "keywords": ["crypto market cap calculator", "if bitcoin reaches ethereum market cap", "altcoin price prediction calculator", "crypto what if calculator", "market cap comparison crypto"],
+  "keywords": [
+    "crypto market cap calculator",
+    "if bitcoin reaches ethereum market cap",
+    "altcoin price prediction calculator",
+    "crypto what if calculator",
+    "market cap comparison crypto",
+    "crypto market cap calculator price",
+    "crypto market cap calculator profit",
+    "crypto market cap calculator comparison",
+    "crypto market cap calculator app",
+    "crypto market cap calculator coingecko",
+    "crypto market cap calculator reddit",
+    "crypto coin market cap calculator"
+  ],
   "category": "Crypto",
   "icon": "🪙",
   "faqs": [
-    { "question": "How is the projected price calculated?", "answer": "Projected Price = Target Market Cap / Circulating Supply of Coin A. For example, if SOL (480M supply) reached BTC's $2T market cap: $2T / 480M = $4,167 per SOL." },
-    { "question": "Why does circulating supply matter more than total supply?", "answer": "Market cap is always calculated using circulating supply (coins actually in the market), not total or max supply." },
-    { "question": "Where does the data come from?", "answer": "Live data is fetched from CoinGecko's free public API. If unavailable, the tool falls back to approximate offline data." }
+    {
+      "question": "How is the projected price calculated?",
+      "answer": "Projected Price = Target Market Cap / Circulating Supply of Coin A. For example, if SOL (480M supply) reached BTC's $2T market cap: $2T / 480M = $4,167 per SOL."
+    },
+    {
+      "question": "Why does circulating supply matter more than total supply?",
+      "answer": "Market cap is always calculated using circulating supply (coins actually in the market), not total or max supply."
+    },
+    {
+      "question": "Where does the data come from?",
+      "answer": "Live data is fetched from CoinGecko's free public API. If unavailable, the tool falls back to approximate offline data."
+    }
   ],
-  "relatedTools": ["tp-sl-calculator", "position-size-calculator", "compound-interest-calculator"],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "position-size-calculator",
+    "compound-interest-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "solana-price-if-bitcoin-market-cap",
       "metaTitle": "Solana Price if it Reached Bitcoin Market Cap Calculator",
       "metaDescription": "What would Solana (SOL) price be if it reached Bitcoin's market cap? Calculate SOL price at BTC market cap. Free crypto market cap comparator.",
-      "keywords": ["solana price bitcoin market cap", "sol price if bitcoin market cap", "solana vs bitcoin market cap", "sol price prediction market cap", "solana bitcoin comparison"],
+      "keywords": [
+        "solana price bitcoin market cap",
+        "sol price if bitcoin market cap",
+        "solana vs bitcoin market cap",
+        "sol price prediction market cap",
+        "solana bitcoin comparison"
+      ],
       "defaultVariant": "sol-btc",
       "headline": "What would SOL be worth if Solana reached Bitcoin's market cap? Enter live data to see the projected price based on current circulating supply."
     },
@@ -27,7 +59,13 @@
       "variantSlug": "ethereum-price-if-bitcoin-market-cap",
       "metaTitle": "Ethereum Price if it Reached Bitcoin Market Cap Calculator",
       "metaDescription": "Calculate what Ethereum (ETH) price would be if it reached Bitcoin's market cap. Free ETH vs BTC market cap comparator with live data.",
-      "keywords": ["ethereum price bitcoin market cap", "eth price if bitcoin market cap", "ethereum vs bitcoin market cap", "eth flippening calculator", "ethereum market cap comparison"],
+      "keywords": [
+        "ethereum price bitcoin market cap",
+        "eth price if bitcoin market cap",
+        "ethereum vs bitcoin market cap",
+        "eth flippening calculator",
+        "ethereum market cap comparison"
+      ],
       "defaultVariant": "eth-btc",
       "headline": "The 'flippening' question: what would ETH be worth if Ethereum's market cap equalled Bitcoin's? Calculate based on current supply and BTC market cap."
     },
@@ -35,7 +73,13 @@
       "variantSlug": "altcoin-market-cap-calculator",
       "metaTitle": "Altcoin Market Cap Calculator – What If Altcoin Reached X Market Cap",
       "metaDescription": "Calculate what any altcoin price would be at a target market cap. Compare any coin to Bitcoin, Ethereum, or a custom target. Free altcoin market cap calculator.",
-      "keywords": ["altcoin market cap calculator", "altcoin price prediction market cap", "crypto what if calculator", "coin market cap price calculator", "altcoin vs bitcoin market cap"],
+      "keywords": [
+        "altcoin market cap calculator",
+        "altcoin price prediction market cap",
+        "crypto what if calculator",
+        "coin market cap price calculator",
+        "altcoin vs bitcoin market cap"
+      ],
       "defaultVariant": "custom",
       "headline": "Pick any two cryptocurrencies and calculate what the first coin's price would be if it reached the second coin's market cap. Supports all top 50 coins."
     }

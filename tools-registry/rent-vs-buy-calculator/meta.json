@@ -5,7 +5,28 @@
   "description": "Compare the true financial cost of renting vs buying a home. Factors in mortgage payments, opportunity cost, maintenance, appreciation, and tax benefits to give you a break-even timeline.",
   "metaTitle": "Rent vs Buy Calculator — Is It Cheaper to Rent or Buy? | GetFastCalc",
   "metaDescription": "Calculate whether renting or buying a home makes more financial sense. Input your local prices, rate, and horizon to get a break-even timeline and 10-year cost comparison.",
-  "keywords": ["rent vs buy calculator", "should i rent or buy", "rent or buy home", "buy vs rent comparison", "mortgage vs rent calculator", "break-even rent buy"],
+  "keywords": [
+    "rent vs buy calculator",
+    "should i rent or buy",
+    "rent or buy home",
+    "buy vs rent comparison",
+    "mortgage vs rent calculator",
+    "break-even rent buy",
+    "rent vs buy calculator canada",
+    "rent vs buy calculator nyc",
+    "rent vs buy calculator nyt",
+    "rent vs buy calculator uk",
+    "rent vs buy calculator india",
+    "rent vs buy calculator nytimes",
+    "rent vs buy calculator california",
+    "rent vs buy calculator online",
+    "free rent vs buy calculator",
+    "free nyt rent vs buy calculator",
+    "best free rent vs buy calculator",
+    "nytimes rent vs buy calculator free",
+    "nyt rent vs buy calculator reddit free",
+    "new york times rent vs buy calculator free"
+  ],
   "category": "Finance",
   "urlPath": "/tools/calc/rent-vs-buy-calculator",
   "icon": "🏠",
@@ -31,7 +52,11 @@
       "answer": "No — this is a myth. When you rent, you preserve capital that can be invested (the down payment you don't make). If you invest the difference between rent and mortgage cost, you may end up ahead. This calculator models both scenarios."
     }
   ],
-  "relatedTools": ["compound-interest-calculator", "inflation-calculator", "mortgage-calculator"],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "inflation-calculator",
+    "mortgage-calculator"
+  ],
   "variants": [],
   "article": {
     "title": "Rent vs Buy: The Financial Analysis Most People Never Do",

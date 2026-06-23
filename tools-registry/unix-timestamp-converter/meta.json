@@ -5,21 +5,61 @@
   "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
   "metaTitle": "Unix Timestamp Converter – Epoch to Date & Date to Timestamp Online",
   "metaDescription": "Free Unix timestamp converter. Convert epoch to human date or date to Unix timestamp. Supports seconds, milliseconds, UTC, and 12+ timezones. Live clock included.",
-  "keywords": ["unix timestamp converter", "epoch to date", "timestamp to date", "unix time converter online", "epoch converter"],
+  "keywords": [
+    "unix timestamp converter",
+    "epoch to date",
+    "timestamp to date",
+    "unix time converter online",
+    "epoch converter",
+    "unix timestamp converter online",
+    "unix timestamp converter excel",
+    "unix timestamp converter milliseconds",
+    "unix timestamp converter python",
+    "unix timestamp converter to date",
+    "unix timestamp converter excel formula",
+    "unix timestamp converter timezone",
+    "unix timestamp to date converter online",
+    "unix timestamp to datetime converter online",
+    "unix timestamp to ist online converter",
+    "epoch to datetime",
+    "epoch to date converter",
+    "epoch to datetime python",
+    "epoch to date excel",
+    "epoch to date javascript"
+  ],
   "category": "Developer",
   "icon": "⏱️",
   "faqs": [
-    { "question": "What is a Unix timestamp?", "answer": "A Unix timestamp (epoch time) is the number of seconds elapsed since January 1, 1970 00:00:00 UTC. It's universally used in programming, databases, and APIs to represent moments in time as a single integer." },
-    { "question": "Seconds vs milliseconds — how do I know which one I have?", "answer": "A 10-digit number (e.g. 1700000000) is seconds. A 13-digit number (e.g. 1700000000000) is milliseconds." },
-    { "question": "What is the 2038 problem?", "answer": "32-bit signed integers can only store values up to 2,147,483,647 — January 19, 2038 03:14:07 UTC. Systems using 32-bit timestamps will overflow on that date." }
+    {
+      "question": "What is a Unix timestamp?",
+      "answer": "A Unix timestamp (epoch time) is the number of seconds elapsed since January 1, 1970 00:00:00 UTC. It's universally used in programming, databases, and APIs to represent moments in time as a single integer."
+    },
+    {
+      "question": "Seconds vs milliseconds — how do I know which one I have?",
+      "answer": "A 10-digit number (e.g. 1700000000) is seconds. A 13-digit number (e.g. 1700000000000) is milliseconds."
+    },
+    {
+      "question": "What is the 2038 problem?",
+      "answer": "32-bit signed integers can only store values up to 2,147,483,647 — January 19, 2038 03:14:07 UTC. Systems using 32-bit timestamps will overflow on that date."
+    }
   ],
-  "relatedTools": ["diff-checker", "base64-tool", "json-csv-formatter"],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
   "variants": [
     {
       "variantSlug": "epoch-to-date",
       "metaTitle": "Epoch to Date Converter – Unix Timestamp to Human Date",
       "metaDescription": "Convert any Unix epoch timestamp to a readable date and time. Supports seconds and milliseconds. Free epoch to date converter online.",
-      "keywords": ["epoch to date converter", "unix epoch to date", "convert epoch to datetime", "timestamp to human date", "epoch time to date"],
+      "keywords": [
+        "epoch to date converter",
+        "unix epoch to date",
+        "convert epoch to datetime",
+        "timestamp to human date",
+        "epoch time to date"
+      ],
       "defaultVariant": "to-date",
       "headline": "Paste a Unix epoch timestamp to instantly convert it to a human-readable date and time in any timezone."
     },
@@ -27,7 +67,13 @@
       "variantSlug": "date-to-timestamp",
       "metaTitle": "Date to Unix Timestamp Converter – Convert Date to Epoch",
       "metaDescription": "Convert any date and time to a Unix timestamp (epoch). Get seconds or milliseconds. Free online date to timestamp converter.",
-      "keywords": ["date to unix timestamp", "convert date to epoch", "date to timestamp converter", "datetime to unix", "date to epoch seconds"],
+      "keywords": [
+        "date to unix timestamp",
+        "convert date to epoch",
+        "date to timestamp converter",
+        "datetime to unix",
+        "date to epoch seconds"
+      ],
       "defaultVariant": "to-timestamp",
       "headline": "Enter any date and time to get the corresponding Unix timestamp in seconds or milliseconds."
     },
@@ -35,7 +81,13 @@
       "variantSlug": "milliseconds-to-date",
       "metaTitle": "Milliseconds to Date Converter – Convert ms Timestamp to Date",
       "metaDescription": "Convert a millisecond Unix timestamp to a readable date. JavaScript uses milliseconds — enter your 13-digit timestamp for instant conversion.",
-      "keywords": ["milliseconds to date converter", "ms timestamp to date", "javascript timestamp converter", "13 digit timestamp converter", "convert milliseconds to datetime"],
+      "keywords": [
+        "milliseconds to date converter",
+        "ms timestamp to date",
+        "javascript timestamp converter",
+        "13 digit timestamp converter",
+        "convert milliseconds to datetime"
+      ],
       "defaultVariant": "ms",
       "headline": "JavaScript's Date.now() returns milliseconds. Paste your 13-digit timestamp to convert it to a human-readable date and time."
     }

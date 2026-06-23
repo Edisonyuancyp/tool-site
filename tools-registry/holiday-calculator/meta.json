@@ -5,20 +5,57 @@
   "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
   "metaTitle": "Holiday Calculator – Public Holidays & Days Until Next Holiday",
   "metaDescription": "Find public holidays for 20+ countries. Calculate days until your next holiday. Free holiday calculator — US, UK, Australia, Canada, and more.",
-  "keywords": ["holiday calculator", "public holidays 2025", "days until next holiday", "public holiday dates", "next public holiday"],
+  "keywords": [
+    "holiday calculator",
+    "public holidays 2025",
+    "days until next holiday",
+    "public holiday dates",
+    "next public holiday",
+    "holiday calculator uk",
+    "holiday calculator hmrc",
+    "holiday calculator pro rata",
+    "holiday calculator ireland",
+    "holiday calculator gov",
+    "holiday calculator 2026",
+    "holiday calculator ni",
+    "holiday calculator online",
+    "holiday pay calculator online",
+    "pro rata holiday calculator online uk",
+    "pro rata holiday calculator online uk gov uk",
+    "online holiday calculator uk",
+    "free holiday calculator uk",
+    "free holiday calculator ireland",
+    "free holiday calculator"
+  ],
   "category": "Date & Time",
   "icon": "🎉",
   "faqs": [
-    { "question": "Which countries are supported?", "answer": "20+ countries including US, UK, Canada, Australia, Germany, France, Japan, India, and more." },
-    { "question": "How is the days countdown calculated?", "answer": "The tool calculates the difference between today's date and each upcoming holiday, updating at midnight." }
+    {
+      "question": "Which countries are supported?",
+      "answer": "20+ countries including US, UK, Canada, Australia, Germany, France, Japan, India, and more."
+    },
+    {
+      "question": "How is the days countdown calculated?",
+      "answer": "The tool calculates the difference between today's date and each upcoming holiday, updating at midnight."
+    }
   ],
-  "relatedTools": ["age-calculator", "unix-timestamp-converter", "sleep-calculator"],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "us-public-holidays-2025",
       "metaTitle": "US Public Holidays 2025 – Federal Holiday Calendar",
       "metaDescription": "Complete list of US federal public holidays in 2025. Find all official US holiday dates, days of the week, and days until each holiday. Free US holiday calendar.",
-      "keywords": ["us public holidays 2025", "federal holidays 2025 usa", "us holiday calendar 2025", "american public holidays", "federal holiday dates 2025"],
+      "keywords": [
+        "us public holidays 2025",
+        "federal holidays 2025 usa",
+        "us holiday calendar 2025",
+        "american public holidays",
+        "federal holiday dates 2025"
+      ],
       "defaultVariant": "us",
       "headline": "Complete list of US federal holidays in 2025. Find the exact date, day of the week, and countdown for every official American public holiday."
     },
@@ -26,7 +63,13 @@
       "variantSlug": "uk-public-holidays-2025",
       "metaTitle": "UK Public Holidays 2025 – Bank Holidays England, Scotland, Wales",
       "metaDescription": "Complete list of UK bank holidays in 2025 for England, Scotland, Wales, and Northern Ireland. Find all official UK public holiday dates and countdowns.",
-      "keywords": ["uk public holidays 2025", "bank holidays 2025 uk", "england bank holidays 2025", "uk holiday calendar 2025", "british public holidays"],
+      "keywords": [
+        "uk public holidays 2025",
+        "bank holidays 2025 uk",
+        "england bank holidays 2025",
+        "uk holiday calendar 2025",
+        "british public holidays"
+      ],
       "defaultVariant": "uk",
       "headline": "Complete list of UK bank holidays in 2025. Covers England & Wales, Scotland, and Northern Ireland separately — because not all regions share the same holidays."
     },
@@ -34,7 +77,13 @@
       "variantSlug": "days-until-christmas",
       "metaTitle": "Days Until Christmas 2025 – Christmas Countdown Calculator",
       "metaDescription": "Find out how many days until Christmas 2025. Real-time Christmas countdown with hours, minutes, and seconds. Free Christmas days calculator.",
-      "keywords": ["days until christmas", "christmas countdown 2025", "how many days until christmas", "christmas countdown calculator", "days to christmas"],
+      "keywords": [
+        "days until christmas",
+        "christmas countdown 2025",
+        "how many days until christmas",
+        "christmas countdown calculator",
+        "days to christmas"
+      ],
       "defaultVariant": "christmas",
       "headline": "How many days until Christmas 2025? See the exact countdown in days, hours, minutes, and seconds — updated in real time."
     }

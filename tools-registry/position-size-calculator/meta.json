@@ -5,20 +5,57 @@
   "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
   "metaTitle": "Position Size Calculator – Crypto & Stock Trading Risk Management",
   "metaDescription": "Free position size calculator for traders. Enter account size, risk %, entry and stop loss price to get exact position size, margin needed, and units. Includes fee adjustment.",
-  "keywords": ["position size calculator", "crypto position size", "trading risk management calculator", "how much to invest per trade", "risk per trade calculator"],
+  "keywords": [
+    "position size calculator",
+    "crypto position size",
+    "trading risk management calculator",
+    "how much to invest per trade",
+    "risk per trade calculator",
+    "position size calculator mt5",
+    "position size calculator mt5 free download",
+    "position size calculator forex",
+    "position size calculator crypto",
+    "position size calculator myfxbook",
+    "position size calculator xauusd",
+    "position size calculator babypips",
+    "position size calculator online",
+    "forex position size calculator online",
+    "position size calculator mt5 online",
+    "free position size calculator",
+    "free position size calculator mt5",
+    "free position size calculator app",
+    "free position size calculator forex",
+    "free position size calculator mt4"
+  ],
   "category": "Crypto",
   "icon": "📐",
   "faqs": [
-    { "question": "How much should I risk per trade?", "answer": "Professional traders typically risk 1–2% of their account per trade. This means even 10 consecutive losses only reduce your account by 10–20%." },
-    { "question": "How is position size calculated?", "answer": "Position Size = (Account × Risk%) / Stop Loss Distance%. For example: $10,000 account, 1% risk, 5% SL → $100/$0.05 = $2,000 position." }
+    {
+      "question": "How much should I risk per trade?",
+      "answer": "Professional traders typically risk 1–2% of their account per trade. This means even 10 consecutive losses only reduce your account by 10–20%."
+    },
+    {
+      "question": "How is position size calculated?",
+      "answer": "Position Size = (Account × Risk%) / Stop Loss Distance%. For example: $10,000 account, 1% risk, 5% SL → $100/$0.05 = $2,000 position."
+    }
   ],
-  "relatedTools": ["tp-sl-calculator", "compound-interest-calculator", "crypto-market-cap-comparator"],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
   "variants": [
     {
       "variantSlug": "forex-position-size-calculator",
       "metaTitle": "Forex Position Size Calculator – Lot Size Calculator",
       "metaDescription": "Calculate forex lot size and position size. Enter account size, risk percentage, and stop loss in pips to find the correct lot size. Free forex position size calculator.",
-      "keywords": ["forex position size calculator", "lot size calculator forex", "forex lot calculator", "position sizing forex", "pip value calculator"],
+      "keywords": [
+        "forex position size calculator",
+        "lot size calculator forex",
+        "forex lot calculator",
+        "position sizing forex",
+        "pip value calculator"
+      ],
       "defaultVariant": "forex",
       "headline": "Calculate the correct forex lot size for your trade. Enter your account size, risk percentage, and stop loss in pips to find the exact number of lots to trade."
     },
@@ -26,7 +63,13 @@
       "variantSlug": "stock-position-size-calculator",
       "metaTitle": "Stock Position Size Calculator – How Many Shares to Buy",
       "metaDescription": "Calculate how many shares to buy based on your account size and risk tolerance. Free stock position size calculator for equity traders.",
-      "keywords": ["stock position size calculator", "how many shares to buy calculator", "stock trading risk calculator", "equity position sizing", "shares to buy calculator"],
+      "keywords": [
+        "stock position size calculator",
+        "how many shares to buy calculator",
+        "stock trading risk calculator",
+        "equity position sizing",
+        "shares to buy calculator"
+      ],
       "defaultVariant": "stock",
       "headline": "Calculate exactly how many shares to buy based on your account size, risk percentage, and stop loss level. Keep your risk consistent on every trade."
     },
@@ -34,7 +77,13 @@
       "variantSlug": "crypto-position-size-calculator",
       "metaTitle": "Crypto Position Size Calculator – How Much to Invest in Crypto",
       "metaDescription": "Calculate the right position size for crypto trades. Enter account balance, risk %, entry, and stop loss to find how much crypto to buy. Free calculator.",
-      "keywords": ["crypto position size calculator", "how much to invest in crypto", "bitcoin position size", "crypto risk management calculator", "crypto lot size"],
+      "keywords": [
+        "crypto position size calculator",
+        "how much to invest in crypto",
+        "bitcoin position size",
+        "crypto risk management calculator",
+        "crypto lot size"
+      ],
       "defaultVariant": "crypto",
       "headline": "Calculate the correct position size for any crypto trade. Proper position sizing is the single most important risk management tool for crypto traders."
     }

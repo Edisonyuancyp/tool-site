@@ -5,21 +5,58 @@
   "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
   "metaTitle": "Take Profit Stop Loss Calculator – Crypto Trading PnL & R:R Ratio",
   "metaDescription": "Free TP/SL calculator for crypto traders. Enter entry price, leverage, and margin to calculate take profit and stop loss PnL, risk/reward ratio, and liquidation price.",
-  "keywords": ["take profit stop loss calculator", "tp sl calculator crypto", "risk reward ratio calculator", "crypto pnl calculator", "leverage trading calculator"],
+  "keywords": [
+    "take profit stop loss calculator",
+    "tp sl calculator crypto",
+    "risk reward ratio calculator",
+    "crypto pnl calculator",
+    "leverage trading calculator",
+    "take profit & stop loss calculator indicator",
+    "take profit & stop loss calculator indicator for mt4",
+    "take profit and stop loss calculator indicator for mt5",
+    "stop loss and take profit calculator tradingview",
+    "crypto take profit stop loss calculator",
+    "risk reward ratio calculator tradingview",
+    "risk reward ratio calculator excel",
+    "risk reward ratio calculator free download",
+    "risk reward ratio calculator trading",
+    "risk reward ratio calculator mt4",
+    "risk reward ratio calculator free",
+    "risk reward ratio calculator forex"
+  ],
   "category": "Crypto",
   "icon": "🎯",
   "faqs": [
-    { "question": "What is Risk:Reward (R:R) ratio?", "answer": "R:R ratio compares your potential profit to your potential loss. A 1:2 ratio means for every $1 risked, you stand to gain $2. Professional traders typically only take trades with R:R of 1:2 or higher." },
-    { "question": "How is the liquidation price calculated?", "answer": "The estimate assumes you lose 100% of your margin when price moves against you by (1/leverage). At 10× leverage, a 10% adverse move liquidates your position." },
-    { "question": "Does this work for both spot and futures trading?", "answer": "For spot trading, set leverage to 1×. For futures (long or short), enter the leverage your exchange provides." }
+    {
+      "question": "What is Risk:Reward (R:R) ratio?",
+      "answer": "R:R ratio compares your potential profit to your potential loss. A 1:2 ratio means for every $1 risked, you stand to gain $2. Professional traders typically only take trades with R:R of 1:2 or higher."
+    },
+    {
+      "question": "How is the liquidation price calculated?",
+      "answer": "The estimate assumes you lose 100% of your margin when price moves against you by (1/leverage). At 10× leverage, a 10% adverse move liquidates your position."
+    },
+    {
+      "question": "Does this work for both spot and futures trading?",
+      "answer": "For spot trading, set leverage to 1×. For futures (long or short), enter the leverage your exchange provides."
+    }
   ],
-  "relatedTools": ["position-size-calculator", "compound-interest-calculator", "crypto-market-cap-comparator"],
+  "relatedTools": [
+    "position-size-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
   "variants": [
     {
       "variantSlug": "crypto-pnl-calculator",
       "metaTitle": "Crypto PnL Calculator – Profit and Loss Calculator for Crypto",
       "metaDescription": "Calculate your profit and loss on any crypto trade. Enter buy price, sell price, and amount to find exact PnL in USD and percentage. Free crypto PnL calculator.",
-      "keywords": ["crypto pnl calculator", "crypto profit loss calculator", "bitcoin pnl calculator", "crypto trade profit calculator", "calculate crypto profit"],
+      "keywords": [
+        "crypto pnl calculator",
+        "crypto profit loss calculator",
+        "bitcoin pnl calculator",
+        "crypto trade profit calculator",
+        "calculate crypto profit"
+      ],
       "defaultVariant": "pnl",
       "headline": "Calculate the exact profit or loss on any crypto trade. Enter your entry price, exit price, and position size to see PnL in USD and percentage."
     },
@@ -27,7 +64,13 @@
       "variantSlug": "risk-reward-calculator",
       "metaTitle": "Risk Reward Ratio Calculator – Trading R:R Calculator",
       "metaDescription": "Calculate risk/reward ratio for any trade. Enter entry, stop loss, and take profit to find your R:R ratio instantly. Free trading risk reward calculator.",
-      "keywords": ["risk reward ratio calculator", "rr ratio calculator", "risk reward trading", "calculate risk reward", "trading risk calculator"],
+      "keywords": [
+        "risk reward ratio calculator",
+        "rr ratio calculator",
+        "risk reward trading",
+        "calculate risk reward",
+        "trading risk calculator"
+      ],
       "defaultVariant": "rr",
       "headline": "Calculate the risk/reward ratio for any trade before you enter. Professional traders only take trades with R:R ≥ 1:2 — find out if your setup qualifies."
     },
@@ -35,7 +78,13 @@
       "variantSlug": "futures-liquidation-price-calculator",
       "metaTitle": "Futures Liquidation Price Calculator – Crypto Leverage Liquidation",
       "metaDescription": "Calculate your liquidation price for leveraged futures trading. Enter entry price and leverage to find when your position will be liquidated. Free liquidation calculator.",
-      "keywords": ["liquidation price calculator", "crypto liquidation calculator", "futures liquidation price", "leverage liquidation calculator", "binance liquidation price"],
+      "keywords": [
+        "liquidation price calculator",
+        "crypto liquidation calculator",
+        "futures liquidation price",
+        "leverage liquidation calculator",
+        "binance liquidation price"
+      ],
       "defaultVariant": "liquidation",
       "headline": "Calculate the exact price at which your leveraged futures position will be liquidated. Know your liquidation price before entering any leveraged trade."
     }

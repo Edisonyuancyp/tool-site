@@ -5,20 +5,57 @@
   "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
   "metaTitle": "Base64 Encoder Decoder Online – URL Encode Decode Tool",
   "metaDescription": "Free Base64 encoder and decoder. Encode text to Base64 or decode Base64 strings. Also URL encode/decode. UTF-8 safe, browser-only, instant results.",
-  "keywords": ["base64 encoder decoder", "base64 decode online", "url encode decode", "base64 converter", "percent encoding tool"],
+  "keywords": [
+    "base64 encoder decoder",
+    "base64 decode online",
+    "url encode decode",
+    "base64 converter",
+    "percent encoding tool",
+    "base64 encoder / decoder",
+    "base64 encoder decoder online",
+    "base64 encoder decoder download",
+    "base64 encoder decoder apk",
+    "base64 encoder decoder extension",
+    "base64 encoder decoder tool",
+    "base64 image encoder decoder",
+    "online base64 image encoder decoder",
+    "free online base64 encoder base64 decoder tool freeencoder com",
+    "base64 string encoder decoder it tools",
+    "base64 decode online image",
+    "base64 decode online tools",
+    "base64 decode online to pdf",
+    "base64 decode online to file",
+    "base64 decode online with key"
+  ],
   "category": "Developer",
   "icon": "🔐",
   "faqs": [
-    { "question": "What is Base64 used for?", "answer": "Base64 is used to encode binary data as ASCII text for safe transmission — in data URIs, HTTP Basic Auth headers, JWT tokens, email attachments, and JSON payloads." },
-    { "question": "What is the difference between Base64 and URL encoding?", "answer": "Base64 encodes any bytes into a 64-character alphabet. URL encoding replaces unsafe URL characters with %XX hex sequences. Use URL encoding for query parameters; Base64 for binary data in text formats." }
+    {
+      "question": "What is Base64 used for?",
+      "answer": "Base64 is used to encode binary data as ASCII text for safe transmission — in data URIs, HTTP Basic Auth headers, JWT tokens, email attachments, and JSON payloads."
+    },
+    {
+      "question": "What is the difference between Base64 and URL encoding?",
+      "answer": "Base64 encodes any bytes into a 64-character alphabet. URL encoding replaces unsafe URL characters with %XX hex sequences. Use URL encoding for query parameters; Base64 for binary data in text formats."
+    }
   ],
-  "relatedTools": ["json-csv-formatter", "diff-checker", "unix-timestamp-converter"],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
   "variants": [
     {
       "variantSlug": "base64-encode-online",
       "metaTitle": "Base64 Encode Online – Convert Text to Base64 String",
       "metaDescription": "Encode text or data to Base64 format instantly. Free online Base64 encoder — UTF-8 safe, browser-only, no signup needed.",
-      "keywords": ["base64 encode online", "text to base64", "encode base64", "base64 encoder online", "convert to base64"],
+      "keywords": [
+        "base64 encode online",
+        "text to base64",
+        "encode base64",
+        "base64 encoder online",
+        "convert to base64"
+      ],
       "defaultVariant": "encode",
       "headline": "Encode any text or data to Base64 format. Useful for embedding data in HTML, CSS, JSON, and API payloads."
     },
@@ -26,7 +63,13 @@
       "variantSlug": "base64-decode-online",
       "metaTitle": "Base64 Decode Online – Decode Base64 to Text",
       "metaDescription": "Decode Base64 strings back to plain text instantly. Free online Base64 decoder — paste your encoded string and get the original text.",
-      "keywords": ["base64 decode online", "decode base64 string", "base64 to text", "base64 decoder online", "convert from base64"],
+      "keywords": [
+        "base64 decode online",
+        "decode base64 string",
+        "base64 to text",
+        "base64 decoder online",
+        "convert from base64"
+      ],
       "defaultVariant": "decode",
       "headline": "Paste a Base64-encoded string to decode it back to plain text. Handles standard Base64 and URL-safe Base64 variants."
     },
@@ -34,7 +77,13 @@
       "variantSlug": "url-encode-decode",
       "metaTitle": "URL Encode Decode Online – Percent Encoding Tool",
       "metaDescription": "URL encode or decode strings instantly. Convert special characters to percent-encoded format for safe use in URLs. Free online URL encoder/decoder.",
-      "keywords": ["url encode decode", "percent encoding tool", "url encoder online", "url decoder online", "encode url parameters"],
+      "keywords": [
+        "url encode decode",
+        "percent encoding tool",
+        "url encoder online",
+        "url decoder online",
+        "encode url parameters"
+      ],
       "defaultVariant": "url",
       "headline": "Encode or decode URL strings (percent-encoding). Converts special characters like spaces, &, =, and # to their %XX equivalents for safe use in URLs and query parameters."
     }

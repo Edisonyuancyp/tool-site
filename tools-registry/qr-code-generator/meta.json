@@ -5,21 +5,61 @@
   "description": "Generate a free QR code for any URL, text, phone number, or message. Download as PNG and use anywhere — no account needed.",
   "metaTitle": "QR Code Generator – Free Online QR Code Maker",
   "metaDescription": "Generate free QR codes for URLs, text, and more. Download as PNG instantly. No signup, no watermark. The fastest free online QR code generator.",
-  "keywords": ["qr code generator", "free qr code maker", "generate qr code online", "url to qr code", "qr code for website"],
+  "keywords": [
+    "qr code generator",
+    "free qr code maker",
+    "generate qr code online",
+    "url to qr code",
+    "qr code for website",
+    "qr code generator free",
+    "qr code generator canva",
+    "qr code generator adobe",
+    "qr code generator no ads",
+    "qr code generator google",
+    "qr code generator online",
+    "qr code generator online free",
+    "qr code generator online free with logo",
+    "qr code generator online for location",
+    "qr code generator online free no sign up",
+    "qr code generator online with logo",
+    "qr code generator online payment",
+    "qr code generator online pdf",
+    "free qr code generator",
+    "free qr code generator no sign up"
+  ],
   "category": "Generators",
   "icon": "📱",
   "faqs": [
-    { "question": "What can I encode in a QR code?", "answer": "You can encode URLs, plain text, phone numbers, email addresses, SMS messages, Wi-Fi credentials, and more." },
-    { "question": "Are the QR codes free to use?", "answer": "Yes. All QR codes generated here are completely free with no watermark, no expiry, and no account required." },
-    { "question": "Can I download the QR code?", "answer": "Yes. Click the Download button to save the QR code as a PNG image file you can use anywhere." }
+    {
+      "question": "What can I encode in a QR code?",
+      "answer": "You can encode URLs, plain text, phone numbers, email addresses, SMS messages, Wi-Fi credentials, and more."
+    },
+    {
+      "question": "Are the QR codes free to use?",
+      "answer": "Yes. All QR codes generated here are completely free with no watermark, no expiry, and no account required."
+    },
+    {
+      "question": "Can I download the QR code?",
+      "answer": "Yes. Click the Download button to save the QR code as a PNG image file you can use anywhere."
+    }
   ],
-  "relatedTools": ["password-generator", "text-case-converter", "base64-tool"],
+  "relatedTools": [
+    "password-generator",
+    "text-case-converter",
+    "base64-tool"
+  ],
   "variants": [
     {
       "variantSlug": "wifi-qr-code-generator",
       "metaTitle": "WiFi QR Code Generator – Share WiFi Password as QR Code",
       "metaDescription": "Generate a WiFi QR code instantly. Let guests scan to connect without typing passwords. Free WiFi QR code generator — works on Android and iOS.",
-      "keywords": ["wifi qr code generator", "share wifi password qr code", "wifi qr code", "generate wifi qr", "connect wifi qr code"],
+      "keywords": [
+        "wifi qr code generator",
+        "share wifi password qr code",
+        "wifi qr code",
+        "generate wifi qr",
+        "connect wifi qr code"
+      ],
       "defaultVariant": "wifi",
       "headline": "Generate a QR code for your WiFi network. Guests scan it with their phone camera to connect automatically — no password typing needed."
     },
@@ -27,7 +67,13 @@
       "variantSlug": "url-to-qr-code",
       "metaTitle": "URL to QR Code Generator – Free Link QR Code Maker",
       "metaDescription": "Convert any URL or website link to a QR code instantly. Free URL to QR code converter. Download as PNG. No signup required.",
-      "keywords": ["url to qr code", "link to qr code", "website qr code generator", "convert url to qr", "qr code for link"],
+      "keywords": [
+        "url to qr code",
+        "link to qr code",
+        "website qr code generator",
+        "convert url to qr",
+        "qr code for link"
+      ],
       "defaultVariant": "url",
       "headline": "Convert any URL into a scannable QR code. Perfect for business cards, flyers, posters, and packaging. Download as PNG instantly."
     },
@@ -35,7 +81,13 @@
       "variantSlug": "vcard-qr-code-generator",
       "metaTitle": "vCard QR Code Generator – Digital Business Card QR Code",
       "metaDescription": "Create a vCard QR code with your contact details. Scan to save as a contact. Free digital business card QR code generator.",
-      "keywords": ["vcard qr code generator", "contact qr code", "digital business card qr", "qr code contact details", "vcard generator"],
+      "keywords": [
+        "vcard qr code generator",
+        "contact qr code",
+        "digital business card qr",
+        "qr code contact details",
+        "vcard generator"
+      ],
       "defaultVariant": "vcard",
       "headline": "Create a QR code that saves your contact information directly to someone's phone. Scan → Add to Contacts. No app required."
     }

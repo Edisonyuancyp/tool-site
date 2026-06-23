@@ -5,7 +5,28 @@
   "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
   "metaTitle": "Running Pace Calculator – Free Race Pace Calculator Online",
   "metaDescription": "Calculate running pace, speed, and race finish time. Supports km and miles. Free running pace calculator for 5K, 10K, half marathon, and marathon.",
-  "keywords": ["running pace calculator", "race pace calculator", "pace per km calculator", "running speed calculator"],
+  "keywords": [
+    "running pace calculator",
+    "race pace calculator",
+    "pace per km calculator",
+    "running speed calculator",
+    "running pace calculator km",
+    "running pace calculator for training",
+    "running pace calculator app",
+    "running pace calculator treadmill",
+    "running pace calculator active",
+    "running pace calculator strava",
+    "running pace calculator percentage",
+    "running pace calculator online",
+    "free running pace calculator",
+    "free running pace calculator km",
+    "free training pace calculator running",
+    "how running pace calculator",
+    "race pace calculator running",
+    "race pace calculator marathon",
+    "race pace calculator half marathon",
+    "race pace calculator predictor"
+  ],
   "category": "Health",
   "icon": "🏃",
   "faqs": [
@@ -22,13 +43,22 @@
       "answer": "Multiply your min/km pace by 1.60934 to get min/mile. For example, 6:00 min/km = 9:39 min/mile."
     }
   ],
-  "relatedTools": ["bmi-calculator", "water-intake-calculator", "bmr-tdee-calculator"],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "5k-pace-calculator",
       "metaTitle": "5K Pace Calculator – Finish Time and Split Calculator",
       "metaDescription": "Calculate your 5K race pace and predicted finish time. Set a target time and find the pace you need. Free 5K pace calculator.",
-      "keywords": ["5k pace calculator", "5k finish time calculator", "5km pace calculator", "run 5k time calculator"],
+      "keywords": [
+        "5k pace calculator",
+        "5k finish time calculator",
+        "5km pace calculator",
+        "run 5k time calculator"
+      ],
       "defaultVariant": "5k",
       "headline": "Plan your 5K race. Enter your target finish time to find the exact pace-per-km you need to hold, or enter your pace to predict your finish time."
     },
@@ -36,7 +66,12 @@
       "variantSlug": "marathon-pace-calculator",
       "metaTitle": "Marathon Pace Calculator – 26.2 Mile Race Pace & Split Times",
       "metaDescription": "Calculate marathon pace and projected finish time. Get per-km and per-mile splits. Free marathon pace calculator for race day planning.",
-      "keywords": ["marathon pace calculator", "marathon finish time calculator", "26.2 mile pace", "marathon split calculator"],
+      "keywords": [
+        "marathon pace calculator",
+        "marathon finish time calculator",
+        "26.2 mile pace",
+        "marathon split calculator"
+      ],
       "defaultVariant": "marathon",
       "headline": "Plan your marathon race. Calculate the pace per km or mile you need to hit your target time, with per-5km split times for race day."
     },
@@ -44,7 +79,12 @@
       "variantSlug": "half-marathon-pace-calculator",
       "metaTitle": "Half Marathon Pace Calculator – 13.1 Mile Race Pace",
       "metaDescription": "Calculate half marathon pace and finish time. Get splits for every km and mile. Free half marathon pace calculator.",
-      "keywords": ["half marathon pace calculator", "13.1 mile pace calculator", "half marathon finish time", "half marathon split calculator"],
+      "keywords": [
+        "half marathon pace calculator",
+        "13.1 mile pace calculator",
+        "half marathon finish time",
+        "half marathon split calculator"
+      ],
       "defaultVariant": "half-marathon",
       "headline": "Plan your half marathon. Enter your goal finish time to get the exact pace you need and per-km splits for the 21.1km course."
     },
@@ -52,7 +92,12 @@
       "variantSlug": "10k-pace-calculator",
       "metaTitle": "10K Pace Calculator – Race Pace and Finish Time",
       "metaDescription": "Calculate your 10K race pace and finish time. Set your goal and find the per-km pace needed. Free 10K pace calculator.",
-      "keywords": ["10k pace calculator", "10km pace calculator", "10k finish time calculator", "10k running pace"],
+      "keywords": [
+        "10k pace calculator",
+        "10km pace calculator",
+        "10k finish time calculator",
+        "10k running pace"
+      ],
       "defaultVariant": "10k",
       "headline": "Plan your 10K race. Find the pace you need to hit your target time or predict your finish time from your training pace."
     }

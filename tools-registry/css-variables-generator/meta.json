@@ -15,7 +15,12 @@
     "css color variables online",
     "tailwind color config",
     "css variables online free",
-    "generate css variables from colors"
+    "generate css variables from colors",
+    "css color variables generator",
+    "tailwind css config generator",
+    "tailwind config theme generator",
+    "tailwind config colors generator",
+    "tailwind.config.js generator"
   ],
   "category": "Developer",
   "urlPath": "/tools/dev/css-variables-generator",
@@ -29,7 +34,13 @@
       "How to create design tokens without a design system",
       "Generate :root CSS variables from a color palette instantly"
     ],
-    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
   },
   "faqs": [
     {
@@ -49,6 +60,10 @@
       "answer": "Design tokens are named values that store design decisions like colors, spacing, or typography. CSS variables are a common way to implement design tokens in web projects."
     }
   ],
-  "relatedTools": ["color-palette-lab", "typography-compare-lab", "base64-tool"],
+  "relatedTools": [
+    "color-palette-lab",
+    "typography-compare-lab",
+    "base64-tool"
+  ],
   "variants": []
 }

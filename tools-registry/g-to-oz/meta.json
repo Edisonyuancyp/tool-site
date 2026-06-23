@@ -5,7 +5,16 @@
   "description": "Convert grams to ounces and ounces to grams in real-time. Essential for cooking, baking, nutrition tracking, and postal weight calculations.",
   "metaTitle": "Grams to Ounces Converter — Free Online Tool | GetFastCalc",
   "metaDescription": "Convert grams to ounces instantly. Type any value for both directions at once. Free, fast, no ads.",
-  "keywords": ["grams to ounces", "g to oz", "ounces to grams", "oz to g", "weight converter cooking"],
+  "keywords": [
+    "grams to ounces",
+    "g to oz",
+    "ounces to grams",
+    "oz to g",
+    "weight converter cooking",
+    "= 0.0352739619 ounces",
+    "grams to ounces converter free",
+    "= 28.3495231 grams"
+  ],
   "category": "Converter",
   "urlPath": "/tools/converter/g-to-oz",
   "icon": "🍳",
@@ -27,13 +36,21 @@
       "answer": "Yes — converting recipe amounts between grams and ounces is one of the most common uses. Enter your ingredient weight and get the converted value instantly."
     }
   ],
-  "relatedTools": ["kg-to-lbs", "cm-to-inch", "celsius-to-fahrenheit"],
+  "relatedTools": [
+    "kg-to-lbs",
+    "cm-to-inch",
+    "celsius-to-fahrenheit"
+  ],
   "variants": [
     {
       "variantSlug": "oz-to-grams",
       "metaTitle": "Ounces to Grams Converter — Free Online Tool | GetFastCalc",
       "metaDescription": "Convert ounces to grams instantly. Great for cooking and baking. Free, fast, no ads.",
-      "keywords": ["oz to grams", "ounces to grams", "oz to g converter"],
+      "keywords": [
+        "oz to grams",
+        "ounces to grams",
+        "oz to g converter"
+      ],
       "defaultVariant": "oz-to-g",
       "headline": "Ounces → Grams — type and convert instantly"
     }

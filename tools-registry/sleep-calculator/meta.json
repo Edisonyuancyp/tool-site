@@ -5,7 +5,28 @@
   "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
   "metaTitle": "Sleep Calculator – Best Bedtime & Wake-Up Time Calculator",
   "metaDescription": "Find the best time to wake up or go to sleep based on 90-minute sleep cycles. Free sleep calculator — wake up refreshed every morning.",
-  "keywords": ["sleep calculator", "wake up time calculator", "bedtime calculator", "sleep cycle calculator", "best time to wake up"],
+  "keywords": [
+    "sleep calculator",
+    "wake up time calculator",
+    "bedtime calculator",
+    "sleep cycle calculator",
+    "best time to wake up",
+    "sleep calculator cycle",
+    "sleep calculator by age",
+    "sleep calculator time",
+    "sleep calculator hours",
+    "sleep calculator app",
+    "sleep calculator when to wake up",
+    "sleep calculator online",
+    "sleep cycle calculator online",
+    "sleep time calculator online",
+    "sleep calculator free online",
+    "free sleep calculator",
+    "free sleep calculator by age",
+    "free sleep calculator app",
+    "free sleep cycle calculator",
+    "free sleep debt calculator"
+  ],
   "category": "Health",
   "icon": "😴",
   "faqs": [
@@ -22,13 +43,22 @@
       "answer": "To wake at 6:00am feeling refreshed, go to sleep at 8:46pm, 10:16pm, 11:46pm, or 1:16am — each being a full number of 90-minute cycles before your wake time."
     }
   ],
-  "relatedTools": ["bmi-calculator", "water-intake-calculator", "age-calculator"],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "sleep-calculator-for-teens",
       "metaTitle": "Sleep Calculator for Teenagers – Teen Sleep Cycle Calculator",
       "metaDescription": "Calculate ideal sleep times for teenagers. Teens need 8–10 hours of sleep. Find the best bedtime and wake-up time for teen sleep cycles.",
-      "keywords": ["sleep calculator for teens", "teenager sleep calculator", "teen bedtime calculator", "how much sleep do teens need"],
+      "keywords": [
+        "sleep calculator for teens",
+        "teenager sleep calculator",
+        "teen bedtime calculator",
+        "how much sleep do teens need"
+      ],
       "defaultVariant": "teen",
       "headline": "Teenagers need 8–10 hours of sleep per night (5–6+ cycles). This calculator finds the ideal bedtime and wake-up times for teens based on their school schedule."
     },
@@ -36,7 +66,13 @@
       "variantSlug": "sleep-calculator-for-babies",
       "metaTitle": "Baby Sleep Calculator – Infant and Toddler Sleep Schedule",
       "metaDescription": "Calculate sleep needs for babies and toddlers. Find nap times and total sleep hours by age. Free baby sleep schedule calculator.",
-      "keywords": ["baby sleep calculator", "infant sleep schedule", "toddler sleep calculator", "how much sleep does a baby need", "baby nap calculator"],
+      "keywords": [
+        "baby sleep calculator",
+        "infant sleep schedule",
+        "toddler sleep calculator",
+        "how much sleep does a baby need",
+        "baby nap calculator"
+      ],
       "defaultVariant": "baby",
       "headline": "Babies and toddlers have very different sleep needs than adults. This calculator shows recommended total sleep hours and nap windows by age (0–36 months)."
     },
@@ -44,7 +80,13 @@
       "variantSlug": "nap-calculator",
       "metaTitle": "Nap Calculator – Best Nap Length and Wake-Up Time",
       "metaDescription": "Find the ideal nap length. 20-minute power nap vs 90-minute full cycle — calculate the best nap time to avoid sleep inertia.",
-      "keywords": ["nap calculator", "power nap calculator", "best nap length", "how long to nap", "nap time calculator"],
+      "keywords": [
+        "nap calculator",
+        "power nap calculator",
+        "best nap length",
+        "how long to nap",
+        "nap time calculator"
+      ],
       "defaultVariant": "nap",
       "headline": "Not all naps are equal. A 20-min power nap boosts alertness without grogginess. A 90-min full cycle includes REM sleep for memory consolidation. Find your ideal nap window."
     }

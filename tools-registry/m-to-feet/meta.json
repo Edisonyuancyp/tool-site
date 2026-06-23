@@ -5,7 +5,17 @@
   "description": "Convert meters to feet (and feet to meters) with instant results. Perfect for construction, real estate listings, hiking elevation, and travel.",
   "metaTitle": "Meters to Feet Converter — Free Online Tool | GetFastCalc",
   "metaDescription": "Convert meters to feet instantly. Supports feet+inches output. Free, fast, no ads.",
-  "keywords": ["meters to feet", "m to ft", "feet to meters", "meter to foot converter", "m to feet converter"],
+  "keywords": [
+    "meters to feet",
+    "m to ft",
+    "feet to meters",
+    "meter to foot converter",
+    "m to feet converter",
+    "= 3.2808399 feet (3 feet 3 3/8 inches)",
+    "meters to feet online converter",
+    "m to ft conversion",
+    "= 0.3048 meters"
+  ],
   "category": "Converter",
   "urlPath": "/tools/converter/m-to-feet",
   "icon": "📐",
@@ -23,13 +33,22 @@
       "answer": "1.8 meters = 5.906 feet = 5 feet 10.87 inches."
     }
   ],
-  "relatedTools": ["cm-to-inch", "kg-to-lbs", "celsius-to-fahrenheit"],
+  "relatedTools": [
+    "cm-to-inch",
+    "kg-to-lbs",
+    "celsius-to-fahrenheit"
+  ],
   "variants": [
     {
       "variantSlug": "feet-to-meters",
       "metaTitle": "Feet to Meters Converter — Free Online Tool | GetFastCalc",
       "metaDescription": "Convert feet to meters instantly. Also supports feet+inches input. Free, fast, no ads.",
-      "keywords": ["feet to meters", "ft to m", "feet to metre", "foot to meter converter"],
+      "keywords": [
+        "feet to meters",
+        "ft to m",
+        "feet to metre",
+        "foot to meter converter"
+      ],
       "defaultVariant": "ft-to-m",
       "headline": "Feet → Meters — type and convert instantly"
     }

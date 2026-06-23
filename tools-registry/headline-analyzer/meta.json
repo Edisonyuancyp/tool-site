@@ -5,7 +5,28 @@
   "description": "Analyze any headline or article title for SEO effectiveness. Scores keyword power, emotional words, headline length, word balance, and provides specific improvement suggestions.",
   "metaTitle": "SEO Headline Analyzer — Score Your Title for Clicks & Rankings | GetFastCalc",
   "metaDescription": "Analyze your headline for SEO impact, emotional power, and readability. Get an instant score with specific suggestions to improve click-through rates.",
-  "keywords": ["headline analyzer", "seo title analyzer", "headline score", "title analyzer", "headline checker", "seo headline tool", "headline optimizer"],
+  "keywords": [
+    "headline analyzer",
+    "seo title analyzer",
+    "headline score",
+    "title analyzer",
+    "headline checker",
+    "seo headline tool",
+    "headline optimizer",
+    "seo headline analyzer",
+    "seo headline analyzer free",
+    "seo headline analyzer wordpress",
+    "ai seo headline analyzer",
+    "seo headline score analyzer",
+    "all in one seo headline analyzer",
+    "free seo headline analyzer",
+    "headline analyzer free",
+    "headline analyzer tool",
+    "headline analyzer.io",
+    "headline analyzer by coschedule",
+    "headline analyzer ai",
+    "headline analyzer tool free"
+  ],
   "category": "Text",
   "urlPath": "/tools/dev/headline-analyzer",
   "icon": "📰",
@@ -31,7 +52,11 @@
       "answer": "Sentiment analysis measures whether a headline is positive, negative, or neutral. Both strong positive and strong negative headlines outperform neutral ones in click-through rate. Pure neutral headlines feel flat and don't trigger emotional engagement."
     }
   ],
-  "relatedTools": ["character-counter", "word-counter", "markdown-previewer"],
+  "relatedTools": [
+    "character-counter",
+    "word-counter",
+    "markdown-previewer"
+  ],
   "variants": [],
   "article": {
     "title": "How to Write High-CTR Headlines: A Data-Driven Guide",

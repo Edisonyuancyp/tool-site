@@ -5,7 +5,28 @@
   "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
   "metaTitle": "Word Counter – Free Online Word Count Tool",
   "metaDescription": "Count words and characters instantly. Free online word counter for essays, articles, and social media. Get word count, character count, and reading time.",
-  "keywords": ["word counter", "character counter", "word count tool", "online word counter", "count words online"],
+  "keywords": [
+    "word counter",
+    "character counter",
+    "word count tool",
+    "online word counter",
+    "count words online",
+    "word count",
+    "word counting",
+    "word counts",
+    "word count thai",
+    "word counter thai",
+    "word counter online",
+    "word counter online free",
+    "word counter online pdf",
+    "word counter online hindi",
+    "word counter online photo",
+    "word count online",
+    "word counter online tool",
+    "word counter online arabic",
+    "free word counter",
+    "free word counter online"
+  ],
   "category": "Utilities",
   "icon": "📝",
   "faqs": [
@@ -22,13 +43,22 @@
       "answer": "Reading time is based on an average reading speed of 200–250 words per minute for adults."
     }
   ],
-  "relatedTools": ["text-case-converter", "diff-checker"],
+  "relatedTools": [
+    "text-case-converter",
+    "diff-checker"
+  ],
   "variants": [
     {
       "variantSlug": "twitter-character-counter",
       "metaTitle": "Twitter Character Counter – X Post Length Checker",
       "metaDescription": "Count characters for Twitter/X posts. See remaining characters, check if your tweet fits in 280 characters. Free instant Twitter counter.",
-      "keywords": ["twitter character counter", "tweet character counter", "x post character limit", "280 character counter", "twitter word limit"],
+      "keywords": [
+        "twitter character counter",
+        "tweet character counter",
+        "x post character limit",
+        "280 character counter",
+        "twitter word limit"
+      ],
       "defaultVariant": "twitter",
       "headline": "Check your tweet length before posting. Twitter (X) limits posts to 280 characters — this counter shows exactly how many you have left in real time."
     },
@@ -36,7 +66,13 @@
       "variantSlug": "essay-word-counter",
       "metaTitle": "Essay Word Counter – Count Words for Essays and Papers",
       "metaDescription": "Count words in your essay or academic paper. Check if you meet your word count requirement. Free essay word counter with paragraph and sentence breakdown.",
-      "keywords": ["essay word counter", "word count for essay", "academic word counter", "paper word count checker", "count words essay"],
+      "keywords": [
+        "essay word counter",
+        "word count for essay",
+        "academic word counter",
+        "paper word count checker",
+        "count words essay"
+      ],
       "defaultVariant": "essay",
       "headline": "Count words in your essay or paper. Shows total words, paragraphs, sentences, and estimated reading time — everything you need to hit your word count target."
     },
@@ -44,7 +80,13 @@
       "variantSlug": "seo-content-analyzer",
       "metaTitle": "SEO Content Analyzer – Word Count and Keyword Density Checker",
       "metaDescription": "Analyze your content for SEO. Check word count, keyword density, and reading level. Free SEO content word counter tool.",
-      "keywords": ["seo word count checker", "content word count seo", "keyword density checker", "seo content analyzer", "seo writing word count"],
+      "keywords": [
+        "seo word count checker",
+        "content word count seo",
+        "keyword density checker",
+        "seo content analyzer",
+        "seo writing word count"
+      ],
       "defaultVariant": "seo",
       "headline": "Analyze your content for SEO: optimal blog posts are 1,500–2,500 words. This tool shows your word count, keyword density, and estimated reading time at a glance."
     }

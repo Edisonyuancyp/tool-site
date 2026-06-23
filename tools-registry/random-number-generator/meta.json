@@ -5,21 +5,61 @@
   "description": "Generate cryptographically random numbers in any range. Single number, list of numbers, dice roller, coin flip, and random item picker — all in one free tool.",
   "metaTitle": "Random Number Generator – Free Online Random Number Picker",
   "metaDescription": "Generate random numbers online instantly. Single number, list of random numbers, dice roller, coin flip. Free random number generator — cryptographically secure.",
-  "keywords": ["random number generator", "random number picker", "random number between 1 and 100", "dice roller online", "random number generator online"],
+  "keywords": [
+    "random number generator",
+    "random number picker",
+    "random number between 1 and 100",
+    "dice roller online",
+    "random number generator online",
+    "random number generator wheel",
+    "random number generator (rng)",
+    "random number generator 1 100",
+    "random number generator 1 10",
+    "random number generator 1 3",
+    "random number generator 1-4",
+    "random number generator 1 5",
+    "random number generator online free",
+    "random number generator online stopwatch",
+    "random number generator online 1 100",
+    "random number generator online wheel",
+    "random number generator online no repeats",
+    "random number generator online casino",
+    "random number generator online lottery",
+    "free random number generator"
+  ],
   "category": "Generators",
   "icon": "🎲",
   "faqs": [
-    { "question": "Is the random number truly random?", "answer": "Yes. The tool uses the Web Cryptography API (crypto.getRandomValues) which provides cryptographically secure random numbers, unlike Math.random()." },
-    { "question": "Can I generate multiple random numbers at once?", "answer": "Yes. Use the 'List' mode to generate a batch of unique or repeatable random numbers in any range." },
-    { "question": "What is the largest number I can generate?", "answer": "The tool supports numbers up to Number.MAX_SAFE_INTEGER (9,007,199,254,740,991) using BigInt for ranges beyond standard integers." }
+    {
+      "question": "Is the random number truly random?",
+      "answer": "Yes. The tool uses the Web Cryptography API (crypto.getRandomValues) which provides cryptographically secure random numbers, unlike Math.random()."
+    },
+    {
+      "question": "Can I generate multiple random numbers at once?",
+      "answer": "Yes. Use the 'List' mode to generate a batch of unique or repeatable random numbers in any range."
+    },
+    {
+      "question": "What is the largest number I can generate?",
+      "answer": "The tool supports numbers up to Number.MAX_SAFE_INTEGER (9,007,199,254,740,991) using BigInt for ranges beyond standard integers."
+    }
   ],
-  "relatedTools": ["password-generator", "emoji-picker", "base-converter"],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
   "variants": [
     {
       "variantSlug": "random-number-1-10",
       "metaTitle": "Random Number Between 1 and 10 – Random Number Generator 1-10",
       "metaDescription": "Generate a random number between 1 and 10 instantly. Free random number picker from 1 to 10. Click to generate a new random number.",
-      "keywords": ["random number between 1 and 10", "random number 1-10", "pick random number 1 to 10", "random number generator 1 to 10", "number between 1 and 10"],
+      "keywords": [
+        "random number between 1 and 10",
+        "random number 1-10",
+        "pick random number 1 to 10",
+        "random number generator 1 to 10",
+        "number between 1 and 10"
+      ],
       "defaultVariant": "1-10",
       "headline": "Generate a random number between 1 and 10. Click the button to pick a new random number instantly."
     },
@@ -27,7 +67,13 @@
       "variantSlug": "random-number-1-100",
       "metaTitle": "Random Number Between 1 and 100 – Random Number Generator 1-100",
       "metaDescription": "Generate a random number between 1 and 100 instantly. Free random number picker 1-100. Perfect for games, raffles, and decisions.",
-      "keywords": ["random number between 1 and 100", "random number 1-100", "pick random number 1 to 100", "random number generator 1 to 100", "number between 1 and 100"],
+      "keywords": [
+        "random number between 1 and 100",
+        "random number 1-100",
+        "pick random number 1 to 100",
+        "random number generator 1 to 100",
+        "number between 1 and 100"
+      ],
       "defaultVariant": "1-100",
       "headline": "Generate a random number between 1 and 100. Great for games, raffles, coin flip alternatives, and random selection."
     },
@@ -35,7 +81,14 @@
       "variantSlug": "dice-roller-online",
       "metaTitle": "Dice Roller Online – Roll Virtual Dice (D4 D6 D8 D10 D12 D20)",
       "metaDescription": "Roll virtual dice online. Supports D4, D6, D8, D10, D12, D20 and custom dice. Free online dice roller — perfect for tabletop RPG, board games, and Dungeons & Dragons.",
-      "keywords": ["dice roller online", "virtual dice roller", "roll dice online", "d20 dice roller", "dungeons and dragons dice roller", "d6 d20 dice"],
+      "keywords": [
+        "dice roller online",
+        "virtual dice roller",
+        "roll dice online",
+        "d20 dice roller",
+        "dungeons and dragons dice roller",
+        "d6 d20 dice"
+      ],
       "defaultVariant": "dice",
       "headline": "Roll any type of dice online — D4, D6, D8, D10, D12, D20, or custom. Perfect for Dungeons & Dragons, tabletop RPGs, and board games."
     }

@@ -10,12 +10,22 @@
     "compare google fonts",
     "font vs font",
     "typography tool online",
-    "Inter vs Merriweather",
+    "inter vs merriweather",
     "best font for website",
     "google fonts preview",
     "typeface comparison",
     "font picker online free",
-    "web typography tool"
+    "web typography tool",
+    "font comparison tool online",
+    "font comparison tool free",
+    "google font comparison tool",
+    "font size comparison tool",
+    "compare google fonts side by side",
+    "compare two google fonts",
+    "google fonts compare selected",
+    "font vs font family",
+    "font vs font style",
+    "font vs font size"
   ],
   "category": "Design",
   "urlPath": "/tools/design/typography-compare-lab",
@@ -29,7 +39,13 @@
       "Free font comparison tool for web designers and developers",
       "Generate font pairing previews in seconds"
     ],
-    "trustSignals": ["Free", "No signup", "No ads", "100% browser-based", "Instant results"]
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
   },
   "faqs": [
     {
@@ -53,6 +69,10 @@
       "answer": "Absolutely. Type your actual headline or body copy into the preview field, then compare different fonts to see which one looks best for your specific content and use case."
     }
   ],
-  "relatedTools": ["color-palette-lab", "qr-code-generator", "password-generator"],
+  "relatedTools": [
+    "color-palette-lab",
+    "qr-code-generator",
+    "password-generator"
+  ],
   "variants": []
 }

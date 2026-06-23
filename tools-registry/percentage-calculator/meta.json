@@ -5,7 +5,28 @@
   "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
   "metaTitle": "Percentage Calculator – Free Online Percent Calculator",
   "metaDescription": "Calculate any percentage instantly. Find what X% of Y is, percentage increase or decrease, what percent one number is of another. Free percentage calculator.",
-  "keywords": ["percentage calculator", "percent calculator", "percentage increase calculator", "percentage decrease calculator", "what percent is x of y"],
+  "keywords": [
+    "percentage calculator",
+    "percent calculator",
+    "percentage increase calculator",
+    "percentage decrease calculator",
+    "what percent is x of y",
+    "percentage calculator of marks",
+    "percentage calculator online",
+    "percentage calculator formula",
+    "percentage calculator increase",
+    "percentage calculator difference",
+    "percentage calculator money",
+    "percentage calculator in excel",
+    "percentage calculator online free",
+    "percentage calculator online games",
+    "percentage calculator online money",
+    "percentage calculator online conversion",
+    "percentage calculator online marks",
+    "percentage calculator online increase",
+    "ignou percentage calculator online",
+    "free percentage calculator"
+  ],
   "category": "Finance",
   "icon": "%",
   "faqs": [
@@ -22,13 +43,22 @@
       "answer": "Divide the first number by the second, then multiply by 100. For example, 30 is what % of 200? (30/200) × 100 = 15%."
     }
   ],
-  "relatedTools": ["compound-interest-calculator", "currency-converter", "tp-sl-calculator"],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "percentage-increase-calculator",
       "metaTitle": "Percentage Increase Calculator – Calculate % Increase Online",
       "metaDescription": "Calculate the percentage increase between two numbers instantly. Free percentage increase calculator — find the percent change from old to new value.",
-      "keywords": ["percentage increase calculator", "percent increase calculator", "calculate percentage increase", "percent change calculator increase"],
+      "keywords": [
+        "percentage increase calculator",
+        "percent increase calculator",
+        "calculate percentage increase",
+        "percent change calculator increase"
+      ],
       "defaultVariant": "increase",
       "headline": "Calculate the percentage increase from one value to another. Enter the original and new values to find the exact percent increase — useful for salary raises, price changes, and growth metrics."
     },
@@ -36,7 +66,12 @@
       "variantSlug": "percentage-decrease-calculator",
       "metaTitle": "Percentage Decrease Calculator – Calculate % Decrease Online",
       "metaDescription": "Calculate the percentage decrease between two numbers instantly. Find how much something dropped as a percentage. Free percent decrease calculator.",
-      "keywords": ["percentage decrease calculator", "percent decrease calculator", "calculate percentage decrease", "percent drop calculator"],
+      "keywords": [
+        "percentage decrease calculator",
+        "percent decrease calculator",
+        "calculate percentage decrease",
+        "percent drop calculator"
+      ],
       "defaultVariant": "decrease",
       "headline": "Calculate how much something has dropped as a percentage. Enter the original and new values to find the exact percent decrease — useful for discounts, price drops, and loss metrics."
     },
@@ -44,7 +79,12 @@
       "variantSlug": "percentage-difference-calculator",
       "metaTitle": "Percentage Difference Calculator – Compare Two Values",
       "metaDescription": "Calculate the percentage difference between two numbers. Find the symmetric percent change between any two values. Free percentage difference calculator.",
-      "keywords": ["percentage difference calculator", "percent difference calculator", "calculate percentage difference", "percentage between two numbers"],
+      "keywords": [
+        "percentage difference calculator",
+        "percent difference calculator",
+        "calculate percentage difference",
+        "percentage between two numbers"
+      ],
       "defaultVariant": "difference",
       "headline": "Find the percentage difference between two values — unlike increase/decrease, this is symmetric: it shows how different two numbers are relative to their average."
     }

@@ -5,7 +5,28 @@
   "description": "Paste any JSON Web Token to instantly decode the header, payload, and expiry. Includes a security checklist: checks for missing expiry (exp), weak algorithms, and common misconfiguration warnings.",
   "metaTitle": "JWT Decoder & Security Checker — Free Online Tool | GetFastCalc",
   "metaDescription": "Decode JWT tokens instantly. View header, payload, and expiry. Built-in security analyzer flags missing exp, weak algorithms, and other JWT security issues.",
-  "keywords": ["jwt decoder", "jwt debugger", "decode jwt token", "json web token decoder", "jwt security checker", "jwt payload viewer"],
+  "keywords": [
+    "jwt decoder",
+    "jwt debugger",
+    "decode jwt token",
+    "json web token decoder",
+    "jwt security checker",
+    "jwt payload viewer",
+    "jwt decoder online",
+    "jwt_decoder flutter",
+    "jwt encoder/decoder",
+    "jwt decoder java",
+    "jwt decoder microsoft",
+    "jwt decode react",
+    "jwt decoder io",
+    "jwt debugger github",
+    "jwt debugger io",
+    "jwt debugger old version",
+    "jwt debugger online",
+    "jwt debugger chrome extension",
+    "jwt debugger extension",
+    "jwt debugger offline"
+  ],
   "category": "Developer",
   "urlPath": "/tools/dev/jwt-decoder",
   "icon": "🔐",
@@ -31,7 +52,11 @@
       "answer": "HS256 (HMAC-SHA256) uses a single shared secret — both issuer and verifier need the same key. RS256 (RSA-SHA256) uses a public/private key pair — the issuer signs with the private key, and anyone can verify with the public key. RS256 is preferred for distributed systems where multiple services need to verify tokens."
     }
   ],
-  "relatedTools": ["base64-tool", "url-encoder", "password-generator"],
+  "relatedTools": [
+    "base64-tool",
+    "url-encoder",
+    "password-generator"
+  ],
   "variants": [],
   "article": {
     "title": "JWT Security: Best Practices Every Developer Should Know",

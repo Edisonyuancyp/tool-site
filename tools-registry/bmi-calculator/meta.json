@@ -5,7 +5,28 @@
   "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
   "metaTitle": "BMI Calculator – Free Body Mass Index Calculator Online",
   "metaDescription": "Calculate your BMI (Body Mass Index) instantly. Enter your height and weight to find out if you're underweight, normal, overweight, or obese. Free, fast, no signup.",
-  "keywords": ["bmi calculator", "body mass index calculator", "bmi formula", "calculate bmi online", "bmi chart"],
+  "keywords": [
+    "bmi calculator",
+    "body mass index calculator",
+    "bmi formula",
+    "calculate bmi online",
+    "bmi chart",
+    "bmi calculator women",
+    "bmi calculator male",
+    "bmi calculator online",
+    "bmi calculator online free",
+    "bmi calculator online male",
+    "bmi calculator online women",
+    "bmi calculator online kids",
+    "bmi calculator online cm kg",
+    "bmi calculator online sri lanka",
+    "online bmi calculator in kg and feet",
+    "free bmi calculator",
+    "free bmi calculator men",
+    "free bmi calculator online",
+    "free bmi calculator women",
+    "free bmi calculator for adults"
+  ],
   "category": "Health",
   "icon": "⚖️",
   "faqs": [
@@ -26,13 +47,23 @@
       "answer": "BMI = weight (kg) ÷ height (m)². For example, a person weighing 70kg at 1.75m has a BMI of 22.9."
     }
   ],
-  "relatedTools": ["age-calculator", "body-fat-calculator", "bmr-tdee-calculator", "ideal-weight-calculator"],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "bmi-calculator-for-women",
       "metaTitle": "BMI Calculator for Women – Female Body Mass Index Online",
       "metaDescription": "BMI calculator tailored for women. Find out if your BMI is healthy based on female body composition guidelines. Free, instant, no signup.",
-      "keywords": ["bmi calculator for women", "female bmi calculator", "women body mass index", "bmi for women chart"],
+      "keywords": [
+        "bmi calculator for women",
+        "female bmi calculator",
+        "women body mass index",
+        "bmi for women chart"
+      ],
       "defaultVariant": "female",
       "headline": "BMI calculator optimised for women. Research shows women typically have a higher body fat percentage than men at the same BMI — use this tool to understand your result in context."
     },
@@ -40,7 +71,12 @@
       "variantSlug": "bmi-calculator-imperial",
       "metaTitle": "BMI Calculator Pounds & Feet – Imperial Unit BMI Calculator",
       "metaDescription": "Calculate BMI using pounds and feet/inches. Instant imperial unit BMI calculator — no conversion needed. Free and fast.",
-      "keywords": ["bmi calculator pounds feet", "imperial bmi calculator", "bmi in lbs and inches", "bmi calculator USA"],
+      "keywords": [
+        "bmi calculator pounds feet",
+        "imperial bmi calculator",
+        "bmi in lbs and inches",
+        "bmi calculator USA"
+      ],
       "defaultVariant": "imperial",
       "headline": "Calculate your BMI using pounds and feet — no metric conversion needed. Enter your weight in lbs and height in ft/in for an instant result."
     },
@@ -48,7 +84,13 @@
       "variantSlug": "bmi-calculator-for-kids",
       "metaTitle": "BMI Calculator for Kids & Teens – Child BMI Calculator",
       "metaDescription": "Calculate BMI for children and teenagers aged 2–19. Uses CDC growth chart percentiles. Free child BMI calculator, no signup required.",
-      "keywords": ["bmi calculator for kids", "child bmi calculator", "bmi for children", "pediatric bmi", "bmi percentile kids"],
+      "keywords": [
+        "bmi calculator for kids",
+        "child bmi calculator",
+        "bmi for children",
+        "pediatric bmi",
+        "bmi percentile kids"
+      ],
       "defaultVariant": "kids",
       "headline": "Child and teen BMI calculator (ages 2–19). Unlike adult BMI, children's results are interpreted using age and gender-specific growth chart percentiles from the CDC."
     }
