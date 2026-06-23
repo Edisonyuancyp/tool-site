@@ -95,9 +95,9 @@ def main():
     else:
         print(f"  [DRY-RUN] Would run: {' '.join(ai_cmd)}")
 
-    # ── Step 3: Generate files ────────────────────────────────────────────────
+    # ── Step 3: Generate files + keyword enrichment ──────────────────────────
     print(f"\n{'─' * 60}")
-    print(f"STEP 3/3 — Generate registry files")
+    print(f"STEP 3/3 — Generate registry files + Google Suggest keywords")
     print(f"{'─' * 60}")
 
     gen_cmd = [python, str(SCRIPTS_DIR / "generate_tool.py")]

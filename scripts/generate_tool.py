@@ -24,6 +24,7 @@ import os
 import sys
 import argparse
 import textwrap
+import subprocess
 from pathlib import Path
 
 # ── Paths ────────────────────────────────────────────────────────────────────
@@ -296,7 +297,35 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False,
     view_content = VIEW_TEMPLATE.replace("__COMPONENT__", component).replace("__NAME__", name)
     write_file(tool_dir / "view.tsx", view_content, dry_run)
 
+    # ── Google Suggest keyword enrichment ────────────────────────────────────
+    if not dry_run:
+        _enrich_keywords_for_slug(slug)
+
     return "created"
+
+
+# ── Google Suggest keyword enrichment ───────────────────────────────────────
+
+def _enrich_keywords_for_slug(slug: str) -> None:
+    """Call enrich-keywords.mjs for a single slug (best-effort, never fatal)."""
+    enrich_script = Path(__file__).resolve().parent / "enrich-keywords.mjs"
+    if not enrich_script.exists():
+        print(f"  [WARN] enrich-keywords.mjs not found — keyword enrichment skipped")
+        return
+    try:
+        result = subprocess.run(
+            ["node", str(enrich_script), "--slug", slug],
+            cwd=Path(__file__).resolve().parent.parent,
+            capture_output=True,
+            text=True,
+            timeout=60,
+        )
+        # Print only the summary lines (lines starting with + or ✓)
+        for line in result.stdout.splitlines():
+            if line.strip().startswith(("✓", "+", "⚠")):
+                print(f"  🔑 {line.strip()}")
+    except Exception as exc:
+        print(f"  [WARN] keyword enrichment failed: {exc}")
 
 
 # ── Palette view.tsx template ─────────────────────────────────────────────────
