@@ -47,5 +47,27 @@
     "loan-calculator",
     "finance-charge-calculator"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "What a Car Lease Calculator Actually Reveals About Your Monthly Payment",
+      "body": "When you lease a car, you're not paying for the entire vehicle. You're paying for the portion of its value you'll use during the lease term, plus interest. Think of it like renting, but with a predetermined buyout price at the end. The calculator takes your inputs and shows you exactly how much that usage costs each month, broken into two parts: the depreciation fee and the finance charge.\n\nThe depreciation fee represents the car's value drop during your lease. If a $35,000 car will be worth $21,000 after three years, you're paying for that $14,000 difference spread across 36 months. The finance charge is the interest you pay on the money the leasing company has tied up in your vehicle. Together, these create your base monthly payment before taxes and fees. Understanding this split helps you see which factors you can negotiate and which are largely fixed by market conditions."
+    },
+    {
+      "heading": "The Lease Payment Formula with Real Numbers You Can Follow",
+      "body": "The standard lease calculation uses two separate formulas combined. First, calculate the depreciation fee: subtract the residual value from the capitalized cost (vehicle price minus down payment), then divide by the number of months. For a $40,000 car with a $5,000 down payment and a residual value of $24,000 over 36 months, that's ($35,000 - $24,000) ÷ 36 = $305.56 per month.\n\nNext comes the finance charge. Add the capitalized cost and residual value together, then multiply by the money factor (the interest rate divided by 2,400). With a 6% annual rate, your money factor is 0.0025. So ($35,000 + $24,000) × 0.0025 = $147.50 monthly. Add both parts: $305.56 + $147.50 = $453.06 before taxes. This breakdown shows why residual value matters so much—a car that holds its value well costs you less in depreciation each month, even if the sticker price is identical to a competitor."
+    },
+    {
+      "heading": "Planning Your SUV Lease: A Complete Worked Example",
+      "body": "Sarah wants to lease a mid-size SUV listed at $42,000. The dealer offers a 5.4% interest rate over 39 months with a residual value of 55%, meaning the car will be worth $23,100 at lease end. Sarah has $3,000 for a down payment. Her capitalized cost becomes $39,000. The depreciation portion is ($39,000 - $23,100) ÷ 39 = $407.69 monthly.\n\nHer money factor converts to 0.00225 (5.4 ÷ 2,400). The finance charge is ($39,000 + $23,100) × 0.00225 = $139.73. Her base payment totals $547.42 before tax. In her province, 13% HST applies to lease payments, adding $71.16 for a final monthly cost of $618.58. By running this calculation beforehand, Sarah discovered that waiting for a manufacturer's lease special with a 3.9% rate would drop her payment by nearly $40 monthly—enough to justify postponing her purchase by six weeks."
+    },
+    {
+      "heading": "Two Smart Uses for This Calculator Beyond Basic Payment Estimates",
+      "body": "Comparing depreciation across brands reveals surprising value differences. A $38,000 Japanese sedan might have a 58% residual after 36 months, while a $36,000 European competitor sits at 49% residual. Despite the lower sticker price, the European car actually costs more to lease because you're financing a larger depreciation gap. Running both through the calculator exposes this hidden cost within seconds.\n\nYou can also use backward calculation to set your budget ceiling. If you know you can afford $400 monthly maximum, input various vehicle prices and down payment combinations until you find combinations that work. Many people start shopping by sticker price, but lease affordability depends heavily on residual value and current interest rates. A $45,000 car with strong residuals and promotional financing can lease cheaper than a $38,000 car with poor residuals. The calculator lets you test these scenarios before wasting afternoons at dealerships looking at cars outside your actual budget."
+    },
+    {
+      "heading": "Three Costly Lease Calculation Mistakes and How to Sidestep Them",
+      "body": "Forgetting to convert the interest rate properly derails many calculations. Dealers quote money factors like 0.00175 while banks advertise APR like 4.2%. These are the same rate expressed differently—multiply the money factor by 2,400 to get APR, or divide APR by 2,400 for the money factor. Mixing these up makes your payment estimate wildly inaccurate. Always confirm which format you're working with.\n\nIgnoring the residual value source creates another problem. Manufacturer residuals are set by corporate policy and differ from actual market depreciation. A car with an artificially high residual gives you a great lease deal because the finance company absorbs more risk. Conversely, a conservatively set residual means higher payments for you. Check manufacturer lease programs first rather than assuming all cars of similar value lease similarly.\n\nFinally, many people calculate payments without including acquisition fees, which typically run $600 to $1,200. These can be paid upfront or rolled into the capitalized cost. Rolling them in increases your monthly payment slightly but preserves your cash. Either way, add them to your vehicle price before calculating to get an accurate picture of your true costs."
+    }
+  ]
 }

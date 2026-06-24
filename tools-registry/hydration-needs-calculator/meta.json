@@ -47,5 +47,27 @@
     "bmr-tdee-calculator",
     "ideal-weight-calculator"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "Why Your Body Needs a Specific Amount of Water Daily",
+      "body": "Your body loses water constantly through breathing, sweating, and digestion. The amount you need to replace depends on several factors that vary from person to person. A 180-pound construction worker spending eight hours outdoors in July has dramatically different needs than a 130-pound office worker in an air-conditioned building. This calculator accounts for those differences rather than giving you the generic \"eight glasses a day\" advice that ignores individual circumstances.\n\nThe tool takes your weight, age, and activity level to produce a personalized daily water target in ounces or liters. Weight matters because larger bodies have more tissue requiring hydration. Age factors in because kidney function and thirst sensation change over time. Activity level adjusts for water lost through sweat during exercise or physical labor. The result is a baseline number you can use as a starting point, though factors like climate and caffeine intake may require further adjustment."
+    },
+    {
+      "heading": "The Formula Behind Your Daily Water Target",
+      "body": "The basic calculation starts with your body weight. A common baseline formula uses 0.5 to 1 ounce of water per pound of body weight. For a moderately active person, the calculation typically lands around 0.67 ounces per pound. So a 150-pound person would start with 150 multiplied by 0.67, giving roughly 100 ounces or about 3 liters daily.\n\nActivity level then modifies this baseline. Light activity keeps you near that number, while moderate exercise adds roughly 12 ounces for every 30 minutes of activity. Intense workouts or heavy physical labor can push that addition to 20 ounces or more per half hour. Age also plays a role in the adjustment. Adults over 65 often need slightly less due to changes in body composition, while younger active adults may need more. The calculator combines these factors into a single daily target that reflects your actual lifestyle, not a population average."
+    },
+    {
+      "heading": "Planning Hydration for a Marathon Training Schedule",
+      "body": "Consider Sarah, a 35-year-old woman weighing 145 pounds who's training for her first marathon. On rest days, her baseline calculation gives her about 97 ounces, roughly 2.9 liters. But her training schedule includes three running days with 45-minute sessions and one long run of 90 minutes on weekends. Those workout days change everything.\n\nOn a 45-minute training day, Sarah adds roughly 24 ounces to her baseline, bringing her total to about 121 ounces. Her long run day pushes that even higher, adding around 48 ounces for the 90-minute effort, landing her at 145 ounces. She now has a weekly hydration plan rather than a single number. Monday through Wednesday she aims for 97 ounces. Thursday and Saturday, training days, she targets 121 ounces. Sunday's long run means 145 ounces spread throughout the day, with extra attention to pre-run and post-run hydration windows."
+    },
+    {
+      "heading": "Using the Calculator for Travel and Altitude Adjustments",
+      "body": "Most people think of this tool for gym routines, but travel creates significant hydration challenges that catch people off guard. Airplane cabins maintain humidity around 10 to 20 percent, far drier than the 30 to 50 percent most people experience at home. A five-hour flight can require an additional 8 to 16 ounces beyond your normal intake just to compensate for the dry air. Running your baseline calculation before a trip helps you pack adequate water or plan hydration stops.\n\nAltitude presents another overlooked scenario. At elevations above 5,000 feet, your body loses water faster through respiration and increased urination. Someone hiking in Colorado at 9,000 feet needs roughly 20 to 25 percent more water than their sea-level calculation suggests. The calculator gives you that baseline number, then you apply the altitude multiplier yourself. A person normally needing 80 ounces should plan for 96 to 100 ounces when spending a day at high elevation."
+    },
+    {
+      "heading": "Three Mistakes That Lead to Chronic Dehydration",
+      "body": "The first common error is treating the calculation as a maximum rather than a minimum. Your daily target assumes normal conditions. Hot weather, illness, or alcohol consumption all increase your needs beyond the calculated amount. If you're fighting a cold or spending a summer afternoon at a barbecue, add at least 20 percent to your number.\n\nThe second mistake involves timing. Drinking 90 ounces in three large sessions is far less effective than spreading intake across the day. Your body can only absorb about 27 to 33 ounces per hour, so chugging a liter before bed means most of it passes straight through rather than hydrating your tissues. The third error is ignoring food water content. Fruits, vegetables, and soups contribute meaningful amounts. A person eating a water-rich diet with cucumbers, watermelon, and soup might need 10 to 15 percent less from beverages than someone eating mostly dry foods like bread and crackers."
+    }
+  ]
 }

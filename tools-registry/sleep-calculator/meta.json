@@ -90,5 +90,27 @@
       "defaultVariant": "nap",
       "headline": "Not all naps are equal. A 20-min power nap boosts alertness without grogginess. A 90-min full cycle includes REM sleep for memory consolidation. Find your ideal nap window."
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "Why Waking Up Feels Easy Some Days and Miserable on Others",
+      "body": "Your brain doesn't sleep in one continuous block. Instead, it cycles through distinct stages roughly every 90 minutes, moving from light sleep into deep sleep, then into REM (dreaming) sleep, and back again. When your alarm catches you in deep sleep, you wake up groggy and disoriented — that heavy, drugged feeling is called sleep inertia. But if you happen to wake during light sleep at the end of a cycle, you feel alert almost immediately.\n\nThis calculator works backward from your desired wake time to find bedtimes that land you at the end of a complete cycle. It also accounts for sleep onset latency — the roughly 14 minutes most people need to actually fall asleep after their head hits the pillow. The goal isn't more sleep necessarily; it's better-timed sleep. Six hours ending at a cycle boundary often feels more refreshing than seven hours interrupted mid-cycle."
+    },
+    {
+      "heading": "The 90-Minute Math: Breaking Down the Calculation",
+      "body": "The formula is straightforward once you see it. Start with your wake-up time and subtract 90 minutes for each sleep cycle you want. Then subtract another 14 minutes to account for falling asleep. So if you want to wake at 7:00am after five cycles, you calculate: 7:00am minus 7.5 hours (five cycles times 90 minutes) equals 11:30pm, then subtract 14 minutes, giving you 11:16pm as your target bedtime.\n\nThe calculator typically shows multiple options because people differ in how many cycles they need. For a 7:00am wake time, you might see 9:46pm (six cycles, about 9 hours of sleep), 11:16pm (five cycles, 7.5 hours), or 12:46am (four cycles, 6 hours). Each represents a complete number of cycles. The 14-minute buffer isn't magic — some people fall asleep in 5 minutes, others take 25 — but it's a reasonable average that you can adjust based on experience."
+    },
+    {
+      "heading": "Planning Tomorrow's Early Flight: A Complete Example",
+      "body": "Imagine you have a 6:00am flight, which means leaving your house at 4:30am, which means your alarm needs to ring at 4:00am. You're already dreading it. Plugging 4:00am into the calculator gives you bedtime options of 6:46pm, 8:16pm, 9:46pm, and 11:16pm. The 6:46pm option would give you six full cycles but is probably unrealistic unless you're exhausted. The 11:16pm option gives you only four cycles (about 6 hours), which might leave you tired.\n\nFor most people, 8:16pm or 9:46pm hits the sweet spot — five or six cycles respectively. Yes, 8:16pm sounds early, but consider this: waking naturally at 4:00am after solid sleep beats dragging yourself out of bed at 4:00am after tossing and turning until midnight. You might also set a backup alarm for 5:30am (one cycle later) just in case you miss the first one and need the next natural wake point."
+    },
+    {
+      "heading": "Beyond Basic Bedtimes: Nap Timing and Shift Work Applications",
+      "body": "The same 90-minute principle applies to naps. A 20-minute power nap keeps you in light sleep, so you wake easily. But if you sleep 45 minutes, you'll likely wake mid-cycle and feel worse than before. For a full restorative nap, aim for 90 minutes plus that 14-minute buffer — so set your alarm for about 104 minutes. This gives you one complete cycle without the grogginess of waking from deep sleep.\n\nShift workers can use the calculator in reverse. If you get home at 7:00am after a night shift and need to wake for errands at 2:00pm, that's 7 hours — which falls awkwardly between four cycles (6 hours) and five cycles (7.5 hours). You'd feel better sleeping either until 1:14pm (four cycles) or pushing errands to 2:44pm (five cycles). The small scheduling adjustment makes a real difference in how functional you feel afterward. Weekend recovery sleep also benefits from this thinking — sleeping until you naturally wake at a cycle boundary beats setting an alarm for an arbitrary time."
+    },
+    {
+      "heading": "Why the Calculator Sometimes Fails (and How to Fix It)",
+      "body": "The biggest mistake is treating the 14-minute sleep onset as gospel. If you regularly lie awake for 30 minutes, the calculator's suggestions will be off by 16 minutes — enough to land you in deep sleep. Track your own pattern for a week. If you consistently take longer to fall asleep, subtract that extra time from the suggested bedtime. The same applies if you fall asleep instantly; you might need to go to bed slightly later than recommended.\n\nAnother common error is ignoring alcohol and caffeine effects. Alcohol fragments sleep cycles, making them shorter and less regular, so the 90-minute math becomes unreliable. Caffeine consumed within 6 hours of bed extends sleep onset time significantly. The calculator assumes normal physiology — if you've had three glasses of wine, the wake time suggestions won't hold. Finally, don't obsess over hitting the exact minute. Sleep cycles vary from 80 to 100 minutes between individuals and even night to night. The calculator gives you a target window, not a precise prescription."
+    }
   ]
 }

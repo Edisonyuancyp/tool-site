@@ -52,5 +52,27 @@
       "defaultVariant": "ft-to-m",
       "headline": "Feet → Meters — type and convert instantly"
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "Why Meters and Feet Refuse to Play Nice",
+      "body": "The meter and the foot come from completely different worlds. France defined the meter in 1793 as one ten-millionth of the distance from the equator to the North Pole. Meanwhile, the foot traces back to actual human feet, standardized over centuries until the international foot was fixed at exactly 0.3048 meters in 1959. These two units never intended to convert cleanly, which is why the conversion factor looks so awkward.\n\nThis tool handles that awkward math for you. Type in a value in meters, and you get the equivalent in feet instantly—down to decimal feet or broken out into feet and inches. Going the other direction works the same way. The conversion is exact, not rounded, so whether you're measuring a ceiling height or a mountain trail, you're working with precision rather than approximation."
+    },
+    {
+      "heading": "The Conversion Math, Worked Out With Real Numbers",
+      "body": "One meter equals exactly 3.280839895 feet. In practice, most people round to 3.28084. To convert meters to feet, multiply by 3.28084. To go the other direction—feet to meters—divide by 3.28084, or multiply by 0.3048 if you prefer whole numbers.\n\nLet's work through a concrete example. Say you have a room that measures 4.5 meters wide. Multiply 4.5 by 3.28084 and you get 14.76378 feet. If you need feet and inches, take that decimal portion (0.76378) and multiply by 12 to get 9.17 inches. So 4.5 meters equals 14 feet 9.17 inches. For a quick mental estimate, multiply by 3 and add 10 percent: 4.5 times 3 is 13.5, plus 10 percent gives you 14.85 feet. Close enough for casual use.\n\nThe reverse calculation follows the same logic. A 20-foot storage container divided by 3.28084 gives you 6.096 meters. That extra precision matters when you're checking whether furniture fits or calculating material quantities."
+    },
+    {
+      "heading": "Measuring a European Apartment for American Furniture",
+      "body": "Picture this: you're relocating to Berlin and found an apartment listing that shows the bedroom as 3.2 meters by 4.1 meters. Your king-size bed frame measures 80 inches long, and you need to know if it fits with room for nightstands. This is where conversion stops being abstract math and starts being the difference between a functional bedroom and an expensive mistake.\n\nFirst, convert the room's length: 4.1 meters times 3.28084 equals 13.45 feet, or about 161 inches. Your 80-inch bed leaves 81 inches for walking space and furniture—plenty of room. The width of 3.2 meters converts to 10.5 feet or 126 inches. With the bed taking 76 inches of width, you have 50 inches left, enough for a nightstand on each side plus clearance for the door swing.\n\nRunning these calculations before you ship furniture overseas can save hundreds of dollars in return shipping or buying replacement pieces. The numbers don't lie, but they do require conversion before they tell you anything useful."
+    },
+    {
+      "heading": "Beyond Basic Measurement: Elevation and Speed Conversions",
+      "body": "Hikers and trail runners encounter meters constantly. European trail signs mark elevation in meters, but if you trained on American trails, thinking in feet comes naturally. When a sign says the summit sits at 2,847 meters, converting tells you that's 9,340 feet—roughly the elevation of some Colorado ski resorts. That context helps you anticipate how thin the air will feel and whether altitude sickness might become a factor.\n\nSwimmers and divers use this conversion differently. Pool depths in international competition appear in meters: a diving well at 5 meters deep equals 16.4 feet. Free divers tracking their descent might see 30 meters on their depth gauge, which translates to 98.4 feet—helpful for comparing to PADI certification depths typically listed in feet. Even treadmill users benefit: if a European running plan calls for 400-meter repeats and your gym treadmill shows feet, you now know to target 1,312 feet per interval."
+    },
+    {
+      "heading": "Three Conversion Mistakes That Cost People Money",
+      "body": "The most expensive mistake is confusing square meters with regular meters when looking at floor plans. A 50-square-meter apartment doesn't convert by simply multiplying 50 by 3.28084. Area requires squaring the conversion factor: multiply by 10.764 instead. That 50-square-meter flat equals 538 square feet, not 164 feet of anything. Mixing this up leads to wildly wrong expectations about apartment sizes.\n\nAnother common error involves rounding too aggressively. Saying one meter equals about 3 feet sounds reasonable until you're measuring for carpet. A 12-meter hallway at \"about 3 feet per meter\" gives you 36 feet. The actual length is 39.37 feet. Order carpet based on the rough estimate and you're short by more than three feet—an expensive second order and visible seam.\n\nFinally, people sometimes convert measurements but forget that construction materials come in standard sizes. Knowing your European closet is 2.44 meters deep (exactly 8 feet) matters because American lumber comes in 8-foot lengths. That kind of insight only emerges when you run the actual conversion rather than eyeballing it."
+    }
   ]
 }

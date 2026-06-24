@@ -66,5 +66,27 @@
     "typography-compare-lab",
     "color-palette-lab"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "Why CSS Units Matter More Than You Think",
+      "body": "Every measurement in CSS represents a relationship. Pixels feel absolute, but they're actually tied to device resolution. Rem units scale with your root font size. Viewport units shift with the browser window. Understanding these relationships is what separates layouts that break on mobile from those that flow gracefully across every screen size.\n\nThis converter handles the math so you can focus on design decisions. Enter a value in one unit, and it calculates the equivalent in px, rem, em, vw, vh, pt, and cm instantly. The key insight is that most conversions require a reference point—your base font size for rem, or your viewport width for vw. Change those reference values, and every calculation updates to match your specific project setup.\n\nThe tool doesn't just spit out numbers. It shows you the relationship between units, which helps you develop intuition over time. After converting enough values, you'll start thinking in relative units naturally."
+    },
+    {
+      "heading": "The Math Behind Each Conversion, With Real Numbers",
+      "body": "For px to rem, divide the pixel value by your base font size. Most browsers default to 16px, so 24px becomes 24 ÷ 16 = 1.5rem. If your project uses a 10px base for easier math, that same 24px becomes 24 ÷ 10 = 2.4rem. The formula never changes: rem equals pixels divided by base.\n\nViewport conversions work differently. To convert 300px to vw on a 1440px wide viewport, calculate (300 ÷ 1440) × 100 = 20.83vw. That element will always occupy roughly 21% of the viewport width, whether someone views it on a laptop or ultrawide monitor. Vertical viewport units (vh) follow the same pattern using viewport height instead.\n\nPrint units like points and centimeters have fixed relationships to pixels at 96 DPI: 1pt equals 1.333px, and 1cm equals 37.795px. These matter when you're styling print stylesheets or generating PDFs from web content."
+    },
+    {
+      "heading": "Building a Responsive Card Component From Scratch",
+      "body": "Imagine you're designing a product card that needs to work on phones and desktops. Your designer's mockup shows the card title at 24px on a 1440px desktop layout. You want that title to scale down on mobile without writing media queries for every breakpoint.\n\nUsing this converter with a 1440px viewport width, you find that 24px equals 1.667vw. But pure viewport units can get too small on phones or too large on 4K monitors. A better approach: convert to rem for a baseline, then test the vw value to see how it scales. At 16px base, 24px is 1.5rem—that's your fallback. You might write font-size: clamp(1.125rem, 1.667vw, 1.5rem) to keep the title between 18px and 24px regardless of screen size.\n\nThe padding follows similar logic. Your mockup shows 32px padding. That's 2rem, or 2.222vw on the same viewport. For padding, rem often works better than viewport units because you want consistent spacing relative to text size, not window size."
+    },
+    {
+      "heading": "Two Conversions You Probably Haven't Considered",
+      "body": "Print stylesheets catch most developers off guard. When someone prints your article or invoice, pixel-based layouts often look wrong. Converting your key measurements to points—the native print unit—gives you precise control. That 12px body text? It's 9pt, which is actually small for print. Bumping to 16px gives you 12pt, the standard for readable documents. This converter lets you design for screen, then quickly translate to print-appropriate values.\n\nAccessibility testing is another overlooked use case. Users who bump their browser's default font size from 16px to 20px will break layouts built with pixels. By converting your design's pixel values to rem with a 20px base in the tool, you can preview exactly what those users will see. A 320px sidebar becomes 16rem at 20px base—the same physical proportion. But if you hard-coded 320px, it stays 320px while text grows, potentially overlapping or breaking your layout."
+    },
+    {
+      "heading": "Three Mistakes That Will Sabotage Your Responsive Layouts",
+      "body": "The most common error is forgetting that em compounds. If your body is 16px and you set a div to 1.5em (24px), then a nested span at 1.5em becomes 36px—not 24px. Em multiplies against its parent, not the root. Use rem instead when you want predictable sizing that doesn't cascade unexpectedly.\n\nAnother trap is assuming 16px as your base without checking. Many CSS frameworks set html { font-size: 62.5%; } to make 1rem equal 10px for easier math. If you convert 32px to rem using 16px base, you'll get 2rem. But on that framework, 2rem actually renders as 20px. Always verify your project's actual root font size before converting.\n\nFinally, people often mix vw and vh carelessly. A 100vh hero section sounds right until you test on mobile Safari, where the address bar changes viewport height as you scroll. That perfect full-screen section becomes either too short or causes janky resizing. For full-screen sections, consider using svh (small viewport height) or fixed heights at mobile breakpoints."
+    }
+  ]
 }

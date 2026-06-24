@@ -47,5 +47,27 @@
     "bmr-tdee-calculator",
     "ideal-weight-calculator"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "What Macro Tracking Actually Means for Your Body",
+      "body": "Macronutrients are the three calorie-containing nutrients your body needs in large amounts: protein, carbohydrates, and fats. Unlike vitamins and minerals, which you need in tiny quantities, macros provide the actual fuel and building blocks your body runs on. Protein supplies amino acids for muscle repair and growth. Carbohydrates become glucose, your brain's and muscles' preferred energy source. Fats support hormone production and help absorb certain vitamins.\n\nA macro tracker calculator takes your personal details and fitness goals, then splits your daily calories into specific gram targets for each macronutrient. This matters because two people eating the same 2,000 calories can get wildly different results depending on where those calories come from. Someone eating mostly carbs might struggle to maintain muscle, while someone eating adequate protein preserves lean mass even during a calorie deficit. The calculator removes guesswork by giving you concrete numbers to hit each day."
+    },
+    {
+      "heading": "The Math Behind Your Macro Targets",
+      "body": "Most macro calculators start by estimating your Total Daily Energy Expenditure, or TDEE, which combines your basal metabolic rate with your activity level. A common formula multiplies your weight in pounds by 14 to 17, depending on how active you are. A moderately active 170-pound person might have a TDEE around 2,550 calories. From there, your goal determines whether you add or subtract: bulking typically adds 250 to 500 calories, cutting subtracts the same range, and maintenance stays at TDEE.\n\nOnce you have your calorie target, the calculator assigns percentages to each macro. A typical breakdown for someone building muscle might be 40 percent carbs, 30 percent protein, and 30 percent fat. For a 2,500-calorie bulk, that translates to 1,000 calories from carbs, 750 from protein, and 750 from fat. Since carbs and protein have 4 calories per gram while fat has 9, you'd aim for 250 grams of carbs, 188 grams of protein, and 83 grams of fat daily. These numbers give you something tangible to track."
+    },
+    {
+      "heading": "Planning a Real Week of Fat Loss With Specific Targets",
+      "body": "Consider Sarah, a 145-pound woman who exercises four times weekly and wants to lose about a pound per week. Her estimated TDEE is around 1,900 calories, so a deficit of 500 calories puts her daily target at 1,400. She selects a higher-protein approach to preserve muscle during the cut: 35 percent protein, 40 percent carbs, and 25 percent fat. That gives her 123 grams of protein, 140 grams of carbs, and 39 grams of fat daily.\n\nSarah's breakfast might include Greek yogurt with berries, providing about 20 grams of protein and 25 grams of carbs. Lunch could be grilled chicken over mixed greens with olive oil dressing, hitting 35 grams of protein, 10 grams of carbs, and 15 grams of fat. By tracking each meal and adjusting dinner accordingly, she stays within her targets. The calculator's value shows up here: instead of vague advice like \"eat more protein,\" Sarah knows exactly how much chicken or tofu fills her remaining quota for the day."
+    },
+    {
+      "heading": "Using Macro Targets for Endurance Training and Medical Needs",
+      "body": "Most people associate macro tracking with bodybuilding, but endurance athletes benefit significantly from strategic carbohydrate planning. A marathon runner preparing for race day might shift to 55 or 60 percent carbohydrates during heavy training weeks to ensure glycogen stores stay topped off. The calculator can model this shift, showing how a 2,800-calorie day breaks down when carbs take priority over fat.\n\nPeople managing medical conditions also find unexpected value in precise macro tracking. Someone with Type 2 diabetes might use the calculator to experiment with lower carbohydrate percentages, perhaps 25 to 30 percent, to improve blood sugar control. By tracking results alongside glucose readings, they can identify what ratio keeps their numbers stable. Similarly, those with kidney concerns sometimes need to limit protein intake, and seeing exact gram targets helps them stay within safe ranges while still meeting calorie needs for daily life."
+    },
+    {
+      "heading": "Why Your Results Might Be Off and How to Fix Them",
+      "body": "The most common mistake people make is underestimating cooking oils and liquid calories. That tablespoon of olive oil you drizzle on your salad adds 14 grams of fat, nearly 130 calories. A couple of unmeasured tablespoons daily can add 250 or more untracked calories, completely erasing a careful deficit. Weigh your oils, nut butters, and sauces until you develop an accurate eye for portions.\n\nAnother frequent error involves trusting restaurant nutrition data or generic food entries in tracking apps. A \"grilled chicken breast\" at one restaurant might be 4 ounces while another serves 8 ounces smothered in butter. When eating out, assume entries are estimates and build in a buffer of 10 to 20 percent more calories than listed. Finally, people often set protein targets and then fill remaining macros randomly. Fat is more calorie-dense, so accidentally going 30 grams over on fat while staying under on carbs still puts you 150 calories above your target."
+    }
+  ]
 }

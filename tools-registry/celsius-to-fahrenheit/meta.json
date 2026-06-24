@@ -70,5 +70,27 @@
       "defaultVariant": "f-to-c",
       "headline": "Fahrenheit → Celsius — type and convert instantly"
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "Why Two Temperature Scales Exist (and Why You Need to Convert)",
+      "body": "Celsius and Fahrenheit measure the same thing — how fast molecules are moving — but they anchor their scales to different reference points. Anders Celsius built his system around water: 0°C is where water freezes, 100°C is where it boils at sea level. Daniel Fahrenheit chose a stranger baseline, using a salt-ice mixture as his zero and human body temperature as an upper marker, which is why 98.6°F became the magic number for healthy humans.\n\nThis historical quirk means Americans describe a hot summer day as 95°F while Europeans call the same weather 35°C. Neither is wrong; they're just different rulers for the same measurement. When you're reading a European recipe, checking weather forecasts abroad, or interpreting medical guidelines from another country, you need a quick way to translate between these systems. That's where this converter earns its keep — it eliminates the mental math so you can focus on what actually matters, like whether you need a jacket."
+    },
+    {
+      "heading": "The Conversion Formula, Broken Down with Real Numbers",
+      "body": "The formula to convert Celsius to Fahrenheit is straightforward: multiply the Celsius value by 1.8, then add 32. Written out, that's °F = (°C × 9/5) + 32. The 9/5 (or 1.8) accounts for the fact that a Fahrenheit degree is smaller than a Celsius degree — there are 180 Fahrenheit degrees between water's freezing and boiling points, but only 100 Celsius degrees. The +32 shifts the scale because Fahrenheit's freezing point sits at 32, not zero.\n\nLet's work through 25°C, a pleasant spring afternoon. First, multiply: 25 × 1.8 = 45. Then add 32: 45 + 32 = 77°F. Going the other direction requires reversing these steps. To convert 77°F back to Celsius, subtract 32 first (77 - 32 = 45), then divide by 1.8 (45 ÷ 1.8 = 25°C). The mental shortcut for quick estimates — double the Celsius and add 30 — gets you 80°F for 25°C, which is close enough when you just need a ballpark figure."
+    },
+    {
+      "heading": "Planning a Trip to Rome: A Complete Conversion Example",
+      "body": "Imagine you're packing for a week in Rome next April. The forecast shows temperatures ranging from 12°C to 22°C. Those numbers mean nothing if you grew up with Fahrenheit, so let's translate them. For the low of 12°C: multiply 12 by 1.8 to get 21.6, then add 32 for 53.6°F. That's cool enough for a light jacket in the morning. For the high of 22°C: 22 × 1.8 = 39.6, plus 32 = 71.6°F. Comfortable short-sleeve weather by afternoon.\n\nThis tells you exactly what to pack: layers. You'll want something warm for early museum visits when it's in the low 50s Fahrenheit, but you can peel down to a t-shirt once the sun warms things up past 70°F. Without converting, you might guess wrong and either freeze through breakfast or sweat through your only sweater. The visual scale on this tool helps too — it shows you at a glance that 12°C sits in the \"cool\" zone while 22°C lands squarely in \"mild and pleasant.\""
+    },
+    {
+      "heading": "Beyond Weather: Cooking, Brewing, and Medical Uses",
+      "body": "Temperature conversion matters in kitchens more than most people realize. European recipes often specify oven temperatures in Celsius — a British roast chicken recipe calling for 200°C translates to 392°F, which you'd round to 400°F on most American ovens. Candy makers obsess over exact temperatures: soft-ball stage for fudge is 112-116°C, which is 234-241°F. Getting this wrong by even a few degrees can mean the difference between silky caramel and grainy sugar paste.\n\nHome brewers and coffee enthusiasts also live in both temperature worlds. Ideal pour-over coffee extraction happens between 90-96°C (that's 194-205°F), while ale yeast ferments best at 18-22°C (64-72°F). Medical contexts bring another dimension: a fever starts at 38°C, which is 100.4°F. If you're reading international health guidelines or using a Celsius thermometer, knowing that 39°C means 102.2°F helps you decide whether to call a doctor or just drink fluids and rest."
+    },
+    {
+      "heading": "Mistakes That Trip Up First-Time Converters",
+      "body": "The most common error is forgetting the order of operations when converting Fahrenheit to Celsius. You must subtract 32 before dividing by 1.8 — not the other way around. If you divide first and subtract second, you'll calculate 100°F as (100 ÷ 1.8) - 32 = 23.5°C instead of the correct answer, 37.8°C. That's a fifteen-degree error, enough to make you think a hot tub is lukewarm.\n\nAnother frequent mistake is rounding too aggressively in the middle of the calculation. If you're converting 36°C and round 1.8 down to 2 for convenience, you get 36 × 2 = 72, plus 32 = 104°F. The actual answer is 96.8°F — an eight-degree difference that could make you think someone has a dangerous fever when they're actually fine. Use the full 1.8 multiplier until the final step, then round your result if needed. Also watch for negative temperatures: -10°C becomes (-10 × 1.8) + 32 = -18 + 32 = 14°F. Keep track of that negative sign throughout or you'll end up with wildly wrong answers."
+    }
   ]
 }

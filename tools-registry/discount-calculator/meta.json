@@ -66,5 +66,27 @@
     "profit-margin-calculator",
     "tax-calculator"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "What a Discount Calculator Actually Solves for You",
+      "body": "A discount calculator handles the three-way relationship between an original price, a sale price, and the percentage taken off. Most people only think about one direction: you see a 30% off sign and want to know what you'll pay. But the tool works backward too. Maybe you remember paying $67.50 for shoes that were 25% off, and now you're curious what the store originally charged. Or you spot a sweater marked down from $89 to $62 and wonder exactly how good that deal really is.\n\nThe calculator eliminates the mental math that trips people up under fluorescent store lighting. Percentages feel slippery because they require two steps — finding the discount amount, then subtracting — and mistakes compound when you're comparing multiple items. This tool gives you the exact number instantly, which matters when you're deciding between a $200 jacket at 35% off versus a $180 jacket at 25% off. The answer isn't always obvious, but the math never lies."
+    },
+    {
+      "heading": "The Three Formulas Behind Every Discount Calculation",
+      "body": "Finding the sale price is the most common calculation. You multiply the original price by one minus the discount expressed as a decimal. For a $75 item at 40% off, that's $75 times 0.60, which gives you $30 in savings and a final price of $45. The 0.60 represents the portion you actually pay — 60% of the original.\n\nReversing the calculation to find the original price means dividing instead of multiplying. If you paid $54 after a 10% discount, you divide $54 by 0.90 to get $60. The 0.90 represents the fraction of the original that your sale price equals. This trips people up because dividing by a decimal makes the number bigger, which feels counterintuitive until you remember you're recovering a larger original amount.\n\nTo find the discount percentage itself, subtract the sale price from the original, divide by the original, then multiply by 100. An item dropping from $120 to $84 means a $36 difference. Divide 36 by 120 to get 0.30, then multiply by 100 for a 30% discount."
+    },
+    {
+      "heading": "Working Through a Real Shopping Decision Step by Step",
+      "body": "Suppose you're comparing two laptops during a holiday sale. The first laptop has a regular price of $1,299 and shows a 20% discount. The second is normally $1,149 with 15% off. Which one actually costs less right now? For the first laptop, multiply $1,299 by 0.80 to get $1,039.20. For the second, multiply $1,149 by 0.85 to get $976.65. The cheaper original laptop with the smaller discount wins by about $63.\n\nNow imagine you're the retailer setting that sale. You want the $1,299 laptop to hit $999 exactly — what percentage discount do you advertise? Subtract 999 from 1299 to get 300, divide by 1299, and multiply by 100. That's roughly 23.1%. You'd probably round to 23% off, making the actual price $1,000.23, or market it as \"over $299 off\" instead of an awkward percentage.\n\nThis same logic applies to negotiating. If a vendor offers you a $2,400 service for $1,800, you're getting 25% off. Knowing the precise figure helps when you counter-offer or compare quotes."
+    },
+    {
+      "heading": "Uses Beyond Simple Shopping That Most People Miss",
+      "body": "Salary negotiations benefit from reverse discount thinking. If a company offers you $78,000 but you know the midpoint for your role is $90,000, you can calculate that their offer represents a 13.3% discount from market rate. That reframes the conversation from \"I want more money\" to \"I'm being offered 13% below benchmark,\" which carries more weight.\n\nBudgeting for tips and taxes works similarly. A restaurant bill of $47.50 before tax and tip becomes easier to estimate when you think in percentages. Twenty percent for tip is $9.50, and if your local sales tax is 8%, that's $3.80. Total: $60.80. The discount calculator can verify these quickly, especially when splitting bills among friends who all want to pay their fair share including proportional tip.\n\nResellers and thrift flippers use original price recovery constantly. Finding a designer bag at a consignment shop for $340 that retailed for $850 means you're at a 60% discount — useful for pricing when you resell, or just for bragging rights."
+    },
+    {
+      "heading": "Mistakes That Cost You Money and How to Sidestep Them",
+      "body": "The biggest error is stacking discounts incorrectly. A 20% off coupon on top of a 30% sale doesn't mean 50% off. It means 30% off first, reducing $100 to $70, then 20% off that $70, taking it to $56. You saved 44%, not 50%. Stores count on this confusion, so always calculate sequentially.\n\nAnother common slip is confusing \"percent off\" with \"percent of.\" Twenty percent off $80 leaves you paying $64. Twenty percent of $80 is $16. One describes what you save, the other what you'd pay if the price were slashed to just that fraction. Read sale signs carefully because some promotions phrase things oddly.\n\nFinally, watch out for inflated original prices. A $200 jacket marked down to $100 sounds like 50% off, but if nobody ever paid $200 and the jacket typically sells for $110, your real savings are barely 9%. Check price history on browser extensions or simply ask yourself if the \"original\" price seems plausible for the item in question."
+    }
+  ]
 }

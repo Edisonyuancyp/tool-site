@@ -27,6 +27,7 @@ import time
 import urllib.request
 import urllib.error
 from pathlib import Path
+from typing import Optional, List, Dict
 
 # ─────────────────────────────────────────────────────────────────────────────
 # ⬇  FILL IN YOUR CLAUDE API KEY HERE (or set env var CLAUDE_API_KEY)
@@ -111,7 +112,7 @@ Return ONLY this JSON (no extra text before or after):
 
 
 # ── Claude API call ───────────────────────────────────────────────────────────
-def call_claude(prompt: str, dry_run: bool) -> list[dict] | None:
+def call_claude(prompt: str, dry_run: bool) -> Optional[List[Dict]]:
     if dry_run:
         print("  [DRY-RUN] Prompt (first 400 chars):")
         print("  " + prompt[:400].replace("\n", "\n  "))
@@ -176,7 +177,7 @@ def call_claude(prompt: str, dry_run: bool) -> list[dict] | None:
 
 
 # ── Process one tool ──────────────────────────────────────────────────────────
-def process_tool(slug: str, force: bool, dry_run: bool) -> str:
+def process_tool(slug: str, force: bool, dry_run: bool) -> str:  # returns 'written' | 'skipped' | 'error'
     """Returns 'written' | 'skipped' | 'error'"""
     tool_dir  = REGISTRY_DIR / slug
     meta_path = tool_dir / "meta.json"

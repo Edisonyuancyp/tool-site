@@ -101,5 +101,27 @@
       "defaultVariant": "taxi",
       "headline": "Not sure how much to tip your Uber, Lyft, or taxi driver? Enter the fare and this calculator shows the standard tip range (15–20%) and exact amounts so you never have to do the math."
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "What a Tip Calculator Actually Solves",
+      "body": "A tip calculator handles the mental math that gets awkward at the end of a meal. When you're sitting with friends after dinner, the bill arrives, and suddenly everyone's squinting at their phones trying to figure out fair shares. The tool takes your total bill, applies your chosen tip percentage, and divides everything evenly among your group. What you get back is two numbers that matter: how much tip each person contributes and how much each person pays overall.\n\nThe real value isn't just speed—it's accuracy during a moment when your brain is often tired, distracted, or influenced by a glass of wine. Mental math errors at the table lead to undertipping, overtipping, or that uncomfortable moment when someone realizes the pot is $12 short. The calculator removes the social friction entirely. Everyone can see the same numbers, agree on the split, and move on without anyone feeling cheated or embarrassed."
+    },
+    {
+      "heading": "The Math Behind Tip Splitting, Step by Step",
+      "body": "The formula is straightforward once you see it written out. First, you calculate the tip by multiplying the bill total by your tip percentage expressed as a decimal. So for an $85 bill with an 18% tip, you multiply 85 by 0.18 to get $15.30 in tip. Add that to the original bill and your grand total is $100.30.\n\nNow divide by the number of people. If four friends are splitting that $100.30 check, each person owes $25.08. But notice you also want to know the tip portion per person—that's $15.30 divided by 4, which equals $3.83 each toward the tip. This breakdown matters when one person wants to pay their share in cash while others use cards, or when someone at the table wants to verify the math independently. The calculator handles both figures simultaneously so you're never left wondering where the numbers came from."
+    },
+    {
+      "heading": "Splitting a Birthday Dinner for Eight People",
+      "body": "Picture this: you're celebrating a friend's birthday at a nice restaurant. The final bill comes to $347.50 before tip. Everyone agrees on 20% because the server handled a large party well. You enter $347.50 as the bill total, select 20% tip, and type 8 for the number of people. The tip comes to $69.50, making the grand total $417. Each of the eight people owes $52.13.\n\nBut here's where real life gets complicated. The birthday person shouldn't pay, so you're actually splitting among seven. Adjust the people count to 7 and now each paying guest owes $59.57. Maybe two people only had appetizers and feel the split is unfair—that's a conversation the calculator can't solve, but at least you have a baseline number to negotiate from. Having that $59.57 figure means the group can decide if some people chip in $50 while others cover $70, rather than everyone guessing in the dark."
+    },
+    {
+      "heading": "Uses Beyond Restaurant Bills Most People Miss",
+      "body": "The same math works for any shared expense where you want to add a percentage and split evenly. Consider a house cleaning service that charges $180, and your roommates agree to tip 15% because the cleaner did extra work. Run it through the calculator: three people splitting $207 means $69 each. Done in seconds, no group chat debate required.\n\nAnother scenario: you're ordering delivery for an office lunch. The food costs $124 and delivery fees are already included, but you want to tip the driver 18%. The calculator tells you the tip is $22.32. Now divide among six coworkers and each person adds $3.72 to their food cost for the tip. This works equally well for tipping movers, splitting a guided tour tip, or calculating gratuity for a private event bartender. Anywhere percentages and divisions collide, the tool applies."
+    },
+    {
+      "heading": "Mistakes That Lead to Awkward Underpayments",
+      "body": "The most common error is tipping on the wrong total. If your bill shows a subtotal of $92 but the final amount after tax is $101.20, tipping 20% on the subtotal gives you $18.40 while tipping on the tax-inclusive total gives $20.24. Neither is wrong exactly, but if everyone at the table has different assumptions, you'll come up short. Decide as a group whether you're tipping pre-tax or post-tax and enter that number consistently.\n\nAnother frequent mistake is forgetting that some restaurants add automatic gratuity for large parties—often 18% or 20%. If you then calculate an additional 18% tip, your server receives nearly 40% gratuity while your group overpays dramatically. Always check the bill for a line that says service charge or gratuity included. When in doubt, ask your server directly before punching numbers into any calculator."
+    }
   ]
 }

@@ -72,5 +72,27 @@
       "defaultVariant": "baking-variant-key",
       "headline": "Calculate the perfect baking times for your favorite treats."
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "What a Cooking Time Calculator Actually Solves",
+      "body": "Every piece of meat is different. A 1.5 kg lamb leg doesn't cook at the same rate as a 3 kg beef roast, even if you set your oven to identical temperatures. This calculator takes the guesswork out by converting weight into minutes, accounting for the density and structure of different proteins. The result is a specific time window that gets your roast safely cooked without turning it into leather.\n\nThe underlying principle is heat transfer. Larger cuts need more time for heat to reach the center, but the relationship isn't linear. Double the weight doesn't mean double the time. Fat content, bone presence, and starting temperature all influence how quickly heat penetrates. A cooking time calculator aggregates these variables into a practical estimate, giving you a starting point calibrated to your specific cut rather than a generic recipe written for a different-sized piece of meat."
+    },
+    {
+      "heading": "The Minutes-Per-Kilogram Formula Explained",
+      "body": "Most cooking time calculations follow a base formula: total time equals minutes per kilogram multiplied by weight, plus a fixed starting period. For medium-rare beef roast, this typically works out to about 25 minutes per kilogram plus 25 minutes. So a 2 kg beef joint would need roughly 75 minutes at 180°C (25 × 2 + 25 = 75).\n\nLamb uses a similar structure but different multipliers. A leg of lamb cooked to medium requires approximately 30 minutes per kilogram plus 30 minutes. That same 2 kg weight becomes 90 minutes. Pork generally needs longer due to food safety requirements, running closer to 35 minutes per kilogram plus 35 minutes. These base calculations assume room-temperature meat and a preheated oven. If you pull a roast straight from the fridge, add another 10 to 15 minutes to your estimate."
+    },
+    {
+      "heading": "Sunday Roast Planning From Start to Table",
+      "body": "Imagine you're cooking a 2.4 kg leg of lamb for Sunday lunch, and guests arrive at 1 pm. Working backward makes this manageable. Using the lamb formula of 30 minutes per kilogram plus 30 minutes, your cooking time is 102 minutes, so let's call it 1 hour 45 minutes. You want the meat to rest for 20 minutes before carving, which means it needs to come out of the oven at 12:40 pm.\n\nCounting backward, the lamb goes into a preheated oven at 10:55 am. But you need the oven at temperature before that. Allow 15 minutes for preheating, so you turn on the oven at 10:40 am. If you want the lamb at room temperature before cooking, pull it from the fridge 30 minutes earlier, around 10:10 am. This kind of reverse scheduling prevents the frantic realization at noon that dinner won't be ready for another hour."
+    },
+    {
+      "heading": "Beyond Basic Roasts: Uses You Might Not Consider",
+      "body": "A cooking time calculator proves surprisingly useful for meal prep batching. Say you're cooking three different proteins simultaneously: a 1.8 kg beef roast, a 1.2 kg pork loin, and a 900 g chicken breast. Running each through the calculator reveals the beef needs approximately 70 minutes, the pork needs 77 minutes, and the chicken needs about 35 minutes. You can stagger start times so everything finishes together, or identify which items share similar timing for efficiency.\n\nAnother overlooked application is adjusting for altitude. At elevations above 900 meters, water boils at lower temperatures and moisture evaporates faster from meat. Many calculators let you factor this in, adding roughly 5 to 10 percent more cooking time. People living in Denver, Mexico City, or Johannesburg find this adjustment essential for consistent results that match recipes developed at sea level."
+    },
+    {
+      "heading": "Five Mistakes That Ruin Otherwise Good Calculations",
+      "body": "The most common error is ignoring resting time. A calculator might tell you 90 minutes for your lamb, but the internal temperature continues rising after removal from heat. If you cook to your target temperature exactly, then cut immediately, the meat will be overdone. Account for carryover cooking by pulling meat 3 to 5 degrees Celsius below your target.\n\nWeighing meat with bones throws calculations off. A 2 kg bone-in lamb leg contains less actual meat than a 2 kg boneless joint. Some cooks subtract about 15 percent from bone-in weights before calculating, which produces more accurate timing. Similarly, stuffed joints need extended time because the stuffing acts as insulation. A rolled and stuffed pork loin at 1.5 kg might need timings based on 1.8 kg to compensate for the added density in the center. Finally, opening the oven repeatedly drops temperature significantly, potentially adding 10 minutes to your total."
+    }
   ]
 }

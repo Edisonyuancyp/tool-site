@@ -74,5 +74,27 @@
     "tp-sl-calculator",
     "crypto-market-cap-comparator"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "What Position Sizing Really Controls in Your Trading",
+      "body": "Position sizing answers one question: how many units should you buy or sell so that a losing trade costs exactly what you planned to lose? Most traders focus on finding the perfect entry, but position sizing determines whether a string of losses wipes you out or leaves you ready to trade another day. Get this wrong, and even a winning strategy can destroy your account through oversized bets.\n\nThe core idea is simple. You decide in advance the maximum dollar amount you're willing to lose on any single trade. Then you work backward from your stop-loss distance to figure out how many shares, contracts, or coins fit that risk budget. This flips the usual thinking—instead of deciding position size first and hoping for the best, you let your risk tolerance dictate the size. The tool handles the math instantly, but understanding why it works matters more than clicking the button."
+    },
+    {
+      "heading": "The Position Size Formula with Real Numbers",
+      "body": "The formula is straightforward: Position Size equals Account Balance times Risk Percentage, divided by the absolute difference between Entry Price and Stop-Loss Price. Written out, that's (Account × Risk%) ÷ |Entry − Stop Loss|. The numerator gives you your dollar risk, and the denominator tells you how many dollars you'd lose per unit if the stop triggers. Dividing one by the other yields the number of units.\n\nLet's run actual numbers. You have a $25,000 account and you're willing to risk 2% per trade, which is $500. You want to buy a stock at $48.00 with a stop-loss at $45.00, a $3.00 gap. Plug in: $500 ÷ $3.00 = 166.67 shares. Round down to 166 shares. If the stop hits, you lose roughly $498—just under your $500 limit. That precision is why the formula matters; guessing would likely leave you over-risked or under-exposed."
+    },
+    {
+      "heading": "Planning a Crypto Swing Trade from Entry to Exit",
+      "body": "Imagine you trade Ethereum on a $12,000 account and follow the 1% rule, capping risk at $120 per trade. ETH is trading at $3,200, and your technical analysis suggests support near $3,040. You set your stop-loss at $3,020 to allow some cushion, giving a $180 risk per coin ($3,200 minus $3,020). Running the math, $120 ÷ $180 equals 0.667 ETH.\n\nYou buy 0.66 ETH, putting roughly $2,112 of capital to work. If the price collapses through your stop, the exchange sells at $3,020, and your loss sits around $118—safely within the $120 budget. Now suppose ETH rallies to $3,500. You've gained $300 on 0.66 coins, about $198 profit. That's a reward-to-risk ratio near 1.7:1, turning disciplined sizing into a measurable edge over dozens of trades. Without this step, you might have bought a full coin, risking $180 instead of $120—50% more than planned."
+    },
+    {
+      "heading": "Two Overlooked Ways to Use Position Sizing Data",
+      "body": "Beyond single trades, position sizing helps you stress-test a strategy before risking real money. Calculate your position size for 20 hypothetical trades using historical prices and your intended stop distances. Add up the worst-case losses if every trade hit its stop. If total drawdown exceeds 15–20% of your account, you know your risk percentage is too high or your stops are too wide. Adjusting before you trade beats learning the hard way.\n\nAnother overlooked use is scaling into positions. Say your model suggests adding to a winner once price moves 5% in your favor. Recalculate position size at each add point using your new, higher stop-loss, keeping total portfolio risk constant. This method lets you build a larger position without ever exceeding your original risk budget. The calculator isn't just for opening trades—it's a checkpoint at every decision point where money is on the line."
+    },
+    {
+      "heading": "Mistakes That Quietly Drain Trading Accounts",
+      "body": "The most common error is ignoring slippage. Your stop at $45.00 might execute at $44.85 in a fast market, turning a planned $500 loss into $525. Build a buffer by assuming 0.5–1% worse execution, especially in crypto or low-volume stocks. If you calculate for a $3.00 gap, treat it as $3.15 to stay conservative.\n\nAnother trap is recalculating mid-trade with emotions running high. You enter a position sized for 2% risk, the price dips, and you move your stop lower to avoid getting stopped out. Suddenly you're risking 4%. The calculator can't protect you from overriding its output. Decide your stop before entering, input it once, and treat the result as a contract with yourself. Finally, mixing currencies catches people off guard—if your account is in euros but you enter a dollar-denominated stock price, your sizing will be wrong. Always confirm both figures use the same currency."
+    }
+  ]
 }

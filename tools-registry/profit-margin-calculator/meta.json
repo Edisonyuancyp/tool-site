@@ -66,5 +66,27 @@
     "tax-calculator",
     "risk-calculator"
   ],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "What Profit Margin Really Tells You About Your Business",
+      "body": "Profit margin is the percentage of each dollar you keep after covering your costs. When you sell a candle for $25 and it cost you $10 to make, you don't just pocket $15 in profit — you keep 60% of that sale. That percentage is your gross profit margin, and it's the clearest measure of whether your pricing actually works.\n\nUnlike raw profit numbers, margins let you compare across different price points and product lines. A $500 sale with a 20% margin earns you $100, while a $50 sale with a 60% margin earns you $30. The first looks bigger, but the second is actually more efficient. This calculator turns your cost and selling price into margin percentages, markup percentages, and total profit so you can see exactly how each product or service performs."
+    },
+    {
+      "heading": "The Margin and Markup Formulas Explained With Real Numbers",
+      "body": "Gross profit margin uses a simple formula: subtract your cost from your selling price, divide by the selling price, and multiply by 100. If you buy inventory for $35 and sell it for $50, you calculate (50 - 35) / 50 = 0.30, which means a 30% gross margin. That $15 profit represents 30 cents of every dollar your customer pays.\n\nMarkup works differently because it measures profit against your cost, not your revenue. Using the same $35 cost and $50 price, markup is (50 - 35) / 35 = 0.428, or about 43%. The same $15 profit looks like 43% when compared to what you paid, but only 30% when compared to what the customer paid. Neither number is wrong — they just answer different questions. Margin tells you what slice of revenue you keep. Markup tells you how much you added to your cost."
+    },
+    {
+      "heading": "Pricing a Freelance Project From Costs to Quote",
+      "body": "Say you're a freelance designer quoting a brand identity project. You estimate 20 hours of work, and you need to earn at least $75 per hour to cover your salary, software subscriptions, and overhead. Your base cost is $1,500. But you also want a 40% profit margin on top of that, not a 40% markup.\n\nTo find your selling price with a 40% margin, divide your cost by (1 - 0.40). That's $1,500 / 0.60 = $2,500. At this price, your gross profit is $1,000, which is exactly 40% of the $2,500 total. If you accidentally used markup instead, you'd quote $2,100 — that's $1,500 plus 40% — but your margin would only be about 29%. The difference is $400 in revenue you'd leave on the table by confusing the two calculations.\n\nThis calculator handles that conversion automatically. Enter your cost, pick your target margin, and it returns the selling price you need to quote."
+    },
+    {
+      "heading": "Smart Ways to Use Margin Calculations Beyond Basic Pricing",
+      "body": "One overlooked use is negotiating supplier discounts. If you know your current margin on a product is 35% and a supplier offers a 10% discount on your cost, you can calculate exactly how that changes your margin — or how much you could lower your price while maintaining the same profit percentage. A product you buy for $80 and sell for $120 has a 33% margin. Drop your cost to $72 and your margin jumps to 40%, or you could lower your price to $112 and keep the original margin.\n\nAnother application is comparing business models. If you're deciding between selling physical products versus digital downloads, run both through the calculator. A $30 ebook with a $2 cost has a 93% margin, while a $30 physical book costing $12 to print and ship has a 60% margin. The ebook needs fewer sales to hit the same profit. These comparisons help you allocate time and marketing budget where margins actually reward you."
+    },
+    {
+      "heading": "Margin Mistakes That Quietly Drain Your Profits",
+      "body": "The most common error is confusing margin with markup, then pricing incorrectly for months. A 50% markup is only a 33% margin. If you tell yourself you need a 50% margin but calculate a 50% markup instead, you're making less money on every sale than you planned. This mistake compounds across hundreds of transactions before most people notice.\n\nAnother frequent problem is forgetting all your costs. Gross margin only accounts for direct costs — materials, manufacturing, wholesale price. It ignores shipping, payment processing fees, returns, and your time. If you sell handmade jewelry for $40 with $15 in materials, your gross margin is 62.5%. But add $5 shipping, $1.20 in credit card fees, and an hour of your labor at $20, and your real margin drops to negative territory. Use this calculator for gross margin, but always sanity-check against your full expense picture."
+    }
+  ]
 }

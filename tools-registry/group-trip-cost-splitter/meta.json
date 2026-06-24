@@ -39,5 +39,27 @@
     }
   ],
   "relatedTools": [],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "What Equal Cost Splitting Actually Does for Group Travel",
+      "body": "When four friends rent a beach house for $1,200 and split groceries, gas, and activities, someone inevitably ends up confused about who owes what. A group trip cost splitter takes the total amount everyone spent collectively and divides it evenly among all travelers. The result tells each person their fair share of the group expenses.\n\nThis approach assumes everyone participated equally in the trip's shared costs. It works beautifully when the group agrees that all major expenses benefit everyone equally — the rental property, communal meals, shared transportation, and group activities. The tool doesn't track who paid for what or who owes whom specifically. Instead, it establishes a baseline: if your group spent $2,400 total across six people, each person's fair share is $400. From there, you can figure out who needs to pay or receive money based on what they already contributed."
+    },
+    {
+      "heading": "The Simple Division Behind Your Per-Person Cost",
+      "body": "The math here is straightforward division, but seeing it worked out removes any doubt. Take your total trip expenses and divide by the number of travelers. If your group of five spent $875 on a weekend cabin trip, each person owes $875 divided by 5, which equals $175 per person.\n\nLet's say your group tracked these shared costs: $450 for the cabin rental, $180 for groceries, $95 for firewood and supplies, and $150 for a group river rafting excursion. Add those together and you get $875 total. Divide that by your five travelers, and the per-person cost comes to exactly $175. This calculation intentionally excludes personal purchases like that expensive souvenir someone bought for themselves. Only expenses that benefited the whole group should enter the total.\n\nThe formula stays the same regardless of how many categories of expenses you have. What matters is the accurate sum going in."
+    },
+    {
+      "heading": "Planning a Bachelor Party Weekend: A Real Example",
+      "body": "Consider a bachelor party with eight friends heading to Nashville for three nights. The best man has been collecting money and paying for things, but the receipts are scattered across Venmo requests, credit card statements, and cash transactions. Time to settle up properly.\n\nThe group's shared expenses include a vacation rental at $890, two dinners totaling $640, a party bus rental at $320, concert tickets at $480, and breakfast supplies at $85. Adding these gives a total of $2,415. Divided among eight people, each person's share comes to $301.88. Now the best man can compare what each person already paid against this target. If someone only Venmoed $200 earlier, they still owe $101.88. If another friend put $500 on their credit card for the group, they should receive $198.12 back from the pool.\n\nThis approach cuts through the chaos of multiple payment methods and partial contributions, giving everyone a clear target number."
+    },
+    {
+      "heading": "Beyond Basic Splitting: Scenarios Most Groups Miss",
+      "body": "The straightforward split works for most trips, but consider using it for partial group activities. Say seven friends go to Cancun, but only four want the expensive snorkeling excursion at $280. Run the splitter just for those four participants, and each owes $70 for that activity specifically. Meanwhile, the main trip costs still split seven ways. Running separate calculations for subgroup activities keeps things fair without forcing everyone to subsidize experiences they skipped.\n\nAnother overlooked use involves pre-trip planning and budgeting. Before booking anything, estimate your expected costs and run the split to see if the per-person price works for everyone's budget. If your group of six is looking at a $3,600 vacation rental plus roughly $900 in other shared costs, that's $750 per person. Knowing this number upfront helps the friend with a tighter budget decide if they can comfortably participate, saving awkward conversations later."
+    },
+    {
+      "heading": "Three Mistakes That Create Arguments After the Trip",
+      "body": "The most common error is including personal expenses in the group total. When someone adds their $45 spa treatment or $60 bar tab from a solo night out, the split becomes unfair to everyone else. Only costs that genuinely benefited all travelers belong in the calculation. Keep a clear mental line between shared and personal spending throughout the trip.\n\nForgetting to account for tips causes problems too. That $640 dinner bill might have been $740 after a 20% tip, and leaving out $100 means everyone underpays by $12.50 in a group of eight. Always use the final amount that actually left someone's wallet.\n\nFinally, people forget about cash expenses. The $40 someone paid for parking, the $25 tip to the shuttle driver, the $15 for ice runs — these add up. Designate someone to track cash purchases in a notes app throughout the trip, or you'll undercount your total and shortchange whoever covered those costs."
+    }
+  ]
 }

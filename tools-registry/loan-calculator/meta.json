@@ -91,5 +91,27 @@
       "defaultVariant": "personal",
       "headline": "Calculate your personal loan monthly payment and total interest cost. Helps you compare loan offers and choose the best terms."
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "What a Loan Calculator Actually Tells You About Your Debt",
+      "body": "A loan calculator answers the question that keeps people up at night: how much will this really cost me? When you borrow £20,000 for a car or £250,000 for a house, the sticker price is just the beginning. The calculator reveals your true cost by computing three things: your fixed monthly payment, the total interest you'll pay over the loan's lifetime, and how that payment splits between reducing your debt and paying the bank's fee for lending you money.\n\nThe tool works for any fixed-rate loan where you make equal payments over time. Mortgages, car finance, personal loans, student loans with fixed rates — they all follow the same mathematics. What changes is the principal amount, the interest rate, and the repayment period. A £15,000 car loan at 7% over five years behaves identically, mathematically, to a £300,000 mortgage at 5% over twenty-five years. The calculator simply scales the numbers to fit your situation."
+    },
+    {
+      "heading": "The Monthly Payment Formula, Broken Down With Real Numbers",
+      "body": "The formula looks intimidating at first glance: Monthly Payment = P × [r(1+r)^n] / [(1+r)^n - 1]. But it's just arithmetic done carefully. P is your principal (the amount borrowed), r is your monthly interest rate (annual rate divided by 12), and n is the total number of monthly payments. Let's work through a concrete example: a £10,000 personal loan at 6% annual interest over 3 years.\n\nFirst, convert the annual rate to monthly: 6% ÷ 12 = 0.5%, or 0.005 as a decimal. Your total payments: 3 years × 12 months = 36 payments. Now plug in: £10,000 × [0.005 × (1.005)^36] / [(1.005)^36 - 1]. The term (1.005)^36 equals roughly 1.1967. So you get £10,000 × [0.005 × 1.1967] / [0.1967], which simplifies to £10,000 × 0.0304 = £304.22 per month. Over 36 months, you'll pay £10,951.92 total — meaning £951.92 goes purely to interest."
+    },
+    {
+      "heading": "Planning a First Home Purchase: A Complete Worked Example",
+      "body": "Sarah found a flat listed at £185,000 and has saved £25,000 for a deposit. She needs to borrow £160,000. Her bank offers a 25-year mortgage at 4.5% fixed for five years. What will she actually pay each month, and what's the true cost of this home? Running the numbers: monthly rate is 0.375% (4.5 ÷ 12), and she'll make 300 payments (25 × 12). Her monthly payment comes to £889.\n\nOver 25 years, Sarah will pay £266,700 in total — meaning she'll pay £106,700 in interest on top of her £160,000 loan. That's nearly 67% extra. The amortization schedule reveals something else useful: in her first payment, £489 goes to interest and only £400 reduces her actual debt. By payment 180 (fifteen years in), the split reverses: £338 to interest, £551 to principal. This shift matters enormously if Sarah considers selling or refinancing — early in the loan, she builds equity painfully slowly."
+    },
+    {
+      "heading": "Two Ways to Use This Calculator That Most People Miss",
+      "body": "Beyond basic payment calculations, this tool helps you negotiate and plan strategically. Before visiting a car dealership, run the numbers yourself. If a salesperson offers 8.9% financing on a £22,000 car over 60 months, you'll know instantly that means £456 monthly and £5,360 in total interest. Armed with that knowledge, you can compare their offer against a credit union's 6.5% rate (£430 monthly, £3,800 interest) and negotiate from strength rather than guessing.\n\nThe calculator also shows the dramatic impact of extra payments. Take that £160,000 mortgage from earlier. If Sarah pays just £100 extra monthly toward principal, she'll finish the loan in 21 years instead of 25 and save £22,400 in interest. The tool lets you model this by adjusting the payment amount upward. Even irregular lump sums — a tax refund or bonus — can shave years off your loan when applied to principal rather than spent elsewhere."
+    },
+    {
+      "heading": "Five Mistakes That Lead to Unpleasant Payment Surprises",
+      "body": "The most common error is confusing APR with the nominal interest rate. A loan advertised at 5.9% APR might have additional fees built in, while the base rate used in calculations could be 5.5%. Always verify which rate to enter. Similarly, people forget that the calculator assumes fixed-rate loans — if your mortgage rate adjusts after a teaser period, your actual payments will change, sometimes dramatically.\n\nAnother trap is ignoring the loan term's impact. Stretching a £15,000 car loan from 48 to 72 months drops your payment from £359 to £254, which feels easier. But you'll pay £3,288 in interest instead of £2,232 — an extra thousand pounds for the privilege of smaller monthly bills. Finally, don't forget deposit effects: borrowing £18,000 versus £20,000 (by adding £2,000 to your deposit) doesn't just save £2,000; at 7% over five years, it saves £2,364 because you avoid interest on that amount too."
+    }
   ]
 }

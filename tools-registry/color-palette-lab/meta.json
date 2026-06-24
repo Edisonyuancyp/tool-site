@@ -49,5 +49,27 @@
     }
   ],
   "relatedTools": [],
-  "variants": []
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "Why Designers Need Both Screen and Print Color Values in One Place",
+      "body": "Color exists differently on screens than on paper. Your monitor displays colors by mixing red, green, and blue light, which is why web designers work with HEX codes like #3B82F6 or RGB values like rgb(59, 130, 246). Printers work backwards — they start with white paper and subtract light using cyan, magenta, yellow, and black inks. This fundamental difference means a vibrant blue that pops on your MacBook might print as muddy purple if you don't translate it properly.\n\nThis tool bridges that gap by showing you five carefully assembled palettes with values for both worlds. Each palette contains colors that actually work together — contrast ratios that meet accessibility standards, complementary hues that create visual harmony. Instead of picking random colors and hoping they translate, you're starting with combinations that professional designers have already vetted. The Medical Blue palette, for instance, uses colors that convey trust and cleanliness, while Dark Tech leans into deep backgrounds with high-contrast accents."
+    },
+    {
+      "heading": "How RGB Becomes CMYK: The Conversion Math Explained",
+      "body": "The formula for converting RGB to CMYK looks intimidating but follows clear logic. Take a color like the coral accent in the Retro Film palette: HEX #E07A5F, which equals RGB(224, 122, 95). First, normalize these values to a 0-1 scale by dividing each by 255. You get R=0.878, G=0.478, B=0.373. Now find K (black) by calculating 1 minus the highest of those three values: K = 1 - 0.878 = 0.122, or about 12% black.\n\nWith K established, you calculate the other three. Cyan equals (1 - R - K) divided by (1 - K), so (1 - 0.878 - 0.122) / (1 - 0.122) = 0/0.878 = 0% cyan. Magenta follows the same pattern with G: (1 - 0.478 - 0.122) / 0.878 = 0.456, or 46% magenta. Yellow uses B: (1 - 0.373 - 0.122) / 0.878 = 0.575, or 58% yellow. The tool handles this instantly, but understanding the math helps you spot when a conversion might produce unexpected results — like when a bright screen color requires ink percentages that exceed what standard presses can handle."
+    },
+    {
+      "heading": "Building a Complete Brand Kit: A Real Design Workflow",
+      "body": "Suppose you're designing identity materials for a sustainable coffee roaster. You click into the Eco Green palette and see five coordinated colors: a deep forest green, a lighter sage, a warm cream, a rich brown, and an accent gold. For the website, you grab the Tailwind classes — bg-emerald-800 for headers, text-emerald-600 for links, bg-amber-50 for backgrounds. These drop straight into your code without touching a CSS file.\n\nBut the client also needs business cards and packaging. Click over to Print mode and the same colors now show CMYK breakdowns. That forest green converts to C:78 M:32 Y:68 K:18, values you send directly to your printer. The Pantone reference shows 7484 C as a visual approximation — close enough for initial proofs, though you'll confirm with a physical swatch before the final run. In twenty minutes, you've assembled a consistent color system that works across every medium the brand will touch, from Instagram posts to paper bags."
+    },
+    {
+      "heading": "Two Unexpected Ways to Use This Tool Beyond Basic Design",
+      "body": "Data visualization benefits enormously from curated palettes. The Dark Tech scheme provides colors specifically chosen to remain distinguishable against dark backgrounds — essential for dashboards and charts. That cyan at #22D3EE and magenta at #E879F9 maintain enough contrast that viewers with color vision deficiencies can still differentiate between data series. Copy the HEX values into your charting library and you've solved accessibility concerns that trip up many developers.\n\nAnother overlooked use: proofing client mockups against print reality. When a client sends you a mood board full of Pinterest screenshots, you can quickly check whether their favorite bright orange actually survives CMYK conversion. Some don't — a neon coral might require Pantone spot color printing to reproduce faithfully, which increases costs. Showing them the CMYK breakdown early prevents disappointment when proofs arrive looking duller than expected. This tool becomes a communication device, not just a design utility."
+    },
+    {
+      "heading": "The Pantone Trap and Other Mistakes That Waste Time and Money",
+      "body": "The most expensive mistake is treating the Pantone references as gospel. These codes are visual estimates, not official Pantone conversions. Pantone guards its color data carefully — you need their proprietary software or physical guides for production-accurate matching. If you specify Pantone 300 C to a printer based solely on what this tool suggests, you might receive prints that don't match your screen preview. Always confirm critical brand colors against a physical Pantone Fan Deck before signing off on any print job.\n\nAnother common error involves copying CMYK values without considering paper stock. The formula assumes you're printing on coated white paper under standard conditions. Uncoated stock absorbs ink differently, so that C:78 M:32 Y:68 K:18 green will look darker and less saturated on kraft paper than on glossy cardstock. Ask your printer for proofs on actual production materials. Similarly, some designers copy Tailwind classes without checking their project's configuration — if you've customized the default color palette in tailwind.config.js, the class names might not produce the colors you expect."
+    }
+  ]
 }

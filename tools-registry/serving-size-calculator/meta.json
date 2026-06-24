@@ -72,5 +72,27 @@
       "defaultVariant": "family-size-variant-key",
       "headline": "Adjust recipes to feed the whole family with ease."
     }
+  ],
+  "seoBody": [
+    {
+      "heading": "What Recipe Scaling Actually Means for Your Cooking",
+      "body": "Recipe scaling is straightforward multiplication and division applied to ingredient quantities. When a recipe serves four and you need to feed twelve, every ingredient amount gets multiplied by three. When you're cooking for one from a recipe written for six, everything divides by six. The math is simple, but doing it by hand for a dozen ingredients while managing a hot stove is where mistakes creep in.\n\nThis calculator handles the arithmetic so you can focus on the cooking itself. You tell it how many servings the original recipe makes, how many you actually need, and the original amount of each ingredient. It returns the adjusted quantities instantly. The tool works whether you're measuring in cups, grams, ounces, or tablespoons—units don't change the underlying ratio.\n\nThe real value isn't just convenience. It's accuracy. Mental math errors compound when you're scaling multiple ingredients, and a small mistake with salt or baking powder can ruin an entire dish."
+    },
+    {
+      "heading": "The Scaling Formula with Real Numbers Worked Through",
+      "body": "The calculation uses a simple ratio: divide your desired servings by the original servings to get your scaling factor, then multiply each ingredient by that factor. If a recipe serves 4 and you want 10 servings, your scaling factor is 10 divided by 4, which equals 2.5. An ingredient listed as 200 grams becomes 500 grams. Two cups of flour becomes five cups.\n\nLet's work through a complete example. A cookie recipe makes 24 cookies and calls for 225 grams of butter, 150 grams of sugar, and 1.5 teaspoons of vanilla. You want 36 cookies for a bake sale. The scaling factor is 36 divided by 24, which is 1.5. Butter becomes 337.5 grams, sugar becomes 225 grams, and vanilla becomes 2.25 teaspoons.\n\nThe formula never changes regardless of what you're cooking. Scaling down works identically—if you only want 12 cookies from that same recipe, your factor is 0.5, so butter drops to 112.5 grams."
+    },
+    {
+      "heading": "Scaling Sunday Dinner for an Unexpected Crowd",
+      "body": "Picture this: your lasagna recipe serves 8, perfect for a family dinner. Then your sister calls and mentions she's bringing her husband's parents, plus the kids want friends over. Suddenly you're feeding 14 people. Rather than eyeballing extra ingredients and hoping for the best, you need precise adjustments.\n\nYour scaling factor is 14 divided by 8, which equals 1.75. The original recipe calls for 500 grams of ground beef, 400 grams of ricotta, 12 lasagna sheets, and 700 ml of marinara sauce. After scaling, you need 875 grams of beef, 700 grams of ricotta, 21 lasagna sheets, and 1,225 ml of sauce. Those lasagna sheets present a practical problem—you can't use 21 exactly, so you'll round to 20 or 24 depending on your pan.\n\nThis scenario reveals why a calculator beats mental math. Multiplying by 1.75 across multiple ingredients while checking the pantry and preheating the oven is a recipe for errors, not dinner."
+    },
+    {
+      "heading": "Beyond Basic Recipes: Cocktails, Meal Prep, and Catering Math",
+      "body": "Most people use serving calculators for dinner parties, but the tool shines in less obvious situations. Cocktail recipes typically serve one, and scaling for a party of 20 requires precision—too much citrus makes drinks undrinkable, too little spirit makes them watery. A margarita calling for 60 ml tequila, 30 ml lime juice, and 20 ml triple sec scales to 1,200 ml tequila, 600 ml lime, and 400 ml triple sec for a batch of 20. That's nearly a full bottle of tequila, which is genuinely useful information before your guests arrive.\n\nMeal preppers benefit differently. If your weekly chicken stir-fry serves 2 and you want 5 containers for the work week, you need a factor of 2.5. Nutritional calculations also scale proportionally, so you can accurately log macros in your tracking app.\n\nCaterers use this math constantly. When a client adds 15 guests to a 50-person event, every dish needs a 1.3 multiplier applied consistently across potentially hundreds of ingredients."
+    },
+    {
+      "heading": "Where Recipe Scaling Goes Wrong and How to Stay Accurate",
+      "body": "The most common mistake is forgetting that cooking times don't scale linearly with ingredient amounts. Doubling a cake recipe doesn't mean doubling the bake time—it often means using two pans or adding just 10-15 minutes. A casserole scaled from 4 to 12 servings might need a larger dish and slightly longer cooking, but not three times as long.\n\nAnother frequent error involves leavening agents like baking powder and yeast. These don't always scale proportionally in baked goods. If you double a bread recipe, you might only need 1.75 times the yeast because fermentation behaves differently at larger volumes. For casual cooking this rarely matters, but precision bakers should consult scaling guides for these specific ingredients.\n\nFinally, watch your equipment capacity. Scaling a soup from 4 to 16 servings produces roughly 4 liters of liquid. If your largest pot holds 3 liters, no calculator can fix that problem. Check your pan sizes before shopping."
+    }
   ]
 }
