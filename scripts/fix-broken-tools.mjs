@@ -82,7 +82,7 @@ function toPascal(slug) {
 function hasTypeError(filePath) {
   try {
     execSync(
-      `npx tsc --noEmit --strict --jsx react --esModuleInterop --moduleResolution bundler --target esnext --lib esnext,dom "${filePath}"`,
+      `npx tsc --noEmit --strict --jsx react-jsx --esModuleInterop --module esnext --moduleResolution bundler --target esnext --lib esnext,dom --skipLibCheck "${filePath}"`,
       { cwd: ROOT, stdio: "pipe" }
     );
     return false;
@@ -92,26 +92,70 @@ function hasTypeError(filePath) {
 }
 
 // ── Also do a quick syntax-only check via node parse ─────────────────────────
-function hasSyntaxError(filePath) {
-  const src = fs.readFileSync(filePath, "utf8");
-  // Basic heuristics: unmatched braces/parens
-  let braces = 0, parens = 0, brackets = 0;
-  let inString = false, strChar = "", inTemplate = 0;
-  for (let i = 0; i < src.length; i++) {
-    const c = src[i];
-    if (inString) {
-      if (c === strChar && src[i - 1] !== "\\") inString = false;
+// Skips strings and template literals so braces inside JSX/${} don't get
+// miscounted. This avoids false positives like scientific-calculator.
+
+function skipString(src, start, quote) {
+  let i = start + 1;
+  while (i < src.length) {
+    if (src[i] === "\\") { i += 2; continue; }
+    if (src[i] === quote) return i + 1;
+    i++;
+  }
+  return i;
+}
+
+function skipTemplateLiteral(src, start) {
+  let i = start + 1;
+  while (i < src.length) {
+    if (src[i] === "\\") { i += 2; continue; }
+    if (src[i] === "`") return i + 1;
+    if (src[i] === "$" && src[i + 1] === "{") {
+      // Skip ${ ... } expression, accounting for nested braces/strings/templates
+      let depth = 1;
+      i += 2;
+      while (i < src.length && depth > 0) {
+        if (src[i] === '"' || src[i] === "'") {
+          i = skipString(src, i, src[i]);
+          continue;
+        }
+        if (src[i] === "`") {
+          i = skipTemplateLiteral(src, i);
+          continue;
+        }
+        if (src[i] === "{") depth++;
+        if (src[i] === "}") depth--;
+        if (depth === 0) { i++; break; }
+        i++;
+      }
       continue;
     }
-    if (c === "`") { inTemplate++; continue; }
-    if (inTemplate > 0 && c === "`") { inTemplate--; continue; }
-    if (c === '"' || c === "'") { inString = true; strChar = c; continue; }
+    i++;
+  }
+  return i;
+}
+
+function hasSyntaxError(filePath) {
+  const src = fs.readFileSync(filePath, "utf8");
+  let braces = 0, parens = 0, brackets = 0;
+  let i = 0;
+  while (i < src.length) {
+    const c = src[i];
+    if (c === '"' || c === "'") {
+      i = skipString(src, i, c);
+      continue;
+    }
+    if (c === "`") {
+      i = skipTemplateLiteral(src, i);
+      continue;
+    }
     if (c === "{") braces++;
     if (c === "}") braces--;
     if (c === "(") parens++;
     if (c === ")") parens--;
     if (c === "[") brackets++;
     if (c === "]") brackets--;
+    i++;
   }
   if (braces !== 0 || parens !== 0 || brackets !== 0) return true;
   // Must export a default function/component
@@ -126,8 +170,12 @@ function processTool(slug) {
   const viewPath = path.join(REGISTRY, slug, "view.tsx");
   if (!fs.existsSync(viewPath)) return "no-view";
 
-  const broken = hasSyntaxError(viewPath);
-  if (!broken) return "ok";
+  // Fast naive check first, then confirm with tsc to avoid false positives
+  const naiveBroken = hasSyntaxError(viewPath);
+  if (!naiveBroken) return "ok";
+
+  const tscBroken = hasTypeError(viewPath);
+  if (!tscBroken) return "ok";
 
   const componentName = toPascal(slug);
   const metaPath = path.join(REGISTRY, slug, "meta.json");
