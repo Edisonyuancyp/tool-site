@@ -1,43 +1,148 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> GetFastCalc is a free, browser-based tool hub with 100+ calculators and utilities.
-> All tools run entirely in the browser — no signup, no data stored, instant results.
-> URL: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-06-24. Site: https://getfastcalc.com
 
-## What GetFastCalc Offers
+GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
+Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
 
-GetFastCalc provides free, instant-answer tools across six major categories:
+## Popular tools
 
-- **Math & Finance Calculators** — percentage, BMI, compound interest, tax, loan, tip, salary
-- **Health & Fitness** — BMI, body fat, BMR/TDEE, water intake, running pace, sleep, ovulation
-- **Developer Tools** — base converter, base64 encoder/decoder, JSON formatter, diff checker, Unix timestamp
-- **Date & Time** — age calculator, holiday calculator, Unix timestamp converter
-- **Generators & Design** — QR code generator, password generator, emoji picker, color tools
-- **Converters** — number base converter, currency converter, unit converters
+- Percentage Calculator: https://getfastcalc.com/tools/finance/percentage-calculator — Calculate percentages, increases, decreases, and more
+- BMI Calculator: https://getfastcalc.com/tools/calc/bmi-calculator — Calculate your Body Mass Index instantly
+- Compound Interest Calculator: https://getfastcalc.com/tools/finance/compound-interest-calculator — See how your money grows over time with compound interest
+- Income Tax Calculator: https://getfastcalc.com/tools/finance/tax-calculator — Calculate income tax for USA, UK, Canada, Australia and more
+- Tip Calculator: https://getfastcalc.com/tools/finance/tip-calculator — Calculate tip amount and split the bill instantly
+- Loan Calculator: https://getfastcalc.com/tools/finance/loan-calculator — Calculate monthly payments, total interest, and amortization schedule
+- Age Calculator: https://getfastcalc.com/tools/time/age-calculator — Find your exact age in years, months, and days
 
-## Key Tools (Direct Links)
+## All tools by category
 
-- BMI Calculator: https://getfastcalc.com/tools/calc/bmi-calculator
-- Percentage Calculator: https://getfastcalc.com/tools/calc/percentage-calculator
-- Compound Interest Calculator: https://getfastcalc.com/tools/calc/compound-interest-calculator
-- Tax Calculator: https://getfastcalc.com/tools/calc/tax-calculator
-- Age Calculator: https://getfastcalc.com/tools/calc/age-calculator
-- Scientific Calculator: https://getfastcalc.com/tools/calc/scientific-calculator
-- Password Generator: https://getfastcalc.com/tools/design/password-generator
-- QR Code Generator: https://getfastcalc.com/tools/design/qr-code-generator
-- Base Converter: https://getfastcalc.com/tools/dev/base-converter
-- Base64 Tool: https://getfastcalc.com/tools/dev/base64-tool
-- JSON/CSV Formatter: https://getfastcalc.com/tools/dev/json-csv-formatter
-- Unix Timestamp Converter: https://getfastcalc.com/tools/time/unix-timestamp-converter
+### Content
+- Markdown Previewer: https://getfastcalc.com/tools/content/markdown-previewer — Write and preview Markdown live — clean editor, instant rendered output
 
-## About
+### Converter
+- Celsius to Fahrenheit Converter: https://getfastcalc.com/tools/celsius-to-fahrenheit — Convert °C to °F — and back — with instant visual feedback
+- CM to Inches Converter: https://getfastcalc.com/tools/cm-to-inch — Instantly convert centimeters to inches — and back
+- Grams to Ounces Converter: https://getfastcalc.com/tools/g-to-oz — Convert grams to ounces (and oz to g) instantly
+- KG to LBS Converter: https://getfastcalc.com/tools/kg-to-lbs — Convert kilograms to pounds — and back — instantly
+- Meters to Feet Converter: https://getfastcalc.com/tools/m-to-feet — Convert meters to feet and feet to meters instantly
 
-GetFastCalc is built for speed and simplicity. Every tool:
-- Runs 100% in the browser (no server-side computation)
-- Requires no account or signup
-- Shows instant results as you type
-- Is mobile-friendly and accessible
+### Cooking
+- Cooking Time Calculator: https://getfastcalc.com/tools/cooking-time-calculator — Calculate cooking times easily.
+- Ingredient Substitution Calculator: https://getfastcalc.com/tools/ingredient-substitution-calculator — Find substitutes for missing ingredients.
+- Leftover Recipe Generator: https://getfastcalc.com/tools/leftover-recipe-generator — Turn leftovers into delicious meals.
+- Serving Size Calculator: https://getfastcalc.com/tools/serving-size-calculator — Adjust recipes for any number of servings.
+
+### Crypto
+- Crypto Market Cap Comparator: https://getfastcalc.com/tools/calc/crypto-market-cap-comparator — If coin X reached coin Y's market cap, what would its price be?
+- Position Size Calculator: https://getfastcalc.com/tools/calc/position-size-calculator — Never risk more than you can afford — calculate the perfect position size
+- Take Profit / Stop Loss Calculator: https://getfastcalc.com/tools/calc/tp-sl-calculator — Calculate your exact PnL, R:R ratio and liquidation price before you trade
+
+### Date & Time
+- Age Calculator: https://getfastcalc.com/tools/time/age-calculator — Find your exact age in years, months, and days
+- Holiday Calculator: https://getfastcalc.com/tools/time/holiday-calculator — Find public holidays and calculate days until the next one
+
+### Design
+- Professional Color Palette Lab: https://getfastcalc.com/tools/design/color-palette-lab — Explore curated industry palettes with HEX, Tailwind, CMYK, and Pantone reference
+- Dark Tech Color Palette: https://getfastcalc.com/tools/design/palette-dark-tech — High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep blacks with electric neon accents.
+- Eco Green Color Palette: https://getfastcalc.com/tools/design/palette-eco-green — Nature-inspired organic palette for sustainability brands, wellness, and environmental products. Deep forest greens and warm earth tones.
+- Medical Blue Color Palette: https://getfastcalc.com/tools/design/palette-medical — Trustworthy, sterile palette for healthcare and medical applications. Calming blues and whites communicate safety and precision.
+- Retro Film Color Palette: https://getfastcalc.com/tools/design/palette-retro-film — Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and worn-paper cream.
+- Minimal SaaS Color Palette: https://getfastcalc.com/tools/design/palette-saas — Clean, high-contrast palette used by modern SaaS products. Neutral grays anchored by a confident indigo accent.
+- Typography Compare Lab: https://getfastcalc.com/tools/design/typography-compare-lab — Compare two Google Fonts side-by-side — instant preview, no signup
+
+### Developer
+- Number Base Converter: https://getfastcalc.com/tools/dev/base-converter — Convert numbers between any bases — binary, octal, decimal, hex, and more
+- Base64 Encoder / Decoder: https://getfastcalc.com/tools/dev/base64-tool — Encode and decode Base64 and URL-encoded strings instantly
+- Cron Expression Generator & Explainer: https://getfastcalc.com/tools/dev/cron-expression-generator — Build cron schedules visually, understand any cron string instantly
+- CSS Unit Converter: https://getfastcalc.com/tools/dev/css-unit-converter — Convert px to rem, em, vw and more — instant CSS unit calculations
+- CSS Variables Generator: https://getfastcalc.com/tools/dev/css-variables-generator — Build a custom color palette and export ready-to-use CSS variables and Tailwind config
+- Online Diff Checker: https://getfastcalc.com/tools/dev/diff-checker — Compare two texts, files, or code snippets side by side
+- JSON & CSV Formatter / Validator: https://getfastcalc.com/tools/dev/json-csv-formatter — Format, validate, and convert JSON and CSV instantly in your browser
+- JWT Decoder & Security Checker: https://getfastcalc.com/tools/dev/jwt-decoder — Decode and inspect any JWT token — with security analysis
+- Unix Timestamp Converter: https://getfastcalc.com/tools/dev/unix-timestamp-converter — Convert Unix timestamps to human-readable dates instantly
+- URL Encoder / Decoder: https://getfastcalc.com/tools/dev/url-encoder — Encode or decode URL strings instantly — no signup, no ads
+
+### Finance
+- Budget Calculator: https://getfastcalc.com/tools/finance/budget-calculator — Track income vs. expenses and see exactly where your money goes
+- Car Lease Calculator: https://getfastcalc.com/tools/finance/car-lease-calculator — Calculate your lease payments quickly!
+- Compound Interest Calculator: https://getfastcalc.com/tools/finance/compound-interest-calculator — See how your money grows over time with compound interest
+- Currency Converter: https://getfastcalc.com/tools/finance/currency-converter — Convert currencies with live exchange rates
+- Debt Repayment Calculator: https://getfastcalc.com/tools/finance/debt-repayment-calculator — See how long to pay off debt and how much interest you'll pay
+- Discount Calculator: https://getfastcalc.com/tools/finance/discount-calculator — Calculate sale price, savings, and original price from any discount percentage
+- Finance Charge Calculator: https://getfastcalc.com/tools/finance/finance-charge-calculator — Calculate your finance charges effortlessly!
+- Inflation & Purchasing Power Calculator: https://getfastcalc.com/tools/finance/inflation-calculator — What is $10,000 from 10 years ago worth today?
+- Investment Return Calculator: https://getfastcalc.com/tools/finance/investment-return-calculator — Calculate ROI, CAGR, and future value for any investment
+- Loan Calculator: https://getfastcalc.com/tools/finance/loan-calculator — Calculate monthly payments, total interest, and amortization schedule
+- Percentage Calculator: https://getfastcalc.com/tools/finance/percentage-calculator — Calculate percentages, increases, decreases, and more
+- Profit Margin Calculator: https://getfastcalc.com/tools/finance/profit-margin-calculator — Calculate gross profit margin, markup, and revenue — instant results
+- Rent vs Buy Calculator: https://getfastcalc.com/tools/finance/rent-vs-buy-calculator — Is it cheaper to rent or buy a home? Find out in 60 seconds.
+- Retirement Savings Calculator: https://getfastcalc.com/tools/finance/retirement-savings-calculator — See how much you need to save to retire comfortably
+- Savings Goal Calculator: https://getfastcalc.com/tools/finance/savings-goal-calculator — Plan your savings easily!
+- Income Tax Calculator: https://getfastcalc.com/tools/finance/tax-calculator — Calculate income tax for USA, UK, Canada, Australia and more
+- Tip Calculator: https://getfastcalc.com/tools/finance/tip-calculator — Calculate tip amount and split the bill instantly
+
+### Fitness
+- Fitness Age Calculator: https://getfastcalc.com/tools/fitness-age-calculator — Discover your fitness age now!
+- Fitness Level Quiz: https://getfastcalc.com/tools/fitness-level-quiz — Assess your fitness level today!
+- Hydration Needs Calculator: https://getfastcalc.com/tools/hydration-needs-calculator — Calculate your daily hydration needs!
+- Macro Tracker Calculator: https://getfastcalc.com/tools/macro-tracker-calculator — Track your macros effectively!
+
+### Generators
+- QR Code Generator: https://getfastcalc.com/tools/design/qr-code-generator — Generate a QR code for any text or URL instantly
+- Random Number Generator: https://getfastcalc.com/tools/design/random-number-generator — Generate truly random numbers instantly — single, list, or dice
+
+### Health
+- BMI Calculator: https://getfastcalc.com/tools/calc/bmi-calculator — Calculate your Body Mass Index instantly
+- BMR & TDEE Calculator: https://getfastcalc.com/tools/calc/bmr-tdee-calculator — Find your daily calorie burn and set the perfect target for your goal
+- Body Fat Percentage Calculator: https://getfastcalc.com/tools/calc/body-fat-calculator — Calculate your body fat % using the US Navy measurement method
+- Ideal Weight Calculator: https://getfastcalc.com/tools/calc/ideal-weight-calculator — Find your ideal weight using 4 medical formulas + healthy BMI range
+- Ovulation & Cycle Tracker: https://getfastcalc.com/tools/calc/ovulation-calculator — Predict fertile window, ovulation date, and next period
+- Running Pace Calculator: https://getfastcalc.com/tools/calc/running-pace-calculator — Calculate your running pace, speed, and finish time
+- Sleep Calculator: https://getfastcalc.com/tools/calc/sleep-calculator — Find the best time to wake up or go to sleep
+- Daily Water Intake Calculator: https://getfastcalc.com/tools/calc/water-intake-calculator — How much water should you drink per day? Find your personalized target
+
+### Home
+- Home Appliance Energy Calculator: https://getfastcalc.com/tools/home-appliance-energy-calculator — Calculate energy costs for your appliances.
+- Home Loan Affordability Calculator: https://getfastcalc.com/tools/home-loan-affordability-calculator — Determine how much home you can afford.
+- Home Tool Cost Calculator: https://getfastcalc.com/tools/home-tool-cost-calculator — Estimate your home tool expenses easily.
+
+### Math
+- Scientific Calculator: https://getfastcalc.com/tools/calc/scientific-calculator — Full-featured scientific calculator — trig, log, powers and more
+
+### Productivity
+- Daily Goal Tracker: https://getfastcalc.com/tools/daily-goal-tracker — Set and track your daily goals easily
+- Task Priority Calculator: https://getfastcalc.com/tools/task-priority-calculator — Rank your tasks for maximum efficiency
+- Time Blocking Scheduler: https://getfastcalc.com/tools/time-blocking-scheduler — Plan your day with time blocks
+- Work-Life Balance Calculator: https://getfastcalc.com/tools/work-life-balance-calculator — Assess your work-life balance today
+
+### Quant
+- Position Size Calculator: https://getfastcalc.com/tools/quant/risk-calculator — Calculate your position size and manage trading risk — free, instant, browser-only
+
+### Security
+- Password Generator: https://getfastcalc.com/tools/dev/password-generator — Generate strong, secure passwords instantly
+
+### Text
+- Character Counter for Social Media: https://getfastcalc.com/tools/content/character-counter — Real-time character & word count for Twitter, LinkedIn, Instagram, and more
+- SEO Headline Analyzer: https://getfastcalc.com/tools/content/headline-analyzer — Score your title for clicks, emotion, SEO power, and length
+
+### Travel
+- Carbon Footprint Travel Calculator: https://getfastcalc.com/tools/carbon-footprint-travel-calculator — Calculate your trip's carbon impact.
+- Group Trip Cost Splitter: https://getfastcalc.com/tools/group-trip-cost-splitter — Split trip costs among friends easily.
+- Travel Expense Estimator: https://getfastcalc.com/tools/travel-expense-estimator — Estimate your trip costs quickly.
+- Travel Time Calculator: https://getfastcalc.com/tools/travel-time-calculator — Calculate how long your trip will take.
+
+### Utilities
+- Emoji Picker: https://getfastcalc.com/tools/emoji-picker — Search, copy, and use any emoji instantly
+- GPA Calculator: https://getfastcalc.com/tools/gpa-calculator — Calculate your GPA instantly from letter grades or percentages
+- Text Case Converter: https://getfastcalc.com/tools/text-case-converter — Convert text to uppercase, lowercase, title case, camelCase, and more
+- Word Counter: https://getfastcalc.com/tools/word-counter — Count words, characters, sentences, and reading time
 
 ## Sitemap
+- Home: https://getfastcalc.com/
+- Sitemap: https://getfastcalc.com/sitemap.xml
+- robots.txt: https://getfastcalc.com/robots.txt
 
-Full tool list: https://getfastcalc.com/sitemap.xml
+## Notes for AI crawlers
+- Every tool page includes a built-in calculator and a detailed usage guide written for humans.
+- Tools are free, require no signup, and run entirely in the browser.
