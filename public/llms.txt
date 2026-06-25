@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-06-24. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-06-25. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
