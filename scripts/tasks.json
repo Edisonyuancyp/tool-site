@@ -1553,5 +1553,185 @@
         "headline": "Estimate affordability for purchasing investment properties."
       }
     ]
+  },
+  {
+    "slug": "contrast-checker-tool",
+    "name": "Contrast Checker Tool",
+    "tagline": "Ensure accessible color combinations",
+    "description": "Check the contrast ratio between two colors to ensure they meet WCAG accessibility standards. Ideal for UI/UX designers who prioritize accessibility in their designs.",
+    "metaTitle": "Contrast Checker – Color Accessibility | Free Online Tool",
+    "metaDescription": "Check color contrast ratios for accessibility. Free tool, no signup, instant results.",
+    "keywords": [
+      "contrast checker",
+      "color accessibility tool",
+      "WCAG contrast checker",
+      "design accessibility",
+      "color contrast ratio"
+    ],
+    "category": "Design",
+    "icon": "🎨",
+    "faqs": [
+      {
+        "question": "How do I use the Contrast Checker?",
+        "answer": "Simply enter two color values and click 'Check'. The tool will display the contrast ratio and accessibility level."
+      },
+      {
+        "question": "What are WCAG standards?",
+        "answer": "WCAG stands for Web Content Accessibility Guidelines, which provide recommendations for making web content more accessible."
+      },
+      {
+        "question": "Can I use HEX or RGB values?",
+        "answer": "Yes, you can input colors in HEX, RGB, or even named colors."
+      }
+    ],
+    "relatedTools": [
+      "color-palette-extractor",
+      "spacing-grid-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "typography-scale-generator",
+    "name": "Typography Scale Generator",
+    "tagline": "Create harmonious font sizes effortlessly",
+    "description": "Generate a typography scale based on your chosen base size and ratio to create visually appealing text hierarchies. Perfect for graphic designers and web developers looking to enhance readability.",
+    "metaTitle": "Typography Scale Generator – Font Size Tool | Free Online Tool",
+    "metaDescription": "Create a typography scale for your designs. Free tool, no signup, instant results.",
+    "keywords": [
+      "typography scale",
+      "font size generator",
+      "design typography",
+      "text hierarchy tool",
+      "font pairing"
+    ],
+    "category": "Design",
+    "icon": "🔤",
+    "faqs": [
+      {
+        "question": "What is a typography scale?",
+        "answer": "A typography scale is a series of font sizes based on a consistent ratio, helping to maintain visual harmony."
+      },
+      {
+        "question": "Can I customize the base size?",
+        "answer": "Yes, you can input any base size you prefer to generate your scale."
+      },
+      {
+        "question": "What ratios can I use?",
+        "answer": "Common ratios include the golden ratio, major third, and minor third."
+      }
+    ],
+    "relatedTools": [
+      "font-pairing-tool",
+      "color-palette-extractor"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "svg-clip-path-generator",
+    "name": "SVG Clip Path Generator",
+    "tagline": "Easily create custom clip paths",
+    "description": "Design and generate SVG clip paths by adjusting parameters like shape, size, and position. Ideal for front-end developers and designers looking to enhance their web graphics.",
+    "metaTitle": "SVG Clip Path Generator – Custom Shape Tool | Free Online Tool",
+    "metaDescription": "Create custom SVG clip paths for web graphics. Free tool, no signup, instant results.",
+    "keywords": [
+      "SVG clip path",
+      "clip path generator",
+      "web design tool",
+      "SVG graphics",
+      "custom shapes"
+    ],
+    "category": "Design",
+    "icon": "🖼️",
+    "faqs": [
+      {
+        "question": "What is an SVG clip path?",
+        "answer": "An SVG clip path is used to define a specific region of an SVG graphic to display, allowing for creative shapes."
+      },
+      {
+        "question": "Can I use my own shapes?",
+        "answer": "Yes, you can input custom shapes or select from predefined templates."
+      },
+      {
+        "question": "How do I implement the clip path in my code?",
+        "answer": "The tool provides the necessary code snippets to easily integrate into your project."
+      }
+    ],
+    "relatedTools": [
+      "css-gradient-builder",
+      "icon-grid-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "icon-library-browser",
+    "name": "Icon Library Browser",
+    "tagline": "Search and find the perfect icons",
+    "description": "Browse through a vast library of icons and filter by category, style, or usage. Great for UI/UX designers who need quick access to high-quality icons for their projects.",
+    "metaTitle": "Icon Library Browser – Find Icons Fast | Free Online Tool",
+    "metaDescription": "Discover and filter icons for your design projects. Free tool, no signup, instant results.",
+    "keywords": [
+      "icon library",
+      "find icons",
+      "UI design icons",
+      "graphic design icons",
+      "searchable icon database"
+    ],
+    "category": "Design",
+    "icon": "📁",
+    "faqs": [
+      {
+        "question": "How do I search for icons?",
+        "answer": "Use the search bar to enter keywords or browse through categories to find the icons you need."
+      },
+      {
+        "question": "Are the icons free to use?",
+        "answer": "Most icons are free for personal and commercial use, but check the individual licensing for details."
+      },
+      {
+        "question": "Can I download icons?",
+        "answer": "Yes, you can download icons in various formats like SVG, PNG, and more."
+      }
+    ],
+    "relatedTools": [
+      "font-pairing-tool",
+      "color-palette-extractor"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "responsive-image-calculator",
+    "name": "Responsive Image Calculator",
+    "tagline": "Optimize images for different screens",
+    "description": "Calculate the optimal size and resolution for images based on screen size and density. Perfect for web developers and designers wanting to improve load times and performance on various devices.",
+    "metaTitle": "Responsive Image Calculator – Optimize Images | Free Online Tool",
+    "metaDescription": "Calculate image sizes for different devices. Free tool, no signup, instant results.",
+    "keywords": [
+      "responsive image calculator",
+      "image optimization tool",
+      "web performance",
+      "device image sizes",
+      "responsive design"
+    ],
+    "category": "Design",
+    "icon": "📱",
+    "faqs": [
+      {
+        "question": "What is responsive image design?",
+        "answer": "Responsive image design ensures that images display correctly and efficiently across various device sizes."
+      },
+      {
+        "question": "How do I input my screen size?",
+        "answer": "You can enter the width and height of the target screen for accurate calculations."
+      },
+      {
+        "question": "Can I optimize for high-DPI screens?",
+        "answer": "Yes, the tool allows you to specify different resolutions for high-DPI displays."
+      }
+    ],
+    "relatedTools": [
+      "css-gradient-builder",
+      "spacing-grid-calculator"
+    ],
+    "variants": []
   }
 ]

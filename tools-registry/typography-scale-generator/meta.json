@@ -1,0 +1,87 @@
+{
+  "slug": "typography-scale-generator",
+  "name": "Typography Scale Generator",
+  "tagline": "Create harmonious font sizes effortlessly",
+  "description": "Generate a typography scale based on your chosen base size and ratio to create visually appealing text hierarchies. Perfect for graphic designers and web developers looking to enhance readability.",
+  "metaTitle": "Typography Scale Generator – Font Size Tool | Free Online Tool",
+  "metaDescription": "Create a typography scale for your designs. Free tool, no signup, instant results.",
+  "keywords": [
+    "typography scale",
+    "font size generator",
+    "design typography",
+    "text hierarchy tool",
+    "font pairing",
+    "typography scale generator generator free",
+    "typography scale generator online tool no download",
+    "typography scale generator hex codes",
+    "free design tool",
+    "color palette generator",
+    "instant preview",
+    "no photoshop needed",
+    "typography scale generator",
+    "typography scale generator figma",
+    "type scale generator",
+    "type scale generator figma",
+    "type scale generator google",
+    "typography size generator",
+    "type scale generator free",
+    "type scale generator for mobile"
+  ],
+  "category": "Design",
+  "urlPath": "/tools/design/typography-scale-generator",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "What is a typography scale?",
+      "answer": "A typography scale is a series of font sizes based on a consistent ratio, helping to maintain visual harmony."
+    },
+    {
+      "question": "Can I customize the base size?",
+      "answer": "Yes, you can input any base size you prefer to generate your scale."
+    },
+    {
+      "question": "What ratios can I use?",
+      "answer": "Common ratios include the golden ratio, major third, and minor third."
+    }
+  ],
+  "relatedTools": [
+    "font-pairing-tool",
+    "color-palette-extractor"
+  ],
+  "variants": [],
+  "seoContent": {
+    "h1Tendency": "instant Typography Scale Generator",
+    "painPoints": [
+      "Best free Typography Scale Generator online",
+      "How to create typography scale generator without software",
+      "Where to find typography scale generator color codes",
+      "Free Typography Scale Generator for web designers",
+      "Generate typography scale generator in seconds"
+    ],
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
+  },
+  "seoBody": [
+    {
+      "heading": "What is a typography scale?",
+      "body": "A typography scale is a systematic approach to defining font sizes in a design project. It helps create a cohesive visual hierarchy by establishing a set of font sizes based on a chosen base size and ratio. This method ensures that text elements such as headings, subheadings, and body text are proportionate, enhancing readability and aesthetic appeal. By using a typography scale, designers can maintain consistency across different platforms, whether in print or digital media.\n\nThe primary goal of a typography scale is to guide the viewer's eye through the content in a logical manner. When font sizes are harmonized, it becomes easier for readers to navigate and comprehend the information presented. This is particularly important for web developers and graphic designers who aim to create user-friendly interfaces and visually engaging layouts."
+    },
+    {
+      "heading": "How to create a typography scale",
+      "body": "Creating a typography scale involves selecting a base size and a ratio. The base size is the starting point for your font sizes, while the ratio determines how each subsequent size will relate to the base. A common formula used for this is: New Size = Base Size × Ratio. For instance, if your base size is 16px and you choose a ratio of 1.5, your next size would be 16px × 1.5 = 24px.\n\nTo generate a complete scale, you can continue applying the formula to each new size. You might choose ratios such as the golden ratio (1.618), a perfect fourth (1.333), or a simple doubling (2.0). Each ratio will yield different results, allowing you to customize your typography scale based on the visual style you desire."
+    },
+    {
+      "heading": "Example of a typography scale",
+      "body": "Let's say you decide to use a base size of 16px and a ratio of 1.25. Using the formula mentioned earlier, you can calculate the following sizes: \n- Base Size: 16px \n- First Scale: 16px × 1.25 = 20px \n- Second Scale: 20px × 1.25 = 25px \n- Third Scale: 25px × 1.25 = 31.25px \n- Fourth Scale: 31.25px × 1.25 = 39.06px\n\nThis results in a typography scale of 16px, 20px, 25px, 31.25px, and 39.06px. You can use these sizes for different text elements in your design, such as the body text at 16px, subheadings at 20px, and main headings at 39.06px. This structured approach ensures that your text hierarchy is visually appealing and easy to read."
+    },
+    {
+      "heading": "Common mistakes when using a typography scale",
+      "body": "One common mistake is neglecting to test your typography scale across different devices and screen sizes. What looks good on a desktop may not translate well to mobile devices. Always preview your typography in various contexts to ensure readability remains consistent. \n\nAnother frequent error is using too many different font sizes, which can lead to a cluttered design. Stick to a limited number of sizes derived from your scale to maintain harmony. Lastly, remember that accessibility is key; ensure that your chosen sizes are legible for all users, including those with visual impairments. By avoiding these pitfalls, you can create a more effective and user-friendly typography scale."
+    }
+  ]
+}
