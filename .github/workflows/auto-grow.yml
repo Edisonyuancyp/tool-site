@@ -62,16 +62,18 @@ jobs:
           # Scheduled weekday mapping
           DAY=$(date -u +%u)
           case "$DAY" in
-            1) echo "MODE=new-tool"  ; echo "CATEGORY=ecommerce" ;;
-            2) echo "MODE=content"   ; echo "CATEGORY=" ;;
-            3) echo "MODE=new-tool"  ; echo "CATEGORY=quant" ;;
-            4) echo "MODE=seo-geo"   ; echo "CATEGORY=" ;;
-            5) echo "MODE=new-tool"  ; echo "CATEGORY=design" ;;
-            6) echo "MODE=keywords"  ; echo "CATEGORY=" ;;
-            7) echo "MODE=maintenance"; echo "CATEGORY=" ;;
-            *) echo "MODE=maintenance"; echo "CATEGORY=" ;;
-          esac >> "$GITHUB_OUTPUT"
-          echo "Run mode: scheduled / weekday=$DAY"
+            1) MODE=new-tool;   CATEGORY=ecommerce ;;
+            2) MODE=content;    CATEGORY= ;;
+            3) MODE=new-tool;   CATEGORY=quant ;;
+            4) MODE=seo-geo;    CATEGORY= ;;
+            5) MODE=new-tool;   CATEGORY=design ;;
+            6) MODE=keywords;   CATEGORY= ;;
+            7) MODE=maintenance; CATEGORY= ;;
+            *) MODE=maintenance; CATEGORY= ;;
+          esac
+          echo "MODE=$MODE"         >> "$GITHUB_OUTPUT"
+          echo "CATEGORY=$CATEGORY" >> "$GITHUB_OUTPUT"
+          echo "Run mode: scheduled / weekday=$DAY / mode=$MODE"
 
       # ── Mode: new-tool ──────────────────────────────────────────────────────
       - name: Research + Generate new tool
