@@ -1,0 +1,73 @@
+{
+  "slug": "fba-packing-calculator",
+  "name": "FBA Carton Packing Calculator",
+  "tagline": "Pack FBA shipments smarter — visualize box layout, avoid wasted space and Amazon oversize fees",
+  "description": "Drag products into a 2D carton view, get instant space utilization, FBA size/weight rule checks, smart box-size recommendations, and a one-click printable packing list.",
+  "metaTitle": "FBA Carton Packing Calculator – Box Size Optimizer for Amazon FBA",
+  "metaDescription": "Free FBA carton packing calculator. Drag-and-drop product layout, automatic box-size recommendation, Amazon FBA weight & size rule validation, and printable packing list.",
+  "keywords": [
+    "fba carton calculator",
+    "amazon fba box size calculator",
+    "fba packing calculator",
+    "box packing optimizer",
+    "carton loading calculator",
+    "fba shipment calculator",
+    "amazon box size limit",
+    "fba box weight calculator",
+    "product packing planner",
+    "fba packaging tool"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "urlPath": "/tools/ecommerce/fba-packing-calculator",
+  "faqs": [
+    {
+      "question": "What are Amazon FBA box size limits?",
+      "answer": "Standard FBA boxes must not exceed 25 inches on any single side and must weigh no more than 50 lbs (22.7 kg). Boxes over 50 lbs require a 'Team Lift' label. Oversized items have separate rules."
+    },
+    {
+      "question": "How is dimensional (volumetric) weight calculated for FBA?",
+      "answer": "Amazon calculates dimensional weight as length × width × height (inches) ÷ 139. If the dimensional weight is greater than the actual weight, the higher value determines the shipping fee."
+    },
+    {
+      "question": "What box sizes does Amazon FBA recommend?",
+      "answer": "Amazon recommends standard carton sizes such as 18×14×12 in, 20×16×14 in, or 24×18×18 in. Using standard sizes reduces the risk of damage and simplifies warehouse scanning."
+    },
+    {
+      "question": "How do I calculate how many units fit in a carton?",
+      "answer": "Enter your product dimensions and the carton inner dimensions. The calculator uses a 2D bin-packing algorithm to estimate the optimal arrangement and tells you exactly how many units fit per layer and how many layers are possible."
+    },
+    {
+      "question": "Can I use this calculator for non-FBA shipments?",
+      "answer": "Yes. The packing calculator works for any carton shipment — Shopify orders, freight pallets, or personal moves. Simply ignore the FBA-specific rule warnings if they don't apply to you."
+    },
+    {
+      "question": "What is the best way to pack an FBA carton to avoid damage?",
+      "answer": "Place the heaviest and largest items at the bottom. Leave at least 2 inches of padding on all sides. Avoid mixing fragile and heavy items in the same carton. Make sure nothing shifts when you shake the box."
+    }
+  ],
+  "relatedTools": ["profit-margin-calculator", "currency-converter", "discount-calculator"],
+  "variants": [],
+  "seoBody": [
+    {
+      "heading": "Why Your FBA Box Size Directly Affects Profitability",
+      "body": "Most sellers focus on product cost and referral fees, but the carton you choose quietly eats into your margins. Amazon charges by dimensional weight — whichever is heavier between actual weight and volume ÷ 139. A carton that's only 60% full means you're paying freight on empty air.\n\nThis calculator solves the packing puzzle before you cut the first tape strip. Enter your product dimensions, pick a carton size (or let the tool recommend one), and watch the 2D layout fill in automatically. The utilization meter tells you instantly whether your current box choice is costing you money.\n\nFor high-velocity SKUs, even a 10% improvement in box density can save hundreds of dollars per shipment. Run the calculator once per product refresh cycle and treat the recommended box size as part of your COGS calculation."
+    },
+    {
+      "heading": "Amazon FBA Box Rules You Must Not Violate",
+      "body": "Amazon's FC workers process thousands of cartons per hour. Oversized or overweight boxes slow the line and trigger costly non-compliance fees. The hard limits are: maximum 25 inches per side, maximum 50 lbs per carton, and no sharp protrusions that could damage adjacent cartons.\n\nThis calculator flags violations in real time as you add products. The weight counter turns red when you approach the 50 lb limit, and a warning badge appears the moment any dimension exceeds 25 inches. You'll also see a Team Lift warning at 49 lbs — Amazon requires a yellow 'Team Lift' label on anything between 50 and 100 lbs.\n\nDimensional weight is displayed alongside actual weight so you know exactly which figure Amazon will bill. For lightweight but bulky items like foam inserts or inflatable packaging, dimensional weight is almost always higher — and this tool catches that."
+    },
+    {
+      "heading": "How the 2D Drag-and-Drop Layout Works",
+      "body": "The canvas shows a top-down view of the carton's base. Each product appears as a colored rectangle sized proportionally to its footprint. The algorithm first sorts products by area (largest first) and then uses a shelf-packing strategy to fit them into rows, similar to how a skilled warehouse picker would actually stack a box.\n\nYou can drag any product block to a different position if the automatic layout doesn't match your physical packing preference — for example, placing fragile items away from the carton walls. Rotate any block 90° with a single click to test whether landscape or portrait orientation gives a better fit.\n\nThe real-time utilization percentage updates as you make changes. Green means 70%+, amber is 50–70%, and red below 50% — a signal to try a smaller carton size."
+    },
+    {
+      "heading": "Smart Box Recommendation: Which Carton Size Saves the Most",
+      "body": "Instead of guessing which of the 6 standard FBA carton sizes to use, click Recommend Box. The calculator runs your product list through all standard sizes and ranks them by space utilization and number of cartons needed.\n\nThe recommendation table shows: carton dimensions, units per carton, estimated dimensional weight, and total number of cartons for your full shipment quantity. Pick the row with the highest utilization that still keeps weight under 50 lbs.\n\nFor mixed-SKU shipments, the tool runs a separate optimization pass for each SKU combination and highlights when splitting into two carton types would save more space than forcing everything into one size."
+    },
+    {
+      "heading": "Printing Your FBA Packing List",
+      "body": "Once you're happy with the layout, click Print Packing List to generate a clean, printer-friendly summary. Each page covers one carton: product name, quantity, individual dimensions, total weight, and a small diagram of the stacking order.\n\nThis document serves double duty — it gives your warehouse team a visual guide for assembly and provides the content you need to fill in Amazon's 'Carton Contents' fields during the shipment creation workflow. Accurate carton contents speed up FC receiving and reduce the chance of an inventory discrepancy.\n\nSave a PDF copy for your shipment records. If Amazon ever flags a discrepancy, a timestamped packing list with exact quantities is your first line of documentation."
+    }
+  ]
+}
