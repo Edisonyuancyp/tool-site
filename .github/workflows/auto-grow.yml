@@ -122,7 +122,10 @@ jobs:
         if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
         run: python scripts/maintenance.py
 
-      # ── Shared: build + auto-fix + commit ───────────────────────────────────
+      # ── Shared: audit + auto-fix + build + commit ──────────────────────────
+      - name: Audit all tools (self-check)
+        run: node scripts/audit-tools.mjs || true
+
       - name: Auto-fix broken tool views
         run: node scripts/fix-broken-tools.mjs
 
