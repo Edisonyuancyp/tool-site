@@ -57,7 +57,73 @@
     "inflation-calculator",
     "mortgage-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "rent-vs-buy-calculator-for-students",
+      "metaTitle": "Rent vs Buy Calculator for Students – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Free rent vs buy calculator for college students managing tight budgets. Compare the true financial cost of renting vs buying a home. Factors in mortgage No signup required.",
+      "keywords": [
+        "rent vs buy calculator for students",
+        "students rent vs buy calculator",
+        "free rent vs buy calculator students",
+        "rent vs buy calculator for students",
+        "online rent vs buy calculator students"
+      ],
+      "headline": "Rent vs Buy Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "rent-vs-buy-calculator-for-business",
+      "metaTitle": "Rent vs Buy Calculator for Business – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Free rent vs buy calculator for small business owners and freelancers. Compare the true financial cost of renting vs buying a home. Factors in mortgage No signup required.",
+      "keywords": [
+        "rent vs buy calculator for business",
+        "business rent vs buy calculator",
+        "free rent vs buy calculator business",
+        "rent vs buy calculator for business",
+        "online rent vs buy calculator business"
+      ],
+      "headline": "Rent vs Buy Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "rent-vs-buy-calculator-uk",
+      "metaTitle": "Rent vs Buy Calculator for UK – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Free rent vs buy calculator for users in the United Kingdom using GBP. Compare the true financial cost of renting vs buying a home. Factors in mortgage No signup required.",
+      "keywords": [
+        "rent vs buy calculator for uk",
+        "uk rent vs buy calculator",
+        "free rent vs buy calculator uk",
+        "rent vs buy calculator uk",
+        "online rent vs buy calculator uk"
+      ],
+      "headline": "Rent vs Buy Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "rent-vs-buy-calculator-canada",
+      "metaTitle": "Rent vs Buy Calculator for Canada – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Free rent vs buy calculator for Canadian users using CAD. Compare the true financial cost of renting vs buying a home. Factors in mortgage No signup required.",
+      "keywords": [
+        "rent vs buy calculator for canada",
+        "canada rent vs buy calculator",
+        "free rent vs buy calculator canada",
+        "rent vs buy calculator canada",
+        "online rent vs buy calculator canada"
+      ],
+      "headline": "Rent vs Buy Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "rent-vs-buy-calculator-australia",
+      "metaTitle": "Rent vs Buy Calculator for Australia – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Free rent vs buy calculator for Australian users using AUD. Compare the true financial cost of renting vs buying a home. Factors in mortgage No signup required.",
+      "keywords": [
+        "rent vs buy calculator for australia",
+        "australia rent vs buy calculator",
+        "free rent vs buy calculator australia",
+        "rent vs buy calculator australia",
+        "online rent vs buy calculator australia"
+      ],
+      "headline": "Rent vs Buy Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "article": {
     "title": "Rent vs Buy: The Financial Analysis Most People Never Do",
     "sections": [

@@ -57,7 +57,47 @@
     "word-counter",
     "markdown-previewer"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "headline-analyzer-online",
+      "metaTitle": "SEO Headline Analyzer for Online – Free Online SEO Headline Analyzer",
+      "metaDescription": "Free seo headline analyzer for users looking for a free online tool. Analyze any headline or article title for SEO effectiveness. Scores keyword powe No signup required.",
+      "keywords": [
+        "seo headline analyzer for online",
+        "online seo headline analyzer",
+        "free seo headline analyzer online",
+        "seo headline analyzer online",
+        "online seo headline analyzer online"
+      ],
+      "headline": "SEO Headline Analyzer optimised for users looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "headline-analyzer-for-seo",
+      "metaTitle": "SEO Headline Analyzer for SEO – Free Online SEO Headline Analyzer",
+      "metaDescription": "Free seo headline analyzer for SEO professionals and content marketers. Analyze any headline or article title for SEO effectiveness. Scores keyword powe No signup required.",
+      "keywords": [
+        "seo headline analyzer for seo",
+        "seo seo headline analyzer",
+        "free seo headline analyzer seo",
+        "seo headline analyzer for seo",
+        "online seo headline analyzer seo"
+      ],
+      "headline": "SEO Headline Analyzer optimised for SEO professionals and content marketers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "headline-analyzer-for-students",
+      "metaTitle": "SEO Headline Analyzer for Students – Free Online SEO Headline Analyzer",
+      "metaDescription": "Free seo headline analyzer for students writing essays and papers. Analyze any headline or article title for SEO effectiveness. Scores keyword powe No signup required.",
+      "keywords": [
+        "seo headline analyzer for students",
+        "students seo headline analyzer",
+        "free seo headline analyzer students",
+        "seo headline analyzer for students",
+        "online seo headline analyzer students"
+      ],
+      "headline": "SEO Headline Analyzer optimised for students writing essays and papers. Free, instant, no signup required."
+    }
+  ],
   "article": {
     "title": "How to Write High-CTR Headlines: A Data-Driven Guide",
     "sections": [

@@ -47,7 +47,73 @@
     "loan-calculator",
     "finance-charge-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "car-lease-calculator-for-students",
+      "metaTitle": "Car Lease Calculator for Students – Free Online Car Lease Calculator",
+      "metaDescription": "Free car lease calculator for college students managing tight budgets. This tool helps users estimate their monthly car lease payments based on the veh No signup required.",
+      "keywords": [
+        "car lease calculator for students",
+        "students car lease calculator",
+        "free car lease calculator students",
+        "car lease calculator for students",
+        "online car lease calculator students"
+      ],
+      "headline": "Car Lease Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "car-lease-calculator-for-business",
+      "metaTitle": "Car Lease Calculator for Business – Free Online Car Lease Calculator",
+      "metaDescription": "Free car lease calculator for small business owners and freelancers. This tool helps users estimate their monthly car lease payments based on the veh No signup required.",
+      "keywords": [
+        "car lease calculator for business",
+        "business car lease calculator",
+        "free car lease calculator business",
+        "car lease calculator for business",
+        "online car lease calculator business"
+      ],
+      "headline": "Car Lease Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "car-lease-calculator-uk",
+      "metaTitle": "Car Lease Calculator for UK – Free Online Car Lease Calculator",
+      "metaDescription": "Free car lease calculator for users in the United Kingdom using GBP. This tool helps users estimate their monthly car lease payments based on the veh No signup required.",
+      "keywords": [
+        "car lease calculator for uk",
+        "uk car lease calculator",
+        "free car lease calculator uk",
+        "car lease calculator uk",
+        "online car lease calculator uk"
+      ],
+      "headline": "Car Lease Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "car-lease-calculator-canada",
+      "metaTitle": "Car Lease Calculator for Canada – Free Online Car Lease Calculator",
+      "metaDescription": "Free car lease calculator for Canadian users using CAD. This tool helps users estimate their monthly car lease payments based on the veh No signup required.",
+      "keywords": [
+        "car lease calculator for canada",
+        "canada car lease calculator",
+        "free car lease calculator canada",
+        "car lease calculator canada",
+        "online car lease calculator canada"
+      ],
+      "headline": "Car Lease Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "car-lease-calculator-australia",
+      "metaTitle": "Car Lease Calculator for Australia – Free Online Car Lease Calculator",
+      "metaDescription": "Free car lease calculator for Australian users using AUD. This tool helps users estimate their monthly car lease payments based on the veh No signup required.",
+      "keywords": [
+        "car lease calculator for australia",
+        "australia car lease calculator",
+        "free car lease calculator australia",
+        "car lease calculator australia",
+        "online car lease calculator australia"
+      ],
+      "headline": "Car Lease Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Car Lease Calculator Actually Reveals About Your Monthly Payment",

@@ -66,7 +66,47 @@
     "text-case-converter",
     "diff-checker"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "markdown-previewer-online",
+      "metaTitle": "Markdown Previewer for Online – Free Online Markdown Previewer",
+      "metaDescription": "Free markdown previewer for content creators and bloggers. Write Markdown in the left panel and see the rendered HTML preview on the right, No signup required.",
+      "keywords": [
+        "markdown previewer for online",
+        "online markdown previewer",
+        "free markdown previewer online",
+        "markdown previewer online",
+        "online markdown previewer online"
+      ],
+      "headline": "Markdown Previewer optimised for content creators and bloggers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "markdown-previewer-free",
+      "metaTitle": "Markdown Previewer for Free – Free Online Markdown Previewer",
+      "metaDescription": "Free markdown previewer for users looking for a completely free tool. Write Markdown in the left panel and see the rendered HTML preview on the right, No signup required.",
+      "keywords": [
+        "markdown previewer for free",
+        "free markdown previewer",
+        "free markdown previewer free",
+        "markdown previewer free",
+        "online markdown previewer free"
+      ],
+      "headline": "Markdown Previewer optimised for users looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "markdown-previewer-for-bloggers",
+      "metaTitle": "Markdown Previewer for Bloggers – Free Online Markdown Previewer",
+      "metaDescription": "Free markdown previewer for bloggers and content writers. Write Markdown in the left panel and see the rendered HTML preview on the right, No signup required.",
+      "keywords": [
+        "markdown previewer for bloggers",
+        "bloggers markdown previewer",
+        "free markdown previewer bloggers",
+        "markdown previewer for bloggers",
+        "online markdown previewer bloggers"
+      ],
+      "headline": "Markdown Previewer optimised for bloggers and content writers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "How Markdown Becomes the Formatted Text You See",

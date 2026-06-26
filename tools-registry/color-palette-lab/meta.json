@@ -49,7 +49,47 @@
     }
   ],
   "relatedTools": [],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "color-palette-lab-online",
+      "metaTitle": "Professional Color Palette Lab for Online – Free Online Professional Color Palette Lab",
+      "metaDescription": "Free professional color palette lab for designers looking for a free online tool. Browse 5 industry-grade color palettes — Minimal SaaS, Medical Blue, Retro Film, No signup required.",
+      "keywords": [
+        "professional color palette lab for online",
+        "online professional color palette lab",
+        "free professional color palette lab online",
+        "professional color palette lab online",
+        "online professional color palette lab online"
+      ],
+      "headline": "Professional Color Palette Lab optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "color-palette-lab-free",
+      "metaTitle": "Professional Color Palette Lab for Free – Free Online Professional Color Palette Lab",
+      "metaDescription": "Free professional color palette lab for designers looking for a completely free tool. Browse 5 industry-grade color palettes — Minimal SaaS, Medical Blue, Retro Film, No signup required.",
+      "keywords": [
+        "professional color palette lab for free",
+        "free professional color palette lab",
+        "free professional color palette lab free",
+        "professional color palette lab free",
+        "online professional color palette lab free"
+      ],
+      "headline": "Professional Color Palette Lab optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "color-palette-lab-for-web",
+      "metaTitle": "Professional Color Palette Lab for Web Design – Free Online Professional Color Palette Lab",
+      "metaDescription": "Free professional color palette lab for web designers and front-end developers. Browse 5 industry-grade color palettes — Minimal SaaS, Medical Blue, Retro Film, No signup required.",
+      "keywords": [
+        "professional color palette lab for web design",
+        "web design professional color palette lab",
+        "free professional color palette lab web design",
+        "professional color palette lab for web",
+        "online professional color palette lab web design"
+      ],
+      "headline": "Professional Color Palette Lab optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why Designers Need Both Screen and Print Color Values in One Place",

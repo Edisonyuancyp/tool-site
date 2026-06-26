@@ -121,5 +121,182 @@
       "heading": "Five Common BMI Mistakes That Skew Your Results",
       "body": "The most frequent error is mixing units. Entering your weight in pounds while the calculator expects kilograms will produce wildly wrong results. A 150-pound person entered as 150 kilograms would show a BMI of 47 instead of roughly 24. Always double-check which measurement system the tool uses before hitting calculate.\n\nHeight mistakes cause similar problems. People often overestimate their height by an inch or two, which flatters the final number. At 5 feet 10 inches versus 5 feet 8 inches, the same 180-pound person sees their BMI drop from 26.6 to 25.8. That two-inch difference could shift someone from overweight to the edge of normal, creating false reassurance. Measure yourself barefoot against a wall for accuracy.\n\nFinally, people forget that BMI categories weren't designed for children, pregnant women, or serious athletes. A pregnant woman in her third trimester shouldn't panic over a high BMI. A competitive cyclist with massive leg muscles will register as overweight despite low body fat. Context matters. Use BMI as a starting point, then bring questions to a healthcare provider who can see the full picture."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "bmi-5ft0",
+      "metaTitle": "BMI Calculator 5Ft0 – Healthy Weight at 5Ft0",
+      "metaDescription": "Calculate your BMI if you are 5ft0. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 5Ft0",
+      "description": "Enter your weight to instantly calculate your BMI at 5ft0 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-5ft2",
+      "metaTitle": "BMI Calculator 5Ft2 – Healthy Weight at 5Ft2",
+      "metaDescription": "Calculate your BMI if you are 5ft2. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 5Ft2",
+      "description": "Enter your weight to instantly calculate your BMI at 5ft2 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-5ft4",
+      "metaTitle": "BMI Calculator 5Ft4 – Healthy Weight at 5Ft4",
+      "metaDescription": "Calculate your BMI if you are 5ft4. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 5Ft4",
+      "description": "Enter your weight to instantly calculate your BMI at 5ft4 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-5ft6",
+      "metaTitle": "BMI Calculator 5Ft6 – Healthy Weight at 5Ft6",
+      "metaDescription": "Calculate your BMI if you are 5ft6. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 5Ft6",
+      "description": "Enter your weight to instantly calculate your BMI at 5ft6 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-5ft8",
+      "metaTitle": "BMI Calculator 5Ft8 – Healthy Weight at 5Ft8",
+      "metaDescription": "Calculate your BMI if you are 5ft8. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 5Ft8",
+      "description": "Enter your weight to instantly calculate your BMI at 5ft8 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-5ft10",
+      "metaTitle": "BMI Calculator 5Ft10 – Healthy Weight at 5Ft10",
+      "metaDescription": "Calculate your BMI if you are 5ft10. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 5Ft10",
+      "description": "Enter your weight to instantly calculate your BMI at 5ft10 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-6ft0",
+      "metaTitle": "BMI Calculator 6Ft0 – Healthy Weight at 6Ft0",
+      "metaDescription": "Calculate your BMI if you are 6ft0. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 6Ft0",
+      "description": "Enter your weight to instantly calculate your BMI at 6ft0 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-6ft2",
+      "metaTitle": "BMI Calculator 6Ft2 – Healthy Weight at 6Ft2",
+      "metaDescription": "Calculate your BMI if you are 6ft2. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 6Ft2",
+      "description": "Enter your weight to instantly calculate your BMI at 6ft2 and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-160cm",
+      "metaTitle": "BMI Calculator 160Cm – Healthy Weight at 160Cm",
+      "metaDescription": "Calculate your BMI if you are 160cm. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 160Cm",
+      "description": "Enter your weight to instantly calculate your BMI at 160cm and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-165cm",
+      "metaTitle": "BMI Calculator 165Cm – Healthy Weight at 165Cm",
+      "metaDescription": "Calculate your BMI if you are 165cm. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 165Cm",
+      "description": "Enter your weight to instantly calculate your BMI at 165cm and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-170cm",
+      "metaTitle": "BMI Calculator 170Cm – Healthy Weight at 170Cm",
+      "metaDescription": "Calculate your BMI if you are 170cm. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 170Cm",
+      "description": "Enter your weight to instantly calculate your BMI at 170cm and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-175cm",
+      "metaTitle": "BMI Calculator 175Cm – Healthy Weight at 175Cm",
+      "metaDescription": "Calculate your BMI if you are 175cm. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 175Cm",
+      "description": "Enter your weight to instantly calculate your BMI at 175cm and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-180cm",
+      "metaTitle": "BMI Calculator 180Cm – Healthy Weight at 180Cm",
+      "metaDescription": "Calculate your BMI if you are 180cm. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 180Cm",
+      "description": "Enter your weight to instantly calculate your BMI at 180cm and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-185cm",
+      "metaTitle": "BMI Calculator 185Cm – Healthy Weight at 185Cm",
+      "metaDescription": "Calculate your BMI if you are 185cm. See your weight category, healthy weight range, and personalised advice. Free, instant.",
+      "h1": "BMI Calculator for 185Cm",
+      "description": "Enter your weight to instantly calculate your BMI at 185cm and find out if you're in a healthy range."
+    },
+    {
+      "param": "bmi-50kg",
+      "metaTitle": "BMI for 50 kg – What Is My BMI at 50 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 50 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 50 kg",
+      "description": "Calculate the BMI for a person weighing 50 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-55kg",
+      "metaTitle": "BMI for 55 kg – What Is My BMI at 55 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 55 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 55 kg",
+      "description": "Calculate the BMI for a person weighing 55 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-60kg",
+      "metaTitle": "BMI for 60 kg – What Is My BMI at 60 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 60 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 60 kg",
+      "description": "Calculate the BMI for a person weighing 60 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-65kg",
+      "metaTitle": "BMI for 65 kg – What Is My BMI at 65 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 65 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 65 kg",
+      "description": "Calculate the BMI for a person weighing 65 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-70kg",
+      "metaTitle": "BMI for 70 kg – What Is My BMI at 70 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 70 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 70 kg",
+      "description": "Calculate the BMI for a person weighing 70 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-75kg",
+      "metaTitle": "BMI for 75 kg – What Is My BMI at 75 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 75 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 75 kg",
+      "description": "Calculate the BMI for a person weighing 75 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-80kg",
+      "metaTitle": "BMI for 80 kg – What Is My BMI at 80 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 80 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 80 kg",
+      "description": "Calculate the BMI for a person weighing 80 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-85kg",
+      "metaTitle": "BMI for 85 kg – What Is My BMI at 85 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 85 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 85 kg",
+      "description": "Calculate the BMI for a person weighing 85 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-90kg",
+      "metaTitle": "BMI for 90 kg – What Is My BMI at 90 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 90 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 90 kg",
+      "description": "Calculate the BMI for a person weighing 90 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-95kg",
+      "metaTitle": "BMI for 95 kg – What Is My BMI at 95 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 95 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 95 kg",
+      "description": "Calculate the BMI for a person weighing 95 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    },
+    {
+      "param": "bmi-100kg",
+      "metaTitle": "BMI for 100 kg – What Is My BMI at 100 kg?",
+      "metaDescription": "What is the BMI for someone who weighs 100 kg? Find your weight category and healthy weight range instantly. Free BMI calculator.",
+      "h1": "BMI Calculator for 100 kg",
+      "description": "Calculate the BMI for a person weighing 100 kg at any height. See which BMI category applies and what a healthy weight looks like."
+    }
   ]
 }

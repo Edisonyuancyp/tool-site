@@ -66,7 +66,73 @@
     "tax-calculator",
     "risk-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "profit-margin-calculator-for-students",
+      "metaTitle": "Profit Margin Calculator for Students – Free Online Profit Margin Calculator",
+      "metaDescription": "Free profit margin calculator for college students managing tight budgets. Calculate gross profit margin, net margin, markup percentage, and revenue from c No signup required.",
+      "keywords": [
+        "profit margin calculator for students",
+        "students profit margin calculator",
+        "free profit margin calculator students",
+        "profit margin calculator for students",
+        "online profit margin calculator students"
+      ],
+      "headline": "Profit Margin Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "profit-margin-calculator-for-business",
+      "metaTitle": "Profit Margin Calculator for Business – Free Online Profit Margin Calculator",
+      "metaDescription": "Free profit margin calculator for small business owners and freelancers. Calculate gross profit margin, net margin, markup percentage, and revenue from c No signup required.",
+      "keywords": [
+        "profit margin calculator for business",
+        "business profit margin calculator",
+        "free profit margin calculator business",
+        "profit margin calculator for business",
+        "online profit margin calculator business"
+      ],
+      "headline": "Profit Margin Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "profit-margin-calculator-uk",
+      "metaTitle": "Profit Margin Calculator for UK – Free Online Profit Margin Calculator",
+      "metaDescription": "Free profit margin calculator for users in the United Kingdom using GBP. Calculate gross profit margin, net margin, markup percentage, and revenue from c No signup required.",
+      "keywords": [
+        "profit margin calculator for uk",
+        "uk profit margin calculator",
+        "free profit margin calculator uk",
+        "profit margin calculator uk",
+        "online profit margin calculator uk"
+      ],
+      "headline": "Profit Margin Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "profit-margin-calculator-canada",
+      "metaTitle": "Profit Margin Calculator for Canada – Free Online Profit Margin Calculator",
+      "metaDescription": "Free profit margin calculator for Canadian users using CAD. Calculate gross profit margin, net margin, markup percentage, and revenue from c No signup required.",
+      "keywords": [
+        "profit margin calculator for canada",
+        "canada profit margin calculator",
+        "free profit margin calculator canada",
+        "profit margin calculator canada",
+        "online profit margin calculator canada"
+      ],
+      "headline": "Profit Margin Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "profit-margin-calculator-australia",
+      "metaTitle": "Profit Margin Calculator for Australia – Free Online Profit Margin Calculator",
+      "metaDescription": "Free profit margin calculator for Australian users using AUD. Calculate gross profit margin, net margin, markup percentage, and revenue from c No signup required.",
+      "keywords": [
+        "profit margin calculator for australia",
+        "australia profit margin calculator",
+        "free profit margin calculator australia",
+        "profit margin calculator australia",
+        "online profit margin calculator australia"
+      ],
+      "headline": "Profit Margin Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Profit Margin Really Tells You About Your Business",

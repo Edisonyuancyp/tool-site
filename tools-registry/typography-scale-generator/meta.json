@@ -48,7 +48,47 @@
     "font-pairing-tool",
     "color-palette-extractor"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "typography-scale-generator-online",
+      "metaTitle": "Typography Scale Generator for Online – Free Online Typography Scale Generator",
+      "metaDescription": "Free typography scale generator for designers looking for a free online tool. Generate a typography scale based on your chosen base size and ratio to create v No signup required.",
+      "keywords": [
+        "typography scale generator for online",
+        "online typography scale generator",
+        "free typography scale generator online",
+        "typography scale generator online",
+        "online typography scale generator online"
+      ],
+      "headline": "Typography Scale Generator optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "typography-scale-generator-free",
+      "metaTitle": "Typography Scale Generator for Free – Free Online Typography Scale Generator",
+      "metaDescription": "Free typography scale generator for designers looking for a completely free tool. Generate a typography scale based on your chosen base size and ratio to create v No signup required.",
+      "keywords": [
+        "typography scale generator for free",
+        "free typography scale generator",
+        "free typography scale generator free",
+        "typography scale generator free",
+        "online typography scale generator free"
+      ],
+      "headline": "Typography Scale Generator optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "typography-scale-generator-for-web",
+      "metaTitle": "Typography Scale Generator for Web Design – Free Online Typography Scale Generator",
+      "metaDescription": "Free typography scale generator for web designers and front-end developers. Generate a typography scale based on your chosen base size and ratio to create v No signup required.",
+      "keywords": [
+        "typography scale generator for web design",
+        "web design typography scale generator",
+        "free typography scale generator web design",
+        "typography scale generator for web",
+        "online typography scale generator web design"
+      ],
+      "headline": "Typography Scale Generator optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "instant Typography Scale Generator",
     "painPoints": [

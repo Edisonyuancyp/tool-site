@@ -48,7 +48,47 @@
     "color-palette-extractor",
     "spacing-grid-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "contrast-checker-tool-online",
+      "metaTitle": "Contrast Checker Tool for Online – Free Online Contrast Checker Tool",
+      "metaDescription": "Free contrast checker tool for designers looking for a free online tool. Check the contrast ratio between two colors to ensure they meet WCAG accessibili No signup required.",
+      "keywords": [
+        "contrast checker tool for online",
+        "online contrast checker tool",
+        "free contrast checker tool online",
+        "contrast checker tool online",
+        "online contrast checker tool online"
+      ],
+      "headline": "Contrast Checker Tool optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "contrast-checker-tool-free",
+      "metaTitle": "Contrast Checker Tool for Free – Free Online Contrast Checker Tool",
+      "metaDescription": "Free contrast checker tool for designers looking for a completely free tool. Check the contrast ratio between two colors to ensure they meet WCAG accessibili No signup required.",
+      "keywords": [
+        "contrast checker tool for free",
+        "free contrast checker tool",
+        "free contrast checker tool free",
+        "contrast checker tool free",
+        "online contrast checker tool free"
+      ],
+      "headline": "Contrast Checker Tool optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "contrast-checker-tool-for-web",
+      "metaTitle": "Contrast Checker Tool for Web Design – Free Online Contrast Checker Tool",
+      "metaDescription": "Free contrast checker tool for web designers and front-end developers. Check the contrast ratio between two colors to ensure they meet WCAG accessibili No signup required.",
+      "keywords": [
+        "contrast checker tool for web design",
+        "web design contrast checker tool",
+        "free contrast checker tool web design",
+        "contrast checker tool for web",
+        "online contrast checker tool web design"
+      ],
+      "headline": "Contrast Checker Tool optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "instant Contrast Checker Tool",
     "painPoints": [

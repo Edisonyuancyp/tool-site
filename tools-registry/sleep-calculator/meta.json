@@ -112,5 +112,119 @@
       "heading": "Why the Calculator Sometimes Fails (and How to Fix It)",
       "body": "The biggest mistake is treating the 14-minute sleep onset as gospel. If you regularly lie awake for 30 minutes, the calculator's suggestions will be off by 16 minutes — enough to land you in deep sleep. Track your own pattern for a week. If you consistently take longer to fall asleep, subtract that extra time from the suggested bedtime. The same applies if you fall asleep instantly; you might need to go to bed slightly later than recommended.\n\nAnother common error is ignoring alcohol and caffeine effects. Alcohol fragments sleep cycles, making them shorter and less regular, so the 90-minute math becomes unreliable. Caffeine consumed within 6 hours of bed extends sleep onset time significantly. The calculator assumes normal physiology — if you've had three glasses of wine, the wake time suggestions won't hold. Finally, don't obsess over hitting the exact minute. Sleep cycles vary from 80 to 100 minutes between individuals and even night to night. The calculator gives you a target window, not a precise prescription."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "wake-5-00am",
+      "metaTitle": "Sleep Calculator – Wake Up at 5:00am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 5:00am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 5:00am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 5:00am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-5-30am",
+      "metaTitle": "Sleep Calculator – Wake Up at 5:30am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 5:30am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 5:30am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 5:30am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-6-00am",
+      "metaTitle": "Sleep Calculator – Wake Up at 6:00am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 6:00am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 6:00am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 6:00am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-6-30am",
+      "metaTitle": "Sleep Calculator – Wake Up at 6:30am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 6:30am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 6:30am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 6:30am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-7-00am",
+      "metaTitle": "Sleep Calculator – Wake Up at 7:00am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 7:00am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 7:00am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 7:00am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-7-30am",
+      "metaTitle": "Sleep Calculator – Wake Up at 7:30am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 7:30am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 7:30am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 7:30am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-8-00am",
+      "metaTitle": "Sleep Calculator – Wake Up at 8:00am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 8:00am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 8:00am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 8:00am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-8-30am",
+      "metaTitle": "Sleep Calculator – Wake Up at 8:30am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 8:30am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 8:30am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 8:30am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "wake-9-00am",
+      "metaTitle": "Sleep Calculator – Wake Up at 9:00am Feeling Refreshed",
+      "metaDescription": "What time should you go to sleep to wake up at 9:00am after a full sleep cycle? Free sleep cycle calculator — find your ideal bedtime.",
+      "h1": "Best Bedtime to Wake Up at 9:00am",
+      "description": "Calculate the ideal time to fall asleep so you wake up at 9:00am at the end of a complete 90-minute sleep cycle, feeling alert and rested."
+    },
+    {
+      "param": "sleep-8-00pm",
+      "metaTitle": "Sleep Calculator – Go to Bed at 8:00pm",
+      "metaDescription": "If you go to bed at 8:00pm what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 8:00pm",
+      "description": "Find the best times to wake up after going to bed at 8:00pm — calculated to land at the end of a natural sleep cycle so you feel rested."
+    },
+    {
+      "param": "sleep-9-00pm",
+      "metaTitle": "Sleep Calculator – Go to Bed at 9:00pm",
+      "metaDescription": "If you go to bed at 9:00pm what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 9:00pm",
+      "description": "Find the best times to wake up after going to bed at 9:00pm — calculated to land at the end of a natural sleep cycle so you feel rested."
+    },
+    {
+      "param": "sleep-10-00pm",
+      "metaTitle": "Sleep Calculator – Go to Bed at 10:00pm",
+      "metaDescription": "If you go to bed at 10:00pm what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 10:00pm",
+      "description": "Find the best times to wake up after going to bed at 10:00pm — calculated to land at the end of a natural sleep cycle so you feel rested."
+    },
+    {
+      "param": "sleep-10-30pm",
+      "metaTitle": "Sleep Calculator – Go to Bed at 10:30pm",
+      "metaDescription": "If you go to bed at 10:30pm what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 10:30pm",
+      "description": "Find the best times to wake up after going to bed at 10:30pm — calculated to land at the end of a natural sleep cycle so you feel rested."
+    },
+    {
+      "param": "sleep-11-00pm",
+      "metaTitle": "Sleep Calculator – Go to Bed at 11:00pm",
+      "metaDescription": "If you go to bed at 11:00pm what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 11:00pm",
+      "description": "Find the best times to wake up after going to bed at 11:00pm — calculated to land at the end of a natural sleep cycle so you feel rested."
+    },
+    {
+      "param": "sleep-11-30pm",
+      "metaTitle": "Sleep Calculator – Go to Bed at 11:30pm",
+      "metaDescription": "If you go to bed at 11:30pm what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 11:30pm",
+      "description": "Find the best times to wake up after going to bed at 11:30pm — calculated to land at the end of a natural sleep cycle so you feel rested."
+    },
+    {
+      "param": "sleep-12-00am",
+      "metaTitle": "Sleep Calculator – Go to Bed at 12:00am",
+      "metaDescription": "If you go to bed at 12:00am what time should you wake up? See all ideal wake times based on complete sleep cycles. Free calculator.",
+      "h1": "Wake-Up Times If You Go to Bed at 12:00am",
+      "description": "Find the best times to wake up after going to bed at 12:00am — calculated to land at the end of a natural sleep cycle so you feel rested."
+    }
   ]
 }

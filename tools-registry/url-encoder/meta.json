@@ -62,7 +62,47 @@
     "base-converter",
     "json-csv-formatter"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "url-encoder-online",
+      "metaTitle": "URL Encoder / Decoder for Online – Free Online URL Encoder / Decoder",
+      "metaDescription": "Free url encoder / decoder for developers looking for a free online tool. Encode special characters in URLs or decode percent-encoded strings back to read No signup required.",
+      "keywords": [
+        "url encoder / decoder for online",
+        "online url encoder / decoder",
+        "free url encoder / decoder online",
+        "url encoder / decoder online",
+        "online url encoder / decoder online"
+      ],
+      "headline": "URL Encoder / Decoder optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "url-encoder-javascript",
+      "metaTitle": "URL Encoder / Decoder for JavaScript – Free Online URL Encoder / Decoder",
+      "metaDescription": "Free url encoder / decoder for JavaScript developers. Encode special characters in URLs or decode percent-encoded strings back to read No signup required.",
+      "keywords": [
+        "url encoder / decoder for javascript",
+        "javascript url encoder / decoder",
+        "free url encoder / decoder javascript",
+        "url encoder / decoder javascript",
+        "online url encoder / decoder javascript"
+      ],
+      "headline": "URL Encoder / Decoder optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "url-encoder-python",
+      "metaTitle": "URL Encoder / Decoder for Python – Free Online URL Encoder / Decoder",
+      "metaDescription": "Free url encoder / decoder for Python developers. Encode special characters in URLs or decode percent-encoded strings back to read No signup required.",
+      "keywords": [
+        "url encoder / decoder for python",
+        "python url encoder / decoder",
+        "free url encoder / decoder python",
+        "url encoder / decoder python",
+        "online url encoder / decoder python"
+      ],
+      "headline": "URL Encoder / Decoder optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why URLs Can't Contain Spaces, Ampersands, or Question Marks",

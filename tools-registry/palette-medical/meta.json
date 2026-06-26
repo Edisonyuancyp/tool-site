@@ -33,7 +33,47 @@
   "relatedTools": [
     "color-palette-lab"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "palette-medical-online",
+      "metaTitle": "Medical Blue Color Palette for Online – Free Online Medical Blue Color Palette",
+      "metaDescription": "Free medical blue color palette for designers looking for a free online tool. Trustworthy, sterile palette for healthcare and medical applications. Calming bl No signup required.",
+      "keywords": [
+        "medical blue color palette for online",
+        "online medical blue color palette",
+        "free medical blue color palette online",
+        "medical blue color palette online",
+        "online medical blue color palette online"
+      ],
+      "headline": "Medical Blue Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-medical-free",
+      "metaTitle": "Medical Blue Color Palette for Free – Free Online Medical Blue Color Palette",
+      "metaDescription": "Free medical blue color palette for designers looking for a completely free tool. Trustworthy, sterile palette for healthcare and medical applications. Calming bl No signup required.",
+      "keywords": [
+        "medical blue color palette for free",
+        "free medical blue color palette",
+        "free medical blue color palette free",
+        "medical blue color palette free",
+        "online medical blue color palette free"
+      ],
+      "headline": "Medical Blue Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-medical-for-web",
+      "metaTitle": "Medical Blue Color Palette for Web Design – Free Online Medical Blue Color Palette",
+      "metaDescription": "Free medical blue color palette for web designers and front-end developers. Trustworthy, sterile palette for healthcare and medical applications. Calming bl No signup required.",
+      "keywords": [
+        "medical blue color palette for web design",
+        "web design medical blue color palette",
+        "free medical blue color palette web design",
+        "medical blue color palette for web",
+        "online medical blue color palette web design"
+      ],
+      "headline": "Medical Blue Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why Healthcare Design Relies on Specific Blue Tones",

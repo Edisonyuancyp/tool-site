@@ -65,7 +65,47 @@
     "typography-compare-lab",
     "base64-tool"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "css-variables-generator-online",
+      "metaTitle": "CSS Variables Generator for Online – Free Online CSS Variables Generator",
+      "metaDescription": "Free css variables generator for developers looking for a free online tool. Create a custom color palette from scratch, then instantly generate :root CSS va No signup required.",
+      "keywords": [
+        "css variables generator for online",
+        "online css variables generator",
+        "free css variables generator online",
+        "css variables generator online",
+        "online css variables generator online"
+      ],
+      "headline": "CSS Variables Generator optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "css-variables-generator-javascript",
+      "metaTitle": "CSS Variables Generator for JavaScript – Free Online CSS Variables Generator",
+      "metaDescription": "Free css variables generator for JavaScript developers. Create a custom color palette from scratch, then instantly generate :root CSS va No signup required.",
+      "keywords": [
+        "css variables generator for javascript",
+        "javascript css variables generator",
+        "free css variables generator javascript",
+        "css variables generator javascript",
+        "online css variables generator javascript"
+      ],
+      "headline": "CSS Variables Generator optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "css-variables-generator-python",
+      "metaTitle": "CSS Variables Generator for Python – Free Online CSS Variables Generator",
+      "metaDescription": "Free css variables generator for Python developers. Create a custom color palette from scratch, then instantly generate :root CSS va No signup required.",
+      "keywords": [
+        "css variables generator for python",
+        "python css variables generator",
+        "free css variables generator python",
+        "css variables generator python",
+        "online css variables generator python"
+      ],
+      "headline": "CSS Variables Generator optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why CSS Variables Beat Hardcoded Colors Every Time",

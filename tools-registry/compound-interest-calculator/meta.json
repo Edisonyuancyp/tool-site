@@ -110,5 +110,511 @@
       "heading": "Three Mistakes That Quietly Sabotage Your Projections",
       "body": "The most common error is using unrealistic return rates. Stock market historical averages hover around 7% after inflation, but savings accounts currently offer 4-5% at best. Plugging in 10% because it makes the numbers look exciting leads to disappointment and poor planning. Match your rate to your actual investment vehicle.\n\nForgetting about inflation creates false confidence. Your calculator might show £500,000 in thirty years, but that sum won't buy what £500,000 buys today. A practical workaround: use inflation-adjusted return rates. If you expect 8% nominal returns and 3% inflation, enter 5% to see your future purchasing power more accurately.\n\nFinally, many people ignore taxes. Investment gains in taxable accounts get reduced by capital gains taxes; interest income faces income tax. The calculator shows gross returns. If your investments sit outside an ISA or pension wrapper, mentally reduce the final figure by 15-25% depending on your tax bracket to keep expectations grounded."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "1000-5yr-5pct",
+      "metaTitle": "$1,000 at 5% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 5% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 5% Over 5 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 5% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-5yr-7pct",
+      "metaTitle": "$1,000 at 7% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 7% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 7% Over 5 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 7% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-5yr-10pct",
+      "metaTitle": "$1,000 at 10% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 10% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 10% Over 5 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 10% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-10yr-5pct",
+      "metaTitle": "$1,000 at 5% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 5% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 5% Over 10 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 5% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-10yr-7pct",
+      "metaTitle": "$1,000 at 7% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 7% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 7% Over 10 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 7% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-10yr-10pct",
+      "metaTitle": "$1,000 at 10% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 10% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 10% Over 10 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 10% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-20yr-5pct",
+      "metaTitle": "$1,000 at 5% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 5% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 5% Over 20 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 5% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-20yr-7pct",
+      "metaTitle": "$1,000 at 7% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 7% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 7% Over 20 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 7% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-20yr-10pct",
+      "metaTitle": "$1,000 at 10% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 10% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 10% Over 20 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 10% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-30yr-5pct",
+      "metaTitle": "$1,000 at 5% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 5% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 5% Over 30 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 5% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-30yr-7pct",
+      "metaTitle": "$1,000 at 7% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 7% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 7% Over 30 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 7% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "1000-30yr-10pct",
+      "metaTitle": "$1,000 at 10% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $1,000 grow at 10% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $1,000 at 10% Over 30 Years",
+      "description": "Calculate the compound interest on $1,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-5yr-5pct",
+      "metaTitle": "$5,000 at 5% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 5% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 5% Over 5 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 5% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-5yr-7pct",
+      "metaTitle": "$5,000 at 7% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 7% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 7% Over 5 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 7% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-5yr-10pct",
+      "metaTitle": "$5,000 at 10% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 10% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 10% Over 5 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 10% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-10yr-5pct",
+      "metaTitle": "$5,000 at 5% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 5% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 5% Over 10 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 5% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-10yr-7pct",
+      "metaTitle": "$5,000 at 7% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 7% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 7% Over 10 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 7% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-10yr-10pct",
+      "metaTitle": "$5,000 at 10% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 10% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 10% Over 10 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 10% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-20yr-5pct",
+      "metaTitle": "$5,000 at 5% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 5% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 5% Over 20 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 5% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-20yr-7pct",
+      "metaTitle": "$5,000 at 7% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 7% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 7% Over 20 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 7% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-20yr-10pct",
+      "metaTitle": "$5,000 at 10% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 10% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 10% Over 20 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 10% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-30yr-5pct",
+      "metaTitle": "$5,000 at 5% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 5% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 5% Over 30 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 5% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-30yr-7pct",
+      "metaTitle": "$5,000 at 7% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 7% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 7% Over 30 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 7% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "5000-30yr-10pct",
+      "metaTitle": "$5,000 at 10% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $5,000 grow at 10% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $5,000 at 10% Over 30 Years",
+      "description": "Calculate the compound interest on $5,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-5yr-5pct",
+      "metaTitle": "$10,000 at 5% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 5% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 5% Over 5 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 5% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-5yr-7pct",
+      "metaTitle": "$10,000 at 7% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 7% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 7% Over 5 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 7% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-5yr-10pct",
+      "metaTitle": "$10,000 at 10% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 10% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 10% Over 5 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 10% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-10yr-5pct",
+      "metaTitle": "$10,000 at 5% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 5% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 5% Over 10 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 5% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-10yr-7pct",
+      "metaTitle": "$10,000 at 7% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 7% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 7% Over 10 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 7% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-10yr-10pct",
+      "metaTitle": "$10,000 at 10% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 10% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 10% Over 10 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 10% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-20yr-5pct",
+      "metaTitle": "$10,000 at 5% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 5% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 5% Over 20 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 5% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-20yr-7pct",
+      "metaTitle": "$10,000 at 7% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 7% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 7% Over 20 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 7% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-20yr-10pct",
+      "metaTitle": "$10,000 at 10% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 10% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 10% Over 20 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 10% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-30yr-5pct",
+      "metaTitle": "$10,000 at 5% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 5% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 5% Over 30 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 5% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-30yr-7pct",
+      "metaTitle": "$10,000 at 7% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 7% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 7% Over 30 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 7% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "10000-30yr-10pct",
+      "metaTitle": "$10,000 at 10% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $10,000 grow at 10% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $10,000 at 10% Over 30 Years",
+      "description": "Calculate the compound interest on $10,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-5yr-5pct",
+      "metaTitle": "$25,000 at 5% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 5% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 5% Over 5 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 5% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-5yr-7pct",
+      "metaTitle": "$25,000 at 7% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 7% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 7% Over 5 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 7% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-5yr-10pct",
+      "metaTitle": "$25,000 at 10% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 10% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 10% Over 5 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 10% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-10yr-5pct",
+      "metaTitle": "$25,000 at 5% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 5% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 5% Over 10 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 5% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-10yr-7pct",
+      "metaTitle": "$25,000 at 7% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 7% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 7% Over 10 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 7% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-10yr-10pct",
+      "metaTitle": "$25,000 at 10% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 10% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 10% Over 10 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 10% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-20yr-5pct",
+      "metaTitle": "$25,000 at 5% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 5% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 5% Over 20 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 5% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-20yr-7pct",
+      "metaTitle": "$25,000 at 7% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 7% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 7% Over 20 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 7% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-20yr-10pct",
+      "metaTitle": "$25,000 at 10% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 10% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 10% Over 20 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 10% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-30yr-5pct",
+      "metaTitle": "$25,000 at 5% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 5% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 5% Over 30 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 5% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-30yr-7pct",
+      "metaTitle": "$25,000 at 7% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 7% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 7% Over 30 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 7% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "25000-30yr-10pct",
+      "metaTitle": "$25,000 at 10% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $25,000 grow at 10% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $25,000 at 10% Over 30 Years",
+      "description": "Calculate the compound interest on $25,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-5yr-5pct",
+      "metaTitle": "$50,000 at 5% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 5% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 5% Over 5 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 5% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-5yr-7pct",
+      "metaTitle": "$50,000 at 7% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 7% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 7% Over 5 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 7% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-5yr-10pct",
+      "metaTitle": "$50,000 at 10% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 10% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 10% Over 5 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 10% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-10yr-5pct",
+      "metaTitle": "$50,000 at 5% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 5% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 5% Over 10 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 5% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-10yr-7pct",
+      "metaTitle": "$50,000 at 7% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 7% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 7% Over 10 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 7% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-10yr-10pct",
+      "metaTitle": "$50,000 at 10% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 10% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 10% Over 10 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 10% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-20yr-5pct",
+      "metaTitle": "$50,000 at 5% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 5% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 5% Over 20 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 5% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-20yr-7pct",
+      "metaTitle": "$50,000 at 7% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 7% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 7% Over 20 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 7% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-20yr-10pct",
+      "metaTitle": "$50,000 at 10% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 10% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 10% Over 20 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 10% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-30yr-5pct",
+      "metaTitle": "$50,000 at 5% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 5% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 5% Over 30 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 5% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-30yr-7pct",
+      "metaTitle": "$50,000 at 7% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 7% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 7% Over 30 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 7% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "50000-30yr-10pct",
+      "metaTitle": "$50,000 at 10% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $50,000 grow at 10% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $50,000 at 10% Over 30 Years",
+      "description": "Calculate the compound interest on $50,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-5yr-5pct",
+      "metaTitle": "$100,000 at 5% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 5% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 5% Over 5 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 5% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-5yr-7pct",
+      "metaTitle": "$100,000 at 7% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 7% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 7% Over 5 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 7% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-5yr-10pct",
+      "metaTitle": "$100,000 at 10% for 5 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 10% interest over 5 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 10% Over 5 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 10% annual rate for 5 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-10yr-5pct",
+      "metaTitle": "$100,000 at 5% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 5% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 5% Over 10 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 5% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-10yr-7pct",
+      "metaTitle": "$100,000 at 7% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 7% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 7% Over 10 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 7% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-10yr-10pct",
+      "metaTitle": "$100,000 at 10% for 10 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 10% interest over 10 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 10% Over 10 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 10% annual rate for 10 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-20yr-5pct",
+      "metaTitle": "$100,000 at 5% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 5% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 5% Over 20 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 5% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-20yr-7pct",
+      "metaTitle": "$100,000 at 7% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 7% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 7% Over 20 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 7% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-20yr-10pct",
+      "metaTitle": "$100,000 at 10% for 20 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 10% interest over 20 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 10% Over 20 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 10% annual rate for 20 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-30yr-5pct",
+      "metaTitle": "$100,000 at 5% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 5% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 5% Over 30 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 5% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-30yr-7pct",
+      "metaTitle": "$100,000 at 7% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 7% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 7% Over 30 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 7% annual rate for 30 years, including a full year-by-year growth table."
+    },
+    {
+      "param": "100000-30yr-10pct",
+      "metaTitle": "$100,000 at 10% for 30 Years – Compound Interest Calculator",
+      "metaDescription": "How much does $100,000 grow at 10% interest over 30 years? See the final balance, total interest earned, and year-by-year breakdown. Free calculator.",
+      "h1": "Compound Interest on $100,000 at 10% Over 30 Years",
+      "description": "Calculate the compound interest on $100,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
+    }
   ]
 }

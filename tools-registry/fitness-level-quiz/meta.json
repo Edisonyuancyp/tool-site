@@ -44,7 +44,60 @@
     "bmi-calculator",
     "body-fat-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "fitness-level-quiz-for-women",
+      "metaTitle": "Fitness Level Quiz for Women – Free Online Fitness Level Quiz",
+      "metaDescription": "Free fitness level quiz for women's fitness goals and metrics. Take this quick quiz to assess your current fitness level based on your exercise No signup required.",
+      "keywords": [
+        "fitness level quiz for women",
+        "women fitness level quiz",
+        "free fitness level quiz women",
+        "fitness level quiz for women",
+        "online fitness level quiz women"
+      ],
+      "headline": "Fitness Level Quiz optimised for women's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fitness-level-quiz-for-men",
+      "metaTitle": "Fitness Level Quiz for Men – Free Online Fitness Level Quiz",
+      "metaDescription": "Free fitness level quiz for men's fitness goals and metrics. Take this quick quiz to assess your current fitness level based on your exercise No signup required.",
+      "keywords": [
+        "fitness level quiz for men",
+        "men fitness level quiz",
+        "free fitness level quiz men",
+        "fitness level quiz for men",
+        "online fitness level quiz men"
+      ],
+      "headline": "Fitness Level Quiz optimised for men's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fitness-level-quiz-for-beginners",
+      "metaTitle": "Fitness Level Quiz for Beginners – Free Online Fitness Level Quiz",
+      "metaDescription": "Free fitness level quiz for people new to fitness and exercise. Take this quick quiz to assess your current fitness level based on your exercise No signup required.",
+      "keywords": [
+        "fitness level quiz for beginners",
+        "beginners fitness level quiz",
+        "free fitness level quiz beginners",
+        "fitness level quiz for beginners",
+        "online fitness level quiz beginners"
+      ],
+      "headline": "Fitness Level Quiz optimised for people new to fitness and exercise. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fitness-level-quiz-imperial",
+      "metaTitle": "Fitness Level Quiz for Imperial Units – Free Online Fitness Level Quiz",
+      "metaDescription": "Free fitness level quiz for users who prefer pounds and feet. Take this quick quiz to assess your current fitness level based on your exercise No signup required.",
+      "keywords": [
+        "fitness level quiz for imperial units",
+        "imperial units fitness level quiz",
+        "free fitness level quiz imperial units",
+        "fitness level quiz imperial",
+        "online fitness level quiz imperial units"
+      ],
+      "headline": "Fitness Level Quiz optimised for users who prefer pounds and feet. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Fitness Level Quiz Actually Measures About Your Body",

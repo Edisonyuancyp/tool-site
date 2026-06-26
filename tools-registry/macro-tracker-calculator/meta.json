@@ -47,7 +47,60 @@
     "bmr-tdee-calculator",
     "ideal-weight-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "macro-tracker-calculator-for-women",
+      "metaTitle": "Macro Tracker Calculator for Women – Free Online Macro Tracker Calculator",
+      "metaDescription": "Free macro tracker calculator for women's fitness goals and metrics. This calculator helps you track your macronutrient intake based on your fitness  No signup required.",
+      "keywords": [
+        "macro tracker calculator for women",
+        "women macro tracker calculator",
+        "free macro tracker calculator women",
+        "macro tracker calculator for women",
+        "online macro tracker calculator women"
+      ],
+      "headline": "Macro Tracker Calculator optimised for women's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "macro-tracker-calculator-for-men",
+      "metaTitle": "Macro Tracker Calculator for Men – Free Online Macro Tracker Calculator",
+      "metaDescription": "Free macro tracker calculator for men's fitness goals and metrics. This calculator helps you track your macronutrient intake based on your fitness  No signup required.",
+      "keywords": [
+        "macro tracker calculator for men",
+        "men macro tracker calculator",
+        "free macro tracker calculator men",
+        "macro tracker calculator for men",
+        "online macro tracker calculator men"
+      ],
+      "headline": "Macro Tracker Calculator optimised for men's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "macro-tracker-calculator-for-beginners",
+      "metaTitle": "Macro Tracker Calculator for Beginners – Free Online Macro Tracker Calculator",
+      "metaDescription": "Free macro tracker calculator for people new to fitness and exercise. This calculator helps you track your macronutrient intake based on your fitness  No signup required.",
+      "keywords": [
+        "macro tracker calculator for beginners",
+        "beginners macro tracker calculator",
+        "free macro tracker calculator beginners",
+        "macro tracker calculator for beginners",
+        "online macro tracker calculator beginners"
+      ],
+      "headline": "Macro Tracker Calculator optimised for people new to fitness and exercise. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "macro-tracker-calculator-imperial",
+      "metaTitle": "Macro Tracker Calculator for Imperial Units – Free Online Macro Tracker Calculator",
+      "metaDescription": "Free macro tracker calculator for users who prefer pounds and feet. This calculator helps you track your macronutrient intake based on your fitness  No signup required.",
+      "keywords": [
+        "macro tracker calculator for imperial units",
+        "imperial units macro tracker calculator",
+        "free macro tracker calculator imperial units",
+        "macro tracker calculator imperial",
+        "online macro tracker calculator imperial units"
+      ],
+      "headline": "Macro Tracker Calculator optimised for users who prefer pounds and feet. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Macro Tracking Actually Means for Your Body",

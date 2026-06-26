@@ -39,7 +39,47 @@
     }
   ],
   "relatedTools": [],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "group-trip-cost-splitter-international",
+      "metaTitle": "Group Trip Cost Splitter for International – Free Online Group Trip Cost Splitter",
+      "metaDescription": "Free group trip cost splitter for international travelers. Input your total trip expenses and number of travelers to see how much each pers No signup required.",
+      "keywords": [
+        "group trip cost splitter for international",
+        "international group trip cost splitter",
+        "free group trip cost splitter international",
+        "group trip cost splitter international",
+        "online group trip cost splitter international"
+      ],
+      "headline": "Group Trip Cost Splitter optimised for international travelers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "group-trip-cost-splitter-budget",
+      "metaTitle": "Group Trip Cost Splitter for Budget Travel – Free Online Group Trip Cost Splitter",
+      "metaDescription": "Free group trip cost splitter for budget-conscious backpackers. Input your total trip expenses and number of travelers to see how much each pers No signup required.",
+      "keywords": [
+        "group trip cost splitter for budget travel",
+        "budget travel group trip cost splitter",
+        "free group trip cost splitter budget travel",
+        "group trip cost splitter budget",
+        "online group trip cost splitter budget travel"
+      ],
+      "headline": "Group Trip Cost Splitter optimised for budget-conscious backpackers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "group-trip-cost-splitter-business",
+      "metaTitle": "Group Trip Cost Splitter for Business Travel – Free Online Group Trip Cost Splitter",
+      "metaDescription": "Free group trip cost splitter for business travelers. Input your total trip expenses and number of travelers to see how much each pers No signup required.",
+      "keywords": [
+        "group trip cost splitter for business travel",
+        "business travel group trip cost splitter",
+        "free group trip cost splitter business travel",
+        "group trip cost splitter business",
+        "online group trip cost splitter business travel"
+      ],
+      "headline": "Group Trip Cost Splitter optimised for business travelers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Equal Cost Splitting Actually Does for Group Travel",

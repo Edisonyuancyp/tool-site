@@ -44,7 +44,47 @@
     }
   ],
   "relatedTools": [],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "travel-time-calculator-international",
+      "metaTitle": "Travel Time Calculator for International – Free Online Travel Time Calculator",
+      "metaDescription": "Free travel time calculator for international travelers. Enter your distance and average speed to find out how long your trip will take.  No signup required.",
+      "keywords": [
+        "travel time calculator for international",
+        "international travel time calculator",
+        "free travel time calculator international",
+        "travel time calculator international",
+        "online travel time calculator international"
+      ],
+      "headline": "Travel Time Calculator optimised for international travelers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "travel-time-calculator-budget",
+      "metaTitle": "Travel Time Calculator for Budget Travel – Free Online Travel Time Calculator",
+      "metaDescription": "Free travel time calculator for budget-conscious backpackers. Enter your distance and average speed to find out how long your trip will take.  No signup required.",
+      "keywords": [
+        "travel time calculator for budget travel",
+        "budget travel travel time calculator",
+        "free travel time calculator budget travel",
+        "travel time calculator budget",
+        "online travel time calculator budget travel"
+      ],
+      "headline": "Travel Time Calculator optimised for budget-conscious backpackers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "travel-time-calculator-business",
+      "metaTitle": "Travel Time Calculator for Business Travel – Free Online Travel Time Calculator",
+      "metaDescription": "Free travel time calculator for business travelers. Enter your distance and average speed to find out how long your trip will take.  No signup required.",
+      "keywords": [
+        "travel time calculator for business travel",
+        "business travel travel time calculator",
+        "free travel time calculator business travel",
+        "travel time calculator business",
+        "online travel time calculator business travel"
+      ],
+      "headline": "Travel Time Calculator optimised for business travelers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Travel Time Calculator Actually Tells You",

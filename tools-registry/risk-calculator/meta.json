@@ -74,7 +74,60 @@
     "tp-sl-calculator",
     "crypto-market-cap-comparator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "risk-calculator-forex",
+      "metaTitle": "Position Size Calculator for Forex – Free Online Position Size Calculator",
+      "metaDescription": "Free position size calculator for forex / currency traders. Enter your account balance, risk percentage, entry price, and stop-loss price to No signup required.",
+      "keywords": [
+        "position size calculator for forex",
+        "forex position size calculator",
+        "free position size calculator forex",
+        "position size calculator forex",
+        "online position size calculator forex"
+      ],
+      "headline": "Position Size Calculator optimised for forex / currency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "risk-calculator-crypto",
+      "metaTitle": "Position Size Calculator for Crypto – Free Online Position Size Calculator",
+      "metaDescription": "Free position size calculator for cryptocurrency traders. Enter your account balance, risk percentage, entry price, and stop-loss price to No signup required.",
+      "keywords": [
+        "position size calculator for crypto",
+        "crypto position size calculator",
+        "free position size calculator crypto",
+        "position size calculator crypto",
+        "online position size calculator crypto"
+      ],
+      "headline": "Position Size Calculator optimised for cryptocurrency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "risk-calculator-stocks",
+      "metaTitle": "Position Size Calculator for Stocks – Free Online Position Size Calculator",
+      "metaDescription": "Free position size calculator for stock market investors. Enter your account balance, risk percentage, entry price, and stop-loss price to No signup required.",
+      "keywords": [
+        "position size calculator for stocks",
+        "stocks position size calculator",
+        "free position size calculator stocks",
+        "position size calculator stocks",
+        "online position size calculator stocks"
+      ],
+      "headline": "Position Size Calculator optimised for stock market investors. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "risk-calculator-options",
+      "metaTitle": "Position Size Calculator for Options – Free Online Position Size Calculator",
+      "metaDescription": "Free position size calculator for options traders. Enter your account balance, risk percentage, entry price, and stop-loss price to No signup required.",
+      "keywords": [
+        "position size calculator for options",
+        "options position size calculator",
+        "free position size calculator options",
+        "position size calculator options",
+        "online position size calculator options"
+      ],
+      "headline": "Position Size Calculator optimised for options traders. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Position Sizing Really Controls in Your Trading",

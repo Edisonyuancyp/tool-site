@@ -57,7 +57,47 @@
     "url-encoder",
     "password-generator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "jwt-decoder-online",
+      "metaTitle": "JWT Decoder & Security Checker for Online – Free Online JWT Decoder & Security Checker",
+      "metaDescription": "Free jwt decoder & security checker for developers looking for a free online tool. Paste any JSON Web Token to instantly decode the header, payload, and expiry. In No signup required.",
+      "keywords": [
+        "jwt decoder & security checker for online",
+        "online jwt decoder & security checker",
+        "free jwt decoder & security checker online",
+        "jwt decoder & security checker online",
+        "online jwt decoder & security checker online"
+      ],
+      "headline": "JWT Decoder & Security Checker optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "jwt-decoder-javascript",
+      "metaTitle": "JWT Decoder & Security Checker for JavaScript – Free Online JWT Decoder & Security Checker",
+      "metaDescription": "Free jwt decoder & security checker for JavaScript developers. Paste any JSON Web Token to instantly decode the header, payload, and expiry. In No signup required.",
+      "keywords": [
+        "jwt decoder & security checker for javascript",
+        "javascript jwt decoder & security checker",
+        "free jwt decoder & security checker javascript",
+        "jwt decoder & security checker javascript",
+        "online jwt decoder & security checker javascript"
+      ],
+      "headline": "JWT Decoder & Security Checker optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "jwt-decoder-python",
+      "metaTitle": "JWT Decoder & Security Checker for Python – Free Online JWT Decoder & Security Checker",
+      "metaDescription": "Free jwt decoder & security checker for Python developers. Paste any JSON Web Token to instantly decode the header, payload, and expiry. In No signup required.",
+      "keywords": [
+        "jwt decoder & security checker for python",
+        "python jwt decoder & security checker",
+        "free jwt decoder & security checker python",
+        "jwt decoder & security checker python",
+        "online jwt decoder & security checker python"
+      ],
+      "headline": "JWT Decoder & Security Checker optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "article": {
     "title": "JWT Security: Best Practices Every Developer Should Know",
     "sections": [

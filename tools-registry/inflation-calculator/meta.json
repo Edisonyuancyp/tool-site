@@ -57,7 +57,73 @@
     "rent-vs-buy-calculator",
     "budget-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "inflation-calculator-for-students",
+      "metaTitle": "Inflation & Purchasing Power Calculator for Students – Free Online Inflation & Purchasing Power Calculator",
+      "metaDescription": "Free inflation & purchasing power calculator for college students managing tight budgets. Calculate how inflation has eroded (or will erode) the purchasing power of money No signup required.",
+      "keywords": [
+        "inflation & purchasing power calculator for students",
+        "students inflation & purchasing power calculator",
+        "free inflation & purchasing power calculator students",
+        "inflation & purchasing power calculator for students",
+        "online inflation & purchasing power calculator students"
+      ],
+      "headline": "Inflation & Purchasing Power Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "inflation-calculator-for-business",
+      "metaTitle": "Inflation & Purchasing Power Calculator for Business – Free Online Inflation & Purchasing Power Calculator",
+      "metaDescription": "Free inflation & purchasing power calculator for small business owners and freelancers. Calculate how inflation has eroded (or will erode) the purchasing power of money No signup required.",
+      "keywords": [
+        "inflation & purchasing power calculator for business",
+        "business inflation & purchasing power calculator",
+        "free inflation & purchasing power calculator business",
+        "inflation & purchasing power calculator for business",
+        "online inflation & purchasing power calculator business"
+      ],
+      "headline": "Inflation & Purchasing Power Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "inflation-calculator-uk",
+      "metaTitle": "Inflation & Purchasing Power Calculator for UK – Free Online Inflation & Purchasing Power Calculator",
+      "metaDescription": "Free inflation & purchasing power calculator for users in the United Kingdom using GBP. Calculate how inflation has eroded (or will erode) the purchasing power of money No signup required.",
+      "keywords": [
+        "inflation & purchasing power calculator for uk",
+        "uk inflation & purchasing power calculator",
+        "free inflation & purchasing power calculator uk",
+        "inflation & purchasing power calculator uk",
+        "online inflation & purchasing power calculator uk"
+      ],
+      "headline": "Inflation & Purchasing Power Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "inflation-calculator-canada",
+      "metaTitle": "Inflation & Purchasing Power Calculator for Canada – Free Online Inflation & Purchasing Power Calculator",
+      "metaDescription": "Free inflation & purchasing power calculator for Canadian users using CAD. Calculate how inflation has eroded (or will erode) the purchasing power of money No signup required.",
+      "keywords": [
+        "inflation & purchasing power calculator for canada",
+        "canada inflation & purchasing power calculator",
+        "free inflation & purchasing power calculator canada",
+        "inflation & purchasing power calculator canada",
+        "online inflation & purchasing power calculator canada"
+      ],
+      "headline": "Inflation & Purchasing Power Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "inflation-calculator-australia",
+      "metaTitle": "Inflation & Purchasing Power Calculator for Australia – Free Online Inflation & Purchasing Power Calculator",
+      "metaDescription": "Free inflation & purchasing power calculator for Australian users using AUD. Calculate how inflation has eroded (or will erode) the purchasing power of money No signup required.",
+      "keywords": [
+        "inflation & purchasing power calculator for australia",
+        "australia inflation & purchasing power calculator",
+        "free inflation & purchasing power calculator australia",
+        "inflation & purchasing power calculator australia",
+        "online inflation & purchasing power calculator australia"
+      ],
+      "headline": "Inflation & Purchasing Power Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "article": {
     "title": "Inflation & Purchasing Power: A Complete Financial Guide",
     "sections": [

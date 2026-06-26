@@ -123,5 +123,98 @@
       "heading": "The Pacing Mistakes That Sabotage Race Day Performance",
       "body": "The most common error is starting too fast, carried away by adrenaline and fresh legs. If your goal marathon pace is 5:30 min/km, running the first 5km at 5:00 feels easy but costs you dearly later. You've burned glycogen you'll desperately need at kilometer 35. The fix is programming your goal pace beforehand and checking your watch obsessively for the first few kilometers until you settle into rhythm.\n\nAnother mistake involves confusing training pace with race pace. Your easy runs should genuinely feel easy—often 45 to 90 seconds slower than marathon pace. Running every session at race effort leaves you too fatigued to perform interval workouts properly, where the real fitness gains happen. If your marathon goal is 5:30, your easy runs might be 6:30 or even 7:00 pace.\n\nFinally, people forget that pace calculators assume flat courses and good conditions. A hilly route or a hot day will slow you by 5 to 15 seconds per kilometer without any loss of fitness. Adjust your expectations rather than destroying yourself trying to hit a number that doesn't account for the terrain beneath your feet."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "5k-20-minutes",
+      "metaTitle": "5K in 20 minutes – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a 5k in 20 minutes? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a 5K in 20 minutes",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a 5k in 20 minutes, with full distance splits."
+    },
+    {
+      "param": "5k-25-minutes",
+      "metaTitle": "5K in 25 minutes – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a 5k in 25 minutes? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a 5K in 25 minutes",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a 5k in 25 minutes, with full distance splits."
+    },
+    {
+      "param": "5k-30-minutes",
+      "metaTitle": "5K in 30 minutes – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a 5k in 30 minutes? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a 5K in 30 minutes",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a 5k in 30 minutes, with full distance splits."
+    },
+    {
+      "param": "10k-45-minutes",
+      "metaTitle": "10K in 45 minutes – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a 10k in 45 minutes? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a 10K in 45 minutes",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a 10k in 45 minutes, with full distance splits."
+    },
+    {
+      "param": "10k-50-minutes",
+      "metaTitle": "10K in 50 minutes – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a 10k in 50 minutes? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a 10K in 50 minutes",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a 10k in 50 minutes, with full distance splits."
+    },
+    {
+      "param": "10k-60-minutes",
+      "metaTitle": "10K in 60 minutes – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a 10k in 60 minutes? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a 10K in 60 minutes",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a 10k in 60 minutes, with full distance splits."
+    },
+    {
+      "param": "half-marathon-1h45",
+      "metaTitle": "Half Marathon in 1h45 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a half marathon in 1h45? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Half Marathon in 1h45",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a half marathon in 1h45, with full distance splits."
+    },
+    {
+      "param": "half-marathon-2h00",
+      "metaTitle": "Half Marathon in 2h00 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a half marathon in 2h00? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Half Marathon in 2h00",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a half marathon in 2h00, with full distance splits."
+    },
+    {
+      "param": "half-marathon-2h30",
+      "metaTitle": "Half Marathon in 2h30 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a half marathon in 2h30? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Half Marathon in 2h30",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a half marathon in 2h30, with full distance splits."
+    },
+    {
+      "param": "marathon-3h30",
+      "metaTitle": "Marathon in 3h30 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a marathon in 3h30? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Marathon in 3h30",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a marathon in 3h30, with full distance splits."
+    },
+    {
+      "param": "marathon-4h00",
+      "metaTitle": "Marathon in 4h00 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a marathon in 4h00? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Marathon in 4h00",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a marathon in 4h00, with full distance splits."
+    },
+    {
+      "param": "marathon-4h30",
+      "metaTitle": "Marathon in 4h30 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a marathon in 4h30? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Marathon in 4h30",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a marathon in 4h30, with full distance splits."
+    },
+    {
+      "param": "marathon-5h00",
+      "metaTitle": "Marathon in 5h00 – Running Pace Calculator",
+      "metaDescription": "What pace do you need to run a marathon in 5h00? Calculate splits, speed in km/h and mph, and finish time. Free pace calculator.",
+      "h1": "Pace Needed to Run a Marathon in 5h00",
+      "description": "Calculate the per-kilometre and per-mile pace required to complete a marathon in 5h00, with full distance splits."
+    }
   ]
 }

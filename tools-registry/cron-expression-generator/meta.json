@@ -57,7 +57,47 @@
     "url-encoder",
     "base64-tool"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "cron-expression-generator-online",
+      "metaTitle": "Cron Expression Generator & Explainer for Online – Free Online Cron Expression Generator & Explainer",
+      "metaDescription": "Free cron expression generator & explainer for developers looking for a free online tool. Generate or decode any cron expression with a visual builder. See the human-read No signup required.",
+      "keywords": [
+        "cron expression generator & explainer for online",
+        "online cron expression generator & explainer",
+        "free cron expression generator & explainer online",
+        "cron expression generator & explainer online",
+        "online cron expression generator & explainer online"
+      ],
+      "headline": "Cron Expression Generator & Explainer optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "cron-expression-generator-javascript",
+      "metaTitle": "Cron Expression Generator & Explainer for JavaScript – Free Online Cron Expression Generator & Explainer",
+      "metaDescription": "Free cron expression generator & explainer for JavaScript developers. Generate or decode any cron expression with a visual builder. See the human-read No signup required.",
+      "keywords": [
+        "cron expression generator & explainer for javascript",
+        "javascript cron expression generator & explainer",
+        "free cron expression generator & explainer javascript",
+        "cron expression generator & explainer javascript",
+        "online cron expression generator & explainer javascript"
+      ],
+      "headline": "Cron Expression Generator & Explainer optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "cron-expression-generator-python",
+      "metaTitle": "Cron Expression Generator & Explainer for Python – Free Online Cron Expression Generator & Explainer",
+      "metaDescription": "Free cron expression generator & explainer for Python developers. Generate or decode any cron expression with a visual builder. See the human-read No signup required.",
+      "keywords": [
+        "cron expression generator & explainer for python",
+        "python cron expression generator & explainer",
+        "free cron expression generator & explainer python",
+        "cron expression generator & explainer python",
+        "online cron expression generator & explainer python"
+      ],
+      "headline": "Cron Expression Generator & Explainer optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "article": {
     "title": "Cron Jobs: The Complete Developer Reference",
     "sections": [

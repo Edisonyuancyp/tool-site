@@ -46,8 +46,65 @@
       "answer": "Place the heaviest and largest items at the bottom. Leave at least 2 inches of padding on all sides. Avoid mixing fragile and heavy items in the same carton. Make sure nothing shifts when you shake the box."
     }
   ],
-  "relatedTools": ["profit-margin-calculator", "currency-converter", "discount-calculator"],
-  "variants": [],
+  "relatedTools": [
+    "profit-margin-calculator",
+    "currency-converter",
+    "discount-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "fba-packing-calculator-shopify",
+      "metaTitle": "FBA Carton Packing Calculator for Shopify – Free Online FBA Carton Packing Calculator",
+      "metaDescription": "Free fba carton packing calculator for Shopify store owners. Drag products into a 2D carton view, get instant space utilization, FBA size/wei No signup required.",
+      "keywords": [
+        "fba carton packing calculator for shopify",
+        "shopify fba carton packing calculator",
+        "free fba carton packing calculator shopify",
+        "fba carton packing calculator shopify",
+        "online fba carton packing calculator shopify"
+      ],
+      "headline": "FBA Carton Packing Calculator optimised for Shopify store owners. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fba-packing-calculator-amazon",
+      "metaTitle": "FBA Carton Packing Calculator for Amazon FBA – Free Online FBA Carton Packing Calculator",
+      "metaDescription": "Free fba carton packing calculator for Amazon FBA sellers. Drag products into a 2D carton view, get instant space utilization, FBA size/wei No signup required.",
+      "keywords": [
+        "fba carton packing calculator for amazon fba",
+        "amazon fba fba carton packing calculator",
+        "free fba carton packing calculator amazon fba",
+        "fba carton packing calculator amazon",
+        "online fba carton packing calculator amazon fba"
+      ],
+      "headline": "FBA Carton Packing Calculator optimised for Amazon FBA sellers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fba-packing-calculator-etsy",
+      "metaTitle": "FBA Carton Packing Calculator for Etsy – Free Online FBA Carton Packing Calculator",
+      "metaDescription": "Free fba carton packing calculator for Etsy sellers and handmade goods creators. Drag products into a 2D carton view, get instant space utilization, FBA size/wei No signup required.",
+      "keywords": [
+        "fba carton packing calculator for etsy",
+        "etsy fba carton packing calculator",
+        "free fba carton packing calculator etsy",
+        "fba carton packing calculator etsy",
+        "online fba carton packing calculator etsy"
+      ],
+      "headline": "FBA Carton Packing Calculator optimised for Etsy sellers and handmade goods creators. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fba-packing-calculator-for-dropshipping",
+      "metaTitle": "FBA Carton Packing Calculator for Dropshipping – Free Online FBA Carton Packing Calculator",
+      "metaDescription": "Free fba carton packing calculator for dropshipping business owners. Drag products into a 2D carton view, get instant space utilization, FBA size/wei No signup required.",
+      "keywords": [
+        "fba carton packing calculator for dropshipping",
+        "dropshipping fba carton packing calculator",
+        "free fba carton packing calculator dropshipping",
+        "fba carton packing calculator for dropshipping",
+        "online fba carton packing calculator dropshipping"
+      ],
+      "headline": "FBA Carton Packing Calculator optimised for dropshipping business owners. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why Your FBA Box Size Directly Affects Profitability",

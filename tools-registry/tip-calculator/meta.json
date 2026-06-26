@@ -123,5 +123,49 @@
       "heading": "Mistakes That Lead to Awkward Underpayments",
       "body": "The most common error is tipping on the wrong total. If your bill shows a subtotal of $92 but the final amount after tax is $101.20, tipping 20% on the subtotal gives you $18.40 while tipping on the tax-inclusive total gives $20.24. Neither is wrong exactly, but if everyone at the table has different assumptions, you'll come up short. Decide as a group whether you're tipping pre-tax or post-tax and enter that number consistently.\n\nAnother frequent mistake is forgetting that some restaurants add automatic gratuity for large parties—often 18% or 20%. If you then calculate an additional 18% tip, your server receives nearly 40% gratuity while your group overpays dramatically. Always check the bill for a line that says service charge or gratuity included. When in doubt, ask your server directly before punching numbers into any calculator."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "10percent-tip",
+      "metaTitle": "10% Tip Calculator – How Much Is a 10% Tip?",
+      "metaDescription": "Calculate a 10% tip quickly. Enter your bill amount to see the tip and total for any party size. Free 10% tip calculator.",
+      "h1": "10% Tip Calculator",
+      "description": "Instantly calculate a 10% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
+    },
+    {
+      "param": "15percent-tip",
+      "metaTitle": "15% Tip Calculator – How Much Is a 15% Tip?",
+      "metaDescription": "Calculate a 15% tip quickly. Enter your bill amount to see the tip and total for any party size. Free 15% tip calculator.",
+      "h1": "15% Tip Calculator",
+      "description": "Instantly calculate a 15% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
+    },
+    {
+      "param": "18percent-tip",
+      "metaTitle": "18% Tip Calculator – How Much Is a 18% Tip?",
+      "metaDescription": "Calculate a 18% tip quickly. Enter your bill amount to see the tip and total for any party size. Free 18% tip calculator.",
+      "h1": "18% Tip Calculator",
+      "description": "Instantly calculate a 18% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
+    },
+    {
+      "param": "20percent-tip",
+      "metaTitle": "20% Tip Calculator – How Much Is a 20% Tip?",
+      "metaDescription": "Calculate a 20% tip quickly. Enter your bill amount to see the tip and total for any party size. Free 20% tip calculator.",
+      "h1": "20% Tip Calculator",
+      "description": "Instantly calculate a 20% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
+    },
+    {
+      "param": "22percent-tip",
+      "metaTitle": "22% Tip Calculator – How Much Is a 22% Tip?",
+      "metaDescription": "Calculate a 22% tip quickly. Enter your bill amount to see the tip and total for any party size. Free 22% tip calculator.",
+      "h1": "22% Tip Calculator",
+      "description": "Instantly calculate a 22% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
+    },
+    {
+      "param": "25percent-tip",
+      "metaTitle": "25% Tip Calculator – How Much Is a 25% Tip?",
+      "metaDescription": "Calculate a 25% tip quickly. Enter your bill amount to see the tip and total for any party size. Free 25% tip calculator.",
+      "h1": "25% Tip Calculator",
+      "description": "Instantly calculate a 25% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
+    }
   ]
 }

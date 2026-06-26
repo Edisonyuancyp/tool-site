@@ -48,7 +48,47 @@
     "css-gradient-builder",
     "spacing-grid-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "responsive-image-calculator-online",
+      "metaTitle": "Responsive Image Calculator for Online – Free Online Responsive Image Calculator",
+      "metaDescription": "Free responsive image calculator for designers looking for a free online tool. Calculate the optimal size and resolution for images based on screen size and de No signup required.",
+      "keywords": [
+        "responsive image calculator for online",
+        "online responsive image calculator",
+        "free responsive image calculator online",
+        "responsive image calculator online",
+        "online responsive image calculator online"
+      ],
+      "headline": "Responsive Image Calculator optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "responsive-image-calculator-free",
+      "metaTitle": "Responsive Image Calculator for Free – Free Online Responsive Image Calculator",
+      "metaDescription": "Free responsive image calculator for designers looking for a completely free tool. Calculate the optimal size and resolution for images based on screen size and de No signup required.",
+      "keywords": [
+        "responsive image calculator for free",
+        "free responsive image calculator",
+        "free responsive image calculator free",
+        "responsive image calculator free",
+        "online responsive image calculator free"
+      ],
+      "headline": "Responsive Image Calculator optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "responsive-image-calculator-for-web",
+      "metaTitle": "Responsive Image Calculator for Web Design – Free Online Responsive Image Calculator",
+      "metaDescription": "Free responsive image calculator for web designers and front-end developers. Calculate the optimal size and resolution for images based on screen size and de No signup required.",
+      "keywords": [
+        "responsive image calculator for web design",
+        "web design responsive image calculator",
+        "free responsive image calculator web design",
+        "responsive image calculator for web",
+        "online responsive image calculator web design"
+      ],
+      "headline": "Responsive Image Calculator optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "instant Responsive Image Calculator",
     "painPoints": [

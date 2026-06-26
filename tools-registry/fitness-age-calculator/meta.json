@@ -47,7 +47,60 @@
     "bmi-calculator",
     "bmr-tdee-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "fitness-age-calculator-for-women",
+      "metaTitle": "Fitness Age Calculator for Women – Free Online Fitness Age Calculator",
+      "metaDescription": "Free fitness age calculator for women's fitness goals and metrics. This tool calculates your fitness age based on your physical activity levels and No signup required.",
+      "keywords": [
+        "fitness age calculator for women",
+        "women fitness age calculator",
+        "free fitness age calculator women",
+        "fitness age calculator for women",
+        "online fitness age calculator women"
+      ],
+      "headline": "Fitness Age Calculator optimised for women's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fitness-age-calculator-for-men",
+      "metaTitle": "Fitness Age Calculator for Men – Free Online Fitness Age Calculator",
+      "metaDescription": "Free fitness age calculator for men's fitness goals and metrics. This tool calculates your fitness age based on your physical activity levels and No signup required.",
+      "keywords": [
+        "fitness age calculator for men",
+        "men fitness age calculator",
+        "free fitness age calculator men",
+        "fitness age calculator for men",
+        "online fitness age calculator men"
+      ],
+      "headline": "Fitness Age Calculator optimised for men's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fitness-age-calculator-for-beginners",
+      "metaTitle": "Fitness Age Calculator for Beginners – Free Online Fitness Age Calculator",
+      "metaDescription": "Free fitness age calculator for people new to fitness and exercise. This tool calculates your fitness age based on your physical activity levels and No signup required.",
+      "keywords": [
+        "fitness age calculator for beginners",
+        "beginners fitness age calculator",
+        "free fitness age calculator beginners",
+        "fitness age calculator for beginners",
+        "online fitness age calculator beginners"
+      ],
+      "headline": "Fitness Age Calculator optimised for people new to fitness and exercise. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "fitness-age-calculator-imperial",
+      "metaTitle": "Fitness Age Calculator for Imperial Units – Free Online Fitness Age Calculator",
+      "metaDescription": "Free fitness age calculator for users who prefer pounds and feet. This tool calculates your fitness age based on your physical activity levels and No signup required.",
+      "keywords": [
+        "fitness age calculator for imperial units",
+        "imperial units fitness age calculator",
+        "free fitness age calculator imperial units",
+        "fitness age calculator imperial",
+        "online fitness age calculator imperial units"
+      ],
+      "headline": "Fitness Age Calculator optimised for users who prefer pounds and feet. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Fitness Age Actually Reveals About Your Body",

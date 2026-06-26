@@ -47,7 +47,73 @@
     "budget-calculator",
     "investment-return-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "savings-goal-calculator-for-students",
+      "metaTitle": "Savings Goal Calculator for Students – Free Online Savings Goal Calculator",
+      "metaDescription": "Free savings goal calculator for college students managing tight budgets. This calculator assists users in setting savings goals and determining how much  No signup required.",
+      "keywords": [
+        "savings goal calculator for students",
+        "students savings goal calculator",
+        "free savings goal calculator students",
+        "savings goal calculator for students",
+        "online savings goal calculator students"
+      ],
+      "headline": "Savings Goal Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "savings-goal-calculator-for-business",
+      "metaTitle": "Savings Goal Calculator for Business – Free Online Savings Goal Calculator",
+      "metaDescription": "Free savings goal calculator for small business owners and freelancers. This calculator assists users in setting savings goals and determining how much  No signup required.",
+      "keywords": [
+        "savings goal calculator for business",
+        "business savings goal calculator",
+        "free savings goal calculator business",
+        "savings goal calculator for business",
+        "online savings goal calculator business"
+      ],
+      "headline": "Savings Goal Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "savings-goal-calculator-uk",
+      "metaTitle": "Savings Goal Calculator for UK – Free Online Savings Goal Calculator",
+      "metaDescription": "Free savings goal calculator for users in the United Kingdom using GBP. This calculator assists users in setting savings goals and determining how much  No signup required.",
+      "keywords": [
+        "savings goal calculator for uk",
+        "uk savings goal calculator",
+        "free savings goal calculator uk",
+        "savings goal calculator uk",
+        "online savings goal calculator uk"
+      ],
+      "headline": "Savings Goal Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "savings-goal-calculator-canada",
+      "metaTitle": "Savings Goal Calculator for Canada – Free Online Savings Goal Calculator",
+      "metaDescription": "Free savings goal calculator for Canadian users using CAD. This calculator assists users in setting savings goals and determining how much  No signup required.",
+      "keywords": [
+        "savings goal calculator for canada",
+        "canada savings goal calculator",
+        "free savings goal calculator canada",
+        "savings goal calculator canada",
+        "online savings goal calculator canada"
+      ],
+      "headline": "Savings Goal Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "savings-goal-calculator-australia",
+      "metaTitle": "Savings Goal Calculator for Australia – Free Online Savings Goal Calculator",
+      "metaDescription": "Free savings goal calculator for Australian users using AUD. This calculator assists users in setting savings goals and determining how much  No signup required.",
+      "keywords": [
+        "savings goal calculator for australia",
+        "australia savings goal calculator",
+        "free savings goal calculator australia",
+        "savings goal calculator australia",
+        "online savings goal calculator australia"
+      ],
+      "headline": "Savings Goal Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Savings Goal Calculator Actually Does for Your Money",

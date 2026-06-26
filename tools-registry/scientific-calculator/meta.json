@@ -36,7 +36,47 @@
     "age-calculator",
     "bmi-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "scientific-calculator-online",
+      "metaTitle": "Scientific Calculator for Online – Free Online Scientific Calculator",
+      "metaDescription": "Free scientific calculator for students looking for a free online tool. A free online scientific calculator supporting trigonometry (sin, cos, tan), log No signup required.",
+      "keywords": [
+        "scientific calculator for online",
+        "online scientific calculator",
+        "free scientific calculator online",
+        "scientific calculator online",
+        "online scientific calculator online"
+      ],
+      "headline": "Scientific Calculator optimised for students looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "scientific-calculator-with-steps",
+      "metaTitle": "Scientific Calculator for Step by Step – Free Online Scientific Calculator",
+      "metaDescription": "Free scientific calculator for students who need to see working steps. A free online scientific calculator supporting trigonometry (sin, cos, tan), log No signup required.",
+      "keywords": [
+        "scientific calculator for step by step",
+        "step by step scientific calculator",
+        "free scientific calculator step by step",
+        "scientific calculator with steps",
+        "online scientific calculator step by step"
+      ],
+      "headline": "Scientific Calculator optimised for students who need to see working steps. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "scientific-calculator-for-students",
+      "metaTitle": "Scientific Calculator for Students – Free Online Scientific Calculator",
+      "metaDescription": "Free scientific calculator for high school and college students. A free online scientific calculator supporting trigonometry (sin, cos, tan), log No signup required.",
+      "keywords": [
+        "scientific calculator for students",
+        "students scientific calculator",
+        "free scientific calculator students",
+        "scientific calculator for students",
+        "online scientific calculator students"
+      ],
+      "headline": "Scientific Calculator optimised for high school and college students. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Scientific Calculator Actually Does Beyond Basic Math",

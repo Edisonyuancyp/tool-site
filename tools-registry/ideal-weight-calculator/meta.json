@@ -117,5 +117,105 @@
       "heading": "Why Your Results Might Mislead You—and How to Interpret Them",
       "body": "The most common mistake is treating these numbers as gospel. Someone 5'4\" with a naturally broad frame might get a Devine result of 120 pounds that feels unrealistic—and it probably is for them. These formulas were built on population averages from decades ago and don't account for ethnic variation, age-related changes, or individual bone structure. Using them as the only guide for weight loss can lead to frustration or, worse, unhealthy restriction.\n\nAnother pitfall is ignoring the BMI range in favor of the single-number appeal. People often prefer one \"ideal\" answer, but the range is clinically more meaningful. If your current weight sits within a healthy BMI but all four formulas say you should weigh less, the formulas might simply not fit your body type. Finally, remember these calculators assume adult height—using them for teenagers or anyone under 18 produces misleading figures because adolescent bodies are still developing."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "height-5ft0-female",
+      "metaTitle": "Ideal Weight for 5Ft0 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 5ft0? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft0 Female",
+      "description": "Find the ideal body weight for a female standing 5ft0 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft0-male",
+      "metaTitle": "Ideal Weight for 5Ft0 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 5ft0? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft0 Male",
+      "description": "Find the ideal body weight for a male standing 5ft0 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft2-female",
+      "metaTitle": "Ideal Weight for 5Ft2 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 5ft2? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft2 Female",
+      "description": "Find the ideal body weight for a female standing 5ft2 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft2-male",
+      "metaTitle": "Ideal Weight for 5Ft2 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 5ft2? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft2 Male",
+      "description": "Find the ideal body weight for a male standing 5ft2 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft4-female",
+      "metaTitle": "Ideal Weight for 5Ft4 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 5ft4? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft4 Female",
+      "description": "Find the ideal body weight for a female standing 5ft4 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft4-male",
+      "metaTitle": "Ideal Weight for 5Ft4 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 5ft4? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft4 Male",
+      "description": "Find the ideal body weight for a male standing 5ft4 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft6-female",
+      "metaTitle": "Ideal Weight for 5Ft6 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 5ft6? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft6 Female",
+      "description": "Find the ideal body weight for a female standing 5ft6 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft6-male",
+      "metaTitle": "Ideal Weight for 5Ft6 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 5ft6? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft6 Male",
+      "description": "Find the ideal body weight for a male standing 5ft6 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft8-female",
+      "metaTitle": "Ideal Weight for 5Ft8 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 5ft8? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft8 Female",
+      "description": "Find the ideal body weight for a female standing 5ft8 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft8-male",
+      "metaTitle": "Ideal Weight for 5Ft8 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 5ft8? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft8 Male",
+      "description": "Find the ideal body weight for a male standing 5ft8 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft10-female",
+      "metaTitle": "Ideal Weight for 5Ft10 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 5ft10? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft10 Female",
+      "description": "Find the ideal body weight for a female standing 5ft10 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-5ft10-male",
+      "metaTitle": "Ideal Weight for 5Ft10 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 5ft10? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 5Ft10 Male",
+      "description": "Find the ideal body weight for a male standing 5ft10 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-6ft0-female",
+      "metaTitle": "Ideal Weight for 6Ft0 Female – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a female who is 6ft0? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 6Ft0 Female",
+      "description": "Find the ideal body weight for a female standing 6ft0 using the Robinson, Devine, Miller, and Hamwi formulas."
+    },
+    {
+      "param": "height-6ft0-male",
+      "metaTitle": "Ideal Weight for 6Ft0 Male – What Should I Weigh?",
+      "metaDescription": "What is the ideal weight for a male who is 6ft0? See results from 4 medical formulas plus the healthy BMI range. Free calculator.",
+      "h1": "Ideal Weight for 6Ft0 Male",
+      "description": "Find the ideal body weight for a male standing 6ft0 using the Robinson, Devine, Miller, and Hamwi formulas."
+    }
   ]
 }

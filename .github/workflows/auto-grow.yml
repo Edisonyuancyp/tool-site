@@ -122,6 +122,16 @@ jobs:
         if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
         run: python scripts/maintenance.py
 
+      - name: Generate variants for tools missing them
+        if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: python scripts/generate-variants.py --limit 20
+
+      - name: Generate programmatic SEO pages
+        if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
+        run: python scripts/generate-programmatic-seo.py
+
       # ── Shared: audit + auto-fix + build + commit ──────────────────────────
       - name: Audit all tools (self-check)
         run: node scripts/audit-tools.mjs || true

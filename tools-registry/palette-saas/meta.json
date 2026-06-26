@@ -33,7 +33,47 @@
   "relatedTools": [
     "color-palette-lab"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "palette-saas-online",
+      "metaTitle": "Minimal SaaS Color Palette for Online – Free Online Minimal SaaS Color Palette",
+      "metaDescription": "Free minimal saas color palette for designers looking for a free online tool. Clean, high-contrast palette used by modern SaaS products. Neutral grays anchore No signup required.",
+      "keywords": [
+        "minimal saas color palette for online",
+        "online minimal saas color palette",
+        "free minimal saas color palette online",
+        "minimal saas color palette online",
+        "online minimal saas color palette online"
+      ],
+      "headline": "Minimal SaaS Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-saas-free",
+      "metaTitle": "Minimal SaaS Color Palette for Free – Free Online Minimal SaaS Color Palette",
+      "metaDescription": "Free minimal saas color palette for designers looking for a completely free tool. Clean, high-contrast palette used by modern SaaS products. Neutral grays anchore No signup required.",
+      "keywords": [
+        "minimal saas color palette for free",
+        "free minimal saas color palette",
+        "free minimal saas color palette free",
+        "minimal saas color palette free",
+        "online minimal saas color palette free"
+      ],
+      "headline": "Minimal SaaS Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-saas-for-web",
+      "metaTitle": "Minimal SaaS Color Palette for Web Design – Free Online Minimal SaaS Color Palette",
+      "metaDescription": "Free minimal saas color palette for web designers and front-end developers. Clean, high-contrast palette used by modern SaaS products. Neutral grays anchore No signup required.",
+      "keywords": [
+        "minimal saas color palette for web design",
+        "web design minimal saas color palette",
+        "free minimal saas color palette web design",
+        "minimal saas color palette for web",
+        "online minimal saas color palette web design"
+      ],
+      "headline": "Minimal SaaS Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why Modern SaaS Products Rely on a Three-Color Foundation",

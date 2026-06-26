@@ -66,7 +66,47 @@
     "typography-compare-lab",
     "color-palette-lab"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "css-unit-converter-online",
+      "metaTitle": "CSS Unit Converter for Online – Free Online CSS Unit Converter",
+      "metaDescription": "Free css unit converter for developers looking for a free online tool. Convert between CSS units: px, rem, em, vw, vh, pt, and cm. Set your base font s No signup required.",
+      "keywords": [
+        "css unit converter for online",
+        "online css unit converter",
+        "free css unit converter online",
+        "css unit converter online",
+        "online css unit converter online"
+      ],
+      "headline": "CSS Unit Converter optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "css-unit-converter-javascript",
+      "metaTitle": "CSS Unit Converter for JavaScript – Free Online CSS Unit Converter",
+      "metaDescription": "Free css unit converter for JavaScript developers. Convert between CSS units: px, rem, em, vw, vh, pt, and cm. Set your base font s No signup required.",
+      "keywords": [
+        "css unit converter for javascript",
+        "javascript css unit converter",
+        "free css unit converter javascript",
+        "css unit converter javascript",
+        "online css unit converter javascript"
+      ],
+      "headline": "CSS Unit Converter optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "css-unit-converter-python",
+      "metaTitle": "CSS Unit Converter for Python – Free Online CSS Unit Converter",
+      "metaDescription": "Free css unit converter for Python developers. Convert between CSS units: px, rem, em, vw, vh, pt, and cm. Set your base font s No signup required.",
+      "keywords": [
+        "css unit converter for python",
+        "python css unit converter",
+        "free css unit converter python",
+        "css unit converter python",
+        "online css unit converter python"
+      ],
+      "headline": "CSS Unit Converter optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why CSS Units Matter More Than You Think",

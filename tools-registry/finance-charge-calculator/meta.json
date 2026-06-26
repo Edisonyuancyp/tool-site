@@ -47,7 +47,73 @@
     "loan-calculator",
     "debt-repayment-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "finance-charge-calculator-for-students",
+      "metaTitle": "Finance Charge Calculator for Students – Free Online Finance Charge Calculator",
+      "metaDescription": "Free finance charge calculator for college students managing tight budgets. This tool helps users calculate the finance charges on loans and credit cards ba No signup required.",
+      "keywords": [
+        "finance charge calculator for students",
+        "students finance charge calculator",
+        "free finance charge calculator students",
+        "finance charge calculator for students",
+        "online finance charge calculator students"
+      ],
+      "headline": "Finance Charge Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "finance-charge-calculator-for-business",
+      "metaTitle": "Finance Charge Calculator for Business – Free Online Finance Charge Calculator",
+      "metaDescription": "Free finance charge calculator for small business owners and freelancers. This tool helps users calculate the finance charges on loans and credit cards ba No signup required.",
+      "keywords": [
+        "finance charge calculator for business",
+        "business finance charge calculator",
+        "free finance charge calculator business",
+        "finance charge calculator for business",
+        "online finance charge calculator business"
+      ],
+      "headline": "Finance Charge Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "finance-charge-calculator-uk",
+      "metaTitle": "Finance Charge Calculator for UK – Free Online Finance Charge Calculator",
+      "metaDescription": "Free finance charge calculator for users in the United Kingdom using GBP. This tool helps users calculate the finance charges on loans and credit cards ba No signup required.",
+      "keywords": [
+        "finance charge calculator for uk",
+        "uk finance charge calculator",
+        "free finance charge calculator uk",
+        "finance charge calculator uk",
+        "online finance charge calculator uk"
+      ],
+      "headline": "Finance Charge Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "finance-charge-calculator-canada",
+      "metaTitle": "Finance Charge Calculator for Canada – Free Online Finance Charge Calculator",
+      "metaDescription": "Free finance charge calculator for Canadian users using CAD. This tool helps users calculate the finance charges on loans and credit cards ba No signup required.",
+      "keywords": [
+        "finance charge calculator for canada",
+        "canada finance charge calculator",
+        "free finance charge calculator canada",
+        "finance charge calculator canada",
+        "online finance charge calculator canada"
+      ],
+      "headline": "Finance Charge Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "finance-charge-calculator-australia",
+      "metaTitle": "Finance Charge Calculator for Australia – Free Online Finance Charge Calculator",
+      "metaDescription": "Free finance charge calculator for Australian users using AUD. This tool helps users calculate the finance charges on loans and credit cards ba No signup required.",
+      "keywords": [
+        "finance charge calculator for australia",
+        "australia finance charge calculator",
+        "free finance charge calculator australia",
+        "finance charge calculator australia",
+        "online finance charge calculator australia"
+      ],
+      "headline": "Finance Charge Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Finance Charges Really Cost You (Beyond the Interest Rate)",

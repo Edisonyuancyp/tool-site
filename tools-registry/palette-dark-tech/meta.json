@@ -33,7 +33,47 @@
   "relatedTools": [
     "color-palette-lab"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "palette-dark-tech-online",
+      "metaTitle": "Dark Tech Color Palette for Online – Free Online Dark Tech Color Palette",
+      "metaDescription": "Free dark tech color palette for designers looking for a free online tool. High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep No signup required.",
+      "keywords": [
+        "dark tech color palette for online",
+        "online dark tech color palette",
+        "free dark tech color palette online",
+        "dark tech color palette online",
+        "online dark tech color palette online"
+      ],
+      "headline": "Dark Tech Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-dark-tech-free",
+      "metaTitle": "Dark Tech Color Palette for Free – Free Online Dark Tech Color Palette",
+      "metaDescription": "Free dark tech color palette for designers looking for a completely free tool. High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep No signup required.",
+      "keywords": [
+        "dark tech color palette for free",
+        "free dark tech color palette",
+        "free dark tech color palette free",
+        "dark tech color palette free",
+        "online dark tech color palette free"
+      ],
+      "headline": "Dark Tech Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-dark-tech-for-web",
+      "metaTitle": "Dark Tech Color Palette for Web Design – Free Online Dark Tech Color Palette",
+      "metaDescription": "Free dark tech color palette for web designers and front-end developers. High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep No signup required.",
+      "keywords": [
+        "dark tech color palette for web design",
+        "web design dark tech color palette",
+        "free dark tech color palette web design",
+        "dark tech color palette for web",
+        "online dark tech color palette web design"
+      ],
+      "headline": "Dark Tech Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Dark Tech Palette Actually Delivers for Digital Interfaces",

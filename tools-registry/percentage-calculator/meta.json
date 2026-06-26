@@ -110,5 +110,287 @@
       "heading": "The Mistakes That Make Your Calculations Wrong Every Time",
       "body": "The most common error is dividing by the wrong number when calculating percentage change. If sales dropped from 500 units to 400 units, the decrease is (500 - 400) / 500 × 100 = 20%. Many people accidentally divide by 400 (the new value), getting 25% instead. Always divide by the original value, the starting point before the change happened.\n\nAnother frequent mistake involves adding percentages that shouldn't be added. If an investment gains 50% one year and loses 50% the next, you don't break even. Starting with 1,000 dollars, you'd have 1,500 after year one, then 750 after year two. You've lost 25% overall. Percentages applied sequentially multiply as decimals (1.50 × 0.50 = 0.75), they don't simply cancel out.\n\nFinally, people regularly confuse percentage points with percentages. If interest rates rise from 4% to 5%, that's a 1 percentage point increase but a 25% relative increase. Financial news often uses these interchangeably, which misleads readers. When precision matters—and with money it usually does—clarify which one you mean."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "what-is-10percent-of-100",
+      "metaTitle": "What Is 10% of 100? – Percentage Calculator",
+      "metaDescription": "What is 10% of 100? The answer is 10.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 10% of 100?",
+      "description": "10% of 100 is 10.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-10percent-of-200",
+      "metaTitle": "What Is 10% of 200? – Percentage Calculator",
+      "metaDescription": "What is 10% of 200? The answer is 20.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 10% of 200?",
+      "description": "10% of 200 is 20.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-10percent-of-500",
+      "metaTitle": "What Is 10% of 500? – Percentage Calculator",
+      "metaDescription": "What is 10% of 500? The answer is 50.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 10% of 500?",
+      "description": "10% of 500 is 50.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-10percent-of-1000",
+      "metaTitle": "What Is 10% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 10% of 1000? The answer is 100.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 10% of 1000?",
+      "description": "10% of 1000 is 100.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-10percent-of-5000",
+      "metaTitle": "What Is 10% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 10% of 5000? The answer is 500.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 10% of 5000?",
+      "description": "10% of 5000 is 500.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-15percent-of-100",
+      "metaTitle": "What Is 15% of 100? – Percentage Calculator",
+      "metaDescription": "What is 15% of 100? The answer is 15.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 15% of 100?",
+      "description": "15% of 100 is 15.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-15percent-of-200",
+      "metaTitle": "What Is 15% of 200? – Percentage Calculator",
+      "metaDescription": "What is 15% of 200? The answer is 30.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 15% of 200?",
+      "description": "15% of 200 is 30.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-15percent-of-500",
+      "metaTitle": "What Is 15% of 500? – Percentage Calculator",
+      "metaDescription": "What is 15% of 500? The answer is 75.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 15% of 500?",
+      "description": "15% of 500 is 75.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-15percent-of-1000",
+      "metaTitle": "What Is 15% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 15% of 1000? The answer is 150.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 15% of 1000?",
+      "description": "15% of 1000 is 150.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-15percent-of-5000",
+      "metaTitle": "What Is 15% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 15% of 5000? The answer is 750.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 15% of 5000?",
+      "description": "15% of 5000 is 750.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-20percent-of-100",
+      "metaTitle": "What Is 20% of 100? – Percentage Calculator",
+      "metaDescription": "What is 20% of 100? The answer is 20.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 20% of 100?",
+      "description": "20% of 100 is 20.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-20percent-of-200",
+      "metaTitle": "What Is 20% of 200? – Percentage Calculator",
+      "metaDescription": "What is 20% of 200? The answer is 40.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 20% of 200?",
+      "description": "20% of 200 is 40.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-20percent-of-500",
+      "metaTitle": "What Is 20% of 500? – Percentage Calculator",
+      "metaDescription": "What is 20% of 500? The answer is 100.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 20% of 500?",
+      "description": "20% of 500 is 100.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-20percent-of-1000",
+      "metaTitle": "What Is 20% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 20% of 1000? The answer is 200.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 20% of 1000?",
+      "description": "20% of 1000 is 200.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-20percent-of-5000",
+      "metaTitle": "What Is 20% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 20% of 5000? The answer is 1000.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 20% of 5000?",
+      "description": "20% of 5000 is 1000.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-25percent-of-100",
+      "metaTitle": "What Is 25% of 100? – Percentage Calculator",
+      "metaDescription": "What is 25% of 100? The answer is 25.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 25% of 100?",
+      "description": "25% of 100 is 25.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-25percent-of-200",
+      "metaTitle": "What Is 25% of 200? – Percentage Calculator",
+      "metaDescription": "What is 25% of 200? The answer is 50.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 25% of 200?",
+      "description": "25% of 200 is 50.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-25percent-of-500",
+      "metaTitle": "What Is 25% of 500? – Percentage Calculator",
+      "metaDescription": "What is 25% of 500? The answer is 125.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 25% of 500?",
+      "description": "25% of 500 is 125.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-25percent-of-1000",
+      "metaTitle": "What Is 25% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 25% of 1000? The answer is 250.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 25% of 1000?",
+      "description": "25% of 1000 is 250.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-25percent-of-5000",
+      "metaTitle": "What Is 25% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 25% of 5000? The answer is 1250.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 25% of 5000?",
+      "description": "25% of 5000 is 1250.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-30percent-of-100",
+      "metaTitle": "What Is 30% of 100? – Percentage Calculator",
+      "metaDescription": "What is 30% of 100? The answer is 30.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 30% of 100?",
+      "description": "30% of 100 is 30.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-30percent-of-200",
+      "metaTitle": "What Is 30% of 200? – Percentage Calculator",
+      "metaDescription": "What is 30% of 200? The answer is 60.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 30% of 200?",
+      "description": "30% of 200 is 60.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-30percent-of-500",
+      "metaTitle": "What Is 30% of 500? – Percentage Calculator",
+      "metaDescription": "What is 30% of 500? The answer is 150.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 30% of 500?",
+      "description": "30% of 500 is 150.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-30percent-of-1000",
+      "metaTitle": "What Is 30% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 30% of 1000? The answer is 300.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 30% of 1000?",
+      "description": "30% of 1000 is 300.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-30percent-of-5000",
+      "metaTitle": "What Is 30% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 30% of 5000? The answer is 1500.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 30% of 5000?",
+      "description": "30% of 5000 is 1500.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-40percent-of-100",
+      "metaTitle": "What Is 40% of 100? – Percentage Calculator",
+      "metaDescription": "What is 40% of 100? The answer is 40.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 40% of 100?",
+      "description": "40% of 100 is 40.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-40percent-of-200",
+      "metaTitle": "What Is 40% of 200? – Percentage Calculator",
+      "metaDescription": "What is 40% of 200? The answer is 80.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 40% of 200?",
+      "description": "40% of 200 is 80.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-40percent-of-500",
+      "metaTitle": "What Is 40% of 500? – Percentage Calculator",
+      "metaDescription": "What is 40% of 500? The answer is 200.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 40% of 500?",
+      "description": "40% of 500 is 200.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-40percent-of-1000",
+      "metaTitle": "What Is 40% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 40% of 1000? The answer is 400.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 40% of 1000?",
+      "description": "40% of 1000 is 400.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-40percent-of-5000",
+      "metaTitle": "What Is 40% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 40% of 5000? The answer is 2000.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 40% of 5000?",
+      "description": "40% of 5000 is 2000.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-50percent-of-100",
+      "metaTitle": "What Is 50% of 100? – Percentage Calculator",
+      "metaDescription": "What is 50% of 100? The answer is 50.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 50% of 100?",
+      "description": "50% of 100 is 50.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-50percent-of-200",
+      "metaTitle": "What Is 50% of 200? – Percentage Calculator",
+      "metaDescription": "What is 50% of 200? The answer is 100.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 50% of 200?",
+      "description": "50% of 200 is 100.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-50percent-of-500",
+      "metaTitle": "What Is 50% of 500? – Percentage Calculator",
+      "metaDescription": "What is 50% of 500? The answer is 250.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 50% of 500?",
+      "description": "50% of 500 is 250.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-50percent-of-1000",
+      "metaTitle": "What Is 50% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 50% of 1000? The answer is 500.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 50% of 1000?",
+      "description": "50% of 1000 is 500.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-50percent-of-5000",
+      "metaTitle": "What Is 50% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 50% of 5000? The answer is 2500.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 50% of 5000?",
+      "description": "50% of 5000 is 2500.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-75percent-of-100",
+      "metaTitle": "What Is 75% of 100? – Percentage Calculator",
+      "metaDescription": "What is 75% of 100? The answer is 75.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 75% of 100?",
+      "description": "75% of 100 is 75.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-75percent-of-200",
+      "metaTitle": "What Is 75% of 200? – Percentage Calculator",
+      "metaDescription": "What is 75% of 200? The answer is 150.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 75% of 200?",
+      "description": "75% of 200 is 150.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-75percent-of-500",
+      "metaTitle": "What Is 75% of 500? – Percentage Calculator",
+      "metaDescription": "What is 75% of 500? The answer is 375.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 75% of 500?",
+      "description": "75% of 500 is 375.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-75percent-of-1000",
+      "metaTitle": "What Is 75% of 1000? – Percentage Calculator",
+      "metaDescription": "What is 75% of 1000? The answer is 750.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 75% of 1000?",
+      "description": "75% of 1000 is 750.0. Use the calculator below to compute any percentage instantly."
+    },
+    {
+      "param": "what-is-75percent-of-5000",
+      "metaTitle": "What Is 75% of 5000? – Percentage Calculator",
+      "metaDescription": "What is 75% of 5000? The answer is 3750.0. Use our free percentage calculator for any number instantly.",
+      "h1": "What Is 75% of 5000?",
+      "description": "75% of 5000 is 3750.0. Use the calculator below to compute any percentage instantly."
+    }
   ]
 }

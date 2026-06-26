@@ -66,7 +66,73 @@
     "profit-margin-calculator",
     "tax-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "discount-calculator-for-students",
+      "metaTitle": "Discount Calculator for Students – Free Online Discount Calculator",
+      "metaDescription": "Free discount calculator for college students managing tight budgets. Calculate the discounted price from a percentage off, find the original price fr No signup required.",
+      "keywords": [
+        "discount calculator for students",
+        "students discount calculator",
+        "free discount calculator students",
+        "discount calculator for students",
+        "online discount calculator students"
+      ],
+      "headline": "Discount Calculator optimised for college students managing tight budgets. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "discount-calculator-for-business",
+      "metaTitle": "Discount Calculator for Business – Free Online Discount Calculator",
+      "metaDescription": "Free discount calculator for small business owners and freelancers. Calculate the discounted price from a percentage off, find the original price fr No signup required.",
+      "keywords": [
+        "discount calculator for business",
+        "business discount calculator",
+        "free discount calculator business",
+        "discount calculator for business",
+        "online discount calculator business"
+      ],
+      "headline": "Discount Calculator optimised for small business owners and freelancers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "discount-calculator-uk",
+      "metaTitle": "Discount Calculator for UK – Free Online Discount Calculator",
+      "metaDescription": "Free discount calculator for users in the United Kingdom using GBP. Calculate the discounted price from a percentage off, find the original price fr No signup required.",
+      "keywords": [
+        "discount calculator for uk",
+        "uk discount calculator",
+        "free discount calculator uk",
+        "discount calculator uk",
+        "online discount calculator uk"
+      ],
+      "headline": "Discount Calculator optimised for users in the United Kingdom using GBP. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "discount-calculator-canada",
+      "metaTitle": "Discount Calculator for Canada – Free Online Discount Calculator",
+      "metaDescription": "Free discount calculator for Canadian users using CAD. Calculate the discounted price from a percentage off, find the original price fr No signup required.",
+      "keywords": [
+        "discount calculator for canada",
+        "canada discount calculator",
+        "free discount calculator canada",
+        "discount calculator canada",
+        "online discount calculator canada"
+      ],
+      "headline": "Discount Calculator optimised for Canadian users using CAD. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "discount-calculator-australia",
+      "metaTitle": "Discount Calculator for Australia – Free Online Discount Calculator",
+      "metaDescription": "Free discount calculator for Australian users using AUD. Calculate the discounted price from a percentage off, find the original price fr No signup required.",
+      "keywords": [
+        "discount calculator for australia",
+        "australia discount calculator",
+        "free discount calculator australia",
+        "discount calculator australia",
+        "online discount calculator australia"
+      ],
+      "headline": "Discount Calculator optimised for Australian users using AUD. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Discount Calculator Actually Solves for You",

@@ -41,7 +41,47 @@
     }
   ],
   "relatedTools": [],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "carbon-footprint-travel-calculator-international",
+      "metaTitle": "Carbon Footprint Travel Calculator for International – Free Online Carbon Footprint Travel Calculator",
+      "metaDescription": "Free carbon footprint travel calculator for international travelers. Assess the carbon footprint of your travel plans by inputting your travel distan No signup required.",
+      "keywords": [
+        "carbon footprint travel calculator for international",
+        "international carbon footprint travel calculator",
+        "free carbon footprint travel calculator international",
+        "carbon footprint travel calculator international",
+        "online carbon footprint travel calculator international"
+      ],
+      "headline": "Carbon Footprint Travel Calculator optimised for international travelers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "carbon-footprint-travel-calculator-budget",
+      "metaTitle": "Carbon Footprint Travel Calculator for Budget Travel – Free Online Carbon Footprint Travel Calculator",
+      "metaDescription": "Free carbon footprint travel calculator for budget-conscious backpackers. Assess the carbon footprint of your travel plans by inputting your travel distan No signup required.",
+      "keywords": [
+        "carbon footprint travel calculator for budget travel",
+        "budget travel carbon footprint travel calculator",
+        "free carbon footprint travel calculator budget travel",
+        "carbon footprint travel calculator budget",
+        "online carbon footprint travel calculator budget travel"
+      ],
+      "headline": "Carbon Footprint Travel Calculator optimised for budget-conscious backpackers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "carbon-footprint-travel-calculator-business",
+      "metaTitle": "Carbon Footprint Travel Calculator for Business Travel – Free Online Carbon Footprint Travel Calculator",
+      "metaDescription": "Free carbon footprint travel calculator for business travelers. Assess the carbon footprint of your travel plans by inputting your travel distan No signup required.",
+      "keywords": [
+        "carbon footprint travel calculator for business travel",
+        "business travel carbon footprint travel calculator",
+        "free carbon footprint travel calculator business travel",
+        "carbon footprint travel calculator business",
+        "online carbon footprint travel calculator business travel"
+      ],
+      "headline": "Carbon Footprint Travel Calculator optimised for business travelers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Carbon Footprint Travel Calculator Actually Tells You",

@@ -32,7 +32,47 @@
     }
   ],
   "relatedTools": [],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "travel-expense-estimator-international",
+      "metaTitle": "Travel Expense Estimator for International – Free Online Travel Expense Estimator",
+      "metaDescription": "Free travel expense estimator for international travelers. Calculate your total travel expenses by entering your destination, travel mode,  No signup required.",
+      "keywords": [
+        "travel expense estimator for international",
+        "international travel expense estimator",
+        "free travel expense estimator international",
+        "travel expense estimator international",
+        "online travel expense estimator international"
+      ],
+      "headline": "Travel Expense Estimator optimised for international travelers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "travel-expense-estimator-budget",
+      "metaTitle": "Travel Expense Estimator for Budget Travel – Free Online Travel Expense Estimator",
+      "metaDescription": "Free travel expense estimator for budget-conscious backpackers. Calculate your total travel expenses by entering your destination, travel mode,  No signup required.",
+      "keywords": [
+        "travel expense estimator for budget travel",
+        "budget travel travel expense estimator",
+        "free travel expense estimator budget travel",
+        "travel expense estimator budget",
+        "online travel expense estimator budget travel"
+      ],
+      "headline": "Travel Expense Estimator optimised for budget-conscious backpackers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "travel-expense-estimator-business",
+      "metaTitle": "Travel Expense Estimator for Business Travel – Free Online Travel Expense Estimator",
+      "metaDescription": "Free travel expense estimator for business travelers. Calculate your total travel expenses by entering your destination, travel mode,  No signup required.",
+      "keywords": [
+        "travel expense estimator for business travel",
+        "business travel travel expense estimator",
+        "free travel expense estimator business travel",
+        "travel expense estimator business",
+        "online travel expense estimator business travel"
+      ],
+      "headline": "Travel Expense Estimator optimised for business travelers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Travel Expense Estimator Actually Calculates",

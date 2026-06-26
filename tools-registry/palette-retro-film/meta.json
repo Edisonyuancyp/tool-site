@@ -33,7 +33,47 @@
   "relatedTools": [
     "color-palette-lab"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "palette-retro-film-online",
+      "metaTitle": "Retro Film Color Palette for Online – Free Online Retro Film Color Palette",
+      "metaDescription": "Free retro film color palette for designers looking for a free online tool. Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and  No signup required.",
+      "keywords": [
+        "retro film color palette for online",
+        "online retro film color palette",
+        "free retro film color palette online",
+        "retro film color palette online",
+        "online retro film color palette online"
+      ],
+      "headline": "Retro Film Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-retro-film-free",
+      "metaTitle": "Retro Film Color Palette for Free – Free Online Retro Film Color Palette",
+      "metaDescription": "Free retro film color palette for designers looking for a completely free tool. Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and  No signup required.",
+      "keywords": [
+        "retro film color palette for free",
+        "free retro film color palette",
+        "free retro film color palette free",
+        "retro film color palette free",
+        "online retro film color palette free"
+      ],
+      "headline": "Retro Film Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-retro-film-for-web",
+      "metaTitle": "Retro Film Color Palette for Web Design – Free Online Retro Film Color Palette",
+      "metaDescription": "Free retro film color palette for web designers and front-end developers. Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and  No signup required.",
+      "keywords": [
+        "retro film color palette for web design",
+        "web design retro film color palette",
+        "free retro film color palette web design",
+        "retro film color palette for web",
+        "online retro film color palette web design"
+      ],
+      "headline": "Retro Film Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why Retro Film Colors Work—The Psychology of Faded Warmth",

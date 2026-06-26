@@ -48,7 +48,47 @@
     "css-gradient-builder",
     "icon-grid-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "svg-clip-path-generator-online",
+      "metaTitle": "SVG Clip Path Generator for Online – Free Online SVG Clip Path Generator",
+      "metaDescription": "Free svg clip path generator for designers looking for a free online tool. Design and generate SVG clip paths by adjusting parameters like shape, size, and No signup required.",
+      "keywords": [
+        "svg clip path generator for online",
+        "online svg clip path generator",
+        "free svg clip path generator online",
+        "svg clip path generator online",
+        "online svg clip path generator online"
+      ],
+      "headline": "SVG Clip Path Generator optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "svg-clip-path-generator-free",
+      "metaTitle": "SVG Clip Path Generator for Free – Free Online SVG Clip Path Generator",
+      "metaDescription": "Free svg clip path generator for designers looking for a completely free tool. Design and generate SVG clip paths by adjusting parameters like shape, size, and No signup required.",
+      "keywords": [
+        "svg clip path generator for free",
+        "free svg clip path generator",
+        "free svg clip path generator free",
+        "svg clip path generator free",
+        "online svg clip path generator free"
+      ],
+      "headline": "SVG Clip Path Generator optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "svg-clip-path-generator-for-web",
+      "metaTitle": "SVG Clip Path Generator for Web Design – Free Online SVG Clip Path Generator",
+      "metaDescription": "Free svg clip path generator for web designers and front-end developers. Design and generate SVG clip paths by adjusting parameters like shape, size, and No signup required.",
+      "keywords": [
+        "svg clip path generator for web design",
+        "web design svg clip path generator",
+        "free svg clip path generator web design",
+        "svg clip path generator for web",
+        "online svg clip path generator web design"
+      ],
+      "headline": "SVG Clip Path Generator optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "instant SVG Clip Path Generator",
     "painPoints": [

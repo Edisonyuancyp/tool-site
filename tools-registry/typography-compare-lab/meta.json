@@ -74,7 +74,47 @@
     "qr-code-generator",
     "password-generator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "typography-compare-lab-online",
+      "metaTitle": "Typography Compare Lab for Online – Free Online Typography Compare Lab",
+      "metaDescription": "Free typography compare lab for designers looking for a free online tool. Pick any two Google Fonts and preview them side-by-side with your own text. Adju No signup required.",
+      "keywords": [
+        "typography compare lab for online",
+        "online typography compare lab",
+        "free typography compare lab online",
+        "typography compare lab online",
+        "online typography compare lab online"
+      ],
+      "headline": "Typography Compare Lab optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "typography-compare-lab-free",
+      "metaTitle": "Typography Compare Lab for Free – Free Online Typography Compare Lab",
+      "metaDescription": "Free typography compare lab for designers looking for a completely free tool. Pick any two Google Fonts and preview them side-by-side with your own text. Adju No signup required.",
+      "keywords": [
+        "typography compare lab for free",
+        "free typography compare lab",
+        "free typography compare lab free",
+        "typography compare lab free",
+        "online typography compare lab free"
+      ],
+      "headline": "Typography Compare Lab optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "typography-compare-lab-for-web",
+      "metaTitle": "Typography Compare Lab for Web Design – Free Online Typography Compare Lab",
+      "metaDescription": "Free typography compare lab for web designers and front-end developers. Pick any two Google Fonts and preview them side-by-side with your own text. Adju No signup required.",
+      "keywords": [
+        "typography compare lab for web design",
+        "web design typography compare lab",
+        "free typography compare lab web design",
+        "typography compare lab for web",
+        "online typography compare lab web design"
+      ],
+      "headline": "Typography Compare Lab optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What Comparing Fonts Side-by-Side Actually Reveals",

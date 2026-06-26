@@ -57,7 +57,47 @@
     "markdown-previewer",
     "word-counter"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "character-counter-online",
+      "metaTitle": "Character Counter for Social Media for Online – Free Online Character Counter for Social Media",
+      "metaDescription": "Free character counter for social media for users looking for a free online tool. Count characters and words in real time with platform-specific limits for Twitte No signup required.",
+      "keywords": [
+        "character counter for social media for online",
+        "online character counter for social media",
+        "free character counter for social media online",
+        "character counter for social media online",
+        "online character counter for social media online"
+      ],
+      "headline": "Character Counter for Social Media optimised for users looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "character-counter-for-seo",
+      "metaTitle": "Character Counter for Social Media for SEO – Free Online Character Counter for Social Media",
+      "metaDescription": "Free character counter for social media for SEO professionals and content marketers. Count characters and words in real time with platform-specific limits for Twitte No signup required.",
+      "keywords": [
+        "character counter for social media for seo",
+        "seo character counter for social media",
+        "free character counter for social media seo",
+        "character counter for social media for seo",
+        "online character counter for social media seo"
+      ],
+      "headline": "Character Counter for Social Media optimised for SEO professionals and content marketers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "character-counter-for-students",
+      "metaTitle": "Character Counter for Social Media for Students – Free Online Character Counter for Social Media",
+      "metaDescription": "Free character counter for social media for students writing essays and papers. Count characters and words in real time with platform-specific limits for Twitte No signup required.",
+      "keywords": [
+        "character counter for social media for students",
+        "students character counter for social media",
+        "free character counter for social media students",
+        "character counter for social media for students",
+        "online character counter for social media students"
+      ],
+      "headline": "Character Counter for Social Media optimised for students writing essays and papers. Free, instant, no signup required."
+    }
+  ],
   "article": {
     "title": "Social Media Character Limits: The Complete 2024 Guide",
     "sections": [

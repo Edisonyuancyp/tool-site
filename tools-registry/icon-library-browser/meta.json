@@ -48,7 +48,47 @@
     "font-pairing-tool",
     "color-palette-extractor"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "icon-library-browser-online",
+      "metaTitle": "Icon Library Browser for Online – Free Online Icon Library Browser",
+      "metaDescription": "Free icon library browser for designers looking for a free online tool. Browse through a vast library of icons and filter by category, style, or usage.  No signup required.",
+      "keywords": [
+        "icon library browser for online",
+        "online icon library browser",
+        "free icon library browser online",
+        "icon library browser online",
+        "online icon library browser online"
+      ],
+      "headline": "Icon Library Browser optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "icon-library-browser-free",
+      "metaTitle": "Icon Library Browser for Free – Free Online Icon Library Browser",
+      "metaDescription": "Free icon library browser for designers looking for a completely free tool. Browse through a vast library of icons and filter by category, style, or usage.  No signup required.",
+      "keywords": [
+        "icon library browser for free",
+        "free icon library browser",
+        "free icon library browser free",
+        "icon library browser free",
+        "online icon library browser free"
+      ],
+      "headline": "Icon Library Browser optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "icon-library-browser-for-web",
+      "metaTitle": "Icon Library Browser for Web Design – Free Online Icon Library Browser",
+      "metaDescription": "Free icon library browser for web designers and front-end developers. Browse through a vast library of icons and filter by category, style, or usage.  No signup required.",
+      "keywords": [
+        "icon library browser for web design",
+        "web design icon library browser",
+        "free icon library browser web design",
+        "icon library browser for web",
+        "online icon library browser web design"
+      ],
+      "headline": "Icon Library Browser optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "instant Icon Library Browser",
     "painPoints": [

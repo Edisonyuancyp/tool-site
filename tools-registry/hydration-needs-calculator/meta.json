@@ -47,7 +47,60 @@
     "bmr-tdee-calculator",
     "ideal-weight-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "hydration-needs-calculator-for-women",
+      "metaTitle": "Hydration Needs Calculator for Women – Free Online Hydration Needs Calculator",
+      "metaDescription": "Free hydration needs calculator for women's fitness goals and metrics. This calculator helps you determine how much water you should be drinking daily  No signup required.",
+      "keywords": [
+        "hydration needs calculator for women",
+        "women hydration needs calculator",
+        "free hydration needs calculator women",
+        "hydration needs calculator for women",
+        "online hydration needs calculator women"
+      ],
+      "headline": "Hydration Needs Calculator optimised for women's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "hydration-needs-calculator-for-men",
+      "metaTitle": "Hydration Needs Calculator for Men – Free Online Hydration Needs Calculator",
+      "metaDescription": "Free hydration needs calculator for men's fitness goals and metrics. This calculator helps you determine how much water you should be drinking daily  No signup required.",
+      "keywords": [
+        "hydration needs calculator for men",
+        "men hydration needs calculator",
+        "free hydration needs calculator men",
+        "hydration needs calculator for men",
+        "online hydration needs calculator men"
+      ],
+      "headline": "Hydration Needs Calculator optimised for men's fitness goals and metrics. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "hydration-needs-calculator-for-beginners",
+      "metaTitle": "Hydration Needs Calculator for Beginners – Free Online Hydration Needs Calculator",
+      "metaDescription": "Free hydration needs calculator for people new to fitness and exercise. This calculator helps you determine how much water you should be drinking daily  No signup required.",
+      "keywords": [
+        "hydration needs calculator for beginners",
+        "beginners hydration needs calculator",
+        "free hydration needs calculator beginners",
+        "hydration needs calculator for beginners",
+        "online hydration needs calculator beginners"
+      ],
+      "headline": "Hydration Needs Calculator optimised for people new to fitness and exercise. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "hydration-needs-calculator-imperial",
+      "metaTitle": "Hydration Needs Calculator for Imperial Units – Free Online Hydration Needs Calculator",
+      "metaDescription": "Free hydration needs calculator for users who prefer pounds and feet. This calculator helps you determine how much water you should be drinking daily  No signup required.",
+      "keywords": [
+        "hydration needs calculator for imperial units",
+        "imperial units hydration needs calculator",
+        "free hydration needs calculator imperial units",
+        "hydration needs calculator imperial",
+        "online hydration needs calculator imperial units"
+      ],
+      "headline": "Hydration Needs Calculator optimised for users who prefer pounds and feet. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why Your Body Needs a Specific Amount of Water Daily",

@@ -34,7 +34,47 @@
   "relatedTools": [
     "color-palette-lab"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "palette-eco-green-online",
+      "metaTitle": "Eco Green Color Palette for Online – Free Online Eco Green Color Palette",
+      "metaDescription": "Free eco green color palette for designers looking for a free online tool. Nature-inspired organic palette for sustainability brands, wellness, and environ No signup required.",
+      "keywords": [
+        "eco green color palette for online",
+        "online eco green color palette",
+        "free eco green color palette online",
+        "eco green color palette online",
+        "online eco green color palette online"
+      ],
+      "headline": "Eco Green Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-eco-green-free",
+      "metaTitle": "Eco Green Color Palette for Free – Free Online Eco Green Color Palette",
+      "metaDescription": "Free eco green color palette for designers looking for a completely free tool. Nature-inspired organic palette for sustainability brands, wellness, and environ No signup required.",
+      "keywords": [
+        "eco green color palette for free",
+        "free eco green color palette",
+        "free eco green color palette free",
+        "eco green color palette free",
+        "online eco green color palette free"
+      ],
+      "headline": "Eco Green Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "palette-eco-green-for-web",
+      "metaTitle": "Eco Green Color Palette for Web Design – Free Online Eco Green Color Palette",
+      "metaDescription": "Free eco green color palette for web designers and front-end developers. Nature-inspired organic palette for sustainability brands, wellness, and environ No signup required.",
+      "keywords": [
+        "eco green color palette for web design",
+        "web design eco green color palette",
+        "free eco green color palette web design",
+        "eco green color palette for web",
+        "online eco green color palette web design"
+      ],
+      "headline": "Eco Green Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What a Nature-Inspired Eco Palette Actually Provides",
