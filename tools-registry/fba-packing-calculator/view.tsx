@@ -280,31 +280,125 @@ export default function FbaPackingCalculatorView() {
     }).sort((a, b) => b.volUtil - a.volUtil);
   }, [products]);
 
-  // ── Print packing list ────────────────────────────────────────────────────
+  // ── Print / Export PDF packing list ──────────────────────────────────────
   const printPackingList = () => {
-    const lines = [
-      `FBA Packing List — ${new Date().toLocaleDateString()}`,
-      `Carton: ${carton.w}×${carton.d}×${carton.h} cm`,
-      `Total weight: ${totalWeight.toFixed(2)} kg | Dim weight: ${dimWt.toFixed(2)} kg | Billable: ${billableWt.toFixed(2)} kg`,
-      `Utilization: ${utilization.toFixed(0)}%`,
-      "",
-      "Products:",
-      ...products.map(p =>
-        `  ${p.name}: ${p.w}×${p.d}×${p.h} cm, ${p.weight} kg × ${p.qty} units`
-      ),
-      "",
-      "Stacking order (bottom → top):",
-      ...products
-        .slice()
-        .sort((a, b) => b.weight - a.weight)
-        .map((p, i) => `  ${i+1}. ${p.name} (heaviest first)`),
-    ];
+    const dateStr   = new Date().toLocaleDateString("en-US", { year:"numeric", month:"long", day:"numeric" });
+    const stackOrder = [...products].sort((a, b) => b.weight - a.weight);
+
+    const warnHtml = [
+      fbaWarn.overweight ? `<span class="badge red">⚠ Overweight — exceeds 50 lb (22.7 kg)</span>` : "",
+      fbaWarn.oversize   ? `<span class="badge red">⚠ Oversize — longest side &gt; 25 in (63.5 cm)</span>` : "",
+      fbaWarn.teamLift && !fbaWarn.overweight
+        ? `<span class="badge amber">⚠ Team Lift label required (&gt;50 lb)</span>` : "",
+    ].filter(Boolean).join(" ");
+
+    const productRows = products.map((p, i) => `
+      <tr>
+        <td><span class="swatch" style="background:${p.color}"></span>${p.name}</td>
+        <td>${p.w} × ${p.d} × ${p.h}</td>
+        <td>${p.weight}</td>
+        <td>${p.qty}</td>
+        <td>${(p.weight * p.qty).toFixed(2)}</td>
+        <td>${(p.w * p.d * p.h * p.qty / 1000).toFixed(1)}</td>
+      </tr>`).join("");
+
+    const stackRows = stackOrder.map((p, i) => `
+      <tr>
+        <td>${i + 1}</td>
+        <td><span class="swatch" style="background:${p.color}"></span>${p.name}</td>
+        <td>${p.weight} kg × ${p.qty}</td>
+        <td style="color:#888;font-size:11px">Heaviest items on the bottom</td>
+      </tr>`).join("");
+
+    const html = `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>FBA Packing List — ${dateStr}</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Arial,sans-serif;font-size:13px;color:#111;padding:32px;max-width:800px;margin:auto}
+  h1{font-size:20px;font-weight:700;margin-bottom:4px}
+  .subtitle{color:#555;font-size:12px;margin-bottom:24px}
+  .section{margin-bottom:24px}
+  .section-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#888;margin-bottom:8px;border-bottom:1px solid #e5e7eb;padding-bottom:4px}
+  table{width:100%;border-collapse:collapse}
+  th{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:#888;text-align:left;padding:6px 8px;border-bottom:2px solid #e5e7eb}
+  td{padding:7px 8px;border-bottom:1px solid #f3f4f6;vertical-align:middle}
+  tr:last-child td{border-bottom:none}
+  .swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+  .summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+  .card{border:1px solid #e5e7eb;border-radius:8px;padding:12px;text-align:center}
+  .card-label{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:#888;margin-bottom:4px}
+  .card-value{font-size:18px;font-weight:700}
+  .green{color:#16a34a}.amber{color:#d97706}.red{color:#dc2626}
+  .badge{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:600;margin-right:6px}
+  .badge.red{background:#fee2e2;color:#b91c1c}
+  .badge.amber{background:#fef3c7;color:#92400e}
+  .footer{margin-top:32px;font-size:10px;color:#bbb;text-align:center}
+  @media print{
+    body{padding:16px}
+    @page{margin:12mm}
+    .no-print{display:none}
+  }
+</style>
+</head>
+<body>
+<div class="no-print" style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px 16px;margin-bottom:20px;display:flex;align-items:center;gap:12px">
+  <span style="font-size:16px">🖨️</span>
+  <span style="font-size:13px;color:#166534">Use <strong>Ctrl+P / Cmd+P</strong> to print or save as PDF. For best results choose "Save as PDF" as destination.</span>
+  <button onclick="window.print()" style="margin-left:auto;padding:6px 16px;background:#16a34a;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:12px;font-weight:600">Print / Save PDF</button>
+</div>
+
+<h1>📦 FBA Packing List</h1>
+<p class="subtitle">Generated ${dateStr} &nbsp;·&nbsp; Carton: <strong>${carton.w} × ${carton.d} × ${carton.h} cm</strong> &nbsp;·&nbsp; ${placements.length} / ${totalQty} items per carton &nbsp;·&nbsp; <strong>${cartonsNeeded} carton(s) total</strong></p>
+
+${warnHtml ? `<div class="section">${warnHtml}</div>` : ""}
+
+<div class="summary-grid" style="grid-template-columns:repeat(5,1fr)">
+  <div class="card"><div class="card-label">Volume Fill</div><div class="card-value ${utilization>=70?"green":utilization>=50?"amber":"red"}">${utilization.toFixed(0)}%</div></div>
+  <div class="card"><div class="card-label">Items / Carton</div><div class="card-value">${placements.length}</div></div>
+  <div class="card"><div class="card-label">Cartons Needed</div><div class="card-value">${cartonsNeeded}</div></div>
+  <div class="card"><div class="card-label">Actual Weight</div><div class="card-value ${fbaWarn.overweight?"red":""}">${totalWeight.toFixed(2)} kg</div></div>
+  <div class="card"><div class="card-label">Billable Weight</div><div class="card-value">${billableWt.toFixed(2)} kg</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">Product List</div>
+  <table>
+    <thead><tr>
+      <th>Product</th><th>Dims (W×D×H cm)</th><th>Unit Wt (kg)</th><th>Qty</th><th>Total Wt (kg)</th><th>Vol (L)</th>
+    </tr></thead>
+    <tbody>${productRows}</tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">Stacking Order (Bottom → Top)</div>
+  <table>
+    <thead><tr><th>#</th><th>Product</th><th>Weight × Qty</th><th>Note</th></tr></thead>
+    <tbody>${stackRows}</tbody>
+  </table>
+</div>
+
+<div class="footer">Generated by GetFastCalc FBA Packing Calculator · getfastcalc.com</div>
+</body>
+</html>`;
+
     const win = window.open("", "_blank");
-    if (!win) return;
-    win.document.write(`<pre style="font-family:monospace;padding:24px">${lines.join("\n")}</pre>`);
+    if (!win) { alert("Please allow popups to export the packing list."); return; }
+    win.document.write(html);
     win.document.close();
-    win.print();
   };
+
+  // ── Multi-carton count (how many full cartons needed) ──────────────────
+  const cartonsNeeded = useMemo(() => {
+    const perCarton = placements.length > 0 && totalQty > 0
+      ? placements.length  // items that fit in one carton
+      : 0;
+    if (perCarton === 0 || totalQty === 0) return 1;
+    return Math.ceil(totalQty / perCarton);
+  }, [placements.length, totalQty]);
 
   const utilColor = utilization >= 70 ? "text-green-600" : utilization >= 50 ? "text-amber-500" : "text-red-500";
   const canvasStyle = { width: CANVAS_W, height: CANVAS_H };
@@ -350,9 +444,9 @@ export default function FbaPackingCalculatorView() {
         </button>
         <button
           onClick={printPackingList}
-          className="px-4 py-2 rounded-lg bg-gray-100 text-gray-700 text-sm font-medium hover:bg-gray-200 transition-colors"
+          className="px-4 py-2 rounded-lg bg-gray-900 text-white text-sm font-medium hover:bg-gray-700 transition-colors"
         >
-          🖨️ Print List
+          � Export PDF
         </button>
       </div>
 
@@ -520,10 +614,11 @@ export default function FbaPackingCalculatorView() {
           </div>
 
           {/* Stats bar */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {[
               { label: "Utilization", val: `${utilization.toFixed(0)}%`, className: utilColor },
               { label: "Items placed", val: `${placedQty} / ${totalQty}`, className: "text-gray-800" },
+              { label: "Cartons needed", val: `${cartonsNeeded}`, className: "text-gray-800" },
               { label: "Actual weight", val: `${totalWeight.toFixed(2)} kg`, className: fbaWarn.overweight ? "text-red-600" : "text-gray-800" },
               { label: "Billable weight", val: `${billableWt.toFixed(2)} kg`, className: "text-gray-800" },
             ].map(({ label, val, className }) => (
