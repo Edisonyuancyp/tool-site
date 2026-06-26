@@ -1,30 +1,9 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { ToolMeta } from "@/lib/tools";
 import { getToolPath } from "@/lib/tools";
 import { useWorkbench } from "@/lib/WorkbenchContext";
-
-const SEARCH_HINTS = [
-  "Try \"BMI calculator\"…",
-  "Try \"compound interest\"…",
-  "Try \"tip calculator\"…",
-  "Try \"password generator\"…",
-  "Try \"base64 encoder\"…",
-  "Try \"FBA packing\"…",
-  "Try \"currency converter\"…",
-  "Try \"age calculator\"…",
-  "Try \"scientific calculator\"…",
-  "Try \"sleep calculator\"…",
-  "Try \"calorie calculator\"…",
-  "Try \"mortgage calculator\"…",
-  "Try \"unit converter\"…",
-  "Try \"QR code generator\"…",
-  "Try \"loan calculator\"…",
-  "Try \"body fat calculator\"…",
-  "Try \"discount calculator\"…",
-  "Try \"unix timestamp\"…",
-];
 
 function ToolCard({ tool, showCategory = false }: { tool: ToolMeta; showCategory?: boolean }) {
   const { isFav, toggleFav } = useWorkbench();
@@ -84,30 +63,23 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [query, setQuery] = useState("");
 
-  // Rotating placeholder
-  const [hintIdx, setHintIdx] = useState(0);
-  const [fading, setFading] = useState(false);
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
+  // Listen for search queries fired by HeroSearch
   useEffect(() => {
-    // Pick a random start index on mount
-    setHintIdx(Math.floor(Math.random() * SEARCH_HINTS.length));
-    timerRef.current = setInterval(() => {
-      setFading(true);
-      setTimeout(() => {
-        setHintIdx(i => (i + 1) % SEARCH_HINTS.length);
-        setFading(false);
-      }, 300);
-    }, 3000);
-    return () => { if (timerRef.current) clearInterval(timerRef.current); };
+    const handler = (e: Event) => {
+      const q = (e as CustomEvent<string>).detail;
+      setQuery(q);
+      setActiveCategory(null);
+    };
+    window.addEventListener("hero-search", handler);
+    return () => window.removeEventListener("hero-search", handler);
   }, []);
 
   const q = query.trim().toLowerCase();
 
   return (
-    <>
-      {/* Search bar — top of page */}
-      <div className="relative mb-8">
+    <div id="tool-grid">
+      {/* Search bar — inside grid for direct filtering */}
+      <div className="relative mb-6">
         <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
         </svg>
@@ -115,10 +87,8 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
           type="search"
           value={query}
           onChange={e => { setQuery(e.target.value); setActiveCategory(null); }}
-          placeholder={query === "" ? SEARCH_HINTS[hintIdx] : ""}
-          className={`w-full pl-11 pr-10 py-3.5 rounded-2xl border border-gray-200 bg-white text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 shadow-sm transition-all ${
-            fading ? "placeholder-opacity-0" : "placeholder-opacity-100"
-          }`}
+          placeholder={`Search ${tools.length} tools…`}
+          className="w-full pl-11 pr-10 py-3 rounded-xl border border-gray-200 bg-white text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:border-gray-400 focus:ring-2 focus:ring-gray-100 transition-all"
         />
         {query && (
           <button
@@ -216,6 +186,6 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
           })}
         </div>
       )}
-    </>
+    </div>
   );
 }

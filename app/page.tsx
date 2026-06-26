@@ -7,6 +7,7 @@ import HomeSchema from "@/components/HomeSchema";
 import ToolGrid from "@/components/ToolGrid";
 import ToolRequestBanner from "@/components/ToolRequestBanner";
 import WorkbenchDashboard from "@/components/WorkbenchDashboard";
+import HeroSearch from "@/components/HeroSearch";
 
 const POPULAR_SLUGS = [
   "percentage-calculator",
@@ -42,7 +43,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-10">
 
           {/* Hero */}
-          <div className="text-center mb-8">
+          <div className="text-center mb-10">
             <div className="inline-flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5 text-xs font-medium text-gray-500 mb-5">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
               No signup · No ads · Instant answers
@@ -54,6 +55,8 @@ export default function Home() {
               GetFastCalc gives you 100+ free calculators and tools for math, finance, health, science,
               and more. Everything runs in your browser — no signup, no data stored, instant results.
             </p>
+            {/* Search bar — visible immediately on load */}
+            <HeroSearch />
           </div>
 
           {/* Two-column layout */}
