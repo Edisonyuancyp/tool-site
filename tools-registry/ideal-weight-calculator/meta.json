@@ -25,7 +25,11 @@
     "free ideal body weight calculator",
     "how to check ideal weight calculator",
     "what should i weigh for my age and height",
-    "what should i weigh at 5'4 female"
+    "what should i weigh at 5'4 female",
+    "ideal weight chart by height and age",
+    "weight chart for women by height",
+    "healthy weight chart men women",
+    "ideal body weight table"
   ],
   "category": "Health",
   "icon": "⚖️",
@@ -104,6 +108,10 @@
     {
       "heading": "Unexpected Ways to Use Multiple Ideal Weight Estimates",
       "body": "Most people glance at these numbers once and forget them, but the four-formula comparison opens up useful applications. Consider someone recovering from illness who lost significant weight: rather than guessing a goal, they can use the lowest formula result (usually Miller) as a minimum safe target during recovery, ensuring they're not stopping short of a clinically reasonable weight. Then they might aim toward the higher formulas over time.\n\nAnother scenario involves athletes who need to weigh in for a sport. A wrestler who competes at 152 pounds can compare that against his formula outputs. If Miller says 145 and Robinson says 157, he knows 152 sits comfortably in range—not dangerously low. The BMI span adds another check: if his weight class would push him below 18.5 BMI, the calculator flags that as outside healthy territory. Parents sometimes use these formulas to sanity-check growth expectations for teenagers, though pediatric charts work better for children under 18."
+    },
+    {
+      "heading": "Ideal Weight Chart by Height: Reference Table for Men and Women",
+      "body": "A height-weight reference table lets you look up the ideal weight range for any height without doing arithmetic. For women, a 5'0\" (152 cm) frame corresponds to an ideal range of roughly 97–123 pounds (44–56 kg) across the four formulas. At 5'4\" that range rises to 108–132 pounds (49–60 kg), and at 5'8\" it reaches 122–148 pounds (55–67 kg). The spread between the lowest formula (Miller) and highest (Hamwi or Devine) stays at about 15–20 pounds throughout.\n\nFor men the numbers are higher at every height because the formulas were calibrated on male physiology. A 5'8\" man falls between 139–159 pounds (63–72 kg), a 5'10\" man between 151–172 pounds (69–78 kg), and a 6'0\" man between 164–186 pounds (74–84 kg). These ranges assume an average skeletal frame. Men with broad shoulders and dense bones typically sit comfortably 10–15 pounds above the upper formula result while still remaining lean and healthy.\n\nSearching \"ideal weight chart\" or \"weight chart by height\" online pulls up countless images of these tables, but they vary because different sources use different formulas. This calculator shows all four simultaneously, which is more useful than any single chart because you can see the realistic target zone rather than one arbitrary number."
     },
     {
       "heading": "Why Your Results Might Mislead You—and How to Interpret Them",

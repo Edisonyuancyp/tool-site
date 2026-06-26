@@ -29,35 +29,43 @@ CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
 
-SYSTEM_PROMPT = """You are a practical, experienced writer who refreshes calculator tutorials. Keep the same factual content but present it from a slightly different angle, with new examples and fresher phrasing. No AI clichés: never use "delve", "harness", "leverage", "it's worth noting", "in the realm of", "embark", "transformative", "game-changer", "dive into", "cutting-edge", "robust". Write like a knowledgeable friend. Output JSON only."""
+SYSTEM_PROMPT = """You are a practical, experienced writer adding NEW sections to an existing calculator tutorial. Add fresh angles, deeper how-to content, or new use cases NOT already covered by the existing headings. Never rewrite what already exists. No AI clichés: never use "delve", "harness", "leverage", "it's worth noting", "in the realm of", "embark", "transformative", "game-changer", "dive into", "cutting-edge", "robust". Write like a knowledgeable friend. Output JSON only."""
+
+
+MAX_SEO_SECTIONS = 8  # keep at most this many sections total
+NEW_SECTIONS_PER_RUN = 2  # how many genuinely new sections to add each refresh
 
 
 def build_prompt(meta: dict) -> str:
     name = meta.get("name", "")
     tagline = meta.get("tagline", "")
     description = meta.get("description", "")
-    keywords = meta.get("keywords", [])[:6]
-    return f"""Rewrite the tutorial for the online tool: "{name}"
+    keywords = meta.get("keywords", [])[:8]
+    existing_headings = [s.get("heading", "") for s in meta.get("seoBody", [])]
+    existing_str = "\n".join(f'- {h}' for h in existing_headings) if existing_headings else "(none yet)"
+    return f"""Add NEW tutorial sections for the online tool: "{name}"
 
 Tool tagline: {tagline}
 Description: {description}
 Target keywords: {", ".join(keywords)}
 
-Generate exactly 5 sections. Each section has:
-- "heading": a specific, descriptive H2 title
-- "body": 2-3 paragraphs of prose (120-160 words each), separated by \\n\\n
+Existing section headings (DO NOT repeat these topics):
+{existing_str}
+
+Write exactly {NEW_SECTIONS_PER_RUN} NEW sections that cover angles not already in the existing headings.
+Ideas: common mistakes, real-world use cases, comparison with manual methods, quick tips, edge cases.
+
+Each section:
+- "heading": specific H2 title, different from existing ones
+- "body": 2-3 paragraphs of prose (120-160 words each) separated by \\n\\n
 
 Rules:
-- Same factual accuracy and formula as the original, but a fresh angle and new examples
 - Use real numbers, not placeholders
 - Avoid AI filler phrases
-- Total 700-900 words
+- Each section 250-320 words
 
 Return only JSON, no extra text:
 [
-  {{"heading": "...", "body": "..."}},
-  {{"heading": "...", "body": "..."}},
-  {{"heading": "...", "body": "..."}},
   {{"heading": "...", "body": "..."}},
   {{"heading": "...", "body": "..."}}
 ]"""
@@ -131,13 +139,31 @@ def refresh_tool(slug: str) -> bool:
     if not sections:
         return False
 
-    meta["seoBody"] = sections
+    # ── Additive merge: keep existing, append genuinely new sections ─────────
+    existing_sections = meta.get("seoBody", [])
+    existing_headings_lower = {s.get("heading", "").lower().strip() for s in existing_sections}
+
+    new_unique = [
+        s for s in sections
+        if s.get("heading", "").lower().strip() not in existing_headings_lower
+    ]
+
+    if not new_unique:
+        print(f"  ⚠️  All generated headings duplicate existing ones, skipping: {slug}")
+        return False
+
+    # Append new; if total exceeds cap, drop oldest sections to keep it fresh
+    merged = existing_sections + new_unique
+    if len(merged) > MAX_SEO_SECTIONS:
+        merged = merged[-MAX_SEO_SECTIONS:]
+
+    meta["seoBody"] = merged
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
-    word_count = sum(len(s.get("body", "").split()) for s in sections)
-    print(f"  ✅ Refreshed ({word_count} words): {slug}")
+    word_count = sum(len(s.get("body", "").split()) for s in merged)
+    print(f"  ✅ +{len(new_unique)} sections ({word_count} words total, {len(merged)} sections): {slug}")
     return True
 
 
