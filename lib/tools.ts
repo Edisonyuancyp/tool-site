@@ -1046,6 +1046,8 @@ export const CATEGORY_URL_PREFIX: Record<string, string> = {
   Converter:     "converter",
   Cooking:       "converter",
   Productivity:  "converter",
+  Ecommerce:     "ecommerce",
+  ecommerce:     "ecommerce",
 };
 
 /** Returns the canonical URL path for a tool, e.g. /tools/dev/base-converter */
