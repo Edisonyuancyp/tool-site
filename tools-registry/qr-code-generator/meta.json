@@ -113,5 +113,21 @@
       "heading": "Five Mistakes That Make QR Codes Fail (and Simple Fixes)",
       "body": "The most common error is encoding an incomplete URL. If you type \"example.com\" without \"https://\" at the beginning, some scanners will interpret it as plain text rather than a clickable link. Always include the full protocol, even though it feels redundant. Your entry should read \"https://example.com/page\" to guarantee it opens properly in browsers.\n\nPrinting too small causes constant frustration. A QR code with 50 modules per side needs to be at least 1 inch square for reliable scanning. Go smaller, and you're gambling on perfect lighting and steady hands. When in doubt, print larger. There's no penalty for a 3-inch code, but plenty of failed scans from a half-inch one.\n\nFinally, people forget to test before mass printing. Always scan your freshly generated code with two different phones before sending 500 flyers to the printer. URLs with special characters, accidental spaces, or typos happen more often than you'd expect. A ten-second test saves real money and embarrassment."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "QR Code Generator Online Free – Free Online QR Code Generator",
+      "metaDescription": "Free online QR Code Generator — instant results, no signup. Generate free QR codes for URLs, text, and more. Download as PNG instantly. No s",
+      "h1": "QR Code Generator – Online Free",
+      "description": "Free online QR Code Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "QR Code Generator How to Use – Free Online QR Code Generator",
+      "metaDescription": "Step-by-step guide to getting the most from QR Code Generator. Generate free QR codes for URLs, text, and more. Download as PNG instantly. No s",
+      "h1": "QR Code Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from QR Code Generator."
+    }
   ]
 }

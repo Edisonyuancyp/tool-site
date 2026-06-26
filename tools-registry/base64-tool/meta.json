@@ -109,5 +109,28 @@
       "heading": "Character Encoding Traps That Corrupt Your Data",
       "body": "The most common mistake is encoding text that's already encoded. If someone hands you a Base64 string and you encode it again, you've created a double-encoded mess. The decoder will return another Base64 string instead of readable text. When output looks like random characters but almost decodes, check whether your input was already transformed. The Swap button helps here — decode, examine the result, then decide if another round is needed.\n\nCharacter encoding mismatches cause subtle corruption. If your source text uses Windows-1252 encoding but the decoder assumes UTF-8, accented characters turn into garbage. This tool expects UTF-8, which handles virtually every modern text correctly. Legacy systems sometimes produce Latin-1 or other encodings though. When decoded text shows strange characters where accents should be, the problem usually traces back to the original encoding step using the wrong character set.\n\nPadding errors trip people up with Base64. Valid Base64 lengths are always divisible by 4, with equals signs filling any gap. If someone accidentally truncated a string, you'll get decoding errors or corrupted output. Count the characters — a string of 143 characters can't be valid Base64. Either something got cut off, or the data was never Base64 to begin with."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Base64 Encoder / Decoder Online Free – Free Online Base64 Encoder / Decoder",
+      "metaDescription": "Free online Base64 Encoder / Decoder — no install required. Free Base64 encoder and decoder. Encode text to Base64 or decode Base64 strings.",
+      "h1": "Base64 Encoder / Decoder – Online Free",
+      "description": "Free online Base64 Encoder / Decoder — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Base64 Encoder / Decoder JavaScript – Free Online Base64 Encoder / Decoder",
+      "metaDescription": "Base64 Encoder / Decoder reference for JavaScript developers. Free Base64 encoder and decoder. Encode text to Base64 or decode Base64 strings.",
+      "h1": "Base64 Encoder / Decoder – JavaScript",
+      "description": "Base64 Encoder / Decoder reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Base64 Encoder / Decoder Python – Free Online Base64 Encoder / Decoder",
+      "metaDescription": "Base64 Encoder / Decoder reference for Python developers. Free Base64 encoder and decoder. Encode text to Base64 or decode Base64 strings.",
+      "h1": "Base64 Encoder / Decoder – Python",
+      "description": "Base64 Encoder / Decoder reference for Python developers."
+    }
   ]
 }

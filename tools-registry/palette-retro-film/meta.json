@@ -95,5 +95,21 @@
       "heading": "The Two Mistakes That Ruin Retro Palettes—And Their Fixes",
       "body": "The most common error is using these colors at full saturation everywhere simultaneously. When amber, rose, and cream all compete at maximum intensity, the design looks like a costume rather than a coherent aesthetic. The fix is simple: treat one color as dominant, one as supporting, and one as accent. A 60-25-15 ratio typically works—60% cream for backgrounds, 25% amber for headlines and key elements, 15% rose for strategic pops.\n\nThe second mistake involves ignoring contrast requirements. Cream (#FEF3C7) against white looks muddy. Amber (#D97706) over cream can work, but dusty rose (#FDA4AF) over cream fails accessibility tests with a contrast ratio below 3:1, making body text unreadable. The solution is introducing a true dark color—charcoal or deep brown—for any text that needs to be read quickly. The retro palette provides the atmosphere; practical typography still needs adequate contrast to function."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Retro Film Color Palette Online Free – Free Online Retro Film Color Palette",
+      "metaDescription": "Free online Retro Film Color Palette — instant results. Free retro film color palette with HEX codes, Tailwind CSS classes, CMYK values,",
+      "h1": "Retro Film Color Palette – Online Free",
+      "description": "Free online Retro Film Color Palette — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Retro Film Color Palette Web Design – Free Online Retro Film Color Palette",
+      "metaDescription": "Retro Film Color Palette for web designers and front-end developers. Free retro film color palette with HEX codes, Tailwind CSS classes, CMYK values,",
+      "h1": "Retro Film Color Palette – Web Design",
+      "description": "Retro Film Color Palette for web designers and front-end developers."
+    }
   ]
 }

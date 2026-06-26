@@ -163,5 +163,28 @@
       "heading": "Common Mistakes That Lead to Nasty Tax Surprises",
       "body": "The biggest error is confusing gross and net income. If you enter $80,000 but you've already mentally subtracted your 401(k) contributions, your estimate will be off. Always enter total salary before any deductions. The calculator shows gross-to-net; it can't work backward from what you actually deposited.\n\nAnother trap is ignoring state and provincial taxes. This tool calculates federal tax for the US and Canada. New York adds up to 10.9% on top; Ontario charges roughly 5% to 13%. Someone earning $100,000 in California faces a combined federal-plus-state rate near 35%, not the 22% federal marginal bracket they see here. Treat these results as a floor, not a ceiling.\n\nFinally, people forget that brackets reset each tax year. If you're checking rates in early 2025 using 2024 brackets, thresholds may have shifted slightly due to inflation adjustments. The calculator updates annually, but always confirm you're looking at the right tax year before making big financial decisions."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Income Tax Calculator Online Free – Free Online Income Tax Calculator",
+      "metaDescription": "Use Income Tax Calculator online for free — no signup required. Free income tax calculator for 7 countries. Enter income → see tax owed, effecti",
+      "h1": "Income Tax Calculator – Online Free",
+      "description": "Use Income Tax Calculator online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Income Tax Calculator How to Calculate – Free Online Income Tax Calculator",
+      "metaDescription": "Step-by-step guide to using Income Tax Calculator with real examples. Free income tax calculator for 7 countries. Enter income → see tax owed, effecti",
+      "h1": "Income Tax Calculator – How to Calculate",
+      "description": "Step-by-step guide to using Income Tax Calculator with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Income Tax Calculator For Beginners – Free Online Income Tax Calculator",
+      "metaDescription": "Beginner-friendly guide to Income Tax Calculator with plain-English explanations. Free income tax calculator for 7 countries. Enter income → see tax owed, effecti",
+      "h1": "Income Tax Calculator – For Beginners",
+      "description": "Beginner-friendly guide to Income Tax Calculator with plain-English explanations."
+    }
   ]
 }

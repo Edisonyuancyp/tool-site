@@ -140,5 +140,21 @@
       "heading": "Why High-Scoring Headlines Sometimes Fail (and How to Avoid the Trap)",
       "body": "The most common mistake is chasing a perfect score while ignoring whether the headline actually describes your content. A title like \"7 Shocking Secrets That Will Transform Your Life Forever\" might score 90, but if your article is about organizing kitchen drawers, readers will bounce immediately. Google notices when users click back within seconds, and your rankings suffer. Match the emotional intensity of your headline to the actual payoff of your content.\n\nAnother pitfall is keyword stuffing. Cramming \"budget travel tips budget Europe budget flights\" into a headline tanks readability even if it technically contains your target phrase multiple times. The analyzer catches this through word balance metrics, but some users ignore the warning in pursuit of keyword density. Similarly, don't sacrifice clarity for emotional words—\"Amazing Incredible Essential Guide\" sounds like spam. The best headlines feel natural when read aloud. If it sounds like something a person would actually say, you're on the right track. If it sounds like a robot wrote it, revise until the human element returns."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "SEO Headline Analyzer Online Free – Free Online SEO Headline Analyzer",
+      "metaDescription": "Free online SEO Headline Analyzer — instant results, no signup. Analyze your headline for SEO impact, emotional power, and readability. Get an i",
+      "h1": "SEO Headline Analyzer – Online Free",
+      "description": "Free online SEO Headline Analyzer — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "SEO Headline Analyzer How to Use – Free Online SEO Headline Analyzer",
+      "metaDescription": "Step-by-step guide to getting the most from SEO Headline Analyzer. Analyze your headline for SEO impact, emotional power, and readability. Get an i",
+      "h1": "SEO Headline Analyzer – How to Use",
+      "description": "Step-by-step guide to getting the most from SEO Headline Analyzer."
+    }
   ]
 }

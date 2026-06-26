@@ -109,5 +109,28 @@
       "heading": "Why Irregular Cycles and Averages Lead People Astray",
       "body": "The biggest mistake is entering your shortest or most recent cycle length rather than your genuine average. If your last three cycles were 26, 31, and 29 days, using just 26 would show ovulation happening earlier than it likely does. Calculate your real average — in this case, 29 days — for more accurate predictions. Five or six months of data gives you a reliable number.\n\nAnother common error is treating these predictions as guarantees. Stress, illness, travel, and weight changes can all shift ovulation by several days. The tool gives you a statistical best guess, not a promise. If precision matters — for conception or contraception — consider confirming with ovulation test strips or basal body temperature tracking.\n\nFinally, don't confuse the first day of spotting with the first day of your period. Day 1 is the first day of full flow, not light spotting that sometimes precedes it. Starting your count too early throws off every calculation that follows. When in doubt, wait for unmistakable bleeding before marking day 1."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Ovulation & Cycle Tracker Online Free – Free Online Ovulation & Cycle Tracker",
+      "metaDescription": "Free online Ovulation & Cycle Tracker — instant results, no signup. Free ovulation and period calculator. Find your fertile window, ovulation date, ",
+      "h1": "Ovulation & Cycle Tracker – Online Free",
+      "description": "Free online Ovulation & Cycle Tracker — instant results, no signup."
+    },
+    {
+      "param": "metric-units",
+      "metaTitle": "Ovulation & Cycle Tracker Metric – Free Online Ovulation & Cycle Tracker",
+      "metaDescription": "Ovulation & Cycle Tracker using metric units (kg, cm, metres). Free ovulation and period calculator. Find your fertile window, ovulation date, ",
+      "h1": "Ovulation & Cycle Tracker – Metric",
+      "description": "Ovulation & Cycle Tracker using metric units (kg, cm, metres)."
+    },
+    {
+      "param": "imperial-units",
+      "metaTitle": "Ovulation & Cycle Tracker Imperial – Free Online Ovulation & Cycle Tracker",
+      "metaDescription": "Ovulation & Cycle Tracker using imperial units (lbs, feet, inches). Free ovulation and period calculator. Find your fertile window, ovulation date, ",
+      "h1": "Ovulation & Cycle Tracker – Imperial",
+      "description": "Ovulation & Cycle Tracker using imperial units (lbs, feet, inches)."
+    }
   ]
 }

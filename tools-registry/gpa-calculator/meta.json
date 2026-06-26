@@ -113,5 +113,21 @@
       "heading": "Credit Hour Mistakes and the Plus-Minus Grade Trap",
       "body": "The most common error users make is entering credit hours inconsistently. Some schools list courses as 3.0 credits while others use semester hours or unit systems that differ. A course listed as 4 quarter credits might only equal 2.67 semester credits. Using the wrong system throws off your entire calculation, sometimes by several tenths of a point.\n\nAnother frequent mistake involves ignoring plus and minus grades. At schools using them, the difference between a B+ (3.3) and a B (3.0) seems small, but across fifteen courses, those decimals accumulate. Students who round every grade to the nearest whole number often overestimate or underestimate their GPA by 0.1 to 0.2 points.\n\nFinally, some people forget that pass-fail or credit-no-credit courses typically don't factor into GPA at all. Including them as grades artificially inflates or deflates your calculation. Before entering your courses, check your transcript to identify which classes actually carry grade points versus those that only appear as P or CR."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "GPA Calculator Online Free – Free Online GPA Calculator",
+      "metaDescription": "Free online GPA Calculator — instant results, no signup. Free GPA calculator. Enter your letter grades or percentages to calculate GPA on",
+      "h1": "GPA Calculator – Online Free",
+      "description": "Free online GPA Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "GPA Calculator How to Use – Free Online GPA Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from GPA Calculator. Free GPA calculator. Enter your letter grades or percentages to calculate GPA on",
+      "h1": "GPA Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from GPA Calculator."
+    }
   ]
 }

@@ -154,5 +154,77 @@
       "heading": "Margin Mistakes That Quietly Drain Your Profits",
       "body": "The most common error is confusing margin with markup, then pricing incorrectly for months. A 50% markup is only a 33% margin. If you tell yourself you need a 50% margin but calculate a 50% markup instead, you're making less money on every sale than you planned. This mistake compounds across hundreds of transactions before most people notice.\n\nAnother frequent problem is forgetting all your costs. Gross margin only accounts for direct costs — materials, manufacturing, wholesale price. It ignores shipping, payment processing fees, returns, and your time. If you sell handmade jewelry for $40 with $15 in materials, your gross margin is 62.5%. But add $5 shipping, $1.20 in credit card fees, and an hour of your labor at $20, and your real margin drops to negative territory. Use this calculator for gross margin, but always sanity-check against your full expense picture."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "10percent-margin",
+      "metaTitle": "10% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 10% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 10% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 10% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "15percent-margin",
+      "metaTitle": "15% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 15% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 15% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 15% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "20percent-margin",
+      "metaTitle": "20% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 20% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 20% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 20% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "25percent-margin",
+      "metaTitle": "25% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 25% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 25% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 25% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "30percent-margin",
+      "metaTitle": "30% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 30% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 30% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 30% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "40percent-margin",
+      "metaTitle": "40% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 40% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 40% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 40% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "50percent-margin",
+      "metaTitle": "50% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 50% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 50% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 50% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "60percent-margin",
+      "metaTitle": "60% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 60% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 60% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 60% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "70percent-margin",
+      "metaTitle": "70% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 70% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 70% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 70% gross profit margin, plus markup percentage."
+    },
+    {
+      "param": "80percent-margin",
+      "metaTitle": "80% Profit Margin – What Should I Charge?",
+      "metaDescription": "Calculate the selling price needed to achieve a 80% profit margin. Free profit margin calculator for any cost.",
+      "h1": "How to Price for a 80% Profit Margin",
+      "description": "Enter your cost to find the selling price that gives a 80% gross profit margin, plus markup percentage."
+    }
   ]
 }

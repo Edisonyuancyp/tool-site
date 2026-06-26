@@ -122,5 +122,28 @@
       "heading": "Why Your Results Might Be Off and How to Fix Them",
       "body": "The most common mistake people make is underestimating cooking oils and liquid calories. That tablespoon of olive oil you drizzle on your salad adds 14 grams of fat, nearly 130 calories. A couple of unmeasured tablespoons daily can add 250 or more untracked calories, completely erasing a careful deficit. Weigh your oils, nut butters, and sauces until you develop an accurate eye for portions.\n\nAnother frequent error involves trusting restaurant nutrition data or generic food entries in tracking apps. A \"grilled chicken breast\" at one restaurant might be 4 ounces while another serves 8 ounces smothered in butter. When eating out, assume entries are estimates and build in a buffer of 10 to 20 percent more calories than listed. Finally, people often set protein targets and then fill remaining macros randomly. Fat is more calorie-dense, so accidentally going 30 grams over on fat while staying under on carbs still puts you 150 calories above your target."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Macro Tracker Calculator Online Free – Free Online Macro Tracker Calculator",
+      "metaDescription": "Free online Macro Tracker Calculator — instant results, no signup. Easily track your macros for free with this instant calculator. No signup needed",
+      "h1": "Macro Tracker Calculator – Online Free",
+      "description": "Free online Macro Tracker Calculator — instant results, no signup."
+    },
+    {
+      "param": "for-women",
+      "metaTitle": "Macro Tracker Calculator Women – Free Online Macro Tracker Calculator",
+      "metaDescription": "Macro Tracker Calculator for women with female-specific guidance. Easily track your macros for free with this instant calculator. No signup needed",
+      "h1": "Macro Tracker Calculator – Women",
+      "description": "Macro Tracker Calculator for women with female-specific guidance."
+    },
+    {
+      "param": "for-men",
+      "metaTitle": "Macro Tracker Calculator Men – Free Online Macro Tracker Calculator",
+      "metaDescription": "Macro Tracker Calculator for men with male-specific guidance. Easily track your macros for free with this instant calculator. No signup needed",
+      "h1": "Macro Tracker Calculator – Men",
+      "description": "Macro Tracker Calculator for men with male-specific guidance."
+    }
   ]
 }

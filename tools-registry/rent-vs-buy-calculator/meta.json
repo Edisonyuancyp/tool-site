@@ -166,5 +166,28 @@
       "heading": "Mistakes That Skew Your Results (and How to Fix Them)",
       "body": "The most common error is comparing mortgage payment to rent and stopping there. A $1,600 mortgage looks cheaper than $1,900 rent until you add $400 in taxes, insurance, and maintenance. Always input the full monthly ownership cost, not just principal and interest. The calculator needs the complete picture to give you an honest answer.\n\nAnother mistake is assuming unrealistic appreciation. Plugging in 6% annual growth because your coworker's home doubled in value distorts everything. Nationally, homes have appreciated about 3-4% per year over the long term, barely above inflation. Unless you have strong local data suggesting otherwise, stay conservative. Finally, people forget to account for how they'd actually use the down payment money if they rented. Leaving it in a savings account earning 0.5% makes buying look better than it should. If you'd genuinely invest that cash in index funds, input a realistic 6-7% return. Your comparison should reflect your actual behavior, not a theoretical version of yourself."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Rent vs Buy Calculator Online Free – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Use Rent vs Buy Calculator online for free — no signup required. Calculate whether renting or buying a home makes more financial sense. Input you",
+      "h1": "Rent vs Buy Calculator – Online Free",
+      "description": "Use Rent vs Buy Calculator online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Rent vs Buy Calculator How to Calculate – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Step-by-step guide to using Rent vs Buy Calculator with real examples. Calculate whether renting or buying a home makes more financial sense. Input you",
+      "h1": "Rent vs Buy Calculator – How to Calculate",
+      "description": "Step-by-step guide to using Rent vs Buy Calculator with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Rent vs Buy Calculator For Beginners – Free Online Rent vs Buy Calculator",
+      "metaDescription": "Beginner-friendly guide to Rent vs Buy Calculator with plain-English explanations. Calculate whether renting or buying a home makes more financial sense. Input you",
+      "h1": "Rent vs Buy Calculator – For Beginners",
+      "description": "Beginner-friendly guide to Rent vs Buy Calculator with plain-English explanations."
+    }
   ]
 }

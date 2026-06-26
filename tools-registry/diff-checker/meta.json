@@ -113,5 +113,28 @@
       "heading": "Common Diff Mistakes That Lead to Wrong Conclusions",
       "body": "The most frequent error is comparing texts with different line endings. A file created on Windows uses CRLF endings while Linux uses LF. The diff might show every single line as changed even though the actual content is identical. If you see a diff that marks everything as modified, copy both texts into a plain text editor first and normalize the line endings before comparing again.\n\nAnother mistake is forgetting about the \"ignore case\" setting when it matters. Comparing \"UserName\" to \"username\" shows no difference when case-insensitivity is enabled, which could hide a bug in case-sensitive systems. Use this option deliberately, not as a default. Finally, people sometimes paste partial texts and wonder why the diff seems wrong — the tool compares exactly what you give it. If you copied from line 50 to line 100 in one panel but line 48 to line 102 in the other, those extra lines will appear as additions or deletions. Always verify your selections before drawing conclusions from the results."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Online Diff Checker Online Free – Free Online Online Diff Checker",
+      "metaDescription": "Free online Online Diff Checker — no install required. Free online diff checker. Compare two texts, code files, or JSON side by side wi",
+      "h1": "Online Diff Checker – Online Free",
+      "description": "Free online Online Diff Checker — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Online Diff Checker JavaScript – Free Online Online Diff Checker",
+      "metaDescription": "Online Diff Checker reference for JavaScript developers. Free online diff checker. Compare two texts, code files, or JSON side by side wi",
+      "h1": "Online Diff Checker – JavaScript",
+      "description": "Online Diff Checker reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Online Diff Checker Python – Free Online Online Diff Checker",
+      "metaDescription": "Online Diff Checker reference for Python developers. Free online diff checker. Compare two texts, code files, or JSON side by side wi",
+      "h1": "Online Diff Checker – Python",
+      "description": "Online Diff Checker reference for Python developers."
+    }
   ]
 }

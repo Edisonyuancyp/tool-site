@@ -109,5 +109,28 @@
       "heading": "Five Mistakes That Throw Off Your Calorie Calculations",
       "body": "The most common error is overestimating activity level. That gym session three times a week doesn't make you 'very active' if you sit at a desk the other 160 waking hours. Most people with office jobs who exercise regularly are genuinely 'lightly active' at best. Choosing 'moderately active' when you shouldn't can inflate your TDEE by 300 or more calories, erasing your entire planned deficit.\n\nAnother frequent mistake is treating these numbers as gospel rather than starting points. Your actual metabolic rate might be 10-15% higher or lower than any formula predicts due to genetics, hormonal status, or metabolic adaptation. Use the calculator's output for two weeks, track your weight, and adjust if nothing changes. If you're eating at the suggested deficit but the scale hasn't moved, cut another 100-150 calories.\n\nIgnoring the formula differences also causes problems. Someone with 30% body fat will get more accurate results from Mifflin-St Jeor, while a lean athlete with 12% body fat should trust Katch-McArdle instead. Running all three formulas and comparing the outputs helps you spot which one aligns best with your real-world experience."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "BMR & TDEE Calculator Online Free – Free Online BMR & TDEE Calculator",
+      "metaDescription": "Free online BMR & TDEE Calculator — instant results, no signup. Free BMR and TDEE calculator. Find your daily calorie burn using Mifflin-St Jeor",
+      "h1": "BMR & TDEE Calculator – Online Free",
+      "description": "Free online BMR & TDEE Calculator — instant results, no signup."
+    },
+    {
+      "param": "metric-units",
+      "metaTitle": "BMR & TDEE Calculator Metric – Free Online BMR & TDEE Calculator",
+      "metaDescription": "BMR & TDEE Calculator using metric units (kg, cm, metres). Free BMR and TDEE calculator. Find your daily calorie burn using Mifflin-St Jeor",
+      "h1": "BMR & TDEE Calculator – Metric",
+      "description": "BMR & TDEE Calculator using metric units (kg, cm, metres)."
+    },
+    {
+      "param": "imperial-units",
+      "metaTitle": "BMR & TDEE Calculator Imperial – Free Online BMR & TDEE Calculator",
+      "metaDescription": "BMR & TDEE Calculator using imperial units (lbs, feet, inches). Free BMR and TDEE calculator. Find your daily calorie burn using Mifflin-St Jeor",
+      "h1": "BMR & TDEE Calculator – Imperial",
+      "description": "BMR & TDEE Calculator using imperial units (lbs, feet, inches)."
+    }
   ]
 }

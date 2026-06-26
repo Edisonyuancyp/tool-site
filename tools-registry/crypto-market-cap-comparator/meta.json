@@ -105,5 +105,21 @@
       "heading": "Why Your Projected Returns Are Probably Wrong (And How to Fix Them)",
       "body": "The most common mistake is ignoring supply inflation. Many tokens release new coins over time through staking rewards, team vesting, or mining. If a token increases its circulating supply by 15% annually, your projected price needs adjustment. A coin reaching your target market cap in three years with 50% more tokens circulating means significantly lower per-token prices than today's supply suggests.\n\nAnother error involves confusing fully diluted valuation with market cap. Some websites display FDV prominently, which includes all tokens that will ever exist. This tool correctly uses circulating supply. If you're comparing against a number you saw elsewhere and getting different results, check whether that source used FDV.\n\nFinally, people forget that market caps don't exist in isolation. For your altcoin to reach Ethereum's market cap, either Ethereum's cap shrinks, total crypto market cap grows, or both. The comparison shows mathematical possibility, not market reality. A $500 billion altcoin requires a crypto market large enough to support that valuation while maintaining positions for Bitcoin, Ethereum, and everything else."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Crypto Market Cap Comparator Online Free – Free Online Crypto Market Cap Comparator",
+      "metaDescription": "Free online Crypto Market Cap Comparator — instant results, no signup. Free crypto market cap calculator. See what price Bitcoin, Ethereum, Solana or a",
+      "h1": "Crypto Market Cap Comparator – Online Free",
+      "description": "Free online Crypto Market Cap Comparator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Crypto Market Cap Comparator How to Use – Free Online Crypto Market Cap Comparator",
+      "metaDescription": "Step-by-step guide to getting the most from Crypto Market Cap Comparator. Free crypto market cap calculator. See what price Bitcoin, Ethereum, Solana or a",
+      "h1": "Crypto Market Cap Comparator – How to Use",
+      "description": "Step-by-step guide to getting the most from Crypto Market Cap Comparator."
+    }
   ]
 }

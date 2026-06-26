@@ -109,5 +109,21 @@
       "heading": "Five Mistakes That Blow Up Trading Accounts",
       "body": "The most common error is calculating stop loss distance from current price instead of entry price. If BTC has already moved from your $67,500 entry to $68,200, your stop at $64,125 is no longer 5% away—it's now 6% from current price. Always use your actual entry price, not where price sits when you're doing the math.\n\nSecond, traders forget to account for slippage during volatile markets. Your stop at $64,125 might execute at $63,900 during a sharp drop. Adding a 0.5% buffer to your stop loss distance—calculating as if it were 5.5% instead of 5%—protects against this.\n\nThird, changing leverage without recalculating position size creates hidden risk. Switching from 3x to 10x leverage on the same $3,200 position doesn't change your dollar exposure, but it dramatically increases your liquidation risk if price moves against you before hitting your stop.\n\nFourth, ignoring fees on frequent trades adds up. Twenty trades per month at $5 in fees each costs $100—which equals 1.25% of an $8,000 account just in friction. Finally, using the same fixed position size regardless of stop distance guarantees inconsistent risk across trades."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Position Size Calculator Online Free – Free Online Position Size Calculator",
+      "metaDescription": "Free online Position Size Calculator — instant results, no signup. Free position size calculator for traders. Enter account size, risk %, entry and",
+      "h1": "Position Size Calculator – Online Free",
+      "description": "Free online Position Size Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Position Size Calculator How to Use – Free Online Position Size Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Position Size Calculator. Free position size calculator for traders. Enter account size, risk %, entry and",
+      "h1": "Position Size Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Position Size Calculator."
+    }
   ]
 }

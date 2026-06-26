@@ -123,5 +123,21 @@
       "heading": "Common mistakes when using a typography scale",
       "body": "One common mistake is neglecting to test your typography scale across different devices and screen sizes. What looks good on a desktop may not translate well to mobile devices. Always preview your typography in various contexts to ensure readability remains consistent. \n\nAnother frequent error is using too many different font sizes, which can lead to a cluttered design. Stick to a limited number of sizes derived from your scale to maintain harmony. Lastly, remember that accessibility is key; ensure that your chosen sizes are legible for all users, including those with visual impairments. By avoiding these pitfalls, you can create a more effective and user-friendly typography scale."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Typography Scale Generator Online Free – Free Online Typography Scale Generator",
+      "metaDescription": "Free online Typography Scale Generator — instant results. Create a typography scale for your designs. Free tool, no signup, instant result",
+      "h1": "Typography Scale Generator – Online Free",
+      "description": "Free online Typography Scale Generator — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Typography Scale Generator Web Design – Free Online Typography Scale Generator",
+      "metaDescription": "Typography Scale Generator for web designers and front-end developers. Create a typography scale for your designs. Free tool, no signup, instant result",
+      "h1": "Typography Scale Generator – Web Design",
+      "description": "Typography Scale Generator for web designers and front-end developers."
+    }
   ]
 }

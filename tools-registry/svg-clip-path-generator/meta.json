@@ -123,5 +123,21 @@
       "heading": "Practical tips and common mistakes with SVG clip paths",
       "body": "When working with SVG clip paths, there are several practical tips to keep in mind. First, always ensure that your clip path is defined within the same SVG element as the graphics you want to clip. This avoids issues with the clip path not being recognized. Additionally, remember that clip paths can be reused across multiple elements by referencing their IDs, which helps keep your code clean and efficient.\n\nCommon mistakes include forgetting to set the correct `clip-path` attribute on the target elements or using incorrect coordinates that can lead to unexpected results. It's also important to test your designs across different browsers, as SVG rendering can vary. By following these tips and being mindful of these pitfalls, you can effectively leverage SVG clip paths to enhance your web graphics."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "SVG Clip Path Generator Online Free – Free Online SVG Clip Path Generator",
+      "metaDescription": "Free online SVG Clip Path Generator — instant results. Create custom SVG clip paths for web graphics. Free tool, no signup, instant res",
+      "h1": "SVG Clip Path Generator – Online Free",
+      "description": "Free online SVG Clip Path Generator — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "SVG Clip Path Generator Web Design – Free Online SVG Clip Path Generator",
+      "metaDescription": "SVG Clip Path Generator for web designers and front-end developers. Create custom SVG clip paths for web graphics. Free tool, no signup, instant res",
+      "h1": "SVG Clip Path Generator – Web Design",
+      "description": "SVG Clip Path Generator for web designers and front-end developers."
+    }
   ]
 }

@@ -124,5 +124,28 @@
       "heading": "Double Encoding and the encodeURI Trap",
       "body": "The most common mistake is encoding a string that's already encoded. If you encode hello%20world thinking it contains a space, you get hello%2520world. That %25 is the encoded form of the percent sign itself. When the server decodes this, it sees hello%20world instead of hello world. Your data is now corrupted with a literal percent sign and digits.\n\nAnother frequent error comes from using the wrong encoding function in code. If you use encodeURI on a query parameter value that contains reserved characters, those characters pass through unchanged. Someone encoding search=red&blue with encodeURI gets search=red&blue, which still breaks the URL. This tool uses the equivalent of encodeURIComponent, which encodes those reserved characters properly.\n\nFinally, remember that the plus sign has a complicated history. In some older systems, plus signs in query strings represent spaces. In modern encoding, a plus sign encodes to %2B while a space becomes %20. If you're seeing unexpected plus signs or spaces, check which encoding convention the target system expects."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "URL Encoder / Decoder Online Free – Free Online URL Encoder / Decoder",
+      "metaDescription": "Free online URL Encoder / Decoder — no install required. Free URL encoder and decoder. Encode special characters or decode percent-encode",
+      "h1": "URL Encoder / Decoder – Online Free",
+      "description": "Free online URL Encoder / Decoder — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "URL Encoder / Decoder JavaScript – Free Online URL Encoder / Decoder",
+      "metaDescription": "URL Encoder / Decoder reference for JavaScript developers. Free URL encoder and decoder. Encode special characters or decode percent-encode",
+      "h1": "URL Encoder / Decoder – JavaScript",
+      "description": "URL Encoder / Decoder reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "URL Encoder / Decoder Python – Free Online URL Encoder / Decoder",
+      "metaDescription": "URL Encoder / Decoder reference for Python developers. Free URL encoder and decoder. Encode special characters or decode percent-encode",
+      "h1": "URL Encoder / Decoder – Python",
+      "description": "URL Encoder / Decoder reference for Python developers."
+    }
   ]
 }

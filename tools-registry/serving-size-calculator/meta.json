@@ -94,5 +94,28 @@
       "heading": "Where Recipe Scaling Goes Wrong and How to Stay Accurate",
       "body": "The most common mistake is forgetting that cooking times don't scale linearly with ingredient amounts. Doubling a cake recipe doesn't mean doubling the bake time—it often means using two pans or adding just 10-15 minutes. A casserole scaled from 4 to 12 servings might need a larger dish and slightly longer cooking, but not three times as long.\n\nAnother frequent error involves leavening agents like baking powder and yeast. These don't always scale proportionally in baked goods. If you double a bread recipe, you might only need 1.75 times the yeast because fermentation behaves differently at larger volumes. For casual cooking this rarely matters, but precision bakers should consult scaling guides for these specific ingredients.\n\nFinally, watch your equipment capacity. Scaling a soup from 4 to 16 servings produces roughly 4 liters of liquid. If your largest pot holds 3 liters, no calculator can fix that problem. Check your pan sizes before shopping."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Serving Size Calculator Online Free – Free Online Serving Size Calculator",
+      "metaDescription": "Free online Serving Size Calculator — instant results. Easily adjust ingredients based on servings with our free tool. No signup needed",
+      "h1": "Serving Size Calculator – Online Free",
+      "description": "Free online Serving Size Calculator — instant results."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Serving Size Calculator Metric – Free Online Serving Size Calculator",
+      "metaDescription": "Serving Size Calculator using metric measurements (g, ml, °C). Easily adjust ingredients based on servings with our free tool. No signup needed",
+      "h1": "Serving Size Calculator – Metric",
+      "description": "Serving Size Calculator using metric measurements (g, ml, °C)."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Serving Size Calculator Imperial – Free Online Serving Size Calculator",
+      "metaDescription": "Serving Size Calculator using imperial measurements (oz, cups, °F). Easily adjust ingredients based on servings with our free tool. No signup needed",
+      "h1": "Serving Size Calculator – Imperial",
+      "description": "Serving Size Calculator using imperial measurements (oz, cups, °F)."
+    }
   ]
 }

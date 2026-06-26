@@ -126,5 +126,21 @@
       "heading": "Printing Your FBA Packing List",
       "body": "Once you're happy with the layout, click Print Packing List to generate a clean, printer-friendly summary. Each page covers one carton: product name, quantity, individual dimensions, total weight, and a small diagram of the stacking order.\n\nThis document serves double duty — it gives your warehouse team a visual guide for assembly and provides the content you need to fill in Amazon's 'Carton Contents' fields during the shipment creation workflow. Accurate carton contents speed up FC receiving and reduce the chance of an inventory discrepancy.\n\nSave a PDF copy for your shipment records. If Amazon ever flags a discrepancy, a timestamped packing list with exact quantities is your first line of documentation."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "FBA Carton Packing Calculator Online Free – Free Online FBA Carton Packing Calculator",
+      "metaDescription": "Free online FBA Carton Packing Calculator — instant results, no signup. Free FBA carton packing calculator. Drag-and-drop product layout, automatic box-",
+      "h1": "FBA Carton Packing Calculator – Online Free",
+      "description": "Free online FBA Carton Packing Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "FBA Carton Packing Calculator How to Use – Free Online FBA Carton Packing Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from FBA Carton Packing Calculator. Free FBA carton packing calculator. Drag-and-drop product layout, automatic box-",
+      "h1": "FBA Carton Packing Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from FBA Carton Packing Calculator."
+    }
   ]
 }

@@ -123,5 +123,21 @@
       "heading": "Common Mistakes When Using a Contrast Checker",
       "body": "One common mistake when using a contrast checker is neglecting to consider the context in which colors will be used. For instance, colors that appear to have sufficient contrast in isolation may not be as effective when viewed alongside other elements. Always check your colors in the context of your overall design to ensure they work well together.\n\nAnother frequent error is using colors that are too similar in hue or saturation, which can lead to poor contrast ratios. Additionally, some users may overlook the importance of testing different text sizes, as larger text can have different contrast requirements. By being mindful of these factors, you can improve the accessibility of your designs and avoid common pitfalls."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Contrast Checker Tool Online Free – Free Online Contrast Checker Tool",
+      "metaDescription": "Free online Contrast Checker Tool — instant results. Check color contrast ratios for accessibility. Free tool, no signup, instant res",
+      "h1": "Contrast Checker Tool – Online Free",
+      "description": "Free online Contrast Checker Tool — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Contrast Checker Tool Web Design – Free Online Contrast Checker Tool",
+      "metaDescription": "Contrast Checker Tool for web designers and front-end developers. Check color contrast ratios for accessibility. Free tool, no signup, instant res",
+      "h1": "Contrast Checker Tool – Web Design",
+      "description": "Contrast Checker Tool for web designers and front-end developers."
+    }
   ]
 }

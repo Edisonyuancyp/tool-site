@@ -156,5 +156,28 @@
       "heading": "Mistakes That Produce Silently Wrong Results",
       "body": "The most common error is forgetting which base your input is in. Typing 100 and converting from binary gives you 4 decimal. Typing the same 100 from decimal gives you 1100100 binary. The tool can't guess your intent, so double-check the source base before converting. It sounds obvious, but this mistake wastes real debugging time when you're tired.\n\nAnother pitfall involves leading zeros. In some contexts 007 means seven, but in others (like old JavaScript) it signals octal. This tool interprets 007 in base 10 as just 7, but if you meant octal, you'd get a different decimal result. Always strip ambiguous leading zeros or explicitly verify your source base matches the format you're working with.\n\nFinally, remember that Base58 and Base64 use specific character alphabets. A valid hex string containing the letters G or Z will fail as hex input. If you're getting unexpected errors, confirm your input string only contains characters valid for the source base — hex uses 0-9 and A-F only, while Base64 adds lowercase letters, plus, and slash."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Number Base Converter Online Free – Free Online Number Base Converter",
+      "metaDescription": "Free online Number Base Converter — no install required. Free number base converter. Convert between binary, octal, decimal, hex, base 32",
+      "h1": "Number Base Converter – Online Free",
+      "description": "Free online Number Base Converter — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Number Base Converter JavaScript – Free Online Number Base Converter",
+      "metaDescription": "Number Base Converter reference for JavaScript developers. Free number base converter. Convert between binary, octal, decimal, hex, base 32",
+      "h1": "Number Base Converter – JavaScript",
+      "description": "Number Base Converter reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Number Base Converter Python – Free Online Number Base Converter",
+      "metaDescription": "Number Base Converter reference for Python developers. Free number base converter. Convert between binary, octal, decimal, hex, base 32",
+      "h1": "Number Base Converter – Python",
+      "description": "Number Base Converter reference for Python developers."
+    }
   ]
 }

@@ -136,5 +136,28 @@
       "heading": "The Day-of-Month vs. Day-of-Week Trap and Other Pitfalls",
       "body": "The single most confusing behavior in cron involves setting both day-of-month and day-of-week to specific values. If you write 0 9 15 * 1 hoping it means \"9 AM on the 15th, but only if it's a Monday,\" you'll be disappointed. Most cron implementations treat this as OR logic: it fires on every 15th and every Monday. To run only when both conditions are true, you need wrapper logic outside cron or a scheduling tool that supports AND logic explicitly.\n\nAnother common mistake is forgetting that hour uses 24-hour format. Writing 0 9 * * * runs at 9 AM, not 9 PM. For evening schedules, you need 0 21 * * * for 9 PM. Time zones also trip people up because cron typically uses the server's local time, not UTC, unless configured otherwise. Always check your server's time zone setting before deploying a schedule, especially for servers running in cloud regions far from your office. The tool shows run times in your browser's local time, so compare carefully if your server differs."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Cron Expression Generator & Explainer Online Free – Free Online Cron Expression Generator & Explainer",
+      "metaDescription": "Free online Cron Expression Generator & Explainer — no install required. Generate cron schedules with a visual builder, or paste any cron expression to d",
+      "h1": "Cron Expression Generator & Explainer – Online Free",
+      "description": "Free online Cron Expression Generator & Explainer — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Cron Expression Generator & Explainer JavaScript – Free Online Cron Expression Generator & Explainer",
+      "metaDescription": "Cron Expression Generator & Explainer reference for JavaScript developers. Generate cron schedules with a visual builder, or paste any cron expression to d",
+      "h1": "Cron Expression Generator & Explainer – JavaScript",
+      "description": "Cron Expression Generator & Explainer reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Cron Expression Generator & Explainer Python – Free Online Cron Expression Generator & Explainer",
+      "metaDescription": "Cron Expression Generator & Explainer reference for Python developers. Generate cron schedules with a visual builder, or paste any cron expression to d",
+      "h1": "Cron Expression Generator & Explainer – Python",
+      "description": "Cron Expression Generator & Explainer reference for Python developers."
+    }
   ]
 }

@@ -141,5 +141,28 @@
       "heading": "Mistakes That Cost Real Money, and How to Sidestep Them",
       "body": "The most common error is treating mid-market rates as transaction rates. When you actually exchange money at a bank or ATM, you'll face a spread — often 2–4% worse than the ECB rate. If the converter says 1,000 EUR equals 1,080 USD, your bank might give you only 1,040 USD. Always pad your estimates by 3–5% to account for real-world fees.\n\nAnother trap is ignoring rate timing. ECB rates update once daily on business days, meaning Friday's rate holds through the weekend. If markets move significantly on Saturday, your Monday conversion could surprise you. For large transfers — say, paying a 15,000 EUR deposit on an overseas property — don't rely solely on yesterday's rate. Check multiple sources, consider a forward contract if available, and never assume stability in volatile pairs like GBP or currencies from emerging markets."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Currency Converter Online Free – Free Online Currency Converter",
+      "metaDescription": "Use Currency Converter online for free — no signup required. Convert USD, EUR, GBP, JPY, CNY and 20+ currencies with live ECB exchange rates.",
+      "h1": "Currency Converter – Online Free",
+      "description": "Use Currency Converter online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Currency Converter How to Calculate – Free Online Currency Converter",
+      "metaDescription": "Step-by-step guide to using Currency Converter with real examples. Convert USD, EUR, GBP, JPY, CNY and 20+ currencies with live ECB exchange rates.",
+      "h1": "Currency Converter – How to Calculate",
+      "description": "Step-by-step guide to using Currency Converter with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Currency Converter For Beginners – Free Online Currency Converter",
+      "metaDescription": "Beginner-friendly guide to Currency Converter with plain-English explanations. Convert USD, EUR, GBP, JPY, CNY and 20+ currencies with live ECB exchange rates.",
+      "h1": "Currency Converter – For Beginners",
+      "description": "Beginner-friendly guide to Currency Converter with plain-English explanations."
+    }
   ]
 }

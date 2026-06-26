@@ -95,5 +95,21 @@
       "heading": "Avoiding the Traps That Undermine Minimal Palettes",
       "body": "The most common mistake is treating Pantone references as exact matches. When this tool shows a Pantone approximation for #6366F1, it's giving you a starting point—not a guarantee. Physical ink behaves differently than backlit pixels. Always order a Pantone swatch book and compare under natural light before approving any print job. A 10% color shift might not sound dramatic until you see your brand indigo printed as purple.\n\nAnother trap involves overusing the accent color once you've fallen in love with it. If every heading, every icon, and every link becomes indigo, you've eliminated the hierarchy the palette was designed to create. Keep your accent for elements that need attention: primary buttons, active navigation states, and key statistics. Everything else should breathe in neutrals.\n\nFinally, never assume CMYK values transfer directly between printers. A value of C59 M58 Y0 K5 will look different on glossy coated paper versus uncoated cardstock, and different again on a home inkjet versus a commercial offset press. Request proofs, accept that adjustments happen, and budget time accordingly."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Minimal SaaS Color Palette Online Free – Free Online Minimal SaaS Color Palette",
+      "metaDescription": "Free online Minimal SaaS Color Palette — instant results. Free minimal saas color palette with HEX codes, Tailwind CSS classes, CMYK value",
+      "h1": "Minimal SaaS Color Palette – Online Free",
+      "description": "Free online Minimal SaaS Color Palette — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Minimal SaaS Color Palette Web Design – Free Online Minimal SaaS Color Palette",
+      "metaDescription": "Minimal SaaS Color Palette for web designers and front-end developers. Free minimal saas color palette with HEX codes, Tailwind CSS classes, CMYK value",
+      "h1": "Minimal SaaS Color Palette – Web Design",
+      "description": "Minimal SaaS Color Palette for web designers and front-end developers."
+    }
   ]
 }

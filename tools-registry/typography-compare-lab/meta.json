@@ -136,5 +136,21 @@
       "heading": "Why Your Font Comparison Looks Different on Your Phone",
       "body": "A common mistake is choosing fonts exclusively on a large desktop monitor. You pick Crimson Text because it looks elegant at 48px on your 27-inch screen, then wonder why it feels cramped on mobile. The Typography Compare Lab lets you resize your browser window to simulate smaller viewports, but many users forget this step. At 14px body size on a phone screen, Crimson Text's thin serifs become muddy. Open Sans at the same size remains crisp because it was designed for screen legibility first.\n\nAnother frequent error involves ignoring font weight in the comparison. Inter Regular and Inter Medium might seem interchangeable in the tool, but Medium at 500 weight renders noticeably bolder, affecting how much visual emphasis your headings carry. If you're comparing fonts for a navigation menu, test at the exact weight you'll actually use.\n\nFinally, users often compare fonts using placeholder text like \"Lorem ipsum\" instead of their real content. Your brand name might contain unusual letter combinations that certain fonts handle poorly. Always paste actual headlines, button labels, and paragraphs from your project to catch these issues before they become live problems."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Typography Compare Lab Online Free – Free Online Typography Compare Lab",
+      "metaDescription": "Free online Typography Compare Lab — instant results. Free font comparison tool. Compare any two Google Fonts side-by-side with live p",
+      "h1": "Typography Compare Lab – Online Free",
+      "description": "Free online Typography Compare Lab — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Typography Compare Lab Web Design – Free Online Typography Compare Lab",
+      "metaDescription": "Typography Compare Lab for web designers and front-end developers. Free font comparison tool. Compare any two Google Fonts side-by-side with live p",
+      "h1": "Typography Compare Lab – Web Design",
+      "description": "Typography Compare Lab for web designers and front-end developers."
+    }
   ]
 }

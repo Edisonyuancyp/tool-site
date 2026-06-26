@@ -109,5 +109,28 @@
       "heading": "Mistakes That Sabotage Your Hydration Goals",
       "body": "The most common error is treating the calculator result as a water-only target. Your daily fluid intake includes water from all beverages and food. Coffee, despite its mild diuretic effect, contributes net positive hydration since it's nearly 99% water. Tea, juice, and milk all count. Even solid foods contribute meaningfully—cucumbers and watermelon are over 90% water, and a typical mixed diet provides roughly 700-800ml of water daily through food alone.\n\nAnother frequent mistake is drinking your entire target in large gulps during meals. Your kidneys can only process about 800-1000ml per hour efficiently. Consuming 2 liters at lunch because you forgot to drink all morning doesn't produce the same hydration benefit as spacing intake throughout the day. It mostly produces extra trips to the bathroom. Set hourly reminders if needed, or place a filled bottle where you'll see it constantly.\n\nFinally, some people ignore the color of their urine, which provides real-time feedback the calculator cannot. Pale straw color indicates adequate hydration regardless of what any formula suggests. Dark yellow means you need more fluids even if you've hit your target number."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Daily Water Intake Calculator Online Free – Free Online Daily Water Intake Calculator",
+      "metaDescription": "Free online Daily Water Intake Calculator — instant results, no signup. Free daily water intake calculator. Find how much water you should drink based o",
+      "h1": "Daily Water Intake Calculator – Online Free",
+      "description": "Free online Daily Water Intake Calculator — instant results, no signup."
+    },
+    {
+      "param": "metric-units",
+      "metaTitle": "Daily Water Intake Calculator Metric – Free Online Daily Water Intake Calculator",
+      "metaDescription": "Daily Water Intake Calculator using metric units (kg, cm, metres). Free daily water intake calculator. Find how much water you should drink based o",
+      "h1": "Daily Water Intake Calculator – Metric",
+      "description": "Daily Water Intake Calculator using metric units (kg, cm, metres)."
+    },
+    {
+      "param": "imperial-units",
+      "metaTitle": "Daily Water Intake Calculator Imperial – Free Online Daily Water Intake Calculator",
+      "metaDescription": "Daily Water Intake Calculator using imperial units (lbs, feet, inches). Free daily water intake calculator. Find how much water you should drink based o",
+      "h1": "Daily Water Intake Calculator – Imperial",
+      "description": "Daily Water Intake Calculator using imperial units (lbs, feet, inches)."
+    }
   ]
 }

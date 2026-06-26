@@ -128,5 +128,21 @@
       "heading": "Five Formatting Mistakes That Break Your Output",
       "body": "The most common error involves missing spaces after Markdown symbols. Typing ##Heading without a space produces literal text instead of a heading. The same applies to list items: -item renders as a hyphen followed by text, while - item creates an actual bullet point. Always include that space.\n\nForgotten blank lines cause nearly as much trouble. If you write a paragraph immediately followed by a code block without a blank line between them, some parsers will merge them unpredictably. The safest habit is to place blank lines before and after every structural element — headings, lists, code blocks, and blockquotes.\n\nTable syntax trips up many users because it demands exact alignment of pipe characters and requires a header separator row using hyphens. A table without that separator row simply displays as plain text. Finally, unclosed formatting marks create chaos: opening bold with ** but forgetting to close it turns everything after that point bold. Watch the preview as you type, and these mistakes become obvious before they reach your final document."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Markdown Previewer Online Free – Free Online Markdown Previewer",
+      "metaDescription": "Free online Markdown Previewer — instant results, no signup. Free online Markdown previewer. Write Markdown and see the rendered output live.",
+      "h1": "Markdown Previewer – Online Free",
+      "description": "Free online Markdown Previewer — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Markdown Previewer How to Use – Free Online Markdown Previewer",
+      "metaDescription": "Step-by-step guide to getting the most from Markdown Previewer. Free online Markdown previewer. Write Markdown and see the rendered output live.",
+      "h1": "Markdown Previewer – How to Use",
+      "description": "Step-by-step guide to getting the most from Markdown Previewer."
+    }
   ]
 }

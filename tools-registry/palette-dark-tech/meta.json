@@ -95,5 +95,21 @@
       "heading": "Why Your Dark Palette Looks Wrong and How to Fix It",
       "body": "The most common mistake is insufficient contrast between dark layers. Using #0F172A for backgrounds and #1E293B for cards works because there's meaningful lightness difference. Using two shades that differ by only 2-3% creates muddy interfaces where nothing stands out. Test by squinting at your design—distinct regions should remain visible. If everything blurs together, increase the gap between your dark values.\n\nAnother frequent error involves accent color overuse. When everything glows electric cyan, nothing feels important. Limit #22D3EE to roughly 5-10% of your interface area—primary buttons, key data points, active navigation states. Secondary interactive elements should use a desaturated version, perhaps #67E8F9 at 40% opacity, creating hierarchy without competing for attention.\n\nPeople also forget that Pantone matches shown in digital tools are approximations based on visual similarity, not colorimetric measurement. The Pantone system uses specific pigments that screens cannot display. If you're producing physical materials, order a Pantone fan deck and compare under proper lighting. A color that looks perfect on your monitor at midnight might appear completely different under office fluorescents or natural daylight. Budget time for physical proofing when accuracy matters."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Dark Tech Color Palette Online Free – Free Online Dark Tech Color Palette",
+      "metaDescription": "Free online Dark Tech Color Palette — instant results. Free dark tech color palette with HEX codes, Tailwind CSS classes, CMYK values, ",
+      "h1": "Dark Tech Color Palette – Online Free",
+      "description": "Free online Dark Tech Color Palette — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Dark Tech Color Palette Web Design – Free Online Dark Tech Color Palette",
+      "metaDescription": "Dark Tech Color Palette for web designers and front-end developers. Free dark tech color palette with HEX codes, Tailwind CSS classes, CMYK values, ",
+      "h1": "Dark Tech Color Palette – Web Design",
+      "description": "Dark Tech Color Palette for web designers and front-end developers."
+    }
   ]
 }

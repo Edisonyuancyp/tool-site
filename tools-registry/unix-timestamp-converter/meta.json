@@ -113,5 +113,28 @@
       "heading": "Three Mistakes That Throw Off Your Dates (and How to Fix Them)",
       "body": "The most common error is confusing seconds and milliseconds. If you paste 1700000000000 into a tool expecting seconds, it calculates a date 53,000 years in the future. Always check the digit count: 10 digits means seconds, 13 means milliseconds. This converter auto-detects, but other tools may not.\n\nTimezone mismatches cause equal frustration. A timestamp of 1609459200 represents midnight UTC on January 1, 2021. If you assume it's already in your local time, you'll be off by hours. When comparing timestamps from different sources, standardize everything to UTC first, then convert to local time only for display. The tool defaults to UTC for exactly this reason.\n\nFinally, watch out for the 2038 problem if you're working with legacy systems. Older databases using 32-bit signed integers can't store timestamps beyond 2,147,483,647—which corresponds to January 19, 2038, at 03:14:07 UTC. If your system still uses 32-bit time, dates past 2038 will wrap around to 1901 or produce errors. Modern systems use 64-bit integers, pushing the limit billions of years into the future, but always verify what your platform supports before storing far-future dates."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Unix Timestamp Converter Online Free – Free Online Unix Timestamp Converter",
+      "metaDescription": "Free online Unix Timestamp Converter — no install required. Free Unix timestamp converter. Convert epoch to human date or date to Unix times",
+      "h1": "Unix Timestamp Converter – Online Free",
+      "description": "Free online Unix Timestamp Converter — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Unix Timestamp Converter JavaScript – Free Online Unix Timestamp Converter",
+      "metaDescription": "Unix Timestamp Converter reference for JavaScript developers. Free Unix timestamp converter. Convert epoch to human date or date to Unix times",
+      "h1": "Unix Timestamp Converter – JavaScript",
+      "description": "Unix Timestamp Converter reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Unix Timestamp Converter Python – Free Online Unix Timestamp Converter",
+      "metaDescription": "Unix Timestamp Converter reference for Python developers. Free Unix timestamp converter. Convert epoch to human date or date to Unix times",
+      "h1": "Unix Timestamp Converter – Python",
+      "description": "Unix Timestamp Converter reference for Python developers."
+    }
   ]
 }

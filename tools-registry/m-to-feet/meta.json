@@ -74,5 +74,28 @@
       "heading": "Three Conversion Mistakes That Cost People Money",
       "body": "The most expensive mistake is confusing square meters with regular meters when looking at floor plans. A 50-square-meter apartment doesn't convert by simply multiplying 50 by 3.28084. Area requires squaring the conversion factor: multiply by 10.764 instead. That 50-square-meter flat equals 538 square feet, not 164 feet of anything. Mixing this up leads to wildly wrong expectations about apartment sizes.\n\nAnother common error involves rounding too aggressively. Saying one meter equals about 3 feet sounds reasonable until you're measuring for carpet. A 12-meter hallway at \"about 3 feet per meter\" gives you 36 feet. The actual length is 39.37 feet. Order carpet based on the rough estimate and you're short by more than three feet—an expensive second order and visible seam.\n\nFinally, people sometimes convert measurements but forget that construction materials come in standard sizes. Knowing your European closet is 2.44 meters deep (exactly 8 feet) matters because American lumber comes in 8-foot lengths. That kind of insight only emerges when you run the actual conversion rather than eyeballing it."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Meters to Feet Converter Online Free – Free Online Meters to Feet Converter",
+      "metaDescription": "Free online Meters to Feet Converter — instant conversion, no signup. Convert meters to feet instantly. Supports feet+inches output. Free, fast, no ad",
+      "h1": "Meters to Feet Converter – Online Free",
+      "description": "Free online Meters to Feet Converter — instant conversion, no signup."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Meters to Feet Converter Metric – Free Online Meters to Feet Converter",
+      "metaDescription": "Meters to Feet Converter for metric unit conversions. Convert meters to feet instantly. Supports feet+inches output. Free, fast, no ad",
+      "h1": "Meters to Feet Converter – Metric",
+      "description": "Meters to Feet Converter for metric unit conversions."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Meters to Feet Converter Imperial – Free Online Meters to Feet Converter",
+      "metaDescription": "Meters to Feet Converter for imperial unit conversions. Convert meters to feet instantly. Supports feet+inches output. Free, fast, no ad",
+      "h1": "Meters to Feet Converter – Imperial",
+      "description": "Meters to Feet Converter for imperial unit conversions."
+    }
   ]
 }

@@ -110,5 +110,21 @@
       "heading": "Common Password Mistakes That Undermine Your Generator's Work",
       "body": "The most frequent error is modifying the generated password \"just a little\" to make it memorable. Adding your birth year to the end or capitalizing a pattern turns a random string into a predictable one. Attackers specifically test these hybrid mutations. Trust the randomness and let your password manager handle memorization.\n\nAnother mistake is generating a strong password but storing it in a plain text file or sticky note. A 20-character masterpiece saved in \"passwords.txt\" on your desktop is worse than useless—it's a treasure map. Use a dedicated password manager that encrypts your vault with one master password you actually memorize.\n\nFinally, people often skip regenerating after a breach. If any site where you hold an account announces a data leak, generate fresh passwords for that site and any others where you might have reused credentials. Password hygiene isn't a one-time setup; it's an ongoing habit that keeps your digital life locked down."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Password Generator Online Free – Free Online Password Generator",
+      "metaDescription": "Free online Password Generator — instant results, no signup. Generate strong random passwords instantly. Customize length, uppercase, lowerca",
+      "h1": "Password Generator – Online Free",
+      "description": "Free online Password Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Password Generator How to Use – Free Online Password Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Password Generator. Generate strong random passwords instantly. Customize length, uppercase, lowerca",
+      "h1": "Password Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Password Generator."
+    }
   ]
 }

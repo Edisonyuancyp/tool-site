@@ -110,5 +110,21 @@
       "heading": "Three Mistakes That Blow Up Leveraged Trading Accounts",
       "body": "The most common error is ignoring the gap between your stop loss and liquidation price. If your stop loss sits at $36,500 but liquidation happens at $36,000, a flash crash could skip right past your stop and liquidate you before the order executes. Always leave meaningful buffer between these two levels—ideally your liquidation should be far beyond any price you'd tolerate reaching.\n\nSecond mistake: calculating R:R based on take-profit prices you won't actually hold to. Traders often set ambitious targets, see a beautiful 1:3 ratio, then panic-sell at 1:1 when price stalls. Be honest about your actual exit behavior when evaluating whether a trade setup makes sense. A realistic 1:1.5 beats a fantasy 1:4.\n\nFinally, people forget that this calculator shows estimates. Real exchanges add funding rates, trading fees, and sometimes use different liquidation formulas. An exchange might liquidate slightly earlier to protect itself from slippage. Treat the liquidation price as a warning zone, not a precise boundary, and your leverage trading will stay much healthier."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Take Profit / Stop Loss Calculator Online Free – Free Online Take Profit / Stop Loss Calculator",
+      "metaDescription": "Free online Take Profit / Stop Loss Calculator — instant results, no signup. Free TP/SL calculator for crypto traders. Enter entry price, leverage, and margi",
+      "h1": "Take Profit / Stop Loss Calculator – Online Free",
+      "description": "Free online Take Profit / Stop Loss Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Take Profit / Stop Loss Calculator How to Use – Free Online Take Profit / Stop Loss Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Take Profit / Stop Loss Calculator. Free TP/SL calculator for crypto traders. Enter entry price, leverage, and margi",
+      "h1": "Take Profit / Stop Loss Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Take Profit / Stop Loss Calculator."
+    }
   ]
 }

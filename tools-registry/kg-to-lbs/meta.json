@@ -88,5 +88,28 @@
       "heading": "Common Mistakes That Throw Off Your Results",
       "body": "The most frequent error is multiplying when you should divide—or the reverse. People memorize that 2.2 is \"the number\" but forget which direction it applies. Here's the rule: kilograms are heavier units, so a given weight has fewer kilograms than pounds. If your result seems wildly large or small, you probably inverted the operation. A 150 lb person is about 68 kg, not 330 kg.\n\nAnother trap is confusing mass with weight. On Earth, they're functionally identical, so this rarely matters. But if you're calculating payload for aerospace applications or scientific experiments, remember that kilograms measure mass while pounds can mean either mass or force depending on context. For everyday use—gym, travel, shipping—ignore this distinction.\n\nFinally, watch out for sloppy rounding. Using 2.2 instead of 2.20462 creates small errors that accumulate. A 90 kg estimate becomes 198 lbs with the shortcut but 198.42 lbs precisely. For a single conversion, who cares? But if you're totaling weights across a dozen shipments, those fractions add up to real discrepancies."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "KG to LBS Converter Online Free – Free Online KG to LBS Converter",
+      "metaDescription": "Free online KG to LBS Converter — instant conversion, no signup. Convert kilograms to pounds instantly. Type any weight and see both directions a",
+      "h1": "KG to LBS Converter – Online Free",
+      "description": "Free online KG to LBS Converter — instant conversion, no signup."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "KG to LBS Converter Metric – Free Online KG to LBS Converter",
+      "metaDescription": "KG to LBS Converter for metric unit conversions. Convert kilograms to pounds instantly. Type any weight and see both directions a",
+      "h1": "KG to LBS Converter – Metric",
+      "description": "KG to LBS Converter for metric unit conversions."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "KG to LBS Converter Imperial – Free Online KG to LBS Converter",
+      "metaDescription": "KG to LBS Converter for imperial unit conversions. Convert kilograms to pounds instantly. Type any weight and see both directions a",
+      "h1": "KG to LBS Converter – Imperial",
+      "description": "KG to LBS Converter for imperial unit conversions."
+    }
   ]
 }

@@ -154,5 +154,497 @@
       "heading": "Mistakes That Cost You Money and How to Sidestep Them",
       "body": "The biggest error is stacking discounts incorrectly. A 20% off coupon on top of a 30% sale doesn't mean 50% off. It means 30% off first, reducing $100 to $70, then 20% off that $70, taking it to $56. You saved 44%, not 50%. Stores count on this confusion, so always calculate sequentially.\n\nAnother common slip is confusing \"percent off\" with \"percent of.\" Twenty percent off $80 leaves you paying $64. Twenty percent of $80 is $16. One describes what you save, the other what you'd pay if the price were slashed to just that fraction. Read sale signs carefully because some promotions phrase things oddly.\n\nFinally, watch out for inflated original prices. A $200 jacket marked down to $100 sounds like 50% off, but if nobody ever paid $200 and the jacket typically sells for $110, your real savings are barely 9%. Check price history on browser extensions or simply ask yourself if the \"original\" price seems plausible for the item in question."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "10percent-off-10",
+      "metaTitle": "10% Off $10 – Discount Calculator",
+      "metaDescription": "What is 10% off $10? The sale price is $9.00. Free discount calculator.",
+      "h1": "10% Off $10",
+      "description": "10% off $10 gives a discount of $1.00 and a final price of $9.00."
+    },
+    {
+      "param": "10percent-off-20",
+      "metaTitle": "10% Off $20 – Discount Calculator",
+      "metaDescription": "What is 10% off $20? The sale price is $18.00. Free discount calculator.",
+      "h1": "10% Off $20",
+      "description": "10% off $20 gives a discount of $2.00 and a final price of $18.00."
+    },
+    {
+      "param": "10percent-off-50",
+      "metaTitle": "10% Off $50 – Discount Calculator",
+      "metaDescription": "What is 10% off $50? The sale price is $45.00. Free discount calculator.",
+      "h1": "10% Off $50",
+      "description": "10% off $50 gives a discount of $5.00 and a final price of $45.00."
+    },
+    {
+      "param": "10percent-off-100",
+      "metaTitle": "10% Off $100 – Discount Calculator",
+      "metaDescription": "What is 10% off $100? The sale price is $90.00. Free discount calculator.",
+      "h1": "10% Off $100",
+      "description": "10% off $100 gives a discount of $10.00 and a final price of $90.00."
+    },
+    {
+      "param": "10percent-off-200",
+      "metaTitle": "10% Off $200 – Discount Calculator",
+      "metaDescription": "What is 10% off $200? The sale price is $180.00. Free discount calculator.",
+      "h1": "10% Off $200",
+      "description": "10% off $200 gives a discount of $20.00 and a final price of $180.00."
+    },
+    {
+      "param": "10percent-off-500",
+      "metaTitle": "10% Off $500 – Discount Calculator",
+      "metaDescription": "What is 10% off $500? The sale price is $450.00. Free discount calculator.",
+      "h1": "10% Off $500",
+      "description": "10% off $500 gives a discount of $50.00 and a final price of $450.00."
+    },
+    {
+      "param": "10percent-off-1000",
+      "metaTitle": "10% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 10% off $1000? The sale price is $900.00. Free discount calculator.",
+      "h1": "10% Off $1000",
+      "description": "10% off $1000 gives a discount of $100.00 and a final price of $900.00."
+    },
+    {
+      "param": "15percent-off-10",
+      "metaTitle": "15% Off $10 – Discount Calculator",
+      "metaDescription": "What is 15% off $10? The sale price is $8.50. Free discount calculator.",
+      "h1": "15% Off $10",
+      "description": "15% off $10 gives a discount of $1.50 and a final price of $8.50."
+    },
+    {
+      "param": "15percent-off-20",
+      "metaTitle": "15% Off $20 – Discount Calculator",
+      "metaDescription": "What is 15% off $20? The sale price is $17.00. Free discount calculator.",
+      "h1": "15% Off $20",
+      "description": "15% off $20 gives a discount of $3.00 and a final price of $17.00."
+    },
+    {
+      "param": "15percent-off-50",
+      "metaTitle": "15% Off $50 – Discount Calculator",
+      "metaDescription": "What is 15% off $50? The sale price is $42.50. Free discount calculator.",
+      "h1": "15% Off $50",
+      "description": "15% off $50 gives a discount of $7.50 and a final price of $42.50."
+    },
+    {
+      "param": "15percent-off-100",
+      "metaTitle": "15% Off $100 – Discount Calculator",
+      "metaDescription": "What is 15% off $100? The sale price is $85.00. Free discount calculator.",
+      "h1": "15% Off $100",
+      "description": "15% off $100 gives a discount of $15.00 and a final price of $85.00."
+    },
+    {
+      "param": "15percent-off-200",
+      "metaTitle": "15% Off $200 – Discount Calculator",
+      "metaDescription": "What is 15% off $200? The sale price is $170.00. Free discount calculator.",
+      "h1": "15% Off $200",
+      "description": "15% off $200 gives a discount of $30.00 and a final price of $170.00."
+    },
+    {
+      "param": "15percent-off-500",
+      "metaTitle": "15% Off $500 – Discount Calculator",
+      "metaDescription": "What is 15% off $500? The sale price is $425.00. Free discount calculator.",
+      "h1": "15% Off $500",
+      "description": "15% off $500 gives a discount of $75.00 and a final price of $425.00."
+    },
+    {
+      "param": "15percent-off-1000",
+      "metaTitle": "15% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 15% off $1000? The sale price is $850.00. Free discount calculator.",
+      "h1": "15% Off $1000",
+      "description": "15% off $1000 gives a discount of $150.00 and a final price of $850.00."
+    },
+    {
+      "param": "20percent-off-10",
+      "metaTitle": "20% Off $10 – Discount Calculator",
+      "metaDescription": "What is 20% off $10? The sale price is $8.00. Free discount calculator.",
+      "h1": "20% Off $10",
+      "description": "20% off $10 gives a discount of $2.00 and a final price of $8.00."
+    },
+    {
+      "param": "20percent-off-20",
+      "metaTitle": "20% Off $20 – Discount Calculator",
+      "metaDescription": "What is 20% off $20? The sale price is $16.00. Free discount calculator.",
+      "h1": "20% Off $20",
+      "description": "20% off $20 gives a discount of $4.00 and a final price of $16.00."
+    },
+    {
+      "param": "20percent-off-50",
+      "metaTitle": "20% Off $50 – Discount Calculator",
+      "metaDescription": "What is 20% off $50? The sale price is $40.00. Free discount calculator.",
+      "h1": "20% Off $50",
+      "description": "20% off $50 gives a discount of $10.00 and a final price of $40.00."
+    },
+    {
+      "param": "20percent-off-100",
+      "metaTitle": "20% Off $100 – Discount Calculator",
+      "metaDescription": "What is 20% off $100? The sale price is $80.00. Free discount calculator.",
+      "h1": "20% Off $100",
+      "description": "20% off $100 gives a discount of $20.00 and a final price of $80.00."
+    },
+    {
+      "param": "20percent-off-200",
+      "metaTitle": "20% Off $200 – Discount Calculator",
+      "metaDescription": "What is 20% off $200? The sale price is $160.00. Free discount calculator.",
+      "h1": "20% Off $200",
+      "description": "20% off $200 gives a discount of $40.00 and a final price of $160.00."
+    },
+    {
+      "param": "20percent-off-500",
+      "metaTitle": "20% Off $500 – Discount Calculator",
+      "metaDescription": "What is 20% off $500? The sale price is $400.00. Free discount calculator.",
+      "h1": "20% Off $500",
+      "description": "20% off $500 gives a discount of $100.00 and a final price of $400.00."
+    },
+    {
+      "param": "20percent-off-1000",
+      "metaTitle": "20% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 20% off $1000? The sale price is $800.00. Free discount calculator.",
+      "h1": "20% Off $1000",
+      "description": "20% off $1000 gives a discount of $200.00 and a final price of $800.00."
+    },
+    {
+      "param": "25percent-off-10",
+      "metaTitle": "25% Off $10 – Discount Calculator",
+      "metaDescription": "What is 25% off $10? The sale price is $7.50. Free discount calculator.",
+      "h1": "25% Off $10",
+      "description": "25% off $10 gives a discount of $2.50 and a final price of $7.50."
+    },
+    {
+      "param": "25percent-off-20",
+      "metaTitle": "25% Off $20 – Discount Calculator",
+      "metaDescription": "What is 25% off $20? The sale price is $15.00. Free discount calculator.",
+      "h1": "25% Off $20",
+      "description": "25% off $20 gives a discount of $5.00 and a final price of $15.00."
+    },
+    {
+      "param": "25percent-off-50",
+      "metaTitle": "25% Off $50 – Discount Calculator",
+      "metaDescription": "What is 25% off $50? The sale price is $37.50. Free discount calculator.",
+      "h1": "25% Off $50",
+      "description": "25% off $50 gives a discount of $12.50 and a final price of $37.50."
+    },
+    {
+      "param": "25percent-off-100",
+      "metaTitle": "25% Off $100 – Discount Calculator",
+      "metaDescription": "What is 25% off $100? The sale price is $75.00. Free discount calculator.",
+      "h1": "25% Off $100",
+      "description": "25% off $100 gives a discount of $25.00 and a final price of $75.00."
+    },
+    {
+      "param": "25percent-off-200",
+      "metaTitle": "25% Off $200 – Discount Calculator",
+      "metaDescription": "What is 25% off $200? The sale price is $150.00. Free discount calculator.",
+      "h1": "25% Off $200",
+      "description": "25% off $200 gives a discount of $50.00 and a final price of $150.00."
+    },
+    {
+      "param": "25percent-off-500",
+      "metaTitle": "25% Off $500 – Discount Calculator",
+      "metaDescription": "What is 25% off $500? The sale price is $375.00. Free discount calculator.",
+      "h1": "25% Off $500",
+      "description": "25% off $500 gives a discount of $125.00 and a final price of $375.00."
+    },
+    {
+      "param": "25percent-off-1000",
+      "metaTitle": "25% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 25% off $1000? The sale price is $750.00. Free discount calculator.",
+      "h1": "25% Off $1000",
+      "description": "25% off $1000 gives a discount of $250.00 and a final price of $750.00."
+    },
+    {
+      "param": "30percent-off-10",
+      "metaTitle": "30% Off $10 – Discount Calculator",
+      "metaDescription": "What is 30% off $10? The sale price is $7.00. Free discount calculator.",
+      "h1": "30% Off $10",
+      "description": "30% off $10 gives a discount of $3.00 and a final price of $7.00."
+    },
+    {
+      "param": "30percent-off-20",
+      "metaTitle": "30% Off $20 – Discount Calculator",
+      "metaDescription": "What is 30% off $20? The sale price is $14.00. Free discount calculator.",
+      "h1": "30% Off $20",
+      "description": "30% off $20 gives a discount of $6.00 and a final price of $14.00."
+    },
+    {
+      "param": "30percent-off-50",
+      "metaTitle": "30% Off $50 – Discount Calculator",
+      "metaDescription": "What is 30% off $50? The sale price is $35.00. Free discount calculator.",
+      "h1": "30% Off $50",
+      "description": "30% off $50 gives a discount of $15.00 and a final price of $35.00."
+    },
+    {
+      "param": "30percent-off-100",
+      "metaTitle": "30% Off $100 – Discount Calculator",
+      "metaDescription": "What is 30% off $100? The sale price is $70.00. Free discount calculator.",
+      "h1": "30% Off $100",
+      "description": "30% off $100 gives a discount of $30.00 and a final price of $70.00."
+    },
+    {
+      "param": "30percent-off-200",
+      "metaTitle": "30% Off $200 – Discount Calculator",
+      "metaDescription": "What is 30% off $200? The sale price is $140.00. Free discount calculator.",
+      "h1": "30% Off $200",
+      "description": "30% off $200 gives a discount of $60.00 and a final price of $140.00."
+    },
+    {
+      "param": "30percent-off-500",
+      "metaTitle": "30% Off $500 – Discount Calculator",
+      "metaDescription": "What is 30% off $500? The sale price is $350.00. Free discount calculator.",
+      "h1": "30% Off $500",
+      "description": "30% off $500 gives a discount of $150.00 and a final price of $350.00."
+    },
+    {
+      "param": "30percent-off-1000",
+      "metaTitle": "30% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 30% off $1000? The sale price is $700.00. Free discount calculator.",
+      "h1": "30% Off $1000",
+      "description": "30% off $1000 gives a discount of $300.00 and a final price of $700.00."
+    },
+    {
+      "param": "40percent-off-10",
+      "metaTitle": "40% Off $10 – Discount Calculator",
+      "metaDescription": "What is 40% off $10? The sale price is $6.00. Free discount calculator.",
+      "h1": "40% Off $10",
+      "description": "40% off $10 gives a discount of $4.00 and a final price of $6.00."
+    },
+    {
+      "param": "40percent-off-20",
+      "metaTitle": "40% Off $20 – Discount Calculator",
+      "metaDescription": "What is 40% off $20? The sale price is $12.00. Free discount calculator.",
+      "h1": "40% Off $20",
+      "description": "40% off $20 gives a discount of $8.00 and a final price of $12.00."
+    },
+    {
+      "param": "40percent-off-50",
+      "metaTitle": "40% Off $50 – Discount Calculator",
+      "metaDescription": "What is 40% off $50? The sale price is $30.00. Free discount calculator.",
+      "h1": "40% Off $50",
+      "description": "40% off $50 gives a discount of $20.00 and a final price of $30.00."
+    },
+    {
+      "param": "40percent-off-100",
+      "metaTitle": "40% Off $100 – Discount Calculator",
+      "metaDescription": "What is 40% off $100? The sale price is $60.00. Free discount calculator.",
+      "h1": "40% Off $100",
+      "description": "40% off $100 gives a discount of $40.00 and a final price of $60.00."
+    },
+    {
+      "param": "40percent-off-200",
+      "metaTitle": "40% Off $200 – Discount Calculator",
+      "metaDescription": "What is 40% off $200? The sale price is $120.00. Free discount calculator.",
+      "h1": "40% Off $200",
+      "description": "40% off $200 gives a discount of $80.00 and a final price of $120.00."
+    },
+    {
+      "param": "40percent-off-500",
+      "metaTitle": "40% Off $500 – Discount Calculator",
+      "metaDescription": "What is 40% off $500? The sale price is $300.00. Free discount calculator.",
+      "h1": "40% Off $500",
+      "description": "40% off $500 gives a discount of $200.00 and a final price of $300.00."
+    },
+    {
+      "param": "40percent-off-1000",
+      "metaTitle": "40% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 40% off $1000? The sale price is $600.00. Free discount calculator.",
+      "h1": "40% Off $1000",
+      "description": "40% off $1000 gives a discount of $400.00 and a final price of $600.00."
+    },
+    {
+      "param": "50percent-off-10",
+      "metaTitle": "50% Off $10 – Discount Calculator",
+      "metaDescription": "What is 50% off $10? The sale price is $5.00. Free discount calculator.",
+      "h1": "50% Off $10",
+      "description": "50% off $10 gives a discount of $5.00 and a final price of $5.00."
+    },
+    {
+      "param": "50percent-off-20",
+      "metaTitle": "50% Off $20 – Discount Calculator",
+      "metaDescription": "What is 50% off $20? The sale price is $10.00. Free discount calculator.",
+      "h1": "50% Off $20",
+      "description": "50% off $20 gives a discount of $10.00 and a final price of $10.00."
+    },
+    {
+      "param": "50percent-off-50",
+      "metaTitle": "50% Off $50 – Discount Calculator",
+      "metaDescription": "What is 50% off $50? The sale price is $25.00. Free discount calculator.",
+      "h1": "50% Off $50",
+      "description": "50% off $50 gives a discount of $25.00 and a final price of $25.00."
+    },
+    {
+      "param": "50percent-off-100",
+      "metaTitle": "50% Off $100 – Discount Calculator",
+      "metaDescription": "What is 50% off $100? The sale price is $50.00. Free discount calculator.",
+      "h1": "50% Off $100",
+      "description": "50% off $100 gives a discount of $50.00 and a final price of $50.00."
+    },
+    {
+      "param": "50percent-off-200",
+      "metaTitle": "50% Off $200 – Discount Calculator",
+      "metaDescription": "What is 50% off $200? The sale price is $100.00. Free discount calculator.",
+      "h1": "50% Off $200",
+      "description": "50% off $200 gives a discount of $100.00 and a final price of $100.00."
+    },
+    {
+      "param": "50percent-off-500",
+      "metaTitle": "50% Off $500 – Discount Calculator",
+      "metaDescription": "What is 50% off $500? The sale price is $250.00. Free discount calculator.",
+      "h1": "50% Off $500",
+      "description": "50% off $500 gives a discount of $250.00 and a final price of $250.00."
+    },
+    {
+      "param": "50percent-off-1000",
+      "metaTitle": "50% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 50% off $1000? The sale price is $500.00. Free discount calculator.",
+      "h1": "50% Off $1000",
+      "description": "50% off $1000 gives a discount of $500.00 and a final price of $500.00."
+    },
+    {
+      "param": "60percent-off-10",
+      "metaTitle": "60% Off $10 – Discount Calculator",
+      "metaDescription": "What is 60% off $10? The sale price is $4.00. Free discount calculator.",
+      "h1": "60% Off $10",
+      "description": "60% off $10 gives a discount of $6.00 and a final price of $4.00."
+    },
+    {
+      "param": "60percent-off-20",
+      "metaTitle": "60% Off $20 – Discount Calculator",
+      "metaDescription": "What is 60% off $20? The sale price is $8.00. Free discount calculator.",
+      "h1": "60% Off $20",
+      "description": "60% off $20 gives a discount of $12.00 and a final price of $8.00."
+    },
+    {
+      "param": "60percent-off-50",
+      "metaTitle": "60% Off $50 – Discount Calculator",
+      "metaDescription": "What is 60% off $50? The sale price is $20.00. Free discount calculator.",
+      "h1": "60% Off $50",
+      "description": "60% off $50 gives a discount of $30.00 and a final price of $20.00."
+    },
+    {
+      "param": "60percent-off-100",
+      "metaTitle": "60% Off $100 – Discount Calculator",
+      "metaDescription": "What is 60% off $100? The sale price is $40.00. Free discount calculator.",
+      "h1": "60% Off $100",
+      "description": "60% off $100 gives a discount of $60.00 and a final price of $40.00."
+    },
+    {
+      "param": "60percent-off-200",
+      "metaTitle": "60% Off $200 – Discount Calculator",
+      "metaDescription": "What is 60% off $200? The sale price is $80.00. Free discount calculator.",
+      "h1": "60% Off $200",
+      "description": "60% off $200 gives a discount of $120.00 and a final price of $80.00."
+    },
+    {
+      "param": "60percent-off-500",
+      "metaTitle": "60% Off $500 – Discount Calculator",
+      "metaDescription": "What is 60% off $500? The sale price is $200.00. Free discount calculator.",
+      "h1": "60% Off $500",
+      "description": "60% off $500 gives a discount of $300.00 and a final price of $200.00."
+    },
+    {
+      "param": "60percent-off-1000",
+      "metaTitle": "60% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 60% off $1000? The sale price is $400.00. Free discount calculator.",
+      "h1": "60% Off $1000",
+      "description": "60% off $1000 gives a discount of $600.00 and a final price of $400.00."
+    },
+    {
+      "param": "70percent-off-10",
+      "metaTitle": "70% Off $10 – Discount Calculator",
+      "metaDescription": "What is 70% off $10? The sale price is $3.00. Free discount calculator.",
+      "h1": "70% Off $10",
+      "description": "70% off $10 gives a discount of $7.00 and a final price of $3.00."
+    },
+    {
+      "param": "70percent-off-20",
+      "metaTitle": "70% Off $20 – Discount Calculator",
+      "metaDescription": "What is 70% off $20? The sale price is $6.00. Free discount calculator.",
+      "h1": "70% Off $20",
+      "description": "70% off $20 gives a discount of $14.00 and a final price of $6.00."
+    },
+    {
+      "param": "70percent-off-50",
+      "metaTitle": "70% Off $50 – Discount Calculator",
+      "metaDescription": "What is 70% off $50? The sale price is $15.00. Free discount calculator.",
+      "h1": "70% Off $50",
+      "description": "70% off $50 gives a discount of $35.00 and a final price of $15.00."
+    },
+    {
+      "param": "70percent-off-100",
+      "metaTitle": "70% Off $100 – Discount Calculator",
+      "metaDescription": "What is 70% off $100? The sale price is $30.00. Free discount calculator.",
+      "h1": "70% Off $100",
+      "description": "70% off $100 gives a discount of $70.00 and a final price of $30.00."
+    },
+    {
+      "param": "70percent-off-200",
+      "metaTitle": "70% Off $200 – Discount Calculator",
+      "metaDescription": "What is 70% off $200? The sale price is $60.00. Free discount calculator.",
+      "h1": "70% Off $200",
+      "description": "70% off $200 gives a discount of $140.00 and a final price of $60.00."
+    },
+    {
+      "param": "70percent-off-500",
+      "metaTitle": "70% Off $500 – Discount Calculator",
+      "metaDescription": "What is 70% off $500? The sale price is $150.00. Free discount calculator.",
+      "h1": "70% Off $500",
+      "description": "70% off $500 gives a discount of $350.00 and a final price of $150.00."
+    },
+    {
+      "param": "70percent-off-1000",
+      "metaTitle": "70% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 70% off $1000? The sale price is $300.00. Free discount calculator.",
+      "h1": "70% Off $1000",
+      "description": "70% off $1000 gives a discount of $700.00 and a final price of $300.00."
+    },
+    {
+      "param": "75percent-off-10",
+      "metaTitle": "75% Off $10 – Discount Calculator",
+      "metaDescription": "What is 75% off $10? The sale price is $2.50. Free discount calculator.",
+      "h1": "75% Off $10",
+      "description": "75% off $10 gives a discount of $7.50 and a final price of $2.50."
+    },
+    {
+      "param": "75percent-off-20",
+      "metaTitle": "75% Off $20 – Discount Calculator",
+      "metaDescription": "What is 75% off $20? The sale price is $5.00. Free discount calculator.",
+      "h1": "75% Off $20",
+      "description": "75% off $20 gives a discount of $15.00 and a final price of $5.00."
+    },
+    {
+      "param": "75percent-off-50",
+      "metaTitle": "75% Off $50 – Discount Calculator",
+      "metaDescription": "What is 75% off $50? The sale price is $12.50. Free discount calculator.",
+      "h1": "75% Off $50",
+      "description": "75% off $50 gives a discount of $37.50 and a final price of $12.50."
+    },
+    {
+      "param": "75percent-off-100",
+      "metaTitle": "75% Off $100 – Discount Calculator",
+      "metaDescription": "What is 75% off $100? The sale price is $25.00. Free discount calculator.",
+      "h1": "75% Off $100",
+      "description": "75% off $100 gives a discount of $75.00 and a final price of $25.00."
+    },
+    {
+      "param": "75percent-off-200",
+      "metaTitle": "75% Off $200 – Discount Calculator",
+      "metaDescription": "What is 75% off $200? The sale price is $50.00. Free discount calculator.",
+      "h1": "75% Off $200",
+      "description": "75% off $200 gives a discount of $150.00 and a final price of $50.00."
+    },
+    {
+      "param": "75percent-off-500",
+      "metaTitle": "75% Off $500 – Discount Calculator",
+      "metaDescription": "What is 75% off $500? The sale price is $125.00. Free discount calculator.",
+      "h1": "75% Off $500",
+      "description": "75% off $500 gives a discount of $375.00 and a final price of $125.00."
+    },
+    {
+      "param": "75percent-off-1000",
+      "metaTitle": "75% Off $1000 – Discount Calculator",
+      "metaDescription": "What is 75% off $1000? The sale price is $250.00. Free discount calculator.",
+      "h1": "75% Off $1000",
+      "description": "75% off $1000 gives a discount of $750.00 and a final price of $250.00."
+    }
   ]
 }

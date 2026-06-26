@@ -128,5 +128,28 @@
       "heading": "Three Mistakes That Will Sabotage Your Responsive Layouts",
       "body": "The most common error is forgetting that em compounds. If your body is 16px and you set a div to 1.5em (24px), then a nested span at 1.5em becomes 36px—not 24px. Em multiplies against its parent, not the root. Use rem instead when you want predictable sizing that doesn't cascade unexpectedly.\n\nAnother trap is assuming 16px as your base without checking. Many CSS frameworks set html { font-size: 62.5%; } to make 1rem equal 10px for easier math. If you convert 32px to rem using 16px base, you'll get 2rem. But on that framework, 2rem actually renders as 20px. Always verify your project's actual root font size before converting.\n\nFinally, people often mix vw and vh carelessly. A 100vh hero section sounds right until you test on mobile Safari, where the address bar changes viewport height as you scroll. That perfect full-screen section becomes either too short or causes janky resizing. For full-screen sections, consider using svh (small viewport height) or fixed heights at mobile breakpoints."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "CSS Unit Converter Online Free – Free Online CSS Unit Converter",
+      "metaDescription": "Free online CSS Unit Converter — no install required. Free CSS unit converter. Convert px to rem, em, vw, vh, pt instantly. Set custom",
+      "h1": "CSS Unit Converter – Online Free",
+      "description": "Free online CSS Unit Converter — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "CSS Unit Converter JavaScript – Free Online CSS Unit Converter",
+      "metaDescription": "CSS Unit Converter reference for JavaScript developers. Free CSS unit converter. Convert px to rem, em, vw, vh, pt instantly. Set custom",
+      "h1": "CSS Unit Converter – JavaScript",
+      "description": "CSS Unit Converter reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "CSS Unit Converter Python – Free Online CSS Unit Converter",
+      "metaDescription": "CSS Unit Converter reference for Python developers. Free CSS unit converter. Convert px to rem, em, vw, vh, pt instantly. Set custom",
+      "h1": "CSS Unit Converter – Python",
+      "description": "CSS Unit Converter reference for Python developers."
+    }
   ]
 }

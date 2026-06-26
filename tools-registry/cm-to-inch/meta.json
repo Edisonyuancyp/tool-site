@@ -86,5 +86,28 @@
       "heading": "Rounding Errors and the Fraction Trap",
       "body": "The most common mistake happens when people round too aggressively during intermediate steps. If you convert 15 cm to inches, get 5.91, round to 6, then convert back expecting 15 cm, you'll get 15.24 instead. That 0.24 cm error compounds in projects requiring multiple cuts or measurements. Keep at least two decimal places until your final answer, then round appropriately for your purpose.\n\nAnother frequent error involves confusing fractional inches with decimal inches. American rulers often show fractions like 3/8 inch, but calculators return decimals like 0.375. When your conversion gives 2.375 inches, that's 2 and 3/8 inches — knowing this prevents misreading your measuring tape. Eight millimeters, for instance, converts to 0.315 inches, which sits between 1/4 inch (0.25) and 3/8 inch (0.375), closer to 5/16 inch (0.3125).\n\nFinally, watch for input mistakes with scientific notation or thousand separators. Entering 1.500 when you mean 1500 cm produces results off by a factor of a thousand. Double-check that your starting number actually reflects the scale you're working with."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "CM to Inches Converter Online Free – Free Online CM to Inches Converter",
+      "metaDescription": "Free online CM to Inches Converter — instant conversion, no signup. Convert centimeters to inches instantly. Type any value and see both directions ",
+      "h1": "CM to Inches Converter – Online Free",
+      "description": "Free online CM to Inches Converter — instant conversion, no signup."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "CM to Inches Converter Metric – Free Online CM to Inches Converter",
+      "metaDescription": "CM to Inches Converter for metric unit conversions. Convert centimeters to inches instantly. Type any value and see both directions ",
+      "h1": "CM to Inches Converter – Metric",
+      "description": "CM to Inches Converter for metric unit conversions."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "CM to Inches Converter Imperial – Free Online CM to Inches Converter",
+      "metaDescription": "CM to Inches Converter for imperial unit conversions. Convert centimeters to inches instantly. Type any value and see both directions ",
+      "h1": "CM to Inches Converter – Imperial",
+      "description": "CM to Inches Converter for imperial unit conversions."
+    }
   ]
 }

@@ -111,5 +111,21 @@
       "heading": "The Pantone Trap and Other Mistakes That Waste Time and Money",
       "body": "The most expensive mistake is treating the Pantone references as gospel. These codes are visual estimates, not official Pantone conversions. Pantone guards its color data carefully — you need their proprietary software or physical guides for production-accurate matching. If you specify Pantone 300 C to a printer based solely on what this tool suggests, you might receive prints that don't match your screen preview. Always confirm critical brand colors against a physical Pantone Fan Deck before signing off on any print job.\n\nAnother common error involves copying CMYK values without considering paper stock. The formula assumes you're printing on coated white paper under standard conditions. Uncoated stock absorbs ink differently, so that C:78 M:32 Y:68 K:18 green will look darker and less saturated on kraft paper than on glossy cardstock. Ask your printer for proofs on actual production materials. Similarly, some designers copy Tailwind classes without checking their project's configuration — if you've customized the default color palette in tailwind.config.js, the class names might not produce the colors you expect."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Professional Color Palette Lab Online Free – Free Online Professional Color Palette Lab",
+      "metaDescription": "Free online Professional Color Palette Lab — instant results. Free color palette tool with 5 industry palettes. Copy HEX codes, Tailwind CSS c",
+      "h1": "Professional Color Palette Lab – Online Free",
+      "description": "Free online Professional Color Palette Lab — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Professional Color Palette Lab Web Design – Free Online Professional Color Palette Lab",
+      "metaDescription": "Professional Color Palette Lab for web designers and front-end developers. Free color palette tool with 5 industry palettes. Copy HEX codes, Tailwind CSS c",
+      "h1": "Professional Color Palette Lab – Web Design",
+      "description": "Professional Color Palette Lab for web designers and front-end developers."
+    }
   ]
 }

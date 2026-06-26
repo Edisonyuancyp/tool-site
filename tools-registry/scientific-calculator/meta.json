@@ -98,5 +98,28 @@
       "heading": "Mistakes That Produce Wrong Answers and How to Sidestep Them",
       "body": "The most common error is forgetting which angle mode you're in. Calculate sin(90) in radian mode and you'll get 0.894 instead of the expected 1, because 90 radians is a completely different angle than 90 degrees. Always glance at the mode indicator before working with trig functions. If you're converting a formula from a textbook, check whether it assumes radians — most physics and calculus formulas do.\n\nOrder of operations trips people up regularly too. Typing 1/2π when you want 1/(2π) gives you π/2 instead because division happens before the multiplication by π. Use parentheses explicitly: 1/(2×π) ensures the calculator computes what you actually mean. Similarly, -3² can surprise you — the calculator may interpret this as -(3²) = -9 rather than (-3)² = 9. When in doubt, add parentheses around negative numbers before applying exponents.\n\nFinally, watch out for domain errors. You cannot take the logarithm of zero or a negative number in real arithmetic — log(-5) has no real answer, and the calculator will return an error. Square roots of negative numbers similarly require complex number support. Recognizing these boundaries helps you debug formulas when something doesn't work rather than assuming the tool is broken."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Scientific Calculator Online Free – Free Online Scientific Calculator",
+      "metaDescription": "Free online Scientific Calculator — instant results. Free scientific calculator online. Supports sin, cos, tan, log, ln, sqrt, powers",
+      "h1": "Scientific Calculator – Online Free",
+      "description": "Free online Scientific Calculator — instant results."
+    },
+    {
+      "param": "with-steps",
+      "metaTitle": "Scientific Calculator With Steps – Free Online Scientific Calculator",
+      "metaDescription": "Scientific Calculator with step-by-step working shown. Free scientific calculator online. Supports sin, cos, tan, log, ln, sqrt, powers",
+      "h1": "Scientific Calculator – With Steps",
+      "description": "Scientific Calculator with step-by-step working shown."
+    },
+    {
+      "param": "for-students",
+      "metaTitle": "Scientific Calculator For Students – Free Online Scientific Calculator",
+      "metaDescription": "Scientific Calculator for high school and college students. Free scientific calculator online. Supports sin, cos, tan, log, ln, sqrt, powers",
+      "h1": "Scientific Calculator – For Students",
+      "description": "Scientific Calculator for high school and college students."
+    }
   ]
 }

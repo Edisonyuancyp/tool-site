@@ -127,5 +127,28 @@
       "heading": "Naming Pitfalls and Specificity Traps to Avoid",
       "body": "The most common mistake is naming colors by their appearance rather than their function. Calling a variable \"--color-blue\" seems logical until your brand refresh changes the primary color to purple, and now you have purple assigned to something called blue. Name by purpose instead: \"--color-primary,\" \"--color-accent,\" \"--color-surface.\" Your future self will thank you.\n\nAnother frequent error is forgetting that CSS variables respect the cascade. If you define --color-primary in :root but accidentally redefine it inside a component's scope, that component uses the local value. This can cause confusing bugs where one button looks different from identical buttons elsewhere. Keep your palette definitions exclusively in :root unless you're intentionally creating scoped themes.\n\nFinally, don't skip the Tailwind export even if you're not currently using Tailwind. Having that configuration file ready means you can adopt the framework later without rebuilding your palette from scratch. The few extra seconds of copying both outputs now can save hours of color archaeology later."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "CSS Variables Generator Online Free – Free Online CSS Variables Generator",
+      "metaDescription": "Free online CSS Variables Generator — no install required. Free CSS variables generator. Pick colors, name them, and instantly get :root CS",
+      "h1": "CSS Variables Generator – Online Free",
+      "description": "Free online CSS Variables Generator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "CSS Variables Generator JavaScript – Free Online CSS Variables Generator",
+      "metaDescription": "CSS Variables Generator reference for JavaScript developers. Free CSS variables generator. Pick colors, name them, and instantly get :root CS",
+      "h1": "CSS Variables Generator – JavaScript",
+      "description": "CSS Variables Generator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "CSS Variables Generator Python – Free Online CSS Variables Generator",
+      "metaDescription": "CSS Variables Generator reference for Python developers. Free CSS variables generator. Pick colors, name them, and instantly get :root CS",
+      "h1": "CSS Variables Generator – Python",
+      "description": "CSS Variables Generator reference for Python developers."
+    }
   ]
 }

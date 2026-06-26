@@ -76,5 +76,28 @@
       "heading": "The Fluid Ounce Trap and Other Conversion Blunders",
       "body": "The most dangerous mistake happens when people confuse fluid ounces with weight ounces. Fluid ounces measure volume — how much space a liquid occupies. Weight ounces measure mass. They share a name but measure completely different properties. Eight fluid ounces of honey weighs about 12 weight ounces because honey is denser than water. This converter handles weight ounces only.\n\nAnother common error involves rounding too aggressively. Converting 50 grams gives you 1.76 ounces, which some people round to \"about 2 ounces.\" In casual cooking, that 14% difference might not matter. In baking, where precision affects chemical reactions, it absolutely does. Keep at least one decimal place when accuracy counts.\n\nPeople also sometimes forget to zero their scale before converting. If your bowl weighs 45 grams and you add 200 grams of flour, the scale shows 245 grams total. Converting that full reading gives you the wrong flour amount. Always tare your scale first, or subtract the container weight mentally before converting."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Grams to Ounces Converter Online Free – Free Online Grams to Ounces Converter",
+      "metaDescription": "Free online Grams to Ounces Converter — instant conversion, no signup. Convert grams to ounces instantly. Type any value for both directions at once. F",
+      "h1": "Grams to Ounces Converter – Online Free",
+      "description": "Free online Grams to Ounces Converter — instant conversion, no signup."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Grams to Ounces Converter Metric – Free Online Grams to Ounces Converter",
+      "metaDescription": "Grams to Ounces Converter for metric unit conversions. Convert grams to ounces instantly. Type any value for both directions at once. F",
+      "h1": "Grams to Ounces Converter – Metric",
+      "description": "Grams to Ounces Converter for metric unit conversions."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Grams to Ounces Converter Imperial – Free Online Grams to Ounces Converter",
+      "metaDescription": "Grams to Ounces Converter for imperial unit conversions. Convert grams to ounces instantly. Type any value for both directions at once. F",
+      "h1": "Grams to Ounces Converter – Imperial",
+      "description": "Grams to Ounces Converter for imperial unit conversions."
+    }
   ]
 }

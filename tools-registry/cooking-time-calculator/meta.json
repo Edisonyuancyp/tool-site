@@ -94,5 +94,28 @@
       "heading": "Five Mistakes That Ruin Otherwise Good Calculations",
       "body": "The most common error is ignoring resting time. A calculator might tell you 90 minutes for your lamb, but the internal temperature continues rising after removal from heat. If you cook to your target temperature exactly, then cut immediately, the meat will be overdone. Account for carryover cooking by pulling meat 3 to 5 degrees Celsius below your target.\n\nWeighing meat with bones throws calculations off. A 2 kg bone-in lamb leg contains less actual meat than a 2 kg boneless joint. Some cooks subtract about 15 percent from bone-in weights before calculating, which produces more accurate timing. Similarly, stuffed joints need extended time because the stuffing acts as insulation. A rolled and stuffed pork loin at 1.5 kg might need timings based on 1.8 kg to compensate for the added density in the center. Finally, opening the oven repeatedly drops temperature significantly, potentially adding 10 minutes to your total."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Cooking Time Calculator Online Free – Free Online Cooking Time Calculator",
+      "metaDescription": "Free online Cooking Time Calculator — instant results. Use our cooking time calculator for accurate cooking times. Free tool, no signup",
+      "h1": "Cooking Time Calculator – Online Free",
+      "description": "Free online Cooking Time Calculator — instant results."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Cooking Time Calculator Metric – Free Online Cooking Time Calculator",
+      "metaDescription": "Cooking Time Calculator using metric measurements (g, ml, °C). Use our cooking time calculator for accurate cooking times. Free tool, no signup",
+      "h1": "Cooking Time Calculator – Metric",
+      "description": "Cooking Time Calculator using metric measurements (g, ml, °C)."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Cooking Time Calculator Imperial – Free Online Cooking Time Calculator",
+      "metaDescription": "Cooking Time Calculator using imperial measurements (oz, cups, °F). Use our cooking time calculator for accurate cooking times. Free tool, no signup",
+      "h1": "Cooking Time Calculator – Imperial",
+      "description": "Cooking Time Calculator using imperial measurements (oz, cups, °F)."
+    }
   ]
 }

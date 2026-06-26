@@ -103,5 +103,28 @@
       "heading": "Mistakes That Skew Your Results and How to Fix Them",
       "body": "The most common error is entering one-way distance when you mean round-trip. If you input 370 km for London to Amsterdam but actually plan to return, your emissions estimate is half what it should be. Always double your distance for return journeys, or run the calculation twice and add the results together.\n\nAnother frequent mistake involves car travel with multiple passengers. The default emission factor assumes one person per vehicle. If you're road-tripping with three friends, divide the car emissions by four to reflect your personal share. Forgetting this makes driving look far worse than it actually is for your individual footprint.\n\nFinally, people often ignore accommodation type entirely or assume all hotels are equal. A luxury resort with spas and restaurants uses significantly more energy than a simple bed-and-breakfast. Be specific when selecting your accommodation category. If the tool offers options like budget, standard, or luxury, choose honestly. Underestimating your hotel's footprint defeats the purpose of using the calculator in the first place."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Carbon Footprint Travel Calculator Online Free – Free Online Carbon Footprint Travel Calculator",
+      "metaDescription": "Free online Carbon Footprint Travel Calculator — instant results. Calculate your travel's carbon footprint for free and find ways to travel greene",
+      "h1": "Carbon Footprint Travel Calculator – Online Free",
+      "description": "Free online Carbon Footprint Travel Calculator — instant results."
+    },
+    {
+      "param": "international",
+      "metaTitle": "Carbon Footprint Travel Calculator International – Free Online Carbon Footprint Travel Calculator",
+      "metaDescription": "Carbon Footprint Travel Calculator for international travel planning. Calculate your travel's carbon footprint for free and find ways to travel greene",
+      "h1": "Carbon Footprint Travel Calculator – International",
+      "description": "Carbon Footprint Travel Calculator for international travel planning."
+    },
+    {
+      "param": "budget-travel",
+      "metaTitle": "Carbon Footprint Travel Calculator Budget Travel – Free Online Carbon Footprint Travel Calculator",
+      "metaDescription": "Carbon Footprint Travel Calculator for budget-conscious travellers. Calculate your travel's carbon footprint for free and find ways to travel greene",
+      "h1": "Carbon Footprint Travel Calculator – Budget Travel",
+      "description": "Carbon Footprint Travel Calculator for budget-conscious travellers."
+    }
   ]
 }

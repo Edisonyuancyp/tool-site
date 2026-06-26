@@ -166,5 +166,112 @@
       "heading": "Three Mistakes That Skew Your Inflation Calculations",
       "body": "The most common error is using headline inflation rates for personal planning. National CPI averages everyone's spending, but your inflation rate differs. Healthcare costs have risen faster than general CPI for decades. If you're retired and spend 20% of your budget on medical expenses, your personal inflation likely exceeds the official 3% average. The calculator gives a baseline, but adjust mentally for your actual spending categories.\n\nPeople also forget that inflation isn't steady. Assuming 3% forever ignores reality's swings. The calculator's historical mode uses actual CPI data, but projections are estimates. Running scenarios at 2%, 3%, and 5% gives you a range rather than false precision. Finally, many users confuse nominal and real returns. If your investment returned 8% last year and inflation was 4%, your real return was closer to 4%. Always subtract inflation from investment returns to see actual wealth growth. The number on your statement matters less than what it can buy."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "100-from-2000-to-2024",
+      "metaTitle": "$100 in 2000 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $100 from 2000 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$100 in 2000 Adjusted for Inflation to 2024",
+      "description": "Find out what $100 from 2000 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "100-from-2010-to-2024",
+      "metaTitle": "$100 in 2010 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $100 from 2010 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$100 in 2010 Adjusted for Inflation to 2024",
+      "description": "Find out what $100 from 2010 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "100-from-2015-to-2024",
+      "metaTitle": "$100 in 2015 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $100 from 2015 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$100 in 2015 Adjusted for Inflation to 2024",
+      "description": "Find out what $100 from 2015 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "100-from-1990-to-2024",
+      "metaTitle": "$100 in 1990 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $100 from 1990 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$100 in 1990 Adjusted for Inflation to 2024",
+      "description": "Find out what $100 from 1990 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "100-from-1980-to-2024",
+      "metaTitle": "$100 in 1980 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $100 from 1980 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$100 in 1980 Adjusted for Inflation to 2024",
+      "description": "Find out what $100 from 1980 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "1000-from-2000-to-2024",
+      "metaTitle": "$1,000 in 2000 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $1,000 from 2000 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$1,000 in 2000 Adjusted for Inflation to 2024",
+      "description": "Find out what $1,000 from 2000 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "1000-from-2010-to-2024",
+      "metaTitle": "$1,000 in 2010 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $1,000 from 2010 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$1,000 in 2010 Adjusted for Inflation to 2024",
+      "description": "Find out what $1,000 from 2010 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "1000-from-2015-to-2024",
+      "metaTitle": "$1,000 in 2015 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $1,000 from 2015 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$1,000 in 2015 Adjusted for Inflation to 2024",
+      "description": "Find out what $1,000 from 2015 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "1000-from-1990-to-2024",
+      "metaTitle": "$1,000 in 1990 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $1,000 from 1990 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$1,000 in 1990 Adjusted for Inflation to 2024",
+      "description": "Find out what $1,000 from 1990 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "1000-from-1980-to-2024",
+      "metaTitle": "$1,000 in 1980 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $1,000 from 1980 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$1,000 in 1980 Adjusted for Inflation to 2024",
+      "description": "Find out what $1,000 from 1980 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "10000-from-2000-to-2024",
+      "metaTitle": "$10,000 in 2000 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $10,000 from 2000 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$10,000 in 2000 Adjusted for Inflation to 2024",
+      "description": "Find out what $10,000 from 2000 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "10000-from-2010-to-2024",
+      "metaTitle": "$10,000 in 2010 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $10,000 from 2010 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$10,000 in 2010 Adjusted for Inflation to 2024",
+      "description": "Find out what $10,000 from 2010 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "10000-from-2015-to-2024",
+      "metaTitle": "$10,000 in 2015 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $10,000 from 2015 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$10,000 in 2015 Adjusted for Inflation to 2024",
+      "description": "Find out what $10,000 from 2015 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "10000-from-1990-to-2024",
+      "metaTitle": "$10,000 in 1990 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $10,000 from 1990 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$10,000 in 1990 Adjusted for Inflation to 2024",
+      "description": "Find out what $10,000 from 1990 is worth in today's 2024 dollars, using historical CPI inflation data."
+    },
+    {
+      "param": "10000-from-1980-to-2024",
+      "metaTitle": "$10,000 in 1980 = How Much in 2024? Inflation Calculator",
+      "metaDescription": "What is $10,000 from 1980 worth in 2024 dollars? See inflation-adjusted value with year-by-year breakdown. Free.",
+      "h1": "$10,000 in 1980 Adjusted for Inflation to 2024",
+      "description": "Find out what $10,000 from 1980 is worth in today's 2024 dollars, using historical CPI inflation data."
+    }
   ]
 }

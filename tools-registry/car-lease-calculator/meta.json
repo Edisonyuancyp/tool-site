@@ -135,5 +135,28 @@
       "heading": "Three Costly Lease Calculation Mistakes and How to Sidestep Them",
       "body": "Forgetting to convert the interest rate properly derails many calculations. Dealers quote money factors like 0.00175 while banks advertise APR like 4.2%. These are the same rate expressed differently—multiply the money factor by 2,400 to get APR, or divide APR by 2,400 for the money factor. Mixing these up makes your payment estimate wildly inaccurate. Always confirm which format you're working with.\n\nIgnoring the residual value source creates another problem. Manufacturer residuals are set by corporate policy and differ from actual market depreciation. A car with an artificially high residual gives you a great lease deal because the finance company absorbs more risk. Conversely, a conservatively set residual means higher payments for you. Check manufacturer lease programs first rather than assuming all cars of similar value lease similarly.\n\nFinally, many people calculate payments without including acquisition fees, which typically run $600 to $1,200. These can be paid upfront or rolled into the capitalized cost. Rolling them in increases your monthly payment slightly but preserves your cash. Either way, add them to your vehicle price before calculating to get an accurate picture of your true costs."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Car Lease Calculator Online Free – Free Online Car Lease Calculator",
+      "metaDescription": "Use Car Lease Calculator online for free — no signup required. Easily calculate your car lease payments. Free, no signup needed, instant result",
+      "h1": "Car Lease Calculator – Online Free",
+      "description": "Use Car Lease Calculator online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Car Lease Calculator How to Calculate – Free Online Car Lease Calculator",
+      "metaDescription": "Step-by-step guide to using Car Lease Calculator with real examples. Easily calculate your car lease payments. Free, no signup needed, instant result",
+      "h1": "Car Lease Calculator – How to Calculate",
+      "description": "Step-by-step guide to using Car Lease Calculator with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Car Lease Calculator For Beginners – Free Online Car Lease Calculator",
+      "metaDescription": "Beginner-friendly guide to Car Lease Calculator with plain-English explanations. Easily calculate your car lease payments. Free, no signup needed, instant result",
+      "h1": "Car Lease Calculator – For Beginners",
+      "description": "Beginner-friendly guide to Car Lease Calculator with plain-English explanations."
+    }
   ]
 }

@@ -135,5 +135,28 @@
       "heading": "Three Mistakes That Make Your Finance Charge Calculations Wrong",
       "body": "The most common error is confusing APR with monthly rates. If your credit card shows 24% APR, that's not a 24% monthly charge — it's roughly 2% per month. People who multiply their balance by the annual rate get terrifying but inaccurate results. Always divide your APR by 12 for monthly estimates or by 365 for daily calculations, then multiply by the appropriate time period.\n\nAnother frequent mistake involves ignoring compounding. Finance charges on unpaid balances get added to your principal, meaning next month's charges are calculated on a larger amount. Someone carrying $5,000 at 22% APR might calculate $91.67 monthly charges and assume yearly costs of $1,100. In reality, compounding pushes that toward $1,217 if no payments are made. This calculator accounts for compounding, but only if you update your balance accurately each period.\n\nFinally, many users forget that grace periods exist. If you pay your full statement balance by the due date, most credit cards charge zero finance fees on purchases. Running calculations on a balance you intend to pay completely leads to unnecessary worry. Finance charges typically apply only to balances carried past the grace period or to cash advances, which usually have no grace period at all."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Finance Charge Calculator Online Free – Free Online Finance Charge Calculator",
+      "metaDescription": "Use Finance Charge Calculator online for free — no signup required. Instantly calculate finance charges on loans and credit cards. Free, no signup n",
+      "h1": "Finance Charge Calculator – Online Free",
+      "description": "Use Finance Charge Calculator online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Finance Charge Calculator How to Calculate – Free Online Finance Charge Calculator",
+      "metaDescription": "Step-by-step guide to using Finance Charge Calculator with real examples. Instantly calculate finance charges on loans and credit cards. Free, no signup n",
+      "h1": "Finance Charge Calculator – How to Calculate",
+      "description": "Step-by-step guide to using Finance Charge Calculator with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Finance Charge Calculator For Beginners – Free Online Finance Charge Calculator",
+      "metaDescription": "Beginner-friendly guide to Finance Charge Calculator with plain-English explanations. Instantly calculate finance charges on loans and credit cards. Free, no signup n",
+      "h1": "Finance Charge Calculator – For Beginners",
+      "description": "Beginner-friendly guide to Finance Charge Calculator with plain-English explanations."
+    }
   ]
 }

@@ -113,5 +113,28 @@
       "heading": "Mistakes That Break Your Data and How to Sidestep Them",
       "body": "The most common JSON error is a trailing comma. JavaScript engines often tolerate {\"a\":1,}, but strict JSON parsers reject it outright. If the validator complains near the end of an object, check for that extra comma lurking before the closing brace. Another frequent issue is unescaped special characters inside strings, like a literal tab or a backslash that should be written as a double backslash.\n\nWith CSV, trouble usually starts when fields contain the delimiter itself. A product name like \"Widget, Large\" will split into two columns unless the entire field is quoted. If your source file lacks proper quoting, the formatter cannot magically guess intent; it will parse Widget as one column and Large as another. Before converting, scan your data for embedded commas or semicolons, and ensure they are enclosed in double quotes. Spending thirty seconds on inspection prevents hours of corrupted imports downstream."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "JSON & CSV Formatter / Validator Online Free – Free Online JSON & CSV Formatter / Validator",
+      "metaDescription": "Free online JSON & CSV Formatter / Validator — no install required. Free online JSON formatter, validator, and CSV formatter. Paste JSON to beautify",
+      "h1": "JSON & CSV Formatter / Validator – Online Free",
+      "description": "Free online JSON & CSV Formatter / Validator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "JSON & CSV Formatter / Validator JavaScript – Free Online JSON & CSV Formatter / Validator",
+      "metaDescription": "JSON & CSV Formatter / Validator reference for JavaScript developers. Free online JSON formatter, validator, and CSV formatter. Paste JSON to beautify",
+      "h1": "JSON & CSV Formatter / Validator – JavaScript",
+      "description": "JSON & CSV Formatter / Validator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "JSON & CSV Formatter / Validator Python – Free Online JSON & CSV Formatter / Validator",
+      "metaDescription": "JSON & CSV Formatter / Validator reference for Python developers. Free online JSON formatter, validator, and CSV formatter. Paste JSON to beautify",
+      "h1": "JSON & CSV Formatter / Validator – Python",
+      "description": "JSON & CSV Formatter / Validator reference for Python developers."
+    }
   ]
 }

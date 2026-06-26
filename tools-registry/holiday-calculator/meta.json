@@ -109,5 +109,21 @@
       "heading": "Mistakes That Trip People Up When Checking Holiday Dates",
       "body": "The most common error is assuming public holidays mean universal closures. In the UK, bank holidays don't legally require private employers to give staff the day off — they just usually do. Your countdown might show 12 days until the August Bank Holiday, but your specific workplace might stay open. Always verify with your actual employer rather than assuming the calculator reflects your personal schedule.\n\nAnother frequent mistake involves regional holidays within countries. The calculator might show UK holidays, but Scotland observes St. Andrew's Day on November 30th while England doesn't. Similarly, US holidays vary slightly — some states observe Lincoln's Birthday while others don't. If precision matters, double-check whether the listed holiday applies to your specific region.\n\nFinally, people forget that \"days until\" means calendar days, not working days. If the calculator shows 14 days until a holiday and you think \"I've got two weeks of work to prepare,\" remember that includes two weekends. You actually have 10 working days, maybe fewer if other holidays fall within that window. Always translate calendar countdowns into actual workdays available before committing to deadlines."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Holiday Calculator Online Free – Free Online Holiday Calculator",
+      "metaDescription": "Free online Holiday Calculator — instant results, no signup. Find public holidays for 20+ countries. Calculate days until your next holiday. ",
+      "h1": "Holiday Calculator – Online Free",
+      "description": "Free online Holiday Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Holiday Calculator How to Use – Free Online Holiday Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Holiday Calculator. Find public holidays for 20+ countries. Calculate days until your next holiday. ",
+      "h1": "Holiday Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Holiday Calculator."
+    }
   ]
 }

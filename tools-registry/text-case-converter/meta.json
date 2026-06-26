@@ -113,5 +113,21 @@
       "heading": "Mistakes That Break Your Conversions and How to Sidestep Them",
       "body": "The most common mistake is forgetting that acronyms get mangled. If you convert \"NASA space program\" to camelCase, you'll get nasaSpaceProgram — the tool can't know that NASA should stay capitalized. Same issue with brand names like iOS or eBay. When your text contains acronyms, you'll need to fix them manually after converting, or convert around them.\n\nAnother pitfall: converting text that contains mixed delimiters. If your input is \"user_first-name\" with both an underscore and a hyphen, the tool might interpret this differently than you expect. Clean your input first, or convert in stages — normalize to one delimiter, then convert to your target case. Testing with a small sample before bulk processing saves frustration.\n\nFinally, watch out for numbers and special characters. Converting \"report2024Q3\" might not split at the number boundary the way you want, giving you unexpected results. Most converters treat numbers as part of the preceding word, so \"report2024Q3\" in PascalCase stays Report2024Q3 rather than becoming Report2024Q3. When numbers matter, add explicit separators before converting."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Text Case Converter Online Free – Free Online Text Case Converter",
+      "metaDescription": "Free online Text Case Converter — instant results, no signup. Free text case converter. Convert text to UPPERCASE, lowercase, Title Case, came",
+      "h1": "Text Case Converter – Online Free",
+      "description": "Free online Text Case Converter — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Text Case Converter How to Use – Free Online Text Case Converter",
+      "metaDescription": "Step-by-step guide to getting the most from Text Case Converter. Free text case converter. Convert text to UPPERCASE, lowercase, Title Case, came",
+      "h1": "Text Case Converter – How to Use",
+      "description": "Step-by-step guide to getting the most from Text Case Converter."
+    }
   ]
 }

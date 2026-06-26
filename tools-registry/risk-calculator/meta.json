@@ -149,5 +149,21 @@
       "heading": "Mistakes That Quietly Drain Trading Accounts",
       "body": "The most common error is ignoring slippage. Your stop at $45.00 might execute at $44.85 in a fast market, turning a planned $500 loss into $525. Build a buffer by assuming 0.5–1% worse execution, especially in crypto or low-volume stocks. If you calculate for a $3.00 gap, treat it as $3.15 to stay conservative.\n\nAnother trap is recalculating mid-trade with emotions running high. You enter a position sized for 2% risk, the price dips, and you move your stop lower to avoid getting stopped out. Suddenly you're risking 4%. The calculator can't protect you from overriding its output. Decide your stop before entering, input it once, and treat the result as a contract with yourself. Finally, mixing currencies catches people off guard—if your account is in euros but you enter a dollar-denominated stock price, your sizing will be wrong. Always confirm both figures use the same currency."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Position Size Calculator Online Free – Free Online Position Size Calculator",
+      "metaDescription": "Free online Position Size Calculator — instant results, no signup. Calculate your position size and manage trading risk with this free crypto and f",
+      "h1": "Position Size Calculator – Online Free",
+      "description": "Free online Position Size Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Position Size Calculator How to Use – Free Online Position Size Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Position Size Calculator. Calculate your position size and manage trading risk with this free crypto and f",
+      "h1": "Position Size Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Position Size Calculator."
+    }
   ]
 }

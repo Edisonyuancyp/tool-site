@@ -113,5 +113,28 @@
       "heading": "Five Mistakes That Lead to Unpleasant Payment Surprises",
       "body": "The most common error is confusing APR with the nominal interest rate. A loan advertised at 5.9% APR might have additional fees built in, while the base rate used in calculations could be 5.5%. Always verify which rate to enter. Similarly, people forget that the calculator assumes fixed-rate loans — if your mortgage rate adjusts after a teaser period, your actual payments will change, sometimes dramatically.\n\nAnother trap is ignoring the loan term's impact. Stretching a £15,000 car loan from 48 to 72 months drops your payment from £359 to £254, which feels easier. But you'll pay £3,288 in interest instead of £2,232 — an extra thousand pounds for the privilege of smaller monthly bills. Finally, don't forget deposit effects: borrowing £18,000 versus £20,000 (by adding £2,000 to your deposit) doesn't just save £2,000; at 7% over five years, it saves £2,364 because you avoid interest on that amount too."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Loan Calculator Online Free – Free Online Loan Calculator",
+      "metaDescription": "Use Loan Calculator online for free — no signup required. Free loan calculator. Enter loan amount, interest rate, and term to find monthly",
+      "h1": "Loan Calculator – Online Free",
+      "description": "Use Loan Calculator online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Loan Calculator How to Calculate – Free Online Loan Calculator",
+      "metaDescription": "Step-by-step guide to using Loan Calculator with real examples. Free loan calculator. Enter loan amount, interest rate, and term to find monthly",
+      "h1": "Loan Calculator – How to Calculate",
+      "description": "Step-by-step guide to using Loan Calculator with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Loan Calculator For Beginners – Free Online Loan Calculator",
+      "metaDescription": "Beginner-friendly guide to Loan Calculator with plain-English explanations. Free loan calculator. Enter loan amount, interest rate, and term to find monthly",
+      "h1": "Loan Calculator – For Beginners",
+      "description": "Beginner-friendly guide to Loan Calculator with plain-English explanations."
+    }
   ]
 }

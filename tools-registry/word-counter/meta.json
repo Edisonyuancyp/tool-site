@@ -112,5 +112,21 @@
       "heading": "Mistakes That Throw Off Your Word Count and How to Fix Them",
       "body": "Copying from PDFs often introduces hidden characters and broken words. A sentence might appear normal but contain invisible line-break characters that split \"important\" into \"impor\" and \"tant\"—suddenly counting as two words. If your count seems suspiciously high, paste into a plain text editor first, fix any obvious breaks, then paste into the counter.\n\nForgetting about headers, footers, and citations inflates counts for academic work. Your professor wants 2,000 words of analysis, not 2,000 words including your name, date, title, and bibliography. Copy only the body text when checking against requirements. The reverse mistake happens too: excluding block quotes that do count toward your total in some contexts but not others. Know your assignment rules.\n\nRelying solely on reading time estimates can mislead you about difficulty. A 1,000-word legal contract and a 1,000-word blog post both show roughly 4 minutes of reading time, but nobody reads contracts that fast. The estimate assumes ordinary prose. For technical documents, double the estimated time when planning how long readers actually need."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Word Counter Online Free – Free Online Word Counter",
+      "metaDescription": "Free online Word Counter — instant results, no signup. Count words and characters instantly. Free online word counter for essays, artic",
+      "h1": "Word Counter – Online Free",
+      "description": "Free online Word Counter — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Word Counter How to Use – Free Online Word Counter",
+      "metaDescription": "Step-by-step guide to getting the most from Word Counter. Count words and characters instantly. Free online word counter for essays, artic",
+      "h1": "Word Counter – How to Use",
+      "description": "Step-by-step guide to getting the most from Word Counter."
+    }
   ]
 }

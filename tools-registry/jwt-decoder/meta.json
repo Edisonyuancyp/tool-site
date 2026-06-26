@@ -136,5 +136,28 @@
       "heading": "Three JWT Mistakes That Create Real Security Holes",
       "body": "The most common mistake is trusting a JWT without verifying its signature on the server. Attackers can decode a token, modify the payload to change their user_id from 423 to 1, re-encode it, and send it back. Without signature verification, your server accepts this tampered token as legitimate. Always verify signatures server-side using your authentication library — never rely on the token's contents alone.\n\nSetting algorithm to \"none\" is another critical error. Some JWT libraries accept tokens with no signature at all if the header specifies alg: none. Attackers exploit this by stripping the signature and changing the algorithm claim. The security checker warns you if it detects this configuration. Your server should explicitly reject tokens that don't use your expected algorithm.\n\nFinally, storing sensitive data in JWT payloads creates unnecessary risk. Social Security numbers, passwords, API keys — none of these belong in a token. Remember that JWTs are encoded, not encrypted. Anyone who intercepts the token can read everything inside it. Keep payloads minimal: user ID, essential roles, expiration time. Store sensitive details server-side and reference them by ID."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "JWT Decoder & Security Checker Online Free – Free Online JWT Decoder & Security Checker",
+      "metaDescription": "Free online JWT Decoder & Security Checker — no install required. Decode JWT tokens instantly. View header, payload, and expiry. Built-in security",
+      "h1": "JWT Decoder & Security Checker – Online Free",
+      "description": "Free online JWT Decoder & Security Checker — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "JWT Decoder & Security Checker JavaScript – Free Online JWT Decoder & Security Checker",
+      "metaDescription": "JWT Decoder & Security Checker reference for JavaScript developers. Decode JWT tokens instantly. View header, payload, and expiry. Built-in security",
+      "h1": "JWT Decoder & Security Checker – JavaScript",
+      "description": "JWT Decoder & Security Checker reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "JWT Decoder & Security Checker Python – Free Online JWT Decoder & Security Checker",
+      "metaDescription": "JWT Decoder & Security Checker reference for Python developers. Decode JWT tokens instantly. View header, payload, and expiry. Built-in security",
+      "h1": "JWT Decoder & Security Checker – Python",
+      "description": "JWT Decoder & Security Checker reference for Python developers."
+    }
   ]
 }

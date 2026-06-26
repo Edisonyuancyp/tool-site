@@ -94,5 +94,28 @@
       "heading": "Mistakes That Lead to Disappointing Results and How to Fix Them",
       "body": "The most common error is being too vague with ingredient descriptions. Entering \"chicken\" when you have specifically leftover rotisserie chicken produces different results than entering \"raw chicken thighs.\" Cooked proteins work best in quick dishes like salads, wraps, and casseroles. Raw proteins need recipes with actual cooking time built in. Specify whether your ingredient is raw, cooked, or frozen for accurate matches.\n\nAnother frequent mistake is ignoring quantity guidance. If a recipe calls for 2 cups of shredded pork and you only have half a cup, the dish won't taste right — the proportions matter. Either find a recipe that matches your actual quantity or plan to supplement with another protein. The generator often shows estimated quantities, so pay attention to these numbers rather than just the ingredient names.\n\nPeople also forget that condiments and sauces count as ingredients. That half jar of salsa, leftover pesto, or nearly empty bottle of teriyaki sauce can completely change your recipe options. Including these items often unlocks flavor-forward dishes that plain protein and vegetables alone wouldn't suggest."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Leftover Recipe Generator Online Free – Free Online Leftover Recipe Generator",
+      "metaDescription": "Free online Leftover Recipe Generator — instant results. Generate recipes based on your leftovers with this free tool. No signup required",
+      "h1": "Leftover Recipe Generator – Online Free",
+      "description": "Free online Leftover Recipe Generator — instant results."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Leftover Recipe Generator Metric – Free Online Leftover Recipe Generator",
+      "metaDescription": "Leftover Recipe Generator using metric measurements (g, ml, °C). Generate recipes based on your leftovers with this free tool. No signup required",
+      "h1": "Leftover Recipe Generator – Metric",
+      "description": "Leftover Recipe Generator using metric measurements (g, ml, °C)."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Leftover Recipe Generator Imperial – Free Online Leftover Recipe Generator",
+      "metaDescription": "Leftover Recipe Generator using imperial measurements (oz, cups, °F). Generate recipes based on your leftovers with this free tool. No signup required",
+      "h1": "Leftover Recipe Generator – Imperial",
+      "description": "Leftover Recipe Generator using imperial measurements (oz, cups, °F)."
+    }
   ]
 }

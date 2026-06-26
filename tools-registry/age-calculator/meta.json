@@ -117,5 +117,21 @@
       "heading": "Three Mistakes That Throw Off Your Age Calculation",
       "body": "The most common error is entering dates in the wrong format. If you mean March 5th but your system expects day-month-year format, typing 03/05/1990 gives you May 3rd instead. This twelve-week difference compounds over years, potentially showing you as months younger or older than reality. Always verify the format your calculator expects before entering dates.\n\nAnother frequent mistake involves forgetting that age calculations depend heavily on the current date. Checking your age on December 31st versus January 1st can show a difference of an entire year if your birthday falls between those dates. People sometimes screenshot an age result and reference it months later without recalculating. The third pitfall affects those born on February 29th during leap years. Most calculators treat March 1st as the birthday in non-leap years, but some older tools handle this inconsistently. If you're a leap year baby, test your calculator by checking your age on both February 28th and March 1st in a non-leap year to see how it behaves."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Age Calculator Online Free – Free Online Age Calculator",
+      "metaDescription": "Free online Age Calculator — instant results, no signup. Calculate your exact age from your date of birth. Get your age in years, months,",
+      "h1": "Age Calculator – Online Free",
+      "description": "Free online Age Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Age Calculator How to Use – Free Online Age Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Age Calculator. Calculate your exact age from your date of birth. Get your age in years, months,",
+      "h1": "Age Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Age Calculator."
+    }
   ]
 }

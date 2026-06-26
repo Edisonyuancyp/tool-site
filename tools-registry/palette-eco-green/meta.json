@@ -96,5 +96,21 @@
       "heading": "Print Surprises and Screen Assumptions That Trip People Up",
       "body": "The most common mistake is trusting your monitor completely. That bright leaf green #4ade80 contains significant amounts of green light that simply cannot be reproduced in CMYK printing. What looks vibrant on screen can print noticeably duller. Before committing to a large print run, always request a physical proof. A 50-cent test print saves you from discovering problems on 500 brochures.\n\nAnother frequent error is treating the Pantone approximations as exact matches. The suggested Pantone codes are close visual neighbors, not identical twins. If brand consistency across vendors matters to your project, purchase the actual Pantone Fan Deck and verify the match under daylight conditions. Colors shift dramatically under different lighting, and what looks perfect in your office might clash at a trade show under convention center LEDs. Finally, remember that paper stock dramatically affects final appearance—uncoated paper absorbs more ink and dulls colors, while glossy stock makes them pop but can add unwanted shine to earthy tones."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Eco Green Color Palette Online Free – Free Online Eco Green Color Palette",
+      "metaDescription": "Free online Eco Green Color Palette — instant results. Free eco green color palette with HEX codes, Tailwind CSS classes, CMYK values, ",
+      "h1": "Eco Green Color Palette – Online Free",
+      "description": "Free online Eco Green Color Palette — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Eco Green Color Palette Web Design – Free Online Eco Green Color Palette",
+      "metaDescription": "Eco Green Color Palette for web designers and front-end developers. Free eco green color palette with HEX codes, Tailwind CSS classes, CMYK values, ",
+      "h1": "Eco Green Color Palette – Web Design",
+      "description": "Eco Green Color Palette for web designers and front-end developers."
+    }
   ]
 }

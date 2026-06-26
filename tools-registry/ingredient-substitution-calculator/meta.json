@@ -92,5 +92,28 @@
       "heading": "Why Your Substituted Recipe Flopped and How to Prevent It",
       "body": "The most frequent mistake is ignoring the context of your dish. Replacing baking powder with baking soda at a 1:1 ratio sounds logical, but baking soda is four times stronger. Your cookies will taste metallic and bitter. The correct swap is 1/4 teaspoon baking soda for every 1 teaspoon baking powder, plus 1/2 teaspoon cream of tartar to provide the acid that baking powder already contains.\n\nAnother common error is substituting in heat-sensitive recipes without adjusting technique. Margarine replaces butter adequately in most baking, but it burns at a lower temperature. If your recipe involves browning butter or high-heat sautéing, margarine will smoke and taste acrid before reaching the desired color.\n\nFinally, people often stack too many substitutions simultaneously. Replacing eggs, butter, and flour in the same recipe creates unpredictable interactions. When possible, limit yourself to substituting one or two ingredients per recipe until you understand how each change affects the final product. Test one variable at a time, and you'll develop genuine intuition for what works."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Ingredient Substitution Calculator Online Free – Free Online Ingredient Substitution Calculator",
+      "metaDescription": "Free online Ingredient Substitution Calculator — instant results. Find ingredient substitutes instantly with our free tool. No signup required.",
+      "h1": "Ingredient Substitution Calculator – Online Free",
+      "description": "Free online Ingredient Substitution Calculator — instant results."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Ingredient Substitution Calculator Metric – Free Online Ingredient Substitution Calculator",
+      "metaDescription": "Ingredient Substitution Calculator using metric measurements (g, ml, °C). Find ingredient substitutes instantly with our free tool. No signup required.",
+      "h1": "Ingredient Substitution Calculator – Metric",
+      "description": "Ingredient Substitution Calculator using metric measurements (g, ml, °C)."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Ingredient Substitution Calculator Imperial – Free Online Ingredient Substitution Calculator",
+      "metaDescription": "Ingredient Substitution Calculator using imperial measurements (oz, cups, °F). Find ingredient substitutes instantly with our free tool. No signup required.",
+      "h1": "Ingredient Substitution Calculator – Imperial",
+      "description": "Ingredient Substitution Calculator using imperial measurements (oz, cups, °F)."
+    }
   ]
 }

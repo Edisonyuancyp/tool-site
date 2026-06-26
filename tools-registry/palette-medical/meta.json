@@ -95,5 +95,21 @@
       "heading": "Contrast Failures and Pantone Assumptions That Wreck Projects",
       "body": "The most common mistake involves assuming the Pantone codes displayed on screen will match printed output. They won't. Screen-displayed Pantone simulations are approximations rendered in RGB on your monitor. A designer who sends #0369A1 to a printer requesting \"Pantone 301 C\" without checking physical samples might receive materials that look noticeably purple or green depending on the press and paper.\n\nAnother frequent error involves accessibility. Designers fall in love with the pale #F0F9FF and want to use #0EA5E9 text on top of it. The resulting contrast ratio is approximately 2.8:1, which fails WCAG AA standards entirely. Users with even mild visual impairments will struggle to read it. The fix is simple: reserve #0EA5E9 for decorative elements and large headlines only, using #0369A1 or darker for readable text.\n\nFinally, many teams forget that medical blue carries regulatory implications in pharmaceutical contexts. Using these colors on supplement packaging could trigger FDA scrutiny if the design implies clinical efficacy that hasn't been proven."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Medical Blue Color Palette Online Free – Free Online Medical Blue Color Palette",
+      "metaDescription": "Free online Medical Blue Color Palette — instant results. Free medical blue color palette with HEX codes, Tailwind CSS classes, CMYK value",
+      "h1": "Medical Blue Color Palette – Online Free",
+      "description": "Free online Medical Blue Color Palette — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Medical Blue Color Palette Web Design – Free Online Medical Blue Color Palette",
+      "metaDescription": "Medical Blue Color Palette for web designers and front-end developers. Free medical blue color palette with HEX codes, Tailwind CSS classes, CMYK value",
+      "h1": "Medical Blue Color Palette – Web Design",
+      "description": "Medical Blue Color Palette for web designers and front-end developers."
+    }
   ]
 }

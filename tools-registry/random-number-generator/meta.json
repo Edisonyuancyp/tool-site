@@ -114,5 +114,21 @@
       "heading": "Common Mistakes That Undermine Random Selection",
       "body": "The most frequent error is running the generator multiple times and keeping only results you like. This completely defeats the purpose. If you're selecting raffle winners and regenerate because your friend's number came up, you've introduced bias. Commit to a single generation before you click, and stick with whatever appears. If you need to exclude certain numbers, build that into your numbering system beforehand, not after seeing results.\n\nAnother mistake involves confusing unique versus repeatable modes when generating lists. If you're assigning 30 students to 6 project groups of 5, you need repeatable mode generating numbers 1-6, not unique. Each student gets assigned to whichever group number appears for them. Unique mode would fail after 6 generations because you'd exhaust all possible values. Conversely, for lottery-style picks where no number should repeat, forgetting to enable unique mode produces invalid results.\n\nPeople also misunderstand dice probability. Rolling one twenty-sided die gives equal 5% chances for each outcome. But rolling 2d10 (two ten-sided dice summed) doesn't give 5% chance of rolling 11 — it's actually about 10%, because multiple combinations produce that sum. If you need uniform distribution across a range, use single-number mode, not dice mode. Match your method to your actual statistical needs."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Random Number Generator Online Free – Free Online Random Number Generator",
+      "metaDescription": "Free online Random Number Generator — instant results, no signup. Generate random numbers online instantly. Single number, list of random numbers,",
+      "h1": "Random Number Generator – Online Free",
+      "description": "Free online Random Number Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Random Number Generator How to Use – Free Online Random Number Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Random Number Generator. Generate random numbers online instantly. Single number, list of random numbers,",
+      "h1": "Random Number Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Random Number Generator."
+    }
   ]
 }

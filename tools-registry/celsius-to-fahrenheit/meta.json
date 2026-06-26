@@ -92,5 +92,28 @@
       "heading": "Mistakes That Trip Up First-Time Converters",
       "body": "The most common error is forgetting the order of operations when converting Fahrenheit to Celsius. You must subtract 32 before dividing by 1.8 — not the other way around. If you divide first and subtract second, you'll calculate 100°F as (100 ÷ 1.8) - 32 = 23.5°C instead of the correct answer, 37.8°C. That's a fifteen-degree error, enough to make you think a hot tub is lukewarm.\n\nAnother frequent mistake is rounding too aggressively in the middle of the calculation. If you're converting 36°C and round 1.8 down to 2 for convenience, you get 36 × 2 = 72, plus 32 = 104°F. The actual answer is 96.8°F — an eight-degree difference that could make you think someone has a dangerous fever when they're actually fine. Use the full 1.8 multiplier until the final step, then round your result if needed. Also watch for negative temperatures: -10°C becomes (-10 × 1.8) + 32 = -18 + 32 = 14°F. Keep track of that negative sign throughout or you'll end up with wildly wrong answers."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Celsius to Fahrenheit Converter Online Free – Free Online Celsius to Fahrenheit Converter",
+      "metaDescription": "Free online Celsius to Fahrenheit Converter — instant conversion, no signup. Convert Celsius to Fahrenheit instantly. Visual scale shows hot/cold context. Fr",
+      "h1": "Celsius to Fahrenheit Converter – Online Free",
+      "description": "Free online Celsius to Fahrenheit Converter — instant conversion, no signup."
+    },
+    {
+      "param": "metric",
+      "metaTitle": "Celsius to Fahrenheit Converter Metric – Free Online Celsius to Fahrenheit Converter",
+      "metaDescription": "Celsius to Fahrenheit Converter for metric unit conversions. Convert Celsius to Fahrenheit instantly. Visual scale shows hot/cold context. Fr",
+      "h1": "Celsius to Fahrenheit Converter – Metric",
+      "description": "Celsius to Fahrenheit Converter for metric unit conversions."
+    },
+    {
+      "param": "imperial",
+      "metaTitle": "Celsius to Fahrenheit Converter Imperial – Free Online Celsius to Fahrenheit Converter",
+      "metaDescription": "Celsius to Fahrenheit Converter for imperial unit conversions. Convert Celsius to Fahrenheit instantly. Visual scale shows hot/cold context. Fr",
+      "h1": "Celsius to Fahrenheit Converter – Imperial",
+      "description": "Celsius to Fahrenheit Converter for imperial unit conversions."
+    }
   ]
 }

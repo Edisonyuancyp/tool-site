@@ -106,5 +106,28 @@
       "heading": "Why Your Estimated Travel Time Is Usually Wrong (and How to Fix It)",
       "body": "The most common mistake is using the posted speed limit as your average speed. If a highway has a 110 km/h limit, your actual average will likely be 85 to 95 km/h once you account for towns, roadworks, slower vehicles, and the simple fact that you can't maintain maximum speed continuously. Input the realistic number, not the optimistic one, or you'll consistently arrive late.\n\nAnother frequent error is forgetting that straight-line distance and road distance differ significantly. Google Maps might show two cities are 200 kilometers apart, but the actual driving route could be 240 kilometers due to winding roads and necessary detours. Always use the route distance your GPS or map application provides, not the \"as the crow flies\" figure.\n\nFinally, people often calculate one-way time and forget that return trips can differ dramatically. Driving 150 kilometers into a city during morning rush hour might take 2 hours, but returning on empty evening roads could take just 90 minutes. Run the calculation for each direction separately if conditions will change."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Travel Time Calculator Online Free – Free Online Travel Time Calculator",
+      "metaDescription": "Free online Travel Time Calculator — instant results. Calculate your travel time for free with no signup required. Get instant trip du",
+      "h1": "Travel Time Calculator – Online Free",
+      "description": "Free online Travel Time Calculator — instant results."
+    },
+    {
+      "param": "international",
+      "metaTitle": "Travel Time Calculator International – Free Online Travel Time Calculator",
+      "metaDescription": "Travel Time Calculator for international travel planning. Calculate your travel time for free with no signup required. Get instant trip du",
+      "h1": "Travel Time Calculator – International",
+      "description": "Travel Time Calculator for international travel planning."
+    },
+    {
+      "param": "budget-travel",
+      "metaTitle": "Travel Time Calculator Budget Travel – Free Online Travel Time Calculator",
+      "metaDescription": "Travel Time Calculator for budget-conscious travellers. Calculate your travel time for free with no signup required. Get instant trip du",
+      "h1": "Travel Time Calculator – Budget Travel",
+      "description": "Travel Time Calculator for budget-conscious travellers."
+    }
   ]
 }

@@ -123,5 +123,21 @@
       "heading": "Practical Tips and Common Mistakes",
       "body": "When using the responsive image calculator, it’s essential to keep a few practical tips in mind. First, always consider the aspect ratio of your images to avoid distortion. Maintaining the correct proportions ensures that images appear natural and visually appealing on all devices. Additionally, don’t forget to test your images on multiple devices after optimization to ensure they render correctly.\n\nA common mistake is to overlook the importance of file format. Different formats like JPEG, PNG, and WebP have varying compression levels and quality. Choosing the right format can significantly impact load times and image quality. Lastly, avoid using excessively large images, as this can slow down your website. Always aim for a balance between quality and performance to achieve the best results."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Responsive Image Calculator Online Free – Free Online Responsive Image Calculator",
+      "metaDescription": "Free online Responsive Image Calculator — instant results. Calculate image sizes for different devices. Free tool, no signup, instant resul",
+      "h1": "Responsive Image Calculator – Online Free",
+      "description": "Free online Responsive Image Calculator — instant results."
+    },
+    {
+      "param": "for-web",
+      "metaTitle": "Responsive Image Calculator Web Design – Free Online Responsive Image Calculator",
+      "metaDescription": "Responsive Image Calculator for web designers and front-end developers. Calculate image sizes for different devices. Free tool, no signup, instant resul",
+      "h1": "Responsive Image Calculator – Web Design",
+      "description": "Responsive Image Calculator for web designers and front-end developers."
+    }
   ]
 }

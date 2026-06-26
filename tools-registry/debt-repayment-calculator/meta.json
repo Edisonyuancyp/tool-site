@@ -132,5 +132,28 @@
       "heading": "Five Mistakes That Lead to Wrong Numbers (and Worse Decisions)",
       "body": "The most common error is using the wrong interest rate format. If your credit card statement shows 1.8% monthly interest, that's 21.6% annually — enter the annual number. Mixing these up gives you wildly wrong payoff dates and makes extra payments look less valuable than they really are.\n\nAnother trap is ignoring fees. Some debts have annual fees, late payment charges, or balance transfer costs. The calculator shows clean math, but your actual payoff includes these extras. Add £50 to your balance if you expect an annual fee; add whatever late charges you've historically accumulated. Better yet, automate payments so fees never happen.\n\nPeople also forget that minimum payments on credit cards often decrease as your balance drops. If you enter your current minimum as a fixed payment, you'll get an optimistic estimate. Many cards set minimums at 2% of the balance, which means your payment shrinks as you progress, extending repayment dramatically. Always enter what you'll actually pay consistently, not the minimum the statement suggests. Finally, don't forget promotional rate expirations — that 0% card becomes 24% in month 13, and your entire timeline changes overnight."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Debt Repayment Calculator Online Free – Free Online Debt Repayment Calculator",
+      "metaDescription": "Use Debt Repayment Calculator online for free — no signup required. Free debt repayment calculator. Enter balance, interest rate, and monthly paymen",
+      "h1": "Debt Repayment Calculator – Online Free",
+      "description": "Use Debt Repayment Calculator online for free — no signup required."
+    },
+    {
+      "param": "how-to-calculate",
+      "metaTitle": "Debt Repayment Calculator How to Calculate – Free Online Debt Repayment Calculator",
+      "metaDescription": "Step-by-step guide to using Debt Repayment Calculator with real examples. Free debt repayment calculator. Enter balance, interest rate, and monthly paymen",
+      "h1": "Debt Repayment Calculator – How to Calculate",
+      "description": "Step-by-step guide to using Debt Repayment Calculator with real examples."
+    },
+    {
+      "param": "for-beginners",
+      "metaTitle": "Debt Repayment Calculator For Beginners – Free Online Debt Repayment Calculator",
+      "metaDescription": "Beginner-friendly guide to Debt Repayment Calculator with plain-English explanations. Free debt repayment calculator. Enter balance, interest rate, and monthly paymen",
+      "h1": "Debt Repayment Calculator – For Beginners",
+      "description": "Beginner-friendly guide to Debt Repayment Calculator with plain-English explanations."
+    }
   ]
 }

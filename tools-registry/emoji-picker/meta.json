@@ -113,5 +113,21 @@
       "heading": "Why Your Copied Emoji Sometimes Shows as a Question Mark",
       "body": "The most common frustration happens when you paste an emoji and it appears as a blank rectangle, question mark, or bizarre letter combination. This usually means the receiving system doesn't support that specific Unicode version. If you copy the melting face emoji released in 2022 and paste it into older software last updated in 2019, it won't render correctly. The code exists, but the font doesn't include the glyph.\n\nAnother pitfall involves skin tone modifiers when pasting into systems that strip formatting. Some plain-text fields display the base emoji plus a colored square instead of the combined character. This looks broken even though the data is technically correct. When in doubt, use default yellow skin tone versions for maximum compatibility.\n\nPeople also forget that some emoji are sequences of multiple characters. The family emoji 👨‍👩‍👧 consists of four code points joined by invisible zero-width joiners. Older systems sometimes display this as three separate people rather than one grouped family image. Sticking to single-character emoji avoids this issue when you're unsure about your target platform."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Emoji Picker Online Free – Free Online Emoji Picker",
+      "metaDescription": "Free online Emoji Picker — instant results, no signup. Search and copy any emoji instantly. Browse all emoji categories — smileys, anim",
+      "h1": "Emoji Picker – Online Free",
+      "description": "Free online Emoji Picker — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Emoji Picker How to Use – Free Online Emoji Picker",
+      "metaDescription": "Step-by-step guide to getting the most from Emoji Picker. Search and copy any emoji instantly. Browse all emoji categories — smileys, anim",
+      "h1": "Emoji Picker – How to Use",
+      "description": "Step-by-step guide to getting the most from Emoji Picker."
+    }
   ]
 }
