@@ -42,7 +42,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 py-10">
 
           {/* Hero */}
-          <div className="text-center mb-10">
+          <div className="text-center mb-8">
             <div className="inline-flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-full px-4 py-1.5 text-xs font-medium text-gray-500 mb-5">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block" />
               No signup · No ads · Instant answers
@@ -56,31 +56,33 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Popular Calculators */}
-          {popularTools.length > 0 && (
-            <section className="mb-10" aria-label="Popular Calculators">
-              <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-4">Popular Calculators</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                {popularTools.map(tool => (
-                  <Link
-                    key={tool.slug}
-                    href={getToolPath(tool)}
-                    className="flex items-center gap-2.5 px-4 py-3 rounded-xl border border-gray-100 bg-white hover:border-gray-300 hover:shadow-sm transition-all text-sm font-medium text-gray-700"
-                  >
-                    <span className="text-xl">{tool.icon}</span>
-                    <span className="truncate">{tool.name}</span>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          )}
-
           {/* Two-column layout */}
           <div className="flex gap-8 items-start">
             {/* Main content */}
             <div className="flex-1 min-w-0">
-              <WorkbenchDashboard allTools={allTools} />
+              {/* Search + all tools grid — search bar is at the very top of ToolGrid */}
               <ToolGrid tools={allTools} />
+
+              {/* Popular Calculators */}
+              {popularTools.length > 0 && (
+                <section className="mb-10" aria-label="Popular Calculators">
+                  <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-4">Popular Calculators</h2>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                    {popularTools.map(tool => (
+                      <Link
+                        key={tool.slug}
+                        href={getToolPath(tool)}
+                        className="flex items-center gap-2.5 px-4 py-3 rounded-xl border border-gray-100 bg-white hover:border-gray-300 hover:shadow-sm transition-all text-sm font-medium text-gray-700"
+                      >
+                        <span className="text-xl">{tool.icon}</span>
+                        <span className="truncate">{tool.name}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              <WorkbenchDashboard allTools={allTools} />
 
               {/* About / SEO text block */}
               <section className="mt-16 border-t border-gray-100 pt-12" aria-label="About GetFastCalc">
