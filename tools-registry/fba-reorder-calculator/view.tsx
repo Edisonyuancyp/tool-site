@@ -4,7 +4,7 @@ import { useState } from "react";
 function fmt(n: number) { return Math.ceil(n).toLocaleString(); }
 function fmtD(n: number) { return n.toFixed(1); }
 
-export default function FbaReorderCalculator({ variant }: { variant?: string }) {
+export default function FbaReorderCalculator({ variant, compact }: { variant?: string; compact?: boolean }) {
   const [currentStock, setCurrentStock] = useState("300");
   const [dailySales,   setDailySales]   = useState("15");
   const [leadTime,     setLeadTime]     = useState("35");
@@ -36,6 +36,56 @@ export default function FbaReorderCalculator({ variant }: { variant?: string }) 
     : stockoutRisk
     ? `⚠️ Order soon — only ${fmtD(daysRemaining)} days of stock vs ${lead + safety} days needed`
     : `✅ Stock OK — reorder in ~${fmtD(daysUntilROP)} days`;
+
+  if (compact) {
+    return (
+      <div className="space-y-3 text-sm">
+        <div className={`rounded-xl p-2 border text-xs font-semibold text-center ${statusColor}`}>
+          {statusMsg}
+        </div>
+        <div className="grid grid-cols-2 gap-2">
+          <label>
+            <span className="text-[10px] text-gray-500 block">Stock</span>
+            <input type="number" value={currentStock} onChange={e => setCurrentStock(e.target.value)} min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">Daily Sales</span>
+            <input type="number" value={dailySales} onChange={e => setDailySales(e.target.value)} min="0" step="0.1"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">Lead Time</span>
+            <input type="number" value={leadTime} onChange={e => setLeadTime(e.target.value)} min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">Safety Days</span>
+            <input type="number" value={safetyDays} onChange={e => setSafetyDays(e.target.value)} min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+        </div>
+        <div className="grid grid-cols-2 gap-2 text-center">
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-gray-900">{fmtD(daysRemaining)}</div>
+            <div className="text-[10px] text-gray-400">Days Left</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className={`text-lg font-bold ${mustOrderNow ? "text-red-500" : "text-blue-600"}`}>{fmt(reorderPoint)}</div>
+            <div className="text-[10px] text-gray-400">Reorder Point</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-green-600">{fmt(orderQty)}</div>
+            <div className="text-[10px] text-gray-400">Order Qty</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-orange-500">{fmt(safetyUnits)}</div>
+            <div className="text-[10px] text-gray-400">Safety Stock</div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-2xl mx-auto">

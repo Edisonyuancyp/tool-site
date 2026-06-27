@@ -35,7 +35,7 @@ function determineTier(wLb: number, l: number, w2: number, h: number): Tier {
 function fmt(n: number) { return n.toFixed(2); }
 function pct(n: number) { return n.toFixed(1) + "%"; }
 
-export default function FbaFeeCalculator({ variant }: { variant?: string }) {
+export default function FbaFeeCalculator({ variant, compact }: { variant?: string; compact?: boolean }) {
   const [length,   setLength]   = useState("12");
   const [width,    setWidth]    = useState("8");
   const [height,   setHeight]   = useState("4");
@@ -60,6 +60,56 @@ export default function FbaFeeCalculator({ variant }: { variant?: string }) {
   const refFee   = sp * refRate;
   const totalFee = fulfillFee + refFee + storageFee;
   const feePct   = sp > 0 ? (totalFee / sp) * 100 : 0;
+
+  if (compact) {
+    return (
+      <div className="space-y-3 text-sm">
+        <div className="grid grid-cols-3 gap-2">
+          <label>
+            <span className="text-[10px] text-gray-500 block">L</span>
+            <input type="number" value={length} onChange={e => setLength(e.target.value)} min="0" step="0.1"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">W</span>
+            <input type="number" value={width} onChange={e => setWidth(e.target.value)} min="0" step="0.1"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">H</span>
+            <input type="number" value={height} onChange={e => setHeight(e.target.value)} min="0" step="0.1"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+        </div>
+        <div className="grid grid-cols-2 gap-2">
+          <label>
+            <span className="text-[10px] text-gray-500 block">Weight (lb)</span>
+            <input type="number" value={weight} onChange={e => setWeight(e.target.value)} min="0" step="0.01"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">Price ($)</span>
+            <input type="number" value={price} onChange={e => setPrice(e.target.value)} min="0" step="0.01"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+        </div>
+        <div className="bg-blue-50 rounded-lg p-2 text-center border border-blue-100">
+          <div className="text-xs text-blue-500 font-semibold uppercase">Tier</div>
+          <div className="text-sm font-bold text-blue-700">{tier.name}</div>
+        </div>
+        <div className="grid grid-cols-2 gap-2 text-center">
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-gray-900">${fmt(totalFee)}</div>
+            <div className="text-[10px] text-gray-400">Total Fees</div>
+          </div>
+          <div className={`bg-gray-50 rounded-lg p-2 ${feePct > 40 ? "text-red-500" : "text-green-600"}`}>
+            <div className="text-lg font-bold">{pct(feePct)}</div>
+            <div className="text-[10px] text-gray-400">Fee %</div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-2xl mx-auto">

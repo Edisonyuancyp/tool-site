@@ -82,6 +82,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: BASE, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
     { url: `${BASE}/workbench`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/workbench/board`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE}/workbench/guide`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
     ...i18nHomePages,
     ...categoryIndexPages,

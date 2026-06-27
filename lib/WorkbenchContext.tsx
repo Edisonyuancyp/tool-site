@@ -30,12 +30,22 @@ export interface ToolCollection {
   createdAt: number;
 }
 
+export type BoardWidgetSize = "small" | "medium" | "large";
+
+export interface BoardWidget {
+  id: string;
+  slug: string;
+  size: BoardWidgetSize;
+  createdAt: number;
+}
+
 interface WorkbenchState {
   favorites: string[];
   recents: RecentEntry[];
   savedPalettes: SavedPalette[];
   savedQuantConfigs: SavedQuantConfig[];
   collections: ToolCollection[];
+  boardWidgets: BoardWidget[];
   onboardingDone: boolean;
   isFav: (slug: string) => boolean;
   toggleFav: (slug: string) => void;
@@ -51,6 +61,11 @@ interface WorkbenchState {
   addToCollection: (collectionId: string, slug: string) => void;
   removeFromCollection: (collectionId: string, slug: string) => void;
   reorderCollection: (collectionId: string, slugs: string[]) => void;
+  addBoardWidget: (slug: string, size?: BoardWidgetSize) => void;
+  removeBoardWidget: (id: string) => void;
+  reorderBoardWidgets: (fromIndex: number, toIndex: number) => void;
+  resizeBoardWidget: (id: string, size: BoardWidgetSize) => void;
+  resetBoard: (slugs?: string[]) => void;
   markOnboardingDone: () => void;
 }
 
@@ -59,6 +74,7 @@ interface WorkbenchState {
 const KEYS = {
   favs: "wb_favs", recents: "wb_recents", palettes: "wb_palettes",
   quant: "wb_quant", collections: "wb_collections", onboarding: "wb_onboarding",
+  board: "wb_board",
 } as const;
 
 function uid() {
@@ -84,6 +100,7 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
   const [savedPalettes,    setSavedPalettes]    = useState<SavedPalette[]>([]);
   const [savedQuantConfigs,setSavedQuantConfigs]= useState<SavedQuantConfig[]>([]);
   const [collections,      setCollections]      = useState<ToolCollection[]>([]);
+  const [boardWidgets,     setBoardWidgets]     = useState<BoardWidget[]>([]);
   const [onboardingDone,   setOnboardingDone]   = useState(false);
 
   // Hydrate from localStorage once on mount
@@ -93,6 +110,7 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
     setSavedPalettes(load<SavedPalette[]>(KEYS.palettes, []));
     setSavedQuantConfigs(load<SavedQuantConfig[]>(KEYS.quant, []));
     setCollections(load<ToolCollection[]>(KEYS.collections, []));
+    setBoardWidgets(load<BoardWidget[]>(KEYS.board, []));
     setOnboardingDone(load<boolean>(KEYS.onboarding, false));
 
     // Migrate legacy "fav_tools" key if present
@@ -223,6 +241,48 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
+  const addBoardWidget = useCallback((slug: string, size: BoardWidgetSize = "medium") => {
+    setBoardWidgets((prev) => {
+      const next = [...prev, { id: uid(), slug, size, createdAt: Date.now() }];
+      save(KEYS.board, next);
+      return next;
+    });
+  }, []);
+
+  const removeBoardWidget = useCallback((id: string) => {
+    setBoardWidgets((prev) => {
+      const next = prev.filter((w) => w.id !== id);
+      save(KEYS.board, next);
+      return next;
+    });
+  }, []);
+
+  const reorderBoardWidgets = useCallback((fromIndex: number, toIndex: number) => {
+    setBoardWidgets((prev) => {
+      const next = [...prev];
+      const [moved] = next.splice(fromIndex, 1);
+      next.splice(toIndex, 0, moved);
+      save(KEYS.board, next);
+      return next;
+    });
+  }, []);
+
+  const resizeBoardWidget = useCallback((id: string, size: BoardWidgetSize) => {
+    setBoardWidgets((prev) => {
+      const next = prev.map((w) => w.id === id ? { ...w, size } : w);
+      save(KEYS.board, next);
+      return next;
+    });
+  }, []);
+
+  const resetBoard = useCallback((slugs?: string[]) => {
+    const next: BoardWidget[] = (slugs ?? []).map((slug) => ({
+      id: uid(), slug, size: "medium", createdAt: Date.now(),
+    }));
+    save(KEYS.board, next);
+    setBoardWidgets(next);
+  }, []);
+
   const markOnboardingDone = useCallback(() => {
     save(KEYS.onboarding, true);
     setOnboardingDone(true);
@@ -230,11 +290,12 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
 
   return (
     <WorkbenchContext.Provider value={{
-      favorites, recents, savedPalettes, savedQuantConfigs, collections, onboardingDone,
+      favorites, recents, savedPalettes, savedQuantConfigs, collections, boardWidgets, onboardingDone,
       isFav, toggleFav, recordVisit, clearRecents,
       savePalette, deletePalette, saveQuantConfig, deleteQuantConfig,
       createCollection, deleteCollection, renameCollection,
       addToCollection, removeFromCollection, reorderCollection,
+      addBoardWidget, removeBoardWidget, reorderBoardWidgets, resizeBoardWidget, resetBoard,
       markOnboardingDone,
     }}>
       {children}

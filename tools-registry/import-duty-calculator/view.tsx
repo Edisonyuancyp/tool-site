@@ -34,7 +34,7 @@ const HMF_RATE = 0.00125;
 function fmt(n: number) { return n.toFixed(2); }
 function pct(n: number) { return n.toFixed(2) + "%"; }
 
-export default function ImportDutyCalculator({ variant }: { variant?: string }) {
+export default function ImportDutyCalculator({ variant, compact }: { variant?: string; compact?: boolean }) {
   const [cargoValue,  setCargoValue]  = useState("5000");
   const [originIdx,   setOriginIdx]   = useState(0);
   const [categoryIdx, setCategoryIdx] = useState(3);
@@ -54,6 +54,48 @@ export default function ImportDutyCalculator({ variant }: { variant?: string }) 
   const totalFees   = customsDuty + s301Fee + mpf + hmf;
   const effectiveRate = val > 0 ? (totalFees / val) * 100 : 0;
   const landedCost  = val + totalFees;
+
+  if (compact) {
+    return (
+      <div className="space-y-3 text-sm">
+        <div className="grid grid-cols-2 gap-2">
+          <label>
+            <span className="text-[10px] text-gray-500 block">Cargo Value</span>
+            <input type="number" value={cargoValue} onChange={e => setCargoValue(e.target.value)} min="0" step="100"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">Origin</span>
+            <select value={originIdx} onChange={e => setOriginIdx(Number(e.target.value))}
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm">
+              {ORIGINS.map((o, i) => <option key={i} value={i}>{o.country}</option>)}
+            </select>
+          </label>
+        </div>
+        <label>
+          <span className="text-[10px] text-gray-500 block">Category</span>
+          <select value={categoryIdx} onChange={e => setCategoryIdx(Number(e.target.value))}
+            className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm">
+            {PRODUCT_CATEGORIES.map((c, i) => <option key={i} value={i}>{c.label} ({c.dutyRate}%)</option>)}
+          </select>
+        </label>
+        <div className="grid grid-cols-2 gap-2 text-center">
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-red-600">${fmt(totalFees)}</div>
+            <div className="text-[10px] text-gray-400">Import Fees</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-orange-500">{pct(effectiveRate)}</div>
+            <div className="text-[10px] text-gray-400">Effective Rate</div>
+          </div>
+        </div>
+        <div className="bg-blue-50 rounded-lg p-2 flex justify-between text-sm border border-blue-100">
+          <span className="text-blue-600 font-medium">Landed Cost</span>
+          <span className="font-bold text-blue-700">${fmt(landedCost)}</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-2xl mx-auto">

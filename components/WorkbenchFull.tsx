@@ -224,10 +224,16 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
           <h1 className="text-3xl font-bold text-gray-900 mb-1">🗂️ My Workbench</h1>
           <p className="text-gray-500 text-sm">Saved tools, collections, and recent activity — stored privately in your browser.</p>
         </div>
-        <Link href="/workbench/guide"
-          className="shrink-0 text-xs text-blue-600 hover:text-blue-800 border border-blue-200 hover:border-blue-400 px-3 py-1.5 rounded-lg transition-colors font-medium">
-          📖 How to use
-        </Link>
+        <div className="flex items-center gap-2 shrink-0">
+          <Link href="/workbench/board"
+            className="text-xs text-blue-600 hover:text-blue-800 border border-blue-200 hover:border-blue-400 px-3 py-1.5 rounded-lg transition-colors font-medium">
+            🧩 Board
+          </Link>
+          <Link href="/workbench/guide"
+            className="text-xs text-blue-600 hover:text-blue-800 border border-blue-200 hover:border-blue-400 px-3 py-1.5 rounded-lg transition-colors font-medium">
+            📖 How to use
+          </Link>
+        </div>
       </div>
 
       {/* ── Collections ── */}

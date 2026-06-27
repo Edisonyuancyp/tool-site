@@ -20,7 +20,7 @@ const FBA_TIERS = [
 function fmt(n: number) { return n.toFixed(2); }
 function pct(n: number) { return n.toFixed(1) + "%"; }
 
-export default function FbaProfitCalculator({ variant }: { variant?: string }) {
+export default function FbaProfitCalculator({ variant, compact }: { variant?: string; compact?: boolean }) {
   const [price,       setPrice]       = useState("29.99");
   const [cogs,        setCogs]        = useState("8.00");
   const [shipping,    setShipping]    = useState("2.50");
@@ -46,6 +46,53 @@ export default function FbaProfitCalculator({ variant }: { variant?: string }) {
 
   const profitColor = netProfit > 0 ? "text-green-600" : "text-red-500";
   const marginColor = margin >= 20 ? "text-green-600" : margin >= 10 ? "text-amber-500" : "text-red-500";
+
+  if (compact) {
+    return (
+      <div className="space-y-3 text-sm">
+        <div className="grid grid-cols-2 gap-2">
+          <label>
+            <span className="text-[10px] text-gray-500 block">Price</span>
+            <input type="number" value={price} onChange={e => setPrice(e.target.value)} step="0.01" min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">COGS</span>
+            <input type="number" value={cogs} onChange={e => setCogs(e.target.value)} step="0.01" min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">Ship</span>
+            <input type="number" value={shipping} onChange={e => setShipping(e.target.value)} step="0.01" min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+          <label>
+            <span className="text-[10px] text-gray-500 block">PPC</span>
+            <input type="number" value={ppcSpend} onChange={e => setPpcSpend(e.target.value)} step="0.01" min="0"
+              className="w-full border border-gray-200 rounded-lg px-2 py-1.5 text-sm" />
+          </label>
+        </div>
+        <div className="grid grid-cols-2 gap-2 text-center">
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className={`text-lg font-bold ${profitColor}`}>${fmt(netProfit)}</div>
+            <div className="text-[10px] text-gray-400">Net Profit</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className={`text-lg font-bold ${marginColor}`}>{pct(margin)}</div>
+            <div className="text-[10px] text-gray-400">Margin</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-blue-600">{pct(roi)}</div>
+            <div className="text-[10px] text-gray-400">ROI</div>
+          </div>
+          <div className="bg-gray-50 rounded-lg p-2">
+            <div className="text-lg font-bold text-gray-700">${fmt(breakEven)}</div>
+            <div className="text-[10px] text-gray-400">Break-even</div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-2xl mx-auto">
