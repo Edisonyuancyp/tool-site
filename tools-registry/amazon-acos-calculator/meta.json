@@ -1,0 +1,51 @@
+{
+  "slug": "amazon-acos-calculator",
+  "name": "Amazon ACoS Calculator",
+  "tagline": "Calculate ACoS, TACoS, max CPC bid, and true ad profitability",
+  "description": "Calculate your Amazon Advertising Cost of Sale (ACoS) and Total ACoS (TACoS), find the maximum profitable CPC bid from your conversion rate and margin, and see whether your campaigns are profitable.",
+  "metaTitle": "Amazon ACoS Calculator – Max CPC Bid & TACoS Calculator",
+  "metaDescription": "Free Amazon ACoS calculator. Calculate ACoS, TACoS, maximum profitable CPC bid, and true profit after ad spend. For Amazon PPC sellers.",
+  "keywords": [
+    "amazon acos calculator",
+    "acos calculator amazon",
+    "amazon ppc acos",
+    "tacos amazon calculator",
+    "max cpc bid calculator amazon",
+    "amazon advertising cost of sale",
+    "profitable acos amazon",
+    "amazon ppc profitability calculator",
+    "break even acos calculator",
+    "amazon sponsored products calculator",
+    "fba advertising calculator",
+    "amazon ppc bid calculator",
+    "acos vs tacos amazon",
+    "amazon ppc roi calculator",
+    "amazon seller acos"
+  ],
+  "category": "ecommerce",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "What is a good ACoS for Amazon?",
+      "answer": "A good ACoS depends on your margin. The break-even ACoS equals your gross margin. For example, if your margin is 30%, anything below 30% ACoS is profitable. Most sellers aim for 15–25% ACoS."
+    },
+    {
+      "question": "What is the difference between ACoS and TACoS?",
+      "answer": "ACoS (Advertising Cost of Sale) = ad spend ÷ ad revenue. TACoS (Total ACoS) = ad spend ÷ total revenue (including organic). TACoS is a better indicator of overall ad efficiency as your brand grows."
+    },
+    {
+      "question": "How do I calculate the maximum CPC bid?",
+      "answer": "Max CPC = (Selling Price × Target ACoS × Conversion Rate). For example: $30 price × 20% target ACoS × 10% CVR = $0.60 max bid."
+    }
+  ],
+  "relatedTools": ["fba-profit-calculator", "fba-packing-calculator"],
+  "variants": [
+    {
+      "variantSlug": "amazon-acos-calculator-break-even",
+      "metaTitle": "Break-Even ACoS Calculator – Amazon PPC Profitability",
+      "metaDescription": "Find your break-even ACoS for Amazon PPC campaigns. Enter your margin to see the maximum ACoS where ads remain profitable.",
+      "keywords": ["break even acos", "amazon break even acos calculator", "profitable acos threshold", "amazon ppc break even"],
+      "headline": "Find your break-even ACoS — the exact point where your Amazon PPC spend stops being profitable."
+    }
+  ]
+}

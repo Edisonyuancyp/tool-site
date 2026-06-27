@@ -1,0 +1,58 @@
+{
+  "slug": "fba-profit-calculator",
+  "name": "FBA Profit Calculator",
+  "tagline": "Calculate net profit, ROI and margin for any Amazon FBA product",
+  "description": "Enter your product cost, selling price, and FBA fees to instantly calculate net profit per unit, ROI, profit margin, and break-even price. Supports referral fee lookup by category.",
+  "metaTitle": "FBA Profit Calculator – Amazon FBA Net Profit & ROI Calculator",
+  "metaDescription": "Free Amazon FBA profit calculator. Enter cost, price, and fees to get net profit per unit, ROI, margin, and break-even price instantly.",
+  "keywords": [
+    "fba profit calculator",
+    "amazon fba profit calculator",
+    "amazon seller profit calculator",
+    "fba roi calculator",
+    "amazon fba margin calculator",
+    "fba net profit calculator",
+    "amazon seller margin",
+    "fba product profit",
+    "amazon referral fee calculator",
+    "fba break even calculator",
+    "amazon fba fee estimator",
+    "seller central profit calculator",
+    "fba product research calculator",
+    "amazon profit margin",
+    "fba cost calculator"
+  ],
+  "category": "ecommerce",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "What fees does the FBA Profit Calculator include?",
+      "answer": "It includes Amazon referral fee (by category), FBA fulfillment fee (by tier), monthly storage fee, and your cost of goods. You can also add shipping-to-Amazon costs."
+    },
+    {
+      "question": "What is a good profit margin for Amazon FBA?",
+      "answer": "Most successful FBA sellers target 20–30% net margin after all fees. Below 15% leaves little room for PPC spend and price competition."
+    },
+    {
+      "question": "How is ROI calculated for FBA?",
+      "answer": "ROI = (Net Profit ÷ Total Cost) × 100. For example, if you spend $10 on a product and net $3 after all fees, your ROI is 30%."
+    }
+  ],
+  "relatedTools": ["fba-packing-calculator", "fba-fee-calculator", "fba-reorder-calculator"],
+  "variants": [
+    {
+      "variantSlug": "fba-profit-calculator-uk",
+      "metaTitle": "Amazon FBA Profit Calculator UK – Net Profit in GBP",
+      "metaDescription": "Calculate Amazon FBA profit for UK sellers. Includes VAT, UK referral fees, and FBA fulfillment fees in GBP.",
+      "keywords": ["fba profit calculator uk", "amazon uk seller profit", "fba margin uk", "amazon uk profit calculator"],
+      "headline": "FBA profit calculator for UK Amazon sellers — fees and margin in GBP with UK VAT support."
+    },
+    {
+      "variantSlug": "fba-profit-calculator-with-ppc",
+      "metaTitle": "FBA Profit Calculator with PPC – Net Profit After Amazon Ads",
+      "metaDescription": "Calculate true FBA profit after deducting Amazon PPC ad spend. Enter your ACoS to see real net margin.",
+      "keywords": ["fba profit with ppc", "amazon profit after ads", "fba profit calculator acos", "amazon net profit after advertising"],
+      "headline": "True FBA profit calculator that factors in your Amazon PPC spend — see real net margin after ads."
+    }
+  ]
+}

@@ -22,11 +22,21 @@ export interface SavedQuantConfig {
   savedAt: number;
 }
 
+export interface ToolCollection {
+  id: string;
+  name: string;
+  emoji: string;
+  slugs: string[];      // ordered list of tool slugs
+  createdAt: number;
+}
+
 interface WorkbenchState {
   favorites: string[];
   recents: RecentEntry[];
   savedPalettes: SavedPalette[];
   savedQuantConfigs: SavedQuantConfig[];
+  collections: ToolCollection[];
+  onboardingDone: boolean;
   isFav: (slug: string) => boolean;
   toggleFav: (slug: string) => void;
   recordVisit: (slug: string) => void;
@@ -35,11 +45,21 @@ interface WorkbenchState {
   deletePalette: (id: string) => void;
   saveQuantConfig: (c: Omit<SavedQuantConfig, "id" | "savedAt">) => void;
   deleteQuantConfig: (id: string) => void;
+  createCollection: (name: string, emoji: string, slugs?: string[]) => string;
+  deleteCollection: (id: string) => void;
+  renameCollection: (id: string, name: string, emoji: string) => void;
+  addToCollection: (collectionId: string, slug: string) => void;
+  removeFromCollection: (collectionId: string, slug: string) => void;
+  reorderCollection: (collectionId: string, slugs: string[]) => void;
+  markOnboardingDone: () => void;
 }
 
 // ─── Storage helpers ──────────────────────────────────────────────────────────
 
-const KEYS = { favs: "wb_favs", recents: "wb_recents", palettes: "wb_palettes", quant: "wb_quant" } as const;
+const KEYS = {
+  favs: "wb_favs", recents: "wb_recents", palettes: "wb_palettes",
+  quant: "wb_quant", collections: "wb_collections", onboarding: "wb_onboarding",
+} as const;
 
 function uid() {
   return Math.random().toString(36).slice(2, 10);
@@ -63,6 +83,8 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
   const [recents,          setRecents]          = useState<RecentEntry[]>([]);
   const [savedPalettes,    setSavedPalettes]    = useState<SavedPalette[]>([]);
   const [savedQuantConfigs,setSavedQuantConfigs]= useState<SavedQuantConfig[]>([]);
+  const [collections,      setCollections]      = useState<ToolCollection[]>([]);
+  const [onboardingDone,   setOnboardingDone]   = useState(false);
 
   // Hydrate from localStorage once on mount
   useEffect(() => {
@@ -70,6 +92,8 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
     setRecents(load<RecentEntry[]>(KEYS.recents, []));
     setSavedPalettes(load<SavedPalette[]>(KEYS.palettes, []));
     setSavedQuantConfigs(load<SavedQuantConfig[]>(KEYS.quant, []));
+    setCollections(load<ToolCollection[]>(KEYS.collections, []));
+    setOnboardingDone(load<boolean>(KEYS.onboarding, false));
 
     // Migrate legacy "fav_tools" key if present
     try {
@@ -143,11 +167,75 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
+  const createCollection = useCallback((name: string, emoji: string, slugs: string[] = []): string => {
+    const id = uid();
+    setCollections((prev) => {
+      const next = [{ id, name, emoji, slugs, createdAt: Date.now() }, ...prev];
+      save(KEYS.collections, next);
+      return next;
+    });
+    return id;
+  }, []);
+
+  const deleteCollection = useCallback((id: string) => {
+    setCollections((prev) => {
+      const next = prev.filter((c) => c.id !== id);
+      save(KEYS.collections, next);
+      return next;
+    });
+  }, []);
+
+  const renameCollection = useCallback((id: string, name: string, emoji: string) => {
+    setCollections((prev) => {
+      const next = prev.map((c) => c.id === id ? { ...c, name, emoji } : c);
+      save(KEYS.collections, next);
+      return next;
+    });
+  }, []);
+
+  const addToCollection = useCallback((collectionId: string, slug: string) => {
+    setCollections((prev) => {
+      const next = prev.map((c) =>
+        c.id === collectionId && !c.slugs.includes(slug)
+          ? { ...c, slugs: [...c.slugs, slug] }
+          : c
+      );
+      save(KEYS.collections, next);
+      return next;
+    });
+  }, []);
+
+  const removeFromCollection = useCallback((collectionId: string, slug: string) => {
+    setCollections((prev) => {
+      const next = prev.map((c) =>
+        c.id === collectionId ? { ...c, slugs: c.slugs.filter((s) => s !== slug) } : c
+      );
+      save(KEYS.collections, next);
+      return next;
+    });
+  }, []);
+
+  const reorderCollection = useCallback((collectionId: string, slugs: string[]) => {
+    setCollections((prev) => {
+      const next = prev.map((c) => c.id === collectionId ? { ...c, slugs } : c);
+      save(KEYS.collections, next);
+      return next;
+    });
+  }, []);
+
+  const markOnboardingDone = useCallback(() => {
+    save(KEYS.onboarding, true);
+    setOnboardingDone(true);
+  }, []);
+
   return (
     <WorkbenchContext.Provider value={{
-      favorites, recents, savedPalettes, savedQuantConfigs,
+      favorites, recents, savedPalettes, savedQuantConfigs, collections, onboardingDone,
       isFav, toggleFav, recordVisit, clearRecents,
       savePalette, deletePalette, saveQuantConfig, deleteQuantConfig,
+      createCollection, deleteCollection, renameCollection,
+      addToCollection, removeFromCollection, reorderCollection,
+      markOnboardingDone,
     }}>
       {children}
     </WorkbenchContext.Provider>

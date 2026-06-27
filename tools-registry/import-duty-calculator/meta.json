@@ -1,0 +1,51 @@
+{
+  "slug": "import-duty-calculator",
+  "name": "Import Duty Calculator",
+  "tagline": "Estimate US import duties, tariffs and customs fees for any product",
+  "description": "Calculate US import duties based on product value, country of origin, and HS code category. Includes Section 301 China tariffs, MPF, and HMF fees. Essential for FBA sourcing from China.",
+  "metaTitle": "Import Duty Calculator – US Tariff & Customs Fee Estimator",
+  "metaDescription": "Free US import duty calculator. Estimate customs duties, Section 301 China tariffs, MPF, and HMF fees for any product. Essential for Amazon FBA sourcing.",
+  "keywords": [
+    "import duty calculator",
+    "us import duty calculator",
+    "customs duty calculator usa",
+    "china import tariff calculator",
+    "section 301 tariff calculator",
+    "amazon fba import duty",
+    "hs code duty calculator",
+    "import tax calculator usa",
+    "customs fee calculator",
+    "china tariff rate calculator",
+    "fba sourcing duty calculator",
+    "us customs import calculator",
+    "mpf fee calculator",
+    "import cost calculator",
+    "us tariff calculator 2024"
+  ],
+  "category": "ecommerce",
+  "icon": "🚢",
+  "faqs": [
+    {
+      "question": "What is the Section 301 tariff on goods from China?",
+      "answer": "Section 301 tariffs add 7.5–25% on top of standard duty rates for goods from China, depending on the product category (List 1–4). Most consumer goods fall under 25%."
+    },
+    {
+      "question": "What is MPF (Merchandise Processing Fee)?",
+      "answer": "MPF is 0.3464% of the declared cargo value, with a minimum of $32.71 and maximum of $634.62 per entry. It applies to most commercial shipments into the US."
+    },
+    {
+      "question": "How do I reduce import duties for Amazon FBA?",
+      "answer": "Common strategies include sourcing from countries with free trade agreements (Mexico, Vietnam), engineering products to fall into lower duty HS codes, or using a first sale valuation."
+    }
+  ],
+  "relatedTools": ["fba-profit-calculator", "fba-fee-calculator"],
+  "variants": [
+    {
+      "variantSlug": "import-duty-calculator-china",
+      "metaTitle": "China Import Duty Calculator – Section 301 Tariff Estimator",
+      "metaDescription": "Calculate US import duties for goods from China, including Section 301 tariffs (7.5–25%), standard duty rates, MPF, and HMF. Free estimator.",
+      "keywords": ["china import duty calculator", "section 301 tariff calculator", "china tariff estimator", "us china import tax calculator"],
+      "headline": "Calculate US import costs for goods from China — includes Section 301 tariffs, standard duty, MPF and HMF fees."
+    }
+  ]
+}

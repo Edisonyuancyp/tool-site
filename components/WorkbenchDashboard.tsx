@@ -34,7 +34,7 @@ function ToolCard({ tool, onUnfav, isFav }: { tool: ToolMeta; onUnfav?: () => vo
 }
 
 export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] }) {
-  const { favorites, recents, isFav, toggleFav, clearRecents, savedPalettes, deletePalette, savedQuantConfigs, deleteQuantConfig } = useWorkbench();
+  const { favorites, recents, isFav, toggleFav, clearRecents, savedPalettes, deletePalette, savedQuantConfigs, deleteQuantConfig, collections } = useWorkbench();
 
   const favTools = favorites
     .map(s => allTools.find(t => t.slug === s))
@@ -44,36 +44,33 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
     .map(r => allTools.find(t => t.slug === r.slug))
     .filter((t): t is ToolMeta => !!t);
 
-  const hasAnything = favTools.length > 0 || recentTools.length > 0 || savedPalettes.length > 0 || savedQuantConfigs.length > 0;
+  const hasAnything = favTools.length > 0 || recentTools.length > 0 || savedPalettes.length > 0 || savedQuantConfigs.length > 0 || collections.length > 0;
 
-  // New-user onboarding: show featured picks to save
+  // New-user onboarding: show workbench intro with FBA kit callout
   if (!hasAnything) {
-    const featured = allTools
-      .filter(t => ["bmi-calculator", "password-generator", "percentage-calculator",
-                    "currency-converter", "qr-code-generator", "typography-compare-lab"].includes(t.slug))
-      .slice(0, 4);
-    if (featured.length === 0) return null;
     return (
       <div className="mb-10 p-4 border border-dashed border-gray-200 rounded-2xl bg-gray-50/60">
-        <div className="flex items-center gap-2 mb-3">
-          <span className="text-base">♡</span>
-          <p className="text-sm font-semibold text-gray-700">Save your favorite tools</p>
-          <span className="text-xs text-gray-400">— hover any card and click ♡ to save</span>
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center gap-2">
+            <span className="text-base">🗂️</span>
+            <p className="text-sm font-semibold text-gray-700">Build your personal workbench</p>
+          </div>
+          <Link href="/workbench"
+            className="text-xs text-blue-600 hover:text-blue-800 border border-blue-200 px-2 py-1 rounded-lg transition-colors">
+            Open →
+          </Link>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-          {featured.map(tool => (
-            <div key={tool.slug}
-              className="group relative flex items-center gap-2 p-2.5 border border-gray-200 rounded-xl bg-white hover:border-gray-300 transition-all">
-              <Link href={getToolPath(tool)} className="flex items-center gap-2 flex-1 min-w-0">
-                <span className="text-lg shrink-0">{tool.icon}</span>
-                <span className="text-xs font-medium text-gray-700 truncate">{tool.name}</span>
-              </Link>
-              <button onClick={() => toggleFav(tool.slug)}
-                aria-label="Save to favorites"
-                className="shrink-0 w-6 h-6 flex items-center justify-center rounded-full border border-gray-200 text-gray-300 hover:text-red-400 hover:border-red-200 hover:bg-red-50 transition-all">
-                <HeartIcon filled={false} />
-              </button>
-            </div>
+        <p className="text-xs text-gray-400 mb-3">Save tools, create collections, and access everything in one place. Try the FBA Seller Kit to get started.</p>
+        <div className="flex flex-wrap gap-2">
+          {[
+            { emoji: "📦", label: "FBA Seller Kit", href: "/workbench" },
+            { emoji: "💪", label: "Health & Fitness", href: "/workbench" },
+            { emoji: "💰", label: "Finance & Money", href: "/workbench" },
+          ].map(p => (
+            <Link key={p.label} href={p.href}
+              className="flex items-center gap-1.5 text-xs text-gray-600 hover:text-blue-700 border border-gray-200 hover:border-blue-300 bg-white px-3 py-1.5 rounded-lg transition-colors">
+              <span>{p.emoji}</span>{p.label}
+            </Link>
           ))}
         </div>
       </div>
@@ -92,6 +89,44 @@ export default function WorkbenchDashboard({ allTools }: { allTools: ToolMeta[] 
           View all →
         </Link>
       </div>
+
+      {/* Collections preview */}
+      {collections.length > 0 && (
+        <div>
+          <p className="text-xs font-semibold text-gray-500 uppercase tracking-widest mb-2 flex items-center gap-1.5">
+            <span>📁</span> Collections ({collections.length})
+          </p>
+          <div className="space-y-2">
+            {collections.slice(0, 3).map(col => {
+              const colTools = col.slugs
+                .map(s => allTools.find(t => t.slug === s))
+                .filter((t): t is ToolMeta => !!t)
+                .slice(0, 4);
+              return (
+                <div key={col.id} className="border border-gray-100 rounded-xl bg-white p-3">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-semibold text-gray-700">{col.emoji} {col.name}</span>
+                    <span className="text-xs text-gray-400">{col.slugs.length} tools</span>
+                  </div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {colTools.map(t => (
+                      <Link key={t.slug} href={getToolPath(t)}
+                        className="flex items-center gap-1 text-xs text-gray-600 hover:text-blue-700 bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 px-2 py-1 rounded-lg transition-colors">
+                        <span>{t.icon}</span>{t.name}
+                      </Link>
+                    ))}
+                    {col.slugs.length > 4 && (
+                      <Link href="/workbench" className="text-xs text-gray-400 hover:text-gray-600 px-2 py-1">
+                        +{col.slugs.length - 4} more
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {/* Favorites */}

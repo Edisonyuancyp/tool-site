@@ -1,0 +1,51 @@
+{
+  "slug": "fba-reorder-calculator",
+  "name": "FBA Reorder & Restocking Calculator",
+  "tagline": "Never run out of stock — know exactly when to reorder and how many units to buy",
+  "description": "Enter your daily sales velocity, lead time, and safety stock buffer to get your reorder point and suggested order quantity. Prevents costly stockouts and excess inventory.",
+  "metaTitle": "FBA Reorder Calculator – Amazon Restocking & Inventory Planner",
+  "metaDescription": "Free Amazon FBA reorder calculator. Enter daily sales and lead time to get your reorder point, days of stock remaining, and suggested order quantity.",
+  "keywords": [
+    "fba reorder calculator",
+    "amazon restock calculator",
+    "fba inventory calculator",
+    "amazon reorder point calculator",
+    "fba restocking calculator",
+    "amazon inventory planner",
+    "fba stock calculator",
+    "amazon when to reorder",
+    "fba days of inventory",
+    "amazon stockout calculator",
+    "fba lead time calculator",
+    "amazon seller inventory tool",
+    "fba safety stock calculator",
+    "amazon replenishment calculator",
+    "fba order quantity calculator"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "faqs": [
+    {
+      "question": "What is a reorder point?",
+      "answer": "Reorder point = (Average daily sales × Lead time in days) + Safety stock. When your inventory hits this number, place your next order immediately."
+    },
+    {
+      "question": "How much safety stock should I hold?",
+      "answer": "A common rule is 15–30 days of sales as safety stock. Higher-velocity products or those with unreliable suppliers need more buffer."
+    },
+    {
+      "question": "How do I calculate how many units to order?",
+      "answer": "Order quantity = Daily sales × (Review period + Lead time) + Safety stock − Current inventory. This ensures you don't over- or under-order."
+    }
+  ],
+  "relatedTools": ["fba-profit-calculator", "fba-packing-calculator"],
+  "variants": [
+    {
+      "variantSlug": "fba-reorder-calculator-seasonal",
+      "metaTitle": "FBA Seasonal Reorder Calculator – Holiday Inventory Planning",
+      "metaDescription": "Plan FBA inventory for seasonal demand spikes. Adjust daily sales for peak periods to avoid stockouts during Q4 and holiday seasons.",
+      "keywords": ["fba seasonal inventory", "amazon q4 restock calculator", "holiday inventory planner fba", "seasonal fba reorder"],
+      "headline": "FBA reorder calculator with seasonal demand adjustment — plan for Q4 and holiday stock spikes without over-buying."
+    }
+  ]
+}
