@@ -60,6 +60,16 @@ export default function Header({ allTools }: { allTools?: ToolMeta[] }) {
         </Link>
 
         <div className="flex items-center gap-2">
+          {/* Workbench link */}
+          <Link
+            href="/workbench"
+            className="flex items-center gap-1.5 px-3 py-2 rounded-lg border border-gray-200 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all"
+            title="My Workbench"
+          >
+            <span>🗂️</span>
+            <span className="hidden sm:inline">Workbench</span>
+          </Link>
+
           {/* Language switcher */}
           <div className="relative">
             <button

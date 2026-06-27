@@ -4,8 +4,22 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "How to Use Your Workbench – GetFastCalc",
-  description: "Learn how to build your personal tool workbench: save favorites, create collections, install starter kits, and access your tools in one place.",
+  title: "How to Build a Personal Calculator Workbench – GetFastCalc Guide",
+  description: "Step-by-step guide: save your favorite calculators, create custom tool collections, install the FBA Seller Kit, and build a personal workbench on GetFastCalc.",
+  keywords: [
+    "how to use calculator workbench",
+    "fba seller tool kit guide",
+    "save favorite calculators online",
+    "create tool collection calculator",
+    "amazon fba tools tutorial",
+  ],
+  openGraph: {
+    title: "How to Build a Personal Calculator Workbench – GetFastCalc",
+    description: "Save your most-used tools, create collections like the FBA Seller Kit, and build a workflow that fits how you work.",
+    url: "https://www.getfastcalc.com/workbench/guide",
+    type: "article",
+  },
+  alternates: { canonical: "https://www.getfastcalc.com/workbench/guide" },
 };
 
 const steps = [
@@ -72,9 +86,24 @@ const faqs = [
   },
 ];
 
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Build a Personal Calculator Workbench on GetFastCalc",
+  "description": "Save your favorite calculators, create custom collections, and build a personal tool workbench.",
+  "url": "https://www.getfastcalc.com/workbench/guide",
+  "step": steps.map((s, i) => ({
+    "@type": "HowToStep",
+    "position": i + 1,
+    "name": s.title,
+    "text": s.body,
+  })),
+};
+
 export default function WorkbenchGuidePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }} />
       <Header />
       <main className="flex-1">
         <div className="max-w-3xl mx-auto px-4 py-12">

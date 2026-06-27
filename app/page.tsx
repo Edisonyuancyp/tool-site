@@ -59,6 +59,29 @@ export default function Home() {
             <HeroSearch />
           </div>
 
+          {/* Workbench promo banner */}
+          <div className="mb-10 rounded-2xl border border-blue-100 bg-gradient-to-r from-blue-50 to-indigo-50 px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="flex-1 min-w-0">
+              <p className="font-semibold text-gray-900 text-sm flex items-center gap-2">
+                <span className="text-xl">🗂️</span>
+                Build your personal tool workbench
+              </p>
+              <p className="text-xs text-gray-500 mt-0.5">
+                Save your most-used tools, create collections, and access them in one place. FBA sellers: install the pre-built <strong className="text-gray-700">FBA Seller Kit</strong> in one click.
+              </p>
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              <Link href="/workbench/guide"
+                className="text-xs text-gray-500 hover:text-gray-700 border border-gray-200 bg-white px-3 py-1.5 rounded-lg transition-colors">
+                How it works
+              </Link>
+              <Link href="/workbench"
+                className="text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 px-4 py-1.5 rounded-lg transition-colors">
+                Open Workbench →
+              </Link>
+            </div>
+          </div>
+
           {/* Two-column layout */}
           <div className="flex gap-8 items-start">
             {/* Main content */}
