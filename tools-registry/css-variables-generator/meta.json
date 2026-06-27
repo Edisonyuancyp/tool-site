@@ -20,7 +20,10 @@
     "tailwind css config generator",
     "tailwind config theme generator",
     "tailwind config colors generator",
-    "tailwind.config.js generator"
+    "tailwind.config.js generator",
+    "tailwind config builder",
+    "tailwind config example",
+    "tailwind config colors"
   ],
   "category": "Developer",
   "urlPath": "/tools/dev/css-variables-generator",
