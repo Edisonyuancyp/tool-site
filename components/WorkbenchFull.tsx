@@ -5,6 +5,7 @@ import { useWorkbench } from "@/lib/WorkbenchContext";
 import type { ToolCollection } from "@/lib/WorkbenchContext";
 import type { ToolMeta } from "@/lib/tools";
 import { getToolPath } from "@/lib/tools";
+import WorkbenchTour from "@/components/WorkbenchTour";
 
 // ── Preset collections that users can install with one click ──────────────────
 const PRESETS = [
@@ -216,6 +217,7 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
 
   return (
     <div className="space-y-10">
+      <WorkbenchTour />
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
@@ -229,13 +231,13 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
       </div>
 
       {/* ── Collections ── */}
-      <section>
+      <section data-tour="collections-section">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
             📁 My Collections
             <span className="text-sm font-normal text-gray-400">({collections.length})</span>
           </h2>
-          <button onClick={() => setShowCreate(v => !v)}
+          <button data-tour="new-collection-btn" onClick={() => setShowCreate(v => !v)}
             className="text-xs font-medium text-blue-600 hover:text-blue-800 border border-blue-200 hover:border-blue-400 px-3 py-1.5 rounded-lg transition-colors">
             + New collection
           </button>
@@ -265,8 +267,9 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
         {collections.length === 0 && (
           <div className="mb-4 space-y-2">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Starter collections — install in one click</p>
-            {PRESETS.map(preset => (
+            {PRESETS.map((preset, idx) => (
               <div key={preset.name}
+                {...(idx === 0 ? { "data-tour": "install-preset" } : {})}
                 className="flex items-center justify-between p-3 border border-dashed border-gray-200 rounded-xl bg-gray-50 hover:border-gray-300 transition-colors">
                 <div className="flex items-center gap-2">
                   <span className="text-xl">{preset.emoji}</span>
@@ -319,7 +322,7 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
       </section>
 
       {/* ── Favorites ── */}
-      <section>
+      <section data-tour="favorites-section">
         <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
           <span className="text-red-500">♥</span> Saved Tools
           <span className="text-sm font-normal text-gray-400">({favTools.length})</span>
@@ -351,7 +354,7 @@ export default function WorkbenchFull({ allTools }: { allTools: ToolMeta[] }) {
       </section>
 
       {/* ── Recents ── */}
-      <section>
+      <section data-tour="recents-section">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold text-gray-900 flex items-center gap-2">
             <span>🕐</span> Recently Visited
