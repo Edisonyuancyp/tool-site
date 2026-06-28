@@ -36,6 +36,7 @@ export interface BoardWidget {
   id: string;
   slug: string;
   size: BoardWidgetSize;
+  height?: number;
   createdAt: number;
 }
 
@@ -65,6 +66,7 @@ interface WorkbenchState {
   removeBoardWidget: (id: string) => void;
   reorderBoardWidgets: (fromIndex: number, toIndex: number) => void;
   resizeBoardWidget: (id: string, size: BoardWidgetSize) => void;
+  setWidgetHeight: (id: string, height: number) => void;
   resetBoard: (slugs?: string[]) => void;
   markOnboardingDone: () => void;
 }
@@ -275,6 +277,14 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
+  const setWidgetHeight = useCallback((id: string, height: number) => {
+    setBoardWidgets((prev) => {
+      const next = prev.map((w) => w.id === id ? { ...w, height } : w);
+      save(KEYS.board, next);
+      return next;
+    });
+  }, []);
+
   const resetBoard = useCallback((slugs?: string[]) => {
     const next: BoardWidget[] = (slugs ?? []).map((slug) => ({
       id: uid(), slug, size: "medium", createdAt: Date.now(),
@@ -295,7 +305,7 @@ export function WorkbenchProvider({ children }: { children: ReactNode }) {
       savePalette, deletePalette, saveQuantConfig, deleteQuantConfig,
       createCollection, deleteCollection, renameCollection,
       addToCollection, removeFromCollection, reorderCollection,
-      addBoardWidget, removeBoardWidget, reorderBoardWidgets, resizeBoardWidget, resetBoard,
+      addBoardWidget, removeBoardWidget, reorderBoardWidgets, resizeBoardWidget, setWidgetHeight, resetBoard,
       markOnboardingDone,
     }}>
       {children}

@@ -6,6 +6,12 @@ import type { ToolMeta } from "@/lib/tools";
 import { getToolPath } from "@/lib/tools";
 import ToolWidget from "@/components/ToolWidget";
 
+const DEFAULT_HEIGHT: Record<BoardWidgetSize, number> = {
+  small: 296, medium: 400, large: 516,
+};
+const MIN_HEIGHT = 200;
+const MAX_HEIGHT = 900;
+
 const PRESET_BOARDS = [
   {
     name: "FBA Seller Dashboard",
@@ -97,20 +103,40 @@ function sizeClasses(size: BoardWidgetSize): string {
   }
 }
 
-function contentHeight(size: BoardWidgetSize): string {
-  switch (size) {
-    case "small":  return "h-[260px]";
-    case "medium": return "h-[360px]";
-    case "large":  return "h-[480px]";
-    default: return "h-[360px]";
-  }
-}
 
 export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
   const {
     boardWidgets, addBoardWidget, removeBoardWidget, reorderBoardWidgets,
-    resizeBoardWidget, resetBoard,
+    resizeBoardWidget, setWidgetHeight, resetBoard,
   } = useWorkbench();
+
+  // Per-widget live height while dragging (not persisted until mouseup)
+  const [liveHeights, setLiveHeights] = useState<Record<string, number>>({});
+
+  const handleResizeMouseDown = useCallback(
+    (widgetId: string, currentHeight: number) =>
+      (e: React.MouseEvent) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const startY = e.clientY;
+        const startH = currentHeight;
+
+        const onMove = (ev: MouseEvent) => {
+          const newH = Math.min(MAX_HEIGHT, Math.max(MIN_HEIGHT, startH + ev.clientY - startY));
+          setLiveHeights(prev => ({ ...prev, [widgetId]: newH }));
+        };
+        const onUp = (ev: MouseEvent) => {
+          const newH = Math.min(MAX_HEIGHT, Math.max(MIN_HEIGHT, startH + ev.clientY - startY));
+          setWidgetHeight(widgetId, newH);
+          setLiveHeights(prev => { const n = { ...prev }; delete n[widgetId]; return n; });
+          window.removeEventListener("mousemove", onMove);
+          window.removeEventListener("mouseup", onUp);
+        };
+        window.addEventListener("mousemove", onMove);
+        window.addEventListener("mouseup", onUp);
+      },
+    [setWidgetHeight]
+  );
 
   const [showAdd, setShowAdd] = useState(false);
   const [search, setSearch] = useState("");
@@ -313,11 +339,11 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                 className={`
                   ${sizeClasses(widget.size)}
                   bg-white rounded-2xl border border-gray-200 overflow-hidden flex flex-col
-                  hover:border-blue-300 transition-all
+                  hover:border-blue-300 transition-all relative
                   ${isDragging ? "opacity-40 ring-2 ring-blue-400" : ""}
                   ${isOver ? "ring-2 ring-blue-400 border-blue-400" : ""}
                 `}
-                style={{ height: widget.size === "small" ? 296 : widget.size === "large" ? 516 : 400 }}
+                style={{ height: liveHeights[widget.id] ?? widget.height ?? DEFAULT_HEIGHT[widget.size] }}
               >
                 {/* Card header */}
                 <div className="flex items-center justify-between px-3 py-2 bg-gray-50 border-b border-gray-100 cursor-grab active:cursor-grabbing">
@@ -328,24 +354,9 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                     </Link>
                   </div>
                   <div className="flex items-center gap-1 shrink-0">
-                    {/* Size toggles */}
-                    {(["small", "medium", "large"] as BoardWidgetSize[]).map((size) => (
-                      <button
-                        key={size}
-                        onClick={() => resizeBoardWidget(widget.id, size)}
-                        title={size}
-                        className={`text-[10px] uppercase px-1.5 py-0.5 rounded border transition-colors ${
-                          widget.size === size
-                            ? "bg-blue-600 text-white border-blue-600"
-                            : "text-gray-400 border-gray-200 hover:text-gray-600"
-                        }`}
-                      >
-                        {size[0]}
-                      </button>
-                    ))}
                     <button
                       onClick={() => removeBoardWidget(widget.id)}
-                      className="ml-1 text-gray-300 hover:text-red-500 px-1.5 py-0.5 text-sm transition-colors"
+                      className="text-gray-300 hover:text-red-500 px-1.5 py-0.5 text-sm transition-colors"
                       title="Remove"
                     >
                       ×
@@ -354,8 +365,22 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                 </div>
 
                 {/* Card content */}
-                <div className={`${contentHeight(widget.size)} p-3 overflow-auto`}>
+                <div className="flex-1 p-3 overflow-auto min-h-0">
                   <ToolWidget tool={tool} compact />
+                </div>
+
+                {/* Resize handle */}
+                <div
+                  draggable={false}
+                  onDragStart={e => e.stopPropagation()}
+                  onMouseDown={handleResizeMouseDown(
+                    widget.id,
+                    liveHeights[widget.id] ?? widget.height ?? DEFAULT_HEIGHT[widget.size]
+                  )}
+                  className="absolute bottom-0 left-0 right-0 h-4 flex items-center justify-center cursor-ns-resize group select-none"
+                  title="Drag to resize"
+                >
+                  <div className="w-8 h-1 rounded-full bg-gray-200 group-hover:bg-blue-400 transition-colors" />
                 </div>
               </div>
             );
