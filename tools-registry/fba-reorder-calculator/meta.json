@@ -38,14 +38,38 @@
       "answer": "Order quantity = Daily sales × (Review period + Lead time) + Safety stock − Current inventory. This ensures you don't over- or under-order."
     }
   ],
-  "relatedTools": ["fba-profit-calculator", "fba-packing-calculator"],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "fba-reorder-calculator-seasonal",
       "metaTitle": "FBA Seasonal Reorder Calculator – Holiday Inventory Planning",
       "metaDescription": "Plan FBA inventory for seasonal demand spikes. Adjust daily sales for peak periods to avoid stockouts during Q4 and holiday seasons.",
-      "keywords": ["fba seasonal inventory", "amazon q4 restock calculator", "holiday inventory planner fba", "seasonal fba reorder"],
+      "keywords": [
+        "fba seasonal inventory",
+        "amazon q4 restock calculator",
+        "holiday inventory planner fba",
+        "seasonal fba reorder"
+      ],
       "headline": "FBA reorder calculator with seasonal demand adjustment — plan for Q4 and holiday stock spikes without over-buying."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "FBA Reorder & Restocking Calculator Online Free – Free Online FBA Reorder & Restocking Calculator",
+      "metaDescription": "Free online FBA Reorder & Restocking Calculator — instant results, no signup. Free Amazon FBA reorder calculator. Enter daily sales and lead time to get your ",
+      "h1": "FBA Reorder & Restocking Calculator – Online Free",
+      "description": "Free online FBA Reorder & Restocking Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "FBA Reorder & Restocking Calculator How to Use – Free Online FBA Reorder & Restocking Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from FBA Reorder & Restocking Calculator. Free Amazon FBA reorder calculator. Enter daily sales and lead time to get your ",
+      "h1": "FBA Reorder & Restocking Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from FBA Reorder & Restocking Calculator."
     }
   ]
 }

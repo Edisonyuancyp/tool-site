@@ -38,14 +38,38 @@
       "answer": "Max CPC = (Selling Price × Target ACoS × Conversion Rate). For example: $30 price × 20% target ACoS × 10% CVR = $0.60 max bid."
     }
   ],
-  "relatedTools": ["fba-profit-calculator", "fba-packing-calculator"],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "amazon-acos-calculator-break-even",
       "metaTitle": "Break-Even ACoS Calculator – Amazon PPC Profitability",
       "metaDescription": "Find your break-even ACoS for Amazon PPC campaigns. Enter your margin to see the maximum ACoS where ads remain profitable.",
-      "keywords": ["break even acos", "amazon break even acos calculator", "profitable acos threshold", "amazon ppc break even"],
+      "keywords": [
+        "break even acos",
+        "amazon break even acos calculator",
+        "profitable acos threshold",
+        "amazon ppc break even"
+      ],
       "headline": "Find your break-even ACoS — the exact point where your Amazon PPC spend stops being profitable."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Amazon ACoS Calculator Online Free – Free Online Amazon ACoS Calculator",
+      "metaDescription": "Free online Amazon ACoS Calculator — instant results, no signup. Free Amazon ACoS calculator. Calculate ACoS, TACoS, maximum profitable CPC bid, ",
+      "h1": "Amazon ACoS Calculator – Online Free",
+      "description": "Free online Amazon ACoS Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Amazon ACoS Calculator How to Use – Free Online Amazon ACoS Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Amazon ACoS Calculator. Free Amazon ACoS calculator. Calculate ACoS, TACoS, maximum profitable CPC bid, ",
+      "h1": "Amazon ACoS Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Amazon ACoS Calculator."
     }
   ]
 }

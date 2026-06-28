@@ -38,21 +38,51 @@
       "answer": "ROI = (Net Profit ÷ Total Cost) × 100. For example, if you spend $10 on a product and net $3 after all fees, your ROI is 30%."
     }
   ],
-  "relatedTools": ["fba-packing-calculator", "fba-fee-calculator", "fba-reorder-calculator"],
+  "relatedTools": [
+    "fba-packing-calculator",
+    "fba-fee-calculator",
+    "fba-reorder-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "fba-profit-calculator-uk",
       "metaTitle": "Amazon FBA Profit Calculator UK – Net Profit in GBP",
       "metaDescription": "Calculate Amazon FBA profit for UK sellers. Includes VAT, UK referral fees, and FBA fulfillment fees in GBP.",
-      "keywords": ["fba profit calculator uk", "amazon uk seller profit", "fba margin uk", "amazon uk profit calculator"],
+      "keywords": [
+        "fba profit calculator uk",
+        "amazon uk seller profit",
+        "fba margin uk",
+        "amazon uk profit calculator"
+      ],
       "headline": "FBA profit calculator for UK Amazon sellers — fees and margin in GBP with UK VAT support."
     },
     {
       "variantSlug": "fba-profit-calculator-with-ppc",
       "metaTitle": "FBA Profit Calculator with PPC – Net Profit After Amazon Ads",
       "metaDescription": "Calculate true FBA profit after deducting Amazon PPC ad spend. Enter your ACoS to see real net margin.",
-      "keywords": ["fba profit with ppc", "amazon profit after ads", "fba profit calculator acos", "amazon net profit after advertising"],
+      "keywords": [
+        "fba profit with ppc",
+        "amazon profit after ads",
+        "fba profit calculator acos",
+        "amazon net profit after advertising"
+      ],
       "headline": "True FBA profit calculator that factors in your Amazon PPC spend — see real net margin after ads."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "FBA Profit Calculator Online Free – Free Online FBA Profit Calculator",
+      "metaDescription": "Free online FBA Profit Calculator — instant results, no signup. Free Amazon FBA profit calculator. Enter cost, price, and fees to get net profit",
+      "h1": "FBA Profit Calculator – Online Free",
+      "description": "Free online FBA Profit Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "FBA Profit Calculator How to Use – Free Online FBA Profit Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from FBA Profit Calculator. Free Amazon FBA profit calculator. Enter cost, price, and fees to get net profit",
+      "h1": "FBA Profit Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from FBA Profit Calculator."
     }
   ]
 }

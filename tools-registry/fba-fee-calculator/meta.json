@@ -38,14 +38,38 @@
       "answer": "Standard-size storage costs $0.87/cubic foot Jan–Sep and $2.40/cubic foot Oct–Dec. Oversize items cost $0.56 and $1.40 respectively."
     }
   ],
-  "relatedTools": ["fba-profit-calculator", "fba-packing-calculator"],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "fba-fee-calculator-uk",
       "metaTitle": "Amazon FBA Fee Calculator UK – UK Fulfillment Fees in GBP",
       "metaDescription": "Calculate Amazon FBA fees for UK sellers. Fulfillment, referral, and storage fees in GBP for amazon.co.uk.",
-      "keywords": ["fba fee calculator uk", "amazon uk fba fees", "amazon.co.uk fulfillment fee", "uk fba cost calculator"],
+      "keywords": [
+        "fba fee calculator uk",
+        "amazon uk fba fees",
+        "amazon.co.uk fulfillment fee",
+        "uk fba cost calculator"
+      ],
       "headline": "Amazon FBA fee calculator for UK sellers — fulfillment, referral, and storage fees in GBP."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "FBA Fee Calculator Online Free – Free Online FBA Fee Calculator",
+      "metaDescription": "Free online FBA Fee Calculator — instant results, no signup. Free FBA fee calculator. Enter dimensions and weight to get fulfillment fee, ref",
+      "h1": "FBA Fee Calculator – Online Free",
+      "description": "Free online FBA Fee Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "FBA Fee Calculator How to Use – Free Online FBA Fee Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from FBA Fee Calculator. Free FBA fee calculator. Enter dimensions and weight to get fulfillment fee, ref",
+      "h1": "FBA Fee Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from FBA Fee Calculator."
     }
   ]
 }

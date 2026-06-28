@@ -38,14 +38,38 @@
       "answer": "Common strategies include sourcing from countries with free trade agreements (Mexico, Vietnam), engineering products to fall into lower duty HS codes, or using a first sale valuation."
     }
   ],
-  "relatedTools": ["fba-profit-calculator", "fba-fee-calculator"],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-fee-calculator"
+  ],
   "variants": [
     {
       "variantSlug": "import-duty-calculator-china",
       "metaTitle": "China Import Duty Calculator – Section 301 Tariff Estimator",
       "metaDescription": "Calculate US import duties for goods from China, including Section 301 tariffs (7.5–25%), standard duty rates, MPF, and HMF. Free estimator.",
-      "keywords": ["china import duty calculator", "section 301 tariff calculator", "china tariff estimator", "us china import tax calculator"],
+      "keywords": [
+        "china import duty calculator",
+        "section 301 tariff calculator",
+        "china tariff estimator",
+        "us china import tax calculator"
+      ],
       "headline": "Calculate US import costs for goods from China — includes Section 301 tariffs, standard duty, MPF and HMF fees."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Import Duty Calculator Online Free – Free Online Import Duty Calculator",
+      "metaDescription": "Free online Import Duty Calculator — instant results, no signup. Free US import duty calculator. Estimate customs duties, Section 301 China tarif",
+      "h1": "Import Duty Calculator – Online Free",
+      "description": "Free online Import Duty Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Import Duty Calculator How to Use – Free Online Import Duty Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Import Duty Calculator. Free US import duty calculator. Estimate customs duties, Section 301 China tarif",
+      "h1": "Import Duty Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Import Duty Calculator."
     }
   ]
 }
