@@ -79,11 +79,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  const blogPages: MetadataRoute.Sitemap = [
+    { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.85 },
+    { url: `${BASE}/blog/free-tradingview-alternative-crypto-chart-analyzer`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/blog/workbench-board-personal-calculator-dashboard`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
+    { url: `${BASE}/blog/crypto-position-sizing-kelly-criterion`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE}/blog/sharpe-ratio-calculator-guide`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
+  ];
+
   return [
     { url: BASE, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
     { url: `${BASE}/workbench`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
-    { url: `${BASE}/workbench/board`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE}/workbench/board`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.9 },
     { url: `${BASE}/workbench/guide`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.8 },
+    ...blogPages,
     ...i18nHomePages,
     ...categoryIndexPages,
     ...toolPages,

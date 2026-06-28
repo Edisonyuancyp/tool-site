@@ -6,16 +6,21 @@ import Footer from "@/components/Footer";
 import WorkbenchBoard from "@/components/WorkbenchBoard";
 
 export const metadata: Metadata = {
-  title: "Workbench Board – Drag & Drop Multi-Tool Dashboard | GetFastCalc",
-  description: "Build your personal dashboard with draggable calculator cards. Combine FBA, math, health, and finance tools on one screen and arrange them your way.",
+  title: "Workbench Board – Free Personal Calculator Dashboard | GetFastCalc",
+  description: "Drag, resize & combine 100+ free calculators on one screen. Build your trading, FBA, or finance dashboard in seconds — no signup, auto-saved in your browser.",
   keywords: [
-    "calculator dashboard",
-    "drag and drop tools",
+    "personal calculator dashboard",
+    "drag and drop calculator board",
+    "multi tool workspace online",
+    "free calculator dashboard",
+    "crypto trading dashboard free",
     "fba seller dashboard",
-    "multi calculator workspace",
-    "personal tool board",
+    "online tool organizer",
+    "combine calculators online",
+    "quant trading tools dashboard",
+    "workbench board",
   ],
-  alternates: { canonical: "https://www.getfastcalc.com/workbench/board" },
+  alternates: { canonical: "https://getfastcalc.com/workbench/board" },
 };
 
 const jsonLd = {
