@@ -100,6 +100,16 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: python scripts/write-tool-guide.py --delay 1.5
 
+      - name: Translate new tools (zh/ja/de/pt)
+        if: ${{ steps.vars.outputs.MODE == 'new-tool' }}
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: |
+          for LOCALE in zh ja de pt; do
+            echo "Translating → $LOCALE"
+            node scripts/ai-translate.mjs --locale "$LOCALE" --all
+          done
+
       # ── Mode: content refresh (Tuesdays) ───────────────────────────────────
       - name: Refresh existing tool tutorials
         if: ${{ steps.vars.outputs.MODE == 'content' }}
