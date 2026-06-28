@@ -1,0 +1,24 @@
+{
+  "slug": "gpa-calculator",
+  "name": "Calculadora de GPA",
+  "tagline": "Calcule a média do desempenho acadêmico",
+  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
+  "metaTitle": "Calculadora de GPA – Ferramenta Gratuita de Cálculo de GPA Online",
+  "metaDescription": "Insira créditos e notas das disciplinas para calcular automaticamente o GPA ponderado. Suporta escala 4,0.",
+  "keywords": [
+    "calculadora de GPA",
+    "calcular GPA",
+    "média acadêmica",
+    "calcular média",
+    "média de notas"
+  ],
+  "category": "Utilitários",
+  "icon": "🎓",
+  "faqs": [],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "random-number-generator",
+  "name": "Gerador de Números Aleatórios",
+  "tagline": "Gere números inteiros aleatórios em um intervalo especificado",
+  "description": "Generate cryptographically random numbers in any range. Single number, list of numbers, dice roller, coin flip, and random item picker — all in one free tool.",
+  "metaTitle": "Gerador de Números Aleatórios – Ferramenta Gratuita de Geração de Números Aleatórios Online",
+  "metaDescription": "Defina mínimo e máximo para gerar números inteiros aleatórios. Suporta geração em lote e exclusão de duplicatas.",
+  "keywords": [
+    "gerador de números aleatórios",
+    "número aleatório",
+    "sortear número",
+    "gerar aleatório",
+    "número inteiro aleatório"
+  ],
+  "category": "Geradores",
+  "icon": "🎲",
+  "faqs": [],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
+  "variants": []
+}

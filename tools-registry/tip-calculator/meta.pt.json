@@ -1,0 +1,29 @@
+{
+  "slug": "tip-calculator",
+  "name": "Calculadora de Gorjeta",
+  "tagline": "Calcule gorjeta e divisão de conta rapidamente",
+  "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
+  "metaTitle": "Calculadora de Gorjeta – Calculadora Gratuita de Gorjeta e Divisão de Conta",
+  "metaDescription": "Insira o valor da conta e o percentual de gorjeta para calcular automaticamente a gorjeta e o valor por pessoa.",
+  "keywords": [
+    "calculadora de gorjeta",
+    "dividir conta",
+    "gorjeta restaurante",
+    "calcular gorjeta",
+    "divisão de conta"
+  ],
+  "category": "Finanças",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "Qual é a gorjeta habitual?",
+      "answer": "No Brasil não é obrigatória, mas 10% é comum em restaurantes. Nos EUA, 15–20% é o padrão."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

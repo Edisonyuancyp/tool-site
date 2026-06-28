@@ -1,0 +1,24 @@
+{
+  "slug": "base-converter",
+  "name": "Conversor de Base Numérica",
+  "tagline": "Converta entre binário, octal, decimal e hexadecimal",
+  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
+  "metaTitle": "Conversor de Base Numérica – Conversor Online de Binário e Hexadecimal",
+  "metaDescription": "Conversão entre bases numéricas 2–64. Binário, octal, decimal, hexadecimal, Base58 e muito mais.",
+  "keywords": [
+    "conversor de base",
+    "converter binário",
+    "calculadora hexadecimal",
+    "octal para decimal",
+    "conversor numérico"
+  ],
+  "category": "Desenvolvimento",
+  "icon": "🔢",
+  "faqs": [],
+  "relatedTools": [
+    "base64-tool",
+    "unix-timestamp-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

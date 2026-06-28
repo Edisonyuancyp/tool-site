@@ -1,0 +1,23 @@
+{
+  "slug": "serving-size-calculator",
+  "name": "Calculadora de Porção",
+  "tagline": "Calcule tamanhos de porção e ingestão de nutrientes",
+  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
+  "metaTitle": "Calculadora de Porção – Ferramenta de Cálculo de Tamanho de Porção",
+  "metaDescription": "Com base no número de pessoas e na receita, calcule as quantidades de ingredientes e o conteúdo nutricional por porção.",
+  "keywords": [
+    "calculadora de porção",
+    "tamanho de porção",
+    "quantidade de ingredientes",
+    "porção por pessoa",
+    "nutrientes por porção"
+  ],
+  "category": "Culinária",
+  "icon": "🍽️",
+  "faqs": [],
+  "relatedTools": [
+    "body-fat-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

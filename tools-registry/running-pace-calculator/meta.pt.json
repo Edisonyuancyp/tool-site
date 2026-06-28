@@ -1,0 +1,24 @@
+{
+  "slug": "running-pace-calculator",
+  "name": "Calculadora de Ritmo de Corrida",
+  "tagline": "Calcule ritmo, velocidade e tempo de chegada",
+  "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
+  "metaTitle": "Calculadora de Ritmo de Corrida – Ferramenta de Cálculo de Ritmo de Maratona",
+  "metaDescription": "Insira distância e tempo para calcular o ritmo, ou insira o ritmo para prever o tempo de chegada. 5K, 10K, meia-maratona, maratona.",
+  "keywords": [
+    "calculadora de ritmo de corrida",
+    "ritmo de maratona",
+    "calcular ritmo de corrida",
+    "velocidade de corrida",
+    "tempo de chegada"
+  ],
+  "category": "Saúde",
+  "icon": "🏃",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

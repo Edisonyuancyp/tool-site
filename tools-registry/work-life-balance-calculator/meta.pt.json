@@ -1,0 +1,23 @@
+{
+  "slug": "work-life-balance-calculator",
+  "name": "Calculadora de Equilíbrio Trabalho-Vida",
+  "tagline": "Avalie seu equilíbrio entre trabalho e vida pessoal",
+  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
+  "metaTitle": "Calculadora de Equilíbrio Trabalho-Vida – Ferramenta de Avaliação de Qualidade de Vida",
+  "metaDescription": "Use um questionário para avaliar seu equilíbrio trabalho-vida e receber recomendações de melhoria.",
+  "keywords": [
+    "equilíbrio trabalho-vida",
+    "qualidade de vida",
+    "estresse no trabalho",
+    "saúde no trabalho",
+    "bem-estar profissional"
+  ],
+  "category": "Produtividade",
+  "icon": "⚖️",
+  "faqs": [],
+  "relatedTools": [
+    "daily-goal-tracker",
+    "time-blocking-scheduler"
+  ],
+  "variants": []
+}

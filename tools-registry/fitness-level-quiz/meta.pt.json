@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "Quiz de Nível de Fitness",
+  "tagline": "Avalie seu nível atual de condicionamento físico",
+  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
+  "metaTitle": "Quiz de Nível de Fitness – Ferramenta de Avaliação de Condicionamento Online",
+  "metaDescription": "Use um breve questionário para avaliar seu nível de condicionamento físico e receber recomendações personalizadas de treino.",
+  "keywords": [
+    "quiz de fitness",
+    "avaliação física",
+    "nível de condicionamento",
+    "teste de aptidão física",
+    "recomendações de treino"
+  ],
+  "category": "Fitness",
+  "icon": "🏋️‍♀️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}

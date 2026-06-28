@@ -1,0 +1,24 @@
+{
+  "slug": "ovulation-calculator",
+  "name": "Calculadora de Ovulação",
+  "tagline": "Preveja a data de ovulação e o período fértil",
+  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
+  "metaTitle": "Calculadora de Ovulação – Calculadora Gratuita de Previsão de Ovulação Online",
+  "metaDescription": "Insira a data da última menstruação e a duração do ciclo para calcular a ovulação prevista e os dias férteis.",
+  "keywords": [
+    "calculadora de ovulação",
+    "calcular ovulação",
+    "período fértil",
+    "dias férteis",
+    "calculadora para engravidar"
+  ],
+  "category": "Saúde",
+  "icon": "🌸",
+  "faqs": [],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

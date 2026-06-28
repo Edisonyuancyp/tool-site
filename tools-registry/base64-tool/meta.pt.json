@@ -1,0 +1,24 @@
+{
+  "slug": "base64-tool",
+  "name": "Codificador/Decodificador Base64",
+  "tagline": "Codifique e decodifique Base64 online",
+  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
+  "metaTitle": "Codificador/Decodificador Base64 – Ferramenta Gratuita de Conversão Online",
+  "metaDescription": "Insira texto para codificar ou decodificar em Base64. Suporta conversão de arquivos e imagens em Base64.",
+  "keywords": [
+    "codificador Base64",
+    "decodificador Base64",
+    "conversor Base64",
+    "Base64 online",
+    "ferramenta de codificação"
+  ],
+  "category": "Desenvolvimento",
+  "icon": "🔐",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
+  "variants": []
+}

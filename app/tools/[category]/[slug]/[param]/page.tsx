@@ -34,7 +34,7 @@ function findPage(slug: string, param: string): { page: ProgrammaticPage; baseMe
 }
 
 // Only pre-render highest-value param pages to stay under Cloudflare 20k file limit
-const HIGH_VALUE_PARAMS = new Set(["online-free", "how-to-use", "how-to-calculate"]);
+const HIGH_VALUE_PARAMS = new Set(["online-free"]);
 
 export async function generateStaticParams() {
   const params: { category: string; slug: string; param: string }[] = [];

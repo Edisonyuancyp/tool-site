@@ -1,0 +1,23 @@
+{
+  "slug": "time-blocking-scheduler",
+  "name": "Agendador de Blocos de Tempo",
+  "tagline": "Planeje blocos de tempo diários e melhore o foco",
+  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
+  "metaTitle": "Agendador de Blocos de Tempo – Ferramenta de Gestão de Tempo Diário",
+  "metaDescription": "Use o método de bloqueio de tempo para organizar tarefas diárias, reduzir distrações e aumentar a eficiência do trabalho profundo.",
+  "keywords": [
+    "bloqueio de tempo",
+    "gestão do tempo",
+    "planejamento deep work",
+    "agenda diária",
+    "aumento de produtividade"
+  ],
+  "category": "Produtividade",
+  "icon": "🗓️",
+  "faqs": [],
+  "relatedTools": [
+    "task-priority-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

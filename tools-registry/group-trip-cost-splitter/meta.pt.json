@@ -1,0 +1,20 @@
+{
+  "slug": "group-trip-cost-splitter",
+  "name": "Divisor de Custos de Viagem em Grupo",
+  "tagline": "Divida os custos de viagem em grupo de forma justa",
+  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
+  "metaTitle": "Calculadora de Divisão de Custos de Viagem – Ferramenta de Rateio de Viagem em Grupo",
+  "metaDescription": "Insira os custos da viagem em grupo e os participantes para calcular automaticamente o valor por pessoa e a direção dos pagamentos.",
+  "keywords": [
+    "divisão de custos de viagem",
+    "rateio de viagem",
+    "dividir despesas de viagem",
+    "calculadora de viagem em grupo",
+    "dividir gastos"
+  ],
+  "category": "Viagem",
+  "icon": "👥",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

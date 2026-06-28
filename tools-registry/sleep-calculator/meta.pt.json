@@ -1,0 +1,29 @@
+{
+  "slug": "sleep-calculator",
+  "name": "Calculadora de Sono",
+  "tagline": "Calcule os horários ideais de dormir e acordar",
+  "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
+  "metaTitle": "Calculadora de Sono – Ferramenta de Cálculo de Ciclos do Sono",
+  "metaDescription": "Insira o horário de acordar para calcular o horário ideal de dormir com base em ciclos de 90 minutos – ou vice-versa.",
+  "keywords": [
+    "calculadora de sono",
+    "ciclo do sono",
+    "horário para dormir",
+    "melhor hora para acordar",
+    "qualidade do sono"
+  ],
+  "category": "Saúde",
+  "icon": "😴",
+  "faqs": [
+    {
+      "question": "Quanto dura um ciclo de sono?",
+      "answer": "Um ciclo de sono completo dura cerca de 90 minutos e inclui as fases de sono leve, profundo e REM."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

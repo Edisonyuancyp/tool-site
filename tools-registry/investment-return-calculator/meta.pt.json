@@ -1,0 +1,25 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "Calculadora de Retorno de Investimento",
+  "tagline": "Calcule retorno anual e rendimento total",
+  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
+  "metaTitle": "Calculadora de ROI – Calculadora de Retorno de Investimento Online",
+  "metaDescription": "Insira investimento inicial, valor final e período para calcular o retorno anualizado (CAGR) e o rendimento total.",
+  "keywords": [
+    "calculadora de retorno de investimento",
+    "calculadora de ROI",
+    "calcular CAGR",
+    "rendimento anual",
+    "retorno de investimento"
+  ],
+  "category": "Finanças",
+  "icon": "📈",
+  "faqs": [],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

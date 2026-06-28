@@ -1,0 +1,25 @@
+{
+  "slug": "budget-calculator",
+  "name": "Calculadora de Orçamento",
+  "tagline": "Crie orçamento mensal e gerencie receitas e despesas",
+  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
+  "metaTitle": "Calculadora de Orçamento – Ferramenta Gratuita de Planejamento de Orçamento Mensal",
+  "metaDescription": "Insira receitas e despesas para calcular o saldo mensal e criar um plano de orçamento adequado.",
+  "keywords": [
+    "calculadora de orçamento",
+    "orçamento mensal",
+    "orçamento familiar",
+    "controle de gastos",
+    "gestão de orçamento"
+  ],
+  "category": "Finanças",
+  "icon": "📊",
+  "faqs": [],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

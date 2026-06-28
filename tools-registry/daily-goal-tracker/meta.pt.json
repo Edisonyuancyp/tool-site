@@ -1,0 +1,23 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "Rastreador de Metas Diárias",
+  "tagline": "Defina e acompanhe metas diárias",
+  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
+  "metaTitle": "Rastreador de Metas Diárias – Ferramenta de Acompanhamento de Metas",
+  "metaDescription": "Defina metas diárias, registre o progresso e construa bons hábitos e capacidade de execução.",
+  "keywords": [
+    "rastreador de metas",
+    "acompanhar metas",
+    "rastreador de hábitos",
+    "metas diárias",
+    "alcançar objetivos"
+  ],
+  "category": "Produtividade",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": []
+}

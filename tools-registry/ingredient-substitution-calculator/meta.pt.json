@@ -1,0 +1,23 @@
+{
+  "slug": "ingredient-substitution-calculator",
+  "name": "Calculadora de Substituição de Ingredientes",
+  "tagline": "Encontre substitutos para ingredientes que faltam na receita",
+  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
+  "metaTitle": "Calculadora de Substituição de Ingredientes – Ferramenta de Substituição Culinária",
+  "metaDescription": "Insira o ingrediente que falta e obtenha alternativas com sugestões de proporção.",
+  "keywords": [
+    "substituição de ingredientes",
+    "alternativas culinárias",
+    "substituir ingrediente",
+    "ingrediente substituto",
+    "substituição de receita"
+  ],
+  "category": "Culinária",
+  "icon": "🥄",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "tax-calculator",
+  "name": "Calculadora de Impostos",
+  "tagline": "Estime rapidamente os impostos devidos",
+  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
+  "metaTitle": "Calculadora de Impostos – Ferramenta Gratuita de Cálculo de Imposto Online",
+  "metaDescription": "Insira renda e alíquota para calcular rapidamente o imposto devido e a renda líquida.",
+  "keywords": [
+    "calculadora de impostos",
+    "calcular imposto de renda",
+    "alíquota de imposto",
+    "cálculo de imposto",
+    "renda líquida"
+  ],
+  "category": "Finanças",
+  "icon": "🧾",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "retirement-savings-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

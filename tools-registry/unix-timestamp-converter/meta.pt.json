@@ -1,0 +1,24 @@
+{
+  "slug": "unix-timestamp-converter",
+  "name": "Conversor de Timestamp Unix",
+  "tagline": "Converta entre timestamp Unix e data/hora",
+  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
+  "metaTitle": "Conversor de Timestamp Unix – Ferramenta de Conversão de Timestamp Online",
+  "metaDescription": "Converta timestamp Unix em data/hora legível ou data/hora em timestamp. Suporta segundos e milissegundos.",
+  "keywords": [
+    "conversor de timestamp",
+    "converter timestamp Unix",
+    "epoch para data",
+    "timestamp para data",
+    "ferramenta de timestamp"
+  ],
+  "category": "Desenvolvimento",
+  "icon": "⏱️",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

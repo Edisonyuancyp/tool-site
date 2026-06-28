@@ -1,0 +1,24 @@
+{
+  "slug": "crypto-market-cap-comparator",
+  "name": "Comparador de Capitalização de Mercado de Cripto",
+  "tagline": "Compare a capitalização de mercado de diferentes criptomoedas",
+  "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
+  "metaTitle": "Comparador de Capitalização de Cripto – Ferramenta de Comparação de Cripto Online",
+  "metaDescription": "Insira duas criptomoedas para comparar diferenças de capitalização de mercado e potencial de preço.",
+  "keywords": [
+    "capitalização de mercado de cripto",
+    "comparar criptomoedas",
+    "calcular capitalização do Bitcoin",
+    "potencial de preço",
+    "comparador de cripto"
+  ],
+  "category": "Cripto",
+  "icon": "🪙",
+  "faqs": [],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "position-size-calculator",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

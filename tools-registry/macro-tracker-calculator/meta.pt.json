@@ -1,0 +1,23 @@
+{
+  "slug": "macro-tracker-calculator",
+  "name": "Calculadora de Macros",
+  "tagline": "Calcule a ingestão diária de proteínas, gorduras e carboidratos",
+  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
+  "metaTitle": "Calculadora de Macronutrientes – Ferramenta de Cálculo de Três Macronutrientes",
+  "metaDescription": "Com base no objetivo de peso e nível de atividade, calcule as calorias diárias e a distribuição dos três macronutrientes (proteína/gordura/carboidrato).",
+  "keywords": [
+    "calculadora de macros",
+    "macronutrientes",
+    "calcular proteína",
+    "dieta para emagrecer",
+    "calculadora fitness"
+  ],
+  "category": "Fitness",
+  "icon": "🍏",
+  "faqs": [],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

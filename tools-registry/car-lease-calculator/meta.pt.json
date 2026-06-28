@@ -1,0 +1,23 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "Calculadora de Leasing de Carro",
+  "tagline": "Calcule parcelas mensais e custo total do leasing",
+  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
+  "metaTitle": "Calculadora de Leasing de Carro – Calculadora de Leasing Automotivo",
+  "metaDescription": "Insira preço do veículo, valor residual, taxa de juros e prazo para calcular a parcela mensal do leasing.",
+  "keywords": [
+    "calculadora de leasing",
+    "leasing de carro",
+    "calcular leasing",
+    "financiamento de carro",
+    "parcela de leasing"
+  ],
+  "category": "Finanças",
+  "icon": "🚗",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

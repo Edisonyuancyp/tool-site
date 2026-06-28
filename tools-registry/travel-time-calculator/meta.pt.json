@@ -1,0 +1,20 @@
+{
+  "slug": "travel-time-calculator",
+  "name": "Calculadora de Tempo de Viagem",
+  "tagline": "Calcule distância e tempo de viagem",
+  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
+  "metaTitle": "Calculadora de Tempo de Viagem – Ferramenta de Estimativa de Tempo de Viagem",
+  "metaDescription": "Insira distância e velocidade para calcular o tempo estimado de viagem, ou insira horários de partida e chegada para calcular a velocidade.",
+  "keywords": [
+    "calculadora de tempo de viagem",
+    "tempo de viagem de carro",
+    "estimar tempo de viagem",
+    "velocidade distância tempo",
+    "calcular rota"
+  ],
+  "category": "Viagem",
+  "icon": "⏳",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

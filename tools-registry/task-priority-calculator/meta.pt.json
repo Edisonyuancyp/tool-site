@@ -1,0 +1,23 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "Calculadora de Prioridade de Tarefas",
+  "tagline": "Priorize tarefas com a Matriz de Eisenhower",
+  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
+  "metaTitle": "Calculadora de Prioridade de Tarefas – Ferramenta de Gestão do Tempo",
+  "metaDescription": "Avalie tarefas por urgência e importância para determinar automaticamente a ordem de prioridade e aumentar a eficiência.",
+  "keywords": [
+    "prioridade de tarefas",
+    "gestão do tempo",
+    "Matriz de Eisenhower",
+    "produtividade",
+    "gerenciamento de tarefas"
+  ],
+  "category": "Produtividade",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": []
+}

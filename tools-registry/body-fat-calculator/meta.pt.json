@@ -1,0 +1,24 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "Calculadora de Gordura Corporal",
+  "tagline": "Estime o percentual de gordura corporal",
+  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
+  "metaTitle": "Calculadora de Gordura Corporal – Ferramenta Gratuita de Cálculo de Percentual de Gordura",
+  "metaDescription": "Use medidas corporais (pescoço, cintura, quadril) para estimar o percentual de gordura corporal. Para homens e mulheres.",
+  "keywords": [
+    "calculadora de gordura corporal",
+    "percentual de gordura",
+    "calcular gordura corporal",
+    "porcentagem de gordura",
+    "composição corporal"
+  ],
+  "category": "Saúde",
+  "icon": "💪",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "ideal-weight-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

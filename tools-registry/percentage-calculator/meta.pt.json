@@ -1,0 +1,33 @@
+{
+  "slug": "percentage-calculator",
+  "name": "Calculadora de Porcentagem",
+  "tagline": "Calcule porcentagens e variações rapidamente",
+  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
+  "metaTitle": "Calculadora de Porcentagem – Calculadora Gratuita de Porcentagem Online",
+  "metaDescription": "Calcule porcentagens, aumentos/reduções percentuais e proporções – todos os problemas de porcentagem resolvidos instantaneamente.",
+  "keywords": [
+    "calculadora de porcentagem",
+    "calcular porcentagem",
+    "variação percentual",
+    "calculadora de desconto",
+    "proporção"
+  ],
+  "category": "Finanças",
+  "icon": "%",
+  "faqs": [
+    {
+      "question": "Como calcular porcentagem?",
+      "answer": "Porcentagem = (Parte ÷ Total) × 100%"
+    },
+    {
+      "question": "Como calcular o aumento percentual?",
+      "answer": "Aumento = (Novo Valor - Valor Antigo) ÷ Valor Antigo × 100%"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

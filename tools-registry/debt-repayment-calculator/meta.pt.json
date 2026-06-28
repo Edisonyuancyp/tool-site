@@ -1,0 +1,25 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "Calculadora de Pagamento de Dívidas",
+  "tagline": "Calcule o prazo de quitação e os juros totais",
+  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
+  "metaTitle": "Calculadora de Quitação de Dívidas – Ferramenta Gratuita de Plano de Pagamento",
+  "metaDescription": "Insira saldo da dívida, taxa de juros e parcela mensal para calcular o prazo de quitação e os juros totais.",
+  "keywords": [
+    "calculadora de dívidas",
+    "plano de pagamento",
+    "calcular pagamento de cartão de crédito",
+    "quitar dívida",
+    "juros de dívida"
+  ],
+  "category": "Finanças",
+  "icon": "💳",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "password-generator",
+  "name": "Gerador de Senhas",
+  "tagline": "Gere senhas aleatórias seguras",
+  "description": "Create strong random passwords with custom length and character sets. Choose uppercase, lowercase, numbers, and symbols. Copy with one click.",
+  "metaTitle": "Gerador de Senhas – Gerador Gratuito de Senhas Aleatórias Online",
+  "metaDescription": "Crie senhas fortes com comprimento, maiúsculas/minúsculas, números e símbolos personalizáveis. 100% local, sem envio de dados.",
+  "keywords": [
+    "gerador de senhas",
+    "senha aleatória",
+    "senha segura",
+    "criar senha forte",
+    "gerador de senha online"
+  ],
+  "category": "Segurança",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "As senhas são salvas?",
+      "answer": "Não. Todo o processamento é feito localmente no navegador – nenhum dado é enviado externamente."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "random-number-generator"
+  ],
+  "variants": []
+}

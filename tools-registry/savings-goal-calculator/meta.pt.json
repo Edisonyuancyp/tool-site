@@ -1,0 +1,23 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "Calculadora de Meta de Economia",
+  "tagline": "Calcule o tempo e o valor mensal para atingir sua meta",
+  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
+  "metaTitle": "Calculadora de Meta de Poupança – Ferramenta de Planejamento Financeiro",
+  "metaDescription": "Insira o valor alvo, poupança atual e taxa de juros para calcular quanto poupar mensalmente e quando atingir a meta.",
+  "keywords": [
+    "calculadora de meta de poupança",
+    "plano de poupança",
+    "calculadora de economia",
+    "meta financeira",
+    "quanto poupar por mês"
+  ],
+  "category": "Finanças",
+  "icon": "🏦",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

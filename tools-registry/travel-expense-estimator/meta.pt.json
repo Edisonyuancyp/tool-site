@@ -1,0 +1,20 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "Estimador de Despesas de Viagem",
+  "tagline": "Estime o orçamento total e o custo per capita da viagem",
+  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
+  "metaTitle": "Estimador de Despesas de Viagem – Ferramenta de Planejamento de Orçamento de Viagem",
+  "metaDescription": "Insira transporte, hospedagem, alimentação e atividades para estimar o orçamento total e o custo per capita.",
+  "keywords": [
+    "estimativa de despesas de viagem",
+    "orçamento de viagem",
+    "calcular gastos de viagem",
+    "planejamento de viagem",
+    "custo de viagem"
+  ],
+  "category": "Viagem",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "emoji-picker",
+  "name": "Seletor de Emoji",
+  "tagline": "Pesquise e copie emojis",
+  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
+  "metaTitle": "Seletor de Emoji – Ferramenta de Pesquisa e Cópia de Emoji Online",
+  "metaDescription": "Pesquise qualquer emoji e copie com um clique. Navegue por todos os emojis por categoria.",
+  "keywords": [
+    "seletor de emoji",
+    "copiar emoji",
+    "pesquisar emoji",
+    "ferramenta emoji online",
+    "todos os emojis"
+  ],
+  "category": "Utilitários",
+  "icon": "😊",
+  "faqs": [],
+  "relatedTools": [
+    "text-case-converter",
+    "word-counter",
+    "random-number-generator"
+  ],
+  "variants": []
+}

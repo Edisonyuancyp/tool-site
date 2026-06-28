@@ -1,0 +1,23 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "Calculadora de Encargos Financeiros",
+  "tagline": "Calcule encargos financeiros de cartão de crédito ou empréstimo",
+  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
+  "metaTitle": "Calculadora de Encargos Financeiros – Ferramenta de Cálculo de Juros",
+  "metaDescription": "Calcule encargos financeiros mensais e juros de APR para saldos de cartão de crédito ou empréstimos.",
+  "keywords": [
+    "calculadora de encargos financeiros",
+    "calcular juros do cartão",
+    "calculadora de APR",
+    "calcular juros",
+    "encargos mensais"
+  ],
+  "category": "Finanças",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

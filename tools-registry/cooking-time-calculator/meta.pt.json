@@ -1,0 +1,23 @@
+{
+  "slug": "cooking-time-calculator",
+  "name": "Calculadora de Tempo de Cozimento",
+  "tagline": "Calcule o tempo de cozimento com base no peso dos ingredientes",
+  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
+  "metaTitle": "Calculadora de Tempo de Cozimento – Ferramenta de Cálculo de Tempo de Assar e Cozinhar",
+  "metaDescription": "Insira o peso e tipo do ingrediente para calcular o tempo de cozimento recomendado e a temperatura, garantindo o cozimento seguro.",
+  "keywords": [
+    "calculadora de tempo de cozimento",
+    "tempo de assar",
+    "tempo de cozinhar",
+    "temperatura de cozimento",
+    "cozinhar no forno"
+  ],
+  "category": "Culinária",
+  "icon": "⏲️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

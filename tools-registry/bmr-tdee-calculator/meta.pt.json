@@ -1,0 +1,24 @@
+{
+  "slug": "bmr-tdee-calculator",
+  "name": "Calculadora de TMB e TDEE",
+  "tagline": "Calcule o metabolismo basal e o gasto calórico diário",
+  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
+  "metaTitle": "Calculadora de TMB/TDEE – Calcule Taxa Metabólica Basal e Necessidade Calórica",
+  "metaDescription": "Calcule a Taxa Metabólica Basal (TMB) e o Gasto Energético Total Diário (TDEE) para planejar dieta e ganho de massa.",
+  "keywords": [
+    "calculadora de TMB",
+    "calculadora de TDEE",
+    "taxa metabólica basal",
+    "gasto calórico diário",
+    "calorias por dia"
+  ],
+  "category": "Saúde",
+  "icon": "🔥",
+  "faqs": [],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
+  "variants": []
+}

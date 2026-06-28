@@ -1,0 +1,29 @@
+{
+  "slug": "currency-converter",
+  "name": "Conversor de Moedas",
+  "tagline": "Conversão de câmbio em tempo real",
+  "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
+  "metaTitle": "Conversor de Moedas – Conversor Gratuito de Taxa de Câmbio em Tempo Real",
+  "metaDescription": "Conversão de câmbio em tempo real para mais de 150 moedas. Real, dólar, euro e muito mais com um clique.",
+  "keywords": [
+    "conversor de moedas",
+    "taxa de câmbio",
+    "converter moeda",
+    "câmbio online",
+    "conversor de câmbio"
+  ],
+  "category": "Finanças",
+  "icon": "💱",
+  "faqs": [
+    {
+      "question": "As taxas de câmbio são em tempo real?",
+      "answer": "Sim, os dados de câmbio são atualizados diariamente via APIs públicas."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "age-calculator",
+  "name": "Calculadora de Idade",
+  "tagline": "Calcule sua idade exata instantaneamente",
+  "description": "Calculate your exact age from your date of birth to today — or to any specific date. Get results in years, months, days, hours, and minutes instantly.",
+  "metaTitle": "Calculadora de Idade – Ferramenta Gratuita de Cálculo de Idade Online",
+  "metaDescription": "Insira sua data de nascimento e obtenha sua idade exata em anos, meses e dias. Grátis, sem cadastro.",
+  "keywords": [
+    "calculadora de idade",
+    "calcular idade",
+    "calculadora data de nascimento",
+    "quantos anos tenho",
+    "calculadora de idade online"
+  ],
+  "category": "Data e Hora",
+  "icon": "📅",
+  "faqs": [
+    {
+      "question": "Como é calculada a idade?",
+      "answer": "O calculador computa a diferença entre sua data de nascimento e a data de hoje em anos, meses e dias, incluindo anos bissextos."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "holiday-calculator",
+    "unix-timestamp-converter"
+  ],
+  "variants": []
+}

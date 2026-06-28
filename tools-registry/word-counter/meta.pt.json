@@ -1,0 +1,23 @@
+{
+  "slug": "word-counter",
+  "name": "Contador de Palavras",
+  "tagline": "Meça palavras, caracteres e tempo de leitura",
+  "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
+  "metaTitle": "Contador de Palavras – Ferramenta Gratuita de Contagem de Palavras Online",
+  "metaDescription": "Cole o texto e meça palavras, caracteres, sentenças e tempo de leitura estimado em tempo real.",
+  "keywords": [
+    "contador de palavras",
+    "contador de caracteres",
+    "contar palavras online",
+    "contador de texto",
+    "calcular tempo de leitura"
+  ],
+  "category": "Utilitários",
+  "icon": "📝",
+  "faqs": [],
+  "relatedTools": [
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

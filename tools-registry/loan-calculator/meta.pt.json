@@ -1,0 +1,29 @@
+{
+  "slug": "loan-calculator",
+  "name": "Calculadora de Empréstimo",
+  "tagline": "Calcule parcelas mensais e juros totais",
+  "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
+  "metaTitle": "Calculadora de Empréstimo – Calculadora Gratuita de Parcelas Online",
+  "metaDescription": "Insira valor do empréstimo, taxa de juros e prazo para obter parcela mensal, juros totais e tabela de amortização.",
+  "keywords": [
+    "calculadora de empréstimo",
+    "calcular parcela mensal",
+    "calculadora de financiamento",
+    "simulador de empréstimo",
+    "calculadora de financiamento imobiliário"
+  ],
+  "category": "Finanças",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "Como calcular a parcela mensal?",
+      "answer": "Parcela = Capital × Taxa Mensal × (1+Taxa Mensal)^Prazo ÷ ((1+Taxa Mensal)^Prazo - 1)"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

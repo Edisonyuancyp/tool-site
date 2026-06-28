@@ -1,0 +1,24 @@
+{
+  "slug": "position-size-calculator",
+  "name": "Calculadora de Tamanho de Posição",
+  "tagline": "Calcule o tamanho ótimo de posição com base no gerenciamento de risco",
+  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
+  "metaTitle": "Calculadora de Tamanho de Posição – Ferramenta de Gestão de Risco de Trading",
+  "metaDescription": "Insira capital da conta, percentual de risco e stop loss para calcular o tamanho ótimo de posição e proteger o capital.",
+  "keywords": [
+    "calculadora de posição",
+    "tamanho de posição",
+    "gestão de risco no trading",
+    "stop loss",
+    "posição no Forex"
+  ],
+  "category": "Cripto",
+  "icon": "📐",
+  "faqs": [],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "Calculadora de Idade de Condicionamento Físico",
+  "tagline": "Avalie a idade biológica e o estado de saúde",
+  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
+  "metaTitle": "Calculadora de Idade Física – Avaliação de Idade Biológica",
+  "metaDescription": "Use frequência cardíaca, IMC e atividade física para estimar a idade biológica e entender o estado real de saúde.",
+  "keywords": [
+    "calculadora de idade física",
+    "idade biológica",
+    "teste de idade corporal",
+    "idade fitness",
+    "avaliação de saúde"
+  ],
+  "category": "Fitness",
+  "icon": "🧘",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

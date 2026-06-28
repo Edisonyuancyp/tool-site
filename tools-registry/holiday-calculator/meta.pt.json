@@ -1,0 +1,24 @@
+{
+  "slug": "holiday-calculator",
+  "name": "Calculadora de Feriados",
+  "tagline": "Verifique feriados e dias úteis",
+  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
+  "metaTitle": "Calculadora de Feriados – Ferramenta de Cálculo de Feriados e Dias Úteis",
+  "metaDescription": "Calcule o número de dias úteis, fins de semana e feriados entre duas datas.",
+  "keywords": [
+    "calculadora de feriados",
+    "calcular dias úteis",
+    "verificar feriados",
+    "dias de férias",
+    "calculadora de datas"
+  ],
+  "category": "Data e Hora",
+  "icon": "🎉",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
+  "variants": []
+}

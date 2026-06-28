@@ -1,0 +1,25 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "Calculadora de Aposentadoria",
+  "tagline": "Planeje e estime sua reserva para aposentadoria",
+  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
+  "metaTitle": "Calculadora de Aposentadoria – Ferramenta de Planejamento de Aposentadoria",
+  "metaDescription": "Insira idade, poupança e despesas esperadas para calcular se o dinheiro da aposentadoria será suficiente.",
+  "keywords": [
+    "calculadora de aposentadoria",
+    "planejamento aposentadoria",
+    "calcular previdência",
+    "reserva para aposentadoria",
+    "calculadora de previdência"
+  ],
+  "category": "Finanças",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

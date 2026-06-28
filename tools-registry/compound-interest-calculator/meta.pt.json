@@ -1,0 +1,28 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "Calculadora de Juros Compostos",
+  "tagline": "Calcule o crescimento com juros compostos do seu investimento",
+  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
+  "metaTitle": "Calculadora de Juros Compostos – Calculadora Gratuita de Juros Compostos Online",
+  "metaDescription": "Insira capital, taxa de juros, prazo e frequência de capitalização para calcular o valor final e os rendimentos.",
+  "keywords": [
+    "calculadora de juros compostos",
+    "juros compostos",
+    "calculadora de investimento",
+    "rendimento composto",
+    "efeito dos juros compostos"
+  ],
+  "category": "Finanças",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "O que são juros compostos?",
+      "answer": "Juros compostos significa que os juros também rendem juros – o capital e os juros anteriores geram novos rendimentos juntos."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

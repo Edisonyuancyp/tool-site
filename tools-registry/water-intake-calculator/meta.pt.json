@@ -1,0 +1,24 @@
+{
+  "slug": "water-intake-calculator",
+  "name": "Calculadora de Ingestão Diária de Água",
+  "tagline": "Calcule quanta água você deve beber por dia",
+  "description": "Get a personalized daily water intake recommendation based on body weight, activity level, climate, and pregnancy/breastfeeding status. Shows result in liters, cups, and 500mL bottles.",
+  "metaTitle": "Calculadora de Consumo de Água – Ferramenta de Cálculo de Necessidade Hídrica Diária",
+  "metaDescription": "Calcule a ingestão ótima diária de água com base em peso, nível de atividade e clima.",
+  "keywords": [
+    "calculadora de água",
+    "consumo diário de água",
+    "necessidade hídrica",
+    "hidratação",
+    "quanto beber por dia"
+  ],
+  "category": "Saúde",
+  "icon": "💧",
+  "faqs": [],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "bmi-calculator",
+    "running-pace-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "bmi-calculator",
+  "name": "Calculadora de IMC",
+  "tagline": "Calcule seu Índice de Massa Corporal instantaneamente",
+  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
+  "metaTitle": "Calculadora de IMC – Calculadora Online Gratuita de IMC",
+  "metaDescription": "Insira altura e peso para calcular seu IMC e classificação de peso (abaixo do peso/normal/sobrepeso/obesidade). Grátis, sem cadastro.",
+  "keywords": [
+    "calculadora de IMC",
+    "calcular IMC",
+    "índice de massa corporal",
+    "calcular peso ideal",
+    "IMC online"
+  ],
+  "category": "Saúde",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "O que é o IMC?",
+      "answer": "IMC (Índice de Massa Corporal) = peso (kg) ÷ altura (m)². É uma ferramenta de triagem para avaliar se o peso está saudável."
+    },
+    {
+      "question": "Qual é a faixa de IMC normal?",
+      "answer": "18,5–24,9 é normal. Abaixo de 18,5 é abaixo do peso, 25–29,9 é sobrepeso, 30 ou acima é obesidade."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

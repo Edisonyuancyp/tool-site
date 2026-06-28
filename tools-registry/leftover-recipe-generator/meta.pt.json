@@ -1,0 +1,23 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "Gerador de Receitas com Sobras",
+  "tagline": "Crie novas receitas a partir dos ingredientes que sobraram",
+  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
+  "metaTitle": "Gerador de Receitas com Sobras – Ferramenta de Receitas com Ingredientes Restantes",
+  "metaDescription": "Insira os ingredientes que sobraram na geladeira e receba sugestões de receitas para reduzir o desperdício alimentar.",
+  "keywords": [
+    "receitas com sobras",
+    "usar ingredientes que sobraram",
+    "receita de geladeira",
+    "reduzir desperdício alimentar",
+    "ideias com sobras"
+  ],
+  "category": "Culinária",
+  "icon": "🥡",
+  "faqs": [],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": []
+}
