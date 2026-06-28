@@ -1,20 +1,36 @@
 {
   "slug": "travel-expense-estimator",
-  "name": "Reisekostenschätzer",
-  "tagline": "Gesamtreisebudget und Pro-Kopf-Kosten schätzen",
-  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
-  "metaTitle": "Reisekostenschätzer – Reisebudget-Planungstool",
-  "metaDescription": "Transport-, Unterkunfts-, Verpflegungs- und Aktivitätskosten eingeben und Gesamtreisebudget sowie Pro-Kopf-Kosten schätzen.",
+  "name": "Reisekostenrechner",
+  "tagline": "Schätzen Sie Ihre Reisekosten schnell.",
+  "description": "Berechnen Sie Ihre gesamten Reiseausgaben, indem Sie Ihr Reiseziel, Verkehrsmittel, Dauer und tägliche Ausgaben eingeben. Perfekt für budgetbewusste Reisende, die ihre nächste Reise planen.",
+  "metaTitle": "Reisekostenrechner – Kostenloser Reisebudget-Planer | Online Tool",
+  "metaDescription": "Berechnen Sie Ihre Reisekosten sofort kostenlos – ohne Anmeldung. Planen Sie Ihr Budget für das nächste Abenteuer!",
   "keywords": [
-    "Reisekostenschätzer",
-    "Reisebudget Rechner",
+    "Reisekostenrechner",
     "Reisekosten berechnen",
-    "Urlaubskosten planen",
-    "Reisekostenplanung"
+    "Reisebudget-Tool",
+    "Reisekostenplanung",
+    "Reisekosten",
+    "Roadtrip-Kostenrechner",
+    "Roadtrip Spritkosten Rechner",
+    "Reisebudget planen"
   ],
-  "category": "Reise",
+  "category": "Travel",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie berechne ich meine Reisekosten?",
+      "answer": "Geben Sie Ihr Reiseziel, Verkehrsmittel, Dauer und tägliche Kosten ein, um eine Schätzung zu erhalten."
+    },
+    {
+      "question": "Kann ich meine Schätzungen speichern?",
+      "answer": "Das Tool unterstützt derzeit das Speichern von Schätzungen nicht, aber Sie können diese aufschreiben."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, der Reisekostenrechner ist vollständig kostenlos und erfordert keine Anmeldung."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

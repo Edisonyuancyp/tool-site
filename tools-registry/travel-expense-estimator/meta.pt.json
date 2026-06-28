@@ -1,20 +1,36 @@
 {
   "slug": "travel-expense-estimator",
   "name": "Estimador de Despesas de Viagem",
-  "tagline": "Estime o orçamento total e o custo per capita da viagem",
-  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
-  "metaTitle": "Estimador de Despesas de Viagem – Ferramenta de Planejamento de Orçamento de Viagem",
-  "metaDescription": "Insira transporte, hospedagem, alimentação e atividades para estimar o orçamento total e o custo per capita.",
+  "tagline": "Estime os custos da sua viagem rapidamente.",
+  "description": "Calcule suas despesas totais de viagem inserindo seu destino, modo de transporte, duração e despesas diárias. Perfeito para viajantes que buscam economizar ao planejar a próxima aventura.",
+  "metaTitle": "Estimador de Despesas de Viagem – Planejador de Orçamento | Ferramenta Gratuita",
+  "metaDescription": "Estime suas despesas de viagem instantaneamente, gratuitamente e sem cadastro. Tenha um orçamento claro para sua próxima aventura!",
   "keywords": [
-    "estimativa de despesas de viagem",
-    "orçamento de viagem",
-    "calcular gastos de viagem",
-    "planejamento de viagem",
-    "custo de viagem"
+    "estimador de despesas de viagem",
+    "calculadora de custos de viagem",
+    "ferramenta de viagem econômica",
+    "planejamento de orçamento de viagem",
+    "custo de viagem",
+    "calculadora de custos de road trip",
+    "calculadora de gasolina para road trip",
+    "ferramenta de orçamento de viagem"
   ],
-  "category": "Viagem",
+  "category": "Travel",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como faço para calcular minhas despesas de viagem?",
+      "answer": "Digite seu destino, modo de transporte, duração e custos diários para obter uma estimativa."
+    },
+    {
+      "question": "Posso salvar meus orçamentos?",
+      "answer": "Atualmente, a ferramenta não suporta salvar orçamentos, mas você pode anotá-los."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, o Estimador de Despesas de Viagem é completamente gratuito e não requer cadastro."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

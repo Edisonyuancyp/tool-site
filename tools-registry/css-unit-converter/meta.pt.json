@@ -1,0 +1,52 @@
+{
+  "slug": "css-unit-converter",
+  "name": "Conversor de Unidades CSS",
+  "tagline": "Converta px para rem, em, vw e mais — cálculos instantâneos de unidades CSS",
+  "description": "Converta entre unidades CSS: px, rem, em, vw, vh, pt e cm. Defina seu tamanho de fonte base e obtenha conversões instantâneas para design responsivo.",
+  "metaTitle": "Conversor de Unidades CSS – px para rem, em, vw | Ferramenta Gratuita Online | GetFastCalc",
+  "metaDescription": "Conversor de unidades CSS gratuito. Converta px para rem, em, vw, vh, pt instantaneamente. Defina tamanho de fonte customizável. Sem necessidade de cadastro.",
+  "keywords": [
+    "conversor de unidades css",
+    "conversor px para rem",
+    "conversor px para em",
+    "conversor rem para px online",
+    "calculadora css px rem",
+    "conversor de unidades para design responsivo",
+    "converter pixels para rem grátis",
+    "calculadora em para px",
+    "conversor de unidades css npm",
+    "conversor px para vw css",
+    "conversor px para rem css",
+    "conversor px para rem instantâneo e bidirecional",
+    "conversor px para rem online",
+    "conversor px para rem w3",
+    "conversor px para rem css",
+    "conversor px para rem vscode",
+    "extensão conversor px para rem",
+    "conversor px para rem w3schools",
+    "conversor px para em online",
+    "conversor px em cm"
+  ],
+  "category": "Developer",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "Qual é a fórmula para converter px para rem?",
+      "answer": "rem = px ÷ tamanho da fonte base. O tamanho de fonte base padrão do navegador é 16px, então 32px = 2rem. Você pode alterar o tamanho base nesta ferramenta para corresponder ao seu projeto."
+    },
+    {
+      "question": "Qual é a diferença entre rem e em?",
+      "answer": "rem (root em) é relativo ao tamanho da fonte do elemento raiz. em é relativo ao tamanho da fonte do elemento atual, o que pode causar cascata e resultados inesperados. rem é geralmente preferido para layouts responsivos consistentes."
+    },
+    {
+      "question": "Como faço para converter px para vw?",
+      "answer": "vw = (px ÷ largura da viewport) × 100. Digite a largura da sua viewport na ferramenta e ela calculará o valor em vw automaticamente."
+    }
+  ],
+  "relatedTools": [
+    "css-variables-generator",
+    "typography-compare-lab",
+    "color-palette-lab"
+  ],
+  "variants": []
+}

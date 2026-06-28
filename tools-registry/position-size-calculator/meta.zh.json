@@ -1,23 +1,42 @@
 {
   "slug": "position-size-calculator",
-  "name": "仓位大小计算器",
-  "tagline": "根据风险管理计算最优仓位大小",
-  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
-  "metaTitle": "仓位大小计算器 – 交易风险管理工具",
-  "metaDescription": "输入账户资金、风险比例和止损点位，计算最优仓位大小，保护交易资金。",
+  "name": "头寸计算器",
+  "tagline": "永远不要冒超过承受能力的风险——计算完美的头寸规模",
+  "description": "输入您的账户规模、每笔交易风险百分比、入场价格、止损价格和杠杆倍数，计算以美元和单位数表示的精确头寸规模。包括费用调整和风险等级警告。",
+  "metaTitle": "头寸计算器 - 加密货币和股票交易风险管理工具",
+  "metaDescription": "免费头寸计算器，适用于交易者。输入账户规模、风险百分比、入场价和止损价，获得精确头寸规模、所需保证金和交易单位。包含费用调整功能。",
   "keywords": [
-    "仓位计算器",
-    "仓位大小计算",
-    "交易风险管理",
-    "止损仓位计算",
-    "外汇仓位计算"
+    "头寸计算器",
+    "加密货币头寸计算",
+    "交易风险管理计算器",
+    "每笔交易投资金额",
+    "每笔交易风险计算器",
+    "MT5头寸计算器",
+    "MT5头寸计算器免费下载",
+    "外汇头寸计算器",
+    "加密货币头寸计算器",
+    "MyFxBook头寸计算器",
+    "现货黄金头寸计算器",
+    "BabyPips头寸计算器",
+    "在线头寸计算器",
+    "外汇在线头寸计算器",
+    "MT5在线头寸计算器",
+    "免费头寸计算器",
+    "免费MT5头寸计算器",
+    "免费头寸计算器应用",
+    "免费外汇头寸计算器",
+    "免费MT4头寸计算器"
   ],
-  "category": "加密",
+  "category": "Crypto",
   "icon": "📐",
   "faqs": [
     {
-      "question": "什么是仓位管理？",
-      "answer": "仓位管理是控制每笔交易风险的方法，通常建议每笔交易风险不超过账户资金的 1–2%。"
+      "question": "每笔交易应该冒多少风险？",
+      "answer": "专业交易员通常每笔交易的风险为账户的1-2%。这意味着即使连续亏损10次，账户也只会下降10-20%。"
+    },
+    {
+      "question": "头寸规模是如何计算的？",
+      "answer": "头寸规模 = (账户规模 × 风险百分比) / 止损距离百分比。例如：$10,000账户、1%风险、5%止损 → $100/$0.05 = $2,000头寸。"
     }
   ],
   "relatedTools": [

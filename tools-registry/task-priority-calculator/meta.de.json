@@ -1,20 +1,47 @@
 {
   "slug": "task-priority-calculator",
-  "name": "Aufgaben-Priorisierungsrechner",
-  "tagline": "Aufgaben mit der Eisenhower-Matrix priorisieren",
-  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
-  "metaTitle": "Aufgaben-Priorisierungsrechner – Zeitmanagement-Tool",
-  "metaDescription": "Aufgaben nach Dringlichkeit und Wichtigkeit bewerten, Prioritätenreihenfolge automatisch ermitteln und Arbeitseffizienz steigern.",
+  "name": "Aufgabenpriorisierungs-Rechner",
+  "tagline": "Priorisieren Sie Ihre Aufgaben für maximale Effizienz",
+  "description": "Dieses Tool hilft Ihnen, Ihre täglichen Aufgaben anhand von Dringlichkeit und Wichtigkeit zu priorisieren. Ideal für Berufstätige und Studierende, die ihre To-Do-Listen optimieren möchten.",
+  "metaTitle": "Aufgabenpriorisierung – Kostenlos Online Aufgaben priorisieren",
+  "metaDescription": "Nutzen Sie unseren kostenlosen Aufgabenpriorisierungs-Rechner, um Ihre Aufgaben nach Dringlichkeit und Wichtigkeit zu bewerten und Ihre Produktivität zu steigern.",
   "keywords": [
     "Aufgabenpriorisierung",
-    "Zeitmanagement Tool",
-    "Eisenhower Matrix",
-    "Produktivität Rechner",
-    "Aufgabenverwaltung"
+    "Aufgaben-Ranking-Tool",
+    "dringende Aufgaben",
+    "wichtige Aufgaben",
+    "Produktivitäts-Rechner",
+    "Aufgabenpriorisierungs-Matrix",
+    "Aufgabenverfolgung",
+    "Aufgabenverfolgung Excel-Vorlage",
+    "Aufgabenpriorisierungsstufen",
+    "Aufgabenliste",
+    "Aufgabenpriorisierung FreeRTOS",
+    "Aufgabenverfolgung Excel-Vorlage kostenlos",
+    "dringende und wichtige Aufgaben",
+    "dringende Aufgaben Beispiele",
+    "dringende Aufgaben Synonyme",
+    "dringende Aufgabe Bedeutung",
+    "dringende Aufgaben unserer Bewegung",
+    "dringende Aufgaben und Protokollarbeit bleiben",
+    "anstehende dringende Aufgabe"
   ],
-  "category": "Produktivität",
+  "category": "Productivity",
   "icon": "📋",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Rechner?",
+      "answer": "Sie geben Ihre Aufgaben mit Dringlichkeits- und Wichtigkeitsbewertungen ein, und der Rechner priorisiert sie für Sie."
+    },
+    {
+      "question": "Ist es wirklich kostenlos?",
+      "answer": "Ja, dieses Tool ist völlig kostenlos zu nutzen, ohne versteckte Gebühren oder erforderliche Anmeldung."
+    },
+    {
+      "question": "Kann ich es für Teamaufgaben nutzen?",
+      "answer": "Selbstverständlich! Sie können dieses Tool sowohl für persönliche als auch für Team-Aufgabenpriorisierung verwenden."
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "time-tracking-tool"

@@ -1,20 +1,47 @@
 {
   "slug": "task-priority-calculator",
   "name": "任务优先级计算器",
-  "tagline": "使用艾森豪威尔矩阵排列任务优先级",
-  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
-  "metaTitle": "任务优先级计算器 – 时间管理工具",
-  "metaDescription": "通过紧急性和重要性对任务进行评分，生成优先处理顺序，提升工作效率。",
+  "tagline": "对任务进行排序以获得最高效率",
+  "description": "这个工具可以帮助您根据紧急程度和重要程度来优先安排日常任务。非常适合希望优化待办事项列表的专业人士和学生。",
+  "metaTitle": "任务优先级计算器 – 免费在线生产力工具",
+  "metaDescription": "使用我们的免费任务优先级计算器，按紧急程度和重要性排序任务，提高生产力。无需注册，立即生成结果。",
   "keywords": [
     "任务优先级",
-    "时间管理工具",
-    "艾森豪威尔矩阵",
-    "工作效率计算器",
-    "待办事项排序"
+    "任务排序工具",
+    "紧急任务",
+    "重要任务",
+    "生产力计算器",
+    "任务优先级矩阵",
+    "任务优先级追踪器",
+    "任务优先级Excel模板",
+    "任务优先级别",
+    "任务优先列表",
+    "任务优先级FreeRTOS",
+    "任务优先级Excel模板免费下载",
+    "紧急任务与重要任务",
+    "紧急任务示例",
+    "紧急任务同义词",
+    "紧急任务的含义",
+    "运动的紧急任务",
+    "紧急任务和日志工作将保持",
+    "当前紧急任务"
   ],
-  "category": "效率",
+  "category": "Productivity",
   "icon": "📋",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "计算器如何工作？",
+      "answer": "您输入任务及其紧急程度和重要程度的评分，计算器会为您进行排序。"
+    },
+    {
+      "question": "它真的是免费的吗？",
+      "answer": "是的，这个工具完全免费使用，无隐藏费用，无需注册。"
+    },
+    {
+      "question": "我可以用它来管理团队任务吗？",
+      "answer": "当然可以！您可以使用此工具进行个人和团队任务优先级排序。"
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "time-tracking-tool"

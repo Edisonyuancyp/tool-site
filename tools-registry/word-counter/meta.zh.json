@@ -1,27 +1,46 @@
 {
   "slug": "word-counter",
-  "name": "字数统计器",
-  "tagline": "统计文字数量、字符数和阅读时间",
-  "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
-  "metaTitle": "字数统计器 – 在线免费字数/字符计数",
-  "metaDescription": "粘贴文本即可统计单词数、字符数、句子数和预计阅读时间。免费，实时统计。",
+  "name": "字数统计工具",
+  "tagline": "统计字数、字符、句子和阅读时间",
+  "description": "粘贴您的文本即可快速统计字数、字符、句子、段落和预计阅读时间。适用于论文、文章、SEO内容和社交媒体帖子。",
+  "metaTitle": "字数统计工具 – 免费在线字数计数器",
+  "metaDescription": "在线免费统计字数和字符数。支持论文、文章和社交媒体文本计数。获取字数、字符数和阅读时间。",
   "keywords": [
-    "字数统计器",
+    "字数统计",
     "字符计数",
+    "字数统计工具",
     "在线字数统计",
-    "单词计数",
-    "文字统计工具"
+    "在线计算字数",
+    "字数计数",
+    "文字计数",
+    "统计字数",
+    "泰文字数统计",
+    "泰文字数计数器",
+    "在线字数统计工具",
+    "免费在线字数统计",
+    "PDF字数统计",
+    "印地文字数统计",
+    "图片字数统计",
+    "在线统计字数",
+    "在线字数计数工具",
+    "阿拉伯文字数统计",
+    "免费字数统计",
+    "免费在线字数计数"
   ],
-  "category": "工具",
+  "category": "Utilities",
   "icon": "📝",
   "faqs": [
     {
-      "question": "字数统计支持中文吗？",
-      "answer": "支持，可统计中文字符数量。"
+      "question": "如何统计文本中的字数？",
+      "answer": "将您的文本粘贴到上方输入框中。当您输入或粘贴时，字数会实时更新。"
     },
     {
-      "question": "阅读时间如何计算？",
-      "answer": "基于平均每分钟阅读 200–250 个单词（英文）估算。"
+      "question": "统计字符是否包括空格？",
+      "answer": "两者都统计。该工具分别显示包含空格的字符数和不包含空格的字符数。"
+    },
+    {
+      "question": "阅读时间是如何计算的？",
+      "answer": "阅读时间基于成年人平均每分钟200–250个字的阅读速度计算。"
     }
   ],
   "relatedTools": [

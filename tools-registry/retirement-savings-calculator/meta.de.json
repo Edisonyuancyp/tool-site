@@ -1,20 +1,52 @@
 {
   "slug": "retirement-savings-calculator",
-  "name": "Altersvorsorgerechner",
-  "tagline": "Altersvorsorge planen und berechnen",
-  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
-  "metaTitle": "Altersvorsorgerechner – Rentenplanungs-Tool",
-  "metaDescription": "Alter, Ersparnisse und erwartete Ausgaben eingeben und berechnen, ob das Geld im Ruhestand reicht.",
+  "name": "Altersvorsorge-Rechner",
+  "tagline": "Sehen Sie, wie viel Sie sparen müssen, um komfortabel in den Ruhestand zu gehen",
+  "description": "Geben Sie Ihr aktuelles Alter, Ihre Ersparnisse, monatliche Beiträge und die erwartete Rendite ein, um zu sehen, ob Sie auf Kurs für den Ruhestand sind. Zeigt das prognostizierte Altersvorsorgevermögen mit 65 Jahren, das monatliche Einkommen im Ruhestand und ob Sie eine Sparquotenlücke haben.",
+  "metaTitle": "Altersvorsorge-Rechner – Spare ich genug für meinen Ruhestand?",
+  "metaDescription": "Kostenloser Altersvorsorge-Rechner. Geben Sie Ihr Alter, aktuelle Ersparnisse und monatliche Beiträge ein, um Ihre prognostizierte Altersvorsorge und das monatliche Renteneinkommen zu berechnen. Kostenlos und ohne Anmeldung.",
   "keywords": [
-    "Altersvorsorgerechner",
-    "Rentenplanung",
-    "Rente berechnen",
-    "Ruhestand Planung",
-    "Altersrücklage"
+    "altersvorsorge rechner",
+    "rentner rechner",
+    "wie viel sparen für ruhestand",
+    "altersvorsorgevermögen rechner",
+    "rentenplanung rechner",
+    "spare ich genug für den ruhestand",
+    "altersvorsorge rechner deutschland",
+    "altersvorsorge rechner nach alter",
+    "altersvorsorge rechner österreich",
+    "altersvorsorge rechner mit gesetzlicher rente",
+    "altersvorsorge rechner für paare",
+    "rentenrechner kostenlos",
+    "altersvorsorge rechner kapitalanlage",
+    "online altersvorsorge rechner",
+    "kostenlos altersvorsorge rechner",
+    "bester kostenloser altersvorsorge rechner",
+    "rentenrechner kapitalanlage",
+    "altersvorsorge rechner schweiz",
+    "rentenrechner gratis",
+    "rentenrechner mit gesetzlicher rente"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie viel sollte ich bis zu einem bestimmten Alter für den Ruhestand gespart haben?",
+      "answer": "Nach der Fidelity-Faustregel sollten Sie folgendes gespart haben: das 1-fache Ihres Jahreseinkommens mit 30 Jahren, das 3-fache mit 40, das 6-fache mit 50, das 8-fache mit 60 und das 10-fache mit 67 Jahren. Wenn Sie also 60.000 Euro verdienen, sollten Sie mit 67 Jahren 600.000 Euro gespart haben. Dies sind Richtlinien – Ihr tatsächlicher Betrag hängt von Ihrem gewünschten Lebensstil im Ruhestand ab."
+    },
+    {
+      "question": "Was ist die 4%-Regel für den Ruhestand?",
+      "answer": "Die 4%-Regel besagt, dass Sie jährlich 4% Ihres Altersvermögens abheben können, ohne dass das Geld über eine 30-jährige Rentenbezugsdauer aufgebraucht wird. Wenn Sie also 50.000 Euro pro Jahr benötigen, sollten Sie 1,25 Millionen Euro gespart haben (50.000 Euro ÷ 0,04)."
+    },
+    {
+      "question": "Welche Rendite sollte ich annehmen?",
+      "answer": "Der S&P 500 hat historisch gesehen etwa 7% pro Jahr nach Inflation erwirtschaftet. Für eine konservative Schätzung verwenden Sie 5–6%; für eine optimistische Prognose verwenden Sie 8–10%. Der Rechner verwendet standardmäßig 7%."
+    },
+    {
+      "question": "Was ist, wenn ich spät anfange zu sparen?",
+      "answer": "Wenn Sie später anfangen, müssen Sie aggressiver sparen. Nutzen Sie diesen Rechner, um die erforderliche monatliche Rate zu ermitteln, um Ihr Ziel zu erreichen. Die wichtigsten Hebel sind höhere Beiträge, Verzögerung des Renteneintritts um einige Jahre oder Reduzierung der erwarteten Ruhestandsausgaben."
+    }
+  ],
   "relatedTools": [
     "compound-interest-calculator",
     "investment-return-calculator",

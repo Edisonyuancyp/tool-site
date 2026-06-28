@@ -1,20 +1,48 @@
 {
   "slug": "unix-timestamp-converter",
   "name": "Unix-Zeitstempel-Konverter",
-  "tagline": "Unix-Zeitstempel und Datum/Uhrzeit umrechnen",
-  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
-  "metaTitle": "Unix-Zeitstempel-Konverter – Online Zeitstempel-Konvertierungstool",
-  "metaDescription": "Unix-Zeitstempel in lesbare Datum/Uhrzeit umwandeln oder Datum/Uhrzeit in Zeitstempel konvertieren. Sekunden und Millisekunden unterstützt.",
+  "tagline": "Konvertieren Sie Unix-Zeitstempel sofort in lesbare Daten",
+  "description": "Konvertieren Sie Unix-Epoch-Zeitstempel in formatierte Daten und umgekehrt. Unterstützt Sekunden und Millisekunden, über 12 Zeitzonen, ISO-8601-Ausgabe, relative Zeit und eine Live-Echtzeituhr.",
+  "metaTitle": "Unix-Zeitstempel-Konverter – Epoch zu Datum & Datum zu Unix-Zeitstempel kostenlos",
+  "metaDescription": "Kostenloser Unix-Zeitstempel-Konverter. Konvertieren Sie Epoch in Datum oder Datum in Unix-Zeitstempel. Unterstützt Sekunden, Millisekunden, UTC und über 12 Zeitzonen. Mit Live-Uhr.",
   "keywords": [
-    "Unix Zeitstempel",
-    "Zeitstempel konvertieren",
-    "Epoch Zeit Konverter",
-    "Datum Zeitstempel",
-    "Zeitstempel Tool"
+    "Unix-Zeitstempel-Konverter",
+    "Epoch in Datum",
+    "Zeitstempel in Datum",
+    "Unix-Zeit-Konverter online",
+    "Epoch-Konverter",
+    "Unix-Zeitstempel-Konverter online",
+    "Unix-Zeitstempel-Konverter Excel",
+    "Unix-Zeitstempel-Konverter Millisekunden",
+    "Unix-Zeitstempel-Konverter Python",
+    "Unix-Zeitstempel in Datum konvertieren",
+    "Unix-Zeitstempel-Konverter Excel-Formel",
+    "Unix-Zeitstempel-Konverter Zeitzone",
+    "Unix-Zeitstempel in Datum Konverter online",
+    "Unix-Zeitstempel in DateTime-Konverter online",
+    "Unix-Zeitstempel in IST online Konverter",
+    "Epoch in DateTime",
+    "Epoch in Datum Konverter",
+    "Epoch in Datum Python",
+    "Epoch in Datum Excel",
+    "Epoch in Datum JavaScript"
   ],
-  "category": "Entwicklung",
+  "category": "Developer",
   "icon": "⏱️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist ein Unix-Zeitstempel?",
+      "answer": "Ein Unix-Zeitstempel (Epoch-Zeit) ist die Anzahl der Sekunden, die seit dem 1. Januar 1970, 00:00:00 UTC vergangen sind. Er wird universell in Programmierung, Datenbanken und APIs verwendet, um Zeitpunkte als einzelne Ganzzahl darzustellen."
+    },
+    {
+      "question": "Sekunden vs. Millisekunden – wie erkenne ich, welche ich habe?",
+      "answer": "Eine 10-stellige Zahl (z. B. 1700000000) sind Sekunden. Eine 13-stellige Zahl (z. B. 1700000000000) sind Millisekunden."
+    },
+    {
+      "question": "Was ist das Jahr-2038-Problem?",
+      "answer": "32-Bit-Ganzzahlen mit Vorzeichen können nur Werte bis 2.147.483.647 speichern – das entspricht dem 19. Januar 2038, 03:14:07 UTC. Systeme mit 32-Bit-Zeitstempeln werden an diesem Datum einen Overflow erleben."
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

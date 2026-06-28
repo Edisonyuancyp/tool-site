@@ -1,20 +1,48 @@
 {
   "slug": "carbon-footprint-travel-calculator",
-  "name": "Reise-CO₂-Rechner",
-  "tagline": "CO₂-Emissionen deiner Reise schätzen",
-  "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
-  "metaTitle": "Reise-CO₂-Rechner – CO₂-Emissionen berechnen",
-  "metaDescription": "CO₂-Emissionen für Flug-, Auto- oder Zugreisen berechnen und den Umwelteinfluss der Reise verstehen.",
+  "name": "CO2-Rechner für Reisen",
+  "tagline": "Berechnen Sie die CO2-Bilanz Ihrer Reise.",
+  "description": "Bewerten Sie den CO2-Fußabdruck Ihrer Reisepläne, indem Sie die Reisedistanz, das Transportmittel und die Unterkunftsart eingeben. Ideal für umweltbewusste Reisende, die ihren ökologischen Fußabdruck minimieren möchten.",
+  "metaTitle": "CO2-Rechner für Reisen – Nachhaltiger Reisen | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie kostenlos den CO2-Fußabdruck Ihrer Reise und finden Sie Wege, umweltfreundlicher zu reisen. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
   "keywords": [
-    "CO₂-Rechner Reise",
-    "Flug CO₂ berechnen",
-    "Reiseemissionen",
-    "Ökologischer Fußabdruck",
-    "Klimarechner"
+    "CO2-Rechner",
+    "Nachhaltige Reisen",
+    "CO2-Fußabdruck Reise",
+    "Umweltfreundliche Reisen",
+    "Grüner Reiserechner",
+    "CO2-Rechner für Reisen",
+    "Flugverkehr CO2-Rechner",
+    "Reisen CO2-Fußabdruck Deutschland",
+    "Zugfahrt CO2-Rechner",
+    "Autofahrt CO2-Rechner",
+    "CO2-Rechner für Studenten",
+    "CO2-Fußabdruck Kalkulator",
+    "CO2-Rechner kostenlos",
+    "Reisen CO2-Fußabdruck Australien",
+    "CO2-Rechner App",
+    "CO2-Fußabdruck Reiserechner",
+    "CO2-Emissionen Reiserechner",
+    "Reisen Kohlenstoff-Fußabdruck",
+    "CO2-Fußabdruck Urlaubsrechner",
+    "Emissionen Reiserechner"
   ],
-  "category": "Reise",
+  "category": "Travel",
   "icon": "🌍",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was misst dieser Rechner?",
+      "answer": "Der Rechner misst den CO2-Fußabdruck basierend auf Ihrem Transportmittel, der Reisedistanz und den Unterkünften."
+    },
+    {
+      "question": "Kann ich verschiedene Reiseoptionen vergleichen?",
+      "answer": "Ja, Sie können unterschiedliche Szenarien eingeben, um zu sehen, welche die geringere CO2-Bilanz hat."
+    },
+    {
+      "question": "Ist dieses Tool genau?",
+      "answer": "Der Rechner liefert Schätzungen basierend auf durchschnittlichen Emissionsdaten für verschiedene Transportmittel."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

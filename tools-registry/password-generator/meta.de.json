@@ -1,23 +1,46 @@
 {
   "slug": "password-generator",
-  "name": "Passwortgenerator",
-  "tagline": "Sichere Zufallspasswörter generieren",
-  "description": "Create strong random passwords with custom length and character sets. Choose uppercase, lowercase, numbers, and symbols. Copy with one click.",
-  "metaTitle": "Passwortgenerator – Kostenloses Online-Passwort-Generator-Tool",
-  "metaDescription": "Erstelle starke Zufallspasswörter mit anpassbarer Länge, Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen. 100 % lokal, keine Datenübertragung.",
+  "name": "Passwort-Generator",
+  "tagline": "Erzeugen Sie instantly starke, sichere Passwörter",
+  "description": "Erstellen Sie starke Zufallspasswörter mit benutzerdefinierten Längen und Zeichensätzen. Wählen Sie Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole. Mit einem Klick kopieren.",
+  "metaTitle": "Passwort-Generator – Kostenloser starker Passwort-Generator online",
+  "metaDescription": "Generieren Sie sofort starke Zufallspasswörter. Passen Sie Länge, Groß- und Kleinbuchstaben, Zahlen und Symbole an. Kostenloser sicherer Passwort-Generator – ohne Registrierung.",
   "keywords": [
-    "Passwortgenerator",
-    "Zufallspasswort",
-    "Sicheres Passwort",
-    "Starkes Passwort erstellen",
-    "Passwort generieren"
+    "passwort generator",
+    "starker passwort generator",
+    "zufallspasswort generator",
+    "sicherer passwort ersteller",
+    "passwort generator 12 zeichen",
+    "passwort generator 10 zeichen",
+    "passwort generator lastpass",
+    "passwort generator 8 zeichen",
+    "passwort generator 16 zeichen",
+    "passwort generator kostenlos",
+    "passwort generator wort",
+    "passwort generator komplex",
+    "kostenloser passwort generator 12 zeichen",
+    "kostenloser passwort generator 15 zeichen",
+    "kostenloser passwort generator 8 zeichen",
+    "kostenloser passwort generator 16 zeichen",
+    "kostenloser passwort generator 10 zeichen",
+    "kostenloser passwort generator mit wörtern",
+    "kostenloser passwort generator 14 zeichen",
+    "kostenloser passwort generator stark"
   ],
-  "category": "Sicherheit",
+  "category": "Security",
   "icon": "🔐",
   "faqs": [
     {
-      "question": "Werden Passwörter gespeichert?",
-      "answer": "Nein. Die gesamte Verarbeitung erfolgt lokal im Browser – keine Daten werden übertragen."
+      "question": "Was macht ein Passwort stark?",
+      "answer": "Ein starkes Passwort ist mindestens 12 Zeichen lang und verwendet eine Mischung aus Großbuchstaben, Kleinbuchstaben, Zahlen und Sonderzeichen."
+    },
+    {
+      "question": "Ist dieser Passwort-Generator sicher zu verwenden?",
+      "answer": "Ja. Passwörter werden vollständig in Ihrem Browser mit der kryptographischen Zufallsfunktion von JavaScript generiert. Sie werden niemals an einen Server übertragen."
+    },
+    {
+      "question": "Wie lang sollte mein Passwort sein?",
+      "answer": "Wir empfehlen mindestens 16 Zeichen für wichtige Konten. Je länger das Passwort, desto schwerer ist es zu knacken."
     }
   ],
   "relatedTools": [

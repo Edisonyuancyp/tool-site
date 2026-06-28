@@ -1,0 +1,60 @@
+{
+  "slug": "risk-calculator",
+  "name": "Calculadora de Tamanho de Posição",
+  "tagline": "Calcule o tamanho da sua posição e gerencie o risco de trading — grátis, instantâneo, apenas no navegador",
+  "description": "Digite seu saldo da conta, percentual de risco, preço de entrada e preço de stop-loss para calcular instantaneamente o tamanho correto da posição e o valor máximo de risco. Funciona para criptomoedas, forex e ações.",
+  "metaTitle": "Calculadora de Tamanho de Posição para Trading | Ferramenta de Gestão de Risco",
+  "metaDescription": "Calcule o tamanho da sua posição e gerencie o risco de trading com esta calculadora grátis para cripto e forex. Evite liquidação e otimize o tamanho do seu trade.",
+  "keywords": [
+    "calculadora de tamanho de posição",
+    "gestão de risco de trading",
+    "calculadora stop loss cripto",
+    "calculadora de risco forex",
+    "ferramenta de dimensionamento de posição",
+    "calculadora risco retorno",
+    "calculadora de lote forex",
+    "tamanho de posição cripto grátis",
+    "calculadora percentual de risco trading",
+    "tamanho de posição stop loss",
+    "calculadora tamanho posição mt5",
+    "calculadora tamanho posição mt5 grátis download",
+    "calculadora tamanho posição forex",
+    "calculadora tamanho posição cripto",
+    "calculadora tamanho posição myfxbook",
+    "calculadora tamanho posição xauusd",
+    "calculadora tamanho posição babypips",
+    "calculadora tamanho posição online",
+    "calculadora posição forex online",
+    "calculadora tamanho posição mt5 online"
+  ],
+  "category": "Quant",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Qual é a fórmula do tamanho da posição?",
+      "answer": "Tamanho da Posição = (Saldo da Conta × Risco %) ÷ (Preço de Entrada − Preço de Stop Loss). Isso mostra exatamente quantas unidades ou moedas você deve comprar para que, se seu stop loss for acionado, você perca apenas o valor de risco predefinido."
+    },
+    {
+      "question": "Qual é a regra de risco de 1%?",
+      "answer": "A regra de 1% significa que você nunca deve arriscar mais de 1% do saldo total da sua conta em um único trade. Para uma conta de $10.000, a perda máxima por trade é $100. Isso protege você de perdas catastróficas."
+    },
+    {
+      "question": "Funciona para tamanhos de lote forex?",
+      "answer": "Sim. Digite seu saldo da conta na sua moeda de conta, seus preços de entrada e stop-loss, e a calculadora retorna o número de unidades. Divida por 100.000 para obter os tamanhos de lote forex padrão."
+    },
+    {
+      "question": "Funciona para trading de criptomoedas?",
+      "answer": "Sim, com certeza. Digite o preço de entrada e stop-loss da moeda em USD (ou qualquer moeda), o tamanho da sua conta e seu percentual de risco. O resultado é a quantidade de moedas/tokens para comprar."
+    },
+    {
+      "question": "Meus dados são enviados para algum servidor?",
+      "answer": "Não. Todos os cálculos são executados inteiramente no seu navegador usando JavaScript. Nada é enviado para nenhum servidor."
+    }
+  ],
+  "relatedTools": [
+    "position-size-calculator",
+    "tp-sl-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

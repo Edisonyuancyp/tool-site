@@ -1,0 +1,51 @@
+{
+  "slug": "typography-scale-generator",
+  "name": "Typografie-Skala-Generator",
+  "tagline": "Erstellen Sie mühelos harmonische Schriftgrößen",
+  "description": "Generieren Sie eine Typografie-Skala basierend auf Ihrer gewählten Basisgröße und Ratio, um visuell ansprechende Texthierarchien zu erstellen. Perfekt für Grafikdesigner und Webentwickler, die die Lesbarkeit verbessern möchten.",
+  "metaTitle": "Typografie-Skala-Generator – Schriftgrößen-Tool | Kostenlos Online",
+  "metaDescription": "Erstellen Sie eine Typografie-Skala für Ihre Designs. Kostenloses Tool, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "typografie skala",
+    "schriftgrößen generator",
+    "design typografie",
+    "texthierarchie tool",
+    "schrift pairing",
+    "typografie skala generator kostenlos",
+    "typografie skala generator online tool ohne download",
+    "typografie skala generator hex codes",
+    "kostenloses design tool",
+    "farbpaletten generator",
+    "sofortige vorschau",
+    "ohne photoshop",
+    "typografie skala generator",
+    "typografie skala generator figma",
+    "schriftgrößen skala generator",
+    "schriftgrößen skala generator figma",
+    "schriftgrößen skala generator google",
+    "schriftgröße generator",
+    "schriftgrößen skala generator kostenlos",
+    "schriftgrößen skala generator mobil"
+  ],
+  "category": "Design",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "Was ist eine Typografie-Skala?",
+      "answer": "Eine Typografie-Skala ist eine Serie von Schriftgrößen basierend auf einer konsistenten Ratio, die zur Aufrechterhaltung der visuellen Harmonie beiträgt."
+    },
+    {
+      "question": "Kann ich die Basisgröße anpassen?",
+      "answer": "Ja, Sie können jede beliebige Basisgröße eingeben, um Ihre Skala zu generieren."
+    },
+    {
+      "question": "Welche Ratios kann ich verwenden?",
+      "answer": "Gebräuchliche Ratios sind der Goldene Schnitt, die Große Terz und die Kleine Terz."
+    }
+  ],
+  "relatedTools": [
+    "font-pairing-tool",
+    "color-palette-extractor"
+  ],
+  "variants": []
+}

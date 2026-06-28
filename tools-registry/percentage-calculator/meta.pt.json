@@ -1,27 +1,46 @@
 {
   "slug": "percentage-calculator",
   "name": "Calculadora de Porcentagem",
-  "tagline": "Calcule porcentagens e variações rapidamente",
-  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
-  "metaTitle": "Calculadora de Porcentagem – Calculadora Gratuita de Porcentagem Online",
-  "metaDescription": "Calcule porcentagens, aumentos/reduções percentuais e proporções – todos os problemas de porcentagem resolvidos instantaneamente.",
+  "tagline": "Calcule porcentagens, aumentos, diminuições e muito mais",
+  "description": "Calculadora de porcentagem gratuita que resolve todos os problemas comuns com porcentagens: quanto é X% de Y, aumento/diminuição percentual, qual é a porcentagem de X em relação a Y, e porcentagem inversa.",
+  "metaTitle": "Calculadora de Porcentagem – Calcular Porcentagem Online Grátis",
+  "metaDescription": "Calcule qualquer porcentagem instantaneamente. Descubra quanto é X% de Y, aumento ou diminuição percentual, qual porcentagem um número representa de outro. Calculadora de porcentagem grátis.",
   "keywords": [
     "calculadora de porcentagem",
     "calcular porcentagem",
-    "variação percentual",
-    "calculadora de desconto",
-    "proporção"
+    "calculadora de aumento percentual",
+    "calculadora de diminuição percentual",
+    "qual a porcentagem de x em y",
+    "calculadora de porcentagem de notas",
+    "calculadora de porcentagem online",
+    "fórmula de porcentagem",
+    "calculadora de aumento de porcentagem",
+    "calculadora de diferença percentual",
+    "calculadora de porcentagem de dinheiro",
+    "calculadora de porcentagem no excel",
+    "calculadora de porcentagem grátis online",
+    "calculadora de porcentagem para jogos",
+    "calculadora de porcentagem de valores",
+    "calculadora de conversão de porcentagem",
+    "calculadora de porcentagem de grades",
+    "calculadora online de aumento percentual",
+    "calculadora de porcentagem ignou online",
+    "calculadora de porcentagem gratuita"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "%",
   "faqs": [
     {
-      "question": "Como calcular porcentagem?",
-      "answer": "Porcentagem = (Parte ÷ Total) × 100%"
+      "question": "Como calculo uma porcentagem de um número?",
+      "answer": "Multiplique o número pela porcentagem e divida por 100. Por exemplo, 20% de 150 = (20 × 150) / 100 = 30."
     },
     {
-      "question": "Como calcular o aumento percentual?",
-      "answer": "Aumento = (Novo Valor - Valor Antigo) ÷ Valor Antigo × 100%"
+      "question": "Como calculo um aumento percentual?",
+      "answer": "Aumento percentual = ((Valor Novo - Valor Antigo) / Valor Antigo) × 100. Por exemplo, de 80 para 100 é um aumento de 25%."
+    },
+    {
+      "question": "Como descubro qual porcentagem um número representa de outro?",
+      "answer": "Divida o primeiro número pelo segundo e multiplique por 100. Por exemplo, 30 é qual % de 200? (30/200) × 100 = 15%."
     }
   ],
   "relatedTools": [

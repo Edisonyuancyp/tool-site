@@ -1,0 +1,60 @@
+{
+  "slug": "jwt-decoder",
+  "name": "JWT Decoder & Security Checker",
+  "tagline": "Dekodieren und inspizieren Sie JWT-Token — mit Sicherheitsanalyse",
+  "description": "Fügen Sie einen beliebigen JSON Web Token ein, um Header, Payload und Ablaufdatum sofort zu dekodieren. Inklusive Sicherheitsprüfung: prüft auf fehlende Ablaufdaten (exp), schwache Algorithmen und häufige Konfigurationsfehler.",
+  "metaTitle": "JWT Decoder & Security Checker — kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "JWT-Token sofort dekodieren. Header, Payload und Ablaufdatum anzeigen. Integrierter Sicherheitsanalysator markiert fehlende exp, schwache Algorithmen und andere JWT-Sicherheitsprobleme.",
+  "keywords": [
+    "JWT Decoder",
+    "JWT Debugger",
+    "JWT Token dekodieren",
+    "JSON Web Token Decoder",
+    "JWT Sicherheitsprüfer",
+    "JWT Payload Viewer",
+    "JWT Decoder online",
+    "jwt_decoder flutter",
+    "JWT Encoder Decoder",
+    "JWT Decoder Java",
+    "JWT Decoder Microsoft",
+    "JWT dekodieren React",
+    "JWT Decoder io",
+    "JWT Debugger GitHub",
+    "JWT Debugger io",
+    "JWT Debugger alte Version",
+    "JWT Debugger online",
+    "JWT Debugger Chrome Extension",
+    "JWT Debugger Extension",
+    "JWT Debugger Offline"
+  ],
+  "category": "Developer",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "Ist es sicher, meinen JWT-Token hier einzufügen?",
+      "answer": "Dieses Tool dekodiert JWT-Token vollständig in Ihrem Browser — es werden keine Daten an einen Server gesendet. Die Dekodierung erfolgt clientseitig mit der JavaScript-Funktion atob(). Teilen Sie Produktions-Token jedoch niemals in öffentlichen oder nicht vertrauenswürdigen Umgebungen."
+    },
+    {
+      "question": "Welche drei Teile hat ein JWT?",
+      "answer": "Ein JWT besteht aus drei Base64URL-codierten Abschnitten, getrennt durch Punkte: 1) Header (Algorithmustyp und Token-Typ), 2) Payload (Claims wie Benutzer-ID, Rollen, Ablaufdatum), und 3) Signatur (wird verwendet, um zu überprüfen, ob der Token nicht manipuliert wurde — kann ohne Geheimschlüssel nicht überprüft werden)."
+    },
+    {
+      "question": "Kann dieses Tool die JWT-Signatur überprüfen?",
+      "answer": "Nein — und kein clientseitiges Tool kann es, da die Signaturüberprüfung den privaten Geheimschlüssel benötigt, der den Token signiert. Dieses Tool dekodiert und inspiziert nur die Payload. Für die Signaturüberprüfung verwenden Sie Ihre serverseitige Bibliothek."
+    },
+    {
+      "question": "Was bedeutet 'exp' in einer JWT-Payload?",
+      "answer": "exp ist der Claim 'expiration time' (Ablaufzeit) — ein Unix-Zeitstempel, nach dem der Token abgelehnt werden muss. Falls nicht vorhanden, läuft der Token niemals ab, was ein ernstes Sicherheitsrisiko darstellt. Setzen Sie immer kurze Ablaufzeiten (15 Minuten für Access-Token, länger für Refresh-Token)."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen HS256 und RS256?",
+      "answer": "HS256 (HMAC-SHA256) verwendet ein einzelnes gemeinsames Geheimnis — sowohl Aussteller als auch Verifizier benötigen den gleichen Schlüssel. RS256 (RSA-SHA256) verwendet ein öffentlich-privates Schlüsselpaar — der Aussteller signiert mit dem privaten Schlüssel, und jeder kann mit dem öffentlichen Schlüssel überprüfen. RS256 ist für verteilte Systeme bevorzugt, wo mehrere Services Token überprüfen müssen."
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "url-encoder",
+    "password-generator"
+  ],
+  "variants": []
+}

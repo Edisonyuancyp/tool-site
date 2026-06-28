@@ -1,20 +1,52 @@
 {
   "slug": "budget-calculator",
   "name": "Calculadora de Orçamento",
-  "tagline": "Crie orçamento mensal e gerencie receitas e despesas",
-  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
-  "metaTitle": "Calculadora de Orçamento – Ferramenta Gratuita de Planejamento de Orçamento Mensal",
-  "metaDescription": "Insira receitas e despesas para calcular o saldo mensal e criar um plano de orçamento adequado.",
+  "tagline": "Acompanhe sua renda versus despesas e veja exatamente para onde seu dinheiro vai",
+  "description": "Digite sua renda e despesas mensais para obter um detalhamento instantâneo do orçamento. Veja como seus gastos se comparam à regra 50/30/20 — 50% necessidades, 30% desejos, 20% poupança. Gratuito, sem cadastro.",
+  "metaTitle": "Calculadora de Orçamento – Planejador de Orçamento Pessoal Mensal Gratuito Online",
+  "metaDescription": "Calculadora de orçamento mensal gratuita. Digite renda e despesas para ver seu detalhamento de orçamento e comparar com a regra 50/30/20. Resultados instantâneos, sem necessidade de cadastro.",
   "keywords": [
     "calculadora de orçamento",
-    "orçamento mensal",
-    "orçamento familiar",
-    "controle de gastos",
-    "gestão de orçamento"
+    "calculadora de orçamento mensal",
+    "planejador de orçamento pessoal",
+    "calculadora regra 50 30 20",
+    "rastreador de despesas",
+    "calculadora renda e despesas",
+    "calculadora de gestão de dinheiro",
+    "calculadora de orçamento grátis",
+    "aplicativo calculadora de orçamento",
+    "calculadora de orçamento brasil",
+    "calculadora de orçamento online",
+    "calculadora de orçamento online grátis",
+    "calculadora de orçamento pessoal online",
+    "calculadora orçamento mensal online",
+    "calculadora de orçamento familiar",
+    "planilha calculadora de orçamento",
+    "ferramenta calculadora orçamento",
+    "calculadora orçamento doméstico",
+    "como fazer orçamento mensal",
+    "planilha orçamento online"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "📊",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que é a regra de orçamento 50/30/20?",
+      "answer": "A regra 50/30/20 divide sua renda líquida em três categorias: 50% para necessidades (aluguel, alimentação, contas), 30% para desejos (restaurantes, entretenimento) e 20% para poupança e pagamento de dívidas. É um framework simples popularizado pela Senadora Elizabeth Warren."
+    },
+    {
+      "question": "Como usar esta calculadora de orçamento?",
+      "answer": "Digite sua renda mensal líquida e liste suas despesas mensais por categoria. A calculadora mostra instantaneamente seu superávit ou déficit e como seus gastos se comparam à diretriz 50/30/20."
+    },
+    {
+      "question": "O que é considerado uma 'necessidade' versus um 'desejo'?",
+      "answer": "Necessidades são despesas essenciais que você não consegue viver sem: aluguel/hipoteca, supermercado, contas, seguros e pagamentos mínimos de dívidas. Desejos são escolhas de estilo de vida: restaurantes, assinaturas, hobbies, férias."
+    },
+    {
+      "question": "Quanto devo poupar por mês?",
+      "answer": "A regra 50/30/20 recomenda poupar pelo menos 20% da sua renda líquida. Se isso não for possível, comece com qualquer valor — até 5-10% — e aumente ao longo do tempo conforme reduz seus gastos discricionários."
+    }
+  ],
   "relatedTools": [
     "debt-repayment-calculator",
     "tax-calculator",

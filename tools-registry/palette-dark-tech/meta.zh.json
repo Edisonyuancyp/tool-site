@@ -1,0 +1,36 @@
+{
+  "slug": "palette-dark-tech",
+  "name": "深色科技调色板",
+  "tagline": "专为游戏、网络安全和开发者工具设计的高对比深色UI调色板。深黑色搭配电光霓虹色。",
+  "description": "专为游戏、网络安全和开发者工具设计的高对比深色UI调色板。深黑色搭配电光霓虹色。",
+  "metaTitle": "深色科技调色板 – HEX、CMYK、Tailwind 和 Pantone 色值参考",
+  "metaDescription": "免费深色科技调色板，包含HEX色码、Tailwind CSS样式类、CMYK数值和Pantone近似色值。一键复制任意颜色。",
+  "keywords": [
+    "深色科技调色板",
+    "深色科技配色方案",
+    "深色科技HEX码",
+    "#0F172A",
+    "#1E293B",
+    "#22D3EE",
+    "Pantone配色",
+    "CMYK色值转换",
+    "网页调色板",
+    "Tailwind CSS配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone色值是否完全匹配？",
+      "answer": "不是。显示的Pantone色码是最接近的视觉近似值。对于生产印刷工作，请始终对照实体Pantone色卡验证。"
+    },
+    {
+      "question": "CMYK数值是如何计算的？",
+      "answer": "CMYK数值使用设备无关公式计算：K = 1 − max(R,G,B)；C/M/Y由RGB比例推导。实际输出效果取决于打印机配置文件和纸张类型。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "celsius-to-fahrenheit",
+  "name": "Celsius in Fahrenheit Umrechner",
+  "tagline": "Konvertieren Sie °C in °F — und umgekehrt — mit sofortigem visuellen Feedback",
+  "description": "Konvertieren Sie Celsius in Fahrenheit (und °F in °C) sofort. Enthält eine visuelle Temperaturskala, damit Sie immer wissen, ob es heiß, kalt oder angenehm ist. Wird von Reisenden, Köchen und Schülern verwendet.",
+  "metaTitle": "Celsius in Fahrenheit Umrechner — Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Celsius in Fahrenheit sofort umrechnen. Visuelle Skala zeigt Hitze- und Kältekontext. Kostenlos, schnell, ohne Werbung.",
+  "keywords": [
+    "celsius in fahrenheit",
+    "celsius zu fahrenheit",
+    "fahrenheit zu celsius",
+    "temperaturumrechner",
+    "celsius fahrenheit umrechnung",
+    "= 33,8 grad fahrenheit",
+    "celsius in fahrenheit umrechner online",
+    "kostenloser fahrenheit zu celsius umrechner",
+    "wie man einen celsius fahrenheit umrechner in python erstellt",
+    "celsius in fahrenheit konvertieren",
+    "celsius zu fahrenheit formel",
+    "celsius fahrenheit umrechnung formel",
+    "c zu f umrechner",
+    "c zu f formel",
+    "c zu f temperatur",
+    "c zu f umrechnung",
+    "c zu fahrenheit",
+    "= -17,2222222 grad celsius",
+    "fahrenheit zu celsius formel",
+    "fahrenheit zu celsius umrechner",
+    "fahrenheit zu celsius rechner"
+  ],
+  "category": "Converter",
+  "icon": "🌡️",
+  "faqs": [
+    {
+      "question": "Wie lautet die Formel zur Umrechnung von Celsius in Fahrenheit?",
+      "answer": "°F = (°C × 9/5) + 32. Zum Beispiel: 100°C = (100 × 1,8) + 32 = 212°F (Siedepunkt von Wasser)."
+    },
+    {
+      "question": "Wie viel Grad Fahrenheit sind 37°C?",
+      "answer": "37°C = 98,6°F — dies ist die normale menschliche Körpertemperatur."
+    },
+    {
+      "question": "Bei welcher Temperatur sind Celsius und Fahrenheit gleich?",
+      "answer": "Genau bei -40 Grad. Beide Skalen zeigen an diesem Punkt -40 an."
+    },
+    {
+      "question": "Wie viel Grad Fahrenheit hat Zimmertemperatur?",
+      "answer": "Zimmertemperatur beträgt typischerweise 20–22°C, was 68–71,6°F entspricht."
+    },
+    {
+      "question": "Wie konvertiere ich Celsius im Kopf in Fahrenheit?",
+      "answer": "Verdoppeln Sie den Celsius-Wert und addieren Sie 30. Beispiel: 20°C → 40+30 = 70°F (tatsächlich: 68°F). Schnell und nah genug beieinander."
+    }
+  ],
+  "relatedTools": [
+    "kg-to-lbs",
+    "cm-to-inch",
+    "m-to-feet"
+  ],
+  "variants": []
+}

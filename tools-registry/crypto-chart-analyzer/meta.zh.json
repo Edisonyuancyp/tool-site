@@ -1,0 +1,41 @@
+{
+  "slug": "crypto-chart-analyzer",
+  "name": "加密货币图表分析器",
+  "tagline": "K线图表配EMA、SMA、RSI和布林带 — 在浏览器中运行",
+  "description": "一款轻量级TradingView风格的图表工具，可获取任何主流加密货币的免费公开OHLC数据，并渲染具有EMA、SMA、RSI和布林带指标的K线图表 — 完全基于浏览器，无需服务器。您的数据永远不会离开您的设备。",
+  "metaTitle": "加密货币图表分析器 – 免费K线图表与技术指标",
+  "metaDescription": "免费加密货币K线图表，包含EMA、SMA、RSI和布林带指标。100%在浏览器中运行。无需注册、无需服务器 — 选择币种和时间周期即可使用。",
+  "keywords": [
+    "加密货币图表分析器",
+    "K线图表工具",
+    "比特币图表在线",
+    "免费交易图表",
+    "EMA SMA RSI计算器",
+    "布林带图表",
+    "加密货币技术分析",
+    "浏览器交易图表",
+    "TradingView免费替代品"
+  ],
+  "category": "Quant",
+  "icon": "🕯️",
+  "faqs": [
+    {
+      "question": "这个工具是否使用我的服务器？",
+      "answer": "不使用。所有图表渲染和指标计算都在您的浏览器中使用Canvas API进行。价格数据直接从CoinGecko的公共API获取。"
+    },
+    {
+      "question": "支持哪些指标？",
+      "answer": "EMA（指数移动平均线）、SMA（简单移动平均线）、RSI（相对强弱指数）和布林带（20周期，2标准差）。"
+    },
+    {
+      "question": "可用的币种和时间周期有哪些？",
+      "answer": "比特币、以太坊、BNB、Solana、XRP等。时间周期：1日、7日、30日、90日、180日、365日。"
+    }
+  ],
+  "relatedTools": [
+    "kelly-criterion-calculator",
+    "sharpe-ratio-calculator",
+    "position-size-calculator"
+  ],
+  "variants": []
+}

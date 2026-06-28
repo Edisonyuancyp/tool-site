@@ -1,0 +1,52 @@
+{
+  "slug": "markdown-previewer",
+  "name": "Markdown Previewer",
+  "tagline": "Schreiben und zeigen Sie Markdown live an — sauberer Editor, sofortige Vorschau",
+  "description": "Schreiben Sie Markdown im linken Bereich und sehen Sie die gerenderte HTML-Vorschau rechts, die sich während der Eingabe aktualisiert. Unterstützt Überschriften, Fett, Kursiv, Listen, Codeblöcke, Tabellen und Links. Keine Anmeldung erforderlich.",
+  "metaTitle": "Markdown Previewer – Live-Editor & Online-Vorschau | GetFastCalc",
+  "metaDescription": "Kostenloser Online-Markdown-Previewer. Schreiben Sie Markdown und sehen Sie die gerenderte Ausgabe live. Unterstützt GFM-Tabellen, Codeblöcke und mehr. Keine Anmeldung erforderlich.",
+  "keywords": [
+    "markdown previewer online",
+    "markdown editor online kostenlos",
+    "live markdown vorschau",
+    "markdown zu html konverter",
+    "markdown renderer online",
+    "github flavored markdown vorschau",
+    "markdown viewer online",
+    "markdown live editor",
+    "markdown vorschau",
+    "markdown preview vscode",
+    "markdown vorschau mac",
+    "markdown viewer linux",
+    "markdown vorschau mit mermaid unterstützung",
+    "markdown previewer github",
+    "nvim markdown vorschau",
+    "kostenlose markdown vorschau",
+    "bester markdown editor online kostenlos",
+    "live markdown vorschau vscode",
+    "live markdown vorschau nvim",
+    "live markdown vorschau vim"
+  ],
+  "category": "Content",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Welche Markdown-Syntax wird unterstützt?",
+      "answer": "Dieses Tool unterstützt Standard-Markdown einschließlich Überschriften (#, ##), Fett (**text**), Kursiv (*text*), Listen, Codeblöcke (```), Inline-Code, Links, Bilder, Blockzitate und GitHub Flavored Markdown (GFM)-Tabellen."
+    },
+    {
+      "question": "Kann ich damit README-Dateien in der Vorschau anzeigen?",
+      "answer": "Ja. Fügen Sie den Inhalt einer README.md-Datei oder einer beliebigen Dokumentationsdatei ein und sehen Sie genau, wie sie auf GitHub oder anderen Markdown-Plattformen dargestellt wird."
+    },
+    {
+      "question": "Wird mein Text irgendwo gespeichert?",
+      "answer": "Nein. Alles bleibt in Ihrem Browser. Ihr Markdown wird niemals an einen Server übermittelt."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

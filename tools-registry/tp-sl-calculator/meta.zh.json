@@ -1,20 +1,45 @@
 {
   "slug": "tp-sl-calculator",
   "name": "止盈止损计算器",
-  "tagline": "计算交易的止盈止损价位",
-  "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
-  "metaTitle": "止盈止损计算器 – 交易 TP/SL 计算工具",
-  "metaDescription": "输入入场价格和风险参数，计算止盈（Take Profit）和止损（Stop Loss）价位，优化风险回报比。",
+  "tagline": "交易前快速计算精确的盈亏、风险回报比和清算价格",
+  "description": "输入入场价格、杠杆倍数和保证金，即可快速计算最多3个止盈价位和止损价位的盈亏。显示风险回报比和预估清算价格。支持多头和空头头寸。",
+  "metaTitle": "止盈止损计算器 - 加密货币交易盈亏和风险回报比计算工具",
+  "metaDescription": "免费的止盈止损计算器。输入入场价格、杠杆倍数和保证金，立即计算止盈止损盈亏、风险回报比和清算价格，适合加密货币和期货交易。",
   "keywords": [
     "止盈止损计算器",
-    "TP SL计算器",
-    "交易止损计算",
-    "风险回报比计算",
-    "外汇止损工具"
+    "TP SL计算器加密货币",
+    "风险回报比计算器",
+    "加密货币盈亏计算器",
+    "杠杆交易计算器",
+    "止盈止损计算器指标",
+    "MT4止盈止损计算器指标",
+    "MT5止盈止损计算器指标",
+    "TradingView止盈止损计算器",
+    "加密货币止盈止损计算器",
+    "TradingView风险回报比计算器",
+    "Excel风险回报比计算器",
+    "免费风险回报比计算器下载",
+    "交易风险回报比计算器",
+    "MT4风险回报比计算器",
+    "免费风险回报比计算器",
+    "外汇风险回报比计算器"
   ],
-  "category": "加密",
+  "category": "Crypto",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "什么是风险回报比（R:R）？",
+      "answer": "风险回报比是用来比较你的潜在利润与潜在损失的指标。1:2的比例意味着每承担1美元的风险，你可以获得2美元的收益。专业交易员通常只进行风险回报比为1:2或更高的交易。"
+    },
+    {
+      "question": "清算价格如何计算？",
+      "answer": "该估算假设当价格向不利方向移动（1/杠杆倍数）时，你将损失100%的保证金。以10倍杠杆为例，价格反向移动10%时，头寸会被清算。"
+    },
+    {
+      "question": "这个工具是否适用于现货和期货交易？",
+      "answer": "对于现货交易，将杠杆倍数设置为1×。对于期货交易（多头或空头），请输入你的交易所提供的杠杆倍数。"
+    }
+  ],
   "relatedTools": [
     "position-size-calculator",
     "compound-interest-calculator",

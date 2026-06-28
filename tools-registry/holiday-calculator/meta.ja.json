@@ -1,20 +1,44 @@
 {
   "slug": "holiday-calculator",
-  "name": "祝日計算機",
-  "tagline": "祝日と営業日数を確認",
-  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
-  "metaTitle": "祝日計算機 – 祝日・営業日数確認ツール",
-  "metaDescription": "2つの日付間の営業日数・週末・祝日の数を計算。",
+  "name": "祝日計算ツール",
+  "tagline": "公式祝日を検索し、次の祝日までの日数を計算",
+  "description": "20以上の国の公式祝日を閲覧できます。次の祝日がいつなのか、あと何日なのかを確認し、今年と来年のすべての祝日を表示できます。ログイン不要です。",
+  "metaTitle": "祝日計算ツール – 公式祝日と次の祝日までの日数を無料で確認",
+  "metaDescription": "20以上の国の公式祝日を検索。次の祝日までの日数を計算できます。米国、英国、オーストラリア、カナダなど対応。無料の祝日計算ツール。",
   "keywords": [
-    "祝日計算機",
-    "営業日計算",
-    "祝日確認",
-    "休日日数計算",
-    "日付計算ツール"
+    "祝日計算ツール",
+    "2025年祝日",
+    "次の祝日までの日数",
+    "祝日の日付",
+    "次の公式祝日",
+    "英国祝日計算",
+    "HMRC祝日計算",
+    "按分祝日計算",
+    "アイルランド祝日計算",
+    "政府祝日計算",
+    "2026年祝日計算",
+    "北アイルランド祝日計算",
+    "オンライン祝日計算",
+    "祝日給与計算機",
+    "英国按分祝日計算機オンライン",
+    "英国政府按分祝日計算機オンライン",
+    "英国オンライン祝日計算機",
+    "英国無料祝日計算機",
+    "アイルランド無料祝日計算機",
+    "無料祝日計算ツール"
   ],
-  "category": "日付・時間",
+  "category": "Date & Time",
   "icon": "🎉",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "対応している国は？",
+      "answer": "米国、英国、カナダ、オーストラリア、ドイツ、フランス、日本、インドなど20以上の国に対応しています。"
+    },
+    {
+      "question": "日数カウントダウンはどのように計算されますか？",
+      "answer": "このツールは今日の日付と今後のすべての祝日との差を計算し、真夜中に更新されます。"
+    }
+  ],
   "relatedTools": [
     "age-calculator",
     "unix-timestamp-converter",

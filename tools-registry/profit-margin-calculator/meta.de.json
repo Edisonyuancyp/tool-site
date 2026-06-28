@@ -1,0 +1,52 @@
+{
+  "slug": "profit-margin-calculator",
+  "name": "Gewinnspanne Rechner",
+  "tagline": "Berechnen Sie Bruttomarge, Aufschlag und Umsatz — sofortige Ergebnisse",
+  "description": "Berechnen Sie Bruttomarge, Nettomarge, Aufschlagprozentsatz und Umsatz aus Kosten und Verkaufspreis. Funktioniert für Einzelhandel, Freiberufler und Geschäftsanalysen.",
+  "metaTitle": "Gewinnspanne Rechner – Bruttomarge & Aufschlag | GetFastCalc",
+  "metaDescription": "Kostenloser Gewinnspanne Rechner. Berechnen Sie Bruttomarge, Aufschlagprozentsatz und Nettogewinn sofort. Für Einzelhandel, E-Commerce und Freiberufler. Kostenlos ohne Registrierung.",
+  "keywords": [
+    "gewinnspanne rechner",
+    "bruttomarge rechner",
+    "aufschlag rechner",
+    "gewinnmarginenprozentsatz rechner",
+    "bruttogewinn formel",
+    "marge gegen aufschlag rechner",
+    "unternehmensgewinn rechner kostenlos",
+    "verkaufspreis rechner",
+    "gewinnspanne rechner excel",
+    "gewinnspanne rechner app",
+    "gewinnspanne rechner shopify",
+    "gewinnspanne rechner gastronomie",
+    "gewinnspanne rechner formel",
+    "gewinnspanne rechner deutschland",
+    "gewinnspanne rechner kostenlos",
+    "gewinnspanne rechner online",
+    "bruttomarge online rechner",
+    "kostenloser gewinnspanne rechner",
+    "kostenloser bruttomarge rechner",
+    "shopify gewinnspanne rechner kostenlos"
+  ],
+  "category": "Finance",
+  "icon": "💹",
+  "faqs": [
+    {
+      "question": "Was ist die Bruttomarge-Formel?",
+      "answer": "Bruttomarge = ((Umsatz - Kosten) / Umsatz) × 100. Wenn Sie beispielsweise etwas für 100 € verkaufen, das 60 € kostet, beträgt Ihre Bruttomarge 40%."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Marge und Aufschlag?",
+      "answer": "Marge ist der Gewinn als Prozentsatz des Umsatzes. Aufschlag ist der Gewinn als Prozentsatz der Kosten. Eine 40%-Marge entspricht einem 66,7%-Aufschlag. Sie messen denselben Gewinn von verschiedenen Basen aus."
+    },
+    {
+      "question": "Was ist eine gute Gewinnspanne?",
+      "answer": "Das variiert je nach Branche. Einzelhandel durchschnittlich 2–5%, SaaS kann über 70% erreichen, Restaurants streben 3–9% an. Eine gesunde Bruttomarge für die meisten kleineren Unternehmen liegt bei 40–60%."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "tax-calculator",
+    "risk-calculator"
+  ],
+  "variants": []
+}

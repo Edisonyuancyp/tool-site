@@ -1,20 +1,48 @@
 {
   "slug": "unix-timestamp-converter",
-  "name": "Unix 时间戳转换器",
-  "tagline": "Unix 时间戳与可读日期时间互转",
-  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
-  "metaTitle": "Unix 时间戳转换器 – 在线时间戳转日期",
-  "metaDescription": "输入 Unix 时间戳转换为可读日期时间，或输入日期时间转换为时间戳。支持毫秒和秒。",
+  "name": "Unix时间戳转换器",
+  "tagline": "即时将Unix时间戳转换为易读日期",
+  "description": "将Unix纪元时间戳转换为格式化日期，反之亦然。支持秒和毫秒、12+时区、ISO 8601输出、相对时间和实时时钟。",
+  "metaTitle": "Unix时间戳转换器 – 纪元转日期在线工具",
+  "metaDescription": "免费Unix时间戳转换器。在线转换纪元时间到日期或日期到Unix时间戳。支持秒、毫秒、UTC和12+时区。包含实时时钟。",
   "keywords": [
-    "Unix时间戳转换",
+    "unix时间戳转换器",
+    "纪元时间转日期",
     "时间戳转日期",
-    "时间戳计算器",
-    "epoch时间转换",
-    "时间戳工具"
+    "unix时间转换器在线",
+    "纪元时间转换器",
+    "unix时间戳转换器在线",
+    "unix时间戳转换器excel",
+    "unix时间戳转换毫秒",
+    "unix时间戳转换python",
+    "unix时间戳转换成日期",
+    "unix时间戳转换excel公式",
+    "unix时间戳转换时区",
+    "unix时间戳转日期转换器在线",
+    "unix时间戳转datetime转换器在线",
+    "unix时间戳转印度标准时间在线转换器",
+    "纪元时间转datetime",
+    "纪元时间转日期转换器",
+    "纪元时间转日期python",
+    "纪元时间转日期excel",
+    "纪元时间转日期javascript"
   ],
-  "category": "开发",
+  "category": "Developer",
   "icon": "⏱️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "什么是Unix时间戳？",
+      "answer": "Unix时间戳（纪元时间）是自1970年1月1日00:00:00 UTC以来经过的秒数。它在编程、数据库和API中被广泛使用，用于将时间点表示为单个整数。"
+    },
+    {
+      "question": "秒和毫秒有什么区别？我如何判断我有的是哪一种？",
+      "answer": "10位数字（如1700000000）表示秒。13位数字（如1700000000000）表示毫秒。"
+    },
+    {
+      "question": "什么是2038问题？",
+      "answer": "32位有符号整数最大只能存储2,147,483,647，对应的日期是2038年1月19日03:14:07 UTC。使用32位时间戳的系统将在该日期发生溢出。"
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

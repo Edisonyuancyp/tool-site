@@ -1,20 +1,48 @@
 {
   "slug": "leftover-recipe-generator",
   "name": "剩菜食谱生成器",
-  "tagline": "根据剩余食材生成新菜谱",
-  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
-  "metaTitle": "剩菜食谱生成器 – 剩余食材菜谱工具",
-  "metaDescription": "输入冰箱里的剩余食材，获得可以烹饪的菜谱建议，减少食物浪费。",
+  "tagline": "将剩菜变成美味佳肴。",
+  "description": "输入您有的剩菜剩饭，获取创意食谱建议来充分利用它们。完美解决食物浪费问题，最大化利用您的厨房食材。",
+  "metaTitle": "剩菜食谱生成器 - 创意菜谱推荐 | 免费在线工具",
+  "metaDescription": "使用这个免费工具根据剩菜生成食谱建议。无需注册，立即开始。",
   "keywords": [
     "剩菜食谱",
-    "剩余食材菜谱",
-    "减少食物浪费",
-    "食材菜谱生成",
-    "剩饭菜创意"
+    "剩菜怎么吃",
+    "剩饭剩菜食谱",
+    "剩菜食谱生成器",
+    "剩菜食材食谱生成器",
+    "剩菜食谱推荐",
+    "剩鸡肉食谱",
+    "剩火腿食谱",
+    "剩牛排食谱",
+    "剩火鸡食谱",
+    "剩猪肉食谱",
+    "剩三文鱼食谱",
+    "剩烤肉食谱",
+    "剩菜烹饪技巧",
+    "剩菜料理食谱",
+    "剩菜烹饪指南",
+    "剩火鸡肉食谱",
+    "剩菜烹饪创意",
+    "剩鸡肉烹饪方法",
+    "剩菜改造食谱"
   ],
-  "category": "烹饪",
+  "category": "Cooking",
   "icon": "🥡",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "剩菜食谱生成器如何工作？",
+      "answer": "只需输入您剩余的食材，生成器就会为您推荐可能的食谱建议。"
+    },
+    {
+      "question": "我可以添加多种剩菜吗？",
+      "answer": "可以，您可以输入尽可能多的剩菜食材，以获得更加个性化的食谱推荐。"
+    },
+    {
+      "question": "这些食谱容易跟着做吗？",
+      "answer": "推荐的食谱通常简单易做，设计用于快速准备和烹饪。"
+    }
+  ],
   "relatedTools": [
     "cooking-time-calculator",
     "ingredient-substitution-calculator"

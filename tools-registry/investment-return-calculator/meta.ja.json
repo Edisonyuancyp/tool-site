@@ -1,20 +1,52 @@
 {
   "slug": "investment-return-calculator",
   "name": "投資リターン計算機",
-  "tagline": "年率リターンと総収益を計算",
-  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
-  "metaTitle": "投資リターン計算機 – オンラインROI計算ツール",
-  "metaDescription": "初期投資額・最終価値・保有期間を入力して、年率リターン（CAGR）と総収益を計算。",
+  "tagline": "任意の投資のROI、CAGR、将来価値を計算します",
+  "description": "初期投資額、年間利回り、投資期間を入力して、将来価値、総利益、ROI、CAGRを計算できます。毎月の追加投資にも対応しています。株式、不動産、ETF、普通預金に対応しています。",
+  "metaTitle": "投資リターン計算機 - ROI・CAGR・将来価値計算ツール",
+  "metaDescription": "無料の投資リターン計算機です。初期投資額、年間利回り、投資期間を入力するだけで、将来価値、ROI、CAGRが計算できます。毎月の追加投資にも対応。登録不要。",
   "keywords": [
     "投資リターン計算機",
     "ROI計算機",
-    "CAGR計算",
-    "年率収益計算",
-    "投資収益率"
+    "CAGR計算機",
+    "将来価値計算機",
+    "投資成長計算機",
+    "投資利益計算機",
+    "投資リターン計算 エクセル",
+    "複利計算 投資",
+    "投資計算機 日本",
+    "投資収益率 計算",
+    "年間利回り計算",
+    "投資リターン 計算 出金",
+    "投資収益 シミュレーション",
+    "オンライン投資計算機",
+    "投資計算機 貯金 オンライン",
+    "無料 投資リターン計算",
+    "投資計算 エクセル テンプレート",
+    "投資利益の計算方法",
+    "ROI計算 日本",
+    "ROI計算 エクセル"
   ],
-  "category": "ファイナンス",
+  "category": "Finance",
   "icon": "📈",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "ROIとは何ですか？どのように計算しますか？",
+      "answer": "ROI（投資利益率）=（最終価値−初期投資額）÷初期投資額×100%です。例えば、1万ドルの投資が1万5千ドルに成長した場合、ROI=50%となります。時間を考慮していないため、異なる期間の投資を比較するにはCAGRを使用してください。"
+    },
+    {
+      "question": "CAGRとは何ですか？",
+      "answer": "CAGR（年間複利成長率）は、投資が一定の速度で成長した場合の年間成長率です。計算式：CAGR =（終了時の価値÷開始時の価値）^（1÷年数）−1です。投資パフォーマンスを比較するための最適な単一の指標です。"
+    },
+    {
+      "question": "良い年間投資利益率はどのくらいですか？",
+      "answer": "S&P500は長期的に平均約10%の年間利益率です（インフレ調整後は7%）。不動産は賃貸利益を含めて通常8～12%のリターンが見込めます。高利回り普通預金は現在4～5%です。15%以上のリターンを継続的に得ることは非常に優れています。"
+    },
+    {
+      "question": "毎月の追加投資はリターンにどのような影響を与えますか？",
+      "answer": "毎月の追加投資は、各追加投資も複利で成長するため、最終価値を劇的に増加させます。小額の定期的な追加投資（例：月200ドル）でも、20～30年間で一括投資のみの場合と比べて最終残高が2倍～3倍に増える可能性があります。"
+    }
+  ],
   "relatedTools": [
     "compound-interest-calculator",
     "retirement-savings-calculator",

@@ -1,23 +1,42 @@
 {
   "slug": "ovulation-calculator",
-  "name": "排卵期计算器",
-  "tagline": "预测排卵日期和易孕期",
-  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
-  "metaTitle": "排卵期计算器 – 在线免费排卵日预测",
-  "metaDescription": "输入末次月经日期和周期长度，计算预计排卵日和最佳受孕窗口期。",
+  "name": "排卵期和月经周期跟踪器",
+  "tagline": "预测排卵期、排卵日期和下次月经",
+  "description": "计算您的排卵期、排卵日期、月经日期和周期阶段，可预测最多6个月经周期。所有计算完全在您的浏览器中进行——数据不会发送到任何服务器。",
+  "metaTitle": "排卵期计算器 - 受孕期和月经周期跟踪工具（浏览器本地计算）",
+  "metaDescription": "免费排卵期和月经计算器。计算您的受孕期、排卵日期和下次月经，支持预测6个月经周期。100%隐私保护——在您的浏览器中运行，无数据存储。",
   "keywords": [
     "排卵期计算器",
-    "排卵日计算",
-    "易孕期计算器",
-    "安全期计算",
-    "备孕计算器"
+    "受孕期计算器",
+    "月经周期跟踪器",
+    "月经周期计算器",
+    "什么时候最容易怀孕",
+    "排卵周期跟踪器",
+    "排卵周期跟踪应用",
+    "虚拟主播排卵周期跟踪器",
+    "最佳排卵周期跟踪器",
+    "免费排卵周期跟踪器",
+    "月经排卵周期跟踪器",
+    "排卵期计算应用",
+    "怀孕计算器排卵期",
+    "排卵期计算器 flo",
+    "排卵期计算器 babymed",
+    "排卵期和月经计算器",
+    "生男孩排卵期计算器",
+    "生男孩双胞胎排卵期计算器",
+    "在线受孕期计算器",
+    "印度受孕期计算器"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "🌸",
   "faqs": [
     {
-      "question": "排卵期一般在什么时候？",
-      "answer": "对于 28 天周期，通常在第 14 天前后排卵。排卵前后 3 天为易孕期。"
+      "question": "排卵期是如何计算的？",
+      "answer": "排卵通常在下次月经前14天发生。受孕期包括排卵前5天加排卵日当天，共6天。"
+    },
+    {
+      "question": "这些数据会被存储吗？",
+      "answer": "不会。所有计算都在您浏览器中的JavaScript中进行。没有数据会发送到服务器或与任何第三方共享。"
     }
   ],
   "relatedTools": [

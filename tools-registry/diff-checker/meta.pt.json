@@ -1,20 +1,48 @@
 {
   "slug": "diff-checker",
-  "name": "Verificador de Diferenças de Texto",
-  "tagline": "Encontre rapidamente diferenças entre dois textos",
-  "description": "Paste two pieces of text to instantly see additions, deletions, and unchanged lines highlighted. Supports split view and unified view, ignore whitespace, ignore case, and comes with code and JSON samples.",
-  "metaTitle": "Verificador de Diferenças de Texto – Ferramenta de Comparação de Texto Online",
-  "metaDescription": "Cole dois textos para exibir com destaque as adições, exclusões e alterações. Ideal para revisão de código e comparação de documentos.",
+  "name": "Verificador de Diff Online",
+  "tagline": "Compare dois textos, arquivos ou trechos de código lado a lado",
+  "description": "Cole dois pedaços de texto para ver instantaneamente adições, exclusões e linhas inalteradas destacadas. Suporta visualização dividida e unificada, ignorar espaços em branco, ignorar maiúsculas/minúsculas, e inclui exemplos de código e JSON.",
+  "metaTitle": "Verificador de Diff Online – Compare Textos, Código e JSON Lado a Lado",
+  "metaDescription": "Verificador de diff online gratuito. Compare dois textos, arquivos de código ou JSON lado a lado com destaque linha por linha. Visualização dividida e unificada, ignorar espaços em branco, sem servidor necessário.",
   "keywords": [
-    "comparar texto",
-    "diferença de texto",
-    "ferramenta diff",
-    "comparação de código",
-    "comparação de documentos"
+    "verificador de diff online",
+    "ferramenta de diff de texto",
+    "ferramenta de comparação de código",
+    "visualizador de diff online",
+    "comparar dois textos online",
+    "verificador de diff online json",
+    "verificador de diff online xml",
+    "verificador de diff online código",
+    "verificador de diff online grátis",
+    "verificador de diff online texto",
+    "ferramenta de verificador de diff",
+    "verificador de diff online e merge",
+    "verificador de diff grátis online",
+    "ferramenta de diff de texto online",
+    "ferramenta de diff de texto windows",
+    "ferramenta de diff de texto mac",
+    "ferramenta de diff de texto download",
+    "ferramenta de diff de texto linux",
+    "ferramenta de diff de texto macos",
+    "ferramenta de diff de texto github"
   ],
-  "category": "Desenvolvimento",
+  "category": "Developer",
   "icon": "🔍",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Meus dados são enviados para um servidor?",
+      "answer": "Não. O diff é calculado inteiramente no seu navegador usando JavaScript. Seu texto nunca sai do seu dispositivo."
+    },
+    {
+      "question": "Qual algoritmo de diff é usado?",
+      "answer": "A ferramenta usa o algoritmo de diff de Myers — o mesmo algoritmo usado pelo Git, GNU diff e a maioria dos sistemas modernos de controle de versão."
+    },
+    {
+      "question": "O que faz 'ignorar espaços em branco'?",
+      "answer": "Quando ativado, espaços iniciais e finais são removidos de cada linha antes da comparação. Linhas que diferem apenas na indentação serão tratadas como iguais."
+    }
+  ],
   "relatedTools": [
     "json-csv-formatter",
     "base64-tool",

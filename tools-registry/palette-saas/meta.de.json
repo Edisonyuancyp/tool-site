@@ -1,0 +1,36 @@
+{
+  "slug": "palette-saas",
+  "name": "Minimal SaaS Farbpalette",
+  "tagline": "Saubere, hochkontrastive Palette, die von modernen SaaS-Produkten verwendet wird. Neutrale Grautöne, verankert durch einen selbstbewussten Indigo-Akzent.",
+  "description": "Saubere, hochkontrastive Palette, die von modernen SaaS-Produkten verwendet wird. Neutrale Grautöne, verankert durch einen selbstbewussten Indigo-Akzent.",
+  "metaTitle": "Minimal SaaS Farbpalette – HEX, CMYK, Tailwind & Pantone Referenz",
+  "metaDescription": "Kostenlose minimale SaaS Farbpalette mit HEX-Codes, Tailwind CSS Klassen, CMYK-Werten und Pantone Näherungswerten. Kopieren Sie jede Farbe sofort.",
+  "keywords": [
+    "Minimal SaaS Farbpalette",
+    "Minimal SaaS Farbschema",
+    "Minimal SaaS HEX Codes",
+    "#6366F1",
+    "#A5B4FC",
+    "#F9FAFB",
+    "Pantone Farbabstimmung",
+    "CMYK Konvertierung",
+    "Web Farbpalette",
+    "Tailwind CSS Schema"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Sind die Pantone-Referenzen exakte Übereinstimmungen?",
+      "answer": "Nein. Die angezeigten Pantone-Codes sind die nächsten visuellen Näherungswerte. Für professionelle Druckarbeiten vergleichen Sie diese immer mit einem physischen Pantone Fan Deck."
+    },
+    {
+      "question": "Wie werden CMYK-Werte berechnet?",
+      "answer": "CMYK-Werte verwenden die geräteunabhängige Formel: K = 1 − max(R,G,B); C/M/Y abgeleitet von RGB-Verhältnissen. Die tatsächliche Ausgabe hängt vom Druckerprofil und dem Papier ab."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

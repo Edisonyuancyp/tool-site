@@ -1,20 +1,48 @@
 {
   "slug": "word-counter",
   "name": "Contador de Palavras",
-  "tagline": "Meça palavras, caracteres e tempo de leitura",
-  "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
+  "tagline": "Conte palavras, caracteres, frases e tempo de leitura",
+  "description": "Cole seu texto para contar instantaneamente palavras, caracteres, frases, parágrafos e tempo estimado de leitura. Útil para redações, artigos, conteúdo SEO e posts em redes sociais.",
   "metaTitle": "Contador de Palavras – Ferramenta Gratuita de Contagem de Palavras Online",
-  "metaDescription": "Cole o texto e meça palavras, caracteres, sentenças e tempo de leitura estimado em tempo real.",
+  "metaDescription": "Conte palavras e caracteres instantaneamente. Contador de palavras online gratuito para redações, artigos e redes sociais. Obtenha contagem de palavras, contagem de caracteres e tempo de leitura.",
   "keywords": [
     "contador de palavras",
     "contador de caracteres",
+    "ferramenta de contagem de palavras",
+    "contador de palavras online",
     "contar palavras online",
-    "contador de texto",
-    "calcular tempo de leitura"
+    "contagem de palavras",
+    "contando palavras",
+    "contagens de palavras",
+    "contador de palavras tailandês",
+    "contador de palavras tailandês",
+    "contador de palavras online",
+    "contador de palavras online grátis",
+    "contador de palavras online pdf",
+    "contador de palavras online hindi",
+    "contador de palavras online foto",
+    "contagem de palavras online",
+    "ferramenta contador de palavras online",
+    "contador de palavras online árabe",
+    "contador de palavras grátis",
+    "contador de palavras grátis online"
   ],
-  "category": "Utilitários",
+  "category": "Utilities",
   "icon": "📝",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como faço para contar as palavras do meu texto?",
+      "answer": "Cole seu texto na caixa acima. A contagem de palavras é atualizada instantaneamente conforme você digita ou cola."
+    },
+    {
+      "question": "Ele conta caracteres com ou sem espaços?",
+      "answer": "Os dois. A ferramenta mostra caracteres com espaços e caracteres sem espaços separadamente."
+    },
+    {
+      "question": "Como o tempo de leitura é calculado?",
+      "answer": "O tempo de leitura é baseado em uma velocidade de leitura média de 200–250 palavras por minuto para adultos."
+    }
+  ],
   "relatedTools": [
     "text-case-converter",
     "diff-checker"

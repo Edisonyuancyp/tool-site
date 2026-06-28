@@ -1,20 +1,48 @@
 {
   "slug": "macro-tracker-calculator",
-  "name": "Calculadora de Macros",
-  "tagline": "Calcule a ingestão diária de proteínas, gorduras e carboidratos",
-  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
-  "metaTitle": "Calculadora de Macronutrientes – Ferramenta de Cálculo de Três Macronutrientes",
-  "metaDescription": "Com base no objetivo de peso e nível de atividade, calcule as calorias diárias e a distribuição dos três macronutrientes (proteína/gordura/carboidrato).",
+  "name": "Calculadora de Rastreamento de Macros",
+  "tagline": "Rastreie seus macros de forma eficaz!",
+  "description": "Esta calculadora ajuda você a rastrear sua ingestão de macronutrientes com base em seus objetivos de fitness, seja para ganho de massa, perda de peso ou manutenção. Ideal para entusiastas de fitness e pessoas em dietas específicas.",
+  "metaTitle": "Calculadora de Macros - Rastreador de Nutrientes Grátis | Ferramenta Online",
+  "metaDescription": "Rastreie seus macros gratuitamente com esta calculadora instantânea. Sem cadastro necessário, apenas insira seus objetivos e comece!",
   "keywords": [
-    "calculadora de macros",
-    "macronutrientes",
-    "calcular proteína",
-    "dieta para emagrecer",
-    "calculadora fitness"
+    "rastreamento de macros",
+    "calculadora de macronutrientes",
+    "planejamento de dieta",
+    "objetivos de fitness",
+    "nutrição",
+    "calculadora rastreador de macros",
+    "calculadora e rastreador de macros grátis",
+    "melhor calculadora rastreador de macros",
+    "calculadora rastreador de calorias e macros",
+    "app rastreador de macros",
+    "app rastreador de macros grátis",
+    "rastreador de macros reddit",
+    "planilha rastreamento de macros",
+    "rastreamento de macros para perda de peso",
+    "significado rastreamento de macros",
+    "calculadora rastreador de macros",
+    "calculadora macronutrientes alimentos",
+    "calculadora macronutrientes musculação",
+    "calculadora macronutrientes perda de peso",
+    "app calculadora macronutrientes"
   ],
   "category": "Fitness",
   "icon": "🍏",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que são macronutrientes?",
+      "answer": "Macronutrientes incluem proteínas, gorduras e carboidratos, que são essenciais para energia e crescimento."
+    },
+    {
+      "question": "Como uso esta calculadora?",
+      "answer": "Simplesmente insira seus objetivos de fitness e a calculadora fornecerá o detalhamento de macros necessário."
+    },
+    {
+      "question": "Posso ajustar meus objetivos depois?",
+      "answer": "Sim, você pode retornar à calculadora a qualquer momento para ajustar seus objetivos e ver como seus macros mudam."
+    }
+  ],
   "relatedTools": [
     "bmr-tdee-calculator",
     "ideal-weight-calculator"

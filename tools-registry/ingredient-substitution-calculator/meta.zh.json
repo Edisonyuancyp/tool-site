@@ -1,20 +1,46 @@
 {
   "slug": "ingredient-substitution-calculator",
-  "name": "食材替换计算器",
-  "tagline": "找到食谱中缺少食材的替代品",
-  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
-  "metaTitle": "食材替换计算器 – 烹饪食材替代工具",
-  "metaDescription": "输入缺少的食材，获得可用于替换的替代品及比例建议。",
+  "name": "食材替代计算器",
+  "tagline": "查找缺失食材的替代品。",
+  "description": "快速发现基于您手中现有食材的替代选项。对于需要在遵循食谱时进行创意改良的烹饪爱好者来说非常理想。",
+  "metaTitle": "食材替代计算器 - 烹饪替代方案 | 免费在线工具",
+  "metaDescription": "使用我们的免费工具立即查找食材替代品。无需注册即可使用。",
   "keywords": [
-    "食材替换",
-    "烹饪替代品",
-    "食材替代计算",
-    "缺少食材怎么替换",
-    "烹饪替换工具"
+    "食材替代",
+    "食谱替代",
+    "烹饪食材替换",
+    "食材替代计算器",
+    "食材替代表",
+    "食材替代方案",
+    "食材替代指南",
+    "食材替代表PDF",
+    "食材替代清单",
+    "食材替代数据库",
+    "烘焙食材替代",
+    "护肤食谱替代",
+    "食谱管理器替代",
+    "健康食谱替代",
+    "莫吉托食谱替代",
+    "食谱盒替代",
+    "千层面食谱替代",
+    "辣椒食谱替代"
   ],
-  "category": "烹饪",
+  "category": "Cooking",
   "icon": "🥄",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "我如何查找食材的替代品？",
+      "answer": "输入您需要替换的食材，计算器将建议合适的替代方案。"
+    },
+    {
+      "question": "这些替代方案总是准确的吗？",
+      "answer": "大多数建议都是准确的，但风味和质地可能会根据所使用的替代品而有所不同。"
+    },
+    {
+      "question": "我可以建议新的替代品吗？",
+      "answer": "可以！我们欢迎用户建议，以改进我们的食材替代数据库。"
+    }
+  ],
   "relatedTools": [
     "age-calculator",
     "budget-calculator"

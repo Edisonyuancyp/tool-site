@@ -1,20 +1,48 @@
 {
   "slug": "serving-size-calculator",
   "name": "份量计算器",
-  "tagline": "计算食物份量和营养摄入",
-  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
-  "metaTitle": "份量计算器 – 食物分量计算工具",
-  "metaDescription": "根据人数和食谱，计算食材用量和每份营养成分。",
+  "tagline": "轻松调整食谱以适应任意份数。",
+  "description": "根据所需的份数计算所需的材料用量。非常适合为聚会或meal prep扩大或缩小食谱的份数。",
+  "metaTitle": "份量计算器 - 在线调整食谱比例 | 免费烹饪工具",
+  "metaDescription": "使用我们的免费工具轻松根据份数调整食材用量。无需注册。",
   "keywords": [
     "份量计算器",
-    "食物分量计算",
-    "烹饪份量工具",
-    "食材用量计算",
-    "营养份量"
+    "食谱换算",
+    "食材比例计算",
+    "meal prep份数",
+    "食谱份量计算器",
+    "食材克数计算",
+    "份量计算器应用",
+    "酒精份量计算器",
+    "食物份量计算器",
+    "宠物食品份量计算",
+    "免费食谱份量计算器",
+    "如何使用份量计算器",
+    "食谱换算器",
+    "食谱换算方法",
+    "食谱换算app",
+    "食谱换算公式",
+    "食谱换算工具",
+    "食谱换算速查表",
+    "食谱换算表格",
+    "食材比例计算器app"
   ],
-  "category": "烹饪",
+  "category": "Cooking",
   "icon": "🍽️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "如何调整食谱份数？",
+      "answer": "输入原始份数和所需份数，即可获得精确的食材用量。"
+    },
+    {
+      "question": "这个工具可以用于任何食谱吗？",
+      "answer": "可以，它适用于大多数食谱，可以调整任何食材的用量。"
+    },
+    {
+      "question": "如果我只想调整某一种食材怎么办？",
+      "answer": "您可以通过输入原始用量和所需份数来单独调整某一食材的用量。"
+    }
+  ],
   "relatedTools": [
     "body-fat-calculator",
     "daily-goal-tracker"

@@ -1,0 +1,29 @@
+{
+  "slug": "your-tool-slug",
+  "name": "您的工具名称",
+  "tagline": "主页卡片上显示的一行描述",
+  "description": "工具页面上显示的完整描述（1-2句）。",
+  "metaTitle": "您的工具名称 – 免费在线工具",
+  "metaDescription": "160字符SEO描述。包含主要关键词，提及免费/快速/无需注册。",
+  "keywords": [
+    "主要关键词",
+    "次要关键词",
+    "长尾关键词"
+  ],
+  "category": "Health | Finance | Developer | Date & Time | Generators | Security | Utilities",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "这个工具有什么作用？",
+      "answer": "用1-2句话清楚地解释该工具的功能。"
+    },
+    {
+      "question": "这是免费的吗？",
+      "answer": "是的，完全免费，无需注册。"
+    }
+  ],
+  "relatedTools": [
+    "other-tool-slug"
+  ],
+  "variants": []
+}

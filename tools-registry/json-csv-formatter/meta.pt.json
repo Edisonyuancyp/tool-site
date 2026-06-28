@@ -1,20 +1,48 @@
 {
   "slug": "json-csv-formatter",
-  "name": "Formatador JSON/CSV",
-  "tagline": "Formate, valide e converta JSON e CSV",
-  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
-  "metaTitle": "Formatador JSON/CSV – Ferramenta Gratuita de Conversão de Formato de Dados Online",
-  "metaDescription": "Cole dados JSON ou CSV para formatar automaticamente, validar sintaxe e converter JSON ↔ CSV.",
+  "name": "JSON & CSV Formatter / Validator",
+  "tagline": "Formate, valide e converta JSON e CSV instantaneamente no seu navegador",
+  "description": "Cole JSON bruto para formatar com indentação de 2 espaços ou minificar, com validação em tempo real. Cole CSV para normalizar aspas e delimitadores, ou converta CSV para um array JSON. Suporta delimitadores de vírgula, ponto e vírgula, tabulação e pipe.",
+  "metaTitle": "JSON CSV Formatter & Validator – Formatador JSON Online e Conversor CSV",
+  "metaDescription": "Formatador JSON, validador e formatador CSV gratuitos online. Cole JSON para embelezar ou minificar. Cole CSV para formatar ou converter para JSON. Suporta todos os delimitadores. Apenas no navegador.",
   "keywords": [
-    "formatador JSON",
-    "conversor CSV",
-    "validar JSON",
-    "embelezar JSON",
-    "converter formato de dados"
+    "formatador json online",
+    "validador json",
+    "formatador csv online",
+    "embelezador json",
+    "conversor csv para json",
+    "formatador json online grátis",
+    "editor formatador json online",
+    "visualizador formatador json online",
+    "embelezador formatador json online",
+    "ferramenta formatador json online",
+    "formatador json remover caracteres de escape",
+    "comparador formatador json online",
+    "validador json online",
+    "validador e formatador json",
+    "validador schema json",
+    "ferramenta validador json",
+    "validador json python",
+    "validador json code beautify",
+    "validador schema json online",
+    "formatador csv para json online"
   ],
-  "category": "Desenvolvimento",
+  "category": "Developer",
   "icon": "📋",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que faz a formatação de JSON?",
+      "answer": "A formatação JSON (embelezamento) adiciona indentação consistente e quebras de linha para tornar JSON compacto legível para humanos. Minificar remove todos os espaços em branco para reduzir o tamanho do arquivo."
+    },
+    {
+      "question": "Meus dados são enviados para um servidor?",
+      "answer": "Não. Toda formatação e validação ocorre inteiramente no seu navegador. Seus dados nunca saem do seu dispositivo."
+    },
+    {
+      "question": "Quais delimitadores de CSV são suportados?",
+      "answer": "Vírgula (,), ponto e vírgula (;), tabulação (TSV) e pipe (|). A ferramenta também trata campos entre aspas RFC 4180 e aspas escapadas."
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

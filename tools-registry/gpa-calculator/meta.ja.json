@@ -1,20 +1,48 @@
 {
   "slug": "gpa-calculator",
   "name": "GPA計算機",
-  "tagline": "学業成績（GPA）を計算",
-  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
-  "metaTitle": "GPA計算機 – 無料オンライン成績計算ツール",
-  "metaDescription": "科目の単位数と成績を入力して加重GPAを自動計算。4.0スケールと100点スケールに対応。",
+  "tagline": "成績や百分率からGPAを即座に計算",
+  "description": "成績、百分率、または評点からGPA(平均評定点)を計算します。4.0スケール、加重GPA、および通算GPAの計算に対応しています。",
+  "metaTitle": "GPA計算機 – 成績からGPAを無料で計算 | オンライン",
+  "metaDescription": "無料のGPA計算機。成績または百分率を入力して、4.0スケールのGPAを計算できます。加重GPAと通算GPAに対応。",
   "keywords": [
     "GPA計算機",
-    "成績計算機",
-    "加重GPA計算",
-    "学業成績計算",
-    "GPAシミュレーション"
+    "平均評定点計算",
+    "成績からGPA",
+    "GPA計算4.0スケール",
+    "通算GPA計算",
+    "GPA計算チュラロンコン大学",
+    "GPA計算大学",
+    "パーセンテージからGPA計算",
+    "GPA計算トロント大学",
+    "GPA計算大学向け",
+    "GPA計算4段階評価",
+    "GPA計算オンライン",
+    "無料GPA計算オンライン",
+    "無料GPA計算機",
+    "無料GPA計算高校",
+    "無料GPA計算大学",
+    "無料GPA計算アンナ大学",
+    "無料GPA計算アンナ大学2025",
+    "留学生向け無料GPA計算",
+    "無料GPA計算農業大学"
   ],
-  "category": "ユーティリティ",
+  "category": "Utilities",
   "icon": "🎓",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "GPAはどのように計算されますか?",
+      "answer": "GPAは、各成績を評点に変換し(A=4.0、B=3.0、C=2.0、D=1.0、F=0.0)、単位時間で加重された全コースの平均を算出することで計算されます。"
+    },
+    {
+      "question": "良好なGPAとはどのくらいですか?",
+      "answer": "3.5～4.0のGPAは優秀と見なされます(ほとんどの大学の学長リスト対象)。3.0～3.5は良好です。2.0未満は多くの学校で学業上の停学対象になる可能性があります。"
+    },
+    {
+      "question": "加重GPAと非加重GPAの違いは何ですか?",
+      "answer": "非加重GPAはすべてのコースを同等に扱います(最大4.0)。加重GPAはオナーズ、AP、またはIBコースに追加ポイントを与えます(最大5.0)。学業の難易度を評価します。"
+    }
+  ],
   "relatedTools": [
     "percentage-calculator",
     "age-calculator",

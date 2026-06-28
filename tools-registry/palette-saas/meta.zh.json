@@ -1,0 +1,36 @@
+{
+  "slug": "palette-saas",
+  "name": "极简SaaS配色方案",
+  "tagline": "现代SaaS产品采用的简洁高对比度配色。以靛蓝色为主色调的中性灰度组合。",
+  "description": "现代SaaS产品采用的简洁高对比度配色。以靛蓝色为主色调的中性灰度组合。",
+  "metaTitle": "极简SaaS配色方案 – HEX、CMYK、Tailwind和潘通色号查询工具",
+  "metaDescription": "免费极简SaaS配色方案工具，包含HEX色号、Tailwind CSS类名、CMYK值和潘通色号参考。一键复制任意颜色代码。",
+  "keywords": [
+    "极简SaaS配色方案",
+    "SaaS配色组合",
+    "SaaS HEX色号",
+    "#6366F1",
+    "#A5B4FC",
+    "#F9FAFB",
+    "潘通配色",
+    "CMYK转换",
+    "网页配色方案",
+    "Tailwind CSS配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "潘通色号参考是精确匹配吗？",
+      "answer": "不是。显示的潘通色号是视觉上最接近的近似值。对于生产印刷工作，请务必对照物理潘通色卡进行验证。"
+    },
+    {
+      "question": "CMYK值是如何计算的？",
+      "answer": "CMYK值使用设备无关公式计算：K = 1 − max(R,G,B)；C/M/Y从RGB比值推导。实际输出结果取决于打印机配置文件和纸张类型。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

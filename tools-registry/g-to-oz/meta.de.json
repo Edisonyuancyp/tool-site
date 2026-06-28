@@ -1,0 +1,44 @@
+{
+  "slug": "g-to-oz",
+  "name": "Gramm in Unzen Umrechner",
+  "tagline": "Konvertieren Sie Gramm in Unzen (und oz in g) sofort",
+  "description": "Konvertieren Sie Gramm in Unzen und Unzen in Gramm in Echtzeit. Unverzichtbar zum Kochen, Backen, Ernährungsverfolgung und Berechnung von Postgewichten.",
+  "metaTitle": "Gramm in Unzen Umrechner — Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Konvertieren Sie Gramm in Unzen sofort. Geben Sie einen beliebigen Wert ein und erhalten Sie beide Richtungen gleichzeitig. Kostenlos, schnell, werbefrei.",
+  "keywords": [
+    "gramm in unzen",
+    "g in oz",
+    "unzen in gramm",
+    "oz in g",
+    "gewichtsumrechner kochen",
+    "= 0,0352739619 unzen",
+    "gramm in unzen umrechner kostenlos",
+    "= 28,3495231 gramm"
+  ],
+  "category": "Converter",
+  "icon": "🍳",
+  "faqs": [
+    {
+      "question": "Wie viele Unzen sind 1 Gramm?",
+      "answer": "1 Gramm entspricht 0,035274 Unzen. Umgekehrt entspricht 1 Unze 28,3495 Gramm."
+    },
+    {
+      "question": "Was sind 100 Gramm in Unzen?",
+      "answer": "100 Gramm = 3,527 Unzen. Ein häufiger Referenzwert: Ein Standard-Schokoriegel (100g) wiegt etwa 3,5 oz."
+    },
+    {
+      "question": "Wie viele Gramm sind 1 oz Lebensmittel?",
+      "answer": "1 Flüssig-Unze Wasser entspricht etwa 29,57 Gramm. 1 Trocken-Unze sind 28,35 Gramm (der in der Ernährung verwendete Wert)."
+    },
+    {
+      "question": "Ist dieses Tool zum Kochen geeignet?",
+      "answer": "Ja — die Umrechnung von Rezeptmengen zwischen Gramm und Unzen ist eine der häufigsten Anwendungen. Geben Sie das Gewicht Ihrer Zutat ein und erhalten Sie sofort den umgerechneten Wert."
+    }
+  ],
+  "relatedTools": [
+    "kg-to-lbs",
+    "cm-to-inch",
+    "celsius-to-fahrenheit"
+  ],
+  "variants": []
+}

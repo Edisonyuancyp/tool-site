@@ -1,0 +1,60 @@
+{
+  "slug": "risk-calculator",
+  "name": "Position Size Calculator",
+  "tagline": "Berechnen Sie Ihre Positionsgröße und managen Sie Ihr Handelsrisiko — kostenlos, sofort, nur im Browser",
+  "description": "Geben Sie Ihr Kontoguthaben, Risikoprozentsatz, Einstiegspreis und Stop-Loss-Preis ein, um sofort die korrekte Positionsgröße und maximale Risikomenge zu berechnen. Funktioniert für Kryptowährungen, Forex und Aktien.",
+  "metaTitle": "Position Size Calculator für Trading | Risikomanagement Tool",
+  "metaDescription": "Berechnen Sie Ihre Positionsgröße und managen Sie Ihr Handelsrisiko mit diesem kostenlosen Krypto- und Forex-Rechner. Vermeiden Sie Liquidation und optimieren Sie Ihre Handelsgröße.",
+  "keywords": [
+    "Position Size Calculator",
+    "Trading Risikomanagement",
+    "Krypto Stop Loss Rechner",
+    "Forex Risiko Rechner",
+    "Positionsgröße Rechner",
+    "Risk Reward Rechner",
+    "Lot Size Rechner Forex",
+    "Krypto Positionsgröße kostenlos",
+    "Trading Risiko Prozent Rechner",
+    "Stop Loss Positionsgröße",
+    "Position Size Calculator MT5",
+    "Position Size Calculator MT5 kostenlos",
+    "Position Size Calculator Forex",
+    "Position Size Calculator Krypto",
+    "Positionsgrößen Kalkulator",
+    "XAUUSD Position Size Rechner",
+    "Forex Positionsgröße online",
+    "Position Size Rechner online",
+    "Forex Position Size Rechner online",
+    "Position Calculator MT5 online"
+  ],
+  "category": "Quant",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Wie lautet die Formel für die Positionsgröße?",
+      "answer": "Positionsgröße = (Kontoguthaben × Risiko %) ÷ (Einstiegspreis − Stop-Loss-Preis). Dies zeigt Ihnen genau, wie viele Einheiten oder Coins Sie kaufen sollten, damit Sie bei Auslösung Ihres Stop-Loss nur Ihren vordefinierten Risikoanteil verlieren."
+    },
+    {
+      "question": "Was ist die 1%-Risiko-Regel?",
+      "answer": "Die 1%-Regel besagt, dass Sie nie mehr als 1% Ihres Gesamtkontoguthabens in einem einzelnen Trade riskieren sollten. Bei einem Konto von 10.000 $, beträgt der maximale Verlust pro Trade 100 $. Dies schützt Sie vor katastrophalen Drawdowns."
+    },
+    {
+      "question": "Funktioniert dies auch für Forex Lot-Größen?",
+      "answer": "Ja. Geben Sie Ihr Kontoguthaben in Ihrer Kontowährung, Ihren Einstiegs- und Stop-Loss-Preis ein, und der Rechner gibt Ihnen die Anzahl der Einheiten zurück. Teilen Sie durch 100.000, um Standard-Forex-Lot-Größen zu erhalten."
+    },
+    {
+      "question": "Funktioniert dies auch für Kryptohandel?",
+      "answer": "Absolut. Geben Sie den Einstiegs- und Stop-Loss-Preis der Coin in USD (oder einer anderen Währung) ein, zusammen mit Ihrer Kontogröße und Ihrem Risikoprozentsatz. Das Ergebnis ist die Anzahl der Coins/Token, die Sie kaufen sollten."
+    },
+    {
+      "question": "Werden meine Daten an einen Server gesendet?",
+      "answer": "Nein. Alle Berechnungen finden ausschließlich in Ihrem Browser mit JavaScript statt. Nichts wird an einen Server gesendet."
+    }
+  ],
+  "relatedTools": [
+    "position-size-calculator",
+    "tp-sl-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

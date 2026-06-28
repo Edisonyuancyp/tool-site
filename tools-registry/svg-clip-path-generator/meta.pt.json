@@ -1,0 +1,51 @@
+{
+  "slug": "svg-clip-path-generator",
+  "name": "Gerador de Clip Path SVG",
+  "tagline": "Crie facilmente caminhos de recorte personalizados",
+  "description": "Projete e gere caminhos de recorte SVG ajustando parâmetros como forma, tamanho e posição. Ideal para desenvolvedores front-end e designers que desejam aprimorar seus gráficos web.",
+  "metaTitle": "Gerador de Clip Path SVG – Ferramenta de Formas Personalizadas | Ferramenta Online Gratuita",
+  "metaDescription": "Crie caminhos de recorte SVG personalizados para gráficos web. Ferramenta gratuita, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "clip path svg",
+    "gerador de clip path",
+    "ferramenta de design web",
+    "gráficos svg",
+    "formas personalizadas",
+    "gerador de clip path svg grátis",
+    "gerador de clip path svg online sem download",
+    "gerador de clip path svg códigos hex",
+    "ferramenta de design gratuita",
+    "gerador de paleta de cores",
+    "visualização instantânea",
+    "sem necessidade de photoshop",
+    "gerador clip path svg",
+    "criador de clip path svg",
+    "gerador css clip path svg",
+    "clip path svg css",
+    "animação clip path svg",
+    "url clip path svg",
+    "clip path svg invertido",
+    "editor clip path svg"
+  ],
+  "category": "Design",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "O que é um clip path SVG?",
+      "answer": "Um clip path SVG é usado para definir uma região específica de um gráfico SVG a ser exibida, permitindo formas criativas."
+    },
+    {
+      "question": "Posso usar minhas próprias formas?",
+      "answer": "Sim, você pode inserir formas personalizadas ou selecionar entre modelos predefinidos."
+    },
+    {
+      "question": "Como implemento o clip path no meu código?",
+      "answer": "A ferramenta fornece os trechos de código necessários para integrar facilmente ao seu projeto."
+    }
+  ],
+  "relatedTools": [
+    "css-gradient-builder",
+    "icon-grid-calculator"
+  ],
+  "variants": []
+}

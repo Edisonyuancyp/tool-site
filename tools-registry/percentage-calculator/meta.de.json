@@ -1,27 +1,46 @@
 {
   "slug": "percentage-calculator",
   "name": "Prozentrechner",
-  "tagline": "Prozent, Zu- und Abnahmen schnell berechnen",
-  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
-  "metaTitle": "Prozentrechner – Kostenloser Online-Prozentrechner",
-  "metaDescription": "Berechne Prozentwerte, Prozentzunahmen/-abnahmen und Verhältnisse – alle Prozentaufgaben sofort gelöst.",
+  "tagline": "Berechnen Sie Prozentsätze, Steigerungen, Senkungen und mehr",
+  "description": "Kostenloser Prozentrechner für alle gängigen Prozentaufgaben: Was ist X% von Y, prozentuale Steigerung/Senkung, welcher Prozentsatz ist X von Y und Rückwärtsrechnung von Prozenten.",
+  "metaTitle": "Prozentrechner – Kostenlos Prozente Online Berechnen",
+  "metaDescription": "Berechnen Sie jeden Prozentsatz sofort. Ermitteln Sie X% von Y, prozentuale Steigerung oder Senkung, welcher Prozentsatz eine Zahl von einer anderen ist. Kostenloser Prozentrechner online.",
   "keywords": [
-    "Prozentrechner",
-    "Prozent berechnen",
-    "Prozentzunahme berechnen",
-    "Rabattrechner",
-    "Verhältnis berechnen"
+    "prozentrechner",
+    "prozentrechner online",
+    "prozentuale steigerung rechner",
+    "prozentuale abnahme rechner",
+    "prozentsatz berechnen",
+    "prozentrechner noten",
+    "prozentrechner kostenlos",
+    "prozentrechner formel",
+    "prozentrechner erhöhung",
+    "prozentrechner differenz",
+    "prozentrechner geld",
+    "prozentrechner excel",
+    "prozentrechner online kostenlos",
+    "prozentrechner prozentuale änderung",
+    "prozentrechner währung",
+    "prozentrechner umrechnung",
+    "prozentrechner punkte",
+    "prozentrechner zuwachs",
+    "prozentrechner berechnung",
+    "kostenlos prozentrechner"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "%",
   "faqs": [
     {
-      "question": "Wie berechnet man Prozent?",
-      "answer": "Prozent = (Teil ÷ Gesamt) × 100 %"
+      "question": "Wie berechne ich einen Prozentsatz einer Zahl?",
+      "answer": "Multiplizieren Sie die Zahl mit dem Prozentsatz und dividieren Sie durch 100. Beispiel: 20% von 150 = (20 × 150) / 100 = 30."
     },
     {
-      "question": "Wie berechnet man eine Zunahme?",
-      "answer": "Zunahme = (Neuer Wert - Alter Wert) ÷ Alter Wert × 100 %"
+      "question": "Wie berechne ich eine prozentuale Steigerung?",
+      "answer": "Prozentuale Steigerung = ((Neuer Wert - Alter Wert) / Alter Wert) × 100. Beispiel: Von 80 auf 100 ist eine Steigerung von 25%."
+    },
+    {
+      "question": "Wie finde ich heraus, welcher Prozentsatz eine Zahl von einer anderen ist?",
+      "answer": "Dividieren Sie die erste Zahl durch die zweite und multiplizieren Sie mit 100. Beispiel: Welcher Prozentsatz ist 30 von 200? (30/200) × 100 = 15%."
     }
   ],
   "relatedTools": [

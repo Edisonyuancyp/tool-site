@@ -1,20 +1,48 @@
 {
   "slug": "travel-time-calculator",
-  "name": "Fahrzeitrechner",
-  "tagline": "Reisedistanz und Fahrzeit berechnen",
-  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
-  "metaTitle": "Fahrzeitrechner – Fahrzeit-Schätzungstool",
-  "metaDescription": "Distanz und Geschwindigkeit eingeben und geschätzte Fahrzeit berechnen; oder Abfahrts- und Ankunftszeit eingeben und Reisegeschwindigkeit berechnen.",
+  "name": "Reisezeitrechner",
+  "tagline": "Berechnen Sie die Dauer Ihrer Reise.",
+  "description": "Geben Sie Ihre Entfernung und durchschnittliche Geschwindigkeit ein, um herauszufinden, wie lange Ihre Reise dauert. Ideal für Reisende, die Roadtrips oder Fernreisen planen.",
+  "metaTitle": "Reisezeitrechner – Reisedauer Estimator | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie kostenlos Ihre Reisezeit ohne Anmeldung. Erhalten Sie sofort genaue Reisedauer-Schätzungen!",
   "keywords": [
-    "Fahrzeitrechner",
+    "Reisezeitrechner",
+    "Reisedauer berechnen",
     "Fahrzeit berechnen",
-    "Reisezeit schätzen",
-    "Entfernung Zeit Geschwindigkeit",
-    "Straßenfahrt Rechner"
+    "Reisezeit Rechner",
+    "Fahrtdauer Rechner",
+    "Roadtrip Planer",
+    "Reisedauer Rechner",
+    "Reisezeitrechner Karte",
+    "Reisezeitrechner kostenlos",
+    "Fahrzeit nach Geschwindigkeit berechnen",
+    "Fahrtdauer Auto berechnen",
+    "Reisezeit zwischen Zeitzonen",
+    "Reisezeitrechner online",
+    "Reisezeit zwischen zwei Orten berechnen",
+    "Fahrtdauer basierend auf Geschwindigkeit",
+    "Entfernung und Zeit berechnen",
+    "Reisedauer Schätzung",
+    "Fahrtzeit Kalkulator",
+    "Reisezeit Estimator",
+    "Fahrtdauer Berechnung"
   ],
-  "category": "Reise",
+  "category": "Travel",
   "icon": "⏳",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie berechne ich meine Reisezeit?",
+      "answer": "Geben Sie die Entfernung und Ihre durchschnittliche Geschwindigkeit ein, um eine geschätzte Reisezeit zu erhalten."
+    },
+    {
+      "question": "Kann ich dies für verschiedene Reisemodi verwenden?",
+      "answer": "Ja, Sie können die durchschnittliche Geschwindigkeit je nach Reisemethode anpassen."
+    },
+    {
+      "question": "Gibt es eine Grenze für die Entfernung, die ich eingeben kann?",
+      "answer": "Nein, Sie können beliebige Entfernungen für Ihre Reisezeitschätzung eingeben."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

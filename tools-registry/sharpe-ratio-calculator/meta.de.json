@@ -1,0 +1,38 @@
+{
+  "slug": "sharpe-ratio-calculator",
+  "name": "Sharpe-Ratio-Rechner",
+  "tagline": "Messen Sie die risikobereinigte Rendite Ihres Portfolios oder Ihrer Strategie",
+  "description": "Berechnen Sie die Sharpe Ratio einer beliebigen Handelsstrategie oder eines Portfolios. Geben Sie die Portfoliorendite, den risikofreien Zinssatz und die Standardabweichung der Renditen ein, um die risikobereinigte Leistungskennzahl zu erhalten.",
+  "metaTitle": "Sharpe-Ratio-Rechner – Risikobereinigte Renditerechner",
+  "metaDescription": "Kostenloser Sharpe-Ratio-Rechner. Geben Sie Portfoliorendite, risikofreien Zinssatz und Standardabweichung ein, um die risikobereinigte Leistung zu messen. Funktioniert für Aktien-, Krypto- und Forex-Strategien.",
+  "keywords": [
+    "Sharpe-Ratio-Rechner",
+    "risikobereinigte Rendite",
+    "Portfolio-Performance-Rechner",
+    "Sharpe-Ratio-Formel",
+    "Investitionsleistungskennzahl",
+    "Sharpe Ratio Trading"
+  ],
+  "category": "Quant",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Was ist die Sharpe Ratio?",
+      "answer": "Die Sharpe Ratio misst, wie viel Überrendite Sie pro Risikoeinheit verdienen. Formel: (Portfoliorendite − Risikofreier Zinssatz) ÷ Standardabweichung."
+    },
+    {
+      "question": "Was ist eine gute Sharpe Ratio?",
+      "answer": "Über 1,0 ist akzeptabel, über 2,0 ist sehr gut und über 3,0 ist ausgezeichnet. Unter 1,0 bedeutet, dass die Rendite das Risiko nicht angemessen ausgleicht."
+    },
+    {
+      "question": "Welchen risikofreien Zinssatz sollte ich verwenden?",
+      "answer": "Verwenden Sie die aktuelle Rendite kurzfristiger Staatsanleihen (z. B. US 3-Monats-Treasury-Bills). Bei Krypto-Strategien verwenden manche Trader 0% als risikofreien Zinssatz."
+    }
+  ],
+  "relatedTools": [
+    "kelly-criterion-calculator",
+    "position-size-calculator",
+    "risk-calculator"
+  ],
+  "variants": []
+}

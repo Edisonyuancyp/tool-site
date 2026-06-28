@@ -1,0 +1,46 @@
+{
+  "slug": "fba-fee-calculator",
+  "name": "FBA-Gebührenrechner",
+  "tagline": "Berechnen Sie Amazon FBA Fulfillment-, Verkaufsprovisionen- und Lagergebühren nach Größenkategorie",
+  "description": "Geben Sie Ihre Produktabmessungen, Gewicht und Kategorie ein, um die genaue FBA-Fulfillmentgebühr, Verkaufsprovision und monatliche Lagergebühr zu erhalten – mit der Gesamtgebühr als Prozentsatz des Verkaufspreises.",
+  "metaTitle": "FBA-Gebührenrechner 2024 – Amazon Fulfillment & Verkaufsprovisionsrechner",
+  "metaDescription": "Kostenloser FBA-Gebührenrechner. Geben Sie Abmessungen und Gewicht ein, um Fulfillmentgebühr, Verkaufsprovision und Lagerkosten zu berechnen. Aktualisiert für 2024 Amazon-Gebührenplan.",
+  "keywords": [
+    "FBA-Gebührenrechner",
+    "Amazon FBA Gebührenrechner",
+    "Amazon Fulfillment Gebührenrechner",
+    "Amazon Verkaufsprovisionsrechner",
+    "FBA Gebührenrechner 2024",
+    "Amazon FBA Kostenrechner",
+    "Amazon Verkäufer Gebührenrechner",
+    "FBA Größenkategorie Rechner",
+    "Amazon Lagergebührenrechner",
+    "Amazon FBA Gebühren nach Größe",
+    "FBA Pick and Pack Gebühr",
+    "Amazon Verkäufer Gebührenaufschlüsselung",
+    "FBA Gebührenrechner 2024",
+    "Amazon Produkt Gebührenschätzer",
+    "FBA Gebührenkalkulator"
+  ],
+  "category": "ecommerce",
+  "icon": "🏷️",
+  "faqs": [
+    {
+      "question": "Wie werden Amazon FBA Fulfillmentgebühren berechnet?",
+      "answer": "FBA-Gebühren basieren auf der Größenkategorie, die durch das Produktgewicht und die Abmessungen bestimmt wird. Größere und schwerere Artikel zahlen höhere Gebühren. Es gibt 5 Standard-Kategorien von Small Standard bis Large Oversize."
+    },
+    {
+      "question": "Was ist die Amazon Verkaufsprovision?",
+      "answer": "Amazon erhebt eine Verkaufsprovision von 6–20 % des Verkaufspreises je nach Kategorie. Die meisten Kategorien betragen 15 %. Elektronik und Bücher sind mit 6–8 % niedriger."
+    },
+    {
+      "question": "Wie viel berechnet Amazon für Lagerung?",
+      "answer": "Die Lagerung von Standard-Größen kostet $0,87 pro Kubikfuß von Januar bis September und $2,40 pro Kubikfuß von Oktober bis Dezember. Übergroße Artikel kosten $0,56 bzw. $1,40."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "serving-size-calculator",
   "name": "Portionsrechner",
-  "tagline": "Portionsgrößen und Nährstoffaufnahme berechnen",
-  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
-  "metaTitle": "Portionsrechner – Portionsgröße berechnen",
-  "metaDescription": "Basierend auf Personenanzahl und Rezept die Zutatenmengen und Nährstoffgehalt pro Portion berechnen.",
+  "tagline": "Passen Sie Rezepte für beliebig viele Portionen an.",
+  "description": "Berechnen Sie die benötigten Zutatmengen für Ihre gewünschte Portionsgröße. Ideal zum Hochfahren oder Herunterfahren von Rezepten für Feiern oder Meal Prep.",
+  "metaTitle": "Portionsrechner – Rezeptportionen anpassen | Kostenloses Online-Tool",
+  "metaDescription": "Passen Sie Zutaten einfach nach Portionen mit unserem kostenlosen Tool an. Keine Anmeldung erforderlich.",
   "keywords": [
-    "Portionsrechner",
-    "Portionsgröße berechnen",
-    "Rezept Mengen",
-    "Zutatenmenge berechnen",
-    "Nährstoffe pro Portion"
+    "portionsrechner",
+    "rezept skalieren",
+    "portionenrechner",
+    "meal prep portionen",
+    "portionsrechner für rezepte",
+    "portionsrechner gramm",
+    "portionsrechner app",
+    "portionsrechner alkohol",
+    "portionsrechner lebensmittel",
+    "futterrechner portionen",
+    "rezept portionsrechner kostenlos",
+    "portionsgröße berechnen",
+    "rezeptrechner",
+    "rezept skalierung bedeutung",
+    "rezept skalier app",
+    "rezept skalierungsformel",
+    "rezept skalierungstool",
+    "rezept skalierungs-checkliste",
+    "rezept skalierungs-tabelle",
+    "portionenrechner app"
   ],
-  "category": "Kochen",
+  "category": "Cooking",
   "icon": "🍽️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie skaliere ich ein Rezept?",
+      "answer": "Geben Sie die ursprüngliche Portionsgröße und Ihre gewünschte Portionsgröße ein, um genaue Zutatmengen zu erhalten."
+    },
+    {
+      "question": "Funktioniert dies für alle Rezepte?",
+      "answer": "Ja, es funktioniert für die meisten Rezepte und nimmt Anpassungen für alle Zutaten vor."
+    },
+    {
+      "question": "Was ist, wenn ich nur eine Zutat anpassen möchte?",
+      "answer": "Sie können einzelne Zutaten anpassen, indem Sie deren ursprüngliche Mengen und gewünschte Portionen eingeben."
+    }
+  ],
   "relatedTools": [
     "body-fat-calculator",
     "daily-goal-tracker"

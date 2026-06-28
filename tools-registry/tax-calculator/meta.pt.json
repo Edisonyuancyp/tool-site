@@ -1,20 +1,56 @@
 {
   "slug": "tax-calculator",
-  "name": "Calculadora de Impostos",
-  "tagline": "Estime rapidamente os impostos devidos",
-  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
-  "metaTitle": "Calculadora de Impostos – Ferramenta Gratuita de Cálculo de Imposto Online",
-  "metaDescription": "Insira renda e alíquota para calcular rapidamente o imposto devido e a renda líquida.",
+  "name": "Calculadora de Imposto de Renda",
+  "tagline": "Calcule imposto de renda para EUA, Reino Unido, Canadá, Austrália e mais",
+  "description": "Calculadora de imposto de renda gratuita cobrindo 7 países — EUA, Reino Unido, Canadá, Austrália, Alemanha, Singapura, França e Japão. Digite sua renda para ver instantaneamente o imposto devido, alíquota efetiva e salário líquido. Atualizado para o ano fiscal de 2024.",
+  "metaTitle": "Calculadora de Imposto de Renda 2024 — EUA, Reino Unido, Canadá, Austrália e Mais",
+  "metaDescription": "Calculadora de imposto de renda gratuita para 7 países. Digite sua renda → veja imposto devido, alíquota efetiva e salário líquido na hora. Atualizado para 2024.",
   "keywords": [
-    "calculadora de impostos",
-    "calcular imposto de renda",
-    "alíquota de imposto",
-    "cálculo de imposto",
-    "renda líquida"
+    "calculadora de imposto de renda",
+    "calculadora de imposto 2024",
+    "quanto de imposto eu pago",
+    "calculadora de salário líquido",
+    "calculadora de imposto global",
+    "calculadora de imposto de renda ay 2025 26",
+    "calculadora de imposto de renda fy 2024 25",
+    "calculadora de imposto de renda ay 2026 27",
+    "calculadora de imposto de renda reino unido",
+    "calculadora de imposto de renda ontário",
+    "calculadora de imposto de renda antigo vs novo",
+    "calculadora de imposto de renda austrália",
+    "calculadora de imposto de renda online",
+    "calculadora de imposto de renda online índia",
+    "calculadora de imposto de renda online novo regime",
+    "calculadora de imposto de renda online fy 2025-26",
+    "calculadora de imposto de renda online excel",
+    "calculadora de imposto de renda online gratuita",
+    "calculadora de imposto de renda online 2026-27",
+    "calculadora de imposto de renda online fy 2026-27"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "🧾",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quais países esta calculadora cobre?",
+      "answer": "EUA (federal), Reino Unido, Canadá (federal), Austrália, Alemanha, Singapura, França e Japão — todos atualizados para o ano fiscal de 2024."
+    },
+    {
+      "question": "Esta calculadora é precisa?",
+      "answer": "Fornece estimativas próximas com base nas alíquotas de imposto oficiais de cada país. Não inclui todas as deduções locais, créditos ou sobretaxas — sempre consulte um profissional de impostos para declarações oficiais."
+    },
+    {
+      "question": "Inclui seguro social e contribuições nacionais?",
+      "answer": "Sim — National Insurance do Reino Unido, CPP/EI do Canadá, Medicare Levy da Austrália, contribuições sociais da Alemanha e imposto sobre trabalho autônomo dos EUA são todos exibidos como itens de linha separados."
+    },
+    {
+      "question": "O que é alíquota efetiva de imposto?",
+      "answer": "Sua alíquota efetiva é o imposto de renda total dividido pela renda bruta. É sempre menor que sua alíquota marginal porque fatias de renda menores são tributadas em alíquotas menores."
+    },
+    {
+      "question": "O que é alíquota marginal de imposto?",
+      "answer": "Sua alíquota marginal é a alíquota de imposto que se aplica ao seu último real de renda — ou seja, a faixa mais alta que você atinge. Este é o valor que você paga sobre qualquer renda extra que ganhar."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "retirement-savings-calculator",

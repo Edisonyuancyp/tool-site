@@ -1,23 +1,46 @@
 {
   "slug": "currency-converter",
   "name": "Conversor de Moedas",
-  "tagline": "Conversão de câmbio em tempo real",
-  "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
-  "metaTitle": "Conversor de Moedas – Conversor Gratuito de Taxa de Câmbio em Tempo Real",
-  "metaDescription": "Conversão de câmbio em tempo real para mais de 150 moedas. Real, dólar, euro e muito mais com um clique.",
+  "tagline": "Converta moedas com taxas de câmbio ao vivo",
+  "description": "Converta entre 25+ moedas mundiais usando taxas de câmbio ao vivo do Banco Central Europeu (BCE). Inclui tabela de referência rápida e fallback automático para taxas offline quando necessário.",
+  "metaTitle": "Conversor de Moedas – Calculadora de Câmbio Ao Vivo Grátis",
+  "metaDescription": "Converta USD, EUR, GBP, JPY, CNY e mais de 20 moedas com taxas ao vivo do BCE. Conversor de moedas online grátis — sem cadastro, resultados instantâneos.",
   "keywords": [
     "conversor de moedas",
-    "taxa de câmbio",
-    "converter moeda",
-    "câmbio online",
-    "conversor de câmbio"
+    "calculadora de taxa de câmbio",
+    "dólar para euro",
+    "câmbio de moedas online",
+    "cotação de moedas ao vivo",
+    "conversor de dólar para baht",
+    "conversor de euro para baht",
+    "conversor de dong vietnamita para baht",
+    "conversor de iene para baht",
+    "calculadora conversor de moedas",
+    "extensão conversor de moedas",
+    "conversor de baht para franco suíço",
+    "conversor de moedas online",
+    "conversor de moedas online grátis",
+    "conversor de moedas online índia",
+    "conversor de moedas online - calculadora de taxa de câmbio",
+    "conversor de moedas online calculadora",
+    "conversor de moedas online dubai para índia",
+    "conversor de moedas online aed para inr",
+    "conversor de moedas online google"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "💱",
   "faqs": [
     {
-      "question": "As taxas de câmbio são em tempo real?",
-      "answer": "Sim, os dados de câmbio são atualizados diariamente via APIs públicas."
+      "question": "De onde vêm as taxas de câmbio?",
+      "answer": "As taxas são obtidas do Banco Central Europeu (BCE) via API Frankfurter — uma fonte gratuita e confiável atualizada diariamente. Quando offline, a ferramenta recorre a taxas de referência estáticas."
+    },
+    {
+      "question": "Com que frequência as taxas são atualizadas?",
+      "answer": "As taxas do BCE são atualizadas uma vez por dia útil. As taxas não são dados em tempo real, mas são precisas para a maioria das conversões do dia a dia."
+    },
+    {
+      "question": "Quais moedas são suportadas?",
+      "answer": "Mais de 25 moedas, incluindo USD, EUR, GBP, JPY, CNY, KRW, AUD, CAD, CHF, HKD, SGD, INR, THB, VND, MYR, IDR, PHP e muito mais."
     }
   ],
   "relatedTools": [

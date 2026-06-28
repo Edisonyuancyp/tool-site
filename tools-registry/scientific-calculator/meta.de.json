@@ -1,0 +1,40 @@
+{
+  "slug": "scientific-calculator",
+  "name": "Wissenschaftlicher Taschenrechner",
+  "tagline": "Vollwertiger wissenschaftlicher Taschenrechner — Trigonometrie, Logarithmen, Potenzen und mehr",
+  "description": "Ein kostenloser Online-Taschenrechner mit vollständiger wissenschaftlicher Funktionalität. Unterstützt Trigonometrie (sin, cos, tan), Logarithmen, Exponenten, Quadratwurzeln, Fakultäten und Konstanten wie π und e. Funktioniert vollständig in Ihrem Browser.",
+  "metaTitle": "Wissenschaftlicher Taschenrechner – Kostenlos online rechnen",
+  "metaDescription": "Kostenloser wissenschaftlicher Taschenrechner online. Mit sin, cos, tan, log, ln, Quadratwurzel, Potenzen, Fakultäten, π, e und mehr. Keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "wissenschaftlicher Taschenrechner",
+    "wissenschaftlicher Taschenrechner online",
+    "kostenloser wissenschaftlicher Taschenrechner",
+    "Taschenrechner mit sin cos tan",
+    "Online-Rechner mit Logarithmus und Exponenten",
+    "Trigonometrie-Rechner",
+    "Wissenschaftliche Notation Rechner",
+    "erweiterter Online-Taschenrechner kostenlos"
+  ],
+  "category": "Math",
+  "icon": "🧮",
+  "faqs": [
+    {
+      "question": "Welche Funktionen unterstützt dieser wissenschaftliche Taschenrechner?",
+      "answer": "Er unterstützt Grundrechenarten, Trigonometrie (sin, cos, tan und deren Umkehrfunktionen), Logarithmen (Logarithmus zur Basis 10, natürlicher Logarithmus ln), Quadratwurzel, Potenzen, Fakultäten und die Konstanten π und e."
+    },
+    {
+      "question": "Sind die trigonometrischen Funktionen in Grad oder Bogenmaß?",
+      "answer": "Sie können zwischen DEG und RAD mithilfe der DEG/RAD-Schaltfläche wechseln. Der aktuelle Modus wird immer auf dem Bildschirm angezeigt."
+    },
+    {
+      "question": "Ist dieser Taschenrechner kostenlos?",
+      "answer": "Ja, völlig kostenlos und ohne Anmeldung erforderlich. Alle Berechnungen laufen in Ihrem Browser."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "bmi-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "work-life-balance-calculator",
   "name": "工作生活平衡计算器",
-  "tagline": "评估您的工作与生活平衡状态",
-  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
-  "metaTitle": "工作生活平衡计算器 – 健康生活评估工具",
-  "metaDescription": "通过问卷评估您的工作生活平衡状况，获得改善建议。",
+  "tagline": "今天评估你的工作生活平衡状态",
+  "description": "该工具通过分析您在工作和个人活动之间的时间分配来评估您的工作生活平衡。适合任何希望改善整体健康和生产力的人士使用。",
+  "metaTitle": "工作生活平衡计算器 - 免费在线生产力评估工具",
+  "metaDescription": "使用我们的免费工作生活平衡计算器评估您的时间分配，无需注册，立即获得结果。",
   "keywords": [
     "工作生活平衡",
-    "生活质量评估",
-    "工作压力计算器",
-    "健康生活指数",
-    "职场健康评估"
+    "平衡评估",
+    "生产力评估",
+    "个人福祉",
+    "时间管理",
+    "工作生活平衡计算器",
+    "平衡评估测试",
+    "平衡评估康复",
+    "平衡评估表",
+    "平衡评估量表",
+    "平衡评估工具",
+    "平衡评估量表",
+    "工作与生活平衡",
+    "生产力评估意见",
+    "生产力评估意见示例",
+    "生产力评估范例",
+    "员工生产力评估意见",
+    "员工生产力评估意见范例",
+    "生产力评估用语",
+    "生产力评估样本"
   ],
-  "category": "效率",
+  "category": "Productivity",
   "icon": "⚖️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "计算器如何工作？",
+      "answer": "您输入工作和个人活动所花费的时间，工具会计算您的平衡指数。"
+    },
+    {
+      "question": "这个工具真的免费吗？",
+      "answer": "是的，使用该工具无需任何费用或注册。"
+    },
+    {
+      "question": "我可以根据结果改善我的平衡吗？",
+      "answer": "当然可以！该工具提供关于如何更好地管理时间的见解和建议。"
+    }
+  ],
   "relatedTools": [
     "daily-goal-tracker",
     "time-blocking-scheduler"

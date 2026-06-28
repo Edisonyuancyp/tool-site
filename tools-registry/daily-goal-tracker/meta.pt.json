@@ -1,20 +1,48 @@
 {
   "slug": "daily-goal-tracker",
   "name": "Rastreador de Metas Diárias",
-  "tagline": "Defina e acompanhe metas diárias",
-  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
-  "metaTitle": "Rastreador de Metas Diárias – Ferramenta de Acompanhamento de Metas",
-  "metaDescription": "Defina metas diárias, registre o progresso e construa bons hábitos e capacidade de execução.",
+  "tagline": "Defina e acompanhe suas metas diárias com facilidade",
+  "description": "Esta ferramenta permite que você defina, monitore e avalie suas metas diárias para aumentar a produtividade. Perfeita para qualquer pessoa que deseja se manter focada e alcançar mais a cada dia.",
+  "metaTitle": "Rastreador de Metas Diárias – Ferramenta de Produtividade | Gratuita Online",
+  "metaDescription": "Acompanhe suas metas diárias com nossa ferramenta online gratuita para melhor produtividade. Sem cadastro, resultados instantâneos.",
   "keywords": [
-    "rastreador de metas",
-    "acompanhar metas",
-    "rastreador de hábitos",
-    "metas diárias",
-    "alcançar objetivos"
+    "rastreador de metas diárias",
+    "ferramenta de definição de metas",
+    "metas de produtividade",
+    "conquistas diárias",
+    "acompanhar progresso",
+    "app rastreador de metas diárias",
+    "modelo rastreador de metas diárias",
+    "rastreador de metas diárias excel",
+    "rastreador de metas diárias pdf",
+    "modelo excel rastreador de metas diárias",
+    "rastreador de metas diárias para estudantes",
+    "rastreador de metas diárias google sheets",
+    "rastreador de metas diárias online",
+    "rastreador de metas diárias gratuito",
+    "app gratuito rastreador de metas diárias",
+    "rastreador de metas diárias para imprimir",
+    "melhor app gratuito rastreador de metas diárias",
+    "modelo rastreador de metas diárias grátis",
+    "melhor rastreador de metas diárias grátis",
+    "ferramentas de definição de metas"
   ],
-  "category": "Produtividade",
+  "category": "Productivity",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Que tipo de metas posso acompanhar?",
+      "answer": "Você pode acompanhar qualquer tipo de meta pessoal ou profissional, desde fitness até projetos de trabalho."
+    },
+    {
+      "question": "Há limite de metas que posso definir?",
+      "answer": "Não, você pode definir quantas metas desejar a cada dia."
+    },
+    {
+      "question": "Posso revisar metas anteriores?",
+      "answer": "Sim, você pode acessar suas metas passadas e seu status para refletir sobre seu progresso."
+    }
+  ],
   "relatedTools": [
     "time-tracking-tool",
     "habit-tracker"

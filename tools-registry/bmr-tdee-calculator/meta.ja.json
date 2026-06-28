@@ -1,20 +1,44 @@
 {
   "slug": "bmr-tdee-calculator",
-  "name": "基礎代謝量計算機",
-  "tagline": "BMRとTDEEを計算",
-  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
-  "metaTitle": "BMR/TDEE計算機 – 基礎代謝と総消費カロリー計算",
-  "metaDescription": "基礎代謝量（BMR）と総消費カロリー（TDEE）を計算して、ダイエットや筋トレの食事計画をサポート。",
+  "name": "BMR & TDEE計算機",
+  "tagline": "あなたの毎日のカロリー消費量を見つけ、目標に向けて完璧なターゲットを設定します",
+  "description": "Mifflin-St Jeor、Harris-Benedict、Katch-McArdle公式を使用して、基礎代謝量（BMR）と総消費カロリー（TDEE）を計算します。カッティング、維持、バルクアップのカロリーターゲットと栄養素の内訳を表示します。",
+  "metaTitle": "BMR TDEE計算機 – ダイエット＆筋肉増加の毎日のカロリー必要量",
+  "metaDescription": "無料のBMRおよびTDEE計算機。Mifflin-St Jeor公式を使用して毎日のカロリー消費量を計算します。ダイエット、維持、バルクアップの目標を栄養素の内訳で設定します。",
   "keywords": [
     "BMR計算機",
     "TDEE計算機",
-    "基礎代謝計算",
-    "消費カロリー計算",
-    "カロリー必要量計算"
+    "毎日カロリー計算機",
+    "1日に何カロリー消費するか",
+    "基礎代謝量計算機",
+    "BMR TDEE計算機",
+    "BMR TDEE計算機 ダイエット",
+    "BMR TDEE計算機 ボディビル",
+    "BMR TDEE計算機 体重減少",
+    "BMR TDEE計算機",
+    "BMR TDEE計算機 無料",
+    "無料BMRおよびTDEE計算機",
+    "女性向けBMR計算機",
+    "男性向けBMR計算機",
+    "BMR計算機-体重減少",
+    "BMR計算機 日本",
+    "BMR計算機 公式",
+    "TDEE計算機 無料",
+    "TDEE計算機 除脂肪体重",
+    "TDEE計算機 総消費カロリーを知る"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "🔥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "BMRとTDEEの違いは何ですか？",
+      "answer": "BMRは完全に安静時に体が消費するカロリーです。TDEEはBMRに活動レベルを掛けて、実際の毎日のカロリー消費量を計算します。体重を減らすにはTDEEより少ないカロリーを摂取してください。"
+    },
+    {
+      "question": "どのBMR公式が最も正確ですか？",
+      "answer": "Mifflin-St Jeor（1990）はほとんどの人にとって最も正確と考えられています。除脂肪体重がわかっている場合は、Katch-McArdeがより正確です。"
+    }
+  ],
   "relatedTools": [
     "body-fat-calculator",
     "ideal-weight-calculator",

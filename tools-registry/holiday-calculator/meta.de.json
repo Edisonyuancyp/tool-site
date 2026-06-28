@@ -1,20 +1,44 @@
 {
   "slug": "holiday-calculator",
   "name": "Feiertagsrechner",
-  "tagline": "Feiertage und Werktage ermitteln",
-  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
-  "metaTitle": "Feiertagsrechner – Feiertage und Arbeitstage berechnen",
-  "metaDescription": "Anzahl der Arbeitstage, Wochenenden und Feiertage zwischen zwei Daten berechnen.",
+  "tagline": "Finden Sie gesetzliche Feiertage und berechnen Sie die Tage bis zum nächsten Feiertag",
+  "description": "Durchsuchen Sie gesetzliche Feiertage für über 20 Länder. Finden Sie den nächsten anstehenden Feiertag, berechnen Sie, wie viele Tage es noch bis dahin sind, und sehen Sie alle Feiertage des aktuellen und nächsten Jahres. Keine Anmeldung erforderlich.",
+  "metaTitle": "Feiertagsrechner – Gesetzliche Feiertage & Tage bis zum nächsten Feiertag",
+  "metaDescription": "Finden Sie Feiertage für über 20 Länder. Berechnen Sie die Tage bis zu Ihrem nächsten Feiertag. Kostenloser Feiertagsrechner für USA, UK, Australien, Kanada und mehr.",
   "keywords": [
     "Feiertagsrechner",
-    "Arbeitstage berechnen",
-    "Feiertage ermitteln",
-    "Urlaubstage zählen",
-    "Datumsrechner"
+    "gesetzliche Feiertage 2025",
+    "Tage bis nächster Feiertag",
+    "Feiertagstermine",
+    "nächster Feiertag",
+    "Feiertagsrechner UK",
+    "Feiertagsrechner HMRC",
+    "anteiliger Feiertagsrechner",
+    "Feiertagsrechner Irland",
+    "Feiertagsrechner Gov",
+    "Feiertagsrechner 2026",
+    "Feiertagsrechner NI",
+    "Feiertagsrechner Online",
+    "Feiertagsgeldrechner Online",
+    "anteiliger Feiertagsrechner Online UK",
+    "anteiliger Feiertagsrechner Online UK Gov UK",
+    "Online Feiertagsrechner UK",
+    "kostenloser Feiertagsrechner UK",
+    "kostenloser Feiertagsrechner Irland",
+    "kostenloser Feiertagsrechner"
   ],
-  "category": "Datum & Uhrzeit",
+  "category": "Date & Time",
   "icon": "🎉",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Welche Länder werden unterstützt?",
+      "answer": "Über 20 Länder, darunter USA, UK, Kanada, Australien, Deutschland, Frankreich, Japan, Indien und weitere."
+    },
+    {
+      "question": "Wie wird der Countdown der Tage berechnet?",
+      "answer": "Das Tool berechnet die Differenz zwischen dem heutigen Datum und jedem bevorstehenden Feiertag und wird um Mitternacht aktualisiert."
+    }
+  ],
   "relatedTools": [
     "age-calculator",
     "unix-timestamp-converter",

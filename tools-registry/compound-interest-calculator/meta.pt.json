@@ -1,23 +1,50 @@
 {
   "slug": "compound-interest-calculator",
   "name": "Calculadora de Juros Compostos",
-  "tagline": "Calcule o crescimento com juros compostos do seu investimento",
-  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
-  "metaTitle": "Calculadora de Juros Compostos – Calculadora Gratuita de Juros Compostos Online",
-  "metaDescription": "Insira capital, taxa de juros, prazo e frequência de capitalização para calcular o valor final e os rendimentos.",
+  "tagline": "Veja como seu dinheiro cresce ao longo do tempo com juros compostos",
+  "description": "Calcule juros compostos com contribuições mensais opcionais. Digite seu capital inicial, taxa anual, período de investimento e frequência de capitalização para ver seu saldo final, juros totais ganhos e um gráfico de crescimento ano a ano.",
+  "metaTitle": "Calculadora de Juros Compostos – Calculadora Gratuita de Crescimento de Investimentos",
+  "metaDescription": "Calcule juros compostos online. Digite capital inicial, taxa, anos e contribuições mensais para ver seu investimento crescer. Calculadora gratuita de juros compostos com gráfico.",
   "keywords": [
     "calculadora de juros compostos",
-    "juros compostos",
-    "calculadora de investimento",
-    "rendimento composto",
-    "efeito dos juros compostos"
+    "calculadora de investimentos",
+    "fórmula de juros compostos",
+    "calculadora de poupança",
+    "calculadora de juros online",
+    "calculadora juros compostos",
+    "calculadora de rendimento",
+    "juros compostos mensal",
+    "calculadora de aplicação financeira",
+    "juros compostos online",
+    "calculadora juros online",
+    "calculadora juros grátis",
+    "juros compostos mensal online",
+    "calculadora juros 2026",
+    "calculadora juros em reais",
+    "fórmula juros compostos online",
+    "taxa de juros calculadora online",
+    "calculadora juros grátis",
+    "calculadora juros com saques",
+    "calculadora juros compostos online grátis"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "📈",
   "faqs": [
     {
-      "question": "O que são juros compostos?",
-      "answer": "Juros compostos significa que os juros também rendem juros – o capital e os juros anteriores geram novos rendimentos juntos."
+      "question": "O que é juros compostos?",
+      "answer": "Juros compostos são juros calculados sobre o capital inicial e sobre os juros acumulados de períodos anteriores. Crescem exponencialmente ao longo do tempo."
+    },
+    {
+      "question": "Com que frequência os juros devem ser capitalizados?",
+      "answer": "Quanto mais frequente a capitalização, ligeiramente maiores os retornos. A capitalização diária rende o máximo, mas a diferença em relação à mensal é pequena. A maioria das contas poupança e produtos de investimento capitalizam mensalmente."
+    },
+    {
+      "question": "O que é a Regra do 72?",
+      "answer": "Divida 72 pela sua taxa de juros anual para estimar quantos anos leva para seu dinheiro dobrar. Com 6% ao ano, seu dinheiro dobra em aproximadamente 12 anos."
+    },
+    {
+      "question": "Esta calculadora inclui contribuições mensais?",
+      "answer": "Sim. Você pode adicionar um valor de contribuição mensal para simular depósitos de poupança regulares além do seu capital inicial."
     }
   ],
   "relatedTools": [

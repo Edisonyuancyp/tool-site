@@ -1,23 +1,46 @@
 {
   "slug": "sleep-calculator",
   "name": "Schlafrechner",
-  "tagline": "Optimale Schlaf- und Aufwachzeiten berechnen",
-  "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
-  "metaTitle": "Schlafrechner – Schlafzyklen-Berechnungstool",
-  "metaDescription": "Weckzeit eingeben und optimale Schlafenszeit basierend auf 90-Minuten-Schlafzyklen berechnen – oder umgekehrt.",
+  "tagline": "Finden Sie die beste Zeit zum Aufwachen oder Schlafengehen",
+  "description": "Berechnen Sie die optimale Schlafenszeit oder Aufwachzeit basierend auf 90-Minuten-Schlafzyklen. Aufwachen zwischen den Zyklen fühlt sich erfrischender an, als mitten im Zyklus geweckt zu werden.",
+  "metaTitle": "Schlafrechner – Optimale Schlafenszeit & Aufwachzeit berechnen",
+  "metaDescription": "Finden Sie die beste Schlafens- und Aufwachzeit basierend auf 90-Minuten-Schlafzyklen. Kostenloser Schlafrechner – wachen Sie jeden Morgen erfrischt auf.",
   "keywords": [
     "Schlafrechner",
-    "Schlafzyklus berechnen",
-    "Optimale Aufwachzeit",
-    "Einschlafzeit berechnen",
-    "Schlafqualität"
+    "Aufwachzeit Rechner",
+    "Schlafenszeit Rechner",
+    "Schlafzyklus Rechner",
+    "beste Aufwachzeit",
+    "Schlafrechner Zyklus",
+    "Schlafrechner nach Alter",
+    "Schlafrechner Zeit",
+    "Schlafrechner Stunden",
+    "Schlafrechner App",
+    "Schlafrechner Aufwachzeit",
+    "Schlafrechner Online",
+    "Schlafzyklus Rechner Online",
+    "Schlafzeit Rechner Online",
+    "kostenloser Schlafrechner Online",
+    "kostenloser Schlafrechner",
+    "kostenloser Schlafrechner nach Alter",
+    "kostenlose Schlafrechner App",
+    "kostenloser Schlafzyklus Rechner",
+    "Schlafschuld Rechner kostenlos"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "😴",
   "faqs": [
     {
-      "question": "Wie lang ist ein Schlafzyklus?",
-      "answer": "Ein vollständiger Schlafzyklus dauert etwa 90 Minuten und umfasst Leicht-, Tief- und REM-Schlaf."
+      "question": "Wie funktioniert der Schlafzyklus-Rechner?",
+      "answer": "Der Schlaf läuft in 90-Minuten-Zyklen ab. Wenn Sie am Ende eines Zyklus aufwachen (statt mitten im Zyklus), fühlen Sie sich ausgeruhter. Der Rechner addiert 14 Minuten für die durchschnittliche Einschlafzeit hinzu."
+    },
+    {
+      "question": "Wie viele Schlafzyklen sollte ich durchlaufen?",
+      "answer": "Die meisten Erwachsenen fühlen sich am besten mit 5–6 vollständigen Schlafzyklen (7,5–9 Stunden) wohl. Jugendliche benötigen mehr – typischerweise 6–8 Zyklen."
+    },
+    {
+      "question": "Wann sollte ich ins Bett gehen, um um 6 Uhr aufzuwachen?",
+      "answer": "Um um 6:00 Uhr erfrischt aufzuwachen, gehen Sie um 20:46 Uhr, 22:16 Uhr, 23:46 Uhr oder 1:16 Uhr ins Bett – jeweils ein vollständiger 90-Minuten-Zyklus vor Ihrer Aufwachzeit."
     }
   ],
   "relatedTools": [

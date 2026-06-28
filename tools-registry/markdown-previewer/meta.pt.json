@@ -1,0 +1,52 @@
+{
+  "slug": "markdown-previewer",
+  "name": "Markdown Previewer",
+  "tagline": "Escreva e visualize Markdown em tempo real — editor limpo, saída renderizada instantânea",
+  "description": "Escreva Markdown no painel esquerdo e veja a prévia HTML renderizada à direita, atualizada conforme você digita. Suporta títulos, negrito, itálico, listas, blocos de código, tabelas e links. Sem necessidade de cadastro.",
+  "metaTitle": "Markdown Previewer – Editor e Visualização em Tempo Real Online | GetFastCalc",
+  "metaDescription": "Visualizador Markdown gratuito online. Escreva Markdown e veja a saída renderizada ao vivo. Suporta tabelas GFM, blocos de código e muito mais. Sem necessidade de cadastro.",
+  "keywords": [
+    "visualizador markdown online",
+    "editor markdown online grátis",
+    "prévia markdown ao vivo",
+    "conversor markdown para html",
+    "renderizador markdown online",
+    "prévia markdown flavored github",
+    "visualizador markdown online",
+    "editor markdown ao vivo",
+    "prévia markdown",
+    "prévia markdown vscode",
+    "prévia markdown mac",
+    "visualizador markdown linux",
+    "prévia markdown com suporte mermaid",
+    "visualizador markdown github",
+    "prévia markdown nvim",
+    "prévia markdown grátis",
+    "melhor editor markdown online grátis",
+    "prévia markdown ao vivo vscode",
+    "prévia markdown ao vivo nvim",
+    "prévia markdown ao vivo vim"
+  ],
+  "category": "Content",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Qual sintaxe Markdown é suportada?",
+      "answer": "Esta ferramenta suporta Markdown padrão incluindo títulos (#, ##), negrito (**texto**), itálico (*texto*), listas, blocos de código (```), código inline, links, imagens, citações e tabelas GitHub Flavored Markdown (GFM)."
+    },
+    {
+      "question": "Posso usar isso para visualizar arquivos README?",
+      "answer": "Sim. Cole o conteúdo de qualquer arquivo README.md ou documentação e veja exatamente como será renderizado no GitHub ou outras plataformas Markdown."
+    },
+    {
+      "question": "Meu texto é salvo em algum lugar?",
+      "answer": "Não. Tudo fica no seu navegador. Seu Markdown nunca é enviado para nenhum servidor."
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "diff-checker",
-  "name": "Text-Unterschied-Checker",
-  "tagline": "Unterschiede zwischen zwei Texten schnell finden",
-  "description": "Paste two pieces of text to instantly see additions, deletions, and unchanged lines highlighted. Supports split view and unified view, ignore whitespace, ignore case, and comes with code and JSON samples.",
-  "metaTitle": "Text-Unterschied-Checker – Online-Textvergleichstool",
-  "metaDescription": "Zwei Texte einfügen und Hinzufügungen, Löschungen und Änderungen farblich hervorgehoben anzeigen lassen.",
+  "name": "Online Diff Checker",
+  "tagline": "Vergleichen Sie zwei Texte, Dateien oder Code-Snippets nebeneinander",
+  "description": "Fügen Sie zwei Textstücke ein und sehen Sie sofort Hinzufügungen, Löschungen und unveränderte Zeilen hervorgehoben. Unterstützt Split-View und Unified-View, ignoriert Leerzeichen, ignoriert Groß-/Kleinschreibung und enthält Code- und JSON-Beispiele.",
+  "metaTitle": "Online Diff Checker – Text, Code und JSON nebeneinander vergleichen",
+  "metaDescription": "Kostenloser Online Diff Checker. Vergleichen Sie zwei Texte, Code-Dateien oder JSON nebeneinander mit zeilenweiser Hervorhebung. Split- und Unified-View, Leerzeichen ignorieren, kein Server erforderlich.",
   "keywords": [
-    "Textvergleich Tool",
-    "Text Unterschiede finden",
-    "Diff Tool",
-    "Code Vergleich",
-    "Dokumentenvergleich"
+    "online diff checker",
+    "text diff tool",
+    "code vergleich tool",
+    "diff viewer online",
+    "zwei texte online vergleichen",
+    "online diff checker json",
+    "online diff checker xml",
+    "online diff checker code",
+    "online diff checker kostenlos",
+    "online diff checker text",
+    "online diff checker tool",
+    "online diff checker und merge",
+    "kostenloser online diff checker",
+    "text diff tool online",
+    "text diff tool windows",
+    "text diff tool mac",
+    "text diff tool download",
+    "text diff tool linux",
+    "text diff tool macos",
+    "text diff tool github"
   ],
-  "category": "Entwicklung",
+  "category": "Developer",
   "icon": "🔍",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Werden meine Daten an einen Server gesendet?",
+      "answer": "Nein. Der Diff wird vollständig in Ihrem Browser mit JavaScript berechnet. Ihre Texte verlassen Ihr Gerät nie."
+    },
+    {
+      "question": "Welcher Diff-Algorithmus wird verwendet?",
+      "answer": "Das Tool verwendet den Myers-Diff-Algorithmus – denselben Algorithmus, der von Git, GNU diff und den meisten modernen Versionskontrollsystemen verwendet wird."
+    },
+    {
+      "question": "Was bewirkt 'Leerzeichen ignorieren'?",
+      "answer": "Wenn diese Option aktiviert ist, werden führende und nachfolgende Leerzeichen vor dem Vergleich aus jeder Zeile entfernt. Zeilen, die sich nur in der Einrückung unterscheiden, werden als gleich behandelt."
+    }
+  ],
   "relatedTools": [
     "json-csv-formatter",
     "base64-tool",

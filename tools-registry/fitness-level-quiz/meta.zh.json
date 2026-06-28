@@ -1,20 +1,45 @@
 {
   "slug": "fitness-level-quiz",
-  "name": "健身水平测评",
-  "tagline": "评估您当前的健身水平",
-  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
-  "metaTitle": "健身水平测评 – 在线体能评估工具",
-  "metaDescription": "通过简短问卷评估您的健身水平，获得个性化的训练建议。",
+  "name": "健身水平测试",
+  "tagline": "立即评估您的健身水平！",
+  "description": "通过这个快速测试来评估您当前的健身水平，包括您的运动习惯和生活方式。非常适合任何想要了解自己身体素质并找出改进空间的人。",
+  "metaTitle": "健身水平测试 - 免费在线自评工具 | 快速评估健身状态",
+  "metaDescription": "通过有趣快速的健身水平测试评估您的身体素质。免费获得即时结果，无需注册！",
   "keywords": [
-    "健身水平测评",
-    "体能评估",
-    "健身评估工具",
-    "运动水平测试",
-    "健身建议"
+    "健身水平测试",
+    "自我评估",
+    "运动习惯",
+    "健身评估",
+    "健康测试",
+    "我的健身水平评估",
+    "健身水平在线测试",
+    "自评报告",
+    "自我评估报告",
+    "自评问卷",
+    "运动习惯示例",
+    "运动习惯问卷",
+    "运动习惯的含义",
+    "运动习惯与生活方式改变",
+    "运动习惯与健康生活",
+    "运动习惯名言",
+    "运动习惯同义词"
   ],
-  "category": "健身",
+  "category": "Fitness",
   "icon": "🏋️‍♀️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "测试需要多长时间？",
+      "answer": "测试大约需要5分钟完成，能够快速了解您的健身水平。"
+    },
+    {
+      "question": "从结果中我能学到什么？",
+      "answer": "您将获得关于当前健身水平的深度分析，以及改进建议。"
+    },
+    {
+      "question": "参加测试需要付费吗？",
+      "answer": "不需要，测试完全免费，无需注册。"
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "body-fat-calculator"

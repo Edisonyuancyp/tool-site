@@ -1,0 +1,60 @@
+{
+  "slug": "cron-expression-generator",
+  "name": "Cron表达式生成器和解析器",
+  "tagline": "可视化构建cron计划，即时理解任何cron字符串",
+  "description": "使用可视化构建器生成或解码任何cron表达式。查看人类可读的计划、后续5个运行时间，以及包含20多个常见cron模式的快速参考速查表。",
+  "metaTitle": "Cron表达式生成器和解析器 — 免费在线工具 | GetFastCalc",
+  "metaDescription": "使用可视化构建器生成cron计划，或粘贴任何cron表达式进行解码。显示下次运行时间，包含20多个常见模式速查表。",
+  "keywords": [
+    "cron表达式生成器",
+    "cron任务生成器",
+    "cron表达式解析器",
+    "cron语法",
+    "cron计划构建器",
+    "cron解码器",
+    "cron表达式生成器和解析器",
+    "cron表达式生成器quartz",
+    "cron表达式在线生成器",
+    "cron表达式生成器quartz",
+    "cron表达式生成器aws",
+    "spring boot cron表达式生成器",
+    "spring cron表达式生成器",
+    "azure function cron表达式生成器",
+    "7字段cron表达式生成器",
+    "cron任务在线生成器",
+    "spring boot cron任务生成器",
+    "每5分钟cron任务生成器",
+    "quartz cron任务生成器",
+    "cron格式生成器"
+  ],
+  "category": "Developer",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "什么是cron表达式？",
+      "answer": "cron表达式是一个包含5个（或6个）空格分隔字段的字符串，用于定义何时应运行计划任务：分钟、小时、月份中的天数、月份和周几。例如：'0 9 * * 1'表示'每周一上午9:00'。"
+    },
+    {
+      "question": "cron中的*表示什么？",
+      "answer": "星号(*)表示'每'。'* * * * *'每分钟运行一次。'0 * * * *'在每小时的第0分钟运行（即每小时整点）。"
+    },
+    {
+      "question": "5字段和6字段cron有什么区别？",
+      "answer": "标准Unix/Linux cron使用5个字段：分钟、小时、天、月、周几。某些系统（如Spring、AWS EventBridge）在开头添加秒字段或在末尾添加年份字段。本工具使用标准5字段cron。"
+    },
+    {
+      "question": "我可以每5分钟运行一次cron任务吗？",
+      "answer": "可以：'*/5 * * * *'表示'每5分钟'。*/n语法表示'每n个单位'。类似地，'0 */2 * * *'每2小时运行一次。"
+    },
+    {
+      "question": "最常见的cron表达式错误是什么？",
+      "answer": "混淆月份中的天数和周几的交互。当两个字段都被设置（不是*）时，大多数系统在满足任何一个条件时运行任务（或逻辑），而不是两者都满足。对于不需要的字段使用'*'可以避免歧义。"
+    }
+  ],
+  "relatedTools": [
+    "jwt-decoder",
+    "url-encoder",
+    "base64-tool"
+  ],
+  "variants": []
+}

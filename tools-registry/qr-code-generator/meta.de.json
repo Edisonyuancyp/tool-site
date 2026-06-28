@@ -1,23 +1,46 @@
 {
   "slug": "qr-code-generator",
   "name": "QR-Code-Generator",
-  "tagline": "QR-Codes für beliebige Inhalte sofort erstellen",
-  "description": "Generate a free QR code for any URL, text, phone number, or message. Download as PNG and use anywhere — no account needed.",
-  "metaTitle": "QR-Code-Generator – Kostenloses Online-QR-Code-Erstellungstool",
-  "metaDescription": "Text, URL oder Kontaktdaten eingeben und sofort QR-Code generieren und herunterladen. Kostenlos, keine Registrierung.",
+  "tagline": "Generieren Sie einen QR-Code für jeden Text oder jede URL sofort",
+  "description": "Generieren Sie kostenlos einen QR-Code für jede URL, jeden Text, jede Telefonnummer oder Nachricht. Laden Sie als PNG herunter und verwenden Sie überall – ohne Anmeldung erforderlich.",
+  "metaTitle": "QR-Code-Generator – Kostenloser Online QR-Code Ersteller",
+  "metaDescription": "Erstellen Sie kostenlos QR-Codes für URLs, Texte und mehr. Laden Sie sofort als PNG herunter. Keine Anmeldung, kein Wasserzeichen. Der schnellste kostenlose Online QR-Code-Generator.",
   "keywords": [
     "QR-Code-Generator",
-    "QR-Code erstellen",
-    "Online QR-Code",
-    "QR-Code kostenlos",
-    "QR-Code Tool"
+    "kostenloser QR-Code-Generator",
+    "QR-Code online erstellen",
+    "URL zu QR-Code",
+    "QR-Code für Website",
+    "QR-Code-Generator kostenlos",
+    "QR-Code-Generator Canva",
+    "QR-Code-Generator Adobe",
+    "QR-Code-Generator ohne Werbung",
+    "QR-Code-Generator Google",
+    "QR-Code-Generator online",
+    "QR-Code-Generator online kostenlos",
+    "QR-Code-Generator online kostenlos mit Logo",
+    "QR-Code-Generator online für Standort",
+    "QR-Code-Generator online kostenlos ohne Anmeldung",
+    "QR-Code-Generator online mit Logo",
+    "QR-Code-Generator online Zahlung",
+    "QR-Code-Generator online PDF",
+    "kostenloser QR-Code-Generator",
+    "kostenloser QR-Code-Generator ohne Anmeldung"
   ],
-  "category": "Generatoren",
+  "category": "Generators",
   "icon": "📱",
   "faqs": [
     {
-      "question": "Was kann ein QR-Code speichern?",
-      "answer": "URLs, Text, Kontaktdaten, WLAN-Passwörter und viele weitere Inhalte."
+      "question": "Was kann ich in einem QR-Code codieren?",
+      "answer": "Sie können URLs, Klartext, Telefonnummern, E-Mail-Adressen, SMS-Nachrichten, Wi-Fi-Anmeldedaten und mehr codieren."
+    },
+    {
+      "question": "Sind die QR-Codes kostenlos nutzbar?",
+      "answer": "Ja. Alle hier generierten QR-Codes sind vollständig kostenlos ohne Wasserzeichen, ohne Ablaufdatum und ohne erforderliche Anmeldung."
+    },
+    {
+      "question": "Kann ich den QR-Code herunterladen?",
+      "answer": "Ja. Klicken Sie auf die Download-Schaltfläche, um den QR-Code als PNG-Bilddatei zu speichern, die Sie überall verwenden können."
     }
   ],
   "relatedTools": [

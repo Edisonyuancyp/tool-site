@@ -3,9 +3,9 @@
  * Translates meta.json → meta.[locale].json using OpenAI API
  *
  * Usage:
- *   OPENAI_API_KEY=sk-xxx node scripts/ai-translate.mjs --locale zh --slugs bmi-calculator,loan-calculator
- *   OPENAI_API_KEY=sk-xxx node scripts/ai-translate.mjs --locale ja --all
- *   OPENAI_API_KEY=sk-xxx node scripts/ai-translate.mjs --locale de --all --overwrite
+ *   ANTHROPIC_API_KEY=sk-ant-xxx node scripts/ai-translate.mjs --locale zh --slugs bmi-calculator,loan-calculator
+ *   ANTHROPIC_API_KEY=sk-ant-xxx node scripts/ai-translate.mjs --locale ja --all
+ *   ANTHROPIC_API_KEY=sk-ant-xxx node scripts/ai-translate.mjs --locale de --all --overwrite
  *
  * Options:
  *   --locale    Target locale: zh | ja | de | pt | fr | es
@@ -18,6 +18,15 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+
+// Auto-load .env.local (same directory as project root)
+const envPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", ".env.local");
+if (fs.existsSync(envPath)) {
+  for (const line of fs.readFileSync(envPath, "utf8").split("\n")) {
+    const m = line.match(/^([^#=]+)=(.*)$/);
+    if (m) process.env[m[1].trim()] = m[2].trim();
+  }
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
@@ -60,9 +69,9 @@ if (!all && !slugsArg) {
   process.exit(1);
 }
 
-const OPENAI_KEY = process.env.OPENAI_API_KEY;
-if (!OPENAI_KEY && !dryRun) {
-  console.error("❌ Set OPENAI_API_KEY environment variable");
+const CLAUDE_KEY = process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY;
+if (!CLAUDE_KEY && !dryRun) {
+  console.error("❌ Set CLAUDE_API_KEY or ANTHROPIC_API_KEY in .env.local");
   process.exit(1);
 }
 
@@ -109,28 +118,45 @@ Rules:
 Input JSON:
 ${JSON.stringify(toTranslate, null, 2)}`;
 
-  const response = await fetch("https://api.openai.com/v1/chat/completions", {
+  const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${OPENAI_KEY}`,
+      "x-api-key": CLAUDE_KEY,
+      "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: "gpt-4o-mini",
+      model: "claude-haiku-4-5",
+      max_tokens: 4096,
       messages: [{ role: "user", content: prompt }],
-      temperature: 0.3,
-      response_format: { type: "json_object" },
     }),
   });
 
   if (!response.ok) {
     const err = await response.text();
-    throw new Error(`OpenAI API error ${response.status}: ${err}`);
+    throw new Error(`Claude API error ${response.status}: ${err}`);
   }
 
   const data = await response.json();
-  const content = data.choices[0].message.content;
-  return JSON.parse(content);
+  const content = data.content[0].text;
+
+  // Extract the outermost JSON object, stripping any markdown fences or prose
+  const start = content.indexOf("{");
+  const end = content.lastIndexOf("}");
+  if (start === -1 || end === -1) throw new Error("No JSON object found in response");
+  let cleaned = content.slice(start, end + 1);
+
+  // Fix common Claude JSON issues: unescaped control chars inside strings
+  // Replace literal newlines inside JSON string values with \n
+  cleaned = cleaned.replace(/("(?:[^"\\]|\\.)*")/g, (match) => {
+    return match.replace(/\n/g, "\\n").replace(/\r/g, "\\r").replace(/\t/g, "\\t");
+  });
+
+  try {
+    return JSON.parse(cleaned);
+  } catch (e) {
+    throw new Error(`JSON_PARSE_FAILED: ${e.message}`);
+  }
 }
 
 // ── Main loop ─────────────────────────────────────────────────────────────
@@ -155,7 +181,22 @@ for (const slug of slugs) {
   process.stdout.write(`  Translating ${slug}... `);
 
   try {
-    const translated = await translateWithAI(slug, meta);
+    let translated;
+    let faqFallback = false;
+
+    try {
+      translated = await translateWithAI(slug, meta);
+    } catch (e) {
+      if (e.message.startsWith("JSON_PARSE_FAILED")) {
+        // Retry without faqs to avoid complex JSON escaping issues
+        process.stdout.write(`(retrying without faqs) `);
+        const metaNoFaq = { ...meta, faqs: [] };
+        translated = await translateWithAI(slug, metaNoFaq);
+        faqFallback = true;
+      } else {
+        throw e;
+      }
+    }
 
     // Merge translated fields into full output (preserve slug, icon, category, etc.)
     const output = {
@@ -168,18 +209,18 @@ for (const slug of slugs) {
       keywords: translated.keywords ?? meta.keywords,
       category: meta.category,
       icon: meta.icon,
-      faqs: translated.faqs ?? meta.faqs,
+      faqs: faqFallback ? meta.faqs : (translated.faqs ?? meta.faqs),
       relatedTools: meta.relatedTools ?? [],
       variants: [],  // no variant pages for non-EN/ES/FR locales
     };
 
     fs.writeFileSync(outPath, JSON.stringify(output, null, 2), "utf8");
-    console.log(`✓`);
+    console.log(faqFallback ? `✓ (faqs kept in English)` : `✓`);
     success++;
 
-    // Rough cost estimate: gpt-4o-mini input ~$0.15/1M tokens, output ~$0.60/1M tokens
-    // Average tool meta ≈ 800 tokens in, 600 out → ~$0.00048 per tool
-    cost += 0.0005;
+    // Rough cost estimate: claude-haiku-4-5 input ~$0.80/1M tokens, output ~$4/1M tokens
+    // Average tool meta ≈ 800 tokens in, 600 out → ~$0.0009 per tool
+    cost += 0.0009;
 
     // Rate limit: 3 RPM on free tier, 500 RPM on paid — add small delay
     await new Promise(r => setTimeout(r, 300));

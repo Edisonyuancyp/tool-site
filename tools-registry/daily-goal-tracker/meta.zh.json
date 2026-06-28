@@ -1,20 +1,48 @@
 {
   "slug": "daily-goal-tracker",
   "name": "每日目标追踪器",
-  "tagline": "设定并追踪每日目标完成情况",
-  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
-  "metaTitle": "每日目标追踪器 – 目标完成度追踪工具",
-  "metaDescription": "设定每日目标，记录完成进度，建立良好习惯和执行力。",
+  "tagline": "轻松设定和跟踪您的每日目标",
+  "description": "这个工具可以帮助您设定、监控和评估每日目标，提高工作效率。适合任何希望保持专注并每天取得更多成就的人使用。",
+  "metaTitle": "每日目标追踪器 - 免费在线生产力工具 | 目标管理系统",
+  "metaDescription": "使用免费在线每日目标追踪器，提高工作效率和目标完成率。无需注册，即时获取结果。",
   "keywords": [
     "每日目标追踪",
-    "目标管理工具",
-    "习惯追踪器",
-    "每日计划完成",
-    "目标达成计算"
+    "目标设定工具",
+    "生产力目标",
+    "每日成就",
+    "进度监控",
+    "每日目标追踪应用",
+    "每日目标追踪模板",
+    "每日目标追踪Excel",
+    "每日目标追踪PDF",
+    "每日目标追踪Excel模板",
+    "学生每日目标追踪",
+    "每日目标追踪Google表格",
+    "在线每日目标追踪",
+    "免费每日目标追踪",
+    "免费每日目标追踪应用",
+    "可打印免费每日目标追踪",
+    "最好的免费每日目标追踪应用",
+    "免费每日目标追踪模板",
+    "最佳免费每日目标追踪",
+    "目标设定工具"
   ],
-  "category": "效率",
+  "category": "Productivity",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "我可以跟踪什么类型的目标？",
+      "answer": "您可以跟踪任何类型的个人或专业目标，从健身计划到工作项目。"
+    },
+    {
+      "question": "目标数量有限制吗？",
+      "answer": "没有限制，您每天可以设定任意数量的目标。"
+    },
+    {
+      "question": "我可以查看过去的目标吗？",
+      "answer": "可以，您可以访问过去设定的目标及其完成状态，便于反思和总结。"
+    }
+  ],
   "relatedTools": [
     "time-tracking-tool",
     "habit-tracker"

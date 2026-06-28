@@ -1,0 +1,48 @@
+{
+  "slug": "url-encoder",
+  "name": "URL编码器 / 解码器",
+  "tagline": "实时编码或解码URL字符串 — 无需注册，无广告",
+  "description": "对URL中的特殊字符进行编码，或将百分号编码的字符串解码为可读文本。非常适合调试API、查询字符串和网络请求。",
+  "metaTitle": "URL编码器/解码器 – 免费在线工具 | GetFastCalc",
+  "metaDescription": "免费URL编码器和解码器。在浏览器中实时编码特殊字符或解码百分号编码的URL。无需注册，无广告。",
+  "keywords": [
+    "url编码解码器",
+    "百分号编码工具",
+    "url编码在线免费",
+    "解码url字符串",
+    "url解码在线",
+    "url编码特殊字符",
+    "urlencode urldecode工具",
+    "api url编码器免费",
+    "url编码解码器",
+    "url编码解码在线",
+    "url编码解码在线工具",
+    "url编码解码工具",
+    "url解码编码器",
+    "url解码编码javascript",
+    "html url编码解码器",
+    "url编码解码器工具"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "什么是URL编码？",
+      "answer": "URL编码（百分号编码）将URL中的特殊字符替换为%后跟两个十六进制数字。例如，空格变为%20。这确保URL有效且能安全地通过互联网传输。"
+    },
+    {
+      "question": "什么时候需要对字符串进行URL编码？",
+      "answer": "当在查询参数中传递特殊字符（空格、&、=、?、#等），或以编程方式构建API请求时，需要进行URL编码。"
+    },
+    {
+      "question": "encodeURI和encodeURIComponent有什么区别？",
+      "answer": "encodeURI对完整URL进行编码，并保留/、?、&等字符。encodeURIComponent对URL中的单个值进行编码，也会对这些保留字符进行编码。本工具使用encodeURIComponent以获得最大兼容性。"
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "base-converter",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

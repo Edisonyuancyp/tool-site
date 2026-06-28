@@ -1,20 +1,44 @@
 {
   "slug": "bmr-tdee-calculator",
-  "name": "Grundumsatzrechner (BMR/TDEE)",
-  "tagline": "Grundumsatz und täglichen Kalorienbedarf berechnen",
-  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
-  "metaTitle": "BMR/TDEE-Rechner – Grundumsatz und Kalorienbedarf berechnen",
-  "metaDescription": "Grundumsatz (BMR) und Gesamtenergieverbrauch (TDEE) berechnen für Diät- und Muskelaufbau-Ernährungsplanung.",
+  "name": "BMR & TDEE Rechner",
+  "tagline": "Ermitteln Sie Ihren täglichen Kalorienverbrauch und setzen Sie das perfekte Ziel für Ihr Ziel",
+  "description": "Berechnen Sie Ihren Grundumsatz (BMR) und Ihren Gesamttagesenergieverbrauch (TDEE) mit den Formeln von Mifflin-St Jeor, Harris-Benedict und Katch-McArdle. Zeigt Kalorienziele für Diät, Erhaltung und Muskelaufbau mit Makronährstoff-Aufschlüsselung.",
+  "metaTitle": "BMR TDEE Rechner – Täglicher Kalorienverbrauch für Gewichtsverlust und Muskelaufbau",
+  "metaDescription": "Kostenloser BMR und TDEE Rechner. Ermitteln Sie Ihren täglichen Kalorienverbrauch mit der Mifflin-St Jeor Formel. Setzen Sie Ziele für Diät, Erhaltung oder Muskelaufbau mit Makronährstoff-Aufschlüsselung.",
   "keywords": [
-    "Grundumsatzrechner",
-    "BMR berechnen",
-    "TDEE berechnen",
-    "Kalorienbedarf berechnen",
-    "Tageskalorienbedarf"
+    "BMR Rechner",
+    "TDEE Rechner",
+    "Täglicher Kalorien Rechner",
+    "Wie viele Kalorien verbrenne ich",
+    "Grundumsatz Rechner",
+    "BMR TDEE Rechner",
+    "BMR TDEE Rechner Gewichtsverlust",
+    "BMR TDEE Rechner Bodybuilding",
+    "BMR TDEE Rechner abnehmen",
+    "BMR TDEE Rechner kostenlos",
+    "Kostenloser BMR und TDEE Rechner",
+    "BMR Rechner für Frauen",
+    "BMR Rechner für Männer",
+    "BMR Rechner Gewicht verlieren",
+    "BMR Rechner Formel",
+    "TDEE Rechner kostenlos",
+    "TDEE Rechner Magermasse",
+    "TDEE Rechner Gesamttagesenergieverbrauch",
+    "Kalorienverbrauch berechnen",
+    "Stoffwechsel Rechner"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "🔥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist der Unterschied zwischen BMR und TDEE?",
+      "answer": "BMR ist die Anzahl der Kalorien, die Ihr Körper in völliger Ruhe verbrennt. TDEE multipliziert BMR mit Ihrem Aktivitätsniveau, um Ihren tatsächlichen täglichen Kalorienverbrauch zu ermitteln. Essen Sie unter Ihrem TDEE, um Gewicht zu verlieren."
+    },
+    {
+      "question": "Welche BMR-Formel ist am genauesten?",
+      "answer": "Mifflin-St Jeor (1990) gilt für die meisten Menschen als am genauesten. Katch-McArdle ist genauer, wenn Sie Ihre Magermasse kennen."
+    }
+  ],
   "relatedTools": [
     "body-fat-calculator",
     "ideal-weight-calculator",

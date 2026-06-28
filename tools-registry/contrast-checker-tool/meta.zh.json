@@ -1,0 +1,51 @@
+{
+  "slug": "contrast-checker-tool",
+  "name": "对比度检查工具",
+  "tagline": "确保色彩组合无障碍可访问",
+  "description": "检查两种颜色之间的对比度比率，确保符合WCAG无障碍标准。适合重视设计无障碍性的UI/UX设计师使用。",
+  "metaTitle": "对比度检查工具 – 色彩无障碍检查 | 免费在线工具",
+  "metaDescription": "免费检查色彩对比度比率，确保符合无障碍标准。无需注册，即时查看结果。",
+  "keywords": [
+    "对比度检查",
+    "色彩无障碍工具",
+    "wcag对比度检查",
+    "设计无障碍",
+    "色彩对比度比率",
+    "对比度检查工具生成器免费",
+    "对比度检查在线工具无需下载",
+    "对比度检查十六进制代码",
+    "免费设计工具",
+    "调色板生成器",
+    "即时预览",
+    "无需photoshop",
+    "对比度检查工具",
+    "对比度检查wcag 2",
+    "无障碍检查工具",
+    "对比度分析工具",
+    "免费无障碍检查工具",
+    "对比度测试工具",
+    "色彩对比度检查工具",
+    "webaim对比度检查工具"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "How do I use the Contrast Checker?",
+      "answer": "Simply enter two color values and click 'Check'. The tool will display the contrast ratio and accessibility level."
+    },
+    {
+      "question": "What are WCAG standards?",
+      "answer": "WCAG stands for Web Content Accessibility Guidelines, which provide recommendations for making web content more accessible."
+    },
+    {
+      "question": "Can I use HEX or RGB values?",
+      "answer": "Yes, you can input colors in HEX, RGB, or even named colors."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-extractor",
+    "spacing-grid-calculator"
+  ],
+  "variants": []
+}

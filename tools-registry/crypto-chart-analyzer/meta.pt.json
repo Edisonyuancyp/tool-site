@@ -1,0 +1,41 @@
+{
+  "slug": "crypto-chart-analyzer",
+  "name": "Crypto Chart Analyzer",
+  "tagline": "Gráfico de velas com EMA, SMA, RSI e Bandas de Bollinger — funciona no seu navegador",
+  "description": "Uma ferramenta de gráfico leve no estilo TradingView que busca dados OHLC públicos gratuitos para qualquer criptomoeda e renderiza gráficos de velas com indicadores EMA, SMA, RSI e Bandas de Bollinger — totalmente baseado em navegador, sem servidor necessário. Seus dados nunca saem do seu dispositivo.",
+  "metaTitle": "Crypto Chart Analyzer – Gráfico de Velas Grátis com Indicadores Técnicos",
+  "metaDescription": "Gráfico de velas de criptomoedas grátis com EMA, SMA, RSI e Bandas de Bollinger. Funciona 100% no seu navegador. Sem cadastro, sem servidor — só selecione uma moeda e timeframe.",
+  "keywords": [
+    "analisador de gráficos cripto",
+    "ferramenta gráfico de velas",
+    "gráfico bitcoin online",
+    "gráfico trading grátis",
+    "calculadora ema sma rsi",
+    "gráfico bandas de bollinger",
+    "análise técnica criptomoedas",
+    "gráfico trading navegador",
+    "alternativa tradingview grátis"
+  ],
+  "category": "Quant",
+  "icon": "🕯️",
+  "faqs": [
+    {
+      "question": "Esta ferramenta usa meu servidor?",
+      "answer": "Não. Todo o processamento de gráficos e cálculo de indicadores ocorre no seu navegador usando Canvas API. Os dados de preço são obtidos diretamente da API pública do CoinGecko."
+    },
+    {
+      "question": "Quais indicadores são suportados?",
+      "answer": "EMA (Média Móvel Exponencial), SMA (Média Móvel Simples), RSI (Índice de Força Relativa) e Bandas de Bollinger (período 20, desvio padrão 2)."
+    },
+    {
+      "question": "Quais moedas e timeframes estão disponíveis?",
+      "answer": "Bitcoin, Ethereum, BNB, Solana, XRP e mais. Timeframes: 1D, 7D, 30D, 90D, 180D, 365D."
+    }
+  ],
+  "relatedTools": [
+    "kelly-criterion-calculator",
+    "sharpe-ratio-calculator",
+    "position-size-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "sharpe-ratio-calculator",
+  "name": "Calculadora de Índice de Sharpe",
+  "tagline": "Meça o retorno ajustado ao risco da sua carteira ou estratégia",
+  "description": "Calcule o Índice de Sharpe de qualquer estratégia de negociação ou carteira. Digite o retorno da carteira, a taxa livre de risco e o desvio padrão dos retornos para obter a pontuação de desempenho ajustado ao risco.",
+  "metaTitle": "Calculadora de Índice de Sharpe – Medidor de Retorno Ajustado ao Risco",
+  "metaDescription": "Calculadora gratuita do Índice de Sharpe. Digite o retorno da carteira, taxa livre de risco e desvio padrão para medir o desempenho ajustado ao risco. Funciona para ações, criptomoedas e estratégias forex.",
+  "keywords": [
+    "calculadora de índice de sharpe",
+    "retorno ajustado ao risco",
+    "calculadora de desempenho de carteira",
+    "fórmula do índice de sharpe",
+    "métrica de desempenho de investimento",
+    "índice de sharpe trading"
+  ],
+  "category": "Quant",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "O que é o Índice de Sharpe?",
+      "answer": "O Índice de Sharpe mede quanto retorno em excesso você ganha por unidade de risco. Fórmula: (Retorno da Carteira − Taxa Livre de Risco) ÷ Desvio Padrão."
+    },
+    {
+      "question": "O que é um bom Índice de Sharpe?",
+      "answer": "Acima de 1,0 é aceitável, acima de 2,0 é muito bom e acima de 3,0 é excelente. Abaixo de 1,0 significa que o retorno não compensa adequadamente o risco."
+    },
+    {
+      "question": "Qual taxa livre de risco devo usar?",
+      "answer": "Use o rendimento atual de títulos do governo de curto prazo (por exemplo, letra do tesouro americano de 3 meses). Para estratégias com criptomoedas, alguns traders usam 0% como taxa livre de risco."
+    }
+  ],
+  "relatedTools": [
+    "kelly-criterion-calculator",
+    "position-size-calculator",
+    "risk-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,43 @@
 {
   "slug": "position-size-calculator",
-  "name": "Positionsgröße-Rechner",
-  "tagline": "Optimale Positionsgröße basierend auf Risikomanagement berechnen",
-  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
-  "metaTitle": "Positionsgröße-Rechner – Trading-Risikomanagement-Tool",
-  "metaDescription": "Kontokapital, Risikoprozentsatz und Stop-Loss eingeben und optimale Positionsgröße berechnen.",
+  "name": "Positionsgrößen-Rechner",
+  "tagline": "Riskieren Sie nie mehr als Sie sich leisten können — berechnen Sie die perfekte Positionsgröße",
+  "description": "Geben Sie Ihre Kontogröße, Risikoprozentsatz pro Trade, Einstiegspreis, Stop-Loss und Hebel ein, um die genaue Positionsgröße in USD und Anzahl der Einheiten zu berechnen. Inklusive Gebührenanpassung und Risikowarnungen.",
+  "metaTitle": "Positionsgrößen-Rechner – Crypto & Aktienhandel Risikomanagement",
+  "metaDescription": "Kostenloser Positionsgrößen-Rechner für Trader. Geben Sie Kontogröße, Risiko %, Ein- und Ausstiegspreis ein, um exakte Positionsgröße, erforderliche Marge und Einheiten zu erhalten. Mit Gebührenanpassung.",
   "keywords": [
-    "Positionsgröße Rechner",
-    "Positionsgröße berechnen",
-    "Trading Risikomanagement",
-    "Stop-Loss Position",
-    "Forex Positionsgröße"
+    "positionsgrößen-rechner",
+    "crypto positionsgröße",
+    "trading risikomanagement rechner",
+    "wie viel pro trade investieren",
+    "risiko pro trade rechner",
+    "positionsgrößen-rechner mt5",
+    "positionsgrößen-rechner mt5 kostenlos",
+    "positionsgrößen-rechner forex",
+    "positionsgrößen-rechner kryptowährung",
+    "positionsgrößen-rechner myfxbook",
+    "positionsgrößen-rechner gold",
+    "positionsgrößen-rechner online",
+    "forex positionsgrößen-rechner online",
+    "positionsgrößen-rechner mt5 online",
+    "kostenloser positionsgrößen-rechner",
+    "kostenloser positionsgrößen-rechner mt5",
+    "kostenloser positionsgrößen-rechner app",
+    "kostenloser positionsgrößen-rechner forex",
+    "kostenloser positionsgrößen-rechner mt4"
   ],
-  "category": "Krypto",
+  "category": "Crypto",
   "icon": "📐",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie viel sollte ich pro Trade riskieren?",
+      "answer": "Professionelle Trader riskieren typischerweise 1–2% ihres Kontos pro Trade. Das bedeutet, dass selbst 10 aufeinanderfolgende Verluste Ihr Konto nur um 10–20% reduzieren."
+    },
+    {
+      "question": "Wie wird die Positionsgröße berechnet?",
+      "answer": "Positionsgröße = (Konto × Risiko%) / Stop-Loss-Distanz%. Beispiel: $10.000 Konto, 1% Risiko, 5% SL → $100/$0,05 = $2.000 Position."
+    }
+  ],
   "relatedTools": [
     "tp-sl-calculator",
     "compound-interest-calculator",

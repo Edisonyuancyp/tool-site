@@ -1,20 +1,44 @@
 {
   "slug": "ovulation-calculator",
-  "name": "Eisprungrechner",
-  "tagline": "Eisprung und fruchtbare Tage berechnen",
-  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
-  "metaTitle": "Eisprungrechner – Kostenloser Online-Eisprung-Berechnungsrechner",
-  "metaDescription": "Letzten Menstruationsbeginn und Zykluslänge eingeben und voraussichtlichen Eisprung und fruchtbare Tage berechnen.",
+  "name": "Ovulation & Cycle Tracker",
+  "tagline": "Fruchtbares Fenster, Eisprung und nächste Periode vorhersagen",
+  "description": "Berechnen Sie Ihr fruchtbares Fenster, Ihren Eisprung, Ihre Periodentermine und Zyklusphasen für bis zu 6 zukünftige Zyklen. Alle Berechnungen laufen vollständig in Ihrem Browser – keine Daten werden an einen Server gesendet.",
+  "metaTitle": "Eisprung Rechner – Fruchtbares Fenster & Periode Tracker (Browser Only)",
+  "metaDescription": "Kostenloser Eisprung- und Periodenrechner. Finden Sie Ihr fruchtbares Fenster, Ihren Eisprung und die nächste Periode für bis zu 6 Zyklen. 100% privat – läuft in Ihrem Browser, keine Datenspeicherung.",
   "keywords": [
-    "Eisprungrechner",
-    "Eisprung berechnen",
-    "Fruchtbare Tage",
-    "Ovulation berechnen",
-    "Kinderwunsch Rechner"
+    "eisprung rechner",
+    "fruchtbares fenster rechner",
+    "periode tracker",
+    "menstruationszyklus rechner",
+    "wann bin ich am fruchtbarsten",
+    "eisprung zyklus tracker",
+    "eisprung zyklus tracker app",
+    "eisprung rechner online",
+    "bester eisprung tracker",
+    "kostenloser eisprung tracker",
+    "periode eisprung tracker",
+    "eisprung rechner app",
+    "schwangerschafts rechner eisprung",
+    "eisprung rechner kostenlos",
+    "eisprung und periodenverfolgung",
+    "eisprung rechner junge",
+    "eisprung rechner für jungen",
+    "fruchtbares fenster rechner online",
+    "ovulationsrechner deutsch",
+    "fruchtbare tage berechnen"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "🌸",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie wird das fruchtbare Fenster berechnet?",
+      "answer": "Der Eisprung tritt normalerweise 14 Tage vor der nächsten Periode auf. Das fruchtbare Fenster umfasst die 5 Tage vor dem Eisprung plus den Eisprungtag selbst."
+    },
+    {
+      "question": "Werden diese Daten irgendwo gespeichert?",
+      "answer": "Nein. Alle Berechnungen werden in JavaScript in Ihrem Browser durchgeführt. Es werden keine Daten an einen Server gesendet oder mit Dritten geteilt."
+    }
+  ],
   "relatedTools": [
     "sleep-calculator",
     "water-intake-calculator",

@@ -1,0 +1,51 @@
+{
+  "slug": "contrast-checker-tool",
+  "name": "Kontrastprüfer-Tool",
+  "tagline": "Gewährleisten Sie barrierefreie Farbkombinationen",
+  "description": "Prüfen Sie das Kontrastverhältnis zwischen zwei Farben, um sicherzustellen, dass diese den WCAG-Barrierefreiheitsstandards entsprechen. Ideal für UI/UX-Designer, die Barrierefreiheit in ihren Designs priorisieren.",
+  "metaTitle": "Kontrastprüfer – Farbzugänglichkeit | Kostenloses Online-Tool",
+  "metaDescription": "Prüfen Sie Farbkontrastquoten für Barrierefreiheit. Kostenloses Tool, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "Kontrastprüfer",
+    "Farbzugänglichkeitstool",
+    "WCAG Kontrastprüfer",
+    "Design-Barrierefreiheit",
+    "Farbkontrastverhältnis",
+    "Kontrastprüfer kostenlos online",
+    "Kontrastprüfer ohne Download",
+    "Kontrastprüfer Hex-Codes",
+    "kostenloses Design-Tool",
+    "Farbpaletten-Generator",
+    "Sofortvorschau",
+    "ohne Photoshop",
+    "Kontrastprüfer-Tool",
+    "WCAG 2 Kontrastprüfer",
+    "Barrierefreiheitsprüfer",
+    "Kontrastanalyse-Tool",
+    "Barrierefreiheitsprüfer kostenlos",
+    "Kontrasttest-Tool",
+    "Farbkontrast-Prüfer",
+    "WebAIM Kontrastprüfer"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "How do I use the Contrast Checker?",
+      "answer": "Simply enter two color values and click 'Check'. The tool will display the contrast ratio and accessibility level."
+    },
+    {
+      "question": "What are WCAG standards?",
+      "answer": "WCAG stands for Web Content Accessibility Guidelines, which provide recommendations for making web content more accessible."
+    },
+    {
+      "question": "Can I use HEX or RGB values?",
+      "answer": "Yes, you can input colors in HEX, RGB, or even named colors."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-extractor",
+    "spacing-grid-calculator"
+  ],
+  "variants": []
+}

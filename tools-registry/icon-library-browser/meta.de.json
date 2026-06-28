@@ -1,0 +1,51 @@
+{
+  "slug": "icon-library-browser",
+  "name": "Icon Library Browser",
+  "tagline": "Suchen und finden Sie die perfekten Symbole",
+  "description": "Durchsuchen Sie eine umfangreiche Symbolbibliothek und filtern Sie nach Kategorie, Stil oder Verwendung. Ideal für UI/UX-Designer, die schnellen Zugriff auf hochwertige Symbole für ihre Projekte benötigen.",
+  "metaTitle": "Icon Library Browser – Symbole schnell finden | Kostenloses Online-Tool",
+  "metaDescription": "Entdecken und filtern Sie Symbole für Ihre Designprojekte. Kostenloses Tool, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "Symbolbibliothek",
+    "Symbole finden",
+    "UI-Design-Symbole",
+    "Grafikdesign-Symbole",
+    "durchsuchbare Symboldatenbank",
+    "Symbolbibliothek kostenlos",
+    "Symbolbibliothek-Browser Online-Tool",
+    "Symbolbibliothek Hex-Codes",
+    "kostenloses Designtool",
+    "Farbpaletten-Generator",
+    "sofortige Vorschau",
+    "ohne Photoshop",
+    "Icon Library Browser",
+    "größte Symbolbibliothek",
+    "Symbolbibliothek in meiner Nähe",
+    "kostenlose Symbolbibliothek",
+    "Symbolbibliothek React",
+    "Symbolbibliothek Figma",
+    "Symbolbibliothek für PowerPoint",
+    "Open-Source-Symbolbibliothek"
+  ],
+  "category": "Design",
+  "icon": "📁",
+  "faqs": [
+    {
+      "question": "Wie suche ich nach Symbolen?",
+      "answer": "Verwenden Sie die Suchleiste, um Stichwörter einzugeben, oder durchsuchen Sie Kategorien, um die benötigten Symbole zu finden."
+    },
+    {
+      "question": "Sind die Symbole kostenlos zu verwenden?",
+      "answer": "Die meisten Symbole können kostenlos für private und kommerzielle Zwecke verwendet werden. Prüfen Sie jedoch die individuellen Lizenzbedingungen für Details."
+    },
+    {
+      "question": "Kann ich Symbole herunterladen?",
+      "answer": "Ja, Sie können Symbole in verschiedenen Formaten wie SVG, PNG und mehr herunterladen."
+    }
+  ],
+  "relatedTools": [
+    "font-pairing-tool",
+    "color-palette-extractor"
+  ],
+  "variants": []
+}

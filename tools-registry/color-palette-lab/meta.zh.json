@@ -1,0 +1,52 @@
+{
+  "slug": "color-palette-lab",
+  "name": "专业配色板实验室",
+  "tagline": "探索精选行业配色方案 — 支持 HEX、Tailwind、CMYK 和 Pantone 参考",
+  "description": "浏览 5 套专业级配色方案 — 极简 SaaS、医疗蓝、复古电影、暗黑科技和生态绿。在网页设计模式（HEX、Tailwind CSS 类、RGB）和印刷模式（CMYK 值和 Pantone 近似色号）之间切换。一键复制任何颜色数值。",
+  "metaTitle": "专业配色板实验室 – HEX、Tailwind CSS、CMYK & Pantone 色号参考工具",
+  "metaDescription": "免费配色工具，提供 5 套行业专用配色方案。快速复制 HEX 代码、Tailwind CSS 类名、CMYK 数值和 Pantone 近似色号。支持网页设计和印刷模式。",
+  "keywords": [
+    "配色方案生成器",
+    "潘通色号匹配",
+    "CMYK 转换工具",
+    "网页配色方案",
+    "Tailwind CSS 配色",
+    "设计师配色方案",
+    "HEX 转 CMYK 转换器",
+    "潘通色号参考",
+    "SaaS 配色方案",
+    "UI 配色方案",
+    "图片配色方案生成",
+    "文字配色方案生成",
+    "AI 配色方案生成器",
+    "HEX 配色方案生成",
+    "免费配色生成器",
+    "Canva 配色生成器",
+    "关键词配色方案生成",
+    "潘通配色系统",
+    "潘通配色系统 PMS",
+    "潘通色卡参考表"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone 色号参考是精确匹配吗？",
+      "answer": "否。显示的 Pantone 色号是根据 RGB 接近度手动估算的，并非来自 Pantone 专有数据库。Pantone 官方 sRGB 映射表未公开授权。在生产应用前，请务必对照实体 Pantone 色卡或 Pantone 配方指南进行验证。"
+    },
+    {
+      "question": "CMYK 数值如何计算？",
+      "answer": "CMYK 数值采用标准设备无关公式计算：K = 1 − max(R,G,B)；C = (1−R−K)/(1−K)；M = (1−G−K)/(1−K)；Y = (1−B−K)/(1−K)。实际印刷效果取决于打印机配置文件和纸张类型。"
+    },
+    {
+      "question": "我可以在商业项目中使用这些配色方案吗？",
+      "answer": "可以。这些配色方案作为参考灵感提供。HEX 值和 Tailwind 类名可自由用于任何项目。Pantone 色号名称为 Pantone LLC 的商标。"
+    },
+    {
+      "question": "Tailwind 类名是什么意思？",
+      "answer": "每种颜色显示最接近的 Tailwind CSS 实用类（例如 bg-indigo-500）。复制后可直接在 HTML 或 JSX 中使用，无需编写自定义 CSS。"
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "crypto-chart-analyzer",
+  "name": "Crypto Chart Analyzer",
+  "tagline": "Candlestick-Chart mit EMA, SMA, RSI & Bollinger Bands — läuft direkt in Ihrem Browser",
+  "description": "Ein leichtgewichtiges TradingView-ähnliches Chart-Tool, das kostenlose öffentliche OHLC-Daten für beliebige Kryptowährungen abruft und Candlestick-Charts mit EMA-, SMA-, RSI- und Bollinger-Bands-Indikatoren rendert – vollständig browserbasiert, kein Server erforderlich. Ihre Daten verlassen Ihr Gerät nie.",
+  "metaTitle": "Crypto Chart Analyzer – Kostenlose Candlestick-Charts mit technischen Indikatoren",
+  "metaDescription": "Kostenlose Kryptowährungs-Candlestick-Charts mit EMA, SMA, RSI und Bollinger Bands. 100% im Browser. Keine Anmeldung, kein Server – wählen Sie einfach eine Münze und einen Zeitrahmen.",
+  "keywords": [
+    "Kryptochart-Analyse",
+    "Candlestick-Chart-Tool",
+    "Bitcoin-Chart online",
+    "kostenloses Trading-Chart",
+    "EMA SMA RSI Rechner",
+    "Bollinger Bands Chart",
+    "Kryptowährung technische Analyse",
+    "Browser Trading Chart",
+    "TradingView Alternative kostenlos"
+  ],
+  "category": "Quant",
+  "icon": "🕯️",
+  "faqs": [
+    {
+      "question": "Nutzt dieses Tool meinen Server?",
+      "answer": "Nein. Alle Chart-Renderings und Indikatorberechnungen erfolgen in Ihrem Browser mithilfe der Canvas API. Preisdaten werden direkt von CoinGeckos öffentlicher API abgerufen."
+    },
+    {
+      "question": "Welche Indikatoren werden unterstützt?",
+      "answer": "EMA (Exponentieller gleitender Durchschnitt), SMA (Einfacher gleitender Durchschnitt), RSI (Relative Strength Index) und Bollinger Bands (20-Perioden, 2 Standardabweichungen)."
+    },
+    {
+      "question": "Welche Coins und Zeitrahmen sind verfügbar?",
+      "answer": "Bitcoin, Ethereum, BNB, Solana, XRP und weitere. Zeitrahmen: 1T, 7T, 30T, 90T, 180T, 365T."
+    }
+  ],
+  "relatedTools": [
+    "kelly-criterion-calculator",
+    "sharpe-ratio-calculator",
+    "position-size-calculator"
+  ],
+  "variants": []
+}

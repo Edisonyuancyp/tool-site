@@ -1,27 +1,50 @@
 {
   "slug": "bmi-calculator",
   "name": "BMI-Rechner",
-  "tagline": "Berechne deinen Body-Mass-Index sofort",
-  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
-  "metaTitle": "BMI-Rechner – Kostenloser Online-BMI-Rechner",
-  "metaDescription": "Gib Größe und Gewicht ein und berechne deinen BMI sowie die Gewichtsklassifikation (Untergewicht/Normal/Übergewicht/Adipositas). Kostenlos, keine Registrierung.",
+  "tagline": "Berechnen Sie Ihren Body Mass Index sofort",
+  "description": "Nutzen Sie diesen kostenlosen BMI-Rechner, um Ihren Body Mass Index basierend auf Körpergröße und Gewicht zu ermitteln. Erkennen Sie Ihre Gewichtskategorie — Untergewicht, Normalgewicht, Übergewicht oder Adipositas — in Sekunden.",
+  "metaTitle": "BMI-Rechner – Kostenlos Body Mass Index berechnen online",
+  "metaDescription": "Berechnen Sie Ihren BMI (Body Mass Index) kostenlos und sofort. Geben Sie Ihre Körpergröße und Ihr Gewicht ein und erfahren Sie, ob Sie Untergewicht, Normalgewicht, Übergewicht oder Adipositas haben. Kostenlos, schnell, keine Anmeldung.",
   "keywords": [
     "BMI-Rechner",
-    "Body-Mass-Index berechnen",
-    "BMI berechnen",
-    "Übergewicht berechnen",
-    "Online BMI"
+    "Body Mass Index Rechner",
+    "BMI Formel",
+    "BMI online berechnen",
+    "BMI Tabelle",
+    "BMI-Rechner Frauen",
+    "BMI-Rechner Männer",
+    "BMI-Rechner online",
+    "BMI-Rechner online kostenlos",
+    "BMI-Rechner online Männer",
+    "BMI-Rechner online Frauen",
+    "BMI-Rechner online Kinder",
+    "BMI-Rechner online cm kg",
+    "BMI-Rechner Sri Lanka",
+    "BMI-Rechner kg Fuß",
+    "BMI Tabelle nach Alter",
+    "BMI Tabelle Frauen",
+    "BMI Tabelle Männer",
+    "gesunder BMI Bereich",
+    "BMI Gewichtstabelle"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "⚖️",
   "faqs": [
     {
-      "question": "Was ist der BMI?",
-      "answer": "Der BMI (Body-Mass-Index) = Gewicht (kg) ÷ Größe (m)². Er ist ein Screening-Instrument zur Beurteilung des Körpergewichts."
+      "question": "Was ist BMI?",
+      "answer": "BMI (Body Mass Index) ist ein Maß für Körperfett basierend auf Körpergröße und Gewicht. Er wird berechnet als Gewicht (kg) geteilt durch Körpergröße (m) zum Quadrat."
     },
     {
-      "question": "Welcher BMI-Bereich gilt als normal?",
-      "answer": "18,5–24,9 gilt als Normalgewicht. Unter 18,5 ist Untergewicht, 25–29,9 Übergewicht, ab 30 Adipositas."
+      "question": "Was ist ein normaler BMI-Bereich?",
+      "answer": "Ein BMI zwischen 18,5 und 24,9 wird als Normalgewicht betrachtet. Unter 18,5 ist Untergewicht, 25–29,9 ist Übergewicht und 30 oder mehr ist Adipositas."
+    },
+    {
+      "question": "Ist BMI für alle Menschen aussagekräftig?",
+      "answer": "BMI ist ein nützliches Screening-Instrument, misst aber Körperfett nicht direkt. Es kann für Sportler, ältere Menschen oder Personen mit hoher Muskelmasse ungenau sein."
+    },
+    {
+      "question": "Wie wird BMI berechnet?",
+      "answer": "BMI = Gewicht (kg) ÷ Körpergröße (m)². Beispiel: Eine Person mit einem Gewicht von 70 kg und einer Körpergröße von 1,75 m hat einen BMI von 22,9."
     }
   ],
   "relatedTools": [

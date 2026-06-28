@@ -1,20 +1,48 @@
 {
   "slug": "leftover-recipe-generator",
   "name": "Gerador de Receitas com Sobras",
-  "tagline": "Crie novas receitas a partir dos ingredientes que sobraram",
-  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
-  "metaTitle": "Gerador de Receitas com Sobras – Ferramenta de Receitas com Ingredientes Restantes",
-  "metaDescription": "Insira os ingredientes que sobraram na geladeira e receba sugestões de receitas para reduzir o desperdício alimentar.",
+  "tagline": "Transforme sobras em refeições deliciosas.",
+  "description": "Digite as sobras que você tem e receba ideias criativas de receitas para aproveitá-las. Perfeito para reduzir desperdício de alimentos e maximizar sua despensa.",
+  "metaTitle": "Gerador de Receitas com Sobras – Ideias de Refeições Criativas | Ferramenta Online Gratuita",
+  "metaDescription": "Gere receitas baseadas nas suas sobras com esta ferramenta gratuita. Sem necessidade de cadastro.",
   "keywords": [
-    "receitas com sobras",
-    "usar ingredientes que sobraram",
-    "receita de geladeira",
-    "reduzir desperdício alimentar",
-    "ideias com sobras"
+    "ideias de receitas com sobras",
+    "cozinhar com sobras",
+    "ideias de refeições com sobras",
+    "gerador de receitas com sobras",
+    "gerador de receitas com alimentos sobrando",
+    "gerador de receitas com ingredientes sobrando",
+    "ideias de receitas com frango sobrando",
+    "ideias de receitas com presunto sobrando",
+    "ideias de receitas com bife sobrando",
+    "ideias de receitas com peru sobrando",
+    "ideias de receitas com carne de porco sobrando",
+    "ideias de receitas com salmão sobrando",
+    "ideias de receitas com brisket sobrando",
+    "cozinhar com sobras programa tv",
+    "cozinhar com sobras livro de receitas",
+    "cozinhar com sobras livro",
+    "cozinhar com sobras de peru",
+    "competição de culinária com sobras",
+    "cozinhar com sobras de frango",
+    "cozinhar sobras do zero"
   ],
-  "category": "Culinária",
+  "category": "Cooking",
   "icon": "🥡",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como funciona o gerador de receitas com sobras?",
+      "answer": "Simplesmente digite os ingredientes que sobraram e o gerador sugerirá possíveis receitas."
+    },
+    {
+      "question": "Posso adicionar várias sobras?",
+      "answer": "Sim, você pode inserir quantos ingredientes sobrando quiser para obter sugestões de receitas personalizadas."
+    },
+    {
+      "question": "As receitas são fáceis de seguir?",
+      "answer": "As receitas sugeridas são geralmente simples e desenvolvidas para um preparo rápido."
+    }
+  ],
   "relatedTools": [
     "cooking-time-calculator",
     "ingredient-substitution-calculator"

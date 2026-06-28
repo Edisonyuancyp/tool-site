@@ -1,20 +1,44 @@
 {
   "slug": "water-intake-calculator",
   "name": "Calculadora de Ingestão Diária de Água",
-  "tagline": "Calcule quanta água você deve beber por dia",
-  "description": "Get a personalized daily water intake recommendation based on body weight, activity level, climate, and pregnancy/breastfeeding status. Shows result in liters, cups, and 500mL bottles.",
-  "metaTitle": "Calculadora de Consumo de Água – Ferramenta de Cálculo de Necessidade Hídrica Diária",
-  "metaDescription": "Calcule a ingestão ótima diária de água com base em peso, nível de atividade e clima.",
+  "tagline": "Quanto de água você deve beber por dia? Descubra sua meta personalizada",
+  "description": "Obtenha uma recomendação personalizada de ingestão diária de água com base no peso corporal, nível de atividade, clima e status de gravidez/amamentação. Mostra o resultado em litros, copos e garrafas de 500mL.",
+  "metaTitle": "Calculadora de Ingestão de Água – Quanto de Água Você Deve Beber por Dia?",
+  "metaDescription": "Calculadora grátis de ingestão diária de água. Descubra quanto de água você deve beber com base no peso, nível de atividade e clima. Resultados em litros, copos e garrafas.",
   "keywords": [
-    "calculadora de água",
-    "consumo diário de água",
-    "necessidade hídrica",
-    "hidratação",
-    "quanto beber por dia"
+    "calculadora de ingestão de água",
+    "quanto de água devo beber",
+    "calculadora de água diária",
+    "calculadora de hidratação",
+    "ingestão de água por dia",
+    "calculadora de ingestão diária de água",
+    "calculadora de ingestão de água brasil",
+    "calculadora de água pelo peso",
+    "calculadora de água para perder peso",
+    "calculadora de água para cão",
+    "fórmula de ingestão de água",
+    "calculadora de água em kg",
+    "calculadora de ingestão de água litros",
+    "quanto de água beber por quilo",
+    "calculadora de água para emagrecimento",
+    "calculadora de água por peso corporal",
+    "calculadora de água com creatina",
+    "app calculadora de água",
+    "calculadora de hidratação para cachorro",
+    "calculadora de água para gato"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "💧",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "A regra dos '8 copos por dia' é precisa?",
+      "answer": "A regra 8×8 é uma aproximação grosseira. As necessidades reais variam conforme o peso corporal, atividade e clima. Um atleta de 100kg em clima quente pode precisar de 4+ litros; uma pessoa sedentária de 50kg precisa de ~1,7 litros."
+    },
+    {
+      "question": "O café conta para a ingestão diária de água?",
+      "answer": "Sim — café e chá são ~98-99% água e contribuem positivamente para a hidratação. Álcool não conta e aumenta as necessidades de água."
+    }
+  ],
   "relatedTools": [
     "bmr-tdee-calculator",
     "bmi-calculator",

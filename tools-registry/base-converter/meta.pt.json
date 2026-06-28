@@ -1,20 +1,48 @@
 {
   "slug": "base-converter",
   "name": "Conversor de Base Numérica",
-  "tagline": "Converta entre binário, octal, decimal e hexadecimal",
-  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
-  "metaTitle": "Conversor de Base Numérica – Conversor Online de Binário e Hexadecimal",
-  "metaDescription": "Conversão entre bases numéricas 2–64. Binário, octal, decimal, hexadecimal, Base58 e muito mais.",
+  "tagline": "Converta números entre qualquer base — binária, octal, decimal, hexadecimal e muito mais",
+  "description": "Converta números inteiros entre bases 2 a 64, incluindo binária, octal, decimal, hexadecimal, Base58 e Base64. Usa BigInt para precisão ilimitada. Exibe saída formatada com espaçamento de nibble/byte.",
+  "metaTitle": "Conversor de Base Numérica – Binário, Octal, Decimal, Hexadecimal e Todas as Bases",
+  "metaDescription": "Conversor de base numérica gratuito. Converta entre binário, octal, decimal, hexadecimal, base 32, base 36 e todas as bases 2–36. Resultados instantâneos, precisão BigInt.",
   "keywords": [
-    "conversor de base",
-    "converter binário",
-    "calculadora hexadecimal",
-    "octal para decimal",
-    "conversor numérico"
+    "conversor de base numérica",
+    "conversor binário para decimal",
+    "conversor hexadecimal para decimal",
+    "conversor decimal para binário",
+    "calculadora de conversão de base",
+    "converter para base 10",
+    "conversor base 10 para base 2",
+    "converter base 16 para base 10",
+    "fórmula base 10 para base 2",
+    "conversor binário octal hexadecimal",
+    "conversor octal para decimal",
+    "conversor decimal para hexadecimal",
+    "conversor base 2 para base 16",
+    "conversor hexadecimal para binário",
+    "conversor de sistema numérico online",
+    "conversor de base numérica online",
+    "calculadora conversor de base numérica",
+    "conversor de base numérica python",
+    "conversor de base numérica com passos",
+    "conversor de sistema numérico com base"
   ],
-  "category": "Desenvolvimento",
+  "category": "Developer",
   "icon": "🔢",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quais bases são suportadas?",
+      "answer": "Todas as bases inteiras de 2 a 64, incluindo Binária (2), Octal (8), Decimal (10), Hexadecimal (16), Base32 (32), Base36 (36), Base58 (Bitcoin, 58) e Base64 (64)."
+    },
+    {
+      "question": "Para que o hexadecimal é usado?",
+      "answer": "Hex é onipresente na computação: endereços de memória, códigos de cor (#FF5733), valores de byte, saídas de hash (MD5, SHA256) e conjunto de instruções de CPU."
+    },
+    {
+      "question": "Qual é a diferença entre Base58 e Base64?",
+      "answer": "Base58 omite caracteres visualmente ambíguos (0, O, I, l) para evitar erros de transcrição humana. Base64 usa o alfabeto completo de 64 caracteres e é projetado para codificação de dados entre máquinas."
+    }
+  ],
   "relatedTools": [
     "base64-tool",
     "unix-timestamp-converter",

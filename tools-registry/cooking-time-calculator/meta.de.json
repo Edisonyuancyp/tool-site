@@ -1,20 +1,48 @@
 {
   "slug": "cooking-time-calculator",
-  "name": "Kochzeitrechner",
-  "tagline": "Kochzeit basierend auf Zutatengewicht berechnen",
-  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
-  "metaTitle": "Kochzeitrechner – Back- und Garzeiten berechnen",
-  "metaDescription": "Zutatengewicht und -typ eingeben und empfohlene Garzeit und Temperatur berechnen, um Lebensmittel sicher durchzugaren.",
+  "name": "Garzeiten-Rechner",
+  "tagline": "Berechnen Sie Garzeiten mühelos.",
+  "description": "Ermitteln Sie die ideale Garzeit für verschiedene Fleischsorten und Gerichte basierend auf Gewicht und Garmethode. Perfekt für Hobbyköche, die Unter- oder Übergaren vermeiden möchten.",
+  "metaTitle": "Garzeiten-Rechner – Ideale Garzeiten | Kostenloses Online-Tool",
+  "metaDescription": "Nutzen Sie unseren Garzeiten-Rechner für genaue Garzeiten. Kostenlos, keine Anmeldung, sofortige Ergebnisse.",
   "keywords": [
-    "Kochzeitrechner",
-    "Braten Zeit berechnen",
-    "Backzeit berechnen",
-    "Garzeit Rechner",
-    "Ofenzeit berechnen"
+    "garzeiten rechner",
+    "fleisch garzeit",
+    "rezept garzeiten",
+    "ideale gardauer",
+    "garzeiten rechner lammkeule",
+    "garzeiten rechner lamm",
+    "garzeiten rechner rindfleisch",
+    "garzeiten rechner nach gewicht",
+    "garzeiten rechner verschiedene temperaturen",
+    "garzeiten rechner schinken",
+    "garzeiten rechner hähnchen",
+    "garzeiten rechner freiland pute",
+    "fleisch garzeiten",
+    "fleisch garzeiten rechner",
+    "fleisch garzeiten und temperaturen",
+    "fleisch gartimer",
+    "fleisch garzeiten und temperatur tabelle",
+    "fleisch garzeiten bbc",
+    "fleisch garzeiten tabelle",
+    "fleisch garzeiten rechner bbc"
   ],
-  "category": "Kochen",
+  "category": "Cooking",
   "icon": "⏲️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie verwende ich den Garzeiten-Rechner?",
+      "answer": "Geben Sie einfach die Fleischsorte oder den Gericht ein, dessen Gewicht und wählen Sie die Garmethode aus, um die ideale Garzeit zu erhalten."
+    },
+    {
+      "question": "Ist dieser Rechner für alle Rezepte genau?",
+      "answer": "Obwohl er eine großartige Orientierungshilfe bietet, können Garzeiten je nach spezifischem Rezept und Ausrüstung variieren."
+    },
+    {
+      "question": "Kann ich diesen Rechner auch zum Backen verwenden?",
+      "answer": "Dieses Tool konzentriert sich hauptsächlich auf das Garen von Fleisch und Hauptgerichten, kann aber auch Hinweise für einige Backwaren bieten."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "loan-calculator"

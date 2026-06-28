@@ -1,0 +1,48 @@
+{
+  "slug": "url-encoder",
+  "name": "URLエンコーダー / デコーダー",
+  "tagline": "URLエンコード・デコードを瞬時に実行 — サインアップ不要、広告なし",
+  "description": "URLの特殊文字をエンコードするか、パーセントエンコードされた文字列をデコードして読みやすいテキストに変換します。API、クエリ文字列、ウェブリクエストのデバッグに必須です。",
+  "metaTitle": "URLエンコーダー / デコーダー – 無料オンラインツール | GetFastCalc",
+  "metaDescription": "無料のURLエンコーダー・デコーダー。URLの特殊文字をエンコード、またはパーセントエンコードされたURLをブラウザで瞬時にデコード。登録不要、広告なし。",
+  "keywords": [
+    "URLエンコーダー デコーダー",
+    "パーセントエンコード ツール",
+    "URLエンコード 無料 オンライン",
+    "URLデコード 文字列",
+    "URLデコード オンライン",
+    "URL 特殊文字 エンコード",
+    "urlencode urldecode ツール",
+    "API URLエンコーダー 無料",
+    "URLエンコーダー デコーダー",
+    "URLエンコーダー デコーダー オンライン",
+    "URLエンコーダー デコーダー オンラインツール",
+    "URLエンコーダー デコーダー ツール",
+    "URLデコーダー エンコーダー",
+    "URLデコーダー エンコーダー JavaScript",
+    "HTML URLエンコーダー デコーダー",
+    "URLエンコーダー デコーダー 無料"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "URLエンコーディングとは何ですか？",
+      "answer": "URLエンコーディング（パーセントエンコーディング）は、URLの特殊文字を%の後に16進数2桁を続ける形に置き換えます。例えば、スペースは%20になります。これによってURLが有効な形式になり、インターネット上で安全に転送されます。"
+    },
+    {
+      "question": "どんな時にURLエンコードが必要ですか？",
+      "answer": "クエリパラメータに特殊文字（スペース、&、=、?、#など）を含める場合、またはAPIリクエストをプログラムで構築する場合にURLエンコードが必要です。"
+    },
+    {
+      "question": "encodeURIとencodeURIComponentの違いは何ですか？",
+      "answer": "encodeURIは完全なURLをエンコードし、/、?、&などの文字は保持します。encodeURIComponentはURL内の単一の値をエンコードし、これらの予約文字もエンコードします。このツールは最大の互換性のためにencodeURIComponentを使用しています。"
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "base-converter",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

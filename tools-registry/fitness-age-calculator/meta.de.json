@@ -1,20 +1,48 @@
 {
   "slug": "fitness-age-calculator",
-  "name": "Fitnessalterrechner",
-  "tagline": "Biologisches Alter und Gesundheitszustand bewerten",
-  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
-  "metaTitle": "Fitnessalterrechner – Biologisches Alter bewerten",
-  "metaDescription": "Herzfrequenz, BMI und körperliche Aktivität nutzen, um das biologische Alter zu schätzen und den tatsächlichen Gesundheitszustand zu verstehen.",
+  "name": "Fitness-Alter-Rechner",
+  "tagline": "Entdecken Sie jetzt Ihr Fitness-Alter!",
+  "description": "Dieses Tool berechnet Ihr Fitness-Alter basierend auf Ihren Aktivitätsniveaus und Gesundheitsmetriken. Es ist perfekt für Personen, die Ihr Fitnessniveau im Verhältnis zu Ihrem chronologischen Alter verstehen möchten.",
+  "metaTitle": "Fitness-Alter-Rechner – Ihr Gesundheitsstatus ermitteln | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie kostenlos und sofort Ihr Fitness-Alter – ohne Anmeldung erforderlich. Ermitteln Sie Ihren Gesundheitsstatus mit diesem einfachen Tool.",
   "keywords": [
-    "Fitnessalterrechner",
-    "Biologisches Alter berechnen",
-    "Körperalter Test",
-    "Fitness Alter",
-    "Gesundheitsalter"
+    "fitness alter",
+    "fitness alter berechnen",
+    "gesundheitsmetriken",
+    "aktivitätsniveaus",
+    "fitness bewertung",
+    "fitness alter rechner",
+    "fitness alter rechner garmin",
+    "fitness alter rechner vo2max",
+    "fitness alter rechner alter geschlecht",
+    "fitness alter rechner vo2 max",
+    "fitness alter rechner apple watch",
+    "fitness alter rechner frauen",
+    "fitness alter rechner deutschland",
+    "kostenloser fitness alter rechner",
+    "kostenloser fitness alter rechner vo2max",
+    "fitness alter berechnen so geht es",
+    "fitness alter garmin",
+    "fitness alter apple watch",
+    "fitness alter gesunken garmin",
+    "fitness alter aus vo2max berechnen"
   ],
   "category": "Fitness",
   "icon": "🧘",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie wird das Fitness-Alter berechnet?",
+      "answer": "Das Fitness-Alter wird durch die Analyse verschiedener Gesundheitsmetriken und Aktivitätsniveaus bestimmt, um ein Alter zu ermitteln, das Ihre Fitness widerspiegelt."
+    },
+    {
+      "question": "Ist dieses Tool genau?",
+      "answer": "Es bietet eine gute Schätzung, aber die individuellen Ergebnisse können je nach persönlichen Gesundheitsfaktoren variieren."
+    },
+    {
+      "question": "Kann ich mein Fitness-Alter verbessern?",
+      "answer": "Ja, durch eine Steigerung Ihrer körperlichen Aktivität und die Beibehaltung eines gesunden Lebensstils können Sie Ihr Fitness-Alter senken."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "bmr-tdee-calculator"

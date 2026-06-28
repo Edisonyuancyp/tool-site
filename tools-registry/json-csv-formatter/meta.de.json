@@ -1,20 +1,48 @@
 {
   "slug": "json-csv-formatter",
-  "name": "JSON/CSV-Formatierer",
-  "tagline": "JSON und CSV formatieren, validieren und konvertieren",
-  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
-  "metaTitle": "JSON/CSV-Formatierer – Kostenloses Datenformat-Konvertierungstool",
-  "metaDescription": "JSON oder CSV Daten einfügen und automatisch formatieren, Syntax validieren und JSON ↔ CSV konvertieren.",
+  "name": "JSON & CSV Formatter / Validator",
+  "tagline": "Formatieren, validieren und konvertieren Sie JSON und CSV sofort in Ihrem Browser",
+  "description": "Fügen Sie rohes JSON ein, um es mit 2-Leerzeichen-Einrückung zu formatieren oder zu minimieren, mit Echtzeit-Validierung. Fügen Sie CSV ein, um Anführungszeichen/Trennzeichen zu normalisieren, oder konvertieren Sie CSV in ein JSON-Array. Unterstützt Komma-, Semikolon-, Tabulator- und Pipe-Trennzeichen.",
+  "metaTitle": "JSON & CSV Formatter & Validator – Online JSON Beautifier & CSV Converter",
+  "metaDescription": "Kostenloser Online JSON Formatter, Validator und CSV Formatter. JSON einfügen zum Verschönern oder Minimieren. CSV einfügen zum Formatieren oder in JSON konvertieren. Unterstützt alle Trennzeichen. Nur Browser.",
   "keywords": [
-    "JSON Formatierer",
-    "CSV Konverter",
-    "JSON Validator",
-    "JSON Beautifier",
-    "Datenformat Konverter"
+    "json formatter online",
+    "json validator",
+    "csv formatter online",
+    "json beautifier",
+    "csv zu json converter",
+    "json formatter online kostenlos",
+    "json formatter online editor",
+    "json formatter online viewer",
+    "json formatter online beautify",
+    "json formatter online tool",
+    "json formatter online escape zeichen entfernen",
+    "json formatter online vergleichen",
+    "json validator online",
+    "json validator und formatter",
+    "json validator schema",
+    "json validator tool",
+    "json validator python",
+    "json validator code beautify",
+    "json validator schema online",
+    "csv zu json formatter online"
   ],
-  "category": "Entwicklung",
+  "category": "Developer",
   "icon": "📋",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was bewirkt JSON-Formatierung?",
+      "answer": "JSON-Formatierung (Verschönerung) fügt konsistente Einrückung und Zeilenumbrüche hinzu, um kompaktes JSON lesbar zu machen. Minimierung entfernt alle Leerzeichen, um die Dateigröße zu reduzieren."
+    },
+    {
+      "question": "Werden meine Daten an einen Server gesendet?",
+      "answer": "Nein. Alle Formatierungs- und Validierungsvorgänge laufen vollständig in Ihrem Browser ab. Ihre Daten verlassen Ihr Gerät nie."
+    },
+    {
+      "question": "Welche CSV-Trennzeichen werden unterstützt?",
+      "answer": "Komma (,), Semikolon (;), Tabulator (TSV) und Pipe (|). Das Tool verarbeitet auch RFC 4180 Anführungszeichen-Felder und maskierte Anführungszeichen."
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

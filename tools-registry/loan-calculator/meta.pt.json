@@ -1,23 +1,46 @@
 {
   "slug": "loan-calculator",
   "name": "Calculadora de Empréstimo",
-  "tagline": "Calcule parcelas mensais e juros totais",
-  "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
-  "metaTitle": "Calculadora de Empréstimo – Calculadora Gratuita de Parcelas Online",
-  "metaDescription": "Insira valor do empréstimo, taxa de juros e prazo para obter parcela mensal, juros totais e tabela de amortização.",
+  "tagline": "Calcule pagamentos mensais, juros totais e tabela de amortização",
+  "description": "Calcule pagamentos mensais de empréstimo, juros totais pagos e gere uma tabela de amortização completa. Funciona para hipotecas, financiamentos de veículos, empréstimos pessoais e financiamentos estudantis.",
+  "metaTitle": "Calculadora de Empréstimo – Parcela Mensal, Juros Totais e Amortização",
+  "metaDescription": "Calculadora de empréstimo grátis. Digite o valor do empréstimo, taxa de juros e prazo para calcular a parcela mensal e juros totais. Inclui tabela de amortização completa.",
   "keywords": [
     "calculadora de empréstimo",
-    "calcular parcela mensal",
-    "calculadora de financiamento",
-    "simulador de empréstimo",
-    "calculadora de financiamento imobiliário"
+    "calculadora de parcela mensal",
+    "calculadora de juros empréstimo",
+    "calculadora de amortização",
+    "calculadora de financiamento imobiliário",
+    "calculadora de financiamento carro",
+    "calculadora de financiamento casa",
+    "calculadora de empréstimo brasil",
+    "calculadora de financiamento automóvel",
+    "calculadora de empréstimo pessoal",
+    "calculadora de empréstimo online",
+    "calculadora de empréstimo grátis",
+    "calculadora de empréstimo banco",
+    "calculadora de empréstimo caixa",
+    "calculadora de empréstimo planilha",
+    "calculadora de empréstimo brasileiro",
+    "calculadora de parcela",
+    "calculadora de juros",
+    "empréstimo calculadora",
+    "ferramenta calculadora empréstimo grátis"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "🏦",
   "faqs": [
     {
-      "question": "Como calcular a parcela mensal?",
-      "answer": "Parcela = Capital × Taxa Mensal × (1+Taxa Mensal)^Prazo ÷ ((1+Taxa Mensal)^Prazo - 1)"
+      "question": "Como é calculada a minha parcela mensal do empréstimo?",
+      "answer": "Parcela mensal = P × [r(1+r)^n] / [(1+r)^n - 1], onde P é o valor principal, r é a taxa de juros mensal e n é o número total de parcelas."
+    },
+    {
+      "question": "O que é uma tabela de amortização?",
+      "answer": "Uma tabela de amortização mostra cada parcela mensal dividida entre principal e juros. As parcelas iniciais são principalmente juros; as parcelas finais são principalmente principal."
+    },
+    {
+      "question": "Como posso reduzir os juros totais pagos?",
+      "answer": "Fazer pagamentos extras de principal no início reduz o saldo do empréstimo mais rapidamente, cortando os juros totais significativamente. Até uma parcela extra por ano pode economizar milhares de reais."
     }
   ],
   "relatedTools": [

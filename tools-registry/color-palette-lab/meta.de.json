@@ -1,0 +1,52 @@
+{
+  "slug": "color-palette-lab",
+  "name": "Professional Color Palette Lab",
+  "tagline": "Erkunden Sie kuratierte Branchenpaletten mit HEX, Tailwind, CMYK und Pantone-Referenz",
+  "description": "Durchsuchen Sie 5 professionelle Farbpaletten — Minimal SaaS, Medical Blue, Retro Film, Dark Tech und Eco Green. Wechseln Sie zwischen Web Design-Modus (HEX, Tailwind CSS-Klassen, RGB) und Druckmodus (CMYK-Werte und ungefähre Pantone-Referenzen). Kopieren Sie jeden Wert mit einem Klick.",
+  "metaTitle": "Professional Color Palette Lab – HEX, Tailwind CSS, CMYK & Pantone-Referenz",
+  "metaDescription": "Kostenloses Farbpaletten-Tool mit 5 Branchenpaletten. Kopieren Sie HEX-Codes, Tailwind CSS-Klassen, CMYK-Werte und ungefähre Pantone-Referenzen sofort. Web Design- und Druckmodi.",
+  "keywords": [
+    "Farbpaletten-Generator",
+    "Pantone-Abgleich",
+    "CMYK-Konvertierung",
+    "Web-Farbpalette",
+    "Tailwind CSS-Schema",
+    "Farbpalette für Designer",
+    "HEX zu CMYK Konverter",
+    "Pantone-Farbreferenz",
+    "SaaS-Farbpalette",
+    "UI-Farbschema",
+    "Farbpaletten-Generator aus Bild",
+    "Farbpaletten-Generator aus Text",
+    "Farbpaletten-Generator mit KI",
+    "Farbpaletten-Generator aus HEX",
+    "kostenloser Farbpaletten-Generator",
+    "Farbpaletten-Generator Canva",
+    "Farbpaletten-Generator aus Wörtern",
+    "Pantone Matching System",
+    "Pantone Matching System PMS",
+    "Pantone Matching System Farbkarte"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Sind die Pantone-Referenzen exakte Treffer?",
+      "answer": "Nein. Die angezeigten Pantone-Codes werden manuell durch visuelle RGB-Nähe geschätzt – sie stammen nicht aus Pantones proprietärer Datenbank. Pantones offizielle sRGB-Zuordnungen sind nicht öffentlich lizenziert. Überprüfen Sie immer gegen ein physisches Pantone Fan Deck oder eine Pantone Formula Guide vor der Produktionsnutzung."
+    },
+    {
+      "question": "Wie werden CMYK-Werte berechnet?",
+      "answer": "CMYK-Werte werden mit der Standard-Formel berechnet: K = 1 − max(R,G,B); C = (1−R−K)/(1−K); M = (1−G−K)/(1−K); Y = (1−B−K)/(1−K). Die tatsächliche gedruckte Ausgabe hängt von Ihrem Druckerprofil und Papiertyp ab."
+    },
+    {
+      "question": "Kann ich diese Paletten in kommerziellen Projekten verwenden?",
+      "answer": "Ja. Die Paletten werden als Referenzinspiration bereitgestellt. Die HEX- und Tailwind-Werte können kostenlos in jedem Projekt verwendet werden. Pantone-Farbnamen sind Markenzeichen der Pantone LLC."
+    },
+    {
+      "question": "Was bedeutet die Tailwind-Klasse?",
+      "answer": "Jede Farbe zeigt die nächste Tailwind CSS-Utility-Klasse (z. B. bg-indigo-500). Kopieren Sie diese und verwenden Sie sie direkt in Ihrem HTML oder JSX ohne custom CSS."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

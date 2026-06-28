@@ -1,0 +1,37 @@
+{
+  "slug": "palette-eco-green",
+  "name": "Eco Green Farbpalette",
+  "tagline": "Naturinspirierte Bio-Palette für Nachhaltigkeitsmarken, Wellness und Umweltprodukte. Tiefe Waldgrüntöne und warme Erdtöne.",
+  "description": "Naturinspirierte Bio-Palette für Nachhaltigkeitsmarken, Wellness und Umweltprodukte. Tiefe Waldgrüntöne und warme Erdtöne.",
+  "metaTitle": "Eco Green Farbpalette – HEX, CMYK, Tailwind & Pantone Referenz",
+  "metaDescription": "Kostenlose Eco-Green-Farbpalette mit HEX-Codes, Tailwind CSS-Klassen, CMYK-Werten und Pantone-Näherungswerten. Kopieren Sie jede Farbe sofort.",
+  "keywords": [
+    "eco grün farbpalette",
+    "eco grün farbschema",
+    "eco grün hex codes",
+    "#166534",
+    "#4ade80",
+    "#92400e",
+    "pantone farbabgleich",
+    "cmyk konvertierung",
+    "web farbpalette",
+    "tailwind css schema",
+    "umweltfreundliche grüne farbpalette"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Sind die Pantone-Referenzen exakte Übereinstimmungen?",
+      "answer": "Nein. Die angezeigten Pantone-Codes sind die nächstgelegenen visuellen Näherungen. Für professionelle Druckarbeiten überprüfen Sie immer mit einem physischen Pantone-Fächer."
+    },
+    {
+      "question": "Wie werden CMYK-Werte berechnet?",
+      "answer": "CMYK-Werte verwenden die geräteunabhängige Formel: K = 1 − max(R,G,B); C/M/Y werden aus RGB-Verhältnissen abgeleitet. Die tatsächliche Ausgabe hängt vom Druckerprofil und Papier ab."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

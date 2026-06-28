@@ -1,20 +1,48 @@
 {
   "slug": "carbon-footprint-travel-calculator",
-  "name": "Calculadora de Pegada de Carbono de Viagem",
-  "tagline": "Estime as emissões de CO₂ da sua viagem",
-  "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
-  "metaTitle": "Calculadora de Pegada de Carbono – Ferramenta de Cálculo de Emissões de CO₂",
-  "metaDescription": "Calcule as emissões de CO₂ de viagens de avião, carro ou trem para entender o impacto ambiental da sua viagem.",
+  "name": "Calculadora de Pegada de Carbono em Viagens",
+  "tagline": "Calcule o impacto de carbono da sua viagem.",
+  "description": "Avalie a pegada de carbono dos seus planos de viagem inserindo a distância percorrida, o modo de transporte e o tipo de hospedagem. Ideal para viajantes conscientes que desejam minimizar seu impacto ambiental.",
+  "metaTitle": "Calculadora de Pegada de Carbono em Viagens – Viagem Sustentável | Ferramenta Gratuita",
+  "metaDescription": "Calcule a pegada de carbono da sua viagem gratuitamente e descubra como viajar de forma mais sustentável. Resultados instantâneos, sem necessidade de registro.",
   "keywords": [
-    "calculadora de pegada de carbono",
-    "emissões de CO₂ de viagem",
-    "calcular CO₂ do voo",
-    "viagem ecológica",
-    "cálculo de carbono"
+    "calculadora pegada de carbono",
+    "viagem sustentável",
+    "impacto carbono viagem",
+    "turismo ecológico",
+    "calculadora viagem verde",
+    "calculadora pegada carbono viagens",
+    "calculadora pegada carbono avião",
+    "calculadora carbono viagem brasil",
+    "calculadora pegada carbono trem",
+    "calculadora carbono carro",
+    "calculadora pegada carbono estudantes",
+    "calculadora pegada carbono wwf",
+    "calculadora pegada carbono brasil",
+    "calculadora pegada carbono crianças",
+    "calculadora pegada carbono grátis",
+    "calculadora pegada carbono austrália",
+    "app calculadora pegada carbono",
+    "calculadora carbono jornada",
+    "calculadora emissões carbono viagem",
+    "calculadora pegada carbono passeio"
   ],
-  "category": "Viagem",
+  "category": "Travel",
   "icon": "🌍",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que esta calculadora mede?",
+      "answer": "Ela mede a pegada de carbono com base no seu modo de transporte, distância percorrida e hospedagens."
+    },
+    {
+      "question": "Posso comparar diferentes opções de viagem?",
+      "answer": "Sim, você pode inserir diferentes cenários para ver qual tem menor impacto de carbono."
+    },
+    {
+      "question": "Esta ferramenta é precisa?",
+      "answer": "A calculadora fornece estimativas baseadas em dados médios de emissões para vários modos de transporte."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

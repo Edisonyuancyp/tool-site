@@ -1,20 +1,48 @@
 {
   "slug": "crypto-market-cap-comparator",
-  "name": "加密货币市值对比器",
-  "tagline": "对比不同加密货币的市值规模",
-  "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
-  "metaTitle": "加密货币市值对比器 – 在线加密市值比较工具",
-  "metaDescription": "输入两种加密货币，对比市值差异和价格潜力，了解如果市值相等价格会是多少。",
+  "name": "加密货币市值对比计算器",
+  "tagline": "如果币种X达到币种Y的市值，价格会是多少？",
+  "description": "经典加密货币假设计算器。选择任意两种币种，即可立即查看第一种币种达到第二种币种市值时的预期价格。使用CoinGecko实时数据覆盖50余种主流加密货币。",
+  "metaTitle": "加密货币市值对比计算器 - 虚拟币价格预测工具",
+  "metaDescription": "免费加密货币市值计算器。实时查询比特币、以太坊、Solana等币种如果达到其他币种市值时的价格。采用CoinGecko最新数据。",
   "keywords": [
+    "加密货币市值计算器",
+    "比特币达到以太坊市值",
+    "山寨币价格预测计算器",
+    "虚拟币假设计算器",
+    "加密货币市值对比",
+    "币种市值计算器价格",
+    "虚拟币市值计算器收益",
+    "加密货币市值对比工具",
+    "虚拟币市值计算器应用",
+    "CoinGecko市值计算器",
+    "虚拟币市值计算器",
+    "数字货币市值对比计算",
     "加密货币市值比较",
-    "比特币市值计算",
-    "加密货币对比工具",
-    "币价潜力计算",
-    "市值比较器"
+    "虚拟币市值对比计算器",
+    "币种市值对比工具",
+    "加密货币市值对比图表",
+    "比特币市值对比",
+    "比特币与其他资产市值对比",
+    "XRP市值对比",
+    "比特币市值与黄金对比"
   ],
-  "category": "加密",
+  "category": "Crypto",
   "icon": "🪙",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "预期价格是如何计算的？",
+      "answer": "预期价格 = 目标市值 / 币种A的流通供应量。例如，如果SOL（流通供应量4.8亿）达到BTC的2万亿美元市值：2万亿 / 4.8亿 = 每枚SOL 4,167美元。"
+    },
+    {
+      "question": "为什么流通供应量比总供应量更重要？",
+      "answer": "市值始终根据流通供应量（市场上实际流通的币数）计算，而非总供应量或最大供应量。"
+    },
+    {
+      "question": "数据来源是什么？",
+      "answer": "实时数据从CoinGecko免费公开API获取。如API暂时不可用，本工具将使用离线近似数据作为备份。"
+    }
+  ],
   "relatedTools": [
     "tp-sl-calculator",
     "position-size-calculator",

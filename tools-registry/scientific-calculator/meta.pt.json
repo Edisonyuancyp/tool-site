@@ -1,0 +1,40 @@
+{
+  "slug": "scientific-calculator",
+  "name": "Calculadora Científica",
+  "tagline": "Calculadora científica completa — trigonometria, logaritmo, potências e muito mais",
+  "description": "Uma calculadora científica online gratuita que suporta trigonometria (sen, cos, tan), logaritmos, exponenciais, raiz quadrada, fatoriais e constantes como π e e. Funciona totalmente no seu navegador.",
+  "metaTitle": "Calculadora Científica – Calculadora Científica Online Grátis",
+  "metaDescription": "Calculadora científica online grátis. Suporta sen, cos, tan, log, ln, raiz quadrada, potências, fatoriais, π, e e muito mais. Sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "calculadora científica",
+    "calculadora científica online",
+    "calculadora científica grátis",
+    "calculadora científica com sen cos tan",
+    "calculadora online com log e exponencial",
+    "calculadora de trigonometria",
+    "calculadora de notação científica",
+    "calculadora avançada online grátis"
+  ],
+  "category": "Math",
+  "icon": "🧮",
+  "faqs": [
+    {
+      "question": "Que funções esta calculadora científica suporta?",
+      "answer": "Suporta operações básicas, trigonometria (sen, cos, tan e suas inversas), logaritmos (log base 10, logaritmo natural ln), raiz quadrada, potências, fatoriais e as constantes π e e."
+    },
+    {
+      "question": "As funções trigonométricas estão em graus ou radianos?",
+      "answer": "Você pode alternar entre modo DEG e RAD usando o botão de alternância DEG/RAD. O modo atual é sempre mostrado na tela."
+    },
+    {
+      "question": "Esta calculadora é gratuita?",
+      "answer": "Sim, totalmente gratuita sem necessidade de cadastro. Todos os cálculos são executados no seu navegador."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "bmi-calculator"
+  ],
+  "variants": []
+}

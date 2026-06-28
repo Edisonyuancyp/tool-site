@@ -1,0 +1,46 @@
+{
+  "slug": "amazon-acos-calculator",
+  "name": "Amazon ACoS計算機",
+  "tagline": "ACoS、TACoS、最大CPC入札、広告の真の利益性を計算",
+  "description": "Amazonの広告費売上比率（ACoS）と合計ACoS（TACoS）を計算し、コンバージョン率と利益率から最大採算性CPC入札を見つけ、キャンペーンが利益を生み出しているかどうかを確認できます。",
+  "metaTitle": "Amazon ACoS計算機 - 最大CPC入札＆TACoS計算ツール | 無料",
+  "metaDescription": "無料のAmazon ACoS計算機。ACoS、TACoS、最大採算性CPC入札、広告費を差し引いた真の利益を計算します。Amazon PPCセラー向け。",
+  "keywords": [
+    "Amazon ACoS計算機",
+    "ACoS計算 Amazon",
+    "Amazon PPC ACoS",
+    "TACoS計算機 Amazon",
+    "最大CPC入札計算機 Amazon",
+    "Amazon広告費売上比率",
+    "採算性の高いACoS Amazon",
+    "Amazon PPC利益性計算機",
+    "損益分岐点ACoS計算機",
+    "Amazonスポンサープロダクト広告計算機",
+    "FBA広告計算機",
+    "Amazon PPC入札計算機",
+    "ACoS vs TACoS Amazon",
+    "Amazon PPCROI計算機",
+    "Amazonセラー ACoS"
+  ],
+  "category": "ecommerce",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "AmazonにおけるACoSの目安は？",
+      "answer": "良好なACoSは利益率によって異なります。損益分岐点のACoSはあなたの粗利率と同等です。例えば、利益率が30%の場合、ACoSが30%以下であれば利益が出ます。ほとんどのセラーは15～25%のACoSを目指しています。"
+    },
+    {
+      "question": "ACoSとTACoSの違いは何ですか？",
+      "answer": "ACoS（Advertising Cost of Sale）＝広告費÷広告経由の売上。TACoS（Total ACoS）＝広告費÷全売上（オーガニック含む）。ブランドが成長するにつれて、TACoSは全体的な広告効率のより良い指標となります。"
+    },
+    {
+      "question": "最大CPC入札を計算するにはどうすればよいですか？",
+      "answer": "最大CPC＝（販売価格×目標ACoS×コンバージョン率）。例：30ドルの価格×20%の目標ACoS×10%のCVR＝0.60ドルの最大入札額。"
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

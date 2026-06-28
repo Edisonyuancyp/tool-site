@@ -1,27 +1,42 @@
 {
   "slug": "tip-calculator",
   "name": "小费计算器",
-  "tagline": "快速计算餐厅小费和账单分摊",
-  "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
-  "metaTitle": "小费计算器 – 在线免费小费计算",
-  "metaDescription": "输入账单金额和小费比例，自动计算小费和人均分摊金额。",
+  "tagline": "即时计算小费金额并分摊账单",
+  "description": "输入账单总额、小费百分比和人数，即可快速计算每人小费和每人总费用。支持自定义小费比例。",
+  "metaTitle": "小费计算器 - 在线分摊账单和计算小费工具",
+  "metaDescription": "免费小费计算器。输入账单金额和小费百分比，快速计算每人小费和总费用。适用于餐厅、出租车和外卖。",
   "keywords": [
     "小费计算器",
-    "账单计算器",
-    "餐厅小费",
-    "AA计算器",
-    "分摊计算"
+    "餐厅小费计算器",
+    "账单分摊器",
+    "小费多少合适",
+    "小费计算器分摊账单",
+    "谷歌小费计算器",
+    "小费计算器应用",
+    "免费小费计算器",
+    "含税小费计算器",
+    "小费计算器python",
+    "小费计算公式",
+    "小费计算器iphone",
+    "在线小费计算器",
+    "免费在线小费计算器",
+    "在线小费计算转换器",
+    "免费在线小费计算器应用",
+    "谷歌免费在线小费计算器",
+    "简单免费在线小费计算器",
+    "最佳免费在线小费计算器",
+    "免费小费计算工具"
   ],
-  "category": "金融",
+  "category": "Finance",
   "icon": "🍽️",
   "faqs": [
     {
-      "question": "一般给多少小费？",
-      "answer": "在美国，通常给账单金额的 15–20%。服务满意可给 20%+。"
+      "question": "标准小费百分比是多少？",
+      "answer": "在美国，餐厅服务的标准小费为15-20%。18%被认为是良好服务的基准；20%及以上为优质服务。"
     },
     {
-      "question": "多人用餐如何分摊？",
-      "answer": "输入人数，计算器会自动平均分摊总金额（含小费）。"
+      "question": "我如何平均分摊账单？",
+      "answer": "输入账单总额，选择小费百分比，然后输入人数。计算器会准确显示每个人需要支付的金额（包括小费）。"
     }
   ],
   "relatedTools": [

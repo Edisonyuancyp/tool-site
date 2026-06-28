@@ -1,20 +1,48 @@
 {
   "slug": "travel-time-calculator",
-  "name": "行程时间计算器",
-  "tagline": "估算旅行距离和时间",
-  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
-  "metaTitle": "行程时间计算器 – 驾车时间估算工具",
-  "metaDescription": "输入距离和速度，计算预计行驶时间；或输入出发和到达时间计算行驶速度。",
+  "name": "旅行时间计算器",
+  "tagline": "计算您的旅程需要多长时间。",
+  "description": "输入您的距离和平均速度，了解您的旅程需要多长时间。非常适合计划公路旅行或长途旅行的旅客。",
+  "metaTitle": "旅行时间计算器 – 免费在线行程时间估算工具",
+  "metaDescription": "免费计算旅行时间，无需注册。即时获得准确的行程耗时估算！",
   "keywords": [
-    "行程时间计算器",
-    "驾车时间计算",
-    "旅行时间估算",
-    "速度距离时间计算",
-    "公路行程计算"
+    "旅行时间计算器",
+    "行程时间计算",
+    "计算旅行时间",
+    "自驾游规划",
+    "旅程时间",
+    "旅行时间计算地图",
+    "英国旅行时间计算器",
+    "新加坡旅行时间计算器",
+    "地铁旅行时间计算器",
+    "按速度计算旅行时间",
+    "汽车旅行时间计算器",
+    "跨时区旅行时间计算器",
+    "在线旅行时间计算器",
+    "EVE Online旅行时间计算器",
+    "英国免费旅行时间计算器",
+    "新西兰免费旅行时间计算器",
+    "免费地图旅行时间计算器",
+    "谷歌地图免费旅行时间计算器",
+    "计算两地之间的旅行时间",
+    "根据速度计算旅行时间"
   ],
-  "category": "旅行",
+  "category": "Travel",
   "icon": "⏳",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "我如何计算旅行时间？",
+      "answer": "输入距离和您的平均速度，即可获得估计的旅行时间。"
+    },
+    {
+      "question": "我可以将其用于不同的出行方式吗？",
+      "answer": "可以，您可以根据出行方式调整平均速度。"
+    },
+    {
+      "question": "输入的距离有限制吗？",
+      "answer": "没有限制，您可以输入任何距离来估算旅行时间。"
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

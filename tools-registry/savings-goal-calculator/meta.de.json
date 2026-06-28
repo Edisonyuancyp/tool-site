@@ -1,20 +1,48 @@
 {
   "slug": "savings-goal-calculator",
-  "name": "Sparzielrechner",
-  "tagline": "Zeit und monatliche Sparrate für dein Ziel berechnen",
-  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
-  "metaTitle": "Sparzielrechner – Finanzplanungs-Tool für Sparziele",
-  "metaDescription": "Zielbetrag, aktuelles Erspartes und Zinssatz eingeben und berechnen, wie viel du monatlich sparen musst.",
+  "name": "Sparziels-Rechner",
+  "tagline": "Planen Sie Ihre Ersparnisse ganz einfach!",
+  "description": "Dieser Rechner hilft Ihnen dabei, Sparziele zu setzen und zu berechnen, wie viel Sie monatlich sparen müssen, um Ihr Ziel zu erreichen. Ideal für alle, die für einen Urlaub, einen größeren Kauf oder den Aufbau einer Notfallerserve planen.",
+  "metaTitle": "Sparziels-Rechner – Planen Sie Ihre Ersparnisse | Kostenlos Online",
+  "metaDescription": "Berechnen Sie monatliche Sparraten für Ihre Ziele. Kostenlos, ohne Anmeldung, sofortige Ergebnisse!",
   "keywords": [
-    "Sparzielrechner",
-    "Sparplan berechnen",
-    "Monatliche Sparrate",
+    "Sparziel",
+    "Sparrechner monatlich",
     "Finanzplanung",
-    "Sparziel erreichen"
+    "Notfallfonds Rechner",
+    "Urlaubssparen",
+    "Sparziels-Rechner",
+    "Sparziels-Rechner ohne Zinsen",
+    "monatlicher Sparziels-Rechner",
+    "Sparziels-Rechner mit Zinsen",
+    "Sparziels-Rechner 14-täglich",
+    "Sparziels-Rechner Deutschland",
+    "Sparziels-Rechner mit Inflation",
+    "Sparziels-Rechner Österreich",
+    "Online Sparziels-Rechner",
+    "kostenloser Sparziels-Rechner",
+    "Sparziels-App",
+    "Sparziels-APK",
+    "Sparziele",
+    "Sparziels-Tracker",
+    "Sparziels-Tabelle"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "🏦",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Sparziels-Rechner?",
+      "answer": "Geben Sie Ihren Sparzielbetrag und Ihr Zieldatum ein, und der Rechner zeigt Ihnen, wie viel Sie monatlich sparen müssen, um Ihr Ziel zu erreichen."
+    },
+    {
+      "question": "Kann ich mein Ziel nach dem Start anpassen?",
+      "answer": "Ja, Sie können Ihren Sparzielbetrag und Ihren Zeitrahmen jederzeit ändern, um Ihre aktuelle finanzielle Situation widerzuspiegeln."
+    },
+    {
+      "question": "Ist dieses Tool für alle Arten von Sparzielen geeignet?",
+      "answer": "Absolut! Egal ob kurzfristiges oder langfristiges Sparziel, dieser Rechner hilft Ihnen bei der Planung."
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "investment-return-calculator"

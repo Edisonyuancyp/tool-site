@@ -1,23 +1,46 @@
 {
   "slug": "qr-code-generator",
-  "name": "QRコード生成機",
-  "tagline": "任意のコンテンツのQRコードを即座に生成",
-  "description": "Generate a free QR code for any URL, text, phone number, or message. Download as PNG and use anywhere — no account needed.",
-  "metaTitle": "QRコード生成機 – 無料オンラインQRコード作成",
-  "metaDescription": "テキスト・URL・連絡先情報を入力してQRコードを即座に生成・ダウンロード。無料、登録不要。",
+  "name": "QRコードジェネレーター",
+  "tagline": "テキストやURLのQRコードを今すぐ生成",
+  "description": "任意のURL、テキスト、電話番号、またはメッセージの無料QRコードを生成します。PNGとしてダウンロードしてどこでも使用できます。アカウントは不要です。",
+  "metaTitle": "QRコードジェネレーター – 無料オンラインQRコード生成ツール",
+  "metaDescription": "URL、テキストなどの無料QRコードを生成。PNGで即座にダウンロード。登録不要、ウォーターマークなし。最速の無料オンラインQRコード生成ツール。",
   "keywords": [
-    "QRコード生成機",
-    "QRコード作成",
-    "オンラインQRコード",
-    "無料QRコード",
-    "QRコードツール"
+    "QRコード生成",
+    "無料QRコード作成",
+    "QRコード生成オンライン",
+    "URLをQRコードに変換",
+    "ウェブサイト用QRコード",
+    "QRコード生成無料",
+    "QRコード生成 Canva",
+    "QRコード生成 Adobe",
+    "QRコード生成 広告なし",
+    "QRコード生成 Google",
+    "QRコード生成 オンライン",
+    "QRコード生成 オンライン 無料",
+    "QRコード生成 オンライン ロゴ付き",
+    "QRコード生成 位置情報",
+    "QRコード生成 無料 登録なし",
+    "QRコード生成 ロゴ付き",
+    "QRコード生成 決済",
+    "QRコード生成 PDF",
+    "無料QRコード生成",
+    "無料QRコード生成 登録不要"
   ],
-  "category": "ジェネレーター",
+  "category": "Generators",
   "icon": "📱",
   "faqs": [
     {
-      "question": "QRコードに保存できるものは？",
-      "answer": "URL・テキスト・連絡先情報・WiFiパスワードなど様々なコンテンツを保存できます。"
+      "question": "QRコードに何をエンコードできますか？",
+      "answer": "URL、プレーンテキスト、電話番号、メールアドレス、SMSメッセージ、Wi-Fi認証情報など、様々な情報をエンコードできます。"
+    },
+    {
+      "question": "生成されたQRコードは無料で使用できますか？",
+      "answer": "はい。ここで生成されたすべてのQRコードは完全に無料で、ウォーターマークなし、有効期限なし、アカウント登録不要です。"
+    },
+    {
+      "question": "QRコードをダウンロードできますか？",
+      "answer": "はい。ダウンロードボタンをクリックして、QRコードをPNG画像ファイルとして保存し、どこでも使用できます。"
     }
   ],
   "relatedTools": [

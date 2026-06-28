@@ -1,20 +1,44 @@
 {
   "slug": "body-fat-calculator",
-  "name": "Calculadora de Gordura Corporal",
-  "tagline": "Estime o percentual de gordura corporal",
-  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
-  "metaTitle": "Calculadora de Gordura Corporal – Ferramenta Gratuita de Cálculo de Percentual de Gordura",
-  "metaDescription": "Use medidas corporais (pescoço, cintura, quadril) para estimar o percentual de gordura corporal. Para homens e mulheres.",
+  "name": "Calculadora de Percentual de Gordura Corporal",
+  "tagline": "Calcule seu percentual de gordura corporal usando o método de medição da Marinha dos EUA",
+  "description": "Estime seu percentual de gordura corporal usando o método da Marinha dos EUA — basta informar as medidas de cintura, pescoço e quadril (mulheres). Mostra massa gorda, massa magra, categoria de fitness e um medidor visual. Sem necessidade de adipômetro.",
+  "metaTitle": "Calculadora de Percentual de Gordura Corporal – Método Marinha dos EUA (Cintura, Pescoço, Quadril)",
+  "metaDescription": "Calculadora gratuita de percentual de gordura corporal usando o método da Marinha dos EUA. Digite as medidas de cintura, pescoço e quadril para calcular percentual de gordura, massa gorda, massa magra e categoria de fitness.",
   "keywords": [
-    "calculadora de gordura corporal",
-    "percentual de gordura",
-    "calcular gordura corporal",
-    "porcentagem de gordura",
-    "composição corporal"
+    "calculadora de percentual de gordura corporal",
+    "calculadora de gordura corporal marinha",
+    "calculadora de gordura corporal cintura pescoço quadril",
+    "como calcular percentual de gordura corporal",
+    "medição de percentual de gordura corporal",
+    "calculadora de gordura corporal para mulheres",
+    "calculadora percentual gordura feminino",
+    "fórmula cálculo gordura corporal",
+    "calculadora gordura corporal IMC",
+    "calculadora gordura corporal perda de peso",
+    "calculadora gordura corporal fita métrica",
+    "calculadora gordura corporal massa magra",
+    "calculadora gordura corporal online",
+    "melhor calculadora gordura corporal online",
+    "calculadora gordura corporal mais precisa",
+    "calculadora gordura corporal precisa online",
+    "calculadora gordura corporal grátis",
+    "calculadora percentual gordura grátis",
+    "tabela percentual gordura corporal",
+    "tabela gordura corporal homens"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "💪",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Qual é a precisão do método de gordura corporal da Marinha dos EUA?",
+      "answer": "O método da Marinha dos EUA possui margem de erro de ±3–4% comparado ao DEXA (padrão ouro). É significativamente mais útil que o IMC para rastreamento de fitness."
+    },
+    {
+      "question": "Qual percentual de gordura corporal é considerado saudável?",
+      "answer": "Para homens: Atlético 6–13%, Fitness 14–17%, Médio 18–24%. Para mulheres: Atlético 14–20%, Fitness 21–24%, Médio 25–31%."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "ideal-weight-calculator",

@@ -1,20 +1,48 @@
 {
   "slug": "finance-charge-calculator",
-  "name": "Calculadora de Encargos Financeiros",
-  "tagline": "Calcule encargos financeiros de cartão de crédito ou empréstimo",
-  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
-  "metaTitle": "Calculadora de Encargos Financeiros – Ferramenta de Cálculo de Juros",
-  "metaDescription": "Calcule encargos financeiros mensais e juros de APR para saldos de cartão de crédito ou empréstimos.",
+  "name": "Calculadora de Juros e Encargos Financeiros",
+  "tagline": "Calcule seus encargos financeiros sem esforço!",
+  "description": "Esta ferramenta ajuda os usuários a calcular os encargos financeiros em empréstimos e cartões de crédito com base em seus saldos pendentes e taxas de juros. Perfeita para quem deseja entender seus custos de empréstimo e gerenciar melhor suas finanças.",
+  "metaTitle": "Calculadora de Encargos Financeiros – Calcule Seus Custos | Ferramenta Online Grátis",
+  "metaDescription": "Calcule instantaneamente encargos financeiros em empréstimos e cartões de crédito. Grátis, sem cadastro, resultados rápidos!",
   "keywords": [
+    "encargo financeiro",
+    "calcular encargo financeiro",
+    "encargos financeiros cartão de crédito",
+    "encargos financeiros empréstimo",
+    "gestão de dívidas",
     "calculadora de encargos financeiros",
-    "calcular juros do cartão",
-    "calculadora de APR",
-    "calcular juros",
-    "encargos mensais"
+    "calculadora de encargos financeiros financiamento auto",
+    "calculadora de encargos financeiros faturas vencidas",
+    "calculadora de encargos financeiros saldo médio diário",
+    "calculadora de encargos financeiros mensal",
+    "calculadora de encargos financeiros atualizada hoje",
+    "calculadora de encargos financeiros BPI",
+    "calculadora de encargos financeiros Metrobank",
+    "como calcular encargos financeiros",
+    "encargos financeiros",
+    "o que é encargo financeiro cartão de crédito",
+    "encargo financeiro compras",
+    "encargo financeiro BPI cartão de crédito",
+    "encargos financeiros no cartão de crédito",
+    "calcular encargos financeiros empréstimo carro"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que é um encargo financeiro?",
+      "answer": "Um encargo financeiro é o custo de tomar dinheiro emprestado, expresso como uma porcentagem do valor total devido. Normalmente inclui juros e qualquer taxa aplicável."
+    },
+    {
+      "question": "Como calculo meus encargos financeiros?",
+      "answer": "Digite seu saldo pendente, taxa de juros e ciclo de faturamento na calculadora para descobrir seus encargos financeiros."
+    },
+    {
+      "question": "Posso usar esta calculadora para qualquer empréstimo?",
+      "answer": "Sim, esta calculadora pode ser usada para vários tipos de empréstimos, incluindo cartões de crédito, empréstimos pessoais e financiamentos de veículos."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "debt-repayment-calculator"

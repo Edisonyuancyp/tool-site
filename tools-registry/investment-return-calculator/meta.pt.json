@@ -1,20 +1,51 @@
 {
   "slug": "investment-return-calculator",
   "name": "Calculadora de Retorno de Investimento",
-  "tagline": "Calcule retorno anual e rendimento total",
-  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
-  "metaTitle": "Calculadora de ROI – Calculadora de Retorno de Investimento Online",
-  "metaDescription": "Insira investimento inicial, valor final e período para calcular o retorno anualizado (CAGR) e o rendimento total.",
+  "tagline": "Calcule ROI, CAGR e valor futuro para qualquer investimento",
+  "description": "Digite seu investimento inicial, taxa de retorno anual e período de tempo para calcular valor futuro, retorno total, ROI e CAGR. Suporta contribuições mensais opcionais. Funciona para ações, imóveis, ETFs e contas de poupança.",
+  "metaTitle": "Calculadora de Retorno de Investimento – ROI, CAGR e Valor Futuro",
+  "metaDescription": "Calculadora gratuita de retorno de investimento. Digite o valor inicial, retorno anual e anos para calcular valor futuro, ROI e CAGR. Suporta contribuições mensais. Sem cadastro.",
   "keywords": [
     "calculadora de retorno de investimento",
-    "calculadora de ROI",
-    "calcular CAGR",
-    "rendimento anual",
-    "retorno de investimento"
+    "calculadora de roi",
+    "calculadora de cagr",
+    "calculadora de valor futuro",
+    "calculadora de crescimento de investimento",
+    "calculadora de retorno sobre investimento",
+    "calculadora de retorno de investimento excel",
+    "calculadora de retorno de investimento juros compostos",
+    "calculadora de retorno de investimento brasil",
+    "calculadora de investimento",
+    "calculadora de rendimento de investimento",
+    "calculadora de investimento com saques",
+    "calculadora de investimento online",
+    "calculadora de investimento e poupança",
+    "calculadora gratuita de retorno de investimento",
+    "calculadora de retorno de investimento download excel",
+    "como calcular retorno de investimento",
+    "calculadora roi brasil",
+    "calculadora roi excel"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "📈",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que é ROI e como é calculado?",
+      "answer": "ROI (Retorno sobre Investimento) = (Valor Final − Investimento Inicial) / Investimento Inicial × 100%. Por exemplo, investir R$ 10.000 que crescem para R$ 15.000 dá ROI = 50%. Não leva em conta o tempo — use CAGR para comparar investimentos de durações diferentes."
+    },
+    {
+      "question": "O que é CAGR?",
+      "answer": "CAGR (Taxa de Crescimento Anual Composta) é a taxa anual na qual um investimento teria crescido se crescesse a uma taxa constante. Fórmula: CAGR = (Valor Final / Valor Inicial)^(1/anos) − 1. É o melhor número único para comparar desempenho de investimentos."
+    },
+    {
+      "question": "Qual é um bom retorno anual sobre investimento?",
+      "answer": "O S&P 500 teve média de ~10% ao ano (7% após inflação) no longo prazo. Imóveis típicamente retornam 8–12% incluindo rendimento de aluguel. Contas de poupança de alto rendimento atualmente oferecem 4–5%. Qualquer coisa acima de 15% consistentemente é excepcional."
+    },
+    {
+      "question": "Como as contribuições mensais afetam o retorno do investimento?",
+      "answer": "Contribuições mensais aumentam dramaticamente o valor final porque cada contribuição também se compõe ao longo do tempo. Mesmo pequenas adições regulares (por exemplo, R$ 200/mês) podem dobrar ou triplicar seu saldo final em 20–30 anos comparado apenas a um investimento de valor único."
+    }
+  ],
   "relatedTools": [
     "compound-interest-calculator",
     "retirement-savings-calculator",

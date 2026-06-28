@@ -1,0 +1,51 @@
+{
+  "slug": "typography-scale-generator",
+  "name": "Gerador de Escala Tipográfica",
+  "tagline": "Crie tamanhos de fonte harmoniosos sem esforço",
+  "description": "Gere uma escala tipográfica baseada no tamanho base e proporção escolhidos para criar hierarquias de texto visualmente atraentes. Perfeito para designers gráficos e desenvolvedores web que desejam melhorar a legibilidade.",
+  "metaTitle": "Gerador de Escala Tipográfica – Ferramenta de Tamanho de Fonte | Grátis Online",
+  "metaDescription": "Crie uma escala tipográfica para seus projetos. Ferramenta gratuita, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "escala tipográfica",
+    "gerador de tamanho de fonte",
+    "tipografia de design",
+    "ferramenta de hierarquia de texto",
+    "combinação de fontes",
+    "gerador de escala tipográfica grátis",
+    "gerador de escala tipográfica online sem download",
+    "gerador de escala tipográfica códigos hex",
+    "ferramenta de design grátis",
+    "gerador de paleta de cores",
+    "visualização instantânea",
+    "sem necessidade de photoshop",
+    "gerador de escala de tipos",
+    "gerador de escala de tipos figma",
+    "gerador de escala tipográfica",
+    "gerador de escala tipográfica figma",
+    "gerador de escala tipográfica google",
+    "gerador de tamanho tipográfico",
+    "gerador de escala de tipos grátis",
+    "gerador de escala de tipos para mobile"
+  ],
+  "category": "Design",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "O que é uma escala tipográfica?",
+      "answer": "Uma escala tipográfica é uma série de tamanhos de fonte baseados em uma proporção consistente, ajudando a manter harmonia visual."
+    },
+    {
+      "question": "Posso personalizar o tamanho base?",
+      "answer": "Sim, você pode inserir qualquer tamanho base que preferir para gerar sua escala."
+    },
+    {
+      "question": "Quais proporções posso usar?",
+      "answer": "As proporções comuns incluem a proporção áurea, terça maior e terça menor."
+    }
+  ],
+  "relatedTools": [
+    "font-pairing-tool",
+    "color-palette-extractor"
+  ],
+  "variants": []
+}

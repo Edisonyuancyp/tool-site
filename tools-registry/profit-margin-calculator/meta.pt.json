@@ -1,0 +1,52 @@
+{
+  "slug": "profit-margin-calculator",
+  "name": "Calculadora de Margem de Lucro",
+  "tagline": "Calcule margem de lucro bruto, markup e receita — resultados instantâneos",
+  "description": "Calcule margem de lucro bruto, margem líquida, percentual de markup e receita a partir do custo e preço de venda. Funciona para varejo, precificação freelancer e análise de negócios.",
+  "metaTitle": "Calculadora de Margem de Lucro – Margem Bruta e Markup | GetFastCalc",
+  "metaDescription": "Calculadora de margem de lucro grátis. Calcule margem bruta, percentual de markup e lucro líquido instantaneamente. Funciona para varejo, e-commerce e freelancers. Sem cadastro.",
+  "keywords": [
+    "calculadora de margem de lucro",
+    "calculadora de margem bruta",
+    "calculadora de markup",
+    "calculadora de percentual de lucro",
+    "fórmula de lucro bruto",
+    "calculadora de margem vs markup",
+    "calculadora de lucro para negócios grátis",
+    "calculadora de preço de venda",
+    "calculadora de margem de lucro excel",
+    "aplicativo calculadora de margem de lucro",
+    "calculadora de margem de lucro shopify",
+    "calculadora de margem de lucro alimentos",
+    "fórmula calculadora de margem de lucro",
+    "calculadora de margem de lucro brasil",
+    "calculadora de margem de lucro gratuita",
+    "calculadora de margem de lucro online",
+    "calculadora online de margem de lucro bruto",
+    "calculadora grátis de margem de lucro",
+    "calculadora grátis de margem de lucro bruto",
+    "calculadora grátis de margem de lucro shopify"
+  ],
+  "category": "Finance",
+  "icon": "💹",
+  "faqs": [
+    {
+      "question": "Qual é a fórmula de margem de lucro bruto?",
+      "answer": "Margem de Lucro Bruto = ((Receita - Custo) / Receita) × 100. Por exemplo, se você vender algo por R$ 100 que custou R$ 60, sua margem bruta é 40%."
+    },
+    {
+      "question": "Qual é a diferença entre margem e markup?",
+      "answer": "Margem é o lucro como percentual da receita. Markup é o lucro como percentual do custo. Uma margem de 40% equivale a um markup de 66,7%. Eles medem o mesmo lucro de bases diferentes."
+    },
+    {
+      "question": "Qual é uma boa margem de lucro?",
+      "answer": "Varia por setor. Varejo fica em média 2-5%, SaaS pode ser 70%+, restaurantes visam 3-9%. Uma margem bruta saudável para a maioria dos pequenos negócios é 40-60%."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "tax-calculator",
+    "risk-calculator"
+  ],
+  "variants": []
+}

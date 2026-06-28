@@ -1,20 +1,48 @@
 {
   "slug": "base-converter",
   "name": "进制转换器",
-  "tagline": "二进制、八进制、十进制、十六进制互转",
-  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
-  "metaTitle": "进制转换器 – 在线二进制十六进制转换",
-  "metaDescription": "支持 2–64 进制互转，包括二进制、八进制、十进制、十六进制、Base58 等。",
+  "tagline": "在任意进制间转换数字——二进制、八进制、十进制、十六进制等",
+  "description": "在2到64进制之间转换整数，包括二进制、八进制、十进制、十六进制、Base58和Base64。使用BigInt实现无限精度。显示格式化输出，支持半字节/字节间距。",
+  "metaTitle": "进制转换器 - 二进制、八进制、十进制、十六进制及所有进制转换",
+  "metaDescription": "免费进制转换工具。支持二进制、八进制、十进制、十六进制、32进制、36进制及2-36进制转换。即时计算，BigInt高精度。",
   "keywords": [
     "进制转换器",
-    "二进制转换",
-    "十六进制转换",
-    "八进制计算器",
-    "数制转换工具"
+    "二进制转十进制",
+    "十六进制转十进制",
+    "十进制转二进制",
+    "进制转换计算器",
+    "转换为十进制计算器",
+    "十进制转二进制转换器",
+    "十六进制转十进制",
+    "十进制转二进制公式",
+    "二进制八进制十六进制转换",
+    "八进制转十进制",
+    "十进制转十六进制",
+    "二进制转十六进制",
+    "十六进制转二进制",
+    "在线进制转换工具",
+    "在线进制转换器",
+    "进制转换计算器在线",
+    "进制转换Python",
+    "带步骤的进制转换器",
+    "数字进制转换工具"
   ],
-  "category": "开发",
+  "category": "Developer",
   "icon": "🔢",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "支持哪些进制？",
+      "answer": "支持2到64的所有整数进制，包括二进制(2)、八进制(8)、十进制(10)、十六进制(16)、32进制(32)、36进制(36)、Base58(58，比特币)和Base64(64)。"
+    },
+    {
+      "question": "十六进制有什么用途？",
+      "answer": "十六进制在计算机领域应用广泛：内存地址、颜色代码(#FF5733)、字节值、哈希输出(MD5、SHA256)和CPU指令集。"
+    },
+    {
+      "question": "Base58和Base64有什么区别？",
+      "answer": "Base58省略了容易混淆的字符(0、O、I、l)，防止人工转录时出错。Base64使用完整的64字符字母表，设计用于机器间的数据编码。"
+    }
+  ],
   "relatedTools": [
     "base64-tool",
     "unix-timestamp-converter",

@@ -1,20 +1,52 @@
 {
   "slug": "debt-repayment-calculator",
   "name": "Schuldenrückzahlungsrechner",
-  "tagline": "Tilgungsdauer und Gesamtzinsen berechnen",
-  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
-  "metaTitle": "Schuldenrückzahlungsrechner – Kostenloses Tilgungsplan-Tool",
-  "metaDescription": "Schuldenstand, Zinssatz und monatliche Rate eingeben und Tilgungsdauer sowie Gesamtzinsen berechnen.",
+  "tagline": "Sehen Sie, wie lange die Schuldenabbau dauert und wie viel Zinsen Sie zahlen",
+  "description": "Geben Sie Ihren Schuldensaldo, Zinssatz und monatliche Zahlung ein, um das Tilgungsdatum, die Gesamtzinsen und einen Tilgungsplan zu sehen. Zeigt, wie viel Zeit und Geld Sie sparen, indem Sie jeden Monat extra zahlen.",
+  "metaTitle": "Schuldenrückzahlungsrechner – Kostenlos Online Schuldenabbau berechnen",
+  "metaDescription": "Kostenloser Schuldenrückzahlungsrechner. Geben Sie Saldo, Zinssatz und monatliche Zahlung ein, um Tilgungsdatum und Gesamtzinsen zu sehen. Zeigt Ersparnisse durch zusätzliche Zahlungen.",
   "keywords": [
-    "Schuldenrechner",
-    "Tilgungsplan berechnen",
-    "Kreditkartenrückzahlung",
-    "Schulden abbauen",
-    "Zinsen berechnen"
+    "Schuldenrückzahlungsrechner",
+    "Schuldenabbau-Rechner",
+    "wie lange dauert Schuldenabbau",
+    "Schuldenfreiheitsrechner",
+    "Darlehensrückzahlungsrechner",
+    "Schuldenzinsrechner",
+    "Schuldenrückzahlungsrechner Deutschland",
+    "Schuldenrückzahlungsrechner Österreich",
+    "Schuldenrückzahlungsrechner Excel",
+    "Schuldenrückzahlungsrechner Schweiz",
+    "Schuldenrückzahlungsrechner kostenlos",
+    "Schuldenrückzahlungsrechner online",
+    "Schuldenabbau-Rechner mit Zusatzzahlungen",
+    "Schuldenabbau-Rechner online kostenlos",
+    "Schuldenrückzahlungsrechner Excel Download",
+    "Schuldenabbau-Rechner Ersparnisse",
+    "Schuldenrückzahlungsrechner Tilgungsplan",
+    "Schuldenrückzahlungsrechner monatlich",
+    "Schuldenabbau-Rechner Zinsen sparen",
+    "Schuldenrückzahlungsrechner Übersicht"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "💳",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist die Schuldenlawinen- vs. Schneeballmethode?",
+      "answer": "Schuldenlawine: zahlen Sie Mindestraten für alle Schulden, setzen Sie zusätzliches Geld zuerst auf die höchstverzinste Schuld. Spart die meisten Zinsen. Schneeball: zahlen Sie zunächst kleinere Beträge ab, um schnelle Erfolge und Motivation zu erreichen. Beide funktionieren – die beste Methode ist diejenige, die Sie durchhalten."
+    },
+    {
+      "question": "Wie viel Geld sparen Sie durch zusätzliche Zahlungen?",
+      "answer": "Selbst kleine zusätzliche Zahlungen reduzieren drastisch die Gesamtzinsen und die Tilgungsdauer. Bei einer Kreditkartenschuld von 10.000 € bei 20 % Jahreszins mit 300 € Mindestzahlung benötigen Sie 6 Jahre. Durch zusätzliche 100 € monatlich verkürzt sich die Laufzeit auf 3,5 Jahre und Sie sparen etwa 2.000 € an Zinsen."
+    },
+    {
+      "question": "Was ist ein Tilgungsplan?",
+      "answer": "Ein Tilgungsplan zeigt jede Zahlung aufgeschlüsselt nach Tilgung und Zinsen. Frühe Zahlungen bestehen überwiegend aus Zinsen, später Zahlungen überwiegend aus Tilgung. Dieser Rechner erstellt einen vollständigen Tilgungsplan, damit Sie Ihren Fortschritt monatlich verfolgen können."
+    },
+    {
+      "question": "Sollte ich Schulden abbauen oder investieren?",
+      "answer": "Wenn Ihr Schuldenzinssatz höher ist als Ihre erwartete Investitionsrendite, zahlen Sie zunächst die Schulden ab. Kreditkartenschulden ab 20 % Jahreszins sollten vor Investitionen immer abgebaut werden. Hypotheken- oder Studentenkreditschulden bei 4–6 % sind eine Abwägung – viele Menschen machen beides gleichzeitig."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "budget-calculator",

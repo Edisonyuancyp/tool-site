@@ -1,20 +1,48 @@
 {
   "slug": "car-lease-calculator",
-  "name": "Fahrzeugleasingrechner",
-  "tagline": "Monatliche Leasingrate und Gesamtkosten berechnen",
-  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
-  "metaTitle": "Fahrzeugleasingrechner – Auto-Leasing-Kostenrechner",
-  "metaDescription": "Fahrzeugpreis, Restwert, Zinssatz und Laufzeit eingeben und monatliche Leasingrate berechnen.",
+  "name": "Auto-Leasing-Rechner",
+  "tagline": "Berechnen Sie Ihre Leasingraten schnell und einfach!",
+  "description": "Dieses Tool hilft Ihnen, Ihre monatlichen Autoleasingraten basierend auf dem Fahrzeugpreis, der Anzahlung, dem Zinssatz und der Leasingdauer zu schätzen. Perfekt für alle, die ein Fahrzeug leasen möchten und ihre Zahlungsstruktur verstehen möchten.",
+  "metaTitle": "Auto-Leasing-Rechner – Kostenlos Leasingraten berechnen",
+  "metaDescription": "Berechnen Sie kostenlos und sofort Ihre Autoleasingraten. Ohne Anmeldung erforderlich!",
   "keywords": [
-    "Fahrzeugleasing Rechner",
-    "Auto Leasing berechnen",
-    "Leasingrate berechnen",
-    "KFZ-Leasing",
-    "Leasing Kosten"
+    "auto-leasing-rechner",
+    "leasingrate-rechner",
+    "fahzeugleasing",
+    "monatliche leasingrate",
+    "autofinanzierung-rechner",
+    "auto-leasing-rechner kanada",
+    "auto-leasing-rechner australien",
+    "auto-leasing-rechner indien",
+    "auto-leasing-rechner pakistan",
+    "leasingrechner mit inzahlungnahme",
+    "auto-leasing-rechner kalifornien",
+    "auto-leasing-rechner orix",
+    "auto-leasing-rechner online",
+    "online auto-leasing-rechner nutzen",
+    "kostenloser auto-leasing-rechner",
+    "kostenloser auto-leasing-rechner australien",
+    "auto-leasing-rechner indien excel kostenlos",
+    "wie funktioniert ein auto-leasing-rechner",
+    "leasingrate-rechner auto",
+    "progressive leasingrate-rechner"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "🚗",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Welche Faktoren bestimmen meine Leasingrate?",
+      "answer": "Ihre Leasingrate wird durch den Fahrzeugpreis, den Restwert, den Zinssatz, die Leasingdauer und die Anzahlung beeinflusst."
+    },
+    {
+      "question": "Kann ich diesen Rechner für verschiedene Autos nutzen?",
+      "answer": "Ja, Sie können unterschiedliche Werte für jedes beliebige Auto eingeben und sehen, wie sich dies auf Ihre Leasingrate auswirkt."
+    },
+    {
+      "question": "Ist dieses Tool nur für Neuwagen geeignet?",
+      "answer": "Nein, der Rechner kann sowohl für Neu- als auch für Gebrauchtwagen verwendet werden, die zur Vermietung verfügbar sind."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "finance-charge-calculator"

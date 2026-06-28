@@ -1,0 +1,36 @@
+{
+  "slug": "palette-retro-film",
+  "name": "Paleta de Cores Filme Retrô",
+  "tagline": "Tons quentes e desbotados inspirados em fotografia analógica. Âmbar terroso, rosa empoeirado e creme de papel envelhecido.",
+  "description": "Tons quentes e desbotados inspirados em fotografia analógica. Âmbar terroso, rosa empoeirado e creme de papel envelhecido.",
+  "metaTitle": "Paleta de Cores Filme Retrô – Referência HEX, CMYK, Tailwind e Pantone",
+  "metaDescription": "Paleta de cores filme retrô gratuita com códigos HEX, classes Tailwind CSS, valores CMYK e referências aproximadas Pantone. Copie qualquer cor instantaneamente.",
+  "keywords": [
+    "paleta de cores filme retrô",
+    "esquema de cores filme retrô",
+    "códigos HEX filme retrô",
+    "#D97706",
+    "#FDA4AF",
+    "#FEF3C7",
+    "combinação Pantone",
+    "conversão CMYK",
+    "paleta de cores web",
+    "esquema Tailwind CSS"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "As referências Pantone são correspondências exatas?",
+      "answer": "Não. Os códigos Pantone mostrados são as aproximações visuais mais próximas. Para trabalhos de impressão em produção, sempre verifique contra um Leque Pantone físico."
+    },
+    {
+      "question": "Como os valores CMYK são calculados?",
+      "answer": "Os valores CMYK usam a fórmula independente de dispositivo: K = 1 − max(R,G,B); C/M/Y derivados das proporções RGB. A saída real depende do perfil da impressora e do papel."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "random-number-generator",
   "name": "Gerador de Números Aleatórios",
-  "tagline": "Gere números inteiros aleatórios em um intervalo especificado",
-  "description": "Generate cryptographically random numbers in any range. Single number, list of numbers, dice roller, coin flip, and random item picker — all in one free tool.",
-  "metaTitle": "Gerador de Números Aleatórios – Ferramenta Gratuita de Geração de Números Aleatórios Online",
-  "metaDescription": "Defina mínimo e máximo para gerar números inteiros aleatórios. Suporta geração em lote e exclusão de duplicatas.",
+  "tagline": "Gere números aleatórios verdadeiros instantaneamente — um número, lista ou dados",
+  "description": "Gere números aleatórios criptograficamente seguros em qualquer intervalo. Um número, lista de números, rolador de dados, cara ou coroa e seletor de itens aleatórios — tudo em uma ferramenta gratuita.",
+  "metaTitle": "Gerador de Números Aleatórios – Sorteador Online Grátis",
+  "metaDescription": "Gere números aleatórios online instantaneamente. Um número, lista de números aleatórios, rolador de dados, cara ou coroa. Gerador de números aleatórios grátis e seguro.",
   "keywords": [
     "gerador de números aleatórios",
-    "número aleatório",
-    "sortear número",
-    "gerar aleatório",
-    "número inteiro aleatório"
+    "sorteador de números",
+    "número aleatório entre 1 e 100",
+    "rolador de dados online",
+    "gerador de números aleatórios online",
+    "roleta de números aleatórios",
+    "gerador de números aleatórios rng",
+    "gerador de números 1 a 100",
+    "gerador de números 1 a 10",
+    "gerador de números 1 a 3",
+    "gerador de números 1 a 4",
+    "gerador de números 1 a 5",
+    "gerador de números aleatórios online grátis",
+    "gerador de números aleatórios online cronômetro",
+    "gerador de números aleatórios online 1 100",
+    "gerador de números aleatórios online roleta",
+    "gerador de números aleatórios online sem repetição",
+    "gerador de números aleatórios online cassino",
+    "gerador de números aleatórios online loteria",
+    "gerador de números aleatórios grátis"
   ],
-  "category": "Geradores",
+  "category": "Generators",
   "icon": "🎲",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O número aleatório é realmente aleatório?",
+      "answer": "Sim. A ferramenta usa a Web Cryptography API (crypto.getRandomValues) que fornece números aleatórios criptograficamente seguros, diferente do Math.random()."
+    },
+    {
+      "question": "Posso gerar múltiplos números aleatórios de uma vez?",
+      "answer": "Sim. Use o modo 'Lista' para gerar um lote de números aleatórios únicos ou repetidos em qualquer intervalo."
+    },
+    {
+      "question": "Qual é o maior número que posso gerar?",
+      "answer": "A ferramenta suporta números até Number.MAX_SAFE_INTEGER (9.007.199.254.740.991) usando BigInt para intervalos além dos inteiros padrão."
+    }
+  ],
   "relatedTools": [
     "password-generator",
     "emoji-picker",

@@ -1,0 +1,60 @@
+{
+  "slug": "inflation-calculator",
+  "name": "Calculadora de Inflação e Poder de Compra",
+  "tagline": "Quanto vale R$ 10.000 de 10 anos atrás nos dias de hoje?",
+  "description": "Calcule como a inflação corroeu (ou corroerá) o poder de compra do dinheiro ao longo do tempo. Utiliza dados históricos do IPCA e mostra uma curva ano a ano da deterioração do valor.",
+  "metaTitle": "Calculadora de Inflação — Poder de Compra ao Longo do Tempo | GetFastCalc",
+  "metaDescription": "Descubra quanto um valor de dinheiro antigo vale em reais de hoje, ou projete a perda futura de poder de compra. Inclui gráfico baseado em dados do IPCA.",
+  "keywords": [
+    "calculadora de inflação",
+    "calculadora de poder de compra",
+    "calculadora de taxa de inflação",
+    "calculadora do IPCA",
+    "valor do dinheiro ao longo do tempo",
+    "valor real versus valor nominal",
+    "calculadora de inflação e poder de compra",
+    "calculadora de poder de compra ajustado pela inflação",
+    "calculadora de perda de poder de compra por inflação",
+    "calculadora de paridade de poder de compra",
+    "calculadora do efeito da inflação no poder de compra",
+    "calculadora de inflação reais",
+    "calculadora de inflação Brasil",
+    "calculadora de inflação IPCA",
+    "calculadora de inflação por ano",
+    "calculadora de inflação histórica",
+    "calculadora de inflação mensal",
+    "calculadora de perda de valor do dinheiro",
+    "calculadora de poder de compra por ano",
+    "calculadora de poder de compra histórica"
+  ],
+  "category": "Finance",
+  "icon": "📉",
+  "faqs": [
+    {
+      "question": "O que significa 'poder de compra'?",
+      "answer": "Poder de compra é a quantidade de bens ou serviços que uma unidade de moeda consegue comprar. Quando a inflação sobe, cada real compra menos — então o poder de compra cai. R$ 100 em 2000 tinham o poder de compra de cerca de R$ 175 em 2024 devido à inflação acumulada."
+    },
+    {
+      "question": "Qual é a taxa histórica média de inflação no Brasil?",
+      "answer": "A taxa média de inflação acumulada no Brasil (medida pelo IPCA) varia conforme o período. Nas últimas décadas, a média ficou entre 5% e 7% ao ano. O período 2021–2023 viu picos de 8–10% temporariamente."
+    },
+    {
+      "question": "Como a inflação afeta contas de poupança?",
+      "answer": "Se sua poupança rende 2% e a inflação é 3%, seu retorno real é -1% ao ano. O saldo numérico cresce, mas seu poder de compra diminui. Isso é chamado de 'taxa de juros real negativa' — um imposto silencioso sobre a poupança."
+    },
+    {
+      "question": "O que é a Regra de 72 para inflação?",
+      "answer": "Divida 72 pela taxa de inflação anual para estimar quantos anos até o poder de compra cair pela metade. Com inflação de 3%: 72 ÷ 3 = 24 anos até o dinheiro perder metade de seu valor."
+    },
+    {
+      "question": "Quais ativos protegem contra a inflação?",
+      "answer": "Historicamente: imóveis (ativos reais), ações (propriedade de negócios produtivos), títulos indexados a índices de preços, commodities como ouro, e certos títulos de renda fixa com cláusulas de correção. Dinheiro em espécie e títulos tradicionais geralmente perdem poder de compra durante inflação alta."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "rent-vs-buy-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

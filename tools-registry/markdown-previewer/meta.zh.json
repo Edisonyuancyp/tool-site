@@ -1,0 +1,52 @@
+{
+  "slug": "markdown-previewer",
+  "name": "Markdown 预览器",
+  "tagline": "实时编写和预览 Markdown — 清洁编辑器，即时渲染输出",
+  "description": "在左侧面板编写 Markdown，在右侧实时查看渲染的 HTML 预览，随着您的输入即时更新。支持标题、粗体、斜体、列表、代码块、表格和链接。无需注册。",
+  "metaTitle": "Markdown 预览器 – 在线实时编辑器和预览 | GetFastCalc",
+  "metaDescription": "免费在线 Markdown 预览器。编写 Markdown 并实时查看渲染输出。支持 GFM 表格、代码块等功能。无需注册。",
+  "keywords": [
+    "在线markdown预览器",
+    "免费在线markdown编辑器",
+    "实时markdown预览",
+    "markdown转html转换器",
+    "在线markdown渲染器",
+    "github风味markdown预览",
+    "在线markdown查看器",
+    "markdown实时编辑器",
+    "markdown预览",
+    "markdown预览vscode",
+    "markdown预览mac",
+    "markdown查看器linux",
+    "支持mermaid的markdown预览",
+    "markdown预览器github",
+    "nvim markdown预览",
+    "免费markdown预览",
+    "最好的免费在线markdown编辑器",
+    "vscode实时markdown预览",
+    "nvim实时markdown预览",
+    "vim实时markdown预览"
+  ],
+  "category": "Content",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "支持哪些 Markdown 语法？",
+      "answer": "本工具支持标准 Markdown，包括标题（#、##）、粗体（**文本**）、斜体（*文本*）、列表、代码块（```）、行内代码、链接、图片、引用和 GitHub 风味 Markdown (GFM) 表格。"
+    },
+    {
+      "question": "我可以用它来预览 README 文件吗？",
+      "answer": "可以。粘贴任何 README.md 或文档文件的内容，您将看到它在 GitHub 或其他 Markdown 平台上的确切渲染效果。"
+    },
+    {
+      "question": "我的文本会被保存到任何地方吗？",
+      "answer": "不会。所有内容都保存在您的浏览器中。您的 Markdown 永远不会被发送到任何服务器。"
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

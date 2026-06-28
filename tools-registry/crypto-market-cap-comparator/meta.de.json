@@ -1,20 +1,48 @@
 {
   "slug": "crypto-market-cap-comparator",
-  "name": "Krypto-Marktkapitalisierungs-Vergleich",
-  "tagline": "Marktkapitalisierung verschiedener Kryptowährungen vergleichen",
-  "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
-  "metaTitle": "Krypto-Marktkapitalisierungs-Vergleich – Online Krypto-Vergleichstool",
-  "metaDescription": "Zwei Kryptowährungen eingeben, Marktkapitalisierungsunterschiede und Preispotenzial vergleichen.",
+  "name": "Crypto Market Cap Comparator",
+  "tagline": "Wenn Münze X die Marktkapitalisierung von Münze Y erreichen würde, wie wäre dann der Preis?",
+  "description": "Der klassische Kryptowährungs-\"Was wäre wenn\"-Rechner. Wählen Sie zwei beliebige Münzen aus und sehen Sie sofort den prognostizierten Preis, wenn die erste Münze die Marktkapitalisierung der zweiten erreichen würde. Verwendet Live-Daten von CoinGecko für über 50 der Top-Kryptowährungen.",
+  "metaTitle": "Crypto Market Cap Comparator – Preisrechner für Marktkapitalisierungsvergleich",
+  "metaDescription": "Kostenloser Kryptowährungs-Marktkapitalisierungsrechner. Sehen Sie, welchen Preis Bitcoin, Ethereum, Solana oder andere Altcoins erreichen würden, wenn sie die Marktkapitalisierung einer anderen Münze hätten. Live-Daten von CoinGecko.",
   "keywords": [
-    "Krypto Marktkapitalisierung",
-    "Bitcoin Marktkapitalisierung",
-    "Krypto Vergleich Tool",
-    "Coin Preispotenzial",
-    "Marktkapitalisierung Vergleich"
+    "Kryptowährungs Marktkapitalisierungsrechner",
+    "wenn Bitcoin Ethereum Marktkapitalisierung erreicht",
+    "Altcoin Kursprognose Rechner",
+    "Kryptowährungs Was-wäre-wenn Rechner",
+    "Marktkapitalisierungsvergleich Kryptowährung",
+    "Crypto Marktcap Rechner Preis",
+    "Kryptowährungs Marktkapitalisierungsrechner Gewinn",
+    "Marktkapitalisierungsrechner Vergleich Kryptowährung",
+    "Kryptowährungs Marktkapitalisierungsrechner App",
+    "Kryptowährungen Marktkapitalisierungsrechner CoinGecko",
+    "Crypto Marktcap Rechner Reddit",
+    "Kryptomünzen Marktkapitalisierungsrechner",
+    "Marktkapitalisierungsvergleich Crypto",
+    "Kryptowährungen Marktkapitalisierungsvergleich Rechner",
+    "Kryptowährungen Marktkapitalisierungsvergleich Tool",
+    "Marktkapitalisierungsvergleich Chart Kryptowährung",
+    "Bitcoin Marktkapitalisierungsvergleich",
+    "Bitcoin Marktkapitalisierungsvergleich andere Vermögenswerte",
+    "XRP Marktkapitalisierungsvergleich",
+    "Bitcoin Marktkapitalisierung im Vergleich zu Gold"
   ],
-  "category": "Krypto",
+  "category": "Crypto",
   "icon": "🪙",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie wird der prognostizierte Preis berechnet?",
+      "answer": "Prognostizierter Preis = Ziel-Marktkapitalisierung / Umlaufmenge von Münze A. Beispiel: Wenn SOL (480M Umlaufmenge) die Marktkapitalisierung von BTC in Höhe von 2T USD erreichen würde: 2T USD / 480M = 4.167 USD pro SOL."
+    },
+    {
+      "question": "Warum ist die Umlaufmenge wichtiger als die Gesamtmenge?",
+      "answer": "Die Marktkapitalisierung wird immer unter Verwendung der Umlaufmenge (Münzen, die tatsächlich im Umlauf sind) berechnet, nicht der Gesamtmenge oder maximalen Menge."
+    },
+    {
+      "question": "Woher stammen die Daten?",
+      "answer": "Live-Daten werden von der kostenlosen öffentlichen API von CoinGecko abgerufen. Falls diese nicht verfügbar ist, greift das Tool auf ungefähre Offline-Daten zurück."
+    }
+  ],
   "relatedTools": [
     "tp-sl-calculator",
     "position-size-calculator",

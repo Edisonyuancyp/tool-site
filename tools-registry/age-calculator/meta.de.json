@@ -1,23 +1,50 @@
 {
   "slug": "age-calculator",
   "name": "Altersrechner",
-  "tagline": "Berechne dein genaues Alter sofort",
-  "description": "Calculate your exact age from your date of birth to today — or to any specific date. Get results in years, months, days, hours, and minutes instantly.",
-  "metaTitle": "Altersrechner – Kostenloses Online-Altersberechnungstool",
-  "metaDescription": "Gib dein Geburtsdatum ein und erhalte dein genaues Alter in Jahren, Monaten und Tagen. Kostenlos, keine Registrierung.",
+  "tagline": "Berechnen Sie Ihr genaues Alter in Jahren, Monaten und Tagen",
+  "description": "Berechnen Sie Ihr genaues Alter anhand Ihres Geburtsdatums bis heute — oder bis zu einem beliebigen Stichtag. Erhalten Sie die Ergebnisse sofort in Jahren, Monaten, Tagen, Stunden und Minuten.",
+  "metaTitle": "Altersrechner – Kostenloses Online-Tool zum Alter berechnen",
+  "metaDescription": "Berechnen Sie Ihr genaues Alter anhand Ihres Geburtsdatums. Erhalten Sie Ihr Alter in Jahren, Monaten und Tagen sofort. Kostenloser Altersrechner – keine Anmeldung erforderlich.",
   "keywords": [
     "Altersrechner",
-    "Alter berechnen",
+    "Alter berechnen Geburtsdatum",
+    "wie alt bin ich",
+    "genaues Alter berechnen",
     "Geburtsdatum Rechner",
-    "Wie alt bin ich",
-    "Online Altersrechner"
+    "Altersrechner nach Geburtsdatum",
+    "Altersrechner online",
+    "Altersrechner nach Jahr",
+    "Altersrechner nach Geburtsjahr",
+    "Altersrechner in Jahren",
+    "Altersrechner nach Datum",
+    "Altersrechner Geburtstag",
+    "Altersrechner online nach Geburtsdatum",
+    "Altersrechner online kostenlos",
+    "Altersrechner online kostenlos Geburtsdatum",
+    "Altersrechner online Geburtsdatum und Uhrzeit",
+    "Altersrechner online Foto",
+    "Altersrechner online Geburtsdatum",
+    "Altersrechner online Deutschland",
+    "kostenloser Altersrechner Geburtsdatum"
   ],
-  "category": "Datum & Uhrzeit",
+  "category": "Date & Time",
   "icon": "📅",
   "faqs": [
     {
-      "question": "Wie wird das Alter berechnet?",
-      "answer": "Der Rechner berechnet die Differenz zwischen deinem Geburtsdatum und dem heutigen Datum in Jahren, Monaten und Tagen, einschließlich Schaltjahre."
+      "question": "Wie berechne ich mein genaues Alter?",
+      "answer": "Geben Sie Ihr Geburtsdatum in den obigen Altersrechner ein. Dieser berechnet die genaue Differenz zwischen Ihrem Geburtsdatum und heute in Jahren, Monaten und Tagen."
+    },
+    {
+      "question": "Kann ich das Alter zwischen zwei bestimmten Daten berechnen?",
+      "answer": "Ja. Legen Sie Ihr Startdatum als Geburtsdatum und Ihr Enddatum als Zieldatum fest, um das genaue Alter oder die Dauer zwischen ihnen zu ermitteln."
+    },
+    {
+      "question": "Wie viele Tage alt bin ich?",
+      "answer": "Der Rechner zeigt Ihr Gesamtalter in Tagen zusammen mit Jahren und Monaten an. Geben Sie einfach Ihr Geburtsdatum ein, um das Ergebnis zu sehen."
+    },
+    {
+      "question": "Berücksichtigt der Altersrechner Schaltjahre?",
+      "answer": "Ja. Der Rechner berücksichtigt Schaltjahre korrekt bei der Berechnung von Tagen und Gesamtzeiträumen."
     }
   ],
   "relatedTools": [

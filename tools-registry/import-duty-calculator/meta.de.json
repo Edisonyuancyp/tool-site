@@ -1,0 +1,46 @@
+{
+  "slug": "import-duty-calculator",
+  "name": "Importzollrechner",
+  "tagline": "Schätzen Sie US-Importzölle, Tarife und Zollgebühren für jedes Produkt",
+  "description": "Berechnen Sie US-Importzölle basierend auf Produktwert, Herkunftsland und HS-Code-Kategorie. Umfasst Section 301 China-Zölle, MPF und HMF-Gebühren. Unverzichtbar für FBA-Sourcing aus China.",
+  "metaTitle": "Importzollrechner – US-Zölle & Zollgebühren berechnen",
+  "metaDescription": "Kostenloser US-Importzollrechner. Berechnen Sie Zollabgaben, Section 301 China-Zölle, MPF und HMF-Gebühren für jedes Produkt. Ideal für Amazon FBA Sourcing.",
+  "keywords": [
+    "Importzollrechner",
+    "US Importzollrechner",
+    "Zollrechner USA",
+    "China Zollrechner",
+    "Section 301 Zollrechner",
+    "Amazon FBA Importzoll",
+    "HS-Code Zollrechner",
+    "Importsteuer Rechner USA",
+    "Zollgebühren Rechner",
+    "China Zollsatz Rechner",
+    "FBA Sourcing Zollrechner",
+    "US Zollrechner",
+    "MPF Gebührenrechner",
+    "Importkosten Rechner",
+    "US Zollrechner 2024"
+  ],
+  "category": "ecommerce",
+  "icon": "🚢",
+  "faqs": [
+    {
+      "question": "Was ist der Section 301 Zoll auf Waren aus China?",
+      "answer": "Section 301 Zölle erheben einen Aufschlag von 7,5–25% auf die Standardzollsätze für Waren aus China, je nach Produktkategorie (Liste 1–4). Die meisten Konsumgüter fallen unter 25%."
+    },
+    {
+      "question": "Was ist MPF (Merchandise Processing Fee)?",
+      "answer": "MPF beträgt 0,3464% des deklarierten Warenwerts, mit einem Minimum von 32,71 USD und einem Maximum von 634,62 USD pro Eintrag. Dies gilt für die meisten gewerblichen Lieferungen in die USA."
+    },
+    {
+      "question": "Wie kann ich Importzölle bei Amazon FBA reduzieren?",
+      "answer": "Häufige Strategien sind das Sourcing aus Ländern mit Freihandelskommen (Mexiko, Vietnam), die Konstruktion von Produkten für niedrigere Zoll-HS-Codes oder die Verwendung einer Erst-Verkauf-Bewertung."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-fee-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,52 @@
 {
   "slug": "retirement-savings-calculator",
-  "name": "Calculadora de Aposentadoria",
-  "tagline": "Planeje e estime sua reserva para aposentadoria",
-  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
-  "metaTitle": "Calculadora de Aposentadoria – Ferramenta de Planejamento de Aposentadoria",
-  "metaDescription": "Insira idade, poupança e despesas esperadas para calcular se o dinheiro da aposentadoria será suficiente.",
+  "name": "Calculadora de Poupança para Aposentadoria",
+  "tagline": "Descubra quanto você precisa poupar para se aposentar com conforto",
+  "description": "Digite sua idade atual, poupança, contribuições mensais e taxa de retorno esperada para ver se está no caminho certo para a aposentadoria. Mostra o patrimônio líquido projetado aos 65 anos, renda mensal na aposentadoria e se há uma lacuna de poupança.",
+  "metaTitle": "Calculadora de Poupança para Aposentadoria – Estou Poupando o Suficiente?",
+  "metaDescription": "Calculadora gratuita de poupança para aposentadoria. Digite sua idade, poupança atual e contribuições mensais para ver seu patrimônio projetado e renda mensal na aposentadoria. Sem necessidade de cadastro.",
   "keywords": [
+    "calculadora de poupança para aposentadoria",
     "calculadora de aposentadoria",
-    "planejamento aposentadoria",
-    "calcular previdência",
-    "reserva para aposentadoria",
-    "calculadora de previdência"
+    "quanto poupar para aposentadoria",
+    "calculadora de patrimônio para aposentadoria",
+    "calculadora de planejamento de aposentadoria",
+    "estou poupando o suficiente para aposentadoria",
+    "calculadora de poupança para aposentadoria brasil",
+    "calculadora de poupança para aposentadoria por idade",
+    "calculadora de aposentadoria gratuita",
+    "calculadora de poupança aposentadoria com previdência",
+    "calculadora de aposentadoria para casais",
+    "calculadora de aposentadoria renda fixa",
+    "calculadora de aposentadoria fundo de pensão",
+    "calculadora de aposentadoria online",
+    "calculadora gratuita aposentadoria",
+    "melhor calculadora gratuita de aposentadoria",
+    "calculadora de fundo de pensão",
+    "calculadora de aposentadoria complementar",
+    "calculadora de aposentadoria livre",
+    "calculadora de aposentadoria com previdência social"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quanto devo ter poupado para aposentadoria por idade?",
+      "answer": "Regra de ouro de especialistas: 1× seu salário aos 30 anos, 3× aos 40, 6× aos 50, 8× aos 60 e 10× aos 67. Então se você ganha R$ 60.000, deve ter R$ 600.000 poupados aos 67 anos. Estas são diretrizes — seu valor real depende do estilo de vida desejado na aposentadoria."
+    },
+    {
+      "question": "O que é a regra dos 4% para aposentadoria?",
+      "answer": "A regra dos 4% sugere que você pode sacar com segurança 4% do seu patrimônio de aposentadoria a cada ano sem ficar sem dinheiro durante uma aposentadoria de 30 anos. Então se você precisa de R$ 50.000/ano, precisa ter R$ 1.250.000 poupados (R$ 50.000 ÷ 0,04)."
+    },
+    {
+      "question": "Que taxa de retorno devo usar?",
+      "answer": "O mercado de ações historicamente retorna cerca de 7% ao ano acima da inflação. Para uma estimativa conservadora use 5–6%; para uma projeção otimista use 8–10%. A calculadora usa 7% como padrão."
+    },
+    {
+      "question": "E se eu começar a poupar tarde?",
+      "answer": "Começar mais tarde significa que você precisa poupar de forma mais agressiva. Use esta calculadora para encontrar a contribuição mensal necessária para atingir seu objetivo. As principais estratégias são aumentar contribuições, adiar a aposentadoria alguns anos, ou reduzir os gastos esperados na aposentadoria."
+    }
+  ],
   "relatedTools": [
     "compound-interest-calculator",
     "investment-return-calculator",

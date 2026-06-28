@@ -1,20 +1,48 @@
 {
   "slug": "emoji-picker",
-  "name": "Emoji-Auswahl",
-  "tagline": "Emojis suchen und kopieren",
-  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
-  "metaTitle": "Emoji-Auswahl – Online Emoji-Such- und Kopier-Tool",
-  "metaDescription": "Beliebige Emojis suchen und mit einem Klick kopieren. Alle Emojis nach Kategorien durchsuchen.",
+  "name": "Emoji Picker",
+  "tagline": "Suchen Sie, kopieren Sie und verwenden Sie jedes Emoji sofort",
+  "description": "Finden und kopieren Sie jedes Emoji sofort mit Keyword-Suche. Durchsuchen Sie alle Emoji-Kategorien: Smileys, Personen, Tiere, Essen, Reisen, Objekte, Symbole und Flaggen. Mit einem Klick kopieren.",
+  "metaTitle": "Emoji Picker – Jedes Emoji online kostenlos suchen und kopieren",
+  "metaDescription": "Suchen und kopieren Sie jedes Emoji sofort. Durchsuchen Sie alle Emoji-Kategorien – Smileys, Tiere, Essen, Flaggen und mehr. Kostenlos Emojis online – zum Kopieren anklicken.",
   "keywords": [
-    "Emoji Auswahl",
-    "Emoji kopieren",
+    "Emoji Picker",
     "Emoji Suche",
-    "Online Emoji Tool",
-    "Emojis durchsuchen"
+    "Emoji online kopieren",
+    "Emoji nach Stichwort finden",
+    "Emoji Tastatur online",
+    "Emoji Picker React",
+    "Emoji_Picker_Flutter",
+    "Emoji Picker Element",
+    "Emoji Picker Windows",
+    "Emoji Picker Mac",
+    "Emoji Picker Linux",
+    "Emoji Picker JS",
+    "Emoji Picker online",
+    "Kostenlos Emoji Picker",
+    "Emoji Picker React verwenden",
+    "Emoji Picker verwenden",
+    "Raycast Emoji Picker verwenden",
+    "Windows Emoji Picker verwenden",
+    "Emoji-Suche Daten nicht verfügbar",
+    "Emoji suchen"
   ],
-  "category": "Werkzeuge",
+  "category": "Utilities",
   "icon": "😊",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie kopiere ich ein Emoji?",
+      "answer": "Klicken Sie auf ein beliebiges Emoji, um es in die Zwischenablage zu kopieren. Sie können es dann überall einfügen – in Nachrichten, Dokumenten, sozialen Medien oder Code."
+    },
+    {
+      "question": "Kann ich Emojis nach Name suchen?",
+      "answer": "Ja. Geben Sie ein beliebiges Stichwort in das Suchfeld ein, um passende Emojis nach Name, Kategorie oder Beschreibung zu finden."
+    },
+    {
+      "question": "Welche Emoji-Versionen werden unterstützt?",
+      "answer": "Der Picker unterstützt alle Unicode 15.0 Emojis, die alle modernen Emojis abdecken, die auf iOS, Android, Windows und macOS verfügbar sind."
+    }
+  ],
   "relatedTools": [
     "text-case-converter",
     "word-counter",

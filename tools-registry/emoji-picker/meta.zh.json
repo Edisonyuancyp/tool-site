@@ -1,20 +1,48 @@
 {
   "slug": "emoji-picker",
-  "name": "Emoji 选择器",
-  "tagline": "搜索并复制任意 Emoji",
-  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
-  "metaTitle": "Emoji 选择器 – 在线 Emoji 搜索复制工具",
-  "metaDescription": "搜索任意 Emoji 并一键复制，支持按分类浏览所有表情符号。",
+  "name": "Emoji Picker",
+  "tagline": "搜索、复制和立即使用任何表情符号",
+  "description": "通过关键词搜索快速查找和复制任何表情符号。浏览所有表情符号分类：笑脸、人物、动物、食物、旅行、物品、符号和旗帜。一键复制。",
+  "metaTitle": "Emoji Picker – 免费在线搜索和复制任何表情符号",
+  "metaDescription": "在线搜索和复制任何表情符号。浏览笑脸、动物、食物、旗帜等所有表情符号分类。免费在线表情符号选择器 — 点击复制。",
   "keywords": [
     "emoji选择器",
-    "表情符号复制",
     "emoji搜索",
-    "在线emoji工具",
-    "表情包复制"
+    "在线复制emoji",
+    "按关键词查找emoji",
+    "在线emoji键盘",
+    "emoji picker react",
+    "emoji_picker_flutter",
+    "emoji picker element",
+    "emoji picker windows",
+    "emoji picker mac",
+    "emoji picker linux",
+    "emoji picker js",
+    "在线emoji选择器",
+    "免费emoji选择器",
+    "如何使用emoji picker react",
+    "如何使用emoji选择器",
+    "如何使用raycast emoji选择器",
+    "如何使用windows emoji选择器",
+    "emoji搜索数据不可用",
+    "emoji搜索功能"
   ],
-  "category": "工具",
+  "category": "Utilities",
   "icon": "😊",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "我如何复制表情符号？",
+      "answer": "点击任何表情符号即可将其复制到剪贴板。然后可以在任何地方粘贴 — 在消息、文档、社交媒体或代码中。"
+    },
+    {
+      "question": "我可以按名称搜索表情符号吗？",
+      "answer": "可以。在搜索框中输入任何关键词，按名称、分类或描述查找匹配的表情符号。"
+    },
+    {
+      "question": "支持哪些表情符号版本？",
+      "answer": "此选择器支持所有Unicode 15.0表情符号，涵盖iOS、Android、Windows和macOS上所有现代表情符号。"
+    }
+  ],
   "relatedTools": [
     "text-case-converter",
     "word-counter",

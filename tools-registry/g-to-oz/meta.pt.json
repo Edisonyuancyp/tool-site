@@ -1,0 +1,44 @@
+{
+  "slug": "g-to-oz",
+  "name": "Conversor de Gramas para Onças",
+  "tagline": "Converta gramas para onças (e oz para g) instantaneamente",
+  "description": "Converta gramas para onças e onças para gramas em tempo real. Essencial para culinária, confeitaria, acompanhamento nutricional e cálculo de peso para envios.",
+  "metaTitle": "Conversor de Gramas para Onças — Ferramenta Online Gratuita | GetFastCalc",
+  "metaDescription": "Converta gramas para onças instantaneamente. Digite qualquer valor para ambas as direções de uma vez. Grátis, rápido, sem anúncios.",
+  "keywords": [
+    "gramas para onças",
+    "g para oz",
+    "onças para gramas",
+    "oz para g",
+    "conversor de peso para culinária",
+    "= 0.0352739619 onças",
+    "conversor de gramas para onças gratuito",
+    "= 28.3495231 gramas"
+  ],
+  "category": "Converter",
+  "icon": "🍳",
+  "faqs": [
+    {
+      "question": "Quantas onças tem 1 grama?",
+      "answer": "1 grama equivale a 0.035274 onças. Inversamente, 1 onça equivale a 28.3495 gramas."
+    },
+    {
+      "question": "Quanto é 100 gramas em onças?",
+      "answer": "100 gramas = 3.527 onças. Uma referência comum: uma barra de chocolate padrão (100g) pesa cerca de 3.5 oz."
+    },
+    {
+      "question": "Quantos gramas tem 1 oz de alimento?",
+      "answer": "1 onça fluida de água equivale aproximadamente a 29.57 gramas. 1 onça seca equivale a 28.35 gramas (o valor usado em nutrição)."
+    },
+    {
+      "question": "Esta ferramenta é adequada para cozinhar?",
+      "answer": "Sim — converter quantidades de receita entre gramas e onças é um dos usos mais comuns. Digite o peso do seu ingrediente e obtenha o valor convertido instantaneamente."
+    }
+  ],
+  "relatedTools": [
+    "kg-to-lbs",
+    "cm-to-inch",
+    "celsius-to-fahrenheit"
+  ],
+  "variants": []
+}

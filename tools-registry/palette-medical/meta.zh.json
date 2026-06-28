@@ -1,0 +1,36 @@
+{
+  "slug": "palette-medical",
+  "name": "医疗蓝色调色板",
+  "tagline": "为医疗和医学应用设计的值得信赖、无菌调色板。宁静的蓝色和白色传达安全感和精准性。",
+  "description": "为医疗和医学应用设计的值得信赖、无菌调色板。宁静的蓝色和白色传达安全感和精准性。",
+  "metaTitle": "医疗蓝色调色板 – HEX、CMYK、Tailwind 和 Pantone 色卡参考",
+  "metaDescription": "免费医疗蓝色调色板，包含HEX色码、Tailwind CSS样式类、CMYK数值和Pantone近似色参考。一键复制任意颜色。",
+  "keywords": [
+    "医疗蓝色调色板",
+    "医疗蓝色配色方案",
+    "医疗蓝色HEX码",
+    "#0EA5E9",
+    "#0369A1",
+    "#F0F9FF",
+    "Pantone色卡匹配",
+    "CMYK色值转换",
+    "网页调色板",
+    "Tailwind CSS配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone参考色是精确匹配吗？",
+      "answer": "不是。所示的Pantone色号是最接近的视觉近似色。对于生产印刷工作，请始终对照实体Pantone色卡进行验证。"
+    },
+    {
+      "question": "CMYK数值如何计算的？",
+      "answer": "CMYK数值采用与设备无关的公式：K = 1 − max(R,G,B)；C/M/Y由RGB比例推导。实际输出取决于打印机配置文件和纸张特性。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "finance-charge-calculator",
-  "name": "Finanzgebührenrechner",
-  "tagline": "Kreditkarten- oder Kreditfinanzierungskosten berechnen",
-  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
-  "metaTitle": "Finanzgebührenrechner – Zinskosten-Berechnungstool",
-  "metaDescription": "Monatliche Finanzgebühren und APR-Zinsen für Kreditkartensalden oder Kredite berechnen.",
+  "name": "Finanzierungsgebühren-Rechner",
+  "tagline": "Berechnen Sie Ihre Finanzierungsgebühren mühelos!",
+  "description": "Dieses Tool hilft Ihnen, die Finanzierungsgebühren für Darlehen und Kreditkarten basierend auf Ihrem ausstehenden Saldo und den Zinssätzen zu berechnen. Perfekt für alle, die ihre Kreditkosten verstehen und ihre Finanzen besser verwalten möchten.",
+  "metaTitle": "Finanzierungsgebühren-Rechner – Berechnen Sie Ihre Kosten kostenlos online",
+  "metaDescription": "Berechnen Sie Finanzierungsgebühren für Darlehen und Kreditkarten sofort und kostenlos – ohne Anmeldung erforderlich!",
   "keywords": [
-    "Finanzgebühren Rechner",
-    "Kreditkartenzinsen berechnen",
-    "APR-Rechner",
-    "Zinskosten berechnen",
-    "Monatszinsen"
+    "Finanzierungsgebühren",
+    "Finanzierungsgebühren berechnen",
+    "Kreditkartengebühren",
+    "Darlehensgebühren",
+    "Schuldenmanagement",
+    "Finanzierungsgebühren-Rechner",
+    "Finanzierungsgebühren-Rechner Autokredit",
+    "Finanzierungsgebühren-Rechner überfällige Rechnungen",
+    "Finanzierungsgebühren-Rechner durchschnittlicher Tagesendstand",
+    "Finanzierungsgebühren-Rechner monatlich",
+    "Finanzierungsgebühren-Rechner aktuell",
+    "Finanzierungsgebühren-Rechner BPI",
+    "Finanzierungsgebühren-Rechner Metrobank",
+    "Finanzierungsgebühren-Rechner finden",
+    "Finanzierungsgebühren",
+    "Was sind Finanzierungsgebühren bei Kreditkarten",
+    "Finanzierungsgebühren-Kauf",
+    "Finanzierungsgebühren BPI Kreditkarte",
+    "Finanzierungsgebühren bei Kreditkarten",
+    "Finanzierungsgebühren beim Autokredit berechnen"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist eine Finanzierungsgebühr?",
+      "answer": "Eine Finanzierungsgebühr ist die Kosten für die Kreditaufnahme, ausgedrückt als Prozentsatz des Gesamtbetrags. Sie umfasst in der Regel Zinsen und eventuelle Gebühren."
+    },
+    {
+      "question": "Wie berechne ich meine Finanzierungsgebühren?",
+      "answer": "Geben Sie Ihren ausstehenden Saldo, Ihren Zinssatz und Ihren Abrechnungszeitraum in den Rechner ein, um Ihre Finanzierungsgebühren zu ermitteln."
+    },
+    {
+      "question": "Kann ich diesen Rechner für jedes Darlehen verwenden?",
+      "answer": "Ja, dieser Rechner kann für verschiedene Arten von Darlehen verwendet werden, einschließlich Kreditkarten, Privatdarlehen und Autokredite."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "debt-repayment-calculator"

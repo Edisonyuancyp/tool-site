@@ -1,20 +1,48 @@
 {
   "slug": "gpa-calculator",
   "name": "Calculadora de GPA",
-  "tagline": "Calcule a média do desempenho acadêmico",
-  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
-  "metaTitle": "Calculadora de GPA – Ferramenta Gratuita de Cálculo de GPA Online",
-  "metaDescription": "Insira créditos e notas das disciplinas para calcular automaticamente o GPA ponderado. Suporta escala 4,0.",
+  "tagline": "Calcule seu GPA instantaneamente a partir de notas em letras ou porcentagens",
+  "description": "Calcule seu GPA (Média de Pontos de Notas) a partir de notas em letras, porcentagens ou pontos de notas. Suporta escala de 4.0, GPA ponderado e cálculo de GPA acumulado.",
+  "metaTitle": "Calculadora de GPA – Calcule GPA a partir de Notas em Letras | Grátis",
+  "metaDescription": "Calculadora de GPA grátis. Digite suas notas em letras ou porcentagens para calcular o GPA na escala de 4.0. Suporta GPA ponderado e GPA acumulado.",
   "keywords": [
-    "calculadora de GPA",
-    "calcular GPA",
-    "média acadêmica",
-    "calcular média",
-    "média de notas"
+    "calculadora de gpa",
+    "calculadora de média de pontos de notas",
+    "converter notas para gpa",
+    "calcular gpa escala 4.0",
+    "calculadora de gpa acumulado",
+    "calculadora de gpa chula",
+    "calculadora de gpa faculdade",
+    "calculadora de gpa por porcentagem",
+    "calculadora de gpa uoft",
+    "calculadora de gpa universidade",
+    "calculadora de gpa em 4",
+    "calculadora de gpa online",
+    "calculadora de gpa online grátis",
+    "calculadora gpa grátis",
+    "calculadora gpa grátis ensino médio",
+    "calculadora gpa grátis faculdade",
+    "calculadora gpa grátis anna university",
+    "calculadora gpa grátis anna university 2025",
+    "calculadora gpa grátis alunos internacionais",
+    "calculadora gpa grátis uaf"
   ],
-  "category": "Utilitários",
+  "category": "Utilities",
   "icon": "🎓",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como é calculado o GPA?",
+      "answer": "O GPA é calculado convertendo cada nota em letra para pontos de nota (A=4.0, B=3.0, C=2.0, D=1.0, F=0.0) e depois fazendo a média ponderada pelas horas de crédito de cada disciplina."
+    },
+    {
+      "question": "O que é um bom GPA?",
+      "answer": "Um GPA de 3,5–4,0 é considerado excelente (Quadro de Honra em a maioria das universidades). 3,0–3,5 é bom. Abaixo de 2,0 pode resultar em probatória acadêmica em muitas instituições."
+    },
+    {
+      "question": "Qual é a diferença entre GPA ponderado e não ponderado?",
+      "answer": "GPA não ponderado trata todas as disciplinas igualmente (máximo 4.0). GPA ponderado concede pontos extras para disciplinas de honra, AP ou IB (máximo 5.0), recompensando maior rigor acadêmico."
+    }
+  ],
   "relatedTools": [
     "percentage-calculator",
     "age-calculator",

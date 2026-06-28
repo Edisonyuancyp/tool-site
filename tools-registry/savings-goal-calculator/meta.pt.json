@@ -1,20 +1,48 @@
 {
   "slug": "savings-goal-calculator",
-  "name": "Calculadora de Meta de Economia",
-  "tagline": "Calcule o tempo e o valor mensal para atingir sua meta",
-  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
-  "metaTitle": "Calculadora de Meta de Poupança – Ferramenta de Planejamento Financeiro",
-  "metaDescription": "Insira o valor alvo, poupança atual e taxa de juros para calcular quanto poupar mensalmente e quando atingir a meta.",
+  "name": "Calculadora de Metas de Poupança",
+  "tagline": "Planeje suas economias com facilidade!",
+  "description": "Esta calculadora auxilia usuários a definir metas de poupança e determinar quanto economizar por mês para atingir esse objetivo. Ideal para quem está planejando férias, uma grande compra ou construindo um fundo de emergência.",
+  "metaTitle": "Calculadora de Metas de Poupança – Planeje suas Economias | Ferramenta Gratuita",
+  "metaDescription": "Calcule quanto economizar por mês para atingir seus objetivos. Gratuito, sem cadastro, resultados instantâneos!",
   "keywords": [
-    "calculadora de meta de poupança",
-    "plano de poupança",
-    "calculadora de economia",
-    "meta financeira",
-    "quanto poupar por mês"
+    "meta de poupança",
+    "calculadora de poupança mensal",
+    "planejamento financeiro",
+    "calculadora de fundo de emergência",
+    "poupança para férias",
+    "calculadora de metas de poupança",
+    "calculadora de metas de poupança sem juros",
+    "calculadora de poupança mensal",
+    "calculadora de metas de poupança com juros",
+    "calculadora de poupança quinzenal",
+    "calculadora de poupança brasil",
+    "calculadora de metas com inflação",
+    "calculadora de poupança américa latina",
+    "calculadora de metas de poupança online",
+    "calculadora de poupança gratuita",
+    "app de metas de poupança",
+    "apk de calculadora de poupança",
+    "metas de poupança",
+    "rastreador de metas de poupança",
+    "planilha de metas de poupança"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "🏦",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como funciona a calculadora de metas de poupança?",
+      "answer": "Digite o valor da sua meta de poupança, a data alvo, e a calculadora mostrará quanto você precisa economizar mensalmente para atingir seu objetivo."
+    },
+    {
+      "question": "Posso ajustar minha meta depois de começar?",
+      "answer": "Sim, você pode modificar o valor da sua meta e o prazo a qualquer momento para refletir sua situação financeira atual."
+    },
+    {
+      "question": "Esta ferramenta é adequada para todos os tipos de metas de poupança?",
+      "answer": "Absolutamente! Seja uma meta de curto prazo ou um investimento de longo prazo, esta calculadora pode ajudá-lo no planejamento."
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "investment-return-calculator"

@@ -1,0 +1,54 @@
+{
+  "slug": "css-variables-generator",
+  "name": "CSS变量生成器",
+  "tagline": "构建自定义调色板并导出即用型CSS变量和Tailwind配置",
+  "description": "从零开始创建自定义调色板，然后即时生成:root CSS变量、Tailwind配置和可复制的代码片段。无需注册、无需安装——直接在浏览器中运行。",
+  "metaTitle": "CSS变量生成器 - 快速生成调色板和:root CSS变量 | GetFastCalc",
+  "metaDescription": "免费CSS变量生成器。选择颜色、命名变量，即时获取:root CSS变量、Tailwind config.js和可复制代码。无需注册。",
+  "keywords": [
+    "css变量生成器",
+    "css自定义属性生成器",
+    "tailwind配置生成器",
+    "调色板转css变量",
+    ":root css变量",
+    "设计令牌生成器",
+    "在线css颜色变量",
+    "tailwind颜色配置",
+    "免费在线css变量生成",
+    "从颜色生成css变量",
+    "css颜色变量生成器",
+    "tailwind css配置生成器",
+    "tailwind主题配置生成器",
+    "tailwind颜色配置生成器",
+    "tailwind.config.js生成器",
+    "tailwind配置构建器",
+    "tailwind配置示例",
+    "tailwind配置颜色"
+  ],
+  "category": "Developer",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "什么是CSS变量（自定义属性）？",
+      "answer": "CSS变量也称为自定义属性，是由CSS作者定义的实体，用于表示在整个文档中重复使用的特定值。它们使用--variable-name语法，并在:root上设置以使其全局可用。"
+    },
+    {
+      "question": "我如何在项目中使用生成的CSS变量？",
+      "answer": "复制:root代码块并将其粘贴到主CSS文件（例如global.css或index.css）中。然后在样式表中任何位置使用var(--color-primary)等方式引用这些变量。"
+    },
+    {
+      "question": "我能否直接使用生成的Tailwind输出？",
+      "answer": "可以。复制生成的tailwind.config.js代码块并将其粘贴到项目的tailwind.config.js文件中的theme.extend.colors下。您的自定义颜色名称随后将可作为Tailwind类使用。"
+    },
+    {
+      "question": "什么是设计令牌？",
+      "answer": "设计令牌是存储设计决策（如颜色、间距或排版）的命名值。CSS变量是在网页项目中实现设计令牌的常见方式。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "typography-compare-lab",
+    "base64-tool"
+  ],
+  "variants": []
+}

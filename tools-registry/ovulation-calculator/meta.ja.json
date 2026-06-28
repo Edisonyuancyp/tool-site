@@ -1,20 +1,44 @@
 {
   "slug": "ovulation-calculator",
-  "name": "排卵日計算機",
-  "tagline": "排卵日と妊娠しやすい時期を予測",
-  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
-  "metaTitle": "排卵日計算機 – 無料オンライン排卵日予測ツール",
-  "metaDescription": "最終月経日と周期日数を入力して、排卵予定日と妊娠しやすい期間を計算。",
+  "name": "排卵日・周期トラッカー",
+  "tagline": "妊娠可能期間、排卵日、次の生理予測",
+  "description": "妊娠可能期間、排卵日、生理予定日、月経周期の各段階を最大6周期先まで計算できます。すべての計算はブラウザ内で実行され、サーバーにデータは送信されません。",
+  "metaTitle": "排卵日計算機 - 妊娠可能期間・生理予測トラッカー（ブラウザのみ）",
+  "metaDescription": "無料の排卵日・生理予定日計算機。妊娠可能期間、排卵日、次の生理予定日を最大6周期先まで計算。100%プライベート - ブラウザで実行、データ保存なし。",
   "keywords": [
-    "排卵日計算機",
-    "排卵日予測",
-    "妊娠しやすい時期計算",
-    "安全日計算",
-    "妊活計算機"
+    "排卵日計算",
+    "妊娠可能期間計算",
+    "生理トラッカー",
+    "月経周期計算",
+    "妊娠しやすい時期",
+    "排卵周期トラッカー",
+    "排卵周期トラッカーアプリ",
+    "VTuber排卵周期トラッカー",
+    "おすすめ排卵周期トラッカー",
+    "無料排卵周期トラッカー",
+    "生理排卵周期トラッカー",
+    "排卵日計算アプリ",
+    "妊娠計算機排卵",
+    "排卵日計算Flo",
+    "排卵日計算BabyMed",
+    "排卵日計算生理",
+    "排卵日計算男の子",
+    "排卵日計算男の子双子",
+    "妊娠可能期間計算オンライン",
+    "妊娠可能期間計算インド"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "🌸",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "妊娠可能期間はどのように計算されますか？",
+      "answer": "排卵は通常、次の生理の14日前に起こります。妊娠可能期間は、排卵の5日前から排卵日を含めた期間です。"
+    },
+    {
+      "question": "このデータはどこかに保存されていますか？",
+      "answer": "いいえ。すべての計算はブラウザ内のJavaScriptで実行されます。サーバーに送信されたり、第三者と共有されたりすることはありません。"
+    }
+  ],
   "relatedTools": [
     "sleep-calculator",
     "water-intake-calculator",

@@ -1,0 +1,46 @@
+{
+  "slug": "amazon-acos-calculator",
+  "name": "亚马逊ACoS计算器",
+  "tagline": "计算ACoS、TACoS、最高CPC出价和真实广告利润",
+  "description": "计算您的亚马逊广告销售成本比(ACoS)和总ACoS(TACoS)，根据转化率和利润率找到最高盈利CPC出价，了解您的广告活动是否盈利。",
+  "metaTitle": "亚马逊ACoS计算器 – 最高CPC出价和TACoS计算工具",
+  "metaDescription": "免费亚马逊ACoS计算器。计算ACoS、TACoS、最高盈利CPC出价和广告花费后的真实利润。适合亚马逊PPC卖家使用。",
+  "keywords": [
+    "亚马逊acos计算器",
+    "acos计算器",
+    "亚马逊ppc acos",
+    "tacos计算器",
+    "最高cpc出价计算器",
+    "亚马逊广告销售成本比",
+    "盈利acos",
+    "亚马逊ppc利润计算器",
+    "盈亏平衡acos计算器",
+    "亚马逊赞助商品计算器",
+    "fba广告计算器",
+    "亚马逊ppc出价计算器",
+    "acos对比tacos",
+    "亚马逊ppc投资回报率计算器",
+    "亚马逊卖家acos"
+  ],
+  "category": "ecommerce",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "亚马逊ACoS多少才算好?",
+      "answer": "良好的ACoS取决于您的利润率。盈亏平衡ACoS等于您的毛利率。例如，如果您的利润率是30%，那么ACoS低于30%就是盈利的。大多数卖家的目标是15-25% ACoS。"
+    },
+    {
+      "question": "ACoS和TACoS有什么区别?",
+      "answer": "ACoS(广告销售成本比) = 广告花费 ÷ 广告销售额。TACoS(总广告销售成本比) = 广告花费 ÷ 总销售额(包括自然销售)。随着品牌增长，TACoS是衡量整体广告效率的更好指标。"
+    },
+    {
+      "question": "如何计算最高CPC出价?",
+      "answer": "最高CPC出价 = (商品价格 × 目标ACoS × 转化率)。例如：$30价格 × 20%目标ACoS × 10%转化率 = $0.60最高出价。"
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

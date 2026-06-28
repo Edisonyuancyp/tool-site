@@ -1,23 +1,46 @@
 {
   "slug": "finance-charge-calculator",
-  "name": "金融费用计算器",
-  "tagline": "计算信用卡或贷款的金融费用",
-  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
-  "metaTitle": "金融费用计算器 – 利息费用计算工具",
-  "metaDescription": "计算信用卡余额或贷款的月度金融费用和 APR 利息。",
+  "name": "财务费用计算器",
+  "tagline": "轻松计算您的财务费用！",
+  "description": "这个工具可以帮助用户根据未偿还余额和利率计算贷款和信用卡的财务费用。非常适合想要了解借款成本并更好地管理财务的任何人使用。",
+  "metaTitle": "财务费用计算器 – 免费在线计算借款成本 | 专业工具",
+  "metaDescription": "免费计算贷款和信用卡的财务费用，无需注册，即时获得结果！",
   "keywords": [
-    "金融费用计算器",
-    "信用卡利息计算",
-    "APR计算器",
-    "利息费用计算",
-    "月息计算"
+    "财务费用",
+    "财务费用计算",
+    "信用卡财务费用",
+    "贷款财务费用",
+    "债务管理",
+    "财务费用计算器",
+    "汽车贷款财务费用计算器",
+    "逾期发票财务费用计算器",
+    "日均余额财务费用计算器",
+    "月度财务费用计算器",
+    "财务费用计算器今日更新",
+    "BPI财务费用计算器",
+    "大都会银行财务费用计算器",
+    "如何使用财务费用计算器",
+    "财务费用",
+    "信用卡财务费用是什么",
+    "购物财务费用",
+    "BPI信用卡财务费用",
+    "信用卡财务费用详解",
+    "汽车贷款财务费用计算"
   ],
-  "category": "金融",
+  "category": "Finance",
   "icon": "💰",
   "faqs": [
     {
-      "question": "金融费用如何计算？",
-      "answer": "金融费用 = 日均余额 × 日利率 × 天数。"
+      "question": "什么是财务费用？",
+      "answer": "财务费用是指借款的成本，以所欠总金额的百分比表示。它通常包括利息和任何适用的费用。"
+    },
+    {
+      "question": "我如何计算我的财务费用？",
+      "answer": "将您的未偿还余额、利率和账单周期输入计算器中，即可计算出您的财务费用。"
+    },
+    {
+      "question": "我可以对任何贷款使用此计算器吗？",
+      "answer": "可以，此计算器可用于各种贷款类型，包括信用卡、个人贷款和汽车贷款。"
     }
   ],
   "relatedTools": [

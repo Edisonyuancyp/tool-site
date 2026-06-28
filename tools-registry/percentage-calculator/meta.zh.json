@@ -1,27 +1,46 @@
 {
   "slug": "percentage-calculator",
   "name": "百分比计算器",
-  "tagline": "快速计算百分比、增减幅度",
-  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
-  "metaTitle": "百分比计算器 – 在线免费百分比计算",
-  "metaDescription": "计算百分比、百分比增减、某数是另一数的百分之几等多种百分比问题。",
+  "tagline": "计算百分比、增加、减少等",
+  "description": "免费百分比计算器，解决所有常见百分比问题：X的Y%是多少、百分比增加/减少、X是Y的百分之几、反向百分比计算。",
+  "metaTitle": "百分比计算器 - 免费在线百分比计算工具",
+  "metaDescription": "立即计算任何百分比。求X的Y%是多少、百分比增加或减少、一个数是另一个数的百分之几。免费百分比计算器。",
   "keywords": [
     "百分比计算器",
     "百分比计算",
-    "涨幅计算器",
-    "折扣计算器",
-    "比例计算"
+    "百分比增长计算器",
+    "百分比减少计算器",
+    "百分比计算公式",
+    "成绩百分比计算器",
+    "在线百分比计算器",
+    "百分比计算方法",
+    "百分比增加计算",
+    "百分比差异计算",
+    "金额百分比计算器",
+    "Excel百分比计算",
+    "免费在线百分比计算",
+    "游戏百分比计算器",
+    "金钱百分比计算",
+    "单位转换百分比计算",
+    "成绩百分比在线计算",
+    "百分比增长在线计算",
+    "IGNOU百分比计算器",
+    "免费百分比计算器"
   ],
-  "category": "金融",
+  "category": "Finance",
   "icon": "%",
   "faqs": [
     {
-      "question": "如何计算百分比？",
-      "answer": "百分比 = (部分 ÷ 总量) × 100%。"
+      "question": "如何计算一个数的百分比？",
+      "answer": "将该数乘以百分比，然后除以100。例如，150的20% = (20 × 150) / 100 = 30。"
     },
     {
-      "question": "如何计算涨幅？",
-      "answer": "涨幅 = (新值 - 旧值) ÷ 旧值 × 100%。"
+      "question": "如何计算百分比增长？",
+      "answer": "百分比增长 = ((新值 - 旧值) / 旧值) × 100。例如，从80到100是25%的增长。"
+    },
+    {
+      "question": "如何找出一个数是另一个数的百分之几？",
+      "answer": "将第一个数除以第二个数，然后乘以100。例如，30是200的百分之几？(30/200) × 100 = 15%。"
     }
   ],
   "relatedTools": [

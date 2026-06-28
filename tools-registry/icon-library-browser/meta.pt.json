@@ -1,0 +1,51 @@
+{
+  "slug": "icon-library-browser",
+  "name": "Navegador de Biblioteca de Ícones",
+  "tagline": "Procure e encontre os ícones perfeitos",
+  "description": "Navegue por uma vasta biblioteca de ícones e filtre por categoria, estilo ou uso. Perfeito para designers de UI/UX que precisam de acesso rápido a ícones de alta qualidade para seus projetos.",
+  "metaTitle": "Navegador de Biblioteca de Ícones – Encontre Ícones Rapidamente | Ferramenta Gratuita Online",
+  "metaDescription": "Descubra e filtre ícones para seus projetos de design. Ferramenta gratuita, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "biblioteca de ícones",
+    "encontrar ícones",
+    "ícones para design ui",
+    "ícones para design gráfico",
+    "banco de dados de ícones pesquisável",
+    "gerador de biblioteca de ícones grátis",
+    "ferramenta online de navegador de biblioteca de ícones sem download",
+    "códigos hex de biblioteca de ícones",
+    "ferramenta de design gratuita",
+    "gerador de paleta de cores",
+    "visualização instantânea",
+    "sem necessidade de photoshop",
+    "navegador de biblioteca de ícones",
+    "maior biblioteca de ícones",
+    "loja de ícones perto de mim",
+    "biblioteca de ícones grátis",
+    "biblioteca de ícones react",
+    "biblioteca de ícones figma",
+    "biblioteca de ícones para powerpoint",
+    "biblioteca de ícones open source"
+  ],
+  "category": "Design",
+  "icon": "📁",
+  "faqs": [
+    {
+      "question": "Como faço para procurar ícones?",
+      "answer": "Use a barra de pesquisa para digitar palavras-chave ou navegue pelas categorias para encontrar os ícones que você precisa."
+    },
+    {
+      "question": "Os ícones são grátis para usar?",
+      "answer": "A maioria dos ícones é gratuita para uso pessoal e comercial, mas verifique a licença individual para detalhes."
+    },
+    {
+      "question": "Posso baixar ícones?",
+      "answer": "Sim, você pode baixar ícones em vários formatos como SVG, PNG e muito mais."
+    }
+  ],
+  "relatedTools": [
+    "font-pairing-tool",
+    "color-palette-extractor"
+  ],
+  "variants": []
+}

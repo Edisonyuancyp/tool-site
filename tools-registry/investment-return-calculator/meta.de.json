@@ -1,20 +1,52 @@
 {
   "slug": "investment-return-calculator",
-  "name": "Investitionsrenditerechner",
-  "tagline": "Jährliche Rendite und Gesamtertrag berechnen",
-  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
-  "metaTitle": "Investitionsrenditerechner – Online-ROI-Rechner",
-  "metaDescription": "Anfangsinvestition, Endwert und Haltedauer eingeben und die annualisierte Rendite (CAGR) und den Gesamtertrag berechnen.",
+  "name": "Investitionsrendite-Rechner",
+  "tagline": "Berechnen Sie ROI, CAGR und Zukunftswert für jede Investition",
+  "description": "Geben Sie Ihre Anfangsinvestition, jährliche Rendite und Zeitraum ein, um Zukunftswert, Gesamtrendite, ROI und CAGR zu berechnen. Unterstützt optionale monatliche Beiträge. Funktioniert für Aktien, Immobilien, ETFs und Sparkonten.",
+  "metaTitle": "Investitionsrendite-Rechner – ROI, CAGR & Zukunftswert Kalkulator",
+  "metaDescription": "Kostenloser Investitionsrendite-Rechner. Geben Sie Anfangsbetrag, jährliche Rendite und Jahre ein, um Zukunftswert, ROI und CAGR zu berechnen. Unterstützt monatliche Beiträge. Keine Anmeldung erforderlich.",
   "keywords": [
-    "Investitionsrenditerechner",
-    "ROI-Rechner",
-    "CAGR berechnen",
-    "Jährliche Rendite",
-    "Anlagerendite"
+    "investitionsrendite rechner",
+    "roi rechner",
+    "cagr rechner",
+    "zukunftswert rechner",
+    "investitionswachstum rechner",
+    "rendite auf investition rechner",
+    "investitionsrendite rechner excel",
+    "investitionsrendite rechner zinseszins",
+    "investitionsrendite rechner deutschland",
+    "investitionsrendite rechner österreich",
+    "investitionsrendite rechner schweiz",
+    "investitionsrendite rechner mit auszahlungen",
+    "investitionsrendite rechner online",
+    "investitionsrechner sparrendite",
+    "kostenloser investitionsrendite rechner",
+    "investitionsrendite rechner excel vorlage kostenlos",
+    "investitionsrendite berechnen",
+    "roi rechner deutschland",
+    "roi rechner excel",
+    "kapitalrendite berechnen"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "📈",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist ROI und wie wird es berechnet?",
+      "answer": "ROI (Return on Investment / Kapitalrendite) = (Endwert − Anfangsinvestition) / Anfangsinvestition × 100%. Beispiel: Eine Investition von 10.000 € die auf 15.000 € anwächst ergibt ROI = 50%. ROI berücksichtigt nicht die Zeit — verwenden Sie CAGR, um Investitionen verschiedener Laufzeiten zu vergleichen."
+    },
+    {
+      "question": "Was ist CAGR?",
+      "answer": "CAGR (Compound Annual Growth Rate / Durchschnittliche jährliche Wachstumsrate) ist die jährliche Rate, mit der eine Investition gewachsen wäre, wenn sie mit konstanter Rate gewachsen wäre. Formel: CAGR = (Endwert / Anfangswert)^(1/Jahre) − 1. Es ist die beste einzelne Kennzahl zum Vergleich von Investitionsleistungen."
+    },
+    {
+      "question": "Was ist eine gute jährliche Rendite auf Investitionen?",
+      "answer": "Der S&P 500 hat langfristig durchschnittlich etwa 10% pro Jahr erbracht (7% nach Inflation). Immobilien bringen typischerweise 8–12% einschließlich Mietrendite. Hochverzinste Sparkonten bieten derzeit 4–5%. Konsistent über 15% ist außergewöhnlich."
+    },
+    {
+      "question": "Wie wirken sich monatliche Beiträge auf Investitionsrenditen aus?",
+      "answer": "Monatliche Beiträge erhöhen den Endwert dramatisch, da jeder Beitrag im Laufe der Zeit ebenfalls verzinst wird. Schon kleine regelmäßige Einzahlungen (z.B. 200 €/Monat) können Ihren Endbetrag über 20–30 Jahre im Vergleich zu einer einmaligen Investition verdoppeln oder verdreifachen."
+    }
+  ],
   "relatedTools": [
     "compound-interest-calculator",
     "retirement-savings-calculator",

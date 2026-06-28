@@ -1,0 +1,51 @@
+{
+  "slug": "svg-clip-path-generator",
+  "name": "SVG Clip Path Generator",
+  "tagline": "Erstellen Sie mühelos benutzerdefinierte Clip-Pfade",
+  "description": "Entwerfen und generieren Sie SVG-Clip-Pfade durch Anpassung von Parametern wie Form, Größe und Position. Ideal für Front-End-Entwickler und Designer, die ihre Web-Grafiken verbessern möchten.",
+  "metaTitle": "SVG Clip Path Generator – Benutzerdefiniertes Shape-Tool | Kostenloses Online-Tool",
+  "metaDescription": "Erstellen Sie benutzerdefinierte SVG-Clip-Pfade für Web-Grafiken. Kostenloses Tool, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "SVG Clip Path",
+    "Clip Path Generator",
+    "Web-Design-Tool",
+    "SVG-Grafiken",
+    "benutzerdefinierte Formen",
+    "SVG Clip Path Generator kostenlos",
+    "SVG Clip Path Generator Online-Tool ohne Download",
+    "SVG Clip Path Generator Hex-Codes",
+    "kostenloses Design-Tool",
+    "Farbpaletten-Generator",
+    "sofortige Vorschau",
+    "ohne Photoshop",
+    "SVG Clip Path erstellen",
+    "SVG Clip Path Maker",
+    "CSS SVG Clip Path Generator",
+    "SVG Clip Path CSS",
+    "SVG Clip Path Animation",
+    "SVG Clip Path URL",
+    "SVG Clip Path invertieren",
+    "SVG Clip Path Editor"
+  ],
+  "category": "Design",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "Was ist ein SVG-Clip-Pfad?",
+      "answer": "Ein SVG-Clip-Pfad wird verwendet, um eine bestimmte Region einer SVG-Grafik zu definieren und anzuzeigen, was kreative Formen ermöglicht."
+    },
+    {
+      "question": "Kann ich meine eigenen Formen verwenden?",
+      "answer": "Ja, Sie können benutzerdefinierte Formen eingeben oder aus vordefinierten Vorlagen wählen."
+    },
+    {
+      "question": "Wie implementiere ich den Clip-Pfad in meinen Code?",
+      "answer": "Das Tool stellt die erforderlichen Code-Snippets bereit, um diese einfach in Ihr Projekt zu integrieren."
+    }
+  ],
+  "relatedTools": [
+    "css-gradient-builder",
+    "icon-grid-calculator"
+  ],
+  "variants": []
+}

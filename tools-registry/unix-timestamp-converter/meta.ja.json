@@ -1,20 +1,48 @@
 {
   "slug": "unix-timestamp-converter",
-  "name": "Unixタイムスタンプ変換器",
-  "tagline": "Unixタイムスタンプと日時の相互変換",
-  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
-  "metaTitle": "Unixタイムスタンプ変換器 – オンラインタイムスタンプ変換ツール",
-  "metaDescription": "Unixタイムスタンプを読みやすい日時に変換、または日時をタイムスタンプに変換。秒・ミリ秒対応。",
+  "name": "Unixタイムスタンプ変換ツール",
+  "tagline": "Unixタイムスタンプを人間が読める日付に即座に変換",
+  "description": "Unixエポックタイムスタンプを形式付き日付に変換、またはその逆に変換します。秒とミリ秒に対応、12以上のタイムゾーン、ISO 8601形式での出力、相対時間、およびリアルタイムクロック機能を搭載しています。",
+  "metaTitle": "Unixタイムスタンプ変換ツール | エポック時刻を日付に変換 無料オンライン",
+  "metaDescription": "無料のUnixタイムスタンプ変換ツール。エポック時刻を日付に変換、または日付をUnixタイムスタンプに変換。秒、ミリ秒、UTC、12以上のタイムゾーンに対応。リアルタイムクロック搭載。",
   "keywords": [
-    "Unixタイムスタンプ変換",
-    "タイムスタンプ変換",
-    "エポック時間変換",
-    "日時変換ツール",
-    "タイムスタンプ計算"
+    "unixタイムスタンプ 変換",
+    "エポック時刻 日付変換",
+    "タイムスタンプ 日付",
+    "unixタイム 変換 オンライン",
+    "エポック変換ツール",
+    "unixタイムスタンプ変換 オンライン",
+    "unixタイムスタンプ変換 excel",
+    "unixタイムスタンプ変換 ミリ秒",
+    "unixタイムスタンプ変換 python",
+    "unixタイムスタンプ 日付変換",
+    "unixタイムスタンプ変換 excel 関数",
+    "unixタイムスタンプ変換 タイムゾーン",
+    "unixタイムスタンプ 日付変換 オンライン",
+    "unixタイムスタンプ datetime変換 オンライン",
+    "unixタイムスタンプ ist 変換 オンライン",
+    "エポック datetime変換",
+    "エポック 日付変換ツール",
+    "エポック datetime python",
+    "エポック 日付変換 excel",
+    "エポック 日付変換 javascript"
   ],
-  "category": "開発",
+  "category": "Developer",
   "icon": "⏱️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Unixタイムスタンプとは何ですか?",
+      "answer": "Unixタイムスタンプ(エポック時刻)は、1970年1月1日00:00:00 UTCから経過した秒数です。プログラミング、データベース、APIで時刻を単一の整数として表現するために世界中で使用されています。"
+    },
+    {
+      "question": "秒とミリ秒の違いは何ですか?見分け方を教えてください。",
+      "answer": "10桁の数字(例:1700000000)は秒です。13桁の数字(例:1700000000000)はミリ秒です。"
+    },
+    {
+      "question": "2038年問題とは何ですか?",
+      "answer": "32ビット符号付き整数は2,147,483,647までの値しか保存できないため、2038年1月19日03:14:07 UTCで上限に達します。32ビットのタイムスタンプを使用するシステムはその日付でオーバーフローが発生します。"
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

@@ -1,31 +1,50 @@
 {
   "slug": "bmi-calculator",
-  "name": "BMI 计算器",
-  "tagline": "即时计算您的身体质量指数",
-  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
-  "metaTitle": "BMI 计算器 – 免费在线体质指数计算",
-  "metaDescription": "输入身高和体重，立即获得 BMI 值及体重分类（偏轻/正常/超重/肥胖）。免费，无需注册。",
+  "name": "BMI计算器",
+  "tagline": "立即计算您的身体质量指数",
+  "description": "使用这个免费的BMI计算器，根据身高和体重计算您的身体质量指数。在几秒钟内了解您的体重类别——体重不足、正常、超重或肥胖。",
+  "metaTitle": "BMI计算器 – 免费在线身体质量指数计算工具",
+  "metaDescription": "免费在线计算BMI（身体质量指数）。输入身高和体重，快速判断您是否体重不足、正常、超重或肥胖。无需注册，即刻获得结果。",
   "keywords": [
     "BMI计算器",
-    "体质指数计算",
-    "身体质量指数",
-    "BMI计算",
-    "在线BMI"
+    "身体质量指数计算器",
+    "BMI公式",
+    "在线计算BMI",
+    "BMI对照表",
+    "女性BMI计算器",
+    "男性BMI计算器",
+    "免费在线BMI计算",
+    "BMI在线计算工具",
+    "男人BMI在线计算",
+    "女人BMI在线计算",
+    "儿童BMI计算器",
+    "BMI计算厘米公斤",
+    "BMI在线计算器斯里兰卡",
+    "公斤和英尺在线BMI计算",
+    "按年龄BMI对照表",
+    "女性BMI对照表",
+    "男性BMI对照表",
+    "健康BMI范围对照表",
+    "BMI体重对照表"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "⚖️",
   "faqs": [
     {
-      "question": "BMI 是什么？",
-      "answer": "BMI（身体质量指数）= 体重(kg) ÷ 身高(m)²，用于评估体重是否健康。"
+      "question": "什么是BMI？",
+      "answer": "BMI（身体质量指数）是基于身高和体重的身体脂肪指标。计算公式为体重（公斤）除以身高（米）的平方。"
     },
     {
-      "question": "正常 BMI 范围是多少？",
-      "answer": "18.5–24.9 为正常，低于 18.5 为偏轻，25–29.9 为超重，30 以上为肥胖。"
+      "question": "正常的BMI范围是多少？",
+      "answer": "BMI在18.5至24.9之间被认为是正常体重。低于18.5为体重不足，25–29.9为超重，30或以上为肥胖。"
     },
     {
-      "question": "BMI 对所有人都准确吗？",
-      "answer": "BMI 是筛查工具，不直接测量体脂。对运动员或老年人可能不够准确。"
+      "question": "BMI对所有人都准确吗？",
+      "answer": "BMI是一个有用的筛查工具，但不能直接测量身体脂肪。对于运动员、老年人或肌肉量高的人，BMI可能不够准确。"
+    },
+    {
+      "question": "如何计算BMI？",
+      "answer": "BMI = 体重（公斤）÷ 身高（米）²。例如，一个体重70公斤、身高1.75米的人，BMI为22.9。"
     }
   ],
   "relatedTools": [
@@ -34,21 +53,5 @@
     "bmr-tdee-calculator",
     "ideal-weight-calculator"
   ],
-  "variants": [
-    {
-      "variantSlug": "bmi-calculator-for-women",
-      "metaTitle": "女性 BMI 计算器",
-      "metaDesc": "专为女性设计的 BMI 计算器，参考女性体脂标准解读结果。"
-    },
-    {
-      "variantSlug": "bmi-calculator-imperial",
-      "metaTitle": "英制 BMI 计算器（磅/英尺）",
-      "metaDesc": "使用磅和英尺/英寸计算 BMI，无需单位换算。"
-    },
-    {
-      "variantSlug": "bmi-calculator-for-kids",
-      "metaTitle": "儿童 BMI 计算器",
-      "metaDesc": "适用于 2–19 岁儿童的 BMI 计算器，基于 CDC 生长曲线百分位数解读。"
-    }
-  ]
+  "variants": []
 }

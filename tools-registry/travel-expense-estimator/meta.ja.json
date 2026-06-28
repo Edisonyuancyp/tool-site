@@ -1,20 +1,36 @@
 {
   "slug": "travel-expense-estimator",
-  "name": "旅行費用見積もり計算機",
-  "tagline": "旅行の総予算と一人あたり費用を見積もり",
-  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
-  "metaTitle": "旅行費用見積もり計算機 – 旅行予算プランニングツール",
-  "metaDescription": "交通費・宿泊費・食事代・観光費を入力して旅行総予算と一人あたり費用を見積もり。",
+  "name": "旅行費用計算機",
+  "tagline": "旅行費用を素早く見積もります。",
+  "description": "目的地、交通手段、旅行期間、1日の予算を入力して、旅行の総費用を計算します。予算を抑えて次の旅行を計画している方に最適です。",
+  "metaTitle": "旅行費用計算機 – 無料の旅行予算プランナー | オンラインツール",
+  "metaDescription": "旅行費用を無料で簡単に見積もり。登録不要で次の旅のための明確な予算を今すぐ計算！",
   "keywords": [
-    "旅行費用見積もり",
-    "旅行予算計算機",
+    "旅行費用計算機",
     "旅行費用計算",
-    "観光予算ツール",
-    "旅行費用プランニング"
+    "旅行予算ツール",
+    "旅行費用の見積もり",
+    "旅行にかかる費用",
+    "ロードトリップ費用計算",
+    "ロードトリップガソリン代計算",
+    "旅行予算管理"
   ],
-  "category": "旅行",
+  "category": "Travel",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "旅行費用の計算方法は？",
+      "answer": "目的地、交通手段、旅行期間、1日の支出を入力すると、費用の見積もりが得られます。"
+    },
+    {
+      "question": "見積もりを保存できますか？",
+      "answer": "現在、このツールは見積もりの保存機能に対応していませんが、手動で記録することができます。"
+    },
+    {
+      "question": "このツールは無料で使えますか？",
+      "answer": "はい、旅行費用計算機は完全に無料で、登録の必要はありません。"
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

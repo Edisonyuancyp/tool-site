@@ -1,0 +1,29 @@
+{
+  "slug": "your-tool-slug",
+  "name": "Your Tool Name",
+  "tagline": "Einzeilige Beschreibung auf Homepage-Karten",
+  "description": "Vollständige Beschreibung auf der Tool-Seite (1-2 Sätze).",
+  "metaTitle": "Your Tool Name – Kostenloses Online-Tool",
+  "metaDescription": "160-Zeichen SEO-Beschreibung. Primäres Keyword, kostenlos/schnell/keine Anmeldung erwähnen.",
+  "keywords": [
+    "primäres Keyword",
+    "sekundäres Keyword",
+    "Long-Tail-Keyword"
+  ],
+  "category": "Health | Finance | Developer | Date & Time | Generators | Security | Utilities",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "Was macht dieses Tool?",
+      "answer": "Erklären Sie das Tool klar in 1-2 Sätzen."
+    },
+    {
+      "question": "Ist es kostenlos?",
+      "answer": "Ja, vollständig kostenlos und ohne Anmeldung erforderlich."
+    }
+  ],
+  "relatedTools": [
+    "other-tool-slug"
+  ],
+  "variants": []
+}

@@ -1,20 +1,44 @@
 {
   "slug": "base64-tool",
-  "name": "Codificador/Decodificador Base64",
-  "tagline": "Codifique e decodifique Base64 online",
-  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
-  "metaTitle": "Codificador/Decodificador Base64 – Ferramenta Gratuita de Conversão Online",
-  "metaDescription": "Insira texto para codificar ou decodificar em Base64. Suporta conversão de arquivos e imagens em Base64.",
+  "name": "Codificador / Decodificador Base64",
+  "tagline": "Codifique e decodifique strings Base64 e URL-encoded instantaneamente",
+  "description": "Codifique qualquer texto para Base64 ou decodifique Base64 de volta para texto simples. Também suporta codificação/decodificação de URL. Trata UTF-8 corretamente. Inclui botão Trocar, validação em tempo real e cópia para a área de transferência.",
+  "metaTitle": "Codificador Decodificador Base64 Online – Ferramenta de Codificar e Decodificar URL",
+  "metaDescription": "Codificador e decodificador Base64 gratuito. Codifique texto para Base64 ou decodifique strings Base64. Também codifica/decodifica URL. Seguro UTF-8, apenas navegador, resultados instantâneos.",
   "keywords": [
-    "codificador Base64",
-    "decodificador Base64",
-    "conversor Base64",
-    "Base64 online",
-    "ferramenta de codificação"
+    "codificador decodificador base64",
+    "decodificador base64 online",
+    "codificar decodificar url",
+    "conversor base64",
+    "ferramenta de codificação percentual",
+    "codificador decodificador base64",
+    "codificador decodificador base64 online",
+    "download codificador decodificador base64",
+    "codificador decodificador base64 apk",
+    "extensão codificador decodificador base64",
+    "ferramenta codificador decodificador base64",
+    "codificador decodificador base64 imagem",
+    "codificador decodificador base64 imagem online",
+    "ferramenta codificador decodificador base64 online grátis",
+    "codificador decodificador string base64 ferramentas it",
+    "decodificador base64 online imagem",
+    "decodificador base64 online ferramentas",
+    "decodificar base64 online para pdf",
+    "decodificar base64 online para arquivo",
+    "decodificar base64 online com chave"
   ],
-  "category": "Desenvolvimento",
+  "category": "Developer",
   "icon": "🔐",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Para que serve Base64?",
+      "answer": "Base64 é usado para codificar dados binários como texto ASCII para transmissão segura — em data URIs, cabeçalhos HTTP Basic Auth, tokens JWT, anexos de email e payloads JSON."
+    },
+    {
+      "question": "Qual é a diferença entre Base64 e codificação de URL?",
+      "answer": "Base64 codifica qualquer byte em um alfabeto de 64 caracteres. Codificação de URL substitui caracteres inseguros de URL por sequências hexadecimais %XX. Use codificação de URL para parâmetros de consulta; Base64 para dados binários em formatos de texto."
+    }
+  ],
   "relatedTools": [
     "json-csv-formatter",
     "diff-checker",

@@ -1,20 +1,47 @@
 {
   "slug": "task-priority-calculator",
   "name": "Calculadora de Prioridade de Tarefas",
-  "tagline": "Priorize tarefas com a Matriz de Eisenhower",
-  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
-  "metaTitle": "Calculadora de Prioridade de Tarefas – Ferramenta de Gestão do Tempo",
-  "metaDescription": "Avalie tarefas por urgência e importância para determinar automaticamente a ordem de prioridade e aumentar a eficiência.",
+  "tagline": "Classifique suas tarefas para máxima eficiência",
+  "description": "Esta ferramenta ajuda você a priorizar suas tarefas diárias com base em urgência e importância. Ideal para profissionais e estudantes que desejam otimizar suas listas de afazeres.",
+  "metaTitle": "Calculadora de Prioridade de Tarefas – Ferramenta de Produtividade Grátis",
+  "metaDescription": "Use nossa calculadora gratuita de prioridade de tarefas para classificar suas atividades por urgência e importância. Aumente sua produtividade sem cadastro, resultados imediatos.",
   "keywords": [
     "prioridade de tarefas",
-    "gestão do tempo",
-    "Matriz de Eisenhower",
-    "produtividade",
-    "gerenciamento de tarefas"
+    "ferramenta de classificação de tarefas",
+    "tarefas urgentes",
+    "tarefas importantes",
+    "calculadora de produtividade",
+    "matriz de prioridade de tarefas",
+    "rastreador de prioridade de tarefas",
+    "planilha excel rastreador de prioridade",
+    "níveis de prioridade de tarefas",
+    "lista de prioridades",
+    "prioridade de tarefas freertos",
+    "planilha excel rastreador prioridade download grátis",
+    "tarefas urgentes vs tarefas importantes",
+    "exemplos de tarefas urgentes",
+    "sinônimo de urgente",
+    "significado de tarefa urgente",
+    "tarefas urgentes do movimento",
+    "tarefas urgentes e registro de trabalho permanecerão",
+    "tarefa urgente em mãos"
   ],
-  "category": "Produtividade",
+  "category": "Productivity",
   "icon": "📋",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como a calculadora funciona?",
+      "answer": "Você insere suas tarefas com classificações de urgência e importância, e a calculadora as ordena por prioridade para você."
+    },
+    {
+      "question": "É realmente grátis?",
+      "answer": "Sim, esta ferramenta é totalmente gratuita, sem taxas ocultas ou necessidade de cadastro."
+    },
+    {
+      "question": "Posso usá-la para tarefas em equipe?",
+      "answer": "Claro! Você pode usar esta ferramenta para priorizar tarefas tanto pessoais quanto em equipe."
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "time-tracking-tool"

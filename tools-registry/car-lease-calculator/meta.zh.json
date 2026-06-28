@@ -1,23 +1,46 @@
 {
   "slug": "car-lease-calculator",
   "name": "汽车租赁计算器",
-  "tagline": "计算汽车租赁月供和总费用",
-  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
-  "metaTitle": "汽车租赁计算器 – 在线租车费用计算",
-  "metaDescription": "输入车辆价格、残值、利率和租期，计算每月租赁费用。",
+  "tagline": "快速计算您的租赁付款！",
+  "description": "该工具可帮助用户根据车辆价格、首付款、利率和租赁期限估算每月汽车租赁付款。非常适合考虑租赁车辆并想了解其付款结构的任何人。",
+  "metaTitle": "汽车租赁计算器 – 在线估算您的租赁付款 | 免费工具",
+  "metaDescription": "轻松计算汽车租赁付款。免费使用，无需注册，即时获得结果！",
   "keywords": [
     "汽车租赁计算器",
-    "租车月供计算",
-    "车辆租赁费用",
-    "汽车融资计算",
-    "lease计算器"
+    "租赁付款估算器",
+    "车辆租赁",
+    "月度租赁付款",
+    "汽车融资计算器",
+    "加拿大汽车租赁计算器",
+    "澳大利亚汽车租赁计算器",
+    "印度汽车租赁计算器",
+    "巴基斯坦汽车租赁计算器",
+    "含以旧换新的汽车租赁计算器",
+    "加州汽车租赁计算器",
+    "ORIX汽车租赁计算器",
+    "在线汽车租赁计算器",
+    "使用在线汽车租赁计算器",
+    "免费汽车租赁计算器",
+    "免费澳大利亚汽车租赁计算器",
+    "印度汽车租赁计算器Excel免费下载",
+    "如何使用汽车租赁计算器",
+    "汽车租赁付款估算器",
+    "进步租赁付款估算器"
   ],
-  "category": "金融",
+  "category": "Finance",
   "icon": "🚗",
   "faqs": [
     {
-      "question": "租赁和购车哪个更划算？",
-      "answer": "租赁月供低但没有产权；购车长期更划算。取决于使用年限和里程需求。"
+      "question": "什么因素决定了我的租赁付款？",
+      "answer": "您的租赁付款受车辆价格、残值、利率、租赁期限和首付款的影响。"
+    },
+    {
+      "question": "我可以为不同的汽车使用此计算器吗？",
+      "answer": "可以，您可以为任何汽车输入不同的数值，以查看它如何影响您的租赁付款。"
+    },
+    {
+      "question": "此工具仅适用于新车吗？",
+      "answer": "不是，该计算器可用于可用于租赁的新车和二手车。"
     }
   ],
   "relatedTools": [

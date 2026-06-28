@@ -1,0 +1,46 @@
+{
+  "slug": "fba-reorder-calculator",
+  "name": "FBA Nachbestellungs- und Auffüllungsrechner",
+  "tagline": "Vermeiden Sie Lagerbestände – wissen Sie genau, wann Sie nachbestellen und wie viele Einheiten Sie kaufen sollten",
+  "description": "Geben Sie Ihre tägliche Verkaufsgeschwindigkeit, Lieferzeit und Sicherheitsbestandspuffer ein, um Ihren Nachbestellpunkt und die empfohlene Bestellmenge zu erhalten. Vermeidet kostspielige Lagerbestände und Überbestände.",
+  "metaTitle": "FBA Nachbestellungsrechner – Amazon Auffüllungs- und Bestandsplaner",
+  "metaDescription": "Kostenloser Amazon FBA Nachbestellungsrechner. Geben Sie tägliche Verkäufe und Lieferzeit ein, um Ihren Nachbestellpunkt, verbleibende Bestandstage und empfohlene Bestellmenge zu erhalten.",
+  "keywords": [
+    "FBA Nachbestellungsrechner",
+    "Amazon Auffüllungsrechner",
+    "FBA Bestandsrechner",
+    "Amazon Nachbestellpunkt Rechner",
+    "FBA Auffüllungsrechner",
+    "Amazon Bestandsplaner",
+    "FBA Lagerrechner",
+    "Amazon wann nachbestellen",
+    "FBA Bestandstage",
+    "Amazon Lagerbestandskalkulator",
+    "FBA Lieferzeitrechner",
+    "Amazon Seller Bestandsverwaltungstool",
+    "FBA Sicherheitsbestandsrechner",
+    "Amazon Nachschubrechner",
+    "FBA Bestellmengenrechner"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "faqs": [
+    {
+      "question": "Was ist ein Nachbestellpunkt?",
+      "answer": "Nachbestellpunkt = (Durchschnittliche tägliche Verkäufe × Lieferzeit in Tagen) + Sicherheitsbestand. Wenn Ihr Bestand diese Menge erreicht, platzieren Sie sofort Ihre nächste Bestellung."
+    },
+    {
+      "question": "Wie viel Sicherheitsbestand sollte ich halten?",
+      "answer": "Eine gängige Regel ist 15–30 Tage Umsatz als Sicherheitsbestand. Schnelldreher oder Produkte mit unzuverlässigen Lieferanten benötigen einen größeren Puffer."
+    },
+    {
+      "question": "Wie berechne ich, wie viele Einheiten ich bestellen soll?",
+      "answer": "Bestellmenge = Tägliche Verkäufe × (Überprüfungszeitraum + Lieferzeit) + Sicherheitsbestand − Aktueller Bestand. Dies stellt sicher, dass Sie nicht über- oder unterbestellen."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

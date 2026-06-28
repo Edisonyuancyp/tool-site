@@ -1,20 +1,48 @@
 {
   "slug": "daily-goal-tracker",
-  "name": "日次目標トラッカー",
-  "tagline": "毎日の目標設定と達成状況を追跡",
-  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
-  "metaTitle": "日次目標トラッカー – 目標達成追跡ツール",
-  "metaDescription": "毎日の目標を設定して進捗を記録し、良い習慣と実行力を構築。",
+  "name": "Daily Goal Tracker",
+  "tagline": "毎日の目標を簡単に設定・追跡できます",
+  "description": "このツールを使えば、毎日の目標を設定・監視・評価して、生産性を向上させることができます。毎日をより充実させ、目標達成を目指すすべての人に最適です。",
+  "metaTitle": "Daily Goal Tracker – 生産性向上ツール | 無料オンラインツール",
+  "metaDescription": "無料のオンラインツールで毎日の目標を追跡し、生産性を向上させましょう。登録不要、すぐに使えます。",
   "keywords": [
-    "日次目標トラッカー",
-    "目標管理ツール",
-    "習慣トラッカー",
-    "日次目標達成",
-    "目標追跡計算機"
+    "日々の目標管理",
+    "目標設定ツール",
+    "生産性向上",
+    "毎日の達成目標",
+    "進捗管理",
+    "目標管理アプリ",
+    "目標追跡テンプレート",
+    "目標管理エクセル",
+    "目標管理PDF",
+    "目標管理エクセルテンプレート",
+    "学生向け目標管理",
+    "Googleスプレッドシート目標管理",
+    "オンライン目標追跡",
+    "無料目標管理ツール",
+    "無料目標管理アプリ",
+    "無料印刷可能な目標管理表",
+    "最高の無料目標管理アプリ",
+    "無料目標管理テンプレート",
+    "優良無料目標管理ツール",
+    "目標設定支援ツール"
   ],
-  "category": "生産性",
+  "category": "Productivity",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "どのような目標を追跡できますか？",
+      "answer": "フィットネスから仕事プロジェクトまで、あらゆる種類の個人的・職業的目標を追跡できます。"
+    },
+    {
+      "question": "設定できる目標の数に制限はありますか？",
+      "answer": "いいえ、毎日好きなだけ多くの目標を設定できます。"
+    },
+    {
+      "question": "過去の目標を確認できますか？",
+      "answer": "はい、過去の目標とその達成状況にアクセスして、振り返ることができます。"
+    }
+  ],
   "relatedTools": [
     "time-tracking-tool",
     "habit-tracker"

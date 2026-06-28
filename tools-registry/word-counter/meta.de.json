@@ -1,20 +1,48 @@
 {
   "slug": "word-counter",
-  "name": "Wörter zählen",
-  "tagline": "Wörter, Zeichen und Lesezeit messen",
-  "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
-  "metaTitle": "Wörter zählen – Kostenloses Online-Wort- und Zeichenzähler-Tool",
-  "metaDescription": "Text einfügen und sofort Wörter, Zeichen, Sätze und geschätzte Lesezeit in Echtzeit messen.",
+  "name": "Word Counter",
+  "tagline": "Wörter, Zeichen, Sätze und Lesezeit zählen",
+  "description": "Fügen Sie Ihren Text ein und zählen Sie sofort Wörter, Zeichen, Sätze, Absätze und die geschätzte Lesezeit. Ideal für Essays, Artikel, SEO-Inhalte und Social-Media-Beiträge.",
+  "metaTitle": "Word Counter – Kostenloses Online-Wörter-Zähler-Tool",
+  "metaDescription": "Zählen Sie Wörter und Zeichen sofort. Kostenloses Online-Wörter-Zähler-Tool für Essays, Artikel und Social Media. Wortanzahl, Zeichenanzahl und Lesezeit.",
   "keywords": [
-    "Wörter zählen",
-    "Zeichenzähler",
-    "Online Wörter zählen",
-    "Textzähler",
-    "Lesezeit berechnen"
+    "wörter zählen",
+    "zeichen zähler",
+    "wortanzahl tool",
+    "online wörter zähler",
+    "wörter online zählen",
+    "wortanzahl",
+    "wörter zählung",
+    "wortanzahlen",
+    "wörter zählen thai",
+    "wörter zähler thai",
+    "wörter zähler online",
+    "wörter zähler online kostenlos",
+    "wörter zähler online pdf",
+    "wörter zähler online hindi",
+    "wörter zähler online foto",
+    "wortanzahl online",
+    "wörter zähler online tool",
+    "wörter zähler online arabisch",
+    "kostenlos wörter zählen",
+    "kostenloser wörter zähler online"
   ],
-  "category": "Werkzeuge",
+  "category": "Utilities",
   "icon": "📝",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie zähle ich Wörter in meinem Text?",
+      "answer": "Fügen Sie Ihren Text in das Feld oben ein. Die Wortanzahl wird sofort aktualisiert, während Sie tippen oder Text einfügen."
+    },
+    {
+      "question": "Zählt das Tool Zeichen mit oder ohne Leerzeichen?",
+      "answer": "Beides. Das Tool zeigt Zeichen mit Leerzeichen und Zeichen ohne Leerzeichen separat an."
+    },
+    {
+      "question": "Wie wird die Lesezeit berechnet?",
+      "answer": "Die Lesezeit basiert auf einer durchschnittlichen Lesegeschwindigkeit von 200–250 Wörtern pro Minute für Erwachsene."
+    }
+  ],
   "relatedTools": [
     "text-case-converter",
     "diff-checker"

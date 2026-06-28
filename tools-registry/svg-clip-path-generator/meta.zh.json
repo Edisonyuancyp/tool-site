@@ -1,0 +1,51 @@
+{
+  "slug": "svg-clip-path-generator",
+  "name": "SVG 裁剪路径生成器",
+  "tagline": "轻松创建自定义裁剪路径",
+  "description": "通过调整形状、大小和位置等参数来设计和生成SVG裁剪路径。非常适合前端开发人员和设计师增强网页图形。",
+  "metaTitle": "SVG裁剪路径生成器 - 免费在线自定义形状工具",
+  "metaDescription": "免费创建自定义SVG裁剪路径，用于网页图形设计。无需注册，即时预览效果。",
+  "keywords": [
+    "svg裁剪路径",
+    "裁剪路径生成器",
+    "网页设计工具",
+    "svg图形",
+    "自定义形状",
+    "免费svg裁剪路径生成器",
+    "在线svg裁剪路径生成工具",
+    "svg裁剪路径代码生成",
+    "免费设计工具",
+    "调色板生成器",
+    "即时预览",
+    "无需photoshop",
+    "svg裁剪路径编辑器",
+    "svg裁剪路径制作",
+    "css svg裁剪路径",
+    "svg裁剪路径css代码",
+    "svg裁剪路径动画",
+    "svg裁剪路径url",
+    "svg裁剪路径反向",
+    "svg裁剪路径编辑工具"
+  ],
+  "category": "Design",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "什么是SVG裁剪路径？",
+      "answer": "SVG裁剪路径用于定义SVG图形的特定显示区域，能够创建创意形状效果。"
+    },
+    {
+      "question": "我能使用自己的形状吗？",
+      "answer": "可以，您可以输入自定义形状或从预设模板中选择。"
+    },
+    {
+      "question": "我如何在代码中实现裁剪路径？",
+      "answer": "该工具提供必要的代码片段，可轻松集成到您的项目中。"
+    }
+  ],
+  "relatedTools": [
+    "css-gradient-builder",
+    "icon-grid-calculator"
+  ],
+  "variants": []
+}

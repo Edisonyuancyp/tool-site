@@ -1,20 +1,48 @@
 {
   "slug": "cooking-time-calculator",
   "name": "Calculadora de Tempo de Cozimento",
-  "tagline": "Calcule o tempo de cozimento com base no peso dos ingredientes",
-  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
-  "metaTitle": "Calculadora de Tempo de Cozimento – Ferramenta de Cálculo de Tempo de Assar e Cozinhar",
-  "metaDescription": "Insira o peso e tipo do ingrediente para calcular o tempo de cozimento recomendado e a temperatura, garantindo o cozimento seguro.",
+  "tagline": "Calcule tempos de cozimento com facilidade.",
+  "description": "Determine o tempo ideal de cozimento para vários tipos de carne e pratos com base no peso e no método de cozimento. Perfeito para cozinheiros caseiros que desejam evitar cozinhar demais ou de menos suas refeições.",
+  "metaTitle": "Calculadora de Tempo de Cozimento – Tempos Ideais | Ferramenta Grátis",
+  "metaDescription": "Use nossa calculadora de tempo de cozimento para tempos precisos. Ferramenta gratuita, sem cadastro, resultados instantâneos.",
   "keywords": [
     "calculadora de tempo de cozimento",
-    "tempo de assar",
-    "tempo de cozinhar",
-    "temperatura de cozimento",
-    "cozinhar no forno"
+    "tempo de cozimento da carne",
+    "tempo de cozimento receita",
+    "duração ideal de cozimento",
+    "calculadora de tempo de cozimento pernil",
+    "calculadora de tempo de cozimento cordeiro",
+    "calculadora de tempo de cozimento carne vermelha",
+    "calculadora de tempo de cozimento por peso",
+    "calculadora de tempo de cozimento por temperatura",
+    "calculadora de tempo de cozimento presunto",
+    "calculadora de tempo de cozimento frango",
+    "calculadora de tempo de cozimento peru",
+    "tempo de cozimento de carnes",
+    "calculadora de tempo de cozimento de carnes",
+    "tabela de tempo e temperatura de cozimento de carnes",
+    "cronômetro de cozimento de carne",
+    "tabela de tempo e temperatura de cozimento",
+    "tabela de tempo de cozimento de carnes",
+    "gráfico de tempo de cozimento",
+    "tabela de tempos de cozimento de carnes"
   ],
-  "category": "Culinária",
+  "category": "Cooking",
   "icon": "⏲️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como uso a calculadora de tempo de cozimento?",
+      "answer": "Basta inserir o tipo de carne ou prato, seu peso e selecionar o método de cozimento para obter o tempo ideal de cozimento."
+    },
+    {
+      "question": "Esta calculadora é precisa para todas as receitas?",
+      "answer": "Embora forneça uma excelente orientação, os tempos de cozimento podem variar dependendo de receitas e equipamentos específicos."
+    },
+    {
+      "question": "Posso usar isto para assar também?",
+      "answer": "Esta ferramenta se concentra principalmente no cozimento de carnes e pratos principais, mas pode oferecer dicas para alguns produtos de panificação."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "loan-calculator"

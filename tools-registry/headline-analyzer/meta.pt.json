@@ -1,0 +1,60 @@
+{
+  "slug": "headline-analyzer",
+  "name": "Analisador de Títulos SEO",
+  "tagline": "Pontue seu título para cliques, emoção, poder SEO e comprimento",
+  "description": "Analise qualquer título ou manchete para efetividade em SEO. Avalia poder de palavras-chave, palavras emotivas, comprimento do título, equilíbrio de palavras e fornece sugestões específicas de melhoria.",
+  "metaTitle": "Analisador de Títulos SEO — Pontue Seu Título para Cliques e Rankings | GetFastCalc",
+  "metaDescription": "Analise seu título para impacto SEO, poder emocional e legibilidade. Obtenha uma pontuação instantânea com sugestões específicas para melhorar taxa de cliques.",
+  "keywords": [
+    "analisador de títulos",
+    "analisador de títulos seo",
+    "pontuação de títulos",
+    "analisador de títulos",
+    "verificador de títulos",
+    "ferramenta de títulos seo",
+    "otimizador de títulos",
+    "analisador de títulos seo",
+    "analisador de títulos seo grátis",
+    "analisador de títulos seo wordpress",
+    "analisador de títulos seo com ia",
+    "analisador de pontuação de títulos seo",
+    "analisador de títulos seo tudo em um",
+    "analisador de títulos seo gratuito",
+    "analisador de títulos gratuito",
+    "ferramenta analisador de títulos",
+    "analisador de títulos.io",
+    "analisador de títulos por coschedule",
+    "analisador de títulos com ia",
+    "ferramenta analisador de títulos grátis"
+  ],
+  "category": "Text",
+  "icon": "📰",
+  "faqs": [
+    {
+      "question": "O que faz um bom título para SEO?",
+      "answer": "Um título efetivo para SEO geralmente: (1) inclui a palavra-chave alvo no início, (2) tem 50–60 caracteres para resultados de busca (até 70 é aceitável), (3) usa números quando possível (listas recebem 36% mais cliques), (4) cria curiosidade ou urgência, e (5) corresponde à intenção do buscador."
+    },
+    {
+      "question": "Qual deve ser o comprimento ideal de um título para SEO?",
+      "answer": "Para resultados de busca do Google, mantenha títulos com menos de 60 caracteres (cerca de 580px de largura de exibição). Títulos com mais de 60 caracteres são truncados com '...'. Para compartilhamento em redes sociais, 40–65 caracteres é o ideal. Para linhas de assunto de e-mail, menos de 50 caracteres."
+    },
+    {
+      "question": "Palavras emotivas em títulos melhoram a taxa de cliques?",
+      "answer": "Sim — múltiplos estudos mostram que títulos com palavras emotivas fortes positivas ou negativas conseguem maiores taxas de cliques. A pesquisa do CoSchedule descobriu que títulos com pontuação de 0.2 ou superior em valor emocional recebem significativamente mais compartilhamentos. Palavras como 'incrível', 'essencial', 'surpreendente' e 'comprovado' consistentemente têm bom desempenho."
+    },
+    {
+      "question": "Devo colocar a palavra-chave no início do título?",
+      "answer": "Geralmente sim para SEO — o Google dá um peso ligeiramente maior a palavras que aparecem no início do título. Porém, legibilidade e taxa de cliques devem ser prioridades. Um título que não atrai cliques não oferece benefício de SEO mesmo que esteja bem ranqueado."
+    },
+    {
+      "question": "O que é sentimento de título e por que é importante?",
+      "answer": "Análise de sentimento mede se um título é positivo, negativo ou neutro. Títulos com sentimento fortemente positivo ou negativo superam os neutros em taxa de cliques. Títulos puramente neutros parecem chatos e não disparam engajamento emocional."
+    }
+  ],
+  "relatedTools": [
+    "character-counter",
+    "word-counter",
+    "markdown-previewer"
+  ],
+  "variants": []
+}

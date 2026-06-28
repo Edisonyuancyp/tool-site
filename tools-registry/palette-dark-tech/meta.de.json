@@ -1,0 +1,36 @@
+{
+  "slug": "palette-dark-tech",
+  "name": "Dark Tech Farbpalette",
+  "tagline": "Hochperformante dunkle UI-Palette für Gaming, Cybersecurity und Entwicklertools. Tiefes Schwarz mit elektrischen Neon-Akzenten.",
+  "description": "Hochperformante dunkle UI-Palette für Gaming, Cybersecurity und Entwicklertools. Tiefes Schwarz mit elektrischen Neon-Akzenten.",
+  "metaTitle": "Dark Tech Farbpalette – HEX, CMYK, Tailwind & Pantone Referenz",
+  "metaDescription": "Kostenlose Dark Tech Farbpalette mit HEX-Codes, Tailwind CSS Klassen, CMYK-Werten und Pantone-Näherungswerten. Kopieren Sie jede Farbe sofort.",
+  "keywords": [
+    "Dark Tech Farbpalette",
+    "Dark Tech Farbschema",
+    "Dark Tech HEX-Codes",
+    "#0F172A",
+    "#1E293B",
+    "#22D3EE",
+    "Pantone-Farbabstimmung",
+    "CMYK-Konvertierung",
+    "Web-Farbpalette",
+    "Tailwind CSS Schema"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Sind die Pantone-Referenzen exakte Übereinstimmungen?",
+      "answer": "Nein. Die angezeigten Pantone-Codes sind die nächsten visuellen Näherungswerte. Für professionelle Druckarbeiten überprüfen Sie immer gegen ein physisches Pantone-Farbmuster."
+    },
+    {
+      "question": "Wie werden CMYK-Werte berechnet?",
+      "answer": "CMYK-Werte verwenden die geräteunabhängige Formel: K = 1 − max(R,G,B); C/M/Y abgeleitet von RGB-Verhältnissen. Die tatsächliche Ausgabe hängt von den Druckerprofilen und dem Papier ab."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

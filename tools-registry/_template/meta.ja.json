@@ -1,0 +1,29 @@
+{
+  "slug": "your-tool-slug",
+  "name": "Your Tool Name",
+  "tagline": "ホームページカードに表示されるワンライン説明",
+  "description": "ツールページに表示されるフル説明（1～2文）。",
+  "metaTitle": "Your Tool Name – 無料オンラインツール",
+  "metaDescription": "160文字のSEO説明。主要キーワードを含め、無料・高速・登録不要などを記載してください。",
+  "keywords": [
+    "主要キーワード",
+    "副次的なキーワード",
+    "ロングテールキーワード"
+  ],
+  "category": "Health | Finance | Developer | Date & Time | Generators | Security | Utilities",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "このツールは何をするものですか？",
+      "answer": "ツールの機能を1～2文で明確に説明してください。"
+    },
+    {
+      "question": "無料ですか？",
+      "answer": "はい、登録不要で完全に無料です。"
+    }
+  ],
+  "relatedTools": [
+    "other-tool-slug"
+  ],
+  "variants": []
+}

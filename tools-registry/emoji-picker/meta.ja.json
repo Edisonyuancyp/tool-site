@@ -1,20 +1,48 @@
 {
   "slug": "emoji-picker",
   "name": "絵文字ピッカー",
-  "tagline": "絵文字を検索してコピー",
-  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
-  "metaTitle": "絵文字ピッカー – オンライン絵文字検索コピーツール",
-  "metaDescription": "任意の絵文字を検索してワンクリックでコピー。カテゴリ別に全絵文字を閲覧可能。",
+  "tagline": "絵文字を検索、コピー、すぐに使用できます",
+  "description": "キーワード検索で絵文字をすぐに検索してコピーできます。すべての絵文字カテゴリを閲覧：笑顔、人物、動物、食べ物、旅行、物体、記号、フラグ。ワンクリックでコピーできます。",
+  "metaTitle": "絵文字ピッカー – 無料で絵文字を検索・コピー | オンライン絵文字検索ツール",
+  "metaDescription": "絵文字を無料で素早く検索・コピーできるオンライン絵文字ピッカー。笑顔、動物、食べ物、フラグなど全カテゴリ対応。ワンクリックでコピー可能。",
   "keywords": [
     "絵文字ピッカー",
-    "絵文字コピー",
-    "emoji検索",
-    "オンライン絵文字ツール",
-    "絵文字選択"
+    "絵文字検索",
+    "絵文字をオンラインでコピー",
+    "キーワードで絵文字を検索",
+    "オンライン絵文字キーボード",
+    "emoji picker react",
+    "emoji_picker_flutter",
+    "emoji picker element",
+    "emoji picker windows",
+    "emoji picker mac",
+    "emoji picker linux",
+    "emoji picker js",
+    "絵文字ピッカーオンライン",
+    "無料絵文字ピッカー",
+    "emoji picker reactの使い方",
+    "絵文字ピッカーの使い方",
+    "raycast絵文字ピッカーの使い方",
+    "Windows絵文字ピッカーの使い方",
+    "絵文字検索データが利用できない",
+    "絵文字を検索する"
   ],
-  "category": "ユーティリティ",
+  "category": "Utilities",
   "icon": "😊",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "絵文字をコピーするにはどうすればよいですか？",
+      "answer": "任意の絵文字をクリックするとクリップボードにコピーされます。その後、メッセージ、ドキュメント、ソーシャルメディア、コードなど、どこにでも貼り付けることができます。"
+    },
+    {
+      "question": "名前で絵文字を検索できますか？",
+      "answer": "はい。検索ボックスにキーワードを入力すると、名前、カテゴリ、説明で該当する絵文字を検索できます。"
+    },
+    {
+      "question": "どの絵文字バージョンがサポートされていますか？",
+      "answer": "このピッカーはUnicode 15.0のすべての絵文字に対応しており、iOS、Android、Windows、macOSで利用可能なすべての最新絵文字をカバーしています。"
+    }
+  ],
   "relatedTools": [
     "text-case-converter",
     "word-counter",

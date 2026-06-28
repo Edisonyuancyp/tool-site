@@ -1,0 +1,54 @@
+{
+  "slug": "css-variables-generator",
+  "name": "CSS-Variablen-Generator",
+  "tagline": "Erstellen Sie eine benutzerdefinierte Farbpalette und exportieren Sie einsatzbereite CSS-Variablen und Tailwind-Konfiguration",
+  "description": "Erstellen Sie eine benutzerdefinierte Farbpalette von Grund auf, generieren Sie dann sofort :root CSS-Variablen, Tailwind-Konfiguration und kopierfertige Code-Snippets. Keine Anmeldung, keine Installation – läuft direkt in Ihrem Browser.",
+  "metaTitle": "CSS-Variablen-Generator – Farbpaletten erstellen & :root CSS-Variablen exportieren | GetFastCalc",
+  "metaDescription": "Kostenloser CSS-Variablen-Generator. Wählen Sie Farben, benennen Sie sie und erhalten Sie sofort :root CSS-Variablen, tailwind.config.js und kopierfertige Code-Snippets. Keine Anmeldung erforderlich.",
+  "keywords": [
+    "CSS-Variablen-Generator",
+    "CSS-Custom-Properties-Generator",
+    "Tailwind-Config-Generator",
+    "Farbpalette zu CSS-Variablen",
+    ":root CSS-Variablen",
+    "Design-Token-Generator",
+    "CSS-Farbvariablen online",
+    "Tailwind-Farbkonfiguration",
+    "CSS-Variablen online kostenlos",
+    "CSS-Variablen aus Farben generieren",
+    "CSS-Farbvariablen-Generator",
+    "Tailwind-CSS-Config-Generator",
+    "Tailwind-Config-Theme-Generator",
+    "Tailwind-Config-Farben-Generator",
+    "tailwind.config.js-Generator",
+    "Tailwind-Config-Builder",
+    "Tailwind-Config-Beispiel",
+    "Tailwind-Config-Farben"
+  ],
+  "category": "Developer",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Was sind CSS-Variablen (benutzerdefinierte Eigenschaften)?",
+      "answer": "CSS-Variablen, auch benutzerdefinierte Eigenschaften genannt, sind von CSS-Autoren definierte Entitäten, die bestimmte Werte darstellen, um sie in einem Dokument wiederzuverwenden. Sie verwenden die Syntax --variable-name und werden auf :root gesetzt, um sie global verfügbar zu machen."
+    },
+    {
+      "question": "Wie verwende ich die generierten CSS-Variablen in meinem Projekt?",
+      "answer": "Kopieren Sie den :root-Block und fügen Sie ihn in Ihre Hauptstylesheetdatei ein (z. B. global.css oder index.css). Verwenden Sie dann die Variablen überall in Ihrem Stylesheet mit var(--color-primary) usw."
+    },
+    {
+      "question": "Kann ich die Tailwind-Ausgabe direkt verwenden?",
+      "answer": "Ja. Kopieren Sie den generierten tailwind.config.js-Block und fügen Sie ihn in die tailwind.config.js-Datei Ihres Projekts unter theme.extend.colors ein. Ihre benutzerdefinierten Farbnamen stehen dann als Tailwind-Klassen zur Verfügung."
+    },
+    {
+      "question": "Was sind Design Tokens?",
+      "answer": "Design Tokens sind benannte Werte, die Design-Entscheidungen wie Farben, Abstände oder Typografie speichern. CSS-Variablen sind eine häufige Möglichkeit, Design Tokens in Webprojekten umzusetzen."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "typography-compare-lab",
+    "base64-tool"
+  ],
+  "variants": []
+}

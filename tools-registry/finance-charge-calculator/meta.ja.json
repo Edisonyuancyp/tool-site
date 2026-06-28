@@ -1,20 +1,48 @@
 {
   "slug": "finance-charge-calculator",
-  "name": "金融手数料計算機",
-  "tagline": "クレジットカードやローンの金融手数料を計算",
-  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
-  "metaTitle": "金融手数料計算機 – 利息費用計算ツール",
-  "metaDescription": "クレジットカード残高またはローンの月次金融手数料とAPR利息を計算。",
+  "name": "ファイナンスチャージ計算機",
+  "tagline": "ファイナンスチャージを簡単に計算しましょう！",
+  "description": "このツールは、ローンとクレジットカードの残高と金利に基づいて、ファイナンスチャージを計算するのに役立ちます。借入コストを理解し、財務をより良く管理したいすべての人に最適です。",
+  "metaTitle": "ファイナンスチャージ計算機 - 金利手数料を無料で計算 | オンラインツール",
+  "metaDescription": "ローンとクレジットカードのファイナンスチャージを無料で即座に計算。登録不要、素早い結果！",
   "keywords": [
-    "金融手数料計算機",
-    "クレジットカード利息計算",
-    "APR計算機",
-    "利息費用計算",
-    "月利計算"
+    "ファイナンスチャージ",
+    "ファイナンスチャージ計算",
+    "クレジットカード手数料",
+    "ローン手数料",
+    "債務管理",
+    "ファイナンスチャージ計算機",
+    "自動車ローン計算機",
+    "延滞請求書計算機",
+    "平均日額残高計算機",
+    "月間ファイナンスチャージ計算",
+    "本日のファイナンスチャージ変更",
+    "BPI手数料計算機",
+    "メトロバンク手数料計算機",
+    "ファイナンスチャージ計算機の使い方",
+    "ファイナンスチャージ",
+    "クレジットカード手数料とは",
+    "購入時ファイナンスチャージ",
+    "BPIクレジットカード手数料",
+    "クレジットカードの手数料",
+    "自動車ローン手数料計算"
   ],
-  "category": "ファイナンス",
+  "category": "Finance",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "ファイナンスチャージとは何ですか？",
+      "answer": "ファイナンスチャージは、借入金の総額に対する割合として表現される借金コストです。通常、利息と適用可能な手数料が含まれます。"
+    },
+    {
+      "question": "ファイナンスチャージを計算するにはどうすればよいですか？",
+      "answer": "計算機に残高、金利、請求サイクルを入力して、ファイナンスチャージを確認できます。"
+    },
+    {
+      "question": "このツールはどんなローンにも使用できますか？",
+      "answer": "はい、このツールはクレジットカード、個人ローン、自動車ローンを含む、さまざまなタイプのローンに使用できます。"
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "debt-repayment-calculator"

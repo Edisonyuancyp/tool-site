@@ -1,27 +1,50 @@
 {
   "slug": "bmi-calculator",
   "name": "BMI計算機",
-  "tagline": "体格指数（BMI）を瞬時に計算",
-  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
-  "metaTitle": "BMI計算機 – 無料オンラインBMI計算ツール",
-  "metaDescription": "身長と体重を入力してBMIを即座に算出。体重区分（低体重・普通・過体重・肥満）も表示。無料・登録不要。",
+  "tagline": "体格指数を瞬時に計算",
+  "description": "この無料BMI計算機を使用して、身長と体重に基づいて体格指数を求めます。低体重、普通体重、過体重、または肥満など、あなたの体重カテゴリーを数秒で確認できます。",
+  "metaTitle": "BMI計算機 – 無料のボディマス指数計算ツール | オンライン対応",
+  "metaDescription": "BMI（体格指数）を瞬時に計算。身長と体重を入力して、低体重、普通体重、過体重、肥満のいずれかを判定します。無料、高速、登録不要。",
   "keywords": [
     "BMI計算機",
     "体格指数計算",
     "BMI計算",
-    "肥満度計算",
-    "オンラインBMI"
+    "BMI計算 オンライン",
+    "BMI早見表",
+    "BMI計算機 女性",
+    "BMI計算機 男性",
+    "BMI計算 無料",
+    "BMI計算機 オンライン 無料",
+    "BMI計算 男性 オンライン",
+    "BMI計算 女性 オンライン",
+    "BMI計算機 子ども",
+    "BMI計算 cm kg",
+    "BMI計算機 国別",
+    "BMI計算 kg フィート",
+    "BMI早見表 年齢別",
+    "BMI早見表 女性",
+    "BMI早見表 男性",
+    "健康的なBMI範囲",
+    "BMI体重早見表"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "⚖️",
   "faqs": [
     {
       "question": "BMIとは何ですか？",
-      "answer": "BMI（体格指数）= 体重(kg) ÷ 身長(m)²。体重が健康的かどうかを評価するスクリーニング指標です。"
+      "answer": "BMI（体格指数）は、身長と体重に基づいた体脂肪率の指標です。計算式は体重（kg）を身長（m）の二乗で割った値です。"
     },
     {
-      "question": "正常なBMIの範囲は？",
-      "answer": "18.5〜24.9が標準体重。18.5未満は低体重、25〜29.9は過体重、30以上は肥満です。"
+      "question": "正常なBMI範囲は何ですか？",
+      "answer": "BMIが18.5～24.9の範囲は普通体重と見なされます。18.5未満は低体重、25～29.9は過体重、30以上は肥満です。"
+    },
+    {
+      "question": "BMIはすべての人に対して正確ですか？",
+      "answer": "BMIは有用なスクリーニングツールですが、体脂肪を直接測定するわけではありません。アスリート、高齢者、筋肉量が多い人には正確でない場合があります。"
+    },
+    {
+      "question": "BMIはどのように計算されますか？",
+      "answer": "BMI = 体重（kg）÷ 身長（m）²。例えば、体重70kgで身長1.75mの場合、BMIは22.9です。"
     }
   ],
   "relatedTools": [

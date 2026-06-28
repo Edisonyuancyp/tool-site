@@ -1,0 +1,52 @@
+{
+  "slug": "css-unit-converter",
+  "name": "CSSユニットコンバーター",
+  "tagline": "pxからrem、em、vwなどに変換 — CSSユニットの瞬時計算",
+  "description": "CSSユニット間の変換：px、rem、em、vw、vh、pt、cm。ベースフォントサイズを設定して、レスポンシブWebデザインの瞬時変換を取得します。",
+  "metaTitle": "CSSユニットコンバーター – pxからrem、em、vwへ変換 | 無料オンラインツール | GetFastCalc",
+  "metaDescription": "無料CSSユニットコンバーター。pxからrem、em、vw、vhをすぐに変換。カスタムベースフォントサイズ設定可能。登録不要。",
+  "keywords": [
+    "cssユニット変換",
+    "px rem 変換",
+    "px em 変換",
+    "rem px 変換 オンライン",
+    "css px rem 計算機",
+    "レスポンシブデザイン ユニット変換",
+    "ピクセル rem 変換 無料",
+    "em px 計算機",
+    "css ユニット変換 npm",
+    "px vw css ユニット変換",
+    "px rem css ユニット変換",
+    "px rem 変換 即座 双方向",
+    "px rem 変換 オンライン",
+    "px rem 変換 w3",
+    "px rem 変換 css",
+    "px rem 変換 vscode",
+    "px rem 変換 拡張機能",
+    "px rem 変換 w3schools",
+    "px em 変換 オンライン",
+    "px 変換 em cm"
+  ],
+  "category": "Developer",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "pxからremへの計算式は？",
+      "answer": "rem = px ÷ ベースフォントサイズ。ブラウザのデフォルトベースフォントサイズは16pxなので、32px = 2remです。このツールでベースサイズを変更して、プロジェクトに合わせることができます。"
+    },
+    {
+      "question": "remとemの違いは何ですか？",
+      "answer": "rem（ルートem）はルート要素のフォントサイズに相対的です。emは現在の要素のフォントサイズに相対的で、カスケードして予期しない結果を招くことがあります。一貫性のあるレスポンシブレイアウトにはremが一般的に推奨されます。"
+    },
+    {
+      "question": "pxからvwに変換するにはどうしますか？",
+      "answer": "vw = (px ÷ ビューポート幅) × 100。このツールにビューポート幅を入力するだけで、vw値が自動的に計算されます。"
+    }
+  ],
+  "relatedTools": [
+    "css-variables-generator",
+    "typography-compare-lab",
+    "color-palette-lab"
+  ],
+  "variants": []
+}

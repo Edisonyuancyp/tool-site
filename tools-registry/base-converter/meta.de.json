@@ -1,20 +1,48 @@
 {
   "slug": "base-converter",
-  "name": "Zahlensystem-Konverter",
-  "tagline": "Binär, Oktal, Dezimal, Hexadezimal umrechnen",
-  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
-  "metaTitle": "Zahlensystem-Konverter – Online Binär/Hex-Konverter",
-  "metaDescription": "Zahlensystem-Konvertierung von Basis 2–64. Binär, Oktal, Dezimal, Hexadezimal, Base58 und mehr.",
+  "name": "Zahlenbasis-Umrechner",
+  "tagline": "Konvertieren Sie Zahlen zwischen beliebigen Basen — Binär, Oktal, Dezimal, Hexadezimal und mehr",
+  "description": "Konvertieren Sie ganze Zahlen zwischen den Basen 2 bis 64, einschließlich Binär, Oktal, Dezimal, Hexadezimal, Base58 und Base64. Nutzt BigInt für unbegrenzte Präzision. Zeigt formatierte Ausgabe mit Nibble- und Byte-Abstände.",
+  "metaTitle": "Zahlenbasis-Umrechner – Binär, Oktal, Dezimal, Hexadezimal & alle Basen",
+  "metaDescription": "Kostenloser Zahlenbasis-Umrechner. Konvertieren Sie zwischen Binär, Oktal, Dezimal, Hexadezimal, Base32, Base36 und allen Basen 2–36. Sofortige Ergebnisse, BigInt-Präzision.",
   "keywords": [
-    "Zahlensystem Konverter",
-    "Binär umrechnen",
-    "Hexadezimal Rechner",
-    "Oktal berechnen",
-    "Zahlenbasis Konverter"
+    "zahlenbasis umrechner",
+    "binär zu dezimal umrechner",
+    "hexadezimal zu dezimal umrechner",
+    "dezimal zu binär umrechner",
+    "basis-umrechnung rechner",
+    "in basis 10 konvertieren rechner",
+    "basis 10 zu basis 2 umrechner",
+    "basis 16 zu basis 10 konvertieren",
+    "basis 10 zu basis 2 formel",
+    "binär oktal hexadezimal umrechner",
+    "oktal zu dezimal umrechner",
+    "dezimal zu hexadezimal umrechner",
+    "basis 2 zu basis 16 umrechner",
+    "hexadezimal zu binär umrechner",
+    "zahlensystem umrechner online",
+    "zahlenbasis-umrechner online",
+    "zahlenbasis-umrechner taschenrechner",
+    "zahlenbasis-umrechner python",
+    "zahlenbasis-umrechner mit schritten",
+    "zahlensystem basis umrechner"
   ],
-  "category": "Entwicklung",
+  "category": "Developer",
   "icon": "🔢",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Welche Basen werden unterstützt?",
+      "answer": "Alle ganzzahligen Basen von 2 bis 64, einschließlich Binär (2), Oktal (8), Dezimal (10), Hexadezimal (16), Base32 (32), Base36 (36), Base58 (Bitcoin, 58) und Base64 (64)."
+    },
+    {
+      "question": "Wofür wird Hexadezimal verwendet?",
+      "answer": "Hexadezimal ist in der Informatik allgegenwärtig: Speicheradressen, Farbcodes (#FF5733), Byte-Werte, Hash-Ausgaben (MD5, SHA256) und CPU-Befehlssätze."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Base58 und Base64?",
+      "answer": "Base58 lässt visuell mehrdeutige Zeichen (0, O, I, l) weg, um menschliche Abschreibefehler zu vermeiden. Base64 verwendet das vollständige 64-Zeichen-Alphabet und ist für die Datenkodierung von Maschine zu Maschine konzipiert."
+    }
+  ],
   "relatedTools": [
     "base64-tool",
     "unix-timestamp-converter",

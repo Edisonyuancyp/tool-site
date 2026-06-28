@@ -1,0 +1,36 @@
+{
+  "slug": "palette-saas",
+  "name": "Paleta de Cores Minimalista SaaS",
+  "tagline": "Paleta limpa e de alto contraste usada por produtos SaaS modernos. Cinzas neutros âncoras em um acento índigo confiante.",
+  "description": "Paleta limpa e de alto contraste usada por produtos SaaS modernos. Cinzas neutros âncoras em um acento índigo confiante.",
+  "metaTitle": "Paleta de Cores SaaS Minimalista – Referência HEX, CMYK, Tailwind e Pantone",
+  "metaDescription": "Paleta de cores SaaS minimalista gratuita com códigos HEX, classes Tailwind CSS, valores CMYK e referências aproximadas Pantone. Copie qualquer cor instantaneamente.",
+  "keywords": [
+    "paleta de cores SaaS minimalista",
+    "esquema de cores SaaS minimalista",
+    "códigos HEX SaaS minimalista",
+    "#6366F1",
+    "#A5B4FC",
+    "#F9FAFB",
+    "correspondência Pantone",
+    "conversão CMYK",
+    "paleta de cores web",
+    "esquema Tailwind CSS"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "As referências Pantone são correspondências exatas?",
+      "answer": "Não. Os códigos Pantone mostrados são as aproximações visuais mais próximas. Para trabalhos de impressão em produção, sempre verifique contra um Leque Pantone físico."
+    },
+    {
+      "question": "Como os valores CMYK são calculados?",
+      "answer": "Os valores CMYK usam a fórmula independente de dispositivo: K = 1 − max(R,G,B); C/M/Y derivados de proporções RGB. A saída real depende do perfil da impressora e do papel."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

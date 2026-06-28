@@ -1,23 +1,46 @@
 {
   "slug": "fitness-age-calculator",
   "name": "健身年龄计算器",
-  "tagline": "测算您的生理年龄和健康状态",
-  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
-  "metaTitle": "健身年龄计算器 – 生理年龄测评工具",
-  "metaDescription": "通过心率、BMI、体力活动等指标估算您的生理年龄，了解身体实际健康状态。",
+  "tagline": "立即发现您的健身年龄！",
+  "description": "该工具根据您的体育活动水平和健康指标计算您的健身年龄。非常适合想要了解自己相对于实际年龄的健身水平的个人使用。",
+  "metaTitle": "健身年龄计算器 – 评估您的健康状况 | 免费在线工具",
+  "metaDescription": "免费即时计算您的健身年龄，无需注册。通过简单易用的工具了解您的健康状况。",
   "keywords": [
+    "健身年龄",
+    "计算健身年龄",
+    "健康指标",
+    "活动水平",
+    "健身评估",
     "健身年龄计算器",
-    "生理年龄测试",
-    "健康年龄计算",
-    "体能年龄",
-    "身体年龄测评"
+    "Garmin健身年龄计算器",
+    "VO2Max健身年龄计算器",
+    "按年龄性别健身年龄计算器",
+    "VO2Max健身年龄计算",
+    "Apple Watch健身年龄计算器",
+    "女性健身年龄计算器",
+    "英国健身年龄计算器",
+    "免费健身年龄计算器",
+    "免费VO2Max健身年龄计算器",
+    "如何计算健身年龄",
+    "Garmin健身年龄",
+    "Apple Watch健身年龄",
+    "Garmin健身年龄下降",
+    "从VO2Max计算健身年龄"
   ],
-  "category": "健身",
+  "category": "Fitness",
   "icon": "🧘",
   "faqs": [
     {
-      "question": "生理年龄和实际年龄有什么不同？",
-      "answer": "生理年龄反映身体机能状态，规律运动的人生理年龄往往低于实际年龄。"
+      "question": "健身年龄是如何计算的？",
+      "answer": "健身年龄通过分析各种健康指标和活动水平来确定，提供一个反映您健身状况的年龄数值。"
+    },
+    {
+      "question": "这个工具准确吗？",
+      "answer": "虽然它提供了一个很好的估计，但个人结果可能会因个人健康因素而异。"
+    },
+    {
+      "question": "我能改善我的健身年龄吗？",
+      "answer": "可以的，通过增加您的身体活动和保持健康的生活方式，您可以降低您的健身年龄。"
     }
   ],
   "relatedTools": [

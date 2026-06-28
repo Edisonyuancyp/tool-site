@@ -1,23 +1,46 @@
 {
   "slug": "sleep-calculator",
   "name": "Calculadora de Sono",
-  "tagline": "Calcule os horários ideais de dormir e acordar",
-  "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
-  "metaTitle": "Calculadora de Sono – Ferramenta de Cálculo de Ciclos do Sono",
-  "metaDescription": "Insira o horário de acordar para calcular o horário ideal de dormir com base em ciclos de 90 minutos – ou vice-versa.",
+  "tagline": "Encontre o melhor horário para acordar ou dormir",
+  "description": "Calcule o melhor horário para dormir ou acordar com base em ciclos de sono de 90 minutos. Acordar entre ciclos é muito mais refrescante do que ser despertado no meio de um ciclo.",
+  "metaTitle": "Calculadora de Sono – Melhor Horário para Dormir e Acordar",
+  "metaDescription": "Encontre o melhor horário para acordar ou dormir com base em ciclos de sono de 90 minutos. Calculadora de sono gratuita — acorde revigorado todos os dias.",
   "keywords": [
     "calculadora de sono",
-    "ciclo do sono",
-    "horário para dormir",
+    "calculadora de hora para acordar",
+    "calculadora de hora para dormir",
+    "calculadora de ciclo de sono",
     "melhor hora para acordar",
-    "qualidade do sono"
+    "calculadora de sono ciclo",
+    "calculadora de sono por idade",
+    "calculadora de sono por hora",
+    "calculadora de horas de sono",
+    "app calculadora de sono",
+    "calculadora de sono quando acordar",
+    "calculadora de sono online",
+    "calculadora de ciclo de sono online",
+    "calculadora de hora de sono online",
+    "calculadora de sono online gratuita",
+    "calculadora de sono grátis",
+    "calculadora de sono grátis por idade",
+    "app calculadora de sono grátis",
+    "calculadora de ciclo de sono grátis",
+    "calculadora de débito de sono grátis"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "😴",
   "faqs": [
     {
-      "question": "Quanto dura um ciclo de sono?",
-      "answer": "Um ciclo de sono completo dura cerca de 90 minutos e inclui as fases de sono leve, profundo e REM."
+      "question": "Como funciona a calculadora de ciclo de sono?",
+      "answer": "O sono ocorre em ciclos de 90 minutos. Acordar ao final de um ciclo (em vez de no meio) faz você se sentir mais descansado. A calculadora adiciona 14 minutos para o tempo médio de início do sono."
+    },
+    {
+      "question": "Quantos ciclos de sono devo ter?",
+      "answer": "A maioria dos adultos se sente melhor com 5 a 6 ciclos completos de sono (7,5 a 9 horas). Adolescentes precisam de mais — geralmente 6 a 8 ciclos."
+    },
+    {
+      "question": "A que hora devo dormir para acordar às 6 da manhã?",
+      "answer": "Para acordar às 6:00 da manhã se sentindo revigorado, durma às 20:46, 22:16, 23:46 ou 1:16 — cada horário representa um número completo de ciclos de 90 minutos antes da sua hora de acordar."
     }
   ],
   "relatedTools": [

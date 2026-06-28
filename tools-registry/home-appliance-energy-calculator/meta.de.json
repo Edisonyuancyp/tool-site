@@ -1,0 +1,51 @@
+{
+  "slug": "home-appliance-energy-calculator",
+  "name": "Stromverbrauch Haushaltsgeräte Rechner",
+  "tagline": "Berechnen Sie die Energiekosten Ihrer Haushaltsgeräte.",
+  "description": "Schätzen Sie den Stromverbrauch und die Kosten Ihrer Haushaltsgeräte. Dieses Tool ist ideal für Hausbesitzer, die ihre Energierechnungen senken möchten, indem sie ihren Gerätegebrauch besser verstehen.",
+  "metaTitle": "Stromverbrauch Rechner für Haushaltsgeräte – Energiekosten sparen | Kostenlos",
+  "metaDescription": "Berechnen Sie kostenfrei die Energiekosten Ihrer Haushaltsgeräte. Sofortige Ergebnisse, keine Anmeldung erforderlich – sparen Sie bei Ihrer Stromrechnung.",
+  "keywords": [
+    "Stromkosten Haushaltsgeräte",
+    "Energierechner Haushalt",
+    "Stromverbrauch berechnen",
+    "Nebenkosten sparen",
+    "Haushaltsgeräte",
+    "Stromverbrauch Haushaltsgeräte Rechner",
+    "Energiekosten Rechner Geräte",
+    "Stromkosten Haushaltsgeräte Rechner",
+    "Standby Stromverbrauch Kosten",
+    "Phantom Load Stromkosten",
+    "Energieverbrauch Schätzer Haushalt",
+    "Energiekosten Haushaltsgeräte",
+    "Energierechner Haushalt",
+    "Stromrechner Deutschland",
+    "Energierechner Tabelle",
+    "Stromverbrauch Haushalt berechnen",
+    "Energieverbrauch Haushalt Rechner",
+    "Energiesanierung Rechner",
+    "Stromkostenrechner Haushalt",
+    "Energieverbrauch Rechner"
+  ],
+  "category": "Home",
+  "icon": "💡",
+  "faqs": [
+    {
+      "question": "Was kann ich mit diesem Tool berechnen?",
+      "answer": "Sie können den Stromverbrauch und die Energiekosten verschiedener Haushaltsgeräte berechnen."
+    },
+    {
+      "question": "Ist die Nutzung kostenlos?",
+      "answer": "Ja, die Nutzung ist völlig kostenlos und erfordert keine Anmeldung."
+    },
+    {
+      "question": "Wie genau sind die Ergebnisse?",
+      "answer": "Die Ergebnisse basieren auf standardisierten Nutzungsschätzungen; die tatsächlichen Kosten können abweichen."
+    }
+  ],
+  "relatedTools": [
+    "carbon-footprint-travel-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "work-life-balance-calculator",
   "name": "Calculadora de Equilíbrio Trabalho-Vida",
-  "tagline": "Avalie seu equilíbrio entre trabalho e vida pessoal",
-  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
-  "metaTitle": "Calculadora de Equilíbrio Trabalho-Vida – Ferramenta de Avaliação de Qualidade de Vida",
-  "metaDescription": "Use um questionário para avaliar seu equilíbrio trabalho-vida e receber recomendações de melhoria.",
+  "tagline": "Avalie seu equilíbrio trabalho-vida hoje",
+  "description": "Esta ferramenta avalia seu equilíbrio trabalho-vida analisando sua alocação de tempo entre atividades profissionais e pessoais. Ideal para quem busca melhorar seu bem-estar geral e produtividade.",
+  "metaTitle": "Calculadora de Equilíbrio Trabalho-Vida | Ferramenta Online Gratuita",
+  "metaDescription": "Avalie seu equilíbrio trabalho-vida com nossa calculadora gratuita, sem cadastro necessário, resultados instantâneos.",
   "keywords": [
     "equilíbrio trabalho-vida",
-    "qualidade de vida",
-    "estresse no trabalho",
-    "saúde no trabalho",
-    "bem-estar profissional"
+    "avaliação de equilíbrio",
+    "avaliação de produtividade",
+    "bem-estar pessoal",
+    "gestão de tempo",
+    "calculadora equilíbrio trabalho-vida",
+    "testes de avaliação de equilíbrio",
+    "avaliação de equilíbrio fisioterapia",
+    "avaliação de equilíbrio pdf",
+    "escala de avaliação de equilíbrio",
+    "ferramentas de avaliação de equilíbrio",
+    "teste de avaliação de equilíbrio",
+    "escalas de avaliação de equilíbrio",
+    "comentários avaliação de produtividade",
+    "exemplos comentários avaliação de produtividade",
+    "exemplos avaliação de produtividade",
+    "comentários avaliação de produtividade funcionários",
+    "exemplos comentários avaliação de produtividade funcionários",
+    "frases avaliação de produtividade",
+    "exemplo avaliação de produtividade"
   ],
-  "category": "Produtividade",
+  "category": "Productivity",
   "icon": "⚖️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como a calculadora funciona?",
+      "answer": "Você insere o tempo gasto em trabalho e atividades pessoais, e ela calcula seu equilíbrio."
+    },
+    {
+      "question": "Esta ferramenta é realmente gratuita?",
+      "answer": "Sim, não há taxas ou necessidade de cadastro para usar esta ferramenta."
+    },
+    {
+      "question": "Posso melhorar meu equilíbrio com base nos resultados?",
+      "answer": "Absolutamente! A ferramenta fornece insights sobre como gerenciar melhor seu tempo."
+    }
+  ],
   "relatedTools": [
     "daily-goal-tracker",
     "time-blocking-scheduler"

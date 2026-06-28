@@ -1,0 +1,46 @@
+{
+  "slug": "fba-fee-calculator",
+  "name": "Calculadora de Taxas FBA",
+  "tagline": "Calcule as taxas de fulfillment, referência e armazenamento da Amazon FBA por tier de tamanho",
+  "description": "Digite as dimensões, peso e categoria do seu produto para obter a taxa exata de fulfillment FBA, taxa de referência e taxa mensal de armazenamento — com o total de taxas em percentual do preço de venda.",
+  "metaTitle": "Calculadora de Taxas FBA 2024 – Calculadora de Fulfillment e Taxa de Referência Amazon",
+  "metaDescription": "Calculadora FBA grátis. Digite dimensões e peso para obter taxa de fulfillment, taxa de referência e custo de armazenamento. Atualizado para tabela de taxas Amazon 2024.",
+  "keywords": [
+    "calculadora taxas fba",
+    "calculadora taxas amazon fba",
+    "calculadora taxa fulfillment amazon",
+    "calculadora taxa referência amazon",
+    "estimador taxas fba 2024",
+    "calculadora custo amazon fba",
+    "calculadora taxas vendedor amazon",
+    "calculadora tier tamanho fba",
+    "calculadora taxa armazenamento amazon",
+    "taxas amazon fba por tamanho",
+    "taxa pick and pack fba",
+    "detalhamento taxas vendedor amazon",
+    "calculadora taxas fba 2024",
+    "estimador taxas produto amazon",
+    "calculadora cobranças fba"
+  ],
+  "category": "ecommerce",
+  "icon": "🏷️",
+  "faqs": [
+    {
+      "question": "Como são calculadas as taxas de fulfillment Amazon FBA?",
+      "answer": "As taxas FBA são baseadas no tier de tamanho, determinado pelo peso unitário e dimensões do produto. Itens maiores e mais pesados pagam mais. Existem 5 tiers padrão, de Small Standard até Large Oversize."
+    },
+    {
+      "question": "Qual é a taxa de referência da Amazon?",
+      "answer": "A Amazon cobra uma taxa de referência de 6–20% do preço de venda dependendo da categoria. A maioria das categorias é 15%. Eletrônicos e livros têm taxas menores de 6–8%."
+    },
+    {
+      "question": "Quanto a Amazon cobra pelo armazenamento?",
+      "answer": "O armazenamento tamanho padrão custa $0,87/pé cúbico jan–set e $2,40/pé cúbico out–dez. Itens oversized custam $0,56 e $1,40 respectivamente."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

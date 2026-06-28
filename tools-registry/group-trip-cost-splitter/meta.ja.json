@@ -1,20 +1,43 @@
 {
   "slug": "group-trip-cost-splitter",
-  "name": "グループ旅行費用分担計算機",
-  "tagline": "グループ旅行の費用を公平に分担",
-  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
-  "metaTitle": "旅行費用分担計算機 – グループ割り勘ツール",
-  "metaDescription": "グループ旅行の各費用と参加者を入力して、一人あたりの金額と支払い方向を自動計算。",
+  "name": "グループ旅行費用割り勘計算機",
+  "tagline": "友達との旅行費用を簡単に割り勘できます。",
+  "description": "旅行の総費用と旅行者数を入力すると、1人あたりの負担額が表示されます。個人の費用を追跡する手間なく、グループで一緒に休暇を計画するのに最適です。",
+  "metaTitle": "グループ旅行費用割り勘計算機 – 旅行費用の公平な割り勘 | 無料オンラインツール",
+  "metaDescription": "グループ旅行の費用を無料で簡単に割り勘できます。登録不要で、すぐに公平な費用配分結果が得られます！",
   "keywords": [
-    "旅行費用分担",
-    "割り勘計算",
-    "グループ旅行計算機",
-    "旅行費用割り勘",
-    "費用分担ツール"
+    "旅行費用割り勘計算",
+    "費用分割計算機",
+    "旅行費用計算",
+    "友達との旅行",
+    "割り勘ツール",
+    "費用分割エクセル",
+    "旅行費用割り勘計算機",
+    "オンライン費用分割計算",
+    "旅行ガソリン代計算",
+    "旅行燃料費計算",
+    "インド旅行費用計算",
+    "車での旅行費用計算",
+    "高速道路料金込み旅行費用計算",
+    "ガソリン代と高速料金計算",
+    "旅行費用割り勘アプリ"
   ],
-  "category": "旅行",
+  "category": "Travel",
   "icon": "👥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "割り勘計算機の使い方は？",
+      "answer": "旅行の総費用と旅行者数を入力すると、1人あたりの負担額が計算されます。"
+    },
+    {
+      "question": "複数の種類の費用を追加できますか？",
+      "answer": "現在のところ、このツールは1つの費用金額に基づいた割り勘を計算します。"
+    },
+    {
+      "question": "このツールは無料ですか？",
+      "answer": "はい、グループ旅行費用割り勘計算機は完全に無料でご利用いただけます。"
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

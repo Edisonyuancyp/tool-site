@@ -1,20 +1,48 @@
 {
   "slug": "savings-goal-calculator",
   "name": "储蓄目标计算器",
-  "tagline": "计算达到储蓄目标所需时间和月存款额",
-  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
-  "metaTitle": "储蓄目标计算器 – 理财目标规划工具",
-  "metaDescription": "输入目标金额、当前储蓄和利率，计算每月需存多少钱以及何时能达成目标。",
+  "tagline": "轻松规划您的储蓄！",
+  "description": "该计算器帮助用户设定储蓄目标，并确定每月需要储蓄多少才能达到目标。适合计划度假、进行大额购买或建立应急基金的任何人使用。",
+  "metaTitle": "储蓄目标计算器 – 规划您的储蓄 | 免费在线工具",
+  "metaDescription": "计算达成目标所需的每月储蓄金额。免费使用，无需注册，即时获得结果！",
   "keywords": [
+    "储蓄目标",
+    "每月储蓄计算器",
+    "财务规划",
+    "应急基金计算器",
+    "度假储蓄",
     "储蓄目标计算器",
-    "存钱计划工具",
-    "理财目标规划",
-    "每月存款计算",
-    "储蓄计划"
+    "无利息储蓄目标计算器",
+    "月度储蓄目标计算器",
+    "有利息储蓄目标计算器",
+    "双周储蓄目标计算器",
+    "英国储蓄目标计算器",
+    "考虑通胀的储蓄目标计算器",
+    "加拿大储蓄目标计算器",
+    "在线储蓄目标计算器",
+    "免费储蓄目标计算器",
+    "储蓄目标应用",
+    "储蓄目标应用APK",
+    "储蓄目标",
+    "储蓄目标跟踪器",
+    "储蓄目标电子表格"
   ],
-  "category": "金融",
+  "category": "Finance",
   "icon": "🏦",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "储蓄目标计算器如何工作？",
+      "answer": "输入您的储蓄目标金额和目标日期，计算器将显示您每月需要储蓄多少才能达到目标。"
+    },
+    {
+      "question": "开始后可以调整目标吗？",
+      "answer": "可以，您可以随时修改目标金额和时间表，以反映您当前的财务状况。"
+    },
+    {
+      "question": "这个工具是否适合所有类型的储蓄目标？",
+      "answer": "完全适合！无论是短期目标还是长期投资，该计算器都可以帮助您进行规划。"
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "investment-return-calculator"

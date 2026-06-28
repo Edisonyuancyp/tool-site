@@ -1,0 +1,36 @@
+{
+  "slug": "palette-retro-film",
+  "name": "复古胶片色卡",
+  "tagline": "受模拟摄影启发的温暖褪色调。土黄琥珀色、尘粉玫瑰色和陈旧米白色。",
+  "description": "受模拟摄影启发的温暖褪色调。土黄琥珀色、尘粉玫瑰色和陈旧米白色。",
+  "metaTitle": "复古胶片色卡 – HEX、CMYK、Tailwind 和 Pantone 色号参考",
+  "metaDescription": "免费复古胶片色卡，包含 HEX 代码、Tailwind CSS 类名、CMYK 数值和 Pantone 近似色号。一键复制任意颜色。",
+  "keywords": [
+    "复古胶片色卡",
+    "复古胶片配色方案",
+    "复古胶片 HEX 代码",
+    "#D97706",
+    "#FDA4AF",
+    "#FEF3C7",
+    "Pantone 色号匹配",
+    "CMYK 转换",
+    "网页配色板",
+    "Tailwind CSS 配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone 色号参考是精确匹配吗？",
+      "answer": "否。所示的 Pantone 色号为最接近的视觉近似值。对于生产印刷工作，请始终对照实物 Pantone 色卡进行验证。"
+    },
+    {
+      "question": "CMYK 数值如何计算？",
+      "answer": "CMYK 数值采用独立于设备的公式计算：K = 1 − max(R,G,B)；C/M/Y 由 RGB 比例推导。实际输出效果取决于打印机配置文件和纸张类型。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "macro-tracker-calculator",
-  "name": "Makronährstoffrechner",
-  "tagline": "Täglichen Protein-, Fett- und Kohlenhydratbedarf berechnen",
-  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
-  "metaTitle": "Makronährstoffrechner – Drei-Nährstoffe-Berechnungstool",
-  "metaDescription": "Basierend auf Gewichtsziel und Aktivitätsniveau die täglichen Kalorien und drei Makronährstoffe (Protein/Fett/Kohlenhydrate) berechnen.",
+  "name": "Makro Tracker Rechner",
+  "tagline": "Verfolgen Sie Ihre Makronährstoffe effektiv!",
+  "description": "Dieser Rechner hilft Ihnen, Ihre Makronährstoffzufuhr basierend auf Ihren Fitnesszielen zu verfolgen, egal ob Muskelaufbau, Fettabbau oder Gewichtsstabilisierung. Ideal für Fitness-Enthusiasten und Personen, die sich speziellen Diäten unterziehen.",
+  "metaTitle": "Makro Tracker Rechner – Nährstoffverwaltung | Kostenloses Tool",
+  "metaDescription": "Verfolgen Sie Ihre Makros kostenlos mit diesem sofortigen Rechner. Keine Anmeldung erforderlich, geben Sie einfach Ihre Ziele ein und starten Sie!",
   "keywords": [
-    "Makronährstoffrechner",
-    "Makros berechnen",
-    "Proteinbedarf berechnen",
-    "Diät Nährstoffe",
-    "Fitness Ernährungsrechner"
+    "makro verfolgung",
+    "makronährstoffe rechner",
+    "ernährungsplanung",
+    "fitnessziele",
+    "ernährung",
+    "makro tracker rechner",
+    "kostenloser makro rechner und tracker",
+    "bester makro rechner tracker",
+    "kalorien und makro rechner tracker",
+    "makro tracking app",
+    "makro tracking app kostenlos",
+    "makro tracking app reddit",
+    "makro tracking tabelle",
+    "makro tracking zur gewichtsabnahme",
+    "makro tracking bedeutung",
+    "makro tracking rechner",
+    "makronährstoffe rechner lebensmittel",
+    "makronährstoffe rechner bodybuilding",
+    "makronährstoffe rechner gewichtsverlust",
+    "makronährstoffe rechner app"
   ],
   "category": "Fitness",
   "icon": "🍏",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was sind Makronährstoffe?",
+      "answer": "Makronährstoffe umfassen Proteine, Fette und Kohlenhydrate, die für Energie und Wachstum unerlässlich sind."
+    },
+    {
+      "question": "Wie verwende ich diesen Rechner?",
+      "answer": "Geben Sie einfach Ihre Fitnessziele ein, und der Rechner liefert Ihnen die benötigte Makronährstoffverteilung."
+    },
+    {
+      "question": "Kann ich meine Ziele später anpassen?",
+      "answer": "Ja, Sie können den Rechner jederzeit erneut aufrufen, Ihre Ziele anpassen und sehen, wie sich Ihre Makros verändern."
+    }
+  ],
   "relatedTools": [
     "bmr-tdee-calculator",
     "ideal-weight-calculator"

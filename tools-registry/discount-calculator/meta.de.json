@@ -1,0 +1,52 @@
+{
+  "slug": "discount-calculator",
+  "name": "Rabattrechner",
+  "tagline": "Berechnen Sie Verkaufspreis, Ersparnis und Originalpreis aus jedem Rabatt-Prozentsatz",
+  "description": "Berechnen Sie den reduzierten Preis aus einem Prozentsatz-Rabatt, finden Sie den Originalpreis aus einem Verkaufspreis heraus, oder ermitteln Sie, welcher Prozentsatz-Rabatt angewendet wurde. Sofortige Ergebnisse für Käufer, Einzelhändler und Marketingfachleute.",
+  "metaTitle": "Rabattrechner – Verkaufspreis & Originalpreis | GetFastCalc",
+  "metaDescription": "Kostenloser Rabattrechner. Berechnen Sie den Verkaufspreis aus %, ermitteln Sie Originalpreise rückwärts oder finden Sie den Rabatt-Prozentsatz. Sofort, keine Anmeldung erforderlich.",
+  "keywords": [
+    "rabattrechner",
+    "verkaufspreis rechner",
+    "prozent rabatt rechner",
+    "originalpreis rechner",
+    "rabatt rückwärts rechner",
+    "wie viel sind 20 prozent rabatt",
+    "rabatt prozentsatz rechner kostenlos",
+    "preis nach rabatt rechner",
+    "rabattrechner formel",
+    "rabattrechner online",
+    "rabattrechner mit steuern",
+    "rabattrechner prozentual",
+    "rabattrechner omni",
+    "rabattrechner app",
+    "rabattrechner preis",
+    "rabattrechner online indien",
+    "rabattrechner online kostenlos",
+    "rabatt prozentsatz rechner online",
+    "rabattrechner online rabattformel shiprocket",
+    "diskontfaktor rechner online"
+  ],
+  "category": "Finance",
+  "icon": "🏷️",
+  "faqs": [
+    {
+      "question": "Wie berechne ich einen prozentualen Rabatt?",
+      "answer": "Verkaufspreis = Originalpreis × (1 - Rabatt% / 100). Beispiel: 20% Rabatt auf 50 € = 50 € × 0,8 = 40 €."
+    },
+    {
+      "question": "Wie finde ich den Originalpreis aus einem reduzierten Preis heraus?",
+      "answer": "Originalpreis = Verkaufspreis ÷ (1 - Rabatt% / 100). Wenn etwas nach einem 20% Rabatt 40 € kostet, lag der Originalpreis bei 40 € ÷ 0,8 = 50 €."
+    },
+    {
+      "question": "Wie berechne ich, welcher prozentuale Rabatt angewendet wurde?",
+      "answer": "Rabatt% = ((Originalpreis - Verkaufspreis) / Originalpreis) × 100. Wenn ein Artikel von 80 € auf 60 € reduziert wurde, beträgt der Rabatt (20/80) × 100 = 25%."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "profit-margin-calculator",
+    "tax-calculator"
+  ],
+  "variants": []
+}

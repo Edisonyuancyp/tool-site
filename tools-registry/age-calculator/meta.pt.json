@@ -1,23 +1,50 @@
 {
   "slug": "age-calculator",
   "name": "Calculadora de Idade",
-  "tagline": "Calcule sua idade exata instantaneamente",
-  "description": "Calculate your exact age from your date of birth to today — or to any specific date. Get results in years, months, days, hours, and minutes instantly.",
-  "metaTitle": "Calculadora de Idade – Ferramenta Gratuita de Cálculo de Idade Online",
-  "metaDescription": "Insira sua data de nascimento e obtenha sua idade exata em anos, meses e dias. Grátis, sem cadastro.",
+  "tagline": "Descubra sua idade exata em anos, meses e dias",
+  "description": "Calcule sua idade exata a partir da sua data de nascimento até hoje — ou até qualquer data específica. Obtenha resultados em anos, meses, dias, horas e minutos instantaneamente.",
+  "metaTitle": "Calculadora de Idade – Calcule Sua Idade Exata Online Grátis",
+  "metaDescription": "Calcule sua idade exata a partir da data de nascimento. Descubra sua idade em anos, meses e dias instantaneamente. Calculadora de idade grátis — sem necessidade de cadastro.",
   "keywords": [
     "calculadora de idade",
-    "calcular idade",
-    "calculadora data de nascimento",
-    "quantos anos tenho",
-    "calculadora de idade online"
+    "calcular idade pela data de nascimento",
+    "quantos anos eu tenho",
+    "calculadora de idade exata",
+    "calculadora de data de nascimento",
+    "calculadora de idade por data de nascimento",
+    "calculadora de idade online",
+    "calculadora de idade por ano",
+    "calculadora de idade por data",
+    "calculadora de idade em anos",
+    "calculadora de idade por dias",
+    "calculadora de idade aniversário",
+    "calculadora de idade online pela data de nascimento",
+    "calculadora de idade online grátis",
+    "calculadora de idade online pela data de nascimento grátis",
+    "calculadora de idade online pela data de nascimento e hora",
+    "calculadora de idade online foto",
+    "calculadora de idade online pela data de nascimento em português",
+    "calculadora de idade online pela data de nascimento brasil",
+    "calculadora de idade grátis pela data de nascimento"
   ],
-  "category": "Data e Hora",
+  "category": "Date & Time",
   "icon": "📅",
   "faqs": [
     {
-      "question": "Como é calculada a idade?",
-      "answer": "O calculador computa a diferença entre sua data de nascimento e a data de hoje em anos, meses e dias, incluindo anos bissextos."
+      "question": "Como calculo minha idade exata?",
+      "answer": "Digite sua data de nascimento na calculadora de idade acima. Ela calculará a diferença precisa entre sua data de nascimento e hoje em anos, meses e dias."
+    },
+    {
+      "question": "Posso calcular a idade entre duas datas específicas?",
+      "answer": "Sim. Defina sua data inicial como a data de nascimento e sua data final como qualquer data alvo para encontrar a idade exata ou duração entre elas."
+    },
+    {
+      "question": "Quantos dias de idade eu tenho?",
+      "answer": "A calculadora mostra sua idade total em dias junto com anos e meses. Basta digitar sua data de nascimento para ver o resultado."
+    },
+    {
+      "question": "A calculadora de idade leva em conta anos bissextos?",
+      "answer": "Sim. A calculadora lida corretamente com anos bissextos ao calcular dias e durações totais."
     }
   ],
   "relatedTools": [

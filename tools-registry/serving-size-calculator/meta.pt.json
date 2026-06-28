@@ -1,20 +1,48 @@
 {
   "slug": "serving-size-calculator",
-  "name": "Calculadora de Porção",
-  "tagline": "Calcule tamanhos de porção e ingestão de nutrientes",
-  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
-  "metaTitle": "Calculadora de Porção – Ferramenta de Cálculo de Tamanho de Porção",
-  "metaDescription": "Com base no número de pessoas e na receita, calcule as quantidades de ingredientes e o conteúdo nutricional por porção.",
+  "name": "Calculadora de Porções",
+  "tagline": "Ajuste receitas para qualquer número de porções.",
+  "description": "Calcule a quantidade de ingredientes necessários para o tamanho de porção desejado. Perfeito para aumentar ou diminuir receitas para reuniões ou preparação de refeições.",
+  "metaTitle": "Calculadora de Porções – Ajuste Receitas e Ingredientes | Ferramenta Grátis",
+  "metaDescription": "Ajuste ingredientes conforme as porções com nossa ferramenta gratuita. Sem cadastro necessário.",
   "keywords": [
-    "calculadora de porção",
-    "tamanho de porção",
-    "quantidade de ingredientes",
-    "porção por pessoa",
-    "nutrientes por porção"
+    "calculadora de porções",
+    "escala de receitas",
+    "calculadora de porções receitas",
+    "ajuste de receitas",
+    "preparo de refeições",
+    "calculadora de porções em gramas",
+    "aplicativo calculadora de porções",
+    "calculadora de porções bebidas",
+    "calculadora de porções alimentos",
+    "calculadora de porções pet",
+    "receita calculadora de porções grátis",
+    "como calcular tamanho de porção",
+    "escala de receita calculadora",
+    "significado escala de receita",
+    "aplicativo escala de receita",
+    "fórmula escala de receita",
+    "ferramenta escala de receita",
+    "guia rápido escala receita",
+    "planilha escala de receita",
+    "aplicativo calculadora de porções"
   ],
-  "category": "Culinária",
+  "category": "Cooking",
   "icon": "🍽️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como faço para escalar uma receita?",
+      "answer": "Digite o tamanho original da porção e o tamanho de porção desejado para obter as quantidades precisas de ingredientes."
+    },
+    {
+      "question": "Funciona para qualquer receita?",
+      "answer": "Sim, funciona para a maioria das receitas, fazendo ajustes para qualquer ingrediente."
+    },
+    {
+      "question": "E se eu quiser ajustar apenas um ingrediente?",
+      "answer": "Você pode ajustar ingredientes individuais inserindo suas quantidades originais e as porções desejadas."
+    }
+  ],
   "relatedTools": [
     "body-fat-calculator",
     "daily-goal-tracker"

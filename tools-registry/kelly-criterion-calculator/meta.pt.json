@@ -1,0 +1,40 @@
+{
+  "slug": "kelly-criterion-calculator",
+  "name": "Calculadora Kelly Criterion",
+  "tagline": "Calcule o tamanho ótimo de aposta usando a fórmula de Kelly — maximize o crescimento a longo prazo",
+  "description": "Digite sua probabilidade de ganho e proporção de ganho/perda para obter a porcentagem de Kelly — a fração matematicamente ótima do seu capital para arriscar por operação. Inclui saídas de Kelly completo, meio Kelly e quarter Kelly.",
+  "metaTitle": "Calculadora Kelly Criterion – Tamanho Ótimo de Posição para Trading",
+  "metaDescription": "Calculadora Kelly Criterion gratuita. Digite sua taxa de ganho e proporção de payoff para encontrar o tamanho de aposta ótimo para crescimento de capital a longo prazo. Funciona para trading, poker e apostas esportivas.",
+  "keywords": [
+    "calculadora kelly criterion",
+    "fórmula de kelly",
+    "tamanho ótimo de aposta",
+    "fração de kelly",
+    "dimensionamento de posição kelly",
+    "kelly criterion trading",
+    "meio kelly",
+    "calculadora de gerenciamento de bankroll"
+  ],
+  "category": "Quant",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "O que é o Kelly Criterion?",
+      "answer": "O Kelly Criterion é uma fórmula que determina a fração ótima do seu capital para apostar em uma oportunidade com valor esperado positivo, a fim de maximizar a taxa de crescimento a longo prazo."
+    },
+    {
+      "question": "O que é Meio Kelly?",
+      "answer": "Meio Kelly significa apostar metade do tamanho recomendado por Kelly. Reduz significativamente a volatilidade enquanto captura ~75% da taxa de crescimento — popular entre traders profissionais."
+    },
+    {
+      "question": "E se o resultado do Kelly for negativo?",
+      "answer": "Um valor negativo de Kelly significa que a margem é negativa — você não tem vantagem matemática e não deve fazer a operação."
+    }
+  ],
+  "relatedTools": [
+    "position-size-calculator",
+    "risk-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

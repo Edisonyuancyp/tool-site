@@ -1,20 +1,48 @@
 {
   "slug": "cooking-time-calculator",
   "name": "烹饪时间计算器",
-  "tagline": "根据食材重量计算烹饪时间",
-  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
-  "metaTitle": "烹饪时间计算器 – 烤肉/烹饪时长计算工具",
-  "metaDescription": "输入食材重量和种类，计算推荐烹饪时间和温度，确保食物安全熟透。",
+  "tagline": "轻松计算烹饪时间。",
+  "description": "根据重量和烹饪方法确定各种肉类和菜肴的理想烹饪时间。非常适合想要避免食物未熟或过熟的家庭厨师。",
+  "metaTitle": "烹饪时间计算器 - 最佳烹饪时间 | 免费在线工具",
+  "metaDescription": "使用我们的烹饪时间计算器获得准确的烹饪时间。免费工具，无需注册，立即获得结果。",
   "keywords": [
     "烹饪时间计算器",
-    "烤肉时间计算",
-    "食物烹饪时长",
-    "烹饪温度计算",
-    "烘焙时间计算"
+    "肉类烹饪时间",
+    "食谱烹饪时间",
+    "理想烹饪时间",
+    "羊腿烹饪时间计算器",
+    "羊肉烹饪时间计算器",
+    "牛肉烹饪时间计算器",
+    "按重量烹饪时间计算器",
+    "不同温度烹饪时间计算器",
+    "火腿烹饪时间计算器",
+    "鸡肉烹饪时间计算器",
+    "散养火鸡烹饪时间计算器",
+    "肉类烹饪时间",
+    "肉类烹饪时间计算器",
+    "肉类烹饪时间和温度表PDF",
+    "肉类烹饪计时器",
+    "肉类烹饪时间和温度对照表",
+    "肉类烹饪时间BBC",
+    "肉类烹饪时间表",
+    "肉类烹饪时间计算器英国BBC"
   ],
-  "category": "烹饪",
+  "category": "Cooking",
   "icon": "⏲️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "如何使用烹饪时间计算器？",
+      "answer": "只需输入肉类或菜肴的种类、重量，然后选择烹饪方法，即可获得理想的烹饪时间。"
+    },
+    {
+      "question": "这个计算器对所有食谱都准确吗？",
+      "answer": "虽然它提供了很好的参考指南，但烹饪时间可能因具体食谱和设备而异。"
+    },
+    {
+      "question": "我可以用它来烘焙吗？",
+      "answer": "该工具主要专注于烹饪肉类和主菜，但也可以为某些烘焙食品提供参考。"
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "loan-calculator"

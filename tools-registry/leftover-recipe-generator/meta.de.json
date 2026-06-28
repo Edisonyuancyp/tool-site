@@ -1,20 +1,48 @@
 {
   "slug": "leftover-recipe-generator",
   "name": "Resteverwertungs-Rezeptgenerator",
-  "tagline": "Aus Resten neue Rezepte erstellen",
-  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
-  "metaTitle": "Resteverwertungs-Rezeptgenerator – Restezutaten Rezept-Tool",
-  "metaDescription": "Vorhandene Reste eingeben und Koch­rezept-Vorschläge erhalten, um Lebensmittelverschwendung zu reduzieren.",
+  "tagline": "Verwandeln Sie Reste in köstliche Mahlzeiten.",
+  "description": "Geben Sie Ihre Lebensmittelreste ein und erhalten Sie kreative Rezeptideen, um diese aufzubrauchen. Perfekt zur Vermeidung von Lebensmittelverschwendung und zur optimalen Nutzung Ihrer Vorräte.",
+  "metaTitle": "Resteverwertungs-Rezeptgenerator – Kreative Rezeptideen kostenlos online",
+  "metaDescription": "Generieren Sie Rezepte aus Ihren Resten mit diesem kostenlosen Tool. Keine Anmeldung erforderlich.",
   "keywords": [
-    "Reste Rezepte",
-    "Resteverwertung",
-    "Kühlschrank Rezept",
-    "Lebensmittelverschwendung reduzieren",
-    "Resto Ideen"
+    "Resteverwertung Rezepte",
+    "Kochen mit Resten",
+    "Rezeptideen aus Resten",
+    "Resteverwertungs-Rezeptgenerator",
+    "Lebensmittelreste Rezeptgenerator",
+    "Zutaten Rezeptgenerator",
+    "Hühnchen Resteverwertung Rezepte",
+    "Schinken Resteverwertung Rezepte",
+    "Steak Resteverwertung Rezepte",
+    "Truthahn Resteverwertung Rezepte",
+    "Schweinefleisch Resteverwertung Rezepte",
+    "Lachs Resteverwertung Rezepte",
+    "Brisket Resteverwertung Rezepte",
+    "Kochen mit Resten Fernsehshow",
+    "Kochen mit Resten Kochbuch",
+    "Kochen mit Resten Buch",
+    "Truthahn Reste verwerten",
+    "Kochbewerb mit Resten",
+    "Hühnchen Reste kochen",
+    "Resteverwertung von Grund auf"
   ],
-  "category": "Kochen",
+  "category": "Cooking",
   "icon": "🥡",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Resteverwertungs-Rezeptgenerator?",
+      "answer": "Geben Sie einfach die Zutaten ein, die Sie übrig haben, und der Generator schlägt mögliche Rezepte vor."
+    },
+    {
+      "question": "Kann ich mehrere Reste eingeben?",
+      "answer": "Ja, Sie können so viele Lebensmittelreste wie gewünscht eingeben und erhalten maßgeschneiderte Rezeptvorschläge."
+    },
+    {
+      "question": "Sind die Rezepte einfach zu folgen?",
+      "answer": "Die vorgeschlagenen Rezepte sind in der Regel einfach und für schnelle Zubereitung konzipiert."
+    }
+  ],
   "relatedTools": [
     "cooking-time-calculator",
     "ingredient-substitution-calculator"

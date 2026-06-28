@@ -1,0 +1,46 @@
+{
+  "slug": "amazon-acos-calculator",
+  "name": "Amazon ACoS Rechner",
+  "tagline": "Berechnen Sie ACoS, TACoS, maximales CPC-Gebot und echte Werberentabilität",
+  "description": "Berechnen Sie Ihre Amazon Advertising Cost of Sale (ACoS) und Total ACoS (TACoS), ermitteln Sie das maximale profitable CPC-Gebot basierend auf Ihrer Konversionsrate und Gewinnmarge, und prüfen Sie, ob Ihre Kampagnen rentabel sind.",
+  "metaTitle": "Amazon ACoS Rechner – CPC-Gebot & TACoS Rechner",
+  "metaDescription": "Kostenloser Amazon ACoS Rechner. Berechnen Sie ACoS, TACoS, maximales CPC-Gebot und echten Gewinn nach Werbeausgaben. Für Amazon PPC Verkäufer.",
+  "keywords": [
+    "Amazon ACoS Rechner",
+    "ACoS Rechner Amazon",
+    "Amazon PPC ACoS",
+    "TACoS Amazon Rechner",
+    "maximales CPC Gebot Rechner Amazon",
+    "Amazon Advertising Cost of Sale",
+    "profitabler ACoS Amazon",
+    "Amazon PPC Rentabilitätsrechner",
+    "Break-Even ACoS Rechner",
+    "Amazon Sponsored Products Rechner",
+    "FBA Werbeausgaben Rechner",
+    "Amazon PPC Gebots-Rechner",
+    "ACoS vs TACoS Amazon",
+    "Amazon PPC ROI Rechner",
+    "Amazon Verkäufer ACoS"
+  ],
+  "category": "ecommerce",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Was ist ein guter ACoS für Amazon?",
+      "answer": "Ein guter ACoS hängt von Ihrer Gewinnmarge ab. Der Break-Even-ACoS entspricht Ihrer Bruttomarge. Wenn Ihre Marge beispielsweise 30 % beträgt, ist jeder ACoS unter 30 % rentabel. Die meisten Verkäufer streben einen ACoS von 15–25 % an."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen ACoS und TACoS?",
+      "answer": "ACoS (Advertising Cost of Sale) = Werbeausgaben ÷ Werbeeinnahmen. TACoS (Total ACoS) = Werbeausgaben ÷ Gesamteinnahmen (einschließlich organische Verkäufe). TACoS ist ein besserer Indikator für die Gesamteffizienz Ihrer Werbung, wenn Ihre Marke wächst."
+    },
+    {
+      "question": "Wie berechne ich das maximale CPC-Gebot?",
+      "answer": "Max CPC = (Verkaufspreis × Ziel-ACoS × Konversionsrate). Beispiel: 30 € Preis × 20 % Ziel-ACoS × 10 % Konversionsrate = 0,60 € maximales Gebot."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

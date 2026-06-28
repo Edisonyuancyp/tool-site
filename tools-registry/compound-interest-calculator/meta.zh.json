@@ -1,27 +1,50 @@
 {
   "slug": "compound-interest-calculator",
   "name": "复利计算器",
-  "tagline": "计算投资的复利增长",
-  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
-  "metaTitle": "复利计算器 – 在线免费复利计算",
-  "metaDescription": "输入本金、利率、期限和复利频率，立即计算最终金额和利息收益。",
+  "tagline": "了解您的资金如何随时间推移通过复利增长",
+  "description": "计算复利，支持可选的每月投资。输入您的本金、年利率、投资期限和复利频率，即可查看最终余额、获得的总利息以及逐年增长图表。",
+  "metaTitle": "复利计算器 – 免费投资增长计算工具",
+  "metaDescription": "在线复利计算器。输入本金、利率、年限和每月投资额，查看您的投资增长情况。提供图表展示的免费复利计算工具。",
   "keywords": [
     "复利计算器",
-    "复利计算",
-    "投资收益计算器",
-    "复息计算",
-    "理财计算器"
+    "投资计算器",
+    "复利公式",
+    "储蓄计算器",
+    "利息计算器在线",
+    "复利计算器金融导师",
+    "英国复利计算器",
+    "按月复利计算器",
+    "复利计算器投资者",
+    "在线复利计算器",
+    "印度在线复利计算器",
+    "免费在线复利计算器",
+    "按月在线复利计算器",
+    "2026年印度在线复利计算器",
+    "卢比在线复利计算器",
+    "复利公式在线计算器",
+    "复利率在线计算器",
+    "免费复利计算器",
+    "带提取功能的免费复利计算器",
+    "英国免费复利计算器"
   ],
-  "category": "金融",
+  "category": "Finance",
   "icon": "📈",
   "faqs": [
     {
       "question": "什么是复利？",
-      "answer": "复利是指利息也产生利息，本金和之前的利息一起产生新的收益。"
+      "answer": "复利是根据初始本金和以前各期累积利息计算的利息。随着时间推移，它会呈指数增长。"
     },
     {
-      "question": "复利频率越高越好吗？",
-      "answer": "是的，复利越频繁（日复利 > 月复利 > 年复利），最终金额越多。"
+      "question": "利息应该多久复利一次？",
+      "answer": "复利频率越高，收益越略高。日复利收益最高，但与月复利的差异很小。大多数储蓄账户和投资产品按月复利。"
+    },
+    {
+      "question": "72法则是什么？",
+      "answer": "用72除以您的年利率，即可估算资金翻倍需要的年数。在6%的利率下，您的资金大约在12年内翻倍。"
+    },
+    {
+      "question": "这个计算器是否包括每月投资？",
+      "answer": "是的。您可以添加每月投资金额，以模拟在初始本金基础上进行定期储蓄存款。"
     }
   ],
   "relatedTools": [

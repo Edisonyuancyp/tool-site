@@ -1,20 +1,48 @@
 {
   "slug": "daily-goal-tracker",
-  "name": "Täglicher Ziel-Tracker",
-  "tagline": "Tägliche Ziele setzen und Fortschritt verfolgen",
-  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
-  "metaTitle": "Täglicher Ziel-Tracker – Zielerreichungs-Verfolgungstool",
-  "metaDescription": "Tägliche Ziele setzen, Fortschritt aufzeichnen und gute Gewohnheiten sowie Ausführungskraft aufbauen.",
+  "name": "Daily Goal Tracker",
+  "tagline": "Setzen Sie Ihre täglichen Ziele einfach und verfolgen Sie diese",
+  "description": "Mit diesem Tool können Sie Ihre täglichen Ziele setzen, überwachen und bewerten, um Ihre Produktivität zu steigern. Ideal für alle, die den Fokus behalten und jeden Tag mehr erreichen möchten.",
+  "metaTitle": "Daily Goal Tracker – Produktivitäts-Tool für tägliche Ziele | Kostenlos",
+  "metaDescription": "Verfolgen Sie Ihre täglichen Ziele mit unserem kostenlosen Online-Tool für mehr Produktivität. Keine Anmeldung erforderlich, sofortige Ergebnisse.",
   "keywords": [
-    "Ziel Tracker",
-    "Ziele verfolgen",
-    "Gewohnheiten Tracker",
-    "Tägliche Ziele erreichen",
-    "Zielerreichung"
+    "Täglicher Ziel-Tracker",
+    "Zielset-Tool",
+    "Produktivitätsziele",
+    "tägliche Erfolge",
+    "Fortschritt überwachen",
+    "Täglicher Ziel-Tracker App",
+    "Täglicher Ziel-Tracker Vorlage",
+    "Täglicher Ziel-Tracker Excel",
+    "Täglicher Ziel-Tracker PDF",
+    "Täglicher Ziel-Tracker Excel Vorlage",
+    "Täglicher Ziel-Tracker für Studenten",
+    "Täglicher Ziel-Tracker Google Sheets",
+    "Täglicher Ziel-Tracker online",
+    "kostenloser Ziel-Tracker",
+    "kostenlose Ziel-Tracker App",
+    "kostenlose druckbare Ziel-Tracker Vorlage",
+    "beste kostenlose Ziel-Tracker App",
+    "Ziel-Tracker Vorlage kostenlos",
+    "bester kostenloser Ziel-Tracker",
+    "Zielset-Tools"
   ],
-  "category": "Produktivität",
+  "category": "Productivity",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Welche Arten von Zielen kann ich verfolgen?",
+      "answer": "Sie können jede Art von persönlichen oder beruflichen Zielen verfolgen, von Fitness bis zu Arbeitsprojekten."
+    },
+    {
+      "question": "Gibt es eine Obergrenze für die Anzahl der Ziele?",
+      "answer": "Nein, Sie können täglich so viele Ziele setzen, wie Sie möchten."
+    },
+    {
+      "question": "Kann ich frühere Ziele überprüfen?",
+      "answer": "Ja, Sie können auf Ihre vergangenen Ziele und deren Status zugreifen, um diese zu reflektieren."
+    }
+  ],
   "relatedTools": [
     "time-tracking-tool",
     "habit-tracker"

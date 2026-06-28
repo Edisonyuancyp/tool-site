@@ -1,0 +1,46 @@
+{
+  "slug": "home-tool-cost-calculator",
+  "name": "Calculadora de Custo de Ferramentas para Casa",
+  "tagline": "Estime suas despesas com ferramentas para casa facilmente.",
+  "description": "Calcule o custo estimado para montar seu kit de ferramentas para casa de acordo com suas necessidades. Esta ferramenta é perfeita para proprietários de imóveis e entusiastas de DIY que desejam orçar ferramentas essenciais.",
+  "metaTitle": "Calculadora de Custo de Ferramentas para Casa – Orce suas Despesas | Ferramenta Gratuita Online",
+  "metaDescription": "Calcule suas despesas com ferramentas para casa gratuitamente, sem cadastro. Obtenha resultados instantâneos para orçar suas ferramentas essenciais.",
+  "keywords": [
+    "custo de ferramentas para casa",
+    "orçamento de kit de ferramentas",
+    "custo de ferramentas essenciais",
+    "despesas com ferramentas DIY",
+    "ferramentas para reforma da casa",
+    "calculadora de custo de reposição para casa",
+    "kit de ferramentas para casa",
+    "custo de ferramentas home depot",
+    "conjunto de ferramentas para casa",
+    "ferramenta de custo de reposição para casa",
+    "custo de aluguel de ferramentas home depot",
+    "aluguel de ferramentas home depot",
+    "ferramentas decorativas home depot",
+    "custo de entrega de ferramentas home depot",
+    "ferramenta de orçamento para kit"
+  ],
+  "category": "Home",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Com o que esta calculadora ajuda?",
+      "answer": "Ela ajuda a estimar custos para montar um kit de ferramentas para casa de acordo com suas necessidades específicas."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, é totalmente gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso salvar meus cálculos?",
+      "answer": "Atualmente, a ferramenta não suporta salvar cálculos, mas você pode anotá-los."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

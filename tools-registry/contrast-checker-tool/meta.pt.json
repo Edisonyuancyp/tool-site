@@ -1,0 +1,51 @@
+{
+  "slug": "contrast-checker-tool",
+  "name": "Verificador de Contraste",
+  "tagline": "Garanta combinações de cores acessíveis",
+  "description": "Verifique a proporção de contraste entre duas cores para garantir que atendam aos padrões de acessibilidade WCAG. Ideal para designers de UI/UX que priorizam acessibilidade em seus projetos.",
+  "metaTitle": "Verificador de Contraste – Acessibilidade de Cores | Ferramenta Online Gratuita",
+  "metaDescription": "Verifique proporções de contraste de cores para acessibilidade. Ferramenta gratuita, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "verificador de contraste",
+    "ferramenta de acessibilidade de cores",
+    "verificador de contraste wcag",
+    "acessibilidade em design",
+    "proporção de contraste de cores",
+    "gerador verificador de contraste grátis",
+    "verificador de contraste online sem download",
+    "verificador de contraste código hex",
+    "ferramenta de design gratuita",
+    "gerador de paleta de cores",
+    "visualização instantânea",
+    "sem necessidade de photoshop",
+    "ferramenta verificadora de contraste",
+    "verificador de contraste wcag 2",
+    "ferramentas de verificador de acessibilidade",
+    "ferramenta analisadora de contraste",
+    "verificador de acessibilidade grátis",
+    "ferramenta de teste de contraste",
+    "ferramenta verificadora de contraste de cores",
+    "ferramenta webaim verificadora de contraste"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Como usar o Verificador de Contraste?",
+      "answer": "Simplesmente insira dois valores de cores e clique em 'Verificar'. A ferramenta exibirá a proporção de contraste e o nível de acessibilidade."
+    },
+    {
+      "question": "O que são padrões WCAG?",
+      "answer": "WCAG significa Web Content Accessibility Guidelines (Diretrizes de Acessibilidade para Conteúdo Web), que fornecem recomendações para tornar o conteúdo web mais acessível."
+    },
+    {
+      "question": "Posso usar valores HEX ou RGB?",
+      "answer": "Sim, você pode inserir cores em formato HEX, RGB ou até nomes de cores."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-extractor",
+    "spacing-grid-calculator"
+  ],
+  "variants": []
+}

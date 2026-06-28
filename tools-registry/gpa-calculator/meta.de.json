@@ -1,20 +1,48 @@
 {
   "slug": "gpa-calculator",
-  "name": "Notenrechner (GPA)",
-  "tagline": "Notendurchschnitt berechnen",
-  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
-  "metaTitle": "Notenrechner – Kostenloses Online-GPA-Berechnungstool",
-  "metaDescription": "Fach-Credits und Noten eingeben und gewichteten GPA automatisch berechnen. Unterstützt 4,0-Skala.",
+  "name": "GPA Rechner",
+  "tagline": "Berechnen Sie Ihren GPA sofort aus Buchstabennoten oder Prozentsätzen",
+  "description": "Berechnen Sie Ihren GPA (Grade Point Average) aus Buchstabennoten, Prozentsätzen oder Notenpunkten. Unterstützt 4,0er Skala, gewichtete GPA und kumulative GPA-Berechnung.",
+  "metaTitle": "GPA Rechner – GPA aus Noten berechnen | Kostenlos online",
+  "metaDescription": "Kostenloser GPA Rechner. Geben Sie Ihre Noten oder Prozentsätze ein, um Ihren GPA auf der 4,0er Skala zu berechnen. Unterstützt gewichtete und kumulative GPA.",
   "keywords": [
-    "Notenrechner",
-    "GPA berechnen",
+    "GPA Rechner",
+    "Notendurchschnitt Rechner",
+    "Note zu GPA",
+    "GPA auf 4,0 Skala berechnen",
+    "kumulativer GPA Rechner",
+    "GPA Rechner Universität",
+    "GPA Rechner College",
+    "GPA aus Prozentsatz berechnen",
+    "GPA Rechner Hochschule",
+    "GPA Calculator online",
+    "GPA Rechner kostenlos",
+    "kostenloser GPA Rechner",
+    "GPA Rechner Schule",
+    "Notenpunkte Rechner",
+    "gewichteter GPA Rechner",
+    "GPA berechnen online",
     "Notendurchschnitt berechnen",
-    "Schulnoten berechnen",
-    "Studium Noten"
+    "GPA Skala Rechner",
+    "Studiennoten Rechner",
+    "internationaler GPA Rechner"
   ],
-  "category": "Werkzeuge",
+  "category": "Utilities",
   "icon": "🎓",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie wird der GPA berechnet?",
+      "answer": "Der GPA wird berechnet, indem jede Buchstabennote in Notenpunkte umgewandelt wird (A=4,0, B=3,0, C=2,0, D=1,0, F=0,0) und dann der Durchschnitt über alle Kurse gewichtet nach Semesterwochenstunden ermittelt wird."
+    },
+    {
+      "question": "Was ist ein guter GPA?",
+      "answer": "Ein GPA von 3,5–4,0 wird als ausgezeichnet angesehen (Dean's List an den meisten Universitäten). 3,0–3,5 ist gut. Unter 2,0 kann an vielen Hochschulen zur akademischen Bewährung führen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen gewichteter und ungewichteter GPA?",
+      "answer": "Ungewichteter GPA behandelt alle Kurse gleich (Maximum 4,0). Gewichteter GPA vergibt zusätzliche Punkte für Honors-, AP- oder IB-Kurse (Maximum 5,0) und würdigt damit akademische Herausforderungen."
+    }
+  ],
   "relatedTools": [
     "percentage-calculator",
     "age-calculator",

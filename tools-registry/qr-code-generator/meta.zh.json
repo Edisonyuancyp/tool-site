@@ -1,27 +1,46 @@
 {
   "slug": "qr-code-generator",
   "name": "二维码生成器",
-  "tagline": "快速生成任意内容的二维码",
-  "description": "Generate a free QR code for any URL, text, phone number, or message. Download as PNG and use anywhere — no account needed.",
-  "metaTitle": "二维码生成器 – 免费在线 QR Code 制作",
-  "metaDescription": "输入文字、网址或联系信息，即时生成可下载的二维码。免费，无需注册。",
+  "tagline": "立即为任何文本或网址生成二维码",
+  "description": "为任何网址、文本、电话号码或信息免费生成二维码。下载为PNG格式，随处可用——无需注册账户。",
+  "metaTitle": "二维码生成器 – 免费在线二维码制作工具",
+  "metaDescription": "免费生成网址、文本等二维码。立即下载PNG格式。无需注册、无水印。最快速的免费在线二维码生成器。",
   "keywords": [
     "二维码生成器",
-    "QR码生成",
-    "QR code生成器",
-    "在线二维码",
-    "免费二维码"
+    "免费二维码制作",
+    "在线生成二维码",
+    "网址转二维码",
+    "网站二维码",
+    "免费二维码生成器",
+    "Canva二维码生成器",
+    "Adobe二维码生成器",
+    "无广告二维码生成器",
+    "谷歌二维码生成器",
+    "在线二维码生成器",
+    "免费在线二维码生成器",
+    "在线二维码生成器带logo",
+    "位置二维码在线生成器",
+    "免费在线二维码生成器无需注册",
+    "带logo的在线二维码生成器",
+    "支付二维码在线生成器",
+    "PDF二维码在线生成器",
+    "免费二维码生成",
+    "免费二维码生成器无需注册"
   ],
-  "category": "生成器",
+  "category": "Generators",
   "icon": "📱",
   "faqs": [
     {
-      "question": "二维码可以存储什么？",
-      "answer": "可以存储网址、纯文本、联系信息、WiFi 密码等各种内容。"
+      "question": "二维码中可以编码哪些内容？",
+      "answer": "您可以编码网址、纯文本、电话号码、电子邮件地址、短信信息、Wi-Fi凭证等多种内容。"
     },
     {
-      "question": "生成的二维码可以下载吗？",
-      "answer": "可以，支持下载为 PNG 格式图片。"
+      "question": "生成的二维码可以免费使用吗？",
+      "answer": "可以。本工具生成的所有二维码完全免费，无水印、无过期时间，无需账户注册。"
+    },
+    {
+      "question": "我可以下载二维码吗？",
+      "answer": "可以。点击下载按钮即可将二维码保存为PNG图像文件，随处可用。"
     }
   ],
   "relatedTools": [

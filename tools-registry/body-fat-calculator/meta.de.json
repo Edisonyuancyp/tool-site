@@ -1,20 +1,44 @@
 {
   "slug": "body-fat-calculator",
-  "name": "Körperfettrechner",
-  "tagline": "Körperfettanteil schätzen",
-  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
-  "metaTitle": "Körperfettrechner – Kostenloses Online-Körperfettanteil-Berechnungstool",
-  "metaDescription": "Körperumfänge (Hals, Taille, Hüfte) nutzen, um den Körperfettanteil zu schätzen. Für Männer und Frauen.",
+  "name": "Körperfettanteil-Rechner",
+  "tagline": "Berechnen Sie Ihren Körperfettanteil mit der US Navy Messmethode",
+  "description": "Schätzen Sie Ihren Körperfettanteil mit der US Navy Methode — benötigen Sie nur Ihre Taille-, Nacken- und Hüftumfang-Messungen (Frauen). Zeigt Fettmasse, Magermasse, Kategorie und ein visuelles Messinstrument an. Keine Schieblehre erforderlich.",
+  "metaTitle": "Körperfettanteil-Rechner – US Navy Methode (Taille, Nacken, Hüfte)",
+  "metaDescription": "Kostenloser Körperfettanteil-Rechner nach der US Navy Methode. Geben Sie Ihre Taille-, Nacken- und Hüftmessungen ein, um Ihren Körperfettanteil, Fettmasse, Magermasse und Fitnesskategorie zu berechnen.",
   "keywords": [
-    "Körperfettrechner",
-    "Körperfettanteil berechnen",
-    "Fettanteil messen",
-    "Körperfett Prozent",
-    "Körperzusammensetzung"
+    "körperfettanteil rechner",
+    "navy körperfettrechner",
+    "körperfettrechner taille nacken hüfte",
+    "körperfettanteil berechnen",
+    "körperfettanteil messung",
+    "körperfettanteil rechner frauen",
+    "körperfettanteil rechner damen",
+    "körperfettanteil rechner formel",
+    "körperfettanteil rechner bmi",
+    "körperfettanteil rechner gewichtsabnahme",
+    "körperfettanteil rechner maßstab",
+    "körperfettanteil rechner magermasse",
+    "körperfettanteil rechner online",
+    "bester online körperfettanteil rechner",
+    "genauester körperfettanteil rechner online",
+    "genauer online körperfettanteil rechner",
+    "kostenloser online körperfettanteil rechner",
+    "kostenloser körperfettanteil rechner",
+    "körperfettanteil tabelle",
+    "körperfettanteil tabelle männer"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "💪",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie genau ist die US Navy Körperfettmessmethode?",
+      "answer": "Die US Navy Methode hat eine Abweichung von ±3–4% im Vergleich zu DEXA (Goldstandard). Sie ist deutlich nützlicher als der BMI zur Verfolgung Ihrer Fitness."
+    },
+    {
+      "question": "Welcher Körperfettanteil wird als gesund angesehen?",
+      "answer": "Für Männer: Athletisch 6–13%, Fitness 14–17%, Durchschnitt 18–24%. Für Frauen: Athletisch 14–20%, Fitness 21–24%, Durchschnitt 25–31%."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "ideal-weight-calculator",

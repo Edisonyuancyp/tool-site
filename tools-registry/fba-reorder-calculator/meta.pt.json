@@ -1,0 +1,46 @@
+{
+  "slug": "fba-reorder-calculator",
+  "name": "Calculadora de Reposição e Reabastecimento FBA",
+  "tagline": "Nunca fique sem estoque — saiba exatamente quando repor e quantas unidades comprar",
+  "description": "Digite sua velocidade de vendas diária, tempo de entrega e margem de segurança para obter seu ponto de reposição e quantidade de pedido sugerida. Previne falta de estoque custosa e excesso de inventário.",
+  "metaTitle": "Calculadora de Reposição FBA – Planejador de Reabastecimento e Inventário Amazon",
+  "metaDescription": "Calculadora grátis de reposição FBA Amazon. Digite suas vendas diárias e tempo de entrega para obter seu ponto de reposição, dias de estoque restantes e quantidade de pedido sugerida.",
+  "keywords": [
+    "calculadora de reposição fba",
+    "calculadora de reabastecimento amazon",
+    "calculadora de inventário fba",
+    "calculadora de ponto de reposição amazon",
+    "calculadora de reabastecimento fba",
+    "planejador de inventário amazon",
+    "calculadora de estoque fba",
+    "quando repor amazon",
+    "dias de inventário fba",
+    "calculadora de falta de estoque amazon",
+    "calculadora de tempo de entrega fba",
+    "ferramenta de inventário para vendedores amazon",
+    "calculadora de estoque de segurança fba",
+    "calculadora de reposição amazon",
+    "calculadora de quantidade de pedido fba"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "faqs": [
+    {
+      "question": "O que é um ponto de reposição?",
+      "answer": "Ponto de reposição = (Vendas diárias médias × Tempo de entrega em dias) + Estoque de segurança. Quando seu inventário atingir este número, faça seu próximo pedido imediatamente."
+    },
+    {
+      "question": "Quanto estoque de segurança devo manter?",
+      "answer": "Uma regra comum é manter entre 15 e 30 dias de vendas como estoque de segurança. Produtos com alta velocidade de venda ou fornecedores pouco confiáveis precisam de uma margem maior."
+    },
+    {
+      "question": "Como calculo quantas unidades devo pedir?",
+      "answer": "Quantidade de pedido = Vendas diárias × (Período de revisão + Tempo de entrega) + Estoque de segurança − Inventário atual. Isso garante que você não peça em excesso ou em falta."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

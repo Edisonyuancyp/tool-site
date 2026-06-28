@@ -1,0 +1,36 @@
+{
+  "slug": "palette-medical",
+  "name": "メディカルブルーカラーパレット",
+  "tagline": "医療とヘルスケアアプリケーション向けの信頼性の高いステリルなパレット。落ち着きのあるブルーとホワイトが安全性と精密性を伝えます。",
+  "description": "医療とヘルスケアアプリケーション向けの信頼性の高いステリルなパレット。落ち着きのあるブルーとホワイトが安全性と精密性を伝えます。",
+  "metaTitle": "メディカルブルーカラーパレット – HEX、CMYK、Tailwind、Pantone対照表",
+  "metaDescription": "無料のメディカルブルーカラーパレット。HEXコード、Tailwind CSSクラス、CMYK値、Pantone近似参照を掲載。任意の色を今すぐコピー。",
+  "keywords": [
+    "メディカルブルー カラーパレット",
+    "メディカルブルー配色",
+    "メディカルブルー HEXコード",
+    "#0EA5E9",
+    "#0369A1",
+    "#F0F9FF",
+    "Pantone マッチング",
+    "CMYK 変換",
+    "ウェブ カラーパレット",
+    "Tailwind CSS 配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone参照は正確に一致していますか？",
+      "answer": "いいえ。表示されているPantoneコードは視覚的に最も近い近似値です。本番印刷作業の場合は、必ずPhysical Pantone Fan Deckで確認してください。"
+    },
+    {
+      "question": "CMYK値はどのように計算されますか？",
+      "answer": "CMYK値はデバイス非依存の計算式を使用します：K = 1 − max(R,G,B)。C/M/YはRGB比から導出されます。実際の出力はプリンタプロファイルと用紙によって異なります。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

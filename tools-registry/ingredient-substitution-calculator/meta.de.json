@@ -1,20 +1,46 @@
 {
   "slug": "ingredient-substitution-calculator",
-  "name": "Zutatener­satz­rechner",
-  "tagline": "Ersatzzutaten für fehlende Kochzutaten finden",
-  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
-  "metaTitle": "Zutatener­satz­rechner – Kochzutaten-Ersatz-Tool",
-  "metaDescription": "Fehlende Zutaten eingeben und Alternativen mit Mengenangaben erhalten.",
+  "name": "Zutat-Ersatz-Rechner",
+  "tagline": "Finden Sie Ersatzstoffe für fehlende Zutaten.",
+  "description": "Entdecken Sie schnell alternative Zutaten basierend auf dem, was Sie zur Hand haben. Ideal für Köche, die beim Kochen nach einem Rezept improvvisieren müssen.",
+  "metaTitle": "Zutat-Ersatz-Rechner – Kochalternativen | Kostenloses Online-Tool",
+  "metaDescription": "Finden Sie Zutat-Ersatzstoffe sofort mit unserem kostenlosen Tool. Keine Anmeldung erforderlich.",
   "keywords": [
-    "Zutatener­satz",
-    "Kochalternativen",
-    "Zutatener­satz berechnen",
-    "Fehlende Zutaten ersetzen",
-    "Kochen Substitut"
+    "zutat ersatz",
+    "rezept alternativen",
+    "zutat austausch kochen",
+    "zutat ersatz rechner",
+    "zutat ersatz tabelle",
+    "zutat ersatzstoffe",
+    "zutat ersatz anleitung",
+    "zutat ersatz tabelle pdf",
+    "zutat ersatz liste",
+    "zutat ersatz datenbank",
+    "zutat ersatzstoffe backen",
+    "glow recipe alternativen",
+    "recipe keeper alternativen",
+    "gesunde rezept alternativen",
+    "mojito rezept alternativen",
+    "recipe box alternativen",
+    "lasagne rezept alternativen",
+    "chili rezept alternativen"
   ],
-  "category": "Kochen",
+  "category": "Cooking",
   "icon": "🥄",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie finde ich einen Ersatz für eine Zutat?",
+      "answer": "Geben Sie die Zutat ein, die Sie ersetzen möchten, und der Rechner schlägt Ihnen geeignete Alternativen vor."
+    },
+    {
+      "question": "Sind die Ersatzstoffe immer genau?",
+      "answer": "Die meisten Vorschläge sind genau, aber der Geschmack und die Textur können je nach verwendetem Ersatzstoff variieren."
+    },
+    {
+      "question": "Kann ich neue Ersatzstoffe vorschlagen?",
+      "answer": "Ja! Wir freuen uns über Benutzervorschläge zur Verbesserung unserer Datenbank mit Zutat-Alternativen."
+    }
+  ],
   "relatedTools": [
     "age-calculator",
     "budget-calculator"

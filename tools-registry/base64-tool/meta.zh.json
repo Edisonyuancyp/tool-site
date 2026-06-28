@@ -1,20 +1,44 @@
 {
   "slug": "base64-tool",
-  "name": "Base64 编码/解码工具",
-  "tagline": "在线 Base64 编码与解码",
-  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
-  "metaTitle": "Base64 编码解码工具 – 在线免费转换",
-  "metaDescription": "输入文本即可进行 Base64 编码或解码，支持文件和图片的 Base64 转换。",
+  "name": "Base64 编码器 / 解码器",
+  "tagline": "即时编码和解码 Base64 和 URL 编码字符串",
+  "description": "将任何文本编码为 Base64 或将 Base64 解码回纯文本。同时支持 URL 编码/解码。正确处理 UTF-8。包含交换按钮、实时验证和复制到剪贴板功能。",
+  "metaTitle": "Base64 在线编码解码器 – URL 编码解码工具",
+  "metaDescription": "免费 Base64 编码器和解码器。将文本编码为 Base64 或解码 Base64 字符串。同时支持 URL 编码/解码。UTF-8 安全、仅浏览器、即时结果。",
   "keywords": [
-    "Base64编码",
-    "Base64解码",
-    "Base64转换工具",
-    "在线Base64",
-    "编码解码工具"
+    "base64 编码解码",
+    "base64 在线解码",
+    "url 编码解码",
+    "base64 转换器",
+    "百分号编码工具",
+    "base64 编码 解码",
+    "base64 在线编码解码",
+    "base64 编码解码下载",
+    "base64 编码解码 apk",
+    "base64 编码解码插件",
+    "base64 编码解码工具",
+    "base64 图片编码解码",
+    "在线 base64 图片编码解码",
+    "免费在线 base64 编码解码工具",
+    "base64 字符串编码解码",
+    "base64 在线解码图片",
+    "base64 在线解码工具",
+    "base64 在线解码为 pdf",
+    "base64 在线解码为文件",
+    "base64 在线解码密钥"
   ],
-  "category": "开发",
+  "category": "Developer",
   "icon": "🔐",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Base64 有什么用途？",
+      "answer": "Base64 用于将二进制数据编码为 ASCII 文本以实现安全传输——在数据 URI、HTTP Basic Auth 头、JWT 令牌、电子邮件附件和 JSON 有效载荷中使用。"
+    },
+    {
+      "question": "Base64 和 URL 编码有什么区别？",
+      "answer": "Base64 将任何字节编码为 64 字符字母表。URL 编码将不安全的 URL 字符替换为 %XX 十六进制序列。对查询参数使用 URL 编码；对文本格式中的二进制数据使用 Base64。"
+    }
+  ],
   "relatedTools": [
     "json-csv-formatter",
     "diff-checker",

@@ -1,20 +1,44 @@
 {
   "slug": "holiday-calculator",
   "name": "Calculadora de Feriados",
-  "tagline": "Verifique feriados e dias úteis",
-  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
-  "metaTitle": "Calculadora de Feriados – Ferramenta de Cálculo de Feriados e Dias Úteis",
-  "metaDescription": "Calcule o número de dias úteis, fins de semana e feriados entre duas datas.",
+  "tagline": "Encontre feriados públicos e calcule dias até o próximo",
+  "description": "Explore feriados públicos de 20+ países. Encontre o próximo feriado, calcule quantos dias faltam e veja todos os feriados do ano atual e próximo. Sem necessidade de login.",
+  "metaTitle": "Calculadora de Feriados – Feriados Públicos e Dias Até o Próximo Feriado",
+  "metaDescription": "Encontre feriados públicos de 20+ países. Calcule dias até seu próximo feriado. Calculadora de feriados gratuita — EUA, Reino Unido, Austrália, Canadá e mais.",
   "keywords": [
     "calculadora de feriados",
-    "calcular dias úteis",
-    "verificar feriados",
-    "dias de férias",
-    "calculadora de datas"
+    "feriados públicos 2025",
+    "dias até próximo feriado",
+    "datas de feriados públicos",
+    "próximo feriado",
+    "calculadora de feriados reino unido",
+    "calculadora de feriados hmrc",
+    "calculadora de férias pro rata",
+    "calculadora de feriados irlanda",
+    "calculadora de feriados gov",
+    "calculadora de feriados 2026",
+    "calculadora de feriados irlanda do norte",
+    "calculadora de feriados online",
+    "calculadora de férias online",
+    "calculadora pro rata férias online reino unido",
+    "calculadora pro rata férias online reino unido gov uk",
+    "calculadora de feriados online reino unido",
+    "calculadora de feriados grátis reino unido",
+    "calculadora de feriados grátis irlanda",
+    "calculadora de feriados grátis"
   ],
-  "category": "Data e Hora",
+  "category": "Date & Time",
   "icon": "🎉",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quais países são suportados?",
+      "answer": "20+ países incluindo EUA, Reino Unido, Canadá, Austrália, Alemanha, França, Japão, Índia e muitos mais."
+    },
+    {
+      "question": "Como é calculada a contagem de dias?",
+      "answer": "A ferramenta calcula a diferença entre a data de hoje e cada feriado próximo, atualizando à meia-noite."
+    }
+  ],
   "relatedTools": [
     "age-calculator",
     "unix-timestamp-converter",

@@ -1,20 +1,44 @@
 {
   "slug": "base64-tool",
-  "name": "Base64エンコード/デコードツール",
-  "tagline": "オンラインBase64エンコードとデコード",
-  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
-  "metaTitle": "Base64エンコードデコードツール – 無料オンライン変換",
-  "metaDescription": "テキストを入力してBase64エンコードまたはデコードを実行。ファイルや画像のBase64変換にも対応。",
+  "name": "Base64エンコーダー / デコーダー",
+  "tagline": "Base64とURL エンコード文字列を瞬時にエンコード・デコード",
+  "description": "任意のテキストをBase64にエンコードしたり、Base64をプレーンテキストにデコードできます。URL エンコード/デコードにも対応。UTF-8を正しく処理します。スワップボタン、リアルタイム検証、クリップボードへのコピー機能を搭載。",
+  "metaTitle": "Base64エンコーダーデコーダー オンライン – URL エンコードデコードツール",
+  "metaDescription": "無料のBase64エンコーダーデコーダー。テキストをBase64にエンコードしたり、Base64文字列をデコードできます。URL エンコード/デコード対応。UTF-8対応、ブラウザのみで動作、即座に結果表示。",
   "keywords": [
-    "Base64エンコード",
-    "Base64デコード",
-    "Base64変換ツール",
-    "オンラインBase64",
-    "エンコードデコードツール"
+    "base64 エンコーダー デコーダー",
+    "base64 デコード オンライン",
+    "url エンコード デコード",
+    "base64 変換ツール",
+    "パーセントエンコーディングツール",
+    "base64 エンコーダー デコーダー",
+    "base64 エンコーダー デコーダー オンライン",
+    "base64 エンコーダー デコーダー ダウンロード",
+    "base64 エンコーダー デコーダー apk",
+    "base64 エンコーダー デコーダー 拡張機能",
+    "base64 エンコーダー デコーダー ツール",
+    "base64 画像 エンコーダー デコーダー",
+    "オンライン base64 画像 エンコーダー デコーダー",
+    "無料 オンライン base64 エンコーダー base64 デコーダー ツール",
+    "base64 文字列 エンコーダー デコーダー",
+    "base64 デコード オンライン 画像",
+    "base64 デコード オンライン ツール",
+    "base64 デコード オンライン pdf",
+    "base64 デコード オンライン ファイル",
+    "base64 デコード オンライン キー付き"
   ],
-  "category": "開発",
+  "category": "Developer",
   "icon": "🔐",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Base64は何に使われていますか？",
+      "answer": "Base64はバイナリデータをASCIーテキストとしてエンコードし、安全に送信するために使用されます。データURI、HTTPベーシック認証ヘッダー、JWTトークン、メール添付ファイル、JSONペイロードなどで活用されています。"
+    },
+    {
+      "question": "Base64とURLエンコーディングの違いは何ですか？",
+      "answer": "Base64は任意のバイトを64文字のアルファベットにエンコードします。一方、URLエンコーディングは安全でないURL文字を%XX16進数シーケンスに置き換えます。クエリパラメータにはURLエンコーディング、テキスト形式のバイナリデータにはBase64を使用してください。"
+    }
+  ],
   "relatedTools": [
     "json-csv-formatter",
     "diff-checker",

@@ -1,0 +1,56 @@
+{
+  "slug": "cm-to-inch",
+  "name": "CM zu Zoll Umrechner",
+  "tagline": "Konvertieren Sie Zentimeter sofort in Zoll — und umgekehrt",
+  "description": "Konvertieren Sie Zentimeter in Zoll (und Zoll in cm) sofort. Keine Werbung, keine Anmeldung — geben Sie einfach einen Wert ein und erhalten Sie das Ergebnis. Verwendet von Schülern, Schneidern, Ingenieuren und Reisenden weltweit.",
+  "metaTitle": "CM zu Zoll Umrechner — Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Zentimeter in Zoll umrechnen – schnell und kostenlos. Geben Sie einen Wert ein und sehen Sie beide Umrechnungsrichtungen sofort.",
+  "keywords": [
+    "cm zu zoll",
+    "zentimeter zu zoll",
+    "cm in zoll umrechnen",
+    "zoll zu cm",
+    "längenumrechner",
+    "= 0,393700787 zoll",
+    "cm zu zoll umrechner",
+    "cm zu zoll umrechner online",
+    "cm zu fuß und zoll umrechner online",
+    "größe umrechner cm zu zoll online",
+    "kostenloser online-umrechner cm zu zoll",
+    "fuß und zoll zu cm umrechner online",
+    "kostenloser umrechner cm zu zoll",
+    "cm zu zoll umrechner uk kostenlos",
+    "cm zu zoll",
+    "cm in zoll converter",
+    "cm zu zoll größe",
+    "cm zu zoll rechner",
+    "cm zu zoll umrechner rechner",
+    "cm zu zoll umrechner tabelle"
+  ],
+  "category": "Converter",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "Wie viel Zoll sind 1 Zentimeter?",
+      "answer": "1 Zentimeter entspricht 0,393701 Zoll. Umgekehrt: 1 Zoll entspricht exakt 2,54 Zentimetern."
+    },
+    {
+      "question": "Wie konvertiere ich cm ohne Taschenrechner in Zoll?",
+      "answer": "Teilen Sie den Zentimeterwert durch 2,54. Für eine schnelle Überschlagsrechnung teilen Sie durch 2,5 — das ist auf 2 % genau."
+    },
+    {
+      "question": "Warum ist 1 Zoll genau 2,54 cm?",
+      "answer": "Seit 1959 definiert die internationale Vereinbarung für Yard und Pfund 1 Zoll als exakt 2,54 Zentimeter — es ist also eine exakte, keine ungefähre Umrechnung."
+    },
+    {
+      "question": "Wie viel cm sind 5 Fuß 11 Zoll?",
+      "answer": "5 Fuß 11 Zoll = 71 Zoll × 2,54 = 180,34 cm."
+    }
+  ],
+  "relatedTools": [
+    "m-to-feet",
+    "kg-to-lbs",
+    "celsius-to-fahrenheit"
+  ],
+  "variants": []
+}

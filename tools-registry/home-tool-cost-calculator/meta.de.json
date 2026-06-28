@@ -1,0 +1,46 @@
+{
+  "slug": "home-tool-cost-calculator",
+  "name": "Heimwerkzeug-Kostenrechner",
+  "tagline": "Schätzen Sie Ihre Heimwerkzeugausgaben ganz einfach.",
+  "description": "Berechnen Sie die geschätzten Kosten für den Aufbau Ihres Heimwerkzeug-Sets basierend auf Ihren Anforderungen. Dieses Tool ist ideal für Hausbesitzer und DIY-Enthusiasten, die ihr Budget für notwendige Werkzeuge planen möchten.",
+  "metaTitle": "Heimwerkzeug-Kostenrechner – Werkzeugbudget berechnen | Kostenlos online",
+  "metaDescription": "Berechnen Sie Ihre Heimwerkzeugkosten kostenlos und ohne Anmeldung. Erhalten Sie sofortige Ergebnisse zur Budgetplanung für Ihre notwendigen Werkzeuge.",
+  "keywords": [
+    "heimwerkzeug kosten",
+    "werkzeug set kosten",
+    "notwendige werkzeuge preis",
+    "diy werkzeugausgaben",
+    "heimwerker werkzeuge",
+    "werkzeugkosten rechner",
+    "werkzeug set budgetierung",
+    "heimwerker kosten planen",
+    "werkzeugausstattung kosten",
+    "werkzeugset budgetrechner",
+    "werkzeugmiete kosten",
+    "werkzeug verleih preis",
+    "werkzeugausgaben berechnen",
+    "budgetplaner werkzeuge",
+    "werkzeugkit preise"
+  ],
+  "category": "Home",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Wobei hilft mir dieser Rechner?",
+      "answer": "Er hilft Ihnen, die Kosten für den Aufbau eines Heimwerkzeug-Sets basierend auf Ihren spezifischen Anforderungen zu schätzen."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, das Tool ist vollständig kostenlos und erfordert keine Anmeldung."
+    },
+    {
+      "question": "Kann ich meine Berechnungen speichern?",
+      "answer": "Derzeit unterstützt das Tool das Speichern von Berechnungen nicht, aber Sie können diese notieren."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

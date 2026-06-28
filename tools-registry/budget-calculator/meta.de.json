@@ -1,20 +1,52 @@
 {
   "slug": "budget-calculator",
-  "name": "Haushaltsrechner",
-  "tagline": "Monatsbudget erstellen und Einnahmen/Ausgaben verwalten",
-  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
-  "metaTitle": "Haushaltsrechner – Kostenloses Online-Budgetplanungs-Tool",
-  "metaDescription": "Einnahmen und Ausgaben eingeben, monatlichen Überschuss berechnen und einen sinnvollen Budgetplan erstellen.",
+  "name": "Budget-Rechner",
+  "tagline": "Vergleichen Sie Ihre Einnahmen mit Ihren Ausgaben und sehen Sie genau, wofür Ihr Geld verwendet wird",
+  "description": "Geben Sie Ihre monatlichen Einnahmen und Ausgaben ein und erhalten Sie sofort eine detaillierte Budget-Übersicht. Vergleichen Sie Ihre Ausgaben mit der 50/30/20-Regel — 50% Bedarf, 30% Wünsche, 20% Ersparnisse. Kostenlos, ohne Anmeldung.",
+  "metaTitle": "Budget-Rechner – Kostenloser Online Budgetplaner für persönliche Finanzen",
+  "metaDescription": "Kostenloser Monats-Budget-Rechner. Geben Sie Einnahmen und Ausgaben ein und sehen Sie Ihre Budget-Aufteilung im Vergleich zur 50/30/20-Regel. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
   "keywords": [
-    "Haushaltsrechner",
-    "Monatsbudget",
-    "Haushaltsbudget",
+    "Budget-Rechner",
+    "Monats-Budget-Rechner",
+    "Persönlicher Budget-Planer",
+    "50 30 20 Regel Rechner",
+    "Ausgabentracker",
     "Einnahmen Ausgaben Rechner",
-    "Budgetverwaltung"
+    "Geldmanagement-Rechner",
+    "Budget-Rechner kostenlos",
+    "Budget-Rechner App",
+    "Budget-Rechner Kanada",
+    "Budget-Rechner UK",
+    "Budget-Rechner Australien",
+    "Budget-Rechner Excel",
+    "Budget-Rechner Neuseeland",
+    "Budget-Rechner Online",
+    "Budget-Rechner Online kostenlos",
+    "Link Budget-Rechner Online",
+    "Monats-Budget-Rechner Online",
+    "Budget Direct Online-Rechner",
+    "Online Budget-Rechner Tabellenkalkulation"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "📊",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist die 50/30/20-Budgetregel?",
+      "answer": "Die 50/30/20-Regel teilt Ihr Nettoeinkommen in drei Bereiche auf: 50% für Bedarf (Miete, Lebensmittel, Nebenkosten), 30% für Wünsche (Restaurantbesuche, Unterhaltung) und 20% für Ersparnisse und Schuldentilgung. Es ist ein einfaches System, das von Senatorin Elizabeth Warren popularisiert wurde."
+    },
+    {
+      "question": "Wie verwende ich diesen Budget-Rechner?",
+      "answer": "Geben Sie Ihr monatliches Nettoeinkommen ein und listen Sie Ihre monatlichen Ausgaben nach Kategorie auf. Der Rechner zeigt Ihnen sofort Ihren Überschuss oder Mangel an und wie Ihre Ausgaben zur 50/30/20-Richtlinie passen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen 'Bedarf' und 'Wunsch'?",
+      "answer": "Bedarf sind notwendige Ausgaben, ohne die Sie nicht leben können: Miete/Hypothek, Lebensmittel, Nebenkosten, Versicherungen und Mindestraten für Schulden. Wünsche sind Lebensstiländerungen: Restaurants, Abonnements, Hobbys, Urlaube."
+    },
+    {
+      "question": "Wie viel sollte ich jeden Monat sparen?",
+      "answer": "Die 50/30/20-Regel empfiehlt, mindestens 20% Ihres Nettoeinkommens zu sparen. Wenn das nicht möglich ist, beginnen Sie mit einem beliebigen Betrag — auch 5–10% — und erhöhen Sie ihn im Laufe der Zeit, wenn Sie diskretionäre Ausgaben reduzieren."
+    }
+  ],
   "relatedTools": [
     "debt-repayment-calculator",
     "tax-calculator",

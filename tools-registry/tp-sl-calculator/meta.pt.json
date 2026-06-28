@@ -1,20 +1,45 @@
 {
   "slug": "tp-sl-calculator",
-  "name": "Calculadora de Take Profit e Stop Loss",
-  "tagline": "Calcule níveis de preço de take profit e stop loss",
-  "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
-  "metaTitle": "Calculadora de TP/SL – Ferramenta de Cálculo de Take Profit e Stop Loss",
-  "metaDescription": "Insira o preço de entrada e parâmetros de risco para calcular níveis de take profit (TP) e stop loss (SL) com relação risco-recompensa.",
+  "name": "Calculadora de Take Profit / Stop Loss",
+  "tagline": "Calcule seu PnL exato, razão R:R e preço de liquidação antes de operar",
+  "description": "Digite seu preço de entrada, alavancagem e margem para calcular instantaneamente o PnL de até 3 níveis de take-profit e um stop loss. Mostra a razão Risco:Recompensa e o preço estimado de liquidação. Funciona para posições longas e curtas.",
+  "metaTitle": "Calculadora de Take Profit Stop Loss – PnL e Razão R:R para Criptomoedas",
+  "metaDescription": "Calculadora TP/SL gratuita para traders de criptomoedas. Digite preço de entrada, alavancagem e margem para calcular PnL de take profit e stop loss, razão risco/recompensa e preço de liquidação.",
   "keywords": [
     "calculadora take profit stop loss",
-    "calculadora TP SL",
-    "stop loss no trading",
-    "relação risco-recompensa",
-    "stop loss no Forex"
+    "calculadora tp sl cripto",
+    "calculadora razão risco recompensa",
+    "calculadora pnl cripto",
+    "calculadora trading com alavancagem",
+    "calculadora take profit stop loss indicador",
+    "calculadora take profit stop loss mt4",
+    "calculadora take profit stop loss mt5",
+    "calculadora stop loss take profit tradingview",
+    "calculadora cripto take profit stop loss",
+    "calculadora razão risco recompensa tradingview",
+    "calculadora razão risco recompensa excel",
+    "calculadora razão risco recompensa download grátis",
+    "calculadora razão risco recompensa trading",
+    "calculadora razão risco recompensa mt4",
+    "calculadora razão risco recompensa grátis",
+    "calculadora razão risco recompensa forex"
   ],
-  "category": "Cripto",
+  "category": "Crypto",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que é a razão Risco:Recompensa (R:R)?",
+      "answer": "A razão R:R compara seu lucro potencial com sua perda potencial. Uma razão de 1:2 significa que a cada $1 que você arrisca, você pode ganhar $2. Traders profissionais geralmente só realizam operações com R:R de 1:2 ou superior."
+    },
+    {
+      "question": "Como o preço de liquidação é calculado?",
+      "answer": "A estimativa assume que você perde 100% de sua margem quando o preço se move contra você em (1/alavancagem). Com alavancagem de 10×, um movimento adverso de 10% liquida sua posição."
+    },
+    {
+      "question": "Isso funciona para trading spot e futures?",
+      "answer": "Para trading spot, defina a alavancagem como 1×. Para futures (posição longa ou curta), digite a alavancagem fornecida pela sua exchange."
+    }
+  ],
   "relatedTools": [
     "position-size-calculator",
     "compound-interest-calculator",

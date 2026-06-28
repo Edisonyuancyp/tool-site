@@ -1,20 +1,44 @@
 {
   "slug": "holiday-calculator",
-  "name": "节假日计算器",
-  "tagline": "查询法定节假日和工作日数量",
-  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
-  "metaTitle": "节假日计算器 – 节假日查询工具",
-  "metaDescription": "计算两个日期之间的工作日、周末和节假日天数。",
+  "name": "假期计算器",
+  "tagline": "查找公共假日并计算距离下一个假期的天数",
+  "description": "浏览20多个国家的公共假日。查找即将到来的假期，计算距离下一个假期还有多少天，并查看当年及次年的所有假日。无需登录。",
+  "metaTitle": "假期计算器 - 公共假日查询与倒计时工具",
+  "metaDescription": "查询20多个国家的公共假日。免费假期计算器，支持美国、英国、澳大利亚、加拿大等多个国家的假日查询和倒计时。",
   "keywords": [
-    "节假日计算器",
-    "工作日计算",
-    "节假日查询",
-    "假期天数计算",
-    "日期计算器"
+    "假期计算器",
+    "2025年公共假日",
+    "距离下一个假期还有几天",
+    "公共假日日期",
+    "下一个公共假日",
+    "英国假期计算器",
+    "英国HMRC假期计算器",
+    "按比例假期计算器",
+    "爱尔兰假期计算器",
+    "政府假期计算器",
+    "2026年假期计算器",
+    "北爱尔兰假期计算器",
+    "在线假期计算器",
+    "假期工资计算器",
+    "英国按比例假期在线计算器",
+    "英国政府假期按比例在线计算器",
+    "英国在线假期计算器",
+    "英国免费假期计算器",
+    "爱尔兰免费假期计算器",
+    "免费假期计算器"
   ],
-  "category": "日期时间",
+  "category": "Date & Time",
   "icon": "🎉",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "支持哪些国家？",
+      "answer": "支持20多个国家，包括美国、英国、加拿大、澳大利亚、德国、法国、日本、印度等。"
+    },
+    {
+      "question": "天数倒计时是如何计算的？",
+      "answer": "该工具计算今天的日期与每个即将到来的假期之间的差值，并在午夜时更新。"
+    }
+  ],
   "relatedTools": [
     "age-calculator",
     "unix-timestamp-converter",

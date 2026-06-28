@@ -1,0 +1,52 @@
+{
+  "slug": "color-palette-lab",
+  "name": "Professional Color Palette Lab",
+  "tagline": "Explore paletas de cores curadas por indústria com referências HEX, Tailwind, CMYK e Pantone",
+  "description": "Navegue por 5 paletas de cores em nível profissional — Minimal SaaS, Medical Blue, Retro Film, Dark Tech e Eco Green. Alterne entre o modo Web Design (códigos HEX, classes Tailwind CSS, RGB) e modo Impressão (valores CMYK e referências Pantone aproximadas). Copie qualquer valor com um clique.",
+  "metaTitle": "Professional Color Palette Lab – Paletas HEX, Tailwind CSS, CMYK e Pantone",
+  "metaDescription": "Ferramenta gratuita de paletas de cores com 5 paletas profissionais. Copie códigos HEX, classes Tailwind CSS, valores CMYK e referências Pantone aproximadas instantaneamente. Modos design web e impressão.",
+  "keywords": [
+    "gerador de paleta de cores",
+    "correspondência pantone",
+    "conversão cmyk",
+    "paleta de cores web",
+    "esquema tailwind css",
+    "paleta de cores para designers",
+    "conversor hex para cmyk",
+    "referência de cor pantone",
+    "paleta de cores saas",
+    "esquema de cores ui",
+    "gerador de paleta de cores de imagem",
+    "gerador de paleta de cores por nome",
+    "gerador de paleta de cores ia",
+    "gerador de paleta de cores hex",
+    "gerador de paleta de cores gratuito",
+    "gerador de paleta de cores canva",
+    "gerador de paleta de cores por palavras",
+    "sistema de correspondência pantone",
+    "sistema de correspondência pantone pms",
+    "tabela de cores pantone"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "As referências Pantone são correspondências exatas?",
+      "answer": "Não. Os códigos Pantone mostrados são estimados manualmente pela proximidade visual RGB — eles não são derivados do banco de dados proprietário da Pantone. Os mapeamentos sRGB oficiais da Pantone não são licenciados publicamente. Sempre verifique contra um Fan Deck Pantone físico ou Guia de Fórmulas Pantone antes do uso em produção."
+    },
+    {
+      "question": "Como os valores CMYK são calculados?",
+      "answer": "Os valores CMYK são calculados usando a fórmula padrão independente de dispositivo: K = 1 − max(R,G,B); C = (1−R−K)/(1−K); M = (1−G−K)/(1−K); Y = (1−B−K)/(1−K). A saída impressa real depende do perfil da impressora e do tipo de papel."
+    },
+    {
+      "question": "Posso usar essas paletas em projetos comerciais?",
+      "answer": "Sim. As paletas são fornecidas como inspiração de referência. Os valores HEX e Tailwind são livres para usar em qualquer projeto. Os nomes de cores Pantone são marcas registradas da Pantone LLC."
+    },
+    {
+      "question": "O que significa a classe Tailwind?",
+      "answer": "Cada cor mostra a classe utilitária Tailwind CSS mais próxima (por exemplo, bg-indigo-500). Copie e use diretamente em seu HTML ou JSX sem necessidade de CSS personalizado."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

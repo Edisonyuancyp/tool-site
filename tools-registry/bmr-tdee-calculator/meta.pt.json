@@ -1,20 +1,44 @@
 {
   "slug": "bmr-tdee-calculator",
-  "name": "Calculadora de TMB e TDEE",
-  "tagline": "Calcule o metabolismo basal e o gasto calórico diário",
-  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
-  "metaTitle": "Calculadora de TMB/TDEE – Calcule Taxa Metabólica Basal e Necessidade Calórica",
-  "metaDescription": "Calcule a Taxa Metabólica Basal (TMB) e o Gasto Energético Total Diário (TDEE) para planejar dieta e ganho de massa.",
+  "name": "Calculadora BMR & TDEE",
+  "tagline": "Descubra seu gasto calórico diário e defina o alvo perfeito para seu objetivo",
+  "description": "Calcule sua Taxa Metabólica Basal (BMR) e Gasto Energético Total Diário (TDEE) usando as fórmulas Mifflin-St Jeor, Harris-Benedict e Katch-McArdle. Mostra metas de calorias para corte, manutenção e ganho de massa com distribuição de macronutrientes.",
+  "metaTitle": "Calculadora BMR TDEE – Calorias Diárias para Perda de Peso e Ganho de Massa",
+  "metaDescription": "Calculadora grátis de BMR e TDEE. Descubra seu gasto calórico diário usando a fórmula Mifflin-St Jeor. Defina metas para corte, manutenção ou ganho de massa com distribuição de macros.",
   "keywords": [
-    "calculadora de TMB",
-    "calculadora de TDEE",
-    "taxa metabólica basal",
-    "gasto calórico diário",
-    "calorias por dia"
+    "calculadora bmr",
+    "calculadora tdee",
+    "calculadora calorias diárias",
+    "quantas calorias queimo por dia",
+    "calculadora taxa metabólica basal",
+    "calculadora bmr tdee",
+    "calculadora bmr tdee perda de peso",
+    "calculadora bmr tdee musculação",
+    "calculadora bmr tdee para emagrecer",
+    "calculadoras bmr tdee",
+    "calculadora bmr tdee grátis",
+    "calculadora grátis bmr e tdee",
+    "calculadora bmr para mulheres",
+    "calculadora bmr para homens",
+    "calculadora-bmr-emagrecer",
+    "calculadora bmr brasil",
+    "calculadora bmr fórmula",
+    "calculadora tdee grátis",
+    "calculadora tdee massa magra",
+    "calculadora tdee gasto energético total diário"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "🔥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Qual é a diferença entre BMR e TDEE?",
+      "answer": "BMR é a quantidade de calorias que seu corpo queima em repouso completo. TDEE multiplica o BMR pelo seu nível de atividade para obter seu gasto calórico diário real. Coma abaixo do TDEE para perder peso."
+    },
+    {
+      "question": "Qual fórmula de BMR é mais precisa?",
+      "answer": "Mifflin-St Jeor (1990) é considerada a mais precisa para a maioria das pessoas. Katch-McArdle é mais precisa se você conhecer sua massa magra."
+    }
+  ],
   "relatedTools": [
     "body-fat-calculator",
     "ideal-weight-calculator",

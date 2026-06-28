@@ -1,20 +1,48 @@
 {
   "slug": "unix-timestamp-converter",
   "name": "Conversor de Timestamp Unix",
-  "tagline": "Converta entre timestamp Unix e data/hora",
-  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
-  "metaTitle": "Conversor de Timestamp Unix – Ferramenta de Conversão de Timestamp Online",
-  "metaDescription": "Converta timestamp Unix em data/hora legível ou data/hora em timestamp. Suporta segundos e milissegundos.",
+  "tagline": "Converta timestamps Unix em datas legíveis instantaneamente",
+  "description": "Converta timestamps Unix epoch em datas formatadas e vice-versa. Suporta segundos e milissegundos, 12+ fusos horários, saída ISO 8601, tempo relativo e relógio em tempo real.",
+  "metaTitle": "Conversor de Timestamp Unix – Epoch para Data Online Grátis",
+  "metaDescription": "Conversor de timestamp Unix gratuito. Converta epoch para data ou data para timestamp Unix. Suporta segundos, milissegundos, UTC e 12+ fusos horários. Relógio ao vivo incluído.",
   "keywords": [
-    "conversor de timestamp",
-    "converter timestamp Unix",
+    "conversor de timestamp unix",
     "epoch para data",
     "timestamp para data",
-    "ferramenta de timestamp"
+    "conversor de tempo unix online",
+    "conversor de epoch",
+    "conversor de timestamp unix online",
+    "conversor de timestamp unix excel",
+    "conversor de timestamp unix milissegundos",
+    "conversor de timestamp unix python",
+    "conversor de timestamp unix para data",
+    "fórmula conversor de timestamp unix excel",
+    "conversor de timestamp unix fuso horário",
+    "conversor de timestamp unix para data online",
+    "conversor de timestamp unix para datetime online",
+    "conversor de timestamp unix para ist online",
+    "epoch para datetime",
+    "conversor de epoch para data",
+    "epoch para date python",
+    "epoch para data excel",
+    "epoch para data javascript"
   ],
-  "category": "Desenvolvimento",
+  "category": "Developer",
   "icon": "⏱️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que é um timestamp Unix?",
+      "answer": "Um timestamp Unix (tempo epoch) é o número de segundos decorridos desde 1º de janeiro de 1970 00:00:00 UTC. É universalmente usado em programação, bancos de dados e APIs para representar momentos no tempo como um único número inteiro."
+    },
+    {
+      "question": "Segundos vs milissegundos — como saber qual tenho?",
+      "answer": "Um número de 10 dígitos (ex: 1700000000) é em segundos. Um número de 13 dígitos (ex: 1700000000000) é em milissegundos."
+    },
+    {
+      "question": "O que é o problema de 2038?",
+      "answer": "Inteiros assinados de 32 bits podem armazenar apenas valores até 2.147.483.647 — 19 de janeiro de 2038 03:14:07 UTC. Sistemas que usam timestamps de 32 bits sofrerão overflow nessa data."
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

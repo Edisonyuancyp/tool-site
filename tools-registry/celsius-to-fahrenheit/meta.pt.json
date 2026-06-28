@@ -1,0 +1,60 @@
+{
+  "slug": "celsius-to-fahrenheit",
+  "name": "Conversor de Celsius para Fahrenheit",
+  "tagline": "Converta °C para °F — e vice-versa — com feedback visual instantâneo",
+  "description": "Converta Celsius para Fahrenheit (e °F para °C) instantaneamente. Inclui uma escala visual de temperatura para você sempre saber se está quente, frio ou na temperatura ideal. Usado por viajantes, cozinheiros e estudantes.",
+  "metaTitle": "Conversor de Celsius para Fahrenheit — Ferramenta Online Grátis | GetFastCalc",
+  "metaDescription": "Converta Celsius para Fahrenheit instantaneamente. Escala visual mostra contexto de temperatura quente/fria. Grátis, rápido, sem anúncios.",
+  "keywords": [
+    "celsius para fahrenheit",
+    "c para f",
+    "fahrenheit para celsius",
+    "conversor de temperatura",
+    "conversão celsius fahrenheit",
+    "33.8 graus fahrenheit",
+    "conversor celsius fahrenheit online",
+    "conversor fahrenheit para celsius grátis",
+    "como fazer conversor celsius fahrenheit em python",
+    "conversão celsius para fahrenheit",
+    "fórmula celsius para fahrenheit",
+    "conversor c para f",
+    "fórmula c para f",
+    "temperatura c para f",
+    "conversão c para f",
+    "c para fahrenheit",
+    "-17.2222222 graus celsius",
+    "fórmula fahrenheit para celsius",
+    "conversor fahrenheit para celsius",
+    "calculadora fahrenheit para celsius"
+  ],
+  "category": "Converter",
+  "icon": "🌡️",
+  "faqs": [
+    {
+      "question": "Qual é a fórmula para converter Celsius para Fahrenheit?",
+      "answer": "°F = (°C × 9/5) + 32. Por exemplo, 100°C = (100 × 1.8) + 32 = 212°F (ponto de ebulição da água)."
+    },
+    {
+      "question": "Quanto é 37°C em Fahrenheit?",
+      "answer": "37°C = 98,6°F — essa é a temperatura corporal humana normal."
+    },
+    {
+      "question": "Em qual temperatura Celsius e Fahrenheit são iguais?",
+      "answer": "Exatamente em -40 graus. As duas escalas marcam -40 neste ponto."
+    },
+    {
+      "question": "Qual é a temperatura ambiente em Fahrenheit?",
+      "answer": "A temperatura ambiente é tipicamente 20–22°C, o que equivale a 68–71,6°F."
+    },
+    {
+      "question": "Como faço para converter Celsius para Fahrenheit rapidamente de cabeça?",
+      "answer": "Dobre o valor em Celsius e adicione 30. Ex.: 20°C → 40+30 = 70°F (valor real: 68°F). Rápido e aproximado o suficiente."
+    }
+  ],
+  "relatedTools": [
+    "kg-to-lbs",
+    "cm-to-inch",
+    "m-to-feet"
+  ],
+  "variants": []
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "fba-reorder-calculator",
+  "name": "FBA补货和库存计算器",
+  "tagline": "永远不会缺货——准确了解何时补货和购买多少单位",
+  "description": "输入您的日均销售速度、采购周期和安全库存缓冲，即可获得补货点和建议订购数量。防止昂贵的缺货和过度库存。",
+  "metaTitle": "FBA补货计算器 - Amazon库存补充和库存规划工具",
+  "metaDescription": "免费Amazon FBA补货计算器。输入日均销售额和采购周期，获取您的补货点、库存天数和建议订购数量。",
+  "keywords": [
+    "fba补货计算器",
+    "amazon补货计算器",
+    "fba库存计算器",
+    "amazon补货点计算器",
+    "fba补充库存计算器",
+    "amazon库存规划工具",
+    "fba库存计算工具",
+    "amazon何时补货",
+    "fba库存天数",
+    "amazon缺货计算器",
+    "fba采购周期计算器",
+    "amazon卖家库存工具",
+    "fba安全库存计算器",
+    "amazon补充订单计算器",
+    "fba订购数量计算器"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "faqs": [
+    {
+      "question": "什么是补货点？",
+      "answer": "补货点 = (日均销售额 × 采购周期天数) + 安全库存。当库存降至此数字时，立即下达下一订单。"
+    },
+    {
+      "question": "我应该持有多少安全库存？",
+      "answer": "常见做法是将15-30天的销售额作为安全库存。高速销售产品或供应商不可靠的产品需要更大的缓冲。"
+    },
+    {
+      "question": "我如何计算应该订购多少单位？",
+      "answer": "订购数量 = 日均销售额 × (审核周期 + 采购周期) + 安全库存 − 当前库存。这可确保您不会过度订购或订购不足。"
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

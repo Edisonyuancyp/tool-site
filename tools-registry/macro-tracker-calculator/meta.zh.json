@@ -1,23 +1,46 @@
 {
   "slug": "macro-tracker-calculator",
-  "name": "营养素追踪计算器",
-  "tagline": "计算每日蛋白质、脂肪、碳水摄入量",
-  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
-  "metaTitle": "营养素追踪计算器 – 宏量营养素计算工具",
-  "metaDescription": "根据体重目标和活动量，计算每日卡路里及三大营养素（蛋白质/脂肪/碳水化合物）配比。",
+  "name": "宏量营养素追踪计算器",
+  "tagline": "高效追踪你的宏量营养素摄入！",
+  "description": "这个计算器可以帮助你根据健身目标追踪宏量营养素摄入，无论是增肌、减脂还是维持体重。适合健身爱好者和遵循特定饮食计划的人群。",
+  "metaTitle": "宏量营养素追踪计算器 - 免费营养管理工具 | 在线计算",
+  "metaDescription": "免费在线宏量营养素追踪计算器，无需注册即可使用。输入你的健身目标，立即获取个性化宏量营养素分配方案！",
   "keywords": [
-    "营养素计算器",
-    "宏量营养素",
-    "蛋白质计算器",
-    "减脂饮食计算",
-    "增肌饮食计算"
+    "宏量营养素追踪",
+    "宏量营养素计算器",
+    "饮食计划",
+    "健身目标",
+    "营养",
+    "宏量营养素追踪器",
+    "免费宏量营养素计算器",
+    "最好的宏量营养素计算器",
+    "卡路里和宏量营养素计算器",
+    "宏量营养素追踪应用",
+    "免费宏量营养素追踪应用",
+    "宏量营养素追踪应用推荐",
+    "宏量营养素追踪表格",
+    "减肥宏量营养素追踪",
+    "宏量营养素追踪是什么意思",
+    "宏量营养素追踪计算工具",
+    "食物宏量营养素计算器",
+    "健美宏量营养素计算器",
+    "减脂宏量营养素计算器",
+    "宏量营养素计算器应用"
   ],
-  "category": "健身",
+  "category": "Fitness",
   "icon": "🍏",
   "faqs": [
     {
-      "question": "宏量营养素是什么？",
-      "answer": "三大宏量营养素：蛋白质（4kcal/g）、碳水化合物（4kcal/g）、脂肪（9kcal/g）。"
+      "question": "什么是宏量营养素？",
+      "answer": "宏量营养素包括蛋白质、脂肪和碳水化合物，这些是身体能量和生长所必需的营养物质。"
+    },
+    {
+      "question": "如何使用这个计算器？",
+      "answer": "只需输入你的健身目标，计算器就会为你提供所需的宏量营养素分配方案。"
+    },
+    {
+      "question": "我可以后来调整目标吗？",
+      "answer": "可以。你可以随时回到计算器重新调整目标，查看宏量营养素分配的变化。"
     }
   ],
   "relatedTools": [

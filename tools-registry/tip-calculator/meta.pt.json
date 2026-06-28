@@ -1,23 +1,42 @@
 {
   "slug": "tip-calculator",
   "name": "Calculadora de Gorjeta",
-  "tagline": "Calcule gorjeta e divisão de conta rapidamente",
-  "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
-  "metaTitle": "Calculadora de Gorjeta – Calculadora Gratuita de Gorjeta e Divisão de Conta",
-  "metaDescription": "Insira o valor da conta e o percentual de gorjeta para calcular automaticamente a gorjeta e o valor por pessoa.",
+  "tagline": "Calcule o valor da gorjeta e divida a conta instantaneamente",
+  "description": "Digite o total da conta, a porcentagem de gorjeta e o número de pessoas para calcular instantaneamente a gorjeta por pessoa e o total por pessoa. Suporta porcentagens de gorjeta personalizadas.",
+  "metaTitle": "Calculadora de Gorjeta – Divida a Conta e Calcule Gorjeta Grátis",
+  "metaDescription": "Calculadora de gorjeta gratuita. Digite o valor da conta e a % de gorjeta para encontrar gorjeta por pessoa e total por pessoa. Perfeito para restaurantes, táxis e entregas.",
   "keywords": [
     "calculadora de gorjeta",
-    "dividir conta",
-    "gorjeta restaurante",
-    "calcular gorjeta",
-    "divisão de conta"
+    "calculadora de gorjeta restaurante",
+    "divisor de conta",
+    "quanto dar de gorjeta",
+    "calculadora de gorjeta dividir conta",
+    "calculadora de gorjeta google",
+    "app calculadora de gorjeta",
+    "calculadora de gorjeta grátis",
+    "calculadora de gorjeta com imposto",
+    "calculadora de gorjeta python",
+    "fórmula calculadora de gorjeta",
+    "calculadora de gorjeta iphone",
+    "calculadora de gorjeta online",
+    "calculadora de gorjeta online grátis",
+    "calculadora de gorjeta online conversão",
+    "app calculadora de gorjeta grátis online",
+    "google calculadora de gorjeta grátis online",
+    "calculadora de gorjeta simples grátis online",
+    "melhor calculadora de gorjeta grátis online",
+    "calculadora de gorjeta grátis"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "🍽️",
   "faqs": [
     {
-      "question": "Qual é a gorjeta habitual?",
-      "answer": "No Brasil não é obrigatória, mas 10% é comum em restaurantes. Nos EUA, 15–20% é o padrão."
+      "question": "Qual é a porcentagem padrão de gorjeta?",
+      "answer": "Nos EUA, 15–20% é o padrão para serviço em restaurantes. 18% é considerado o mínimo para um bom atendimento; 20%+ para um atendimento excelente."
+    },
+    {
+      "question": "Como divido a conta igualmente?",
+      "answer": "Digite o total da conta, selecione sua porcentagem de gorjeta e digite o número de pessoas. A calculadora mostra exatamente quanto cada pessoa deve pagar incluindo a gorjeta."
     }
   ],
   "relatedTools": [

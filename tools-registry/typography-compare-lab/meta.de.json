@@ -1,0 +1,60 @@
+{
+  "slug": "typography-compare-lab",
+  "name": "Typography Compare Lab",
+  "tagline": "Vergleichen Sie zwei Google Fonts nebeneinander — sofortige Vorschau, keine Anmeldung erforderlich",
+  "description": "Wählen Sie zwei beliebige Google Fonts aus und zeigen Sie sie nebeneinander mit Ihrem eigenen Text an. Passen Sie Schriftgröße, Zeilenhöhe, Buchstabenabstand und Farbe an. Perfekt für Designer, die zwischen Schriftarten für ein Projekt wählen.",
+  "metaTitle": "Typography Compare Lab – Google Fonts nebeneinander vergleichen | GetFastCalc",
+  "metaDescription": "Kostenloses Schriftart-Vergleichstool. Vergleichen Sie zwei beliebige Google Fonts nebeneinander mit Live-Vorschau. Passen Sie Größe, Gewicht, Abstände und Farbe an. Kostenlos, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "Schriftart-Vergleichstool",
+    "Google Fonts vergleichen",
+    "Schriftart gegen Schriftart",
+    "Typografie-Tool online",
+    "Inter vs Merriweather",
+    "beste Schriftart für Website",
+    "Google Fonts Vorschau",
+    "Schriftarten-Vergleich",
+    "Schriftart-Picker online kostenlos",
+    "Web-Typografie-Tool",
+    "Schriftart-Vergleichstool online",
+    "Schriftart-Vergleichstool kostenlos",
+    "Google Fonts Vergleichstool",
+    "Schriftgröße-Vergleichstool",
+    "Google Fonts nebeneinander vergleichen",
+    "zwei Google Fonts vergleichen",
+    "Google Fonts ausgewählte vergleichen",
+    "Schriftart gegen Schriftfamilie",
+    "Schriftart gegen Schriftstil",
+    "Schriftart gegen Schriftgröße"
+  ],
+  "category": "Design",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "Wie funktioniert das Typography Compare Lab?",
+      "answer": "Wählen Sie zwei Schriftarten aus unserer Liste von über 50 beliebten Google Fonts. Das Tool lädt sie dynamisch von Googles CDN und rendert Ihren benutzerdefinierten Text in beiden Schriftarten nebeneinander, sodass Sie sie sofort vergleichen können."
+    },
+    {
+      "question": "Benötige ich einen Google Fonts API-Schlüssel?",
+      "answer": "Nein. Das Tool lädt Schriftarten kostenlos direkt von fonts.googleapis.com. Es ist kein API-Schlüssel oder Konto erforderlich."
+    },
+    {
+      "question": "Kann ich meinen Schriftart-Vergleich teilen?",
+      "answer": "Ja. Die URL wird automatisch aktualisiert, wenn Sie Schriftarten auswählen (z. B. ?a=Inter&b=Merriweather). Kopieren Sie die URL aus Ihrem Browser, um den genauen Vergleich mit anderen zu teilen."
+    },
+    {
+      "question": "Welche Schriftarten sind verfügbar?",
+      "answer": "Wir bieten über 50 der beliebtesten Google Fonts in den Kategorien Serif, Sans-Serif, Monospace und Display — einschließlich Inter, Roboto, Merriweather, Playfair Display, Lato, Open Sans und vielen weiteren."
+    },
+    {
+      "question": "Kann ich damit die beste Schriftart für meine Website finden?",
+      "answer": "Absolut. Geben Sie Ihre tatsächliche Überschrift oder Ihren Fließtext in das Vorschaufeld ein und vergleichen Sie dann verschiedene Schriftarten, um zu sehen, welche für Ihren spezifischen Inhalt und Anwendungsfall am besten aussieht."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "qr-code-generator",
+    "password-generator"
+  ],
+  "variants": []
+}

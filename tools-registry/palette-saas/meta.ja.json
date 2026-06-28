@@ -1,0 +1,36 @@
+{
+  "slug": "palette-saas",
+  "name": "ミニマル SaaS カラーパレット",
+  "tagline": "モダン SaaS 製品に使用されるクリーンで高コントラストなパレット。自信あふれるインディゴアクセントで引き締められたニュートラルグレー。",
+  "description": "モダン SaaS 製品に使用されるクリーンで高コントラストなパレット。自信あふれるインディゴアクセントで引き締められたニュートラルグレー。",
+  "metaTitle": "ミニマル SaaS カラーパレット – HEX、CMYK、Tailwind、Pantone カラーコード",
+  "metaDescription": "無料のミニマル SaaS カラーパレット。HEX コード、Tailwind CSS クラス、CMYK 値、Pantone 参考色を完全掲載。カラーコードを今すぐコピー。",
+  "keywords": [
+    "ミニマル SaaS カラーパレット",
+    "ミニマル SaaS カラースキーム",
+    "ミニマル SaaS HEX コード",
+    "#6366F1",
+    "#A5B4FC",
+    "#F9FAFB",
+    "Pantone マッチング",
+    "CMYK 変換",
+    "ウェブカラーパレット",
+    "Tailwind CSS スキーム"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone の色番号は正確に一致していますか？",
+      "answer": "いいえ。表示されている Pantone カラーコードは最も近い色合いの近似値です。印刷物の本番製作の場合は、必ず物理的な Pantone ファンデックで検証してください。"
+    },
+    {
+      "question": "CMYK 値はどのように計算されますか？",
+      "answer": "CMYK 値はデバイス非依存の計算式を使用しています。K = 1 − max(R,G,B)、C/M/Y は RGB の比率から導出されます。実際の出力結果はプリンタープロファイルと用紙に依存します。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

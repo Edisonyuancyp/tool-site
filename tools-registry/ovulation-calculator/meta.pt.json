@@ -1,20 +1,44 @@
 {
   "slug": "ovulation-calculator",
-  "name": "Calculadora de Ovulação",
-  "tagline": "Preveja a data de ovulação e o período fértil",
-  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
-  "metaTitle": "Calculadora de Ovulação – Calculadora Gratuita de Previsão de Ovulação Online",
-  "metaDescription": "Insira a data da última menstruação e a duração do ciclo para calcular a ovulação prevista e os dias férteis.",
+  "name": "Rastreador de Ovulação & Ciclo",
+  "tagline": "Preveja a janela fértil, data da ovulação e próximo período",
+  "description": "Calcule sua janela fértil, data da ovulação, datas do período e fases do ciclo de até 6 ciclos futuros. Todos os cálculos são executados inteiramente no seu navegador — nenhum dado é enviado para nenhum servidor.",
+  "metaTitle": "Calculadora de Ovulação – Rastreador de Janela Fértil e Período (100% Privado)",
+  "metaDescription": "Calculadora gratuita de ovulação e período. Descubra sua janela fértil, data da ovulação e próximo período para até 6 ciclos. 100% privado — funciona no seu navegador, sem armazenamento de dados.",
   "keywords": [
     "calculadora de ovulação",
-    "calcular ovulação",
-    "período fértil",
-    "dias férteis",
-    "calculadora para engravidar"
+    "calculadora de janela fértil",
+    "rastreador de período",
+    "calculadora de ciclo menstrual",
+    "quando sou mais fértil",
+    "rastreador de ciclo de ovulação",
+    "app rastreador de ciclo de ovulação",
+    "rastreador de ciclo de ovulação vtuber",
+    "melhor rastreador de ciclo de ovulação",
+    "rastreador de ciclo de ovulação gratuito",
+    "rastreador de período e ovulação",
+    "app calculadora de ovulação",
+    "calculadora de gravidez ovulação",
+    "calculadora de ovulação flo",
+    "calculadora de ovulação babymed",
+    "calculadora de ovulação período",
+    "calculadora de ovulação menino",
+    "calculadora de ovulação para gêmeos meninos",
+    "calculadora de janela fértil online",
+    "calculadora de janela fértil brasil"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "🌸",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como é calculada a janela fértil?",
+      "answer": "A ovulação normalmente ocorre 14 dias antes do próximo período. A janela fértil é os 5 dias antes da ovulação mais o dia da ovulação."
+    },
+    {
+      "question": "Esses dados são armazenados em algum lugar?",
+      "answer": "Não. Todos os cálculos são feitos em JavaScript no seu navegador. Nada é enviado para um servidor ou compartilhado com terceiros."
+    }
+  ],
   "relatedTools": [
     "sleep-calculator",
     "water-intake-calculator",

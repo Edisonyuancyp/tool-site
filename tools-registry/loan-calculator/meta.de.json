@@ -1,23 +1,46 @@
 {
   "slug": "loan-calculator",
   "name": "Kreditrechner",
-  "tagline": "Berechne monatliche Raten und Gesamtzinsen",
-  "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
-  "metaTitle": "Kreditrechner – Kostenloser Online-Kreditrechner",
-  "metaDescription": "Gib Kreditbetrag, Zinssatz und Laufzeit ein und erhalte sofort monatliche Rate, Gesamtzinsen und Tilgungsplan.",
+  "tagline": "Berechnen Sie monatliche Zahlungen, Gesamtzinsen und Tilgungsplan",
+  "description": "Berechnen Sie monatliche Kreditraten, gezahlte Gesamtzinsen und erstellen Sie einen vollständigen Tilgungsplan. Funktioniert für Hypotheken, Autokredite, Privatdarlehen und Studiendarlehen.",
+  "metaTitle": "Kreditrechner – Monatliche Rate, Zinsen & Tilgungsplan berechnen",
+  "metaDescription": "Kostenloser Kreditrechner: Geben Sie Kreditbetrag, Zinssatz und Laufzeit ein und berechnen Sie die monatliche Rate und Gesamtzinsen. Mit vollständigem Tilgungsplan.",
   "keywords": [
     "Kreditrechner",
-    "Monatsrate berechnen",
-    "Baufinanzierungsrechner",
-    "Autokredit berechnen",
-    "Tilgungsplan"
+    "Kreditrate berechnen",
+    "Zinsrechner Kredit",
+    "Tilgungsrechner",
+    "Hypothekenrechner",
+    "Autokredit Rechner",
+    "Immobilienkredit Rechner",
+    "Kreditrechner Deutschland",
+    "Autofinanzierung Rechner",
+    "Privatkredit Rechner",
+    "Kreditrechner online",
+    "Kreditrechner kostenlos",
+    "Kreditrechner Bank",
+    "Kreditrechner Sparkasse",
+    "Kreditrechner Excel",
+    "Kreditrechner Deutschland",
+    "Kreditrechner Ratenhöhe",
+    "Kreditrechner Zinsen",
+    "kostenloser Kreditrechner",
+    "Kreditrechner Tool kostenlos"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "🏦",
   "faqs": [
     {
-      "question": "Wie wird die monatliche Rate berechnet?",
-      "answer": "Monatliche Rate = Kapital × Monatszinssatz × (1+Monatszinssatz)^Laufzeit ÷ ((1+Monatszinssatz)^Laufzeit - 1)"
+      "question": "Wie wird meine monatliche Kreditrate berechnet?",
+      "answer": "Monatliche Rate = K × [z(1+z)^n] / [(1+z)^n - 1], wobei K das Kapital, z der monatliche Zinssatz und n die Anzahl der Zahlungen ist."
+    },
+    {
+      "question": "Was ist ein Tilgungsplan?",
+      "answer": "Ein Tilgungsplan zeigt jede monatliche Zahlung aufgeschlüsselt in Tilgung und Zinsen. Frühe Zahlungen bestehen hauptsächlich aus Zinsen, spätere Zahlungen hauptsächlich aus Tilgung."
+    },
+    {
+      "question": "Wie kann ich die Gesamtzinsen reduzieren?",
+      "answer": "Zusätzliche Tilgungszahlungen am Anfang reduzieren das Kreditkapital schneller und senken die Gesamtzinsen erheblich. Bereits eine extra Zahlung pro Jahr kann Tausende sparen."
     }
   ],
   "relatedTools": [

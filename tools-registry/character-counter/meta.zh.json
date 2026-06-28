@@ -1,0 +1,60 @@
+{
+  "slug": "character-counter",
+  "name": "社交媒体字数统计工具",
+  "tagline": "实时统计Twitter、LinkedIn、Instagram等平台的字符和字数",
+  "description": "实时统计字符和字数，支持多个平台的特定限制：Twitter/X（280字）、LinkedIn（3000字发文/220字预览）、Instagram（2200字）、TikTok（2200字）、YouTube（5000字）等。配备颜色编码警告提示。",
+  "metaTitle": "社交媒体字数统计工具 — Twitter、LinkedIn、Instagram | GetFastCalc",
+  "metaDescription": "实时字符计数器，支持各大社交平台字符限制。为Twitter、LinkedIn、Instagram、TikTok、YouTube和邮件主题行提供颜色编码警告提示。",
+  "keywords": [
+    "字数统计工具",
+    "Twitter字数统计",
+    "LinkedIn字符限制",
+    "Instagram文案长度",
+    "社交媒体字数统计",
+    "字数计数器",
+    "社交媒体字数统计工具",
+    "字数统计（含空格）",
+    "在线字数统计",
+    "文本字数统计",
+    "字数统计器",
+    "字数和字符统计",
+    "字数统计Grammarly",
+    "中文字数统计",
+    "Twitter字数计数器",
+    "Twitter字数限制",
+    "Twitter字数统计 - 检查推文长度等",
+    "Twitter字数检查",
+    "Twitter字数统计2025",
+    "Twitter最大字数限制"
+  ],
+  "category": "Text",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "What is Twitter/X's character limit?",
+      "answer": "Twitter/X allows 280 characters for standard accounts. Twitter Blue/X Premium subscribers can post up to 25,000 characters (long-form posts). URLs count as 23 characters regardless of actual length. Usernames in replies are included in the count."
+    },
+    {
+      "question": "What is LinkedIn's character limit?",
+      "answer": "LinkedIn post body: 3,000 characters. However, posts are truncated at approximately 140–220 characters in the feed with a 'see more' button. The first 140–220 characters function as your 'hook'. LinkedIn article titles: 100 characters. LinkedIn connection request message: 300 characters."
+    },
+    {
+      "question": "What is Instagram's caption character limit?",
+      "answer": "Instagram captions can be up to 2,200 characters, but only the first 125 characters are visible before 'more' is shown. Hashtags work best when placed in the caption or first comment. Maximum 30 hashtags per post."
+    },
+    {
+      "question": "Does a space count as a character?",
+      "answer": "Yes — spaces count as characters on all social platforms. This tool counts them by default, which matches Twitter, LinkedIn, and Instagram's behavior."
+    },
+    {
+      "question": "How many characters should an email subject line be?",
+      "answer": "Email subject lines should be 40–50 characters for desktop clients and 25–30 characters for mobile (where most email is read). Preheader text (the preview line) should be 85–100 characters. Combined, they should tell a complete story."
+    }
+  ],
+  "relatedTools": [
+    "headline-analyzer",
+    "markdown-previewer",
+    "word-counter"
+  ],
+  "variants": []
+}

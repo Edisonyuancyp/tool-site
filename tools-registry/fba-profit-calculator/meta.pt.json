@@ -1,0 +1,47 @@
+{
+  "slug": "fba-profit-calculator",
+  "name": "Calculadora de Lucro FBA",
+  "tagline": "Calcule lucro líquido, ROI e margem para qualquer produto Amazon FBA",
+  "description": "Digite o custo do produto, preço de venda e taxas FBA para calcular instantaneamente lucro líquido por unidade, ROI, margem de lucro e preço de equilíbrio. Suporta consulta de taxa de referência por categoria.",
+  "metaTitle": "Calculadora de Lucro FBA – Calcule Lucro Líquido e ROI Amazon FBA",
+  "metaDescription": "Calculadora gratuita de lucro Amazon FBA. Digite custo, preço e taxas para obter lucro líquido por unidade, ROI, margem e preço de equilíbrio instantaneamente.",
+  "keywords": [
+    "calculadora lucro fba",
+    "calculadora lucro amazon fba",
+    "calculadora lucro vendedor amazon",
+    "calculadora roi fba",
+    "calculadora margem amazon fba",
+    "calculadora lucro líquido fba",
+    "margem vendedor amazon",
+    "lucro produto fba",
+    "calculadora taxa referência amazon",
+    "calculadora ponto equilíbrio fba",
+    "estimador taxas amazon fba",
+    "calculadora lucro seller central",
+    "calculadora pesquisa produto fba",
+    "margem lucro amazon",
+    "calculadora custo fba"
+  ],
+  "category": "ecommerce",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Quais taxas a Calculadora de Lucro FBA inclui?",
+      "answer": "Inclui taxa de referência Amazon (por categoria), taxa de fulfillment FBA (por tier), taxa de armazenamento mensal e seu custo de produtos. Você também pode adicionar custos de envio para a Amazon."
+    },
+    {
+      "question": "Qual é uma boa margem de lucro para Amazon FBA?",
+      "answer": "A maioria dos vendedores FBA bem-sucedidos visa margem líquida de 20–30% após todas as taxas. Abaixo de 15% deixa pouco espaço para gastos com anúncios e competição de preços."
+    },
+    {
+      "question": "Como é calculado o ROI para FBA?",
+      "answer": "ROI = (Lucro Líquido ÷ Custo Total) × 100. Por exemplo, se você gasta R$ 10 em um produto e lucra R$ 3 após todas as taxas, seu ROI é 30%."
+    }
+  ],
+  "relatedTools": [
+    "fba-packing-calculator",
+    "fba-fee-calculator",
+    "fba-reorder-calculator"
+  ],
+  "variants": []
+}

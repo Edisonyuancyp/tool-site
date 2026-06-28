@@ -1,20 +1,45 @@
 {
   "slug": "car-lease-calculator",
-  "name": "Calculadora de Leasing de Carro",
-  "tagline": "Calcule parcelas mensais e custo total do leasing",
-  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
-  "metaTitle": "Calculadora de Leasing de Carro – Calculadora de Leasing Automotivo",
-  "metaDescription": "Insira preço do veículo, valor residual, taxa de juros e prazo para calcular a parcela mensal do leasing.",
+  "name": "Calculadora de Aluguel de Carro",
+  "tagline": "Calcule suas parcelas de aluguel rapidamente!",
+  "description": "Esta ferramenta ajuda você a estimar suas parcelas mensais de aluguel de carro com base no preço do veículo, entrada, taxa de juros e período de aluguel. Perfeita para quem está considerando alugar um veículo e quer entender melhor sua estrutura de pagamento.",
+  "metaTitle": "Calculadora de Aluguel de Carro – Estime suas Parcelas | Ferramenta Gratuita",
+  "metaDescription": "Calcule facilmente suas parcelas de aluguel de carro. Gratuito, sem cadastro, resultados instantâneos!",
   "keywords": [
-    "calculadora de leasing",
-    "leasing de carro",
-    "calcular leasing",
-    "financiamento de carro",
-    "parcela de leasing"
+    "calculadora de aluguel de carro",
+    "simulador de parcela de aluguel",
+    "aluguel de veículo",
+    "parcela mensal de aluguel",
+    "calculadora de financiamento de carro",
+    "calculadora aluguel carro brasil",
+    "calculadora de aluguel de carro online",
+    "calculadora de parcela de aluguel",
+    "simulador de aluguel de carro",
+    "calculadora aluguel carro com entrada",
+    "calculadora aluguel de veículo grátis",
+    "calculadora gratuita de aluguel de carro",
+    "como calcular parcela de aluguel de carro",
+    "ferramenta calculadora aluguel online",
+    "calculadora de aluguel carro por mês",
+    "estimar parcelas aluguel veículo",
+    "calcular aluguel carro automático"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "🚗",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quais fatores determinam minha parcela de aluguel?",
+      "answer": "Sua parcela de aluguel é influenciada pelo preço do veículo, valor residual, taxa de juros, período de aluguel e valor da entrada."
+    },
+    {
+      "question": "Posso usar esta calculadora para diferentes carros?",
+      "answer": "Sim, você pode inserir valores diferentes para qualquer carro e ver como isso afeta sua parcela de aluguel."
+    },
+    {
+      "question": "Esta ferramenta é apenas para carros novos?",
+      "answer": "Não, a calculadora pode ser usada para carros novos e usados que estão disponíveis para aluguel."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "finance-charge-calculator"

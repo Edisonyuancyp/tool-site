@@ -1,20 +1,48 @@
 {
   "slug": "running-pace-calculator",
   "name": "Calculadora de Ritmo de Corrida",
-  "tagline": "Calcule ritmo, velocidade e tempo de chegada",
-  "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
-  "metaTitle": "Calculadora de Ritmo de Corrida – Ferramenta de Cálculo de Ritmo de Maratona",
-  "metaDescription": "Insira distância e tempo para calcular o ritmo, ou insira o ritmo para prever o tempo de chegada. 5K, 10K, meia-maratona, maratona.",
+  "tagline": "Calcule seu ritmo, velocidade e tempo de prova de corrida",
+  "description": "Calcule seu ritmo de corrida por km ou milha, converta entre ritmo e velocidade, e estime seu tempo de chegada em qualquer distância de prova.",
+  "metaTitle": "Calculadora de Ritmo de Corrida – Calculadora de Ritmo de Prova Grátis Online",
+  "metaDescription": "Calcule ritmo de corrida, velocidade e tempo de prova. Suporta km e milhas. Calculadora de ritmo grátis para 5K, 10K, meia maratona e maratona.",
   "keywords": [
     "calculadora de ritmo de corrida",
-    "ritmo de maratona",
-    "calcular ritmo de corrida",
-    "velocidade de corrida",
-    "tempo de chegada"
+    "calculadora de ritmo de prova",
+    "calculadora de ritmo por km",
+    "calculadora de velocidade de corrida",
+    "calculadora ritmo corrida km",
+    "calculadora de ritmo para treino",
+    "calculadora de ritmo corrida app",
+    "calculadora de ritmo esteira",
+    "calculadora ritmo corrida active",
+    "calculadora ritmo strava",
+    "calculadora ritmo percentual",
+    "calculadora ritmo online",
+    "calculadora ritmo grátis",
+    "calculadora de ritmo grátis km",
+    "calculadora de ritmo treino corrida grátis",
+    "como calcular ritmo corrida",
+    "calculadora ritmo prova corrida",
+    "calculadora ritmo maratona",
+    "calculadora ritmo meia maratona",
+    "calculadora previsão ritmo prova"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "🏃",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como calculo meu ritmo de corrida?",
+      "answer": "Divida o tempo total pela distância. Por exemplo, se você corre 5km em 30 minutos, seu ritmo é 6:00 min/km."
+    },
+    {
+      "question": "Qual é um bom ritmo de corrida para iniciantes?",
+      "answer": "Para iniciantes, um ritmo confortável de 8–10 min/km (13–16 min/milha) é perfeitamente aceitável. Foque em terminar, não em velocidade."
+    },
+    {
+      "question": "Como converto o ritmo de km para milhas?",
+      "answer": "Multiplique seu ritmo em min/km por 1,60934 para obter min/milha. Por exemplo, 6:00 min/km = 9:39 min/milha."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "water-intake-calculator",

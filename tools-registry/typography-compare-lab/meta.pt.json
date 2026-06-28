@@ -1,0 +1,60 @@
+{
+  "slug": "typography-compare-lab",
+  "name": "Typography Compare Lab",
+  "tagline": "Compare duas Google Fonts lado a lado — preview instantâneo, sem cadastro",
+  "description": "Escolha duas Google Fonts e visualize-as lado a lado com seu próprio texto. Ajuste tamanho da fonte, altura da linha, espaçamento entre letras e cor. Perfeito para designers escolhendo entre tipografias para um projeto.",
+  "metaTitle": "Typography Compare Lab – Compare Google Fonts Lado a Lado | GetFastCalc",
+  "metaDescription": "Ferramenta grátis de comparação de fontes. Compare duas Google Fonts lado a lado com preview ao vivo. Ajuste tamanho, peso, espaçamento e cor. Sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "ferramenta de comparação de fontes",
+    "comparar google fonts",
+    "fonte vs fonte",
+    "ferramenta de tipografia online",
+    "inter vs merriweather",
+    "melhor fonte para website",
+    "preview google fonts",
+    "comparação de tipografias",
+    "selecionador de fontes online grátis",
+    "ferramenta de tipografia web",
+    "comparador de fontes online",
+    "comparador de fontes grátis",
+    "ferramenta de comparação google fonts",
+    "comparador de tamanho de fonte",
+    "comparar google fonts lado a lado",
+    "comparar duas google fonts",
+    "google fonts comparar selecionadas",
+    "fonte vs família de fontes",
+    "fonte vs estilo de fonte",
+    "fonte vs tamanho de fonte"
+  ],
+  "category": "Design",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "Como funciona o Typography Compare Lab?",
+      "answer": "Selecione duas fontes de nossa lista com 50+ Google Fonts populares. A ferramenta carrega dinamicamente as fontes do CDN do Google e renderiza seu texto personalizado em ambas as fontes lado a lado para você comparar instantaneamente."
+    },
+    {
+      "question": "Preciso de uma chave API do Google Fonts?",
+      "answer": "Não. A ferramenta carrega as fontes direto de fonts.googleapis.com gratuitamente. Nenhuma chave API ou conta é necessária."
+    },
+    {
+      "question": "Posso compartilhar minha comparação de fontes?",
+      "answer": "Sim. A URL se atualiza automaticamente conforme você seleciona as fontes (ex: ?a=Inter&b=Merriweather). Copie a URL do seu navegador para compartilhar a comparação exata com qualquer pessoa."
+    },
+    {
+      "question": "Quais fontes estão disponíveis?",
+      "answer": "Incluímos 50+ das Google Fonts mais populares nas categorias serif, sans-serif, monospace e display — incluindo Inter, Roboto, Merriweather, Playfair Display, Lato, Open Sans e muito mais."
+    },
+    {
+      "question": "Posso usar isso para encontrar a melhor fonte para meu website?",
+      "answer": "Claro. Digite seu título ou texto de corpo real no campo de preview, depois compare diferentes fontes para ver qual fica melhor para seu conteúdo e caso de uso específico."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "qr-code-generator",
+    "password-generator"
+  ],
+  "variants": []
+}

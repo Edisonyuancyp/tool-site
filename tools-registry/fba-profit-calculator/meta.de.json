@@ -1,0 +1,47 @@
+{
+  "slug": "fba-profit-calculator",
+  "name": "FBA Gewinnrechner",
+  "tagline": "Berechnen Sie Nettogewinn, ROI und Marge für jedes Amazon FBA Produkt",
+  "description": "Geben Sie Ihre Produktkosten, Verkaufspreis und FBA-Gebühren ein, um sofort den Nettogewinn pro Einheit, ROI, Gewinnmarge und Break-Even-Preis zu berechnen. Unterstützt Referenzgebühren-Lookup nach Kategorie.",
+  "metaTitle": "FBA Gewinnrechner – Amazon FBA Nettogewinn & ROI Rechner",
+  "metaDescription": "Kostenloser Amazon FBA Gewinnrechner. Geben Sie Kosten, Preis und Gebühren ein, um sofort Nettogewinn pro Einheit, ROI, Marge und Break-Even-Preis zu erhalten.",
+  "keywords": [
+    "FBA Gewinnrechner",
+    "Amazon FBA Gewinnrechner",
+    "Amazon Verkäufer Gewinnrechner",
+    "FBA ROI Rechner",
+    "Amazon FBA Margenrechner",
+    "FBA Nettogewinn Rechner",
+    "Amazon Verkäufer Marge",
+    "FBA Produktgewinn",
+    "Amazon Referenzgebühr Rechner",
+    "FBA Break-Even Rechner",
+    "Amazon FBA Gebührenschätzer",
+    "Seller Central Gewinnrechner",
+    "FBA Produktrecherche Rechner",
+    "Amazon Gewinnmarge",
+    "FBA Kostenrechner"
+  ],
+  "category": "ecommerce",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Welche Gebühren sind im FBA Gewinnrechner enthalten?",
+      "answer": "Er umfasst die Amazon-Referenzgebühr (nach Kategorie), FBA-Fulfillmentgebühr (nach Tier), monatliche Lagergebühr und Ihre Herstellungskosten. Sie können auch Versandkosten zu Amazon hinzufügen."
+    },
+    {
+      "question": "Was ist eine gute Gewinnmarge für Amazon FBA?",
+      "answer": "Die meisten erfolgreichen FBA-Verkäufer streben eine Nettorentabilität von 20–30% nach allen Gebühren an. Unter 15% bleibt wenig Spielraum für PPC-Ausgaben und Preiskonkurrenz."
+    },
+    {
+      "question": "Wie wird der ROI für FBA berechnet?",
+      "answer": "ROI = (Nettogewinn ÷ Gesamtkosten) × 100. Wenn Sie beispielsweise 10 € für ein Produkt ausgeben und nach allen Gebühren 3 € Nettogewinn erzielen, beträgt Ihr ROI 30%."
+    }
+  ],
+  "relatedTools": [
+    "fba-packing-calculator",
+    "fba-fee-calculator",
+    "fba-reorder-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "crypto-market-cap-comparator",
-  "name": "Comparador de Capitalização de Mercado de Cripto",
-  "tagline": "Compare a capitalização de mercado de diferentes criptomoedas",
-  "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
-  "metaTitle": "Comparador de Capitalização de Cripto – Ferramenta de Comparação de Cripto Online",
-  "metaDescription": "Insira duas criptomoedas para comparar diferenças de capitalização de mercado e potencial de preço.",
+  "name": "Comparador de Market Cap de Criptomoedas",
+  "tagline": "Se a moeda X alcançasse o market cap da moeda Y, qual seria seu preço?",
+  "description": "A clássica calculadora de 'e se' para criptomoedas. Selecione duas moedas e veja instantaneamente o preço projetado se a primeira alcançasse o market cap da segunda. Usa dados ao vivo do CoinGecko para 50+ principais criptomoedas.",
+  "metaTitle": "Comparador de Market Cap de Criptomoedas – Calculadora de Preço Se X Alcançasse Y",
+  "metaDescription": "Calculadora gratuita de market cap de criptomoedas. Veja qual preço Bitcoin, Ethereum, Solana ou qualquer altcoin alcançaria se igualasse o market cap de outra moeda. Dados ao vivo do CoinGecko.",
   "keywords": [
-    "capitalização de mercado de cripto",
-    "comparar criptomoedas",
-    "calcular capitalização do Bitcoin",
-    "potencial de preço",
-    "comparador de cripto"
+    "calculadora de market cap cripto",
+    "se bitcoin alcançasse market cap ethereum",
+    "calculadora de previsão de preço altcoin",
+    "calculadora e se cripto",
+    "comparação de market cap cripto",
+    "calculadora market cap criptomoeda preço",
+    "calculadora market cap cripto lucro",
+    "calculadora comparação market cap cripto",
+    "app calculadora market cap cripto",
+    "calculadora market cap cripto coingecko",
+    "calculadora market cap cripto reddit",
+    "calculadora market cap moeda cripto",
+    "comparação market cap criptomoedas",
+    "calculadora comparação market cap cripto",
+    "ferramenta comparação market cap cripto",
+    "gráfico comparação market cap cripto",
+    "comparação market cap bitcoin",
+    "comparação market cap bitcoin outros ativos",
+    "comparação market cap xrp",
+    "comparação market cap bitcoin ouro"
   ],
-  "category": "Cripto",
+  "category": "Crypto",
   "icon": "🪙",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como é calculado o preço projetado?",
+      "answer": "Preço Projetado = Market Cap Alvo / Oferta Circulante da Moeda A. Por exemplo, se SOL (480M de oferta) alcançasse o market cap de BTC de $2T: $2T / 480M = $4.167 por SOL."
+    },
+    {
+      "question": "Por que a oferta circulante importa mais que a oferta total?",
+      "answer": "O market cap é sempre calculado usando a oferta circulante (moedas realmente no mercado), não a oferta total ou máxima."
+    },
+    {
+      "question": "De onde vêm os dados?",
+      "answer": "Os dados ao vivo são obtidos da API pública gratuita do CoinGecko. Se indisponível, a ferramenta usa dados offline aproximados como fallback."
+    }
+  ],
   "relatedTools": [
     "tp-sl-calculator",
     "position-size-calculator",

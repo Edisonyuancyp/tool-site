@@ -1,20 +1,44 @@
 {
   "slug": "fitness-level-quiz",
-  "name": "フィットネスレベル診断",
-  "tagline": "現在のフィットネスレベルを評価",
-  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
-  "metaTitle": "フィットネスレベル診断 – オンライン体力評価ツール",
-  "metaDescription": "簡単なアンケートで現在のフィットネスレベルを評価し、パーソナライズされたトレーニングアドバイスを提供。",
+  "name": "フィットネスレベルクイズ",
+  "tagline": "今日あなたのフィットネスレベルを測定しましょう！",
+  "description": "このクイズに参加して、運動習慣とライフスタイルに基づいた現在のフィットネスレベルを測定してください。体力を評価し、改善すべき点を特定したい方に最適です。",
+  "metaTitle": "フィットネスレベルクイズ – 自己評価ツール | 無料オンラインツール",
+  "metaDescription": "楽しくて素早いクイズでフィットネスレベルを測定しましょう。登録不要で無料で即座に結果を取得できます！",
   "keywords": [
+    "フィットネスレベルクイズ",
+    "自己評価",
+    "運動習慣",
+    "フィットネス評価",
+    "健康クイズ",
+    "自分のフィットネスレベルを測定する",
     "フィットネスレベル診断",
-    "体力評価",
-    "フィットネス評価ツール",
-    "運動レベルテスト",
-    "フィットネスアドバイス"
+    "自己評価レポート",
+    "体力テスト",
+    "運動習慣の例",
+    "運動習慣に関するアンケート",
+    "運動習慣の意味",
+    "運動習慣と生活習慣の改善",
+    "運動習慣と健康的なライフスタイル",
+    "運動習慣に関する名言",
+    "運動習慣の同義語"
   ],
-  "category": "フィットネス",
+  "category": "Fitness",
   "icon": "🏋️‍♀️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "クイズにはどのくらい時間がかかりますか？",
+      "answer": "クイズは約5分で完了でき、フィットネスレベルの概要を素早く把握できます。"
+    },
+    {
+      "question": "結果から何が学べますか？",
+      "answer": "現在のフィットネスレベルについての洞察と、改善方法のヒントが得られます。"
+    },
+    {
+      "question": "クイズを受けるのに費用がかかりますか？",
+      "answer": "いいえ、クイズは完全に無料で、登録の必要はありません。"
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "body-fat-calculator"

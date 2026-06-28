@@ -1,0 +1,36 @@
+{
+  "slug": "palette-medical",
+  "name": "Medical Blue Farbpalette",
+  "tagline": "Vertrauenswürdige, sterile Farbpalette für Gesundheitswesen und medizinische Anwendungen. Beruhigende Blautöne und Weiß kommunizieren Sicherheit und Präzision.",
+  "description": "Vertrauenswürdige, sterile Farbpalette für Gesundheitswesen und medizinische Anwendungen. Beruhigende Blautöne und Weiß kommunizieren Sicherheit und Präzision.",
+  "metaTitle": "Medical Blue Farbpalette – HEX, CMYK, Tailwind & Pantone Referenz",
+  "metaDescription": "Kostenlose Medical Blue Farbpalette mit HEX-Codes, Tailwind CSS Klassen, CMYK-Werten und Pantone Näherungswerten. Kopieren Sie jede Farbe sofort.",
+  "keywords": [
+    "Medical Blue Farbpalette",
+    "Medical Blue Farbschema",
+    "Medical Blue HEX Codes",
+    "#0EA5E9",
+    "#0369A1",
+    "#F0F9FF",
+    "Pantone Farbabgleich",
+    "CMYK Konvertierung",
+    "Web Farbpalette",
+    "Tailwind CSS Schema"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Sind die Pantone-Referenzen exakte Übereinstimmungen?",
+      "answer": "Nein. Die angezeigten Pantone-Codes sind die nächsten visuellen Näherungswerte. Für produktive Druckarbeiten überprüfen Sie immer anhand eines physischen Pantone Fan Deck."
+    },
+    {
+      "question": "Wie werden CMYK-Werte berechnet?",
+      "answer": "CMYK-Werte verwenden die geräteunabhängige Formel: K = 1 − max(R,G,B); C/M/Y werden aus RGB-Verhältnissen abgeleitet. Die tatsächliche Ausgabe hängt vom Druckerprofil und Papier ab."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

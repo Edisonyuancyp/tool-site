@@ -1,20 +1,48 @@
 {
   "slug": "time-blocking-scheduler",
-  "name": "Agendador de Blocos de Tempo",
-  "tagline": "Planeje blocos de tempo diários e melhore o foco",
-  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
-  "metaTitle": "Agendador de Blocos de Tempo – Ferramenta de Gestão de Tempo Diário",
-  "metaDescription": "Use o método de bloqueio de tempo para organizar tarefas diárias, reduzir distrações e aumentar a eficiência do trabalho profundo.",
+  "name": "Agendador com Blocos de Tempo",
+  "tagline": "Planeje seu dia com blocos de tempo",
+  "description": "Esta ferramenta ajuda você a criar um cronograma com blocos de tempo para melhorar o foco e a produtividade. Ideal para profissionais e estudantes que desejam gerenciar seu tempo de forma eficaz.",
+  "metaTitle": "Blocos de Tempo – Agendador de Produtividade | Ferramenta Online Gratuita",
+  "metaDescription": "Planeje seu dia com nosso agendador de blocos de tempo gratuito para aumentar a produtividade. Sem cadastro, resultados instantâneos.",
   "keywords": [
-    "bloqueio de tempo",
-    "gestão do tempo",
-    "planejamento deep work",
-    "agenda diária",
-    "aumento de produtividade"
+    "blocos de tempo",
+    "planejador de agenda",
+    "agenda de produtividade",
+    "planejador diário",
+    "ferramenta de foco",
+    "cronograma com blocos de tempo",
+    "modelo de blocos de tempo",
+    "app de blocos de tempo",
+    "método de blocos de tempo",
+    "planejador de blocos de tempo",
+    "o que é blocos de tempo",
+    "calendário com blocos de tempo",
+    "app planejador de agenda",
+    "modelo de planejador de agenda",
+    "planejador de agenda online",
+    "planejador de agenda gratuito",
+    "planejador de agenda com IA",
+    "planejador de agenda profissional",
+    "livro sobre planejamento de tempo",
+    "modelo de agenda produtiva"
   ],
-  "category": "Produtividade",
+  "category": "Productivity",
   "icon": "🗓️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como criar um bloco de tempo?",
+      "answer": "Basta inserir suas tarefas e o tempo que deseja alocar para cada uma, e o agendador as organizará automaticamente."
+    },
+    {
+      "question": "Posso ajustar meus blocos de tempo?",
+      "answer": "Sim, você pode ajustar seus blocos de tempo facilmente sempre que necessário."
+    },
+    {
+      "question": "Serve para agendar em equipe?",
+      "answer": "Embora seja projetado principalmente para uso individual, também pode ser adaptado para planejamento em equipe."
+    }
+  ],
   "relatedTools": [
     "task-priority-calculator",
     "daily-goal-tracker"

@@ -1,0 +1,60 @@
+{
+  "slug": "character-counter",
+  "name": "Zeichenzähler für Social Media",
+  "tagline": "Echtzeit-Zeichen- und Wortanzahl für Twitter, LinkedIn, Instagram und mehr",
+  "description": "Zählen Sie Zeichen und Wörter in Echtzeit mit plattformspezifischen Limits für Twitter/X (280), LinkedIn (3000 Beitrag / 220 Vorschau), Instagram (2200), TikTok (2200), YouTube (5000) und mehr. Farbcodierte Warnungen.",
+  "metaTitle": "Zeichenzähler für Social Media — Twitter, LinkedIn, Instagram | GetFastCalc",
+  "metaDescription": "Echtzeit-Zeichenzähler mit Limits für jede Social-Media-Plattform. Farbcodierte Warnungen für Twitter, LinkedIn, Instagram, TikTok, YouTube und E-Mail-Betreffzeilen.",
+  "keywords": [
+    "Zeichenzähler",
+    "Twitter Zeichenzahl",
+    "LinkedIn Zeichenlimit",
+    "Instagram Bildunterschrift Länge",
+    "Social Media Zeichenzähler",
+    "Wortanzahl",
+    "Zeichenzähler für Social Media",
+    "Zeichenzähler mit Leerzeichen",
+    "Zeichenanzahl online",
+    "Zeichenzähler Text",
+    "Zeichenzähler",
+    "Zeichen- und Wortanzahl",
+    "Zeichenzähler Grammarly",
+    "Zeichenzähler Chinesisch",
+    "Twitter Zeichenzähler",
+    "Twitter Zeichenlimit",
+    "Twitter Zeichenzähler - Überprüfen Sie Ihre Tweet-Länge und mehr",
+    "Twitter Zeichenanzahl prüfen",
+    "Twitter Zeichenanzahl 2025",
+    "Twitter Zeichenanzahl Maximum"
+  ],
+  "category": "Text",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Wie hoch ist das Zeichenlimit bei Twitter/X?",
+      "answer": "Twitter/X erlaubt 280 Zeichen für Standard-Konten. Twitter Blue/X Premium-Abonnenten können bis zu 25.000 Zeichen posten (Long-Form-Posts). URLs werden unabhängig von ihrer tatsächlichen Länge als 23 Zeichen gezählt. Benutzernamen in Antworten sind in der Zählung enthalten."
+    },
+    {
+      "question": "Wie hoch ist das Zeichenlimit bei LinkedIn?",
+      "answer": "LinkedIn-Beitrag: 3.000 Zeichen. Allerdings werden Beiträge im Feed nach etwa 140–220 Zeichen abgeschnitten und zeigen einen \"Mehr anzeigen\"-Button. Die ersten 140–220 Zeichen fungieren als Ihr \"Hook\". LinkedIn-Artikel-Titel: 100 Zeichen. LinkedIn-Verbindungsanfrage-Nachricht: 300 Zeichen."
+    },
+    {
+      "question": "Wie hoch ist das Zeichenlimit für Instagram-Bildunterschriften?",
+      "answer": "Instagram-Bildunterschriften können bis zu 2.200 Zeichen lang sein, aber nur die ersten 125 Zeichen sind sichtbar, bevor \"Mehr\" angezeigt wird. Hashtags funktionieren am besten, wenn sie in der Bildunterschrift oder im ersten Kommentar platziert werden. Maximal 30 Hashtags pro Beitrag."
+    },
+    {
+      "question": "Zählt ein Leerzeichen als Zeichen?",
+      "answer": "Ja – Leerzeichen zählen auf allen Social-Media-Plattformen als Zeichen. Dieses Tool zählt sie standardmäßig, was dem Verhalten von Twitter, LinkedIn und Instagram entspricht."
+    },
+    {
+      "question": "Wie viele Zeichen sollte eine E-Mail-Betreffzeile haben?",
+      "answer": "E-Mail-Betreffzeilen sollten 40–50 Zeichen für Desktop-Clients und 25–30 Zeichen für Mobilgeräte (wo die meisten E-Mails gelesen werden) lang sein. Der Preheader-Text (die Vorschauzeile) sollte 85–100 Zeichen lang sein. Zusammen sollten sie eine vollständige Geschichte erzählen."
+    }
+  ],
+  "relatedTools": [
+    "headline-analyzer",
+    "markdown-previewer",
+    "word-counter"
+  ],
+  "variants": []
+}

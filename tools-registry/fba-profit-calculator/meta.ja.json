@@ -1,0 +1,47 @@
+{
+  "slug": "fba-profit-calculator",
+  "name": "FBA利益計算ツール",
+  "tagline": "Amazon FBA商品の純利益、ROI、利益率を計算",
+  "description": "商品原価、販売価格、FBA手数料を入力すると、ユニットあたりの純利益、ROI、利益率、損益分岐点を即座に計算できます。カテゴリ別の紹介料検索に対応しています。",
+  "metaTitle": "FBA利益計算ツール – Amazon FBA純利益・ROI計算機",
+  "metaDescription": "無料のAmazon FBA利益計算ツール。原価、価格、手数料を入力して、ユニットあたりの純利益、ROI、利益率、損益分岐点を即座に計算できます。",
+  "keywords": [
+    "FBA利益計算",
+    "Amazon FBA利益計算ツール",
+    "Amazonセラー利益計算",
+    "FBA ROI計算",
+    "Amazon FBA利益率計算",
+    "FBA純利益計算",
+    "Amazonセラー利益率",
+    "FBA商品利益",
+    "Amazon紹介料計算",
+    "FBA損益分岐点計算",
+    "Amazon FBA手数料見積もり",
+    "セラーセントラル利益計算",
+    "FBA商品リサーチ計算機",
+    "Amazon利益率",
+    "FBA原価計算"
+  ],
+  "category": "ecommerce",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "FBA利益計算ツールにはどの手数料が含まれていますか？",
+      "answer": "Amazon紹介料（カテゴリ別）、FBA配送手数料（サイズ別）、月間保管料、商品原価が含まれます。Amazon配送費用を追加することもできます。"
+    },
+    {
+      "question": "Amazon FBAの適切な利益率はどのくらいですか？",
+      "answer": "ほとんどの成功しているFBAセラーは、すべての手数料を差し引いた後、20～30%の純利益率を目指しています。15%未満では、PPC広告費と価格競争のための余裕が不足します。"
+    },
+    {
+      "question": "FBAのROIはどのように計算されますか？",
+      "answer": "ROI = (純利益 ÷ 総原価) × 100です。例えば、商品に$10を費やし、すべての手数料を差し引いた後に$3を得た場合、ROIは30%です。"
+    }
+  ],
+  "relatedTools": [
+    "fba-packing-calculator",
+    "fba-fee-calculator",
+    "fba-reorder-calculator"
+  ],
+  "variants": []
+}

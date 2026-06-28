@@ -1,20 +1,48 @@
 {
   "slug": "savings-goal-calculator",
-  "name": "貯蓄目標計算機",
-  "tagline": "目標達成に必要な期間と月次積立額を計算",
-  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
-  "metaTitle": "貯蓄目標計算機 – 貯金目標プランニングツール",
-  "metaDescription": "目標金額・現在の貯蓄額・利率を入力して、目標達成に必要な月次積立額と期間を計算。",
+  "name": "貯金目標計算機",
+  "tagline": "貯金計画を簡単に立てよう！",
+  "description": "このツールは、貯金目標を設定し、その目標に達するために毎月いくら貯金すればよいかを計算するのに役立ちます。旅行資金、大きな買い物、緊急時の貯金を計画している方に最適です。",
+  "metaTitle": "貯金目標計算機 - 貯金計画を立てよう | 無料オンラインツール",
+  "metaDescription": "目標達成に必要な毎月の貯金額を計算します。無料・登録不要・即座に結果表示！",
   "keywords": [
-    "貯蓄目標計算機",
-    "貯金計画",
-    "積立計算",
-    "資産目標計算",
-    "貯金シミュレーション"
+    "貯金目標",
+    "毎月貯金計算機",
+    "家計管理",
+    "緊急資金計算機",
+    "旅行貯金",
+    "貯金目標計算機",
+    "利息なし貯金目標計算機",
+    "毎月貯金目標計算機",
+    "利息付き貯金目標計算機",
+    "隔週貯金目標計算機",
+    "イギリス貯金目標計算機",
+    "インフレ対応貯金目標計算機",
+    "カナダ貯金目標計算機",
+    "オンライン貯金目標計算機",
+    "無料貯金目標計算機",
+    "貯金目標アプリ",
+    "貯金目標APK",
+    "貯金目標",
+    "貯金目標トラッカー",
+    "貯金目標スプレッドシート"
   ],
-  "category": "ファイナンス",
+  "category": "Finance",
   "icon": "🏦",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "貯金目標計算機の仕組みは？",
+      "answer": "目標貯金額と目標日付を入力すると、その目標を達成するために毎月いくら貯金する必要があるかが表示されます。"
+    },
+    {
+      "question": "開始後に目標を変更することはできますか？",
+      "answer": "はい、いつでも目標額とタイムラインを修正して、現在の経済状況に合わせることができます。"
+    },
+    {
+      "question": "このツールはすべての種類の貯金目標に適していますか？",
+      "answer": "もちろんです！短期目標でも長期投資でも、このツールで貯金計画を立てるのに役立ちます。"
+    }
+  ],
   "relatedTools": [
     "budget-calculator",
     "investment-return-calculator"

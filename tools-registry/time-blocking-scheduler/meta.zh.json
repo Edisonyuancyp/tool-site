@@ -1,20 +1,48 @@
 {
   "slug": "time-blocking-scheduler",
-  "name": "时间块规划器",
-  "tagline": "规划每日时间块，提升专注效率",
-  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
-  "metaTitle": "时间块规划器 – 每日时间管理工具",
-  "metaDescription": "通过时间块规划法安排每日任务，减少干扰，提升深度工作效率。",
+  "name": "时间分块调度器",
+  "tagline": "用时间分块规划你的一天",
+  "description": "这个工具帮助你创建时间分块日程表，以提高专注力和生产效率。适合想要有效管理时间的专业人士和学生。",
+  "metaTitle": "时间分块 - 生产力日程安排器 | 免费在线工具",
+  "metaDescription": "使用我们的免费时间分块调度器规划您的一天，提高生产效率。无需注册，即时获得结果。",
   "keywords": [
-    "时间块规划",
-    "时间管理",
-    "深度工作计划",
-    "每日计划工具",
-    "效率提升工具"
+    "时间分块",
+    "日程规划器",
+    "生产力日程",
+    "每日计划",
+    "专注工具",
+    "时间分块日程",
+    "时间分块模板",
+    "时间分块应用",
+    "时间分块方法",
+    "时间分块计划器",
+    "时间分块含义",
+    "时间分块日历",
+    "日程规划应用",
+    "计划日程模板",
+    "在线日程规划",
+    "免费日程规划",
+    "人工智能日程规划",
+    "工作日程规划",
+    "日程规划书",
+    "生产力日程模板"
   ],
-  "category": "效率",
+  "category": "Productivity",
   "icon": "🗓️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "我如何创建时间分块？",
+      "answer": "只需输入你的任务和你想分配给每个任务的时间，调度器就会自动组织它们。"
+    },
+    {
+      "question": "我可以调整时间分块吗？",
+      "answer": "可以，你可以根据需要轻松调整你的时间分块。"
+    },
+    {
+      "question": "这是否适合团队日程安排？",
+      "answer": "虽然主要设计用于个人使用，但也可以适配用于团队规划。"
+    }
+  ],
   "relatedTools": [
     "task-priority-calculator",
     "daily-goal-tracker"

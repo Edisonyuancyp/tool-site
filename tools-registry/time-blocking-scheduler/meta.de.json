@@ -1,20 +1,48 @@
 {
   "slug": "time-blocking-scheduler",
-  "name": "Zeitblock-Planer",
-  "tagline": "Tagesblöcke planen und Konzentration verbessern",
-  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
-  "metaTitle": "Zeitblock-Planer – Tages-Zeitmanagement-Tool",
-  "metaDescription": "Mit der Zeitblockierungsmethode tägliche Aufgaben strukturieren, Ablenkungen reduzieren und Tiefarbeitseffizienz steigern.",
+  "name": "Time Blocking Scheduler",
+  "tagline": "Planen Sie Ihren Tag mit Zeitblöcken",
+  "description": "Dieses Tool hilft Ihnen, einen Zeitblöcke-Plan für Ihren Tag zu erstellen und so Ihre Konzentration und Produktivität zu verbessern. Ideal für Fachleute und Studierende, die ihre Zeit effektiv verwalten möchten.",
+  "metaTitle": "Time Blocking Planer – Kostenlos online Ihren Tag strukturieren",
+  "metaDescription": "Planen Sie Ihren Tag mit unserem kostenlosen Time Blocking Scheduler. Steigern Sie Ihre Produktivität – ohne Anmeldung, sofort einsatzbereit.",
   "keywords": [
-    "Zeitblock Planer",
-    "Zeitmanagement",
-    "Deep Work Planung",
-    "Tagesplan",
-    "Produktivitätssteigerung"
+    "Time Blocking",
+    "Zeitblöcke",
+    "Terminplaner",
+    "Produktivitätsplan",
+    "Tagesplaner",
+    "Fokus-Tool",
+    "Zeitblöcke planen",
+    "Zeitblöcke Vorlage",
+    "Time Blocking App",
+    "Time Blocking Methode",
+    "Zeitblöcke Planer",
+    "Time Blocking Bedeutung",
+    "Zeitblöcke Kalender",
+    "Stundenplan App",
+    "Planungsvorlage",
+    "Online Terminplaner",
+    "kostenloser Planer",
+    "KI Planer",
+    "Arbeitszeitplaner",
+    "Produktivitätsvorlage"
   ],
-  "category": "Produktivität",
+  "category": "Productivity",
   "icon": "🗓️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie erstelle ich einen Zeitblock?",
+      "answer": "Geben Sie einfach Ihre Aufgaben und die gewünschte Zeitdauer für jede Aufgabe ein, und der Planer organisiert diese automatisch."
+    },
+    {
+      "question": "Kann ich meine Zeitblöcke anpassen?",
+      "answer": "Ja, Sie können Ihre Zeitblöcke jederzeit flexibel anpassen."
+    },
+    {
+      "question": "Ist das Tool auch für Teamplanung geeignet?",
+      "answer": "Das Tool ist hauptsächlich für die individuelle Nutzung konzipiert, lässt sich aber auch für Teamplanung adaptieren."
+    }
+  ],
   "relatedTools": [
     "task-priority-calculator",
     "daily-goal-tracker"

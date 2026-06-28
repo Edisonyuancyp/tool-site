@@ -1,20 +1,45 @@
 {
   "slug": "tp-sl-calculator",
-  "name": "Take-Profit/Stop-Loss-Rechner",
-  "tagline": "Take-Profit- und Stop-Loss-Preisniveaus berechnen",
-  "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
-  "metaTitle": "Take-Profit/Stop-Loss-Rechner – TP/SL-Berechnungstool",
-  "metaDescription": "Einstiegspreis und Risikoparameter eingeben und Take-Profit (TP) und Stop-Loss (SL) Preisniveaus mit Risiko-Ertrags-Verhältnis berechnen.",
+  "name": "Take Profit / Stop Loss Rechner",
+  "tagline": "Berechnen Sie Ihren exakten PnL, Risk:Reward-Verhältnis und Liquidationspreis vor dem Handel",
+  "description": "Geben Sie Ihren Einstiegspreis, die Hebelwirkung und Ihre Margin ein, um sofort PnL für bis zu 3 Take-Profit-Level und einen Stop Loss zu berechnen. Zeigt das Risk:Reward-Verhältnis und den geschätzten Liquidationspreis. Funktioniert für Long- und Short-Positionen.",
+  "metaTitle": "Take Profit Stop Loss Rechner – Krypto Trading PnL & Risk:Reward Ratio",
+  "metaDescription": "Kostenloser TP/SL Rechner für Krypto-Trader. Geben Sie Einstiegspreis, Hebelwirkung und Margin ein, um Take Profit, Stop Loss PnL, Risk:Reward-Verhältnis und Liquidationspreis zu berechnen.",
   "keywords": [
-    "Take Profit Stop Loss Rechner",
-    "TP SL Rechner",
-    "Trading Stop Loss",
-    "Risiko Ertrag berechnen",
-    "Forex Stop Loss"
+    "take profit stop loss rechner",
+    "tp sl rechner krypto",
+    "risk reward ratio rechner",
+    "krypto pnl rechner",
+    "leverage trading rechner",
+    "take profit stop loss rechner indikator",
+    "take profit stop loss rechner mt4",
+    "take profit stop loss rechner mt5",
+    "stop loss take profit rechner tradingview",
+    "krypto take profit stop loss rechner",
+    "risk reward ratio rechner tradingview",
+    "risk reward ratio rechner excel",
+    "risk reward ratio rechner kostenlos",
+    "risk reward ratio rechner trading",
+    "risk reward ratio rechner mt4",
+    "risk reward ratio rechner free",
+    "risk reward ratio rechner forex"
   ],
-  "category": "Krypto",
+  "category": "Crypto",
   "icon": "🎯",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist das Risk:Reward (R:R) Verhältnis?",
+      "answer": "Das R:R-Verhältnis vergleicht Ihren möglichen Gewinn mit Ihrem möglichen Verlust. Ein Verhältnis von 1:2 bedeutet, dass Sie für jeden risikierten Dollar 2 Dollar gewinnen können. Professionelle Trader führen typischerweise nur Trades mit einem R:R von 1:2 oder höher durch."
+    },
+    {
+      "question": "Wie wird der Liquidationspreis berechnet?",
+      "answer": "Die Schätzung geht davon aus, dass Sie 100% Ihrer Margin verlieren, wenn sich der Preis um (1/Hebelwirkung) gegen Sie bewegt. Bei 10× Hebelwirkung liquidiert eine ungünstige Preisbewegung von 10% Ihre Position."
+    },
+    {
+      "question": "Funktioniert dies für Spot- und Futures-Trading?",
+      "answer": "Für Spot-Trading stellen Sie die Hebelwirkung auf 1× ein. Für Futures (Long oder Short) geben Sie die Hebelwirkung ein, die Ihre Exchange bereitstellt."
+    }
+  ],
   "relatedTools": [
     "position-size-calculator",
     "compound-interest-calculator",

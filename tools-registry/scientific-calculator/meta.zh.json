@@ -1,0 +1,40 @@
+{
+  "slug": "scientific-calculator",
+  "name": "科学计算器",
+  "tagline": "功能完整的科学计算器 — 三角函数、对数、幂运算等",
+  "description": "免费在线科学计算器，支持三角函数（正弦、余弦、正切）、对数、指数、平方根、阶乘以及π和e等常数。完全在浏览器中运行。",
+  "metaTitle": "科学计算器 - 免费在线科学计算器",
+  "metaDescription": "免费在线科学计算器。支持sin、cos、tan、log、ln、sqrt、幂运算、阶乘、π、e等功能。无需注册，即时计算。",
+  "keywords": [
+    "科学计算器",
+    "在线科学计算器",
+    "免费科学计算器",
+    "科学计算器sin cos tan",
+    "带对数和指数的在线计算器",
+    "三角函数计算器",
+    "科学记数法计算器",
+    "免费在线高级计算器"
+  ],
+  "category": "Math",
+  "icon": "🧮",
+  "faqs": [
+    {
+      "question": "这个科学计算器支持哪些函数？",
+      "answer": "支持基础算术运算、三角函数（正弦、余弦、正切及其反函数）、对数（10为底的对数、自然对数ln）、平方根、幂运算、阶乘以及常数π和e。"
+    },
+    {
+      "question": "三角函数使用的是角度制还是弧度制？",
+      "answer": "可以通过DEG/RAD切换按钮在角度制（DEG）和弧度制（RAD）之间切换。当前模式始终显示在屏幕上。"
+    },
+    {
+      "question": "这个计算器是免费的吗？",
+      "answer": "完全免费，无需注册。所有计算都在您的浏览器中进行。"
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "bmi-calculator"
+  ],
+  "variants": []
+}

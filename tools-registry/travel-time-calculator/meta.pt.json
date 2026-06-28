@@ -1,20 +1,48 @@
 {
   "slug": "travel-time-calculator",
   "name": "Calculadora de Tempo de Viagem",
-  "tagline": "Calcule distância e tempo de viagem",
-  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
-  "metaTitle": "Calculadora de Tempo de Viagem – Ferramenta de Estimativa de Tempo de Viagem",
-  "metaDescription": "Insira distância e velocidade para calcular o tempo estimado de viagem, ou insira horários de partida e chegada para calcular a velocidade.",
+  "tagline": "Calcule quanto tempo sua viagem levará.",
+  "description": "Digite sua distância e velocidade média para descobrir quanto tempo sua viagem levará. Ideal para viajantes planejando road trips ou viagens de longa distância.",
+  "metaTitle": "Calculadora de Tempo de Viagem – Estimador de Duração de Trajeto | Ferramenta Online Grátis",
+  "metaDescription": "Calcule seu tempo de viagem gratuitamente sem necessidade de cadastro. Obtenha estimativas de duração de trajeto instantaneamente e com facilidade!",
   "keywords": [
     "calculadora de tempo de viagem",
-    "tempo de viagem de carro",
-    "estimar tempo de viagem",
-    "velocidade distância tempo",
-    "calcular rota"
+    "estimador de duração de viagem",
+    "calcular tempo de viagem",
+    "planejador de road trip",
+    "duração da viagem",
+    "calculadora de tempo de viagem mapa",
+    "calculadora de tempo de viagem inglaterra",
+    "calculadora de tempo de viagem singapura",
+    "calculadora de tempo de viagem metrô",
+    "calculadora de tempo de viagem por velocidade",
+    "calculadora de tempo de viagem carro",
+    "calculadora de tempo de viagem fusos horários",
+    "calculadora de tempo de viagem online",
+    "eve online calculadora de tempo de viagem",
+    "calculadora de tempo de viagem inglaterra grátis",
+    "calculadora de tempo de viagem nova zelândia grátis",
+    "calculadora de tempo de viagem mapa grátis",
+    "calculadora de tempo de viagem google maps grátis",
+    "calcular tempo de viagem entre dois locais",
+    "calcular tempo de viagem por velocidade"
   ],
-  "category": "Viagem",
+  "category": "Travel",
   "icon": "⏳",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como faço para calcular meu tempo de viagem?",
+      "answer": "Digite a distância e sua velocidade média para obter uma estimativa de tempo de viagem."
+    },
+    {
+      "question": "Posso usar isso para diferentes meios de transporte?",
+      "answer": "Sim, você pode ajustar a velocidade média baseado no seu método de transporte."
+    },
+    {
+      "question": "Existe limite de distância que posso inserir?",
+      "answer": "Não, você pode inserir qualquer distância para sua estimativa de tempo de viagem."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

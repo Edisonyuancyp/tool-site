@@ -1,0 +1,36 @@
+{
+  "slug": "palette-medical",
+  "name": "Paleta de Cores Azul Médico",
+  "tagline": "Paleta confiável e estéril para aplicações de saúde e medicina. Azuis e brancos tranquilizadores comunicam segurança e precisão.",
+  "description": "Paleta confiável e estéril para aplicações de saúde e medicina. Azuis e brancos tranquilizadores comunicam segurança e precisão.",
+  "metaTitle": "Paleta de Cores Azul Médico – Códigos HEX, CMYK, Tailwind e Referência Pantone",
+  "metaDescription": "Paleta de cores azul médico gratuita com códigos HEX, classes Tailwind CSS, valores CMYK e referências Pantone aproximadas. Copie qualquer cor instantaneamente.",
+  "keywords": [
+    "Paleta de cores Azul Médico",
+    "Esquema de cores Azul Médico",
+    "Códigos HEX Azul Médico",
+    "#0EA5E9",
+    "#0369A1",
+    "#F0F9FF",
+    "Compatibilidade Pantone",
+    "Conversão CMYK",
+    "Paleta de cores para web",
+    "Esquema Tailwind CSS"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "As referências Pantone são correspondências exatas?",
+      "answer": "Não. Os códigos Pantone mostrados são as aproximações visuais mais próximas. Para trabalhos de impressão em produção, sempre verifique contra um Leque Pantone físico."
+    },
+    {
+      "question": "Como os valores CMYK são calculados?",
+      "answer": "Os valores CMYK usam a fórmula independente de dispositivo: K = 1 − máx(R,G,B); C/M/Y derivados das proporções RGB. A saída real depende do perfil da impressora e do papel."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,20 +1,45 @@
 {
   "slug": "fitness-level-quiz",
-  "name": "Quiz de Nível de Fitness",
-  "tagline": "Avalie seu nível atual de condicionamento físico",
-  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
-  "metaTitle": "Quiz de Nível de Fitness – Ferramenta de Avaliação de Condicionamento Online",
-  "metaDescription": "Use um breve questionário para avaliar seu nível de condicionamento físico e receber recomendações personalizadas de treino.",
+  "name": "Quiz de Nível de Aptidão Física",
+  "tagline": "Avalie seu nível de aptidão física hoje!",
+  "description": "Faça este rápido quiz para avaliar seu nível de aptidão física atual com base em seus hábitos de exercício e estilo de vida. Perfeito para quem quer medir sua aptidão física e identificar áreas para melhorar.",
+  "metaTitle": "Quiz de Nível de Aptidão Física – Ferramenta de Auto-Avaliação | Gratuita Online",
+  "metaDescription": "Avalie seu nível de aptidão física com este quiz divertido e rápido. Obtenha resultados instantâneos gratuitamente, sem necessidade de cadastro!",
   "keywords": [
-    "quiz de fitness",
-    "avaliação física",
-    "nível de condicionamento",
+    "quiz de nível de aptidão física",
+    "auto-avaliação",
+    "hábitos de exercício",
+    "avaliação de aptidão física",
+    "quiz de saúde",
+    "qual é meu nível de aptidão física",
     "teste de aptidão física",
-    "recomendações de treino"
+    "relatório de auto-avaliação",
+    "relatório de auto-avaliação sar",
+    "auto-avaliação segundo semestre/2025 rodada 2 calendário internacional",
+    "exemplos de hábitos de exercício",
+    "questionário de hábitos de exercício",
+    "significado de hábitos de exercício",
+    "hábitos de exercício mudança de estilo de vida",
+    "hábitos de exercício estilo de vida saudável",
+    "citações sobre hábitos de exercício",
+    "sinônimo de hábitos de exercício"
   ],
   "category": "Fitness",
   "icon": "🏋️‍♀️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quanto tempo leva o quiz?",
+      "answer": "O quiz leva cerca de 5 minutos para ser concluído, fornecendo uma visão geral rápida do seu nível de aptidão física."
+    },
+    {
+      "question": "O que vou aprender com os resultados?",
+      "answer": "Você receberá insights sobre seu nível atual de aptidão física e dicas sobre como melhorar."
+    },
+    {
+      "question": "Há algum custo para fazer o quiz?",
+      "answer": "Não, o quiz é completamente gratuito e não requer cadastro."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "body-fat-calculator"

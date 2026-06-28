@@ -1,0 +1,48 @@
+{
+  "slug": "url-encoder",
+  "name": "URL Encoder / Decoder",
+  "tagline": "Kodieren oder dekodieren Sie URL-Strings sofort — keine Anmeldung, keine Werbung",
+  "description": "Kodieren Sie Sonderzeichen in URLs oder dekodieren Sie prozentual kodierte Strings zurück in lesbaren Text. Unverzichtbar für das Debuggen von APIs, Query-Strings und Web-Anfragen.",
+  "metaTitle": "URL Encoder / Decoder – Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Kostenloser URL-Encoder und -Decoder. Kodieren Sie Sonderzeichen oder dekodieren Sie prozentual kodierte URLs sofort in Ihrem Browser. Ohne Anmeldung, ohne Werbung.",
+  "keywords": [
+    "URL-Encoder Decoder",
+    "Prozentuale Kodierung",
+    "URL online kostenlos kodieren",
+    "URL-String dekodieren",
+    "URL online dekodieren",
+    "URL Sonderzeichen kodieren",
+    "URL-Encoder Decoder Tool",
+    "API URL-Encoder kostenlos",
+    "URL-Encoder / Decoder",
+    "URL-Encoder Decoder online",
+    "URL-Encoder Decoder Online-Tool",
+    "URL-Encoder Decoder Tool",
+    "URL Decoder Encoder",
+    "URL Decoder Encoder JavaScript",
+    "HTML URL-Encoder Decoder",
+    "URL-Encoder Decoder kostenlos"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "Was ist URL-Kodierung?",
+      "answer": "URL-Kodierung (Prozent-Kodierung) ersetzt Sonderzeichen in einer URL durch ein % gefolgt von zwei Hexadezimalziffern. Beispielsweise wird ein Leerzeichen zu %20. Dies stellt sicher, dass URLs gültig sind und sicher über das Internet übertragen werden."
+    },
+    {
+      "question": "Wann muss ich einen String URL-kodieren?",
+      "answer": "Sie benötigen URL-Kodierung, wenn Sie Sonderzeichen (Leerzeichen, &, =, ?, #, usw.) in Query-Parametern übergeben oder API-Anfragen programmatisch aufbauen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen encodeURI und encodeURIComponent?",
+      "answer": "encodeURI kodiert eine vollständige URL und behält Zeichen wie /, ?, & bei. encodeURIComponent kodiert einen einzelnen Wert innerhalb einer URL und kodiert auch diese reservierten Zeichen. Dieses Tool verwendet encodeURIComponent für maximale Kompatibilität."
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "base-converter",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

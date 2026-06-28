@@ -1,0 +1,29 @@
+{
+  "slug": "your-tool-slug",
+  "name": "Sua Ferramenta",
+  "tagline": "Descrição de uma linha exibida nos cards da página inicial",
+  "description": "Descrição completa exibida na página da ferramenta (1-2 frases).",
+  "metaTitle": "Sua Ferramenta – Calculadora Online Gratuita",
+  "metaDescription": "Descrição SEO com 160 caracteres. Inclua palavra-chave principal, mencione grátis/rápido/sem cadastro.",
+  "keywords": [
+    "palavra-chave principal",
+    "palavra-chave secundária",
+    "palavra-chave de cauda longa"
+  ],
+  "category": "Health | Finance | Developer | Date & Time | Generators | Security | Utilities",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "O que esta ferramenta faz?",
+      "answer": "Explique a ferramenta claramente em 1-2 frases."
+    },
+    {
+      "question": "É gratuita?",
+      "answer": "Sim, totalmente gratuita e sem necessidade de cadastro."
+    }
+  ],
+  "relatedTools": [
+    "other-tool-slug"
+  ],
+  "variants": []
+}

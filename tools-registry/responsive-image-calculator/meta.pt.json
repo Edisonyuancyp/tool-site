@@ -1,0 +1,51 @@
+{
+  "slug": "responsive-image-calculator",
+  "name": "Calculadora de Imagens Responsivas",
+  "tagline": "Otimize imagens para diferentes telas",
+  "description": "Calcule o tamanho e resolução ideais para imagens com base no tamanho e densidade da tela. Perfeito para desenvolvedores web e designers que desejam melhorar os tempos de carregamento e o desempenho em vários dispositivos.",
+  "metaTitle": "Calculadora de Imagens Responsivas – Otimize Imagens | Ferramenta Online Grátis",
+  "metaDescription": "Calcule tamanhos de imagens para diferentes dispositivos. Ferramenta gratuita, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "calculadora de imagens responsivas",
+    "ferramenta de otimização de imagens",
+    "desempenho web",
+    "tamanhos de imagens para dispositivos",
+    "design responsivo",
+    "gerador calculadora imagens responsivas grátis",
+    "calculadora imagens responsivas ferramenta online sem download",
+    "calculadora imagens responsivas códigos hex",
+    "ferramenta de design gratuita",
+    "gerador de paleta de cores",
+    "visualização instantânea",
+    "sem necessidade de photoshop",
+    "ferramentas de otimização de imagens",
+    "ferramenta otimização imagens para website",
+    "ferramentas otimização imagens seo",
+    "ferramenta de compressão de imagens",
+    "ferramenta compressão imagens grátis",
+    "ferramenta compressão imagens online",
+    "ferramenta compressão imagens download",
+    "ferramenta compressão imagens linux"
+  ],
+  "category": "Design",
+  "icon": "📱",
+  "faqs": [
+    {
+      "question": "O que é design responsivo de imagens?",
+      "answer": "O design responsivo de imagens garante que as imagens sejam exibidas corretamente e eficientemente em vários tamanhos de dispositivos."
+    },
+    {
+      "question": "Como faço para inserir o tamanho da minha tela?",
+      "answer": "Você pode digitar a largura e altura da tela alvo para cálculos precisos."
+    },
+    {
+      "question": "Posso otimizar para telas de alta resolução?",
+      "answer": "Sim, a ferramenta permite que você especifique diferentes resoluções para telas de alta densidade de pixels (DPI)."
+    }
+  ],
+  "relatedTools": [
+    "css-gradient-builder",
+    "spacing-grid-calculator"
+  ],
+  "variants": []
+}

@@ -1,23 +1,46 @@
 {
   "slug": "currency-converter",
-  "name": "Währungsrechner",
-  "tagline": "Echtzeit-Wechselkursumrechnung",
-  "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
-  "metaTitle": "Währungsrechner – Kostenloser Echtzeit-Wechselkursrechner",
-  "metaDescription": "Echtzeit-Wechselkursumrechnung für über 150 Währungen. Euro, Dollar, Pfund und mehr mit einem Klick umrechnen.",
+  "name": "Währungsumrechner",
+  "tagline": "Währungen mit Live-Wechselkursen umrechnen",
+  "description": "Rechnen Sie zwischen 25+ Weltwährungen mit Live-Wechselkursen der Europäischen Zentralbank (EZB) um. Enthält eine schnelle Referenztabelle und automatisches Fallback auf Offline-Kurse bei Bedarf.",
+  "metaTitle": "Währungsumrechner – Kostenloser Live-Wechselkurs-Rechner",
+  "metaDescription": "Konvertieren Sie USD, EUR, GBP, JPY, CNY und 20+ weitere Währungen mit Live-EZB-Wechselkursen. Kostenloser Online-Währungsumrechner — ohne Anmeldung, sofortige Ergebnisse.",
   "keywords": [
-    "Währungsrechner",
-    "Wechselkurs berechnen",
-    "Euro umrechnen",
-    "Devisenrechner",
-    "Online Wechselkurs"
+    "währungsumrechner",
+    "wechselkursrechner",
+    "dollar in euro",
+    "währungsumrechnung online",
+    "aktuelle wechselkurse",
+    "währungsumrechner dollar baht",
+    "währungsumrechner euro baht",
+    "währungsumrechner dong baht",
+    "währungsumrechner yen baht",
+    "währungsumrechner rechner",
+    "währungsumrechner erweiterung",
+    "währungsumrechner baht franken",
+    "währungsumrechner online",
+    "währungsumrechner online kostenlos",
+    "währungsumrechner online indien",
+    "währungsumrechner online wechselkurs rechner",
+    "währungsumrechner online taschenrechner",
+    "währungsumrechner online dubai indien",
+    "währungsumrechner online aed inr",
+    "währungsumrechner online google"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "💱",
   "faqs": [
     {
-      "question": "Sind die Wechselkurse aktuell?",
-      "answer": "Ja, die Wechselkursdaten werden täglich über öffentliche APIs aktualisiert."
+      "question": "Woher stammen die Wechselkurse?",
+      "answer": "Die Kurse werden von der Europäischen Zentralbank (EZB) über die Frankfurter API abgerufen — eine kostenlose, zuverlässige Quelle, die täglich aktualisiert wird. Im Offline-Modus verwendet das Tool statische Referenzkurse als Fallback."
+    },
+    {
+      "question": "Wie oft werden die Kurse aktualisiert?",
+      "answer": "EZB-Kurse werden einmal pro Geschäftstag aktualisiert. Die Kurse sind keine Echtzeit-Tickdaten, aber ausreichend genau für die meisten alltäglichen Umrechnungen."
+    },
+    {
+      "question": "Welche Währungen werden unterstützt?",
+      "answer": "25+ Währungen einschließlich USD, EUR, GBP, JPY, CNY, KRW, AUD, CAD, CHF, HKD, SGD, INR, THB, VND, MYR, IDR, PHP und weitere."
     }
   ],
   "relatedTools": [

@@ -1,0 +1,46 @@
+{
+  "slug": "import-duty-calculator",
+  "name": "Calculadora de Direitos de Importação",
+  "tagline": "Calcule direitos de importação, tarifas e taxas alfandegárias dos EUA para qualquer produto",
+  "description": "Calcule direitos de importação dos EUA com base no valor do produto, país de origem e categoria de código HS. Inclui tarifas Section 301 da China, MPF e taxas HMF. Essencial para sourcing de FBA da China.",
+  "metaTitle": "Calculadora de Direitos de Importação – Estimador de Tarifas e Taxas Alfandegárias dos EUA",
+  "metaDescription": "Calculadora gratuita de direitos de importação dos EUA. Calcule direitos alfandegários, tarifas Section 301 da China, MPF e taxas HMF para qualquer produto. Essencial para sourcing de Amazon FBA.",
+  "keywords": [
+    "calculadora de direitos de importação",
+    "calculadora de direitos de importação dos EUA",
+    "calculadora de direitos alfandegários EUA",
+    "calculadora de tarifa de importação da China",
+    "calculadora de tarifa section 301",
+    "direitos de importação amazon fba",
+    "calculadora de direitos por código HS",
+    "calculadora de imposto de importação EUA",
+    "calculadora de taxas alfandegárias",
+    "calculadora de alíquota tarifária da China",
+    "calculadora de direitos para sourcing fba",
+    "calculadora de importação dos EUA",
+    "calculadora de taxa MPF",
+    "calculadora de custo de importação",
+    "calculadora de tarifa dos EUA 2024"
+  ],
+  "category": "ecommerce",
+  "icon": "🚢",
+  "faqs": [
+    {
+      "question": "Qual é a tarifa Section 301 para produtos da China?",
+      "answer": "As tarifas Section 301 adicionam 7,5–25% sobre as alíquotas de direito padrão para produtos da China, dependendo da categoria do produto (Lista 1–4). A maioria dos bens de consumo se enquadra em 25%."
+    },
+    {
+      "question": "O que é MPF (Taxa de Processamento de Mercadorias)?",
+      "answer": "MPF é 0,3464% do valor declarado da carga, com mínimo de $32,71 e máximo de $634,62 por entrada. Aplica-se à maioria dos embarques comerciais para os EUA."
+    },
+    {
+      "question": "Como reduzir direitos de importação para Amazon FBA?",
+      "answer": "Estratégias comuns incluem fazer sourcing de países com acordos de livre comércio (México, Vietnã), engenheirar produtos para se enquadrarem em códigos HS com direitos menores, ou usar avaliação de primeira venda."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-fee-calculator"
+  ],
+  "variants": []
+}

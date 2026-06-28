@@ -1,20 +1,48 @@
 {
   "slug": "ideal-weight-calculator",
-  "name": "Idealgewichtsrechner",
-  "tagline": "Idealen Gewichtsbereich basierend auf der Körpergröße berechnen",
-  "description": "Calculate your ideal body weight using the Robinson, Miller, Devine, and Hamwi formulas, plus the healthy BMI range. Enter your height and gender to compare all four results.",
-  "metaTitle": "Idealgewichtsrechner – Gesundes Gewicht berechnen",
-  "metaDescription": "Basierend auf Größe und Geschlecht den idealen Gewichtsbereich mit mehreren Formeln (BMI-Methode, Devine-Formel) berechnen.",
+  "name": "Idealgewicht-Rechner",
+  "tagline": "Finden Sie Ihr Idealgewicht mit 4 medizinischen Formeln + gesundem BMI-Bereich",
+  "description": "Berechnen Sie Ihr ideales Körpergewicht mit den Formeln nach Robinson, Miller, Devine und Hamwi sowie dem gesunden BMI-Bereich. Geben Sie Ihre Körpergröße und Ihr Geschlecht ein, um alle vier Ergebnisse zu vergleichen.",
+  "metaTitle": "Idealgewicht-Rechner – Robinson, Miller, Devine & Hamwi Formeln",
+  "metaDescription": "Kostenloser Idealgewicht-Rechner mit 4 medizinischen Formeln. Geben Sie Körpergröße und Geschlecht ein, um Ihr Idealgewicht nach Robinson, Miller, Devine und Hamwi Methoden plus gesundem BMI-Bereich zu ermitteln.",
   "keywords": [
-    "Idealgewichtsrechner",
-    "Idealgewicht berechnen",
-    "Normgewicht berechnen",
-    "Gesundes Gewicht",
-    "Zielgewicht"
+    "idealgewicht rechner",
+    "wie viel sollte ich wiegen",
+    "idealgewicht formel",
+    "gesundes gewicht rechner",
+    "robinson devine miller hamwi formel",
+    "idealgewicht hund rechner",
+    "idealgewicht alter rechner",
+    "idealgewicht bmi rechner",
+    "idealgewicht asiatisch rechner",
+    "idealgewicht bodybuilding rechner",
+    "idealgewicht katze rechner",
+    "idealgewicht koreanisch rechner",
+    "idealgewicht rechner online",
+    "ideales körpergewicht rechner online",
+    "idealgewicht rechner kg online",
+    "kostenloser idealgewicht rechner",
+    "kostenloser ideales körpergewicht rechner",
+    "idealgewicht rechner überprüfen",
+    "wie viel sollte ich bei meiner größe und alter wiegen",
+    "ideales gewicht für 5'4 frau",
+    "idealgewicht tabelle nach körpergröße und alter",
+    "gewichtstabelle frauen nach größe",
+    "gesundes gewicht tabelle männer frauen",
+    "ideales körpergewicht tabelle"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "⚖️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Welche Idealgewicht-Formel ist am genauesten?",
+      "answer": "Die Robinson-Formel (1983) ist die am häufigsten zitierte in der modernen Literatur. Allerdings sind alle vier Formeln Schätzungen für durchschnittlich gebaute Erwachsene."
+    },
+    {
+      "question": "Warum unterscheiden sich die Formeln vom BMI?",
+      "answer": "Der BMI gibt einen Bereich basierend rein auf der Körpergröße an, während diese Formeln ein einzelnes Zielgewicht basierend auf klinischen Beobachtungen liefern."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "body-fat-calculator",

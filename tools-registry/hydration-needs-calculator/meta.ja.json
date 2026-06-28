@@ -1,20 +1,48 @@
 {
   "slug": "hydration-needs-calculator",
   "name": "水分補給必要量計算機",
-  "tagline": "運動と気候に基づいた水分補給量を計算",
-  "description": "This calculator helps you determine how much water you should be drinking daily based on your activity level, age, and weight. Essential for fitness enthusiasts looking to optimize their hydration.",
-  "metaTitle": "水分補給計算機 – 運動時の水分必要量計算ツール",
-  "metaDescription": "体重・運動強度・気温に基づいて、運動前後の最適な水分補給量を計算。",
+  "tagline": "毎日の水分補給必要量を計算しましょう！",
+  "description": "このツールは、あなたの活動レベル、年齢、体重に基づいて、毎日飲むべき水の量を決定するのに役立ちます。水分補給を最適化したいフィットネス愛好家に必須です。",
+  "metaTitle": "水分補給必要量計算機 – 毎日の目安を無料で算出 | 登録不要",
+  "metaDescription": "毎日の水分補給必要量を今すぐ無料で診断！個人情報の登録は不要です。詳細を入力するだけで結果が表示されます。",
   "keywords": [
+    "水分補給必要量",
     "水分補給計算機",
-    "運動水分補給",
-    "水分補給プラン",
-    "脱水防止計算",
-    "スポーツ水分計算"
+    "一日の水分摂取量",
+    "フィットネス水分補給",
+    "水分補給目安",
+    "水分補給必要量計算ツール",
+    "年齢別水分補給量",
+    "高齢者水分補給",
+    "授乳中の水分補給",
+    "妊娠中の水分補給",
+    "アスリート水分補給",
+    "体重別水分摂取量計算",
+    "ダイエット用水分摂取計算",
+    "体重に応じた水の量",
+    "1日の水分摂取量目安",
+    "水分摂取計算アプリ",
+    "犬の水分摂取量計算",
+    "猫の水分摂取量計算",
+    "毎日の水分補給",
+    "水分補給の重要性"
   ],
-  "category": "フィットネス",
+  "category": "Fitness",
   "icon": "💧",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "水分が十分に補給されているかどうかを知るにはどうすればよいですか？",
+      "answer": "尿が透明、エネルギーレベルが高い、肌の張りがあるなどが水分補給の兆候です。このツールはあなたの必要量を定量化するのに役立ちます。"
+    },
+    {
+      "question": "水分摂取量を調整できますか？",
+      "answer": "はい、活動レベル、気候、個人の健康状態に基づいて調整できます。"
+    },
+    {
+      "question": "このツールは誰でも使用できますか？",
+      "answer": "ほとんどの成人向けに設計されていますが、特定の健康状態がある方は専門家に相談してください。"
+    }
+  ],
   "relatedTools": [
     "bmr-tdee-calculator",
     "ideal-weight-calculator"

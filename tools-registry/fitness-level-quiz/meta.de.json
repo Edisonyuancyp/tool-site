@@ -1,20 +1,43 @@
 {
   "slug": "fitness-level-quiz",
-  "name": "Fitnesslevel-Quiz",
-  "tagline": "Aktuelles Fitnessniveau einschätzen",
-  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
-  "metaTitle": "Fitnesslevel-Quiz – Online-Fitness-Bewertungstool",
-  "metaDescription": "Mit einem kurzen Fragebogen das aktuelle Fitnessniveau einschätzen und personalisierte Trainingsempfehlungen erhalten.",
+  "name": "Fitness Level Quiz",
+  "tagline": "Bewerten Sie noch heute Ihr Fitnessniveau!",
+  "description": "Absolvieren Sie dieses schnelle Quiz, um Ihr aktuelles Fitnessniveau basierend auf Ihren Trainingsgewohnheiten und Ihrem Lebensstil zu bewerten. Perfekt für alle, die ihre körperliche Fitness einschätzen und Verbesserungsbereiche identifizieren möchten.",
+  "metaTitle": "Fitness Level Quiz – Selbstbewertungs-Tool kostenlos online",
+  "metaDescription": "Bewerten Sie Ihr Fitnessniveau mit diesem unterhaltsamen und schnellen Quiz. Sofortige Ergebnisse kostenlos, keine Anmeldung erforderlich!",
   "keywords": [
-    "Fitnesslevel Quiz",
-    "Fitness bewerten",
-    "Fitnessniveau Test",
-    "Sportlevel einschätzen",
-    "Fitnessempfehlungen"
+    "fitness level quiz",
+    "selbstbewertung",
+    "trainingsgewohnheiten",
+    "fitnessbewertung",
+    "gesundheitsquiz",
+    "fitnessniveau quiz",
+    "wie ist mein fitnessniveau",
+    "selbstbewertungsbericht",
+    "trainingsgewohnheiten beispiele",
+    "trainingsgewohnheiten fragebogen",
+    "trainingsgewohnheiten bedeutung",
+    "trainingsgewohnheiten lebensstiländerung",
+    "trainingsgewohnheiten gesunder lebensstil",
+    "trainingsgewohnheiten zitate",
+    "trainingsgewohnheiten synonym"
   ],
   "category": "Fitness",
   "icon": "🏋️‍♀️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie lange dauert das Quiz?",
+      "answer": "Das Quiz dauert etwa 5 Minuten und bietet Ihnen einen schnellen Überblick über Ihr Fitnessniveau."
+    },
+    {
+      "question": "Was lerne ich aus den Ergebnissen?",
+      "answer": "Sie erhalten Einblicke in Ihr aktuelles Fitnessniveau und Tipps, wie Sie dieses verbessern können."
+    },
+    {
+      "question": "Kostet die Teilnahme am Quiz etwas?",
+      "answer": "Nein, das Quiz ist vollständig kostenlos und erfordert keine Anmeldung."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "body-fat-calculator"

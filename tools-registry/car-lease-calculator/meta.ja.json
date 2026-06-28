@@ -1,20 +1,48 @@
 {
   "slug": "car-lease-calculator",
-  "name": "カーリース計算機",
-  "tagline": "自動車リースの月額料金と総費用を計算",
-  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
-  "metaTitle": "カーリース計算機 – 自動車リース費用計算ツール",
-  "metaDescription": "車両価格・残価・金利・リース期間を入力して月次リース費用を計算。",
+  "name": "カーリースカルキュレーター",
+  "tagline": "リース料金を素早く計算できます！",
+  "description": "このツールは、車両価格、頭金、金利、リース期間に基づいて、月々のカーリース料金を推定するのに役立ちます。車のリースを検討しており、支払い構造を理解したい方に最適です。",
+  "metaTitle": "カーリースカルキュレーター – リース料金を無料で簡単計算 | オンラインツール",
+  "metaDescription": "カーリースの月々の料金を無料で計算。登録不要、即座に結果が得られます！",
   "keywords": [
     "カーリース計算機",
-    "自動車リース計算",
-    "リース月額計算",
-    "カーリース費用",
-    "リースシミュレーション"
+    "リース料金計算",
+    "自動車リース",
+    "月々のリース料金",
+    "自動車ローン計算機",
+    "カナダ カーリース計算機",
+    "オーストラリア カーリース計算機",
+    "インド カーリース計算機",
+    "パキスタン カーリース計算機",
+    "下取り付き カーリース計算機",
+    "カリフォルニア カーリース計算機",
+    "オリックス カーリース計算機",
+    "オンライン カーリース計算機",
+    "オンライン カーリース計算機を使用する",
+    "無料 カーリース計算機",
+    "無料 オーストラリア カーリース計算機",
+    "インド カーリース計算機 Excelダウンロード",
+    "カーリース計算方法",
+    "リース料金計算ツール",
+    "プログレッシブ リース料金計算"
   ],
-  "category": "ファイナンス",
+  "category": "Finance",
   "icon": "🚗",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "リース料金に影響を与える要因は何ですか？",
+      "answer": "リース料金は、車両価格、残価、金利、リース期間、頭金によって決まります。"
+    },
+    {
+      "question": "このカルキュレーターは異なる車に使用できますか？",
+      "answer": "はい、どの車でも異なる値を入力して、リース料金がどのように変わるかを確認できます。"
+    },
+    {
+      "question": "このツールは新車のみに対応していますか？",
+      "answer": "いいえ、このカルキュレーターは新車と中古車の両方に対応しています。"
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "finance-charge-calculator"

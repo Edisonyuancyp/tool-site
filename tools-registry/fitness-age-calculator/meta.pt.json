@@ -1,20 +1,48 @@
 {
   "slug": "fitness-age-calculator",
-  "name": "Calculadora de Idade de Condicionamento Físico",
-  "tagline": "Avalie a idade biológica e o estado de saúde",
-  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
-  "metaTitle": "Calculadora de Idade Física – Avaliação de Idade Biológica",
-  "metaDescription": "Use frequência cardíaca, IMC e atividade física para estimar a idade biológica e entender o estado real de saúde.",
+  "name": "Calculadora de Idade Fitness",
+  "tagline": "Descubra sua idade fitness agora!",
+  "description": "Esta ferramenta calcula sua idade fitness com base em seus níveis de atividade física e métricas de saúde. É perfeita para pessoas que desejam entender seu nível de condicionamento físico em relação à sua idade cronológica.",
+  "metaTitle": "Calculadora de Idade Fitness – Reflita Sua Saúde | Ferramenta Online Gratuita",
+  "metaDescription": "Calcule sua idade fitness instantaneamente e grátis, sem necessidade de cadastro. Entenda seu estado de saúde com esta ferramenta simples.",
   "keywords": [
-    "calculadora de idade física",
-    "idade biológica",
-    "teste de idade corporal",
     "idade fitness",
-    "avaliação de saúde"
+    "calcular idade fitness",
+    "métricas de saúde",
+    "níveis de atividade",
+    "avaliação fitness",
+    "calculadora de idade fitness",
+    "calculadora de idade fitness garmin",
+    "calculadora de idade fitness vo2 max",
+    "calculadora de idade fitness por idade e sexo",
+    "calculadora de idade fitness vo2 max",
+    "calculadora de idade fitness apple watch",
+    "calculadora de idade fitness feminina",
+    "calculadora de idade fitness reino unido",
+    "calculadora de idade fitness gratuita",
+    "calculadora de idade fitness gratuita vo2 max",
+    "como calcular idade fitness",
+    "idade fitness garmin",
+    "idade fitness apple watch",
+    "idade fitness diminuiu garmin",
+    "calcular idade fitness a partir do vo2max"
   ],
   "category": "Fitness",
   "icon": "🧘",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como a idade fitness é calculada?",
+      "answer": "A idade fitness é determinada analisando várias métricas de saúde e níveis de atividade para fornecer uma idade que reflita seu condicionamento físico."
+    },
+    {
+      "question": "Esta ferramenta é precisa?",
+      "answer": "Embora forneça uma boa estimativa, os resultados individuais podem variar com base em fatores de saúde pessoais."
+    },
+    {
+      "question": "Posso melhorar minha idade fitness?",
+      "answer": "Sim, aumentando sua atividade física e mantendo um estilo de vida saudável, você pode reduzir sua idade fitness."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "bmr-tdee-calculator"

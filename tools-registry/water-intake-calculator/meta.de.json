@@ -1,20 +1,44 @@
 {
   "slug": "water-intake-calculator",
-  "name": "Täglicher Wasserbedarfsrechner",
-  "tagline": "Berechne, wie viel Wasser du täglich trinken solltest",
-  "description": "Get a personalized daily water intake recommendation based on body weight, activity level, climate, and pregnancy/breastfeeding status. Shows result in liters, cups, and 500mL bottles.",
-  "metaTitle": "Täglicher Wasserbedarfsrechner – Wasserbedarfs-Berechnungstool",
-  "metaDescription": "Basierend auf Gewicht, Aktivitätsniveau und Klima den optimalen täglichen Wasserkonsum berechnen.",
+  "name": "Täglicher Wasseraufnahme-Rechner",
+  "tagline": "Wie viel Wasser sollten Sie pro Tag trinken? Finden Sie Ihr personalisiertes Ziel",
+  "description": "Erhalten Sie eine personalisierte Empfehlung zur täglichen Wasseraufnahme basierend auf Körpergewicht, Aktivitätsniveau, Klima und Schwangerschafts-/Stillstatus. Ergebnisse in Litern, Tassen und 500-ml-Flaschen.",
+  "metaTitle": "Wasseraufnahme-Rechner – Wie viel Wasser sollten Sie täglich trinken?",
+  "metaDescription": "Kostenloser Täglicher Wasseraufnahme-Rechner. Berechnen Sie, wie viel Wasser Sie basierend auf Gewicht, Aktivitätsniveau und Klima trinken sollten. Ergebnisse in Litern, Tassen und Flaschen.",
   "keywords": [
-    "Wasserbedarf berechnen",
-    "Tägliche Trinkmenge",
-    "Wasserrechner",
-    "Hydration Rechner",
-    "Wasserkonsum berechnen"
+    "wasseraufnahme rechner",
+    "wie viel wasser sollte ich trinken",
+    "täglicher wasser rechner",
+    "hydrations rechner",
+    "wasseraufnahme pro tag",
+    "täglicher wasseraufnahme rechner",
+    "wasseraufnahme rechner deutschland",
+    "wasseraufnahme rechner nach gewicht",
+    "wasseraufnahme rechner abnehmen",
+    "wasseraufnahme hund rechner",
+    "wasseraufnahme rechner formel",
+    "wasseraufnahme rechner kg",
+    "wasseraufnahme rechner österreich",
+    "wasser rechner kg liter",
+    "wasseraufnahme rechner gewichtsverlust",
+    "wasser rechner nach körpergewicht",
+    "wasseraufnahme rechner kreatin",
+    "wasseraufnahme rechner app",
+    "hund wasser rechner",
+    "katze wasseraufnahme rechner"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "💧",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Ist die Regel \"8 Gläser pro Tag\" genau?",
+      "answer": "Die 8×8-Regel ist eine grobe Faustregel. Der tatsächliche Bedarf variiert je nach Körpergewicht, Aktivität und Klima. Ein 100 kg schwerer Sportler in heißem Wetter benötigt möglicherweise 4+ Liter; eine 50 kg schwere, bewegungsarme Person benötigt etwa 1,7 Liter."
+    },
+    {
+      "question": "Zählt Kaffee zur täglichen Wasseraufnahme?",
+      "answer": "Ja – Kaffee und Tee bestehen zu etwa 98-99% aus Wasser und tragen positiv zur Flüssigkeitszufuhr bei. Alkohol zählt nicht und erhöht den Wasserbedarf."
+    }
+  ],
   "relatedTools": [
     "bmr-tdee-calculator",
     "bmi-calculator",

@@ -1,0 +1,60 @@
+{
+  "slug": "jwt-decoder",
+  "name": "JWT解码器 & 安全检查工具",
+  "tagline": "解码和检查任何JWT令牌 — 包含安全分析",
+  "description": "粘贴任何JSON Web Token即可立即解码头部、负载和过期时间。包括安全检查清单：检查缺失的过期时间(exp)、弱算法和常见配置错误警告。",
+  "metaTitle": "JWT解码器 & 安全检查工具 — 免费在线工具 | GetFastCalc",
+  "metaDescription": "即时解码JWT令牌。查看头部、负载和过期时间。内置安全分析器可标记缺失的exp、弱算法和其他JWT安全问题。",
+  "keywords": [
+    "JWT解码器",
+    "JWT调试器",
+    "解码JWT令牌",
+    "JSON Web Token解码器",
+    "JWT安全检查",
+    "JWT负载查看器",
+    "JWT在线解码",
+    "JWT解码器Flutter",
+    "JWT编码/解码",
+    "JWT解码器Java",
+    "JWT解码器微软",
+    "JWT解码React",
+    "JWT解码器io",
+    "JWT调试器Github",
+    "JWT调试器io",
+    "JWT调试器旧版本",
+    "JWT在线调试器",
+    "JWT调试器Chrome扩展",
+    "JWT调试器扩展",
+    "JWT离线调试器"
+  ],
+  "category": "Developer",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "在这里粘贴我的JWT令牌安全吗？",
+      "answer": "此工具完全在您的浏览器中解码JWT令牌 — 没有数据被发送到任何服务器。解码通过JavaScript的atob()函数在客户端进行。也就是说，请勿在公共或不受信任的环境中共享生产令牌。"
+    },
+    {
+      "question": "JWT的三个部分是什么？",
+      "answer": "JWT有三个Base64URL编码的部分，由点号分隔：1)头部(算法类型和令牌类型)、2)负载(声明如用户ID、角色、过期时间)和3)签名(用于验证令牌未被篡改 — 没有密钥无法验证)。"
+    },
+    {
+      "question": "此工具能验证JWT签名吗？",
+      "answer": "不能 — 任何客户端工具都不能，因为签名验证需要签署令牌的私密钥/密钥。此工具仅解码和检查负载。对于签名验证，请使用您的服务器端库。"
+    },
+    {
+      "question": "JWT负载中'exp'是什么意思？",
+      "answer": "exp是'过期时间'声明 — 一个Unix时间戳，在此之后令牌必须被拒绝。如果缺失，令牌永不过期，这是一个严重的安全风险。始终设置较短的过期时间(访问令牌15分钟，刷新令牌更长)。"
+    },
+    {
+      "question": "HS256和RS256有什么区别？",
+      "answer": "HS256(HMAC-SHA256)使用单个共享密钥 — 发行者和验证者都需要相同的密钥。RS256(RSA-SHA256)使用公钥/私钥对 — 发行者用私钥签名，任何人都可以用公钥验证。RS256更适合分布式系统，其中多个服务需要验证令牌。"
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "url-encoder",
+    "password-generator"
+  ],
+  "variants": []
+}

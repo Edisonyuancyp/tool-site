@@ -1,0 +1,54 @@
+{
+  "slug": "css-variables-generator",
+  "name": "CSSバリエーション生成ツール",
+  "tagline": "カスタムカラーパレットを作成し、すぐに使えるCSSバリエーションとTailwindコンフィグをエクスポート",
+  "description": "カスタムカラーパレットをゼロから作成し、:root CSSバリエーション、Tailwindコンフィグ、コピー可能なコードスニペットを即座に生成します。サインアップなし、インストール不要—ブラウザで直接実行できます。",
+  "metaTitle": "CSSバリエーション生成ツール – カラーパレット作成・:root CSS変数エクスポート | GetFastCalc",
+  "metaDescription": "無料のCSS変数生成ツール。色を選択して名前を付け、:root CSSバリエーション、Tailwind config.js、コピー可能なコードを即座に取得。サインアップ不要。",
+  "keywords": [
+    "CSS変数生成",
+    "CSS カスタムプロパティ生成",
+    "Tailwindコンフィグ生成",
+    "カラーパレット CSS変数変換",
+    ":root CSS変数",
+    "デザイントークン生成",
+    "CSS色変数 オンライン",
+    "Tailwind カラー設定",
+    "CSS変数 無料 オンライン",
+    "CSS変数 自動生成",
+    "CSS色変数ジェネレータ",
+    "Tailwind CSS設定生成",
+    "Tailwindテーマ設定生成",
+    "Tailwindカラー設定生成",
+    "tailwind.config.js 生成",
+    "Tailwindコンフィグビルダー",
+    "Tailwindコンフィグ例",
+    "Tailwindコンフィグ カラー"
+  ],
+  "category": "Developer",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "CSS変数（カスタムプロパティ）とは何ですか？",
+      "answer": "CSS変数（カスタムプロパティ）は、CSS制作者が定義する特定の値を表すエンティティで、ドキュメント全体で再利用できます。--変数名という構文を使い、:rootで設定することでグローバルに利用可能になります。"
+    },
+    {
+      "question": "生成されたCSS変数をプロジェクトで使用するにはどうしますか？",
+      "answer": ":rootブロックをコピーし、プロジェクトのメインCSSファイル（global.cssやindex.cssなど）に貼り付けます。その後、スタイルシート内の任意の場所でvar(--color-primary)のような形式で変数を参照できます。"
+    },
+    {
+      "question": "生成されたTailwindコンフィグを直接使用できますか？",
+      "answer": "はい、可能です。生成されたtailwind.config.jsブロックをコピーし、プロジェクトのtailwind.config.jsファイルのtheme.extend.colorsの下に貼り付けます。カスタムカラー名がTailwindクラスとして利用可能になります。"
+    },
+    {
+      "question": "デザイントークンとは何ですか？",
+      "answer": "デザイントークンは、色、間隔、タイポグラフィなどのデザイン上の決定を保存する命名された値です。CSS変数はWebプロジェクトでデザイントークンを実装するための一般的な方法です。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "typography-compare-lab",
+    "base64-tool"
+  ],
+  "variants": []
+}

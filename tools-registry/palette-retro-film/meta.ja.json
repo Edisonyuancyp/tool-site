@@ -1,0 +1,36 @@
+{
+  "slug": "palette-retro-film",
+  "name": "レトロフィルムカラーパレット",
+  "tagline": "アナログ写真に着想を得た温かみのあるフェードトーン。アースカラーの琥珀色、くすんだバラ色、くたびれた紙のクリーム色。",
+  "description": "アナログ写真に着想を得た温かみのあるフェードトーン。アースカラーの琥珀色、くすんだバラ色、くたびれた紙のクリーム色。",
+  "metaTitle": "レトロフィルムカラーパレット – HEX、CMYK、Tailwind、Pantone対応表",
+  "metaDescription": "レトロフィルムカラーパレットの無料ツール。HEXコード、Tailwind CSSクラス、CMYK値、Pantone参考色を掲載。カラーコードをワンクリックでコピー可能。",
+  "keywords": [
+    "レトロフィルム カラーパレット",
+    "レトロフィルム 配色",
+    "レトロフィルム HEXコード",
+    "#D97706",
+    "#FDA4AF",
+    "#FEF3C7",
+    "Pantone マッチング",
+    "CMYK 変換",
+    "ウェブカラーパレット",
+    "Tailwind CSS 配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "PantoneのリファレンスカラーはTHE EXACT MATCHですか?",
+      "answer": "いいえ。表示されているPantoneコードは最も視覚的に近い近似値です。本番印刷作業の場合は、必ず物理的なPantone ファンデックと照合してください。"
+    },
+    {
+      "question": "CMYKの値はどのように計算されていますか?",
+      "answer": "CMYK値はデバイス非依存公式を使用しています: K = 1 − max(R,G,B); C/M/YはRGB比率から導出されます。実際の出力はプリンタープロファイルと用紙に依存します。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "fba-packing-calculator",
+  "name": "FBA Karton Packrechner",
+  "tagline": "Packen Sie FBA-Sendungen intelligenter — visualisieren Sie das Kartonlayout, vermeiden Sie Platzverschwendung und Amazon-Übergrößengebühren",
+  "description": "Ziehen Sie Produkte in eine 2D-Kartonansicht, erhalten Sie sofortige Raumauslastung, FBA Größen-/Gewichtsprüfungen, intelligente Kastengrößenempfehlungen und eine bedruckbare Packliste mit einem Klick.",
+  "metaTitle": "FBA Karton Packrechner – Schachtgelgrößen-Optimizer für Amazon FBA",
+  "metaDescription": "Kostenloser FBA Karton Packrechner. Drag-and-Drop Produktlayout, automatische Schachtelgrößenempfehlung, Amazon FBA Gewichts- und Größenvalidierung sowie bedruckbare Packliste.",
+  "keywords": [
+    "fba karton rechner",
+    "amazon fba schachtgröße rechner",
+    "fba pack rechner",
+    "schachtpackungs optimizer",
+    "karton beladungs rechner",
+    "fba sendungs rechner",
+    "amazon schachtelgrößen limit",
+    "fba karton gewichts rechner",
+    "produkt pack planer",
+    "fba verpackungs tool"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "faqs": [
+    {
+      "question": "What are Amazon FBA box size limits?",
+      "answer": "Standard FBA boxes must not exceed 25 inches on any single side and must weigh no more than 50 lbs (22.7 kg). Boxes over 50 lbs require a 'Team Lift' label. Oversized items have separate rules."
+    },
+    {
+      "question": "How is dimensional (volumetric) weight calculated for FBA?",
+      "answer": "Amazon calculates dimensional weight as length × width × height (inches) ÷ 139. If the dimensional weight is greater than the actual weight, the higher value determines the shipping fee."
+    },
+    {
+      "question": "What box sizes does Amazon FBA recommend?",
+      "answer": "Amazon recommends standard carton sizes such as 18×14×12 in, 20×16×14 in, or 24×18×18 in. Using standard sizes reduces the risk of damage and simplifies warehouse scanning."
+    },
+    {
+      "question": "How do I calculate how many units fit in a carton?",
+      "answer": "Enter your product dimensions and the carton inner dimensions. The calculator uses a 2D bin-packing algorithm to estimate the optimal arrangement and tells you exactly how many units fit per layer and how many layers are possible."
+    },
+    {
+      "question": "Can I use this calculator for non-FBA shipments?",
+      "answer": "Yes. The packing calculator works for any carton shipment — Shopify orders, freight pallets, or personal moves. Simply ignore the FBA-specific rule warnings if they don't apply to you."
+    },
+    {
+      "question": "What is the best way to pack an FBA carton to avoid damage?",
+      "answer": "Place the heaviest and largest items at the bottom. Leave at least 2 inches of padding on all sides. Avoid mixing fragile and heavy items in the same carton. Make sure nothing shifts when you shake the box."
+    }
+  ],
+  "relatedTools": [
+    "profit-margin-calculator",
+    "currency-converter",
+    "discount-calculator"
+  ],
+  "variants": []
+}

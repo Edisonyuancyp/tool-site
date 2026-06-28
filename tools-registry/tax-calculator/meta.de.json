@@ -1,20 +1,56 @@
 {
   "slug": "tax-calculator",
-  "name": "Steuerrechner",
-  "tagline": "Steuerlast schnell schätzen",
-  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
-  "metaTitle": "Steuerrechner – Kostenloses Online-Steuerberechnungstool",
-  "metaDescription": "Einkommen und Steuersatz eingeben und sofort Steuerbetrag und Nettoeinkommen berechnen.",
+  "name": "Einkommensteuerrechner",
+  "tagline": "Berechnen Sie die Einkommensteuer für USA, UK, Kanada, Australien und mehr",
+  "description": "Kostenloser Einkommensteuerrechner für 7 Länder — USA, UK, Kanada, Australien, Deutschland, Singapur, Frankreich und Japan. Geben Sie Ihr Einkommen ein und sehen Sie sofort Ihre Steuerschuld, effektiven Steuersatz und Nettoeinkommen. Aktualisiert für das Steuerjahr 2024.",
+  "metaTitle": "Einkommensteuerrechner 2024 — USA, UK, Kanada, Australien & mehr",
+  "metaDescription": "Kostenloser Einkommensteuerrechner für 7 Länder. Einkommen eingeben → Steuerschuld, effektiven Steuersatz und Nettoeinkommen sofort sehen. Aktualisiert für 2024.",
   "keywords": [
-    "Steuerrechner",
-    "Einkommensteuer berechnen",
-    "Steuersatz berechnen",
-    "Steuerlast berechnen",
-    "Nettoeinkommen"
+    "Einkommensteuerrechner",
+    "Steuerrechner 2024",
+    "wie viel Steuern muss ich zahlen",
+    "Nettoeinkommen Rechner",
+    "internationaler Steuerrechner",
+    "Einkommensteuerrechner Steuerjahr 2025-26",
+    "Einkommensteuerrechner Steuerjahr 2024-25",
+    "Einkommensteuerrechner Steuerjahr 2026-27",
+    "Einkommensteuerrechner Vereinigtes Königreich",
+    "Einkommensteuerrechner Ontario",
+    "Einkommensteuerrechner altes vs. neues System",
+    "Einkommensteuerrechner Australien",
+    "Online Einkommensteuerrechner",
+    "Online Einkommensteuerrechner Indien",
+    "Online Einkommensteuerrechner neues Steuersystem",
+    "Online Einkommensteuerrechner Steuerjahr 2025-26",
+    "Online Einkommensteuerrechner Excel",
+    "Online Einkommensteuerrechner kostenlos",
+    "Online Einkommensteuerrechner 2026-27",
+    "Online Einkommensteuerrechner Steuerjahr 2026-27"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "🧾",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Welche Länder deckt dieser Rechner ab?",
+      "answer": "USA (Bundesebene), UK, Kanada (Bundesebene), Australien, Deutschland, Singapur, Frankreich und Japan — alle aktualisiert für das Steuerjahr 2024."
+    },
+    {
+      "question": "Ist dieser Rechner genau?",
+      "answer": "Er liefert genaue Schätzungen auf Basis der offiziellen Steuertarife für jedes Land. Er berücksichtigt nicht alle lokalen Abzüge, Steuergutschriften oder Zusatzabgaben — konsultieren Sie immer einen Steuerberater für offizielle Steuererklärungen."
+    },
+    {
+      "question": "Sind Sozialabgaben und Sozialversicherung enthalten?",
+      "answer": "Ja — UK National Insurance, kanadische CPP/EI, australische Medicare Levy, deutsche Sozialversicherung und US-Selbstständigensteuer werden alle als separate Positionen angezeigt."
+    },
+    {
+      "question": "Was ist ein effektiver Steuersatz?",
+      "answer": "Ihr effektiver Steuersatz ist die Gesamteinkommensteuer geteilt durch Ihr Bruttoeinkommen. Er ist immer niedriger als Ihr Grenzsteuersatz, da niedrigere Einkommensteile mit niedrigeren Sätzen besteuert werden."
+    },
+    {
+      "question": "Was ist ein Grenzsteuersatz?",
+      "answer": "Ihr Grenzsteuersatz ist der Steuersatz, der auf Ihren letzten Euro Einkommen angewendet wird — d. h. die höchste Steuerklasse, die Sie erreichen. Dies ist der Satz, den Sie auf zusätzliches Einkommen zahlen."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "retirement-savings-calculator",

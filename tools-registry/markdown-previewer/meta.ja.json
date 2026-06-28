@@ -1,0 +1,52 @@
+{
+  "slug": "markdown-previewer",
+  "name": "Markdownプレビューア",
+  "tagline": "Markdownをリアルタイムで執筆・プレビュー — シンプルなエディタ、即座にレンダリング",
+  "description": "左のパネルでMarkdownを書くと、右側にレンダリングされたHTMLプレビューがリアルタイムで表示されます。見出し、太字、斜体、リスト、コードブロック、テーブル、リンクに対応しています。登録不要です。",
+  "metaTitle": "Markdownプレビューア – 無料オンラインエディタ・プレビューツール | GetFastCalc",
+  "metaDescription": "無料のMarkdownプレビューアです。Markdownを入力するとリアルタイムでレンダリング結果が表示されます。GFMテーブル、コードブロック対応。登録不要。",
+  "keywords": [
+    "markdownプレビューアオンライン",
+    "markdownエディタ無料オンライン",
+    "markdownリアルタイムプレビュー",
+    "markdownからhtml変換",
+    "markdownレンダラーオンライン",
+    "githubフレーバーmarkdownプレビュー",
+    "markdownビューアオンライン",
+    "markdownライブエディタ",
+    "markdownプレビュー",
+    "markdownプレビュー vscode",
+    "markdownプレビュー mac",
+    "markdownビューア linux",
+    "markdownプレビュー mermaid対応",
+    "markdownプレビューアgithub",
+    "nvim markdownプレビュー",
+    "無料markdownプレビュー",
+    "markdownエディタ無料オンライン最高",
+    "ライブmarkdownプレビュー vscode",
+    "ライブmarkdownプレビュー nvim",
+    "ライブmarkdownプレビュー vim"
+  ],
+  "category": "Content",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "どのようなMarkdown記法に対応していますか？",
+      "answer": "標準的なMarkdownに対応しており、見出し(#、##)、太字(**テキスト**)、斜体(*テキスト*)、リスト、コードブロック(```)、インラインコード、リンク、画像、ブロッククォート、GitHub Flavored Markdown(GFM)テーブルをサポートしています。"
+    },
+    {
+      "question": "READMEファイルのプレビューに使用できますか？",
+      "answer": "はい。README.mdやドキュメントファイルの内容をコピー&ペーストすると、GitHubなどのMarkdownプラットフォームで実際にどのように表示されるかを確認できます。"
+    },
+    {
+      "question": "テキストはどこかに保存されますか？",
+      "answer": "いいえ。すべてはブラウザ内に留まります。あなたのMarkdownはサーバーに送信されることはありません。"
+    }
+  ],
+  "relatedTools": [
+    "word-counter",
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "palette-eco-green",
+  "name": "生态绿色调色板",
+  "tagline": "自然灵感有机调色板，适用于可持续发展品牌、wellness和环保产品。深森林绿和温暖土色调。",
+  "description": "自然灵感有机调色板，适用于可持续发展品牌、wellness和环保产品。深森林绿和温暖土色调。",
+  "metaTitle": "生态绿色调色板 – HEX、CMYK、Tailwind 和 Pantone 配色参考",
+  "metaDescription": "免费生态绿色调色板，包含HEX代码、Tailwind CSS样式类、CMYK数值和Pantone近似色参考。一键复制任意颜色。",
+  "keywords": [
+    "生态绿色调色板",
+    "生态绿色配色方案",
+    "生态绿色hex代码",
+    "#166534",
+    "#4ade80",
+    "#92400e",
+    "潘通色卡匹配",
+    "cmyk转换",
+    "网页调色板",
+    "tailwind css配色",
+    "环保绿色调色板"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantone配色参考是精确匹配吗？",
+      "answer": "不是。显示的Pantone代码是最接近的视觉近似色。用于生产印刷工作时，请务必与实物Pantone色卡进行核对。"
+    },
+    {
+      "question": "CMYK数值是如何计算的？",
+      "answer": "CMYK数值采用设备无关公式计算：K = 1 − max(R,G,B)；C/M/Y由RGB比例推导。实际输出结果取决于打印机配置文件和纸张类型。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

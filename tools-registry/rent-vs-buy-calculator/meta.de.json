@@ -1,0 +1,60 @@
+{
+  "slug": "rent-vs-buy-calculator",
+  "name": "Miete vs. Kauf Rechner",
+  "tagline": "Ist es günstiger, eine Wohnung zu mieten oder zu kaufen? Finden Sie es in 60 Sekunden heraus.",
+  "description": "Vergleichen Sie die wahren Finanzkosten von Mieten vs. Kaufen. Berücksichtigt Hypothekenzahlungen, Opportunitätskosten, Instandhaltung, Wertsteigerung und Steuervorteile, um Ihnen einen Break-Even-Zeitpunkt zu zeigen.",
+  "metaTitle": "Miete vs. Kauf Rechner — Ist Mieten oder Kaufen günstiger? | GetFastCalc",
+  "metaDescription": "Berechnen Sie, ob Mieten oder Hauskauf finanziell sinnvoller ist. Geben Sie Ihre lokalen Preise, Zinssätze und Zeithorizont ein, um Break-Even-Punkt und 10-Jahres-Kostenvergleich zu erhalten.",
+  "keywords": [
+    "miete vs kauf rechner",
+    "soll ich mieten oder kaufen",
+    "miete oder hauskauf",
+    "kauf vs miete vergleich",
+    "hypothek vs miete rechner",
+    "break-even miete kauf",
+    "miete vs kauf rechner deutschland",
+    "miete vs kauf rechner wien",
+    "miete vs kauf rechner zürich",
+    "miete vs kauf rechner berlin",
+    "miete vs kauf rechner hamburg",
+    "miete vs kauf rechner münchen",
+    "miete vs kauf rechner österreich",
+    "miete vs kauf rechner online",
+    "kostenlos miete vs kauf rechner",
+    "bester kostenlos miete vs kauf rechner",
+    "miete vs kauf kostenlos berechnen",
+    "wohnung mieten oder kaufen",
+    "immobilie miete oder kauf",
+    "wann lohnt sich hauskauf"
+  ],
+  "category": "Finance",
+  "icon": "🏠",
+  "faqs": [
+    {
+      "question": "Was ist die 5%-Regel beim Vergleich von Mieten vs. Kaufen?",
+      "answer": "Die 5%-Regel (populär gemacht vom Finanzplaner Ben Felix) besagt: Multiplizieren Sie den Hauspreis mit 5%, dividieren Sie durch 12 und vergleichen Sie mit Ihrer monatlichen Miete. Wenn die Miete unter diesem Betrag liegt, ist das Mieten wahrscheinlich günstiger. Die 5% decken ungefähr 3% Opportunitätskosten + 1% Instandhaltung + 1% Grundsteuer ab."
+    },
+    {
+      "question": "Berücksichtigt der Rechner Immobilienwertsteigerung?",
+      "answer": "Ja. Sie können eine erwartete jährliche Wertsteigerungsrate festlegen. Historisch sind US-Immobilienpreise nominell um etwa 3–4% pro Jahr gestiegen, oder etwa 0–1% über der Inflation. Der Rechner vergleicht das Vermögen in beiden Szenarien."
+    },
+    {
+      "question": "Was ist der Break-Even-Punkt beim Vergleich von Miete vs. Kauf?",
+      "answer": "Der Break-Even-Punkt ist die Anzahl der Jahre, die Sie in einem Haus bleiben müssen, damit der Kauf günstiger wird als das Mieten, unter Berücksichtigung aller Anschaffungskosten (Anzahlung, Abschlussgebühren), Hypothekenzinsen und der schrittweisen Vermögensbildung."
+    },
+    {
+      "question": "Welche versteckten Kosten sind beim Hauskauf enthalten?",
+      "answer": "Über die Hypothekenzahlung hinaus: Grundsteuer (0,5–2% des Wertes pro Jahr), Instandhaltung (1% pro Jahr als Faustregel), HOA-Gebühren falls zutreffend, Abschlusskosten (2–5% auffront), und Hausratversicherung. Diese addieren sich oft auf 2–3% des Hauswertes pro Jahr."
+    },
+    {
+      "question": "Ist Mieten immer Geldverschwendung?",
+      "answer": "Nein — das ist ein Mythos. Wenn Sie mieten, behalten Sie Kapital, das Sie investieren können (die Anzahlung, die Sie nicht machen). Wenn Sie die Differenz zwischen Miete und Hypothekenzahlung investieren, können Sie am Ende besser dastehen. Dieser Rechner modelliert beide Szenarien."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "inflation-calculator",
+    "mortgage-calculator"
+  ],
+  "variants": []
+}

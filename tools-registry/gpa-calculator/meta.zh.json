@@ -1,23 +1,46 @@
 {
   "slug": "gpa-calculator",
-  "name": "GPA 计算器",
-  "tagline": "计算学业绩点平均值",
-  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
-  "metaTitle": "GPA 计算器 – 在线免费绩点计算",
-  "metaDescription": "输入课程学分和成绩，自动计算加权 GPA。支持 4.0 制和百分制转换。",
+  "name": "GPA计算器",
+  "tagline": "从字母等级或百分比快速计算您的GPA",
+  "description": "从字母等级、百分比或绩点计算您的GPA（平均绩点）。支持4.0制、加权GPA和累积GPA计算。",
+  "metaTitle": "GPA计算器 – 免费在线从字母等级计算GPA",
+  "metaDescription": "免费GPA计算器。输入字母等级或百分比，计算4.0制GPA。支持加权GPA和累积GPA计算。",
   "keywords": [
     "GPA计算器",
-    "绩点计算器",
-    "学业成绩计算",
-    "加权GPA",
-    "成绩计算器"
+    "平均绩点计算器",
+    "字母等级转GPA",
+    "4.0制GPA计算",
+    "累积GPA计算器",
+    "朱拉隆功大学GPA计算器",
+    "大学GPA计算器",
+    "百分比转GPA计算器",
+    "多伦多大学GPA计算器",
+    "大学GPA计算器",
+    "满分4GPA计算器",
+    "在线GPA计算器",
+    "免费在线GPA计算器",
+    "免费GPA计算器",
+    "免费高中GPA计算器",
+    "免费大学GPA计算器",
+    "免费安娜大学GPA计算器",
+    "免费安娜大学GPA计算器2025",
+    "国际学生免费GPA计算器",
+    "免费阿富汗农业大学GPA计算器"
   ],
-  "category": "工具",
+  "category": "Utilities",
   "icon": "🎓",
   "faqs": [
     {
-      "question": "什么是 GPA？",
-      "answer": "GPA（Grade Point Average）是学业绩点平均值，4.0 制中满分为 4.0。"
+      "question": "GPA是如何计算的？",
+      "answer": "GPA通过将每个字母等级转换为绩点（A=4.0、B=3.0、C=2.0、D=1.0、F=0.0），然后按学分加权平均所有课程来计算。"
+    },
+    {
+      "question": "多少GPA算不错？",
+      "answer": "GPA为3.5–4.0被认为优秀（大多数大学的院长名单）。3.0–3.5为良好。低于2.0可能会导致在许多学校受到学术警告。"
+    },
+    {
+      "question": "加权GPA和非加权GPA有什么区别？",
+      "answer": "非加权GPA平等对待所有课程（最高4.0）。加权GPA为荣誉、AP或IB课程给予额外分数（最高5.0），以奖励学术严谨性。"
     }
   ],
   "relatedTools": [

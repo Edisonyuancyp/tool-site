@@ -1,0 +1,52 @@
+{
+  "slug": "discount-calculator",
+  "name": "Calculadora de Desconto",
+  "tagline": "Calcule o preço com desconto, economia e preço original de qualquer percentual de desconto",
+  "description": "Calcule o preço com desconto a partir de um percentual, encontre o preço original a partir do preço final, ou descubra qual percentual de desconto foi aplicado. Resultados instantâneos para clientes, varejistas e profissionais de marketing.",
+  "metaTitle": "Calculadora de Desconto – Preço Final e Preço Original | GetFastCalc",
+  "metaDescription": "Calculadora de desconto gratuita. Encontre o preço com desconto em %, calcule o preço original ou descubra o percentual de desconto. Instantâneo, sem cadastro.",
+  "keywords": [
+    "calculadora de desconto",
+    "calculadora de preço com desconto",
+    "calculadora de percentual de desconto",
+    "calculadora de preço original",
+    "calculadora de desconto reverso",
+    "quanto fica 20 por cento de desconto",
+    "calculadora de percentual de desconto grátis",
+    "calculadora de preço final com desconto",
+    "fórmula de calculadora de desconto",
+    "calculadora de desconto online",
+    "calculadora de desconto com imposto",
+    "calculadora de desconto percentual",
+    "calculadora de desconto omni",
+    "aplicativo calculadora de desconto",
+    "calculadora de desconto preço",
+    "calculadora de desconto online brasil",
+    "calculadora de desconto online grátis",
+    "calculadora de percentual de desconto online",
+    "calculadora de desconto online fórmula",
+    "calculadora de fator de desconto online"
+  ],
+  "category": "Finance",
+  "icon": "🏷️",
+  "faqs": [
+    {
+      "question": "Como calculo um desconto em percentual?",
+      "answer": "Preço Final = Preço Original × (1 - Desconto% / 100). Por exemplo, 20% de desconto em R$50 = R$50 × 0,8 = R$40."
+    },
+    {
+      "question": "Como encontro o preço original a partir do preço com desconto?",
+      "answer": "Preço Original = Preço Final ÷ (1 - Desconto% / 100). Se algo custa R$40 após 20% de desconto, o preço original era R$40 ÷ 0,8 = R$50."
+    },
+    {
+      "question": "Como calculo qual percentual de desconto foi aplicado?",
+      "answer": "Desconto % = ((Preço Original - Preço Final) / Preço Original) × 100. Se um item foi de R$80 para R$60, o desconto é (20/80) × 100 = 25%."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "profit-margin-calculator",
+    "tax-calculator"
+  ],
+  "variants": []
+}

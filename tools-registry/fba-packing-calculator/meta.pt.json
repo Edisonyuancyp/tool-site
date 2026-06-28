@@ -1,0 +1,54 @@
+{
+  "slug": "fba-packing-calculator",
+  "name": "Calculadora de Empacotamento para Caixas FBA",
+  "tagline": "Empacote remessas FBA de forma inteligente — visualize o layout da caixa, evite espaço desperdiçado e taxas de sobretamanho da Amazon",
+  "description": "Arraste produtos para uma visualização 2D de caixa, obtenha utilização instantânea de espaço, verificações de regras de tamanho/peso do FBA, recomendações inteligentes de tamanho de caixa e lista de empacotamento impressa com um clique.",
+  "metaTitle": "Calculadora de Empacotamento para Caixas FBA – Otimizador de Tamanho de Caixa para Amazon FBA",
+  "metaDescription": "Calculadora gratuita de empacotamento para caixas FBA. Layout de produtos com arrastar e soltar, recomendação automática de tamanho de caixa, validação de peso e tamanho Amazon FBA, e lista de empacotamento imprimível.",
+  "keywords": [
+    "calculadora de caixas fba",
+    "calculadora de tamanho de caixa amazon fba",
+    "calculadora de empacotamento fba",
+    "otimizador de empacotamento de caixas",
+    "calculadora de carregamento de caixas",
+    "calculadora de remessa fba",
+    "limite de tamanho de caixa amazon",
+    "calculadora de peso de caixa fba",
+    "planejador de empacotamento de produtos",
+    "ferramenta de embalagem fba"
+  ],
+  "category": "ecommerce",
+  "icon": "📦",
+  "faqs": [
+    {
+      "question": "Quais são os limites de tamanho de caixa do Amazon FBA?",
+      "answer": "Caixas padrão do FBA não devem exceder 25 polegadas em nenhum lado e devem pesar no máximo 50 libras (22,7 kg). Caixas acima de 50 libras exigem um rótulo 'Team Lift'. Itens de sobretamanho têm regras separadas."
+    },
+    {
+      "question": "Como é calculado o peso dimensional (volumétrico) para FBA?",
+      "answer": "Amazon calcula o peso dimensional como comprimento × largura × altura (polegadas) ÷ 139. Se o peso dimensional for maior que o peso real, o valor mais alto determina a taxa de envio."
+    },
+    {
+      "question": "Que tamanhos de caixa o Amazon FBA recomenda?",
+      "answer": "Amazon recomenda tamanhos de caixa padrão como 18×14×12 pol, 20×16×14 pol, ou 24×18×18 pol. Usar tamanhos padrão reduz o risco de danos e simplifica a leitura de códigos no armazém."
+    },
+    {
+      "question": "Como calculo quantas unidades cabem em uma caixa?",
+      "answer": "Digite as dimensões do seu produto e as dimensões internas da caixa. A calculadora usa um algoritmo de empacotamento 2D para estimar o melhor arranjo e informa exatamente quantas unidades cabem por camada e quantas camadas são possíveis."
+    },
+    {
+      "question": "Posso usar esta calculadora para remessas fora do FBA?",
+      "answer": "Sim. A calculadora de empacotamento funciona para qualquer remessa de caixa — pedidos Shopify, paletes de carga ou mudanças pessoais. Simplesmente ignore os avisos de regras específicas do FBA se não se aplicarem a você."
+    },
+    {
+      "question": "Qual é a melhor forma de empacotar uma caixa FBA para evitar danos?",
+      "answer": "Coloque os itens mais pesados e maiores no fundo. Deixe pelo menos 2 polegadas de amortecimento em todos os lados. Evite misturar itens frágeis e pesados na mesma caixa. Certifique-se de que nada se move quando você agita a caixa."
+    }
+  ],
+  "relatedTools": [
+    "profit-margin-calculator",
+    "currency-converter",
+    "discount-calculator"
+  ],
+  "variants": []
+}

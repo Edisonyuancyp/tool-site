@@ -1,20 +1,48 @@
 {
   "slug": "work-life-balance-calculator",
   "name": "Work-Life-Balance-Rechner",
-  "tagline": "Work-Life-Balance bewerten",
-  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
-  "metaTitle": "Work-Life-Balance-Rechner – Lebenszufriedenheits-Bewertungstool",
-  "metaDescription": "Mit einem Fragebogen die Work-Life-Balance einschätzen und Verbesserungsempfehlungen erhalten.",
+  "tagline": "Bewerten Sie Ihre Work-Life-Balance noch heute",
+  "description": "Dieses Tool bewertet Ihre Work-Life-Balance durch die Analyse Ihrer Zeitverteilung zwischen beruflichen und persönlichen Aktivitäten. Ideal für alle, die ihr allgemeines Wohlbefinden und ihre Produktivität verbessern möchten.",
+  "metaTitle": "Work-Life-Balance Rechner – Kostenlos online testen | Produktivitätstool",
+  "metaDescription": "Berechnen Sie Ihre Work-Life-Balance kostenlos mit unserem Rechner – ohne Anmeldung, sofortige Ergebnisse.",
   "keywords": [
     "Work-Life-Balance",
-    "Lebenszufriedenheit bewerten",
-    "Arbeitsstress berechnen",
-    "Gesundheitsindex",
-    "Berufliche Gesundheit"
+    "Work-Life-Balance Rechner",
+    "Gleichgewicht zwischen Beruf und Privatleben",
+    "Zeitmanagement",
+    "Produktivitätsevaluierung",
+    "persönliches Wohlbefinden",
+    "Gleichgewicht Bewertung",
+    "Balance Assessment",
+    "Balance-Bewertungsskala",
+    "Balance-Bewertungstools",
+    "Balance-Test",
+    "Produktivitätsbewertung",
+    "Produktivitätsevaluierung Kommentare",
+    "Produktivitätsbewertung Beispiele",
+    "Leistungsbewertung Mitarbeiter",
+    "Bewertungskommentare Mitarbeiter",
+    "Leistungsbewertung Phrasen",
+    "Leistungsevaluierung Beispiele",
+    "Arbeitszufriedenheit Assessment",
+    "Burnout-Risiko berechnen"
   ],
-  "category": "Produktivität",
+  "category": "Productivity",
   "icon": "⚖️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Rechner?",
+      "answer": "Sie geben die Zeit ein, die Sie für Arbeit und persönliche Aktivitäten aufwenden, und der Rechner berechnet Ihr Gleichgewicht."
+    },
+    {
+      "question": "Ist dieses Tool wirklich kostenlos?",
+      "answer": "Ja, es gibt keine Gebühren oder Anmeldeanforderungen zur Nutzung dieses Tools."
+    },
+    {
+      "question": "Kann ich mein Gleichgewicht basierend auf den Ergebnissen verbessern?",
+      "answer": "Absolut! Das Tool bietet Einblicke zur besseren Verwaltung Ihrer Zeit."
+    }
+  ],
   "relatedTools": [
     "daily-goal-tracker",
     "time-blocking-scheduler"

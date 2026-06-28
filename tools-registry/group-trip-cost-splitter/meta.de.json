@@ -1,20 +1,43 @@
 {
   "slug": "group-trip-cost-splitter",
-  "name": "Gruppenreise-Kostenteiler",
-  "tagline": "Gruppenreisekosten fair aufteilen",
-  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
-  "metaTitle": "Reisekostenteilungs-Rechner – Gruppenreise Kostenaufteilung",
-  "metaDescription": "Gruppenreisekosten und Teilnehmer eingeben und Betrag pro Person sowie Zahlungsrichtung automatisch berechnen.",
+  "name": "Group Trip Cost Splitter",
+  "tagline": "Reisekosten unter Freunden ganz einfach teilen.",
+  "description": "Geben Sie Ihre Gesamtreisekosten und die Anzahl der Reisenden ein, um zu sehen, wie viel jede Person zahlen muss. Perfekt für Gruppen, die gemeinsam Urlaub planen, ohne den Aufwand, einzelne Ausgaben zu verfolgen.",
+  "metaTitle": "Group Trip Cost Splitter – Reisekosten fair teilen | Kostenloses Online-Tool",
+  "metaDescription": "Teilen Sie Ihre Gruppenreisekosten kostenlos und ohne Anmeldung. Erhalten Sie sofort faire Ergebnisse zur Kostenaufteilung!",
   "keywords": [
-    "Reisekosten aufteilen",
-    "Gruppenreise Rechner",
-    "Kosten teilen",
-    "Reise Kostenaufteilung",
-    "Gemeinsame Reise Abrechnung"
+    "Reisekosten teilen",
+    "Kostenteiler Reise",
+    "Ausgabenteiler Rechner",
+    "Reisekostenrechner",
+    "gemeinsame Reise mit Freunden",
+    "Kostenaufteilungstool",
+    "Kostenteiler Excel",
+    "Reiseausgaben Rechner",
+    "Online Kostenteiler",
+    "Benzinkosten Rechner",
+    "Spritkosten Rechner",
+    "Reisekosten Rechner Auto",
+    "Mautgebühren Rechner",
+    "Benzin Maut Rechner",
+    "Kostenteiler App"
   ],
-  "category": "Reise",
+  "category": "Travel",
   "icon": "👥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie nutze ich den Kostenteiler?",
+      "answer": "Geben Sie Ihre Gesamtreisekosten und die Anzahl der Reisenden ein, um die einzelnen Anteile zu berechnen."
+    },
+    {
+      "question": "Kann ich verschiedene Arten von Ausgaben hinzufügen?",
+      "answer": "Derzeit berechnet das Tool eine Gesamtaufteilung basierend auf einem einzigen Kostenbetrag."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, der Group Trip Cost Splitter ist vollständig kostenlos nutzbar."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

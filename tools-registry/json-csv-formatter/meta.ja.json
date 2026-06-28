@@ -1,20 +1,48 @@
 {
   "slug": "json-csv-formatter",
-  "name": "JSON/CSVフォーマッター",
-  "tagline": "JSON・CSVのフォーマット、検証、変換",
-  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
-  "metaTitle": "JSON CSV フォーマッター – 無料データ形式変換ツール",
-  "metaDescription": "JSONまたはCSVデータを貼り付けて、自動フォーマット・構文検証・JSON↔CSV相互変換を実行。",
+  "name": "JSON & CSVフォーマッター / バリデーター",
+  "tagline": "JSONとCSVをブラウザで即座にフォーマット、検証、変換",
+  "description": "生のJSONを貼り付けて2スペースインデント付きでフォーマットするか、ミニファイできます。リアルタイムで検証も実行します。CSVを貼り付けてクォートとデリミタを正規化するか、JSONアレイに変換できます。カンマ、セミコロン、タブ、パイプデリミタに対応しています。",
+  "metaTitle": "JSON CSVフォーマッター & バリデーター – 無料オンラインJSONビューティファイアー & CSV変換ツール",
+  "metaDescription": "無料のオンラインJSONフォーマッター、バリデーター、CSVフォーマッター。JSONを貼り付けてビューティファイアーまたはミニファイ。CSVをフォーマットまたはJSONに変換。すべてのデリミタに対応。ブラウザのみで動作。",
   "keywords": [
-    "JSONフォーマッター",
-    "CSV変換ツール",
-    "JSON検証",
-    "JSONビューティファイ",
-    "データ形式変換"
+    "JSONフォーマッター オンライン",
+    "JSONバリデーター",
+    "CSVフォーマッター オンライン",
+    "JSONビューティファイアー",
+    "CSVからJSON変換",
+    "JSONフォーマッター 無料",
+    "JSONフォーマッター エディター",
+    "JSONビューアー オンライン",
+    "JSON整形ツール",
+    "JSONフォーマッター ツール",
+    "JSONエスケープ文字削除",
+    "JSON比較ツール",
+    "JSONバリデーター オンライン",
+    "JSON検証ツール",
+    "JSONスキーマバリデーター",
+    "JSON検証ツール オンライン",
+    "CSVフォーマッター",
+    "JSON変換ツール",
+    "オンラインJSONツール",
+    "CSVからJSON変換ツール"
   ],
-  "category": "開発",
+  "category": "Developer",
   "icon": "📋",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "JSONフォーマットとは何ですか？",
+      "answer": "JSONフォーマット（ビューティファイ）は、コンパクトなJSONを読みやすくするために、一貫した字下げと改行を追加します。ミニファイはすべての空白を削除してファイルサイズを縮小します。"
+    },
+    {
+      "question": "データはサーバーに送信されますか？",
+      "answer": "いいえ。すべてのフォーマットと検証はブラウザ内で完全に実行されます。データはあなたのデバイスから離れることはありません。"
+    },
+    {
+      "question": "どのCSVデリミタに対応していますか？",
+      "answer": "カンマ（,）、セミコロン（;）、タブ（TSV）、パイプ（|）に対応しています。このツールはRFC 4180のクォート付きフィールドとエスケープされたクォートにも対応しています。"
+    }
+  ],
   "relatedTools": [
     "diff-checker",
     "base64-tool",

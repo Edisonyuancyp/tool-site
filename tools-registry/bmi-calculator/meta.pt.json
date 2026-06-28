@@ -2,26 +2,49 @@
   "slug": "bmi-calculator",
   "name": "Calculadora de IMC",
   "tagline": "Calcule seu Índice de Massa Corporal instantaneamente",
-  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
-  "metaTitle": "Calculadora de IMC – Calculadora Online Gratuita de IMC",
-  "metaDescription": "Insira altura e peso para calcular seu IMC e classificação de peso (abaixo do peso/normal/sobrepeso/obesidade). Grátis, sem cadastro.",
+  "description": "Use esta calculadora de IMC gratuita para encontrar seu Índice de Massa Corporal com base em altura e peso. Descubra sua categoria de peso — abaixo do peso, normal, sobrepeso ou obeso — em segundos.",
+  "metaTitle": "Calculadora de IMC – Calcule seu Índice de Massa Corporal Online Grátis",
+  "metaDescription": "Calcule seu IMC (Índice de Massa Corporal) instantaneamente. Digite sua altura e peso para descobrir se você está abaixo do peso, normal, com sobrepeso ou obeso. Grátis, rápido e sem cadastro.",
   "keywords": [
-    "calculadora de IMC",
-    "calcular IMC",
-    "índice de massa corporal",
-    "calcular peso ideal",
-    "IMC online"
+    "calculadora de imc",
+    "calculadora de índice de massa corporal",
+    "fórmula de imc",
+    "calcular imc online",
+    "tabela de imc",
+    "calculadora de imc para mulheres",
+    "calculadora de imc para homens",
+    "calculadora de imc online",
+    "calculadora de imc online grátis",
+    "calculadora de imc para homem online",
+    "calculadora de imc para mulher online",
+    "calculadora de imc para crianças",
+    "calculadora de imc em cm e kg",
+    "calculadora de imc para brasil",
+    "calculadora de imc online em kg e metros",
+    "tabela de imc por idade",
+    "tabela de imc para mulheres",
+    "tabela de imc para homens",
+    "faixa saudável de imc",
+    "tabela de peso e imc"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "⚖️",
   "faqs": [
     {
-      "question": "O que é o IMC?",
-      "answer": "IMC (Índice de Massa Corporal) = peso (kg) ÷ altura (m)². É uma ferramenta de triagem para avaliar se o peso está saudável."
+      "question": "O que é IMC?",
+      "answer": "IMC (Índice de Massa Corporal) é uma medida de gordura corporal baseada em altura e peso. É calculado como peso (kg) dividido pela altura (m) ao quadrado."
     },
     {
-      "question": "Qual é a faixa de IMC normal?",
-      "answer": "18,5–24,9 é normal. Abaixo de 18,5 é abaixo do peso, 25–29,9 é sobrepeso, 30 ou acima é obesidade."
+      "question": "Qual é a faixa normal de IMC?",
+      "answer": "Um IMC entre 18,5 e 24,9 é considerado peso normal. Abaixo de 18,5 é abaixo do peso, 25–29,9 é sobrepeso, e 30 ou acima é obeso."
+    },
+    {
+      "question": "O IMC é preciso para todos?",
+      "answer": "O IMC é uma ferramenta de triagem útil, mas não mede gordura corporal diretamente. Pode não ser preciso para atletas, idosos ou pessoas com muita massa muscular."
+    },
+    {
+      "question": "Como o IMC é calculado?",
+      "answer": "IMC = peso (kg) ÷ altura (m)². Por exemplo, uma pessoa pesando 70kg com 1,75m de altura tem um IMC de 22,9."
     }
   ],
   "relatedTools": [

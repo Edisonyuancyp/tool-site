@@ -1,20 +1,48 @@
 {
   "slug": "text-case-converter",
-  "name": "文字大小写转换器",
-  "tagline": "在线转换文本大小写格式",
-  "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
-  "metaTitle": "文字大小写转换器 – 在线文本格式转换",
-  "metaDescription": "一键转换文本为大写、小写、标题格式、驼峰命名等多种格式。",
+  "name": "文本大小写转换器",
+  "tagline": "将文本转换为大写、小写、标题案例、驼峰命名等多种格式",
+  "description": "在大写、小写、标题案例、句子案例、驼峰命名、帕斯卡命名、蛇形命名、烤肉串命名等多种格式之间转换任何文本。包含一键复制功能。",
+  "metaTitle": "文本大小写转换器 – 在线转换大写、小写、标题、驼峰、蛇形格式",
+  "metaDescription": "免费文本大小写转换工具。在线即时转换文本至大写、小写、标题案例、驼峰命名、帕斯卡命名、蛇形命名、烤肉串命名。支持一键复制。",
   "keywords": [
-    "大小写转换器",
-    "文本格式转换",
-    "驼峰命名转换",
-    "标题格式化",
-    "文字转换工具"
+    "文本大小写转换器",
+    "大写转换器",
+    "小写转换器",
+    "驼峰命名转换器",
+    "蛇形命名转换器",
+    "标题案例转换器",
+    "文本格式转换扩展",
+    "Chrome文本转换插件",
+    "在线文本大小写转换",
+    "免费在线文本大小写转换",
+    "文本大小写转换工具",
+    "Chrome文本转换器",
+    "小写文本转换器",
+    "免费在线文本格式转换工具",
+    "免费文本大小写转换器",
+    "在线大写转换器",
+    "JavaScript大写转换",
+    "Excel大写转换",
+    "大写转换扩展",
+    "Word大写转换"
   ],
-  "category": "工具",
+  "category": "Utilities",
   "icon": "🔤",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "什么是驼峰命名法（camelCase）？",
+      "answer": "驼峰命名法将单词连接在一起，除第一个单词外其他单词首字母大写，中间不使用空格。常用于JavaScript变量名：firstName、totalAmount。"
+    },
+    {
+      "question": "什么是蛇形命名法（snake_case）？",
+      "answer": "蛇形命名法使用下划线分隔单词，所有字母小写。常见于Python和数据库列名：first_name、total_amount。"
+    },
+    {
+      "question": "什么是标题案例（Title Case）？",
+      "answer": "标题案例将每个主要单词的首字母大写。常用于文章标题和标题：'The Quick Brown Fox'。"
+    }
+  ],
   "relatedTools": [
     "word-counter",
     "diff-checker",

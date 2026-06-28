@@ -1,0 +1,60 @@
+{
+  "slug": "cron-expression-generator",
+  "name": "Cron Expression Generator & Explainer",
+  "tagline": "Erstellen Sie visuell Cron-Zeitpläne und verstehen Sie jeden Cron-String sofort",
+  "description": "Generieren oder dekodieren Sie jeden Cron-Ausdruck mit einem visuellen Builder. Sehen Sie den lesbaren Zeitplan, die nächsten 5 Ausführungszeiten und ein Quick-Reference Cheat Sheet mit über 20 häufigen Cron-Mustern.",
+  "metaTitle": "Cron Expression Generator & Explainer — Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Generieren Sie Cron-Zeitpläne mit einem visuellen Builder oder fügen Sie einen beliebigen Cron-Ausdruck ein, um ihn zu dekodieren. Zeigt nächste Ausführungszeiten und enthält ein Cheat Sheet mit über 20 häufigen Mustern.",
+  "keywords": [
+    "Cron Expression Generator",
+    "Cron Job Generator",
+    "Cron Expression Explainer",
+    "Cron Syntax",
+    "Cron Schedule Builder",
+    "Cron Decoder",
+    "Cron Expression Generator & Explainer",
+    "Cron Expression Generator & Explainer Quartz",
+    "Cron Expression Generator online",
+    "Cron Expression Generator Quartz",
+    "Cron Expression Generator AWS",
+    "Cron Expression Generator Spring Boot",
+    "Cron Expression Generator Spring",
+    "Cron Expression Generator Azure Function",
+    "Cron Expression Generator 7 Felder",
+    "Cron Job Generator online",
+    "Cron Job Generator Spring Boot",
+    "Cron Job Generator alle 5 Minuten",
+    "Cron Job Generator Quartz",
+    "Cron Job Format Generator"
+  ],
+  "category": "Developer",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "Was ist ein Cron-Ausdruck?",
+      "answer": "Ein Cron-Ausdruck ist eine Zeichenkette mit 5 (oder 6) durch Leerzeichen getrennten Feldern, die definieren, wann eine geplante Aufgabe ausgeführt werden soll: Minute, Stunde, Tag des Monats, Monat und Wochentag. Beispiel: '0 9 * * 1' bedeutet 'jeden Montag um 9:00 Uhr'."
+    },
+    {
+      "question": "Was bedeutet * in Cron?",
+      "answer": "Ein Sternchen (*) bedeutet 'jeden'. '* * * * *' läuft jede Minute. '0 * * * *' läuft in Minute 0 jeder Stunde (d. h. jede Stunde zur vollen Stunde)."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen 5-Feld- und 6-Feld-Cron?",
+      "answer": "Standard Unix/Linux Cron verwendet 5 Felder: Minute, Stunde, Tag, Monat, Wochentag. Einige Systeme (wie Spring, AWS EventBridge) fügen am Anfang ein 6. Feld für Sekunden oder am Ende ein Jahr-Feld hinzu. Dieses Tool verwendet Standard 5-Feld-Cron."
+    },
+    {
+      "question": "Kann ich einen Cron Job alle 5 Minuten ausführen?",
+      "answer": "Ja: '*/5 * * * *' bedeutet 'alle 5 Minuten'. Die */n Syntax bedeutet 'alle n Einheiten'. Ebenso läuft '0 */2 * * *' alle 2 Stunden."
+    },
+    {
+      "question": "Was ist der häufigste Cron-Ausdruck-Fehler?",
+      "answer": "Die Verwechslung der Interaktion zwischen Tag des Monats und Wochentag. Wenn beide Felder gesetzt sind (nicht *), führen die meisten Systeme den Job aus, wenn EINE Bedingung erfüllt ist (ODER-Logik), nicht beide. Verwenden Sie '*' für das Feld, das Sie nicht benötigen, um Mehrdeutigkeit zu vermeiden."
+    }
+  ],
+  "relatedTools": [
+    "jwt-decoder",
+    "url-encoder",
+    "base64-tool"
+  ],
+  "variants": []
+}

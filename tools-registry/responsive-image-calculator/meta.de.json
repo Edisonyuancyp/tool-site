@@ -1,0 +1,51 @@
+{
+  "slug": "responsive-image-calculator",
+  "name": "Responsive Image Calculator",
+  "tagline": "Bilder für verschiedene Bildschirme optimieren",
+  "description": "Berechnen Sie die optimale Größe und Auflösung für Bilder basierend auf Bildschirmgröße und Pixeldichte. Ideal für Webentwickler und Designer, die Ladezeiten und Leistung auf verschiedenen Geräten verbessern möchten.",
+  "metaTitle": "Responsive Image Calculator – Bilder optimieren | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie Bildgrößen für verschiedene Geräte. Kostenlos, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "responsive image calculator",
+    "Bildoptimierungstool",
+    "Webperformance",
+    "Bildgrößen für verschiedene Geräte",
+    "responsives Design",
+    "responsive image calculator kostenlos",
+    "responsive image calculator online Tool",
+    "responsive image calculator Hex-Codes",
+    "kostenloses Design-Tool",
+    "Farbpaletten-Generator",
+    "sofortige Vorschau",
+    "kein Photoshop nötig",
+    "Bildoptimierungstools",
+    "Bildoptimierungstool für Website",
+    "Bildoptimierungstools SEO",
+    "Bildkomprimierungstool",
+    "Bildkomprimierungstool kostenlos",
+    "Bildkomprimierungstool online",
+    "Bildkomprimierungstool Download",
+    "Bildkomprimierungstool Linux"
+  ],
+  "category": "Design",
+  "icon": "📱",
+  "faqs": [
+    {
+      "question": "Was ist responsives Bilddesign?",
+      "answer": "Responsives Bilddesign stellt sicher, dass Bilder auf verschiedenen Gerätebildschirmen korrekt und effizient angezeigt werden."
+    },
+    {
+      "question": "Wie gebe ich meine Bildschirmgröße ein?",
+      "answer": "Sie können die Breite und Höhe des Zielbildschirms für genaue Berechnungen eingeben."
+    },
+    {
+      "question": "Kann ich für hochauflösende Bildschirme optimieren?",
+      "answer": "Ja, das Tool ermöglicht Ihnen, verschiedene Auflösungen für hochauflösende Displays anzugeben."
+    }
+  ],
+  "relatedTools": [
+    "css-gradient-builder",
+    "spacing-grid-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "rent-vs-buy-calculator",
+  "name": "Calculadora de Aluguel vs Compra",
+  "tagline": "É mais barato alugar ou comprar uma casa? Descubra em 60 segundos.",
+  "description": "Compare o custo financeiro real de alugar versus comprar uma casa. Considera pagamentos de hipoteca, custo de oportunidade, manutenção, valorização do imóvel e benefícios fiscais para oferecer um cronograma de equilíbrio.",
+  "metaTitle": "Calculadora de Aluguel vs Compra — Alugar ou Comprar Casa? | GetFastCalc",
+  "metaDescription": "Calcule se alugar ou comprar uma casa faz mais sentido financeiro. Digite seus preços locais, taxa de juros e horizonte para obter o ponto de equilíbrio e comparação de custos em 10 anos.",
+  "keywords": [
+    "calculadora aluguel vs compra",
+    "devo alugar ou comprar",
+    "aluguel ou compra de casa",
+    "comparação compra vs aluguel",
+    "calculadora hipoteca vs aluguel",
+    "ponto de equilíbrio aluguel compra",
+    "calculadora aluguel vs compra brasil",
+    "calculadora aluguel vs compra são paulo",
+    "calculadora aluguel vs compra rio de janeiro",
+    "calculadora aluguel vs compra online",
+    "calculadora aluguel vs compra grátis",
+    "melhor calculadora aluguel vs compra grátis",
+    "calculadora aluguel compra gratuita",
+    "calcular se devo alugar ou comprar",
+    "ferramenta aluguel versus compra",
+    "análise aluguel vs compra imóvel",
+    "simulador aluguel compra casa",
+    "comparador preço aluguel compra",
+    "custo aluguel versus compra imóvel",
+    "quanto custa aluguel vs compra"
+  ],
+  "category": "Finance",
+  "icon": "🏠",
+  "faqs": [
+    {
+      "question": "Qual é a regra dos 5% para aluguel versus compra?",
+      "answer": "A regra dos 5% (popularizada pelo planejador financeiro Ben Felix) diz: multiplique o preço da casa por 5%, divida por 12 e compare com seu aluguel mensal. Se o aluguel for menor que esse valor, alugar é provavelmente mais barato. Os 5% cobrem aproximadamente 3% de custo de oportunidade + 1% de manutenção + 1% de imposto predial."
+    },
+    {
+      "question": "A calculadora leva em conta a valorização do imóvel?",
+      "answer": "Sim. Você pode definir uma taxa de valorização anual esperada. Historicamente, os preços das casas nos EUA se valorizaram em aproximadamente 3–4% ao ano nominalmente, ou cerca de 0–1% acima da inflação. A calculadora compara o patrimônio líquido em ambos os cenários."
+    },
+    {
+      "question": "Qual é o ponto de equilíbrio em aluguel versus compra?",
+      "answer": "O ponto de equilíbrio é quantos anos você deve permanecer em uma casa antes que comprar se torne mais barato que alugar, considerando todos os custos iniciais (entrada, custos de fechamento), juros de hipoteca e a construção gradual de patrimônio."
+    },
+    {
+      "question": "Quais custos ocultos a compra inclui?",
+      "answer": "Além do pagamento da hipoteca: impostos prediais (0,5–2% do valor anualmente), manutenção (regra do 1% por ano), taxas de condomínio se aplicável, custos de fechamento (2–5% inicialmente) e seguro do imóvel. Esses custos geralmente somam 2–3% do valor da casa por ano."
+    },
+    {
+      "question": "Alugar sempre significa jogar dinheiro fora?",
+      "answer": "Não — isso é um mito. Quando você aluga, você preserva capital que pode ser investido (a entrada que você não faz). Se você investir a diferença entre aluguel e custo de hipoteca, pode acabar em melhor situação. Esta calculadora modela ambos os cenários."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "inflation-calculator",
+    "mortgage-calculator"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "work-life-balance-calculator",
-  "name": "ワークライフバランス計算機",
-  "tagline": "仕事と生活のバランス状態を評価",
-  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
-  "metaTitle": "ワークライフバランス計算機 – 生活満足度評価ツール",
-  "metaDescription": "アンケートでワークライフバランスの状況を評価して改善アドバイスを取得。",
+  "name": "ワーク・ライフ・バランス計算機",
+  "tagline": "今日のワーク・ライフ・バランスを評価しましょう",
+  "description": "このツールは、仕事と個人活動の時間配分を分析することで、ワーク・ライフ・バランスを評価します。全体的な幸福度と生産性を向上させたい方に最適です。",
+  "metaTitle": "ワーク・ライフ・バランス計算機 | 無料オンラインツール",
+  "metaDescription": "無料のワーク・ライフ・バランス計算機で、登録不要で瞬時に結果が得られます。",
   "keywords": [
-    "ワークライフバランス",
-    "生活質評価",
-    "仕事ストレス計算機",
-    "健康生活指数",
-    "職場健康評価"
+    "ワーク・ライフ・バランス",
+    "バランス評価",
+    "生産性評価",
+    "個人の幸福度",
+    "時間管理",
+    "ワーク・ライフ・バランス計算機",
+    "バランス評価テスト",
+    "バランス評価リハビリ",
+    "バランス評価PDF",
+    "バランス評価スケール",
+    "バランス評価ツール",
+    "バランス評価テスト",
+    "バランス評価スケール一覧",
+    "生産性評価コメント",
+    "生産性評価コメント例",
+    "生産性評価例",
+    "従業員生産性評価コメント",
+    "従業員生産性評価コメント例",
+    "生産性評価フレーズ",
+    "生産性評価サンプル"
   ],
-  "category": "生産性",
+  "category": "Productivity",
   "icon": "⚖️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "この計算機はどのように機能しますか？",
+      "answer": "仕事と個人活動に費やした時間を入力すると、バランスを計算します。"
+    },
+    {
+      "question": "このツールは本当に無料ですか？",
+      "answer": "はい、このツールを使用するための料金や登録要件はありません。"
+    },
+    {
+      "question": "結果に基づいてバランスを改善できますか？",
+      "answer": "もちろんです。このツールは、時間をより効果的に管理する方法に関する洞察を提供します。"
+    }
+  ],
   "relatedTools": [
     "daily-goal-tracker",
     "time-blocking-scheduler"

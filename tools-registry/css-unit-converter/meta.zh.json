@@ -1,0 +1,52 @@
+{
+  "slug": "css-unit-converter",
+  "name": "CSS单位转换器",
+  "tagline": "px转rem、em、vw等单位 — 即时CSS单位换算",
+  "description": "在CSS单位之间转换：px、rem、em、vw、vh、pt和cm。设置基础字体大小，为响应式网页设计获得即时转换。",
+  "metaTitle": "CSS单位转换器 – px转rem、em、vw | 免费在线工具 | GetFastCalc",
+  "metaDescription": "免费CSS单位转换器。即时转换px、rem、em、vw、vh、pt单位。支持自定义基础字体大小。无需注册。",
+  "keywords": [
+    "css单位转换器",
+    "px转rem转换器",
+    "px转em转换器",
+    "rem转px在线",
+    "css px rem计算器",
+    "响应式设计单位转换",
+    "像素转rem免费",
+    "em转px计算器",
+    "css单位转换器npm",
+    "px转vw css单位转换",
+    "px转rem css单位转换",
+    "px转rem转换器即时双向",
+    "px转rem在线转换器",
+    "px转rem w3转换器",
+    "px转rem css转换器",
+    "px转rem vscode转换器",
+    "px转rem转换器扩展",
+    "px转rem w3schools转换器",
+    "px转em在线转换器",
+    "px转换em cm"
+  ],
+  "category": "Developer",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "px转rem的公式是什么？",
+      "answer": "rem = px ÷ 基础字体大小。浏览器默认基础字体大小为16px，因此32px = 2rem。您可以在此工具中更改基础大小以匹配您的项目。"
+    },
+    {
+      "question": "rem和em有什么区别？",
+      "answer": "rem（根em）相对于根元素的字体大小。em相对于当前元素的字体大小，可能会级联导致意外结果。rem通常更适合用于一致的响应式布局。"
+    },
+    {
+      "question": "如何将px转换为vw？",
+      "answer": "vw = (px ÷ 视口宽度) × 100。在工具中输入您的视口宽度，它将自动计算vw值。"
+    }
+  ],
+  "relatedTools": [
+    "css-variables-generator",
+    "typography-compare-lab",
+    "color-palette-lab"
+  ],
+  "variants": []
+}

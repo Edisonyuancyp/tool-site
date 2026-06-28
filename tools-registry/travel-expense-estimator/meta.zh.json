@@ -1,20 +1,36 @@
 {
   "slug": "travel-expense-estimator",
   "name": "旅行费用估算器",
-  "tagline": "估算旅行总预算和人均费用",
-  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
-  "metaTitle": "旅行费用估算器 – 旅游预算计算工具",
-  "metaDescription": "输入交通、住宿、餐饮和景点费用，估算旅行总预算和人均费用。",
+  "tagline": "快速估算您的旅行成本。",
+  "description": "通过输入目的地、出行方式、旅行时长和每日开支，计算您的总旅行费用。非常适合为下一次旅行做预算的节省型旅行者。",
+  "metaTitle": "旅行费用估算器 – 免费旅游预算规划工具 | 在线计算器",
+  "metaDescription": "免费即时估算旅行费用，无需注册。为您的下一次冒险制定清晰的预算！",
   "keywords": [
-    "旅行费用估算",
-    "旅游预算计算器",
+    "旅行费用估算器",
+    "旅游成本计算器",
     "旅行预算工具",
-    "出行费用计算",
-    "旅行花费估算"
+    "旅游预算规划",
+    "旅行花费",
+    "自驾游费用计算器",
+    "自驾游油费计算器",
+    "出行预算工具"
   ],
-  "category": "旅行",
+  "category": "Travel",
   "icon": "💰",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "我如何计算旅行费用？",
+      "answer": "输入您的目的地、出行方式、旅行时长和每日开支，即可获得费用估算。"
+    },
+    {
+      "question": "我可以保存我的估算结果吗？",
+      "answer": "目前该工具不支持保存估算结果，但您可以将其记录下来。"
+    },
+    {
+      "question": "这个工具是免费的吗？",
+      "answer": "是的，旅行费用估算器完全免费使用，无需注册。"
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

@@ -1,0 +1,54 @@
+{
+  "slug": "css-variables-generator",
+  "name": "Gerador de Variáveis CSS",
+  "tagline": "Crie uma paleta de cores personalizada e exporte variáveis CSS prontas para usar e configuração Tailwind",
+  "description": "Crie uma paleta de cores do zero e gere instantaneamente variáveis CSS :root, configuração Tailwind e trechos de código prontos para copiar. Sem cadastro, sem instalação — funciona no seu navegador.",
+  "metaTitle": "Gerador de Variáveis CSS – Crie Paletas de Cores e Exporte Variáveis :root | GetFastCalc",
+  "metaDescription": "Gerador gratuito de variáveis CSS. Escolha cores, nomeie-as e obtenha instantaneamente variáveis CSS :root, config.js Tailwind e código pronto para copiar. Sem necessidade de cadastro.",
+  "keywords": [
+    "gerador de variáveis css",
+    "gerador de propriedades css personalizadas",
+    "gerador de config tailwind",
+    "paleta de cores para variáveis css",
+    "variáveis css :root",
+    "gerador de design tokens",
+    "variáveis css de cores online",
+    "config de cores tailwind",
+    "variáveis css online grátis",
+    "gerar variáveis css de cores",
+    "gerador de variáveis de cor css",
+    "gerador de config css tailwind",
+    "gerador de config theme tailwind",
+    "gerador de cores config tailwind",
+    "gerador tailwind.config.js",
+    "construtor de config tailwind",
+    "exemplo de config tailwind",
+    "cores config tailwind"
+  ],
+  "category": "Developer",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "O que são variáveis CSS (propriedades personalizadas)?",
+      "answer": "Variáveis CSS, também chamadas de propriedades personalizadas, são entidades definidas por autores CSS que representam valores específicos para serem reutilizados em todo um documento. Elas usam a sintaxe --nome-da-variável e são definidas em :root para ficarem globalmente disponíveis."
+    },
+    {
+      "question": "Como uso as variáveis CSS geradas no meu projeto?",
+      "answer": "Copie o bloco :root e cole em seu arquivo CSS principal (como global.css ou index.css). Então referencie as variáveis em qualquer lugar do seu stylesheet usando var(--color-primary) etc."
+    },
+    {
+      "question": "Posso usar a saída do Tailwind diretamente?",
+      "answer": "Sim. Copie o bloco tailwind.config.js gerado e cole no arquivo tailwind.config.js do seu projeto sob theme.extend.colors. Seus nomes de cores personalizadas ficarão então disponíveis como classes Tailwind."
+    },
+    {
+      "question": "O que são design tokens?",
+      "answer": "Design tokens são valores nomeados que armazenam decisões de design como cores, espaçamento ou tipografia. Variáveis CSS são uma forma comum de implementar design tokens em projetos web."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "typography-compare-lab",
+    "base64-tool"
+  ],
+  "variants": []
+}

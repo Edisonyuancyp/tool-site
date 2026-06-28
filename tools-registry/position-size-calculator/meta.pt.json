@@ -1,20 +1,44 @@
 {
   "slug": "position-size-calculator",
   "name": "Calculadora de Tamanho de Posição",
-  "tagline": "Calcule o tamanho ótimo de posição com base no gerenciamento de risco",
-  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
-  "metaTitle": "Calculadora de Tamanho de Posição – Ferramenta de Gestão de Risco de Trading",
-  "metaDescription": "Insira capital da conta, percentual de risco e stop loss para calcular o tamanho ótimo de posição e proteger o capital.",
+  "tagline": "Nunca arrisque mais do que pode permitir — calcule o tamanho perfeito da sua posição",
+  "description": "Insira o tamanho da sua conta, percentual de risco por operação, preço de entrada, stop loss e alavancagem para calcular o tamanho exato da posição em USD e número de unidades. Inclui ajuste de taxas e avisos de nível de risco.",
+  "metaTitle": "Calculadora de Tamanho de Posição – Gerenciamento de Risco em Crypto e Ações",
+  "metaDescription": "Calculadora gratuita de tamanho de posição para traders. Digite o tamanho da conta, risco %, preço de entrada e stop loss para obter o tamanho exato da posição, margem necessária e unidades. Inclui ajuste de taxas.",
   "keywords": [
-    "calculadora de posição",
-    "tamanho de posição",
-    "gestão de risco no trading",
-    "stop loss",
-    "posição no Forex"
+    "calculadora de tamanho de posição",
+    "tamanho de posição crypto",
+    "calculadora de gerenciamento de risco de trading",
+    "quanto investir por operação",
+    "calculadora de risco por operação",
+    "calculadora de tamanho de posição mt5",
+    "calculadora de tamanho de posição mt5 download grátis",
+    "calculadora de tamanho de posição forex",
+    "calculadora de tamanho de posição criptomoeda",
+    "calculadora de tamanho de posição myfxbook",
+    "calculadora de tamanho de posição ouro",
+    "calculadora de tamanho de posição babypips",
+    "calculadora de tamanho de posição online",
+    "calculadora de tamanho de posição forex online",
+    "calculadora de tamanho de posição mt5 online",
+    "calculadora de tamanho de posição grátis",
+    "calculadora de tamanho de posição mt5 grátis",
+    "aplicativo calculadora de tamanho de posição grátis",
+    "calculadora de tamanho de posição forex grátis",
+    "calculadora de tamanho de posição mt4 grátis"
   ],
-  "category": "Cripto",
+  "category": "Crypto",
   "icon": "📐",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Quanto devo arriscar por operação?",
+      "answer": "Traders profissionais geralmente arriscam 1–2% da sua conta por operação. Isso significa que mesmo 10 perdas consecutivas reduzem sua conta apenas por 10–20%."
+    },
+    {
+      "question": "Como é calculado o tamanho da posição?",
+      "answer": "Tamanho da Posição = (Conta × Risco%) / Distância do Stop Loss%. Por exemplo: conta de $10.000, risco de 1%, SL de 5% → $100/$0,05 = posição de $2.000."
+    }
+  ],
   "relatedTools": [
     "tp-sl-calculator",
     "compound-interest-calculator",

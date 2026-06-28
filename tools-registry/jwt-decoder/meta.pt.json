@@ -1,0 +1,60 @@
+{
+  "slug": "jwt-decoder",
+  "name": "Decodificador JWT & Verificador de Segurança",
+  "tagline": "Decodifique e inspecione qualquer token JWT — com análise de segurança",
+  "description": "Cole qualquer JSON Web Token para decodificar instantaneamente o cabeçalho, payload e expiração. Inclui uma lista de verificação de segurança: detecta expiração ausente (exp), algoritmos fracos e avisos de configuração incorreta comum.",
+  "metaTitle": "Decodificador JWT & Verificador de Segurança — Ferramenta Online Gratuita | GetFastCalc",
+  "metaDescription": "Decodifique tokens JWT instantaneamente. Visualize cabeçalho, payload e expiração. Analisador de segurança integrado detecta exp ausente, algoritmos fracos e outros problemas de segurança JWT.",
+  "keywords": [
+    "decodificador jwt",
+    "depurador jwt",
+    "decodificar token jwt",
+    "decodificador json web token",
+    "verificador de segurança jwt",
+    "visualizador de payload jwt",
+    "decodificador jwt online",
+    "jwt_decoder flutter",
+    "codificador decodificador jwt",
+    "decodificador jwt java",
+    "decodificador jwt microsoft",
+    "decodificar jwt react",
+    "decodificador jwt io",
+    "depurador jwt github",
+    "depurador jwt io",
+    "depurador jwt versão antiga",
+    "depurador jwt online",
+    "extensão jwt depurador chrome",
+    "extensão depurador jwt",
+    "depurador jwt offline"
+  ],
+  "category": "Developer",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "É seguro colar meu token JWT aqui?",
+      "answer": "Esta ferramenta decodifica tokens JWT completamente no seu navegador — nenhum dado é enviado para nenhum servidor. A decodificação acontece com a função atob() do JavaScript no lado do cliente. Dito isto, nunca compartilhe tokens de produção em ambientes públicos ou não confiáveis."
+    },
+    {
+      "question": "Quais são as três partes de um JWT?",
+      "answer": "Um JWT tem três seções codificadas em Base64URL separadas por pontos: 1) Cabeçalho (tipo de algoritmo e tipo de token), 2) Payload (claims como ID de usuário, funções, expiração), e 3) Assinatura (usada para verificar se o token não foi alterado — não pode ser verificada sem a chave secreta)."
+    },
+    {
+      "question": "Esta ferramenta pode verificar a assinatura JWT?",
+      "answer": "Não — e nenhuma ferramenta do lado do cliente pode, porque a verificação de assinatura requer a chave/segredo privado que assina o token. Esta ferramenta apenas decodifica e inspeciona o payload. Para verificação de assinatura, use sua biblioteca do lado do servidor."
+    },
+    {
+      "question": "O que significa 'exp' em um payload JWT?",
+      "answer": "exp é a claim de 'tempo de expiração' — um timestamp Unix após o qual o token deve ser rejeitado. Se ausente, o token nunca expira, o que é um risco grave de segurança. Sempre defina tempos de expiração curtos (15 min para tokens de acesso, mais longos para tokens de atualização)."
+    },
+    {
+      "question": "Qual é a diferença entre HS256 e RS256?",
+      "answer": "HS256 (HMAC-SHA256) usa um único segredo compartilhado — tanto o emissor quanto o verificador precisam da mesma chave. RS256 (RSA-SHA256) usa um par de chaves pública/privada — o emissor assina com a chave privada, e qualquer pessoa pode verificar com a chave pública. RS256 é preferido para sistemas distribuídos onde múltiplos serviços precisam verificar tokens."
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "url-encoder",
+    "password-generator"
+  ],
+  "variants": []
+}

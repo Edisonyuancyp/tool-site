@@ -1,0 +1,46 @@
+{
+  "slug": "amazon-acos-calculator",
+  "name": "Calculadora de ACoS Amazon",
+  "tagline": "Calcule ACoS, TACoS, lance CPC máximo e lucratividade real de anúncios",
+  "description": "Calcule seu Custo de Publicidade sobre Vendas (ACoS) e ACoS Total (TACoS) da Amazon, encontre o lance CPC máximo lucrativo a partir da sua taxa de conversão e margem, e descubra se suas campanhas são rentáveis.",
+  "metaTitle": "Calculadora de ACoS Amazon – Calculadora de Lance CPC Máximo e TACoS",
+  "metaDescription": "Calculadora gratuita de ACoS Amazon. Calcule ACoS, TACoS, lance CPC máximo lucrativo e lucro real após gastos com publicidade. Para vendedores Amazon PPC.",
+  "keywords": [
+    "calculadora acos amazon",
+    "acos amazon calculadora",
+    "amazon ppc acos",
+    "calculadora tacos amazon",
+    "calculadora lance cpc máximo amazon",
+    "custo de publicidade sobre vendas amazon",
+    "acos lucrativo amazon",
+    "calculadora rentabilidade amazon ppc",
+    "calculadora ponto de equilíbrio acos",
+    "calculadora produtos patrocinados amazon",
+    "calculadora publicidade fba",
+    "calculadora lance ppc amazon",
+    "acos vs tacos amazon",
+    "calculadora roi amazon ppc",
+    "acos vendedor amazon"
+  ],
+  "category": "ecommerce",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Qual é um bom ACoS para Amazon?",
+      "answer": "Um bom ACoS depende da sua margem. O ACoS de equilíbrio iguala sua margem bruta. Por exemplo, se sua margem é 30%, qualquer ACoS abaixo de 30% é lucrativo. A maioria dos vendedores almeja 15–25% de ACoS."
+    },
+    {
+      "question": "Qual é a diferença entre ACoS e TACoS?",
+      "answer": "ACoS (Custo de Publicidade sobre Vendas) = gasto em anúncios ÷ receita de anúncios. TACoS (ACoS Total) = gasto em anúncios ÷ receita total (incluindo vendas orgânicas). TACoS é um indicador melhor da eficiência geral de anúncios conforme sua marca cresce."
+    },
+    {
+      "question": "Como faço para calcular o lance CPC máximo?",
+      "answer": "Lance CPC máximo = (Preço de Venda × ACoS Alvo × Taxa de Conversão). Por exemplo: preço de $30 × ACoS alvo de 20% × taxa de conversão de 10% = lance máximo de $0,60."
+    }
+  ],
+  "relatedTools": [
+    "fba-profit-calculator",
+    "fba-packing-calculator"
+  ],
+  "variants": []
+}

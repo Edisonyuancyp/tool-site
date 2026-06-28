@@ -1,23 +1,50 @@
 {
   "slug": "compound-interest-calculator",
-  "name": "Zinseszinsrechner",
-  "tagline": "Berechne das Zinseszinswachstum deiner Investition",
-  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
-  "metaTitle": "Zinseszinsrechner – Kostenloser Online-Zinseszinsrechner",
-  "metaDescription": "Gib Kapital, Zinssatz, Laufzeit und Zinsperiode ein und berechne sofort den Endbetrag und die Zinserträge.",
+  "name": "Zinseszins-Rechner",
+  "tagline": "Sehen Sie, wie Ihr Geld durch Zinseszins im Laufe der Zeit wächst",
+  "description": "Berechnen Sie Zinseszins mit optionalen monatlichen Einzahlungen. Geben Sie Ihr Anfangskapital, den jährlichen Zinssatz, den Anlagezeitraum und die Zinseszinsfrequenz ein, um Ihren Endsaldo, die verdiente Gesamtverzinsung und ein Jahr-für-Jahr-Wachstumschart zu sehen.",
+  "metaTitle": "Zinseszins-Rechner – Kostenloser Vermögensaufbau-Kalkulator",
+  "metaDescription": "Berechnen Sie Zinseszins online. Geben Sie Kapital, Zinssatz, Jahre und monatliche Einzahlungen ein, um Ihr Vermögen wachsen zu sehen. Kostenloser Zinseszins-Rechner mit Grafik.",
   "keywords": [
-    "Zinseszinsrechner",
-    "Zinseszins berechnen",
-    "Investitionsrechner",
-    "Kapitalanlage berechnen",
-    "Zinseszinseffekt"
+    "Zinseszins-Rechner",
+    "Geldanlage-Rechner",
+    "Zinseszins-Formel",
+    "Sparrechner",
+    "Zinsrechner online",
+    "Zinseszinsrechner kostenlos",
+    "Zinseszins-Rechner Deutschland",
+    "Zinseszins-Rechner monatlich",
+    "Zinseszins-Rechner mit monatlichen Raten",
+    "Zinseszins berechnen online",
+    "Zinseszins online Rechner",
+    "Zinseszins-Rechner kostenlos online",
+    "Zinseszins berechnen monatliche Einzahlungen",
+    "Zinseszins-Rechner 2026",
+    "Zinseszins-Rechner Euro",
+    "Zinseszins-Formel Rechner",
+    "Zinssatz-Rechner online",
+    "kostenlosen Zinseszins-Rechner",
+    "Zinseszins-Rechner mit Auszahlungen",
+    "Zinseszins-Rechner Deutschland kostenlos"
   ],
-  "category": "Finanzen",
+  "category": "Finance",
   "icon": "📈",
   "faqs": [
     {
       "question": "Was ist Zinseszins?",
-      "answer": "Zinseszins bedeutet, dass auch auf bereits erzielte Zinsen weitere Zinsen anfallen – Kapital und frühere Zinsen erzeugen gemeinsam neue Erträge."
+      "answer": "Zinseszins ist die Verzinsung, die auf das ursprüngliche Kapital sowie auf die Zinsen aus vorherigen Perioden berechnet wird. Sie wächst exponentiell über die Zeit."
+    },
+    {
+      "question": "Wie oft sollte Zinseszins aufgelaufen werden?",
+      "answer": "Je häufiger die Verzinsung erfolgt, desto etwas höher sind die Renditen. Tägliche Verzinsung bringt die höchsten Erträge, aber der Unterschied zur monatlichen Verzinsung ist gering. Die meisten Sparkonten und Anlageprodukte werden monatlich verzinst."
+    },
+    {
+      "question": "Was ist die 72er-Regel?",
+      "answer": "Teilen Sie 72 durch Ihren jährlichen Zinssatz, um zu schätzen, wie viele Jahre es dauert, bis sich Ihr Geld verdoppelt. Bei 6% Zinsen verdoppelt sich Ihr Geld in etwa 12 Jahren."
+    },
+    {
+      "question": "Berücksichtigt dieser Rechner monatliche Einzahlungen?",
+      "answer": "Ja. Sie können einen monatlichen Einzahlungsbetrag hinzufügen, um regelmäßige Sparbeiträge zusätzlich zu Ihrem Anfangskapital zu simulieren."
     }
   ],
   "relatedTools": [

@@ -1,0 +1,51 @@
+{
+  "slug": "home-appliance-energy-calculator",
+  "name": "Calculadora de Energia para Eletrodomésticos",
+  "tagline": "Calcule o custo de energia dos seus eletrodomésticos.",
+  "description": "Estime o consumo de energia e os custos dos seus eletrodomésticos. Esta ferramenta é ideal para proprietários que desejam economizar nas contas de energia compreendendo melhor o uso dos aparelhos.",
+  "metaTitle": "Calculadora de Energia para Eletrodomésticos – Economize na Conta de Luz | Ferramenta Gratuita",
+  "metaDescription": "Calcule o custo de energia dos seus eletrodomésticos gratuitamente. Resultados instantâneos, sem necessidade de cadastro para ajudar você a economizar na conta de luz.",
+  "keywords": [
+    "custo de energia eletrodomésticos",
+    "calculadora de energia residencial",
+    "consumo de energia",
+    "economia na conta de luz",
+    "eletrodomésticos",
+    "calculadora de energia eletrodomésticos",
+    "calculador custo energia aparelhos",
+    "consumo em standby eletrodomésticos",
+    "custo energia aparelhos fantasma",
+    "estimador consumo energia eletrodomésticos",
+    "custos de energia eletrodomésticos residenciais",
+    "calculadora consumo energia casa",
+    "calculadora de consumo residencial",
+    "calculadora consumo energia planilha",
+    "calculadora uso energia residencial",
+    "calculadora consumo energia doméstico",
+    "calculadora melhorias energia casa",
+    "calculadora custo energia residencial",
+    "calculador consumo energia",
+    "calculadora consumo energia elétrica"
+  ],
+  "category": "Home",
+  "icon": "💡",
+  "faqs": [
+    {
+      "question": "O que posso calcular com esta ferramenta?",
+      "answer": "Você pode calcular o consumo de energia e os custos de vários eletrodomésticos residenciais."
+    },
+    {
+      "question": "É gratuito usar?",
+      "answer": "Absolutamente, é gratuito e não requer cadastro."
+    },
+    {
+      "question": "Qual é a precisão dos resultados?",
+      "answer": "Os resultados são baseados em estimativas de uso padrão; os custos reais podem variar."
+    }
+  ],
+  "relatedTools": [
+    "carbon-footprint-travel-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

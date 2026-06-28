@@ -1,20 +1,48 @@
 {
   "slug": "ideal-weight-calculator",
   "name": "Calculadora de Peso Ideal",
-  "tagline": "Calcule a faixa de peso ideal com base na altura",
-  "description": "Calculate your ideal body weight using the Robinson, Miller, Devine, and Hamwi formulas, plus the healthy BMI range. Enter your height and gender to compare all four results.",
-  "metaTitle": "Calculadora de Peso Ideal – Calculadora de Peso Saudável",
-  "metaDescription": "Com base na altura e no sexo, calcule a faixa de peso ideal usando múltiplas fórmulas (método IMC, fórmula de Devine).",
+  "tagline": "Descubra seu peso ideal usando 4 fórmulas médicas + faixa saudável de IMC",
+  "description": "Calcule seu peso corporal ideal usando as fórmulas de Robinson, Miller, Devine e Hamwi, além da faixa saudável de IMC. Digite sua altura e gênero para comparar todos os quatro resultados.",
+  "metaTitle": "Calculadora de Peso Ideal – Fórmulas Robinson, Miller, Devine e Hamwi",
+  "metaDescription": "Calculadora de peso ideal grátis usando 4 fórmulas médicas. Digite sua altura e gênero para encontrar seu peso ideal pelos métodos Robinson, Miller, Devine e Hamwi com faixa saudável de IMC.",
   "keywords": [
     "calculadora de peso ideal",
-    "peso ideal",
-    "peso saudável",
-    "calcular peso ideal",
-    "peso alvo"
+    "quanto devo pesar",
+    "fórmula de peso ideal",
+    "calculadora de peso saudável",
+    "fórmula robinson devine miller hamwi",
+    "calculadora de peso ideal cachorro",
+    "calculadora de peso ideal por idade",
+    "calculadora de peso ideal imc",
+    "calculadora de peso ideal asiático",
+    "calculadora de peso ideal musculação",
+    "calculadora de peso ideal gato",
+    "calculadora de peso ideal coreano",
+    "calculadora de peso ideal online",
+    "calculadora de peso corporal ideal online",
+    "calculadora de peso ideal em kg online",
+    "calculadora de peso ideal grátis",
+    "calculadora de peso corporal ideal grátis",
+    "como verificar calculadora de peso ideal",
+    "quanto devo pesar pela minha idade e altura",
+    "quanto devo pesar com 1,63m mulher",
+    "tabela de peso ideal por altura e idade",
+    "tabela de peso para mulheres por altura",
+    "tabela de peso saudável homens e mulheres",
+    "tabela de peso corporal ideal"
   ],
-  "category": "Saúde",
+  "category": "Health",
   "icon": "⚖️",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Qual fórmula de peso ideal é mais precisa?",
+      "answer": "A fórmula de Robinson (1983) é a mais citada na literatura moderna. No entanto, todas as quatro fórmulas são estimativas para adultos com estrutura corporal média."
+    },
+    {
+      "question": "Por que as fórmulas são diferentes do IMC?",
+      "answer": "O IMC fornece uma faixa de peso baseada apenas na altura, enquanto essas fórmulas fornecem um peso alvo único baseado em observações clínicas."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "body-fat-calculator",

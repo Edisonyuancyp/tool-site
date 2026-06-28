@@ -1,20 +1,48 @@
 {
   "slug": "running-pace-calculator",
-  "name": "Lauftemprechner",
-  "tagline": "Lauftempo, Geschwindigkeit und Zielzeit berechnen",
-  "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
-  "metaTitle": "Lauftemprechner – Marathon-Tempo-Berechnungstool",
-  "metaDescription": "Distanz und Zeit eingeben und Tempo berechnen; oder Tempo eingeben und Zielzeit vorhersagen. 5K, 10K, Halbmarathon, Marathon.",
+  "name": "Laufgeschwindigkeit Rechner",
+  "tagline": "Berechnen Sie Ihr Lauftempo, Ihre Geschwindigkeit und Ihre Zielzeit",
+  "description": "Berechnen Sie Ihr Lauftempo pro km oder Meile, konvertieren Sie zwischen Tempo und Geschwindigkeit, und schätzen Sie Ihre Zielzeit für jede Rennstrecke.",
+  "metaTitle": "Laufgeschwindigkeit Rechner – Kostenloser Rennpace Rechner Online",
+  "metaDescription": "Berechnen Sie Lauftempo, Laufgeschwindigkeit und Zielzeit für Rennen. Unterstützt km und Meilen. Kostenloser Lauftempo Rechner für 5K, 10K, Halbmarathon und Marathon.",
   "keywords": [
-    "Lauftemprechner",
-    "Marathon Tempo",
-    "Lauftempo berechnen",
-    "Laufgeschwindigkeit",
-    "Zielzeit Marathon"
+    "laufgeschwindigkeit rechner",
+    "rennpace rechner",
+    "tempo pro km rechner",
+    "laufgeschwindigkeit berechnen",
+    "lauftempo rechner km",
+    "lauftempo rechner training",
+    "lauftempo rechner app",
+    "lauftempo rechner laufband",
+    "lauftempo rechner active",
+    "lauftempo rechner strava",
+    "lauftempo rechner prozentsatz",
+    "lauftempo rechner online",
+    "kostenlos laufgeschwindigkeit rechner",
+    "kostenlos lauftempo rechner km",
+    "kostenlos trainingspace rechner laufen",
+    "lauftempo berechnen anleitung",
+    "rennpace rechner laufen",
+    "rennpace rechner marathon",
+    "rennpace rechner halbmarathon",
+    "rennpace rechner vorhersage"
   ],
-  "category": "Gesundheit",
+  "category": "Health",
   "icon": "🏃",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Wie berechne ich mein Lauftempo?",
+      "answer": "Teilen Sie Ihre Gesamtzeit durch die Distanz. Wenn Sie zum Beispiel 5 km in 30 Minuten laufen, beträgt Ihr Tempo 6:00 min/km."
+    },
+    {
+      "question": "Was ist ein gutes Lauftempo für Anfänger?",
+      "answer": "Für Anfänger ist ein komfortables Tempo von 8–10 min/km (13–16 min/Meile) völlig ausreichend. Konzentrieren Sie sich auf das Ziel, nicht auf die Geschwindigkeit."
+    },
+    {
+      "question": "Wie konvertiere ich das Lauftempo von km in Meilen?",
+      "answer": "Multiplizieren Sie Ihr min/km Tempo mit 1,60934, um min/Meile zu erhalten. Zum Beispiel: 6:00 min/km = 9:39 min/Meile."
+    }
+  ],
   "relatedTools": [
     "bmi-calculator",
     "water-intake-calculator",

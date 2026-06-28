@@ -1,0 +1,48 @@
+{
+  "slug": "url-encoder",
+  "name": "Codificador / Decodificador de URL",
+  "tagline": "Codifique ou decodifique URLs instantaneamente — sem cadastro, sem anúncios",
+  "description": "Codifique caracteres especiais em URLs ou decodifique strings com codificação percentual de volta para texto legível. Essencial para depuração de APIs, query strings e requisições web.",
+  "metaTitle": "Codificador / Decodificador de URL – Ferramenta Online Grátis | GetFastCalc",
+  "metaDescription": "Codificador e decodificador de URL gratuito. Codifique caracteres especiais ou decodifique URLs com codificação percentual instantaneamente no seu navegador. Sem cadastro, sem anúncios.",
+  "keywords": [
+    "codificador decodificador url",
+    "ferramenta de codificação percentual",
+    "codificar url online grátis",
+    "decodificar string url",
+    "decodificar url online",
+    "codificar caracteres especiais url",
+    "ferramenta urlencode urldecode",
+    "codificador url api grátis",
+    "codificador decodificador url",
+    "codificador decodificador url online",
+    "ferramenta codificador decodificador url online",
+    "ferramenta codificador decodificador url",
+    "decodificador codificador url meyerweb",
+    "decodificador codificador url javascript",
+    "codificador decodificador url html",
+    "codificador decodificador url freeformatter"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "O que é codificação de URL?",
+      "answer": "Codificação de URL (codificação percentual) substitui caracteres especiais em uma URL por um % seguido de dois dígitos hexadecimais. Por exemplo, um espaço se torna %20. Isso garante que as URLs sejam válidas e transmitidas com segurança pela internet."
+    },
+    {
+      "question": "Quando preciso codificar uma string de URL?",
+      "answer": "Você precisa codificar URL quando passa caracteres especiais (espaços, &, =, ?, #, etc.) em parâmetros de query ou ao construir requisições API programaticamente."
+    },
+    {
+      "question": "Qual é a diferença entre encodeURI e encodeURIComponent?",
+      "answer": "encodeURI codifica uma URL completa e preserva caracteres como /, ?, &. encodeURIComponent codifica um único valor dentro de uma URL e também codifica esses caracteres reservados. Esta ferramenta usa encodeURIComponent para máxima compatibilidade."
+    }
+  ],
+  "relatedTools": [
+    "base64-tool",
+    "base-converter",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

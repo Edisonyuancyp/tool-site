@@ -1,0 +1,41 @@
+{
+  "slug": "m-to-feet",
+  "name": "Conversor de Metros para Pés",
+  "tagline": "Converta metros para pés e pés para metros instantaneamente",
+  "description": "Converta metros para pés (e pés para metros) com resultados instantâneos. Perfeito para construção, anúncios imobiliários, elevação em trilhas e viagens.",
+  "metaTitle": "Conversor de Metros para Pés — Ferramenta Online Grátis | GetFastCalc",
+  "metaDescription": "Converta metros para pés instantaneamente. Suporta saída em pés+polegadas. Grátis, rápido, sem anúncios.",
+  "keywords": [
+    "metros para pés",
+    "m para ft",
+    "pés para metros",
+    "conversor de metro para pé",
+    "conversor de m para pés",
+    "= 3,2808399 pés (3 pés 3 3/8 polegadas)",
+    "conversor online de metros para pés",
+    "conversão de m para ft",
+    "= 0,3048 metros"
+  ],
+  "category": "Converter",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "Quantos pés tem 1 metro?",
+      "answer": "1 metro equivale a 3,28084 pés, ou equivalentemente 3 pés e 3,37 polegadas."
+    },
+    {
+      "question": "Como converter metros para pés rapidamente?",
+      "answer": "Multiplique por 3,281. Para uma estimativa aproximada, multiplique por 3 e adicione 10% — por exemplo, 10 m ≈ 33 pés."
+    },
+    {
+      "question": "Quanto é 1,8 metros em pés e polegadas?",
+      "answer": "1,8 metros = 5,906 pés = 5 pés e 10,87 polegadas."
+    }
+  ],
+  "relatedTools": [
+    "cm-to-inch",
+    "kg-to-lbs",
+    "celsius-to-fahrenheit"
+  ],
+  "variants": []
+}

@@ -1,20 +1,48 @@
 {
   "slug": "carbon-footprint-travel-calculator",
-  "name": "旅行碳足迹计算器",
-  "tagline": "估算旅行的碳排放量",
-  "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
-  "metaTitle": "旅行碳足迹计算器 – 碳排放估算工具",
-  "metaDescription": "计算飞机、汽车或火车旅行的碳排放量，了解旅行的环境影响。",
+  "name": "碳足迹旅行计算器",
+  "tagline": "计算您旅途的碳排放影响。",
+  "description": "通过输入旅行距离、交通方式和住宿类型，评估您旅行计划的碳足迹。适合希望最小化环境影响的生态旅游爱好者。",
+  "metaTitle": "碳足迹旅行计算器 – 绿色出行工具 | 免费在线计算",
+  "metaDescription": "免费计算旅行碳足迹，了解如何更环保地出行。即时结果，无需注册。",
   "keywords": [
     "碳足迹计算器",
+    "绿色旅行",
     "旅行碳排放",
-    "飞行碳排放计算",
-    "环保旅行",
-    "碳排量计算"
+    "可持续旅游",
+    "绿色出行计算器",
+    "旅行碳足迹计算器",
+    "飞行碳足迹计算器",
+    "英国旅行碳足迹计算",
+    "火车出行碳足迹计算",
+    "汽车旅行碳足迹计算",
+    "学生碳足迹计算器",
+    "WWF碳足迹计算器",
+    "英国碳足迹计算器",
+    "儿童碳足迹计算器",
+    "免费碳足迹计算器",
+    "澳大利亚碳足迹计算器",
+    "碳足迹计算app",
+    "旅程碳足迹计算器",
+    "碳排放旅行计算器",
+    "行程碳足迹计算器"
   ],
-  "category": "旅行",
+  "category": "Travel",
   "icon": "🌍",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "这个计算器测量什么？",
+      "answer": "它根据您的出行方式、距离和住宿类型来计算碳足迹。"
+    },
+    {
+      "question": "我可以比较不同的旅行选择吗？",
+      "answer": "可以，您可以输入不同的出行方案，查看哪种方式的碳排放更低。"
+    },
+    {
+      "question": "这个工具准确吗？",
+      "answer": "该计算器基于各种出行方式的平均排放数据提供估算结果。"
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

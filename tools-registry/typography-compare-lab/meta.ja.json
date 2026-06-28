@@ -1,0 +1,60 @@
+{
+  "slug": "typography-compare-lab",
+  "name": "Typography Compare Lab",
+  "tagline": "2つのGoogle フォントを並べて比較 — 即座にプレビュー、登録不要",
+  "description": "任意の2つのGoogle フォントを選択して、自分のテキストで並べて比較できます。フォントサイズ、行間、文字間隔、色を調整できます。プロジェクトのためにタイプフェイスを選ぶ必要があるデザイナーに最適です。",
+  "metaTitle": "Typography Compare Lab – Google フォント比較ツール | GetFastCalc",
+  "metaDescription": "無料フォント比較ツール。Google フォント2つを並べてライブプレビューで比較。サイズ、ウェイト、間隔、色を調整可能。登録不要、即座に結果表示。",
+  "keywords": [
+    "フォント比較ツール",
+    "Google フォント比較",
+    "フォント比較",
+    "タイポグラフィ ツール オンライン",
+    "Inter vs Merriweather",
+    "ウェブサイト最適フォント",
+    "Google フォント プレビュー",
+    "タイプフェイス比較",
+    "フォント選択ツール 無料",
+    "ウェブ タイポグラフィ ツール",
+    "オンライン フォント比較ツール",
+    "無料 フォント比較ツール",
+    "Google フォント比較ツール",
+    "フォントサイズ比較ツール",
+    "Google フォント 並べて比較",
+    "2つのGoogle フォント比較",
+    "Google フォント 複数比較",
+    "フォント ファミリー比較",
+    "フォント スタイル比較",
+    "フォント サイズ比較"
+  ],
+  "category": "Design",
+  "icon": "🔤",
+  "faqs": [
+    {
+      "question": "Typography Compare Labはどのように動作しますか？",
+      "answer": "50以上の人気Google フォントのキュレーションリストから2つのフォントを選択します。ツールはGoogleのCDNから動的にフォントを読み込み、カスタムテキストを両フォントで並べてレンダリングするため、すぐに比較できます。"
+    },
+    {
+      "question": "Google Fonts APIキーは必要ですか？",
+      "answer": "いいえ。ツールはfonts.googleapis.comから無料でフォントを直接読み込みます。APIキーやアカウントは不要です。"
+    },
+    {
+      "question": "フォント比較を共有できますか？",
+      "answer": "はい。フォントを選択するとURLが自動的に更新されます（例：?a=Inter&b=Merriweather）。ブラウザのURLをコピーして、正確な比較を他のユーザーと共有できます。"
+    },
+    {
+      "question": "利用可能なフォントはどれですか？",
+      "answer": "セリフ体、サンセリフ体、モノスペース、ディスプレイなど、最も人気のあるGoogle フォント50種類以上を含みます。Inter、Roboto、Merriweather、Playfair Display、Lato、Open Sansなど多数です。"
+    },
+    {
+      "question": "ウェブサイトに最適なフォントを見つけるために使用できますか？",
+      "answer": "もちろんです。実際のヘッドラインまたは本文をプレビュー欄に入力して、異なるフォントを比較し、特定のコンテンツと用途に最適に見えるフォントを確認できます。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "qr-code-generator",
+    "password-generator"
+  ],
+  "variants": []
+}

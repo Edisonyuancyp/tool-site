@@ -1,20 +1,52 @@
 {
   "slug": "debt-repayment-calculator",
-  "name": "Calculadora de Pagamento de Dívidas",
-  "tagline": "Calcule o prazo de quitação e os juros totais",
-  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
-  "metaTitle": "Calculadora de Quitação de Dívidas – Ferramenta Gratuita de Plano de Pagamento",
-  "metaDescription": "Insira saldo da dívida, taxa de juros e parcela mensal para calcular o prazo de quitação e os juros totais.",
+  "name": "Calculadora de Amortização de Dívidas",
+  "tagline": "Veja quanto tempo falta para quitar sua dívida e quanto de juros você pagará",
+  "description": "Digite o saldo da sua dívida, a taxa de juros e a parcela mensal para ver a data de quitação, o total de juros pagos e um cronograma de amortização. Mostra quanto tempo e dinheiro você economiza pagando parcelas extras a cada mês.",
+  "metaTitle": "Calculadora de Amortização de Dívidas – Simulador Gratuito Online",
+  "metaDescription": "Calculadora gratuita de amortização de dívidas. Digite o saldo, taxa de juros e parcela mensal para ver a data de quitação e total de juros. Mostra economia com pagamentos extras. Sem cadastro.",
   "keywords": [
-    "calculadora de dívidas",
-    "plano de pagamento",
-    "calcular pagamento de cartão de crédito",
-    "quitar dívida",
-    "juros de dívida"
+    "calculadora de amortização de dívidas",
+    "calculadora para quitar dívida",
+    "quanto tempo para pagar dívida",
+    "calculadora ficar livre de dívida",
+    "calculadora de amortização de empréstimo",
+    "calculadora de juros de dívida",
+    "amortização de dívida com pagamentos extras",
+    "calculadora de dívida online",
+    "calculadora de amortização gratuita",
+    "simulador de quitação de dívida",
+    "calculadora de dívida Excel",
+    "quanto custa uma dívida",
+    "tabela de amortização",
+    "pagar dívida mais rápido",
+    "economizar juros na dívida",
+    "calcular tempo para quitar dívida",
+    "simulador de dívida grátis",
+    "calculator dívida brasileira",
+    "amortização dívida pessoal",
+    "tempo para ficar sem dívidas"
   ],
-  "category": "Finanças",
+  "category": "Finance",
   "icon": "💳",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Qual é a diferença entre o método avalanche e bola de neve de dívidas?",
+      "answer": "Avalanche: pague o mínimo de todas as dívidas e coloque o dinheiro extra na dívida com maior taxa de juros. Economiza mais juros no total. Bola de neve: pague primeiro as dívidas com menor saldo para obter vitórias rápidas e motivação. Ambos funcionam — o melhor método é aquele que você consegue manter consistentemente."
+    },
+    {
+      "question": "Quanto economizo fazendo pagamentos extras?",
+      "answer": "Mesmo pequenos pagamentos extras reduzem drasticamente o total de juros e o tempo de quitação. Em um cartão de crédito de R$ 10.000 com 20% de juros anuais e parcela mínima de R$ 300, você levaria 6 anos para pagar. Adicionando apenas R$ 100 extras por mês, reduz para 3,5 anos e economiza ~R$ 2.000 em juros."
+    },
+    {
+      "question": "O que é uma tabela de amortização?",
+      "answer": "Uma tabela de amortização mostra cada pagamento dividido entre principal e juros. No início, os pagamentos são basicamente juros; depois, são principalmente principal. Esta calculadora gera uma tabela de amortização completa para você acompanhar seu progresso mês a mês."
+    },
+    {
+      "question": "Devo pagar dívidas ou investir?",
+      "answer": "Se a taxa de juros da sua dívida é maior que o retorno esperado do investimento, pague a dívida primeiro. Dívida de cartão de crédito com 20%+ de juros anuais sempre deve ser paga antes de investir. Hipoteca ou dívida estudantil com 4–6% é mais flexível — muitas pessoas fazem ambos simultaneamente."
+    }
+  ],
   "relatedTools": [
     "loan-calculator",
     "budget-calculator",

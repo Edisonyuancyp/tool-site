@@ -1,20 +1,43 @@
 {
   "slug": "group-trip-cost-splitter",
   "name": "Divisor de Custos de Viagem em Grupo",
-  "tagline": "Divida os custos de viagem em grupo de forma justa",
-  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
-  "metaTitle": "Calculadora de Divisão de Custos de Viagem – Ferramenta de Rateio de Viagem em Grupo",
-  "metaDescription": "Insira os custos da viagem em grupo e os participantes para calcular automaticamente o valor por pessoa e a direção dos pagamentos.",
+  "tagline": "Divida os custos da viagem entre amigos facilmente.",
+  "description": "Insira suas despesas totais de viagem e o número de viajantes para ver quanto cada pessoa deve pagar. Perfeito para grupos planejando férias juntos sem o incômodo de rastrear despesas individuais.",
+  "metaTitle": "Divisor de Custos de Viagem em Grupo – Compartilhamento Justo de Despesas | Ferramenta Gratuita",
+  "metaDescription": "Divida facilmente os custos da sua viagem em grupo de forma gratuita, sem necessidade de cadastro. Obtenha resultados de compartilhamento de despesas instantaneamente!",
   "keywords": [
-    "divisão de custos de viagem",
-    "rateio de viagem",
-    "dividir despesas de viagem",
-    "calculadora de viagem em grupo",
-    "dividir gastos"
+    "divisor de custos de viagem em grupo",
+    "calculadora de divisão de despesas",
+    "calculadora de custos de viagem",
+    "viagem com amigos",
+    "ferramenta de compartilhamento de custos",
+    "calculadora de divisão de despesas excel",
+    "calculadora de divisão de despesas de viagem",
+    "calculadora de divisão de despesas online",
+    "calculadora de custos de viagem gasolina",
+    "calculadora de custos de combustível",
+    "calculadora de custos de viagem brasil",
+    "calculadora de custos de viagem carro",
+    "calculadora de custos de viagem com pedágio",
+    "calculadora de custos de viagem gasolina e pedágio",
+    "aplicativo calculadora de custos de viagem"
   ],
-  "category": "Viagem",
+  "category": "Travel",
   "icon": "👥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como faço para usar o divisor de custos?",
+      "answer": "Digite suas despesas totais de viagem e o número de viajantes para calcular o valor individual que cada um deve pagar."
+    },
+    {
+      "question": "Posso adicionar diferentes tipos de despesas?",
+      "answer": "Atualmente, a ferramenta calcula uma divisão total baseada em um valor de despesa inserido."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, o Divisor de Custos de Viagem em Grupo é totalmente gratuito para usar."
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

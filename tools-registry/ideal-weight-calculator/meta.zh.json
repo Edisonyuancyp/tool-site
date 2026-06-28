@@ -1,23 +1,46 @@
 {
   "slug": "ideal-weight-calculator",
   "name": "理想体重计算器",
-  "tagline": "计算基于身高的理想体重范围",
-  "description": "Calculate your ideal body weight using the Robinson, Miller, Devine, and Hamwi formulas, plus the healthy BMI range. Enter your height and gender to compare all four results.",
-  "metaTitle": "理想体重计算器 – 健康体重范围计算",
-  "metaDescription": "根据身高和性别，使用多种公式计算理想体重范围，包括 BMI 法和 Devine 公式。",
+  "tagline": "使用4种医学公式 + 健康BMI范围找到你的理想体重",
+  "description": "使用Robinson、Miller、Devine和Hamwi公式计算你的理想体重，以及健康的BMI范围。输入你的身高和性别来比较所有四种方法的结果。",
+  "metaTitle": "理想体重计算器 - Robinson、Miller、Devine和Hamwi公式在线计算",
+  "metaDescription": "免费理想体重计算器，使用4种医学公式。输入身高和性别，通过Robinson、Miller、Devine和Hamwi方法计算理想体重和健康BMI范围。",
   "keywords": [
     "理想体重计算器",
-    "标准体重计算",
-    "健康体重范围",
+    "我应该体重多少",
     "理想体重公式",
-    "减肥目标体重"
+    "健康体重计算器",
+    "robinson devine miller hamwi公式",
+    "狗理想体重计算器",
+    "年龄理想体重计算器",
+    "BMI理想体重计算器",
+    "亚洲人理想体重计算器",
+    "健美理想体重计算器",
+    "猫理想体重计算器",
+    "韩国理想体重计算器",
+    "在线理想体重计算器",
+    "在线理想体重计算器",
+    "在线公斤理想体重计算器",
+    "免费理想体重计算器",
+    "免费理想体重计算器",
+    "如何检查理想体重计算器",
+    "我的年龄和身高应该体重多少",
+    "5英尺4英寸女性应该体重多少",
+    "按身高和年龄的体重对照表",
+    "女性按身高体重对照表",
+    "男性女性健康体重对照表",
+    "理想体重表"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "⚖️",
   "faqs": [
     {
-      "question": "理想体重的计算方法？",
-      "answer": "常用方法包括 BMI 法（正常 BMI 对应的体重范围）和 Devine 公式（基于身高的线性公式）。"
+      "question": "哪个理想体重公式最准确？",
+      "answer": "Robinson（1983）公式在现代文献中被引用最广泛。但是，这四个公式都是针对平均体型成年人的估计值。"
+    },
+    {
+      "question": "为什么这些公式与BMI不同？",
+      "answer": "BMI仅基于身高提供一个范围，而这些公式基于临床观察为单一目标体重。"
     }
   ],
   "relatedTools": [

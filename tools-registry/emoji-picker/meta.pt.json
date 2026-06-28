@@ -1,20 +1,48 @@
 {
   "slug": "emoji-picker",
-  "name": "Seletor de Emoji",
-  "tagline": "Pesquise e copie emojis",
-  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
-  "metaTitle": "Seletor de Emoji – Ferramenta de Pesquisa e Cópia de Emoji Online",
-  "metaDescription": "Pesquise qualquer emoji e copie com um clique. Navegue por todos os emojis por categoria.",
+  "name": "Emoji Picker",
+  "tagline": "Busque, copie e use qualquer emoji instantaneamente",
+  "description": "Encontre e copie qualquer emoji instantaneamente com busca por palavras-chave. Navegue por todas as categorias de emoji: rostos sorridentes, pessoas, animais, comida, viagem, objetos, símbolos e bandeiras. Copie com um clique.",
+  "metaTitle": "Emoji Picker – Buscar e Copiar Emojis Online Grátis",
+  "metaDescription": "Busque e copie qualquer emoji instantaneamente. Navegue por todas as categorias de emoji — rostos sorridentes, animais, comida, bandeiras e muito mais. Selecionador de emoji online grátis — clique para copiar.",
   "keywords": [
-    "seletor de emoji",
-    "copiar emoji",
-    "pesquisar emoji",
-    "ferramenta emoji online",
-    "todos os emojis"
+    "selecionador de emoji",
+    "buscar emoji",
+    "copiar emoji online",
+    "encontrar emoji por palavra-chave",
+    "teclado de emoji online",
+    "emoji picker react",
+    "emoji_picker_flutter",
+    "emoji picker element",
+    "emoji picker windows",
+    "emoji picker mac",
+    "emoji picker linux",
+    "emoji picker js",
+    "emoji picker online",
+    "selecionador de emoji grátis",
+    "como usar emoji picker react",
+    "como usar emoji picker",
+    "como usar raycast emoji picker",
+    "como usar emoji picker windows",
+    "dados de busca de emoji indisponíveis",
+    "busca de emoji"
   ],
-  "category": "Utilitários",
+  "category": "Utilities",
   "icon": "😊",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Como copio um emoji?",
+      "answer": "Clique em qualquer emoji para copiá-lo para a sua área de transferência. Você pode colar em qualquer lugar — em mensagens, documentos, redes sociais ou código."
+    },
+    {
+      "question": "Posso buscar emoji por nome?",
+      "answer": "Sim. Digite qualquer palavra-chave na caixa de busca para encontrar emojis correspondentes por nome, categoria ou descrição."
+    },
+    {
+      "question": "Quais versões de emoji são suportadas?",
+      "answer": "O selecionador suporta todos os emojis Unicode 15.0, cobrindo todos os emojis modernos disponíveis no iOS, Android, Windows e macOS."
+    }
+  ],
   "relatedTools": [
     "text-case-converter",
     "word-counter",

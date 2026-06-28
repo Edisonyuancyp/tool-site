@@ -1,0 +1,40 @@
+{
+  "slug": "kelly-criterion-calculator",
+  "name": "Kelly-Kriterium-Rechner",
+  "tagline": "Berechnen Sie die optimale Einsatzgröße mit der Kelly-Formel — maximieren Sie das langfristige Wachstum",
+  "description": "Geben Sie Ihre Gewinnwahrscheinlichkeit und Gewinn-Verlust-Verhältnis ein, um den Kelly-Prozentsatz zu erhalten — den mathematisch optimalen Anteil Ihres Kapitals, den Sie pro Trade riskieren sollten. Enthält Ergebnisse für vollständiges Kelly, halbes Kelly und viertel Kelly.",
+  "metaTitle": "Kelly-Kriterium-Rechner – Optimale Positionsgröße für den Handel",
+  "metaDescription": "Kostenloser Kelly-Kriterium-Rechner. Geben Sie Gewinnquote und Auszahlungsquote ein, um die optimale Einsatzgröße für langfristiges Kapitalwachstum zu ermitteln. Funktioniert für Trading, Poker und Sportwetten.",
+  "keywords": [
+    "kelly kriterium rechner",
+    "kelly formel",
+    "optimale einsatzgröße",
+    "kelly anteil",
+    "positionsgröße kelly",
+    "kelly kriterium trading",
+    "halbes kelly",
+    "bankroll management rechner"
+  ],
+  "category": "Quant",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "Was ist das Kelly-Kriterium?",
+      "answer": "Das Kelly-Kriterium ist eine Formel, die den optimalen Anteil Ihres Kapitals bestimmt, den Sie bei einer Gelegenheit mit positivem Erwartungswert einsetzen sollten, um die langfristige Wachstumsrate zu maximieren."
+    },
+    {
+      "question": "Was ist halbes Kelly?",
+      "answer": "Halbes Kelly bedeutet, die Hälfte der vom Kelly-Kriterium empfohlenen Einsatzgröße zu wählen. Dies reduziert die Volatilität erheblich und erzielt dabei etwa 75 % der Wachstumsrate — beliebt bei professionellen Tradern."
+    },
+    {
+      "question": "Was bedeutet ein negatives Kelly-Ergebnis?",
+      "answer": "Ein negativer Kelly-Wert bedeutet, dass der Vorteil negativ ist — Sie haben keinen mathematischen Vorteil und sollten den Trade nicht eingehen."
+    }
+  ],
+  "relatedTools": [
+    "position-size-calculator",
+    "risk-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

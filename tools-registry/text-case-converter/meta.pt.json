@@ -1,20 +1,48 @@
 {
   "slug": "text-case-converter",
-  "name": "Conversor de Capitalização de Texto",
-  "tagline": "Converta o formato de texto para maiúsculas/minúsculas online",
-  "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
-  "metaTitle": "Conversor de Capitalização de Texto – Conversor de Formato de Texto Online",
-  "metaDescription": "Converta texto para maiúsculas, minúsculas, título, camelCase e muito mais com um clique.",
+  "name": "Conversor de Maiúsculas e Minúsculas",
+  "tagline": "Converta texto para MAIÚSCULAS, minúsculas, Título, camelCase, e muito mais",
+  "description": "Converta qualquer texto entre MAIÚSCULAS, minúsculas, Título, Sentença, camelCase, PascalCase, snake_case, kebab-case e muito mais. Com cópia em um clique.",
+  "metaTitle": "Conversor de Maiúsculas e Minúsculas – Converta Texto Online Grátis",
+  "metaDescription": "Conversor de maiúsculas e minúsculas grátis. Converta texto para MAIÚSCULAS, minúsculas, Título, camelCase, PascalCase, snake_case, kebab-case instantaneamente. Copie com um clique.",
   "keywords": [
-    "conversor de maiúsculas minúsculas",
-    "formatar texto",
+    "conversor de maiúsculas e minúsculas",
+    "conversor de MAIÚSCULAS",
+    "conversor de minúsculas",
     "conversor camelCase",
-    "capitalização de título",
-    "ferramenta de texto"
+    "conversor snake_case",
+    "conversor Title Case",
+    "extensão conversor de caso",
+    "extensão Chrome conversor de caso",
+    "conversor de caso online",
+    "conversor de caso online grátis",
+    "ferramenta conversor de caso",
+    "conversor de caso Chrome",
+    "conversor de texto minúsculo",
+    "ferramenta conversor de caso online grátis",
+    "conversor de caso grátis",
+    "conversor MAIÚSCULAS online",
+    "conversor MAIÚSCULAS JS",
+    "conversor MAIÚSCULAS Excel",
+    "extensão conversor MAIÚSCULAS",
+    "conversor MAIÚSCULAS Word"
   ],
-  "category": "Utilitários",
+  "category": "Utilities",
   "icon": "🔤",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "O que é camelCase?",
+      "answer": "camelCase une palavras sem espaços, capitalizando cada palavra exceto a primeira. Usado em nomes de variáveis JavaScript: firstName, totalAmount."
+    },
+    {
+      "question": "O que é snake_case?",
+      "answer": "snake_case usa underscores entre palavras, tudo em minúsculas. Comum em Python e nomes de colunas de banco de dados: first_name, total_amount."
+    },
+    {
+      "question": "O que é Title Case?",
+      "answer": "Title Case capitaliza a primeira letra de cada palavra principal. Usado em títulos de artigos e cabeçalhos: 'The Quick Brown Fox'."
+    }
+  ],
   "relatedTools": [
     "word-counter",
     "diff-checker",

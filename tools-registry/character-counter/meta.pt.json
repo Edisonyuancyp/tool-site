@@ -1,0 +1,60 @@
+{
+  "slug": "character-counter",
+  "name": "Contador de Caracteres para Redes Sociais",
+  "tagline": "Contagem de caracteres e palavras em tempo real para Twitter, LinkedIn, Instagram e muito mais",
+  "description": "Conte caracteres e palavras em tempo real com limites específicos de cada plataforma: Twitter/X (280), LinkedIn (3000 post / 220 preview), Instagram (2200), TikTok (2200), YouTube (5000) e mais. Avisos com código de cores.",
+  "metaTitle": "Contador de Caracteres para Redes Sociais — Twitter, LinkedIn, Instagram | GetFastCalc",
+  "metaDescription": "Contador de caracteres em tempo real com limites para todas as plataformas sociais. Avisos com código de cores para Twitter, LinkedIn, Instagram, TikTok, YouTube e assuntos de e-mail.",
+  "keywords": [
+    "contador de caracteres",
+    "contagem de caracteres twitter",
+    "limite de caracteres linkedin",
+    "comprimento de legenda instagram",
+    "contador de caracteres redes sociais",
+    "contador de palavras",
+    "contador de caracteres para redes sociais",
+    "contador de caracteres com espaços",
+    "contar caracteres online",
+    "contador de caracteres texto",
+    "contadores de caracteres",
+    "contador de caracteres e palavras",
+    "contador de caracteres grammarly",
+    "contador de caracteres chinês",
+    "contador de caracteres twitter",
+    "limite de caracteres twitter",
+    "contador de caracteres twitter - verifique o comprimento do seu tweet",
+    "verificar contagem de caracteres twitter",
+    "contagem de caracteres twitter 2025",
+    "contagem máxima de caracteres twitter"
+  ],
+  "category": "Text",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Qual é o limite de caracteres do Twitter/X?",
+      "answer": "Twitter/X permite 280 caracteres para contas padrão. Assinantes do Twitter Blue/X Premium podem postar até 25.000 caracteres (posts longos). URLs contam como 23 caracteres independentemente do comprimento real. Nomes de usuários em respostas estão incluídos na contagem."
+    },
+    {
+      "question": "Qual é o limite de caracteres do LinkedIn?",
+      "answer": "Corpo do post LinkedIn: 3.000 caracteres. No entanto, posts são truncados em aproximadamente 140–220 caracteres no feed com um botão 'ver mais'. Os primeiros 140–220 caracteres funcionam como seu 'gancho'. Títulos de artigos LinkedIn: 100 caracteres. Mensagem de solicitação de conexão LinkedIn: 300 caracteres."
+    },
+    {
+      "question": "Qual é o limite de caracteres para legendas do Instagram?",
+      "answer": "Legendas do Instagram podem ter até 2.200 caracteres, mas apenas os primeiros 125 caracteres são visíveis antes que 'mais' seja exibido. Hashtags funcionam melhor quando colocadas na legenda ou primeiro comentário. Máximo de 30 hashtags por post."
+    },
+    {
+      "question": "Um espaço conta como um caractere?",
+      "answer": "Sim — espaços contam como caracteres em todas as plataformas sociais. Esta ferramenta os conta por padrão, o que corresponde ao comportamento do Twitter, LinkedIn e Instagram."
+    },
+    {
+      "question": "Quantos caracteres deve ter uma linha de assunto de e-mail?",
+      "answer": "Linhas de assunto de e-mail devem ter 40–50 caracteres para clientes desktop e 25–30 caracteres para dispositivos móveis (onde a maioria dos e-mails é lida). Texto pré-cabeçalho (linha de visualização) deve ter 85–100 caracteres. Juntos, devem contar uma história completa."
+    }
+  ],
+  "relatedTools": [
+    "headline-analyzer",
+    "markdown-previewer",
+    "word-counter"
+  ],
+  "variants": []
+}

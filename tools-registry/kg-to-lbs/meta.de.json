@@ -1,0 +1,56 @@
+{
+  "slug": "kg-to-lbs",
+  "name": "KG zu LBS Umrechner",
+  "tagline": "Kilogramm in Pfund umrechnen — und umgekehrt — sofort",
+  "description": "Konvertieren Sie Kilogramm in Pfund (und Pfund in kg) mit sofortigen Ergebnissen. Unverzichtbar für Fitnessstudio-Besucher, Reisende, Versand und Kochen mit internationalen Rezepten.",
+  "metaTitle": "KG zu LBS Umrechner — Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Kilogramm in Pfund sofort umrechnen. Geben Sie ein Gewicht ein und sehen Sie beide Richtungen gleichzeitig. Kostenlos, schnell, werbefrei.",
+  "keywords": [
+    "kg zu lbs",
+    "kilogramm zu pfund",
+    "kg zu pfund",
+    "lbs zu kg",
+    "gewichtsumrechner",
+    "= 2,20462262 pfund",
+    "kg zu lbs umrechner",
+    "kg zu lbs umrechner online",
+    "kg zu lbs umrechner rechner online",
+    "kostenlos gewichtsumrechner kg zu lbs",
+    "kilogramm zu pfund umrechnung",
+    "kilogramm zu pfund rechner",
+    "kilogramm zu pfund tabelle",
+    "kilogramm zu pfund formel",
+    "kilogramm zu pfund umrechnungstabelle",
+    "kilogramm zu pfund und stone",
+    "kilogramm zu pfund umwandlungstabelle",
+    "kg zu pfund umrechnung",
+    "kg zu pfund und unzen",
+    "kg zu pfund rechner"
+  ],
+  "category": "Converter",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "Wie viel Pfund sind 1 Kilogramm?",
+      "answer": "1 Kilogramm entspricht 2,20462 Pfund. Umgekehrt entspricht 1 Pfund 0,453592 Kilogramm."
+    },
+    {
+      "question": "Wie viel Pfund sind 70 kg?",
+      "answer": "70 kg × 2,20462 = 154,32 lbs."
+    },
+    {
+      "question": "Wie kann ich kg schnell in Pfund umrechnen?",
+      "answer": "Multiplizieren Sie mit 2,2 für eine schnelle Kopfrechnung. Z. B. 50 kg ≈ 110 lbs. Der genaue Wert ist 110,23 lbs, sodass der Fehler unter 0,1 % liegt."
+    },
+    {
+      "question": "Wie viel kg sind 100 Pfund?",
+      "answer": "100 lbs ÷ 2,20462 = 45,36 kg."
+    }
+  ],
+  "relatedTools": [
+    "g-to-oz",
+    "cm-to-inch",
+    "celsius-to-fahrenheit"
+  ],
+  "variants": []
+}

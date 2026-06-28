@@ -1,23 +1,40 @@
 {
   "slug": "bmr-tdee-calculator",
-  "name": "基础代谢率计算器",
-  "tagline": "计算 BMR 和每日总能量消耗 TDEE",
-  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
-  "metaTitle": "BMR/TDEE 计算器 – 基础代谢率与热量需求计算",
-  "metaDescription": "计算基础代谢率（BMR）和总能量消耗（TDEE），帮助制定减肥或增肌饮食计划。",
+  "name": "BMR & TDEE 计算器",
+  "tagline": "计算你的日常热量消耗，为你的目标设定完美的热量目标",
+  "description": "使用 Mifflin-St Jeor、Harris-Benedict 和 Katch-McArdle 公式计算你的基础代谢率(BMR)和总日常能量消耗(TDEE)。显示减脂、维持和增肌的热量目标及宏量营养素分解。",
+  "metaTitle": "BMR TDEE 计算器 - 免费计算日常热量消耗，科学制定减肥增肌计划",
+  "metaDescription": "免费BMR和TDEE计算器。使用Mifflin-St Jeor公式计算你的日常热量消耗。快速设定减脂、维持或增肌目标，包含宏量营养素分配建议。",
   "keywords": [
-    "BMR计算器",
-    "TDEE计算器",
-    "基础代谢率计算",
-    "每日热量需求",
-    "卡路里计算器"
+    "BMR 计算器",
+    "TDEE 计算器",
+    "日常热量计算器",
+    "每天消耗多少热量",
+    "基础代谢率计算器",
+    "BMR TDEE 计算器",
+    "减肥热量计算器",
+    "健身增肌热量计算器",
+    "减脂热量计算",
+    "TDEE 在线计算",
+    "免费 BMR TDEE 计算器",
+    "女性 BMR 计算器",
+    "男性 BMR 计算器",
+    "减重 BMR 计算器",
+    "BMR 计算公式",
+    "免费 TDEE 计算器",
+    "瘦体重 TDEE 计算",
+    "总日常能量消耗计算器"
   ],
-  "category": "健康",
+  "category": "Health",
   "icon": "🔥",
   "faqs": [
     {
-      "question": "BMR 和 TDEE 的区别？",
-      "answer": "BMR 是完全静止状态的热量消耗；TDEE = BMR × 活动系数，是实际每日总消耗。"
+      "question": "BMR 和 TDEE 有什么区别?",
+      "answer": "BMR(基础代谢率)是你身体在完全休息状态下消耗的热量。TDEE(总日常能量消耗)将BMR乘以你的活动水平，得出你实际的日常热量消耗。摄入热量低于TDEE可以减重。"
+    },
+    {
+      "question": "哪个 BMR 计算公式最准确?",
+      "answer": "Mifflin-St Jeor(1990)公式对大多数人来说最准确。如果你知道自己的瘦体重，Katch-McArdle公式的准确度更高。"
     }
   ],
   "relatedTools": [

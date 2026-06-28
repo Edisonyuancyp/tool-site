@@ -1,0 +1,36 @@
+{
+  "slug": "palette-dark-tech",
+  "name": "ダークテック カラーパレット",
+  "tagline": "ゲーム、サイバーセキュリティ、開発者ツール向けの高インパクトダークUIパレット。深いブラックに電光ネオンアクセント。",
+  "description": "ゲーム、サイバーセキュリティ、開発者ツール向けの高インパクトダークUIパレット。深いブラックに電光ネオンアクセント。",
+  "metaTitle": "ダークテック カラーパレット – HEX、CMYK、Tailwind CSS、Pantone対応表",
+  "metaDescription": "無料のダークテック カラーパレット。HEXコード、Tailwind CSSクラス、CMYK値、Pantone近似参照を完全掲載。すべてのカラーをワンクリックでコピー可能。",
+  "keywords": [
+    "ダークテック カラーパレット",
+    "ダークテック配色",
+    "ダークテック HEXコード",
+    "#0F172A",
+    "#1E293B",
+    "#22D3EE",
+    "Pantone色合わせ",
+    "CMYK変換",
+    "Webカラーパレット",
+    "Tailwind CSS配色"
+  ],
+  "category": "Design",
+  "icon": "🎨",
+  "faqs": [
+    {
+      "question": "Pantoneの参照色は正確に一致していますか？",
+      "answer": "いいえ。表示されているPantoneコードは最も近い視覚的近似値です。本番印刷業務では、必ず実物のPantone ファンデックと照合してください。"
+    },
+    {
+      "question": "CMYK値はどのように計算されていますか？",
+      "answer": "CMYK値は次の独立した計算式を使用しています：K = 1 − max(R,G,B)；C/M/YはRGB比率から算出。実際の出力はプリンタープロファイルと用紙に依存します。"
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab"
+  ],
+  "variants": []
+}

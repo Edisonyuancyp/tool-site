@@ -1,23 +1,46 @@
 {
   "slug": "password-generator",
   "name": "Gerador de Senhas",
-  "tagline": "Gere senhas aleatórias seguras",
-  "description": "Create strong random passwords with custom length and character sets. Choose uppercase, lowercase, numbers, and symbols. Copy with one click.",
-  "metaTitle": "Gerador de Senhas – Gerador Gratuito de Senhas Aleatórias Online",
-  "metaDescription": "Crie senhas fortes com comprimento, maiúsculas/minúsculas, números e símbolos personalizáveis. 100% local, sem envio de dados.",
+  "tagline": "Gere senhas fortes e seguras instantaneamente",
+  "description": "Crie senhas aleatórias fortes com comprimento e conjuntos de caracteres personalizados. Escolha letras maiúsculas, minúsculas, números e símbolos. Copie com um clique.",
+  "metaTitle": "Gerador de Senhas – Gerador de Senhas Forte Gratuito Online",
+  "metaDescription": "Gere senhas aleatórias fortes instantaneamente. Personalize comprimento, maiúsculas, minúsculas, números e símbolos. Gerador de senhas seguro gratuito — sem cadastro necessário.",
   "keywords": [
     "gerador de senhas",
-    "senha aleatória",
-    "senha segura",
-    "criar senha forte",
-    "gerador de senha online"
+    "gerador de senhas forte",
+    "gerador de senhas aleatórias",
+    "criador de senhas seguras",
+    "gerador de senhas 12 caracteres",
+    "gerador de senhas 10 caracteres",
+    "gerador de senhas lastpass",
+    "gerador de senhas 8 caracteres",
+    "gerador de senhas 16 caracteres",
+    "gerador de senhas gratuito",
+    "gerador de senhas com palavras",
+    "gerador de senhas complexas",
+    "gerador de senhas gratuito 12 caracteres",
+    "gerador de senhas gratuito 15 caracteres",
+    "gerador de senhas gratuito 8 caracteres",
+    "gerador de senhas gratuito 16 caracteres",
+    "gerador de senhas gratuito 10 caracteres",
+    "gerador de senhas gratuito com palavras",
+    "gerador de senhas gratuito 14 caracteres",
+    "gerador de senhas gratuito forte"
   ],
-  "category": "Segurança",
+  "category": "Security",
   "icon": "🔐",
   "faqs": [
     {
-      "question": "As senhas são salvas?",
-      "answer": "Não. Todo o processamento é feito localmente no navegador – nenhum dado é enviado externamente."
+      "question": "O que torna uma senha forte?",
+      "answer": "Uma senha forte tem pelo menos 12 caracteres e utiliza uma mistura de letras maiúsculas, letras minúsculas, números e símbolos especiais."
+    },
+    {
+      "question": "É seguro usar este gerador de senhas?",
+      "answer": "Sim. As senhas são geradas completamente no seu navegador usando a função criptográfica aleatória do JavaScript. Elas nunca são enviadas para nenhum servidor."
+    },
+    {
+      "question": "Qual deve ser o comprimento da minha senha?",
+      "answer": "Recomendamos pelo menos 16 caracteres para contas importantes. Quanto mais longa a senha, mais difícil é quebrá-la."
     }
   ],
   "relatedTools": [

@@ -1,20 +1,43 @@
 {
   "slug": "group-trip-cost-splitter",
-  "name": "团体旅行费用分摊器",
-  "tagline": "公平分摊团队旅行开销",
-  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
-  "metaTitle": "旅行费用分摊器 – AA 制旅游费用计算",
-  "metaDescription": "输入各项团体旅行费用和人员，自动计算每人应付金额和转账方向。",
+  "name": "团队旅行费用分摊计算器",
+  "tagline": "轻松分摊朋友间的旅行费用。",
+  "description": "输入旅行总支出和旅客人数，即可查看每人应支付的金额。完美适用于计划集体度假的团队，无需逐一追踪个人开支的麻烦。",
+  "metaTitle": "团队旅行费用分摊计算器 – 公平的旅行费用分配工具 | 免费在线工具",
+  "metaDescription": "免费分摊团队旅行费用，无需注册。立即获得公平的费用分配结果！",
   "keywords": [
-    "旅行费用分摊",
-    "AA费用计算",
-    "团体旅行计算器",
-    "旅游AA制",
-    "分摊账单工具"
+    "团队旅行费用分摊",
+    "费用分摊计算器",
+    "旅行费用计算器",
+    "朋友一起旅游",
+    "费用分摊工具",
+    "费用分摊计算器Excel",
+    "旅行费用分摊计算器",
+    "在线费用分摊计算器",
+    "旅行汽油费用计算器",
+    "旅行燃油费用计算器",
+    "旅行费用计算器印度",
+    "自驾旅行费用计算器",
+    "含过路费旅行费用计算器",
+    "汽油和过路费计算器",
+    "旅行费用计算器应用"
   ],
-  "category": "旅行",
+  "category": "Travel",
   "icon": "👥",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "如何使用费用分摊计算器？",
+      "answer": "输入旅行总支出和旅客人数，即可计算出每人应支付的份额。"
+    },
+    {
+      "question": "我可以添加不同类型的费用吗？",
+      "answer": "目前，该工具基于一个输入金额计算总体分摊费用。"
+    },
+    {
+      "question": "这个工具是免费的吗？",
+      "answer": "是的，团队旅行费用分摊计算器完全免费使用。"
+    }
+  ],
   "relatedTools": [],
   "variants": []
 }

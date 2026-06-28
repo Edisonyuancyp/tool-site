@@ -1,0 +1,41 @@
+{
+  "slug": "m-to-feet",
+  "name": "Meter zu Fuß Umrechner",
+  "tagline": "Konvertieren Sie Meter in Fuß und Fuß in Meter sofort",
+  "description": "Konvertieren Sie Meter in Fuß (und Fuß in Meter) mit sofortigen Ergebnissen. Perfekt für Bauwesen, Immobilienangebote, Wanderhöhen und Reisen.",
+  "metaTitle": "Meter zu Fuß Umrechner — Kostenloses Online-Tool | GetFastCalc",
+  "metaDescription": "Konvertieren Sie Meter in Fuß sofort. Unterstützt Fuß+Zoll-Ausgabe. Kostenlos, schnell, keine Werbung.",
+  "keywords": [
+    "meter zu fuß",
+    "m zu ft",
+    "fuß zu meter",
+    "meter zu fuß umrechner",
+    "m zu fuß konverter",
+    "= 3,2808399 fuß (3 fuß 3 3/8 zoll)",
+    "meter zu fuß online umrechner",
+    "m zu ft umrechnung",
+    "= 0,3048 meter"
+  ],
+  "category": "Converter",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "Wie viele Fuß sind 1 Meter?",
+      "answer": "1 Meter entspricht 3,28084 Fuß oder gleichbedeutend 3 Fuß 3,37 Zoll."
+    },
+    {
+      "question": "Wie konvertiere ich Meter schnell in Fuß?",
+      "answer": "Multiplizieren Sie mit 3,281. Für eine grobe Schätzung multiplizieren Sie mit 3 und addieren Sie 10% — z. B. 10 m ≈ 33 ft."
+    },
+    {
+      "question": "Was sind 1,8 Meter in Fuß und Zoll?",
+      "answer": "1,8 Meter = 5,906 Fuß = 5 Fuß 10,87 Zoll."
+    }
+  ],
+  "relatedTools": [
+    "cm-to-inch",
+    "kg-to-lbs",
+    "celsius-to-fahrenheit"
+  ],
+  "variants": []
+}

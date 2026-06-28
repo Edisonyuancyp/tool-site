@@ -1,0 +1,60 @@
+{
+  "slug": "headline-analyzer",
+  "name": "SEO-Überschriften-Analyzer",
+  "tagline": "Bewerten Sie Ihre Überschrift auf Klickrate, Emotionalität, SEO-Stärke und Länge",
+  "description": "Analysieren Sie jede Überschrift oder jeden Artikel-Titel auf SEO-Effektivität. Bewertet Keyword-Power, emotionale Wörter, Überschriftenlänge, Wort-Balance und liefert spezifische Verbesserungsvorschläge.",
+  "metaTitle": "SEO-Überschriften-Analyzer — Überschrift bewerten für Klicks & Rankings | GetFastCalc",
+  "metaDescription": "Analysieren Sie Ihre Überschrift auf SEO-Wirkung, emotionale Kraft und Lesbarkeit. Erhalten Sie sofort eine Bewertung mit konkreten Tipps zur Verbesserung der Klickrate.",
+  "keywords": [
+    "Überschriften-Analyzer",
+    "SEO-Titel-Analyzer",
+    "Überschriften-Bewertung",
+    "Titel-Analyzer",
+    "Überschriften-Prüfer",
+    "SEO-Überschriften-Tool",
+    "Überschriften-Optimierer",
+    "SEO-Überschriften-Analyzer",
+    "SEO-Überschriften-Analyzer kostenlos",
+    "SEO-Überschriften-Analyzer WordPress",
+    "AI-SEO-Überschriften-Analyzer",
+    "SEO-Überschriften-Score-Analyzer",
+    "All-in-One-SEO-Überschriften-Analyzer",
+    "kostenloser SEO-Überschriften-Analyzer",
+    "Überschriften-Analyzer kostenlos",
+    "Überschriften-Analyzer-Tool",
+    "Überschriften-Analyzer.io",
+    "Überschriften-Analyzer von CoSchedule",
+    "Überschriften-Analyzer AI",
+    "Überschriften-Analyzer-Tool kostenlos"
+  ],
+  "category": "Text",
+  "icon": "📰",
+  "faqs": [
+    {
+      "question": "Was macht eine gute SEO-Überschrift aus?",
+      "answer": "Eine effektive SEO-Überschrift hat typischerweise folgende Merkmale: (1) Das Ziel-Keyword steht am Anfang, (2) Sie ist 50–60 Zeichen lang für Suchergebnisse (bis 70 ist akzeptabel), (3) Sie verwendet Zahlen, wenn möglich (Listen-Artikel erhalten 36 % mehr Klicks), (4) Sie erzeugt Neugier oder Dringlichkeit, und (5) Sie entspricht der Suchabsicht."
+    },
+    {
+      "question": "Wie lang sollte eine Überschrift für SEO sein?",
+      "answer": "Für Google-Suchergebnisse halten Sie Titel unter 60 Zeichen (etwa 580px Anzeigebreite). Titel über 60 Zeichen werden mit '...' gekürzt. Beim Social-Media-Sharing performen 40–65 Zeichen am besten. Für E-Mail-Betreffzeilen unter 50 Zeichen."
+    },
+    {
+      "question": "Verbessern emotionale Wörter in Überschriften die Klickrate?",
+      "answer": "Ja — mehrere Studien zeigen, dass Überschriften mit starken positiven oder negativen emotionalen Wörtern höhere Klickraten erreichen. Die Forschung von CoSchedule zeigt, dass Überschriften mit einem emotionalen Wert von 0,2 oder höher deutlich mehr Shares bekommen. Wörter wie 'erstaunlich', 'essentiell', 'überraschend' und 'bewährt' performen konsistent gut."
+    },
+    {
+      "question": "Sollte ich das Keyword am Anfang des Titels platzieren?",
+      "answer": "Generell ja für SEO — Google bewertet Wörter am Anfang des Titels etwas höher. Allerdings sollten Lesbarkeit und Klickrate Vorrang haben. Ein Titel, der keinen Klick auslöst, bringt keinen SEO-Vorteil, auch wenn er rankt."
+    },
+    {
+      "question": "Was ist Überschriften-Sentiment und warum ist das wichtig?",
+      "answer": "Sentiment-Analyse misst, ob eine Überschrift positiv, negativ oder neutral ist. Sowohl stark positive als auch stark negative Überschriften performen bei der Klickrate besser als neutrale. Rein neutrale Überschriften wirken flach und erzeugen keine emotionale Bindung."
+    }
+  ],
+  "relatedTools": [
+    "character-counter",
+    "word-counter",
+    "markdown-previewer"
+  ],
+  "variants": []
+}

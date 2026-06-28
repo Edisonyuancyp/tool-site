@@ -1,20 +1,48 @@
 {
   "slug": "text-case-converter",
-  "name": "Text-Groß-/Kleinschreibung-Konverter",
-  "tagline": "Textformat online in Groß-/Kleinschreibung umwandeln",
-  "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
-  "metaTitle": "Text-Groß-/Kleinschreibung-Konverter – Online Textformat-Konverter",
-  "metaDescription": "Text mit einem Klick in Großbuchstaben, Kleinbuchstaben, Titelschreibweise, camelCase und mehr umwandeln.",
+  "name": "Text Case Converter",
+  "tagline": "Konvertieren Sie Text in Großbuchstaben, Kleinbuchstaben, Titelschreibweise, camelCase und mehr",
+  "description": "Konvertieren Sie jeden Text zwischen Großbuchstaben, Kleinbuchstaben, Titelschreibweise, Satzschreibweise, camelCase, PascalCase, snake_case, kebab-case und mehr. Mit Ein-Klick-Kopieren.",
+  "metaTitle": "Text Case Converter – Großbuchstaben, Kleinbuchstaben, Titelfall, camelCase, snake_case kostenlos",
+  "metaDescription": "Kostenloser Text Case Converter. Konvertieren Sie Text in GROSSBUCHSTABEN, kleinbuchstaben, Titelfall, camelCase, PascalCase, snake_case, kebab-case sofort. Mit einem Klick kopieren.",
   "keywords": [
-    "Groß Kleinschreibung Konverter",
-    "Text formatieren",
+    "Text Case Converter",
+    "Großbuchstaben Konverter",
+    "Kleinbuchstaben Konverter",
     "camelCase Konverter",
-    "Titelschreibweise",
-    "Text Umwandlungstool"
+    "snake_case Konverter",
+    "Titelfall Konverter",
+    "Text Case Converter Erweiterung",
+    "Text Case Converter Chrome Erweiterung",
+    "Text Case Converter online",
+    "Text Case Converter online kostenlos",
+    "Text Case Converter Tool",
+    "Text Case Converter Chrome",
+    "Kleinbuchstaben Text Konverter",
+    "kostenloser online Text Case Converter Tool",
+    "kostenloser Text Case Converter",
+    "Großbuchstaben Konverter online",
+    "Großbuchstaben Konverter js",
+    "Großbuchstaben Konverter in Excel",
+    "Großbuchstaben Konverter Erweiterung",
+    "Großbuchstaben Konverter in Word"
   ],
-  "category": "Werkzeuge",
+  "category": "Utilities",
   "icon": "🔤",
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Was ist camelCase?",
+      "answer": "camelCase verbindet Wörter ohne Leerzeichen und schreibt jedes Wort außer dem ersten mit Großbuchstaben. Wird in JavaScript-Variablennamen verwendet: firstName, totalAmount."
+    },
+    {
+      "question": "Was ist snake_case?",
+      "answer": "snake_case verwendet Unterstriche zwischen Wörtern, alle Buchstaben sind klein. Häufig in Python und Datenbankspalten: first_name, total_amount."
+    },
+    {
+      "question": "Was ist Titelfall?",
+      "answer": "Titelfall schreibt den ersten Buchstaben jedes Hauptwortes groß. Wird in Artikeltiteln und Überschriften verwendet: 'The Quick Brown Fox'."
+    }
+  ],
   "relatedTools": [
     "word-counter",
     "diff-checker",
