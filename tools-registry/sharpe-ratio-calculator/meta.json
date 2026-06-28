@@ -1,0 +1,34 @@
+{
+  "slug": "sharpe-ratio-calculator",
+  "name": "Sharpe Ratio Calculator",
+  "tagline": "Measure risk-adjusted return of your portfolio or strategy",
+  "description": "Calculate the Sharpe Ratio of any trading strategy or portfolio. Enter portfolio return, risk-free rate, and standard deviation of returns to get the risk-adjusted performance score.",
+  "metaTitle": "Sharpe Ratio Calculator – Risk-Adjusted Return Calculator",
+  "metaDescription": "Free Sharpe Ratio calculator. Enter portfolio return, risk-free rate, and standard deviation to measure risk-adjusted performance. Works for stocks, crypto, and forex strategies.",
+  "keywords": [
+    "sharpe ratio calculator",
+    "risk adjusted return",
+    "portfolio performance calculator",
+    "sharpe ratio formula",
+    "investment performance metric",
+    "sharpe ratio trading"
+  ],
+  "category": "Quant",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "What is the Sharpe Ratio?",
+      "answer": "The Sharpe Ratio measures how much excess return you earn per unit of risk. Formula: (Portfolio Return − Risk-Free Rate) ÷ Standard Deviation."
+    },
+    {
+      "question": "What is a good Sharpe Ratio?",
+      "answer": "Above 1.0 is acceptable, above 2.0 is very good, and above 3.0 is excellent. Below 1.0 means the return doesn't adequately compensate for the risk."
+    },
+    {
+      "question": "What risk-free rate should I use?",
+      "answer": "Use the current yield of short-term government bonds (e.g. US 3-month T-bill). For crypto strategies, some traders use 0% as risk-free rate."
+    }
+  ],
+  "relatedTools": ["kelly-criterion-calculator", "position-size-calculator", "risk-calculator"],
+  "variants": []
+}

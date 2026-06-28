@@ -1020,6 +1020,71 @@ export const tools: ToolMeta[] = [
     ],
     relatedTools: ["unix-timestamp-converter", "diff-checker", "json-csv-formatter"],
   },
+  {
+    slug: "kelly-criterion-calculator",
+    name: "Kelly Criterion Calculator",
+    tagline: "Calculate optimal bet size to maximize long-run growth",
+    description:
+      "Enter your win probability and win/loss ratio to get the Kelly percentage — the mathematically optimal fraction of your capital to risk per trade. Includes full Kelly, half Kelly, and quarter Kelly outputs.",
+    metaTitle: "Kelly Criterion Calculator – Optimal Position Size for Trading",
+    metaDescription:
+      "Free Kelly Criterion calculator. Enter win rate and payoff ratio to find the optimal bet size for long-run capital growth.",
+    keywords: [
+      "kelly criterion calculator",
+      "kelly formula",
+      "optimal bet size",
+      "kelly fraction trading",
+      "half kelly",
+      "bankroll management calculator",
+    ],
+    category: "Quant",
+    icon: "🎯",
+    faqs: [
+      {
+        question: "What is the Kelly Criterion?",
+        answer:
+          "The Kelly Criterion is a formula that determines the optimal fraction of your capital to bet on a positive expected value opportunity to maximize long-run growth rate.",
+      },
+      {
+        question: "What is Half Kelly?",
+        answer:
+          "Half Kelly means betting half the Kelly-recommended size. It reduces volatility significantly while capturing ~75% of the growth rate — popular among professional traders.",
+      },
+    ],
+    relatedTools: ["position-size-calculator", "risk-calculator", "tp-sl-calculator"],
+  },
+  {
+    slug: "sharpe-ratio-calculator",
+    name: "Sharpe Ratio Calculator",
+    tagline: "Measure risk-adjusted return of your portfolio or strategy",
+    description:
+      "Calculate the Sharpe Ratio of any trading strategy or portfolio. Enter portfolio return, risk-free rate, and standard deviation of returns to get the risk-adjusted performance score.",
+    metaTitle: "Sharpe Ratio Calculator – Risk-Adjusted Return Calculator",
+    metaDescription:
+      "Free Sharpe Ratio calculator. Enter portfolio return, risk-free rate, and standard deviation to measure risk-adjusted performance.",
+    keywords: [
+      "sharpe ratio calculator",
+      "risk adjusted return",
+      "portfolio performance calculator",
+      "sharpe ratio formula",
+      "investment performance metric",
+    ],
+    category: "Quant",
+    icon: "📊",
+    faqs: [
+      {
+        question: "What is the Sharpe Ratio?",
+        answer:
+          "The Sharpe Ratio measures how much excess return you earn per unit of risk. Formula: (Portfolio Return − Risk-Free Rate) ÷ Standard Deviation.",
+      },
+      {
+        question: "What is a good Sharpe Ratio?",
+        answer:
+          "Above 1.0 is acceptable, above 2.0 is very good, and above 3.0 is excellent. Below 1.0 means the return doesn't adequately compensate for the risk.",
+      },
+    ],
+    relatedTools: ["kelly-criterion-calculator", "position-size-calculator", "risk-calculator"],
+  },
 ];
 
 export function getToolBySlug(slug: string): ToolMeta | undefined {

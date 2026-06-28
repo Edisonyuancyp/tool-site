@@ -4,9 +4,24 @@ import path from "path";
 import type { ToolMeta } from "./tools";
 import type { RegistryMeta, ToolVariant } from "./registry";
 
-export type SupportedLocale = "es" | "fr";
-export const SUPPORTED_LOCALES: SupportedLocale[] = ["es", "fr"];
-export const LOCALE_LABELS: Record<SupportedLocale, string> = { es: "Español", fr: "Français" };
+export type SupportedLocale = "es" | "fr" | "zh" | "ja" | "de" | "pt";
+export const SUPPORTED_LOCALES: SupportedLocale[] = ["es", "fr", "zh", "ja", "de", "pt"];
+export const LOCALE_LABELS: Record<SupportedLocale, string> = {
+  es: "Español",
+  fr: "Français",
+  zh: "中文",
+  ja: "日本語",
+  de: "Deutsch",
+  pt: "Português",
+};
+export const LOCALE_FLAGS: Record<SupportedLocale, string> = {
+  es: "🇪🇸",
+  fr: "🇫🇷",
+  zh: "🇨🇳",
+  ja: "🇯🇵",
+  de: "🇩🇪",
+  pt: "🇧🇷",
+};
 
 const REGISTRY_DIR = path.join(process.cwd(), "tools-registry");
 

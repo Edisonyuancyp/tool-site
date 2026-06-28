@@ -107,6 +107,21 @@ export default function RootLayout({
             gtag('config', 'G-QRTFP647H6');
           `}
         </Script>
+        {/* Ko-fi floating chat widget */}
+        <Script
+          src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
+          strategy="lazyOnload"
+        />
+        <Script id="kofi-init" strategy="lazyOnload">
+          {`
+            kofiWidgetOverlay.draw('getfastcalc', {
+              'type': 'floating-chat',
+              'floating-chat.donateButton.text': 'Support me',
+              'floating-chat.donateButton.background-color': '#00b9fe',
+              'floating-chat.donateButton.text-color': '#fff'
+            });
+          `}
+        </Script>
       </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900 pb-14 lg:pb-0">
         <WorkbenchProvider>

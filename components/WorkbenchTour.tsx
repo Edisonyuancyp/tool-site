@@ -33,6 +33,13 @@ const STEPS: Step[] = [
     spotlightPadding: 8,
   },
   {
+    target: "[data-tour='board-link']",
+    title: "🧩 Workbench Board — your dashboard",
+    body: "The Board lets you build a live dashboard with multiple tools side-by-side. Drag to reorder, resize cards (S/M/L), and pick from preset boards like FBA Seller, Quant Trader, or Designer. Click the 🧩 Board button in the header to open it.",
+    placement: "bottom",
+    spotlightPadding: 8,
+  },
+  {
     target: "[data-tour='favorites-section']",
     title: "♥ Save individual tools",
     body: "On any calculator page, click the ♥ heart button to save it. Saved tools appear here so you never have to search for them again.",

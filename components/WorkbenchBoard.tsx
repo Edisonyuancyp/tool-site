@@ -10,6 +10,7 @@ const PRESET_BOARDS = [
   {
     name: "FBA Seller Dashboard",
     emoji: "📦",
+    desc: "Amazon卖家必备工具套装",
     slugs: [
       "fba-profit-calculator",
       "fba-fee-calculator",
@@ -20,14 +21,68 @@ const PRESET_BOARDS = [
     sizes: ["large", "medium", "medium", "medium", "medium"] as BoardWidgetSize[],
   },
   {
+    name: "Quant Trader",
+    emoji: "📈",
+    desc: "量化交易风控计算套装",
+    slugs: [
+      "position-size-calculator",
+      "kelly-criterion-calculator",
+      "sharpe-ratio-calculator",
+      "risk-calculator",
+      "tp-sl-calculator",
+    ],
+    sizes: ["large", "medium", "medium", "medium", "small"] as BoardWidgetSize[],
+  },
+  {
+    name: "Designer Toolkit",
+    emoji: "🎨",
+    desc: "设计师常用工具",
+    slugs: [
+      "color-palette-lab",
+      "contrast-checker-tool",
+      "css-unit-converter",
+      "typography-scale-generator",
+      "responsive-image-calculator",
+    ],
+    sizes: ["large", "medium", "medium", "medium", "small"] as BoardWidgetSize[],
+  },
+  {
+    name: "Dev Tools",
+    emoji: "👨‍💻",
+    desc: "开发者日常工具",
+    slugs: [
+      "base64-tool",
+      "json-csv-formatter",
+      "url-encoder",
+      "unix-timestamp-converter",
+      "jwt-decoder",
+    ],
+    sizes: ["medium", "medium", "small", "small", "small"] as BoardWidgetSize[],
+  },
+  {
+    name: "Finance Hub",
+    emoji: "💰",
+    desc: "个人理财规划",
+    slugs: [
+      "compound-interest-calculator",
+      "loan-calculator",
+      "savings-goal-calculator",
+      "investment-return-calculator",
+      "budget-calculator",
+    ],
+    sizes: ["large", "medium", "medium", "small", "small"] as BoardWidgetSize[],
+  },
+  {
     name: "Quick Math",
     emoji: "🧮",
+    desc: "日常快速计算",
     slugs: ["percentage-calculator", "tip-calculator", "compound-interest-calculator", "currency-converter"],
     sizes: ["medium", "small", "medium", "small"] as BoardWidgetSize[],
   },
   {
     name: "Health Tracker",
     emoji: "💪",
+    desc: "健康数据追踪",
     slugs: ["bmi-calculator", "body-fat-calculator", "water-intake-calculator", "bmr-tdee-calculator"],
     sizes: ["medium", "medium", "small", "small"] as BoardWidgetSize[],
   },
@@ -50,6 +105,7 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
 
   const [showAdd, setShowAdd] = useState(false);
   const [search, setSearch] = useState("");
+  const [addCat, setAddCat] = useState("All");
   const [draggingId, setDraggingId] = useState<string | null>(null);
   const [dragOverId, setDragOverId] = useState<string | null>(null);
 
@@ -57,12 +113,17 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
 
   const toolBySlug = (slug: string) => allTools.find((t) => t.slug === slug);
 
-  const filteredTools = search.trim().length > 1
-    ? allTools.filter((t) =>
-        t.name.toLowerCase().includes(search.toLowerCase()) ||
-        t.tagline.toLowerCase().includes(search.toLowerCase())
-      ).slice(0, 10)
-    : allTools.slice(0, 8);
+  const allAddCats = ["All", ...Array.from(new Set(allTools.map(t => t.category))).sort()];
+
+  const filteredTools = (() => {
+    let list = allTools;
+    if (addCat !== "All") list = list.filter(t => t.category === addCat);
+    const q = search.trim().toLowerCase();
+    if (q.length > 0) list = list.filter(t =>
+      t.name.toLowerCase().includes(q) || t.tagline.toLowerCase().includes(q)
+    );
+    return list.slice(0, q || addCat !== "All" ? 30 : 8);
+  })();
 
   const handleDragStart = useCallback((id: string, index: number) => (e: React.DragEvent) => {
     setDraggingId(id);
@@ -154,17 +215,37 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
         <div className="border border-blue-100 bg-blue-50 rounded-2xl p-4 space-y-3">
           <div className="flex items-center justify-between">
             <p className="text-sm font-semibold text-gray-700">Add a tool to your board</p>
-            <button onClick={() => setShowAdd(false)} className="text-xs text-gray-400 hover:text-gray-600">Close</button>
+            <button onClick={() => { setShowAdd(false); setSearch(""); setAddCat("All"); }} className="text-xs text-gray-400 hover:text-gray-600">✕ Close</button>
           </div>
+          {/* Search */}
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search tools…"
+            placeholder="Search tools by name…"
             className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
             autoFocus
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-h-60 overflow-y-auto">
-            {filteredTools.map((tool) => (
+          {/* Category filter pills */}
+          <div className="flex gap-1.5 overflow-x-auto pb-1 flex-nowrap scrollbar-none">
+            {allAddCats.map(cat => (
+              <button
+                key={cat}
+                onClick={() => setAddCat(cat)}
+                className={`shrink-0 text-xs px-2.5 py-1 rounded-full border transition-colors ${
+                  addCat === cat
+                    ? "bg-blue-600 text-white border-blue-600"
+                    : "border-gray-200 text-gray-600 bg-white hover:border-blue-300 hover:text-blue-700"
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+          {/* Results */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-h-64 overflow-y-auto">
+            {filteredTools.length === 0 ? (
+              <p className="col-span-full text-xs text-gray-400 text-center py-4">No tools found</p>
+            ) : filteredTools.map((tool) => (
               <button
                 key={tool.slug}
                 onClick={() => { addBoardWidget(tool.slug, "medium"); setSearch(""); }}
@@ -173,7 +254,7 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                 <span className="text-lg shrink-0">{tool.icon}</span>
                 <div className="min-w-0">
                   <p className="text-xs font-semibold text-gray-800 truncate">{tool.name}</p>
-                  <p className="text-xs text-gray-400 truncate">{tool.tagline}</p>
+                  <p className="text-[10px] text-gray-400 truncate">{tool.category}</p>
                 </div>
               </button>
             ))}
@@ -185,17 +266,19 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
       {boardWidgets.length === 0 && (
         <div className="space-y-4">
           <p className="text-sm text-gray-400 py-6 text-center border border-dashed border-gray-200 rounded-xl">
-            Your board is empty. Add tools above, or install a preset dashboard.
+            Your board is empty. Add tools above, or install a preset dashboard below.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
             {PRESET_BOARDS.map((preset) => (
               <button
                 key={preset.name}
                 onClick={() => installPresetBatch(preset)}
-                className="text-left p-4 border border-dashed border-gray-200 rounded-xl bg-gray-50 hover:border-blue-300 hover:bg-blue-50 transition-colors"
+                className="text-left p-4 border border-dashed border-gray-200 rounded-xl bg-gray-50 hover:border-blue-300 hover:bg-blue-50 transition-colors group"
               >
-                <p className="text-sm font-semibold text-gray-900">{preset.emoji} {preset.name}</p>
-                <p className="text-xs text-gray-400 mt-1">{preset.slugs.length} tools · one-click setup</p>
+                <p className="text-xl mb-1">{preset.emoji}</p>
+                <p className="text-sm font-semibold text-gray-900 group-hover:text-blue-700">{preset.name}</p>
+                <p className="text-xs text-gray-400 mt-0.5">{preset.desc}</p>
+                <p className="text-xs text-gray-300 mt-2">{preset.slugs.length} tools · one-click</p>
               </button>
             ))}
           </div>
@@ -268,6 +351,28 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
             );
           })}
         </div>
+      )}
+
+      {/* Preset picker always visible when board has tools */}
+      {boardWidgets.length > 0 && (
+        <details className="border border-gray-100 rounded-xl overflow-hidden">
+          <summary className="px-4 py-2.5 text-xs font-medium text-gray-500 cursor-pointer hover:bg-gray-50 transition-colors list-none flex items-center gap-2">
+            <span>📋</span> Load a preset board…
+          </summary>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 p-3 border-t border-gray-100 bg-gray-50">
+            {PRESET_BOARDS.map((preset) => (
+              <button
+                key={preset.name}
+                onClick={() => installPresetBatch(preset)}
+                className="text-left p-3 border border-gray-200 rounded-lg bg-white hover:border-blue-300 hover:bg-blue-50 transition-colors"
+              >
+                <span className="text-base">{preset.emoji}</span>
+                <p className="text-xs font-semibold text-gray-800 mt-0.5 truncate">{preset.name}</p>
+                <p className="text-[10px] text-gray-400 truncate">{preset.desc}</p>
+              </button>
+            ))}
+          </div>
+        </details>
       )}
 
       <p className="text-xs text-gray-300 text-center pt-4 border-t border-gray-100">

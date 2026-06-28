@@ -1,0 +1,36 @@
+{
+  "slug": "kelly-criterion-calculator",
+  "name": "Kelly Criterion Calculator",
+  "tagline": "Calculate optimal bet size using Kelly formula — maximize long-run growth",
+  "description": "Enter your win probability and win/loss ratio to get the Kelly percentage — the mathematically optimal fraction of your capital to risk per trade. Includes full Kelly, half Kelly, and quarter Kelly outputs.",
+  "metaTitle": "Kelly Criterion Calculator – Optimal Position Size for Trading",
+  "metaDescription": "Free Kelly Criterion calculator. Enter win rate and payoff ratio to find the optimal bet size for long-run capital growth. Works for trading, poker, and sports betting.",
+  "keywords": [
+    "kelly criterion calculator",
+    "kelly formula",
+    "optimal bet size",
+    "kelly fraction",
+    "position sizing kelly",
+    "kelly criterion trading",
+    "half kelly",
+    "bankroll management calculator"
+  ],
+  "category": "Quant",
+  "icon": "🎯",
+  "faqs": [
+    {
+      "question": "What is the Kelly Criterion?",
+      "answer": "The Kelly Criterion is a formula that determines the optimal fraction of your capital to bet on a positive expected value opportunity to maximize long-run growth rate."
+    },
+    {
+      "question": "What is Half Kelly?",
+      "answer": "Half Kelly means betting half the Kelly-recommended size. It reduces volatility significantly while capturing ~75% of the growth rate — popular among professional traders."
+    },
+    {
+      "question": "What if the Kelly result is negative?",
+      "answer": "A negative Kelly value means the edge is negative — you have no mathematical advantage and should not take the trade."
+    }
+  ],
+  "relatedTools": ["position-size-calculator", "risk-calculator", "tp-sl-calculator"],
+  "variants": []
+}
