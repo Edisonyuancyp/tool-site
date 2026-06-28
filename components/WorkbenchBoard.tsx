@@ -90,10 +90,19 @@ const PRESET_BOARDS = [
 
 function sizeClasses(size: BoardWidgetSize): string {
   switch (size) {
-    case "small":  return "col-span-1 row-span-1";
-    case "medium": return "col-span-1 md:col-span-2 row-span-1";
-    case "large":  return "col-span-1 md:col-span-2 lg:col-span-3 row-span-1";
+    case "small":  return "col-span-1";
+    case "medium": return "col-span-1 md:col-span-2";
+    case "large":  return "col-span-1 md:col-span-2 lg:col-span-3";
     default: return "col-span-1 md:col-span-2";
+  }
+}
+
+function contentHeight(size: BoardWidgetSize): string {
+  switch (size) {
+    case "small":  return "h-[260px]";
+    case "medium": return "h-[360px]";
+    case "large":  return "h-[480px]";
+    default: return "h-[360px]";
   }
 }
 
@@ -287,7 +296,7 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
 
       {/* Board grid */}
       {boardWidgets.length > 0 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-fr">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {boardWidgets.map((widget, index) => {
             const tool = toolBySlug(widget.slug);
             if (!tool) return null;
@@ -308,6 +317,7 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                   ${isDragging ? "opacity-40 ring-2 ring-blue-400" : ""}
                   ${isOver ? "ring-2 ring-blue-400 border-blue-400" : ""}
                 `}
+                style={{ height: widget.size === "small" ? 296 : widget.size === "large" ? 516 : 400 }}
               >
                 {/* Card header */}
                 <div className="flex items-center justify-between px-3 py-2 bg-gray-50 border-b border-gray-100 cursor-grab active:cursor-grabbing">
@@ -344,7 +354,7 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                 </div>
 
                 {/* Card content */}
-                <div className="flex-1 p-3 overflow-auto">
+                <div className={`${contentHeight(widget.size)} p-3 overflow-auto`}>
                   <ToolWidget tool={tool} compact />
                 </div>
               </div>
