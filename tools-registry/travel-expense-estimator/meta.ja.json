@@ -1,0 +1,20 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "旅行費用見積もり計算機",
+  "tagline": "旅行の総予算と一人あたり費用を見積もり",
+  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
+  "metaTitle": "旅行費用見積もり計算機 – 旅行予算プランニングツール",
+  "metaDescription": "交通費・宿泊費・食事代・観光費を入力して旅行総予算と一人あたり費用を見積もり。",
+  "keywords": [
+    "旅行費用見積もり",
+    "旅行予算計算機",
+    "旅行費用計算",
+    "観光予算ツール",
+    "旅行費用プランニング"
+  ],
+  "category": "旅行",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

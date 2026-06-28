@@ -1,0 +1,33 @@
+{
+  "slug": "percentage-calculator",
+  "name": "パーセント計算機",
+  "tagline": "割合・増減率を素早く計算",
+  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
+  "metaTitle": "パーセント計算機 – 無料オンラインパーセント計算",
+  "metaDescription": "パーセント計算・増減率・割合など、様々なパーセント問題を瞬時に解決。",
+  "keywords": [
+    "パーセント計算機",
+    "割合計算",
+    "増減率計算",
+    "割引計算機",
+    "比率計算"
+  ],
+  "category": "ファイナンス",
+  "icon": "%",
+  "faqs": [
+    {
+      "question": "パーセントの計算方法は？",
+      "answer": "パーセント = (部分 ÷ 全体) × 100%"
+    },
+    {
+      "question": "増減率の計算方法は？",
+      "answer": "増減率 = (新しい値 - 古い値) ÷ 古い値 × 100%"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

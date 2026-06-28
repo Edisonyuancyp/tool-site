@@ -1,0 +1,23 @@
+{
+  "slug": "time-blocking-scheduler",
+  "name": "タイムブロッキングスケジューラー",
+  "tagline": "1日のタイムブロックを計画して集中力を向上",
+  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
+  "metaTitle": "タイムブロッキングスケジューラー – 1日時間管理ツール",
+  "metaDescription": "タイムブロッキング法で日常タスクを整理し、中断を減らしてディープワークの効率を向上。",
+  "keywords": [
+    "タイムブロッキング",
+    "時間管理",
+    "ディープワーク計画",
+    "1日スケジュール",
+    "生産性向上ツール"
+  ],
+  "category": "生産性",
+  "icon": "🗓️",
+  "faqs": [],
+  "relatedTools": [
+    "task-priority-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

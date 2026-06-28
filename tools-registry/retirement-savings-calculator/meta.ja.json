@@ -1,0 +1,25 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "退職貯蓄計算機",
+  "tagline": "老後資金の計画と試算",
+  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
+  "metaTitle": "退職貯蓄計算機 – 老後資金プランニングツール",
+  "metaDescription": "年齢・貯蓄額・期待支出を入力して、退職後の資金が十分かどうかを試算。",
+  "keywords": [
+    "退職貯蓄計算機",
+    "老後資金計算",
+    "年金計算機",
+    "退職プランニング",
+    "老後の備え計算"
+  ],
+  "category": "ファイナンス",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

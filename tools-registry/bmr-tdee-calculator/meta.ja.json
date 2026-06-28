@@ -1,0 +1,24 @@
+{
+  "slug": "bmr-tdee-calculator",
+  "name": "基礎代謝量計算機",
+  "tagline": "BMRとTDEEを計算",
+  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
+  "metaTitle": "BMR/TDEE計算機 – 基礎代謝と総消費カロリー計算",
+  "metaDescription": "基礎代謝量（BMR）と総消費カロリー（TDEE）を計算して、ダイエットや筋トレの食事計画をサポート。",
+  "keywords": [
+    "BMR計算機",
+    "TDEE計算機",
+    "基礎代謝計算",
+    "消費カロリー計算",
+    "カロリー必要量計算"
+  ],
+  "category": "健康",
+  "icon": "🔥",
+  "faqs": [],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
+  "variants": []
+}

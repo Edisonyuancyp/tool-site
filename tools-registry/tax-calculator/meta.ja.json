@@ -1,0 +1,24 @@
+{
+  "slug": "tax-calculator",
+  "name": "税金計算機",
+  "tagline": "納税額を素早く見積もり",
+  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
+  "metaTitle": "税金計算機 – 無料オンライン税額計算ツール",
+  "metaDescription": "収入と税率を入力して、納税額と税引き後収入を素早く算出。",
+  "keywords": [
+    "税金計算機",
+    "所得税計算",
+    "税率計算",
+    "納税額計算",
+    "税引き後収入"
+  ],
+  "category": "ファイナンス",
+  "icon": "🧾",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "retirement-savings-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

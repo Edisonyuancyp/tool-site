@@ -1,0 +1,23 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "カーリース計算機",
+  "tagline": "自動車リースの月額料金と総費用を計算",
+  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
+  "metaTitle": "カーリース計算機 – 自動車リース費用計算ツール",
+  "metaDescription": "車両価格・残価・金利・リース期間を入力して月次リース費用を計算。",
+  "keywords": [
+    "カーリース計算機",
+    "自動車リース計算",
+    "リース月額計算",
+    "カーリース費用",
+    "リースシミュレーション"
+  ],
+  "category": "ファイナンス",
+  "icon": "🚗",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

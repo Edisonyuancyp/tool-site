@@ -1,0 +1,20 @@
+{
+  "slug": "carbon-footprint-travel-calculator",
+  "name": "旅行カーボンフットプリント計算機",
+  "tagline": "旅行のCO₂排出量を見積もり",
+  "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
+  "metaTitle": "旅行カーボンフットプリント計算機 – CO₂排出量計算ツール",
+  "metaDescription": "飛行機・自動車・電車旅行のCO₂排出量を計算して、旅行の環境への影響を把握。",
+  "keywords": [
+    "カーボンフットプリント計算機",
+    "旅行CO2排出量",
+    "フライトCO2計算",
+    "エコ旅行",
+    "炭素排出量計算"
+  ],
+  "category": "旅行",
+  "icon": "🌍",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

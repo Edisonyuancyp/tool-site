@@ -1,0 +1,24 @@
+{
+  "slug": "base-converter",
+  "name": "進数変換器",
+  "tagline": "2進数・8進数・10進数・16進数の相互変換",
+  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
+  "metaTitle": "進数変換器 – オンライン2進数・16進数変換ツール",
+  "metaDescription": "2〜64進数の相互変換に対応。2進数・8進数・10進数・16進数・Base58など。",
+  "keywords": [
+    "進数変換器",
+    "2進数変換",
+    "16進数変換",
+    "8進数計算機",
+    "数値変換ツール"
+  ],
+  "category": "開発",
+  "icon": "🔢",
+  "faqs": [],
+  "relatedTools": [
+    "base64-tool",
+    "unix-timestamp-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

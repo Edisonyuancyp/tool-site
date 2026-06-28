@@ -1,0 +1,20 @@
+{
+  "slug": "group-trip-cost-splitter",
+  "name": "グループ旅行費用分担計算機",
+  "tagline": "グループ旅行の費用を公平に分担",
+  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
+  "metaTitle": "旅行費用分担計算機 – グループ割り勘ツール",
+  "metaDescription": "グループ旅行の各費用と参加者を入力して、一人あたりの金額と支払い方向を自動計算。",
+  "keywords": [
+    "旅行費用分担",
+    "割り勘計算",
+    "グループ旅行計算機",
+    "旅行費用割り勘",
+    "費用分担ツール"
+  ],
+  "category": "旅行",
+  "icon": "👥",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

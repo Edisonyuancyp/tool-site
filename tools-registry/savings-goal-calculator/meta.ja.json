@@ -1,0 +1,23 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "貯蓄目標計算機",
+  "tagline": "目標達成に必要な期間と月次積立額を計算",
+  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
+  "metaTitle": "貯蓄目標計算機 – 貯金目標プランニングツール",
+  "metaDescription": "目標金額・現在の貯蓄額・利率を入力して、目標達成に必要な月次積立額と期間を計算。",
+  "keywords": [
+    "貯蓄目標計算機",
+    "貯金計画",
+    "積立計算",
+    "資産目標計算",
+    "貯金シミュレーション"
+  ],
+  "category": "ファイナンス",
+  "icon": "🏦",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

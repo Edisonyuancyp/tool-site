@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "フィットネスレベル診断",
+  "tagline": "現在のフィットネスレベルを評価",
+  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
+  "metaTitle": "フィットネスレベル診断 – オンライン体力評価ツール",
+  "metaDescription": "簡単なアンケートで現在のフィットネスレベルを評価し、パーソナライズされたトレーニングアドバイスを提供。",
+  "keywords": [
+    "フィットネスレベル診断",
+    "体力評価",
+    "フィットネス評価ツール",
+    "運動レベルテスト",
+    "フィットネスアドバイス"
+  ],
+  "category": "フィットネス",
+  "icon": "🏋️‍♀️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}

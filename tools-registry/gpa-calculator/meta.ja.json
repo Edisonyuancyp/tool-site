@@ -1,0 +1,24 @@
+{
+  "slug": "gpa-calculator",
+  "name": "GPA計算機",
+  "tagline": "学業成績（GPA）を計算",
+  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
+  "metaTitle": "GPA計算機 – 無料オンライン成績計算ツール",
+  "metaDescription": "科目の単位数と成績を入力して加重GPAを自動計算。4.0スケールと100点スケールに対応。",
+  "keywords": [
+    "GPA計算機",
+    "成績計算機",
+    "加重GPA計算",
+    "学業成績計算",
+    "GPAシミュレーション"
+  ],
+  "category": "ユーティリティ",
+  "icon": "🎓",
+  "faqs": [],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": []
+}

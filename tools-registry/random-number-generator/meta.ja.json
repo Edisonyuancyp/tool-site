@@ -1,0 +1,24 @@
+{
+  "slug": "random-number-generator",
+  "name": "乱数生成機",
+  "tagline": "指定した範囲内のランダムな整数を生成",
+  "description": "Generate cryptographically random numbers in any range. Single number, list of numbers, dice roller, coin flip, and random item picker — all in one free tool.",
+  "metaTitle": "乱数生成機 – 無料オンライン乱数生成ツール",
+  "metaDescription": "最小値と最大値を設定してランダムな整数を生成。一括生成や重複排除にも対応。",
+  "keywords": [
+    "乱数生成機",
+    "ランダム数字生成",
+    "オンライン乱数",
+    "くじ引きツール",
+    "ランダム整数生成"
+  ],
+  "category": "ジェネレーター",
+  "icon": "🎲",
+  "faqs": [],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
+  "variants": []
+}

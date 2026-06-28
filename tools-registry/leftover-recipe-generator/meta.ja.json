@@ -1,0 +1,23 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "残り物レシピジェネレーター",
+  "tagline": "残り食材から新しいレシピを生成",
+  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
+  "metaTitle": "残り物レシピジェネレーター – 残り食材レシピツール",
+  "metaDescription": "冷蔵庫の残り食材を入力して、調理可能なレシピ提案を取得。食品ロスを削減。",
+  "keywords": [
+    "残り物レシピ",
+    "残り食材レシピ",
+    "食品ロス削減",
+    "食材レシピ生成",
+    "残り物料理アイデア"
+  ],
+  "category": "料理",
+  "icon": "🥡",
+  "faqs": [],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": []
+}

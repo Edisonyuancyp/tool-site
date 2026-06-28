@@ -1,0 +1,25 @@
+{
+  "slug": "budget-calculator",
+  "name": "予算計算機",
+  "tagline": "月次予算を作成して収支バランスを管理",
+  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
+  "metaTitle": "予算計算機 – 無料オンライン月次予算プランニング",
+  "metaDescription": "収入と各支出項目を入力して月次収支を計算し、適切な予算計画の作成をサポート。",
+  "keywords": [
+    "予算計算機",
+    "月次予算",
+    "家計計算機",
+    "収支計算",
+    "予算管理ツール"
+  ],
+  "category": "ファイナンス",
+  "icon": "📊",
+  "faqs": [],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

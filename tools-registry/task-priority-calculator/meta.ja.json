@@ -1,0 +1,23 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "タスク優先度計算機",
+  "tagline": "アイゼンハワーマトリクスでタスクを優先順位付け",
+  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
+  "metaTitle": "タスク優先度計算機 – 時間管理ツール",
+  "metaDescription": "緊急度と重要度でタスクを評価してスコア化し、処理優先順位を自動決定。業務効率を向上。",
+  "keywords": [
+    "タスク優先度",
+    "時間管理ツール",
+    "アイゼンハワーマトリクス",
+    "業務効率計算機",
+    "タスク管理"
+  ],
+  "category": "生産性",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": []
+}

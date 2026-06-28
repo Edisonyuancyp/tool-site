@@ -1,0 +1,23 @@
+{
+  "slug": "work-life-balance-calculator",
+  "name": "ワークライフバランス計算機",
+  "tagline": "仕事と生活のバランス状態を評価",
+  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
+  "metaTitle": "ワークライフバランス計算機 – 生活満足度評価ツール",
+  "metaDescription": "アンケートでワークライフバランスの状況を評価して改善アドバイスを取得。",
+  "keywords": [
+    "ワークライフバランス",
+    "生活質評価",
+    "仕事ストレス計算機",
+    "健康生活指数",
+    "職場健康評価"
+  ],
+  "category": "生産性",
+  "icon": "⚖️",
+  "faqs": [],
+  "relatedTools": [
+    "daily-goal-tracker",
+    "time-blocking-scheduler"
+  ],
+  "variants": []
+}

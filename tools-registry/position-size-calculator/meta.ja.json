@@ -1,0 +1,24 @@
+{
+  "slug": "position-size-calculator",
+  "name": "ポジションサイズ計算機",
+  "tagline": "リスク管理に基づいた最適ポジションサイズを計算",
+  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
+  "metaTitle": "ポジションサイズ計算機 – 取引リスク管理ツール",
+  "metaDescription": "口座資金・リスク率・損切り幅を入力して最適なポジションサイズを計算し、取引資金を保護。",
+  "keywords": [
+    "ポジションサイズ計算機",
+    "ポジション計算",
+    "取引リスク管理",
+    "損切りポジション計算",
+    "FXポジション計算"
+  ],
+  "category": "暗号通貨",
+  "icon": "📐",
+  "faqs": [],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

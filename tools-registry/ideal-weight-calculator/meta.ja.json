@@ -1,0 +1,24 @@
+{
+  "slug": "ideal-weight-calculator",
+  "name": "理想体重計算機",
+  "tagline": "身長に基づく理想体重範囲を計算",
+  "description": "Calculate your ideal body weight using the Robinson, Miller, Devine, and Hamwi formulas, plus the healthy BMI range. Enter your height and gender to compare all four results.",
+  "metaTitle": "理想体重計算機 – 健康体重範囲計算ツール",
+  "metaDescription": "身長と性別に基づいて、BMI法やDevine式など複数の方式で理想体重の範囲を計算。",
+  "keywords": [
+    "理想体重計算機",
+    "適正体重計算",
+    "健康体重範囲",
+    "理想体重算出",
+    "ダイエット目標体重"
+  ],
+  "category": "健康",
+  "icon": "⚖️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

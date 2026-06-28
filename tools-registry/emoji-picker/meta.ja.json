@@ -1,0 +1,24 @@
+{
+  "slug": "emoji-picker",
+  "name": "絵文字ピッカー",
+  "tagline": "絵文字を検索してコピー",
+  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
+  "metaTitle": "絵文字ピッカー – オンライン絵文字検索コピーツール",
+  "metaDescription": "任意の絵文字を検索してワンクリックでコピー。カテゴリ別に全絵文字を閲覧可能。",
+  "keywords": [
+    "絵文字ピッカー",
+    "絵文字コピー",
+    "emoji検索",
+    "オンライン絵文字ツール",
+    "絵文字選択"
+  ],
+  "category": "ユーティリティ",
+  "icon": "😊",
+  "faqs": [],
+  "relatedTools": [
+    "text-case-converter",
+    "word-counter",
+    "random-number-generator"
+  ],
+  "variants": []
+}

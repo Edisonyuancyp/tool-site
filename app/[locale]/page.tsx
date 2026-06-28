@@ -84,7 +84,7 @@ const COPY: Record<SupportedLocale, {
 
 export async function generateStaticParams() {
   // Only pre-render es/fr — zh/ja/de/pt served on-demand
-  return (["es", "fr", "zh"] as SupportedLocale[]).map((locale) => ({ locale }));
+  return (["es", "fr", "zh", "ja"] as SupportedLocale[]).map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

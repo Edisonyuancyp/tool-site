@@ -1,0 +1,25 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "債務返済計算機",
+  "tagline": "債務完済までの期間と総利息を計算",
+  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
+  "metaTitle": "債務返済計算機 – 無料返済プランツール",
+  "metaDescription": "債務残高・金利・月次返済額を入力して、完済までの期間と総利息支払額を計算。",
+  "keywords": [
+    "債務返済計算機",
+    "返済計画",
+    "クレジットカード返済計算",
+    "借金計算機",
+    "返済利息計算"
+  ],
+  "category": "ファイナンス",
+  "icon": "💳",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

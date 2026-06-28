@@ -1,0 +1,24 @@
+{
+  "slug": "text-case-converter",
+  "name": "テキストケース変換器",
+  "tagline": "テキストの大文字・小文字形式をオンラインで変換",
+  "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
+  "metaTitle": "テキストケース変換器 – オンラインテキスト形式変換",
+  "metaDescription": "テキストをワンクリックで大文字・小文字・タイトルケース・キャメルケースなどに変換。",
+  "keywords": [
+    "テキストケース変換",
+    "大文字小文字変換",
+    "キャメルケース変換",
+    "タイトル形式変換",
+    "テキスト変換ツール"
+  ],
+  "category": "ユーティリティ",
+  "icon": "🔤",
+  "faqs": [],
+  "relatedTools": [
+    "word-counter",
+    "diff-checker",
+    "emoji-picker"
+  ],
+  "variants": []
+}

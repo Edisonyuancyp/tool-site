@@ -1,0 +1,29 @@
+{
+  "slug": "sleep-calculator",
+  "name": "睡眠計算機",
+  "tagline": "最適な就寝・起床時刻を計算",
+  "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
+  "metaTitle": "睡眠計算機 – 睡眠サイクル計算ツール",
+  "metaDescription": "起床時刻を入力して90分の睡眠サイクルに基づいた最適な就寝時刻を計算。または就寝時刻から最適な起床時刻を算出。",
+  "keywords": [
+    "睡眠計算機",
+    "睡眠サイクル計算",
+    "最適起床時刻",
+    "就寝時刻計算",
+    "睡眠質改善"
+  ],
+  "category": "健康",
+  "icon": "😴",
+  "faqs": [
+    {
+      "question": "睡眠サイクルの長さは？",
+      "answer": "1つの完全な睡眠サイクルは約90分で、浅い睡眠・深い睡眠・REMの段階で構成されています。"
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

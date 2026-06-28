@@ -1,0 +1,24 @@
+{
+  "slug": "tp-sl-calculator",
+  "name": "利確・損切り計算機",
+  "tagline": "取引の利確・損切り価格を計算",
+  "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
+  "metaTitle": "利確・損切り計算機 – TP/SL計算ツール",
+  "metaDescription": "エントリー価格とリスクパラメーターを入力して、利確（TP）と損切り（SL）の価格水準とリスクリワード比を計算。",
+  "keywords": [
+    "利確損切り計算機",
+    "TP SL計算機",
+    "取引損切り計算",
+    "リスクリワード計算",
+    "FX損切りツール"
+  ],
+  "category": "暗号通貨",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "position-size-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

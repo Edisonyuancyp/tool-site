@@ -1,0 +1,34 @@
+{
+  "slug": "bmi-calculator",
+  "name": "BMI計算機",
+  "tagline": "体格指数（BMI）を瞬時に計算",
+  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
+  "metaTitle": "BMI計算機 – 無料オンラインBMI計算ツール",
+  "metaDescription": "身長と体重を入力してBMIを即座に算出。体重区分（低体重・普通・過体重・肥満）も表示。無料・登録不要。",
+  "keywords": [
+    "BMI計算機",
+    "体格指数計算",
+    "BMI計算",
+    "肥満度計算",
+    "オンラインBMI"
+  ],
+  "category": "健康",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "BMIとは何ですか？",
+      "answer": "BMI（体格指数）= 体重(kg) ÷ 身長(m)²。体重が健康的かどうかを評価するスクリーニング指標です。"
+    },
+    {
+      "question": "正常なBMIの範囲は？",
+      "answer": "18.5〜24.9が標準体重。18.5未満は低体重、25〜29.9は過体重、30以上は肥満です。"
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

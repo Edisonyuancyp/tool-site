@@ -1,8 +1,6 @@
-# ja/de/pt locale pages — redirect to English (no translations yet)
-/ja/tools/:slug  /tools/calc/:slug  302
+# de/pt locale pages — redirect to English (no translations yet)
 /de/tools/:slug  /tools/calc/:slug  302
 /pt/tools/:slug  /tools/calc/:slug  302
-/ja              /                  302
 /de              /                  302
 /pt              /                  302
 

@@ -1,0 +1,28 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "複利計算機",
+  "tagline": "投資の複利成長を計算",
+  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
+  "metaTitle": "複利計算機 – 無料オンライン複利計算ツール",
+  "metaDescription": "元本・利率・期間・複利頻度を入力して、最終金額と利息収益を即座に計算。",
+  "keywords": [
+    "複利計算機",
+    "複利計算",
+    "投資収益計算",
+    "資産運用計算",
+    "複利効果"
+  ],
+  "category": "ファイナンス",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "複利とは？",
+      "answer": "利息にも利息がつく仕組みです。元本と過去の利息の合計に対して新たな利息が発生します。"
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

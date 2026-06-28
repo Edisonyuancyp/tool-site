@@ -1,0 +1,23 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "金融手数料計算機",
+  "tagline": "クレジットカードやローンの金融手数料を計算",
+  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
+  "metaTitle": "金融手数料計算機 – 利息費用計算ツール",
+  "metaDescription": "クレジットカード残高またはローンの月次金融手数料とAPR利息を計算。",
+  "keywords": [
+    "金融手数料計算機",
+    "クレジットカード利息計算",
+    "APR計算機",
+    "利息費用計算",
+    "月利計算"
+  ],
+  "category": "ファイナンス",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

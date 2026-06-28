@@ -33,6 +33,9 @@ function findPage(slug: string, param: string): { page: ProgrammaticPage; baseMe
   return null;
 }
 
+// Only pre-render highest-value param pages to stay under Cloudflare 20k file limit
+const HIGH_VALUE_PARAMS = new Set(["online-free", "how-to-use", "how-to-calculate"]);
+
 export async function generateStaticParams() {
   const params: { category: string; slug: string; param: string }[] = [];
   for (const meta of getRegistryTools()) {
@@ -40,7 +43,9 @@ export async function generateStaticParams() {
     if (!prefix) continue;
     const pages: ProgrammaticPage[] = (meta as any).programmaticPages ?? [];
     for (const page of pages) {
-      params.push({ category: prefix, slug: meta.slug, param: page.param });
+      if (HIGH_VALUE_PARAMS.has(page.param)) {
+        params.push({ category: prefix, slug: meta.slug, param: page.param });
+      }
     }
   }
   return params;

@@ -1,0 +1,24 @@
+{
+  "slug": "unix-timestamp-converter",
+  "name": "Unixタイムスタンプ変換器",
+  "tagline": "Unixタイムスタンプと日時の相互変換",
+  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
+  "metaTitle": "Unixタイムスタンプ変換器 – オンラインタイムスタンプ変換ツール",
+  "metaDescription": "Unixタイムスタンプを読みやすい日時に変換、または日時をタイムスタンプに変換。秒・ミリ秒対応。",
+  "keywords": [
+    "Unixタイムスタンプ変換",
+    "タイムスタンプ変換",
+    "エポック時間変換",
+    "日時変換ツール",
+    "タイムスタンプ計算"
+  ],
+  "category": "開発",
+  "icon": "⏱️",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

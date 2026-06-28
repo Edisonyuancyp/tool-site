@@ -1,0 +1,24 @@
+{
+  "slug": "water-intake-calculator",
+  "name": "1日水分摂取量計算機",
+  "tagline": "1日に必要な水分量を計算",
+  "description": "Get a personalized daily water intake recommendation based on body weight, activity level, climate, and pregnancy/breastfeeding status. Shows result in liters, cups, and 500mL bottles.",
+  "metaTitle": "水分摂取量計算機 – 1日の水分必要量計算ツール",
+  "metaDescription": "体重・活動量・気候に基づいて、最適な1日の水分摂取量を計算。",
+  "keywords": [
+    "水分摂取量計算機",
+    "1日の水分量",
+    "水分必要量計算",
+    "飲水量計算",
+    "水分補給計算"
+  ],
+  "category": "健康",
+  "icon": "💧",
+  "faqs": [],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "bmi-calculator",
+    "running-pace-calculator"
+  ],
+  "variants": []
+}

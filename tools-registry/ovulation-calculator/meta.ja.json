@@ -1,0 +1,24 @@
+{
+  "slug": "ovulation-calculator",
+  "name": "排卵日計算機",
+  "tagline": "排卵日と妊娠しやすい時期を予測",
+  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
+  "metaTitle": "排卵日計算機 – 無料オンライン排卵日予測ツール",
+  "metaDescription": "最終月経日と周期日数を入力して、排卵予定日と妊娠しやすい期間を計算。",
+  "keywords": [
+    "排卵日計算機",
+    "排卵日予測",
+    "妊娠しやすい時期計算",
+    "安全日計算",
+    "妊活計算機"
+  ],
+  "category": "健康",
+  "icon": "🌸",
+  "faqs": [],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

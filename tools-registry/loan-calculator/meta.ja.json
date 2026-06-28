@@ -1,0 +1,29 @@
+{
+  "slug": "loan-calculator",
+  "name": "ローン計算機",
+  "tagline": "月々の返済額と総利息を計算",
+  "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
+  "metaTitle": "ローン計算機 – 無料オンライン月次返済額計算",
+  "metaDescription": "借入金額・金利・返済期間を入力して、月次返済額・総利息・返済スケジュールを即座に算出。",
+  "keywords": [
+    "ローン計算機",
+    "月次返済計算",
+    "住宅ローン計算",
+    "カーローン計算",
+    "返済シミュレーション"
+  ],
+  "category": "ファイナンス",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "月次返済額の計算方法は？",
+      "answer": "月次返済額 = 元本 × 月利率 × (1+月利率)^返済回数 ÷ ((1+月利率)^返済回数 - 1)"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

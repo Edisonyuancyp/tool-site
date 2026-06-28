@@ -1,0 +1,20 @@
+{
+  "slug": "travel-time-calculator",
+  "name": "所要時間計算機",
+  "tagline": "移動距離と所要時間を計算",
+  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
+  "metaTitle": "所要時間計算機 – ドライブ時間見積もりツール",
+  "metaDescription": "距離と速度を入力して予想移動時間を計算、または出発・到着時刻から速度を算出。",
+  "keywords": [
+    "所要時間計算機",
+    "ドライブ時間計算",
+    "移動時間見積もり",
+    "距離時間速度計算",
+    "道路移動計算"
+  ],
+  "category": "旅行",
+  "icon": "⏳",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

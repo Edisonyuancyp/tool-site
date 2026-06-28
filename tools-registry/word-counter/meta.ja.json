@@ -1,0 +1,23 @@
+{
+  "slug": "word-counter",
+  "name": "文字数カウンター",
+  "tagline": "単語数・文字数・読了時間を計測",
+  "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
+  "metaTitle": "文字数カウンター – 無料オンライン文字数・単語数カウント",
+  "metaDescription": "テキストを貼り付けるだけで単語数・文字数・文章数・推定読了時間をリアルタイムで計測。",
+  "keywords": [
+    "文字数カウンター",
+    "単語数カウント",
+    "文字数計算",
+    "オンライン文字数カウント",
+    "読了時間計算"
+  ],
+  "category": "ユーティリティ",
+  "icon": "📝",
+  "faqs": [],
+  "relatedTools": [
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

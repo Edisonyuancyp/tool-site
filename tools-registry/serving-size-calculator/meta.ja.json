@@ -1,0 +1,23 @@
+{
+  "slug": "serving-size-calculator",
+  "name": "食事量計算機",
+  "tagline": "食材の量と栄養素摂取量を計算",
+  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
+  "metaTitle": "食事量計算機 – 食事分量計算ツール",
+  "metaDescription": "人数とレシピに基づいて食材の使用量と一人あたりの栄養成分を計算。",
+  "keywords": [
+    "食事量計算機",
+    "食材量計算",
+    "料理分量ツール",
+    "食材使用量計算",
+    "栄養摂取量計算"
+  ],
+  "category": "料理",
+  "icon": "🍽️",
+  "faqs": [],
+  "relatedTools": [
+    "body-fat-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

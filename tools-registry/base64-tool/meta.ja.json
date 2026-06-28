@@ -1,0 +1,24 @@
+{
+  "slug": "base64-tool",
+  "name": "Base64エンコード/デコードツール",
+  "tagline": "オンラインBase64エンコードとデコード",
+  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
+  "metaTitle": "Base64エンコードデコードツール – 無料オンライン変換",
+  "metaDescription": "テキストを入力してBase64エンコードまたはデコードを実行。ファイルや画像のBase64変換にも対応。",
+  "keywords": [
+    "Base64エンコード",
+    "Base64デコード",
+    "Base64変換ツール",
+    "オンラインBase64",
+    "エンコードデコードツール"
+  ],
+  "category": "開発",
+  "icon": "🔐",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
+  "variants": []
+}

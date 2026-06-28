@@ -1,0 +1,24 @@
+{
+  "slug": "holiday-calculator",
+  "name": "祝日計算機",
+  "tagline": "祝日と営業日数を確認",
+  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
+  "metaTitle": "祝日計算機 – 祝日・営業日数確認ツール",
+  "metaDescription": "2つの日付間の営業日数・週末・祝日の数を計算。",
+  "keywords": [
+    "祝日計算機",
+    "営業日計算",
+    "祝日確認",
+    "休日日数計算",
+    "日付計算ツール"
+  ],
+  "category": "日付・時間",
+  "icon": "🎉",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
+  "variants": []
+}

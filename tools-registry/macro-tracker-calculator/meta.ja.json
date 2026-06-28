@@ -1,0 +1,23 @@
+{
+  "slug": "macro-tracker-calculator",
+  "name": "マクロ栄養素計算機",
+  "tagline": "1日のタンパク質・脂質・炭水化物摂取量を計算",
+  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
+  "metaTitle": "マクロ栄養素計算機 – 三大栄養素計算ツール",
+  "metaDescription": "体重目標と活動量に基づいて、1日のカロリーと三大栄養素（タンパク質・脂質・炭水化物）の配分を計算。",
+  "keywords": [
+    "マクロ栄養素計算機",
+    "三大栄養素計算",
+    "タンパク質計算",
+    "ダイエット計算機",
+    "筋トレ栄養計算"
+  ],
+  "category": "フィットネス",
+  "icon": "🍏",
+  "faqs": [],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "tip-calculator",
+  "name": "チップ計算機",
+  "tagline": "レストランのチップと割り勘を素早く計算",
+  "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
+  "metaTitle": "チップ計算機 – 無料オンラインチップ・割り勘計算",
+  "metaDescription": "請求金額とチップ率を入力して、チップ額と一人あたりの金額を自動計算。",
+  "keywords": [
+    "チップ計算機",
+    "割り勘計算",
+    "レストランチップ",
+    "チップ率計算",
+    "会計分担計算"
+  ],
+  "category": "ファイナンス",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "一般的なチップの相場は？",
+      "answer": "アメリカでは請求金額の15〜20%が一般的です。サービスが良ければ20%以上が適切です。"
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

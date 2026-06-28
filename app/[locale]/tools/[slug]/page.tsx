@@ -16,7 +16,7 @@ interface Props {
 }
 
 // Only pre-render es/fr — zh/ja/de/pt have no translated tool pages
-const STATIC_LOCALES: SupportedLocale[] = ["es", "fr", "zh"];
+const STATIC_LOCALES: SupportedLocale[] = ["es", "fr", "zh", "ja"];
 
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];

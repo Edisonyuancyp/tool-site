@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "フィットネス年齢計算機",
+  "tagline": "身体年齢と健康状態を評価",
+  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
+  "metaTitle": "フィットネス年齢計算機 – 身体年齢評価ツール",
+  "metaDescription": "心拍数・BMI・身体活動量などの指標から身体年齢を推定し、実際の健康状態を把握。",
+  "keywords": [
+    "フィットネス年齢計算機",
+    "身体年齢テスト",
+    "健康年齢計算",
+    "体力年齢",
+    "身体年齢評価"
+  ],
+  "category": "フィットネス",
+  "icon": "🧘",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

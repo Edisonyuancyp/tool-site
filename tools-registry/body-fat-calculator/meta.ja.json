@@ -1,0 +1,24 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "体脂肪率計算機",
+  "tagline": "体脂肪率を推定",
+  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
+  "metaTitle": "体脂肪率計算機 – 無料オンライン体脂肪率計算",
+  "metaDescription": "身体の周径（首・腰・ヒップ）から体脂肪率を推定。男女別の計算式に対応。",
+  "keywords": [
+    "体脂肪率計算機",
+    "体脂肪率計算",
+    "体脂肪計算",
+    "体脂肪パーセント",
+    "体組成計算"
+  ],
+  "category": "健康",
+  "icon": "💪",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "ideal-weight-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

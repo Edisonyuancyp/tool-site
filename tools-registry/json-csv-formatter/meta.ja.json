@@ -1,0 +1,24 @@
+{
+  "slug": "json-csv-formatter",
+  "name": "JSON/CSVフォーマッター",
+  "tagline": "JSON・CSVのフォーマット、検証、変換",
+  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
+  "metaTitle": "JSON CSV フォーマッター – 無料データ形式変換ツール",
+  "metaDescription": "JSONまたはCSVデータを貼り付けて、自動フォーマット・構文検証・JSON↔CSV相互変換を実行。",
+  "keywords": [
+    "JSONフォーマッター",
+    "CSV変換ツール",
+    "JSON検証",
+    "JSONビューティファイ",
+    "データ形式変換"
+  ],
+  "category": "開発",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "currency-converter",
+  "name": "通貨換算機",
+  "tagline": "リアルタイム為替レートで通貨換算",
+  "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
+  "metaTitle": "通貨換算機 – 無料リアルタイム為替計算",
+  "metaDescription": "150種類以上の通貨に対応したリアルタイム為替換算。円・ドル・ユーロなどワンクリックで変換。",
+  "keywords": [
+    "通貨換算機",
+    "為替計算",
+    "外貨換算",
+    "円換算",
+    "リアルタイム為替"
+  ],
+  "category": "ファイナンス",
+  "icon": "💱",
+  "faqs": [
+    {
+      "question": "為替レートはリアルタイムですか？",
+      "answer": "はい、公開APIから毎日更新されたレートを使用しています。"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

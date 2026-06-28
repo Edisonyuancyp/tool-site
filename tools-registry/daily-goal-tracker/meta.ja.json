@@ -1,0 +1,23 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "日次目標トラッカー",
+  "tagline": "毎日の目標設定と達成状況を追跡",
+  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
+  "metaTitle": "日次目標トラッカー – 目標達成追跡ツール",
+  "metaDescription": "毎日の目標を設定して進捗を記録し、良い習慣と実行力を構築。",
+  "keywords": [
+    "日次目標トラッカー",
+    "目標管理ツール",
+    "習慣トラッカー",
+    "日次目標達成",
+    "目標追跡計算機"
+  ],
+  "category": "生産性",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": []
+}

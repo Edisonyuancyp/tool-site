@@ -1,0 +1,23 @@
+{
+  "slug": "ingredient-substitution-calculator",
+  "name": "食材代替計算機",
+  "tagline": "レシピの不足食材の代替品を検索",
+  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
+  "metaTitle": "食材代替計算機 – 料理食材代替ツール",
+  "metaDescription": "不足している食材を入力して、代替可能な食材と使用比率のアドバイスを取得。",
+  "keywords": [
+    "食材代替",
+    "料理代替品",
+    "食材代替計算",
+    "不足食材の代替",
+    "料理代替ツール"
+  ],
+  "category": "料理",
+  "icon": "🥄",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

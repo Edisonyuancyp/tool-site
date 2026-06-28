@@ -1,0 +1,25 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "投資リターン計算機",
+  "tagline": "年率リターンと総収益を計算",
+  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
+  "metaTitle": "投資リターン計算機 – オンラインROI計算ツール",
+  "metaDescription": "初期投資額・最終価値・保有期間を入力して、年率リターン（CAGR）と総収益を計算。",
+  "keywords": [
+    "投資リターン計算機",
+    "ROI計算機",
+    "CAGR計算",
+    "年率収益計算",
+    "投資収益率"
+  ],
+  "category": "ファイナンス",
+  "icon": "📈",
+  "faqs": [],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

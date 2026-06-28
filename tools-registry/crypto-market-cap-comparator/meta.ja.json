@@ -1,0 +1,24 @@
+{
+  "slug": "crypto-market-cap-comparator",
+  "name": "暗号通貨時価総額比較ツール",
+  "tagline": "異なる暗号通貨の時価総額規模を比較",
+  "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
+  "metaTitle": "暗号通貨時価総額比較ツール – オンライン暗号資産比較",
+  "metaDescription": "2種類の暗号通貨を入力して時価総額の差と価格ポテンシャルを比較。同じ時価総額なら価格はいくらになるか計算。",
+  "keywords": [
+    "暗号通貨時価総額比較",
+    "ビットコイン時価総額計算",
+    "暗号通貨比較ツール",
+    "コイン価格ポテンシャル計算",
+    "時価総額比較"
+  ],
+  "category": "暗号通貨",
+  "icon": "🪙",
+  "faqs": [],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "position-size-calculator",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

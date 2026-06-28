@@ -1,0 +1,24 @@
+{
+  "slug": "running-pace-calculator",
+  "name": "ランニングペース計算機",
+  "tagline": "ランニングペース・速度・完走タイムを計算",
+  "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
+  "metaTitle": "ランニングペース計算機 – マラソンペース計算ツール",
+  "metaDescription": "距離とタイムを入力してペースを計算、またはペースから完走タイムを予測。5K・10K・ハーフ・フルマラソン対応。",
+  "keywords": [
+    "ランニングペース計算機",
+    "マラソンペース",
+    "ペース計算機",
+    "ランニング速度計算",
+    "完走タイム予測"
+  ],
+  "category": "健康",
+  "icon": "🏃",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

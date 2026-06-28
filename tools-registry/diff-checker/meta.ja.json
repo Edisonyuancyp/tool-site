@@ -1,0 +1,24 @@
+{
+  "slug": "diff-checker",
+  "name": "テキスト差分チェッカー",
+  "tagline": "2つのテキストの差異を素早く発見",
+  "description": "Paste two pieces of text to instantly see additions, deletions, and unchanged lines highlighted. Supports split view and unified view, ignore whitespace, ignore case, and comes with code and JSON samples.",
+  "metaTitle": "テキスト差分チェッカー – オンラインテキスト比較ツール",
+  "metaDescription": "2つのテキストを貼り付けて、追加・削除・変更箇所をハイライト表示。コードレビューや文書比較に最適。",
+  "keywords": [
+    "テキスト差分チェッカー",
+    "テキスト比較ツール",
+    "diffツール",
+    "コード比較",
+    "文書差分検索"
+  ],
+  "category": "開発",
+  "icon": "🔍",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": []
+}
