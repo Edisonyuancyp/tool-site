@@ -22,9 +22,21 @@ function useLocaleLinks() {
   const localeMatch = pathname.match(ALL_LOCALES_RE);
   const currentLocale = localeMatch ? localeMatch[1] : "en";
   const restPath = localeMatch ? (localeMatch[2] ?? "/") : pathname;
+
+  // /tools/[category]/[slug] → /tools/[slug]  (locale pages have no category segment)
+  const localeRestPath = restPath.replace(/^\/tools\/[^/]+\/([^/]+)$/, "/tools/$1");
+
   function hrefFor(code: string) {
-    if (code === "en") return restPath || "/";
-    return `/${code}${restPath === "/" ? "" : restPath}`;
+    if (code === "en") {
+      // If coming from a locale tool page /tools/[slug], look up the full EN path with category
+      const slugMatch = localeRestPath.match(/^\/tools\/([^/]+)$/);
+      if (slugMatch) {
+        const tool = tools.find(t => t.slug === slugMatch[1]);
+        if (tool) return getToolPath(tool);
+      }
+      return restPath || "/";
+    }
+    return `/${code}${localeRestPath === "/" ? "" : localeRestPath}`;
   }
   return { currentLocale, hrefFor };
 }
