@@ -1,0 +1,24 @@
+{
+  "slug": "holiday-calculator",
+  "name": "节假日计算器",
+  "tagline": "查询法定节假日和工作日数量",
+  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
+  "metaTitle": "节假日计算器 – 节假日查询工具",
+  "metaDescription": "计算两个日期之间的工作日、周末和节假日天数。",
+  "keywords": [
+    "节假日计算器",
+    "工作日计算",
+    "节假日查询",
+    "假期天数计算",
+    "日期计算器"
+  ],
+  "category": "日期时间",
+  "icon": "🎉",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
+  "variants": []
+}

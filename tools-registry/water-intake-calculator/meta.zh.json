@@ -1,0 +1,29 @@
+{
+  "slug": "water-intake-calculator",
+  "name": "每日饮水量计算器",
+  "tagline": "计算每天应该喝多少水",
+  "description": "Get a personalized daily water intake recommendation based on body weight, activity level, climate, and pregnancy/breastfeeding status. Shows result in liters, cups, and 500mL bottles.",
+  "metaTitle": "每日饮水量计算器 – 喝水量计算工具",
+  "metaDescription": "根据体重、活动量和气候，计算每日建议饮水量，保持最佳水合状态。",
+  "keywords": [
+    "饮水量计算器",
+    "每日喝水量",
+    "水分需求计算",
+    "喝水计算器",
+    "水合计算器"
+  ],
+  "category": "健康",
+  "icon": "💧",
+  "faqs": [
+    {
+      "question": "每天应该喝多少水？",
+      "answer": "一般建议每天 2–3 升，具体取决于体重、活动量和气温。每公斤体重约 35ml。"
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "bmi-calculator",
+    "running-pace-calculator"
+  ],
+  "variants": []
+}

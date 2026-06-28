@@ -1,0 +1,20 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "旅行费用估算器",
+  "tagline": "估算旅行总预算和人均费用",
+  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
+  "metaTitle": "旅行费用估算器 – 旅游预算计算工具",
+  "metaDescription": "输入交通、住宿、餐饮和景点费用，估算旅行总预算和人均费用。",
+  "keywords": [
+    "旅行费用估算",
+    "旅游预算计算器",
+    "旅行预算工具",
+    "出行费用计算",
+    "旅行花费估算"
+  ],
+  "category": "旅行",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

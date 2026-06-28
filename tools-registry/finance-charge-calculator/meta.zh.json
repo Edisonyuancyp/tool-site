@@ -1,0 +1,28 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "金融费用计算器",
+  "tagline": "计算信用卡或贷款的金融费用",
+  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
+  "metaTitle": "金融费用计算器 – 利息费用计算工具",
+  "metaDescription": "计算信用卡余额或贷款的月度金融费用和 APR 利息。",
+  "keywords": [
+    "金融费用计算器",
+    "信用卡利息计算",
+    "APR计算器",
+    "利息费用计算",
+    "月息计算"
+  ],
+  "category": "金融",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "金融费用如何计算？",
+      "answer": "金融费用 = 日均余额 × 日利率 × 天数。"
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

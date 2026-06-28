@@ -1,0 +1,33 @@
+{
+  "slug": "qr-code-generator",
+  "name": "二维码生成器",
+  "tagline": "快速生成任意内容的二维码",
+  "description": "Generate a free QR code for any URL, text, phone number, or message. Download as PNG and use anywhere — no account needed.",
+  "metaTitle": "二维码生成器 – 免费在线 QR Code 制作",
+  "metaDescription": "输入文字、网址或联系信息，即时生成可下载的二维码。免费，无需注册。",
+  "keywords": [
+    "二维码生成器",
+    "QR码生成",
+    "QR code生成器",
+    "在线二维码",
+    "免费二维码"
+  ],
+  "category": "生成器",
+  "icon": "📱",
+  "faqs": [
+    {
+      "question": "二维码可以存储什么？",
+      "answer": "可以存储网址、纯文本、联系信息、WiFi 密码等各种内容。"
+    },
+    {
+      "question": "生成的二维码可以下载吗？",
+      "answer": "可以，支持下载为 PNG 格式图片。"
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "text-case-converter",
+    "base64-tool"
+  ],
+  "variants": []
+}

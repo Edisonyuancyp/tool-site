@@ -1,0 +1,29 @@
+{
+  "slug": "gpa-calculator",
+  "name": "GPA 计算器",
+  "tagline": "计算学业绩点平均值",
+  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
+  "metaTitle": "GPA 计算器 – 在线免费绩点计算",
+  "metaDescription": "输入课程学分和成绩，自动计算加权 GPA。支持 4.0 制和百分制转换。",
+  "keywords": [
+    "GPA计算器",
+    "绩点计算器",
+    "学业成绩计算",
+    "加权GPA",
+    "成绩计算器"
+  ],
+  "category": "工具",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "什么是 GPA？",
+      "answer": "GPA（Grade Point Average）是学业绩点平均值，4.0 制中满分为 4.0。"
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": []
+}

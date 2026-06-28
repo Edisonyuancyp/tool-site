@@ -1,0 +1,29 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "体脂率计算器",
+  "tagline": "估算身体脂肪百分比",
+  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
+  "metaTitle": "体脂率计算器 – 在线免费体脂百分比计算",
+  "metaDescription": "通过身体围度（颈围、腰围、臀围）估算体脂率，支持男女不同计算公式。",
+  "keywords": [
+    "体脂率计算器",
+    "体脂百分比计算",
+    "体脂计算器",
+    "身体脂肪率",
+    "体脂测量"
+  ],
+  "category": "健康",
+  "icon": "💪",
+  "faqs": [
+    {
+      "question": "健康的体脂率是多少？",
+      "answer": "男性：15–20% 为健康范围；女性：20–25% 为健康范围。"
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "ideal-weight-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

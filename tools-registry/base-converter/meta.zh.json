@@ -1,0 +1,24 @@
+{
+  "slug": "base-converter",
+  "name": "进制转换器",
+  "tagline": "二进制、八进制、十进制、十六进制互转",
+  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
+  "metaTitle": "进制转换器 – 在线二进制十六进制转换",
+  "metaDescription": "支持 2–64 进制互转，包括二进制、八进制、十进制、十六进制、Base58 等。",
+  "keywords": [
+    "进制转换器",
+    "二进制转换",
+    "十六进制转换",
+    "八进制计算器",
+    "数制转换工具"
+  ],
+  "category": "开发",
+  "icon": "🔢",
+  "faqs": [],
+  "relatedTools": [
+    "base64-tool",
+    "unix-timestamp-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

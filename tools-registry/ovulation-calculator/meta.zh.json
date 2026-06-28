@@ -1,0 +1,29 @@
+{
+  "slug": "ovulation-calculator",
+  "name": "排卵期计算器",
+  "tagline": "预测排卵日期和易孕期",
+  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
+  "metaTitle": "排卵期计算器 – 在线免费排卵日预测",
+  "metaDescription": "输入末次月经日期和周期长度，计算预计排卵日和最佳受孕窗口期。",
+  "keywords": [
+    "排卵期计算器",
+    "排卵日计算",
+    "易孕期计算器",
+    "安全期计算",
+    "备孕计算器"
+  ],
+  "category": "健康",
+  "icon": "🌸",
+  "faqs": [
+    {
+      "question": "排卵期一般在什么时候？",
+      "answer": "对于 28 天周期，通常在第 14 天前后排卵。排卵前后 3 天为易孕期。"
+    }
+  ],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "健身年龄计算器",
+  "tagline": "测算您的生理年龄和健康状态",
+  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
+  "metaTitle": "健身年龄计算器 – 生理年龄测评工具",
+  "metaDescription": "通过心率、BMI、体力活动等指标估算您的生理年龄，了解身体实际健康状态。",
+  "keywords": [
+    "健身年龄计算器",
+    "生理年龄测试",
+    "健康年龄计算",
+    "体能年龄",
+    "身体年龄测评"
+  ],
+  "category": "健身",
+  "icon": "🧘",
+  "faqs": [
+    {
+      "question": "生理年龄和实际年龄有什么不同？",
+      "answer": "生理年龄反映身体机能状态，规律运动的人生理年龄往往低于实际年龄。"
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "健身水平测评",
+  "tagline": "评估您当前的健身水平",
+  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
+  "metaTitle": "健身水平测评 – 在线体能评估工具",
+  "metaDescription": "通过简短问卷评估您的健身水平，获得个性化的训练建议。",
+  "keywords": [
+    "健身水平测评",
+    "体能评估",
+    "健身评估工具",
+    "运动水平测试",
+    "健身建议"
+  ],
+  "category": "健身",
+  "icon": "🏋️‍♀️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}

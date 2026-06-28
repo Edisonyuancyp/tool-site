@@ -1,0 +1,33 @@
+{
+  "slug": "tax-calculator",
+  "name": "税务计算器",
+  "tagline": "快速估算应缴税款",
+  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
+  "metaTitle": "税务计算器 – 在线免费税率计算",
+  "metaDescription": "输入收入和税率，快速估算应缴税额和税后收入。支持多种税率结构。",
+  "keywords": [
+    "税务计算器",
+    "所得税计算器",
+    "税率计算",
+    "应缴税计算",
+    "税后收入"
+  ],
+  "category": "金融",
+  "icon": "🧾",
+  "faqs": [
+    {
+      "question": "这个计算器适用于哪个国家？",
+      "answer": "提供通用税率计算框架，适用于各国个人所得税估算。"
+    },
+    {
+      "question": "计算结果精确吗？",
+      "answer": "提供估算值，精确税务申报请咨询专业税务顾问。"
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "retirement-savings-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

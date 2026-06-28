@@ -1,0 +1,24 @@
+{
+  "slug": "diff-checker",
+  "name": "文本差异对比工具",
+  "tagline": "快速找出两段文本的差异",
+  "description": "Paste two pieces of text to instantly see additions, deletions, and unchanged lines highlighted. Supports split view and unified view, ignore whitespace, ignore case, and comes with code and JSON samples.",
+  "metaTitle": "文本差异对比工具 – 在线文本比较器",
+  "metaDescription": "粘贴两段文本，高亮显示新增、删除和修改的部分。适用于代码审查、文档对比。",
+  "keywords": [
+    "文本对比工具",
+    "文本差异比较",
+    "diff工具",
+    "代码对比器",
+    "文档差异查找"
+  ],
+  "category": "开发",
+  "icon": "🔍",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": []
+}

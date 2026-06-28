@@ -1,0 +1,33 @@
+{
+  "slug": "sleep-calculator",
+  "name": "睡眠计算器",
+  "tagline": "计算最佳起床时间或入睡时间",
+  "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
+  "metaTitle": "睡眠计算器 – 睡眠周期计算工具",
+  "metaDescription": "输入目标起床时间，计算基于 90 分钟睡眠周期的最佳入睡时间；或输入入睡时间，推算最佳起床时间。",
+  "keywords": [
+    "睡眠计算器",
+    "睡眠周期计算",
+    "最佳起床时间",
+    "入睡时间计算",
+    "睡眠质量工具"
+  ],
+  "category": "健康",
+  "icon": "😴",
+  "faqs": [
+    {
+      "question": "睡眠周期是多长？",
+      "answer": "一个完整的睡眠周期约 90 分钟，包含浅睡、深睡和 REM 阶段。"
+    },
+    {
+      "question": "每晚应该睡多少小时？",
+      "answer": "成人建议 7–9 小时，即 5–6 个完整睡眠周期。"
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

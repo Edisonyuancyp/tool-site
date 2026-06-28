@@ -1,0 +1,29 @@
+{
+  "slug": "running-pace-calculator",
+  "name": "跑步配速计算器",
+  "tagline": "计算跑步配速、速度和完赛时间",
+  "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
+  "metaTitle": "跑步配速计算器 – 马拉松配速计算工具",
+  "metaDescription": "输入距离和时间，计算每公里配速；或输入配速，预测完赛时间。支持 5K、10K、半马、全马。",
+  "keywords": [
+    "跑步配速计算器",
+    "马拉松配速",
+    "配速计算器",
+    "跑步速度计算",
+    "完赛时间计算"
+  ],
+  "category": "健康",
+  "icon": "🏃",
+  "faqs": [
+    {
+      "question": "什么是配速？",
+      "answer": "配速是跑完每公里（或每英里）所需的时间，单位为 分钟/公里（min/km）。"
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

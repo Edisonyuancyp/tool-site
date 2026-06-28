@@ -1,0 +1,20 @@
+{
+  "slug": "carbon-footprint-travel-calculator",
+  "name": "旅行碳足迹计算器",
+  "tagline": "估算旅行的碳排放量",
+  "description": "Assess the carbon footprint of your travel plans by inputting your travel distance, mode of transportation, and accommodation type. Ideal for eco-conscious travelers looking to minimize their environmental impact.",
+  "metaTitle": "旅行碳足迹计算器 – 碳排放估算工具",
+  "metaDescription": "计算飞机、汽车或火车旅行的碳排放量，了解旅行的环境影响。",
+  "keywords": [
+    "碳足迹计算器",
+    "旅行碳排放",
+    "飞行碳排放计算",
+    "环保旅行",
+    "碳排量计算"
+  ],
+  "category": "旅行",
+  "icon": "🌍",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "age-calculator",
+  "name": "年龄计算器",
+  "tagline": "即时计算您的精确年龄",
+  "description": "Calculate your exact age from your date of birth to today — or to any specific date. Get results in years, months, days, hours, and minutes instantly.",
+  "metaTitle": "年龄计算器 – 在线免费精确年龄计算",
+  "metaDescription": "输入出生日期，立即获得精确到天的年龄。免费、无需注册，浏览器直接运行。",
+  "keywords": [
+    "年龄计算器",
+    "年龄计算",
+    "出生日期计算器",
+    "我多大了",
+    "计算年龄"
+  ],
+  "category": "日期时间",
+  "icon": "📅",
+  "faqs": [
+    {
+      "question": "如何计算年龄？",
+      "answer": "输入出生日期，计算器会自动算出今天与生日之间的年、月、日差值。"
+    },
+    {
+      "question": "计算结果准确吗？",
+      "answer": "是的，精确到天，包含闰年处理。"
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "holiday-calculator",
+    "unix-timestamp-converter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "age-calculator-by-birthday",
+      "metaTitle": "按生日计算年龄 – 在线年龄计算器",
+      "metaDesc": "通过生日计算精确年龄，支持年月日显示。"
+    }
+  ]
+}

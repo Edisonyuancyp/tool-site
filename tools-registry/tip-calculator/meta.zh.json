@@ -1,0 +1,33 @@
+{
+  "slug": "tip-calculator",
+  "name": "小费计算器",
+  "tagline": "快速计算餐厅小费和账单分摊",
+  "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
+  "metaTitle": "小费计算器 – 在线免费小费计算",
+  "metaDescription": "输入账单金额和小费比例，自动计算小费和人均分摊金额。",
+  "keywords": [
+    "小费计算器",
+    "账单计算器",
+    "餐厅小费",
+    "AA计算器",
+    "分摊计算"
+  ],
+  "category": "金融",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "一般给多少小费？",
+      "answer": "在美国，通常给账单金额的 15–20%。服务满意可给 20%+。"
+    },
+    {
+      "question": "多人用餐如何分摊？",
+      "answer": "输入人数，计算器会自动平均分摊总金额（含小费）。"
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

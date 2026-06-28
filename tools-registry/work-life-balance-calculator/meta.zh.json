@@ -1,0 +1,23 @@
+{
+  "slug": "work-life-balance-calculator",
+  "name": "工作生活平衡计算器",
+  "tagline": "评估您的工作与生活平衡状态",
+  "description": "This tool evaluates your work-life balance by analyzing your time allocation between professional and personal activities. Ideal for anyone seeking to improve their overall well-being and productivity.",
+  "metaTitle": "工作生活平衡计算器 – 健康生活评估工具",
+  "metaDescription": "通过问卷评估您的工作生活平衡状况，获得改善建议。",
+  "keywords": [
+    "工作生活平衡",
+    "生活质量评估",
+    "工作压力计算器",
+    "健康生活指数",
+    "职场健康评估"
+  ],
+  "category": "效率",
+  "icon": "⚖️",
+  "faqs": [],
+  "relatedTools": [
+    "daily-goal-tracker",
+    "time-blocking-scheduler"
+  ],
+  "variants": []
+}

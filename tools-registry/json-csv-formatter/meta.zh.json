@@ -1,0 +1,24 @@
+{
+  "slug": "json-csv-formatter",
+  "name": "JSON/CSV 格式化工具",
+  "tagline": "格式化、验证和转换 JSON 与 CSV",
+  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
+  "metaTitle": "JSON CSV 格式化工具 – 在线免费数据格式转换",
+  "metaDescription": "粘贴 JSON 或 CSV 数据，自动格式化、验证语法，并支持 JSON ↔ CSV 互转。",
+  "keywords": [
+    "JSON格式化",
+    "CSV转换工具",
+    "JSON验证器",
+    "JSON美化器",
+    "数据格式转换"
+  ],
+  "category": "开发",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": []
+}

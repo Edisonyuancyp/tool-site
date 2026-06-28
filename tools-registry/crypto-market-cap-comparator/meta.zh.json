@@ -1,0 +1,24 @@
+{
+  "slug": "crypto-market-cap-comparator",
+  "name": "加密货币市值对比器",
+  "tagline": "对比不同加密货币的市值规模",
+  "description": "The classic crypto 'what if' calculator. Select any two coins and instantly see the projected price if the first coin reached the second's market cap. Uses live CoinGecko data for 50+ top cryptocurrencies.",
+  "metaTitle": "加密货币市值对比器 – 在线加密市值比较工具",
+  "metaDescription": "输入两种加密货币，对比市值差异和价格潜力，了解如果市值相等价格会是多少。",
+  "keywords": [
+    "加密货币市值比较",
+    "比特币市值计算",
+    "加密货币对比工具",
+    "币价潜力计算",
+    "市值比较器"
+  ],
+  "category": "加密",
+  "icon": "🪙",
+  "faqs": [],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "position-size-calculator",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

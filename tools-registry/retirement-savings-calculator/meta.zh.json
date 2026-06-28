@@ -1,0 +1,30 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "退休储蓄计算器",
+  "tagline": "规划退休资金，测算是否够用",
+  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
+  "metaTitle": "退休储蓄计算器 – 退休规划工具",
+  "metaDescription": "输入年龄、储蓄额和预期支出，计算退休资金是否足够，需要每月存多少。",
+  "keywords": [
+    "退休储蓄计算器",
+    "退休规划",
+    "养老金计算",
+    "退休金计算器",
+    "养老规划"
+  ],
+  "category": "金融",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "退休需要存多少钱？",
+      "answer": "常见建议是退休前年收入的 25 倍（4% 提取率规则）。"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

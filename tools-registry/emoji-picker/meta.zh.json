@@ -1,0 +1,24 @@
+{
+  "slug": "emoji-picker",
+  "name": "Emoji 选择器",
+  "tagline": "搜索并复制任意 Emoji",
+  "description": "Find and copy any emoji instantly with keyword search. Browse all emoji categories: smileys, people, animals, food, travel, objects, symbols, and flags. Copy with one click.",
+  "metaTitle": "Emoji 选择器 – 在线 Emoji 搜索复制工具",
+  "metaDescription": "搜索任意 Emoji 并一键复制，支持按分类浏览所有表情符号。",
+  "keywords": [
+    "emoji选择器",
+    "表情符号复制",
+    "emoji搜索",
+    "在线emoji工具",
+    "表情包复制"
+  ],
+  "category": "工具",
+  "icon": "😊",
+  "faqs": [],
+  "relatedTools": [
+    "text-case-converter",
+    "word-counter",
+    "random-number-generator"
+  ],
+  "variants": []
+}

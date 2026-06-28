@@ -1,0 +1,23 @@
+{
+  "slug": "ingredient-substitution-calculator",
+  "name": "食材替换计算器",
+  "tagline": "找到食谱中缺少食材的替代品",
+  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
+  "metaTitle": "食材替换计算器 – 烹饪食材替代工具",
+  "metaDescription": "输入缺少的食材，获得可用于替换的替代品及比例建议。",
+  "keywords": [
+    "食材替换",
+    "烹饪替代品",
+    "食材替代计算",
+    "缺少食材怎么替换",
+    "烹饪替换工具"
+  ],
+  "category": "烹饪",
+  "icon": "🥄",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

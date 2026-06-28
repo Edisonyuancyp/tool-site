@@ -1,0 +1,30 @@
+{
+  "slug": "budget-calculator",
+  "name": "预算计算器",
+  "tagline": "制定月度预算，追踪收支平衡",
+  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
+  "metaTitle": "预算计算器 – 免费在线月度预算规划",
+  "metaDescription": "输入收入和各项支出，计算月度结余，帮助制定合理预算计划。",
+  "keywords": [
+    "预算计算器",
+    "月度预算",
+    "家庭预算",
+    "收支计算器",
+    "理财预算工具"
+  ],
+  "category": "金融",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "50/30/20 预算法则是什么？",
+      "answer": "50% 用于必需支出，30% 用于个人消费，20% 用于储蓄和还债。"
+    }
+  ],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

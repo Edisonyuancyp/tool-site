@@ -1,0 +1,24 @@
+{
+  "slug": "tp-sl-calculator",
+  "name": "止盈止损计算器",
+  "tagline": "计算交易的止盈止损价位",
+  "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
+  "metaTitle": "止盈止损计算器 – 交易 TP/SL 计算工具",
+  "metaDescription": "输入入场价格和风险参数，计算止盈（Take Profit）和止损（Stop Loss）价位，优化风险回报比。",
+  "keywords": [
+    "止盈止损计算器",
+    "TP SL计算器",
+    "交易止损计算",
+    "风险回报比计算",
+    "外汇止损工具"
+  ],
+  "category": "加密",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "position-size-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

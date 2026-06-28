@@ -1,0 +1,24 @@
+{
+  "slug": "base64-tool",
+  "name": "Base64 编码/解码工具",
+  "tagline": "在线 Base64 编码与解码",
+  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
+  "metaTitle": "Base64 编码解码工具 – 在线免费转换",
+  "metaDescription": "输入文本即可进行 Base64 编码或解码，支持文件和图片的 Base64 转换。",
+  "keywords": [
+    "Base64编码",
+    "Base64解码",
+    "Base64转换工具",
+    "在线Base64",
+    "编码解码工具"
+  ],
+  "category": "开发",
+  "icon": "🔐",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
+  "variants": []
+}

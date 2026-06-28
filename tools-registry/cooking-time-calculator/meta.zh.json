@@ -1,0 +1,23 @@
+{
+  "slug": "cooking-time-calculator",
+  "name": "烹饪时间计算器",
+  "tagline": "根据食材重量计算烹饪时间",
+  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
+  "metaTitle": "烹饪时间计算器 – 烤肉/烹饪时长计算工具",
+  "metaDescription": "输入食材重量和种类，计算推荐烹饪时间和温度，确保食物安全熟透。",
+  "keywords": [
+    "烹饪时间计算器",
+    "烤肉时间计算",
+    "食物烹饪时长",
+    "烹饪温度计算",
+    "烘焙时间计算"
+  ],
+  "category": "烹饪",
+  "icon": "⏲️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

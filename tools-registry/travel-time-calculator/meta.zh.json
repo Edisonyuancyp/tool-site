@@ -1,0 +1,20 @@
+{
+  "slug": "travel-time-calculator",
+  "name": "行程时间计算器",
+  "tagline": "估算旅行距离和时间",
+  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
+  "metaTitle": "行程时间计算器 – 驾车时间估算工具",
+  "metaDescription": "输入距离和速度，计算预计行驶时间；或输入出发和到达时间计算行驶速度。",
+  "keywords": [
+    "行程时间计算器",
+    "驾车时间计算",
+    "旅行时间估算",
+    "速度距离时间计算",
+    "公路行程计算"
+  ],
+  "category": "旅行",
+  "icon": "⏳",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

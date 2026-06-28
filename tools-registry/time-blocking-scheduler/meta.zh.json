@@ -1,0 +1,23 @@
+{
+  "slug": "time-blocking-scheduler",
+  "name": "时间块规划器",
+  "tagline": "规划每日时间块，提升专注效率",
+  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
+  "metaTitle": "时间块规划器 – 每日时间管理工具",
+  "metaDescription": "通过时间块规划法安排每日任务，减少干扰，提升深度工作效率。",
+  "keywords": [
+    "时间块规划",
+    "时间管理",
+    "深度工作计划",
+    "每日计划工具",
+    "效率提升工具"
+  ],
+  "category": "效率",
+  "icon": "🗓️",
+  "faqs": [],
+  "relatedTools": [
+    "task-priority-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

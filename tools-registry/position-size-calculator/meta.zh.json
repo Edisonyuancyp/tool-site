@@ -1,0 +1,29 @@
+{
+  "slug": "position-size-calculator",
+  "name": "仓位大小计算器",
+  "tagline": "根据风险管理计算最优仓位大小",
+  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
+  "metaTitle": "仓位大小计算器 – 交易风险管理工具",
+  "metaDescription": "输入账户资金、风险比例和止损点位，计算最优仓位大小，保护交易资金。",
+  "keywords": [
+    "仓位计算器",
+    "仓位大小计算",
+    "交易风险管理",
+    "止损仓位计算",
+    "外汇仓位计算"
+  ],
+  "category": "加密",
+  "icon": "📐",
+  "faqs": [
+    {
+      "question": "什么是仓位管理？",
+      "answer": "仓位管理是控制每笔交易风险的方法，通常建议每笔交易风险不超过账户资金的 1–2%。"
+    }
+  ],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

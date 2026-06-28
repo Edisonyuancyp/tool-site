@@ -1,0 +1,23 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "每日目标追踪器",
+  "tagline": "设定并追踪每日目标完成情况",
+  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
+  "metaTitle": "每日目标追踪器 – 目标完成度追踪工具",
+  "metaDescription": "设定每日目标，记录完成进度，建立良好习惯和执行力。",
+  "keywords": [
+    "每日目标追踪",
+    "目标管理工具",
+    "习惯追踪器",
+    "每日计划完成",
+    "目标达成计算"
+  ],
+  "category": "效率",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": []
+}

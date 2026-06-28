@@ -1,0 +1,30 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "债务还清计算器",
+  "tagline": "计算还清债务所需时间和利息",
+  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
+  "metaTitle": "债务还清计算器 – 免费还款计划工具",
+  "metaDescription": "输入债务余额、利率和月还款额，计算还清时间和总利息支出。",
+  "keywords": [
+    "债务还清计算器",
+    "还款计划",
+    "信用卡还款计算",
+    "债务计算器",
+    "还款利息计算"
+  ],
+  "category": "金融",
+  "icon": "💳",
+  "faqs": [
+    {
+      "question": "雪球法和雪崩法哪个更好？",
+      "answer": "雪崩法（先还高利率债务）省利息最多；雪球法（先还小额债务）心理激励更强。"
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

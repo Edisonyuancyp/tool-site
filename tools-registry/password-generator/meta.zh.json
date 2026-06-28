@@ -1,0 +1,32 @@
+{
+  "slug": "password-generator",
+  "name": "密码生成器",
+  "tagline": "生成安全的随机密码",
+  "description": "Create strong random passwords with custom length and character sets. Choose uppercase, lowercase, numbers, and symbols. Copy with one click.",
+  "metaTitle": "密码生成器 – 免费在线随机密码生成",
+  "metaDescription": "生成强随机密码，支持自定义长度、大小写字母、数字和特殊符号。100% 本地运行，密码不上传。",
+  "keywords": [
+    "密码生成器",
+    "随机密码生成",
+    "强密码生成器",
+    "安全密码",
+    "密码创建工具"
+  ],
+  "category": "安全",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "密码会被保存吗？",
+      "answer": "不会。所有密码生成完全在浏览器本地完成，不上传任何数据。"
+    },
+    {
+      "question": "密码长度建议多少？",
+      "answer": "建议至少 16 位，使用大小写字母、数字和特殊符号的组合。"
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "random-number-generator"
+  ],
+  "variants": []
+}

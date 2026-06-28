@@ -1,0 +1,24 @@
+{
+  "slug": "random-number-generator",
+  "name": "随机数生成器",
+  "tagline": "生成指定范围内的随机整数",
+  "description": "Generate cryptographically random numbers in any range. Single number, list of numbers, dice roller, coin flip, and random item picker — all in one free tool.",
+  "metaTitle": "随机数生成器 – 在线免费随机数生成",
+  "metaDescription": "设置最小值和最大值，生成随机整数。支持批量生成和排除重复。",
+  "keywords": [
+    "随机数生成器",
+    "随机数工具",
+    "在线随机数",
+    "抽签工具",
+    "随机整数生成"
+  ],
+  "category": "生成器",
+  "icon": "🎲",
+  "faqs": [],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
+  "variants": []
+}

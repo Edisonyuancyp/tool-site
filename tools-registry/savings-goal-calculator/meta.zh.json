@@ -1,0 +1,23 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "储蓄目标计算器",
+  "tagline": "计算达到储蓄目标所需时间和月存款额",
+  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
+  "metaTitle": "储蓄目标计算器 – 理财目标规划工具",
+  "metaDescription": "输入目标金额、当前储蓄和利率，计算每月需存多少钱以及何时能达成目标。",
+  "keywords": [
+    "储蓄目标计算器",
+    "存钱计划工具",
+    "理财目标规划",
+    "每月存款计算",
+    "储蓄计划"
+  ],
+  "category": "金融",
+  "icon": "🏦",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

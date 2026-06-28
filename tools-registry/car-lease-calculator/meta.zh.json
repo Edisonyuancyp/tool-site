@@ -1,0 +1,28 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "汽车租赁计算器",
+  "tagline": "计算汽车租赁月供和总费用",
+  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
+  "metaTitle": "汽车租赁计算器 – 在线租车费用计算",
+  "metaDescription": "输入车辆价格、残值、利率和租期，计算每月租赁费用。",
+  "keywords": [
+    "汽车租赁计算器",
+    "租车月供计算",
+    "车辆租赁费用",
+    "汽车融资计算",
+    "lease计算器"
+  ],
+  "category": "金融",
+  "icon": "🚗",
+  "faqs": [
+    {
+      "question": "租赁和购车哪个更划算？",
+      "answer": "租赁月供低但没有产权；购车长期更划算。取决于使用年限和里程需求。"
+    }
+  ],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

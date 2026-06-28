@@ -1,0 +1,54 @@
+{
+  "slug": "bmi-calculator",
+  "name": "BMI 计算器",
+  "tagline": "即时计算您的身体质量指数",
+  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
+  "metaTitle": "BMI 计算器 – 免费在线体质指数计算",
+  "metaDescription": "输入身高和体重，立即获得 BMI 值及体重分类（偏轻/正常/超重/肥胖）。免费，无需注册。",
+  "keywords": [
+    "BMI计算器",
+    "体质指数计算",
+    "身体质量指数",
+    "BMI计算",
+    "在线BMI"
+  ],
+  "category": "健康",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "BMI 是什么？",
+      "answer": "BMI（身体质量指数）= 体重(kg) ÷ 身高(m)²，用于评估体重是否健康。"
+    },
+    {
+      "question": "正常 BMI 范围是多少？",
+      "answer": "18.5–24.9 为正常，低于 18.5 为偏轻，25–29.9 为超重，30 以上为肥胖。"
+    },
+    {
+      "question": "BMI 对所有人都准确吗？",
+      "answer": "BMI 是筛查工具，不直接测量体脂。对运动员或老年人可能不够准确。"
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "bmi-calculator-for-women",
+      "metaTitle": "女性 BMI 计算器",
+      "metaDesc": "专为女性设计的 BMI 计算器，参考女性体脂标准解读结果。"
+    },
+    {
+      "variantSlug": "bmi-calculator-imperial",
+      "metaTitle": "英制 BMI 计算器（磅/英尺）",
+      "metaDesc": "使用磅和英尺/英寸计算 BMI，无需单位换算。"
+    },
+    {
+      "variantSlug": "bmi-calculator-for-kids",
+      "metaTitle": "儿童 BMI 计算器",
+      "metaDesc": "适用于 2–19 岁儿童的 BMI 计算器，基于 CDC 生长曲线百分位数解读。"
+    }
+  ]
+}

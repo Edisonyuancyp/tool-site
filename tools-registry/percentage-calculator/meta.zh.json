@@ -1,0 +1,33 @@
+{
+  "slug": "percentage-calculator",
+  "name": "百分比计算器",
+  "tagline": "快速计算百分比、增减幅度",
+  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
+  "metaTitle": "百分比计算器 – 在线免费百分比计算",
+  "metaDescription": "计算百分比、百分比增减、某数是另一数的百分之几等多种百分比问题。",
+  "keywords": [
+    "百分比计算器",
+    "百分比计算",
+    "涨幅计算器",
+    "折扣计算器",
+    "比例计算"
+  ],
+  "category": "金融",
+  "icon": "%",
+  "faqs": [
+    {
+      "question": "如何计算百分比？",
+      "answer": "百分比 = (部分 ÷ 总量) × 100%。"
+    },
+    {
+      "question": "如何计算涨幅？",
+      "answer": "涨幅 = (新值 - 旧值) ÷ 旧值 × 100%。"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

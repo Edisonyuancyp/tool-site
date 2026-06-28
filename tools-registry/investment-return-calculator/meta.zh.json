@@ -1,0 +1,30 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "投资回报计算器",
+  "tagline": "计算投资的年化收益率和总回报",
+  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
+  "metaTitle": "投资回报计算器 – 在线 ROI 计算",
+  "metaDescription": "输入初始投资、最终价值和持有期限，计算年化收益率（CAGR）和总回报。",
+  "keywords": [
+    "投资回报计算器",
+    "ROI计算器",
+    "年化收益率计算",
+    "CAGR计算器",
+    "投资收益"
+  ],
+  "category": "金融",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "什么是 CAGR？",
+      "answer": "CAGR（复合年增长率）是投资在一段时间内每年平均增长的速率。"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

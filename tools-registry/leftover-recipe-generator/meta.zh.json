@@ -1,0 +1,23 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "剩菜食谱生成器",
+  "tagline": "根据剩余食材生成新菜谱",
+  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
+  "metaTitle": "剩菜食谱生成器 – 剩余食材菜谱工具",
+  "metaDescription": "输入冰箱里的剩余食材，获得可以烹饪的菜谱建议，减少食物浪费。",
+  "keywords": [
+    "剩菜食谱",
+    "剩余食材菜谱",
+    "减少食物浪费",
+    "食材菜谱生成",
+    "剩饭菜创意"
+  ],
+  "category": "烹饪",
+  "icon": "🥡",
+  "faqs": [],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": []
+}

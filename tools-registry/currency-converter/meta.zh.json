@@ -1,0 +1,33 @@
+{
+  "slug": "currency-converter",
+  "name": "货币转换器",
+  "tagline": "实时汇率换算",
+  "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
+  "metaTitle": "货币转换器 – 在线实时汇率计算",
+  "metaDescription": "支持 150+ 种货币的实时汇率换算。人民币、美元、欧元、日元等一键转换。",
+  "keywords": [
+    "货币转换器",
+    "汇率计算器",
+    "外汇换算",
+    "人民币换算",
+    "在线汇率"
+  ],
+  "category": "金融",
+  "icon": "💱",
+  "faqs": [
+    {
+      "question": "汇率实时更新吗？",
+      "answer": "是的，汇率数据来自公开 API，每日更新。"
+    },
+    {
+      "question": "支持哪些货币？",
+      "answer": "支持 150+ 种主要货币，包括人民币(CNY)、美元(USD)、欧元(EUR)等。"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "复利计算器",
+  "tagline": "计算投资的复利增长",
+  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
+  "metaTitle": "复利计算器 – 在线免费复利计算",
+  "metaDescription": "输入本金、利率、期限和复利频率，立即计算最终金额和利息收益。",
+  "keywords": [
+    "复利计算器",
+    "复利计算",
+    "投资收益计算器",
+    "复息计算",
+    "理财计算器"
+  ],
+  "category": "金融",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "什么是复利？",
+      "answer": "复利是指利息也产生利息，本金和之前的利息一起产生新的收益。"
+    },
+    {
+      "question": "复利频率越高越好吗？",
+      "answer": "是的，复利越频繁（日复利 > 月复利 > 年复利），最终金额越多。"
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

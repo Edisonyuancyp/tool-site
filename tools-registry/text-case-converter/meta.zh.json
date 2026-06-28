@@ -1,0 +1,24 @@
+{
+  "slug": "text-case-converter",
+  "name": "文字大小写转换器",
+  "tagline": "在线转换文本大小写格式",
+  "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
+  "metaTitle": "文字大小写转换器 – 在线文本格式转换",
+  "metaDescription": "一键转换文本为大写、小写、标题格式、驼峰命名等多种格式。",
+  "keywords": [
+    "大小写转换器",
+    "文本格式转换",
+    "驼峰命名转换",
+    "标题格式化",
+    "文字转换工具"
+  ],
+  "category": "工具",
+  "icon": "🔤",
+  "faqs": [],
+  "relatedTools": [
+    "word-counter",
+    "diff-checker",
+    "emoji-picker"
+  ],
+  "variants": []
+}

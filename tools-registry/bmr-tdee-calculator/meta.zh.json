@@ -1,0 +1,29 @@
+{
+  "slug": "bmr-tdee-calculator",
+  "name": "基础代谢率计算器",
+  "tagline": "计算 BMR 和每日总能量消耗 TDEE",
+  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
+  "metaTitle": "BMR/TDEE 计算器 – 基础代谢率与热量需求计算",
+  "metaDescription": "计算基础代谢率（BMR）和总能量消耗（TDEE），帮助制定减肥或增肌饮食计划。",
+  "keywords": [
+    "BMR计算器",
+    "TDEE计算器",
+    "基础代谢率计算",
+    "每日热量需求",
+    "卡路里计算器"
+  ],
+  "category": "健康",
+  "icon": "🔥",
+  "faqs": [
+    {
+      "question": "BMR 和 TDEE 的区别？",
+      "answer": "BMR 是完全静止状态的热量消耗；TDEE = BMR × 活动系数，是实际每日总消耗。"
+    }
+  ],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
+  "variants": []
+}

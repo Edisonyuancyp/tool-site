@@ -1,0 +1,23 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "任务优先级计算器",
+  "tagline": "使用艾森豪威尔矩阵排列任务优先级",
+  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
+  "metaTitle": "任务优先级计算器 – 时间管理工具",
+  "metaDescription": "通过紧急性和重要性对任务进行评分，生成优先处理顺序，提升工作效率。",
+  "keywords": [
+    "任务优先级",
+    "时间管理工具",
+    "艾森豪威尔矩阵",
+    "工作效率计算器",
+    "待办事项排序"
+  ],
+  "category": "效率",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": []
+}

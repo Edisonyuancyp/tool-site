@@ -1,0 +1,24 @@
+{
+  "slug": "unix-timestamp-converter",
+  "name": "Unix 时间戳转换器",
+  "tagline": "Unix 时间戳与可读日期时间互转",
+  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
+  "metaTitle": "Unix 时间戳转换器 – 在线时间戳转日期",
+  "metaDescription": "输入 Unix 时间戳转换为可读日期时间，或输入日期时间转换为时间戳。支持毫秒和秒。",
+  "keywords": [
+    "Unix时间戳转换",
+    "时间戳转日期",
+    "时间戳计算器",
+    "epoch时间转换",
+    "时间戳工具"
+  ],
+  "category": "开发",
+  "icon": "⏱️",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}
