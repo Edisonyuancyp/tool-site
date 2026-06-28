@@ -1085,6 +1085,40 @@ export const tools: ToolMeta[] = [
     ],
     relatedTools: ["kelly-criterion-calculator", "position-size-calculator", "risk-calculator"],
   },
+  {
+    slug: "crypto-chart-analyzer",
+    name: "Crypto Chart Analyzer",
+    tagline: "Candlestick chart with EMA, SMA, RSI & Bollinger Bands — runs in your browser",
+    description:
+      "A lightweight TradingView-style chart tool that fetches free public OHLC data for any major crypto and renders candlestick charts with EMA, SMA, RSI, and Bollinger Bands — fully browser-based, no server required.",
+    metaTitle: "Crypto Chart Analyzer – Free Candlestick Chart with Technical Indicators",
+    metaDescription:
+      "Free crypto candlestick chart with EMA, SMA, RSI, and Bollinger Bands. Runs 100% in your browser. No signup, no server — just select a coin and timeframe.",
+    keywords: [
+      "crypto chart analyzer",
+      "candlestick chart tool",
+      "bitcoin chart online",
+      "free trading chart",
+      "ema sma rsi calculator",
+      "bollinger bands chart",
+      "crypto technical analysis",
+    ],
+    category: "Quant",
+    icon: "🕯️",
+    faqs: [
+      {
+        question: "Does this tool use a server?",
+        answer:
+          "No. All chart rendering and indicator calculations happen in your browser using Canvas API. Price data is fetched directly from CoinGecko's public API.",
+      },
+      {
+        question: "What indicators are supported?",
+        answer:
+          "EMA (Exponential Moving Average), SMA (Simple Moving Average), RSI (Relative Strength Index), and Bollinger Bands (20-period, 2 std dev).",
+      },
+    ],
+    relatedTools: ["kelly-criterion-calculator", "sharpe-ratio-calculator", "position-size-calculator"],
+  },
 ];
 
 export function getToolBySlug(slug: string): ToolMeta | undefined {

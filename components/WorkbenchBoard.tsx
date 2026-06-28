@@ -25,10 +25,10 @@ const PRESET_BOARDS = [
     emoji: "📈",
     desc: "量化交易风控计算套装",
     slugs: [
+      "crypto-chart-analyzer",
       "position-size-calculator",
       "kelly-criterion-calculator",
       "sharpe-ratio-calculator",
-      "risk-calculator",
       "tp-sl-calculator",
     ],
     sizes: ["large", "medium", "medium", "medium", "small"] as BoardWidgetSize[],
