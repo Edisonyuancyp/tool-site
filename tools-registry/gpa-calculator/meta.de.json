@@ -1,0 +1,24 @@
+{
+  "slug": "gpa-calculator",
+  "name": "Notenrechner (GPA)",
+  "tagline": "Notendurchschnitt berechnen",
+  "description": "Calculate your GPA (Grade Point Average) from letter grades, percentages, or grade points. Supports 4.0 scale, weighted GPA, and cumulative GPA calculation.",
+  "metaTitle": "Notenrechner – Kostenloses Online-GPA-Berechnungstool",
+  "metaDescription": "Fach-Credits und Noten eingeben und gewichteten GPA automatisch berechnen. Unterstützt 4,0-Skala.",
+  "keywords": [
+    "Notenrechner",
+    "GPA berechnen",
+    "Notendurchschnitt berechnen",
+    "Schulnoten berechnen",
+    "Studium Noten"
+  ],
+  "category": "Werkzeuge",
+  "icon": "🎓",
+  "faqs": [],
+  "relatedTools": [
+    "percentage-calculator",
+    "age-calculator",
+    "word-counter"
+  ],
+  "variants": []
+}

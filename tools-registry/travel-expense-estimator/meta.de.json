@@ -1,0 +1,20 @@
+{
+  "slug": "travel-expense-estimator",
+  "name": "Reisekostenschätzer",
+  "tagline": "Gesamtreisebudget und Pro-Kopf-Kosten schätzen",
+  "description": "Calculate your total travel expenses by entering your destination, travel mode, duration, and daily expenses. Perfect for budget-conscious travelers planning their next trip.",
+  "metaTitle": "Reisekostenschätzer – Reisebudget-Planungstool",
+  "metaDescription": "Transport-, Unterkunfts-, Verpflegungs- und Aktivitätskosten eingeben und Gesamtreisebudget sowie Pro-Kopf-Kosten schätzen.",
+  "keywords": [
+    "Reisekostenschätzer",
+    "Reisebudget Rechner",
+    "Reisekosten berechnen",
+    "Urlaubskosten planen",
+    "Reisekostenplanung"
+  ],
+  "category": "Reise",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

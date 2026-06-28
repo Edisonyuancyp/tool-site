@@ -1,0 +1,25 @@
+{
+  "slug": "investment-return-calculator",
+  "name": "Investitionsrenditerechner",
+  "tagline": "Jährliche Rendite und Gesamtertrag berechnen",
+  "description": "Enter your initial investment, annual return rate, and time period to calculate future value, total return, ROI, and CAGR. Supports optional monthly contributions. Works for stocks, real estate, ETFs, and savings accounts.",
+  "metaTitle": "Investitionsrenditerechner – Online-ROI-Rechner",
+  "metaDescription": "Anfangsinvestition, Endwert und Haltedauer eingeben und die annualisierte Rendite (CAGR) und den Gesamtertrag berechnen.",
+  "keywords": [
+    "Investitionsrenditerechner",
+    "ROI-Rechner",
+    "CAGR berechnen",
+    "Jährliche Rendite",
+    "Anlagerendite"
+  ],
+  "category": "Finanzen",
+  "icon": "📈",
+  "faqs": [],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "retirement-savings-calculator",
+    "percentage-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

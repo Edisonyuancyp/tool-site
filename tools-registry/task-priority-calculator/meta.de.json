@@ -1,0 +1,23 @@
+{
+  "slug": "task-priority-calculator",
+  "name": "Aufgaben-Priorisierungsrechner",
+  "tagline": "Aufgaben mit der Eisenhower-Matrix priorisieren",
+  "description": "This tool helps you prioritize your daily tasks based on urgency and importance. Ideal for professionals and students looking to optimize their to-do lists.",
+  "metaTitle": "Aufgaben-Priorisierungsrechner – Zeitmanagement-Tool",
+  "metaDescription": "Aufgaben nach Dringlichkeit und Wichtigkeit bewerten, Prioritätenreihenfolge automatisch ermitteln und Arbeitseffizienz steigern.",
+  "keywords": [
+    "Aufgabenpriorisierung",
+    "Zeitmanagement Tool",
+    "Eisenhower Matrix",
+    "Produktivität Rechner",
+    "Aufgabenverwaltung"
+  ],
+  "category": "Produktivität",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "time-tracking-tool"
+  ],
+  "variants": []
+}

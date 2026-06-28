@@ -1,0 +1,24 @@
+{
+  "slug": "bmr-tdee-calculator",
+  "name": "Grundumsatzrechner (BMR/TDEE)",
+  "tagline": "Grundumsatz und täglichen Kalorienbedarf berechnen",
+  "description": "Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE) using Mifflin-St Jeor, Harris-Benedict, and Katch-McArdle formulas. Shows calorie targets for cutting, maintaining, and bulking with macro breakdown.",
+  "metaTitle": "BMR/TDEE-Rechner – Grundumsatz und Kalorienbedarf berechnen",
+  "metaDescription": "Grundumsatz (BMR) und Gesamtenergieverbrauch (TDEE) berechnen für Diät- und Muskelaufbau-Ernährungsplanung.",
+  "keywords": [
+    "Grundumsatzrechner",
+    "BMR berechnen",
+    "TDEE berechnen",
+    "Kalorienbedarf berechnen",
+    "Tageskalorienbedarf"
+  ],
+  "category": "Gesundheit",
+  "icon": "🔥",
+  "faqs": [],
+  "relatedTools": [
+    "body-fat-calculator",
+    "ideal-weight-calculator",
+    "water-intake-calculator"
+  ],
+  "variants": []
+}

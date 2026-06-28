@@ -1,0 +1,23 @@
+{
+  "slug": "finance-charge-calculator",
+  "name": "Finanzgebührenrechner",
+  "tagline": "Kreditkarten- oder Kreditfinanzierungskosten berechnen",
+  "description": "This tool helps users calculate the finance charges on loans and credit cards based on their outstanding balances and interest rates. Perfect for anyone looking to understand their borrowing costs and manage their finances better.",
+  "metaTitle": "Finanzgebührenrechner – Zinskosten-Berechnungstool",
+  "metaDescription": "Monatliche Finanzgebühren und APR-Zinsen für Kreditkartensalden oder Kredite berechnen.",
+  "keywords": [
+    "Finanzgebühren Rechner",
+    "Kreditkartenzinsen berechnen",
+    "APR-Rechner",
+    "Zinskosten berechnen",
+    "Monatszinsen"
+  ],
+  "category": "Finanzen",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "debt-repayment-calculator"
+  ],
+  "variants": []
+}

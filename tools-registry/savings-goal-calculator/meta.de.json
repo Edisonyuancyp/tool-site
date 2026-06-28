@@ -1,0 +1,23 @@
+{
+  "slug": "savings-goal-calculator",
+  "name": "Sparzielrechner",
+  "tagline": "Zeit und monatliche Sparrate für dein Ziel berechnen",
+  "description": "This calculator assists users in setting savings goals and determining how much to save each month to reach that goal. Ideal for anyone planning for a vacation, a major purchase, or building an emergency fund.",
+  "metaTitle": "Sparzielrechner – Finanzplanungs-Tool für Sparziele",
+  "metaDescription": "Zielbetrag, aktuelles Erspartes und Zinssatz eingeben und berechnen, wie viel du monatlich sparen musst.",
+  "keywords": [
+    "Sparzielrechner",
+    "Sparplan berechnen",
+    "Monatliche Sparrate",
+    "Finanzplanung",
+    "Sparziel erreichen"
+  ],
+  "category": "Finanzen",
+  "icon": "🏦",
+  "faqs": [],
+  "relatedTools": [
+    "budget-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "running-pace-calculator",
+  "name": "Lauftemprechner",
+  "tagline": "Lauftempo, Geschwindigkeit und Zielzeit berechnen",
+  "description": "Calculate your running pace per km or mile, convert between pace and speed, and estimate your finish time for any race distance.",
+  "metaTitle": "Lauftemprechner – Marathon-Tempo-Berechnungstool",
+  "metaDescription": "Distanz und Zeit eingeben und Tempo berechnen; oder Tempo eingeben und Zielzeit vorhersagen. 5K, 10K, Halbmarathon, Marathon.",
+  "keywords": [
+    "Lauftemprechner",
+    "Marathon Tempo",
+    "Lauftempo berechnen",
+    "Laufgeschwindigkeit",
+    "Zielzeit Marathon"
+  ],
+  "category": "Gesundheit",
+  "icon": "🏃",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

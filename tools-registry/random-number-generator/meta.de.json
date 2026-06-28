@@ -1,0 +1,24 @@
+{
+  "slug": "random-number-generator",
+  "name": "Zufallszahlengenerator",
+  "tagline": "Zufällige ganze Zahlen in einem angegebenen Bereich generieren",
+  "description": "Generate cryptographically random numbers in any range. Single number, list of numbers, dice roller, coin flip, and random item picker — all in one free tool.",
+  "metaTitle": "Zufallszahlengenerator – Kostenloses Online-Zufallszahlengenerierungstool",
+  "metaDescription": "Minimum und Maximum festlegen und zufällige ganze Zahlen generieren. Stapelgenerierung und Duplikatausschluss unterstützt.",
+  "keywords": [
+    "Zufallszahlengenerator",
+    "Zufallszahl generieren",
+    "Online Zufallszahl",
+    "Losziehung Tool",
+    "Zufällige ganze Zahl"
+  ],
+  "category": "Generatoren",
+  "icon": "🎲",
+  "faqs": [],
+  "relatedTools": [
+    "password-generator",
+    "emoji-picker",
+    "base-converter"
+  ],
+  "variants": []
+}

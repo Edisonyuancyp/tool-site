@@ -1,0 +1,24 @@
+{
+  "slug": "holiday-calculator",
+  "name": "Feiertagsrechner",
+  "tagline": "Feiertage und Werktage ermitteln",
+  "description": "Browse public holidays for 20+ countries. Find the next upcoming holiday, calculate how many days until it, and see all holidays for the current and next year. No login required.",
+  "metaTitle": "Feiertagsrechner – Feiertage und Arbeitstage berechnen",
+  "metaDescription": "Anzahl der Arbeitstage, Wochenenden und Feiertage zwischen zwei Daten berechnen.",
+  "keywords": [
+    "Feiertagsrechner",
+    "Arbeitstage berechnen",
+    "Feiertage ermitteln",
+    "Urlaubstage zählen",
+    "Datumsrechner"
+  ],
+  "category": "Datum & Uhrzeit",
+  "icon": "🎉",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "unix-timestamp-converter",
+    "sleep-calculator"
+  ],
+  "variants": []
+}

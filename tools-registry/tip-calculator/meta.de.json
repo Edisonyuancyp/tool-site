@@ -1,0 +1,29 @@
+{
+  "slug": "tip-calculator",
+  "name": "Trinkgeldrechner",
+  "tagline": "Trinkgeld und Rechnungsteilung schnell berechnen",
+  "description": "Enter your bill total, tip percentage, and number of people to instantly calculate tip per person and total per person. Supports custom tip percentages.",
+  "metaTitle": "Trinkgeldrechner – Kostenloser Online-Trinkgeldrechner",
+  "metaDescription": "Gib den Rechnungsbetrag und den Trinkgeldsatz ein und berechne automatisch Trinkgeld und Betrag pro Person.",
+  "keywords": [
+    "Trinkgeldrechner",
+    "Rechnungsteilung",
+    "Restaurant Trinkgeld",
+    "Trinkgeld berechnen",
+    "Rechnung aufteilen"
+  ],
+  "category": "Finanzen",
+  "icon": "🍽️",
+  "faqs": [
+    {
+      "question": "Wie viel Trinkgeld ist üblich?",
+      "answer": "In Deutschland sind 5–10 % üblich. In den USA sind 15–20 % Standard."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter",
+    "compound-interest-calculator"
+  ],
+  "variants": []
+}

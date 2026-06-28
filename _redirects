@@ -1,7 +1,5 @@
-# de/pt locale pages — redirect to English (no translations yet)
-/de/tools/:slug  /tools/calc/:slug  302
+# pt locale pages — redirect to English (no translations yet)
 /pt/tools/:slug  /tools/calc/:slug  302
-/de              /                  302
 /pt              /                  302
 
 /* /404.html 404

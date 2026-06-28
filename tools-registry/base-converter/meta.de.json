@@ -1,0 +1,24 @@
+{
+  "slug": "base-converter",
+  "name": "Zahlensystem-Konverter",
+  "tagline": "Binär, Oktal, Dezimal, Hexadezimal umrechnen",
+  "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
+  "metaTitle": "Zahlensystem-Konverter – Online Binär/Hex-Konverter",
+  "metaDescription": "Zahlensystem-Konvertierung von Basis 2–64. Binär, Oktal, Dezimal, Hexadezimal, Base58 und mehr.",
+  "keywords": [
+    "Zahlensystem Konverter",
+    "Binär umrechnen",
+    "Hexadezimal Rechner",
+    "Oktal berechnen",
+    "Zahlenbasis Konverter"
+  ],
+  "category": "Entwicklung",
+  "icon": "🔢",
+  "faqs": [],
+  "relatedTools": [
+    "base64-tool",
+    "unix-timestamp-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

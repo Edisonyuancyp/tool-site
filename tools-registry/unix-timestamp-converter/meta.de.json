@@ -1,0 +1,24 @@
+{
+  "slug": "unix-timestamp-converter",
+  "name": "Unix-Zeitstempel-Konverter",
+  "tagline": "Unix-Zeitstempel und Datum/Uhrzeit umrechnen",
+  "description": "Convert Unix epoch timestamps to formatted dates and vice versa. Supports seconds and milliseconds, 12+ timezones, ISO 8601 output, relative time, and a live real-time clock.",
+  "metaTitle": "Unix-Zeitstempel-Konverter – Online Zeitstempel-Konvertierungstool",
+  "metaDescription": "Unix-Zeitstempel in lesbare Datum/Uhrzeit umwandeln oder Datum/Uhrzeit in Zeitstempel konvertieren. Sekunden und Millisekunden unterstützt.",
+  "keywords": [
+    "Unix Zeitstempel",
+    "Zeitstempel konvertieren",
+    "Epoch Zeit Konverter",
+    "Datum Zeitstempel",
+    "Zeitstempel Tool"
+  ],
+  "category": "Entwicklung",
+  "icon": "⏱️",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "json-csv-formatter"
+  ],
+  "variants": []
+}

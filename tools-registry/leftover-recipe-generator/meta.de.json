@@ -1,0 +1,23 @@
+{
+  "slug": "leftover-recipe-generator",
+  "name": "Resteverwertungs-Rezeptgenerator",
+  "tagline": "Aus Resten neue Rezepte erstellen",
+  "description": "Input the leftovers you have, and get creative recipe ideas to use them up. Perfect for reducing food waste and maximizing your pantry.",
+  "metaTitle": "Resteverwertungs-Rezeptgenerator – Restezutaten Rezept-Tool",
+  "metaDescription": "Vorhandene Reste eingeben und Koch­rezept-Vorschläge erhalten, um Lebensmittelverschwendung zu reduzieren.",
+  "keywords": [
+    "Reste Rezepte",
+    "Resteverwertung",
+    "Kühlschrank Rezept",
+    "Lebensmittelverschwendung reduzieren",
+    "Resto Ideen"
+  ],
+  "category": "Kochen",
+  "icon": "🥡",
+  "faqs": [],
+  "relatedTools": [
+    "cooking-time-calculator",
+    "ingredient-substitution-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "sleep-calculator",
+  "name": "Schlafrechner",
+  "tagline": "Optimale Schlaf- und Aufwachzeiten berechnen",
+  "description": "Calculate the best bedtime or wake-up time based on 90-minute sleep cycles. Waking up between cycles feels more refreshing than being jolted awake mid-cycle.",
+  "metaTitle": "Schlafrechner – Schlafzyklen-Berechnungstool",
+  "metaDescription": "Weckzeit eingeben und optimale Schlafenszeit basierend auf 90-Minuten-Schlafzyklen berechnen – oder umgekehrt.",
+  "keywords": [
+    "Schlafrechner",
+    "Schlafzyklus berechnen",
+    "Optimale Aufwachzeit",
+    "Einschlafzeit berechnen",
+    "Schlafqualität"
+  ],
+  "category": "Gesundheit",
+  "icon": "😴",
+  "faqs": [
+    {
+      "question": "Wie lang ist ein Schlafzyklus?",
+      "answer": "Ein vollständiger Schlafzyklus dauert etwa 90 Minuten und umfasst Leicht-, Tief- und REM-Schlaf."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

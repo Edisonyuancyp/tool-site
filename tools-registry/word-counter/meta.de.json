@@ -1,0 +1,23 @@
+{
+  "slug": "word-counter",
+  "name": "Wörter zählen",
+  "tagline": "Wörter, Zeichen und Lesezeit messen",
+  "description": "Paste your text to instantly count words, characters, sentences, paragraphs, and estimated reading time. Useful for essays, articles, SEO content, and social media posts.",
+  "metaTitle": "Wörter zählen – Kostenloses Online-Wort- und Zeichenzähler-Tool",
+  "metaDescription": "Text einfügen und sofort Wörter, Zeichen, Sätze und geschätzte Lesezeit in Echtzeit messen.",
+  "keywords": [
+    "Wörter zählen",
+    "Zeichenzähler",
+    "Online Wörter zählen",
+    "Textzähler",
+    "Lesezeit berechnen"
+  ],
+  "category": "Werkzeuge",
+  "icon": "📝",
+  "faqs": [],
+  "relatedTools": [
+    "text-case-converter",
+    "diff-checker"
+  ],
+  "variants": []
+}

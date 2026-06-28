@@ -1,0 +1,24 @@
+{
+  "slug": "tp-sl-calculator",
+  "name": "Take-Profit/Stop-Loss-Rechner",
+  "tagline": "Take-Profit- und Stop-Loss-Preisniveaus berechnen",
+  "description": "Enter your entry price, leverage, and margin to instantly calculate PnL for up to 3 take-profit levels and a stop loss. Shows Risk:Reward ratio and estimated liquidation price. Works for both long and short positions.",
+  "metaTitle": "Take-Profit/Stop-Loss-Rechner – TP/SL-Berechnungstool",
+  "metaDescription": "Einstiegspreis und Risikoparameter eingeben und Take-Profit (TP) und Stop-Loss (SL) Preisniveaus mit Risiko-Ertrags-Verhältnis berechnen.",
+  "keywords": [
+    "Take Profit Stop Loss Rechner",
+    "TP SL Rechner",
+    "Trading Stop Loss",
+    "Risiko Ertrag berechnen",
+    "Forex Stop Loss"
+  ],
+  "category": "Krypto",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "position-size-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "tax-calculator",
+  "name": "Steuerrechner",
+  "tagline": "Steuerlast schnell schätzen",
+  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
+  "metaTitle": "Steuerrechner – Kostenloses Online-Steuerberechnungstool",
+  "metaDescription": "Einkommen und Steuersatz eingeben und sofort Steuerbetrag und Nettoeinkommen berechnen.",
+  "keywords": [
+    "Steuerrechner",
+    "Einkommensteuer berechnen",
+    "Steuersatz berechnen",
+    "Steuerlast berechnen",
+    "Nettoeinkommen"
+  ],
+  "category": "Finanzen",
+  "icon": "🧾",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "retirement-savings-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

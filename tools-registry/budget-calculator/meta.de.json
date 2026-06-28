@@ -1,0 +1,25 @@
+{
+  "slug": "budget-calculator",
+  "name": "Haushaltsrechner",
+  "tagline": "Monatsbudget erstellen und Einnahmen/Ausgaben verwalten",
+  "description": "Enter your monthly income and expenses to get an instant budget breakdown. See how your spending compares to the 50/30/20 rule — 50% needs, 30% wants, 20% savings. Free, no signup.",
+  "metaTitle": "Haushaltsrechner – Kostenloses Online-Budgetplanungs-Tool",
+  "metaDescription": "Einnahmen und Ausgaben eingeben, monatlichen Überschuss berechnen und einen sinnvollen Budgetplan erstellen.",
+  "keywords": [
+    "Haushaltsrechner",
+    "Monatsbudget",
+    "Haushaltsbudget",
+    "Einnahmen Ausgaben Rechner",
+    "Budgetverwaltung"
+  ],
+  "category": "Finanzen",
+  "icon": "📊",
+  "faqs": [],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "tax-calculator",
+    "compound-interest-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "position-size-calculator",
+  "name": "Positionsgröße-Rechner",
+  "tagline": "Optimale Positionsgröße basierend auf Risikomanagement berechnen",
+  "description": "Input your account size, risk percentage per trade, entry price, stop loss, and leverage to calculate the exact position size in USD and number of units. Includes fee adjustment and risk level warnings.",
+  "metaTitle": "Positionsgröße-Rechner – Trading-Risikomanagement-Tool",
+  "metaDescription": "Kontokapital, Risikoprozentsatz und Stop-Loss eingeben und optimale Positionsgröße berechnen.",
+  "keywords": [
+    "Positionsgröße Rechner",
+    "Positionsgröße berechnen",
+    "Trading Risikomanagement",
+    "Stop-Loss Position",
+    "Forex Positionsgröße"
+  ],
+  "category": "Krypto",
+  "icon": "📐",
+  "faqs": [],
+  "relatedTools": [
+    "tp-sl-calculator",
+    "compound-interest-calculator",
+    "crypto-market-cap-comparator"
+  ],
+  "variants": []
+}

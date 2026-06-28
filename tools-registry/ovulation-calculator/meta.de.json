@@ -1,0 +1,24 @@
+{
+  "slug": "ovulation-calculator",
+  "name": "Eisprungrechner",
+  "tagline": "Eisprung und fruchtbare Tage berechnen",
+  "description": "Calculate your fertile window, ovulation date, period dates, and cycle phases for up to 6 future cycles. All calculations run entirely in your browser — no data is sent to any server.",
+  "metaTitle": "Eisprungrechner – Kostenloser Online-Eisprung-Berechnungsrechner",
+  "metaDescription": "Letzten Menstruationsbeginn und Zykluslänge eingeben und voraussichtlichen Eisprung und fruchtbare Tage berechnen.",
+  "keywords": [
+    "Eisprungrechner",
+    "Eisprung berechnen",
+    "Fruchtbare Tage",
+    "Ovulation berechnen",
+    "Kinderwunsch Rechner"
+  ],
+  "category": "Gesundheit",
+  "icon": "🌸",
+  "faqs": [],
+  "relatedTools": [
+    "sleep-calculator",
+    "water-intake-calculator",
+    "age-calculator"
+  ],
+  "variants": []
+}

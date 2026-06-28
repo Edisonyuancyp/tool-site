@@ -1,0 +1,23 @@
+{
+  "slug": "macro-tracker-calculator",
+  "name": "Makronährstoffrechner",
+  "tagline": "Täglichen Protein-, Fett- und Kohlenhydratbedarf berechnen",
+  "description": "This calculator helps you track your macronutrient intake based on your fitness goals, whether it's bulking, cutting, or maintaining weight. Ideal for fitness enthusiasts and those on specific diets.",
+  "metaTitle": "Makronährstoffrechner – Drei-Nährstoffe-Berechnungstool",
+  "metaDescription": "Basierend auf Gewichtsziel und Aktivitätsniveau die täglichen Kalorien und drei Makronährstoffe (Protein/Fett/Kohlenhydrate) berechnen.",
+  "keywords": [
+    "Makronährstoffrechner",
+    "Makros berechnen",
+    "Proteinbedarf berechnen",
+    "Diät Nährstoffe",
+    "Fitness Ernährungsrechner"
+  ],
+  "category": "Fitness",
+  "icon": "🍏",
+  "faqs": [],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

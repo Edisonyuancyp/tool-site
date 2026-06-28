@@ -1,0 +1,23 @@
+{
+  "slug": "cooking-time-calculator",
+  "name": "Kochzeitrechner",
+  "tagline": "Kochzeit basierend auf Zutatengewicht berechnen",
+  "description": "Determine the ideal cooking time for various types of meat and dishes based on weight and cooking method. Perfect for home cooks looking to avoid undercooking or overcooking their meals.",
+  "metaTitle": "Kochzeitrechner – Back- und Garzeiten berechnen",
+  "metaDescription": "Zutatengewicht und -typ eingeben und empfohlene Garzeit und Temperatur berechnen, um Lebensmittel sicher durchzugaren.",
+  "keywords": [
+    "Kochzeitrechner",
+    "Braten Zeit berechnen",
+    "Backzeit berechnen",
+    "Garzeit Rechner",
+    "Ofenzeit berechnen"
+  ],
+  "category": "Kochen",
+  "icon": "⏲️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "loan-calculator"
+  ],
+  "variants": []
+}

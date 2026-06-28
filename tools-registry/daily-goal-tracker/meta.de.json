@@ -1,0 +1,23 @@
+{
+  "slug": "daily-goal-tracker",
+  "name": "Täglicher Ziel-Tracker",
+  "tagline": "Tägliche Ziele setzen und Fortschritt verfolgen",
+  "description": "This tool allows you to set, monitor, and evaluate your daily goals to enhance productivity. Great for anyone looking to stay focused and achieve more each day.",
+  "metaTitle": "Täglicher Ziel-Tracker – Zielerreichungs-Verfolgungstool",
+  "metaDescription": "Tägliche Ziele setzen, Fortschritt aufzeichnen und gute Gewohnheiten sowie Ausführungskraft aufbauen.",
+  "keywords": [
+    "Ziel Tracker",
+    "Ziele verfolgen",
+    "Gewohnheiten Tracker",
+    "Tägliche Ziele erreichen",
+    "Zielerreichung"
+  ],
+  "category": "Produktivität",
+  "icon": "🎯",
+  "faqs": [],
+  "relatedTools": [
+    "time-tracking-tool",
+    "habit-tracker"
+  ],
+  "variants": []
+}

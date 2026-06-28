@@ -1,0 +1,20 @@
+{
+  "slug": "travel-time-calculator",
+  "name": "Fahrzeitrechner",
+  "tagline": "Reisedistanz und Fahrzeit berechnen",
+  "description": "Enter your distance and average speed to find out how long your trip will take. Ideal for travelers planning road trips or long-distance travel.",
+  "metaTitle": "Fahrzeitrechner – Fahrzeit-Schätzungstool",
+  "metaDescription": "Distanz und Geschwindigkeit eingeben und geschätzte Fahrzeit berechnen; oder Abfahrts- und Ankunftszeit eingeben und Reisegeschwindigkeit berechnen.",
+  "keywords": [
+    "Fahrzeitrechner",
+    "Fahrzeit berechnen",
+    "Reisezeit schätzen",
+    "Entfernung Zeit Geschwindigkeit",
+    "Straßenfahrt Rechner"
+  ],
+  "category": "Reise",
+  "icon": "⏳",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

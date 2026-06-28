@@ -1,0 +1,24 @@
+{
+  "slug": "base64-tool",
+  "name": "Base64-Encoder/Decoder",
+  "tagline": "Online Base64 kodieren und dekodieren",
+  "description": "Encode any text to Base64 or decode Base64 back to plain text. Also supports URL encoding/decoding. Handles UTF-8 correctly. Includes Swap button, real-time validation, and copy-to-clipboard.",
+  "metaTitle": "Base64-Encoder/Decoder – Kostenloses Online-Konvertierungstool",
+  "metaDescription": "Text eingeben und Base64 kodieren oder dekodieren. Unterstützt auch Datei- und Bild-Base64-Konvertierung.",
+  "keywords": [
+    "Base64 Encoder",
+    "Base64 Decoder",
+    "Base64 Konverter",
+    "Online Base64",
+    "Kodierungs-Tool"
+  ],
+  "category": "Entwicklung",
+  "icon": "🔐",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "diff-checker",
+    "unix-timestamp-converter"
+  ],
+  "variants": []
+}

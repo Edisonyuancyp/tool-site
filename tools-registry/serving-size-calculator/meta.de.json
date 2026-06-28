@@ -1,0 +1,23 @@
+{
+  "slug": "serving-size-calculator",
+  "name": "Portionsrechner",
+  "tagline": "Portionsgrößen und Nährstoffaufnahme berechnen",
+  "description": "Calculate the ingredient amounts needed for your desired serving size. Useful for scaling recipes up or down for gatherings or meal prep.",
+  "metaTitle": "Portionsrechner – Portionsgröße berechnen",
+  "metaDescription": "Basierend auf Personenanzahl und Rezept die Zutatenmengen und Nährstoffgehalt pro Portion berechnen.",
+  "keywords": [
+    "Portionsrechner",
+    "Portionsgröße berechnen",
+    "Rezept Mengen",
+    "Zutatenmenge berechnen",
+    "Nährstoffe pro Portion"
+  ],
+  "category": "Kochen",
+  "icon": "🍽️",
+  "faqs": [],
+  "relatedTools": [
+    "body-fat-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

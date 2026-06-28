@@ -1,0 +1,23 @@
+{
+  "slug": "time-blocking-scheduler",
+  "name": "Zeitblock-Planer",
+  "tagline": "Tagesblöcke planen und Konzentration verbessern",
+  "description": "This tool helps you create a time-blocking schedule for your day to enhance focus and productivity. Ideal for professionals and students who want to manage their time effectively.",
+  "metaTitle": "Zeitblock-Planer – Tages-Zeitmanagement-Tool",
+  "metaDescription": "Mit der Zeitblockierungsmethode tägliche Aufgaben strukturieren, Ablenkungen reduzieren und Tiefarbeitseffizienz steigern.",
+  "keywords": [
+    "Zeitblock Planer",
+    "Zeitmanagement",
+    "Deep Work Planung",
+    "Tagesplan",
+    "Produktivitätssteigerung"
+  ],
+  "category": "Produktivität",
+  "icon": "🗓️",
+  "faqs": [],
+  "relatedTools": [
+    "task-priority-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}

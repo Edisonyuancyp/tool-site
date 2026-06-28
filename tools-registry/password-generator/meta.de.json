@@ -1,0 +1,28 @@
+{
+  "slug": "password-generator",
+  "name": "Passwortgenerator",
+  "tagline": "Sichere Zufallspasswörter generieren",
+  "description": "Create strong random passwords with custom length and character sets. Choose uppercase, lowercase, numbers, and symbols. Copy with one click.",
+  "metaTitle": "Passwortgenerator – Kostenloses Online-Passwort-Generator-Tool",
+  "metaDescription": "Erstelle starke Zufallspasswörter mit anpassbarer Länge, Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen. 100 % lokal, keine Datenübertragung.",
+  "keywords": [
+    "Passwortgenerator",
+    "Zufallspasswort",
+    "Sicheres Passwort",
+    "Starkes Passwort erstellen",
+    "Passwort generieren"
+  ],
+  "category": "Sicherheit",
+  "icon": "🔐",
+  "faqs": [
+    {
+      "question": "Werden Passwörter gespeichert?",
+      "answer": "Nein. Die gesamte Verarbeitung erfolgt lokal im Browser – keine Daten werden übertragen."
+    }
+  ],
+  "relatedTools": [
+    "qr-code-generator",
+    "random-number-generator"
+  ],
+  "variants": []
+}

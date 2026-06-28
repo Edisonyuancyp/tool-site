@@ -1,0 +1,25 @@
+{
+  "slug": "retirement-savings-calculator",
+  "name": "Altersvorsorgerechner",
+  "tagline": "Altersvorsorge planen und berechnen",
+  "description": "Enter your current age, savings, monthly contributions, and expected return rate to see if you are on track for retirement. Shows projected nest egg at 65, monthly income in retirement, and whether you have a savings gap.",
+  "metaTitle": "Altersvorsorgerechner – Rentenplanungs-Tool",
+  "metaDescription": "Alter, Ersparnisse und erwartete Ausgaben eingeben und berechnen, ob das Geld im Ruhestand reicht.",
+  "keywords": [
+    "Altersvorsorgerechner",
+    "Rentenplanung",
+    "Rente berechnen",
+    "Ruhestand Planung",
+    "Altersrücklage"
+  ],
+  "category": "Finanzen",
+  "icon": "💰",
+  "faqs": [],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "investment-return-calculator",
+    "tax-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

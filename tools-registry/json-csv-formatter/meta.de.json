@@ -1,0 +1,24 @@
+{
+  "slug": "json-csv-formatter",
+  "name": "JSON/CSV-Formatierer",
+  "tagline": "JSON und CSV formatieren, validieren und konvertieren",
+  "description": "Paste raw JSON to format with 2-space indentation or minify it, with real-time validation. Paste CSV to normalize quoting/delimiters, or convert CSV to a JSON array. Supports comma, semicolon, tab, and pipe delimiters.",
+  "metaTitle": "JSON/CSV-Formatierer – Kostenloses Datenformat-Konvertierungstool",
+  "metaDescription": "JSON oder CSV Daten einfügen und automatisch formatieren, Syntax validieren und JSON ↔ CSV konvertieren.",
+  "keywords": [
+    "JSON Formatierer",
+    "CSV Konverter",
+    "JSON Validator",
+    "JSON Beautifier",
+    "Datenformat Konverter"
+  ],
+  "category": "Entwicklung",
+  "icon": "📋",
+  "faqs": [],
+  "relatedTools": [
+    "diff-checker",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": []
+}

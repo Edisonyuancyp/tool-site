@@ -1,0 +1,29 @@
+{
+  "slug": "loan-calculator",
+  "name": "Kreditrechner",
+  "tagline": "Berechne monatliche Raten und Gesamtzinsen",
+  "description": "Calculate monthly loan payments, total interest paid, and generate a full amortization schedule. Works for mortgages, car loans, personal loans, and student loans.",
+  "metaTitle": "Kreditrechner – Kostenloser Online-Kreditrechner",
+  "metaDescription": "Gib Kreditbetrag, Zinssatz und Laufzeit ein und erhalte sofort monatliche Rate, Gesamtzinsen und Tilgungsplan.",
+  "keywords": [
+    "Kreditrechner",
+    "Monatsrate berechnen",
+    "Baufinanzierungsrechner",
+    "Autokredit berechnen",
+    "Tilgungsplan"
+  ],
+  "category": "Finanzen",
+  "icon": "🏦",
+  "faqs": [
+    {
+      "question": "Wie wird die monatliche Rate berechnet?",
+      "answer": "Monatliche Rate = Kapital × Monatszinssatz × (1+Monatszinssatz)^Laufzeit ÷ ((1+Monatszinssatz)^Laufzeit - 1)"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

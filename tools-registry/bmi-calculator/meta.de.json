@@ -1,0 +1,34 @@
+{
+  "slug": "bmi-calculator",
+  "name": "BMI-Rechner",
+  "tagline": "Berechne deinen Body-Mass-Index sofort",
+  "description": "Use this free BMI calculator to find your Body Mass Index based on height and weight. Understand your weight category — underweight, normal, overweight, or obese — in seconds.",
+  "metaTitle": "BMI-Rechner – Kostenloser Online-BMI-Rechner",
+  "metaDescription": "Gib Größe und Gewicht ein und berechne deinen BMI sowie die Gewichtsklassifikation (Untergewicht/Normal/Übergewicht/Adipositas). Kostenlos, keine Registrierung.",
+  "keywords": [
+    "BMI-Rechner",
+    "Body-Mass-Index berechnen",
+    "BMI berechnen",
+    "Übergewicht berechnen",
+    "Online BMI"
+  ],
+  "category": "Gesundheit",
+  "icon": "⚖️",
+  "faqs": [
+    {
+      "question": "Was ist der BMI?",
+      "answer": "Der BMI (Body-Mass-Index) = Gewicht (kg) ÷ Größe (m)². Er ist ein Screening-Instrument zur Beurteilung des Körpergewichts."
+    },
+    {
+      "question": "Welcher BMI-Bereich gilt als normal?",
+      "answer": "18,5–24,9 gilt als Normalgewicht. Unter 18,5 ist Untergewicht, 25–29,9 Übergewicht, ab 30 Adipositas."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator",
+    "ideal-weight-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "age-calculator",
+  "name": "Altersrechner",
+  "tagline": "Berechne dein genaues Alter sofort",
+  "description": "Calculate your exact age from your date of birth to today — or to any specific date. Get results in years, months, days, hours, and minutes instantly.",
+  "metaTitle": "Altersrechner – Kostenloses Online-Altersberechnungstool",
+  "metaDescription": "Gib dein Geburtsdatum ein und erhalte dein genaues Alter in Jahren, Monaten und Tagen. Kostenlos, keine Registrierung.",
+  "keywords": [
+    "Altersrechner",
+    "Alter berechnen",
+    "Geburtsdatum Rechner",
+    "Wie alt bin ich",
+    "Online Altersrechner"
+  ],
+  "category": "Datum & Uhrzeit",
+  "icon": "📅",
+  "faqs": [
+    {
+      "question": "Wie wird das Alter berechnet?",
+      "answer": "Der Rechner berechnet die Differenz zwischen deinem Geburtsdatum und dem heutigen Datum in Jahren, Monaten und Tagen, einschließlich Schaltjahre."
+    }
+  ],
+  "relatedTools": [
+    "bmi-calculator",
+    "holiday-calculator",
+    "unix-timestamp-converter"
+  ],
+  "variants": []
+}

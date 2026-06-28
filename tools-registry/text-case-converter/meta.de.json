@@ -1,0 +1,24 @@
+{
+  "slug": "text-case-converter",
+  "name": "Text-Groß-/Kleinschreibung-Konverter",
+  "tagline": "Textformat online in Groß-/Kleinschreibung umwandeln",
+  "description": "Convert any text between uppercase, lowercase, title case, sentence case, camelCase, PascalCase, snake_case, kebab-case, and more. One-click copy included.",
+  "metaTitle": "Text-Groß-/Kleinschreibung-Konverter – Online Textformat-Konverter",
+  "metaDescription": "Text mit einem Klick in Großbuchstaben, Kleinbuchstaben, Titelschreibweise, camelCase und mehr umwandeln.",
+  "keywords": [
+    "Groß Kleinschreibung Konverter",
+    "Text formatieren",
+    "camelCase Konverter",
+    "Titelschreibweise",
+    "Text Umwandlungstool"
+  ],
+  "category": "Werkzeuge",
+  "icon": "🔤",
+  "faqs": [],
+  "relatedTools": [
+    "word-counter",
+    "diff-checker",
+    "emoji-picker"
+  ],
+  "variants": []
+}

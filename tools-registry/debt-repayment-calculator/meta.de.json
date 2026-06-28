@@ -1,0 +1,25 @@
+{
+  "slug": "debt-repayment-calculator",
+  "name": "Schuldenrückzahlungsrechner",
+  "tagline": "Tilgungsdauer und Gesamtzinsen berechnen",
+  "description": "Enter your debt balance, interest rate, and monthly payment to see payoff date, total interest paid, and an amortization schedule. Shows how much time and money you save by paying extra each month.",
+  "metaTitle": "Schuldenrückzahlungsrechner – Kostenloses Tilgungsplan-Tool",
+  "metaDescription": "Schuldenstand, Zinssatz und monatliche Rate eingeben und Tilgungsdauer sowie Gesamtzinsen berechnen.",
+  "keywords": [
+    "Schuldenrechner",
+    "Tilgungsplan berechnen",
+    "Kreditkartenrückzahlung",
+    "Schulden abbauen",
+    "Zinsen berechnen"
+  ],
+  "category": "Finanzen",
+  "icon": "💳",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "budget-calculator",
+    "compound-interest-calculator",
+    "investment-return-calculator"
+  ],
+  "variants": []
+}

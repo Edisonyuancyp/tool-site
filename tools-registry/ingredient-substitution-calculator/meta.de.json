@@ -1,0 +1,23 @@
+{
+  "slug": "ingredient-substitution-calculator",
+  "name": "Zutatener­satz­rechner",
+  "tagline": "Ersatzzutaten für fehlende Kochzutaten finden",
+  "description": "Quickly discover alternative ingredients based on what you have on hand. Ideal for cooks who need to improvise while following a recipe.",
+  "metaTitle": "Zutatener­satz­rechner – Kochzutaten-Ersatz-Tool",
+  "metaDescription": "Fehlende Zutaten eingeben und Alternativen mit Mengenangaben erhalten.",
+  "keywords": [
+    "Zutatener­satz",
+    "Kochalternativen",
+    "Zutatener­satz berechnen",
+    "Fehlende Zutaten ersetzen",
+    "Kochen Substitut"
+  ],
+  "category": "Kochen",
+  "icon": "🥄",
+  "faqs": [],
+  "relatedTools": [
+    "age-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "qr-code-generator",
+  "name": "QR-Code-Generator",
+  "tagline": "QR-Codes für beliebige Inhalte sofort erstellen",
+  "description": "Generate a free QR code for any URL, text, phone number, or message. Download as PNG and use anywhere — no account needed.",
+  "metaTitle": "QR-Code-Generator – Kostenloses Online-QR-Code-Erstellungstool",
+  "metaDescription": "Text, URL oder Kontaktdaten eingeben und sofort QR-Code generieren und herunterladen. Kostenlos, keine Registrierung.",
+  "keywords": [
+    "QR-Code-Generator",
+    "QR-Code erstellen",
+    "Online QR-Code",
+    "QR-Code kostenlos",
+    "QR-Code Tool"
+  ],
+  "category": "Generatoren",
+  "icon": "📱",
+  "faqs": [
+    {
+      "question": "Was kann ein QR-Code speichern?",
+      "answer": "URLs, Text, Kontaktdaten, WLAN-Passwörter und viele weitere Inhalte."
+    }
+  ],
+  "relatedTools": [
+    "password-generator",
+    "text-case-converter",
+    "base64-tool"
+  ],
+  "variants": []
+}

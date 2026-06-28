@@ -1,0 +1,20 @@
+{
+  "slug": "group-trip-cost-splitter",
+  "name": "Gruppenreise-Kostenteiler",
+  "tagline": "Gruppenreisekosten fair aufteilen",
+  "description": "Input your total trip expenses and number of travelers to see how much each person owes. Perfect for groups planning vacations together without the hassle of tracking individual expenses.",
+  "metaTitle": "Reisekostenteilungs-Rechner – Gruppenreise Kostenaufteilung",
+  "metaDescription": "Gruppenreisekosten und Teilnehmer eingeben und Betrag pro Person sowie Zahlungsrichtung automatisch berechnen.",
+  "keywords": [
+    "Reisekosten aufteilen",
+    "Gruppenreise Rechner",
+    "Kosten teilen",
+    "Reise Kostenaufteilung",
+    "Gemeinsame Reise Abrechnung"
+  ],
+  "category": "Reise",
+  "icon": "👥",
+  "faqs": [],
+  "relatedTools": [],
+  "variants": []
+}

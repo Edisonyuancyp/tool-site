@@ -1,0 +1,24 @@
+{
+  "slug": "body-fat-calculator",
+  "name": "Körperfettrechner",
+  "tagline": "Körperfettanteil schätzen",
+  "description": "Estimate body fat percentage using the US Navy method — just waist, neck, and hip (women) measurements. Shows fat mass, lean mass, category, and a visual gauge. No calipers needed.",
+  "metaTitle": "Körperfettrechner – Kostenloses Online-Körperfettanteil-Berechnungstool",
+  "metaDescription": "Körperumfänge (Hals, Taille, Hüfte) nutzen, um den Körperfettanteil zu schätzen. Für Männer und Frauen.",
+  "keywords": [
+    "Körperfettrechner",
+    "Körperfettanteil berechnen",
+    "Fettanteil messen",
+    "Körperfett Prozent",
+    "Körperzusammensetzung"
+  ],
+  "category": "Gesundheit",
+  "icon": "💪",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "ideal-weight-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

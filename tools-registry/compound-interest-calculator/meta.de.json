@@ -1,0 +1,28 @@
+{
+  "slug": "compound-interest-calculator",
+  "name": "Zinseszinsrechner",
+  "tagline": "Berechne das Zinseszinswachstum deiner Investition",
+  "description": "Calculate compound interest with optional monthly contributions. Enter your principal, annual rate, investment period, and compounding frequency to see your final balance, total interest earned, and a year-by-year growth chart.",
+  "metaTitle": "Zinseszinsrechner – Kostenloser Online-Zinseszinsrechner",
+  "metaDescription": "Gib Kapital, Zinssatz, Laufzeit und Zinsperiode ein und berechne sofort den Endbetrag und die Zinserträge.",
+  "keywords": [
+    "Zinseszinsrechner",
+    "Zinseszins berechnen",
+    "Investitionsrechner",
+    "Kapitalanlage berechnen",
+    "Zinseszinseffekt"
+  ],
+  "category": "Finanzen",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "Was ist Zinseszins?",
+      "answer": "Zinseszins bedeutet, dass auch auf bereits erzielte Zinsen weitere Zinsen anfallen – Kapital und frühere Zinsen erzeugen gemeinsam neue Erträge."
+    }
+  ],
+  "relatedTools": [
+    "percentage-calculator",
+    "currency-converter"
+  ],
+  "variants": []
+}

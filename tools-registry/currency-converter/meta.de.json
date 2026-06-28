@@ -1,0 +1,29 @@
+{
+  "slug": "currency-converter",
+  "name": "Währungsrechner",
+  "tagline": "Echtzeit-Wechselkursumrechnung",
+  "description": "Convert between 25+ world currencies using live exchange rates from the European Central Bank (ECB). Includes a quick reference table and automatic fallback to offline rates when needed.",
+  "metaTitle": "Währungsrechner – Kostenloser Echtzeit-Wechselkursrechner",
+  "metaDescription": "Echtzeit-Wechselkursumrechnung für über 150 Währungen. Euro, Dollar, Pfund und mehr mit einem Klick umrechnen.",
+  "keywords": [
+    "Währungsrechner",
+    "Wechselkurs berechnen",
+    "Euro umrechnen",
+    "Devisenrechner",
+    "Online Wechselkurs"
+  ],
+  "category": "Finanzen",
+  "icon": "💱",
+  "faqs": [
+    {
+      "question": "Sind die Wechselkurse aktuell?",
+      "answer": "Ja, die Wechselkursdaten werden täglich über öffentliche APIs aktualisiert."
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "percentage-calculator",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

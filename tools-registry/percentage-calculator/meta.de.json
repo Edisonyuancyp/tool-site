@@ -1,0 +1,33 @@
+{
+  "slug": "percentage-calculator",
+  "name": "Prozentrechner",
+  "tagline": "Prozent, Zu- und Abnahmen schnell berechnen",
+  "description": "Free percentage calculator that handles every common percentage problem: what is X% of Y, percentage increase/decrease, what percentage is X of Y, and reverse percentage.",
+  "metaTitle": "Prozentrechner – Kostenloser Online-Prozentrechner",
+  "metaDescription": "Berechne Prozentwerte, Prozentzunahmen/-abnahmen und Verhältnisse – alle Prozentaufgaben sofort gelöst.",
+  "keywords": [
+    "Prozentrechner",
+    "Prozent berechnen",
+    "Prozentzunahme berechnen",
+    "Rabattrechner",
+    "Verhältnis berechnen"
+  ],
+  "category": "Finanzen",
+  "icon": "%",
+  "faqs": [
+    {
+      "question": "Wie berechnet man Prozent?",
+      "answer": "Prozent = (Teil ÷ Gesamt) × 100 %"
+    },
+    {
+      "question": "Wie berechnet man eine Zunahme?",
+      "answer": "Zunahme = (Neuer Wert - Alter Wert) ÷ Alter Wert × 100 %"
+    }
+  ],
+  "relatedTools": [
+    "compound-interest-calculator",
+    "currency-converter",
+    "tp-sl-calculator"
+  ],
+  "variants": []
+}

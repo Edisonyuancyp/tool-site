@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-age-calculator",
+  "name": "Fitnessalterrechner",
+  "tagline": "Biologisches Alter und Gesundheitszustand bewerten",
+  "description": "This tool calculates your fitness age based on your physical activity levels and health metrics. It's perfect for individuals looking to understand their fitness level relative to their chronological age.",
+  "metaTitle": "Fitnessalterrechner – Biologisches Alter bewerten",
+  "metaDescription": "Herzfrequenz, BMI und körperliche Aktivität nutzen, um das biologische Alter zu schätzen und den tatsächlichen Gesundheitszustand zu verstehen.",
+  "keywords": [
+    "Fitnessalterrechner",
+    "Biologisches Alter berechnen",
+    "Körperalter Test",
+    "Fitness Alter",
+    "Gesundheitsalter"
+  ],
+  "category": "Fitness",
+  "icon": "🧘",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}

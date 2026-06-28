@@ -1,0 +1,23 @@
+{
+  "slug": "fitness-level-quiz",
+  "name": "Fitnesslevel-Quiz",
+  "tagline": "Aktuelles Fitnessniveau einschätzen",
+  "description": "Take this quick quiz to assess your current fitness level based on your exercise habits and lifestyle. Perfect for anyone wanting to gauge their physical fitness and identify areas for improvement.",
+  "metaTitle": "Fitnesslevel-Quiz – Online-Fitness-Bewertungstool",
+  "metaDescription": "Mit einem kurzen Fragebogen das aktuelle Fitnessniveau einschätzen und personalisierte Trainingsempfehlungen erhalten.",
+  "keywords": [
+    "Fitnesslevel Quiz",
+    "Fitness bewerten",
+    "Fitnessniveau Test",
+    "Sportlevel einschätzen",
+    "Fitnessempfehlungen"
+  ],
+  "category": "Fitness",
+  "icon": "🏋️‍♀️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator"
+  ],
+  "variants": []
+}

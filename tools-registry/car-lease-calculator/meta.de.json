@@ -1,0 +1,23 @@
+{
+  "slug": "car-lease-calculator",
+  "name": "Fahrzeugleasingrechner",
+  "tagline": "Monatliche Leasingrate und Gesamtkosten berechnen",
+  "description": "This tool helps users estimate their monthly car lease payments based on the vehicle price, down payment, interest rate, and lease term. Perfect for anyone considering leasing a vehicle and wanting to understand their payment structure.",
+  "metaTitle": "Fahrzeugleasingrechner – Auto-Leasing-Kostenrechner",
+  "metaDescription": "Fahrzeugpreis, Restwert, Zinssatz und Laufzeit eingeben und monatliche Leasingrate berechnen.",
+  "keywords": [
+    "Fahrzeugleasing Rechner",
+    "Auto Leasing berechnen",
+    "Leasingrate berechnen",
+    "KFZ-Leasing",
+    "Leasing Kosten"
+  ],
+  "category": "Finanzen",
+  "icon": "🚗",
+  "faqs": [],
+  "relatedTools": [
+    "loan-calculator",
+    "finance-charge-calculator"
+  ],
+  "variants": []
+}

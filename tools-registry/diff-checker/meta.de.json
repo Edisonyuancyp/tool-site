@@ -1,0 +1,24 @@
+{
+  "slug": "diff-checker",
+  "name": "Text-Unterschied-Checker",
+  "tagline": "Unterschiede zwischen zwei Texten schnell finden",
+  "description": "Paste two pieces of text to instantly see additions, deletions, and unchanged lines highlighted. Supports split view and unified view, ignore whitespace, ignore case, and comes with code and JSON samples.",
+  "metaTitle": "Text-Unterschied-Checker – Online-Textvergleichstool",
+  "metaDescription": "Zwei Texte einfügen und Hinzufügungen, Löschungen und Änderungen farblich hervorgehoben anzeigen lassen.",
+  "keywords": [
+    "Textvergleich Tool",
+    "Text Unterschiede finden",
+    "Diff Tool",
+    "Code Vergleich",
+    "Dokumentenvergleich"
+  ],
+  "category": "Entwicklung",
+  "icon": "🔍",
+  "faqs": [],
+  "relatedTools": [
+    "json-csv-formatter",
+    "base64-tool",
+    "word-counter"
+  ],
+  "variants": []
+}

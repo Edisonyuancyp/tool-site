@@ -1,0 +1,24 @@
+{
+  "slug": "ideal-weight-calculator",
+  "name": "Idealgewichtsrechner",
+  "tagline": "Idealen Gewichtsbereich basierend auf der Körpergröße berechnen",
+  "description": "Calculate your ideal body weight using the Robinson, Miller, Devine, and Hamwi formulas, plus the healthy BMI range. Enter your height and gender to compare all four results.",
+  "metaTitle": "Idealgewichtsrechner – Gesundes Gewicht berechnen",
+  "metaDescription": "Basierend auf Größe und Geschlecht den idealen Gewichtsbereich mit mehreren Formeln (BMI-Methode, Devine-Formel) berechnen.",
+  "keywords": [
+    "Idealgewichtsrechner",
+    "Idealgewicht berechnen",
+    "Normgewicht berechnen",
+    "Gesundes Gewicht",
+    "Zielgewicht"
+  ],
+  "category": "Gesundheit",
+  "icon": "⚖️",
+  "faqs": [],
+  "relatedTools": [
+    "bmi-calculator",
+    "body-fat-calculator",
+    "bmr-tdee-calculator"
+  ],
+  "variants": []
+}
