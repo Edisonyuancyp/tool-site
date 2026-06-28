@@ -23,19 +23,35 @@ function useLocaleLinks() {
   const currentLocale = localeMatch ? localeMatch[1] : "en";
   const restPath = localeMatch ? (localeMatch[2] ?? "/") : pathname;
 
-  // /tools/[category]/[slug] → /tools/[slug]  (locale pages have no category segment)
-  const localeRestPath = restPath.replace(/^\/tools\/[^/]+\/([^/]+)$/, "/tools/$1");
+  // Convert an EN path → locale-safe path
+  // Locale tool pages only support /tools/[slug], everything else falls back to /
+  function toLocalePath(enPath: string): string {
+    // /tools/[cat]/[slug]/[param] → / (no locale param pages)
+    if (/^\/tools\/[^/]+\/[^/]+\/.+$/.test(enPath)) return "/";
+    // /tools/[cat]/[slug] → /tools/[slug]
+    const m = enPath.match(/^\/tools\/[^/]+\/([^/]+)$/);
+    if (m) return `/tools/${m[1]}`;
+    // /tools/[cat] (category listing) → /
+    if (/^\/tools\/[^/]+$/.test(enPath)) return "/";
+    // anything else (/workbench, / etc.) passes through
+    return enPath;
+  }
+
+  // Convert a locale path → EN path
+  function toEnPath(localePath: string): string {
+    // /tools/[slug] → look up full EN path with category
+    const m = localePath.match(/^\/tools\/([^/]+)$/);
+    if (m) {
+      const tool = tools.find(t => t.slug === m[1]);
+      if (tool) return getToolPath(tool);
+    }
+    return localePath;
+  }
+
+  const localeRestPath = toLocalePath(restPath);
 
   function hrefFor(code: string) {
-    if (code === "en") {
-      // If coming from a locale tool page /tools/[slug], look up the full EN path with category
-      const slugMatch = localeRestPath.match(/^\/tools\/([^/]+)$/);
-      if (slugMatch) {
-        const tool = tools.find(t => t.slug === slugMatch[1]);
-        if (tool) return getToolPath(tool);
-      }
-      return restPath || "/";
-    }
+    if (code === "en") return toEnPath(localeRestPath) || "/";
     return `/${code}${localeRestPath === "/" ? "" : localeRestPath}`;
   }
   return { currentLocale, hrefFor };
