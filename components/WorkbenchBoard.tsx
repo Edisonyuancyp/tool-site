@@ -354,9 +354,24 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
                     </Link>
                   </div>
                   <div className="flex items-center gap-1 shrink-0">
+                    {/* Width toggles: S / M / L */}
+                    {(["small", "medium", "large"] as BoardWidgetSize[]).map((size) => (
+                      <button
+                        key={size}
+                        onClick={() => resizeBoardWidget(widget.id, size)}
+                        title={`Width: ${size}`}
+                        className={`text-[10px] uppercase px-1.5 py-0.5 rounded border transition-colors ${
+                          widget.size === size
+                            ? "bg-blue-600 text-white border-blue-600"
+                            : "text-gray-400 border-gray-200 hover:text-gray-600 hover:border-gray-400"
+                        }`}
+                      >
+                        {size[0]}
+                      </button>
+                    ))}
                     <button
                       onClick={() => removeBoardWidget(widget.id)}
-                      className="text-gray-300 hover:text-red-500 px-1.5 py-0.5 text-sm transition-colors"
+                      className="ml-1 text-gray-300 hover:text-red-500 px-1.5 py-0.5 text-sm transition-colors"
                       title="Remove"
                     >
                       ×
