@@ -94,7 +94,7 @@ export default async function LocalizedToolPage({ params }: Props) {
   return (
     <>
       <Header />
-      <ToolLayout tool={meta} allTools={allTools}>
+      <ToolLayout tool={meta} allTools={allTools} locale={locale}>
         <ToolView variant={variant} />
       </ToolLayout>
       <Footer />

@@ -59,6 +59,7 @@ interface ToolLayoutProps {
   tool: ToolMeta;
   children: React.ReactNode;
   allTools?: ToolMeta[];
+  locale?: string;
 }
 
 
@@ -86,13 +87,16 @@ function getAutoRelated(tool: ToolMeta, allTools: ToolMeta[]): ToolMeta[] {
   return [...manual, ...backfill];
 }
 
-export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps) {
+export default function ToolLayout({ tool, children, allTools, locale }: ToolLayoutProps) {
   const pool = allTools ?? legacyTools;
   const relatedTools = getAutoRelated(tool, pool);
 
   const BASE_URL = "https://getfastcalc.com";
-  const toolUrl = `${BASE_URL}${getToolPath(tool)}`;
-  const categoryPath = getCategoryListPath(tool.category);
+  // In locale pages, use /{locale}/tools/{slug}; in EN use /tools/{cat}/{slug}
+  const localPrefix = locale ? `/${locale}` : "";
+  const toolPath = locale ? `/${locale}/tools/${tool.slug}` : getToolPath(tool);
+  const toolUrl = `${BASE_URL}${toolPath}`;
+  const categoryPath = locale ? `/${locale}` : getCategoryListPath(tool.category);
   const categoryUrl = `${BASE_URL}${categoryPath}`;
 
   const softwareSchema = {
@@ -179,7 +183,7 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
         <div className="max-w-4xl mx-auto px-4 py-10">
           {/* Breadcrumb */}
           <nav aria-label="breadcrumb" className="text-sm text-gray-400 mb-6">
-            <Link href="/" className="hover:text-gray-600 transition-colors">Home</Link>
+            <Link href={localPrefix || "/"} className="hover:text-gray-600 transition-colors">Home</Link>
             <span className="mx-2">/</span>
             <Link href={categoryPath} className="hover:text-gray-600 transition-colors">{tool.category}</Link>
             <span className="mx-2">/</span>
@@ -280,7 +284,7 @@ export default function ToolLayout({ tool, children, allTools }: ToolLayoutProps
                 {relatedTools.map((t) => (
                   <Link
                     key={t.slug}
-                    href={getToolPath(t)}
+                    href={locale ? `/${locale}/tools/${t.slug}` : getToolPath(t)}
                     className="flex items-center gap-3 p-4 border border-gray-100 rounded-lg hover:border-gray-300 hover:bg-gray-50 transition-all group"
                   >
                     <span className="text-2xl">{t.icon}</span>
