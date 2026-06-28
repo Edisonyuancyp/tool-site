@@ -1,10 +1,12 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SmartRedirect from "@/components/SmartRedirect";
 
 export default function NotFound() {
   return (
     <>
+      <SmartRedirect />
       <Header />
       <main className="min-h-[70vh] flex flex-col items-center justify-center px-4 text-center">
         <div className="max-w-md">
