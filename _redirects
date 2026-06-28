@@ -1,1 +1,11 @@
+# zh/ja/de/pt locale pages — redirect to English equivalents (static export limitation)
+/zh/tools/:slug  /tools/calc/:slug  302
+/ja/tools/:slug  /tools/calc/:slug  302
+/de/tools/:slug  /tools/calc/:slug  302
+/pt/tools/:slug  /tools/calc/:slug  302
+/zh              /                  302
+/ja              /                  302
+/de              /                  302
+/pt              /                  302
+
 /* /404.html 404

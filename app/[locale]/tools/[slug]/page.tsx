@@ -15,9 +15,12 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+// Only pre-render es/fr — zh/ja/de/pt have no translated tool pages
+const STATIC_LOCALES: SupportedLocale[] = ["es", "fr"];
+
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = [];
-  for (const locale of SUPPORTED_LOCALES) {
+  for (const locale of STATIC_LOCALES) {
     for (const slug of getI18nRegistrySlugs(locale)) {
       params.push({ locale, slug });
     }
@@ -33,10 +36,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!result) return {};
 
   const { meta } = result;
-  const enUrl  = `https://getfastcalc.com/tools/${slug}`;
-  const esUrl  = `https://getfastcalc.com/es/tools/${slug}`;
-  const frUrl  = `https://getfastcalc.com/fr/tools/${slug}`;
-  const selfUrl = `https://getfastcalc.com/${locale}/tools/${slug}`;
+  const enUrl   = `https://getfastcalc.com/tools/${slug}`;
+  const selfUrl  = `https://getfastcalc.com/${locale}/tools/${slug}`;
 
   return {
     title: meta.metaTitle,
@@ -45,9 +46,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: selfUrl,
       languages: {
-        "en":    enUrl,
-        "es":    esUrl,
-        "fr":    frUrl,
+        en:  enUrl,
+        es:  `https://getfastcalc.com/es/tools/${slug}`,
+        fr:  `https://getfastcalc.com/fr/tools/${slug}`,
+        zh:  `https://getfastcalc.com/zh/tools/${slug}`,
+        ja:  `https://getfastcalc.com/ja/tools/${slug}`,
+        de:  `https://getfastcalc.com/de/tools/${slug}`,
+        pt:  `https://getfastcalc.com/pt/tools/${slug}`,
         "x-default": enUrl,
       },
     },
