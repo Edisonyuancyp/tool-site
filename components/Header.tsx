@@ -7,8 +7,8 @@ import type { ToolMeta } from "@/lib/tools";
 
 const LOCALES = [
   { code: "en",  label: "EN", flag: "🇺🇸", name: "English"    },
-  { code: "zh",  label: "ZH", flag: "��", name: "中文"        },
-  { code: "ja",  label: "JA", flag: "��", name: "日本語"      },
+  { code: "zh",  label: "ZH", flag: "\uD83C\uDDE8\uD83C\uDDF3", name: "中文"        },
+  { code: "ja",  label: "JA", flag: "\uD83C\uDDEF\uD83C\uDDF5", name: "日本語"      },
   { code: "de",  label: "DE", flag: "🇩🇪", name: "Deutsch"    },
   { code: "pt",  label: "PT", flag: "🇧🇷", name: "Português"  },
   { code: "es",  label: "ES", flag: "🇪🇸", name: "Español"    },
