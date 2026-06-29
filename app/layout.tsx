@@ -110,16 +110,22 @@ export default function RootLayout({
         {/* Ko-fi floating chat widget */}
         <Script
           src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="kofi-init" strategy="lazyOnload">
+        <Script id="kofi-init" strategy="afterInteractive">
           {`
-            kofiWidgetOverlay.draw('getfastcalc', {
-              'type': 'floating-chat',
-              'floating-chat.donateButton.text': 'Support me',
-              'floating-chat.donateButton.background-color': '#00b9fe',
-              'floating-chat.donateButton.text-color': '#fff'
-            });
+            (function waitKofi() {
+              if (typeof kofiWidgetOverlay !== 'undefined') {
+                kofiWidgetOverlay.draw('getfastcalc', {
+                  'type': 'floating-chat',
+                  'floating-chat.donateButton.text': 'Support me',
+                  'floating-chat.donateButton.background-color': '#00b9fe',
+                  'floating-chat.donateButton.text-color': '#fff'
+                });
+              } else {
+                setTimeout(waitKofi, 500);
+              }
+            })();
           `}
         </Script>
       </head>
