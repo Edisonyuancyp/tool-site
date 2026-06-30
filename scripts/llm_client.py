@@ -51,10 +51,10 @@ def _extract_json(text: str) -> str:
 class LLMClient:
     def __init__(self, priority: Optional[str] = None):
         self.keys = load_env_keys()
-        priority = priority or self.keys.get("LLM_PROVIDER_PRIORITY", "claude,openai,gemini")
+        priority = priority or self.keys.get("LLM_PROVIDER_PRIORITY", "openai,claude,gemini")
         self.providers = [p.strip().lower() for p in priority.split(",") if p.strip()]
         self.model_defaults = {
-            "claude": "claude-3-5-haiku-20241022",
+            "claude": "claude-3-haiku-20240307",
             "openai": "gpt-4o-mini",
             "gemini": "gemini-1.5-flash",
         }

@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Optional, List, Dict
 from llm_client import LLMClient
 
-DEFAULT_MODEL = "claude-3-5-haiku-20241022"  # fast/cost-friendly for refresh
+DEFAULT_MODEL = "claude-3-haiku-20240307"  # fast/cost-friendly for refresh
 
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"

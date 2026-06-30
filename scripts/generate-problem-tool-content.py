@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
 BLOG_DIR = ROOT / "app" / "blog"
 
-DEFAULT_MODEL = "claude-3-5-haiku-20241022"
+DEFAULT_MODEL = "claude-3-haiku-20240307"
 SELECTED_MODEL = DEFAULT_MODEL
 
 

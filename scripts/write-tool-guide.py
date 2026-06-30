@@ -29,7 +29,7 @@ from typing import Optional, List, Dict
 from llm_client import LLMClient
 
 # Default model used by LLMClient. Override via --model if you prefer a different one.
-DEFAULT_MODEL = "claude-3-5-haiku-20241022"
+DEFAULT_MODEL = "claude-3-haiku-20240307"
 
 ROOT         = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"

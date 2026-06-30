@@ -76,7 +76,7 @@ async function callLLM(prompt) {
           method: "POST",
           headers: { "Content-Type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
           body: JSON.stringify({
-            model: "claude-3-5-haiku-20241022",
+            model: "claude-3-haiku-20240307",
             max_tokens: 4096,
             system,
             messages: [{ role: "user", content: prompt }],
