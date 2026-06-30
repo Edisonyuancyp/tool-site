@@ -69,8 +69,21 @@ class LLMClient:
             return self.keys.get("GEMINI_API_KEY")
         return None
 
+    def _resolve_model(self, provider: str, model: Optional[str]) -> str:
+        """Use the requested model only if it belongs to the provider; otherwise use the provider default."""
+        if not model:
+            return self.model_defaults[provider]
+        model_lower = model.lower()
+        if provider == "openai" and ("gpt-" in model_lower or model_lower.startswith("o1") or model_lower.startswith("o3")):
+            return model
+        if provider == "claude" and "claude-" in model_lower:
+            return model
+        if provider == "gemini" and "gemini" in model_lower:
+            return model
+        return self.model_defaults[provider]
+
     def _call_openai(self, key: str, system: str, messages: list, max_tokens: int, model: Optional[str] = None) -> str:
-        model = model or self.model_defaults["openai"]
+        model = self._resolve_model("openai", model)
         payload = json.dumps({
             "model": model,
             "messages": ([{"role": "system", "content": system}] if system else []) + messages,
@@ -87,7 +100,7 @@ class LLMClient:
         return data["choices"][0]["message"]["content"]
 
     def _call_claude(self, key: str, system: str, messages: list, max_tokens: int, model: Optional[str] = None) -> str:
-        model = model or self.model_defaults["claude"]
+        model = self._resolve_model("claude", model)
         payload = json.dumps({
             "model": model,
             "max_tokens": max_tokens,
@@ -105,7 +118,7 @@ class LLMClient:
         return data.get("content", [{}])[0].get("text", "")
 
     def _call_gemini(self, key: str, system: str, messages: list, max_tokens: int, model: Optional[str] = None) -> str:
-        model = model or self.model_defaults["gemini"]
+        model = self._resolve_model("gemini", model)
         # Convert messages to Gemini format
         contents = []
         for m in messages:
