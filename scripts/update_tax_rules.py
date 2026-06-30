@@ -28,6 +28,7 @@ from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError
+from llm_client import LLMClient
 
 ROOT       = Path(__file__).parent.parent
 RULES_FILE = ROOT / "lib" / "tax-rules.json"
@@ -123,26 +124,19 @@ def gather_snippets(country_code: str, api_key: str) -> str:
     return "\n\n".join(all_snippets[:12])
 
 
-# ── OpenAI parse ──────────────────────────────────────────────────────────────
+# ── LLM parse ─────────────────────────────────────────────────────────────────
 
-def call_openai(prompt: str, api_key: str) -> str:
-    payload = json.dumps({
-        "model": "gpt-4o-mini",
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.1,
-        "max_tokens": 3000,
-    }).encode()
-    req = Request(
-        "https://api.openai.com/v1/chat/completions",
-        data=payload,
-        headers={"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"},
+def call_llm(prompt: str) -> str:
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
+        raise RuntimeError("No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.")
+    return client.chat_completion(
+        system="You are a tax data extraction specialist. Return raw JSON only, no markdown fences, no explanation.",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=3000,
+        temperature=0.1,
+        json_mode=True,
     )
-    try:
-        with urlopen(req, timeout=60) as resp:
-            data = json.loads(resp.read().decode())
-    except HTTPError as e:
-        raise RuntimeError(f"OpenAI error {e.code}: {e.read().decode()}")
-    return data["choices"][0]["message"]["content"]
 
 
 def build_parse_prompt(country_code: str, country_name: str, snippets: str, existing: dict) -> str:
@@ -176,7 +170,7 @@ Schema reminder:
 
 # ── Core update logic ─────────────────────────────────────────────────────────
 
-def update_country(country_code: str, existing_rules: dict, serp_key: str, openai_key: str) -> dict:
+def update_country(country_code: str, existing_rules: dict, serp_key: str) -> dict:
     country_name = COUNTRY_NAMES.get(country_code, country_code.upper())
     print(f"\n  🔍 Searching for {country_name} tax data…")
     snippets = gather_snippets(country_code, serp_key)
@@ -185,18 +179,15 @@ def update_country(country_code: str, existing_rules: dict, serp_key: str, opena
     existing_country = existing_rules.get(country_code, {})
     prompt = build_parse_prompt(country_code, country_name, snippets, existing_country)
 
-    print(f"  🤖 Asking OpenAI to parse tax brackets…")
-    response = call_openai(prompt, openai_key)
-
+    client = LLMClient()
+    print(f"  🤖 Asking LLM (providers: {','.join(client.providers)}) to parse tax brackets…")
     try:
-        # Strip markdown fences if present
-        text = response.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
-        updated = json.loads(text)
+        response = call_llm(prompt)
+        updated = json.loads(response)
         print(f"  ✅ Parsed successfully — tax year: {updated.get('year', '?')}")
         return updated
-    except json.JSONDecodeError as e:
-        print(f"  ⚠️  JSON parse failed: {e}")
-        print(f"     Raw response preview: {response[:200]}")
+    except Exception as e:
+        print(f"  ⚠️  LLM parsing failed: {e}")
         print(f"     Keeping existing data for {country_code}")
         return existing_country
 
@@ -207,7 +198,7 @@ def main():
     parser = argparse.ArgumentParser(description="Update tax-rules.json with latest brackets")
     parser.add_argument("--country", help="Update only this country code (e.g. us, uk, ca)")
     parser.add_argument("--apply",   action="store_true", help="Apply tax-rules.draft.json → tax-rules.json")
-    parser.add_argument("--no-search", action="store_true", help="Skip SerpAPI, use OpenAI knowledge only")
+    parser.add_argument("--no-search", action="store_true", help="Skip SerpAPI, use LLM knowledge only")
     args = parser.parse_args()
 
     # ── Apply mode ────────────────────────────────────────────────────────────
@@ -222,8 +213,11 @@ def main():
         return
 
     # ── Load keys ─────────────────────────────────────────────────────────────
-    openai_key = load_key("OPENAI_API_KEY")
-    serp_key   = "" if args.no_search else load_key("SERPAPI_KEY")
+    serp_key = "" if args.no_search else load_key("SERPAPI_KEY")
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
+        print("[ERROR] No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.")
+        return
 
     # ── Load existing rules ───────────────────────────────────────────────────
     existing = json.loads(RULES_FILE.read_text())
@@ -254,7 +248,7 @@ def main():
         print(f"\n→ [{code.upper()}] {COUNTRY_NAMES.get(code, code)}")
         try:
             serp_k = "" if args.no_search else serp_key
-            updated = update_country(code, existing, serp_k, openai_key)
+            updated = update_country(code, existing, serp_k)
             draft[code] = updated
             updated_count += 1
         except Exception as e:

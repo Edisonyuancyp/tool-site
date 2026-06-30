@@ -2,7 +2,8 @@
  * Translate all tools-registry meta.json files into es / fr variants.
  * Usage:  node scripts/translate-metas.mjs [--locale es] [--slug loan-calculator]
  *
- * Requires OPENAI_API_KEY in .env.local (loaded automatically).
+ * Supports multi-provider LLM fallback: OPENAI_API_KEY, CLAUDE_API_KEY, GEMINI_API_KEY
+ * (loaded automatically from .env.local).
  */
 
 import fs from "fs";
@@ -25,28 +26,85 @@ const REGISTRY_DIR = path.join(ROOT, "tools-registry");
 const LOCALES = ["es", "fr"];
 const LOCALE_NAMES = { es: "Spanish", fr: "French" };
 
+const LLM_PROVIDER_PRIORITY = (process.env.LLM_PROVIDER_PRIORITY || "claude,openai,gemini")
+  .split(",")
+  .map(p => p.trim().toLowerCase())
+  .filter(p => ["claude", "openai", "gemini"].includes(p));
+
+function getProviderKey(provider) {
+  if (provider === "openai") return process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY_BACKUP;
+  if (provider === "claude") return process.env.CLAUDE_API_KEY || process.env.CLAUDE_API_KEY_BACKUP || process.env.ANTHROPIC_API_KEY;
+  if (provider === "gemini") return process.env.GEMINI_API_KEY;
+  return undefined;
+}
+
+function getAvailableProviders() {
+  return LLM_PROVIDER_PRIORITY.filter(p => !!getProviderKey(p));
+}
+
 const args = process.argv.slice(2);
 const onlyLocale = args.includes("--locale") ? args[args.indexOf("--locale") + 1] : null;
 const onlySlug   = args.includes("--slug")   ? args[args.indexOf("--slug")   + 1] : null;
 const locales    = onlyLocale ? [onlyLocale] : LOCALES;
 
-async function callOpenAI(prompt) {
-  const res = await fetch("https://api.openai.com/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "gpt-4o-mini",
-      temperature: 0.3,
-      messages: [{ role: "user", content: prompt }],
-      response_format: { type: "json_object" },
-    }),
-  });
-  if (!res.ok) throw new Error(`OpenAI error ${res.status}: ${await res.text()}`);
-  const json = await res.json();
-  return JSON.parse(json.choices[0].message.content);
+async function callLLM(prompt) {
+  const providers = getAvailableProviders();
+  if (!providers.length) throw new Error("No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.");
+  const system = "You are an expert SEO translator. Return valid JSON only, no markdown, no explanation.";
+  let lastError = null;
+
+  for (const provider of providers) {
+    const key = getProviderKey(provider);
+    if (!key) continue;
+    try {
+      let content;
+      if (provider === "openai") {
+        const res = await fetch("https://api.openai.com/v1/chat/completions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
+          body: JSON.stringify({
+            model: "gpt-4o-mini",
+            temperature: 0.3,
+            messages: [{ role: "system", content: system }, { role: "user", content: prompt }],
+            response_format: { type: "json_object" },
+          }),
+        });
+        if (!res.ok) throw new Error(`OpenAI ${res.status}: ${await res.text()}`);
+        content = (await res.json()).choices?.[0]?.message?.content;
+      } else if (provider === "claude") {
+        const res = await fetch("https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
+          body: JSON.stringify({
+            model: "claude-3-5-haiku-20241022",
+            max_tokens: 4096,
+            system,
+            messages: [{ role: "user", content: prompt }],
+          }),
+        });
+        if (!res.ok) throw new Error(`Claude ${res.status}: ${await res.text()}`);
+        content = (await res.json()).content?.[0]?.text;
+      } else if (provider === "gemini") {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: system }] },
+            contents: [{ role: "user", parts: [{ text: prompt }] }],
+            generationConfig: { maxOutputTokens: 4096, temperature: 0.3 },
+          }),
+        });
+        if (!res.ok) throw new Error(`Gemini ${res.status}: ${await res.text()}`);
+        content = (await res.json()).candidates?.[0]?.content?.parts?.map(p => p.text).join("");
+      }
+      if (!content) throw new Error(`Empty response from ${provider}`);
+      return JSON.parse(content);
+    } catch (e) {
+      console.log(`  ⚠️ ${provider} failed: ${e.message}`);
+      lastError = e;
+    }
+  }
+  throw new Error(`All LLM providers failed. Last error: ${lastError?.message}`);
 }
 
 async function translateMeta(meta, locale) {
@@ -66,7 +124,7 @@ Rules:
 Input JSON:
 ${JSON.stringify(meta, null, 2)}
 `;
-  return callOpenAI(prompt);
+  return callLLM(prompt);
 }
 
 async function main() {
