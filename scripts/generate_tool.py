@@ -26,6 +26,7 @@ import argparse
 import textwrap
 import subprocess
 from pathlib import Path
+from llm_client import LLMClient, _extract_json
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
@@ -315,13 +316,13 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False,
 
 def _generate_seo_body(meta: dict) -> list[dict] | None:
     """
-    Use OpenAI to generate ~800-word structured SEO content for a tool page.
+    Use LLMClient to generate ~800-word structured SEO content for a tool page.
     Returns a list of { heading, body } dicts, or None on failure/no API key.
     The content follows a Q&A / formula / example structure favoured by AI search
     engines (Perplexity, ChatGPT, Gemini) and Google featured snippets.
     """
-    api_key = os.environ.get("OPENAI_API_KEY", "")
-    if not api_key:
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
         return None
 
     name        = meta.get("name", "")
@@ -331,9 +332,8 @@ def _generate_seo_body(meta: dict) -> list[dict] | None:
     faqs        = meta.get("faqs", [])
     faq_text    = "\n".join(f"- {f['question']}" for f in faqs[:4]) if faqs else ""
 
-    prompt = f"""You are an expert SEO content writer for a free online calculator website called GetFastCalc.
-
-Write structured SEO content for the tool: "{name}"
+    system = "You are an expert SEO content writer for a free online calculator website called GetFastCalc. Return ONLY valid JSON array, no extra text."
+    prompt = f"""Write structured SEO content for the tool: "{name}"
 Tagline: {tagline}
 Description: {description}
 Top keywords: {", ".join(keywords)}
@@ -361,30 +361,12 @@ Return ONLY valid JSON array, no extra text:
 ]"""
 
     try:
-        import urllib.request, urllib.error
-        payload = json.dumps({
-            "model": "gpt-4o-mini",
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.4,
-            "max_tokens": 1500,
-        }).encode("utf-8")
-        req = urllib.request.Request(
-            "https://api.openai.com/v1/chat/completions",
-            data=payload,
-            headers={
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {api_key}",
-            },
-            method="POST",
+        content = client.chat_completion(
+            system=system,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=1500,
+            json_mode=True,
         )
-        with urllib.request.urlopen(req, timeout=45) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        content = data["choices"][0]["message"]["content"].strip()
-        # Strip markdown code fences if present
-        if content.startswith("```"):
-            content = content.split("```")[1]
-            if content.startswith("json"):
-                content = content[4:]
         sections = json.loads(content)
         if isinstance(sections, list) and all("heading" in s and "body" in s for s in sections):
             return sections

@@ -18,52 +18,31 @@ Usage:
 
 import json, os, argparse, time, re
 from pathlib import Path
-from urllib.request import urlopen, Request
-from urllib.error import HTTPError
+from llm_client import LLMClient
 
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
 BLOG_DIR = ROOT / "app" / "blog"
 
-CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "")
-CLAUDE_MODEL = "claude-3-5-haiku-20241022"
-CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
+DEFAULT_MODEL = "claude-3-5-haiku-20241022"
+SELECTED_MODEL = DEFAULT_MODEL
 
 
-def load_claude_key() -> str:
-    key = os.environ.get("CLAUDE_API_KEY", "")
-    if not key:
-        env_file = ROOT / ".env.local"
-        if env_file.exists():
-            for line in env_file.read_text().splitlines():
-                if line.startswith("CLAUDE_API_KEY="):
-                    key = line.split("=", 1)[1].strip()
-    return key
-
-
-def call_claude(prompt: str) -> str:
-    if not CLAUDE_API_KEY:
+def call_llm(prompt: str, model: str = "") -> str:
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
+        print("[ERROR] No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.")
         return ""
-    payload = json.dumps({
-        "model": CLAUDE_MODEL,
-        "max_tokens": 2500,
-        "system": "You are an SEO content writer for GetFastCalc. You write concise, accurate, problem-solving articles that rank in Google. Output JSON only. No markdown fences.",
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode("utf-8")
-    req = Request(
-        CLAUDE_API_URL, data=payload,
-        headers={"Content-Type":"application/json","x-api-key":CLAUDE_API_KEY,"anthropic-version":"2023-06-01"},
-        method="POST",
-    )
     try:
-        with urlopen(req, timeout=60) as r:
-            data = json.loads(r.read())
-            return data.get("content", [{}])[0].get("text", "").strip()
-    except HTTPError as e:
-        print(f"[Claude error] {e.code}: {e.read().decode()[:200]}")
-        return ""
+        return client.chat_completion(
+            system="You are an SEO content writer for GetFastCalc. You write concise, accurate, problem-solving articles that rank in Google. Output JSON only. No markdown fences.",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=2500,
+            model=model or None,
+            json_mode=True,
+        )
     except Exception as e:
-        print(f"[Claude error] {e}")
+        print(f"[LLM error] {e}")
         return ""
 
 
@@ -165,7 +144,7 @@ Requirements:
 - Output ONLY the JSON object, no markdown fences.
 """
 
-    raw = call_claude(prompt)
+    raw = call_llm(prompt, model=SELECTED_MODEL)
     if not raw:
         return None
     if raw.startswith("```"):
@@ -401,14 +380,21 @@ def main():
     parser.add_argument("--recent", type=int, default=0, help="Generate for N most recent tools")
     parser.add_argument("--limit", type=int, default=5, help="Max articles to generate")
     parser.add_argument("--dry-run", action="store_true", help="Preview only, no writes")
+    parser.add_argument("--model", default=DEFAULT_MODEL, help="LLM model to use")
+    parser.add_argument("--priority", default="", help="Provider priority (e.g. openai,gemini,claude)")
     args = parser.parse_args()
 
-    global CLAUDE_API_KEY
-    CLAUDE_API_KEY = load_claude_key()
-    if not CLAUDE_API_KEY:
-        print("[warn] CLAUDE_API_KEY not set; cannot generate content. Use --dry-run to preview.")
+    if args.priority:
+        os.environ["LLM_PROVIDER_PRIORITY"] = args.priority
+
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
+        print("[warn] No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY. Use --dry-run to preview.")
         if not args.dry_run:
             return
+
+    global SELECTED_MODEL
+    SELECTED_MODEL = args.model
 
     if args.slug:
         targets = [get_tool_meta(args.slug)]

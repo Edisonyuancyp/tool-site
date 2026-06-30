@@ -24,18 +24,12 @@ import os
 import sys
 import argparse
 import time
-import urllib.request
-import urllib.error
 from pathlib import Path
 from typing import Optional, List, Dict
+from llm_client import LLMClient
 
-# ─────────────────────────────────────────────────────────────────────────────
-# ⬇  FILL IN YOUR CLAUDE API KEY HERE (or set env var CLAUDE_API_KEY)
-CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "YOUR_CLAUDE_API_KEY_HERE")
-# ─────────────────────────────────────────────────────────────────────────────
-
-CLAUDE_MODEL   = "claude-opus-4-5"          # change to claude-3-5-haiku-20241022 for speed/cost
-CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
+# Default model used by LLMClient. Override via --model if you prefer a different one.
+DEFAULT_MODEL = "claude-3-5-haiku-20241022"
 
 ROOT         = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
@@ -111,64 +105,36 @@ Return ONLY this JSON (no extra text before or after):
 ]"""
 
 
-# ── Claude API call ───────────────────────────────────────────────────────────
-def call_claude(prompt: str, dry_run: bool) -> Optional[List[Dict]]:
+# ── LLM API call ───────────────────────────────────────────────────────────────
+def call_llm(prompt: str, dry_run: bool, model: str = "") -> Optional[List[Dict]]:
     if dry_run:
         print("  [DRY-RUN] Prompt (first 400 chars):")
         print("  " + prompt[:400].replace("\n", "\n  "))
         return None
 
-    api_key = CLAUDE_API_KEY
-    if not api_key or api_key == "YOUR_CLAUDE_API_KEY_HERE":
-        print("  [ERROR] CLAUDE_API_KEY not set. "
-              "Edit scripts/write-tool-guide.py line 27 or set env var CLAUDE_API_KEY.")
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
+        print("  [ERROR] No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.")
         return None
-
-    payload = json.dumps({
-        "model": CLAUDE_MODEL,
-        "max_tokens": 2000,
-        "system": SYSTEM_PROMPT,
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode("utf-8")
-
-    req = urllib.request.Request(
-        CLAUDE_API_URL,
-        data=payload,
-        headers={
-            "Content-Type":      "application/json",
-            "x-api-key":         api_key,
-            "anthropic-version": "2023-06-01",
-        },
-        method="POST",
-    )
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")
-        print(f"  [ERROR] Claude API HTTP {e.code}: {body[:300]}")
-        return None
+        raw = client.chat_completion(
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=2000,
+            model=model or None,
+            json_mode=True,
+        )
     except Exception as exc:
-        print(f"  [ERROR] Claude API call failed: {exc}")
+        print(f"  [ERROR] LLM call failed: {exc}")
         return None
-
-    raw = data.get("content", [{}])[0].get("text", "").strip()
-
-    # Strip markdown fences if Claude wraps output
-    if raw.startswith("```"):
-        parts = raw.split("```")
-        raw = parts[1] if len(parts) >= 2 else raw
-        if raw.startswith("json"):
-            raw = raw[4:]
-    raw = raw.strip()
 
     try:
         sections = json.loads(raw)
         if (isinstance(sections, list)
                 and all("heading" in s and "body" in s for s in sections)):
             return sections
-        print(f"  [WARN] Unexpected JSON structure from Claude")
+        print(f"  [WARN] Unexpected JSON structure from LLM")
     except json.JSONDecodeError as e:
         print(f"  [WARN] JSON parse error: {e}")
         print(f"  Raw (first 300 chars): {raw[:300]}")
@@ -177,6 +143,8 @@ def call_claude(prompt: str, dry_run: bool) -> Optional[List[Dict]]:
 
 
 # ── Process one tool ──────────────────────────────────────────────────────────
+SELECTED_MODEL = DEFAULT_MODEL
+
 def process_tool(slug: str, force: bool, dry_run: bool) -> str:  # returns 'written' | 'skipped' | 'error'
     """Returns 'written' | 'skipped' | 'error'"""
     tool_dir  = REGISTRY_DIR / slug
@@ -197,7 +165,7 @@ def process_tool(slug: str, force: bool, dry_run: bool) -> str:  # returns 'writ
     print(f"\n  ✏️  Writing guide for: {meta.get('name', slug)}")
 
     prompt   = build_prompt(meta)
-    sections = call_claude(prompt, dry_run)
+    sections = call_llm(prompt, dry_run, model=SELECTED_MODEL)
 
     if sections is None:
         if dry_run:
@@ -218,14 +186,22 @@ def process_tool(slug: str, force: bool, dry_run: bool) -> str:  # returns 'writ
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    parser = argparse.ArgumentParser(description="Write Claude-powered tutorials for every tool")
+    parser = argparse.ArgumentParser(description="Write LLM-powered tutorials for every tool")
     parser.add_argument("--slug",    help="Process only this slug")
     parser.add_argument("--force",   action="store_true", help="Overwrite existing seoBody")
     parser.add_argument("--dry-run", action="store_true", help="Print prompts, skip API calls")
     parser.add_argument("--limit",   type=int, default=0,  help="Max number of tools to process")
     parser.add_argument("--delay",   type=float, default=1.2,
                         help="Seconds to wait between API calls (default 1.2, avoids rate limits)")
+    parser.add_argument("--model",   default=DEFAULT_MODEL, help="LLM model to use")
+    parser.add_argument("--priority", default="", help="Provider priority (e.g. openai,gemini,claude)")
     args = parser.parse_args()
+
+    if args.priority:
+        os.environ["LLM_PROVIDER_PRIORITY"] = args.priority
+
+    global SELECTED_MODEL
+    SELECTED_MODEL = args.model
 
     if not REGISTRY_DIR.exists():
         print(f"[ERROR] tools-registry not found at {REGISTRY_DIR}")
@@ -243,7 +219,8 @@ def main():
     if args.limit:
         slugs = slugs[: args.limit]
 
-    print(f"[write-tool-guide] Processing {len(slugs)} tool(s) with model={CLAUDE_MODEL}")
+    client = LLMClient()
+    print(f"[write-tool-guide] Processing {len(slugs)} tool(s) with providers={','.join(client.providers)} model={args.model}")
     if args.dry_run:
         print("[write-tool-guide] DRY-RUN mode — no files will be modified\n")
 

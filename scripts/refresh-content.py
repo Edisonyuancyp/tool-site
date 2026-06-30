@@ -17,14 +17,11 @@ import random
 import sys
 import argparse
 import time
-import urllib.request
-import urllib.error
 from pathlib import Path
 from typing import Optional, List, Dict
+from llm_client import LLMClient
 
-CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "")
-CLAUDE_MODEL = "claude-3-5-haiku-20241022"  # fast/cost-friendly for refresh
-CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
+DEFAULT_MODEL = "claude-3-5-haiku-20241022"  # fast/cost-friendly for refresh
 
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
@@ -34,6 +31,8 @@ SYSTEM_PROMPT = """You are a practical, experienced writer adding NEW sections t
 
 MAX_SEO_SECTIONS = 8  # keep at most this many sections total
 NEW_SECTIONS_PER_RUN = 2  # how many genuinely new sections to add each refresh
+
+SELECTED_MODEL = DEFAULT_MODEL
 
 
 def build_prompt(meta: dict) -> str:
@@ -71,53 +70,25 @@ Return only JSON, no extra text:
 ]"""
 
 
-def call_claude(prompt: str) -> Optional[List[Dict]]:
-    if not CLAUDE_API_KEY:
-        print("  [ERROR] CLAUDE_API_KEY not set")
+def call_llm(prompt: str, model: str = "") -> Optional[List[Dict]]:
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
+        print("  [ERROR] No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.")
         return None
-
-    payload = json.dumps({
-        "model": CLAUDE_MODEL,
-        "max_tokens": 2000,
-        "system": SYSTEM_PROMPT,
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode("utf-8")
-
-    req = urllib.request.Request(
-        CLAUDE_API_URL,
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": CLAUDE_API_KEY,
-            "anthropic-version": "2023-06-01",
-        },
-        method="POST",
-    )
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        print(f"  [ERROR] Claude API HTTP {e.code}: {e.read().decode()[:300]}")
-        return None
-    except Exception as exc:
-        print(f"  [ERROR] Claude API call failed: {exc}")
-        return None
-
-    raw = data.get("content", [{}])[0].get("text", "").strip()
-    if raw.startswith("```"):
-        parts = raw.split("```")
-        raw = parts[1] if len(parts) >= 2 else raw
-        if raw.startswith("json"):
-            raw = raw[4:]
-    raw = raw.strip()
-
-    try:
+        raw = client.chat_completion(
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=2000,
+            model=model or None,
+            json_mode=True,
+        )
         sections = json.loads(raw)
         if isinstance(sections, list) and all("heading" in s and "body" in s for s in sections):
             return sections
     except Exception as e:
-        print(f"  [WARN] JSON parse error: {e}")
+        print(f"  [WARN] LLM call or JSON parse error: {e}")
 
     return None
 
@@ -135,7 +106,7 @@ def refresh_tool(slug: str) -> bool:
         return False
 
     print(f"  ✏️  Refreshing: {meta.get('name', slug)}")
-    sections = call_claude(build_prompt(meta))
+    sections = call_llm(build_prompt(meta), model=SELECTED_MODEL)
     if not sections:
         return False
 
@@ -171,7 +142,14 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--delay", type=float, default=1.0)
+    parser.add_argument("--model", default=DEFAULT_MODEL, help="LLM model to use")
+    parser.add_argument("--priority", default="", help="Provider priority (e.g. openai,gemini,claude)")
     args = parser.parse_args()
+
+    global SELECTED_MODEL
+    SELECTED_MODEL = args.model
+    if args.priority:
+        os.environ["LLM_PROVIDER_PRIORITY"] = args.priority
 
     if not REGISTRY_DIR.exists():
         print("[ERROR] tools-registry not found")
@@ -201,7 +179,8 @@ def main():
     chosen = (random.sample(with_seo, min(args.limit, len(with_seo))) +
               random.sample(without_seo, max(0, args.limit - len(with_seo))))
 
-    print(f"[refresh-content] Refreshing {len(chosen)} tool(s) with model={CLAUDE_MODEL}")
+    client = LLMClient()
+    print(f"[refresh-content] Refreshing {len(chosen)} tool(s) with providers={','.join(client.providers)} model={SELECTED_MODEL}")
 
     refreshed = 0
     for i, slug in enumerate(chosen):

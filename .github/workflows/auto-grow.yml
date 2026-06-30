@@ -81,6 +81,11 @@ jobs:
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER_PRIORITY: ${{ secrets.LLM_PROVIDER_PRIORITY || 'claude,openai,gemini' }}
         run: |
           CATEGORY="${{ steps.vars.outputs.CATEGORY }}"
           COUNT="${{ github.event.inputs.count || '5' }}"
@@ -92,18 +97,32 @@ jobs:
         if: ${{ steps.vars.outputs.MODE == 'new-tool' }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER_PRIORITY: ${{ secrets.LLM_PROVIDER_PRIORITY || 'claude,openai,gemini' }}
         run: python scripts/generate_tool.py || echo "⚠️ generate_tool.py failed, continuing"
 
-      - name: Write Claude tutorials for new tools
+      - name: Write LLM tutorials for new tools
         if: ${{ steps.vars.outputs.MODE == 'new-tool' }}
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER_PRIORITY: ${{ secrets.LLM_PROVIDER_PRIORITY || 'claude,openai,gemini' }}
         run: python scripts/write-tool-guide.py --delay 1.5 || echo "⚠️ write-tool-guide.py failed, continuing"
 
       - name: Translate new tools (zh/ja/de/pt)
         if: ${{ steps.vars.outputs.MODE == 'new-tool' }}
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           for LOCALE in zh ja de pt; do
             echo "Translating → $LOCALE"
@@ -115,12 +134,22 @@ jobs:
         if: ${{ steps.vars.outputs.MODE == 'content' }}
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER_PRIORITY: ${{ secrets.LLM_PROVIDER_PRIORITY || 'claude,openai,gemini' }}
         run: python scripts/refresh-content.py --limit 5 --delay 1.2 || echo "⚠️ refresh-content.py failed, continuing"
 
       - name: Generate problem+tool content pages for AI/SEO/Social tools
         if: ${{ steps.vars.outputs.MODE == 'content' }}
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER_PRIORITY: ${{ secrets.LLM_PROVIDER_PRIORITY || 'claude,openai,gemini' }}
         run: python scripts/generate-problem-tool-content.py --limit 5 || echo "⚠️ generate-problem-tool-content.py failed, continuing"
 
       # ── Mode: SEO/GEO refresh (Thursdays) ──────────────────────────────────
@@ -142,6 +171,11 @@ jobs:
         if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
         env:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+          CLAUDE_API_KEY_BACKUP: ${{ secrets.CLAUDE_API_KEY_BACKUP }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY_BACKUP: ${{ secrets.OPENAI_API_KEY_BACKUP }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER_PRIORITY: ${{ secrets.LLM_PROVIDER_PRIORITY || 'claude,openai,gemini' }}
         run: python scripts/generate-variants.py --limit 20 || echo "⚠️ generate-variants.py failed, continuing"
 
       - name: Generate programmatic SEO pages

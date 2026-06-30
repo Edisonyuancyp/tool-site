@@ -19,8 +19,7 @@ import json
 import argparse
 import re
 from pathlib import Path
-from urllib.request import urlopen, Request
-from urllib.error import HTTPError
+from llm_client import LLMClient, _extract_json
 
 SCRIPTS_DIR = Path(__file__).parent
 CACHE_DIR   = SCRIPTS_DIR / "research_cache"
@@ -220,15 +219,19 @@ def parse_json_from_response(text: str) -> list[dict]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate tool ideas via OpenAI")
+    parser = argparse.ArgumentParser(description="Generate tool ideas via LLM")
     parser.add_argument("--category",    required=True, help="Category to generate tools for")
     parser.add_argument("--count",       type=int, default=5, help="Number of new tools to generate")
-    parser.add_argument("--no-research", action="store_true", help="Skip research cache, use OpenAI knowledge only")
-    parser.add_argument("--model",       default="gpt-4o-mini", help="OpenAI model to use")
+    parser.add_argument("--no-research", action="store_true", help="Skip research cache, use LLM knowledge only")
+    parser.add_argument("--model",       default="", help="Preferred model override (e.g. gpt-4o-mini, claude-3-5-haiku-20241022)")
+    parser.add_argument("--priority",    default="", help="Provider priority override (e.g. openai,gemini,claude)")
     args = parser.parse_args()
 
     category = args.category.lower().strip()
-    api_key  = load_openai_key()
+    client = LLMClient(priority=args.priority)
+    if not any(client._key_for(p) for p in client.providers):
+        print("[ERROR] No LLM API keys found. Set OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY.")
+        return
 
     # ── Load research snippets ────────────────────────────────────────────────
     snippets: list[dict] = []
@@ -239,22 +242,28 @@ def main():
             print(f"📂 Loaded {len(snippets)} research snippets from cache")
         else:
             print(f"⚠️  No research cache found for '{category}'. Run research.py first, or use --no-research.")
-            print(f"   Continuing with OpenAI knowledge only…\n")
+            print(f"   Continuing with LLM knowledge only…\n")
 
     # ── Load existing slugs ───────────────────────────────────────────────────
     existing = get_existing_slugs()
     print(f"🔍 {len(existing)} existing tools/slugs found — will avoid duplicates")
-    print(f"🤖 Calling OpenAI ({args.model}) to generate {args.count} tool ideas for '{category}'…\n")
+    print(f"🤖 Calling LLM (priority: {','.join(client.providers)}) to generate {args.count} tool ideas for '{category}'…\n")
 
-    # ── Call OpenAI ───────────────────────────────────────────────────────────
+    # ── Call LLM ───────────────────────────────────────────────────────────────
     prompt   = build_prompt(category, snippets, args.count, existing)
-    response = call_openai(prompt, api_key, model=args.model)
+    response = client.chat_completion(
+        system="You are a tool-website product manager. Output JSON only, no markdown fences, no explanation.",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=4000,
+        model=args.model or None,
+        json_mode=True,
+    )
 
     # ── Parse response ────────────────────────────────────────────────────────
     try:
-        new_tools = parse_json_from_response(response)
+        new_tools = json.loads(response)
     except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse OpenAI response as JSON: {e}")
+        print(f"[ERROR] Failed to parse LLM response as JSON: {e}")
         print("Raw response:\n", response[:500])
         return
 

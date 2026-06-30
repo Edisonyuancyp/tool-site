@@ -19,15 +19,13 @@ Environment:
   CLAUDE_API_KEY   — optional; if missing, uses template-based fallback copy
 """
 
-import json, os, sys, argparse, time, urllib.request, urllib.error
+import json, os, sys, argparse, time
 from pathlib import Path
 from typing import Optional
+from llm_client import LLMClient
 
 ROOT         = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
-CLAUDE_API_KEY  = os.environ.get("CLAUDE_API_KEY", "")
-CLAUDE_MODEL    = "claude-3-5-haiku-20241022"
-CLAUDE_API_URL  = "https://api.anthropic.com/v1/messages"
 
 # ── Variant templates by category ─────────────────────────────────────────────
 # Each entry: (variantSlug_suffix, dimension_label, hint_for_claude)
@@ -108,34 +106,21 @@ def get_templates(category: str) -> list[tuple[str,str,str]]:
     return CATEGORY_VARIANTS.get(category, DEFAULT_VARIANTS)
 
 
-# ── Claude call ───────────────────────────────────────────────────────────────
-def call_claude(prompt: str) -> Optional[dict]:
-    if not CLAUDE_API_KEY:
+# ── LLM call ──────────────────────────────────────────────────────────────────
+def call_llm(prompt: str) -> Optional[dict]:
+    client = LLMClient()
+    if not any(client._key_for(p) for p in client.providers):
         return None
-    payload = json.dumps({
-        "model": CLAUDE_MODEL,
-        "max_tokens": 800,
-        "system": "You write concise, keyword-rich SEO metadata for online calculator tools. Output JSON only. No markdown fences.",
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode("utf-8")
-    req = urllib.request.Request(
-        CLAUDE_API_URL, data=payload,
-        headers={"Content-Type":"application/json","x-api-key":CLAUDE_API_KEY,"anthropic-version":"2023-06-01"},
-        method="POST",
-    )
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = json.loads(r.read())
+        raw = client.chat_completion(
+            system="You write concise, keyword-rich SEO metadata for online calculator tools. Output JSON only. No markdown fences.",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=800,
+            json_mode=True,
+        )
+        return json.loads(raw)
     except Exception as e:
-        print(f"    [Claude error] {e}")
-        return None
-    raw = data.get("content",[{}])[0].get("text","").strip()
-    if raw.startswith("```"):
-        parts = raw.split("```")
-        raw = parts[1][4:] if parts[1].startswith("json") else parts[1]
-    try:
-        return json.loads(raw.strip())
-    except:
+        print(f"    [LLM error] {e}")
         return None
 
 
@@ -155,7 +140,7 @@ Return JSON with exactly these keys:
   "keywords": ["...", "...", "...", "...", "..."],  // 5 long-tail keywords
   "headline": "..."            // 1 sentence hero subtitle shown on page (20-30 words)
 }}"""
-    result = call_claude(prompt)
+    result = call_llm(prompt)
     if result and all(k in result for k in ("metaTitle","metaDescription","keywords","headline")):
         return {
             "variantSlug": variant_slug,
