@@ -1,0 +1,51 @@
+{
+  "slug": "ai-cost-comparator",
+  "name": "Comparador de Custos de IA",
+  "tagline": "Compare custos entre modelos de IA",
+  "description": "Esta ferramenta permite que os usuários comparem os custos de API entre vários modelos de IA, ajudando os desenvolvedores a tomar decisões informadas sobre o uso de IA. Ideal para quem busca gerenciar despesas de forma eficaz enquanto utiliza tecnologias de IA.",
+  "metaTitle": "Comparador de Custos de IA – Compare Custos de API | Ferramenta Online Gratuita",
+  "metaDescription": "Compare os custos de modelos de IA instantaneamente com esta ferramenta gratuita. Sem necessidade de cadastro, basta inserir seus dados e obter resultados.",
+  "keywords": [
+    "comparação de custos de ia",
+    "ferramenta de preços de api",
+    "estimador de custos de modelo",
+    "gestão de orçamento de ia",
+    "análise de custos",
+    "calculadora de custos de ia",
+    "gráfico de comparação de custos de ia",
+    "comparar custos de ia",
+    "custo do copilot ia",
+    "o que é uma cobrança de ia",
+    "quanto custa a ia",
+    "comparação de preços de ia",
+    "site de comparação de preços de ia",
+    "comparação de preços de ia reddit",
+    "aplicativo de comparação de preços de ia",
+    "comparação de preços de ia 2026",
+    "api de comparação de preços de ia",
+    "ferramenta gratuita de api",
+    "calculadora de preços de api",
+    "ferramentas gratuitas de api como postman"
+  ],
+  "category": "ai",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como funciona a comparação de custos?",
+      "answer": "Você insere seu uso esperado, e a ferramenta calcula e compara os custos entre diferentes modelos."
+    },
+    {
+      "question": "Posso salvar minhas comparações para depois?",
+      "answer": "Atualmente, as comparações não são salvas; você pode anotá-las manualmente."
+    },
+    {
+      "question": "Quais modelos posso comparar?",
+      "answer": "Você pode comparar vários modelos populares como GPT, Claude e outros."
+    }
+  ],
+  "relatedTools": [
+    "llm-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

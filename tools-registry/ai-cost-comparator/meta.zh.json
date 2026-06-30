@@ -1,0 +1,51 @@
+{
+  "slug": "ai-cost-comparator",
+  "name": "AI成本比较器",
+  "tagline": "比较AI模型的成本",
+  "description": "该工具允许用户比较多个AI模型的API成本，帮助开发者在使用AI技术时做出明智的决策。非常适合希望有效管理开支的用户。",
+  "metaTitle": "AI成本比较器 – 比较API成本 | 免费在线工具",
+  "metaDescription": "使用此免费工具即时比较AI模型成本。无需注册，只需输入您的数据即可获取结果。",
+  "keywords": [
+    "ai成本比较",
+    "api定价工具",
+    "模型成本估算器",
+    "ai预算管理",
+    "成本分析",
+    "ai成本计算器",
+    "ai成本比较图表",
+    "ai成本比较",
+    "copilot ai成本",
+    "什么是ai收费",
+    "ai的成本是多少",
+    "ai价格比较",
+    "ai价格比较网站",
+    "ai价格比较reddit",
+    "ai价格比较应用",
+    "2026年ai价格比较",
+    "ai价格比较api",
+    "api免费工具",
+    "api定价计算器",
+    "类似postman的免费api工具"
+  ],
+  "category": "ai",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "成本比较是如何工作的？",
+      "answer": "您输入预期使用量，该工具将计算并比较不同模型的成本。"
+    },
+    {
+      "question": "我可以保存我的比较以便以后查看吗？",
+      "answer": "目前，比较结果无法保存；您可以手动记录。"
+    },
+    {
+      "question": "我可以比较哪些模型？",
+      "answer": "您可以比较各种流行模型，如GPT、Claude等。"
+    }
+  ],
+  "relatedTools": [
+    "llm-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

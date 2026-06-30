@@ -1,0 +1,50 @@
+{
+  "slug": "ai-context-window-manager",
+  "name": "Gerenciador de Janela de Contexto AI",
+  "tagline": "Gerencie sua janela de contexto de forma eficaz",
+  "description": "Esta ferramenta ajuda os usuários a calcular e gerenciar os limites de suas janelas de contexto para vários modelos de IA, garantindo um uso ideal. Perfeito para desenvolvedores e engenheiros de prompt que precisam maximizar o desempenho de seus modelos de IA.",
+  "metaTitle": "Gerenciador de Janela de Contexto AI – Otimize o Uso | Ferramenta Online Gratuita",
+  "metaDescription": "Gerencie suas janelas de contexto de IA com esta ferramenta gratuita. Resultados instantâneos, sem necessidade de cadastro.",
+  "keywords": [
+    "gerenciamento de janela de contexto",
+    "otimizador de uso de IA",
+    "ferramenta de desempenho de modelo",
+    "rastreamento de contexto",
+    "efetividade de prompt",
+    "gerenciamento de janela de contexto de IA",
+    "estratégias de gerenciamento de janela de contexto",
+    "gerenciamento de janela de contexto em llm",
+    "controle de janela de contexto",
+    "gerenciamento de janela de contexto Claude",
+    "gerenciamento de janela de contexto Cline",
+    "gerenciamento de janela de contexto Langchain",
+    "ferramentas de avaliação de modelo",
+    "ferramentas de avaliação de modelo met",
+    "kit de ferramentas de avaliação de modelo",
+    "ferramentas de modelagem de desempenho",
+    "ferramentas de monitoramento de desempenho de modelo",
+    "ferramenta de desempenho é uma boa marca",
+    "o que é desempenho de modelo"
+  ],
+  "category": "ai",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "O que é uma janela de contexto?",
+      "answer": "É a quantidade de texto que um modelo de IA pode considerar ao mesmo tempo ao gerar respostas."
+    },
+    {
+      "question": "Como esta ferramenta pode me ajudar?",
+      "answer": "Ela calcula sua janela de contexto com base na sua entrada, ajudando você a permanecer dentro dos limites ideais."
+    },
+    {
+      "question": "É compatível com todos os modelos de IA?",
+      "answer": "Sim, suporta múltiplos modelos, incluindo GPT e Claude."
+    }
+  ],
+  "relatedTools": [
+    "context-window-calculator",
+    "prompt-formatter"
+  ],
+  "variants": []
+}

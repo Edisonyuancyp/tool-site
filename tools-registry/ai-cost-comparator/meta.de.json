@@ -1,0 +1,51 @@
+{
+  "slug": "ai-cost-comparator",
+  "name": "AI Kostenvergleich",
+  "tagline": "Vergleichen Sie die Kosten verschiedener KI-Modelle",
+  "description": "Dieses Tool ermöglicht es Ihnen, die API-Kosten verschiedener KI-Modelle zu vergleichen, um Entwicklern zu helfen, informierte Entscheidungen über ihre KI-Nutzung zu treffen. Ideal für diejenigen, die ihre Ausgaben effektiv verwalten möchten, während sie KI-Technologien nutzen.",
+  "metaTitle": "AI Kostenvergleich – API-Kosten vergleichen | Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie die Kosten von KI-Modellen sofort mit diesem kostenlosen Tool. Keine Anmeldung erforderlich, geben Sie einfach Ihre Daten ein und erhalten Sie Ergebnisse.",
+  "keywords": [
+    "KI Kostenvergleich",
+    "API Preisvergleichs-Tool",
+    "Modellkosten-Schätzer",
+    "KI Budgetverwaltung",
+    "Kostenanalyse",
+    "KI Kostenrechner",
+    "KI Kostenvergleichstabelle",
+    "KI Kosten vergleichen",
+    "Copilot KI Kosten",
+    "Was ist eine KI-Gebühr",
+    "Wie viel kostet KI",
+    "KI Preisvergleich",
+    "KI Preisvergleichswebsite",
+    "KI Preisvergleich Reddit",
+    "KI Preisvergleich App",
+    "KI Preisvergleich 2026",
+    "KI Preisvergleich API",
+    "kostenloses API-Tool",
+    "API Preisrechner",
+    "kostenlose API-Tools wie Postman"
+  ],
+  "category": "ai",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Kostenvergleich?",
+      "answer": "Sie geben Ihre erwartete Nutzung ein, und das Tool berechnet und vergleicht die Kosten verschiedener Modelle."
+    },
+    {
+      "question": "Kann ich meine Vergleiche für später speichern?",
+      "answer": "Derzeit werden Vergleiche nicht gespeichert; Sie können sie manuell notieren."
+    },
+    {
+      "question": "Welche Modelle kann ich vergleichen?",
+      "answer": "Sie können verschiedene beliebte Modelle wie GPT, Claude und andere vergleichen."
+    }
+  ],
+  "relatedTools": [
+    "llm-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

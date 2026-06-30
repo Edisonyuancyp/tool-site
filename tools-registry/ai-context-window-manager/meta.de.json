@@ -1,0 +1,50 @@
+{
+  "slug": "ai-context-window-manager",
+  "name": "AI Context Window Manager",
+  "tagline": "Verwalten Sie Ihr Kontextfenster effektiv",
+  "description": "Dieses Tool hilft Nutzern, ihre Grenzen des Kontextfensters für verschiedene KI-Modelle zu berechnen und zu verwalten, um eine optimale Nutzung sicherzustellen. Perfekt für Entwickler und Prompt-Ingenieure, die die Leistung ihres KI-Modells maximieren müssen.",
+  "metaTitle": "AI Context Window Manager – Nutzung optimieren | Kostenloses Online-Tool",
+  "metaDescription": "Verwalten Sie Ihre KI-Kontextfenster mit diesem kostenlosen Tool. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
+  "keywords": [
+    "Kontextfensterverwaltung",
+    "KI-Nutzungsoptimierer",
+    "Modelleistungswerkzeug",
+    "Kontextverfolgung",
+    "Prompt-Effektivität",
+    "KI-Kontextfensterverwaltung",
+    "Strategien zur Kontextfensterverwaltung",
+    "Kontextfensterverwaltung in LLM",
+    "Kontextfensterkontrolle",
+    "Claude Kontextfensterverwaltung",
+    "Cline Kontextfensterverwaltung",
+    "Langchain Kontextfensterverwaltung",
+    "Modellbewertungstools",
+    "Modellbewertungstools MET",
+    "Modellbewertungstoolkit",
+    "Leistungsmodellierungstools",
+    "Modellleistungsüberwachungstools",
+    "Ist das Leistungswerkzeug eine gute Marke?",
+    "Was ist Modelleistung?"
+  ],
+  "category": "ai",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "Was ist ein Kontextfenster?",
+      "answer": "Es ist die Menge an Text, die ein KI-Modell gleichzeitig berücksichtigen kann, wenn es Antworten generiert."
+    },
+    {
+      "question": "Wie hilft mir dieses Tool?",
+      "answer": "Es berechnet Ihr Kontextfenster basierend auf Ihrer Eingabe und hilft Ihnen, innerhalb optimaler Grenzen zu bleiben."
+    },
+    {
+      "question": "Ist es mit allen KI-Modellen kompatibel?",
+      "answer": "Ja, es unterstützt mehrere Modelle, einschließlich GPT und Claude."
+    }
+  ],
+  "relatedTools": [
+    "context-window-calculator",
+    "prompt-formatter"
+  ],
+  "variants": []
+}

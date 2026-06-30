@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-optimizer",
+  "name": "Otimizador de Tokens de Prompt",
+  "tagline": "Otimize prompts para economizar tokens",
+  "description": "Esta ferramenta ajuda engenheiros de prompt a refinarem seus prompts para diversos modelos de IA, minimizando o uso de tokens enquanto maximiza a qualidade da saída. É perfeita para criadores de conteúdo e desenvolvedores que buscam otimizar suas interações com IA.",
+  "metaTitle": "Otimizador de Tokens de Prompt – Economize Tokens | Ferramenta Online Gratuita",
+  "metaDescription": "Otimize seus prompts de IA para economizar tokens com esta ferramenta gratuita. Resultados instantâneos, sem necessidade de cadastro.",
+  "keywords": [
+    "otimizador de prompt",
+    "economizar tokens",
+    "ferramenta de prompt de IA",
+    "eficiência de prompt",
+    "gerenciamento de tokens",
+    "otimizador de tokens de prompt",
+    "tokens de atualização vs tokens de acesso",
+    "otimizador de prompt chatgpt",
+    "otimizador de prompt claude",
+    "otimizador de prompt openai",
+    "otimizador de prompt github",
+    "otimizador de prompt gratuito",
+    "otimizador de prompt perchance",
+    "otimizador de prompt skill",
+    "economizar tokens claude code",
+    "economizar tokens claude",
+    "economizar tokens openclaw",
+    "economizar tokens codex",
+    "economizar tokens github",
+    "economizar tokens claude code github"
+  ],
+  "category": "ai",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Como esta ferramenta otimiza prompts?",
+      "answer": "Ela analisa sua entrada e sugere modificações para reduzir a contagem de tokens enquanto mantém a clareza."
+    },
+    {
+      "question": "Há um limite para quantos prompts posso otimizar?",
+      "answer": "Não, você pode otimizar quantos prompts quiser."
+    },
+    {
+      "question": "Posso usá-la para qualquer modelo de IA?",
+      "answer": "Sim, ela foi projetada para funcionar com diversos modelos, incluindo GPT e Claude."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

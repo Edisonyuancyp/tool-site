@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-optimizer",
+  "name": "Prompt Token Optimizer",
+  "tagline": "Optimieren Sie Eingabeaufforderungen, um Tokens zu sparen",
+  "description": "Dieses Tool hilft Prompt-Ingenieuren, ihre Eingabeaufforderungen für verschiedene KI-Modelle zu verfeinern, um den Tokenverbrauch zu minimieren und gleichzeitig die Ausgabewqualität zu maximieren. Es ist perfekt für Content-Ersteller und Entwickler, die ihre KI-Interaktionen optimieren möchten.",
+  "metaTitle": "Prompt Token Optimizer – Tokens sparen | Kostenloses Online-Tool",
+  "metaDescription": "Optimieren Sie Ihre KI-Eingabeaufforderungen, um Tokens mit diesem kostenlosen Tool zu sparen. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
+  "keywords": [
+    "Eingabeaufforderungsoptimierer",
+    "Tokens sparen",
+    "KI-Eingabeaufforderungstool",
+    "Eingabeaufforderungseffizienz",
+    "Tokenverwaltung",
+    "Prompt Token Optimizer",
+    "Refresh Tokens vs Access Tokens",
+    "Eingabeaufforderungsoptimierer ChatGPT",
+    "Eingabeaufforderungsoptimierer Claude",
+    "Eingabeaufforderungsoptimierer OpenAI",
+    "Eingabeaufforderungsoptimierer GitHub",
+    "Eingabeaufforderungsoptimierer kostenlos",
+    "Eingabeaufforderungsoptimierer Perchance",
+    "Eingabeaufforderungsoptimierer Skill",
+    "Tokens sparen Claude Code",
+    "Tokens sparen Claude",
+    "Tokens sparen OpenClaw",
+    "Tokens sparen Codex",
+    "Tokens sparen GitHub",
+    "Tokens sparen Claude Code GitHub"
+  ],
+  "category": "ai",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Wie optimiert dieses Tool Eingabeaufforderungen?",
+      "answer": "Es analysiert Ihre Eingabe und schlägt Änderungen vor, um die Tokenanzahl zu reduzieren und gleichzeitig die Klarheit zu bewahren."
+    },
+    {
+      "question": "Gibt es eine Begrenzung, wie viele Eingabeaufforderungen ich optimieren kann?",
+      "answer": "Nein, Sie können so viele Eingabeaufforderungen optimieren, wie Sie möchten."
+    },
+    {
+      "question": "Kann ich es für jedes KI-Modell verwenden?",
+      "answer": "Ja, es ist so konzipiert, dass es mit verschiedenen Modellen, einschließlich GPT und Claude, funktioniert."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

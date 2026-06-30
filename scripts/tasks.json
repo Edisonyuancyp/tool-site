@@ -2038,5 +2038,249 @@
         "headline": "Use our quick compare tool to evaluate your prompts in seconds."
       }
     ]
+  },
+  {
+    "slug": "prompt-token-optimizer",
+    "name": "Prompt Token Optimizer",
+    "tagline": "Optimize prompts to save tokens",
+    "description": "This tool helps prompt engineers refine their prompts for various AI models, minimizing token usage while maximizing output quality. It's perfect for content creators and developers looking to optimize their AI interactions.",
+    "metaTitle": "Prompt Token Optimizer – Save Tokens | Free Online Tool",
+    "metaDescription": "Optimize your AI prompts to save tokens with this free tool. Instant results, no signup needed.",
+    "keywords": [
+      "prompt optimizer",
+      "save tokens",
+      "AI prompt tool",
+      "prompt efficiency",
+      "token management"
+    ],
+    "category": "ai",
+    "icon": "🛠️",
+    "faqs": [
+      {
+        "question": "How does this tool optimize prompts?",
+        "answer": "It analyzes your input and suggests modifications to reduce token count while maintaining clarity."
+      },
+      {
+        "question": "Is there a limit to how many prompts I can optimize?",
+        "answer": "No, you can optimize as many prompts as you like."
+      },
+      {
+        "question": "Can I use it for any AI model?",
+        "answer": "Yes, it's designed to work with various models including GPT and Claude."
+      }
+    ],
+    "relatedTools": [
+      "prompt-token-counter",
+      "prompt-cleaner"
+    ],
+    "variants": [
+      {
+        "variantSlug": "basic-optimization",
+        "metaTitle": "Basic Prompt Optimization",
+        "metaDescription": "Get basic optimization suggestions for your prompts.",
+        "keywords": [
+          "basic optimization",
+          "prompt suggestions",
+          "token savings"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Start with basic suggestions for prompt improvements."
+      },
+      {
+        "variantSlug": "advanced-optimization",
+        "metaTitle": "Advanced Prompt Optimization",
+        "metaDescription": "Receive advanced strategies for prompt efficiency.",
+        "keywords": [
+          "advanced optimization",
+          "expert suggestions",
+          "AI prompt strategies"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Unlock advanced techniques for optimizing your prompts."
+      }
+    ]
+  },
+  {
+    "slug": "ai-cost-comparator",
+    "name": "AI Cost Comparator",
+    "tagline": "Compare costs across AI models",
+    "description": "This tool allows users to compare API costs across multiple AI models, helping developers make informed decisions on their AI usage. Ideal for those looking to manage expenses effectively while utilizing AI technologies.",
+    "metaTitle": "AI Cost Comparator – Compare API Costs | Free Online Tool",
+    "metaDescription": "Compare AI model costs instantly with this free tool. No signup required, just enter your data and get results.",
+    "keywords": [
+      "AI cost comparison",
+      "API pricing tool",
+      "model cost estimator",
+      "AI budget management",
+      "cost analysis"
+    ],
+    "category": "ai",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How does the cost comparison work?",
+        "answer": "You input your expected usage, and the tool calculates and compares costs across different models."
+      },
+      {
+        "question": "Can I save my comparisons for later?",
+        "answer": "Currently, comparisons are not saved; you can note them manually."
+      },
+      {
+        "question": "Which models can I compare?",
+        "answer": "You can compare various popular models like GPT, Claude, and others."
+      }
+    ],
+    "relatedTools": [
+      "llm-cost-calculator",
+      "prompt-cost-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "basic-comparison",
+        "metaTitle": "Basic Cost Comparison",
+        "metaDescription": "Quickly compare basic costs across models.",
+        "keywords": [
+          "basic cost comparison",
+          "simple pricing tool",
+          "quick cost analysis"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Quickly get a basic understanding of AI costs."
+      },
+      {
+        "variantSlug": "detailed-comparison",
+        "metaTitle": "Detailed Cost Comparison",
+        "metaDescription": "Get an in-depth analysis of costs across AI models.",
+        "keywords": [
+          "detailed cost analysis",
+          "in-depth comparison",
+          "comprehensive pricing"
+        ],
+        "defaultVariant": "detailed-key",
+        "headline": "Dive deep into the cost structures of various AI models."
+      }
+    ]
+  },
+  {
+    "slug": "ai-context-window-manager",
+    "name": "AI Context Window Manager",
+    "tagline": "Manage your context window effectively",
+    "description": "This tool helps users calculate and manage their context window limits for various AI models, ensuring optimal usage. Perfect for developers and prompt engineers who need to maximize their AI model's performance.",
+    "metaTitle": "AI Context Window Manager – Optimize Usage | Free Online Tool",
+    "metaDescription": "Manage your AI context windows with this free tool. Instant results, no signup required.",
+    "keywords": [
+      "context window management",
+      "AI usage optimizer",
+      "model performance tool",
+      "context tracking",
+      "prompt effectiveness"
+    ],
+    "category": "ai",
+    "icon": "📏",
+    "faqs": [
+      {
+        "question": "What is a context window?",
+        "answer": "It's the amount of text that an AI model can consider at one time when generating responses."
+      },
+      {
+        "question": "How does this tool help me?",
+        "answer": "It calculates your context window based on your input, helping you stay within optimal limits."
+      },
+      {
+        "question": "Is it compatible with all AI models?",
+        "answer": "Yes, it supports multiple models including GPT and Claude."
+      }
+    ],
+    "relatedTools": [
+      "context-window-calculator",
+      "prompt-formatter"
+    ],
+    "variants": [
+      {
+        "variantSlug": "basic-window-management",
+        "metaTitle": "Basic Context Window Management",
+        "metaDescription": "Simple management of your context window limits.",
+        "keywords": [
+          "basic context management",
+          "simple window tracking",
+          "quick context tool"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Get started with basic context window management."
+      },
+      {
+        "variantSlug": "advanced-window-management",
+        "metaTitle": "Advanced Context Window Management",
+        "metaDescription": "In-depth analysis and management of context windows.",
+        "keywords": [
+          "advanced context management",
+          "detailed window analysis",
+          "comprehensive tracking"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Unlock advanced tools for managing your context windows."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-version-comparator",
+    "name": "Prompt Version Comparator",
+    "tagline": "Compare different prompt versions",
+    "description": "This tool enables users to compare multiple versions of their prompts side-by-side, helping identify improvements and performance differences. Ideal for prompt engineers and content creators who want to enhance their output quality.",
+    "metaTitle": "Prompt Version Comparator – Compare Prompts | Free Online Tool",
+    "metaDescription": "Compare different versions of prompts instantly with this free tool. No signup required.",
+    "keywords": [
+      "prompt version comparison",
+      "compare prompts",
+      "prompt analysis",
+      "version control",
+      "prompt optimization"
+    ],
+    "category": "ai",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "How do I compare prompt versions?",
+        "answer": "You can input different versions of a prompt and view the differences side-by-side."
+      },
+      {
+        "question": "Is this tool suitable for all AI models?",
+        "answer": "Yes, it works for prompts used with various AI models."
+      },
+      {
+        "question": "Can I save my comparisons?",
+        "answer": "Currently, comparisons are not saved; you'll need to manage them manually."
+      }
+    ],
+    "relatedTools": [
+      "prompt-optimizer",
+      "prompt-cleaner"
+    ],
+    "variants": [
+      {
+        "variantSlug": "basic-comparison-tool",
+        "metaTitle": "Basic Prompt Comparison Tool",
+        "metaDescription": "Quickly compare basic prompt versions.",
+        "keywords": [
+          "basic prompt comparison",
+          "simple version control",
+          "quick analysis"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Start with basic tools for comparing prompt versions."
+      },
+      {
+        "variantSlug": "advanced-comparison-tool",
+        "metaTitle": "Advanced Prompt Comparison Tool",
+        "metaDescription": "In-depth comparison of prompt versions for detailed analysis.",
+        "keywords": [
+          "advanced prompt comparison",
+          "detailed version control",
+          "comprehensive analysis"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Unlock advanced features for comparing prompt versions."
+      }
+    ]
   }
 ]

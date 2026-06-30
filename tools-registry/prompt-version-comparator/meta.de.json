@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-version-comparator",
+  "name": "Prompt Version Comparator",
+  "tagline": "Vergleichen Sie verschiedene Prompt-Versionen",
+  "description": "Dieses Tool ermöglicht es Ihnen, mehrere Versionen Ihrer Prompts nebeneinander zu vergleichen, um Verbesserungen und Leistungsunterschiede zu identifizieren. Ideal für Prompt-Ingenieure und Content-Ersteller, die die Qualität ihrer Ausgaben verbessern möchten.",
+  "metaTitle": "Prompt Version Comparator – Vergleichen Sie Prompts | Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie verschiedene Versionen von Prompts sofort mit diesem kostenlosen Tool. Keine Anmeldung erforderlich.",
+  "keywords": [
+    "Prompt-Versionen vergleichen",
+    "Prompts vergleichen",
+    "Prompt-Analyse",
+    "Versionskontrolle",
+    "Prompt-Optimierung",
+    "Vergleich von Prompts",
+    "AI-Prompts vergleichen",
+    "Kontrast-Prompts vergleichen",
+    "zwei Prompts vergleichen",
+    "LLM-Prompts vergleichen",
+    "Langfuse Prompts vergleichen",
+    "Kontrast-Essay-Prompts vergleichen",
+    "Beispiel für Prompt-Analyse",
+    "Bedeutung der Prompt-Analyse",
+    "Prompt-Analyse KI",
+    "Prompt-Analyse-Tool",
+    "Prompt-Analyse und -Optimierung",
+    "Prompt-Analyse ChatGPT",
+    "Prompt-Analyse-Papier"
+  ],
+  "category": "ai",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Wie vergleiche ich Prompt-Versionen?",
+      "answer": "Sie können verschiedene Versionen eines Prompts eingeben und die Unterschiede nebeneinander anzeigen."
+    },
+    {
+      "question": "Ist dieses Tool für alle KI-Modelle geeignet?",
+      "answer": "Ja, es funktioniert für Prompts, die mit verschiedenen KI-Modellen verwendet werden."
+    },
+    {
+      "question": "Kann ich meine Vergleiche speichern?",
+      "answer": "Derzeit werden Vergleiche nicht gespeichert; Sie müssen sie manuell verwalten."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

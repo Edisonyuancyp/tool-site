@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-optimizer",
+  "name": "提示令牌优化器",
+  "tagline": "优化提示以节省令牌",
+  "description": "该工具帮助提示工程师优化他们的提示，以适应各种AI模型，最小化令牌使用，同时最大化输出质量。非常适合希望优化AI交互的内容创作者和开发者。",
+  "metaTitle": "提示令牌优化器 – 节省令牌 | 免费在线工具",
+  "metaDescription": "使用这个免费工具优化您的AI提示以节省令牌。即时结果，无需注册。",
+  "keywords": [
+    "提示优化器",
+    "节省令牌",
+    "AI提示工具",
+    "提示效率",
+    "令牌管理",
+    "提示令牌优化器",
+    "刷新令牌与访问令牌",
+    "提示优化器chatgpt",
+    "提示优化器claude",
+    "提示优化器openai",
+    "提示优化器github",
+    "提示优化器免费",
+    "提示优化器perchance",
+    "提示优化器技能",
+    "节省令牌claude代码",
+    "节省令牌claude",
+    "节省令牌openclaw",
+    "节省令牌codex",
+    "节省令牌github",
+    "节省令牌claude代码github"
+  ],
+  "category": "ai",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "这个工具如何优化提示？",
+      "answer": "它分析您的输入并建议修改，以减少令牌数量，同时保持清晰度。"
+    },
+    {
+      "question": "我可以优化多少个提示？",
+      "answer": "没有限制，您可以优化任意数量的提示。"
+    },
+    {
+      "question": "我可以用于任何AI模型吗？",
+      "answer": "是的，它旨在与包括GPT和Claude在内的各种模型配合使用。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}
