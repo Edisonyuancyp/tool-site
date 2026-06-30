@@ -45,6 +45,36 @@ ratio tool, backtesting metrics summarizer, correlation matrix tool, portfolio V
 funding rate / carry cost calculators for crypto perps.
 Prefer tools discussed in r/algotrading, r/options, r/quant, r/Forex.""",
 
+    "ai": """\
+PRIORITY FOCUS — AI & Prompt Engineering Users:
+Target ChatGPT/Claude/Gemini/DeepSeek users, prompt engineers, AI app developers, and content creators who need to manage token costs and optimize prompts.
+High-value tool ideas include: prompt token counter, prompt cost calculator (GPT-4o, Claude, Gemini, DeepSeek), AI image cost calculator, AI video cost calculator, context window calculator, token splitter, AI model compare, prompt formatter, prompt cleaner, prompt variable generator, and prompt version compare.
+Prefer tools that solve real problems people ask in r/ChatGPT, r/ClaudeAI, r/LocalLLaMA, r/OpenAI.""",
+
+    "seo": """\
+PRIORITY FOCUS — SEOs & Content Creators:
+Target website owners, bloggers, SEO specialists, and content marketers who need quick on-page SEO utilities.
+High-value tool ideas include: title generator, meta description generator, slug generator, robots.txt generator, schema generator, canonical checker, OpenGraph preview, Twitter card preview, keyword density checker, and reading time calculator.
+Prefer tools discussed in r/SEO, r/juststart, r/blogging.""",
+
+    "social": """\
+PRIORITY FOCUS — Social Media Creators:
+Target Twitter/X, Instagram, TikTok, YouTube, LinkedIn, Reddit, Threads, and Bluesky creators who need to fit content within platform limits.
+High-value tool ideas include: Twitter/X character counter, Instagram caption counter, TikTok caption counter, YouTube description counter, LinkedIn post counter, Reddit character counter, Threads character counter, and Bluesky post counter.
+Prefer tools that creators ask for in r/Twitter, r/Instagram, r/TikTokCringe, r/YouTube.""",
+
+    "image": """\
+PRIORITY FOCUS — Designers, Marketers & Developers:
+Target people who need quick image processing and checks without installing software.
+High-value tool ideas include: image compressor, image cropper, aspect ratio calculator, image size calculator, transparent PNG checker, WebP converter, image DPI checker, base64 image converter, image pixel checker, and image color palette extractor.
+Prefer tools requested in r/webdesign, r/photography, r/graphic_design.""",
+
+    "file": """\
+PRIORITY FOCUS — Developers, Data Workers & Writers:
+Target programmers, analysts, and content writers who need browser-based formatters and validators.
+High-value tool ideas include: JSON beautifier, XML formatter, CSV cleaner, duplicate line remover, regex tester, Markdown preview, HTML escape, YAML validator, SQL formatter, and TSV converter.
+Prefer tools discussed in r/webdev, r/programming, r/excel.""",
+
     "design": """\
 PRIORITY FOCUS — Designers & Creative Professionals:
 Target UI/UX designers, graphic designers, and front-end developers who use Figma, Sketch, or code.

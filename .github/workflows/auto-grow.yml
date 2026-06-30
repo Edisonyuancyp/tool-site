@@ -6,11 +6,11 @@ on:
   workflow_dispatch:        # Manual trigger from GitHub UI
     inputs:
       mode:
-        description: "Manual mode: new-tool | content | seo-geo | keywords | maintenance"
+        description: "Manual mode: new-tool | content | seo-geo | keywords | maintenance | deep-review"
         required: false
         default: ""
       category:
-        description: "Category for new-tool mode (ecommerce | quant | design | ... )"
+        description: "Category for new-tool mode (ai | seo | social | image | file | ecommerce | quant | design | dev | youtube | amazon | pinterest)"
         required: false
         default: ""
       count:
@@ -59,16 +59,16 @@ jobs:
             exit 0
           fi
 
-          # Scheduled weekday mapping
+          # Scheduled weekday mapping (see EVOLUTION_PLAN.md)
           DAY=$(date -u +%u)
           case "$DAY" in
-            1) MODE=new-tool;   CATEGORY=ecommerce ;;
-            2) MODE=content;    CATEGORY= ;;
-            3) MODE=new-tool;   CATEGORY=quant ;;
-            4) MODE=seo-geo;    CATEGORY= ;;
-            5) MODE=new-tool;   CATEGORY=design ;;
-            6) MODE=keywords;   CATEGORY= ;;
-            7) MODE=maintenance; CATEGORY= ;;
+            1) MODE=new-tool;   CATEGORY=ai ;;          # Monday: AI tools (highest ROI)
+            2) MODE=content;    CATEGORY= ;;             # Tuesday: problem+tool content
+            3) MODE=new-tool;   CATEGORY=seo ;;           # Wednesday: SEO tools
+            4) MODE=seo-geo;    CATEGORY= ;;             # Thursday: SEO/GEO refresh
+            5) MODE=new-tool;   CATEGORY=dev ;;           # Friday: developer/ecom/social rotate
+            6) MODE=keywords;   CATEGORY= ;;             # Saturday: keyword & variant refresh
+            7) MODE=maintenance; CATEGORY= ;;            # Sunday: maintenance + deep review
             *) MODE=maintenance; CATEGORY= ;;
           esac
           echo "MODE=$MODE"         >> "$GITHUB_OUTPUT"
@@ -117,6 +117,12 @@ jobs:
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
         run: python scripts/refresh-content.py --limit 5 --delay 1.2 || echo "⚠️ refresh-content.py failed, continuing"
 
+      - name: Generate problem+tool content pages for AI/SEO/Social tools
+        if: ${{ steps.vars.outputs.MODE == 'content' }}
+        env:
+          CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
+        run: python scripts/generate-problem-tool-content.py --limit 5 || echo "⚠️ generate-problem-tool-content.py failed, continuing"
+
       # ── Mode: SEO/GEO refresh (Thursdays) ──────────────────────────────────
       - name: Regenerate llms.txt for AI crawlers
         if: ${{ steps.vars.outputs.MODE == 'seo-geo' }}
@@ -142,6 +148,10 @@ jobs:
         if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
         run: python scripts/generate-programmatic-seo.py || echo "⚠️ generate-programmatic-seo.py failed, continuing"
 
+      - name: Deep review — analyse existing tools for quality and improvement opportunities
+        if: ${{ steps.vars.outputs.MODE == 'maintenance' }}
+        run: python scripts/deep-review.py || echo "⚠️ deep-review.py failed, continuing"
+
       # ── Shared: audit + auto-fix + build + commit ──────────────────────────
       - name: Audit all tools (self-check)
         run: node scripts/audit-tools.mjs || true
@@ -160,7 +170,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "✅ No changes — nothing to commit."
           else
-            COUNT=$(git diff --cached --name-only | grep "tools-registry" | grep "meta.json" | wc -l | tr -d ' ')
+            COUNT=$(git diff --cached --name-only | grep -E "tools-registry|app/blog" | wc -l | tr -d ' ')
             git commit -m "feat(auto-grow): daily update [mode=${{ steps.vars.outputs.MODE }}] +${COUNT} files [skip ci]"
             git push
           fi

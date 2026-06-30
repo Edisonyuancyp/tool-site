@@ -47,6 +47,46 @@ PRIORITY_QUERY_TEMPLATES: dict[str, list[str]] = {
         'site:reddit.com "I need a" OR "looking for" trading OR quant calculator OR tool 2024 OR 2025',
         '"trading calculator" OR "quant tool" free online "I wish" OR "why isn\'t there"',
     ],
+    # AI / prompt engineering tools
+    "ai": [
+        'site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) "token counter" OR "cost calculator" OR "prompt tool"',
+        'site:reddit.com "prompt cost" OR "token cost" OR "context window" OR "prompt splitter" OR "prompt optimizer" tool',
+        'site:reddit.com "how many tokens" OR "token limit" OR " Claude context" OR "GPT cost" calculator',
+        '"AI prompt calculator" OR "LLM cost calculator" OR "prompt token counter" free online',
+        '"prompt tool" OR "AI tool" "I wish" OR "doesn\'t exist" OR "looking for" site:reddit.com',
+    ],
+    # SEO / content marketing tools
+    "seo": [
+        'site:reddit.com (r/SEO OR r/juststart OR r/blogging) "calculator" OR "tool" OR "generator" OR "checker"',
+        'site:reddit.com "title generator" OR "meta description" OR "schema generator" OR "keyword density" tool',
+        'site:reddit.com "SEO tool" "I need" OR "looking for" OR "free" OR "doesn\'t exist"',
+        '"SEO calculator" OR "slug generator" OR "canonical checker" OR "OpenGraph preview" free online',
+        '"content optimization tool" OR "reading time calculator" OR "SEO score checker" free no signup',
+    ],
+    # Social media / caption counters
+    "social": [
+        'site:reddit.com (r/Twitter OR r/Instagram OR r/TikTokCringe OR r/YouTube) "character counter" OR "caption" OR "description" tool',
+        'site:reddit.com "Twitter character limit" OR "Instagram caption length" OR "TikTok caption" OR "LinkedIn post" tool',
+        '"character counter" OR "caption counter" "I wish" OR "looking for" site:reddit.com',
+        '"social media character counter" OR "tweet length checker" OR "YouTube description tool" free online',
+        '"X post counter" OR "Threads character counter" OR "Bluesky post counter" free tool',
+    ],
+    # Image tools
+    "image": [
+        'site:reddit.com (r/webdesign OR r/photography OR r/graphic_design) "image compressor" OR "cropper" OR "converter" OR "DPI" tool',
+        'site:reddit.com "webp converter" OR "png transparent" OR "aspect ratio" OR "image size" calculator',
+        '"image tool" OR "image compressor" OR "base64 image" "free online" site:reddit.com',
+        '"resize image" OR "compress image online" OR "transparent png checker" free no signup',
+        '"image dpi checker" OR "image aspect ratio calculator" OR "image cropper browser" free',
+    ],
+    # File / text / data tools
+    "file": [
+        'site:reddit.com (r/webdev OR r/programming OR r/excel) "json formatter" OR "csv cleaner" OR "regex tester" tool',
+        'site:reddit.com "XML formatter" OR "YAML validator" OR "Markdown preview" OR "duplicate line remover"',
+        '"developer tool" OR "text formatter" OR "json beautifier" "free online" site:reddit.com',
+        '"regex tester online" OR "csv cleaner online" OR "html escape tool" free no signup',
+        '"file format converter" OR "code formatter" OR "data cleaning tool" browser',
+    ],
     # Design / creative tools
     "design": [
         'site:reddit.com (r/graphic_design OR r/UI_Design OR r/web_design OR r/figma) "tool" OR "calculator" OR "generator"',

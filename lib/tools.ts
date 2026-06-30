@@ -1133,6 +1133,7 @@ export const CATEGORY_URL_PREFIX: Record<string, string> = {
   Crypto:        "calc",
   Fitness:       "calc",
   Quant:         "calc",
+  AI:            "ai",
   Design:        "design",
   Generators:    "design",
   Developer:     "dev",
@@ -1147,6 +1148,11 @@ export const CATEGORY_URL_PREFIX: Record<string, string> = {
   Productivity:  "converter",
   Ecommerce:     "ecommerce",
   ecommerce:     "ecommerce",
+  SEO:           "seo",
+  Social:        "social",
+  Media:         "social",
+  "Image":       "image",
+  "File":        "file",
 };
 
 /** Returns the canonical URL path for a tool, e.g. /tools/dev/base-converter */
