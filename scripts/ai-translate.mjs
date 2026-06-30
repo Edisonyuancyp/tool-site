@@ -32,6 +32,23 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const REGISTRY = path.join(ROOT, "tools-registry");
 
+// ── Multi-provider LLM config ──────────────────────────────────────────────
+const LLM_PROVIDER_PRIORITY = (process.env.LLM_PROVIDER_PRIORITY || "claude,openai,gemini")
+  .split(",")
+  .map(p => p.trim().toLowerCase())
+  .filter(p => ["claude", "openai", "gemini"].includes(p));
+
+function getProviderKey(provider) {
+  if (provider === "openai") return process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY_BACKUP;
+  if (provider === "claude") return process.env.CLAUDE_API_KEY || process.env.CLAUDE_API_KEY_BACKUP || process.env.ANTHROPIC_API_KEY;
+  if (provider === "gemini") return process.env.GEMINI_API_KEY;
+  return undefined;
+}
+
+function getAvailableProviders() {
+  return LLM_PROVIDER_PRIORITY.filter(p => !!getProviderKey(p));
+}
+
 // ── Locale config ─────────────────────────────────────────────────────────
 const LOCALE_CONFIG = {
   zh: { name: "Simplified Chinese", nativeName: "简体中文", instruction: "Use natural Mainland Chinese (简体中文). Use professional terminology for financial/health tools." },
@@ -69,9 +86,9 @@ if (!all && !slugsArg) {
   process.exit(1);
 }
 
-const CLAUDE_KEY = process.env.CLAUDE_API_KEY || process.env.ANTHROPIC_API_KEY;
-if (!CLAUDE_KEY && !dryRun) {
-  console.error("❌ Set CLAUDE_API_KEY or ANTHROPIC_API_KEY in .env.local");
+const availableProviders = getAvailableProviders();
+if (availableProviders.length === 0 && !dryRun) {
+  console.error("❌ Set at least one LLM key: OPENAI_API_KEY, CLAUDE_API_KEY, or GEMINI_API_KEY in .env.local");
   process.exit(1);
 }
 
@@ -95,7 +112,7 @@ console.log(`\n🌐 Translating ${slugs.length} tools → ${locale} (${config.na
 if (dryRun) console.log("  [DRY RUN — no API calls]");
 console.log(`  Tools: ${slugs.slice(0, 5).join(", ")}${slugs.length > 5 ? ` +${slugs.length - 5} more` : ""}\n`);
 
-// ── OpenAI call ───────────────────────────────────────────────────────────
+// ── Multi-provider LLM call ─────────────────────────────────────────────────
 async function translateWithAI(slug, meta) {
   // Build a minimal object with only translatable fields
   const toTranslate = {};
@@ -118,35 +135,89 @@ Rules:
 Input JSON:
 ${JSON.stringify(toTranslate, null, 2)}`;
 
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": CLAUDE_KEY,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: "claude-haiku-4-5",
-      max_tokens: 4096,
-      messages: [{ role: "user", content: prompt }],
-    }),
-  });
+  const systemPrompt = "You are a professional translator and SEO copywriter. Return ONLY valid JSON with the exact same structure as the input. No markdown, no explanation.";
+  const providers = availableProviders.length ? availableProviders : getAvailableProviders();
 
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`Claude API error ${response.status}: ${err}`);
+  let lastError = null;
+  for (const provider of providers) {
+    const key = getProviderKey(provider);
+    if (!key) continue;
+
+    try {
+      let content;
+      if (provider === "claude") {
+        const response = await fetch("https://api.anthropic.com/v1/messages", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-api-key": key,
+            "anthropic-version": "2023-06-01",
+          },
+          body: JSON.stringify({
+            model: "claude-3-5-haiku-20241022",
+            max_tokens: 4096,
+            system: systemPrompt,
+            messages: [{ role: "user", content: prompt }],
+          }),
+        });
+        if (!response.ok) throw new Error(`Claude API ${response.status}: ${await response.text()}`);
+        content = (await response.json()).content?.[0]?.text;
+      } else if (provider === "openai") {
+        const response = await fetch("https://api.openai.com/v1/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${key}`,
+          },
+          body: JSON.stringify({
+            model: "gpt-4o-mini",
+            messages: [
+              { role: "system", content: systemPrompt },
+              { role: "user", content: prompt },
+            ],
+            max_tokens: 4096,
+            temperature: 0.3,
+          }),
+        });
+        if (!response.ok) throw new Error(`OpenAI API ${response.status}: ${await response.text()}`);
+        content = (await response.json()).choices?.[0]?.message?.content;
+      } else if (provider === "gemini") {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${key}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: systemPrompt }] },
+            contents: [{ role: "user", parts: [{ text: prompt }] }],
+            generationConfig: { maxOutputTokens: 4096, temperature: 0.3 },
+          }),
+        });
+        if (!response.ok) throw new Error(`Gemini API ${response.status}: ${await response.text()}`);
+        const parts = (await response.json()).candidates?.[0]?.content?.parts;
+        content = parts?.map(p => p.text).join("");
+      } else {
+        continue;
+      }
+
+      if (!content) throw new Error(`Empty response from ${provider}`);
+      console.log(`  [translated via ${provider}] ${slug}`);
+      return extractTranslatedJSON(content);
+    } catch (err) {
+      console.log(`  ⚠️ ${provider} failed: ${err.message}`);
+      lastError = err;
+    }
   }
 
-  const data = await response.json();
-  const content = data.content[0].text;
+  throw new Error(`All LLM providers failed. Last error: ${lastError?.message}`);
+}
 
+function extractTranslatedJSON(content) {
   // Extract the outermost JSON object, stripping any markdown fences or prose
   const start = content.indexOf("{");
   const end = content.lastIndexOf("}");
   if (start === -1 || end === -1) throw new Error("No JSON object found in response");
   let cleaned = content.slice(start, end + 1);
 
-  // Fix common Claude JSON issues: unescaped control chars inside strings
+  // Fix common LLM JSON issues: unescaped control chars inside strings
   // Replace literal newlines inside JSON string values with \n
   cleaned = cleaned.replace(/("(?:[^"\\]|\\.)*")/g, (match) => {
     return match.replace(/\n/g, "\\n").replace(/\r/g, "\\r").replace(/\t/g, "\\t");
