@@ -33,6 +33,11 @@ const CAT_PT = {
   "Ecommerce": "E-commerce",
   "Content": "Conteúdo",
   "Crypto": "Cripto",
+  "AI": "IA",
+  "SEO": "SEO",
+  "Social": "Redes Sociais",
+  "Image": "Imagem",
+  "File": "Arquivo",
 };
 
 const PT = {
