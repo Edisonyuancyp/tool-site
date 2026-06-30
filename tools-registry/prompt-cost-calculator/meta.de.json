@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-cost-calculator",
+  "name": "Prompt Cost Calculator",
+  "tagline": "Schätzen Sie Ihre KI-Promptkosten schnell.",
+  "description": "Berechnen Sie die Kosten Ihrer KI-Prompts basierend auf der Token-Nutzung über verschiedene Modelle wie GPT-4o und Claude. Ideal für Prompt-Ingenieure und Entwickler, die die Token-Ausgaben verwalten.",
+  "metaTitle": "Prompt Cost Calculator – Schätzen Sie Ihre KI-Kosten | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie die KI-Promptkosten sofort kostenlos. Geben Sie die Prompt-Details ein, um die Kosten für verschiedene KI-Modelle ohne Anmeldung zu sehen.",
+  "keywords": [
+    "prompt kostenrechner",
+    "ki prompt preise",
+    "token kosten schätzer",
+    "preise für ki-modelle",
+    "gpt-4o kosten",
+    "prompt kosten schätzer",
+    "ki prompt kostenrechner",
+    "openai prompt kostenrechner",
+    "prompt express preisliste",
+    "prompt express gebühren",
+    "wie viel kostet es, zur promptversorgung zu gehen",
+    "kosten für prompt-training",
+    "token kosten schätzer claude",
+    "coin kosten schätzer",
+    "token kostenrechner",
+    "token kostenrechner openai",
+    "token kostenrechner gemini",
+    "token kostenrechner llm",
+    "token kostenrechner anthropic"
+  ],
+  "category": "Ai",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Wie berechne ich meine Promptkosten?",
+      "answer": "Geben Sie einfach Ihren Prompt ein und wählen Sie das KI-Modell aus, um eine sofortige Kostenschätzung zu erhalten."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos zu nutzen?",
+      "answer": "Ja, der Prompt Cost Calculator ist völlig kostenlos und erfordert keine Anmeldung."
+    },
+    {
+      "question": "Kann ich die Kosten zwischen den Modellen vergleichen?",
+      "answer": "Absolut! Sie können denselben Prompt für verschiedene Modelle eingeben, um Kostenvergleiche zu sehen."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-compare"
+  ],
+  "variants": []
+}

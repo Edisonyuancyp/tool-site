@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-variable-generator",
+  "name": "Prompt Variable Generator",
+  "tagline": "Erstellen Sie dynamische Variablen für Ihre Eingabeaufforderungen.",
+  "description": "Generieren Sie anpassbare Variablen, um Ihre KI-Eingabeaufforderungen zu verbessern und dynamischer zu gestalten. Ideal für Prompt-Ingenieure, die die Flexibilität von Eingabeaufforderungen erhöhen möchten.",
+  "metaTitle": "Prompt Variable Generator – Verbessern Sie Ihre KI-Eingabeaufforderungen | Kostenloses Online-Tool",
+  "metaDescription": "Erstellen Sie kostenlose dynamische Eingabeaufforderungsvariablen und verbessern Sie Ihre KI-Interaktionen. Sofortige Ergebnisse ohne Anmeldung erforderlich.",
+  "keywords": [
+    "Eingabeaufforderungsvariablen-Generator",
+    "dynamische Eingabeaufforderungen",
+    "KI-Eingabeaufforderungsanpassung",
+    "Variablen erstellen",
+    "Prompt Engineering",
+    "dynamische Eingabeaufforderungen comfyui",
+    "dynamische Eingabeaufforderungen Erweiterung",
+    "dynamische Eingabeaufforderungen automatic1111",
+    "dynamische Eingabeaufforderungen stabile Diffusion",
+    "dynamische Eingabeaufforderungen forge neo",
+    "dynamische Eingabeaufforderungen github",
+    "dynamische Eingabeaufforderungen Syntax",
+    "KI-Anpassungsaufforderungen",
+    "KI-Eingabeaufforderungsfarbpalettengenerator",
+    "KI-Eingabeaufforderungsfarbanalyse",
+    "KI-Eingabeaufforderungsfarbpalette",
+    "KI-Eingabeaufforderungsfarbe",
+    "KI-Eingabeaufforderungsfarbkorrektur",
+    "KI-Farb-Eingabeaufforderungs-Generator",
+    "wie man das iPhone-Thema anpasst"
+  ],
+  "category": "Ai",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "Was ist eine Eingabeaufforderungsvariable?",
+      "answer": "Eine Eingabeaufforderungsvariable ermöglicht es Ihnen, dynamische Elemente in Ihren Eingabeaufforderungen zu erstellen, um maßgeschneiderte Antworten zu erhalten."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, Sie können den Prompt Variable Generator kostenlos nutzen, ohne sich anmelden zu müssen."
+    },
+    {
+      "question": "Wie kann ich die generierten Variablen verwenden?",
+      "answer": "Sie können sie in Ihre Eingabeaufforderungen integrieren, um deren Anpassungsfähigkeit zu verbessern."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

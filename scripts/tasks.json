@@ -1733,5 +1733,310 @@
       "spacing-grid-calculator"
     ],
     "variants": []
+  },
+  {
+    "slug": "prompt-cost-calculator",
+    "name": "Prompt Cost Calculator",
+    "tagline": "Estimate your AI prompt costs quickly.",
+    "description": "Calculate the cost of your AI prompts based on token usage across different models like GPT-4o and Claude. Ideal for prompt engineers and developers managing token expenses.",
+    "metaTitle": "Prompt Cost Calculator – Estimate Your AI Costs | Free Online Tool",
+    "metaDescription": "Calculate AI prompt costs instantly for free. Enter prompt details to see costs for various AI models without signup.",
+    "keywords": [
+      "prompt cost calculator",
+      "AI prompt pricing",
+      "token cost estimator",
+      "AI model pricing",
+      "GPT-4o cost"
+    ],
+    "category": "Ai",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How do I calculate my prompt costs?",
+        "answer": "Simply enter your prompt and select the AI model to get an instant cost estimate."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, the Prompt Cost Calculator is completely free with no signup required."
+      },
+      {
+        "question": "Can I compare costs across models?",
+        "answer": "Absolutely! You can input the same prompt for different models to see cost comparisons."
+      }
+    ],
+    "relatedTools": [
+      "prompt-token-counter",
+      "ai-model-compare"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-cost-analysis",
+        "metaTitle": "Detailed Cost Analysis for AI Prompts",
+        "metaDescription": "Get a deeper insight into your prompt costs for various AI models.",
+        "keywords": [
+          "detailed cost analysis",
+          "AI prompt breakdown",
+          "cost efficiency"
+        ],
+        "defaultVariant": "detailed-cost",
+        "headline": "Explore a detailed breakdown of your prompt costs across multiple AI models."
+      },
+      {
+        "variantSlug": "simple-cost-estimator",
+        "metaTitle": "Simple Cost Estimator for AI Prompts",
+        "metaDescription": "Quickly estimate your prompt costs with a streamlined interface.",
+        "keywords": [
+          "simple cost estimator",
+          "quick prompt cost",
+          "user-friendly calculator"
+        ],
+        "defaultVariant": "simple-cost",
+        "headline": "Use our simple interface to quickly estimate the costs of your AI prompts."
+      }
+    ]
+  },
+  {
+    "slug": "context-window-calculator",
+    "name": "Context Window Calculator",
+    "tagline": "Optimize your AI prompt context.",
+    "description": "Determine the optimal context window size for your prompts to maximize AI output quality. Suitable for developers and content creators aiming for efficiency.",
+    "metaTitle": "Context Window Calculator – Optimize Your Prompts | Free Online Tool",
+    "metaDescription": "Find the best context window size for your AI prompts for free. Instant results with no signup required.",
+    "keywords": [
+      "context window calculator",
+      "AI prompt optimization",
+      "context size estimator",
+      "max token usage",
+      "prompt efficiency"
+    ],
+    "category": "Ai",
+    "icon": "📏",
+    "faqs": [
+      {
+        "question": "What is a context window?",
+        "answer": "A context window is the amount of text the AI can consider when generating a response."
+      },
+      {
+        "question": "How do I find the optimal context size?",
+        "answer": "Input your prompt length, and the calculator will suggest an effective context window size."
+      },
+      {
+        "question": "Is this tool really free?",
+        "answer": "Yes, the Context Window Calculator is free to use with instant results."
+      }
+    ],
+    "relatedTools": [
+      "prompt-optimizer",
+      "token-splitter"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-context-analysis",
+        "metaTitle": "Advanced Context Analysis Tool",
+        "metaDescription": "Get detailed insights and recommendations for context window sizes.",
+        "keywords": [
+          "advanced context analysis",
+          "AI prompt strategy",
+          "context optimization"
+        ],
+        "defaultVariant": "advanced-analysis",
+        "headline": "Dive deep into context optimization strategies for your prompts."
+      },
+      {
+        "variantSlug": "simple-context-finder",
+        "metaTitle": "Simple Context Finder",
+        "metaDescription": "Quickly determine the best context size for your prompts.",
+        "keywords": [
+          "simple context finder",
+          "quick analysis",
+          "easy context calculator"
+        ],
+        "defaultVariant": "simple-finder",
+        "headline": "Use our simple tool to quickly find the optimal context size for your prompts."
+      }
+    ]
+  },
+  {
+    "slug": "token-splitter",
+    "name": "Token Splitter",
+    "tagline": "Effortlessly split your prompts into tokens.",
+    "description": "Break down your prompts into manageable tokens to optimize usage across AI models. Perfect for developers who need to stay within token limits.",
+    "metaTitle": "Token Splitter – Optimize Your Prompts | Free Online Tool",
+    "metaDescription": "Split your AI prompts into tokens for free. Instant results with no signup needed.",
+    "keywords": [
+      "token splitter",
+      "prompt token management",
+      "AI token optimization",
+      "token usage calculator",
+      "prompt breakdown"
+    ],
+    "category": "Ai",
+    "icon": "✂️",
+    "faqs": [
+      {
+        "question": "What does the Token Splitter do?",
+        "answer": "It takes your prompt and divides it into individual tokens for better management."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, the Token Splitter is a free tool that requires no signup."
+      },
+      {
+        "question": "Can I use it for multiple models?",
+        "answer": "Yes, it supports various AI models for token splitting."
+      }
+    ],
+    "relatedTools": [
+      "prompt-cleaner",
+      "token-counter"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-token-analysis",
+        "metaTitle": "Detailed Token Analysis Tool",
+        "metaDescription": "Get in-depth insights on your token usage and distribution.",
+        "keywords": [
+          "detailed token analysis",
+          "AI token breakdown",
+          "token efficiency"
+        ],
+        "defaultVariant": "detailed-analysis",
+        "headline": "Explore a comprehensive breakdown of your token usage for better optimization."
+      },
+      {
+        "variantSlug": "quick-token-split",
+        "metaTitle": "Quick Token Split Tool",
+        "metaDescription": "Easily split prompts into tokens with a streamlined interface.",
+        "keywords": [
+          "quick token split",
+          "easy token management",
+          "user-friendly"
+        ],
+        "defaultVariant": "quick-split",
+        "headline": "Use our quick token split tool to manage your prompts effortlessly."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-variable-generator",
+    "name": "Prompt Variable Generator",
+    "tagline": "Create dynamic variables for your prompts.",
+    "description": "Generate customizable variables to enhance your AI prompts and make them more dynamic. Ideal for prompt engineers looking to improve prompt flexibility.",
+    "metaTitle": "Prompt Variable Generator – Enhance Your AI Prompts | Free Online Tool",
+    "metaDescription": "Create dynamic prompt variables for free and improve your AI interactions. Instant results with no signup required.",
+    "keywords": [
+      "prompt variable generator",
+      "dynamic prompts",
+      "AI prompt customization",
+      "variable creation",
+      "prompt engineering"
+    ],
+    "category": "Ai",
+    "icon": "🔧",
+    "faqs": [
+      {
+        "question": "What is a prompt variable?",
+        "answer": "A prompt variable allows you to create dynamic elements in your prompts for more tailored responses."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, you can use the Prompt Variable Generator for free without any signup."
+      },
+      {
+        "question": "How can I use the generated variables?",
+        "answer": "You can incorporate them into your prompts to enhance their adaptability."
+      }
+    ],
+    "relatedTools": [
+      "prompt-optimizer",
+      "prompt-cleaner"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-variable-creator",
+        "metaTitle": "Advanced Variable Creator for Prompts",
+        "metaDescription": "Generate complex and advanced variables for your AI prompts.",
+        "keywords": [
+          "advanced variable creator",
+          "complex prompt variables",
+          "AI customization"
+        ],
+        "defaultVariant": "advanced-creator",
+        "headline": "Explore advanced options for creating highly customizable prompt variables."
+      },
+      {
+        "variantSlug": "basic-variable-generator",
+        "metaTitle": "Basic Variable Generator",
+        "metaDescription": "Quickly generate simple variables for your prompts.",
+        "keywords": [
+          "basic variable generator",
+          "simple prompt variables",
+          "easy customization"
+        ],
+        "defaultVariant": "basic-generator",
+        "headline": "Use our basic tool to generate simple variables for your AI prompts quickly."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-version-compare",
+    "name": "Prompt Version Compare",
+    "tagline": "Compare different versions of your prompts.",
+    "description": "Easily compare multiple versions of your AI prompts to evaluate their effectiveness. Perfect for content creators and developers improving prompt quality.",
+    "metaTitle": "Prompt Version Compare – Evaluate Your AI Prompts | Free Online Tool",
+    "metaDescription": "Compare different versions of your AI prompts for free. Instant results with no signup required.",
+    "keywords": [
+      "prompt version compare",
+      "AI prompt evaluation",
+      "compare prompts",
+      "prompt effectiveness",
+      "version analysis"
+    ],
+    "category": "Ai",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "How does this tool work?",
+        "answer": "Input different versions of your prompts, and the tool will highlight differences for easy comparison."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, the Prompt Version Compare tool is free with no signup needed."
+      },
+      {
+        "question": "Can I save my comparisons?",
+        "answer": "Currently, you can view comparisons but not save them for later."
+      }
+    ],
+    "relatedTools": [
+      "prompt-optimizer",
+      "prompt-variable-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-comparison-tool",
+        "metaTitle": "Detailed Prompt Comparison Tool",
+        "metaDescription": "Get in-depth comparisons of your prompt versions.",
+        "keywords": [
+          "detailed comparison tool",
+          "thorough prompt analysis",
+          "AI prompt differences"
+        ],
+        "defaultVariant": "detailed-comparison",
+        "headline": "Dive into detailed analysis of your prompt versions to find the best one."
+      },
+      {
+        "variantSlug": "quick-compare-tool",
+        "metaTitle": "Quick Compare Tool for Prompts",
+        "metaDescription": "Quickly compare your prompts with an easy-to-use interface.",
+        "keywords": [
+          "quick compare tool",
+          "fast prompt evaluation",
+          "simple comparison"
+        ],
+        "defaultVariant": "quick-compare",
+        "headline": "Use our quick compare tool to evaluate your prompts in seconds."
+      }
+    ]
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-version-compare",
+  "name": "Comparador de Versões de Prompt",
+  "tagline": "Compare diferentes versões dos seus prompts.",
+  "description": "Compare facilmente várias versões dos seus prompts de IA para avaliar sua eficácia. Perfeito para criadores de conteúdo e desenvolvedores que buscam melhorar a qualidade dos prompts.",
+  "metaTitle": "Comparador de Versões de Prompt – Avalie Seus Prompts de IA | Ferramenta Online Grátis",
+  "metaDescription": "Compare diferentes versões dos seus prompts de IA gratuitamente. Resultados instantâneos sem necessidade de cadastro.",
+  "keywords": [
+    "comparador de versões de prompt",
+    "avaliação de prompt de IA",
+    "comparar prompts",
+    "eficácia do prompt",
+    "análise de versões",
+    "empregos de avaliação de prompt de IA",
+    "rodada de avaliação de prompt de IA",
+    "ferramentas de avaliação de prompt de IA",
+    "rodada de avaliação de prompt de IA verizon",
+    "prompt de avaliação de IA power automate",
+    "revisão de prompt de IA",
+    "avaliação de prompt de IA",
+    "prompts de comparação",
+    "comparar prompts de IA",
+    "comparar e contrastar prompts",
+    "comparar dois prompts",
+    "comparar prompts de llm",
+    "langfuse comparar prompts",
+    "comparar prompts de redação contrastante"
+  ],
+  "category": "Ai",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Como essa ferramenta funciona?",
+      "answer": "Insira diferentes versões dos seus prompts, e a ferramenta destacará as diferenças para facilitar a comparação."
+    },
+    {
+      "question": "É grátis para usar?",
+      "answer": "Sim, a ferramenta Comparador de Versões de Prompt é gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso salvar minhas comparações?",
+      "answer": "Atualmente, você pode visualizar comparações, mas não pode salvá-las para depois."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

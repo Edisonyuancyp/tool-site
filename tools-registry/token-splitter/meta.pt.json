@@ -1,0 +1,48 @@
+{
+  "slug": "token-splitter",
+  "name": "Token Splitter",
+  "tagline": "Divida seus prompts em tokens de forma fácil.",
+  "description": "Divida seus prompts em tokens gerenciáveis para otimizar o uso em modelos de IA. Perfeito para desenvolvedores que precisam ficar dentro dos limites de tokens.",
+  "metaTitle": "Token Splitter – Otimize Seus Prompts | Ferramenta Online Gratuita",
+  "metaDescription": "Divida seus prompts de IA em tokens gratuitamente. Resultados instantâneos sem necessidade de cadastro.",
+  "keywords": [
+    "divisor de tokens",
+    "gerenciamento de tokens de prompt",
+    "otimização de tokens de IA",
+    "calculadora de uso de tokens",
+    "análise de prompt",
+    "divisor de tokens langchain",
+    "divisor de tokens n8n",
+    "divisor de tokens online",
+    "divisor de tokens llamaindex",
+    "divisor de tokens node n8n",
+    "divisor de texto de tokens",
+    "divisor de texto de tokens langchain",
+    "otimização de tokens de IA github",
+    "otimização de tokens de IA",
+    "otimização de custo de tokens de IA",
+    "otimização de tokens de IA claude",
+    "otimização de tokens de agente de IA"
+  ],
+  "category": "Ai",
+  "icon": "✂️",
+  "faqs": [
+    {
+      "question": "O que o Token Splitter faz?",
+      "answer": "Ele pega seu prompt e o divide em tokens individuais para melhor gerenciamento."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, o Token Splitter é uma ferramenta gratuita que não requer cadastro."
+    },
+    {
+      "question": "Posso usá-lo para múltiplos modelos?",
+      "answer": "Sim, ele suporta vários modelos de IA para divisão de tokens."
+    }
+  ],
+  "relatedTools": [
+    "prompt-cleaner",
+    "token-counter"
+  ],
+  "variants": []
+}

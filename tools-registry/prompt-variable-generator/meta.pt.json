@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-variable-generator",
+  "name": "Gerador de Variáveis de Prompt",
+  "tagline": "Crie variáveis dinâmicas para seus prompts.",
+  "description": "Gere variáveis personalizáveis para aprimorar seus prompts de IA e torná-los mais dinâmicos. Ideal para engenheiros de prompt que buscam melhorar a flexibilidade dos prompts.",
+  "metaTitle": "Gerador de Variáveis de Prompt – Aprimore Seus Prompts de IA | Ferramenta Online Gratuita",
+  "metaDescription": "Crie variáveis dinâmicas de prompt gratuitamente e melhore suas interações com IA. Resultados instantâneos sem necessidade de cadastro.",
+  "keywords": [
+    "gerador de variáveis de prompt",
+    "prompts dinâmicos",
+    "personalização de prompts de IA",
+    "criação de variáveis",
+    "engenharia de prompt",
+    "prompts dinâmicos comfyui",
+    "extensão de prompts dinâmicos",
+    "prompts dinâmicos automatic1111",
+    "prompts dinâmicos stable diffusion",
+    "prompts dinâmicos forge neo",
+    "prompts dinâmicos github",
+    "sintaxe de prompts dinâmicos",
+    "personalização de prompts de IA",
+    "gerador de paleta de cores de prompt de IA",
+    "análise de cores de prompt de IA",
+    "paleta de cores de prompt de IA",
+    "cor de prompt de IA",
+    "graduação de cor de prompt de IA",
+    "gerador de prompt de cor de IA",
+    "como personalizar tema do iphone"
+  ],
+  "category": "Ai",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "O que é uma variável de prompt?",
+      "answer": "Uma variável de prompt permite que você crie elementos dinâmicos em seus prompts para respostas mais personalizadas."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, você pode usar o Gerador de Variáveis de Prompt gratuitamente, sem necessidade de cadastro."
+    },
+    {
+      "question": "Como posso usar as variáveis geradas?",
+      "answer": "Você pode incorporá-las em seus prompts para aumentar sua adaptabilidade."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

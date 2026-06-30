@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-calculator",
+  "name": "Calculadora de Janela de Contexto",
+  "tagline": "Otimize o contexto dos seus prompts de IA.",
+  "description": "Determine o tamanho ideal da janela de contexto para seus prompts e maximize a qualidade da saída da IA. Adequado para desenvolvedores e criadores de conteúdo que buscam eficiência.",
+  "metaTitle": "Calculadora de Janela de Contexto – Otimize Seus Prompts | Ferramenta Online Gratuita",
+  "metaDescription": "Encontre o melhor tamanho de janela de contexto para seus prompts de IA gratuitamente. Resultados instantâneos sem necessidade de cadastro.",
+  "keywords": [
+    "calculadora de janela de contexto",
+    "otimização de prompts de IA",
+    "estimador de tamanho de contexto",
+    "uso máximo de tokens",
+    "eficiência de prompts",
+    "estimador de janela de contexto",
+    "calculadora de janela de contexto llm",
+    "calculadora de tamanho de janela de contexto",
+    "calculadora de vram de janela de contexto",
+    "calculadora de janela de contexto de tokens",
+    "calculadora de janela de contexto de IA",
+    "calculadora de memória de janela de contexto",
+    "especialista em otimização de prompts de IA",
+    "ferramentas de otimização de prompts de IA",
+    "otimizador de prompts de IA grátis",
+    "extensão de otimizador de prompts de IA",
+    "otimizador de prompts de IA perchance",
+    "otimizador de prompts de IA github",
+    "otimizador de prompts de IA openai",
+    "estimador de comprimento de contexto"
+  ],
+  "category": "Ai",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "O que é uma janela de contexto?",
+      "answer": "Uma janela de contexto é a quantidade de texto que a IA pode considerar ao gerar uma resposta."
+    },
+    {
+      "question": "Como posso encontrar o tamanho de contexto ideal?",
+      "answer": "Insira o comprimento do seu prompt e a calculadora sugerirá um tamanho de janela de contexto eficaz."
+    },
+    {
+      "question": "Esta ferramenta é realmente gratuita?",
+      "answer": "Sim, a Calculadora de Janela de Contexto é gratuita para usar com resultados instantâneos."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

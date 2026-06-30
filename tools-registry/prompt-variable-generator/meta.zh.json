@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-variable-generator",
+  "name": "提示变量生成器",
+  "tagline": "为您的提示创建动态变量。",
+  "description": "生成可定制的变量，以增强您的AI提示并使其更加动态。非常适合希望提高提示灵活性的提示工程师。",
+  "metaTitle": "提示变量生成器 – 提升您的AI提示 | 免费在线工具",
+  "metaDescription": "免费创建动态提示变量，改善您的AI交互。无需注册即可获得即时结果。",
+  "keywords": [
+    "提示变量生成器",
+    "动态提示",
+    "AI提示定制",
+    "变量创建",
+    "提示工程",
+    "动态提示 comfyui",
+    "动态提示扩展",
+    "动态提示 automatic1111",
+    "动态提示稳定扩散",
+    "动态提示 forge neo",
+    "动态提示 github",
+    "动态提示语法",
+    "AI定制提示",
+    "AI提示调色板生成器",
+    "AI提示颜色分析",
+    "AI提示调色板",
+    "AI提示颜色",
+    "AI提示色彩分级",
+    "AI颜色提示生成器",
+    "如何定制iPhone主题"
+  ],
+  "category": "Ai",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "什么是提示变量？",
+      "answer": "提示变量允许您在提示中创建动态元素，以获得更个性化的响应。"
+    },
+    {
+      "question": "这个工具是免费的吗？",
+      "answer": "是的，您可以免费使用提示变量生成器，无需注册。"
+    },
+    {
+      "question": "我如何使用生成的变量？",
+      "answer": "您可以将它们融入您的提示中，以增强其适应性。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

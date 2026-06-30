@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-cost-calculator",
+  "name": "Calculadora de Custo de Prompt",
+  "tagline": "Estime rapidamente os custos dos seus prompts de IA.",
+  "description": "Calcule o custo dos seus prompts de IA com base no uso de tokens em diferentes modelos como GPT-4o e Claude. Ideal para engenheiros de prompt e desenvolvedores que gerenciam despesas com tokens.",
+  "metaTitle": "Calculadora de Custo de Prompt – Estime Seus Custos de IA | Ferramenta Online Grátis",
+  "metaDescription": "Calcule os custos de prompts de IA instantaneamente e gratuitamente. Insira os detalhes do prompt para ver os custos de vários modelos de IA sem precisar se cadastrar.",
+  "keywords": [
+    "calculadora de custo de prompt",
+    "preços de prompt de IA",
+    "estimador de custo de token",
+    "preços de modelo de IA",
+    "custo do gpt-4o",
+    "estimador de custo de prompt",
+    "calculadora de custo de prompt de IA",
+    "calculadora de custo de prompt openai",
+    "lista de preços prompt express",
+    "cobranças prompt express",
+    "quanto custa ir para o atendimento de prompt",
+    "custo de treinamento de prompt",
+    "estimador de custo de token claude",
+    "estimador de custo de moeda",
+    "calculadora de custo de token",
+    "calculadora de custo de token openai",
+    "calculadora de custo de token gemini",
+    "calculadora de custo de token llm",
+    "calculadora de custo de token anthropic"
+  ],
+  "category": "Ai",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como eu calculo meus custos de prompt?",
+      "answer": "Basta inserir seu prompt e selecionar o modelo de IA para obter uma estimativa de custo instantânea."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, a Calculadora de Custo de Prompt é completamente gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso comparar custos entre modelos?",
+      "answer": "Com certeza! Você pode inserir o mesmo prompt para diferentes modelos e ver as comparações de custo."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-compare"
+  ],
+  "variants": []
+}

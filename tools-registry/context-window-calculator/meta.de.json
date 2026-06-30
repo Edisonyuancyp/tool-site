@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-calculator",
+  "name": "Kontextfenster-Rechner",
+  "tagline": "Optimieren Sie den Kontext Ihrer KI-Eingaben.",
+  "description": "Bestimmen Sie die optimale Größe des Kontextfensters für Ihre Eingaben, um die Qualität der KI-Ausgaben zu maximieren. Geeignet für Entwickler und Content-Ersteller, die Effizienz anstreben.",
+  "metaTitle": "Kontextfenster-Rechner – Optimieren Sie Ihre Eingaben | Kostenloses Online-Tool",
+  "metaDescription": "Finden Sie kostenlos die beste Größe des Kontextfensters für Ihre KI-Eingaben. Sofortige Ergebnisse ohne Anmeldung.",
+  "keywords": [
+    "kontextfenster-rechner",
+    "optimierung von KI-Eingaben",
+    "kontextgrößen-Schätzer",
+    "maximale Token-Nutzung",
+    "Effizienz der Eingaben",
+    "kontextfenster-Schätzer",
+    "llm kontextfenster-rechner",
+    "kontextfenster größenrechner",
+    "kontextfenster vram-rechner",
+    "token kontextfenster-rechner",
+    "ki kontextfenster-rechner",
+    "kontextfenster speicher-rechner",
+    "spezialist für die optimierung von KI-Eingaben",
+    "werkzeuge zur optimierung von KI-Eingaben",
+    "kostenloser KI-Eingaben-Optimierer",
+    "KI-Eingaben-Optimierer Erweiterung",
+    "KI-Eingaben-Optimierer perchance",
+    "KI-Eingaben-Optimierer github",
+    "KI-Eingaben-Optimierer openai",
+    "kontextlängen-Schätzer"
+  ],
+  "category": "Ai",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "Was ist ein Kontextfenster?",
+      "answer": "Ein Kontextfenster ist die Menge an Text, die die KI berücksichtigen kann, wenn sie eine Antwort generiert."
+    },
+    {
+      "question": "Wie finde ich die optimale Kontextgröße?",
+      "answer": "Geben Sie die Länge Ihrer Eingabe ein, und der Rechner schlägt eine effektive Größe des Kontextfensters vor."
+    },
+    {
+      "question": "Ist dieses Tool wirklich kostenlos?",
+      "answer": "Ja, der Kontextfenster-Rechner ist kostenlos nutzbar und liefert sofortige Ergebnisse."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

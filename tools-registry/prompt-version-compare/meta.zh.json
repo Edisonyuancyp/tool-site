@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-version-compare",
+  "name": "提示版本比较",
+  "tagline": "比较您提示的不同版本。",
+  "description": "轻松比较多个版本的AI提示，以评估其有效性。非常适合内容创作者和开发者提升提示质量。",
+  "metaTitle": "提示版本比较 – 评估您的AI提示 | 免费在线工具",
+  "metaDescription": "免费比较不同版本的AI提示。无需注册即可获得即时结果。",
+  "keywords": [
+    "提示版本比较",
+    "AI提示评估",
+    "比较提示",
+    "提示有效性",
+    "版本分析",
+    "AI提示评估工作",
+    "AI提示评估轮次",
+    "AI提示评估工具",
+    "AI提示评估轮次 Verizon",
+    "AI评估提示 Power Automate",
+    "AI提示审查",
+    "AI提示评估",
+    "比较提示",
+    "比较AI提示",
+    "比较对比提示",
+    "比较两个提示",
+    "比较LLM提示",
+    "Langfuse比较提示",
+    "比较对比论文提示"
+  ],
+  "category": "Ai",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "这个工具是如何工作的？",
+      "answer": "输入您提示的不同版本，工具将突出显示差异以便于比较。"
+    },
+    {
+      "question": "使用这个工具是免费的吗？",
+      "answer": "是的，提示版本比较工具是免费的，无需注册。"
+    },
+    {
+      "question": "我可以保存我的比较结果吗？",
+      "answer": "目前，您可以查看比较结果，但无法保存以供以后使用。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

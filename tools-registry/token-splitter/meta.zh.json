@@ -1,0 +1,48 @@
+{
+  "slug": "token-splitter",
+  "name": "Token Splitter",
+  "tagline": "轻松将您的提示拆分为令牌。",
+  "description": "将您的提示拆分为可管理的令牌，以优化在AI模型中的使用。非常适合需要保持令牌限制的开发者。",
+  "metaTitle": "Token Splitter – 优化您的提示 | 免费在线工具",
+  "metaDescription": "免费将您的AI提示拆分为令牌。无需注册，立即获得结果。",
+  "keywords": [
+    "令牌拆分器",
+    "提示令牌管理",
+    "AI令牌优化",
+    "令牌使用计算器",
+    "提示拆解",
+    "令牌拆分器 langchain",
+    "令牌拆分器 n8n",
+    "在线令牌拆分器",
+    "令牌拆分器 llamaindex",
+    "令牌拆分器 node n8n",
+    "令牌文本拆分器",
+    "令牌文本拆分器 langchain",
+    "AI令牌优化 github",
+    "AI令牌优化",
+    "AI令牌成本优化",
+    "claude AI令牌优化",
+    "AI代理令牌优化"
+  ],
+  "category": "Ai",
+  "icon": "✂️",
+  "faqs": [
+    {
+      "question": "Token Splitter 是什么？",
+      "answer": "它将您的提示拆分为单独的令牌，以便更好地管理。"
+    },
+    {
+      "question": "使用它是免费的么？",
+      "answer": "是的，Token Splitter 是一个免费的工具，无需注册。"
+    },
+    {
+      "question": "我可以用于多个模型吗？",
+      "answer": "可以，它支持多种AI模型进行令牌拆分。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-cleaner",
+    "token-counter"
+  ],
+  "variants": []
+}

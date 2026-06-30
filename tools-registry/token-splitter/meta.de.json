@@ -1,0 +1,48 @@
+{
+  "slug": "token-splitter",
+  "name": "Token Splitter",
+  "tagline": "Teilen Sie Ihre Eingaben mühelos in Tokens auf.",
+  "description": "Zerlegen Sie Ihre Eingaben in handhabbare Tokens, um die Nutzung über KI-Modelle zu optimieren. Perfekt für Entwickler, die innerhalb der Token-Grenzen bleiben müssen.",
+  "metaTitle": "Token Splitter – Optimieren Sie Ihre Eingaben | Kostenloses Online-Tool",
+  "metaDescription": "Teilen Sie Ihre KI-Eingaben kostenlos in Tokens auf. Sofortige Ergebnisse ohne Anmeldung.",
+  "keywords": [
+    "token splitter",
+    "Eingabe-Token-Verwaltung",
+    "KI-Token-Optimierung",
+    "Token-Nutzungsrechner",
+    "Eingabe-Zerlegung",
+    "token splitter langchain",
+    "token splitter n8n",
+    "token splitter online",
+    "token splitter llamaindex",
+    "token splitter node n8n",
+    "Token-Text-Teiler",
+    "Token-Text-Teiler langchain",
+    "KI-Token-Optimierung github",
+    "KI-Token-Optimierung",
+    "KI-Token-Kostenoptimierung",
+    "claude KI-Token-Optimierung",
+    "KI-Agenten-Token-Optimierung"
+  ],
+  "category": "Ai",
+  "icon": "✂️",
+  "faqs": [
+    {
+      "question": "Was macht der Token Splitter?",
+      "answer": "Er nimmt Ihre Eingabe und teilt sie in einzelne Tokens für eine bessere Verwaltung."
+    },
+    {
+      "question": "Ist die Nutzung kostenlos?",
+      "answer": "Ja, der Token Splitter ist ein kostenloses Tool, das keine Anmeldung erfordert."
+    },
+    {
+      "question": "Kann ich es für mehrere Modelle verwenden?",
+      "answer": "Ja, es unterstützt verschiedene KI-Modelle für das Token-Splitting."
+    }
+  ],
+  "relatedTools": [
+    "prompt-cleaner",
+    "token-counter"
+  ],
+  "variants": []
+}
