@@ -1,4 +1,6 @@
 import { MetadataRoute } from "next";
+import fs from "fs";
+import path from "path";
 import { mergeWithRegistry, CATEGORY_URL_PREFIX, getToolPath } from "@/lib/tools";
 import { registryToToolMetas, getRegistryTools } from "@/lib/registry";
 import { SUPPORTED_LOCALES, getI18nRegistrySlugs } from "@/lib/i18n-registry";
@@ -20,6 +22,26 @@ const HIGH_PRIORITY = new Set([
 
 function toolUrl(tool: { slug: string; category: string }): string {
   return `${BASE}${getToolPath(tool)}`;
+}
+
+function discoverBlogPages(): MetadataRoute.Sitemap {
+  const blogDir = path.join(process.cwd(), "app", "blog");
+  if (!fs.existsSync(blogDir)) return [];
+  const entries = fs.readdirSync(blogDir, { withFileTypes: true });
+  const slugs = entries
+    .filter((e) => e.isDirectory() && !e.name.startsWith("_") && e.name !== "layout.tsx")
+    .map((e) => e.name)
+    .filter((slug) => fs.existsSync(path.join(blogDir, slug, "page.tsx")));
+
+  return [
+    { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.85 },
+    ...slugs.map((slug) => ({
+      url: `${BASE}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
+  ];
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -79,13 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  const blogPages: MetadataRoute.Sitemap = [
-    { url: `${BASE}/blog`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.85 },
-    { url: `${BASE}/blog/free-tradingview-alternative-crypto-chart-analyzer`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
-    { url: `${BASE}/blog/workbench-board-personal-calculator-dashboard`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.9 },
-    { url: `${BASE}/blog/crypto-position-sizing-kelly-criterion`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
-    { url: `${BASE}/blog/sharpe-ratio-calculator-guide`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
-  ];
+  const blogPages: MetadataRoute.Sitemap = discoverBlogPages();
 
   return [
     { url: BASE, lastModified: now, changeFrequency: "weekly" as const, priority: 1.0 },
