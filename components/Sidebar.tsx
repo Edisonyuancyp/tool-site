@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useWorkbench } from "@/lib/WorkbenchContext";
+import { getPathForSlug } from "@/lib/tool-paths";
 
 // ── Binance ticker (only fetched on quant pages) ──────────────────────────────
 
@@ -187,7 +188,7 @@ function SidebarPanel({ onClose }: { onClose: () => void }) {
               <ul className="space-y-0.5">
                 {favList.map((slug) => (
                   <li key={slug}>
-                    <Link href={`/tools/${slug}`} onClick={onClose}
+                    <Link href={getPathForSlug(slug)} onClick={onClose}
                       rel="noopener"
                       aria-label={`Open ${slug}`}
                       className="flex items-center justify-between px-2.5 py-2 rounded-lg text-xs text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors">

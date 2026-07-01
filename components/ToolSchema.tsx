@@ -1,9 +1,10 @@
 import type { ToolMeta } from "@/lib/tools";
+import { getToolPath } from "@/lib/tools";
 
 const BASE_URL = "https://getfastcalc.com";
 
 export default function ToolSchema({ tool, slug }: { tool: ToolMeta; slug: string }) {
-  const toolUrl = `${BASE_URL}/tools/${slug}`;
+  const toolUrl = `${BASE_URL}${getToolPath(tool)}`;
 
   const appSchema = {
     "@context": "https://schema.org",

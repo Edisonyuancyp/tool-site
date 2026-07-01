@@ -2,6 +2,7 @@
 import { useRef, useState, useEffect } from "react";
 import { toPng } from "html-to-image";
 import QRCode from "qrcode";
+import { getPathForSlug } from "@/lib/tool-paths";
 
 interface ShareResultCardProps {
   toolName: string;
@@ -23,7 +24,7 @@ export default function ShareResultCard({
   const [status, setStatus] = useState<"idle" | "generating" | "done" | "error">("idle");
   const [qrDataUrl, setQrDataUrl] = useState<string>("");
 
-  const toolUrl = `https://${SITE}/tools/${slug}`;
+  const toolUrl = `https://${SITE}${getPathForSlug(slug)}`;
 
   useEffect(() => {
     QRCode.toDataURL(toolUrl, {
@@ -52,7 +53,7 @@ export default function ShareResultCard({
 
   function shareTwitter() {
     const text = results.map((r) => `${r.label}: ${r.value}`).join(" | ");
-    const url = `https://${SITE}/tools/${slug}`;
+    const url = `https://${SITE}${getPathForSlug(slug)}`;
     const tweet = encodeURIComponent(`${toolIcon} ${text}\n\nCalculated with ${url}`);
     window.open(`https://twitter.com/intent/tweet?text=${tweet}`, "_blank");
   }
@@ -241,7 +242,7 @@ export default function ShareResultCard({
 
         <button
           onClick={() => {
-            const url = `https://${SITE}/tools/${slug}`;
+            const url = `https://${SITE}${getPathForSlug(slug)}`;
             navigator.clipboard?.writeText(url).then(() => {}).catch(() => {});
             const text = `[${toolName}] ${results.map((r) => `${r.label}: ${r.value}`).join(" | ")} — ${url}`;
             window.open(

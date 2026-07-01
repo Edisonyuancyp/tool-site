@@ -10,6 +10,7 @@ import {
   resolveI18nSlug,
   getI18nToolMetas,
 } from "@/lib/i18n-registry";
+import { getToolPath } from "@/lib/tools";
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -36,15 +37,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!result) return {};
 
   const { meta } = result;
-  const enUrl   = `https://getfastcalc.com/tools/${slug}`;
-  const selfUrl  = `https://getfastcalc.com/${locale}/tools/${slug}`;
+  const enPath = getToolPath(meta);
+  const enUrl = `https://getfastcalc.com${enPath}`;
+  const selfUrl = `https://getfastcalc.com/${locale}/tools/${slug}`;
 
   return {
     title: meta.metaTitle,
     description: meta.metaDescription,
     keywords: meta.keywords,
     alternates: {
-      canonical: selfUrl,
+      canonical: enUrl,
       languages: {
         en:  enUrl,
         es:  `https://getfastcalc.com/es/tools/${slug}`,

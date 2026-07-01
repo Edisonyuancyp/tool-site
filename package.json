@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && cp _headers _redirects out/",
+    "build": "node scripts/generate-redirects.mjs && next build && cp _headers _redirects out/",
     "start": "next start",
     "lint": "eslint"
   },
