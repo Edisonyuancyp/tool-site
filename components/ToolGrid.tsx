@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { ToolMeta } from "@/lib/tools";
-import { getToolPath } from "@/lib/tools";
+import { getToolPath, normalizeCategory } from "@/lib/tools";
 import { useWorkbench } from "@/lib/WorkbenchContext";
 
 function ToolCard({ tool, showCategory = false }: { tool: ToolMeta; showCategory?: boolean }) {
@@ -59,7 +59,8 @@ function ToolCard({ tool, showCategory = false }: { tool: ToolMeta; showCategory
 }
 
 export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
-  const categories = [...new Set(tools.map((t) => t.category))];
+  const normalizedTools = tools.map((t) => ({ ...t, category: normalizeCategory(t.category) }));
+  const categories = [...new Set(normalizedTools.map((t) => t.category))];
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [query, setQuery] = useState("");
 
@@ -112,7 +113,7 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
                 (activeCategory === null
                   ? "bg-gray-900 text-white border-gray-900"
                   : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")}>
-              All ({tools.length})
+              All ({normalizedTools.length})
             </button>
             {categories.map((cat) => {
               const isActive = activeCategory === cat;
@@ -123,7 +124,7 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
                     (isActive
                       ? "bg-gray-900 text-white border-gray-900"
                       : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")}>
-                  {cat} ({tools.filter(t => t.category === cat).length})
+                  {cat} ({normalizedTools.filter(t => t.category === cat).length})
                 </button>
               );
             })}
@@ -133,7 +134,7 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
 
       {/* ── SEARCH results (flat, with category badge) ── */}
       {q && (() => {
-        const results = tools.filter(t =>
+        const results = normalizedTools.filter(t =>
           t.name.toLowerCase().includes(q) ||
           (t.tagline ?? "").toLowerCase().includes(q) ||
           t.category.toLowerCase().includes(q)
@@ -160,7 +161,7 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
       {/* ── FILTERED by single category (flat, no badge) ── */}
       {!q && activeCategory && (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {tools.filter(t => t.category === activeCategory).map(tool => (
+          {normalizedTools.filter(t => t.category === activeCategory).map(tool => (
             <ToolCard key={tool.slug} tool={tool} />
           ))}
         </div>
@@ -170,7 +171,7 @@ export default function ToolGrid({ tools }: { tools: ToolMeta[] }) {
       {!q && !activeCategory && (
         <div className="space-y-12">
           {categories.map(cat => {
-            const catTools = tools.filter(t => t.category === cat);
+            const catTools = normalizedTools.filter(t => t.category === cat);
             return (
               <section key={cat}>
                 <div className="flex items-center gap-3 mb-4">

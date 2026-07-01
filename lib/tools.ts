@@ -1125,6 +1125,40 @@ export function getToolBySlug(slug: string): ToolMeta | undefined {
   return tools.find((t) => t.slug === slug);
 }
 
+const CATEGORY_CANONICAL_NAMES: Record<string, string> = {
+  ai: "AI",
+  seo: "SEO",
+  ecommerce: "Ecommerce",
+  social: "Social",
+  image: "Image",
+  file: "File",
+  math: "Math",
+  finance: "Finance",
+  health: "Health",
+  crypto: "Crypto",
+  fitness: "Fitness",
+  quant: "Quant",
+  design: "Design",
+  generators: "Generators",
+  developer: "Developer",
+  dev: "Developer",
+  text: "Text",
+  security: "Security",
+  content: "Content",
+  utilities: "Utilities",
+  "date & time": "Date & Time",
+  travel: "Travel",
+  converter: "Converter",
+  cooking: "Cooking",
+  productivity: "Productivity",
+  media: "Media",
+  home: "Home",
+};
+
+export function normalizeCategory(category: string): string {
+  return CATEGORY_CANONICAL_NAMES[category.toLowerCase()] || category;
+}
+
 /** Maps category name → URL path segment */
 export const CATEGORY_URL_PREFIX: Record<string, string> = {
   Finance:       "calc",
@@ -1157,13 +1191,13 @@ export const CATEGORY_URL_PREFIX: Record<string, string> = {
 
 /** Returns the canonical URL path for a tool, e.g. /tools/dev/base-converter */
 export function getToolPath(tool: Pick<ToolMeta, "slug" | "category">): string {
-  const prefix = CATEGORY_URL_PREFIX[tool.category];
+  const prefix = CATEGORY_URL_PREFIX[normalizeCategory(tool.category)];
   return prefix ? `/tools/${prefix}/${tool.slug}` : `/tools/${tool.slug}`;
 }
 
 /** Returns the category listing path, e.g. /tools/dev */
 export function getCategoryListPath(category: string): string {
-  const prefix = CATEGORY_URL_PREFIX[category];
+  const prefix = CATEGORY_URL_PREFIX[normalizeCategory(category)];
   return prefix ? `/tools/${prefix}` : "/tools";
 }
 

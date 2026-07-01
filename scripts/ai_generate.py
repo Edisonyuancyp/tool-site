@@ -25,6 +25,39 @@ SCRIPTS_DIR = Path(__file__).parent
 CACHE_DIR   = SCRIPTS_DIR / "research_cache"
 TASKS_FILE  = SCRIPTS_DIR / "tasks.json"
 
+# ── Canonical category names (must match lib/tools.ts CATEGORY_URL_PREFIX) ────
+CATEGORY_NAMES: dict[str, str] = {
+    "ai": "AI",
+    "seo": "SEO",
+    "social": "Social",
+    "image": "Image",
+    "file": "File",
+    "ecommerce": "Ecommerce",
+    "finance": "Finance",
+    "math": "Math",
+    "health": "Health",
+    "crypto": "Crypto",
+    "fitness": "Fitness",
+    "quant": "Quant",
+    "design": "Design",
+    "generators": "Generators",
+    "developer": "Developer",
+    "text": "Text",
+    "security": "Security",
+    "content": "Content",
+    "utilities": "Utilities",
+    "date & time": "Date & Time",
+    "travel": "Travel",
+    "converter": "Converter",
+    "cooking": "Cooking",
+    "productivity": "Productivity",
+    "media": "Media",
+    "home": "Home",
+}
+
+def canonical_category(category: str) -> str:
+    return CATEGORY_NAMES.get(category.lower(), category.title())
+
 # ── Priority category focus instructions injected into the AI prompt ──────────
 PRIORITY_FOCUS: dict[str, str] = {
     "ecommerce": """\
@@ -176,7 +209,7 @@ Return a valid JSON array. Each object must have ALL these fields:
   "metaTitle": "Primary Keyword – Secondary Keyword | Free Online Tool",
   "metaDescription": "160-char max. Include primary keyword, mention free, no signup, instant results.",
   "keywords": ["primary keyword", "long tail 1", "long tail 2", "long tail 3", "long tail 4"],
-  "category": "{category.title()}",
+  "category": "{canonical_category(category)}",
   "icon": "single emoji",
   "faqs": [
     {{"question": "Q1?", "answer": "A1 (2 sentences max)"}},

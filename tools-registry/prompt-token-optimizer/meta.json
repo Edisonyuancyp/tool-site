@@ -27,7 +27,7 @@
     "save tokens github",
     "save tokens claude code github"
   ],
-  "category": "ai",
+  "category": "AI",
   "urlPath": "/tools/prompt-token-optimizer",
   "icon": "🛠️",
   "faqs": [

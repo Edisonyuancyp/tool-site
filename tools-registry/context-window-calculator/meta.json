@@ -27,7 +27,7 @@
     "ai prompt optimizer openai",
     "context length estimator"
   ],
-  "category": "Ai",
+  "category": "AI",
   "urlPath": "/tools/context-window-calculator",
   "icon": "📏",
   "faqs": [

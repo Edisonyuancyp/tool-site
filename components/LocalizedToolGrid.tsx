@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { ToolMeta } from "@/lib/tools";
+import { normalizeCategory } from "@/lib/tools";
 
 export default function LocalizedToolGrid({
   tools,
@@ -12,9 +13,10 @@ export default function LocalizedToolGrid({
   locale: string;
   labels: { all: string; useTool: string };
 }) {
-  const categories = [...new Set(tools.map((t) => t.category))];
+  const normalizedTools = tools.map((t) => ({ ...t, category: normalizeCategory(t.category) }));
+  const categories = [...new Set(normalizedTools.map((t) => t.category))];
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
-  const filtered = activeCategory ? tools.filter((t) => t.category === activeCategory) : tools;
+  const filtered = activeCategory ? normalizedTools.filter((t) => t.category === activeCategory) : normalizedTools;
   const base = `/${locale}/tools`;
 
   return (
@@ -31,10 +33,10 @@ export default function LocalizedToolGrid({
                 : "bg-white text-gray-600 border-gray-200 hover:border-gray-400 hover:text-gray-900")
             }
           >
-            {labels.all} ({tools.length})
+            {labels.all} ({normalizedTools.length})
           </button>
           {categories.map((cat) => {
-            const count = tools.filter((t) => t.category === cat).length;
+            const count = normalizedTools.filter((t) => t.category === cat).length;
             const isActive = activeCategory === cat;
             return (
               <button

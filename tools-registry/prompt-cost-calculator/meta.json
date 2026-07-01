@@ -26,7 +26,7 @@
     "token cost calculator llm",
     "token cost calculator anthropic"
   ],
-  "category": "Ai",
+  "category": "AI",
   "urlPath": "/tools/prompt-cost-calculator",
   "icon": "💰",
   "faqs": [

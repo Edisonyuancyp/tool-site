@@ -38,27 +38,78 @@ SEO_CONFIG_FILE = Path(__file__).resolve().parent / "seo_config.json"
 # ── Category → URL prefix mapping ────────────────────────────────────────────
 # Determines the hierarchical URL path: /tools/<prefix>/<slug>
 # Categories not listed here fall back to /tools/<slug> (no sub-directory).
+CATEGORY_CANONICAL_NAMES: dict[str, str] = {
+    "ai": "AI",
+    "seo": "SEO",
+    "social": "Social",
+    "image": "Image",
+    "file": "File",
+    "ecommerce": "Ecommerce",
+    "finance": "Finance",
+    "math": "Math",
+    "health": "Health",
+    "crypto": "Crypto",
+    "fitness": "Fitness",
+    "quant": "Quant",
+    "design": "Design",
+    "generators": "Generators",
+    "developer": "Developer",
+    "dev": "Developer",
+    "text": "Text",
+    "security": "Security",
+    "content": "Content",
+    "utilities": "Utilities",
+    "date & time": "Date & Time",
+    "travel": "Travel",
+    "converter": "Converter",
+    "cooking": "Cooking",
+    "productivity": "Productivity",
+    "media": "Media",
+    "home": "Home",
+}
+
+def canonical_category(category: str) -> str:
+    return CATEGORY_CANONICAL_NAMES.get(category.lower(), category)
+
 CATEGORY_URL_PREFIX: dict[str, str] = {
     # Calculator tools
     "Math":       "calc",
     "Health":     "calc",
     "Crypto":     "calc",
-    # Finance & business
-    "Finance":    "finance",
-    "Business":   "finance",
+    "Fitness":    "calc",
+    "Quant":      "calc",
+    "Finance":    "calc",
+    # AI tools
+    "AI":         "ai",
     # Design / visual tools
     "Design":     "design",
     "Generators": "design",
     # Developer / text tools
     "Developer":  "dev",
+    "Text":       "dev",
     "Security":   "dev",
-    # Content / writing tools
-    "Text":       "content",
-    "Content":    "content",
+    "Content":    "dev",
+    "Utilities":  "dev",
     # Date & scheduling
     "Date & Time": "time",
-    # Quantitative / trading tools
-    "Quant":       "quant",
+    "Travel":     "time",
+    # Converters
+    "Converter":  "converter",
+    "Cooking":    "converter",
+    "Productivity": "converter",
+    # E-commerce
+    "Ecommerce":  "ecommerce",
+    "Business":   "ecommerce",
+    # SEO
+    "SEO":        "seo",
+    # Social
+    "Social":     "social",
+    "Media":      "social",
+    # Image
+    "Image":      "image",
+    # File
+    "File":       "file",
+    "Home":       "home",
 }
 
 
@@ -264,7 +315,7 @@ def generate_tool(task: dict, dry_run: bool, force: bool = False,
 
     name = task.get("name", slug)
     component = slug_to_component_name(slug)
-    category = task.get("category", "Utilities")
+    category = canonical_category(task.get("category", "Utilities"))
 
     if category not in CATEGORY_URL_PREFIX:
         print(f"  [WARN] Category '{category}' has no URL prefix mapping — add it to CATEGORY_URL_PREFIX in generate_tool.py")
