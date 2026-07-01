@@ -1,0 +1,51 @@
+{
+  "slug": "token-splitter-tool",
+  "name": "Token Splitter Tool",
+  "tagline": "Teilen Sie Ihren Text in handhabbare Token-Stücke.",
+  "description": "Teilen Sie ganz einfach jeden Eingabetext in token-große Stücke für eine bessere Verwaltung in KI-Anwendungen. Ideal für Entwickler und Prompt-Ingenieure, die ihre Interaktionen optimieren.",
+  "metaTitle": "Token Splitter Tool – Verwalten Sie Ihre KI-Token | Kostenloses Online-Tool",
+  "metaDescription": "Teilen Sie Ihren Text kostenlos in token-große Stücke. Keine Anmeldung erforderlich, erhalten Sie sofortige Ergebnisse zur Optimierung Ihrer KI-Prompts.",
+  "keywords": [
+    "token splitter",
+    "ki textverwaltung",
+    "prompt-optimierung",
+    "token verwaltungstool",
+    "textchunking",
+    "token splitter langchain",
+    "token splitter n8n",
+    "token splitter online",
+    "token splitter llamaindex",
+    "token splitter node n8n",
+    "token text splitter",
+    "token text splitter langchain",
+    "ki textmanager",
+    "ki textzusammenfassung",
+    "ki text in code",
+    "ki manager gehalt",
+    "was ist ein ki manager",
+    "ki texteffekte",
+    "techniken zur prompt-optimierung",
+    "prompt-optimierung dspy"
+  ],
+  "category": "Ai",
+  "icon": "✂️",
+  "faqs": [
+    {
+      "question": "Was ist ein Token-Splitter?",
+      "answer": "Ein Token-Splitter zerlegt Ihren Text in handhabbare Stücke basierend auf Token-Grenzen."
+    },
+    {
+      "question": "Wie benutze ich dieses Tool?",
+      "answer": "Geben Sie Ihren Text ein und klicken Sie auf 'Teilen', um Ihren Text in token-große Teile zu sehen."
+    },
+    {
+      "question": "Gibt es eine Begrenzung der Textlänge?",
+      "answer": "Es gibt eine angemessene Begrenzung, um eine effiziente Verarbeitung sicherzustellen, aber sie ist in der Regel für die meisten Bedürfnisse ausreichend."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

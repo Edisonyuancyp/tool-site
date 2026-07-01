@@ -2586,5 +2586,188 @@
         "headline": "Track your keyword density trends to optimize your content strategy."
       }
     ]
+  },
+  {
+    "slug": "token-splitter-tool",
+    "name": "Token Splitter Tool",
+    "tagline": "Split your text into manageable token chunks.",
+    "description": "Easily split any input text into token-sized chunks for better management in AI applications. Ideal for developers and prompt engineers optimizing their interactions.",
+    "metaTitle": "Token Splitter Tool – Manage Your AI Tokens | Free Online Tool",
+    "metaDescription": "Split your text into token-sized chunks for free. No signup needed, get instant results to optimize your AI prompts.",
+    "keywords": [
+      "token splitter",
+      "AI text management",
+      "prompt optimization",
+      "token management tool",
+      "text chunking"
+    ],
+    "category": "Ai",
+    "icon": "✂️",
+    "faqs": [
+      {
+        "question": "What is a token splitter?",
+        "answer": "A token splitter breaks down your text into manageable chunks based on token limits."
+      },
+      {
+        "question": "How do I use this tool?",
+        "answer": "Enter your text and click 'Split' to see your text divided into token-sized pieces."
+      },
+      {
+        "question": "Is there a limit on text length?",
+        "answer": "There's a reasonable limit to ensure efficient processing, but it's typically sufficient for most needs."
+      }
+    ],
+    "relatedTools": [
+      "prompt-token-counter",
+      "context-window-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-token-splitter",
+        "metaTitle": "Advanced Token Splitter",
+        "metaDescription": "Get advanced options for splitting tokens.",
+        "keywords": [
+          "advanced token management",
+          "custom chunk sizes",
+          "AI text splitting"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Access advanced features for more control over your token chunks."
+      },
+      {
+        "variantSlug": "basic-token-splitter",
+        "metaTitle": "Basic Token Splitter",
+        "metaDescription": "Quickly split tokens with a simple interface.",
+        "keywords": [
+          "basic token splitting",
+          "simple text management",
+          "AI prompt tool"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Easily split your text without any complicated settings."
+      }
+    ]
+  },
+  {
+    "slug": "ai-model-comparator",
+    "name": "AI Model Comparator",
+    "tagline": "Compare different AI models side by side.",
+    "description": "Evaluate and compare various AI models based on their features, token limits, and costs. Essential for developers deciding which model best fits their needs.",
+    "metaTitle": "AI Model Comparator – Compare AI Models Easily | Free Online Tool",
+    "metaDescription": "Compare different AI models with our free tool. No signup needed, get instant side-by-side comparisons.",
+    "keywords": [
+      "AI model comparator",
+      "compare AI models",
+      "model features comparison",
+      "AI pricing",
+      "token limits"
+    ],
+    "category": "Ai",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "How does the AI model comparator work?",
+        "answer": "Simply select the models you want to compare, and our tool will display their features side by side."
+      },
+      {
+        "question": "What models can I compare?",
+        "answer": "Our tool supports a range of AI models, including GPT-4o, Claude, and more."
+      },
+      {
+        "question": "Is there a cost for using this tool?",
+        "answer": "No, the AI model comparator is completely free to use."
+      }
+    ],
+    "relatedTools": [
+      "prompt-cost-calculator",
+      "context-window-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-ai-model-comparator",
+        "metaTitle": "Detailed AI Model Comparator",
+        "metaDescription": "Get in-depth comparisons of AI models.",
+        "keywords": [
+          "detailed AI comparison",
+          "model performance evaluation",
+          "AI feature analysis"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Access in-depth insights for better model selection."
+      },
+      {
+        "variantSlug": "simple-ai-model-comparator",
+        "metaTitle": "Simple AI Model Comparator",
+        "metaDescription": "Quickly compare models with an easy interface.",
+        "keywords": [
+          "simple model comparison",
+          "quick AI evaluation",
+          "basic AI tools"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Easily compare AI models without complex settings."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-cleaner-tool",
+    "name": "Prompt Cleaner Tool",
+    "tagline": "Refine your prompts for clarity and impact.",
+    "description": "Enhance the quality of your prompts by cleaning up unnecessary words and optimizing for clarity. Ideal for content creators and prompt engineers aiming for effective communication.",
+    "metaTitle": "Prompt Cleaner Tool – Optimize Your AI Prompts | Free Online Tool",
+    "metaDescription": "Clean and optimize your prompts for free. No signup required, instant results for clearer communication.",
+    "keywords": [
+      "prompt cleaner",
+      "optimize prompts",
+      "AI prompt refinement",
+      "prompt clarity",
+      "effective communication"
+    ],
+    "category": "Ai",
+    "icon": "🧹",
+    "faqs": [
+      {
+        "question": "What does the prompt cleaner do?",
+        "answer": "The prompt cleaner refines your prompts by removing unnecessary elements, improving clarity."
+      },
+      {
+        "question": "How do I use it?",
+        "answer": "Paste your prompt into the tool, and click 'Clean' to see the optimized version."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, you can use the prompt cleaner tool for free without signing up."
+      }
+    ],
+    "relatedTools": [
+      "prompt-formatter",
+      "prompt-variable-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-prompt-cleaner",
+        "metaTitle": "Advanced Prompt Cleaner",
+        "metaDescription": "Get advanced options for cleaning prompts.",
+        "keywords": [
+          "advanced prompt optimization",
+          "custom cleaning options",
+          "AI prompt tools"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Unlock advanced features for thorough prompt refinement."
+      },
+      {
+        "variantSlug": "basic-prompt-cleaner",
+        "metaTitle": "Basic Prompt Cleaner",
+        "metaDescription": "Quickly clean your prompts with simplicity.",
+        "keywords": [
+          "basic prompt cleaning",
+          "simple optimization",
+          "AI prompt tool"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Easily clean prompts without complex settings."
+      }
+    ]
   }
 ]

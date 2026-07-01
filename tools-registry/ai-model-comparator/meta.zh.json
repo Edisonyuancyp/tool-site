@@ -1,0 +1,51 @@
+{
+  "slug": "ai-model-comparator",
+  "name": "AI模型比较器",
+  "tagline": "并排比较不同的AI模型。",
+  "description": "根据特性、令牌限制和成本评估和比较各种AI模型。对开发者决定哪个模型最适合他们的需求至关重要。",
+  "metaTitle": "AI模型比较器 – 轻松比较AI模型 | 免费在线工具",
+  "metaDescription": "使用我们的免费工具比较不同的AI模型。无需注册，立即获得并排比较。",
+  "keywords": [
+    "ai模型比较器",
+    "比较ai模型",
+    "模型特性比较",
+    "ai定价",
+    "令牌限制",
+    "ai模型比较",
+    "ai模型比较图表",
+    "编程用ai模型比较",
+    "ai模型比较网站",
+    "2026年ai模型比较",
+    "ai模型比较reddit",
+    "ai模型比较排行榜",
+    "ai模型比较基准",
+    "在线ai模型比较",
+    "免费ai模型比较",
+    "编程用ai模型比较",
+    "ai模型定价比较",
+    "免费比较ai模型",
+    "并排免费比较ai模型",
+    "比较ai模型网站"
+  ],
+  "category": "Ai",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "AI模型比较器是如何工作的？",
+      "answer": "只需选择您想要比较的模型，我们的工具将并排显示它们的特性。"
+    },
+    {
+      "question": "我可以比较哪些模型？",
+      "answer": "我们的工具支持多种AI模型，包括GPT-4o、Claude等。"
+    },
+    {
+      "question": "使用这个工具需要费用吗？",
+      "answer": "不，AI模型比较器完全免费使用。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-cost-calculator",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

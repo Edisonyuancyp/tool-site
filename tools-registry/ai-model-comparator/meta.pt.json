@@ -1,0 +1,51 @@
+{
+  "slug": "ai-model-comparator",
+  "name": "Comparador de Modelos de IA",
+  "tagline": "Compare diferentes modelos de IA lado a lado.",
+  "description": "Avalie e compare vários modelos de IA com base em suas características, limites de tokens e custos. Essencial para desenvolvedores que decidem qual modelo atende melhor às suas necessidades.",
+  "metaTitle": "Comparador de Modelos de IA – Compare Modelos de IA Facilmente | Ferramenta Online Gratuita",
+  "metaDescription": "Compare diferentes modelos de IA com nossa ferramenta gratuita. Sem necessidade de cadastro, obtenha comparações instantâneas lado a lado.",
+  "keywords": [
+    "comparador de modelos de ia",
+    "comparar modelos de ia",
+    "comparação de características de modelos",
+    "preços de ia",
+    "limites de tokens",
+    "comparação de modelos de ia",
+    "tabela de comparação de modelos de ia",
+    "comparação de modelos de ia para programação",
+    "site de comparação de modelos de ia",
+    "comparação de modelos de ia 2026",
+    "comparação de modelos de ia reddit",
+    "ranking de comparação de modelos de ia",
+    "benchmark de comparação de modelos de ia",
+    "comparação de modelos de ia online",
+    "comparação gratuita de modelos de ia",
+    "comparar modelos de ia para programação",
+    "comparar preços de modelos de ia",
+    "comparar modelos de ia grátis",
+    "comparar modelos de ia lado a lado grátis",
+    "site para comparar modelos de ia"
+  ],
+  "category": "Ai",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Como funciona o comparador de modelos de IA?",
+      "answer": "Basta selecionar os modelos que você deseja comparar, e nossa ferramenta exibirá suas características lado a lado."
+    },
+    {
+      "question": "Quais modelos posso comparar?",
+      "answer": "Nossa ferramenta suporta uma variedade de modelos de IA, incluindo GPT-4o, Claude e mais."
+    },
+    {
+      "question": "Há algum custo para usar esta ferramenta?",
+      "answer": "Não, o comparador de modelos de IA é completamente gratuito para usar."
+    }
+  ],
+  "relatedTools": [
+    "prompt-cost-calculator",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

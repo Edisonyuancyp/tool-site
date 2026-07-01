@@ -1,0 +1,51 @@
+{
+  "slug": "token-splitter-tool",
+  "name": "Ferramenta de Divisão de Tokens",
+  "tagline": "Divida seu texto em pedaços de tokens gerenciáveis.",
+  "description": "Divida facilmente qualquer texto de entrada em pedaços do tamanho de tokens para melhor gerenciamento em aplicações de IA. Ideal para desenvolvedores e engenheiros de prompt que otimizam suas interações.",
+  "metaTitle": "Ferramenta de Divisão de Tokens – Gerencie Seus Tokens de IA | Ferramenta Online Gratuita",
+  "metaDescription": "Divida seu texto em pedaços do tamanho de tokens gratuitamente. Sem necessidade de cadastro, obtenha resultados instantâneos para otimizar seus prompts de IA.",
+  "keywords": [
+    "divisor de tokens",
+    "gerenciamento de texto de IA",
+    "otimização de prompt",
+    "ferramenta de gerenciamento de tokens",
+    "fragmentação de texto",
+    "divisor de tokens langchain",
+    "divisor de tokens n8n",
+    "divisor de tokens online",
+    "divisor de tokens llamaindex",
+    "divisor de tokens node n8n",
+    "divisor de texto de tokens",
+    "divisor de texto de tokens langchain",
+    "gerenciador de texto de IA",
+    "resumo de texto de IA",
+    "texto de IA para código",
+    "salário de gerente de IA",
+    "o que é um gerente de IA",
+    "efeitos de texto de IA",
+    "técnicas de otimização de prompt",
+    "otimização de prompt dspy"
+  ],
+  "category": "Ai",
+  "icon": "✂️",
+  "faqs": [
+    {
+      "question": "O que é um divisor de tokens?",
+      "answer": "Um divisor de tokens divide seu texto em pedaços gerenciáveis com base nos limites de tokens."
+    },
+    {
+      "question": "Como eu uso esta ferramenta?",
+      "answer": "Insira seu texto e clique em 'Dividir' para ver seu texto dividido em partes do tamanho de tokens."
+    },
+    {
+      "question": "Há um limite para o comprimento do texto?",
+      "answer": "Há um limite razoável para garantir um processamento eficiente, mas geralmente é suficiente para a maioria das necessidades."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

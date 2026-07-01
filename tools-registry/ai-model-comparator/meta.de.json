@@ -1,0 +1,51 @@
+{
+  "slug": "ai-model-comparator",
+  "name": "AI Model Comparator",
+  "tagline": "Vergleichen Sie verschiedene KI-Modelle nebeneinander.",
+  "description": "Bewerten und vergleichen Sie verschiedene KI-Modelle basierend auf ihren Funktionen, Token-Limits und Kosten. Essentiell für Entwickler, die entscheiden möchten, welches Modell am besten zu ihren Bedürfnissen passt.",
+  "metaTitle": "AI Model Comparator – KI-Modelle einfach vergleichen | Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie verschiedene KI-Modelle mit unserem kostenlosen Tool. Keine Anmeldung erforderlich, erhalten Sie sofortige Vergleiche nebeneinander.",
+  "keywords": [
+    "ki modell vergleich",
+    "ki modelle vergleichen",
+    "vergleich der modellfunktionen",
+    "ki preise",
+    "token-limits",
+    "vergleich von ki modellen",
+    "vergleichstabelle für ki modelle",
+    "vergleich von ki modellen für programmierung",
+    "website für ki modellvergleich",
+    "ki modellvergleich 2026",
+    "ki modellvergleich reddit",
+    "ki modellvergleich rangliste",
+    "ki modellvergleich benchmark",
+    "ki modellvergleich online",
+    "kostenloser ki modellvergleich",
+    "ki modelle für programmierung vergleichen",
+    "ki modelle preise vergleichen",
+    "ki modelle kostenlos vergleichen",
+    "ki modelle nebeneinander kostenlos vergleichen",
+    "website für ki modelle vergleichen"
+  ],
+  "category": "Ai",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der KI-Modellvergleich?",
+      "answer": "Wählen Sie einfach die Modelle aus, die Sie vergleichen möchten, und unser Tool zeigt deren Funktionen nebeneinander an."
+    },
+    {
+      "question": "Welche Modelle kann ich vergleichen?",
+      "answer": "Unser Tool unterstützt eine Reihe von KI-Modellen, einschließlich GPT-4o, Claude und mehr."
+    },
+    {
+      "question": "Fallen Kosten für die Nutzung dieses Tools an?",
+      "answer": "Nein, der KI-Modellvergleich ist völlig kostenlos zu nutzen."
+    }
+  ],
+  "relatedTools": [
+    "prompt-cost-calculator",
+    "context-window-calculator"
+  ],
+  "variants": []
+}
