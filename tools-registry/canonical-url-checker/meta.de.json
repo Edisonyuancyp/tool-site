@@ -1,0 +1,51 @@
+{
+  "slug": "canonical-url-checker",
+  "name": "Canonical URL Checker",
+  "tagline": "Überprüfen Sie Ihre kanonischen URLs",
+  "description": "Prüfen Sie, ob Ihre kanonischen URLs korrekt gesetzt sind, um Probleme mit doppeltem Inhalt zu vermeiden. Essentiell für SEOs, die sicherstellen möchten, dass ihre Seite richtig indexiert wird.",
+  "metaTitle": "Canonical URL Checker – Doppelte Inhalte vermeiden | Kostenloses Online-Tool",
+  "metaDescription": "Überprüfen Sie sofort Ihre kanonischen URLs zur Verbesserung der SEO. Kostenlos, keine Anmeldung erforderlich und sofortige Ergebnisse.",
+  "keywords": [
+    "kanonischer url checker",
+    "kanonische tags überprüfen",
+    "seo doppelungsprobleme",
+    "doppelter Inhalt",
+    "url Überprüfung",
+    "kanonischer tag checker",
+    "kanonischer link checker",
+    "kanonischer tag checker tool",
+    "kanonischer tag checker online",
+    "kanonischer tag checker Erweiterung",
+    "google kanonischer url checker",
+    "website kanonischer checker",
+    "kanonisches url Beispiel",
+    "was ist eine kanonische url",
+    "kanonische website Bedeutung",
+    "kostenloser kanonischer tag checker",
+    "was ist eine nicht-kanonische url",
+    "kanonischen tag online überprüfen",
+    "kanonische url überprüfen",
+    "kanonische url online überprüfen"
+  ],
+  "category": "Seo",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "Was ist eine kanonische URL?",
+      "answer": "Eine kanonische URL ist die bevorzugte Version einer Webseite, die doppelten Inhalt verhindert."
+    },
+    {
+      "question": "Warum ist das wichtig?",
+      "answer": "Eine korrekte Kanonisierung hilft Suchmaschinen zu wissen, welche Seite indexiert werden soll."
+    },
+    {
+      "question": "Wie benutze ich dieses Tool?",
+      "answer": "Geben Sie einfach die URL ein, die Sie überprüfen möchten, und es wird die kanonischen Tags validieren."
+    }
+  ],
+  "relatedTools": [
+    "schema-markup-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

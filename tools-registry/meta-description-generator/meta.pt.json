@@ -1,0 +1,51 @@
+{
+  "slug": "meta-description-generator",
+  "name": "Gerador de Meta Descrição",
+  "tagline": "Crie meta descrições perfeitas",
+  "description": "Crie facilmente meta descrições otimizadas para SEO que melhoram as taxas de cliques. Ideal para profissionais de marketing e blogueiros que buscam melhor visibilidade nas SERPs.",
+  "metaTitle": "Gerador de Meta Descrição – Melhore as Taxas de Cliques | Ferramenta Online Gratuita",
+  "metaDescription": "Gere meta descrições eficazes para impulsionar seu SEO. Gratuito, sem cadastro e resultados instantâneos.",
+  "keywords": [
+    "gerador de meta descrição",
+    "meta descrições seo",
+    "otimizar meta tags",
+    "taxa de cliques",
+    "ferramentas de seo",
+    "gerador de meta descrição gratuito",
+    "gerador de meta descrição a partir da url",
+    "gerador de meta descrição ai",
+    "gerador de meta descrição ahrefs",
+    "ferramenta gerador de meta descrição",
+    "gerador de meta descrição online",
+    "gerador de meta descrição para site",
+    "gerador de meta tag online",
+    "gerador de meta descrição gratuito online",
+    "exemplo de meta descrição",
+    "gerar meta descrição",
+    "exemplo de meta name description",
+    "gerador de meta descrição gratuito",
+    "gerador de meta tag gratuito",
+    "gerador de meta descrição ai gratuito"
+  ],
+  "category": "Seo",
+  "icon": "📄",
+  "faqs": [
+    {
+      "question": "O que é uma meta descrição?",
+      "answer": "Uma meta descrição é um resumo curto de uma página da web que aparece nos resultados de busca."
+    },
+    {
+      "question": "Por que as meta descrições são importantes?",
+      "answer": "Elas ajudam a melhorar as taxas de cliques ao fornecer aos usuários uma prévia do conteúdo."
+    },
+    {
+      "question": "Posso personalizar as descrições?",
+      "answer": "Sim, você pode inserir suas palavras-chave ou tópicos para gerar descrições personalizadas."
+    }
+  ],
+  "relatedTools": [
+    "title-optimization-tool",
+    "slug-generator"
+  ],
+  "variants": []
+}

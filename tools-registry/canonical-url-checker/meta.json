@@ -1,0 +1,95 @@
+{
+  "slug": "canonical-url-checker",
+  "name": "Canonical URL Checker",
+  "tagline": "Verify your canonical URLs",
+  "description": "Check if your canonical URLs are set correctly to avoid duplicate content issues. Essential for SEOs who want to ensure their site is properly indexed.",
+  "metaTitle": "Canonical URL Checker – Avoid Duplicate Content | Free Online Tool",
+  "metaDescription": "Instantly verify your canonical URLs to enhance SEO. Free, no signup required, and immediate results.",
+  "keywords": [
+    "canonical url checker",
+    "check canonical tags",
+    "seo duplication issues",
+    "duplicate content",
+    "url verification",
+    "canonical tag checker",
+    "canonical link checker",
+    "canonical tag checker tool",
+    "canonical tag checker online",
+    "canonical tag checker extension",
+    "google canonical url checker",
+    "website canonical checker",
+    "canonical url example",
+    "what is canonical url",
+    "canonical website meaning",
+    "free canonical tag checker",
+    "what is a non-canonical url",
+    "check canonical tag online",
+    "check canonical url",
+    "check canonical url online"
+  ],
+  "category": "Seo",
+  "urlPath": "/tools/canonical-url-checker",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "What is a canonical URL?",
+      "answer": "A canonical URL is the preferred version of a webpage, preventing duplicate content."
+    },
+    {
+      "question": "Why is it important?",
+      "answer": "Correct canonicalization helps search engines know which page to index."
+    },
+    {
+      "question": "How do I use this tool?",
+      "answer": "Simply enter the URL you want to check, and it will validate the canonical tags."
+    }
+  ],
+  "relatedTools": [
+    "schema-markup-generator",
+    "meta-description-generator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "batch-canonical-url-checker",
+      "metaTitle": "Batch Canonical URL Checker",
+      "metaDescription": "Check multiple canonical URLs at once.",
+      "keywords": [
+        "batch URL checker",
+        "bulk canonical check",
+        "SEO tool for multiple URLs"
+      ],
+      "defaultVariant": "batch-key",
+      "headline": "Effortlessly check multiple URLs for canonical tags in one go."
+    },
+    {
+      "variantSlug": "canonical-url-report-generator",
+      "metaTitle": "Canonical URL Report Generator",
+      "metaDescription": "Generate reports on your canonical URL setup.",
+      "keywords": [
+        "canonical URL report",
+        "SEO reporting",
+        "URL setup reports"
+      ],
+      "defaultVariant": "report-key",
+      "headline": "Get detailed reports on your canonical URLs to optimize your site."
+    }
+  ],
+  "seoBody": [
+    {
+      "heading": "What is a canonical URL?",
+      "body": "A canonical URL is the preferred version of a set of duplicate pages on a website. When multiple pages have similar content, search engines may struggle to determine which one to index and rank. By specifying a canonical URL using a canonical tag in the HTML header, webmasters indicate to search engines which version of the page should be considered the authoritative one. This helps prevent confusion and ensures that the correct page is displayed in search results.\n\nThis is especially important for SEO, as duplicate content can dilute page authority, leading to lower rankings for all versions of the page. Using a canonical URL checker tool allows you to verify if your canonical tags are set up correctly, ensuring that your site is optimized for search engine indexing and that you're not inadvertently penalizing your own content."
+    },
+    {
+      "heading": "How to check canonical tags",
+      "body": "To effectively check your canonical tags using a canonical URL checker, follow these steps: First, enter the URL of the page you wish to analyze into the tool. The checker will retrieve the page's HTML source code and look for the canonical tag specified within the <head> section. Next, it will display the URL specified in the canonical tag, allowing you to verify whether it points to the correct version of the content.\n\nFinally, compare the canonical URL with the actual content of the page and other potential duplicates. If necessary, adjust the canonical tags on your site to ensure they are pointing to the right URLs. This process is crucial in maintaining a clean and efficient SEO structure."
+    },
+    {
+      "heading": "Example of using a canonical URL checker",
+      "body": "Consider a website with two pages that have similar content: Page A (https://example.com/page-a) and Page B (https://example.com/page-b). If both pages are indexed by search engines, they may compete against each other, leading to SEO duplication issues. By using a canonical URL checker on Page A, you find that the canonical tag is set to https://example.com/page-a. This indicates that Page A is the preferred version. \n\nHowever, upon checking Page B, you discover it has the canonical tag incorrectly pointing to itself instead of Page A. To resolve this, you should update Page B's canonical tag to point to Page A. This helps consolidate the ranking signals to Page A and eliminates confusion for search engines, ultimately enhancing your site's SEO performance."
+    },
+    {
+      "heading": "Common mistakes when using canonical URLs",
+      "body": "One common mistake is failing to set canonical tags on every duplicate page. If you have multiple pages with similar content, each should have a canonical tag pointing to the preferred version. Neglecting this can result in search engines not understanding which page to index, leading to dilution of page authority.\n\nAnother mistake is incorrectly setting the canonical URL to a non-existent page or an entirely different page. Ensure that the URL specified in the canonical tag is active and relevant. Regularly using a canonical URL checker can help catch these issues early, allowing you to maintain a clean and efficient SEO strategy. Always double-check your canonical tags after site updates or content changes to avoid new duplication issues."
+    }
+  ]
+}

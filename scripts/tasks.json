@@ -2282,5 +2282,309 @@
         "headline": "Unlock advanced features for comparing prompt versions."
       }
     ]
+  },
+  {
+    "slug": "title-optimization-tool",
+    "name": "Title Optimization Tool",
+    "tagline": "Generate compelling SEO titles",
+    "description": "Create optimized titles that are both engaging and SEO-friendly. Perfect for bloggers and content creators looking to enhance their website's visibility.",
+    "metaTitle": "SEO Title Generator – Optimize Page Titles | Free Online Tool",
+    "metaDescription": "Instantly generate SEO-optimized titles for your content. Free, no signup required, and get immediate results.",
+    "keywords": [
+      "SEO title generator",
+      "optimize titles",
+      "title suggestions",
+      "engaging titles",
+      "content optimization"
+    ],
+    "category": "Seo",
+    "icon": "📝",
+    "faqs": [
+      {
+        "question": "How does this tool work?",
+        "answer": "Simply enter your topic or keywords, and the tool will generate optimized titles for you."
+      },
+      {
+        "question": "What makes a good SEO title?",
+        "answer": "A good SEO title should be engaging, include target keywords, and be under 60 characters."
+      },
+      {
+        "question": "Can I use the titles generated?",
+        "answer": "Yes, the titles generated are free to use for your content."
+      }
+    ],
+    "relatedTools": [
+      "meta-description-generator",
+      "keyword-density-checker"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-title-generator",
+        "metaTitle": "Advanced Title Generator for SEO",
+        "metaDescription": "Get advanced suggestions for SEO titles tailored to your needs.",
+        "keywords": [
+          "advanced title generator",
+          "SEO title optimization",
+          "customized titles"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Explore advanced options for title generation tailored to specific niches."
+      },
+      {
+        "variantSlug": "quick-title-generator",
+        "metaTitle": "Quick Title Generator",
+        "metaDescription": "Fast and simple title suggestions for your content.",
+        "keywords": [
+          "quick title generator",
+          "fast SEO titles"
+        ],
+        "defaultVariant": "quick-key",
+        "headline": "Generate quick title suggestions in seconds for your immediate needs."
+      }
+    ]
+  },
+  {
+    "slug": "meta-description-generator",
+    "name": "Meta Description Generator",
+    "tagline": "Craft perfect meta descriptions",
+    "description": "Easily create SEO-optimized meta descriptions that improve click-through rates. Ideal for marketers and bloggers aiming for better SERP visibility.",
+    "metaTitle": "Meta Description Generator – Improve Click-Through Rates | Free Online Tool",
+    "metaDescription": "Generate effective meta descriptions to boost your SEO. Free, no signup, and instant results.",
+    "keywords": [
+      "meta description generator",
+      "SEO meta descriptions",
+      "optimize meta tags",
+      "click-through rate",
+      "SEO tools"
+    ],
+    "category": "Seo",
+    "icon": "📄",
+    "faqs": [
+      {
+        "question": "What is a meta description?",
+        "answer": "A meta description is a short summary of a webpage that appears in search results."
+      },
+      {
+        "question": "Why are meta descriptions important?",
+        "answer": "They help improve click-through rates by providing users with a preview of the content."
+      },
+      {
+        "question": "Can I customize the descriptions?",
+        "answer": "Yes, you can input your keywords or topics to generate tailored descriptions."
+      }
+    ],
+    "relatedTools": [
+      "title-optimization-tool",
+      "slug-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "keyword-focused-meta-generator",
+        "metaTitle": "Keyword-Focused Meta Description Generator",
+        "metaDescription": "Generate keyword-rich meta descriptions that enhance SEO.",
+        "keywords": [
+          "keyword meta descriptions",
+          "SEO-focused meta",
+          "optimized meta tags"
+        ],
+        "defaultVariant": "keyword-key",
+        "headline": "Focus on specific keywords to improve your SEO with tailored descriptions."
+      },
+      {
+        "variantSlug": "character-limited-meta-generator",
+        "metaTitle": "Character-Limited Meta Description Tool",
+        "metaDescription": "Create concise meta descriptions within character limits.",
+        "keywords": [
+          "short meta descriptions",
+          "character-limited SEO",
+          "concise meta tags"
+        ],
+        "defaultVariant": "character-key",
+        "headline": "Ensure your meta descriptions fit within optimal character counts for better results."
+      }
+    ]
+  },
+  {
+    "slug": "schema-markup-generator",
+    "name": "Schema Markup Generator",
+    "tagline": "Generate structured data markup",
+    "description": "Create schema markup to enhance your website's search results. Perfect for SEOs and developers looking to implement structured data easily.",
+    "metaTitle": "Schema Markup Generator – Enhance Search Visibility | Free Online Tool",
+    "metaDescription": "Instantly generate schema markup for better SEO. Free, no signup, and immediate results.",
+    "keywords": [
+      "schema markup generator",
+      "structured data",
+      "SEO schema",
+      "enhanced search results",
+      "markup tools"
+    ],
+    "category": "Seo",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "What is schema markup?",
+        "answer": "Schema markup is code that helps search engines understand your content better."
+      },
+      {
+        "question": "Why should I use schema markup?",
+        "answer": "It can improve your website's visibility in search results by providing rich snippets."
+      },
+      {
+        "question": "Is it easy to implement?",
+        "answer": "Yes, our tool generates the necessary code for you to easily implement on your site."
+      }
+    ],
+    "relatedTools": [
+      "canonical-checker",
+      "open-graph-preview"
+    ],
+    "variants": [
+      {
+        "variantSlug": "local-business-schema-generator",
+        "metaTitle": "Local Business Schema Generator",
+        "metaDescription": "Create schema markup specifically for local businesses.",
+        "keywords": [
+          "local business schema",
+          "SEO for local",
+          "structured data for business"
+        ],
+        "defaultVariant": "local-key",
+        "headline": "Generate schema markup tailored for local businesses to improve local SEO."
+      },
+      {
+        "variantSlug": "article-schema-generator",
+        "metaTitle": "Article Schema Markup Generator",
+        "metaDescription": "Generate schema for articles to improve visibility.",
+        "keywords": [
+          "article schema",
+          "SEO for articles",
+          "structured data for content"
+        ],
+        "defaultVariant": "article-key",
+        "headline": "Create structured data specifically for articles to enhance their search appearance."
+      }
+    ]
+  },
+  {
+    "slug": "canonical-url-checker",
+    "name": "Canonical URL Checker",
+    "tagline": "Verify your canonical URLs",
+    "description": "Check if your canonical URLs are set correctly to avoid duplicate content issues. Essential for SEOs who want to ensure their site is properly indexed.",
+    "metaTitle": "Canonical URL Checker – Avoid Duplicate Content | Free Online Tool",
+    "metaDescription": "Instantly verify your canonical URLs to enhance SEO. Free, no signup required, and immediate results.",
+    "keywords": [
+      "canonical URL checker",
+      "check canonical tags",
+      "SEO duplication issues",
+      "duplicate content",
+      "URL verification"
+    ],
+    "category": "Seo",
+    "icon": "🔗",
+    "faqs": [
+      {
+        "question": "What is a canonical URL?",
+        "answer": "A canonical URL is the preferred version of a webpage, preventing duplicate content."
+      },
+      {
+        "question": "Why is it important?",
+        "answer": "Correct canonicalization helps search engines know which page to index."
+      },
+      {
+        "question": "How do I use this tool?",
+        "answer": "Simply enter the URL you want to check, and it will validate the canonical tags."
+      }
+    ],
+    "relatedTools": [
+      "schema-markup-generator",
+      "meta-description-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "batch-canonical-url-checker",
+        "metaTitle": "Batch Canonical URL Checker",
+        "metaDescription": "Check multiple canonical URLs at once.",
+        "keywords": [
+          "batch URL checker",
+          "bulk canonical check",
+          "SEO tool for multiple URLs"
+        ],
+        "defaultVariant": "batch-key",
+        "headline": "Effortlessly check multiple URLs for canonical tags in one go."
+      },
+      {
+        "variantSlug": "canonical-url-report-generator",
+        "metaTitle": "Canonical URL Report Generator",
+        "metaDescription": "Generate reports on your canonical URL setup.",
+        "keywords": [
+          "canonical URL report",
+          "SEO reporting",
+          "URL setup reports"
+        ],
+        "defaultVariant": "report-key",
+        "headline": "Get detailed reports on your canonical URLs to optimize your site."
+      }
+    ]
+  },
+  {
+    "slug": "keyword-density-analyzer",
+    "name": "Keyword Density Analyzer",
+    "tagline": "Analyze your keyword use",
+    "description": "Evaluate the keyword density of your content to optimize for SEO. Ideal for bloggers and marketers aiming to balance keyword usage.",
+    "metaTitle": "Keyword Density Analyzer – Optimize Content for SEO | Free Online Tool",
+    "metaDescription": "Analyze keyword density to enhance your SEO efforts. Free, no signup, and instant results.",
+    "keywords": [
+      "keyword density analyzer",
+      "SEO keyword usage",
+      "content optimization",
+      "analyze keywords",
+      "keyword frequency"
+    ],
+    "category": "Seo",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "What is keyword density?",
+        "answer": "Keyword density is the percentage of times a keyword appears in your content compared to the total word count."
+      },
+      {
+        "question": "Why is keyword density important?",
+        "answer": "It helps ensure that your content is optimized without being overly stuffed with keywords."
+      },
+      {
+        "question": "How do I use this tool?",
+        "answer": "Paste your text, and our tool will calculate the keyword density for you."
+      }
+    ],
+    "relatedTools": [
+      "meta-description-generator",
+      "title-optimization-tool"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-keyword-density-analyzer",
+        "metaTitle": "Advanced Keyword Density Analyzer",
+        "metaDescription": "Deep analysis of keyword usage and suggestions.",
+        "keywords": [
+          "advanced keyword analysis",
+          "SEO keyword suggestions",
+          "content density"
+        ],
+        "defaultVariant": "advanced-density-key",
+        "headline": "Get detailed analysis and suggestions for keyword usage in your content."
+      },
+      {
+        "variantSlug": "keyword-density-trend-analyzer",
+        "metaTitle": "Keyword Density Trend Analyzer",
+        "metaDescription": "Analyze keyword density trends over time.",
+        "keywords": [
+          "trend analysis",
+          "keyword density trends",
+          "SEO performance"
+        ],
+        "defaultVariant": "trend-key",
+        "headline": "Track your keyword density trends to optimize your content strategy."
+      }
+    ]
   }
 ]

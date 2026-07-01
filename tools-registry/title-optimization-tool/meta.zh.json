@@ -1,0 +1,51 @@
+{
+  "slug": "title-optimization-tool",
+  "name": "标题优化工具",
+  "tagline": "生成引人注目的SEO标题",
+  "description": "创建既吸引人又符合SEO标准的优化标题。非常适合希望提升网站可见性的博主和内容创作者。",
+  "metaTitle": "SEO标题生成器 – 优化页面标题 | 免费在线工具",
+  "metaDescription": "即时生成针对您内容的SEO优化标题。免费，无需注册，立即获得结果。",
+  "keywords": [
+    "seo标题生成器",
+    "优化标题",
+    "标题建议",
+    "引人注目的标题",
+    "内容优化",
+    "免费标题优化工具",
+    "标题优化工具",
+    "youtube标题优化工具",
+    "ebay标题优化工具",
+    "seo标题优化工具",
+    "seo标题工具",
+    "seo中的标题标签优化",
+    "seo优化工具",
+    "免费seo排名工具",
+    "seo标题生成器youtube",
+    "seo标题生成器fatjoe",
+    "免费seo标题生成器",
+    "博客用seo标题生成器",
+    "seo标题生成器工具",
+    "免费youtube用seo标题生成器"
+  ],
+  "category": "Seo",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "这个工具是如何工作的？",
+      "answer": "只需输入您的主题或关键词，工具将为您生成优化的标题。"
+    },
+    {
+      "question": "什么是好的SEO标题？",
+      "answer": "好的SEO标题应该引人注目，包含目标关键词，并且在60个字符以内。"
+    },
+    {
+      "question": "我可以使用生成的标题吗？",
+      "answer": "可以，生成的标题可以免费用于您的内容。"
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "keyword-density-checker"
+  ],
+  "variants": []
+}

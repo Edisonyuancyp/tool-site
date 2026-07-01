@@ -1,0 +1,51 @@
+{
+  "slug": "schema-markup-generator",
+  "name": "Schema Markup Generator",
+  "tagline": "生成结构化数据标记",
+  "description": "创建架构标记以增强您网站的搜索结果。非常适合希望轻松实施结构化数据的SEO和开发人员。",
+  "metaTitle": "Schema Markup Generator – 提升搜索可见性 | 免费在线工具",
+  "metaDescription": "即时生成架构标记以改善SEO。免费，无需注册，立即获取结果。",
+  "keywords": [
+    "架构标记生成器",
+    "结构化数据",
+    "SEO架构",
+    "增强搜索结果",
+    "标记工具",
+    "架构标记生成器 (json-ld) technicalseo.com",
+    "架构标记生成器工具",
+    "架构标记生成器 (json-ld)",
+    "架构标记生成器 json ld",
+    "由Merkle提供的架构标记生成器",
+    "免费架构标记生成器",
+    "技术SEO架构标记生成器",
+    "在线架构标记生成器",
+    "免费架构标记生成器",
+    "如何使用架构标记生成器",
+    "架构标记示例",
+    "架构标记是什么",
+    "架构标记重要吗",
+    "架构标记代码",
+    "结构化数据测试工具"
+  ],
+  "category": "Seo",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "什么是架构标记？",
+      "answer": "架构标记是一种帮助搜索引擎更好理解您内容的代码。"
+    },
+    {
+      "question": "我为什么要使用架构标记？",
+      "answer": "它可以通过提供丰富的摘要来提高您网站在搜索结果中的可见性。"
+    },
+    {
+      "question": "实施起来容易吗？",
+      "answer": "是的，我们的工具会为您生成必要的代码，您可以轻松地在您的网站上实施。"
+    }
+  ],
+  "relatedTools": [
+    "canonical-checker",
+    "open-graph-preview"
+  ],
+  "variants": []
+}

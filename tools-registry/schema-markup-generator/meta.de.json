@@ -1,0 +1,51 @@
+{
+  "slug": "schema-markup-generator",
+  "name": "Schema Markup Generator",
+  "tagline": "Generieren Sie strukturierte Datenmarkierungen",
+  "description": "Erstellen Sie Schema-Markup, um die Suchergebnisse Ihrer Website zu verbessern. Perfekt für SEOs und Entwickler, die strukturierte Daten einfach implementieren möchten.",
+  "metaTitle": "Schema Markup Generator – Sichtbarkeit in Suchmaschinen erhöhen | Kostenloses Online-Tool",
+  "metaDescription": "Generieren Sie sofort Schema-Markup für besseres SEO. Kostenlos, keine Anmeldung und sofortige Ergebnisse.",
+  "keywords": [
+    "schema markup generator",
+    "strukturierte Daten",
+    "seo schema",
+    "verbesserte Suchergebnisse",
+    "Markup-Tools",
+    "schema markup generator (json-ld) technicalseo.com",
+    "Schema-Markup-Generator-Tool",
+    "schema markup generator (json-ld)",
+    "schema markup generator json ld",
+    "schema markup generator von merkle",
+    "schema markup generator kostenlos",
+    "schema markup generator technisches SEO",
+    "schema markup generator online",
+    "kostenloser Schema-Markup-Generator",
+    "wie man Schema-Markup-Generator verwendet",
+    "Schema-Markup-Beispiel",
+    "Was ist Schema-Markup?",
+    "Ist Schema-Markup wichtig?",
+    "Schema-Markup-Code",
+    "Tool zum Testen strukturierter Daten"
+  ],
+  "category": "Seo",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Was ist Schema-Markup?",
+      "answer": "Schema-Markup ist Code, der Suchmaschinen hilft, Ihre Inhalte besser zu verstehen."
+    },
+    {
+      "question": "Warum sollte ich Schema-Markup verwenden?",
+      "answer": "Es kann die Sichtbarkeit Ihrer Website in den Suchergebnissen verbessern, indem es reichhaltige Snippets bereitstellt."
+    },
+    {
+      "question": "Ist es einfach zu implementieren?",
+      "answer": "Ja, unser Tool generiert den notwendigen Code, den Sie einfach auf Ihrer Website implementieren können."
+    }
+  ],
+  "relatedTools": [
+    "canonical-checker",
+    "open-graph-preview"
+  ],
+  "variants": []
+}

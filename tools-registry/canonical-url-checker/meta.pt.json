@@ -1,0 +1,51 @@
+{
+  "slug": "canonical-url-checker",
+  "name": "Verificador de URL Canônica",
+  "tagline": "Verifique suas URLs canônicas",
+  "description": "Verifique se suas URLs canônicas estão configuradas corretamente para evitar problemas de conteúdo duplicado. Essencial para SEOs que desejam garantir que seu site seja indexado corretamente.",
+  "metaTitle": "Verificador de URL Canônica – Evite Conteúdo Duplicado | Ferramenta Online Gratuita",
+  "metaDescription": "Verifique instantaneamente suas URLs canônicas para melhorar o SEO. Gratuito, sem necessidade de cadastro e resultados imediatos.",
+  "keywords": [
+    "verificador de url canônica",
+    "verificar tags canônicas",
+    "problemas de duplicação seo",
+    "conteúdo duplicado",
+    "verificação de url",
+    "verificador de tag canônica",
+    "verificador de link canônico",
+    "ferramenta de verificação de tag canônica",
+    "verificador de tag canônica online",
+    "extensão de verificador de tag canônica",
+    "verificador de url canônica google",
+    "verificador de site canônico",
+    "exemplo de url canônica",
+    "o que é url canônica",
+    "significado de site canônico",
+    "verificador de tag canônica gratuito",
+    "o que é uma url não canônica",
+    "verificar tag canônica online",
+    "verificar url canônica",
+    "verificar url canônica online"
+  ],
+  "category": "Seo",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "O que é uma URL canônica?",
+      "answer": "Uma URL canônica é a versão preferida de uma página da web, evitando conteúdo duplicado."
+    },
+    {
+      "question": "Por que é importante?",
+      "answer": "A canonização correta ajuda os motores de busca a saber qual página indexar."
+    },
+    {
+      "question": "Como eu uso esta ferramenta?",
+      "answer": "Basta inserir a URL que você deseja verificar, e ela validará as tags canônicas."
+    }
+  ],
+  "relatedTools": [
+    "schema-markup-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}
