@@ -24,36 +24,20 @@ from llm_client import LLMClient, _extract_json
 SCRIPTS_DIR = Path(__file__).parent
 CACHE_DIR   = SCRIPTS_DIR / "research_cache"
 TASKS_FILE  = SCRIPTS_DIR / "tasks.json"
+CATEGORY_RULES_PATH = SCRIPTS_DIR.parent / "lib" / "category-rules.json"
 
-# ── Canonical category names (must match lib/tools.ts CATEGORY_URL_PREFIX) ────
-CATEGORY_NAMES: dict[str, str] = {
-    "ai": "AI",
-    "seo": "SEO",
-    "social": "Social",
-    "image": "Image",
-    "file": "File",
-    "ecommerce": "Ecommerce",
-    "finance": "Finance",
-    "math": "Math",
-    "health": "Health",
-    "crypto": "Crypto",
-    "fitness": "Fitness",
-    "quant": "Quant",
-    "design": "Design",
-    "generators": "Generators",
-    "developer": "Developer",
-    "text": "Text",
-    "security": "Security",
-    "content": "Content",
-    "utilities": "Utilities",
-    "date & time": "Date & Time",
-    "travel": "Travel",
-    "converter": "Converter",
-    "cooking": "Cooking",
-    "productivity": "Productivity",
-    "media": "Media",
-    "home": "Home",
-}
+# ── Canonical category names and URL prefixes (single source of truth) ──────
+def _load_category_rules() -> dict:
+    try:
+        with open(CATEGORY_RULES_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[WARN] Could not load {CATEGORY_RULES_PATH}: {e}")
+        return {"canonicalNames": {}, "prefixMap": {}}
+
+_CATEGORY_RULES = _load_category_rules()
+CATEGORY_NAMES: dict[str, str] = _CATEGORY_RULES.get("canonicalNames", {})
+CATEGORY_URL_PREFIX: dict[str, str] = _CATEGORY_RULES.get("prefixMap", {})
 
 def canonical_category(category: str) -> str:
     return CATEGORY_NAMES.get(category.lower(), category.title())

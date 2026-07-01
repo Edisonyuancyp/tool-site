@@ -10,35 +10,11 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REGISTRY_DIR = path.resolve(__dirname, "..", "tools-registry");
+const RULES_PATH = path.resolve(__dirname, "..", "lib", "category-rules.json");
 
-const CATEGORY_NORMALIZATION = {
-  ai: "AI",
-  seo: "SEO",
-  ecommerce: "Ecommerce",
-  social: "Social",
-  image: "Image",
-  file: "File",
-  math: "Math",
-  finance: "Finance",
-  health: "Health",
-  crypto: "Crypto",
-  fitness: "Fitness",
-  quant: "Quant",
-  design: "Design",
-  generators: "Generators",
-  developer: "Developer",
-  text: "Text",
-  security: "Security",
-  content: "Content",
-  utilities: "Utilities",
-  "date & time": "Date & Time",
-  travel: "Travel",
-  converter: "Converter",
-  cooking: "Cooking",
-  productivity: "Productivity",
-  media: "Media",
-  home: "Home",
-};
+const categoryRules = JSON.parse(fs.readFileSync(RULES_PATH, "utf-8"));
+const CATEGORY_NORMALIZATION = categoryRules.canonicalNames;
+const CATEGORY_PREFIXES = categoryRules.prefixMap;
 
 function normalizeCategory(cat) {
   if (!cat) return "Developer";
@@ -67,3 +43,21 @@ for (const entry of fs.readdirSync(REGISTRY_DIR, { withFileTypes: true })) {
   }
 }
 console.log(`[normalize] Updated ${changed} meta.json files`);
+
+// Validate every tool category maps to a URL prefix
+let warnings = 0;
+for (const entry of fs.readdirSync(REGISTRY_DIR, { withFileTypes: true })) {
+  if (!entry.isDirectory() || entry.name.startsWith("_")) continue;
+  const metaPath = path.join(REGISTRY_DIR, entry.name, "meta.json");
+  if (!fs.existsSync(metaPath)) continue;
+  const meta = JSON.parse(fs.readFileSync(metaPath, "utf-8"));
+  const canonical = normalizeCategory(meta.category);
+  if (!CATEGORY_PREFIXES[canonical]) {
+    console.warn(`[warn] ${entry.name}: category "${canonical}" has no URL prefix mapping`);
+    warnings++;
+  }
+}
+if (warnings) {
+  console.warn(`[warn] ${warnings} tool(s) are missing a URL prefix. Add them to lib/category-rules.json prefixMap.`);
+  process.exitCode = 1;
+}

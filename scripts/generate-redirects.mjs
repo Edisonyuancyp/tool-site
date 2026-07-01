@@ -13,45 +13,16 @@ const ROOT = path.resolve(__dirname, "..");
 const REGISTRY_DIR = path.join(ROOT, "tools-registry");
 const REDIRECTS_FILE = path.join(ROOT, "_redirects");
 const PATHS_FILE = path.join(ROOT, "lib", "tool-paths.json");
+const RULES_FILE = path.join(ROOT, "lib", "category-rules.json");
 
-const CATEGORY_URL_PREFIX = {
-  Finance: "calc",
-  Math: "calc",
-  Health: "calc",
-  Crypto: "calc",
-  Fitness: "calc",
-  Quant: "calc",
-  AI: "ai",
-  ai: "ai",
-  Design: "design",
-  Generators: "design",
-  Developer: "dev",
-  Text: "dev",
-  Security: "dev",
-  Content: "dev",
-  Utilities: "dev",
-  "Date & Time": "time",
-  Travel: "time",
-  Converter: "converter",
-  Cooking: "converter",
-  Productivity: "converter",
-  Ecommerce: "ecommerce",
-  ecommerce: "ecommerce",
-  SEO: "seo",
-  seo: "seo",
-  Social: "social",
-  social: "social",
-  Media: "social",
-  Image: "image",
-  image: "image",
-  File: "file",
-  file: "file",
-};
+const categoryRules = JSON.parse(fs.readFileSync(RULES_FILE, "utf-8"));
+const CATEGORY_CANONICAL_NAMES = categoryRules.canonicalNames || {};
+const CATEGORY_URL_PREFIX = categoryRules.prefixMap || {};
 
 function getPrefix(category) {
-  if (!category) return "calc";
-  const normalized = String(category).toLowerCase();
-  return CATEGORY_URL_PREFIX[normalized] || "calc";
+  if (!category) return null;
+  const canonical = CATEGORY_CANONICAL_NAMES[String(category).toLowerCase()] || category;
+  return CATEGORY_URL_PREFIX[canonical] || null;
 }
 
 const redirects = new Map();
@@ -66,12 +37,12 @@ if (fs.existsSync(REGISTRY_DIR)) {
       const meta = JSON.parse(fs.readFileSync(metaPath, "utf-8"));
       const prefix = getPrefix(meta.category);
       const baseSlug = meta.slug || entry.name;
-      const canonicalPath = `/tools/${prefix}/${baseSlug}`;
-      redirects.set(`/tools/${baseSlug}`, canonicalPath);
+      const canonicalPath = prefix ? `/tools/${prefix}/${baseSlug}` : `/tools/${baseSlug}`;
+      if (prefix) redirects.set(`/tools/${baseSlug}`, canonicalPath);
       toolPaths[baseSlug] = canonicalPath;
       for (const v of meta.variants || []) {
-        const variantPath = `/tools/${prefix}/${v.variantSlug}`;
-        redirects.set(`/tools/${v.variantSlug}`, variantPath);
+        const variantPath = prefix ? `/tools/${prefix}/${v.variantSlug}` : `/tools/${v.variantSlug}`;
+        if (prefix) redirects.set(`/tools/${v.variantSlug}`, variantPath);
         toolPaths[v.variantSlug] = variantPath;
       }
     } catch (e) {

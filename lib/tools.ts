@@ -1,3 +1,5 @@
+import categoryRules from "./category-rules.json";
+
 export interface ToolFaq {
   question: string;
   answer: string;
@@ -1125,69 +1127,14 @@ export function getToolBySlug(slug: string): ToolMeta | undefined {
   return tools.find((t) => t.slug === slug);
 }
 
-const CATEGORY_CANONICAL_NAMES: Record<string, string> = {
-  ai: "AI",
-  seo: "SEO",
-  ecommerce: "Ecommerce",
-  social: "Social",
-  image: "Image",
-  file: "File",
-  math: "Math",
-  finance: "Finance",
-  health: "Health",
-  crypto: "Crypto",
-  fitness: "Fitness",
-  quant: "Quant",
-  design: "Design",
-  generators: "Generators",
-  developer: "Developer",
-  dev: "Developer",
-  text: "Text",
-  security: "Security",
-  content: "Content",
-  utilities: "Utilities",
-  "date & time": "Date & Time",
-  travel: "Travel",
-  converter: "Converter",
-  cooking: "Cooking",
-  productivity: "Productivity",
-  media: "Media",
-  home: "Home",
-};
+const CATEGORY_CANONICAL_NAMES: Record<string, string> = categoryRules.canonicalNames;
 
 export function normalizeCategory(category: string): string {
   return CATEGORY_CANONICAL_NAMES[category.toLowerCase()] || category;
 }
 
 /** Maps category name → URL path segment */
-export const CATEGORY_URL_PREFIX: Record<string, string> = {
-  Finance:       "calc",
-  Math:          "calc",
-  Health:        "calc",
-  Crypto:        "calc",
-  Fitness:       "calc",
-  Quant:         "calc",
-  AI:            "ai",
-  Design:        "design",
-  Generators:    "design",
-  Developer:     "dev",
-  Text:          "dev",
-  Security:      "dev",
-  Content:       "dev",
-  Utilities:     "dev",
-  "Date & Time": "time",
-  Travel:        "time",
-  Converter:     "converter",
-  Cooking:       "converter",
-  Productivity:  "converter",
-  Ecommerce:     "ecommerce",
-  ecommerce:     "ecommerce",
-  SEO:           "seo",
-  Social:        "social",
-  Media:         "social",
-  "Image":       "image",
-  "File":        "file",
-};
+export const CATEGORY_URL_PREFIX: Record<string, string> = categoryRules.prefixMap;
 
 /** Returns the canonical URL path for a tool, e.g. /tools/dev/base-converter */
 export function getToolPath(tool: Pick<ToolMeta, "slug" | "category">): string {

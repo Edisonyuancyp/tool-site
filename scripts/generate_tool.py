@@ -35,87 +35,32 @@ TASKS_FILE = Path(__file__).resolve().parent / "tasks.json"
 PALETTE_RECIPES_FILE = Path(__file__).resolve().parent / "palette-recipes.json"
 SEO_CONFIG_FILE = Path(__file__).resolve().parent / "seo_config.json"
 
-# ── Category → URL prefix mapping ────────────────────────────────────────────
+# ── Category rules loaded from shared JSON source of truth ──────────────────
 # Determines the hierarchical URL path: /tools/<prefix>/<slug>
 # Categories not listed here fall back to /tools/<slug> (no sub-directory).
-CATEGORY_CANONICAL_NAMES: dict[str, str] = {
-    "ai": "AI",
-    "seo": "SEO",
-    "social": "Social",
-    "image": "Image",
-    "file": "File",
-    "ecommerce": "Ecommerce",
-    "finance": "Finance",
-    "math": "Math",
-    "health": "Health",
-    "crypto": "Crypto",
-    "fitness": "Fitness",
-    "quant": "Quant",
-    "design": "Design",
-    "generators": "Generators",
-    "developer": "Developer",
-    "dev": "Developer",
-    "text": "Text",
-    "security": "Security",
-    "content": "Content",
-    "utilities": "Utilities",
-    "date & time": "Date & Time",
-    "travel": "Travel",
-    "converter": "Converter",
-    "cooking": "Cooking",
-    "productivity": "Productivity",
-    "media": "Media",
-    "home": "Home",
-}
+CATEGORY_RULES_PATH = ROOT / "lib" / "category-rules.json"
+
+def _load_category_rules() -> dict:
+    try:
+        with open(CATEGORY_RULES_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"[WARN] Could not load {CATEGORY_RULES_PATH}: {e}")
+        return {"canonicalNames": {}, "prefixMap": {}}
+
+_CATEGORY_RULES = _load_category_rules()
+CATEGORY_CANONICAL_NAMES: dict[str, str] = _CATEGORY_RULES.get("canonicalNames", {})
+CATEGORY_URL_PREFIX: dict[str, str] = _CATEGORY_RULES.get("prefixMap", {})
+
 
 def canonical_category(category: str) -> str:
     return CATEGORY_CANONICAL_NAMES.get(category.lower(), category)
 
-CATEGORY_URL_PREFIX: dict[str, str] = {
-    # Calculator tools
-    "Math":       "calc",
-    "Health":     "calc",
-    "Crypto":     "calc",
-    "Fitness":    "calc",
-    "Quant":      "calc",
-    "Finance":    "calc",
-    # AI tools
-    "AI":         "ai",
-    # Design / visual tools
-    "Design":     "design",
-    "Generators": "design",
-    # Developer / text tools
-    "Developer":  "dev",
-    "Text":       "dev",
-    "Security":   "dev",
-    "Content":    "dev",
-    "Utilities":  "dev",
-    # Date & scheduling
-    "Date & Time": "time",
-    "Travel":     "time",
-    # Converters
-    "Converter":  "converter",
-    "Cooking":    "converter",
-    "Productivity": "converter",
-    # E-commerce
-    "Ecommerce":  "ecommerce",
-    "Business":   "ecommerce",
-    # SEO
-    "SEO":        "seo",
-    # Social
-    "Social":     "social",
-    "Media":      "social",
-    # Image
-    "Image":      "image",
-    # File
-    "File":       "file",
-    "Home":       "home",
-}
-
 
 def get_url_path(slug: str, category: str) -> str:
     """Return the canonical URL path for a tool, e.g. /tools/calc/tip-calculator"""
-    prefix = CATEGORY_URL_PREFIX.get(category)
+    canonical = canonical_category(category)
+    prefix = CATEGORY_URL_PREFIX.get(canonical)
     if prefix:
         return f"/tools/{prefix}/{slug}"
     return f"/tools/{slug}"

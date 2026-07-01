@@ -1,0 +1,134 @@
+{
+  "canonicalNames": {
+    "ai": "AI",
+    "seo": "SEO",
+    "ecommerce": "Ecommerce",
+    "social": "Social",
+    "image": "Image",
+    "file": "File",
+    "math": "Math",
+    "finance": "Finance",
+    "health": "Health",
+    "crypto": "Crypto",
+    "fitness": "Fitness",
+    "quant": "Quant",
+    "design": "Design",
+    "generators": "Generators",
+    "developer": "Developer",
+    "dev": "Developer",
+    "text": "Text",
+    "security": "Security",
+    "content": "Content",
+    "utilities": "Utilities",
+    "date & time": "Date & Time",
+    "travel": "Travel",
+    "converter": "Converter",
+    "cooking": "Cooking",
+    "productivity": "Productivity",
+    "media": "Media",
+    "home": "Home"
+  },
+  "prefixMap": {
+    "AI": "ai",
+    "SEO": "seo",
+    "Social": "social",
+    "Media": "social",
+    "Image": "image",
+    "File": "file",
+    "Ecommerce": "ecommerce",
+    "Business": "ecommerce",
+    "Finance": "calc",
+    "Math": "calc",
+    "Health": "calc",
+    "Crypto": "calc",
+    "Fitness": "calc",
+    "Quant": "calc",
+    "Design": "design",
+    "Generators": "design",
+    "Developer": "dev",
+    "Text": "dev",
+    "Security": "dev",
+    "Content": "dev",
+    "Utilities": "dev",
+    "Date & Time": "time",
+    "Travel": "time",
+    "Converter": "converter",
+    "Cooking": "converter",
+    "Productivity": "converter",
+    "Home": "home"
+  },
+  "prefixes": {
+    "calc": {
+      "title": "Calculators",
+      "description": "Finance, health, fitness, math, crypto, and quant calculators — get instant results without sign-up.",
+      "icon": "🧮",
+      "categories": ["Finance", "Math", "Health", "Crypto", "Fitness", "Quant"]
+    },
+    "dev": {
+      "title": "Developer Tools",
+      "description": "Encoding, decoding, formatting, security, content, and utility tools for developers.",
+      "icon": "💻",
+      "categories": ["Developer", "Text", "Security", "Content", "Utilities"]
+    },
+    "design": {
+      "title": "Design & Generator Tools",
+      "description": "Color tools, generators, and design utilities.",
+      "icon": "🎨",
+      "categories": ["Design", "Generators"]
+    },
+    "time": {
+      "title": "Date, Time & Travel Tools",
+      "description": "Time zone converters, timestamp tools, date calculators, and travel utilities.",
+      "icon": "🕐",
+      "categories": ["Date & Time", "Travel"]
+    },
+    "converter": {
+      "title": "Converters & Productivity",
+      "description": "Unit converters, cooking calculators, and productivity tools.",
+      "icon": "🔄",
+      "categories": ["Converter", "Cooking", "Productivity"]
+    },
+    "ai": {
+      "title": "AI Tools",
+      "description": "Prompt token counters, AI cost calculators, model comparators, and prompt utilities — free, no signup.",
+      "icon": "🤖",
+      "categories": ["AI"]
+    },
+    "seo": {
+      "title": "SEO Tools",
+      "description": "Title generators, meta description tools, schema generators, and keyword density checkers for SEO.",
+      "icon": "🔍",
+      "categories": ["SEO"]
+    },
+    "social": {
+      "title": "Social Media Tools",
+      "description": "Character counters and caption tools for Twitter, Instagram, TikTok, YouTube, LinkedIn, Reddit, and more.",
+      "icon": "📱",
+      "categories": ["Social", "Media"]
+    },
+    "image": {
+      "title": "Image Tools",
+      "description": "Image compressors, converters, aspect ratio calculators, and DPI checkers — all in your browser.",
+      "icon": "🖼️",
+      "categories": ["Image"]
+    },
+    "file": {
+      "title": "File & Text Tools",
+      "description": "JSON, XML, CSV, Markdown, HTML, and YAML formatters and validators for developers and writers.",
+      "icon": "📄",
+      "categories": ["File"]
+    },
+    "ecommerce": {
+      "title": "E-Commerce & FBA Tools",
+      "description": "Amazon FBA, Shopify, profit margin, ROAS, and pricing calculators for online sellers.",
+      "icon": "🛒",
+      "categories": ["Ecommerce"]
+    },
+    "home": {
+      "title": "Home & Living Tools",
+      "description": "Mortgage, loan, energy, and renovation calculators for homeowners and renters.",
+      "icon": "🏠",
+      "categories": ["Home"]
+    }
+  }
+}

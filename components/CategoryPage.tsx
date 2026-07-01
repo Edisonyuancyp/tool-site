@@ -1,50 +1,14 @@
 import Link from "next/link";
 import type { ToolMeta } from "@/lib/tools";
-import { getToolPath, CATEGORY_URL_PREFIX } from "@/lib/tools";
+import { getToolPath } from "@/lib/tools";
+import categoryRules from "@/lib/category-rules.json";
 
 const CATEGORY_META: Record<string, {
   title: string;
   description: string;
   icon: string;
   categories: string[];
-}> = {
-  calc: {
-    title: "Calculators",
-    description: "Finance, health, fitness, math, and crypto calculators — get instant results without sign-up.",
-    icon: "🧮",
-    categories: ["Finance", "Math", "Health", "Crypto", "Fitness", "Quant"],
-  },
-  dev: {
-    title: "Developer Tools",
-    description: "Encoding, decoding, formatting, security, content, and utility tools for developers.",
-    icon: "💻",
-    categories: ["Developer", "Text", "Security", "Content", "Utilities"],
-  },
-  design: {
-    title: "Design & Generator Tools",
-    description: "Color tools, generators, and design utilities.",
-    icon: "🎨",
-    categories: ["Design", "Generators"],
-  },
-  time: {
-    title: "Date, Time & Travel Tools",
-    description: "Time zone converters, timestamp tools, date calculators, and travel utilities.",
-    icon: "🕐",
-    categories: ["Date & Time", "Travel"],
-  },
-  converter: {
-    title: "Converters & Productivity",
-    description: "Unit converters, cooking calculators, and productivity tools.",
-    icon: "🔄",
-    categories: ["Converter", "Cooking", "Productivity"],
-  },
-};
-
-/** Derive category group → display name for section headers */
-const PREFIX_LABEL: Record<string, string> = Object.fromEntries(
-  Object.entries(CATEGORY_URL_PREFIX).map(([cat, prefix]) => [prefix + "|" + cat, cat])
-);
-void PREFIX_LABEL; // used implicitly via CATEGORY_META
+}> = categoryRules.prefixes;
 
 interface Props {
   prefix: string;
