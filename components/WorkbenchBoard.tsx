@@ -1,9 +1,12 @@
 "use client";
 import { useState, useCallback, useRef } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { useEffect } from "react";
 import { useWorkbench, type BoardWidgetSize } from "@/lib/WorkbenchContext";
 import type { ToolMeta } from "@/lib/tools";
 import { getToolPath } from "@/lib/tools";
+import { BOARD_PRESETS, getPresetById } from "@/lib/board-presets";
 import ToolWidget from "@/components/ToolWidget";
 
 const DEFAULT_HEIGHT: Record<BoardWidgetSize, number> = {
@@ -12,87 +15,14 @@ const DEFAULT_HEIGHT: Record<BoardWidgetSize, number> = {
 const MIN_HEIGHT = 200;
 const MAX_HEIGHT = 900;
 
-const PRESET_BOARDS = [
-  {
-    name: "FBA Seller Dashboard",
-    emoji: "📦",
-    desc: "Amazon卖家必备工具套装",
-    slugs: [
-      "fba-profit-calculator",
-      "fba-fee-calculator",
-      "amazon-acos-calculator",
-      "fba-reorder-calculator",
-      "import-duty-calculator",
-    ],
-    sizes: ["large", "medium", "medium", "medium", "medium"] as BoardWidgetSize[],
-  },
-  {
-    name: "Quant Trader",
-    emoji: "📈",
-    desc: "量化交易风控计算套装",
-    slugs: [
-      "crypto-chart-analyzer",
-      "position-size-calculator",
-      "kelly-criterion-calculator",
-      "sharpe-ratio-calculator",
-      "tp-sl-calculator",
-    ],
-    sizes: ["large", "medium", "medium", "medium", "small"] as BoardWidgetSize[],
-  },
-  {
-    name: "Designer Toolkit",
-    emoji: "🎨",
-    desc: "设计师常用工具",
-    slugs: [
-      "color-palette-lab",
-      "contrast-checker-tool",
-      "css-unit-converter",
-      "typography-scale-generator",
-      "responsive-image-calculator",
-    ],
-    sizes: ["large", "medium", "medium", "medium", "small"] as BoardWidgetSize[],
-  },
-  {
-    name: "Dev Tools",
-    emoji: "👨‍💻",
-    desc: "开发者日常工具",
-    slugs: [
-      "base64-tool",
-      "json-csv-formatter",
-      "url-encoder",
-      "unix-timestamp-converter",
-      "jwt-decoder",
-    ],
-    sizes: ["medium", "medium", "small", "small", "small"] as BoardWidgetSize[],
-  },
-  {
-    name: "Finance Hub",
-    emoji: "💰",
-    desc: "个人理财规划",
-    slugs: [
-      "compound-interest-calculator",
-      "loan-calculator",
-      "savings-goal-calculator",
-      "investment-return-calculator",
-      "budget-calculator",
-    ],
-    sizes: ["large", "medium", "medium", "small", "small"] as BoardWidgetSize[],
-  },
-  {
-    name: "Quick Math",
-    emoji: "🧮",
-    desc: "日常快速计算",
-    slugs: ["percentage-calculator", "tip-calculator", "compound-interest-calculator", "currency-converter"],
-    sizes: ["medium", "small", "medium", "small"] as BoardWidgetSize[],
-  },
-  {
-    name: "Health Tracker",
-    emoji: "💪",
-    desc: "健康数据追踪",
-    slugs: ["bmi-calculator", "body-fat-calculator", "water-intake-calculator", "bmr-tdee-calculator"],
-    sizes: ["medium", "medium", "small", "small"] as BoardWidgetSize[],
-  },
-];
+const PRESET_BOARDS = BOARD_PRESETS.map((p) => ({
+  name: p.name,
+  emoji: p.emoji,
+  desc: p.shortDesc,
+  id: p.id,
+  slugs: p.slugs,
+  sizes: p.sizes,
+}));
 
 function sizeClasses(size: BoardWidgetSize): string {
   switch (size) {
@@ -110,8 +40,23 @@ export default function WorkbenchBoard({ allTools }: { allTools: ToolMeta[] }) {
     resizeBoardWidget, setWidgetHeight, resetBoard,
   } = useWorkbench();
 
+  const searchParams = useSearchParams();
+
   // Per-widget live height while dragging (not persisted until mouseup)
   const [liveHeights, setLiveHeights] = useState<Record<string, number>>({});
+
+  // Load a preset from ?preset=<id> on first mount
+  useEffect(() => {
+    const presetId = searchParams.get("preset");
+    if (!presetId) return;
+    const preset = getPresetById(presetId);
+    if (!preset) return;
+    resetBoard([]);
+    preset.slugs.forEach((slug, i) => {
+      const size = preset.sizes[i] ?? "medium";
+      addBoardWidget(slug, size);
+    });
+  }, [searchParams, addBoardWidget, resetBoard]);
 
   const handleResizeMouseDown = useCallback(
     (widgetId: string, currentHeight: number) =>

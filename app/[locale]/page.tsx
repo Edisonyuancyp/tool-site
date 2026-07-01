@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LocalizedToolGrid from "@/components/LocalizedToolGrid";
 import WorkbenchDashboard from "@/components/WorkbenchDashboard";
+import BoardPromo from "@/components/BoardPromo";
 import { SUPPORTED_LOCALES, type SupportedLocale, getI18nToolMetas } from "@/lib/i18n-registry";
 
 interface Props {
@@ -144,6 +145,9 @@ export default async function LocalizedHome({ params }: Props) {
               {c.subtitle}
             </p>
           </div>
+
+          {/* Ready-made boards */}
+          <BoardPromo />
 
           {/* Workbench */}
           <WorkbenchDashboard allTools={allTools} />

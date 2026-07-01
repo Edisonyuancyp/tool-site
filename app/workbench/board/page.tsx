@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { mergeWithRegistry } from "@/lib/tools";
 import { registryToToolMetas } from "@/lib/registry";
 import Header from "@/components/Header";
@@ -39,7 +40,13 @@ export default function WorkbenchBoardPage() {
       <Header allTools={allTools} />
       <main className="flex-1">
         <div className="max-w-6xl mx-auto px-4 py-10">
-          <WorkbenchBoard allTools={allTools} />
+          <Suspense fallback={
+            <div className="p-10 text-center text-sm text-gray-400">
+              Loading your workbench…
+            </div>
+          }>
+            <WorkbenchBoard allTools={allTools} />
+          </Suspense>
         </div>
       </main>
       <Footer />
