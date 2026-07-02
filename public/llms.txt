@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-06-25. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-07-02. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -16,6 +16,20 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Age Calculator: https://getfastcalc.com/tools/time/age-calculator — Find your exact age in years, months, and days
 
 ## All tools by category
+
+### AI
+- AI Context Window Manager: https://getfastcalc.com/tools/ai-context-window-manager — Manage your context window effectively
+- AI Cost Comparator: https://getfastcalc.com/tools/ai-cost-comparator — Compare costs across AI models
+- AI Model Comparator: https://getfastcalc.com/tools/ai-model-comparator — Compare different AI models side by side.
+- Context Window Calculator: https://getfastcalc.com/tools/context-window-calculator — Optimize your AI prompt context.
+- Prompt Cleaner Tool: https://getfastcalc.com/tools/prompt-cleaner-tool — Refine your prompts for clarity and impact.
+- Prompt Cost Calculator: https://getfastcalc.com/tools/prompt-cost-calculator — Estimate your AI prompt costs quickly.
+- Prompt Token Optimizer: https://getfastcalc.com/tools/prompt-token-optimizer — Optimize prompts to save tokens
+- Prompt Variable Generator: https://getfastcalc.com/tools/prompt-variable-generator — Create dynamic variables for your prompts.
+- Prompt Version Comparator: https://getfastcalc.com/tools/prompt-version-comparator — Compare different prompt versions
+- Prompt Version Compare: https://getfastcalc.com/tools/prompt-version-compare — Compare different versions of your prompts.
+- Token Splitter: https://getfastcalc.com/tools/token-splitter — Effortlessly split your prompts into tokens.
+- Token Splitter Tool: https://getfastcalc.com/tools/token-splitter-tool — Split your text into manageable token chunks.
 
 ### Content
 - Markdown Previewer: https://getfastcalc.com/tools/content/markdown-previewer — Write and preview Markdown live — clean editor, instant rendered output
@@ -44,12 +58,17 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 
 ### Design
 - Professional Color Palette Lab: https://getfastcalc.com/tools/design/color-palette-lab — Explore curated industry palettes with HEX, Tailwind, CMYK, and Pantone reference
+- Contrast Checker Tool: https://getfastcalc.com/tools/design/contrast-checker-tool — Ensure accessible color combinations
+- Icon Library Browser: https://getfastcalc.com/tools/design/icon-library-browser — Search and find the perfect icons
 - Dark Tech Color Palette: https://getfastcalc.com/tools/design/palette-dark-tech — High-impact dark UI palette for gaming, cybersecurity, and developer tools. Deep blacks with electric neon accents.
 - Eco Green Color Palette: https://getfastcalc.com/tools/design/palette-eco-green — Nature-inspired organic palette for sustainability brands, wellness, and environmental products. Deep forest greens and warm earth tones.
 - Medical Blue Color Palette: https://getfastcalc.com/tools/design/palette-medical — Trustworthy, sterile palette for healthcare and medical applications. Calming blues and whites communicate safety and precision.
 - Retro Film Color Palette: https://getfastcalc.com/tools/design/palette-retro-film — Warm, faded tones inspired by analog photography. Earthy amber, dusty rose, and worn-paper cream.
 - Minimal SaaS Color Palette: https://getfastcalc.com/tools/design/palette-saas — Clean, high-contrast palette used by modern SaaS products. Neutral grays anchored by a confident indigo accent.
+- Responsive Image Calculator: https://getfastcalc.com/tools/design/responsive-image-calculator — Optimize images for different screens
+- SVG Clip Path Generator: https://getfastcalc.com/tools/design/svg-clip-path-generator — Easily create custom clip paths
 - Typography Compare Lab: https://getfastcalc.com/tools/design/typography-compare-lab — Compare two Google Fonts side-by-side — instant preview, no signup
+- Typography Scale Generator: https://getfastcalc.com/tools/design/typography-scale-generator — Create harmonious font sizes effortlessly
 
 ### Developer
 - Number Base Converter: https://getfastcalc.com/tools/dev/base-converter — Convert numbers between any bases — binary, octal, decimal, hex, and more
@@ -62,6 +81,14 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - JWT Decoder & Security Checker: https://getfastcalc.com/tools/dev/jwt-decoder — Decode and inspect any JWT token — with security analysis
 - Unix Timestamp Converter: https://getfastcalc.com/tools/dev/unix-timestamp-converter — Convert Unix timestamps to human-readable dates instantly
 - URL Encoder / Decoder: https://getfastcalc.com/tools/dev/url-encoder — Encode or decode URL strings instantly — no signup, no ads
+
+### Ecommerce
+- Amazon ACoS Calculator: https://getfastcalc.com/tools/amazon-acos-calculator — Calculate ACoS, TACoS, max CPC bid, and true ad profitability
+- FBA Fee Calculator: https://getfastcalc.com/tools/fba-fee-calculator — Calculate Amazon FBA fulfillment, referral and storage fees by size tier
+- FBA Carton Packing Calculator: https://getfastcalc.com/tools/fba-packing-calculator — Pack FBA shipments smarter — visualize box layout, avoid wasted space and Amazon oversize fees
+- FBA Profit Calculator: https://getfastcalc.com/tools/fba-profit-calculator — Calculate net profit, ROI and margin for any Amazon FBA product
+- FBA Reorder & Restocking Calculator: https://getfastcalc.com/tools/fba-reorder-calculator — Never run out of stock — know exactly when to reorder and how many units to buy
+- Import Duty Calculator: https://getfastcalc.com/tools/import-duty-calculator — Estimate US import duties, tariffs and customs fees for any product
 
 ### Finance
 - Budget Calculator: https://getfastcalc.com/tools/finance/budget-calculator — Track income vs. expenses and see exactly where your money goes
@@ -117,7 +144,17 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Work-Life Balance Calculator: https://getfastcalc.com/tools/work-life-balance-calculator — Assess your work-life balance today
 
 ### Quant
+- Crypto Chart Analyzer: https://getfastcalc.com/tools/quant/crypto-chart-analyzer — Candlestick chart with EMA, SMA, RSI & Bollinger Bands — runs in your browser
+- Kelly Criterion Calculator: https://getfastcalc.com/tools/quant/kelly-criterion-calculator — Calculate optimal bet size using Kelly formula — maximize long-run growth
 - Position Size Calculator: https://getfastcalc.com/tools/quant/risk-calculator — Calculate your position size and manage trading risk — free, instant, browser-only
+- Sharpe Ratio Calculator: https://getfastcalc.com/tools/quant/sharpe-ratio-calculator — Measure risk-adjusted return of your portfolio or strategy
+
+### SEO
+- Canonical URL Checker: https://getfastcalc.com/tools/canonical-url-checker — Verify your canonical URLs
+- Keyword Density Analyzer: https://getfastcalc.com/tools/keyword-density-analyzer — Analyze your keyword use
+- Meta Description Generator: https://getfastcalc.com/tools/meta-description-generator — Craft perfect meta descriptions
+- Schema Markup Generator: https://getfastcalc.com/tools/schema-markup-generator — Generate structured data markup
+- Title Optimization Tool: https://getfastcalc.com/tools/title-optimization-tool — Generate compelling SEO titles
 
 ### Security
 - Password Generator: https://getfastcalc.com/tools/dev/password-generator — Generate strong, secure passwords instantly
