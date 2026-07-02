@@ -16,6 +16,7 @@ scripts/seo/
 ├── fetch_gsc_data.py            # 获取 GSC 数据
 ├── analyze_seo.py               # AI 分析
 ├── run_seo_pipeline.py          # 一键运行完整流程
+├── telegram_bot.py              # 本地 Telegram Bot（可远程触发）
 ├── gsc_optimization_candidates.json   # 中间输出
 ├── optimization_suggestions.json      # 结构化建议
 └── optimization_suggestions_review.md # Markdown 审阅版
@@ -109,3 +110,29 @@ python run_seo_pipeline.py
 - **人工审阅**：AI 只给建议，最终执行由你确认，避免误伤现有排名。
 - **精准打击**：只优化有展示但无点击的 URL，ROI 最高。
 - **可扩展**：后续可以加入 `apply_suggestions.py` 自动修改 Next.js 页面元数据，但建议先手动跑通闭环再自动化。
+
+## 7. 从 Telegram 触发 SEO 流程（可选）
+
+如果你希望不在电脑前也能触发分析，可以运行本地 Telegram Bot。
+
+### 配置
+
+1. 在 Telegram 搜索 **@BotFather**，发送 `/newbot` 创建机器人，复制 **Bot Token**。
+2. 搜索 **@userinfobot**，发送任意消息，复制你的 **Chat ID**。
+3. 在 `.env` 中填入：
+   ```bash
+   TG_BOT_TOKEN=123456789:ABCxxx
+   TG_CHAT_ID=123456789
+   ```
+
+### 启动机器人
+
+```bash
+cd scripts/seo
+source .venv/bin/activate
+python telegram_bot.py
+```
+
+保持这个窗口运行。然后在 Telegram 里对你的机器人发送 `/start`，会看到一个按钮，点击 **🚀 运行 SEO 分析** 即可触发完整流程。分析完成后，机器人会把结果直接发到 Telegram。
+
+> **注意**：机器人只响应配置中 `TG_CHAT_ID` 对应的用户，其他人发送命令会被拒绝。
