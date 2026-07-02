@@ -34,6 +34,12 @@ yarn-error.log*
 .env*
 !.env.example
 
+# SEO automation: cached OAuth tokens and generated artifacts
+scripts/seo/gsc_token.json
+scripts/seo/gsc_optimization_candidates.json
+scripts/seo/optimization_suggestions.json
+scripts/seo/optimization_suggestions_review.md
+
 # vercel
 .vercel
 

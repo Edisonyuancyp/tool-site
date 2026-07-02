@@ -10,6 +10,7 @@ import json
 import os
 import sys
 from pathlib import Path
+from datetime import datetime
 from typing import Any
 
 from dotenv import load_dotenv
@@ -37,8 +38,10 @@ def get_required_env(name: str) -> str:
 
 def build_prompt(candidates: list[dict[str, Any]]) -> str:
     """Compose the SEO analysis prompt in Chinese as requested."""
+    current_year = datetime.now().year
     data_block = json.dumps(candidates, ensure_ascii=False, indent=2)
     prompt = f"""作为 SEO 专家，分析以下在 Google 搜索结果中排名约 50 且点击率为 0 的页面。
+当前年份是 {current_year} 年，请使用 {current_year} 而不是其他年份。
 这些页面有展示次数但没有任何点击，说明标题（title）和描述（description）可能不够吸引用户。
 
 数据如下（JSON 格式）：

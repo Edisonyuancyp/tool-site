@@ -24,7 +24,9 @@ from dotenv import load_dotenv
 try:
     from googleapiclient.discovery import build
     from google.oauth2 import service_account
+    from google.oauth2.credentials import Credentials
     from google_auth_oauthlib.flow import InstalledAppFlow
+    from google.auth.transport.requests import Request
 except ImportError as exc:  # pragma: no cover
     print("Missing Google API dependencies. Run: pip install -r requirements.txt")
     raise exc
@@ -51,10 +53,20 @@ def get_required_env(name: str) -> str:
     return value
 
 
+def _is_service_account(credentials_path: str) -> bool:
+    """Return True if the JSON file contains service-account credentials."""
+    try:
+        data = json.loads(Path(credentials_path).read_text(encoding="utf-8"))
+    except Exception:
+        return False
+    return data.get("type") == "service_account"
+
+
 def authenticate_gsc_service(credentials_path: str) -> Any:
     """
     Authenticate to the Google Search Console API.
-    Supports OAuth 2.0 credentials downloaded from Google Cloud Console.
+    Supports service account keys and OAuth 2.0 desktop/client credentials.
+    OAuth tokens are cached so you only need to authorize once.
     """
     creds_path = Path(credentials_path)
     if not creds_path.exists():
@@ -64,19 +76,37 @@ def authenticate_gsc_service(credentials_path: str) -> Any:
         )
 
     SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
+    script_dir = Path(__file__).resolve().parent
+    token_path = script_dir / "gsc_token.json"
 
-    # If the file is a service account, use it directly.
-    try:
+    # Service account: no interactive authorization needed.
+    if _is_service_account(credentials_path):
         credentials = service_account.Credentials.from_service_account_file(
             credentials_path, scopes=SCOPES
         )
+        print("[auth] Using service account (no browser prompt).")
         return build("webmasters", "v3", credentials=credentials)
-    except ValueError:
-        pass
 
-    # Otherwise treat it as OAuth 2.0 desktop/client credentials.
+    # OAuth 2.0: reuse cached token if available.
+    if token_path.exists():
+        try:
+            credentials = Credentials.from_authorized_user_file(str(token_path), SCOPES)
+            if credentials and credentials.valid:
+                print("[auth] Reusing cached OAuth token.")
+                return build("webmasters", "v3", credentials=credentials)
+            if credentials and credentials.expired and credentials.refresh_token:
+                credentials.refresh(Request())
+                token_path.write_text(credentials.to_json(), encoding="utf-8")
+                print("[auth] Refreshed cached OAuth token.")
+                return build("webmasters", "v3", credentials=credentials)
+        except Exception as e:
+            print(f"[auth] Cached token invalid: {e}. Re-authorizing...")
+
+    # Otherwise run the interactive OAuth flow and save the token.
     flow = InstalledAppFlow.from_client_secrets_file(credentials_path, SCOPES)
     credentials = flow.run_local_server(port=0)
+    token_path.write_text(credentials.to_json(), encoding="utf-8")
+    print(f"[auth] Saved OAuth token to {token_path}. Next run will not prompt for authorization.")
     return build("webmasters", "v3", credentials=credentials)
 
 
