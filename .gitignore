@@ -50,3 +50,4 @@ next-env.d.ts
 # auto-fix backups from fix-broken-tools.mjs
 *.broken.tsx
 scripts/seo/gsc_credentials.json
+.venv/
