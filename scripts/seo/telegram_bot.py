@@ -4,8 +4,9 @@ telegram_bot.py
 Run a local Telegram bot that lets you trigger the SEO pipeline from Telegram.
 
 Commands:
-  /start     - Show the control panel with a button
-  /seo       - Run the SEO pipeline immediately
+  /start     - Show the control panel with buttons
+  /seo       - Run the SEO pipeline (fetch + analyze)
+  /apply     - Apply the latest AI suggestions to meta.json files
 
 The bot runs on your local machine. Keep it running to receive messages and
 respond to button clicks.
@@ -41,7 +42,15 @@ def get_required_env(name: str) -> str:
     return value
 
 
-def run_pipeline(bot: telebot.TeleBot, chat_id: int) -> None:
+def _send_chunks(bot: telebot.TeleBot, chat_id: int, text: str, header: str = "") -> None:
+    """Send long text in chunks respecting Telegram limits."""
+    chunks = [text[i : i + 3800] for i in range(0, len(text), 3800)]
+    for idx, chunk in enumerate(chunks, 1):
+        prefix = header if len(chunks) == 1 else f"{header}（{idx}/{len(chunks)}）\n\n"
+        bot.send_message(chat_id, f"{prefix}{chunk}")
+
+
+def run_pipeline(bot: telebot.TeleBot, chat_id: int, auto_apply: bool = False) -> None:
     """Run the SEO pipeline in a background thread and report progress."""
     script_dir = Path(__file__).resolve().parent
     pipeline_script = script_dir / "run_seo_pipeline.py"
@@ -78,14 +87,61 @@ def run_pipeline(bot: telebot.TeleBot, chat_id: int) -> None:
 
         if review_path.exists():
             review = review_path.read_text(encoding="utf-8")
-            # Telegram message limit is 4096 chars; split if needed
-            chunks = [review[i : i + 3800] for i in range(0, len(review), 3800)]
-            for idx, chunk in enumerate(chunks, 1):
-                header = f"📋 优化建议（{idx}/{len(chunks)}）\n\n" if len(chunks) > 1 else "📋 优化建议\n\n"
-                bot.send_message(chat_id, f"{header}{chunk}")
+            _send_chunks(bot, chat_id, review, "📋 优化建议")
+
+        # Offer one-click apply if not already auto-applied
+        if not auto_apply:
+            apply_markup = InlineKeyboardMarkup()
+            apply_markup.add(InlineKeyboardButton("✅ 一键应用建议", callback_data="apply_seo"))
+            apply_markup.add(InlineKeyboardButton("🚀 重新分析", callback_data="run_seo"))
+            bot.send_message(
+                chat_id,
+                "分析已生成。点击「一键应用建议」即可把第一个优化建议写入 meta.json，或直接重新分析。",
+                reply_markup=apply_markup,
+            )
+        else:
+            run_apply(bot, chat_id)
 
     except Exception as e:
         bot.send_message(chat_id, f"❌ 运行异常：{e}")
+
+
+def run_apply(bot: telebot.TeleBot, chat_id: int) -> None:
+    """Apply the latest AI suggestions to registry meta.json files."""
+    script_dir = Path(__file__).resolve().parent
+    apply_script = script_dir / "apply_seo_suggestions.py"
+
+    bot.send_message(chat_id, "📝 正在应用最新的 SEO 建议…")
+
+    try:
+        result = subprocess.run(
+            [sys.executable, str(apply_script), "--choice", "1"],
+            cwd=str(script_dir),
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+
+        output_text = result.stdout[-3800:] if result.stdout else ""
+        if result.returncode != 0:
+            error_text = result.stderr[-3800:] if result.stderr else "未知错误"
+            bot.send_message(
+                chat_id,
+                f"❌ 应用失败：\n```\n{error_text}\n```",
+                parse_mode="Markdown",
+            )
+            return
+
+        bot.send_message(chat_id, "✅ SEO 建议已应用！")
+        _send_chunks(bot, chat_id, output_text, "📁 应用结果")
+
+        bot.send_message(
+            chat_id,
+            "🚀 请重新部署网站后，新的标题和描述才会生效。",
+        )
+
+    except Exception as e:
+        bot.send_message(chat_id, f"❌ 应用异常：{e}")
 
 
 def main() -> int:
@@ -98,6 +154,8 @@ def main() -> int:
     def _markup() -> InlineKeyboardMarkup:
         markup = InlineKeyboardMarkup()
         markup.add(InlineKeyboardButton("🚀 运行 SEO 分析", callback_data="run_seo"))
+        markup.add(InlineKeyboardButton("✅ 运行并应用", callback_data="run_and_apply_seo"))
+        markup.add(InlineKeyboardButton("📝 应用最新建议", callback_data="apply_seo"))
         return markup
 
     @bot.message_handler(commands=["start"])
@@ -108,7 +166,9 @@ def main() -> int:
         bot.send_message(
             message.chat.id,
             "👋 GetFastCalc SEO 机器人\n\n"
-            "发送 /seo 或点击下方按钮，即可运行 SEO 优化流程。",
+            "- 🚀 运行 SEO 分析\n"
+            "- ✅ 运行并应用：分析 + 自动应用第一个建议\n"
+            "- 📝 应用最新建议：把已生成的建议写入 meta.json",
             reply_markup=_markup(),
         )
 
@@ -120,6 +180,14 @@ def main() -> int:
         thread = threading.Thread(target=run_pipeline, args=(bot, message.chat.id), daemon=True)
         thread.start()
 
+    @bot.message_handler(commands=["apply"])
+    def handle_apply(message):
+        if str(message.chat.id) != allowed_chat_id:
+            bot.reply_to(message, "⛔ 未经授权的访问。")
+            return
+        thread = threading.Thread(target=run_apply, args=(bot, message.chat.id), daemon=True)
+        thread.start()
+
     @bot.callback_query_handler(func=lambda call: call.data == "run_seo")
     def handle_run_seo_callback(call):
         if str(call.message.chat.id) != allowed_chat_id:
@@ -127,6 +195,24 @@ def main() -> int:
             return
         bot.answer_callback_query(call.id, "已开始运行，请稍候…")
         thread = threading.Thread(target=run_pipeline, args=(bot, call.message.chat.id), daemon=True)
+        thread.start()
+
+    @bot.callback_query_handler(func=lambda call: call.data == "run_and_apply_seo")
+    def handle_run_and_apply_callback(call):
+        if str(call.message.chat.id) != allowed_chat_id:
+            bot.answer_callback_query(call.id, "⛔ 未经授权的访问。")
+            return
+        bot.answer_callback_query(call.id, "已开始运行并应用，请稍候…")
+        thread = threading.Thread(target=run_pipeline, args=(bot, call.message.chat.id, True), daemon=True)
+        thread.start()
+
+    @bot.callback_query_handler(func=lambda call: call.data == "apply_seo")
+    def handle_apply_callback(call):
+        if str(call.message.chat.id) != allowed_chat_id:
+            bot.answer_callback_query(call.id, "⛔ 未经授权的访问。")
+            return
+        bot.answer_callback_query(call.id, "正在应用建议…")
+        thread = threading.Thread(target=run_apply, args=(bot, call.message.chat.id), daemon=True)
         thread.start()
 
     print("[telegram_bot] Bot is running. Press Ctrl+C to stop.")
