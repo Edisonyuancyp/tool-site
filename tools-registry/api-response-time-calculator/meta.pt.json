@@ -1,0 +1,51 @@
+{
+  "slug": "api-response-time-calculator",
+  "name": "Calculadora de Tempo de Resposta da API",
+  "tagline": "Calcule e analise os tempos de resposta da API.",
+  "description": "Esta ferramenta permite que desenvolvedores insiram os tempos de requisição e resposta da API para determinar os tempos médios, melhores e piores de resposta. É essencial para otimizar o desempenho da API e garantir uma experiência do usuário fluida.",
+  "metaTitle": "Tempo de Resposta da API – Análise de Desempenho | Ferramenta Online Gratuita",
+  "metaDescription": "Analise os tempos de resposta da sua API com esta calculadora gratuita. Resultados instantâneos, sem necessidade de cadastro, otimize o desempenho da sua API.",
+  "keywords": [
+    "tempo de resposta da api",
+    "análise de desempenho",
+    "desenvolvimento web",
+    "otimização de api",
+    "calculadora de tempo de resposta",
+    "calculadora de tempo de resposta da api ferramenta online gratuita",
+    "calculadora de tempo de resposta da api conversor navegador",
+    "calculadora de tempo de resposta da api ferramenta de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "calculadora de tempo de resposta da api",
+    "padrões de tempo de resposta da api",
+    "o que é tempo de resposta da api",
+    "melhores práticas de tempo de resposta da api",
+    "padrão da indústria de tempo de resposta da api",
+    "tempo limite de resposta da api",
+    "significado de tempo de resposta da api",
+    "métricas de tempo de resposta da api"
+  ],
+  "category": "Developer",
+  "icon": "📡",
+  "faqs": [
+    {
+      "question": "Quais dados eu preciso para esta calculadora?",
+      "answer": "Você precisa inserir o tempo gasto para suas requisições e respostas da API para obter resultados precisos."
+    },
+    {
+      "question": "Ela pode rastrear múltiplas APIs?",
+      "answer": "Sim, você pode analisar os tempos de resposta para múltiplas APIs inserindo os dados respectivos."
+    },
+    {
+      "question": "Esta ferramenta é útil para testes de desempenho?",
+      "answer": "Absolutamente, ela ajuda a identificar gargalos no desempenho da API."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

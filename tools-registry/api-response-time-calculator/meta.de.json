@@ -1,0 +1,51 @@
+{
+  "slug": "api-response-time-calculator",
+  "name": "API-Antwortzeit-Rechner",
+  "tagline": "Berechnen und analysieren Sie die API-Antwortzeiten.",
+  "description": "Dieses Tool ermöglicht Entwicklern, die Zeiten für API-Anfragen und -Antworten einzugeben, um die durchschnittlichen, besten und schlechtesten Antwortzeiten zu bestimmen. Es ist entscheidend für die Optimierung der API-Leistung und die Gewährleistung einer reibungslosen Benutzererfahrung.",
+  "metaTitle": "API-Antwortzeit – Leistungsanalyse | Kostenloses Online-Tool",
+  "metaDescription": "Analysieren Sie Ihre API-Antwortzeiten mit diesem kostenlosen Rechner. Sofortige Ergebnisse, keine Anmeldung erforderlich, optimieren Sie die Leistung Ihrer API.",
+  "keywords": [
+    "api antwortzeit",
+    "leistungsanalyse",
+    "webentwicklung",
+    "api optimierung",
+    "antwortzeit rechner",
+    "api antwortzeit rechner online tool kostenlos",
+    "api antwortzeit rechner konverter browser",
+    "api antwortzeit rechner ohne installation entwicklertool",
+    "kostenloses entwicklertool",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes entwicklertool",
+    "api antwortzeit rechner",
+    "api antwortzeit standards",
+    "was ist die api antwortzeit",
+    "beste praktiken für die api antwortzeit",
+    "api antwortzeit branchenstandard",
+    "api antwortzeit zeitüberschreitung",
+    "bedeutung der api antwortzeit",
+    "api antwortzeit kennzahlen"
+  ],
+  "category": "Developer",
+  "icon": "📡",
+  "faqs": [
+    {
+      "question": "Welche Daten benötige ich für diesen Rechner?",
+      "answer": "Sie müssen die Zeit eingeben, die für Ihre API-Anfragen und -Antworten benötigt wird, um genaue Ergebnisse zu erhalten."
+    },
+    {
+      "question": "Kann es mehrere APIs verfolgen?",
+      "answer": "Ja, Sie können die Antwortzeiten für mehrere APIs analysieren, indem Sie die entsprechenden Daten eingeben."
+    },
+    {
+      "question": "Ist dieses Tool hilfreich für Leistungstests?",
+      "answer": "Absolut, es hilft dabei, Engpässe in der API-Leistung zu identifizieren."
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

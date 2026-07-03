@@ -1,0 +1,51 @@
+{
+  "slug": "api-response-time-calculator",
+  "name": "API响应时间计算器",
+  "tagline": "计算和分析API响应时间。",
+  "description": "该工具允许开发者输入API请求和响应时间，以确定平均、最佳和最差响应时间。这对于优化API性能和确保顺畅的用户体验至关重要。",
+  "metaTitle": "API响应时间 – 性能分析 | 免费在线工具",
+  "metaDescription": "使用此免费计算器分析您的API响应时间。即时结果，无需注册，优化您的API性能。",
+  "keywords": [
+    "api响应时间",
+    "性能分析",
+    "网页开发",
+    "api优化",
+    "响应时间计算器",
+    "免费在线api响应时间计算器",
+    "api响应时间计算器转换器浏览器",
+    "无需安装的api响应时间计算器开发工具",
+    "免费开发者工具",
+    "在线工具",
+    "无需安装",
+    "基于浏览器的开发工具",
+    "api响应时间计算器",
+    "api响应时间标准",
+    "什么是api响应时间",
+    "api响应时间最佳实践",
+    "api响应时间行业标准",
+    "api响应超时",
+    "api响应时间含义",
+    "api响应时间指标"
+  ],
+  "category": "Developer",
+  "icon": "📡",
+  "faqs": [
+    {
+      "question": "我需要哪些数据来使用这个计算器？",
+      "answer": "您需要输入API请求和响应所花费的时间，以获得准确的结果。"
+    },
+    {
+      "question": "它可以跟踪多个API吗？",
+      "answer": "可以，您可以通过输入各自的数据来分析多个API的响应时间。"
+    },
+    {
+      "question": "这个工具对性能测试有帮助吗？",
+      "answer": "绝对有帮助，它有助于识别API性能中的瓶颈。"
+    }
+  ],
+  "relatedTools": [
+    "bmr-tdee-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-efficiency-calculator",
+  "name": "Calculadora de Eficiência de Ferramentas de Desenvolvimento",
+  "tagline": "Meça a eficácia das suas ferramentas de desenvolvimento.",
+  "description": "Esta calculadora ajuda desenvolvedores a avaliar a eficiência das ferramentas que utilizam, comparando o tempo gasto em tarefas antes e depois da implementação da ferramenta. Ideal para equipes que buscam otimizar seu fluxo de trabalho de desenvolvimento.",
+  "metaTitle": "Eficiência de Ferramentas de Desenvolvimento – Análise de Produtividade | Ferramenta Online Gratuita",
+  "metaDescription": "Avalie a eficácia das suas ferramentas de desenvolvimento com esta calculadora gratuita. Sem necessidade de cadastro, obtenha resultados instantâneos sobre a produtividade das ferramentas.",
+  "keywords": [
+    "eficiência de ferramentas de desenvolvimento",
+    "análise de produtividade",
+    "fluxo de trabalho de desenvolvimento",
+    "gestão do tempo",
+    "eficácia da ferramenta",
+    "calculadora de eficiência de ferramentas de desenvolvimento ferramenta online gratuita",
+    "calculadora de eficiência de ferramentas de desenvolvimento conversor navegador",
+    "calculadora de eficiência de ferramentas de desenvolvimento sem instalação",
+    "ferramenta de desenvolvedor gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "desempenho da ferramenta de desenvolvimento",
+    "ferramentas de eficiência para desenvolvedores",
+    "modelo de análise de produtividade",
+    "exemplo de análise de produtividade",
+    "análise de produtividade na construção",
+    "métodos de análise de produtividade",
+    "software de análise de produtividade",
+    "significado de análise de produtividade"
+  ],
+  "category": "Developer",
+  "icon": "⚙️",
+  "faqs": [
+    {
+      "question": "Como eu uso esta calculadora?",
+      "answer": "Basta inserir o tempo gasto em tarefas antes e depois de usar a ferramenta para ver os ganhos de eficiência."
+    },
+    {
+      "question": "Há um limite no número de ferramentas que posso avaliar?",
+      "answer": "Não, você pode avaliar quantas ferramentas precisar para otimizar seu fluxo de trabalho."
+    },
+    {
+      "question": "Isso pode ajudar nas decisões da equipe?",
+      "answer": "Sim, esta calculadora pode fornecer insights valiosos para discussões em equipe sobre a seleção de ferramentas."
+    }
+  ],
+  "relatedTools": [
+    "age-calculator",
+    "bmi-calculator"
+  ],
+  "variants": []
+}

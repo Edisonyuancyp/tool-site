@@ -1,0 +1,51 @@
+{
+  "slug": "css-grid-calculator",
+  "name": "CSS Grid Layout Rechner",
+  "tagline": "Gestalten Sie responsive Raster mühelos.",
+  "description": "Dieser Rechner hilft Entwicklern, CSS-Rasterlayouts zu entwerfen und zu visualisieren, indem sie Zeilen, Spalten und Abstände eingeben. Er ist perfekt für Front-End-Entwickler, die ihren CSS-Rastererstellungsprozess optimieren möchten.",
+  "metaTitle": "CSS Grid Layout – Responsives Design Tool | Kostenloses Online-Tool",
+  "metaDescription": "Gestalten Sie CSS-Raster mit Leichtigkeit mit diesem kostenlosen Rechner. Keine Anmeldung erforderlich, visualisieren Sie sofort Ihre Rasterlayouts.",
+  "keywords": [
+    "css grid rechner",
+    "responsives design",
+    "frontend entwicklung",
+    "rasterlayout tool",
+    "css layout visualisierer",
+    "css grid layout rechner online tool kostenlos",
+    "css grid layout rechner konverter browser",
+    "css grid layout rechner ohne installation entwickler tool",
+    "kostenloses entwickler tool",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes entwickler tool",
+    "css grid layout rechner",
+    "css grid calc",
+    "css grid calc fr",
+    "css grid spalten berechnen",
+    "definition responsives design",
+    "modus responsives design",
+    "responsives design figma",
+    "prinzipien responsives design"
+  ],
+  "category": "Developer",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "Welche Eingaben benötige ich für diesen Rechner?",
+      "answer": "Sie müssen die Anzahl der Zeilen, Spalten und eventuell Abstände zwischen ihnen eingeben, um Ihr Raster zu visualisieren."
+    },
+    {
+      "question": "Ist dieses Tool für Anfänger hilfreich?",
+      "answer": "Ja, es vereinfacht den Prozess der Erstellung von CSS-Rastern für Benutzer aller Fähigkeitsstufen."
+    },
+    {
+      "question": "Kann ich meine Rasterdesigns exportieren?",
+      "answer": "Derzeit unterstützt dieses Tool keinen Export von Designs, aber Sie können die Ergebnisse manuell notieren."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

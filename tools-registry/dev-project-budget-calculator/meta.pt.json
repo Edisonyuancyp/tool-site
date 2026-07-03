@@ -1,0 +1,51 @@
+{
+  "slug": "dev-project-budget-calculator",
+  "name": "Calculadora de Orçamento de Projetos de Desenvolvimento",
+  "tagline": "Estime os custos do seu projeto com precisão.",
+  "description": "Esta calculadora ajuda desenvolvedores a estimar o orçamento de seus projetos de software ao inserir vários fatores de custo, como mão de obra, ferramentas e recursos. Perfeita para freelancers e agências apresentarem orçamentos precisos para os clientes.",
+  "metaTitle": "Orçamento de Projetos de Desenvolvimento – Estimativa de Custos | Ferramenta Online Gratuita",
+  "metaDescription": "Estime o orçamento do seu projeto de software com esta ferramenta gratuita. Sem necessidade de cadastro, obtenha estimativas de custos rápidas e precisas.",
+  "keywords": [
+    "orçamento de projeto",
+    "estimativa de custos",
+    "desenvolvimento de software",
+    "ferramentas para freelancers",
+    "calculadora de orçamento para agências",
+    "calculadora de orçamento de projeto de desenvolvimento ferramenta online gratuita",
+    "calculadora de orçamento de projeto de desenvolvimento conversor navegador",
+    "calculadora de orçamento de projeto de desenvolvimento sem instalação ferramenta",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "modelo de orçamento de projeto",
+    "modelo de orçamento de projeto excel",
+    "modelo de orçamento de projeto google sheets",
+    "exemplo de orçamento de projeto",
+    "rastreador de orçamento de projeto",
+    "gestão de orçamento de projeto",
+    "modelo de rastreador de orçamento de projeto",
+    "métodos de estimativa de custos"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Quais fatores posso incluir no orçamento?",
+      "answer": "Você pode inserir custos relacionados à mão de obra, ferramentas e quaisquer outros recursos necessários para o seu projeto."
+    },
+    {
+      "question": "Esta ferramenta é adequada para grandes projetos?",
+      "answer": "Sim, ela pode lidar com orçamentos de projetos de software de pequeno a grande porte."
+    },
+    {
+      "question": "Posso salvar minhas estimativas de orçamento?",
+      "answer": "Atualmente, esta ferramenta não suporta o salvamento de estimativas, mas você pode anotá-las manualmente."
+    }
+  ],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "car-lease-calculator"
+  ],
+  "variants": []
+}

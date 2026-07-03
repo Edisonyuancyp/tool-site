@@ -1,0 +1,51 @@
+{
+  "slug": "dev-project-budget-calculator",
+  "name": "Dev Projektbudget Rechner",
+  "tagline": "Schätzen Sie Ihre Projektkosten genau.",
+  "description": "Dieser Rechner hilft Entwicklern, das Budget für ihre Softwareprojekte zu schätzen, indem verschiedene Kostenfaktoren wie Arbeitskraft, Werkzeuge und Ressourcen eingegeben werden. Perfekt für Freiberufler und Agenturen, um genaue Angebote an Kunden zu präsentieren.",
+  "metaTitle": "Dev Projektbudget – Kostenabschätzung | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie Ihr Softwareprojektbudget mit diesem kostenlosen Tool. Keine Anmeldung erforderlich, erhalten Sie schnelle und genaue Kostenschätzungen.",
+  "keywords": [
+    "Projektbudget",
+    "Kostenabschätzung",
+    "Softwareentwicklung",
+    "Freelancer-Tools",
+    "Agentur Budgetrechner",
+    "dev projektbudget rechner online tool kostenlos",
+    "dev projektbudget rechner konverter browser",
+    "dev projektbudget rechner ohne installation",
+    "kostenloses Entwickler-Tool",
+    "online Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Projektbudget Vorlage",
+    "Projektbudget Vorlage Excel",
+    "Projektbudget Vorlage Google Sheets",
+    "Projektbudget Beispiel",
+    "Projektbudget Tracker",
+    "Projektbudget Verwaltung",
+    "Projektbudget Tracker Vorlage",
+    "Kostenabschätzungsmethoden"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Welche Faktoren kann ich im Budget einbeziehen?",
+      "answer": "Sie können Kosten für Arbeitskraft, Werkzeuge und alle anderen Ressourcen, die für Ihr Projekt benötigt werden, eingeben."
+    },
+    {
+      "question": "Ist dieses Tool für große Projekte geeignet?",
+      "answer": "Ja, es kann Budgets für kleine bis große Softwareprojekte verwalten."
+    },
+    {
+      "question": "Kann ich meine Kostenschätzungen speichern?",
+      "answer": "Derzeit unterstützt dieses Tool das Speichern von Schätzungen nicht, aber Sie können sie manuell notieren."
+    }
+  ],
+  "relatedTools": [
+    "debt-repayment-calculator",
+    "car-lease-calculator"
+  ],
+  "variants": []
+}

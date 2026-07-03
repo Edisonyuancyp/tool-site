@@ -1,0 +1,51 @@
+{
+  "slug": "css-grid-calculator",
+  "name": "Calculadora de Layout em CSS Grid",
+  "tagline": "Crie grids responsivos sem esforço.",
+  "description": "Esta calculadora ajuda desenvolvedores a projetar e visualizar layouts em CSS grid ao inserir linhas, colunas e espaçamentos. É perfeita para desenvolvedores front-end que desejam otimizar seu processo de criação de grids em CSS.",
+  "metaTitle": "CSS Grid Layout – Ferramenta de Design Responsivo | Ferramenta Online Gratuita",
+  "metaDescription": "Crie grids em CSS com facilidade usando esta calculadora gratuita. Sem necessidade de cadastro, visualize instantaneamente seus layouts de grid.",
+  "keywords": [
+    "calculadora css grid",
+    "design responsivo",
+    "desenvolvimento front-end",
+    "ferramenta de layout grid",
+    "visualizador de layout css",
+    "calculadora de layout css grid ferramenta online gratuita",
+    "calculadora de layout css grid conversor navegador",
+    "calculadora de layout css grid ferramenta de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "calculadora de layout css grid",
+    "calc css grid",
+    "calc css grid fr",
+    "calcular colunas css grid",
+    "definição de design responsivo",
+    "modo de design responsivo",
+    "design responsivo figma",
+    "princípios do design responsivo"
+  ],
+  "category": "Developer",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "Quais entradas eu preciso para esta calculadora?",
+      "answer": "Você precisa inserir o número de linhas, colunas e quaisquer espaçamentos entre elas para visualizar seu grid."
+    },
+    {
+      "question": "Esta ferramenta é útil para iniciantes?",
+      "answer": "Sim, ela simplifica o processo de criação de grids em CSS para usuários de todos os níveis de habilidade."
+    },
+    {
+      "question": "Posso exportar meus designs de grid?",
+      "answer": "Atualmente, esta ferramenta não suporta a exportação de designs, mas você pode anotar manualmente os resultados."
+    }
+  ],
+  "relatedTools": [
+    "color-palette-lab",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

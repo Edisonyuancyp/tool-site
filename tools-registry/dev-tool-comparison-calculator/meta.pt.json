@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-comparison-calculator",
+  "name": "Calculadora de Comparação de Ferramentas de Desenvolvimento",
+  "tagline": "Compare várias ferramentas de desenvolvimento lado a lado.",
+  "description": "Esta ferramenta permite que desenvolvedores comparem recursos, preços e métricas de desempenho de várias ferramentas de desenvolvimento em um só lugar. Ideal para equipes que buscam escolher a ferramenta certa para suas necessidades.",
+  "metaTitle": "Comparação de Ferramentas de Desenvolvimento – Análise de Recursos | Ferramenta Online Gratuita",
+  "metaDescription": "Compare suas ferramentas de desenvolvimento com esta calculadora gratuita. Sem necessidade de cadastro, tome decisões informadas sobre a seleção de ferramentas.",
+  "keywords": [
+    "comparação de ferramentas de desenvolvimento",
+    "análise de recursos",
+    "seleção de ferramentas",
+    "ferramentas de desenvolvimento de software",
+    "métricas de desempenho",
+    "calculadora de comparação de ferramentas de desenvolvimento ferramenta online gratuita",
+    "calculadora de comparação de ferramentas de desenvolvimento conversor navegador",
+    "calculadora de comparação de ferramentas de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "comparação de ferramentas de desenvolvimento com IA",
+    "ferramenta para comparar arquivos",
+    "análise de recursos psicologia",
+    "análise de recursos teoria",
+    "análise de recursos aprendizado de máquina",
+    "análise de recursos em visão computacional",
+    "modelo de análise de recursos",
+    "sistema de análise de recursos"
+  ],
+  "category": "Developer",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Como eu comparo diferentes ferramentas?",
+      "answer": "Insira os recursos e métricas de cada ferramenta que deseja comparar, e a ferramenta fornecerá uma análise lado a lado."
+    },
+    {
+      "question": "Isso é útil para iniciantes?",
+      "answer": "Sim, ajuda os iniciantes a entender as diferenças entre várias ferramentas."
+    },
+    {
+      "question": "Posso comparar ferramentas de diferentes categorias?",
+      "answer": "Sim, você pode comparar ferramentas de várias categorias, embora o foco possa ser mais benéfico."
+    }
+  ],
+  "relatedTools": [
+    "carbon-footprint-travel-calculator",
+    "daily-goal-tracker"
+  ],
+  "variants": []
+}
