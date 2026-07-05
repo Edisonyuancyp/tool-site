@@ -91,5 +91,21 @@
       "heading": "Common mistakes when using canonical URLs",
       "body": "One common mistake is failing to set canonical tags on every duplicate page. If you have multiple pages with similar content, each should have a canonical tag pointing to the preferred version. Neglecting this can result in search engines not understanding which page to index, leading to dilution of page authority.\n\nAnother mistake is incorrectly setting the canonical URL to a non-existent page or an entirely different page. Ensure that the URL specified in the canonical tag is active and relevant. Regularly using a canonical URL checker can help catch these issues early, allowing you to maintain a clean and efficient SEO strategy. Always double-check your canonical tags after site updates or content changes to avoid new duplication issues."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Canonical URL Checker Online Free – Free Online Canonical URL Checker",
+      "metaDescription": "Free online Canonical URL Checker — instant results, no signup. Instantly verify your canonical URLs to enhance SEO. Free, no signup required, a",
+      "h1": "Canonical URL Checker – Online Free",
+      "description": "Free online Canonical URL Checker — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Canonical URL Checker How to Use – Free Online Canonical URL Checker",
+      "metaDescription": "Step-by-step guide to getting the most from Canonical URL Checker. Instantly verify your canonical URLs to enhance SEO. Free, no signup required, a",
+      "h1": "Canonical URL Checker – How to Use",
+      "description": "Step-by-step guide to getting the most from Canonical URL Checker."
+    }
   ]
 }

@@ -91,5 +91,21 @@
       "heading": "Practical Tips for Using Schema Markup",
       "body": "When implementing schema markup, it’s important to follow best practices to maximize its effectiveness. First, ensure that you choose the correct schema type that matches your content. Mislabeling your content can confuse search engines and diminish the benefits of structured data. Additionally, avoid duplicating schema markup across multiple pages; each page should have unique markup relevant to its specific content.\n\nAnother common mistake is neglecting to keep your schema markup up to date. If you change any details about your products or services, update the corresponding structured data as well. Lastly, regularly test your markup with tools like Google’s Structured Data Testing Tool to catch any errors early. This proactive approach will help maintain your website's SEO performance and improve your visibility in search results."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Schema Markup Generator Online Free – Free Online Schema Markup Generator",
+      "metaDescription": "Free online Schema Markup Generator — instant results, no signup. Instantly generate schema markup for better SEO. Free, no signup, and immediate ",
+      "h1": "Schema Markup Generator – Online Free",
+      "description": "Free online Schema Markup Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Schema Markup Generator How to Use – Free Online Schema Markup Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Schema Markup Generator. Instantly generate schema markup for better SEO. Free, no signup, and immediate ",
+      "h1": "Schema Markup Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Schema Markup Generator."
+    }
   ]
 }

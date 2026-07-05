@@ -91,5 +91,21 @@
       "heading": "Common Mistakes in Writing Meta Descriptions",
       "body": "One common mistake is writing meta descriptions that are too long or too short. Descriptions longer than 160 characters may get cut off in search results, while those under 50 characters might not provide enough information to entice users. Always aim for the sweet spot to ensure your description is fully visible.\n\nAnother frequent error is neglecting to include relevant keywords. While it's essential to write for users first, incorporating keywords can help align your description with search intent. Additionally, avoid duplicating meta descriptions across multiple pages, as this can confuse search engines and dilute your site's effectiveness. By steering clear of these common pitfalls, you can create more engaging and effective meta descriptions."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Meta Description Generator Online Free – Free Online Meta Description Generator",
+      "metaDescription": "Free online Meta Description Generator — instant results, no signup. Generate effective meta descriptions to boost your SEO. Free, no signup, and ins",
+      "h1": "Meta Description Generator – Online Free",
+      "description": "Free online Meta Description Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Meta Description Generator How to Use – Free Online Meta Description Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Meta Description Generator. Generate effective meta descriptions to boost your SEO. Free, no signup, and ins",
+      "h1": "Meta Description Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Meta Description Generator."
+    }
   ]
 }

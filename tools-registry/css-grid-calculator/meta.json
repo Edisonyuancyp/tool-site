@@ -82,5 +82,28 @@
       "heading": "Common Mistakes When Using a CSS Grid Calculator",
       "body": "When using a CSS grid calculator, one common mistake is not adjusting the row and column sizes appropriately. It's crucial to understand that different screen sizes may require different grid configurations. Always test your grid design on various devices to ensure it remains responsive and visually appealing.\n\nAnother mistake is overlooking the importance of gaps. Gaps can significantly affect the overall look of your layout, and failing to set them correctly can make your grid appear cramped or too spread out. Lastly, beginners may forget to consider how content will fit within each grid cell. Always visualize how text and images will be displayed in your grid to ensure a balanced and aesthetically pleasing design."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "CSS Grid Layout Calculator Online Free – Free Online CSS Grid Layout Calculator",
+      "metaDescription": "Free online CSS Grid Layout Calculator — no install required. Design CSS grids with ease using this free calculator. No signup needed, instant",
+      "h1": "CSS Grid Layout Calculator – Online Free",
+      "description": "Free online CSS Grid Layout Calculator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "CSS Grid Layout Calculator JavaScript – Free Online CSS Grid Layout Calculator",
+      "metaDescription": "CSS Grid Layout Calculator reference for JavaScript developers. Design CSS grids with ease using this free calculator. No signup needed, instant",
+      "h1": "CSS Grid Layout Calculator – JavaScript",
+      "description": "CSS Grid Layout Calculator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "CSS Grid Layout Calculator Python – Free Online CSS Grid Layout Calculator",
+      "metaDescription": "CSS Grid Layout Calculator reference for Python developers. Design CSS grids with ease using this free calculator. No signup needed, instant",
+      "h1": "CSS Grid Layout Calculator – Python",
+      "description": "CSS Grid Layout Calculator reference for Python developers."
+    }
   ]
 }

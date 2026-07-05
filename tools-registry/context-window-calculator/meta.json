@@ -91,5 +91,21 @@
       "heading": "Practical tips and common mistakes",
       "body": "When using the context window calculator, it's essential to keep a few practical tips in mind. First, always test different context sizes to see what works best for your specific application. While the calculator provides a good starting point, the effectiveness of different context sizes can vary based on the complexity and nature of your prompts. Experimentation can lead to better results.\n\nAdditionally, a common mistake is to underestimate the importance of prompt clarity. Even with an optimal context window size, if your prompts are vague or poorly structured, the AI may still generate inadequate responses. Always strive to be clear and concise in your prompts, ensuring that you provide enough information without overwhelming the model with unnecessary details."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Context Window Calculator Online Free – Free Online Context Window Calculator",
+      "metaDescription": "Free online Context Window Calculator — instant results, no signup. Find the best context window size for your AI prompts for free. Instant results ",
+      "h1": "Context Window Calculator – Online Free",
+      "description": "Free online Context Window Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Context Window Calculator How to Use – Free Online Context Window Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Context Window Calculator. Find the best context window size for your AI prompts for free. Instant results ",
+      "h1": "Context Window Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Context Window Calculator."
+    }
   ]
 }

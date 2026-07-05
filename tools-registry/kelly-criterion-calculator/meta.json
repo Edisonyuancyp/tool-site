@@ -58,5 +58,21 @@
       "heading": "Avoiding Common Mistakes with the Kelly Criterion",
       "body": "One common mistake is overestimating your win probability. If you believe you have a 60% chance of winning but only actually have a 50% chance, you risk losing a lot more than expected. Always be conservative with your probability assessments. Another mistake is ignoring bankroll fluctuations. Your optimal bet size changes as your bankroll grows or shrinks. If you start with $1,000 and grow to $1,500, your bet size should adjust accordingly. \n\nAlso, many users fail to recognize the significance of the win/loss ratio. A high win probability doesn’t matter if your potential losses are much greater than your potential gains. Lastly, consider using a partial Kelly approach, like Half Kelly, which means betting only half of the recommended amount to reduce volatility while still growing your bankroll effectively."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Kelly Criterion Calculator Online Free – Free Online Kelly Criterion Calculator",
+      "metaDescription": "Free online Kelly Criterion Calculator — instant results, no signup. Free Kelly Criterion calculator. Enter win rate and payoff ratio to find the opt",
+      "h1": "Kelly Criterion Calculator – Online Free",
+      "description": "Free online Kelly Criterion Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Kelly Criterion Calculator How to Use – Free Online Kelly Criterion Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Kelly Criterion Calculator. Free Kelly Criterion calculator. Enter win rate and payoff ratio to find the opt",
+      "h1": "Kelly Criterion Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Kelly Criterion Calculator."
+    }
   ]
 }

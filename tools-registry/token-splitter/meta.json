@@ -88,5 +88,21 @@
       "heading": "Tips for Effective Token Management",
       "body": "When using the Token Splitter, there are a few practical tips to keep in mind. First, always check your token count after making edits to your prompts. This will help you understand how changes affect overall token usage. Secondly, aim for clarity and brevity in your prompts. Avoid using complex phrases that may inflate your token count unnecessarily.\n\nCommon mistakes include overlooking punctuation and special characters, which can also count as tokens. Additionally, some users may forget to consider the cumulative effect of multiple prompts in a single API call. By being mindful of these factors and regularly using the Token Splitter, you can enhance your prompt management and ensure optimal token usage across AI models."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Token Splitter Online Free – Free Online Token Splitter",
+      "metaDescription": "Free online Token Splitter — instant results, no signup. Split your AI prompts into tokens for free. Instant results with no signup neede",
+      "h1": "Token Splitter – Online Free",
+      "description": "Free online Token Splitter — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Token Splitter How to Use – Free Online Token Splitter",
+      "metaDescription": "Step-by-step guide to getting the most from Token Splitter. Split your AI prompts into tokens for free. Instant results with no signup neede",
+      "h1": "Token Splitter – How to Use",
+      "description": "Step-by-step guide to getting the most from Token Splitter."
+    }
   ]
 }

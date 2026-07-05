@@ -91,5 +91,21 @@
       "heading": "Practical Tips and Common Mistakes",
       "body": "When using the token splitter tool, it's essential to keep a few practical tips in mind. First, ensure that the text you input is free of unnecessary characters or formatting issues, as these can affect the tokenization process. Clean text will yield better results and allow for more accurate processing in AI applications.\n\nAnother common mistake is exceeding the character limit of the tool. While the token splitter can handle substantial text, it's advisable to check for any specified limits to avoid incomplete tokenization. If you have a lengthy document, consider breaking it into smaller sections before processing. This approach will help maintain the quality of the output and ensure that each token chunk is meaningful and relevant to your needs."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Token Splitter Tool Online Free – Free Online Token Splitter Tool",
+      "metaDescription": "Free online Token Splitter Tool — instant results, no signup. Split your text into token-sized chunks for free. No signup needed, get instant ",
+      "h1": "Token Splitter Tool – Online Free",
+      "description": "Free online Token Splitter Tool — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Token Splitter Tool How to Use – Free Online Token Splitter Tool",
+      "metaDescription": "Step-by-step guide to getting the most from Token Splitter Tool. Split your text into token-sized chunks for free. No signup needed, get instant ",
+      "h1": "Token Splitter Tool – How to Use",
+      "description": "Step-by-step guide to getting the most from Token Splitter Tool."
+    }
   ]
 }

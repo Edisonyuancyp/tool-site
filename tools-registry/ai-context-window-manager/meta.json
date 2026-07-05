@@ -91,5 +91,21 @@
       "heading": "Practical tips for context window management",
       "body": "When managing your context window, it is essential to prioritize the most relevant information in your prompts. Avoid adding unnecessary details that do not contribute to the task at hand, as this can lead to wasted tokens and reduced effectiveness. Always aim for clarity and conciseness to maximize the potential of your AI model.\nCommon mistakes include exceeding the context window limit, which can result in truncation of the input, leading to incomplete responses. Additionally, neglecting to track the number of tokens in your prompts can cause confusion and hinder performance. Utilizing tools like the AI Context Window Manager can help you keep track of your token usage and ensure that you are optimizing your interactions with the AI model."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "AI Context Window Manager Online Free – Free Online AI Context Window Manager",
+      "metaDescription": "Free online AI Context Window Manager — instant results, no signup. Manage your AI context windows with this free tool. Instant results, no signup r",
+      "h1": "AI Context Window Manager – Online Free",
+      "description": "Free online AI Context Window Manager — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "AI Context Window Manager How to Use – Free Online AI Context Window Manager",
+      "metaDescription": "Step-by-step guide to getting the most from AI Context Window Manager. Manage your AI context windows with this free tool. Instant results, no signup r",
+      "h1": "AI Context Window Manager – How to Use",
+      "description": "Step-by-step guide to getting the most from AI Context Window Manager."
+    }
   ]
 }

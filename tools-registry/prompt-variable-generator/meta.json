@@ -91,5 +91,21 @@
       "heading": "Practical tips for using prompt variables",
       "body": "When using a prompt variable generator, it's essential to follow best practices to avoid common pitfalls. First, ensure that your variables are clearly defined and consistently named throughout your prompts. This helps maintain clarity and prevents confusion when integrating them into your AI applications. Additionally, consider the context in which the variables will be used. Make sure they are relevant and appropriately tailored to the target audience.\n\nAnother common mistake is overcomplicating prompts with too many variables. While it might seem beneficial to include various dynamic elements, this can lead to confusion and less coherent responses. Focus on including only the most relevant variables to keep your prompts clear and effective. Lastly, always test your prompts thoroughly with different variable inputs to ensure they function correctly and produce the desired results."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Variable Generator Online Free – Free Online Prompt Variable Generator",
+      "metaDescription": "Free online Prompt Variable Generator — instant results, no signup. Create dynamic prompt variables for free and improve your AI interactions. Insta",
+      "h1": "Prompt Variable Generator – Online Free",
+      "description": "Free online Prompt Variable Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Variable Generator How to Use – Free Online Prompt Variable Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Variable Generator. Create dynamic prompt variables for free and improve your AI interactions. Insta",
+      "h1": "Prompt Variable Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Variable Generator."
+    }
   ]
 }

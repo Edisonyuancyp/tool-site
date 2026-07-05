@@ -90,5 +90,21 @@
       "heading": "Practical tips to optimize prompt costs",
       "body": "When using a prompt cost calculator, there are several practical tips to keep in mind. Firstly, always be aware of the token limits for each AI model you are using, as exceeding these could lead to additional charges or rejected prompts. Additionally, try to streamline your prompts to reduce token usage without sacrificing quality. This can be achieved by eliminating unnecessary words, using simpler language, or focusing directly on the key points you want the AI to address.\n\nAnother common mistake is neglecting to factor in variations in token pricing between different AI models. Always compare costs across models to ensure you’re choosing the most cost-effective solution for your needs. Lastly, regularly review your usage patterns and refine your prompts based on the insights you gather from your calculations to continuously optimize your expenses."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Cost Calculator Online Free – Free Online Prompt Cost Calculator",
+      "metaDescription": "Free online Prompt Cost Calculator — instant results, no signup. Calculate AI prompt costs instantly for free. Enter prompt details to see costs ",
+      "h1": "Prompt Cost Calculator – Online Free",
+      "description": "Free online Prompt Cost Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Cost Calculator How to Use – Free Online Prompt Cost Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Cost Calculator. Calculate AI prompt costs instantly for free. Enter prompt details to see costs ",
+      "h1": "Prompt Cost Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Cost Calculator."
+    }
   ]
 }
