@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-counter",
+  "name": "Contador de Tokens de Prompt",
+  "tagline": "Conte tokens em seus prompts facilmente",
+  "description": "Determine rapidamente o número de tokens em seus prompts de IA para vários modelos. Esta ferramenta é projetada para engenheiros de prompt e criadores de conteúdo que buscam otimizar suas entradas.",
+  "metaTitle": "Contador de Tokens de Prompt – Ferramenta Online Gratuita",
+  "metaDescription": "Conte tokens em seus prompts de IA gratuitamente, sem necessidade de cadastro, obtenha resultados instantâneos.",
+  "keywords": [
+    "contador de tokens de prompt",
+    "ferramenta de contagem de tokens",
+    "ferramentas de prompt de IA",
+    "engenharia de prompt",
+    "contador de tokens de prompt claude",
+    "contador de tokens de prompt online",
+    "contador de tokens de prompt gemini",
+    "contagem de tokens de prompt",
+    "contagem de tokens de prompt excede o limite de",
+    "contagem de tokens de prompt excede o limite de 64000",
+    "contagem de tokens de prompt gemini",
+    "significado de confirmação de prompt",
+    "significado de código de prompt",
+    "número de contato de prompt",
+    "significado de prompt por",
+    "ferramenta de contagem de moedas",
+    "ferramenta de contagem de tokens gemini",
+    "ferramenta de contador de tokens llm",
+    "ferramenta de contagem de tokens openai",
+    "ferramenta de contador de tokens claude"
+  ],
+  "category": "AI",
+  "icon": "🧮",
+  "faqs": [
+    {
+      "question": "Como esta ferramenta conta os tokens?",
+      "answer": "Ela utiliza as regras de tokenização de vários modelos de IA para calcular a contagem de tokens."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, a ferramenta é completamente gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso usá-la para diferentes modelos?",
+      "answer": "Absolutamente, ela suporta múltiplos modelos de IA para contagens de tokens precisas."
+    }
+  ],
+  "relatedTools": [
+    "token-splitter",
+    "prompt-optimizer"
+  ],
+  "variants": []
+}

@@ -18,27 +18,9 @@
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
-    "title": "Claude Web - why no token counter? : r/ClaudeAI",
-    "snippet": "Hi. It was probably asked before but I can’t find one via search. Why does Claude Web have no token counter per chat? Alexcodes.app does have that ...",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ncod1b/claude_web_why_no_token_counter/",
-    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
-  },
-  {
     "title": "Where's the token counter? : r/ClaudeAI",
     "snippet": "Let's get this thing back up, bring back the token counter. I really liked it. Who else misses it?",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1msdih7/cade_o_contador_de_tokens/?tl=en",
-    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
-  },
-  {
-    "title": "Counting prompt tokens locally? : r/LocalLLaMA",
-    "snippet": "I know someone created a tool to count tokens in prompt in hugging face - but I can't find the link.But maybe there is some short script or anything which ...",
-    "link": "https://www.reddit.com/r/LocalLLaMA/comments/132aepv/counting_prompt_tokens_locally/",
-    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
-  },
-  {
-    "title": "Keybinding prompt tool : r/ChatGPT",
-    "snippet": "Keybinding prompt tool. Serious replies only :closed-ai: So I paid a ... Who left the prompt in? r/ChatGPT - So uhh.. Who left the ...",
-    "link": "https://www.reddit.com/r/ChatGPT/comments/12h02np/keybinding_prompt_tool/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
@@ -48,9 +30,15 @@
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
-    "title": "Claude token counter gone ? : r/ClaudeAI",
-    "snippet": "35 votes, 18 comments. Is anyone else's Claude code token counter gone? When I enter commands into Claude code the token counter next to ...",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ms52k0/claude_token_counter_gone/",
+    "title": "Claude Web - why no token counter? : r/ClaudeAI",
+    "snippet": "Hi. It was probably asked before but I can’t find one via search. Why does Claude Web have no token counter per chat? Alexcodes.app does have that ...",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ncod1b/claude_web_why_no_token_counter/",
+    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
+  },
+  {
+    "title": "Keybinding prompt tool : r/ChatGPT",
+    "snippet": "Keybinding prompt tool. Serious replies only :closed-ai: So I paid a ... Who left the prompt in? r/ChatGPT - So uhh.. Who left the ...",
+    "link": "https://www.reddit.com/r/ChatGPT/comments/12h02np/keybinding_prompt_tool/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
@@ -60,8 +48,20 @@
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
+    "title": "Token counter for LLAMA3? : r/LocalLLaMA",
+    "snippet": "Hi, is there a tool to count the number of tokens in a given text based on the (HUGE) LLAMA3 tokenizer? This can be quite useful if integrated as an additional ...",
+    "link": "https://www.reddit.com/r/LocalLLaMA/comments/1cbdxqh/token_counter_for_llama3/",
+    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
+  },
+  {
+    "title": "Claude token counter gone ? : r/ClaudeAI",
+    "snippet": "35 votes, 18 comments. Is anyone else's Claude code token counter gone? When I enter commands into Claude code the token counter next to ...",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1ms52k0/claude_token_counter_gone/",
+    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
+  },
+  {
     "title": "Suggest a prompt optimizer/improver tool",
-    "snippet": "Built a free AI prompt optimizer tool that helps write better prompts. 30. 25. Made a prompt management tool for myself · r/PromptEngineering.",
+    "snippet": "Suggest a prompt optimizer/improver tool. Requesting Assistance. I wrote quite good and working prompt for Llama 3.3 70B. This prompt extracts ...",
     "link": "https://www.reddit.com/r/PromptEngineering/comments/1ib7loc/suggest_a_prompt_optimizerimprover_tool/",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
@@ -78,27 +78,21 @@
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
+    "title": "A Prompt Optimizer : r/PromptEngineering",
+    "snippet": "I made a free prompt optimizer - feedback welcome. Built this after getting tired of rewriting prompts 5 times before getting decent output.",
+    "link": "https://www.reddit.com/r/PromptEngineering/comments/1ptwr40/a_prompt_optimizer/",
+    "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
+  },
+  {
     "title": "What prompt optimizer do you use? : r/PromptEngineering",
     "snippet": "Anthropic’s prompt development tool is one. What other prompt optimizer platforms do the professionals amongst us use?",
     "link": "https://www.reddit.com/r/PromptEngineering/comments/1n65ybx/what_prompt_optimizer_do_you_use/",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "Context Window Optimization: Why Token Budget Is Your ...",
-    "snippet": "It adds the token tracking to every message turn so I know where the context window is at. Wish ChatGPT and Gemini could do that.",
-    "link": "https://www.reddit.com/r/PromptEngineering/comments/1paq6vt/context_window_optimization_why_token_budget_is/",
-    "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
-  },
-  {
-    "title": "Built a free AI prompt optimizer tool that helps write better ...",
-    "snippet": "r/SideProject - Built a free AI prompt optimizer tool that helps write better prompts.",
-    "link": "https://www.reddit.com/r/SideProject/comments/1m2e5iq/built_a_free_ai_prompt_optimizer_tool_that_helps/",
-    "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
-  },
-  {
-    "title": "I built a \"Typed\" Prompt Optimizer: Get 30% token reduction ...",
-    "snippet": "I built a \"Typed\" Prompt Optimizer: Get 30% token reduction without breaking your logic (99.2% preservation). Tools and Projects ...",
-    "link": "https://www.reddit.com/r/PromptEngineering/comments/1thgrxn/i_built_a_typed_prompt_optimizer_get_30_token/",
+    "title": "Prompt Optimizer: Lessons and Leverage",
+    "snippet": "Built a free AI prompt optimizer tool that helps write better prompts. 30. 25. Best prompt engineering guide · r/PromptEngineering. • 21d ago ...",
+    "link": "https://www.reddit.com/r/PromptEngineering/comments/1t568g1/prompt_optimizer_lessons_and_leverage/",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
@@ -108,15 +102,21 @@
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "Stop wasting tokens: GPT‑5's new Prompt Optimizer fixes ...",
-    "snippet": "OpenAI just shipped a free Prompt Optimizer for ChatGPT 5 and it's the rare tool that actually saves time. Paste your chaos prompt.",
-    "link": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1mnqxau/stop_wasting_tokens_gpt5s_new_prompt_optimizer/",
+    "title": "I built a \"Typed\" Prompt Optimizer: Get 30% token reduction ...",
+    "snippet": "I built a \"Typed\" Prompt Optimizer: Get 30% token reduction without breaking your logic (99.2% preservation). Tools and Projects ...",
+    "link": "https://www.reddit.com/r/PromptEngineering/comments/1thgrxn/i_built_a_typed_prompt_optimizer_get_30_token/",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
     "title": "Built an AI Prompt Optimizer tool that helps write better ...",
     "snippet": "Hey guys, built an an AI prompt optimizer where you enter a basic prompt and it gets transformed into one an actual prompt engineer would ...",
     "link": "https://www.reddit.com/r/PromptEngineering/comments/1ufr0j6/built_an_ai_prompt_optimizer_tool_that_helps/",
+    "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
+  },
+  {
+    "title": "I've created a free Prompt Optimizer for GPT and Claude",
+    "snippet": "I've released for free on my app's website. Here is the link: https://www.quartzite.ai/tools/free-ai-prompt-optimizer. Feel free to try it and ...",
+    "link": "https://www.reddit.com/r/ChatGPTPro/comments/1colte1/ive_created_a_free_prompt_optimizer_for_gpt_and/",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
@@ -127,7 +127,7 @@
   },
   {
     "title": "Has anyone calculated the tokens amount of Claude pro ...",
-    "snippet": "... calculating and using more and more tokens for ... how many tokens your conversation is as a running talley as you go. So the token limit ...",
+    "snippet": "I'm going to subscribe to Claude pro, and I looked up their description of the amount of pro available on the official website.：“For example, if you ...",
     "link": "https://www.reddit.com/r/ClaudeAI/comments/1bhs96y/has_anyone_calculated_the_tokens_amount_of_claude/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
@@ -144,15 +144,9 @@
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "Claude can't tell you how many tokens you have left, but it ...",
-    "snippet": "I was interrogating Claude as to why it doesn’t have access to the current token count, and it began to suggest a python script that could estimate ...",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1h2sv85/claude_cant_tell_you_how_many_tokens_you_have/",
-    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
-  },
-  {
-    "title": "How do you count/estimate token input/outputs with Claude ...",
-    "snippet": "For context, I'm currently writing a translation application using calls to Claude 3's API, and I need a way to count the input tokens to make sure the ...",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1bgg5v0/how_do_you_countestimate_token_inputoutputs_with/",
+    "title": "Claude token limit : r/claude",
+    "snippet": "I had Claude Pro fpr sbout 20 dollars and it was good, but the token limit killed me. So I stopped. Today I saw a video where someone said ...",
+    "link": "https://www.reddit.com/r/claude/comments/1r9pxv5/claude_token_limit/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
@@ -162,21 +156,81 @@
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "Token limits for Claude Code Max plan",
-    "snippet": "I assume the actual token limit is dynamic, but has anyone ... how many tokens they burned before getting there? Upvote 4. Downvote",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1lol9rd/does_anyone_know_the_actual_token_limits_for/",
-    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
-  },
-  {
     "title": "is there a way to calculate how many tokens would be ...",
     "snippet": "Is there some calculator that allows me to put in the token doublers I have and how many tokens would be crated from any source and get how many would actually ...",
     "link": "https://www.reddit.com/r/magicTCG/comments/1daui3m/is_there_a_way_to_calculate_how_many_tokens_would/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "How does the five hours limit window really work?",
-    "snippet": "I am a Pro user and often hit the timeout limit. As I understood it, Claude gives you a token limit that resets five hours after the session starts. Therefor ...",
-    "link": "https://www.reddit.com/r/ClaudeAI/comments/1mj1340/how_does_the_five_hours_limit_window_really_work/",
+    "title": "How many tokens is too many? : r/FiggsAI",
+    "snippet": "... token limit to give the ... How many tokens is too many? Question. Is it too much to take up 1700? Just ...",
+    "link": "https://www.reddit.com/r/FiggsAI/comments/1eqsnnu/how_many_tokens_is_too_many/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "How do you count/estimate token input/outputs with Claude ...",
+    "snippet": "For context, I'm currently writing a translation application using calls to Claude 3's API, and I need a way to count the input tokens to make sure the ...",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1bgg5v0/how_do_you_countestimate_token_inputoutputs_with/",
+    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "Claude can't tell you how many tokens you have left, but it ...",
+    "snippet": "I was interrogating Claude as to why it doesn’t have access to the current token count, and it began to suggest a python script that could estimate ...",
+    "link": "https://www.reddit.com/r/ClaudeAI/comments/1h2sv85/claude_cant_tell_you_how_many_tokens_you_have/",
+    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "I built a free LLM cost calculator — paste any prompt, see ...",
+    "snippet": "I built a free LLM cost calculator — paste any prompt, see what 35+ models charge instantly. I kept running into the same problem across ...",
+    "link": "https://www.reddit.com/r/SaaS/comments/1s2ezje/i_built_a_free_llm_cost_calculator_paste_any/",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "AI API Pricing Calculator 2026: Cost Per Million Tokens",
+    "snippet": "Input your enterprise usage parameters and instantly see monthly, quarterly, and annual costs for every model side by side. AI Token Pricing LLM Cost Calculator ...",
+    "link": "https://iternal.ai/llm-pricing-calculator",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "LLM Cost Calculator - Calculate AI Model Pricing | Bifrost",
+    "snippet": "[ LLM COST CALCULATOR ]. Calculate LLM API Costs. Compare pricing across hundreds of AI models. Calculate costs for chat, image generation, audio ...",
+    "link": "https://www.getmaxim.ai/bifrost/llm-cost-calculator",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "I Built a Free LLM Cost Calculator: 202 Models, Real Tokens ...",
+    "snippet": "I Built a Free LLM Cost Calculator: 202 Models, Real Tokens, Daily Prices (2026) · Comments.",
+    "link": "https://www.youtube.com/watch?v=h7iYfISLIao",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "Prompt Token Counter for OpenAI Models",
+    "snippet": "Online prompt token counter with OpenAI models · Understand token limits: Familiarize yourself with the token limits of the specific OpenAI model you're using.",
+    "link": "https://www.prompttokencounter.com/",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "AI Token Calculator (2026) — Free LLM Cost Calculator for ...",
+    "snippet": "Free AI token calculator and LLM cost estimator (May 2026). Count tokens, calculate API cost per request, and compare GPT-5.5, GPT-5, Claude Opus 4.7, ...",
+    "link": "https://aitokencalculator.com/",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "LLM API cost calculator — Free Online Tool",
+    "snippet": "Enter input and output tokens directly, or paste your prompt to count its tokens with the shared tokenizer — exact for OpenAI, estimated for other providers.",
+    "link": "https://openreplay.com/tools/llm-cost-calculator",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "LLM Cost Calculator 2026 — Free Online Tool | TokenCost",
+    "snippet": "Estimate monthly LLM API costs across GPT-5.4, Claude, Gemini, Grok, and 30+ models. Free calculator with usage presets.",
+    "link": "https://tokencost.app/calculator",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
+  },
+  {
+    "title": "LLM Cost Calculator - Compare AI Model Pricing | DigitalCoding",
+    "snippet": "LLM Cost Calculator. Compare costs across OpenAI, Anthropic, Google, AWS Bedrock, Meta, Mistral, and DeepSeek models. Calculate daily, monthly, and annual ...",
+    "link": "https://tools.digitalcoding.com/tools/llm-cost-calculator/",
+    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   }
 ]

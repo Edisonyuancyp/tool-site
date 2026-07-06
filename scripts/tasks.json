@@ -2949,5 +2949,185 @@
       "context-window-calculator"
     ],
     "variants": []
+  },
+  {
+    "slug": "prompt-token-counter",
+    "name": "Prompt Token Counter",
+    "tagline": "Count tokens in your prompts easily",
+    "description": "Quickly determine the number of tokens in your AI prompts for various models. This tool is designed for prompt engineers and content creators looking to optimize their inputs.",
+    "metaTitle": "Prompt Token Counter – Free Online Tool",
+    "metaDescription": "Count tokens in your AI prompts for free, no signup needed, get instant results.",
+    "keywords": [
+      "prompt token counter",
+      "token counting tool",
+      "AI prompt tools",
+      "prompt engineering"
+    ],
+    "category": "AI",
+    "icon": "🧮",
+    "faqs": [
+      {
+        "question": "How does this tool count tokens?",
+        "answer": "It uses the tokenization rules of various AI models to calculate the token count."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, the tool is completely free and requires no signup."
+      },
+      {
+        "question": "Can I use it for different models?",
+        "answer": "Absolutely, it supports multiple AI models for accurate token counts."
+      }
+    ],
+    "relatedTools": [
+      "token-splitter",
+      "prompt-optimizer"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-prompt-token-counter",
+        "metaTitle": "Advanced Prompt Token Counter",
+        "metaDescription": "Get detailed token analysis for your prompts.",
+        "keywords": [
+          "advanced token counting",
+          "detailed analysis",
+          "prompt engineering"
+        ],
+        "defaultVariant": "advanced",
+        "headline": "Explore detailed token metrics for your prompts."
+      },
+      {
+        "variantSlug": "basic-prompt-token-counter",
+        "metaTitle": "Basic Prompt Token Counter",
+        "metaDescription": "Simple token counting for beginners.",
+        "keywords": [
+          "basic token counting",
+          "easy to use",
+          "prompt basics"
+        ],
+        "defaultVariant": "basic",
+        "headline": "A straightforward tool for basic token counting."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-optimizer-tool",
+    "name": "AI Prompt Optimizer Tool",
+    "tagline": "Enhance your prompts for better results",
+    "description": "Refine and optimize your AI prompts to improve the quality of responses. Designed for AI developers and content creators looking to enhance output effectiveness.",
+    "metaTitle": "AI Prompt Optimizer Tool – Free Online Tool",
+    "metaDescription": "Optimize your AI prompts for free, no signup needed, instant improvements.",
+    "keywords": [
+      "prompt optimizer",
+      "AI prompt enhancement",
+      "improve AI responses",
+      "prompt engineering"
+    ],
+    "category": "AI",
+    "icon": "✨",
+    "faqs": [
+      {
+        "question": "How does the optimizer work?",
+        "answer": "It analyzes your prompts and suggests improvements based on best practices."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, this tool is free and requires no registration."
+      },
+      {
+        "question": "Can I save my optimized prompts?",
+        "answer": "Currently, the tool does not support saving prompts; please copy them manually."
+      }
+    ],
+    "relatedTools": [
+      "prompt-cleaner",
+      "prompt-variable-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "contextual-prompt-optimizer",
+        "metaTitle": "Contextual Prompt Optimizer",
+        "metaDescription": "Optimize prompts based on specific contexts.",
+        "keywords": [
+          "contextual optimization",
+          "context-based prompts",
+          "AI prompt tuning"
+        ],
+        "defaultVariant": "contextual",
+        "headline": "Tailor your prompts for specific contexts with ease."
+      },
+      {
+        "variantSlug": "general-prompt-optimizer",
+        "metaTitle": "General Prompt Optimizer",
+        "metaDescription": "Optimize any prompt for better AI interaction.",
+        "keywords": [
+          "general prompt improvement",
+          "AI interaction",
+          "prompt adjustments"
+        ],
+        "defaultVariant": "general",
+        "headline": "Enhance any prompt for better AI communication."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-version-comparer",
+    "name": "Prompt Version Comparer",
+    "tagline": "Compare different versions of prompts",
+    "description": "Easily compare multiple versions of your AI prompts to see which performs better. Perfect for prompt engineers who want to test variations effectively.",
+    "metaTitle": "Prompt Version Comparer – Free Online Tool",
+    "metaDescription": "Compare versions of your prompts for free, no signup needed, instant results.",
+    "keywords": [
+      "prompt version comparer",
+      "compare prompts",
+      "prompt variations",
+      "AI prompt testing"
+    ],
+    "category": "AI",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "How do I use the comparer?",
+        "answer": "Simply input the different versions of your prompts to analyze their performance."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, it's completely free to use with no signup required."
+      },
+      {
+        "question": "Can I get performance metrics?",
+        "answer": "Currently, the tool focuses on qualitative comparisons, not performance metrics."
+      }
+    ],
+    "relatedTools": [
+      "prompt-optimizer-tool",
+      "prompt-cleaner"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-comparison-tool",
+        "metaTitle": "Detailed Prompt Comparison Tool",
+        "metaDescription": "Get in-depth analysis of prompt versions.",
+        "keywords": [
+          "detailed prompt analysis",
+          "compare in-depth",
+          "version comparison"
+        ],
+        "defaultVariant": "detailed",
+        "headline": "Analyze your prompts with detailed comparisons."
+      },
+      {
+        "variantSlug": "quick-comparison-tool",
+        "metaTitle": "Quick Prompt Comparison Tool",
+        "metaDescription": "Compare prompts quickly and efficiently.",
+        "keywords": [
+          "quick prompt comparison",
+          "fast analysis",
+          "prompt testing"
+        ],
+        "defaultVariant": "quick",
+        "headline": "Rapidly compare prompts for immediate feedback."
+      }
+    ]
   }
 ]

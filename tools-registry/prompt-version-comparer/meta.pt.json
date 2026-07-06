@@ -1,0 +1,48 @@
+{
+  "slug": "prompt-version-comparer",
+  "name": "Comparador de Versões de Prompt",
+  "tagline": "Compare diferentes versões de prompts",
+  "description": "Compare facilmente várias versões dos seus prompts de IA para ver qual delas tem um desempenho melhor. Perfeito para engenheiros de prompt que desejam testar variações de forma eficaz.",
+  "metaTitle": "Comparador de Versões de Prompt – Ferramenta Online Grátis",
+  "metaDescription": "Compare versões dos seus prompts gratuitamente, sem necessidade de cadastro, resultados instantâneos.",
+  "keywords": [
+    "comparador de versões de prompt",
+    "comparar prompts",
+    "variações de prompt",
+    "teste de prompts de IA",
+    "prompts de comparação",
+    "comparar prompts de IA",
+    "comparar e contrastar prompts",
+    "comparar dois prompts",
+    "comparar prompts de llm",
+    "comparar prompts langfuse",
+    "comparar prompts de redação contrastante",
+    "variações de prompt comfyui",
+    "variações de prompt de vídeo de figurinha",
+    "variações de prompt midjourney",
+    "procedimentos de desvanecimento de prompt",
+    "tipos de prompts",
+    "significado de atualização de prompt"
+  ],
+  "category": "AI",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Como eu uso o comparador?",
+      "answer": "Basta inserir as diferentes versões dos seus prompts para analisar seu desempenho."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, é completamente gratuita para usar, sem necessidade de cadastro."
+    },
+    {
+      "question": "Posso obter métricas de desempenho?",
+      "answer": "Atualmente, a ferramenta foca em comparações qualitativas, não em métricas de desempenho."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer-tool",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

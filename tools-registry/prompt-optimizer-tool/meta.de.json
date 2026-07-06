@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-optimizer-tool",
+  "name": "AI Prompt Optimizer Tool",
+  "tagline": "Verbessern Sie Ihre Eingabeaufforderungen für bessere Ergebnisse",
+  "description": "Verfeinern und optimieren Sie Ihre KI-Eingabeaufforderungen, um die Qualität der Antworten zu verbessern. Entwickelt für KI-Entwickler und Inhaltsanbieter, die die Effektivität der Ergebnisse steigern möchten.",
+  "metaTitle": "AI Prompt Optimizer Tool – Kostenloses Online-Tool",
+  "metaDescription": "Optimieren Sie Ihre KI-Eingabeaufforderungen kostenlos, keine Anmeldung erforderlich, sofortige Verbesserungen.",
+  "keywords": [
+    "Eingabeaufforderungsoptimierer",
+    "KI Eingabeaufforderungsverbesserung",
+    "KI Antworten verbessern",
+    "Eingabeaufforderungsengineering",
+    "KI Eingabeaufforderungsoptimierungstool",
+    "Open AI Eingabeaufforderungsoptimierungstool",
+    "Optimierungsprobleme in der KI",
+    "Eingabeaufforderungsoptimierer OpenAI",
+    "Eingabeaufforderungsoptimierer Claude",
+    "Eingabeaufforderungsoptimierer ChatGPT",
+    "Eingabeaufforderungsoptimierer GitHub",
+    "Eingabeaufforderungsoptimierer kostenlos",
+    "Eingabeaufforderungsoptimierer Perchance",
+    "Eingabeaufforderungsoptimierer Fähigkeit",
+    "KI Eingabeaufforderungsverbesserer kostenlos",
+    "KI Eingabeaufforderungsverbesserer Perchance",
+    "KI Eingabeaufforderungsverbesserer Erweiterung",
+    "KI Eingabeaufforderungsverbesserung",
+    "KI Eingabeaufforderungsverbesserer Chrome-Erweiterung",
+    "KI Eingabeaufforderungsverbesserer ohne Anmeldung"
+  ],
+  "category": "AI",
+  "icon": "✨",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Optimierer?",
+      "answer": "Er analysiert Ihre Eingabeaufforderungen und schlägt Verbesserungen basierend auf bewährten Praktiken vor."
+    },
+    {
+      "question": "Ist die Nutzung kostenlos?",
+      "answer": "Ja, dieses Tool ist kostenlos und erfordert keine Registrierung."
+    },
+    {
+      "question": "Kann ich meine optimierten Eingabeaufforderungen speichern?",
+      "answer": "Derzeit unterstützt das Tool das Speichern von Eingabeaufforderungen nicht; bitte kopieren Sie sie manuell."
+    }
+  ],
+  "relatedTools": [
+    "prompt-cleaner",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

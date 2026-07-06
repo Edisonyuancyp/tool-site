@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-optimizer-tool",
+  "name": "AI提示优化工具",
+  "tagline": "提升您的提示以获得更好的结果",
+  "description": "精炼和优化您的AI提示，以提高响应质量。专为希望提升输出效果的AI开发者和内容创作者设计。",
+  "metaTitle": "AI提示优化工具 - 免费在线工具",
+  "metaDescription": "免费优化您的AI提示，无需注册，立即改善。",
+  "keywords": [
+    "提示优化器",
+    "AI提示增强",
+    "改善AI响应",
+    "提示工程",
+    "AI提示优化工具",
+    "开放AI提示优化工具",
+    "AI中的优化问题",
+    "提示优化器openai",
+    "提示优化器claude",
+    "提示优化器chatgpt",
+    "提示优化器github",
+    "提示优化器免费",
+    "提示优化器perchance",
+    "提示优化器技能",
+    "AI提示增强免费",
+    "AI提示增强perchance",
+    "AI提示增强扩展",
+    "AI提示改善",
+    "AI提示增强chrome扩展",
+    "AI提示增强无需登录"
+  ],
+  "category": "AI",
+  "icon": "✨",
+  "faqs": [
+    {
+      "question": "优化器是如何工作的？",
+      "answer": "它分析您的提示并根据最佳实践建议改进方案。"
+    },
+    {
+      "question": "使用这个工具是免费的吗？",
+      "answer": "是的，这个工具是免费的，无需注册。"
+    },
+    {
+      "question": "我可以保存我的优化提示吗？",
+      "answer": "目前，该工具不支持保存提示；请手动复制它们。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-cleaner",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

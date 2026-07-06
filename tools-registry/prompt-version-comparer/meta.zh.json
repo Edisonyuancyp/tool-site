@@ -1,0 +1,48 @@
+{
+  "slug": "prompt-version-comparer",
+  "name": "提示版本比较器",
+  "tagline": "比较不同版本的提示",
+  "description": "轻松比较多个版本的AI提示，以查看哪个表现更好。非常适合希望有效测试变体的提示工程师。",
+  "metaTitle": "提示版本比较器 – 免费在线工具",
+  "metaDescription": "免费比较您的提示版本，无需注册，立即获取结果。",
+  "keywords": [
+    "提示版本比较器",
+    "比较提示",
+    "提示变体",
+    "AI提示测试",
+    "比较提示",
+    "比较AI提示",
+    "对比提示",
+    "比较两个提示",
+    "比较LLM提示",
+    "LangFuse比较提示",
+    "对比论文提示",
+    "ComfyUI提示变体",
+    "小雕像视频提示变体",
+    "Midjourney变体提示",
+    "提示和提示消退程序",
+    "提示类型",
+    "提示更新含义"
+  ],
+  "category": "AI",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "我该如何使用比较器？",
+      "answer": "只需输入您不同版本的提示以分析它们的表现。"
+    },
+    {
+      "question": "这个工具是免费的吗？",
+      "answer": "是的，完全免费使用，无需注册。"
+    },
+    {
+      "question": "我可以获得性能指标吗？",
+      "answer": "目前，该工具专注于定性比较，而不是性能指标。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer-tool",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

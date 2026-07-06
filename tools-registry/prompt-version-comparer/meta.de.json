@@ -1,0 +1,48 @@
+{
+  "slug": "prompt-version-comparer",
+  "name": "Prompt Version Comparer",
+  "tagline": "Vergleichen Sie verschiedene Versionen von Prompts",
+  "description": "Vergleichen Sie mühelos mehrere Versionen Ihrer KI-Prompts, um herauszufinden, welche besser abschneidet. Perfekt für Prompt-Entwickler, die Variationen effektiv testen möchten.",
+  "metaTitle": "Prompt Version Comparer – Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie kostenlos die Versionen Ihrer Prompts, keine Anmeldung erforderlich, sofortige Ergebnisse.",
+  "keywords": [
+    "prompt version comparer",
+    "prompts vergleichen",
+    "prompt-variationen",
+    "ki-prompt-testen",
+    "vergleichs-prompts",
+    "ki-prompts vergleichen",
+    "vergleiche und kontraste bei prompts",
+    "zwei prompts vergleichen",
+    "llm-prompts vergleichen",
+    "langfuse prompts vergleichen",
+    "vergleiche und kontraste bei essay-prompts",
+    "comfyui prompt-variationen",
+    "figurine video prompt-variationen",
+    "midjourney variations prompt",
+    "prompt- und prompt-verblassverfahren",
+    "arten von prompts",
+    "bedeutung von prompt-aktualisierungen"
+  ],
+  "category": "AI",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Wie benutze ich den Vergleich?",
+      "answer": "Geben Sie einfach die verschiedenen Versionen Ihrer Prompts ein, um deren Leistung zu analysieren."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, es ist völlig kostenlos zu nutzen, ohne dass eine Anmeldung erforderlich ist."
+    },
+    {
+      "question": "Kann ich Leistungskennzahlen erhalten?",
+      "answer": "Derzeit konzentriert sich das Tool auf qualitative Vergleiche, nicht auf Leistungskennzahlen."
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer-tool",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

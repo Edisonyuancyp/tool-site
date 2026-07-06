@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-optimizer-tool",
+  "name": "Ferramenta de Otimização de Prompt de IA",
+  "tagline": "Aprimore seus prompts para melhores resultados",
+  "description": "Refine e otimize seus prompts de IA para melhorar a qualidade das respostas. Projetada para desenvolvedores de IA e criadores de conteúdo que buscam aumentar a eficácia dos resultados.",
+  "metaTitle": "Ferramenta de Otimização de Prompt de IA – Ferramenta Online Gratuita",
+  "metaDescription": "Otimize seus prompts de IA gratuitamente, sem necessidade de cadastro, melhorias instantâneas.",
+  "keywords": [
+    "otimizador de prompt",
+    "aperfeiçoamento de prompt de ia",
+    "melhorar respostas de ia",
+    "engenharia de prompt",
+    "ferramenta de otimização de prompt de ia",
+    "ferramenta de otimização de prompt open ai",
+    "problemas de otimização em ia",
+    "otimizador de prompt openai",
+    "otimizador de prompt claude",
+    "otimizador de prompt chatgpt",
+    "otimizador de prompt github",
+    "otimizador de prompt gratuito",
+    "otimizador de prompt perchance",
+    "habilidade de otimizador de prompt",
+    "aperfeiçoador de prompt de ia gratuito",
+    "aperfeiçoador de prompt de ia perchance",
+    "extensão de aperfeiçoador de prompt de ia",
+    "melhoria de prompt de ia",
+    "extensão de aperfeiçoador de prompt de ia para chrome",
+    "aperfeiçoador de prompt de ia sem login"
+  ],
+  "category": "AI",
+  "icon": "✨",
+  "faqs": [
+    {
+      "question": "Como funciona o otimizador?",
+      "answer": "Ele analisa seus prompts e sugere melhorias com base nas melhores práticas."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, esta ferramenta é gratuita e não requer registro."
+    },
+    {
+      "question": "Posso salvar meus prompts otimizados?",
+      "answer": "Atualmente, a ferramenta não suporta o salvamento de prompts; por favor, copie-os manualmente."
+    }
+  ],
+  "relatedTools": [
+    "prompt-cleaner",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

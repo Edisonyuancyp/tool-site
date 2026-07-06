@@ -298,6 +298,12 @@
 /tools/prompt-cost-calculator /tools/ai/prompt-cost-calculator 301
 /tools/detailed-cost-analysis /tools/ai/detailed-cost-analysis 301
 /tools/simple-cost-estimator /tools/ai/simple-cost-estimator 301
+/tools/prompt-optimizer-tool /tools/ai/prompt-optimizer-tool 301
+/tools/contextual-prompt-optimizer /tools/ai/contextual-prompt-optimizer 301
+/tools/general-prompt-optimizer /tools/ai/general-prompt-optimizer 301
+/tools/prompt-token-counter /tools/ai/prompt-token-counter 301
+/tools/advanced-prompt-token-counter /tools/ai/advanced-prompt-token-counter 301
+/tools/basic-prompt-token-counter /tools/ai/basic-prompt-token-counter 301
 /tools/prompt-token-optimizer /tools/ai/prompt-token-optimizer 301
 /tools/basic-optimization /tools/ai/basic-optimization 301
 /tools/advanced-optimization /tools/ai/advanced-optimization 301
@@ -310,6 +316,8 @@
 /tools/prompt-version-compare /tools/ai/prompt-version-compare 301
 /tools/detailed-comparison-tool /tools/ai/detailed-comparison-tool 301
 /tools/quick-compare-tool /tools/ai/quick-compare-tool 301
+/tools/prompt-version-comparer /tools/ai/prompt-version-comparer 301
+/tools/quick-comparison-tool /tools/ai/quick-comparison-tool 301
 /tools/qr-code-generator /tools/design/qr-code-generator 301
 /tools/wifi-qr-code-generator /tools/design/wifi-qr-code-generator 301
 /tools/url-to-qr-code /tools/design/url-to-qr-code 301

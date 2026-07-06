@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-counter",
+  "name": "Prompt Token Zähler",
+  "tagline": "Zählen Sie Tokens in Ihren Eingaben ganz einfach",
+  "description": "Bestimmen Sie schnell die Anzahl der Tokens in Ihren KI-Eingaben für verschiedene Modelle. Dieses Tool ist für Prompt-Ingenieure und Content-Ersteller konzipiert, die ihre Eingaben optimieren möchten.",
+  "metaTitle": "Prompt Token Zähler – Kostenloses Online-Tool",
+  "metaDescription": "Zählen Sie kostenlos Tokens in Ihren KI-Eingaben, keine Anmeldung erforderlich, erhalten Sie sofortige Ergebnisse.",
+  "keywords": [
+    "prompt token zähler",
+    "token zählwerkzeug",
+    "ki eingabetools",
+    "prompt engineering",
+    "prompt token zähler claude",
+    "prompt token zähler online",
+    "gemini prompt token zähler",
+    "prompt token anzahl",
+    "prompt token anzahl überschreitet das Limit von",
+    "prompt token anzahl überschreitet das Limit von 64000",
+    "prompt token anzahl gemini",
+    "bedeutung der prompt-bestätigung",
+    "bedeutung des prompt-codes",
+    "prompt kontaktnummer",
+    "bedeutung von prompt by",
+    "münzzählwerkzeug",
+    "gemini token anzahl werkzeug",
+    "llm token zählwerkzeug",
+    "openai token anzahl werkzeug",
+    "claude token zählwerkzeug"
+  ],
+  "category": "AI",
+  "icon": "🧮",
+  "faqs": [
+    {
+      "question": "Wie zählt dieses Tool Tokens?",
+      "answer": "Es verwendet die Tokenisierungsregeln verschiedener KI-Modelle, um die Tokenanzahl zu berechnen."
+    },
+    {
+      "question": "Ist die Nutzung kostenlos?",
+      "answer": "Ja, das Tool ist völlig kostenlos und erfordert keine Anmeldung."
+    },
+    {
+      "question": "Kann ich es für verschiedene Modelle verwenden?",
+      "answer": "Absolut, es unterstützt mehrere KI-Modelle für genaue Tokenanzahlen."
+    }
+  ],
+  "relatedTools": [
+    "token-splitter",
+    "prompt-optimizer"
+  ],
+  "variants": []
+}
