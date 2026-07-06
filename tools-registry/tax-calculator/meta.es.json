@@ -2,12 +2,12 @@
   "slug": "tax-calculator",
   "name": "Calculadora de Impuestos sobre la Renta",
   "tagline": "Calcula el impuesto sobre la renta para EE. UU., Reino Unido, Canadá, Australia y más",
-  "description": "Calculadora de impuestos sobre la renta gratuita que cubre 7 países: EE. UU., Reino Unido, Canadá, Australia, Alemania, Singapur, Francia y Japón. Ingresa tu ingreso para ver instantáneamente el impuesto adeudado, la tasa efectiva y el salario neto. Actualizada para el año fiscal 2024.",
-  "metaTitle": "Calculadora de Impuestos sobre la Renta 2024 — EE. UU., Reino Unido, Canadá, Australia y Más",
-  "metaDescription": "Calculadora de impuestos sobre la renta gratuita para 7 países. Ingresa tu ingreso → ve el impuesto adeudado, la tasa efectiva y el salario neto al instante. Actualizada para 2024.",
+  "description": "Calculadora de impuestos sobre la renta gratuita que cubre 7 países: EE. UU., Reino Unido, Canadá, Australia, Alemania, Singapur, Francia y Japón. Ingresa tu ingreso para ver instantáneamente el impuesto adeudado, la tasa efectiva y el salario neto. Actualizada para el año fiscal 2026.",
+  "metaTitle": "Calculadora de Impuestos sobre la Renta 2026 — EE. UU., Reino Unido, Canadá, Australia y Más",
+  "metaDescription": "Calculadora de impuestos sobre la renta gratuita para 7 países. Ingresa tu ingreso → ve el impuesto adeudado, la tasa efectiva y el salario neto al instante. Actualizada para 2026.",
   "keywords": [
     "calculadora de impuestos sobre la renta",
-    "calculadora de impuestos 2024",
+    "calculadora de impuestos 2026",
     "cuánto impuesto debo pagar",
     "calculadora de salario neto",
     "calculadora de impuestos global"
@@ -17,7 +17,7 @@
   "faqs": [
     {
       "question": "¿Qué países cubre esta calculadora?",
-      "answer": "EE. UU. (federal), Reino Unido, Canadá (federal), Australia, Alemania, Singapur, Francia y Japón, todos actualizados para el año fiscal 2024."
+      "answer": "EE. UU. (federal), Reino Unido, Canadá (federal), Australia, Alemania, Singapur, Francia y Japón, todos actualizados para el año fiscal 2026."
     },
     {
       "question": "¿Es precisa esta calculadora?",
@@ -44,87 +44,87 @@
   "variants": [
     {
       "variantSlug": "uk-income-tax-calculator",
-      "metaTitle": "Calculadora de Impuestos sobre la Renta del Reino Unido 2024-25 — Salario Neto y NI",
-      "metaDescription": "Calcula tu impuesto sobre la renta y Seguro Nacional del Reino Unido para 2024-25. Ingresa tu salario bruto → ve el salario neto, la tasa efectiva y las contribuciones al NI.",
+      "metaTitle": "Calculadora de Impuestos sobre la Renta del Reino Unido 2026-27 — Salario Neto y NI",
+      "metaDescription": "Calcula tu impuesto sobre la renta y Seguro Nacional del Reino Unido para 2026-27. Ingresa tu salario bruto → ve el salario neto, la tasa efectiva y las contribuciones al NI.",
       "keywords": [
         "calculadora de impuestos sobre la renta del reino unido",
-        "calculadora de impuestos del reino unido 2024",
+        "calculadora de impuestos del reino unido 2026",
         "salario neto reino unido",
         "calculadora de seguro nacional",
         "estimador de impuestos hmrc"
       ],
       "defaultVariant": "uk",
-      "headline": "Calcula tu impuesto sobre la renta y las contribuciones al Seguro Nacional del Reino Unido para 2024-25. Incluye el ajuste de la Asignación Personal para altos ingresos."
+      "headline": "Calcula tu impuesto sobre la renta y las contribuciones al Seguro Nacional del Reino Unido para 2026-27. Incluye el ajuste de la Asignación Personal para altos ingresos."
     },
     {
       "variantSlug": "canada-income-tax-calculator",
-      "metaTitle": "Calculadora de Impuestos sobre la Renta de Canadá 2024 — Impuesto Federal y CPP/EI",
-      "metaDescription": "Calcula el impuesto federal sobre la renta canadiense para 2024. Incluye el crédito de Monto Personal Básico, contribuciones al CPP y primas de EI. Estimador de impuestos gratuito de la CRA.",
+      "metaTitle": "Calculadora de Impuestos sobre la Renta de Canadá 2026 — Impuesto Federal y CPP/EI",
+      "metaDescription": "Calcula el impuesto federal sobre la renta canadiense para 2026. Incluye el crédito de Monto Personal Básico, contribuciones al CPP y primas de EI. Estimador de impuestos gratuito de la CRA.",
       "keywords": [
         "calculadora de impuestos sobre la renta de canadá",
-        "calculadora de impuestos canadienses 2024",
+        "calculadora de impuestos canadienses 2026",
         "calculadora de impuestos cra",
         "calculadora cpp ei",
         "salario neto canadá"
       ],
       "defaultVariant": "ca",
-      "headline": "Calcula tu impuesto federal sobre la renta canadiense, contribuciones al CPP y primas de EI para 2024. Los impuestos provinciales varían; esto cubre solo el federal."
+      "headline": "Calcula tu impuesto federal sobre la renta canadiense, contribuciones al CPP y primas de EI para 2026. Los impuestos provinciales varían; esto cubre solo el federal."
     },
     {
       "variantSlug": "australia-income-tax-calculator",
-      "metaTitle": "Calculadora de Impuestos sobre la Renta de Australia 2024-25 — Estimador de Impuestos ATO",
-      "metaDescription": "Calcula el impuesto sobre la renta australiano para 2024-25, incluyendo el Medicare Levy y el Crédito por Impuesto de Bajo Ingreso. Estimador de impuestos gratuito de la ATO para residentes y no residentes.",
+      "metaTitle": "Calculadora de Impuestos sobre la Renta de Australia 2026-27 — Estimador de Impuestos ATO",
+      "metaDescription": "Calcula el impuesto sobre la renta australiano para 2026-27, incluyendo el Medicare Levy y el Crédito por Impuesto de Bajo Ingreso. Estimador de impuestos gratuito de la ATO para residentes y no residentes.",
       "keywords": [
         "calculadora de impuestos sobre la renta de australia",
-        "calculadora de impuestos ato 2024",
+        "calculadora de impuestos ato 2026",
         "calculadora de impuestos australiana",
         "calculadora medicare levy",
         "salario neto australia"
       ],
       "defaultVariant": "au",
-      "headline": "Calcula tu impuesto sobre la renta australiano para 2024-25, incluyendo el Medicare Levy del 2% y el Crédito por Impuesto de Bajo Ingreso (LITO) para residentes."
+      "headline": "Calcula tu impuesto sobre la renta australiano para 2026-27, incluyendo el Medicare Levy del 2% y el Crédito por Impuesto de Bajo Ingreso (LITO) para residentes."
     },
     {
       "variantSlug": "germany-income-tax-calculator",
-      "metaTitle": "Calculadora de Impuestos sobre la Renta de Alemania 2024 — Einkommensteuer",
-      "metaDescription": "Calcula el impuesto sobre la renta alemán (Einkommensteuer) para 2024. Incluye el recargo de solidaridad y las contribuciones a la seguridad social. Estimador de impuestos gratuito de Alemania.",
+      "metaTitle": "Calculadora de Impuestos sobre la Renta de Alemania 2026 — Einkommensteuer",
+      "metaDescription": "Calcula el impuesto sobre la renta alemán (Einkommensteuer) para 2026. Incluye el recargo de solidaridad y las contribuciones a la seguridad social. Estimador de impuestos gratuito de Alemania.",
       "keywords": [
         "calculadora de impuestos sobre la renta de alemania",
-        "calculadora de impuestos alemanes 2024",
+        "calculadora de impuestos alemanes 2026",
         "calculadora einkommensteuer",
         "calculadora de recargo de solidaridad",
         "salario neto alemania"
       ],
       "defaultVariant": "de",
-      "headline": "Calcula tu impuesto sobre la renta alemán (Einkommensteuer) para 2024, incluyendo el recargo de solidaridad (Soli) y las contribuciones de seguridad social del empleado."
+      "headline": "Calcula tu impuesto sobre la renta alemán (Einkommensteuer) para 2026, incluyendo el recargo de solidaridad (Soli) y las contribuciones de seguridad social del empleado."
     },
     {
       "variantSlug": "singapore-income-tax-calculator",
-      "metaTitle": "Calculadora de Impuestos sobre la Renta de Singapur 2024 — Estimador de Impuestos IRAS",
-      "metaDescription": "Calcula el impuesto sobre la renta personal de Singapur para YA2024. Incluye contribuciones al CPF y el Alivio por Ingreso Ganado. Estimador de impuestos gratuito de IRAS.",
+      "metaTitle": "Calculadora de Impuestos sobre la Renta de Singapur 2026 — Estimador de Impuestos IRAS",
+      "metaDescription": "Calcula el impuesto sobre la renta personal de Singapur para YA2027. Incluye contribuciones al CPF y el Alivio por Ingreso Ganado. Estimador de impuestos gratuito de IRAS.",
       "keywords": [
         "calculadora de impuestos sobre la renta de singapur",
         "calculadora de impuestos iras",
-        "impuesto singapur 2024",
+        "impuesto singapur 2026",
         "calculadora cpf singapur",
         "salario neto singapur"
       ],
       "defaultVariant": "sg",
-      "headline": "Calcula tu impuesto sobre la renta personal de Singapur para YA2024. Incluye el Alivio por Ingreso Ganado y las tasas de contribución al CPF por grupo de edad."
+      "headline": "Calcula tu impuesto sobre la renta personal de Singapur para YA2027. Incluye el Alivio por Ingreso Ganado y las tasas de contribución al CPF por grupo de edad."
     },
     {
       "variantSlug": "self-employed-tax-calculator",
-      "metaTitle": "Calculadora de Impuestos para Autónomos EE. UU. 2024 — Impuesto SE + Federal",
-      "metaDescription": "Calcula el impuesto por cuenta propia y el impuesto federal sobre la renta de EE. UU. para 2024. Incluye el impuesto SE del 15.3% y la deducción del medio SE. Estimador de impuestos gratuito para freelancers.",
+      "metaTitle": "Calculadora de Impuestos para Autónomos EE. UU. 2026 — Impuesto SE + Federal",
+      "metaDescription": "Calcula el impuesto por cuenta propia y el impuesto federal sobre la renta de EE. UU. para 2026. Incluye el impuesto SE del 15.3% y la deducción del medio SE. Estimador de impuestos gratuito para freelancers.",
       "keywords": [
         "calculadora de impuestos para autónomos",
         "calculadora de impuestos para freelancers ee. uu.",
-        "impuesto por cuenta propia 2024",
+        "impuesto por cuenta propia 2026",
         "calculadora de impuestos 1099",
         "calculadora de impuestos schedule c"
       ],
       "defaultVariant": "self-employed",
-      "headline": "Calcula tu impuesto por cuenta propia de EE. UU. más el impuesto federal sobre la renta para 2024. Muestra el impuesto SE (15.3%), la deducción del medio SE y tu carga tributaria total."
+      "headline": "Calcula tu impuesto por cuenta propia de EE. UU. más el impuesto federal sobre la renta para 2026. Muestra el impuesto SE (15.3%), la deducción del medio SE y tu carga tributaria total."
     }
   ]
 }

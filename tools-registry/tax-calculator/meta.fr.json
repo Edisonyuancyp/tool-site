@@ -2,12 +2,12 @@
   "slug": "tax-calculator",
   "name": "Calculateur d'impôt sur le revenu",
   "tagline": "Calculez l'impôt sur le revenu pour les États-Unis, le Royaume-Uni, le Canada, l'Australie et plus encore",
-  "description": "Calculateur d'impôt sur le revenu gratuit couvrant 7 pays — États-Unis, Royaume-Uni, Canada, Australie, Allemagne, Singapour, France et Japon. Entrez votre revenu pour voir instantanément l'impôt dû, le taux effectif et le revenu net. Mis à jour pour l'année fiscale 2024.",
-  "metaTitle": "Calculateur d'impôt sur le revenu 2024 — États-Unis, Royaume-Uni, Canada, Australie & Plus",
-  "metaDescription": "Calculateur d'impôt sur le revenu gratuit pour 7 pays. Entrez votre revenu → voyez instantanément l'impôt dû, le taux effectif et le revenu net. Mis à jour pour 2024.",
+  "description": "Calculateur d'impôt sur le revenu gratuit couvrant 7 pays — États-Unis, Royaume-Uni, Canada, Australie, Allemagne, Singapour, France et Japon. Entrez votre revenu pour voir instantanément l'impôt dû, le taux effectif et le revenu net. Mis à jour pour l'année fiscale 2026.",
+  "metaTitle": "Calculateur d'impôt sur le revenu 2026 — États-Unis, Royaume-Uni, Canada, Australie & Plus",
+  "metaDescription": "Calculateur d'impôt sur le revenu gratuit pour 7 pays. Entrez votre revenu → voyez instantanément l'impôt dû, le taux effectif et le revenu net. Mis à jour pour 2026.",
   "keywords": [
     "calculateur d'impôt sur le revenu",
-    "calculateur d'impôt 2024",
+    "calculateur d'impôt 2026",
     "combien d'impôt dois-je payer",
     "calculateur de revenu net",
     "calculateur fiscal mondial"
@@ -17,7 +17,7 @@
   "faqs": [
     {
       "question": "Quels pays ce calculateur couvre-t-il ?",
-      "answer": "États-Unis (fédéral), Royaume-Uni, Canada (fédéral), Australie, Allemagne, Singapour, France et Japon — tous mis à jour pour l'année fiscale 2024."
+      "answer": "États-Unis (fédéral), Royaume-Uni, Canada (fédéral), Australie, Allemagne, Singapour, France et Japon — tous mis à jour pour l'année fiscale 2026."
     },
     {
       "question": "Ce calculateur est-il précis ?",
@@ -44,87 +44,87 @@
   "variants": [
     {
       "variantSlug": "uk-income-tax-calculator",
-      "metaTitle": "Calculateur d'impôt sur le revenu UK 2024-25 — Revenu net & NI",
-      "metaDescription": "Calculez votre impôt sur le revenu au Royaume-Uni et votre assurance nationale pour 2024-25. Entrez votre salaire brut → voyez le revenu net, le taux effectif et les contributions NI.",
+      "metaTitle": "Calculateur d'impôt sur le revenu UK 2026-27 — Revenu net & NI",
+      "metaDescription": "Calculez votre impôt sur le revenu au Royaume-Uni et votre assurance nationale pour 2026-27. Entrez votre salaire brut → voyez le revenu net, le taux effectif et les contributions NI.",
       "keywords": [
         "calculateur d'impôt sur le revenu uk",
-        "calculateur fiscal uk 2024",
+        "calculateur fiscal uk 2026",
         "revenu net uk",
         "calculateur d'assurance nationale",
         "estimation fiscale hmrc"
       ],
       "defaultVariant": "uk",
-      "headline": "Calculez votre impôt sur le revenu et vos contributions à l'assurance nationale au Royaume-Uni pour 2024-25. Inclut le taper de l'Allocation Personnelle pour les hauts revenus."
+      "headline": "Calculez votre impôt sur le revenu et vos contributions à l'assurance nationale au Royaume-Uni pour 2026-27. Inclut le taper de l'Allocation Personnelle pour les hauts revenus."
     },
     {
       "variantSlug": "canada-income-tax-calculator",
-      "metaTitle": "Calculateur d'impôt sur le revenu Canada 2024 — Impôt fédéral & CPP/EI",
-      "metaDescription": "Calculez l'impôt sur le revenu fédéral canadien pour 2024. Inclut le crédit de Montant Personnel de Base, les contributions CPP et les primes EI. Estimation fiscale gratuite de l'ARC.",
+      "metaTitle": "Calculateur d'impôt sur le revenu Canada 2026 — Impôt fédéral & CPP/EI",
+      "metaDescription": "Calculez l'impôt sur le revenu fédéral canadien pour 2026. Inclut le crédit de Montant Personnel de Base, les contributions CPP et les primes EI. Estimation fiscale gratuite de l'ARC.",
       "keywords": [
         "calculateur d'impôt sur le revenu canada",
-        "calculateur fiscal canadien 2024",
+        "calculateur fiscal canadien 2026",
         "calculateur fiscal arc",
         "calculateur cpp ei",
         "revenu net canada"
       ],
       "defaultVariant": "ca",
-      "headline": "Calculez votre impôt sur le revenu fédéral canadien, vos contributions CPP et vos primes EI pour 2024. Les impôts provinciaux varient — ceci ne couvre que le fédéral."
+      "headline": "Calculez votre impôt sur le revenu fédéral canadien, vos contributions CPP et vos primes EI pour 2026. Les impôts provinciaux varient — ceci ne couvre que le fédéral."
     },
     {
       "variantSlug": "australia-income-tax-calculator",
-      "metaTitle": "Calculateur d'impôt sur le revenu Australie 2024-25 — Estimation fiscale ATO",
-      "metaDescription": "Calculez l'impôt sur le revenu australien pour 2024-25, y compris la contribution Medicare et le Crédit d'Impôt pour Faibles Revenus. Estimation fiscale gratuite de l'ATO pour les résidents et les non-résidents.",
+      "metaTitle": "Calculateur d'impôt sur le revenu Australie 2026-27 — Estimation fiscale ATO",
+      "metaDescription": "Calculez l'impôt sur le revenu australien pour 2026-27, y compris la contribution Medicare et le Crédit d'Impôt pour Faibles Revenus. Estimation fiscale gratuite de l'ATO pour les résidents et les non-résidents.",
       "keywords": [
         "calculateur d'impôt sur le revenu australie",
-        "calculateur fiscal ato 2024",
+        "calculateur fiscal ato 2026",
         "calculateur fiscal australien",
         "calculateur de contribution medicare",
         "revenu net australie"
       ],
       "defaultVariant": "au",
-      "headline": "Calculez votre impôt sur le revenu australien pour 2024-25, y compris la contribution Medicare de 2 % et le Crédit d'Impôt pour Faibles Revenus (LITO) pour les résidents."
+      "headline": "Calculez votre impôt sur le revenu australien pour 2026-27, y compris la contribution Medicare de 2 % et le Crédit d'Impôt pour Faibles Revenus (LITO) pour les résidents."
     },
     {
       "variantSlug": "germany-income-tax-calculator",
-      "metaTitle": "Calculateur d'impôt sur le revenu Allemagne 2024 — Einkommensteuer",
-      "metaDescription": "Calculez l'impôt sur le revenu allemand (Einkommensteuer) pour 2024. Inclut la surtaxe de solidarité et les contributions à la sécurité sociale. Estimation fiscale gratuite en Allemagne.",
+      "metaTitle": "Calculateur d'impôt sur le revenu Allemagne 2026 — Einkommensteuer",
+      "metaDescription": "Calculez l'impôt sur le revenu allemand (Einkommensteuer) pour 2026. Inclut la surtaxe de solidarité et les contributions à la sécurité sociale. Estimation fiscale gratuite en Allemagne.",
       "keywords": [
         "calculateur d'impôt sur le revenu allemagne",
-        "calculateur fiscal allemand 2024",
+        "calculateur fiscal allemand 2026",
         "calculateur einkommensteuer",
         "calculateur de surtaxe de solidarité",
         "revenu net allemagne"
       ],
       "defaultVariant": "de",
-      "headline": "Calculez votre impôt sur le revenu allemand (Einkommensteuer) pour 2024, y compris la surtaxe de solidarité (Soli) et les contributions à la sécurité sociale des employés."
+      "headline": "Calculez votre impôt sur le revenu allemand (Einkommensteuer) pour 2026, y compris la surtaxe de solidarité (Soli) et les contributions à la sécurité sociale des employés."
     },
     {
       "variantSlug": "singapore-income-tax-calculator",
-      "metaTitle": "Calculateur d'impôt sur le revenu Singapour 2024 — Estimation fiscale IRAS",
-      "metaDescription": "Calculez l'impôt sur le revenu personnel à Singapour pour l'année d'imposition 2024. Inclut les contributions CPF et l'allègement d'impôt sur le revenu. Estimation fiscale gratuite de l'IRAS.",
+      "metaTitle": "Calculateur d'impôt sur le revenu Singapour YA2027 — Estimation fiscale IRAS",
+      "metaDescription": "Calculez l'impôt sur le revenu personnel à Singapour pour YA2027 (revenus 2026). Inclut les contributions CPF et l'allègement d'impôt sur le revenu. Estimation fiscale gratuite de l'IRAS.",
       "keywords": [
         "calculateur d'impôt sur le revenu singapour",
         "calculateur fiscal iras",
-        "impôt singapour 2024",
+        "impôt singapour 2026",
         "calculateur cpf singapour",
         "revenu net singapour"
       ],
       "defaultVariant": "sg",
-      "headline": "Calculez votre impôt sur le revenu personnel à Singapour pour l'année d'imposition 2024. Inclut l'allègement d'impôt sur le revenu et les taux de contribution CPF par tranche d'âge."
+      "headline": "Calculez votre impôt sur le revenu personnel à Singapour pour YA2027 (revenus 2026). Inclut l'allègement d'impôt sur le revenu et les taux de contribution CPF par tranche d'âge."
     },
     {
       "variantSlug": "self-employed-tax-calculator",
-      "metaTitle": "Calculateur d'impôt pour travailleurs indépendants USA 2024 — Impôt SE + Fédéral",
-      "metaDescription": "Calculez l'impôt sur le revenu des travailleurs indépendants et l'impôt fédéral aux États-Unis pour 2024. Inclut un impôt SE de 15,3 % et une déduction de moitié pour le SE. Estimation fiscale gratuite pour freelances.",
+      "metaTitle": "Calculateur d'impôt pour travailleurs indépendants USA 2026 — Impôt SE + Fédéral",
+      "metaDescription": "Calculez l'impôt sur le revenu des travailleurs indépendants et l'impôt fédéral aux États-Unis pour 2026. Inclut un impôt SE de 15,3 % et une déduction de moitié pour le SE. Estimation fiscale gratuite pour freelances.",
       "keywords": [
         "calculateur d'impôt pour travailleurs indépendants",
         "calculateur fiscal freelance usa",
-        "impôt sur le revenu des travailleurs indépendants 2024",
+        "impôt sur le revenu des travailleurs indépendants 2026",
         "calculateur fiscal 1099",
         "calculateur fiscal schedule c"
       ],
       "defaultVariant": "self-employed",
-      "headline": "Calculez votre impôt sur le revenu des travailleurs indépendants aux États-Unis plus l'impôt fédéral pour 2024. Affiche l'impôt SE (15,3 %), la déduction de moitié pour le SE et votre charge fiscale totale."
+      "headline": "Calculez votre impôt sur le revenu des travailleurs indépendants aux États-Unis plus l'impôt fédéral pour 2026. Affiche l'impôt SE (15,3 %), la déduction de moitié pour le SE et votre charge fiscale totale."
     }
   ]
 }
