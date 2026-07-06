@@ -2,17 +2,16 @@
   "slug": "tax-calculator",
   "name": "Income Tax Calculator",
   "tagline": "Calculate income tax for USA, UK, Canada, Australia and more",
-  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2024 tax year.",
-  "metaTitle": "Income Tax Calculator 2024 — USA, UK, Canada, Australia & More",
-  "metaDescription": "Free income tax calculator for 7 countries. Enter income → see tax owed, effective rate, and take-home pay instantly. Updated for 2024.",
+  "description": "Free income tax calculator covering 7 countries — USA, UK, Canada, Australia, Germany, Singapore, France, and Japan. Enter your income to instantly see tax owed, effective rate, and take-home pay. Updated for 2026 tax year.",
+  "metaTitle": "Income Tax Calculator 2026 — USA, UK, Canada, Australia & More",
+  "metaDescription": "Free income tax calculator for 7 countries. Enter income → see tax owed, effective rate, and take-home pay instantly. Updated for 2026.",
   "keywords": [
     "income tax calculator",
-    "tax calculator 2024",
+    "tax calculator 2026",
     "how much tax do i pay",
     "take home pay calculator",
     "global tax calculator",
     "income tax calculator ay 2025 26",
-    "income tax calculator fy 2024 25",
     "income tax calculator ay 2026 27",
     "income tax calculator uk",
     "income tax calculator ontario",
@@ -32,7 +31,7 @@
   "faqs": [
     {
       "question": "Which countries does this calculator cover?",
-      "answer": "USA (federal), UK, Canada (federal), Australia, Germany, Singapore, France, and Japan — all updated for the 2024 tax year."
+      "answer": "USA (federal), UK, Canada (federal), Australia, Germany, Singapore, France, and Japan — all updated for the 2026 tax year."
     },
     {
       "question": "Is this calculator accurate?",
@@ -59,109 +58,109 @@
   "variants": [
     {
       "variantSlug": "uk-income-tax-calculator",
-      "metaTitle": "UK Income Tax Calculator 2024-25 — Take Home Pay & NI",
-      "metaDescription": "Calculate your UK income tax and National Insurance for 2024-25. Enter gross salary → see take-home pay, effective rate, and NI contributions.",
+      "metaTitle": "UK Income Tax Calculator 2026-27 — Take Home Pay & NI",
+      "metaDescription": "Calculate your UK income tax and National Insurance for 2026-27. Enter gross salary → see take-home pay, effective rate, and NI contributions.",
       "keywords": [
         "uk income tax calculator",
-        "uk tax calculator 2024",
+        "uk tax calculator 2026",
         "take home pay uk",
         "national insurance calculator",
         "hmrc tax estimate"
       ],
       "defaultVariant": "uk",
-      "headline": "Calculate your UK income tax and National Insurance contributions for 2024-25. Includes Personal Allowance taper for high earners."
+      "headline": "Calculate your UK income tax and National Insurance contributions for 2026-27. Includes Personal Allowance taper for high earners."
     },
     {
       "variantSlug": "canada-income-tax-calculator",
-      "metaTitle": "Canada Income Tax Calculator 2024 — Federal Tax & CPP/EI",
-      "metaDescription": "Calculate Canadian federal income tax for 2024. Includes Basic Personal Amount credit, CPP contributions, and EI premiums. Free CRA tax estimator.",
+      "metaTitle": "Canada Income Tax Calculator 2026 — Federal Tax & CPP/EI",
+      "metaDescription": "Calculate Canadian federal income tax for 2026. Includes Basic Personal Amount credit, CPP contributions, and EI premiums. Free CRA tax estimator.",
       "keywords": [
         "canada income tax calculator",
-        "canadian tax calculator 2024",
+        "canadian tax calculator 2026",
         "cra tax calculator",
         "cpp ei calculator",
         "canada take home pay"
       ],
       "defaultVariant": "ca",
-      "headline": "Calculate your Canadian federal income tax, CPP contributions, and EI premiums for 2024. Provincial taxes vary — this covers federal only."
+      "headline": "Calculate your Canadian federal income tax, CPP contributions, and EI premiums for 2026. Provincial taxes vary — this covers federal only."
     },
     {
       "variantSlug": "australia-income-tax-calculator",
-      "metaTitle": "Australia Income Tax Calculator 2024-25 — ATO Tax Estimate",
-      "metaDescription": "Calculate Australian income tax for 2024-25 including Medicare Levy and Low Income Tax Offset. Free ATO tax estimator for residents and non-residents.",
+      "metaTitle": "Australia Income Tax Calculator 2026-27 — ATO Tax Estimate",
+      "metaDescription": "Calculate Australian income tax for 2026-27 including Medicare Levy and Low Income Tax Offset. Free ATO tax estimator for residents and non-residents.",
       "keywords": [
         "australia income tax calculator",
-        "ato tax calculator 2024",
+        "ato tax calculator 2026",
         "australian tax calculator",
         "medicare levy calculator",
         "take home pay australia"
       ],
       "defaultVariant": "au",
-      "headline": "Calculate your Australian income tax for 2024-25, including the 2% Medicare Levy and Low Income Tax Offset (LITO) for residents."
+      "headline": "Calculate your Australian income tax for 2026-27, including the 2% Medicare Levy and Low Income Tax Offset (LITO) for residents."
     },
     {
       "variantSlug": "germany-income-tax-calculator",
-      "metaTitle": "Germany Income Tax Calculator 2024 — Einkommensteuer",
-      "metaDescription": "Calculate German income tax (Einkommensteuer) for 2024. Includes solidarity surcharge and social security contributions. Free German tax estimator.",
+      "metaTitle": "Germany Income Tax Calculator 2026 — Einkommensteuer",
+      "metaDescription": "Calculate German income tax (Einkommensteuer) for 2026. Includes solidarity surcharge and social security contributions. Free German tax estimator.",
       "keywords": [
         "germany income tax calculator",
-        "german tax calculator 2024",
+        "german tax calculator 2026",
         "einkommensteuer rechner",
         "solidarity surcharge calculator",
         "germany take home pay"
       ],
       "defaultVariant": "de",
-      "headline": "Calculate your German income tax (Einkommensteuer) for 2024, including the solidarity surcharge (Soli) and employee social security contributions."
+      "headline": "Calculate your German income tax (Einkommensteuer) for 2026, including the solidarity surcharge (Soli) and employee social security contributions."
     },
     {
       "variantSlug": "singapore-income-tax-calculator",
-      "metaTitle": "Singapore Income Tax Calculator 2024 — IRAS Tax Estimate",
-      "metaDescription": "Calculate Singapore personal income tax for YA2024. Includes CPF contributions and Earned Income Relief. Free IRAS tax estimator.",
+      "metaTitle": "Singapore Income Tax Calculator YA2027 — IRAS Tax Estimate",
+      "metaDescription": "Calculate Singapore personal income tax for YA2027. Includes CPF contributions and Earned Income Relief. Free IRAS tax estimator.",
       "keywords": [
         "singapore income tax calculator",
         "iras tax calculator",
-        "singapore tax 2024",
+        "singapore tax 2026",
         "cpf calculator singapore",
         "singapore take home pay"
       ],
       "defaultVariant": "sg",
-      "headline": "Calculate your Singapore personal income tax for YA2024. Includes Earned Income Relief and CPF contribution rates by age group."
+      "headline": "Calculate your Singapore personal income tax for YA2027 (income earned in 2026). Includes Earned Income Relief and CPF contribution rates by age group."
     },
     {
       "variantSlug": "self-employed-tax-calculator",
-      "metaTitle": "Self-Employed Tax Calculator USA 2024 — SE Tax + Federal",
-      "metaDescription": "Calculate US self-employment tax and federal income tax for 2024. Includes 15.3% SE tax and half-SE deduction. Free freelancer tax estimator.",
+      "metaTitle": "Self-Employed Tax Calculator USA 2026 — SE Tax + Federal",
+      "metaDescription": "Calculate US self-employment tax and federal income tax for 2026. Includes 15.3% SE tax and half-SE deduction. Free freelancer tax estimator.",
       "keywords": [
         "self employed tax calculator",
         "freelancer tax calculator usa",
-        "self employment tax 2024",
+        "self employment tax 2026",
         "1099 tax calculator",
         "schedule c tax calculator"
       ],
       "defaultVariant": "self-employed",
-      "headline": "Calculate your US self-employment tax plus federal income tax for 2024. Shows SE tax (15.3%), the half-SE deduction, and your total tax burden."
+      "headline": "Calculate your US self-employment tax plus federal income tax for 2026. Shows SE tax (15.3%), the half-SE deduction, and your total tax burden."
     }
   ],
   "seoBody": [
     {
       "heading": "What an Income Tax Calculator Actually Computes Behind the Scenes",
-      "body": "An income tax calculator does more than simple multiplication. Progressive tax systems — used by every country this tool covers — apply different rates to different slices of your income. Your first $11,600 in the US might be taxed at 10%, while income above $191,950 gets hit at 32%. The calculator automatically splits your total earnings into these brackets and sums up what you owe from each layer.\n\nBeyond income tax, the tool accounts for mandatory contributions that feel a lot like taxes. UK National Insurance, Canadian CPP and EI contributions, Australia's Medicare Levy, and German social security all reduce your take-home pay. These aren't optional deductions you can skip. By showing them separately, the calculator helps you see exactly where your money goes before it reaches your bank account.\n\nThe result is two key numbers: your effective tax rate and your net pay. Your effective rate tells you what percentage of your total income actually went to taxes, which is always lower than your marginal rate because those early dollars are taxed lightly."
+      "body": "An income tax calculator does more than simple multiplication. Progressive tax systems — used by every country this tool covers — apply different rates to different slices of your income. Your first $11,925 in the US might be taxed at 10%, while income above $197,300 gets hit at 32%. The calculator automatically splits your total earnings into these brackets and sums up what you owe from each layer.\n\nBeyond income tax, the tool accounts for mandatory contributions that feel a lot like taxes. UK National Insurance, Canadian CPP and EI contributions, Australia's Medicare Levy, and German social security all reduce your take-home pay. These aren't optional deductions you can skip. By showing them separately, the calculator helps you see exactly where your money goes before it reaches your bank account.\n\nThe result is two key numbers: your effective tax rate and your net pay. Your effective rate tells you what percentage of your total income actually went to taxes, which is always lower than your marginal rate because those early dollars are taxed lightly."
     },
     {
       "heading": "How Progressive Tax Brackets Work, With Real Numbers",
-      "body": "Let's trace through a US federal calculation for $85,000 in 2024. The first $11,600 is taxed at 10%, giving $1,160. The next slice from $11,600 to $47,150 is taxed at 12%, which comes to $4,266. Then income from $47,150 to $85,000 lands in the 22% bracket, adding $8,327. Total federal income tax: $13,753. Your effective rate is just 16.2%, even though your marginal rate is 22%.\n\nUK calculations layer National Insurance on top. On £50,000, you'd owe roughly £7,486 in income tax after the £12,570 personal allowance, plus about £4,265 in National Insurance. That's £11,751 in combined deductions, leaving you with £38,249 net. The effective tax rate sits around 23.5% when you count both.\n\nGermany adds complexity with solidarity surcharges and church tax. A €60,000 salary might see €12,000 in income tax plus roughly €11,000 in social security. German take-home pay tends to surprise people used to lower-tax systems."
+      "body": "Let's trace through a US federal calculation for $85,000 in 2026. After the $15,000 standard deduction, taxable income is $70,000. The first $11,925 is taxed at 10% ($1,193), the next $36,550 at 12% ($4,386), and the remaining $21,525 at 22% ($4,736). Total federal income tax: $10,315. Your effective rate is about 12.1%, even though your marginal rate is 22%.\n\nUK calculations layer National Insurance on top. On £50,000, you'd owe roughly £7,406 in income tax after the £12,970 personal allowance, plus about £2,962 in National Insurance at 8%. That's £10,368 in combined deductions, leaving you with about £39,632 net. The effective tax rate sits around 20.7% when you count both.\n\nGermany adds complexity with solidarity surcharges and church tax. A €60,000 salary might see €12,000 in income tax plus roughly €11,000 in social security. German take-home pay tends to surprise people used to lower-tax systems."
     },
     {
       "heading": "Planning a Job Offer Comparison Across Two Countries",
-      "body": "Imagine you're a software developer weighing a €75,000 offer in Germany against a £60,000 offer in London. Raw numbers favor Germany by about €15,000. But taxes tell a different story. The German role leaves you with roughly €45,500 after income tax and social contributions. The UK position nets about £44,800. Suddenly the gap shrinks to almost nothing — maybe €500 per month difference.\n\nThis calculator lets you run both scenarios in seconds. Enter €75,000 for Germany, note the net figure, then switch to UK and enter £60,000. You're comparing actual purchasing power rather than headline salaries. Factor in rent differences and the \"better\" offer might flip entirely.\n\nPeople often forget that marginal rates matter for negotiating raises too. If your UK salary jumps from £50,270 to £55,000, that extra £4,730 gets taxed at 40% instead of 20%. You keep only about £2,838 of it. Knowing this helps you negotiate smarter — maybe request better benefits instead of pure cash."
+      "body": "Imagine you're a software developer weighing a €75,000 offer in Germany against a £60,000 offer in London. Raw numbers favor Germany by about €15,000. But taxes tell a different story. The German role leaves you with roughly €45,500 after income tax and social contributions. The UK position nets about £44,800. Suddenly the gap shrinks to almost nothing — maybe €500 per month difference.\n\nThis calculator lets you run both scenarios in seconds. Enter €75,000 for Germany, note the net figure, then switch to UK and enter £60,000. You're comparing actual purchasing power rather than headline salaries. Factor in rent differences and the \"better\" offer might flip entirely.\n\nPeople often forget that marginal rates matter for negotiating raises too. If your UK salary jumps from £51,970 to £55,000, that extra £3,030 gets taxed at 40% instead of 20%. You keep only about £1,818 of it. Knowing this helps you negotiate smarter — maybe request better benefits instead of pure cash."
     },
     {
       "heading": "Two Overlooked Uses: Freelance Planning and Retirement Timing",
-      "body": "Freelancers face an extra hit that employees don't always see: self-employment tax. In the US, you owe an additional 15.3% on top of income tax to cover both employer and employee portions of Social Security and Medicare. A freelancer earning $100,000 might assume they'll keep $78,000 after federal tax. Wrong. Add roughly $14,130 in self-employment tax and you're closer to $64,000. This calculator shows that line separately so you don't underestimate quarterly payments.\n\nRetirement timing is another overlooked application. In Australia, income above $190,000 triggers an additional 2% Medicare Levy Surcharge if you lack private health insurance. Someone earning $195,000 might pay an extra $3,900 just for crossing that threshold. If you control your income — through salary sacrifice or timing capital gains — you can stay just under these cliffs. The calculator helps you model different income scenarios to find the sweet spot."
+      "body": "Freelancers face an extra hit that employees don't always see: self-employment tax. In the US, you owe an additional 15.3% on top of income tax to cover both employer and employee portions of Social Security and Medicare. A freelancer earning $100,000 in 2026 might assume they'll keep $80,000 after federal tax. Wrong. Add roughly $14,130 in self-employment tax and you're closer to $66,000. This calculator shows that line separately so you don't underestimate quarterly payments.\n\nRetirement timing is another overlooked application. In Australia, income above $190,000 triggers an additional 2% Medicare Levy Surcharge if you lack private health insurance. Someone earning $195,000 might pay an extra $3,900 just for crossing that threshold. If you control your income — through salary sacrifice or timing capital gains — you can stay just under these cliffs. The calculator helps you model different income scenarios to find the sweet spot."
     },
     {
       "heading": "Common Mistakes That Lead to Nasty Tax Surprises",
-      "body": "The biggest error is confusing gross and net income. If you enter $80,000 but you've already mentally subtracted your 401(k) contributions, your estimate will be off. Always enter total salary before any deductions. The calculator shows gross-to-net; it can't work backward from what you actually deposited.\n\nAnother trap is ignoring state and provincial taxes. This tool calculates federal tax for the US and Canada. New York adds up to 10.9% on top; Ontario charges roughly 5% to 13%. Someone earning $100,000 in California faces a combined federal-plus-state rate near 35%, not the 22% federal marginal bracket they see here. Treat these results as a floor, not a ceiling.\n\nFinally, people forget that brackets reset each tax year. If you're checking rates in early 2025 using 2024 brackets, thresholds may have shifted slightly due to inflation adjustments. The calculator updates annually, but always confirm you're looking at the right tax year before making big financial decisions."
+      "body": "The biggest error is confusing gross and net income. If you enter $80,000 but you've already mentally subtracted your 401(k) contributions, your estimate will be off. Always enter total salary before any deductions. The calculator shows gross-to-net; it can't work backward from what you actually deposited.\n\nAnother trap is ignoring state and provincial taxes. This tool calculates federal tax for the US and Canada. New York adds up to 10.9% on top; Ontario charges roughly 5% to 13%. Someone earning $100,000 in California faces a combined federal-plus-state rate near 35%, not the 22% federal marginal bracket they see here. Treat these results as a floor, not a ceiling.\n\nFinally, people forget that brackets reset each tax year. If you're checking rates in early 2027 using 2026 brackets, thresholds may have shifted slightly due to inflation adjustments. The calculator updates annually, but always confirm you're looking at the right tax year before making big financial decisions."
     }
   ],
   "programmaticPages": [
