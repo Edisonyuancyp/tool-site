@@ -89,6 +89,27 @@ def choose_suggestion(suggestions: list, choice: int) -> dict:
     return suggestions[choice - 1]
 
 
+# Patterns that historically produced spammy / clickbait titles and descriptions.
+_SPAMMY_PATTERNS = [
+    r"\b202[0-9]\b",  # any year like 2026, 2027
+    r"\bTry now!",
+    r"\bStart now!",
+    r"\bBoost Your\b.*\bInstantly\b",
+    r"\bMaximize\b.*\bInstantly\b",
+    r"\bUnlock\b.*\bInstantly\b",
+    r"\bDiscover\b.*\bInstantly\b",
+    r"\bFree & Instant\b",
+]
+_SPAMMY_RE = re.compile("|".join(_SPAMMY_PATTERNS), re.IGNORECASE)
+
+
+def is_spammy_suggestion(suggestion: dict) -> bool:
+    """Return True if the suggestion contains low-quality clickbait patterns."""
+    title = suggestion.get("new_title", "")
+    desc = suggestion.get("new_description", "")
+    return bool(_SPAMMY_RE.search(title)) or bool(_SPAMMY_RE.search(desc))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Apply AI SEO suggestions to registry meta.json files")
     parser.add_argument("--choice", type=int, default=1, help="Suggestion index to apply (1-based, default 1)")
@@ -136,6 +157,9 @@ def main() -> int:
                         break
                     if 1 <= choice <= len(item["suggestions"]):
                         suggestion = choose_suggestion(item["suggestions"], choice)
+                        if is_spammy_suggestion(suggestion):
+                            print("Rejected: suggestion looks spammy/clickbait. Pick another or 0 to skip.")
+                            continue
                         break
                 except ValueError:
                     pass
@@ -144,6 +168,10 @@ def main() -> int:
                 continue
         else:
             suggestion = choose_suggestion(item["suggestions"], args.choice)
+
+        if is_spammy_suggestion(suggestion):
+            skipped.append({"url": url, "reason": "Suggestion rejected as spammy/clickbait"})
+            continue
 
         if args.dry_run:
             print(f"[dry-run] Would update {url}")

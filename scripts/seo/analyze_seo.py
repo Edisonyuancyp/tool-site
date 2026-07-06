@@ -10,7 +10,6 @@ import json
 import os
 import sys
 from pathlib import Path
-from datetime import datetime
 from typing import Any
 
 from dotenv import load_dotenv
@@ -38,19 +37,21 @@ def get_required_env(name: str) -> str:
 
 def build_prompt(candidates: list[dict[str, Any]]) -> str:
     """Compose the SEO analysis prompt in Chinese as requested."""
-    current_year = datetime.now().year
     data_block = json.dumps(candidates, ensure_ascii=False, indent=2)
     prompt = f"""作为 SEO 专家，分析以下在 Google 搜索结果中排名约 50 且点击率为 0 的页面。
-当前年份是 {current_year} 年，请使用 {current_year} 而不是其他年份。
-这些页面有展示次数但没有任何点击，说明标题（title）和描述（description）可能不够吸引用户。
+这些页面有展示次数但没有任何点击，说明标题（title）和描述（description）可能不够吸引用户或搜索意图不匹配。
 
 数据如下（JSON 格式）：
 {data_block}
 
 针对每个 URL，请完成以下任务：
 1. 简要分析为什么当前标题和描述导致点击率为 0（用户痛点、搜索意图不匹配、标题不够具体等）。
-2. 提出 3 个更具点击吸引力的优化建议，每个建议应包含新的标题和描述。
-3. 优化方向必须侧重：增加年份、突出痛点/利益点、加入明确的行动点（如“免费使用”、“立即计算”、“在线查看”）。
+2. 提出 3 个优化建议，每个建议应包含新的标题和描述。
+3. 优化方向必须：
+   - 标题优先包含核心关键词，描述补充具体功能和价值；
+   - 不要为了吸引点击而添加年份（如“2026”）、夸张词（如“Instantly”、“Boost”、“Maximize”、“Unlock”）或号召性用语（如“Try now!”、“Start now!”）；
+   - 除非页面本身就是年度工具（如税务计算器），否则禁止在标题中插入年份；
+   - 保持自然、信息性，符合搜索意图。
 4. 以 JSON 数组返回，每个元素包含：url、current_title、current_description、analysis、suggestions（含 new_title、new_description、reason）。
 
 请只返回 JSON，不要返回 Markdown 代码块或其他解释文字。"""
