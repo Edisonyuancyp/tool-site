@@ -115,15 +115,18 @@ export default function RootLayout({
         <Script id="kofi-init" strategy="afterInteractive">
           {`
             (function waitKofi() {
-              if (typeof kofiWidgetOverlay !== 'undefined') {
+              if (typeof kofiWidgetOverlay === 'undefined') {
+                setTimeout(waitKofi, 500);
+                return;
+              }
+              // Only show on desktop/large tablets so it doesn't cover the mobile bottom nav
+              if (window.innerWidth >= 1024) {
                 kofiWidgetOverlay.draw('getfastcalc', {
                   'type': 'floating-chat',
                   'floating-chat.donateButton.text': 'Support me',
                   'floating-chat.donateButton.background-color': '#00b9fe',
                   'floating-chat.donateButton.text-color': '#fff'
                 });
-              } else {
-                setTimeout(waitKofi, 500);
               }
             })();
           `}

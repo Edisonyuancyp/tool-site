@@ -21,3 +21,13 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* Hide Ko-fi floating chat widget on mobile so it doesn't cover the bottom nav */
+@media (max-width: 1024px) {
+  iframe[src*="ko-fi.com"],
+  iframe[src*="kofi"],
+  div[class*="kofi"],
+  div[id*="kofi"] {
+    display: none !important;
+  }
+}

@@ -400,6 +400,7 @@
   "delivery-tip-calculator": "/tools/calc/delivery-tip-calculator",
   "taxi-tip-calculator": "/tools/calc/taxi-tip-calculator",
   "title-optimization-tool": "/tools/seo/title-optimization-tool",
+  "title-checker": "/tools/seo/title-checker",
   "advanced-title-generator": "/tools/seo/advanced-title-generator",
   "quick-title-generator": "/tools/seo/quick-title-generator",
   "token-splitter": "/tools/ai/token-splitter",

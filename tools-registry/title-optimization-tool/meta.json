@@ -3,10 +3,15 @@
   "name": "Title Optimization Tool",
   "tagline": "Generate compelling SEO titles",
   "description": "Create optimized titles that are both engaging and SEO-friendly. Perfect for bloggers and content creators looking to enhance their website's visibility.",
-  "metaTitle": "SEO Title Generator – Optimize Page Titles | Free Online Tool",
-  "metaDescription": "Instantly generate SEO-optimized titles for your content. Free, no signup required, and get immediate results.",
+  "metaTitle": "SEO Title Checker & Generator – Optimize Page Titles | Free Online Tool",
+  "metaDescription": "Check, analyze and generate SEO-optimized titles for your content. Free online title checker with instant suggestions, no signup required.",
   "keywords": [
+    "seo title checker",
+    "title checker seo",
+    "title seo check",
     "seo title generator",
+    "title checker",
+    "seo title checker free",
     "optimize titles",
     "title suggestions",
     "engaging titles",
@@ -49,6 +54,22 @@
     "keyword-density-checker"
   ],
   "variants": [
+    {
+      "variantSlug": "title-checker",
+      "metaTitle": "SEO Title Checker – Analyze & Optimize Page Titles Free",
+      "metaDescription": "Free SEO title checker. Instantly analyze your page titles for length, keywords and click-through potential. No signup required.",
+      "keywords": [
+        "seo title checker",
+        "title checker seo",
+        "title seo check",
+        "title checker",
+        "seo title checker free",
+        "check seo title",
+        "page title checker"
+      ],
+      "defaultVariant": "title-checker-key",
+      "headline": "Paste your title below to check its SEO strength and get optimization suggestions."
+    },
     {
       "variantSlug": "advanced-title-generator",
       "metaTitle": "Advanced Title Generator for SEO",
