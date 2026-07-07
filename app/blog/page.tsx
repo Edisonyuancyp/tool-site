@@ -40,6 +40,46 @@ const POSTS = [
     tag: "Quant Trading",
     readTime: "5 min read",
   },
+  {
+    slug: "how-to-calculate-profit-for-amazon-fba-products",
+    title: "How do I calculate my profit for Amazon FBA products?",
+    excerpt: "Learn how to calculate your profit for Amazon FBA products using our free FBA Profit Calculator tool.",
+    date: "2026-07-07",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-manage-ai-prompt-tokens",
+    title: "How can I effectively manage my AI prompt tokens?",
+    excerpt: "Curious about managing AI prompt tokens? Discover how our free tool can help you optimize your token usage.",
+    date: "2026-07-07",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "effectively-manage-text-tokens-ai-applications",
+    title: "How Can I Effectively Manage Text Tokens for AI Applications?",
+    excerpt: "Discover how to effectively manage text tokens for AI applications using our free Token Splitter tool.",
+    date: "2026-07-07",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-create-an-seo-friendly-title",
+    title: "How to Create an SEO-Friendly Title for Your Blog Post",
+    excerpt: "Learn how to create an SEO-friendly title for your blog post using our free tool.",
+    date: "2026-07-07",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-create-schema-markup-easily",
+    title: "How to Create Schema Markup for Your Website Easily?",
+    excerpt: "Learn how to create schema markup easily with our free tool. Boost your SEO and enhance search results effortlessly.",
+    date: "2026-07-07",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
 ];
 
 export default function BlogPage() {
