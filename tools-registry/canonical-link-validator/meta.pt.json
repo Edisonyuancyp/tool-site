@@ -1,0 +1,48 @@
+{
+  "slug": "canonical-link-validator",
+  "name": "Validador de Links Canônicos",
+  "tagline": "Verifique seus links canônicos em busca de problemas",
+  "description": "Valide suas tags canônicas para garantir uma indexação adequada e evitar problemas de conteúdo duplicado. Perfeito para profissionais de SEO que garantem que suas páginas da web estejam otimizadas.",
+  "metaTitle": "Validador de Links Canônicos – Ferramenta de SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Verifique seus links canônicos gratuitamente. Garanta que seu SEO esteja em dia com validação instantânea, sem necessidade de cadastro.",
+  "keywords": [
+    "validador de links canônicos",
+    "validação de seo",
+    "verificar tags canônicas",
+    "conteúdo duplicado",
+    "ferramentas de seo",
+    "validador de tags canônicas",
+    "verificador de links canônicos",
+    "validação de seo online",
+    "ferramenta de validação de seo",
+    "significado de validação de seo",
+    "validação de seo google",
+    "validação w3c seo",
+    "diretrizes de seo",
+    "verificar tag canônica online",
+    "verificar url canônica",
+    "verificar url canônica online",
+    "código da tag canônica"
+  ],
+  "category": "SEO",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "O que faz um link canônico?",
+      "answer": "Um link canônico informa aos motores de busca qual versão de uma página é a preferida."
+    },
+    {
+      "question": "É gratuito usar?",
+      "answer": "Sim, o validador de links canônicos é completamente gratuito e não requer cadastro."
+    },
+    {
+      "question": "Posso verificar múltiplos links?",
+      "answer": "Sim, você pode validar vários links canônicos ao mesmo tempo."
+    }
+  ],
+  "relatedTools": [
+    "robots-txt-generator",
+    "schema-generator"
+  ],
+  "variants": []
+}

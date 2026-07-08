@@ -1,0 +1,48 @@
+{
+  "slug": "canonical-link-validator",
+  "name": "规范链接验证工具",
+  "tagline": "检查您的规范链接是否存在问题",
+  "description": "验证您的规范标签，以确保正确索引并避免重复内容问题。非常适合确保网页优化的SEO专业人士。",
+  "metaTitle": "规范链接验证工具 – SEO工具 | 免费在线工具",
+  "metaDescription": "免费检查您的规范链接。通过即时验证确保您的SEO到位，无需注册。",
+  "keywords": [
+    "规范链接验证工具",
+    "SEO验证",
+    "检查规范标签",
+    "重复内容",
+    "SEO工具",
+    "规范标签验证器",
+    "规范链接检查器",
+    "在线SEO验证",
+    "SEO验证工具",
+    "SEO验证含义",
+    "谷歌SEO验证",
+    "W3C验证SEO",
+    "SEO指南",
+    "在线检查规范标签",
+    "检查规范网址",
+    "在线检查规范网址",
+    "规范标签代码"
+  ],
+  "category": "SEO",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "规范链接有什么作用？",
+      "answer": "规范链接告诉搜索引擎哪个版本的页面是首选的。"
+    },
+    {
+      "question": "使用这个工具是免费的吗？",
+      "answer": "是的，规范链接验证工具完全免费，无需注册。"
+    },
+    {
+      "question": "我可以检查多个链接吗？",
+      "answer": "可以，您可以一次验证多个规范链接。"
+    }
+  ],
+  "relatedTools": [
+    "robots-txt-generator",
+    "schema-generator"
+  ],
+  "variants": []
+}

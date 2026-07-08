@@ -1,0 +1,51 @@
+{
+  "slug": "meta-title-generator",
+  "name": "Meta Title Generator",
+  "tagline": "Erstellen Sie sofort ansprechende Meta-Titel",
+  "description": "Generieren Sie mühelos ansprechende Meta-Titel für Ihre Webseiten. Perfekt für SEO-Spezialisten und Content-Ersteller, die die Sichtbarkeit ihrer Seite verbessern möchten.",
+  "metaTitle": "Meta Title Generator – SEO Titel Tool | Kostenloses Online-Tool",
+  "metaDescription": "Generieren Sie sofort kostenlos Meta-Titel. Verbessern Sie Ihr SEO mit ansprechenden Titeln, keine Anmeldung erforderlich.",
+  "keywords": [
+    "meta titel generator",
+    "seo titel tool",
+    "meta titel erstellen",
+    "seo titel",
+    "titelvorschläge",
+    "kostenloser meta titel generator",
+    "meta titel generator von url",
+    "meta titel generator tool",
+    "meta titel generator semrush",
+    "meta name generator",
+    "meta name generator inhalt",
+    "meta name generator inhalt odoo /",
+    "kostenloser meta titel generator",
+    "kostenloser ai meta titel generator",
+    "kostenloser seo meta titel generator",
+    "was ist ein meta titel",
+    "meta titel vs titel",
+    "meta titel beispiel",
+    "seo titel generator tool",
+    "seo titel optimierungstool"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Wie funktioniert dieses Tool?",
+      "answer": "Geben Sie einfach Ihre Schlüsselwörter ein, und das Tool generiert optimierte Meta-Titel für Sie."
+    },
+    {
+      "question": "Ist es wirklich kostenlos?",
+      "answer": "Ja, dieses Tool ist völlig kostenlos zu nutzen, ohne dass eine Anmeldung erforderlich ist."
+    },
+    {
+      "question": "Kann ich es für mehrere Seiten verwenden?",
+      "answer": "Absolut! Sie können Titel für so viele Seiten generieren, wie Sie benötigen."
+    }
+  ],
+  "relatedTools": [
+    "slug-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

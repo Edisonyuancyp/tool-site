@@ -1,0 +1,51 @@
+{
+  "slug": "robots-txt-generator",
+  "name": "Gerador de Robots.txt",
+  "tagline": "Crie facilmente seu arquivo robots.txt",
+  "description": "Gere um arquivo robots.txt personalizado para guiar os crawlers dos motores de busca. Ideal para webmasters e profissionais de SEO que desejam otimizar a indexação do seu site.",
+  "metaTitle": "Gerador de Robots.txt – Ferramenta de SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Crie um arquivo robots.txt gratuitamente. Controle a indexação do seu site com resultados instantâneos, sem necessidade de cadastro.",
+  "keywords": [
+    "gerador de robots.txt",
+    "arquivo de robots para seo",
+    "criar robots.txt",
+    "indexação de site",
+    "ferramentas de seo",
+    "gerador de robots.txt gratuito",
+    "gerador de robots.txt para blogger",
+    "gerador de robots.txt online",
+    "gerador de robots txt wordpress",
+    "gerador de robots txt google",
+    "ferramenta gerador de robots.txt",
+    "gerador de robots txt small seo tools",
+    "exemplo de robots.txt",
+    "como funciona o robots.txt",
+    "gerador de robots.txt gratuito",
+    "gerador de robots txt personalizado gratuito para blogger",
+    "o robots.txt é necessário",
+    "arquivo robots.txt otimizado para seo",
+    "arquivo robots txt yoast seo",
+    "arquivo robots seo"
+  ],
+  "category": "SEO",
+  "icon": "🤖",
+  "faqs": [
+    {
+      "question": "O que é um arquivo robots.txt?",
+      "answer": "Um arquivo robots.txt informa aos motores de busca quais páginas devem ser rastreadas ou não no seu site."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, o gerador de robots.txt é completamente gratuito, sem necessidade de registro."
+    },
+    {
+      "question": "Posso modificar o arquivo gerado?",
+      "answer": "Sim, você pode personalizar as configurações antes de gerar seu arquivo robots.txt."
+    }
+  ],
+  "relatedTools": [
+    "canonical-checker",
+    "schema-generator"
+  ],
+  "variants": []
+}

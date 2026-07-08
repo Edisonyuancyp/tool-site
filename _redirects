@@ -43,6 +43,9 @@
 /tools/zero-based-budget-calculator /tools/calc/zero-based-budget-calculator 301
 /tools/monthly-budget-calculator /tools/calc/monthly-budget-calculator 301
 /tools/weekly-budget-calculator /tools/calc/weekly-budget-calculator 301
+/tools/canonical-link-validator /tools/seo/canonical-link-validator 301
+/tools/detailed-canonical-validator /tools/seo/detailed-canonical-validator 301
+/tools/quick-canonical-validator /tools/seo/quick-canonical-validator 301
 /tools/canonical-url-checker /tools/seo/canonical-url-checker 301
 /tools/batch-canonical-url-checker /tools/seo/batch-canonical-url-checker 301
 /tools/canonical-url-report-generator /tools/seo/canonical-url-report-generator 301
@@ -250,6 +253,9 @@
 /tools/meta-description-generator /tools/seo/meta-description-generator 301
 /tools/keyword-focused-meta-generator /tools/seo/keyword-focused-meta-generator 301
 /tools/character-limited-meta-generator /tools/seo/character-limited-meta-generator 301
+/tools/meta-title-generator /tools/seo/meta-title-generator 301
+/tools/advanced-meta-title-generator /tools/seo/advanced-meta-title-generator 301
+/tools/quick-meta-title-generator /tools/seo/quick-meta-title-generator 301
 /tools/ovulation-calculator /tools/calc/ovulation-calculator 301
 /tools/fertile-window-calculator /tools/calc/fertile-window-calculator 301
 /tools/period-tracker-calculator /tools/calc/period-tracker-calculator 301
@@ -326,6 +332,9 @@
 /tools/random-number-1-10 /tools/design/random-number-1-10 301
 /tools/random-number-1-100 /tools/design/random-number-1-100 301
 /tools/dice-roller-online /tools/design/dice-roller-online 301
+/tools/reading-time-calculator /tools/seo/reading-time-calculator 301
+/tools/detailed-reading-time-calculator /tools/seo/detailed-reading-time-calculator 301
+/tools/quick-reading-time-calculator /tools/seo/quick-reading-time-calculator 301
 /tools/rent-vs-buy-calculator /tools/calc/rent-vs-buy-calculator 301
 /tools/rent-vs-buy-calculator-for-students /tools/calc/rent-vs-buy-calculator-for-students 301
 /tools/rent-vs-buy-calculator-for-business /tools/calc/rent-vs-buy-calculator-for-business 301
@@ -346,6 +355,9 @@
 /tools/risk-calculator-crypto /tools/calc/risk-calculator-crypto 301
 /tools/risk-calculator-stocks /tools/calc/risk-calculator-stocks 301
 /tools/risk-calculator-options /tools/calc/risk-calculator-options 301
+/tools/robots-txt-generator /tools/seo/robots-txt-generator 301
+/tools/advanced-robots-txt-generator /tools/seo/advanced-robots-txt-generator 301
+/tools/simple-robots-txt-generator /tools/seo/simple-robots-txt-generator 301
 /tools/running-pace-calculator /tools/calc/running-pace-calculator 301
 /tools/5k-pace-calculator /tools/calc/5k-pace-calculator 301
 /tools/marathon-pace-calculator /tools/calc/marathon-pace-calculator 301
@@ -357,6 +369,9 @@
 /tools/savings-goal-calculator-uk /tools/calc/savings-goal-calculator-uk 301
 /tools/savings-goal-calculator-canada /tools/calc/savings-goal-calculator-canada 301
 /tools/savings-goal-calculator-australia /tools/calc/savings-goal-calculator-australia 301
+/tools/schema-generator /tools/seo/schema-generator 301
+/tools/json-ld-schema-generator /tools/seo/json-ld-schema-generator 301
+/tools/microdata-schema-generator /tools/seo/microdata-schema-generator 301
 /tools/schema-markup-generator /tools/seo/schema-markup-generator 301
 /tools/local-business-schema-generator /tools/seo/local-business-schema-generator 301
 /tools/article-schema-generator /tools/seo/article-schema-generator 301

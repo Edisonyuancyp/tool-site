@@ -1,0 +1,51 @@
+{
+  "slug": "robots-txt-generator",
+  "name": "Robots.txt 生成器",
+  "tagline": "轻松创建您的 robots.txt 文件",
+  "description": "生成自定义的 robots.txt 文件，以指导搜索引擎爬虫。非常适合希望优化网站索引的站长和 SEO 专业人士。",
+  "metaTitle": "Robots.txt 生成器 – SEO 工具 | 免费在线工具",
+  "metaDescription": "免费创建 robots.txt 文件。即时控制您网站的索引，无需注册。",
+  "keywords": [
+    "robots.txt 生成器",
+    "seo 机器人文件",
+    "创建 robots.txt",
+    "网站索引",
+    "seo 工具",
+    "免费 robots.txt 生成器",
+    "博客用 robots.txt 生成器",
+    "在线 robots.txt 生成器",
+    "wordpress robots.txt 生成器",
+    "google robots.txt 生成器",
+    "robots.txt 生成器工具",
+    "小型 seo 工具的 robots.txt 生成器",
+    "robots.txt 示例",
+    "robots.txt 如何工作",
+    "免费 robots.txt 生成器",
+    "博客用免费自定义 robots.txt 生成器",
+    "robots.txt 是否必要",
+    "优化的 robots.txt 文件",
+    "yoast seo robots.txt 文件",
+    "robots 文件 seo"
+  ],
+  "category": "SEO",
+  "icon": "🤖",
+  "faqs": [
+    {
+      "question": "什么是 robots.txt 文件？",
+      "answer": "robots.txt 文件告诉搜索引擎哪些页面可以抓取，哪些页面不可以抓取。"
+    },
+    {
+      "question": "这个工具是免费的吗？",
+      "answer": "是的，robots.txt 生成器完全免费，无需注册。"
+    },
+    {
+      "question": "我可以修改生成的文件吗？",
+      "answer": "可以，您可以在生成 robots.txt 文件之前自定义设置。"
+    }
+  ],
+  "relatedTools": [
+    "canonical-checker",
+    "schema-generator"
+  ],
+  "variants": []
+}

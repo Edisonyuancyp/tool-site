@@ -1,0 +1,51 @@
+{
+  "slug": "meta-title-generator",
+  "name": "Gerador de Títulos Meta",
+  "tagline": "Crie títulos meta atraentes instantaneamente",
+  "description": "Gere títulos meta envolventes para suas páginas da web com facilidade. Perfeito para especialistas em SEO e criadores de conteúdo que buscam melhorar a visibilidade do seu site.",
+  "metaTitle": "Gerador de Títulos Meta – Ferramenta de Títulos SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Gere títulos meta instantaneamente e gratuitamente. Melhore seu SEO com títulos atraentes, sem necessidade de cadastro.",
+  "keywords": [
+    "gerador de títulos meta",
+    "ferramenta de títulos SEO",
+    "criar títulos meta",
+    "títulos SEO",
+    "sugestões de títulos",
+    "gerador de títulos meta gratuito",
+    "gerador de títulos meta a partir da url",
+    "ferramenta gerador de títulos meta",
+    "gerador de títulos meta semrush",
+    "gerador de nomes meta",
+    "gerador de nomes meta conteúdo",
+    "gerador de nomes meta conteúdo odoo",
+    "gerador de títulos meta grátis",
+    "gerador de títulos meta AI gratuito",
+    "gerador de títulos meta SEO gratuito",
+    "o que é um título meta",
+    "título meta vs título",
+    "exemplo de título meta",
+    "ferramenta geradora de títulos SEO",
+    "ferramenta de otimização de títulos SEO"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Como esta ferramenta funciona?",
+      "answer": "Basta inserir suas palavras-chave, e a ferramenta gerará títulos meta otimizados para você."
+    },
+    {
+      "question": "É realmente gratuito?",
+      "answer": "Sim, esta ferramenta é completamente gratuita para usar, sem necessidade de cadastro."
+    },
+    {
+      "question": "Posso usá-la para várias páginas?",
+      "answer": "Com certeza! Você pode gerar títulos para quantas páginas precisar."
+    }
+  ],
+  "relatedTools": [
+    "slug-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "schema-generator",
+  "name": "Schema Markup Generator",
+  "tagline": "Erstellen Sie strukturierte Daten für Ihre Website",
+  "description": "Generieren Sie Schema-Markup für Ihre Webseiten, um die SEO und Sichtbarkeit in den Suchergebnissen zu verbessern. Ideal für Webmaster und Entwickler, die strukturierte Daten einfach implementieren möchten.",
+  "metaTitle": "Schema Markup Generator – SEO-Tool | Kostenloses Online-Tool",
+  "metaDescription": "Erstellen Sie kostenlos Schema-Markup. Verbessern Sie Ihre SEO mit strukturierten Daten, keine Anmeldung erforderlich.",
+  "keywords": [
+    "schema markup generator",
+    "strukturierte Daten",
+    "seo schema",
+    "schema generieren",
+    "seo tools",
+    "schema markup generator (json-ld) technicalseo.com",
+    "schema markup generator tool",
+    "schema markup generator (json-ld)",
+    "schema markup generator json ld",
+    "schema markup generator kostenlos",
+    "schema markup generator von merkle",
+    "schema markup generator technische seo",
+    "schema markup generator online",
+    "kostenloser schema markup generator",
+    "wie man schema markup generator verwendet",
+    "schema markup beispiel",
+    "was ist schema markup",
+    "schema markup code",
+    "strukturierte Daten vs unstrukturierte Daten",
+    "Tool zum Testen strukturierter Daten"
+  ],
+  "category": "SEO",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Was ist Schema-Markup?",
+      "answer": "Schema-Markup ist Code, der Suchmaschinen hilft, Ihre Inhalte besser zu verstehen."
+    },
+    {
+      "question": "Ist dieses Tool wirklich kostenlos?",
+      "answer": "Ja, der Schema-Generator ist vollständig kostenlos zu nutzen, keine Anmeldung erforderlich."
+    },
+    {
+      "question": "Kann ich es für mehrere Seiten verwenden?",
+      "answer": "Ja, Sie können Schema für so viele Seiten generieren, wie Sie benötigen."
+    }
+  ],
+  "relatedTools": [
+    "meta-title-generator",
+    "robots-txt-generator"
+  ],
+  "variants": []
+}

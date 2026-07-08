@@ -1,0 +1,51 @@
+{
+  "slug": "reading-time-calculator",
+  "name": "Lesedauer Rechner",
+  "tagline": "Schätzen Sie die Lesedauer für Ihre Inhalte",
+  "description": "Berechnen Sie die geschätzte Lesedauer für Ihre Artikel oder Blogbeiträge. Ideal für Content-Ersteller, die das Nutzererlebnis und die Interaktion verbessern möchten.",
+  "metaTitle": "Lesedauer Rechner – Tool zur Inhaltsinteraktion | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie die Lesedauer kostenlos. Verbessern Sie die Nutzerinteraktion mit sofortigen Lesedauer-Berechnungen, keine Anmeldung erforderlich.",
+  "keywords": [
+    "lesedauer rechner",
+    "inhaltsinteraktion",
+    "lesedauer schätzen",
+    "blog lesedauer",
+    "seo werkzeuge",
+    "lesedauer rechner seiten",
+    "lesedauer rechner wörter",
+    "lesedauer rechner wortanzahl",
+    "lesedauer rechner online",
+    "lesedauer rechner buch",
+    "lesedauer rechner pdf",
+    "lesedauer rechner app",
+    "lesedauer berechnen",
+    "wie lange laut lesen rechner",
+    "wie berechnet man die lesegeschwindigkeit",
+    "lesedauer rechner kostenlos",
+    "wie man die lesegeschwindigkeit berechnet",
+    "wie viele wörter pro minute lesen",
+    "bedeutung der inhaltsinteraktion",
+    "interaktionsrate von inhalten"
+  ],
+  "category": "SEO",
+  "icon": "⏳",
+  "faqs": [
+    {
+      "question": "Wie wird die Lesedauer berechnet?",
+      "answer": "Die Lesedauer basiert auf der durchschnittlichen Lesegeschwindigkeit von 200-250 Wörtern pro Minute."
+    },
+    {
+      "question": "Gibt es eine Begrenzung der Textlänge?",
+      "answer": "Nein, Sie können jeden Text eingeben, um die Lesedauer zu berechnen."
+    },
+    {
+      "question": "Kann dieses Tool bei SEO helfen?",
+      "answer": "Ja, die Angabe der Lesedauer kann das Nutzererlebnis verbessern und die Absprungrate senken."
+    }
+  ],
+  "relatedTools": [
+    "keyword-density-checker",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

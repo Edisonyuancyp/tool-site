@@ -1,0 +1,51 @@
+{
+  "slug": "robots-txt-generator",
+  "name": "Robots.txt ジェネレーター",
+  "tagline": "簡単に robots.txt ファイルを作成",
+  "description": "検索エンジンのクローラーをガイドするカスタマイズされた robots.txt ファイルを生成します。ウェブマスターや SEO プロフェッショナルに最適で、サイトのインデックス最適化を目指します。",
+  "metaTitle": "Robots.txt ジェネレーター – SEO ツール | 無料オンラインツール",
+  "metaDescription": "無料で robots.txt ファイルを作成。サインアップ不要で、即座にサイトのインデックスを制御できます。",
+  "keywords": [
+    "robots.txt ジェネレーター",
+    "SEO ロボットファイル",
+    "robots.txt 作成",
+    "サイトインデックス",
+    "SEO ツール",
+    "無料 robots.txt ジェネレーター",
+    "Blogger 用 robots.txt ジェネレーター",
+    "オンライン robots.txt ジェネレーター",
+    "WordPress 用 robots.txt ジェネレーター",
+    "Google 用 robots.txt ジェネレーター",
+    "robots.txt ジェネレーター ツール",
+    "小規模 SEO ツール用 robots.txt ジェネレーター",
+    "robots.txt 例",
+    "robots.txt の仕組み",
+    "無料 robots.txt ジェネレーター",
+    "Blogger 用無料カスタム robots.txt ジェネレーター",
+    "robots.txt は必要か",
+    "SEO 最適化された robots.txt ファイル",
+    "Yoast SEO ロボット txt ファイル",
+    "ロボットファイル SEO"
+  ],
+  "category": "SEO",
+  "icon": "🤖",
+  "faqs": [
+    {
+      "question": "robots.txt ファイルとは何ですか？",
+      "answer": "robots.txt ファイルは、検索エンジンにあなたのウェブサイトのどのページをクロールするか、またはクロールしないかを指示します。"
+    },
+    {
+      "question": "このツールは無料ですか？",
+      "answer": "はい、robots.txt ジェネレーターは完全に無料で、登録は不要です。"
+    },
+    {
+      "question": "生成されたファイルを修正できますか？",
+      "answer": "はい、robots.txt ファイルを生成する前に設定をカスタマイズできます。"
+    }
+  ],
+  "relatedTools": [
+    "canonical-checker",
+    "schema-generator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "reading-time-calculator",
+  "name": "Calculadora de Tempo de Leitura",
+  "tagline": "Estime o tempo de leitura do seu conteúdo",
+  "description": "Calcule o tempo de leitura estimado para seus artigos ou posts de blog. Ótimo para criadores de conteúdo que buscam melhorar a experiência do usuário e o engajamento.",
+  "metaTitle": "Calculadora de Tempo de Leitura – Ferramenta de Engajamento de Conteúdo | Ferramenta Online Gratuita",
+  "metaDescription": "Estime o tempo de leitura gratuitamente. Melhore o engajamento do usuário com cálculos instantâneos de tempo de leitura, sem necessidade de cadastro.",
+  "keywords": [
+    "calculadora de tempo de leitura",
+    "engajamento de conteúdo",
+    "estimar tempo de leitura",
+    "tempo de leitura de blog",
+    "ferramentas de SEO",
+    "calculadora de tempo de leitura páginas",
+    "calculadora de tempo de leitura palavras",
+    "calculadora de tempo de leitura contagem de palavras",
+    "calculadora de tempo de leitura online",
+    "calculadora de tempo de leitura livro",
+    "calculadora de tempo de leitura pdf",
+    "calculadora de tempo de leitura app",
+    "calcular tempo de leitura",
+    "quanto tempo para ler em voz alta calculadora",
+    "como calcular a velocidade de leitura",
+    "calculadora de tempo de leitura gratuita",
+    "como calcular a velocidade de leitura",
+    "quantas palavras ler por minuto",
+    "significado de engajamento de conteúdo",
+    "taxa de engajamento de conteúdo"
+  ],
+  "category": "SEO",
+  "icon": "⏳",
+  "faqs": [
+    {
+      "question": "Como o tempo de leitura é calculado?",
+      "answer": "O tempo de leitura é baseado na velocidade média de leitura de 200-250 palavras por minuto."
+    },
+    {
+      "question": "Há um limite para o comprimento do texto?",
+      "answer": "Não, você pode inserir qualquer comprimento de texto para calcular o tempo de leitura."
+    },
+    {
+      "question": "Esta ferramenta pode ajudar no SEO?",
+      "answer": "Sim, fornecer o tempo de leitura pode melhorar a experiência do usuário e reduzir a taxa de rejeição."
+    }
+  ],
+  "relatedTools": [
+    "keyword-density-checker",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

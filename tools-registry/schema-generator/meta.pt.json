@@ -1,0 +1,51 @@
+{
+  "slug": "schema-generator",
+  "name": "Gerador de Schema Markup",
+  "tagline": "Crie dados estruturados para o seu site",
+  "description": "Gere schema markup para suas páginas da web para melhorar o SEO e a visibilidade nos resultados de busca. Ideal para webmasters e desenvolvedores que buscam implementar dados estruturados de forma fácil.",
+  "metaTitle": "Gerador de Schema Markup – Ferramenta de SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Crie schema markup gratuitamente. Melhore seu SEO com dados estruturados, sem necessidade de cadastro.",
+  "keywords": [
+    "gerador de schema markup",
+    "dados estruturados",
+    "schema de seo",
+    "gerar schema",
+    "ferramentas de seo",
+    "gerador de schema markup (json-ld) technicalseo.com",
+    "ferramenta gerador de schema markup",
+    "gerador de schema markup (json-ld)",
+    "gerador de schema markup json ld",
+    "gerador de schema markup gratuito",
+    "gerador de schema markup da merkle",
+    "gerador de schema markup seo técnico",
+    "gerador de schema markup online",
+    "gerador de schema markup gratuito",
+    "como usar o gerador de schema markup",
+    "exemplo de schema markup",
+    "o que é schema markup",
+    "código de schema markup",
+    "dados estruturados vs dados não estruturados",
+    "ferramenta de teste de dados estruturados"
+  ],
+  "category": "SEO",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "O que é schema markup?",
+      "answer": "Schema markup é um código que ajuda os motores de busca a entender melhor seu conteúdo."
+    },
+    {
+      "question": "Esta ferramenta é realmente gratuita?",
+      "answer": "Sim, o gerador de schema é completamente gratuito para usar, sem necessidade de cadastro."
+    },
+    {
+      "question": "Posso usá-lo para várias páginas?",
+      "answer": "Sim, você pode gerar schema para quantas páginas precisar."
+    }
+  ],
+  "relatedTools": [
+    "meta-title-generator",
+    "robots-txt-generator"
+  ],
+  "variants": []
+}

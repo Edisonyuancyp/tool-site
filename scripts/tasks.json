@@ -3129,5 +3129,304 @@
         "headline": "Rapidly compare prompts for immediate feedback."
       }
     ]
+  },
+  {
+    "slug": "meta-title-generator",
+    "name": "Meta Title Generator",
+    "tagline": "Create compelling meta titles instantly",
+    "description": "Generate engaging meta titles for your web pages with ease. Perfect for SEO specialists and content creators looking to improve their site visibility.",
+    "metaTitle": "Meta Title Generator – SEO Title Tool | Free Online Tool",
+    "metaDescription": "Generate meta titles instantly for free. Improve your SEO with compelling titles, no signup required.",
+    "keywords": [
+      "meta title generator",
+      "SEO title tool",
+      "create meta titles",
+      "SEO titles",
+      "title suggestions"
+    ],
+    "category": "SEO",
+    "icon": "📝",
+    "faqs": [
+      {
+        "question": "How does this tool work?",
+        "answer": "Simply enter your keywords, and the tool will generate optimized meta titles for you."
+      },
+      {
+        "question": "Is it really free?",
+        "answer": "Yes, this tool is completely free to use with no signup required."
+      },
+      {
+        "question": "Can I use it for multiple pages?",
+        "answer": "Absolutely! You can generate titles for as many pages as you need."
+      }
+    ],
+    "relatedTools": [
+      "slug-generator",
+      "meta-description-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-meta-title-generator",
+        "metaTitle": "Advanced Meta Title Generator",
+        "metaDescription": "Generate SEO-optimized titles with advanced options.",
+        "keywords": [
+          "advanced title generator",
+          "SEO titles",
+          "custom meta titles"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Explore advanced options for generating effective meta titles."
+      },
+      {
+        "variantSlug": "quick-meta-title-generator",
+        "metaTitle": "Quick Meta Title Generator",
+        "metaDescription": "Fast and easy meta title generation tool.",
+        "keywords": [
+          "quick title generator",
+          "easy meta titles"
+        ],
+        "defaultVariant": "quick-key",
+        "headline": "Get instant meta title suggestions without hassle."
+      }
+    ]
+  },
+  {
+    "slug": "robots-txt-generator",
+    "name": "Robots.txt Generator",
+    "tagline": "Easily create your robots.txt file",
+    "description": "Generate a customized robots.txt file to guide search engine crawlers. Ideal for webmasters and SEO professionals aiming to optimize their site's indexing.",
+    "metaTitle": "Robots.txt Generator – SEO Tool | Free Online Tool",
+    "metaDescription": "Create a robots.txt file for free. Control your site's indexing with instant results, no signup needed.",
+    "keywords": [
+      "robots.txt generator",
+      "SEO robots file",
+      "create robots.txt",
+      "site indexing",
+      "SEO tools"
+    ],
+    "category": "SEO",
+    "icon": "🤖",
+    "faqs": [
+      {
+        "question": "What is a robots.txt file?",
+        "answer": "A robots.txt file tells search engines which pages to crawl or not to crawl on your website."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, the robots.txt generator is completely free with no registration needed."
+      },
+      {
+        "question": "Can I modify the generated file?",
+        "answer": "Yes, you can customize the settings before generating your robots.txt file."
+      }
+    ],
+    "relatedTools": [
+      "canonical-checker",
+      "schema-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-robots-txt-generator",
+        "metaTitle": "Advanced Robots.txt Generator",
+        "metaDescription": "Generate a detailed robots.txt file with advanced settings.",
+        "keywords": [
+          "advanced robots.txt",
+          "custom robots file",
+          "SEO settings"
+        ],
+        "defaultVariant": "advanced-robots-key",
+        "headline": "Customize your robots.txt file with advanced options."
+      },
+      {
+        "variantSlug": "simple-robots-txt-generator",
+        "metaTitle": "Simple Robots.txt Generator",
+        "metaDescription": "Quickly create a basic robots.txt file.",
+        "keywords": [
+          "simple robots.txt",
+          "basic robots file"
+        ],
+        "defaultVariant": "simple-robots-key",
+        "headline": "Effortlessly generate a basic robots.txt file."
+      }
+    ]
+  },
+  {
+    "slug": "reading-time-calculator",
+    "name": "Reading Time Calculator",
+    "tagline": "Estimate reading time for your content",
+    "description": "Calculate the estimated reading time for your articles or blog posts. Great for content creators looking to enhance user experience and engagement.",
+    "metaTitle": "Reading Time Calculator – Content Engagement Tool | Free Online Tool",
+    "metaDescription": "Estimate reading time for free. Improve user engagement with instant reading time calculations, no signup required.",
+    "keywords": [
+      "reading time calculator",
+      "content engagement",
+      "estimate reading time",
+      "blog reading time",
+      "SEO tools"
+    ],
+    "category": "SEO",
+    "icon": "⏳",
+    "faqs": [
+      {
+        "question": "How is reading time calculated?",
+        "answer": "Reading time is based on the average reading speed of 200-250 words per minute."
+      },
+      {
+        "question": "Is there a limit on text length?",
+        "answer": "No, you can enter any length of text to calculate the reading time."
+      },
+      {
+        "question": "Can this tool help SEO?",
+        "answer": "Yes, providing reading time can enhance user experience and lower bounce rates."
+      }
+    ],
+    "relatedTools": [
+      "keyword-density-checker",
+      "meta-description-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-reading-time-calculator",
+        "metaTitle": "Detailed Reading Time Calculator",
+        "metaDescription": "Get a detailed reading time estimate including word count.",
+        "keywords": [
+          "detailed reading time",
+          "word count estimate"
+        ],
+        "defaultVariant": "detailed-time-key",
+        "headline": "Calculate reading time with detailed insights."
+      },
+      {
+        "variantSlug": "quick-reading-time-calculator",
+        "metaTitle": "Quick Reading Time Calculator",
+        "metaDescription": "Fast reading time calculations for quick estimates.",
+        "keywords": [
+          "quick reading time",
+          "fast estimates"
+        ],
+        "defaultVariant": "quick-time-key",
+        "headline": "Get instant reading time estimates with minimal input."
+      }
+    ]
+  },
+  {
+    "slug": "schema-generator",
+    "name": "Schema Markup Generator",
+    "tagline": "Create structured data for your site",
+    "description": "Generate schema markup for your web pages to enhance SEO and visibility in search results. Ideal for webmasters and developers looking to implement structured data easily.",
+    "metaTitle": "Schema Markup Generator – SEO Tool | Free Online Tool",
+    "metaDescription": "Create schema markup for free. Enhance your SEO with structured data, no signup required.",
+    "keywords": [
+      "schema markup generator",
+      "structured data",
+      "SEO schema",
+      "generate schema",
+      "SEO tools"
+    ],
+    "category": "SEO",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "What is schema markup?",
+        "answer": "Schema markup is code that helps search engines understand your content better."
+      },
+      {
+        "question": "Is this tool really free?",
+        "answer": "Yes, the schema generator is completely free to use, no signup required."
+      },
+      {
+        "question": "Can I use it for multiple pages?",
+        "answer": "Yes, you can generate schema for as many pages as you need."
+      }
+    ],
+    "relatedTools": [
+      "meta-title-generator",
+      "robots-txt-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "json-ld-schema-generator",
+        "metaTitle": "JSON-LD Schema Generator",
+        "metaDescription": "Generate JSON-LD structured data easily.",
+        "keywords": [
+          "JSON-LD generator",
+          "schema generator",
+          "structured data"
+        ],
+        "defaultVariant": "json-ld-key",
+        "headline": "Create JSON-LD structured data for your web pages."
+      },
+      {
+        "variantSlug": "microdata-schema-generator",
+        "metaTitle": "Microdata Schema Generator",
+        "metaDescription": "Easily create microdata schema markup.",
+        "keywords": [
+          "microdata generator",
+          "schema markup",
+          "SEO tools"
+        ],
+        "defaultVariant": "microdata-key",
+        "headline": "Generate microdata schema for better SEO optimization."
+      }
+    ]
+  },
+  {
+    "slug": "canonical-link-validator",
+    "name": "Canonical Link Validator",
+    "tagline": "Check your canonical links for issues",
+    "description": "Validate your canonical tags to ensure proper indexing and avoid duplicate content issues. Perfect for SEO professionals ensuring their web pages are optimized.",
+    "metaTitle": "Canonical Link Validator – SEO Tool | Free Online Tool",
+    "metaDescription": "Check your canonical links for free. Ensure your SEO is on point with instant validation, no signup required.",
+    "keywords": [
+      "canonical link validator",
+      "SEO validation",
+      "check canonical tags",
+      "duplicate content",
+      "SEO tools"
+    ],
+    "category": "SEO",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "What does a canonical link do?",
+        "answer": "A canonical link tells search engines which version of a page is the preferred one."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, the canonical link validator is completely free with no signup required."
+      },
+      {
+        "question": "Can I check multiple links?",
+        "answer": "Yes, you can validate several canonical links at once."
+      }
+    ],
+    "relatedTools": [
+      "robots-txt-generator",
+      "schema-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-canonical-validator",
+        "metaTitle": "Detailed Canonical Link Validator",
+        "metaDescription": "Get detailed reports on your canonical link issues.",
+        "keywords": [
+          "detailed canonical validator",
+          "canonical issues"
+        ],
+        "defaultVariant": "detailed-validator-key",
+        "headline": "Identify and fix canonical link issues with detailed reports."
+      },
+      {
+        "variantSlug": "quick-canonical-validator",
+        "metaTitle": "Quick Canonical Link Validator",
+        "metaDescription": "Fast checks for canonical link correctness.",
+        "keywords": [
+          "quick canonical check",
+          "fast validation"
+        ],
+        "defaultVariant": "quick-validator-key",
+        "headline": "Get rapid results on your canonical link checks."
+      }
+    ]
   }
 ]

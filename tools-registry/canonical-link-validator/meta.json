@@ -1,0 +1,72 @@
+{
+  "slug": "canonical-link-validator",
+  "name": "Canonical Link Validator",
+  "tagline": "Check your canonical links for issues",
+  "description": "Validate your canonical tags to ensure proper indexing and avoid duplicate content issues. Perfect for SEO professionals ensuring their web pages are optimized.",
+  "metaTitle": "Canonical Link Validator – SEO Tool | Free Online Tool",
+  "metaDescription": "Check your canonical links for free. Ensure your SEO is on point with instant validation, no signup required.",
+  "keywords": [
+    "canonical link validator",
+    "seo validation",
+    "check canonical tags",
+    "duplicate content",
+    "seo tools",
+    "canonical tag validator",
+    "canonical link checker",
+    "seo validation online",
+    "seo validation tool",
+    "seo validation meaning",
+    "google seo validation",
+    "w3c validation seo",
+    "seo guidelines",
+    "check canonical tag online",
+    "check canonical url",
+    "check canonical url online",
+    "canonical tag code"
+  ],
+  "category": "SEO",
+  "urlPath": "/tools/seo/canonical-link-validator",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "What does a canonical link do?",
+      "answer": "A canonical link tells search engines which version of a page is the preferred one."
+    },
+    {
+      "question": "Is it free to use?",
+      "answer": "Yes, the canonical link validator is completely free with no signup required."
+    },
+    {
+      "question": "Can I check multiple links?",
+      "answer": "Yes, you can validate several canonical links at once."
+    }
+  ],
+  "relatedTools": [
+    "robots-txt-generator",
+    "schema-generator"
+  ],
+  "variants": [
+    {
+      "variantSlug": "detailed-canonical-validator",
+      "metaTitle": "Detailed Canonical Link Validator",
+      "metaDescription": "Get detailed reports on your canonical link issues.",
+      "keywords": [
+        "detailed canonical validator",
+        "canonical issues"
+      ],
+      "defaultVariant": "detailed-validator-key",
+      "headline": "Identify and fix canonical link issues with detailed reports."
+    },
+    {
+      "variantSlug": "quick-canonical-validator",
+      "metaTitle": "Quick Canonical Link Validator",
+      "metaDescription": "Fast checks for canonical link correctness.",
+      "keywords": [
+        "quick canonical check",
+        "fast validation"
+      ],
+      "defaultVariant": "quick-validator-key",
+      "headline": "Get rapid results on your canonical link checks."
+    }
+  ]
+}
