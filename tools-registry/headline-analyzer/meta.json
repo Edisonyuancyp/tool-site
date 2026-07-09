@@ -69,7 +69,8 @@
         "seo headline analyzer online",
         "online seo headline analyzer online"
       ],
-      "headline": "SEO Headline Analyzer optimised for users looking for a free online tool. Free, instant, no signup required."
+      "headline": "SEO Headline Analyzer optimised for users looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "headline-analyzer-for-seo",

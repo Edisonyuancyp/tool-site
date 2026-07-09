@@ -73,10 +73,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const prefix = CATEGORY_URL_PREFIX[tool.category] ?? category;
   const canonicalPath = `/tools/${prefix}/${slug}`;
   const toolUrl = `https://getfastcalc.com${canonicalPath}`;
+  const isNoindex = (registryResult?.meta as import("@/lib/registry").RegistryMeta | undefined)?.noindex === true;
   return {
     title: tool.metaTitle,
     description: tool.metaDescription,
     keywords: tool.keywords,
+    ...(isNoindex ? { robots: { index: false, follow: false } } : {}),
     alternates: {
       canonical: toolUrl,
       languages: {

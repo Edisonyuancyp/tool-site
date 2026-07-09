@@ -74,7 +74,8 @@
         "url encoder / decoder online",
         "online url encoder / decoder online"
       ],
-      "headline": "URL Encoder / Decoder optimised for developers looking for a free online tool. Free, instant, no signup required."
+      "headline": "URL Encoder / Decoder optimised for developers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "url-encoder-javascript",

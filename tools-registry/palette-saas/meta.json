@@ -45,7 +45,8 @@
         "minimal saas color palette online",
         "online minimal saas color palette online"
       ],
-      "headline": "Minimal SaaS Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Minimal SaaS Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-saas-free",
@@ -58,7 +59,8 @@
         "minimal saas color palette free",
         "online minimal saas color palette free"
       ],
-      "headline": "Minimal SaaS Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Minimal SaaS Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-saas-for-web",
@@ -71,7 +73,8 @@
         "minimal saas color palette for web",
         "online minimal saas color palette web design"
       ],
-      "headline": "Minimal SaaS Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Minimal SaaS Color Palette optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

@@ -58,7 +58,8 @@
         "AI prompt differences"
       ],
       "defaultVariant": "detailed-comparison",
-      "headline": "Dive into detailed analysis of your prompt versions to find the best one."
+      "headline": "Dive into detailed analysis of your prompt versions to find the best one.",
+      "noindex": true
     },
     {
       "variantSlug": "quick-compare-tool",
@@ -70,7 +71,8 @@
         "simple comparison"
       ],
       "defaultVariant": "quick-compare",
-      "headline": "Use our quick compare tool to evaluate your prompts in seconds."
+      "headline": "Use our quick compare tool to evaluate your prompts in seconds.",
+      "noindex": true
     }
   ],
   "seoBody": [
@@ -106,5 +108,6 @@
       "h1": "Prompt Version Compare – How to Use",
       "description": "Step-by-step guide to getting the most from Prompt Version Compare."
     }
-  ]
+  ],
+  "noindex": true
 }

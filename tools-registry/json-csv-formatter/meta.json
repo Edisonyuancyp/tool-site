@@ -61,7 +61,8 @@
         "json pretty printer"
       ],
       "defaultVariant": "json-format",
-      "headline": "Paste minified or messy JSON to instantly format it with proper indentation. Also validates your JSON and reports any syntax errors."
+      "headline": "Paste minified or messy JSON to instantly format it with proper indentation. Also validates your JSON and reports any syntax errors.",
+      "noindex": true
     },
     {
       "variantSlug": "json-validator-online",
@@ -75,7 +76,8 @@
         "json syntax checker"
       ],
       "defaultVariant": "json-validate",
-      "headline": "Paste any JSON to validate it instantly. The validator shows exactly where syntax errors occur and counts keys and nested objects."
+      "headline": "Paste any JSON to validate it instantly. The validator shows exactly where syntax errors occur and counts keys and nested objects.",
+      "noindex": true
     },
     {
       "variantSlug": "csv-to-json-converter",

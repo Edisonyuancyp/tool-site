@@ -45,7 +45,8 @@
         "medical blue color palette online",
         "online medical blue color palette online"
       ],
-      "headline": "Medical Blue Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Medical Blue Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-medical-free",
@@ -58,7 +59,8 @@
         "medical blue color palette free",
         "online medical blue color palette free"
       ],
-      "headline": "Medical Blue Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Medical Blue Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-medical-for-web",
@@ -71,7 +73,8 @@
         "medical blue color palette for web",
         "online medical blue color palette web design"
       ],
-      "headline": "Medical Blue Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Medical Blue Color Palette optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

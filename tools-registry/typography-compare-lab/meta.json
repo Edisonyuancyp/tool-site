@@ -86,7 +86,8 @@
         "typography compare lab online",
         "online typography compare lab online"
       ],
-      "headline": "Typography Compare Lab optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Typography Compare Lab optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "typography-compare-lab-free",
@@ -99,7 +100,8 @@
         "typography compare lab free",
         "online typography compare lab free"
       ],
-      "headline": "Typography Compare Lab optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Typography Compare Lab optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "typography-compare-lab-for-web",
@@ -112,7 +114,8 @@
         "typography compare lab for web",
         "online typography compare lab web design"
       ],
-      "headline": "Typography Compare Lab optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Typography Compare Lab optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

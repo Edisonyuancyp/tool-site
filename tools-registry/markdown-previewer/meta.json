@@ -78,7 +78,8 @@
         "markdown previewer online",
         "online markdown previewer online"
       ],
-      "headline": "Markdown Previewer optimised for content creators and bloggers. Free, instant, no signup required."
+      "headline": "Markdown Previewer optimised for content creators and bloggers. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "markdown-previewer-free",
@@ -91,7 +92,8 @@
         "markdown previewer free",
         "online markdown previewer free"
       ],
-      "headline": "Markdown Previewer optimised for users looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Markdown Previewer optimised for users looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "markdown-previewer-for-bloggers",

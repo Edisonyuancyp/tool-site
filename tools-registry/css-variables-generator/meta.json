@@ -80,7 +80,8 @@
         "css variables generator online",
         "online css variables generator online"
       ],
-      "headline": "CSS Variables Generator optimised for developers looking for a free online tool. Free, instant, no signup required."
+      "headline": "CSS Variables Generator optimised for developers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "css-variables-generator-javascript",

@@ -29,10 +29,14 @@ export interface ToolVariant {
   defaultVariant: string;
   /** Short intro shown at top of variant page (replaces generic description) */
   headline?: string;
+  /** If true, this variant page will be marked noindex in meta */
+  noindex?: boolean;
 }
 
 export interface RegistryMeta extends ToolMeta {
   variants: ToolVariant[];
+  /** If true, this tool page will be marked noindex in meta */
+  noindex?: boolean;
 }
 
 const REGISTRY_DIR = path.join(process.cwd(), "tools-registry");
@@ -98,6 +102,7 @@ export function resolveRegistrySlug(slug: string): {
           keywords: v.keywords ?? meta.keywords,
           // Override description with variant headline if provided
           description: v.headline ?? meta.description,
+          noindex: v.noindex ?? meta.noindex,
         };
         return {
           meta: merged,

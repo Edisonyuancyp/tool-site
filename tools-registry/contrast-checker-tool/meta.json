@@ -60,7 +60,8 @@
         "contrast checker tool online",
         "online contrast checker tool online"
       ],
-      "headline": "Contrast Checker Tool optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Contrast Checker Tool optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "contrast-checker-tool-free",
@@ -73,7 +74,8 @@
         "contrast checker tool free",
         "online contrast checker tool free"
       ],
-      "headline": "Contrast Checker Tool optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Contrast Checker Tool optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "contrast-checker-tool-for-web",
@@ -86,7 +88,8 @@
         "contrast checker tool for web",
         "online contrast checker tool web design"
       ],
-      "headline": "Contrast Checker Tool optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Contrast Checker Tool optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoContent": {

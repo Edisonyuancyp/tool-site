@@ -60,7 +60,8 @@
         "svg clip path generator online",
         "online svg clip path generator online"
       ],
-      "headline": "SVG Clip Path Generator optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "SVG Clip Path Generator optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "svg-clip-path-generator-free",
@@ -73,7 +74,8 @@
         "svg clip path generator free",
         "online svg clip path generator free"
       ],
-      "headline": "SVG Clip Path Generator optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "SVG Clip Path Generator optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "svg-clip-path-generator-for-web",
@@ -86,7 +88,8 @@
         "svg clip path generator for web",
         "online svg clip path generator web design"
       ],
-      "headline": "SVG Clip Path Generator optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "SVG Clip Path Generator optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoContent": {

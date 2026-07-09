@@ -69,7 +69,8 @@
         "jwt decoder & security checker online",
         "online jwt decoder & security checker online"
       ],
-      "headline": "JWT Decoder & Security Checker optimised for developers looking for a free online tool. Free, instant, no signup required."
+      "headline": "JWT Decoder & Security Checker optimised for developers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "jwt-decoder-javascript",

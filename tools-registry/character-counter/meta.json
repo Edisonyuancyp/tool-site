@@ -68,7 +68,8 @@
         "character counter for social media online",
         "online character counter for social media online"
       ],
-      "headline": "Character Counter for Social Media optimised for users looking for a free online tool. Free, instant, no signup required."
+      "headline": "Character Counter for Social Media optimised for users looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "character-counter-for-seo",

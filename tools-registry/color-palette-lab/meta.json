@@ -61,7 +61,8 @@
         "professional color palette lab online",
         "online professional color palette lab online"
       ],
-      "headline": "Professional Color Palette Lab optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Professional Color Palette Lab optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "color-palette-lab-free",
@@ -74,7 +75,8 @@
         "professional color palette lab free",
         "online professional color palette lab free"
       ],
-      "headline": "Professional Color Palette Lab optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Professional Color Palette Lab optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "color-palette-lab-for-web",
@@ -87,7 +89,8 @@
         "professional color palette lab for web",
         "online professional color palette lab web design"
       ],
-      "headline": "Professional Color Palette Lab optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Professional Color Palette Lab optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

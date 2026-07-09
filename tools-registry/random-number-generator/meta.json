@@ -90,7 +90,8 @@
         "d6 d20 dice"
       ],
       "defaultVariant": "dice",
-      "headline": "Roll any type of dice online — D4, D6, D8, D10, D12, D20, or custom. Perfect for Dungeons & Dragons, tabletop RPGs, and board games."
+      "headline": "Roll any type of dice online — D4, D6, D8, D10, D12, D20, or custom. Perfect for Dungeons & Dragons, tabletop RPGs, and board games.",
+      "noindex": true
     }
   ],
   "seoBody": [

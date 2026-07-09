@@ -58,7 +58,8 @@
         "quick analysis"
       ],
       "defaultVariant": "basic-key",
-      "headline": "Start with basic tools for comparing prompt versions."
+      "headline": "Start with basic tools for comparing prompt versions.",
+      "noindex": true
     },
     {
       "variantSlug": "advanced-comparison-tool",
@@ -70,7 +71,8 @@
         "comprehensive analysis"
       ],
       "defaultVariant": "advanced-key",
-      "headline": "Unlock advanced features for comparing prompt versions."
+      "headline": "Unlock advanced features for comparing prompt versions.",
+      "noindex": true
     }
   ],
   "seoBody": [

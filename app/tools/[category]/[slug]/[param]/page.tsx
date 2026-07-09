@@ -65,6 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: page.metaTitle,
     description: page.metaDescription,
+    robots: { index: false, follow: false },
     alternates: {
       canonical: toolUrl,
       languages: {

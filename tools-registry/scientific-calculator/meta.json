@@ -48,7 +48,8 @@
         "scientific calculator online",
         "online scientific calculator online"
       ],
-      "headline": "Scientific Calculator optimised for students looking for a free online tool. Free, instant, no signup required."
+      "headline": "Scientific Calculator optimised for students looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "scientific-calculator-with-steps",

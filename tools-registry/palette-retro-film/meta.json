@@ -45,7 +45,8 @@
         "retro film color palette online",
         "online retro film color palette online"
       ],
-      "headline": "Retro Film Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Retro Film Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-retro-film-free",
@@ -58,7 +59,8 @@
         "retro film color palette free",
         "online retro film color palette free"
       ],
-      "headline": "Retro Film Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Retro Film Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-retro-film-for-web",
@@ -71,7 +73,8 @@
         "retro film color palette for web",
         "online retro film color palette web design"
       ],
-      "headline": "Retro Film Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Retro Film Color Palette optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

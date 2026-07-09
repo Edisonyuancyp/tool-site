@@ -45,7 +45,8 @@
         "dark tech color palette online",
         "online dark tech color palette online"
       ],
-      "headline": "Dark Tech Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Dark Tech Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-dark-tech-free",
@@ -58,7 +59,8 @@
         "dark tech color palette free",
         "online dark tech color palette free"
       ],
-      "headline": "Dark Tech Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Dark Tech Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-dark-tech-for-web",
@@ -71,7 +73,8 @@
         "dark tech color palette for web",
         "online dark tech color palette web design"
       ],
-      "headline": "Dark Tech Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Dark Tech Color Palette optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

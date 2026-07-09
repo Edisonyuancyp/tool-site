@@ -89,7 +89,8 @@
         "online text comparison"
       ],
       "defaultVariant": "text",
-      "headline": "Paste two texts to see every addition, deletion, and change highlighted. Perfect for comparing document versions, proofreading edits, and contract reviews."
+      "headline": "Paste two texts to see every addition, deletion, and change highlighted. Perfect for comparing document versions, proofreading edits, and contract reviews.",
+      "noindex": true
     }
   ],
   "seoBody": [

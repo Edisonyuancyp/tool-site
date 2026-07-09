@@ -69,7 +69,8 @@
         "cron expression generator & explainer online",
         "online cron expression generator & explainer online"
       ],
-      "headline": "Cron Expression Generator & Explainer optimised for developers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Cron Expression Generator & Explainer optimised for developers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "cron-expression-generator-javascript",

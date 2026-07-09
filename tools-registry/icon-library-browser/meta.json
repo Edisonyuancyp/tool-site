@@ -60,7 +60,8 @@
         "icon library browser online",
         "online icon library browser online"
       ],
-      "headline": "Icon Library Browser optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Icon Library Browser optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "icon-library-browser-free",
@@ -73,7 +74,8 @@
         "icon library browser free",
         "online icon library browser free"
       ],
-      "headline": "Icon Library Browser optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Icon Library Browser optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "icon-library-browser-for-web",
@@ -86,7 +88,8 @@
         "icon library browser for web",
         "online icon library browser web design"
       ],
-      "headline": "Icon Library Browser optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Icon Library Browser optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoContent": {

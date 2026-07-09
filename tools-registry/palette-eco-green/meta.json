@@ -46,7 +46,8 @@
         "eco green color palette online",
         "online eco green color palette online"
       ],
-      "headline": "Eco Green Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required."
+      "headline": "Eco Green Color Palette optimised for designers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-eco-green-free",
@@ -59,7 +60,8 @@
         "eco green color palette free",
         "online eco green color palette free"
       ],
-      "headline": "Eco Green Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required."
+      "headline": "Eco Green Color Palette optimised for designers looking for a completely free tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "palette-eco-green-for-web",
@@ -72,7 +74,8 @@
         "eco green color palette for web",
         "online eco green color palette web design"
       ],
-      "headline": "Eco Green Color Palette optimised for web designers and front-end developers. Free, instant, no signup required."
+      "headline": "Eco Green Color Palette optimised for web designers and front-end developers. Free, instant, no signup required.",
+      "noindex": true
     }
   ],
   "seoBody": [

@@ -78,7 +78,8 @@
         "css unit converter online",
         "online css unit converter online"
       ],
-      "headline": "CSS Unit Converter optimised for developers looking for a free online tool. Free, instant, no signup required."
+      "headline": "CSS Unit Converter optimised for developers looking for a free online tool. Free, instant, no signup required.",
+      "noindex": true
     },
     {
       "variantSlug": "css-unit-converter-javascript",

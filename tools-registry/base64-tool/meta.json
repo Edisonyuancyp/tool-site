@@ -57,7 +57,8 @@
         "convert to base64"
       ],
       "defaultVariant": "encode",
-      "headline": "Encode any text or data to Base64 format. Useful for embedding data in HTML, CSS, JSON, and API payloads."
+      "headline": "Encode any text or data to Base64 format. Useful for embedding data in HTML, CSS, JSON, and API payloads.",
+      "noindex": true
     },
     {
       "variantSlug": "base64-decode-online",
@@ -71,7 +72,8 @@
         "convert from base64"
       ],
       "defaultVariant": "decode",
-      "headline": "Paste a Base64-encoded string to decode it back to plain text. Handles standard Base64 and URL-safe Base64 variants."
+      "headline": "Paste a Base64-encoded string to decode it back to plain text. Handles standard Base64 and URL-safe Base64 variants.",
+      "noindex": true
     },
     {
       "variantSlug": "url-encode-decode",
