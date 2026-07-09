@@ -228,15 +228,25 @@ export default function ToolLayout({ tool, children, allTools, locale }: ToolLay
             </div>
           </div>
 
-          {/* How it works */}
-          <section className="mb-10">
-            <h2 className="text-xl font-semibold text-gray-900 mb-3">How it works</h2>
-            <p className="text-gray-500 leading-relaxed">
-              This {tool.name.toLowerCase()} runs entirely in your browser — no data is sent to any server.
-              Simply fill in the fields above and the result updates instantly. You can copy the output
-              with the copy button provided.
-            </p>
-          </section>
+          {/* How it works — use first seoBody section if available, else tagline */}
+          {(() => {
+            const seoBody: { heading: string; body: string }[] | undefined = (tool as any).seoBody;
+            const first = seoBody?.[0];
+            if (first) {
+              return (
+                <section className="mb-10">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-3">{first.heading}</h2>
+                  <ArticleBody body={first.body} />
+                </section>
+              );
+            }
+            return (
+              <section className="mb-10">
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">How it works</h2>
+                <p className="text-gray-500 leading-relaxed">{tool.tagline}</p>
+              </section>
+            );
+          })()}
 
           {/* FAQ */}
           <section className="mb-10">
@@ -253,25 +263,29 @@ export default function ToolLayout({ tool, children, allTools, locale }: ToolLay
             </div>
           </section>
 
-          {/* Article sections — deep content for E-E-A-T and long-tail SEO */}
-          {(tool as any).article?.sections?.length > 0 && (
-            <article className="mb-10 prose-none">
-              <h2 className="text-xl font-semibold text-gray-900 mb-6">
-                {(tool as any).article.title ?? "In-Depth Guide"}
-              </h2>
-              <div className="space-y-8">
-                {(tool as any).article.sections.map((s: { heading: string; body: string }, i: number) => (
-                  <section key={i}>
-                    <h3 className="text-base font-semibold text-gray-800 mb-3 flex items-center gap-2">
-                      <span className="w-1 h-5 bg-blue-500 rounded-full inline-block" />
-                      {s.heading}
-                    </h3>
-                    <ArticleBody body={s.body} />
-                  </section>
-                ))}
-              </div>
-            </article>
-          )}
+          {/* Article sections — seoBody[1..] + legacy article.sections */}
+          {(() => {
+            const seoBody: { heading: string; body: string }[] | undefined = (tool as any).seoBody;
+            const remainingSeo = seoBody && seoBody.length > 1 ? seoBody.slice(1) : [];
+            const legacySections: { heading: string; body: string }[] = (tool as any).article?.sections ?? [];
+            const sections = [...remainingSeo, ...legacySections];
+            if (sections.length === 0) return null;
+            return (
+              <article className="mb-10 prose-none">
+                <div className="space-y-8">
+                  {sections.map((s, i) => (
+                    <section key={i}>
+                      <h3 className="text-base font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                        <span className="w-1 h-5 bg-blue-500 rounded-full inline-block" />
+                        {s.heading}
+                      </h3>
+                      <ArticleBody body={s.body} />
+                    </section>
+                  ))}
+                </div>
+              </article>
+            );
+          })()}
 
           {/* SEO Content — pain points + trust signals (server-rendered for crawlers) */}
           <SEOContent tool={tool} />
