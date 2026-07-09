@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-07-02. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-07-09. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -24,10 +24,13 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Context Window Calculator: https://getfastcalc.com/tools/context-window-calculator — Optimize your AI prompt context.
 - Prompt Cleaner Tool: https://getfastcalc.com/tools/prompt-cleaner-tool — Refine your prompts for clarity and impact.
 - Prompt Cost Calculator: https://getfastcalc.com/tools/prompt-cost-calculator — Estimate your AI prompt costs quickly.
+- AI Prompt Optimizer Tool: https://getfastcalc.com/tools/prompt-optimizer-tool — Enhance your prompts for better results
+- Prompt Token Counter: https://getfastcalc.com/tools/prompt-token-counter — Count tokens in your prompts easily
 - Prompt Token Optimizer: https://getfastcalc.com/tools/prompt-token-optimizer — Optimize prompts to save tokens
 - Prompt Variable Generator: https://getfastcalc.com/tools/prompt-variable-generator — Create dynamic variables for your prompts.
 - Prompt Version Comparator: https://getfastcalc.com/tools/prompt-version-comparator — Compare different prompt versions
 - Prompt Version Compare: https://getfastcalc.com/tools/prompt-version-compare — Compare different versions of your prompts.
+- Prompt Version Comparer: https://getfastcalc.com/tools/prompt-version-comparer — Compare different versions of prompts
 - Token Splitter: https://getfastcalc.com/tools/token-splitter — Effortlessly split your prompts into tokens.
 - Token Splitter Tool: https://getfastcalc.com/tools/token-splitter-tool — Split your text into manageable token chunks.
 
@@ -71,11 +74,16 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Typography Scale Generator: https://getfastcalc.com/tools/design/typography-scale-generator — Create harmonious font sizes effortlessly
 
 ### Developer
+- API Response Time Calculator: https://getfastcalc.com/tools/dev/api-response-time-calculator — Calculate and analyze API response times.
 - Number Base Converter: https://getfastcalc.com/tools/dev/base-converter — Convert numbers between any bases — binary, octal, decimal, hex, and more
 - Base64 Encoder / Decoder: https://getfastcalc.com/tools/dev/base64-tool — Encode and decode Base64 and URL-encoded strings instantly
 - Cron Expression Generator & Explainer: https://getfastcalc.com/tools/dev/cron-expression-generator — Build cron schedules visually, understand any cron string instantly
+- CSS Grid Layout Calculator: https://getfastcalc.com/tools/dev/css-grid-calculator — Design responsive grids effortlessly.
 - CSS Unit Converter: https://getfastcalc.com/tools/dev/css-unit-converter — Convert px to rem, em, vw and more — instant CSS unit calculations
 - CSS Variables Generator: https://getfastcalc.com/tools/dev/css-variables-generator — Build a custom color palette and export ready-to-use CSS variables and Tailwind config
+- Dev Project Budget Calculator: https://getfastcalc.com/tools/dev/dev-project-budget-calculator — Estimate your project costs accurately.
+- Dev Tool Comparison Calculator: https://getfastcalc.com/tools/dev/dev-tool-comparison-calculator — Compare multiple development tools side by side.
+- Dev Tool Efficiency Calculator: https://getfastcalc.com/tools/dev/dev-tool-efficiency-calculator — Measure your development tool effectiveness.
 - Online Diff Checker: https://getfastcalc.com/tools/dev/diff-checker — Compare two texts, files, or code snippets side by side
 - JSON & CSV Formatter / Validator: https://getfastcalc.com/tools/dev/json-csv-formatter — Format, validate, and convert JSON and CSV instantly in your browser
 - JWT Decoder & Security Checker: https://getfastcalc.com/tools/dev/jwt-decoder — Decode and inspect any JWT token — with security analysis
@@ -150,9 +158,14 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Sharpe Ratio Calculator: https://getfastcalc.com/tools/quant/sharpe-ratio-calculator — Measure risk-adjusted return of your portfolio or strategy
 
 ### SEO
+- Canonical Link Validator: https://getfastcalc.com/tools/canonical-link-validator — Check your canonical links for issues
 - Canonical URL Checker: https://getfastcalc.com/tools/canonical-url-checker — Verify your canonical URLs
 - Keyword Density Analyzer: https://getfastcalc.com/tools/keyword-density-analyzer — Analyze your keyword use
 - Meta Description Generator: https://getfastcalc.com/tools/meta-description-generator — Craft perfect meta descriptions
+- Meta Title Generator: https://getfastcalc.com/tools/meta-title-generator — Create compelling meta titles instantly
+- Reading Time Calculator: https://getfastcalc.com/tools/reading-time-calculator — Estimate reading time for your content
+- Robots.txt Generator: https://getfastcalc.com/tools/robots-txt-generator — Easily create your robots.txt file
+- Schema Markup Generator: https://getfastcalc.com/tools/schema-generator — Create structured data for your site
 - Schema Markup Generator: https://getfastcalc.com/tools/schema-markup-generator — Generate structured data markup
 - Title Optimization Tool: https://getfastcalc.com/tools/title-optimization-tool — Generate compelling SEO titles
 
