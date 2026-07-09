@@ -168,3 +168,155 @@ GitHub Actions `.github/workflows/auto-grow.yml` 每天 02:00 UTC 运行。
 | 日期 | 内容 |
 |------|------|
 | 2026-06-30 | 基于用户建议创建本计划，接入 auto-grow workflow |
+| 2026-07-09 | 增加第八章（SEO 外部诊断报告）+ 第九章（优先修复路径） |
+
+---
+
+## 八、SEO 外部诊断报告（2026-07-09）
+
+> 来源：GPT 对 getfastcalc.com 的外部信号分析。
+
+### 8.1 现状判断
+
+- Google **已收录**首页、工具页、多语言页（Macro Tracker、Keyword Density、Developer Tools 等）
+- 问题不是"没被收录"，而是**收录了但 Google 不认为值得排前面**
+- 处于新站常见阶段：初期被发现 → 部分收录 → 竞争评估后排名回落
+
+### 8.2 最可能的五个下滑原因
+
+#### ① 网站主题太散，新站难建立权威
+- 当前覆盖 AI / Ecommerce / Developer / Health / Finance / SEO / Travel / Crypto / Cooking / Quant 等大量方向
+- Google 很难判断你是哪方面的权威
+- "calculator" 赛道极卷，对手是 Calculator.net / Omni Calculator / NHLBI / CDC / Investor.gov
+- **结论**：不能 100 个工具一起冲，要先选一个小领域打穿
+
+#### ② 多语言页面"半翻译"，页面质量信号差
+- `/pt/`、`/fr/`、`/es/` 页面标题/简介是目标语言，但输入项、按钮、FAQ、Related Tools 仍是英文
+- 半成品多语言页会让 Google 和用户都认为质量不完整
+- **结论**：没完整翻译的语言页先 `noindex`，不要让 Google 大量收录半成品
+
+#### ③ 重复/近似重复工具页，权重分散
+- 例：`/tools/calc/macro-tracker-calculator/` 与 `/tools/calc/macro-tracker-calculator-for-beginners/` 功能结构几乎相同
+- 后果：Google 不知道该排哪一个 → 权重分散 → Search Console 出现"Duplicate, Google chose different canonical"
+- **结论**：保留差异明显的，另一个 301 重定向到主页面；或 noindex
+
+#### ④ 分类页太薄，像目录页，不像能排名的内容页
+- Date & Time、Developer Tools 等分类页只有标题 + 工具列表，内容极短
+- **结论**：分类页可以存在，但真正要排名的是：单工具页 + 强专题页 + 问题型内容页
+
+#### ⑤ 模板化内容味道较重
+- 多个工具页使用类似"This calculator runs entirely in your browser — no data is sent to any server…"的固定句式
+- Google 强调：内容应提供原创信息、完整说明、超出显而易见的信息
+- Google 垃圾政策警告：批量生成多主题内容 + 缺少原创价值 = scaled content abuse 风险
+- **结论**：不是一定违规，但要避免"批量生成工具页 + 批量生成解释文案"的外观
+
+### 8.3 应该在哪里诊断
+
+#### Google Search Console（第一优先）
+
+**Performance → Search results**
+- 比较：最近 28 天 vs 上一个 28 天
+- 看哪些 Query / Page 掉了
+- 判断表：
+
+| 现象 | 说明 |
+|------|------|
+| Impressions 掉 | 索引减少 / 关键词需求下降 / 页面被替代 / 主题权重下降 |
+| Position 掉 | 内容质量 / 竞争对手 / 重复页面 / 权威不足 |
+| Impressions 没掉但 Clicks 掉 | 标题/描述 CTR 不行，或 SERP 被 AI/广告/精选摘要抢流量 |
+| 某一类页面一起掉 | 分类/模板/多语言/内链结构可能有问题 |
+
+**Pages / Indexing（重点查）**
+- Crawled - currently not indexed
+- Discovered - currently not indexed
+- Duplicate, Google chose different canonical
+- Alternate page with proper canonical tag
+- Soft 404 / Blocked by robots.txt / Excluded by noindex
+
+**URL Inspection（抽查 10 个页面）**
+- 英文首页
+- 一个英文主力工具页
+- 一个 `/es/` 页面
+- 一个 `/fr/` 页面
+- 一个重复工具页
+- 一个分类页
+
+**Experience → Core Web Vitals**
+- LCP ≤ 2.5s / INP ≤ 200ms / CLS ≤ 0.1（移动端）
+
+---
+
+## 九、优先修复执行路径
+
+> 按优先级排序。**先别继续加页面，先收敛质量。**
+
+### 第一步：确定主攻赛道（立即执行）
+
+推荐优先攻：
+- **AI Prompt / Token / Cost Tools** ← 需求爆发，竞争相对低
+- **Developer Tools** ← 每天被搜索，粘性强
+
+暂缓：Health / Finance（YMYL 领域，Google 对信任和专业性要求极高，新站难突破）
+
+### 第二步：处理重复工具页（本周内）
+
+- [ ] 列出所有功能高度相似的工具对（slug 级别）
+- [ ] 保留差异化明显的版本；另一个做 301 重定向或 noindex
+- [ ] Sitemap 只保留 canonical 主 URL
+- [ ] 在 `_redirects` 文件中补全 301 规则
+
+重点检查对象：
+- `macro-tracker-calculator` vs `macro-tracker-calculator-for-beginners`
+- 其他"for-beginners"/"advanced"/"free"变体页
+
+### 第三步：noindex 半成品多语言页（本周内）
+
+- [ ] 检查 `/es/` `/fr/` 工具页：按钮、输入项、FAQ、Related Tools 是否完整翻译
+- [ ] 未完整翻译的页面：在 meta 中加 `noindex`（或从 sitemap 移除）
+- [ ] 只保留质量完整的多语言页参与索引
+
+### 第四步：把 20 个核心工具页做厚（2 周内）
+
+每个主力工具页必须包含：
+- [ ] 计算公式/计算逻辑说明
+- [ ] 真实使用例子（带具体数字）
+- [ ] 结果解释（数字意味着什么）
+- [ ] 常见错误 / 使用误区
+- [ ] 适用场景 / 限制说明
+- [ ] 相关工具内链（3-5 个，只链相关）
+- [ ] 最后更新时间
+- [ ] FAQ Schema JSON-LD（已有 FAQ 数据，需输出）
+- [ ] "这个工具如何计算"的透明说明
+
+优先工具候选：
+1. Prompt Token Counter / Prompt Cost Calculator
+2. JSON Formatter / Base64 Converter
+3. FBA Fee Calculator
+4. Keyword Density Checker
+5. Reading Time Calculator
+
+### 第五步：优化内链结构（2 周内）
+
+- [ ] 减少全站底部无差别堆砌工具链接
+- [ ] 每个工具页只保留 3-5 个**真正相关**的内链
+- [ ] 分类页增加引导性文案（场景说明 + 推荐路径），不只是工具列表
+
+### 第六步：持续监控（每两周）
+
+- [ ] Google Search Console Performance：对比 Impressions / Position 变化
+- [ ] Pages Indexing：追踪"Crawled - currently not indexed"数量趋势
+- [ ] Core Web Vitals：移动端 LCP / INP / CLS
+
+### 修复优先级总结
+
+| 优先级 | 任务 | 时间目标 |
+|--------|------|----------|
+| 🔴 P0 | 停止批量加页面，收敛到主赛道 | 立即 |
+| 🔴 P0 | 处理重复/相似工具页（301 或 noindex） | 本周 |
+| 🔴 P0 | noindex 半成品多语言页 | 本周 |
+| 🟠 P1 | 20 个核心工具页内容加厚 | 2 周内 |
+| 🟠 P1 | FAQ Schema JSON-LD 全面输出 | 2 周内 |
+| 🟡 P2 | 内链结构优化（减少无关链接堆砌） | 2 周内 |
+| 🟡 P2 | 分类页增加真实内容 | 1 个月内 |
+| 🟢 P3 | 核心 Web Vitals 移动端优化 | 持续 |
+| 🟢 P3 | 多语言页完整翻译后逐步重新 index | 持续 |

@@ -1,0 +1,30 @@
+SEO / Traffic Recovery Progress
+==============================
+
+COMPLETED (2026-07-06)
+----------------------
+1. Added title-checker variant to title-optimization-tool for GSC query "seo title checker"
+2. Reverted AI-generated spammy 2026/clickbait titles for finance-charge, headline-analyzer, profit-margin-uk
+3. Fixed AI SEO prompt in analyze_seo.py (removed forced year + clickbait instructions)
+4. Added spammy/clickbait filter in apply_seo_suggestions.py
+5. Removed stale 2026/2025 keywords from ai, compound-interest, holiday, character-counter, fba, fitness, gpa, import-duty tools
+6. Removed outdated year from fba-fee-calculator title/description
+7. Replaced clickbait phrase in meta-description-generator description
+8. Updated tax-calculator (meta + 6 i18n files + seoBody) from 2024 to 2026 tax year
+9. Verified Next.js build passes and pushed to GitHub
+
+PENDING
+-------
+A. Batch fix low-quality variant / programmatic-page titles/descriptions:
+   - Many variants have titles >80 chars and descriptions >160 chars
+   - cron-expression-generator, character-counter, color-palette-lab, etc.
+   - This is a long-term content quality task; do after core traffic recovers
+
+C. Monitor GSC recovery:
+   - Re-submit sitemap: https://getfastcalc.com/sitemap.xml
+   - Request re-indexing for key URLs
+   - Wait 1-2 weeks, then review impressions/clicks/404s before further changes
+
+NEXT ACTION
+-----------
+User: go to Google Search Console, submit sitemap and request re-index for the URLs listed above.
