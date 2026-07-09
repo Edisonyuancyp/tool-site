@@ -36,15 +36,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const result = resolveI18nSlug(slug, locale as SupportedLocale);
   if (!result) return {};
 
-  const { meta } = result;
+  const { meta, isTranslated } = result;
   const enPath = getToolPath(meta);
   const enUrl = `https://getfastcalc.com${enPath}`;
   const selfUrl = `https://getfastcalc.com/${locale}/tools/${slug}`;
+  const shouldNoindex = !isTranslated || meta.noindex === true;
 
   return {
     title: meta.metaTitle,
     description: meta.metaDescription,
     keywords: meta.keywords,
+    ...(shouldNoindex ? { robots: { index: false, follow: false } } : {}),
     alternates: {
       canonical: enUrl,
       languages: {
