@@ -1,0 +1,51 @@
+{
+  "slug": "dev-security-risk-calculator",
+  "name": "Dev Security Risk Calculator",
+  "tagline": "Bewerten Sie Sicherheitsrisiken in Ihren Projekten.",
+  "description": "Dieses Tool bewertet potenzielle Sicherheitsrisiken in Ihren Entwicklungsprojekten basierend auf den Eingaben der Benutzer. Ideal für Entwickler, die die Sicherheitslage ihrer Anwendungen verbessern möchten.",
+  "metaTitle": "Dev Security Risk – Projekt Risiken bewerten | Kostenloses Online-Tool",
+  "metaDescription": "Bewerten Sie Sicherheitsrisiken in Ihren Entwicklungsprojekten kostenlos, keine Anmeldung erforderlich. Erhalten Sie sofortige Einblicke in potenzielle Schwachstellen.",
+  "keywords": [
+    "Entwickler Sicherheitsrisiko",
+    "Projekt Sicherheitsbewertung",
+    "Risiken bewerten",
+    "Entwickler Sicherheit",
+    "Schwachstellenanalyse",
+    "Dev Security Risk Calculator Online-Tool kostenlos",
+    "Dev Security Risk Calculator Konverter Browser",
+    "Dev Security Risk Calculator ohne Installation",
+    "kostenloses Entwickler-Tool",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Entwicklermodus Sicherheitsrisiko",
+    "Sicherheitsrisikomanagementprozess",
+    "Werkzeug zur Sicherheitsbewertung von Projekten",
+    "Sicherheitsbewertung von Projektrisiken",
+    "Checkliste zur Sicherheitsbewertung von Projektinformationen",
+    "Beispiel für einen Sicherheitsbewertungsbericht",
+    "Beispiel für eine Sicherheitsbewertung",
+    "Risiken im Zusammenhang mit einem Supportplan bewerten"
+  ],
+  "category": "Developer",
+  "icon": "🔒",
+  "faqs": [
+    {
+      "question": "Welche Eingaben benötige ich?",
+      "answer": "Sie müssen Details zur Architektur Ihres Projekts, zu Abhängigkeiten und zur Datenverarbeitung bereitstellen."
+    },
+    {
+      "question": "Wie genau sind die Ergebnisse?",
+      "answer": "Der Rechner bietet eine Risikobewertung basierend auf gängigen Schwachstellen und Best Practices."
+    },
+    {
+      "question": "Kann ich es für mehrere Projekte verwenden?",
+      "answer": "Ja, Sie können so viele Projekte bewerten, wie Sie möchten."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

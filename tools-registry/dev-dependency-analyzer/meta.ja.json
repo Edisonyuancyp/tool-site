@@ -1,0 +1,51 @@
+{
+  "slug": "dev-dependency-analyzer",
+  "name": "Dev Dependency Analyzer",
+  "tagline": "プロジェクトの依存関係を効率的に分析します。",
+  "description": "このツールは、あなたのソフトウェアプロジェクトの依存関係を分析し、潜在的な問題を特定し、依存関係管理を最適化する手助けをします。複雑なプロジェクトに取り組む開発者にとって必須です。",
+  "metaTitle": "Dev Dependency Analyzer – プロジェクトの依存関係を管理 | 無料オンラインツール",
+  "metaDescription": "プロジェクトの依存関係を無料で分析、サインアップ不要。ソフトウェアの依存関係管理に関する即時のインサイトを得られます。",
+  "keywords": [
+    "dev dependency analyzer",
+    "依存関係を分析",
+    "依存関係管理",
+    "ソフトウェアの依存関係",
+    "プロジェクト最適化",
+    "dev dependency analyzer オンラインツール 無料",
+    "dev dependency analyzer コンバータ ブラウザ",
+    "dev dependency analyzer インストール不要 開発ツール",
+    "無料開発者ツール",
+    "オンラインユーティリティ",
+    "インストール不要",
+    "ブラウザベースの開発ツール",
+    "依存関係を分析 intellij",
+    "依存関係を分析 android studio",
+    "依存関係を分析 maven",
+    "依存関係を分析 gradle",
+    "npm 依存関係を分析",
+    "idea 依存関係を分析",
+    "mvn 依存関係を分析",
+    "依存関係管理ツール"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "何を分析する必要がありますか？",
+      "answer": "プロジェクトの依存関係のリストを提供する必要があります。"
+    },
+    {
+      "question": "潜在的な問題を見ることはできますか？",
+      "answer": "はい、このツールは潜在的な競合や問題を強調表示します。"
+    },
+    {
+      "question": "すべての種類のプロジェクトに適していますか？",
+      "answer": "もちろん、さまざまなプログラミング言語やフレームワークで動作します。"
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

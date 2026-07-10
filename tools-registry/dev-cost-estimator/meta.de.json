@@ -1,0 +1,51 @@
+{
+  "slug": "dev-cost-estimator",
+  "name": "Dev Cost Estimator",
+  "tagline": "Schätzen Sie die Kosten für Entwicklungsprojekte.",
+  "description": "Dieses Tool hilft Entwicklern und Projektmanagern, die mit Softwareentwicklungsprojekten verbundenen Kosten zu schätzen. Geben Sie Ihre Projektspezifikationen ein und erhalten Sie eine Kostenaufstellung.",
+  "metaTitle": "Dev Cost Estimator – Kosten für Softwareentwicklung | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie Ihre Kosten für die Softwareentwicklung kostenlos, keine Anmeldung erforderlich. Erhalten Sie sofortige Aufschlüsselungen der Projektkosten.",
+  "keywords": [
+    "Entwicklungskosten Schätzer",
+    "Kosten für Softwareentwicklung",
+    "Projektbudget",
+    "Kostenaufstellung",
+    "Entwicklungsausgaben",
+    "Entwicklungskosten Schätzer kostenloses Online-Tool",
+    "Entwicklungskosten Schätzer Konverter Browser",
+    "Entwicklungskosten Schätzer ohne Installation",
+    "kostenloses Entwickler-Tool",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Kosten Schätzer für Entwicklung",
+    "Entwicklungskosten Rechner",
+    "Tool zur Schätzung von Entwicklungskosten",
+    "Schätzer für Entwicklungskosten",
+    "Vorlage zur Kostenschätzung für Entwicklung",
+    "Kosten Schätzer für App-Entwicklung",
+    "Entwicklungskosten pro Quadratfuß",
+    "Was ist ein Kostenschätzer"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Welche Faktoren berücksichtigen Sie?",
+      "answer": "Wir berücksichtigen Faktoren wie Arbeitskraft, Werkzeuge und Zeit, um eine genaue Schätzung zu liefern."
+    },
+    {
+      "question": "Kann ich die Eingaben anpassen?",
+      "answer": "Ja, Sie können die Parameter an die Bedürfnisse Ihres Projekts anpassen."
+    },
+    {
+      "question": "Gibt es eine Begrenzung für die Schätzung?",
+      "answer": "Nein, Sie können Schätzungen für Projekte jeder Größe berechnen."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

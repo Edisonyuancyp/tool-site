@@ -1,0 +1,51 @@
+{
+  "slug": "dev-dependency-analyzer",
+  "name": "Dev Dependency Analyzer",
+  "tagline": "Analise as dependências do projeto de forma eficiente.",
+  "description": "Esta ferramenta analisa as dependências em seus projetos de software, ajudando você a identificar problemas potenciais e otimizar a gestão de dependências. É essencial para desenvolvedores que trabalham com projetos complexos.",
+  "metaTitle": "Dev Dependency Analyzer – Gerencie Dependências de Projetos | Ferramenta Online Gratuita",
+  "metaDescription": "Analise as dependências do seu projeto gratuitamente, sem necessidade de cadastro. Obtenha insights instantâneos sobre como gerenciar suas dependências de software.",
+  "keywords": [
+    "analisador de dependências de dev",
+    "analisar dependências",
+    "gestão de dependências",
+    "dependências de software",
+    "otimização de projetos",
+    "ferramenta online gratuita de analisador de dependências de dev",
+    "conversor de analisador de dependências de dev navegador",
+    "ferramenta de dev sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de dev baseada em navegador",
+    "analisar dependências intellij",
+    "analisar dependências android studio",
+    "analisar dependências maven",
+    "analisar dependências gradle",
+    "npm analisar dependências",
+    "idea analisar dependências",
+    "mvn analisar dependências",
+    "ferramentas de gestão de dependências"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "O que eu preciso analisar?",
+      "answer": "Você precisará fornecer uma lista das dependências do seu projeto."
+    },
+    {
+      "question": "Posso ver problemas potenciais?",
+      "answer": "Sim, a ferramenta destacará conflitos e problemas potenciais."
+    },
+    {
+      "question": "É adequada para todos os tipos de projetos?",
+      "answer": "Absolutamente, funciona com várias linguagens de programação e frameworks."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dev-time-tracking-calculator",
+  "name": "Dev Zeitverfolgungsrechner",
+  "tagline": "Verfolgen Sie Ihre Entwicklungszeit effizient.",
+  "description": "Dieses Tool unterstützt Entwickler dabei, die auf verschiedene Aufgaben innerhalb von Projekten verwendete Zeit zu verfolgen und zu verwalten. Es ist perfekt für Freiberufler und Teams, die ihre Produktivität optimieren möchten.",
+  "metaTitle": "Dev Zeitverfolgung – Verwalten Sie Ihre Entwicklungsstunden | Kostenloses Online-Tool",
+  "metaDescription": "Verfolgen Sie Ihre Entwicklungsstunden kostenlos, keine Anmeldung erforderlich. Erhalten Sie sofortige Einblicke in Zeitmanagement und Produktivität.",
+  "keywords": [
+    "Entwicklungszeitverfolgung",
+    "Entwicklungsstunden verwalten",
+    "Zeitmanagement",
+    "Produktivitätstool",
+    "Aufgabenverfolgung",
+    "dev zeitverfolgungsrechner online tool kostenlos",
+    "dev zeitverfolgungsrechner konverter browser",
+    "dev zeitverfolgungsrechner ohne installation",
+    "kostenloses Entwickler-Tool",
+    "online Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Entwicklungszeitverfolgung",
+    "Entwicklungszeit Tracker",
+    "Software Entwicklungszeitverfolgung",
+    "Software Entwicklungszeitverfolgungs-Tool",
+    "was ist Zeitverfolgung",
+    "wer hat mit der Zeitverfolgung begonnen",
+    "ist Zeitverfolgung effektiv",
+    "Strategien für Zeitmanagement"
+  ],
+  "category": "Developer",
+  "icon": "⏳",
+  "faqs": [
+    {
+      "question": "Wie gebe ich meine Stunden ein?",
+      "answer": "Geben Sie einfach die Stunden ein, die Sie für jede Aufgabe aufgewendet haben, um Ihre Gesamtsumme zu sehen."
+    },
+    {
+      "question": "Kann ich meine Aufgaben kategorisieren?",
+      "answer": "Ja, Sie können Aufgaben zur besseren Organisation kategorisieren."
+    },
+    {
+      "question": "Werde ich Berichte über meine Zeitnutzung sehen?",
+      "answer": "Ja, das Tool bietet Berichte, die Ihnen helfen, Ihre aufgewendete Zeit zu analysieren."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dev-security-risk-calculator",
+  "name": "Calculadora de Risco de Segurança para Desenvolvimento",
+  "tagline": "Avalie os riscos de segurança em seus projetos.",
+  "description": "Esta ferramenta avalia os potenciais riscos de segurança em seus projetos de desenvolvimento com base nas informações fornecidas pelo usuário. Ideal para desenvolvedores que desejam aprimorar a segurança de suas aplicações.",
+  "metaTitle": "Risco de Segurança para Desenvolvimento – Avalie Riscos de Projetos | Ferramenta Online Gratuita",
+  "metaDescription": "Avalie os riscos de segurança em seus projetos de desenvolvimento gratuitamente, sem necessidade de cadastro. Obtenha insights instantâneos sobre vulnerabilidades potenciais.",
+  "keywords": [
+    "risco de segurança para desenvolvimento",
+    "avaliação de segurança de projetos",
+    "avaliar riscos",
+    "segurança para desenvolvedores",
+    "análise de vulnerabilidades",
+    "calculadora de risco de segurança para desenvolvimento ferramenta online gratuita",
+    "calculadora de risco de segurança para desenvolvimento conversor navegador",
+    "calculadora de risco de segurança para desenvolvimento ferramenta sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta para desenvolvimento baseada em navegador",
+    "risco de segurança em modo desenvolvedor",
+    "processo de gerenciamento de risco de segurança",
+    "ferramenta de avaliação de segurança de projetos",
+    "avaliação de risco de segurança de projetos",
+    "checklist de avaliação de risco de segurança da informação do projeto",
+    "exemplo de relatório de avaliação de segurança",
+    "exemplo de avaliação de segurança",
+    "avaliar riscos associados a um plano de suporte"
+  ],
+  "category": "Developer",
+  "icon": "🔒",
+  "faqs": [
+    {
+      "question": "Quais informações eu preciso fornecer?",
+      "answer": "Você precisará fornecer detalhes sobre a arquitetura do seu projeto, dependências e manuseio de dados."
+    },
+    {
+      "question": "Qual a precisão dos resultados?",
+      "answer": "A calculadora fornece uma avaliação de risco com base em vulnerabilidades comuns e melhores práticas."
+    },
+    {
+      "question": "Posso usá-la para vários projetos?",
+      "answer": "Sim, você pode avaliar quantos projetos desejar."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

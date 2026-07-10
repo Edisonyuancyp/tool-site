@@ -1,0 +1,51 @@
+{
+  "slug": "dev-cost-estimator",
+  "name": "Estimador de Custos de Desenvolvimento",
+  "tagline": "Estime os custos de projetos de desenvolvimento.",
+  "description": "Esta ferramenta ajuda desenvolvedores e gerentes de projeto a estimar os custos associados a projetos de desenvolvimento de software. Insira as especificações do seu projeto e obtenha uma análise detalhada dos custos.",
+  "metaTitle": "Estimador de Custos de Desenvolvimento – Custos de Software | Ferramenta Online Gratuita",
+  "metaDescription": "Estime seus custos de desenvolvimento de software gratuitamente, sem necessidade de cadastro. Obtenha análises instantâneas das despesas do projeto.",
+  "keywords": [
+    "estimador de custos de desenvolvimento",
+    "custos de desenvolvimento de software",
+    "orçamento de projeto",
+    "análise de custos",
+    "despesas de desenvolvimento",
+    "ferramenta online gratuita estimador de custos",
+    "conversor estimador de custos navegador",
+    "ferramenta de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "estimador de custos de desenvolvimento",
+    "calculadora de custos de desenvolvimento",
+    "ferramenta estimadora de taxas de desenvolvimento",
+    "estimador de taxas de desenvolvimento",
+    "modelo de estimativa de custos de desenvolvimento",
+    "estimador de custos de desenvolvimento de aplicativos",
+    "custo de desenvolvimento por metro quadrado",
+    "o que é um estimador de custos"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Quais fatores vocês consideram?",
+      "answer": "Consideramos fatores como mão de obra, ferramentas e tempo para fornecer uma estimativa precisa."
+    },
+    {
+      "question": "Posso personalizar as entradas?",
+      "answer": "Sim, você pode ajustar os parâmetros para atender às necessidades do seu projeto."
+    },
+    {
+      "question": "Há um limite para a estimativa?",
+      "answer": "Não, você pode calcular estimativas para projetos de qualquer tamanho."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

@@ -3428,5 +3428,302 @@
         "headline": "Get rapid results on your canonical link checks."
       }
     ]
+  },
+  {
+    "slug": "dev-tool-performance-calculator",
+    "name": "Dev Tool Performance Calculator",
+    "tagline": "Measure your dev tools' effectiveness.",
+    "description": "This tool helps developers analyze the performance of various development tools. Input your metrics and get insights on tool efficiency and effectiveness.",
+    "metaTitle": "Dev Tool Performance – Analyze Tool Efficiency | Free Online Tool",
+    "metaDescription": "Analyze your dev tools' performance for free, no signup required. Get instant results on tool effectiveness and efficiency.",
+    "keywords": [
+      "dev tool performance",
+      "analyze dev tools",
+      "tool efficiency",
+      "developer tools",
+      "performance metrics"
+    ],
+    "category": "Developer",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "How do I use this calculator?",
+        "answer": "Simply input your performance metrics and click 'Calculate' to see the results."
+      },
+      {
+        "question": "What metrics can I analyze?",
+        "answer": "You can analyze speed, reliability, and user satisfaction of your dev tools."
+      },
+      {
+        "question": "Is there a limit to the number of tools?",
+        "answer": "No, you can input metrics for as many tools as you need."
+      }
+    ],
+    "relatedTools": [
+      "existing-slug-1",
+      "existing-slug-2"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-performance-calculator",
+        "metaTitle": "Advanced Dev Tool Performance Analysis",
+        "metaDescription": "Delve deeper into your dev tools' performance metrics with advanced features.",
+        "keywords": [
+          "advanced performance",
+          "detailed analysis",
+          "performance insights"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Explore advanced features for deeper insights into your tools."
+      },
+      {
+        "variantSlug": "basic-performance-calculator",
+        "metaTitle": "Basic Dev Tool Performance Overview",
+        "metaDescription": "Get a quick overview of your dev tools' performance metrics.",
+        "keywords": [
+          "basic performance",
+          "quick analysis"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Quickly analyze your dev tools with a simpler interface."
+      }
+    ]
+  },
+  {
+    "slug": "dev-security-risk-calculator",
+    "name": "Dev Security Risk Calculator",
+    "tagline": "Evaluate security risks in your projects.",
+    "description": "This tool assesses potential security risks in your development projects based on user input. Ideal for developers looking to enhance their application's security posture.",
+    "metaTitle": "Dev Security Risk – Evaluate Project Risks | Free Online Tool",
+    "metaDescription": "Evaluate security risks in your dev projects for free, no signup needed. Get instant insights on potential vulnerabilities.",
+    "keywords": [
+      "dev security risk",
+      "project security assessment",
+      "evaluate risks",
+      "developer security",
+      "vulnerability analysis"
+    ],
+    "category": "Developer",
+    "icon": "🔒",
+    "faqs": [
+      {
+        "question": "What inputs do I need?",
+        "answer": "You'll need to provide details about your project's architecture, dependencies, and data handling."
+      },
+      {
+        "question": "How accurate are the results?",
+        "answer": "The calculator provides a risk assessment based on common vulnerabilities and best practices."
+      },
+      {
+        "question": "Can I use it for multiple projects?",
+        "answer": "Yes, you can evaluate as many projects as you like."
+      }
+    ],
+    "relatedTools": [
+      "existing-slug-1",
+      "existing-slug-2"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-security-assessment",
+        "metaTitle": "Detailed Security Risk Assessment",
+        "metaDescription": "Gain a comprehensive understanding of your project's security risks.",
+        "keywords": [
+          "detailed assessment",
+          "in-depth analysis",
+          "security vulnerabilities"
+        ],
+        "defaultVariant": "detailed-key",
+        "headline": "Get a deeper dive into your project's security landscape."
+      },
+      {
+        "variantSlug": "quick-security-check",
+        "metaTitle": "Quick Security Risk Overview",
+        "metaDescription": "A fast way to assess your project's basic security risks.",
+        "keywords": [
+          "quick assessment",
+          "basic security check"
+        ],
+        "defaultVariant": "quick-key",
+        "headline": "Quickly identify potential security flaws in your project."
+      }
+    ]
+  },
+  {
+    "slug": "dev-cost-estimator",
+    "name": "Dev Cost Estimator",
+    "tagline": "Estimate development project costs.",
+    "description": "This tool helps developers and project managers estimate the costs associated with software development projects. Input your project specifications and get a cost breakdown.",
+    "metaTitle": "Dev Cost Estimator – Software Development Costs | Free Online Tool",
+    "metaDescription": "Estimate your software development costs for free, no signup required. Get instant breakdowns of project expenses.",
+    "keywords": [
+      "dev cost estimator",
+      "software development costs",
+      "project budget",
+      "cost breakdown",
+      "development expenses"
+    ],
+    "category": "Developer",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "What factors do you consider?",
+        "answer": "We consider factors like labor, tools, and time to provide an accurate estimate."
+      },
+      {
+        "question": "Can I customize the inputs?",
+        "answer": "Yes, you can adjust parameters to fit your project's needs."
+      },
+      {
+        "question": "Is there a limit to the estimate?",
+        "answer": "No, you can calculate estimates for any size project."
+      }
+    ],
+    "relatedTools": [
+      "existing-slug-1",
+      "existing-slug-2"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-cost-calculator",
+        "metaTitle": "Detailed Cost Estimation Tool",
+        "metaDescription": "Get a comprehensive cost analysis for your development project.",
+        "keywords": [
+          "detailed cost",
+          "in-depth estimation"
+        ],
+        "defaultVariant": "detailed-cost-key",
+        "headline": "Explore a more detailed breakdown of your project costs."
+      },
+      {
+        "variantSlug": "basic-cost-estimator",
+        "metaTitle": "Basic Cost Estimation Tool",
+        "metaDescription": "Quickly estimate basic costs for your development project.",
+        "keywords": [
+          "basic cost",
+          "simple estimation"
+        ],
+        "defaultVariant": "basic-cost-key",
+        "headline": "Quickly get a basic estimate of your development costs."
+      }
+    ]
+  },
+  {
+    "slug": "dev-time-tracking-calculator",
+    "name": "Dev Time Tracking Calculator",
+    "tagline": "Track your development time efficiently.",
+    "description": "This tool assists developers in tracking and managing time spent on various tasks within projects. It's perfect for freelancers and teams looking to optimize productivity.",
+    "metaTitle": "Dev Time Tracking – Manage Your Development Hours | Free Online Tool",
+    "metaDescription": "Track your development hours for free, no signup necessary. Get instant insights on time management and productivity.",
+    "keywords": [
+      "dev time tracking",
+      "manage development hours",
+      "time management",
+      "productivity tool",
+      "task tracking"
+    ],
+    "category": "Developer",
+    "icon": "⏳",
+    "faqs": [
+      {
+        "question": "How do I input my hours?",
+        "answer": "Simply enter the hours spent on each task to see your total."
+      },
+      {
+        "question": "Can I categorize my tasks?",
+        "answer": "Yes, you can categorize tasks for better organization."
+      },
+      {
+        "question": "Will I see reports of my time usage?",
+        "answer": "Yes, the tool provides reports to help you analyze your time spent."
+      }
+    ],
+    "relatedTools": [
+      "existing-slug-1",
+      "existing-slug-2"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-time-tracking",
+        "metaTitle": "Advanced Time Tracking Tool",
+        "metaDescription": "Gain comprehensive insights into your time management.",
+        "keywords": [
+          "advanced tracking",
+          "detailed reports"
+        ],
+        "defaultVariant": "advanced-time-key",
+        "headline": "Explore advanced features for in-depth time tracking."
+      },
+      {
+        "variantSlug": "basic-time-tracker",
+        "metaTitle": "Basic Time Tracking Tool",
+        "metaDescription": "Quickly track your development time with a simple interface.",
+        "keywords": [
+          "basic tracking",
+          "simple time management"
+        ],
+        "defaultVariant": "basic-time-key",
+        "headline": "Effortlessly manage your development time with basic features."
+      }
+    ]
+  },
+  {
+    "slug": "dev-dependency-analyzer",
+    "name": "Dev Dependency Analyzer",
+    "tagline": "Analyze project dependencies efficiently.",
+    "description": "This tool analyzes the dependencies in your software projects, helping you identify potential issues and optimize your dependency management. It's essential for developers working with complex projects.",
+    "metaTitle": "Dev Dependency Analyzer – Manage Project Dependencies | Free Online Tool",
+    "metaDescription": "Analyze your project dependencies for free, no signup needed. Get instant insights on managing your software dependencies.",
+    "keywords": [
+      "dev dependency analyzer",
+      "analyze dependencies",
+      "dependency management",
+      "software dependencies",
+      "project optimization"
+    ],
+    "category": "Developer",
+    "icon": "🔗",
+    "faqs": [
+      {
+        "question": "What do I need to analyze?",
+        "answer": "You'll need to provide a list of your project's dependencies."
+      },
+      {
+        "question": "Can I see potential issues?",
+        "answer": "Yes, the tool will highlight potential conflicts and issues."
+      },
+      {
+        "question": "Is it suitable for all types of projects?",
+        "answer": "Absolutely, it works with various programming languages and frameworks."
+      }
+    ],
+    "relatedTools": [
+      "existing-slug-1",
+      "existing-slug-2"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-dependency-analysis",
+        "metaTitle": "Advanced Dependency Analysis Tool",
+        "metaDescription": "Gain deeper insights into your project's dependencies.",
+        "keywords": [
+          "advanced analysis",
+          "detailed dependency report"
+        ],
+        "defaultVariant": "advanced-dependency-key",
+        "headline": "Explore advanced features for comprehensive dependency management."
+      },
+      {
+        "variantSlug": "basic-dependency-checker",
+        "metaTitle": "Basic Dependency Checker Tool",
+        "metaDescription": "Quickly analyze your project's dependencies.",
+        "keywords": [
+          "basic analysis",
+          "quick dependency check"
+        ],
+        "defaultVariant": "basic-dependency-key",
+        "headline": "Fast and easy way to check your project dependencies."
+      }
+    ]
   }
 ]

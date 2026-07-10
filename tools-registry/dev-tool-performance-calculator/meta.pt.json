@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-performance-calculator",
+  "name": "Calculadora de Desempenho de Ferramentas de Desenvolvimento",
+  "tagline": "Meça a eficácia das suas ferramentas de desenvolvimento.",
+  "description": "Esta ferramenta ajuda desenvolvedores a analisar o desempenho de várias ferramentas de desenvolvimento. Insira suas métricas e obtenha insights sobre a eficiência e eficácia das ferramentas.",
+  "metaTitle": "Desempenho de Ferramentas de Desenvolvimento – Analise a Eficiência das Ferramentas | Ferramenta Online Gratuita",
+  "metaDescription": "Analise o desempenho das suas ferramentas de desenvolvimento gratuitamente, sem necessidade de cadastro. Obtenha resultados instantâneos sobre a eficácia e eficiência das ferramentas.",
+  "keywords": [
+    "desempenho de ferramentas de desenvolvimento",
+    "analisar ferramentas de desenvolvimento",
+    "eficiência das ferramentas",
+    "ferramentas para desenvolvedores",
+    "métricas de desempenho",
+    "calculadora de desempenho de ferramentas de desenvolvimento ferramenta online gratuita",
+    "calculadora de desempenho de ferramentas de desenvolvimento conversor navegador",
+    "calculadora de desempenho de ferramentas de desenvolvimento sem instalação",
+    "ferramenta de desenvolvimento gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "monitor de desempenho de ferramentas de desenvolvimento",
+    "aba de desempenho devtools",
+    "desempenho de ferramentas para desenvolvedores",
+    "desempenho de ferramentas de desenvolvimento chrome",
+    "análise de desempenho devtools chrome",
+    "aba de desempenho devtools chrome",
+    "monitor de desempenho devtools chrome",
+    "ferramentas de análise dev"
+  ],
+  "category": "Developer",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Como eu uso esta calculadora?",
+      "answer": "Basta inserir suas métricas de desempenho e clicar em 'Calcular' para ver os resultados."
+    },
+    {
+      "question": "Quais métricas posso analisar?",
+      "answer": "Você pode analisar a velocidade, confiabilidade e satisfação do usuário das suas ferramentas de desenvolvimento."
+    },
+    {
+      "question": "Há um limite para o número de ferramentas?",
+      "answer": "Não, você pode inserir métricas para quantas ferramentas precisar."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

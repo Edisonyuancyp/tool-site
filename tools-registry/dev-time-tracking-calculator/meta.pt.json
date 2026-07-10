@@ -1,0 +1,51 @@
+{
+  "slug": "dev-time-tracking-calculator",
+  "name": "Calculadora de Controle de Tempo de Desenvolvimento",
+  "tagline": "Acompanhe seu tempo de desenvolvimento de forma eficiente.",
+  "description": "Esta ferramenta ajuda desenvolvedores a rastrear e gerenciar o tempo gasto em várias tarefas dentro de projetos. É perfeita para freelancers e equipes que buscam otimizar a produtividade.",
+  "metaTitle": "Controle de Tempo de Desenvolvimento – Gerencie Suas Horas de Desenvolvimento | Ferramenta Online Gratuita",
+  "metaDescription": "Acompanhe suas horas de desenvolvimento gratuitamente, sem necessidade de cadastro. Obtenha insights instantâneos sobre gestão de tempo e produtividade.",
+  "keywords": [
+    "controle de tempo de desenvolvimento",
+    "gerenciar horas de desenvolvimento",
+    "gestão de tempo",
+    "ferramenta de produtividade",
+    "rastreamento de tarefas",
+    "calculadora de controle de tempo de desenvolvimento ferramenta online gratuita",
+    "calculadora de controle de tempo de desenvolvimento conversor navegador",
+    "calculadora de controle de tempo de desenvolvimento sem instalação ferramenta de desenvolvimento",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "controle de tempo de desenvolvimento",
+    "rastreador de tempo de desenvolvimento",
+    "controle de tempo de desenvolvimento de software",
+    "ferramenta de controle de tempo de desenvolvimento de software",
+    "o que é controle de tempo",
+    "quem começou a controlar o tempo",
+    "o controle de tempo é eficaz",
+    "estratégias de gestão de tempo"
+  ],
+  "category": "Developer",
+  "icon": "⏳",
+  "faqs": [
+    {
+      "question": "Como insiro minhas horas?",
+      "answer": "Basta inserir as horas gastas em cada tarefa para ver o total."
+    },
+    {
+      "question": "Posso categorizar minhas tarefas?",
+      "answer": "Sim, você pode categorizar as tarefas para uma melhor organização."
+    },
+    {
+      "question": "Vou ver relatórios do uso do meu tempo?",
+      "answer": "Sim, a ferramenta fornece relatórios para ajudar você a analisar o tempo gasto."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

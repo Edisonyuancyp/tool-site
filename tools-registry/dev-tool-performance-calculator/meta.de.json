@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-performance-calculator",
+  "name": "Dev Tool Performance Calculator",
+  "tagline": "Messen Sie die Effektivität Ihrer Entwicklungstools.",
+  "description": "Dieses Tool hilft Entwicklern, die Leistung verschiedener Entwicklungstools zu analysieren. Geben Sie Ihre Kennzahlen ein und erhalten Sie Einblicke in die Effizienz und Effektivität der Tools.",
+  "metaTitle": "Dev Tool Performance – Analyse der Tool-Effizienz | Kostenloses Online-Tool",
+  "metaDescription": "Analysieren Sie kostenlos die Leistung Ihrer Entwicklungstools, keine Anmeldung erforderlich. Erhalten Sie sofortige Ergebnisse zur Effektivität und Effizienz der Tools.",
+  "keywords": [
+    "Entwicklungstool Leistung",
+    "Entwicklungstools analysieren",
+    "Tool-Effizienz",
+    "Entwicklerwerkzeuge",
+    "Leistungskennzahlen",
+    "kostenloses Online-Tool zur Berechnung der Entwicklungstool-Leistung",
+    "Entwicklungstool Leistungsrechner Browser",
+    "Entwicklungstool Leistungsrechner ohne Installation",
+    "kostenloses Entwicklerwerkzeug",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwicklungstool",
+    "Leistungsüberwachung von Entwicklungstools",
+    "Leistungstab der Entwicklertools",
+    "Leistung von Entwicklerwerkzeugen",
+    "Leistung der Chrome-Entwicklungstools",
+    "Leistungsanalyse der Chrome-Entwicklungstools",
+    "Leistungstab der Chrome-Entwicklungstools",
+    "Leistungsmonitor der Chrome-Entwicklungstools",
+    "Analysetools für Entwicklung"
+  ],
+  "category": "Developer",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Wie benutze ich diesen Rechner?",
+      "answer": "Geben Sie einfach Ihre Leistungskennzahlen ein und klicken Sie auf 'Berechnen', um die Ergebnisse zu sehen."
+    },
+    {
+      "question": "Welche Kennzahlen kann ich analysieren?",
+      "answer": "Sie können die Geschwindigkeit, Zuverlässigkeit und Benutzerzufriedenheit Ihrer Entwicklungstools analysieren."
+    },
+    {
+      "question": "Gibt es eine Begrenzung für die Anzahl der Tools?",
+      "answer": "Nein, Sie können Kennzahlen für so viele Tools eingeben, wie Sie benötigen."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

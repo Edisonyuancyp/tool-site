@@ -1,0 +1,51 @@
+{
+  "slug": "dev-dependency-analyzer",
+  "name": "Dev Dependency Analyzer",
+  "tagline": "Analysieren Sie Projektabhängigkeiten effizient.",
+  "description": "Dieses Tool analysiert die Abhängigkeiten in Ihren Softwareprojekten und hilft Ihnen, potenzielle Probleme zu identifizieren und Ihr Abhängigkeitsmanagement zu optimieren. Es ist unerlässlich für Entwickler, die an komplexen Projekten arbeiten.",
+  "metaTitle": "Dev Dependency Analyzer – Projektabhängigkeiten verwalten | Kostenloses Online-Tool",
+  "metaDescription": "Analysieren Sie Ihre Projektabhängigkeiten kostenlos, keine Anmeldung erforderlich. Erhalten Sie sofortige Einblicke in das Management Ihrer Softwareabhängigkeiten.",
+  "keywords": [
+    "dev dependency analyzer",
+    "abhängigkeiten analysieren",
+    "abhängigkeitsmanagement",
+    "softwareabhängigkeiten",
+    "projektoptimierung",
+    "dev dependency analyzer online tool kostenlos",
+    "dev dependency analyzer konverter browser",
+    "dev dependency analyzer ohne installation",
+    "kostenloses Entwickler-Tool",
+    "online Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "abhängigkeiten analysieren intellij",
+    "abhängigkeiten analysieren android studio",
+    "abhängigkeiten analysieren maven",
+    "abhängigkeiten analysieren gradle",
+    "npm abhängigkeiten analysieren",
+    "idea abhängigkeiten analysieren",
+    "mvn abhängigkeiten analysieren",
+    "werkzeuge für das Abhängigkeitsmanagement"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "Was benötige ich zur Analyse?",
+      "answer": "Sie müssen eine Liste der Abhängigkeiten Ihres Projekts bereitstellen."
+    },
+    {
+      "question": "Kann ich potenzielle Probleme sehen?",
+      "answer": "Ja, das Tool wird potenzielle Konflikte und Probleme hervorheben."
+    },
+    {
+      "question": "Ist es für alle Arten von Projekten geeignet?",
+      "answer": "Absolut, es funktioniert mit verschiedenen Programmiersprachen und Frameworks."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}
