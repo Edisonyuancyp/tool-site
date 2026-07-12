@@ -95,11 +95,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} h-full`}>
       <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://storage.ko-fi.com" />
+        <link rel="dns-prefetch" href="https://storage.ko-fi.com" />
+
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QRTFP647H6"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="ga4-init" strategy="afterInteractive">
+        <Script id="ga4-init" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -110,9 +115,9 @@ export default function RootLayout({
         {/* Ko-fi floating chat widget */}
         <Script
           src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="kofi-init" strategy="afterInteractive">
+        <Script id="kofi-init" strategy="lazyOnload">
           {`
             (function waitKofi() {
               if (typeof kofiWidgetOverlay === 'undefined') {
