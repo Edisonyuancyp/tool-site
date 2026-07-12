@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { mergeWithRegistry, CATEGORY_URL_PREFIX, getToolPath } from "@/lib/tools";
 import { registryToToolMetas, getRegistryTools } from "@/lib/registry";
-import { SUPPORTED_LOCALES, getI18nRegistrySlugs } from "@/lib/i18n-registry";
+import { SUPPORTED_LOCALES, getI18nRegistrySlugs, resolveI18nSlug } from "@/lib/i18n-registry";
 
 export const dynamic = "force-static";
 
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseSlugs = new Set(allTools.map((t) => t.slug));
   const variantPages: MetadataRoute.Sitemap = registryMetas.flatMap((meta) =>
     meta.variants
-      .filter((v) => !baseSlugs.has(v.variantSlug))
+      .filter((v) => !baseSlugs.has(v.variantSlug) && !v.noindex)
       .map((v) => ({
         url: toolUrl({ slug: v.variantSlug, category: meta.category }),
         lastModified: now,
@@ -93,12 +93,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // ── i18n tool pages (/es/tools/slug, /fr/tools/slug) ─────────────────────
   const i18nToolPages: MetadataRoute.Sitemap = SUPPORTED_LOCALES.flatMap((locale) =>
-    getI18nRegistrySlugs(locale).map((slug) => ({
-      url: `${BASE}/${locale}/tools/${slug}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: HIGH_PRIORITY.has(slug) ? 0.8 : 0.7,
-    }))
+    getI18nRegistrySlugs(locale)
+      .filter((slug) => {
+        const resolved = resolveI18nSlug(slug, locale);
+        if (!resolved) return false;
+        return resolved.isTranslated && !resolved.meta.noindex;
+      })
+      .map((slug) => ({
+        url: `${BASE}/${locale}/tools/${slug}`,
+        lastModified: now,
+        changeFrequency: "monthly" as const,
+        priority: HIGH_PRIORITY.has(slug) ? 0.8 : 0.7,
+      }))
   );
 
   const blogPages: MetadataRoute.Sitemap = discoverBlogPages();

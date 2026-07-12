@@ -10,6 +10,13 @@ const CATEGORY_META: Record<string, {
   categories: string[];
 }> = categoryRules.prefixes;
 
+const OTHER_CATEGORIES = Object.entries(CATEGORY_META).map(([key, m]) => ({
+  prefix: key,
+  title: m.title,
+  icon: m.icon,
+  href: `/tools/${key}`,
+}));
+
 interface Props {
   prefix: string;
   allTools: ToolMeta[];
@@ -95,7 +102,72 @@ export default function CategoryPage({ prefix, allTools }: Props) {
             </section>
           ))}
         </div>
+
+        {/* Category description + trust signals */}
+        <section className="mt-16 border-t border-gray-100 pt-10">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">About {meta.title}</h2>
+          <div className="prose prose-gray max-w-none text-gray-500 leading-relaxed space-y-4 text-sm">
+            <p>
+              <strong className="text-gray-700">{meta.title}</strong> on GetFastCalc includes {tools.length} free,
+              browser-based tools. {meta.description} Every tool runs instantly with no signup and no data stored.
+            </p>
+            <p>
+              Browse related categories below or return to the{" "}
+              <Link href="/" className="text-gray-700 underline hover:text-black">home page</Link>{" "}
+              to search all calculators and converters.
+            </p>
+          </div>
+        </section>
+
+        {/* Cross-link other categories */}
+        <section className="mt-12">
+          <h2 className="text-lg font-semibold text-gray-900 mb-5">Browse More Tool Categories</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {OTHER_CATEGORIES.filter((c) => c.prefix !== prefix).map((cat) => (
+              <Link
+                key={cat.prefix}
+                href={cat.href}
+                className="flex items-center gap-3 p-4 rounded-xl border border-gray-100 bg-white hover:border-gray-300 hover:shadow-sm transition-all"
+              >
+                <span className="text-2xl shrink-0">{cat.icon}</span>
+                <div>
+                  <p className="font-semibold text-gray-800 text-sm">{cat.title}</p>
+                  <p className="text-xs text-gray-400 mt-0.5">View tools →</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
       </div>
+
+      {/* FAQPage Schema for category */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: `What ${meta.title.toLowerCase()} are available on GetFastCalc?`,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: `GetFastCalc offers ${tools.length} free ${meta.title.toLowerCase()} that run in your browser. ${meta.description}`,
+                },
+              },
+              {
+                "@type": "Question",
+                name: `Are ${meta.title.toLowerCase()} on GetFastCalc free to use?`,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: `Yes, all ${tools.length} ${meta.title.toLowerCase()} are completely free. No signup, no ads, and no data is stored on any server.`,
+                },
+              },
+            ],
+          }),
+        }}
+      />
     </main>
   );
 }
