@@ -90,5 +90,21 @@
       "heading": "Avoiding Common Canonical Tag Mistakes",
       "body": "One frequent mistake is forgetting to set a canonical tag on all variations of a page. For example, if you have both an HTTP and HTTPS version of your site, failing to specify a canonical link can confuse search engines. This could lead to both versions being indexed, which dilutes your SEO efforts. Always ensure that the canonical tag is included on every page that has multiple URL variations.\n\nAnother common error is pointing multiple URLs to the same canonical link. This can happen when several product variants are set to the same canonical URL, which can confuse search engines about which page should rank. To avoid this, each product variant should ideally have its own unique canonical tag pointing to its specific version. By using the Canonical Link Validator, you can catch these mistakes and ensure that your site's SEO is as strong as possible."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Canonical Link Validator Online Free – Free Online Canonical Link Validator",
+      "metaDescription": "Free online Canonical Link Validator — instant results, no signup. Check your canonical links for free. Ensure your SEO is on point with instant va",
+      "h1": "Canonical Link Validator – Online Free",
+      "description": "Free online Canonical Link Validator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Canonical Link Validator How to Use – Free Online Canonical Link Validator",
+      "metaDescription": "Step-by-step guide to getting the most from Canonical Link Validator. Check your canonical links for free. Ensure your SEO is on point with instant va",
+      "h1": "Canonical Link Validator – How to Use",
+      "description": "Step-by-step guide to getting the most from Canonical Link Validator."
+    }
   ]
 }

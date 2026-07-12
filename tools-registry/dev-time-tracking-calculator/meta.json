@@ -105,5 +105,28 @@
       "heading": "Practical Tips for Effective Time Tracking",
       "body": "Common mistakes to avoid include failing to categorize tasks, which can lead to confusion about where time is being spent. Another mistake is neglecting to update your hours regularly, which can result in inaccurate reports. Lastly, be mindful of underestimating the time required for tasks. It’s better to overestimate and leave time for additional work than to feel rushed and stressed by tight deadlines."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Dev Time Tracking Calculator Online Free – Free Online Dev Time Tracking Calculator",
+      "metaDescription": "Free online Dev Time Tracking Calculator — no install required. Track your development hours for free, no signup necessary. Get instant insights",
+      "h1": "Dev Time Tracking Calculator – Online Free",
+      "description": "Free online Dev Time Tracking Calculator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Dev Time Tracking Calculator JavaScript – Free Online Dev Time Tracking Calculator",
+      "metaDescription": "Dev Time Tracking Calculator reference for JavaScript developers. Track your development hours for free, no signup necessary. Get instant insights",
+      "h1": "Dev Time Tracking Calculator – JavaScript",
+      "description": "Dev Time Tracking Calculator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Dev Time Tracking Calculator Python – Free Online Dev Time Tracking Calculator",
+      "metaDescription": "Dev Time Tracking Calculator reference for Python developers. Track your development hours for free, no signup necessary. Get instant insights",
+      "h1": "Dev Time Tracking Calculator – Python",
+      "description": "Dev Time Tracking Calculator reference for Python developers."
+    }
   ]
 }

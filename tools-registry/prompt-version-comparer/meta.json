@@ -91,5 +91,21 @@
       "body": "When using the prompt version comparer, keep a few practical tips in mind. First, ensure that all prompt versions are tested under similar conditions to maintain consistency in results. This means using the same audience and context for each version to avoid skewed data. Additionally, consider running your comparisons multiple times to account for variability in responses.\n\nAnother common mistake is failing to clearly define what success looks like before testing. Determine your key performance indicators (KPIs) ahead of time to guide your analysis. Lastly, don't hesitate to iterate on your prompts based on the findings from your comparisons. Continuous improvement can significantly enhance the effectiveness of your AI prompts and yield better outcomes."
     }
   ],
-  "noindex": true
+  "noindex": true,
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Version Comparer Online Free – Free Online Prompt Version Comparer",
+      "metaDescription": "Free online Prompt Version Comparer — instant results, no signup. Compare versions of your prompts for free, no signup needed, instant results.",
+      "h1": "Prompt Version Comparer – Online Free",
+      "description": "Free online Prompt Version Comparer — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Version Comparer How to Use – Free Online Prompt Version Comparer",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Version Comparer. Compare versions of your prompts for free, no signup needed, instant results.",
+      "h1": "Prompt Version Comparer – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Version Comparer."
+    }
+  ]
 }

@@ -91,5 +91,21 @@
       "heading": "Common Mistakes in Using Schema Markup",
       "body": "When using a schema markup generator, there are a few common mistakes to avoid. One mistake is selecting the wrong schema type for your content. It's crucial to choose the type that best represents the information on your page to ensure accurate indexing by search engines. Always review the schema options available and select accordingly.\n\nAnother mistake is neglecting to fill out all necessary fields. While some fields are optional, providing complete information can enhance the effectiveness of your markup. Lastly, ensure that you validate your schema markup using Google's Structured Data Testing Tool before implementation. This helps you catch any errors that might prevent search engines from interpreting your data correctly."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Schema Markup Generator Online Free – Free Online Schema Markup Generator",
+      "metaDescription": "Free online Schema Markup Generator — instant results, no signup. Create schema markup for free. Enhance your SEO with structured data, no signup ",
+      "h1": "Schema Markup Generator – Online Free",
+      "description": "Free online Schema Markup Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Schema Markup Generator How to Use – Free Online Schema Markup Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Schema Markup Generator. Create schema markup for free. Enhance your SEO with structured data, no signup ",
+      "h1": "Schema Markup Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Schema Markup Generator."
+    }
   ]
 }

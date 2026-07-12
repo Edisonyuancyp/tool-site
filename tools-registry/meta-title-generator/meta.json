@@ -90,5 +90,21 @@
       "heading": "Practical tips and common mistakes",
       "body": "When using the meta title generator, there are several practical tips to keep in mind. Firstly, always prioritize clarity and relevance in your titles. Avoid stuffing too many keywords, as this can make your title sound unnatural and may lead to lower engagement rates. Instead, focus on creating a title that accurately reflects your content while still being appealing to potential readers.\n\nCommon mistakes include creating titles that are too long or vague. Remember that search engines typically display only the first 50-60 characters of a title. If your title exceeds this limit, it may get cut off, making it less effective. Additionally, steer clear of using duplicate titles across different pages, as this can confuse search engines and impact your site's SEO negatively."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Meta Title Generator Online Free – Free Online Meta Title Generator",
+      "metaDescription": "Free online Meta Title Generator — instant results, no signup. Generate meta titles instantly for free. Improve your SEO with compelling titles",
+      "h1": "Meta Title Generator – Online Free",
+      "description": "Free online Meta Title Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Meta Title Generator How to Use – Free Online Meta Title Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Meta Title Generator. Generate meta titles instantly for free. Improve your SEO with compelling titles",
+      "h1": "Meta Title Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Meta Title Generator."
+    }
   ]
 }

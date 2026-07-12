@@ -106,5 +106,28 @@
       "heading": "Practical Tips for Using the Dev Security Risk Calculator",
       "body": "When using the Dev Security Risk Calculator, there are several practical tips to keep in mind. First, ensure that the information you input is as accurate and detailed as possible. The quality of the output is directly related to the quality of the input data. Avoid vague descriptions; instead, provide specific details about the technologies, user base, and data sensitivity involved in your project.\nAdditionally, a common mistake is to overlook the importance of reviewing the generated report thoroughly. Many users may be tempted to dismiss the findings if they seem too technical. However, understanding the risks identified can be crucial for making informed decisions about security improvements. Finally, consider using the calculator periodically throughout the development process to reassess risks as your project evolves."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Dev Security Risk Calculator Online Free – Free Online Dev Security Risk Calculator",
+      "metaDescription": "Free online Dev Security Risk Calculator — no install required. Evaluate security risks in your dev projects for free, no signup needed. Get ins",
+      "h1": "Dev Security Risk Calculator – Online Free",
+      "description": "Free online Dev Security Risk Calculator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Dev Security Risk Calculator JavaScript – Free Online Dev Security Risk Calculator",
+      "metaDescription": "Dev Security Risk Calculator reference for JavaScript developers. Evaluate security risks in your dev projects for free, no signup needed. Get ins",
+      "h1": "Dev Security Risk Calculator – JavaScript",
+      "description": "Dev Security Risk Calculator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Dev Security Risk Calculator Python – Free Online Dev Security Risk Calculator",
+      "metaDescription": "Dev Security Risk Calculator reference for Python developers. Evaluate security risks in your dev projects for free, no signup needed. Get ins",
+      "h1": "Dev Security Risk Calculator – Python",
+      "description": "Dev Security Risk Calculator reference for Python developers."
+    }
   ]
 }

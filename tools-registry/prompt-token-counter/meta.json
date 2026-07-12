@@ -91,5 +91,21 @@
       "heading": "Practical tips for using the token counter",
       "body": "When using the Prompt Token Counter, it's essential to keep a few practical tips in mind. First, always check the model you are working with, as different models may have different tokenization methods. Understanding the specific requirements of your chosen AI model can help you craft prompts that maximize effectiveness while staying within token limits.\n\nAnother common mistake is underestimating the number of tokens in complex prompts. Be mindful that phrases, special characters, and punctuation can all contribute to the total token count. Regularly using the token counter before submitting prompts can save you from potential issues with truncation or misinterpretation by the AI model. By following these tips, you can enhance your prompt engineering and ensure better performance in your AI applications."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Token Counter Online Free – Free Online Prompt Token Counter",
+      "metaDescription": "Free online Prompt Token Counter — instant results, no signup. Count tokens in your AI prompts for free, no signup needed, get instant results.",
+      "h1": "Prompt Token Counter – Online Free",
+      "description": "Free online Prompt Token Counter — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Token Counter How to Use – Free Online Prompt Token Counter",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Token Counter. Count tokens in your AI prompts for free, no signup needed, get instant results.",
+      "h1": "Prompt Token Counter – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Token Counter."
+    }
   ]
 }

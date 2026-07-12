@@ -90,5 +90,21 @@
       "heading": "Practical tips and common mistakes in robots.txt",
       "body": "When using a robots.txt generator, it’s crucial to double-check your rules for accuracy. A common mistake is unintentionally blocking important pages by overspecifying disallow rules. Always review the generated file to ensure it aligns with your SEO strategy. Additionally, remember that robots.txt is a public file; anyone can view it. Avoid including sensitive information in URLs that could be exposed. Lastly, regularly update your robots.txt file as your website evolves, ensuring that it remains effective in guiding search engine crawlers appropriately."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Robots.txt Generator Online Free – Free Online Robots.txt Generator",
+      "metaDescription": "Free online Robots.txt Generator — instant results, no signup. Create a robots.txt file for free. Control your site's indexing with instant res",
+      "h1": "Robots.txt Generator – Online Free",
+      "description": "Free online Robots.txt Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Robots.txt Generator How to Use – Free Online Robots.txt Generator",
+      "metaDescription": "Step-by-step guide to getting the most from Robots.txt Generator. Create a robots.txt file for free. Control your site's indexing with instant res",
+      "h1": "Robots.txt Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from Robots.txt Generator."
+    }
   ]
 }

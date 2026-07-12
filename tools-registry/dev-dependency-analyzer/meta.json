@@ -105,5 +105,28 @@
       "heading": "Tips for Effective Dependency Management",
       "body": "To make the most of your dev dependency analyzer, consider a few practical tips. First, regularly run the analysis tool, especially before major updates or releases. This proactive approach helps you catch potential issues early, saving time and resources in the long run. Second, maintain a clear record of your dependencies and their versions. This documentation can assist in troubleshooting and understanding the impact of changes.\n\nAdditionally, avoid common mistakes such as ignoring warnings from the analyzer or failing to update dependencies regularly. These oversights can lead to security vulnerabilities and performance problems down the line. Finally, when selecting libraries, prefer those that are actively maintained and have a strong community support. This ensures that you have access to timely updates and can easily find solutions if you encounter issues."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Dev Dependency Analyzer Online Free – Free Online Dev Dependency Analyzer",
+      "metaDescription": "Free online Dev Dependency Analyzer — no install required. Analyze your project dependencies for free, no signup needed. Get instant insigh",
+      "h1": "Dev Dependency Analyzer – Online Free",
+      "description": "Free online Dev Dependency Analyzer — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Dev Dependency Analyzer JavaScript – Free Online Dev Dependency Analyzer",
+      "metaDescription": "Dev Dependency Analyzer reference for JavaScript developers. Analyze your project dependencies for free, no signup needed. Get instant insigh",
+      "h1": "Dev Dependency Analyzer – JavaScript",
+      "description": "Dev Dependency Analyzer reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Dev Dependency Analyzer Python – Free Online Dev Dependency Analyzer",
+      "metaDescription": "Dev Dependency Analyzer reference for Python developers. Analyze your project dependencies for free, no signup needed. Get instant insigh",
+      "h1": "Dev Dependency Analyzer – Python",
+      "description": "Dev Dependency Analyzer reference for Python developers."
+    }
   ]
 }
