@@ -226,5 +226,28 @@
       "h1": "Wake-Up Times If You Go to Bed at 12:00am",
       "description": "Find the best times to wake up after going to bed at 12:00am — calculated to land at the end of a natural sleep cycle so you feel rested."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Sleep Calculator",
+    "description": "Easily determine the optimal time to go to sleep or wake up for a refreshing rest.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Determine your desired wake-up time",
+        "text": "Start by deciding what time you want to wake up in the morning."
+      },
+      {
+        "name": "Calculate sleep cycles",
+        "text": "Use the Sleep Calculator to find out the best bedtime based on 90-minute sleep cycles."
+      },
+      {
+        "name": "Set your bedtime",
+        "text": "Adjust your bedtime according to the results from the Sleep Calculator to ensure you wake up feeling refreshed."
+      },
+      {
+        "name": "Establish a consistent sleep routine",
+        "text": "Try to stick to this bedtime consistently for better sleep quality."
+      }
+    ]
+  }
 }

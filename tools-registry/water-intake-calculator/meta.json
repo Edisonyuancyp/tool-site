@@ -140,5 +140,28 @@
       "h1": "Daily Water Intake Calculator – Imperial",
       "description": "Daily Water Intake Calculator using imperial units (lbs, feet, inches)."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Daily Water Intake Calculator",
+    "description": "Find out how much water you should drink daily based on your personal factors.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Your Body Weight",
+        "text": "Input your current body weight to get an accurate recommendation."
+      },
+      {
+        "name": "Select Activity Level",
+        "text": "Choose your activity level from the options provided to adjust your water needs."
+      },
+      {
+        "name": "Provide Climate Information",
+        "text": "Indicate the climate you live in to factor in additional hydration needs."
+      },
+      {
+        "name": "Specify Pregnancy/Breastfeeding Status",
+        "text": "Select whether you are pregnant or breastfeeding to get a tailored intake suggestion."
+      }
+    ]
+  }
 }

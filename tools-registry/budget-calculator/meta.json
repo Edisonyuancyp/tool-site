@@ -169,5 +169,28 @@
       "h1": "Budget Calculator – For Beginners",
       "description": "Beginner-friendly guide to Budget Calculator with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Budget Calculator",
+    "description": "Learn how to track your income and expenses effectively using the Budget Calculator.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Enter Your Income",
+        "text": "Start by entering your total monthly income into the Budget Calculator. This will give you a clear starting point for your budget."
+      },
+      {
+        "name": "Step 2: List Your Expenses",
+        "text": "Next, input all your monthly expenses, such as rent, utilities, and groceries. This will help you see where your money is going."
+      },
+      {
+        "name": "Step 3: Review Your Budget Breakdown",
+        "text": "After entering all data, review the instant budget breakdown provided. Check how your spending aligns with the 50/30/20 rule."
+      },
+      {
+        "name": "Step 4: Adjust Your Spending",
+        "text": "Based on the budget analysis, make adjustments to your spending habits as needed to meet your financial goals."
+      }
+    ]
+  }
 }

@@ -167,5 +167,28 @@
       "h1": "25% Tip Calculator",
       "description": "Instantly calculate a 25% tip on any restaurant bill. See the tip amount, total per person, and how the tip splits across your party."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Tip Calculator",
+    "description": "Easily calculate the tip amount and split the bill among friends.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Bill Total",
+        "text": "Input the total amount of your bill into the calculator."
+      },
+      {
+        "name": "Select Tip Percentage",
+        "text": "Choose the desired tip percentage or enter a custom amount."
+      },
+      {
+        "name": "Input Number of People",
+        "text": "Enter the number of people sharing the bill."
+      },
+      {
+        "name": "Calculate and Review",
+        "text": "Press the calculate button to see the tip per person and the total amount each person needs to pay."
+      }
+    ]
+  }
 }

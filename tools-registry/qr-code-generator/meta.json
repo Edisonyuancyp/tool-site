@@ -129,5 +129,24 @@
       "h1": "QR Code Generator – How to Use",
       "description": "Step-by-step guide to getting the most from QR Code Generator."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use QR Code Generator",
+    "description": "Create a QR code for any text or URL in just a few simple steps.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Enter Your Text or URL",
+        "text": "Input the text, URL, phone number, or message you want to convert into a QR code."
+      },
+      {
+        "name": "Step 2: Generate the QR Code",
+        "text": "Click the 'Generate' button to create your QR code instantly."
+      },
+      {
+        "name": "Step 3: Download the QR Code",
+        "text": "Download the generated QR code as a PNG file to use it anywhere you like."
+      }
+    ]
+  }
 }

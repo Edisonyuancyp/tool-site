@@ -164,5 +164,28 @@
       "h1": "Currency Converter – For Beginners",
       "description": "Beginner-friendly guide to Currency Converter with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Currency Converter",
+    "description": "Quickly convert currencies using live exchange rates from the European Central Bank.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Select Currencies",
+        "text": "Choose the currencies you want to convert from and to. Use the dropdown menus provided."
+      },
+      {
+        "name": "Enter Amount",
+        "text": "Input the amount you wish to convert in the designated field."
+      },
+      {
+        "name": "View Conversion",
+        "text": "Click the 'Convert' button to see the converted amount based on the latest exchange rates."
+      },
+      {
+        "name": "Check Reference Table",
+        "text": "Refer to the quick reference table for additional currency conversions if needed."
+      }
+    ]
+  }
 }

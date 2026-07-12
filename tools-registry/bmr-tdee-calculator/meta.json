@@ -132,5 +132,28 @@
       "h1": "BMR & TDEE Calculator – Imperial",
       "description": "BMR & TDEE Calculator using imperial units (lbs, feet, inches)."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use BMR & TDEE Calculator",
+    "description": "Calculate your daily calorie burn and set targets for your fitness goals.",
+    "totalTime": "PT2M",
+    "steps": [
+      {
+        "name": "Step 1: Input Your Details",
+        "text": "Enter your age, gender, weight, and height into the calculator."
+      },
+      {
+        "name": "Step 2: Choose Your Formula",
+        "text": "Select the desired calculation method: Mifflin-St Jeor, Harris-Benedict, or Katch-McArdle."
+      },
+      {
+        "name": "Step 3: Set Your Activity Level",
+        "text": "Indicate your daily activity level to determine your Total Daily Energy Expenditure (TDEE)."
+      },
+      {
+        "name": "Step 4: Review Your Results",
+        "text": "Examine the BMR and TDEE results along with calorie targets for cutting, maintaining, or bulking."
+      }
+    ]
+  }
 }

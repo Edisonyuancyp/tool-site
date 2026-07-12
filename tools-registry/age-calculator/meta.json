@@ -133,5 +133,28 @@
       "h1": "Age Calculator – How to Use",
       "description": "Step-by-step guide to getting the most from Age Calculator."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Age Calculator",
+    "description": "Easily calculate your exact age in years, months, and days using the Age Calculator.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter your date of birth",
+        "text": "Input your birth date in the provided field to begin the calculation."
+      },
+      {
+        "name": "Select the target date",
+        "text": "Choose today's date or any specific date you want to calculate your age against."
+      },
+      {
+        "name": "View your age results",
+        "text": "The tool will instantly display your age in years, months, days, hours, and minutes."
+      },
+      {
+        "name": "Adjust as needed",
+        "text": "If necessary, modify your birth date or target date to see different results."
+      }
+    ]
+  }
 }

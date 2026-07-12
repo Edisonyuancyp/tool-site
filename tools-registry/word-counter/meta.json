@@ -128,5 +128,28 @@
       "h1": "Word Counter – How to Use",
       "description": "Step-by-step guide to getting the most from Word Counter."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Word Counter",
+    "description": "Easily count the number of words, characters, sentences, and estimated reading time in your text.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Access the Tool",
+        "text": "Visit the Word Counter website to get started."
+      },
+      {
+        "name": "Step 2: Paste Your Text",
+        "text": "Copy your text and paste it into the designated text area on the site."
+      },
+      {
+        "name": "Step 3: View the Results",
+        "text": "Instantly see the word count, character count, and other statistics displayed."
+      },
+      {
+        "name": "Step 4: Use the Data",
+        "text": "Utilize the counting results for your essays, articles, or social media posts as needed."
+      }
+    ]
+  }
 }

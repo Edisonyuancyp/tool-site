@@ -392,5 +392,28 @@
       "h1": "What Is 75% of 5000?",
       "description": "75% of 5000 is 3750.0. Use the calculator below to compute any percentage instantly."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Percentage Calculator",
+    "description": "Learn how to easily calculate percentages for various financial scenarios.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Choose the Calculation Type",
+        "text": "Decide if you want to find a percentage of a number, calculate a percentage increase or decrease, or determine what percentage one number is of another."
+      },
+      {
+        "name": "Step 2: Input Your Values",
+        "text": "Enter the necessary values into the designated fields based on the calculation type you have chosen."
+      },
+      {
+        "name": "Step 3: Review the Results",
+        "text": "Click the calculate button to see the results, and double-check to ensure the values were input correctly."
+      },
+      {
+        "name": "Step 4: Use the Results",
+        "text": "Apply the calculated percentage to your financial analysis or decision-making process as needed."
+      }
+    ]
+  }
 }

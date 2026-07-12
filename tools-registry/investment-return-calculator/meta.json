@@ -155,5 +155,28 @@
       "h1": "Investment Return Calculator – For Beginners",
       "description": "Beginner-friendly guide to Investment Return Calculator with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Investment Return Calculator",
+    "description": "Calculate the future value and returns on your investments quickly and easily.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Enter Initial Investment",
+        "text": "Input the amount you initially invested into the calculator."
+      },
+      {
+        "name": "Step 2: Input Annual Return Rate",
+        "text": "Enter the expected annual return rate as a percentage."
+      },
+      {
+        "name": "Step 3: Set Time Period",
+        "text": "Select the duration in years for which you want to calculate the investment growth."
+      },
+      {
+        "name": "Step 4: Optional Monthly Contributions",
+        "text": "If applicable, add any monthly contributions you plan to make to your investment."
+      }
+    ]
+  }
 }

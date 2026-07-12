@@ -137,6 +137,25 @@ export default function ToolLayout({ tool, children, allTools, locale }: ToolLay
       }
     : null;
 
+  const howToSchema = tool.howTo
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: tool.howTo.name,
+        description: tool.howTo.description,
+        totalTime: tool.howTo.totalTime,
+        supply: [],
+        tool: [],
+        step: tool.howTo.steps.map((step, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+          url: `${toolUrl}#step-${index + 1}`,
+        })),
+      }
+    : null;
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -172,6 +191,12 @@ export default function ToolLayout({ tool, children, allTools, locale }: ToolLay
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
         />
       )}
       <script

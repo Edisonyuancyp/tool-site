@@ -136,5 +136,28 @@
       "h1": "Loan Calculator – For Beginners",
       "description": "Beginner-friendly guide to Loan Calculator with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Loan Calculator",
+    "description": "Calculate your loan payments and amortization schedule effortlessly.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Enter Loan Amount",
+        "text": "Input the total amount of the loan you wish to calculate."
+      },
+      {
+        "name": "Step 2: Set Interest Rate",
+        "text": "Enter the annual interest rate associated with your loan."
+      },
+      {
+        "name": "Step 3: Choose Loan Term",
+        "text": "Select the duration over which you plan to repay the loan."
+      },
+      {
+        "name": "Step 4: Calculate Payments",
+        "text": "Click on the calculate button to see your monthly payments and amortization schedule."
+      }
+    ]
+  }
 }

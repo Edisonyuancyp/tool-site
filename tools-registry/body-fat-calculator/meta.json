@@ -269,5 +269,28 @@
       "h1": "35% Body Fat for Womens – What Does It Mean?",
       "description": "Find out if 35% body fat is healthy for a women, which ACE category it falls into, and practical steps to reach your target."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Body Fat Percentage Calculator",
+    "description": "Calculate your body fat percentage using the US Navy measurement method.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Measure Your Waist",
+        "text": "Use a flexible measuring tape to measure the circumference of your waist at the level of your navel."
+      },
+      {
+        "name": "Measure Your Neck",
+        "text": "Wrap the measuring tape around your neck just below your Adam's apple to get the neck circumference."
+      },
+      {
+        "name": "Measure Your Hips (for women)",
+        "text": "If you are a woman, measure the circumference of your hips at the widest point."
+      },
+      {
+        "name": "Calculate Your Body Fat Percentage",
+        "text": "Input the measurements into the Body Fat Percentage Calculator to see your estimated body fat percentage."
+      }
+    ]
+  }
 }

@@ -184,5 +184,28 @@
       "h1": "Income Tax Calculator – For Beginners",
       "description": "Beginner-friendly guide to Income Tax Calculator with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Income Tax Calculator",
+    "description": "Easily calculate your income tax across multiple countries and understand your tax obligations.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Your Income",
+        "text": "Input your total income into the calculator. Make sure to include all sources of income for an accurate estimate."
+      },
+      {
+        "name": "Select Your Country",
+        "text": "Choose the country for which you want to calculate your income tax from the available options."
+      },
+      {
+        "name": "Review Tax Calculations",
+        "text": "Examine the results displayed, including tax owed, effective rate, and take-home pay."
+      },
+      {
+        "name": "Adjust Inputs if Necessary",
+        "text": "If needed, modify your income or country selection to see how different scenarios affect your tax burden."
+      }
+    ]
+  }
 }

@@ -136,5 +136,28 @@
       "h1": "Unix Timestamp Converter – Python",
       "description": "Unix Timestamp Converter reference for Python developers."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Unix Timestamp Converter",
+    "description": "Convert Unix timestamps to human-readable dates and vice versa with ease.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Access the Tool",
+        "text": "Open the Unix Timestamp Converter tool on your preferred device."
+      },
+      {
+        "name": "Step 2: Input the Timestamp",
+        "text": "Enter the Unix timestamp you wish to convert into the input field."
+      },
+      {
+        "name": "Step 3: Choose Output Format",
+        "text": "Select the desired output format, such as ISO 8601 or a specific timezone."
+      },
+      {
+        "name": "Step 4: View the Result",
+        "text": "Click the convert button to see the human-readable date displayed instantly."
+      }
+    ]
+  }
 }

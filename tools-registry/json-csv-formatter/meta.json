@@ -138,5 +138,28 @@
       "h1": "JSON & CSV Formatter / Validator – Python",
       "description": "JSON & CSV Formatter / Validator reference for Python developers."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use JSON & CSV Formatter / Validator",
+    "description": "Easily format, validate, and convert JSON and CSV data directly in your browser.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Paste your JSON or CSV",
+        "text": "Start by pasting your raw JSON or CSV data into the tool's input area."
+      },
+      {
+        "name": "Format and Validate JSON",
+        "text": "If you pasted JSON, click the format button to apply 2-space indentation and check for any syntax errors."
+      },
+      {
+        "name": "Normalize CSV Data",
+        "text": "For CSV data, use the tool to normalize any quoting or delimiters to ensure consistency."
+      },
+      {
+        "name": "Convert CSV to JSON",
+        "text": "Finally, if needed, convert your normalized CSV into a JSON array by selecting the appropriate option."
+      }
+    ]
+  }
 }

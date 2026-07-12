@@ -128,5 +128,28 @@
       "h1": "GPA Calculator – How to Use",
       "description": "Step-by-step guide to getting the most from GPA Calculator."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use GPA Calculator",
+    "description": "Calculate your GPA instantly using letter grades or percentages.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Gather Your Grades",
+        "text": "Collect your letter grades or percentages from your courses."
+      },
+      {
+        "name": "Input Your Grades",
+        "text": "Enter each grade into the GPA Calculator tool."
+      },
+      {
+        "name": "Select GPA Type",
+        "text": "Choose whether you want to calculate a standard GPA, weighted GPA, or cumulative GPA."
+      },
+      {
+        "name": "Get Your GPA",
+        "text": "Click on the calculate button to instantly see your GPA result."
+      }
+    ]
+  }
 }

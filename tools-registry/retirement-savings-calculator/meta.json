@@ -155,5 +155,28 @@
       "h1": "Retirement Savings Calculator – For Beginners",
       "description": "Beginner-friendly guide to Retirement Savings Calculator with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Retirement Savings Calculator",
+    "description": "Calculate how much you need to save for a comfortable retirement based on your current financial situation.",
+    "totalTime": "PT2M",
+    "steps": [
+      {
+        "name": "Enter your current age",
+        "text": "Input your current age to determine your retirement timeline."
+      },
+      {
+        "name": "Input your current savings",
+        "text": "Enter the amount of money you currently have saved for retirement."
+      },
+      {
+        "name": "Add monthly contributions",
+        "text": "Specify how much you plan to contribute to your retirement savings each month."
+      },
+      {
+        "name": "Set expected return rate",
+        "text": "Estimate the annual return rate on your investments to project future growth."
+      }
+    ]
+  }
 }

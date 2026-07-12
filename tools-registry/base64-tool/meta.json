@@ -134,5 +134,28 @@
       "h1": "Base64 Encoder / Decoder – Python",
       "description": "Base64 Encoder / Decoder reference for Python developers."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Base64 Encoder / Decoder",
+    "description": "Easily encode text to Base64 or decode Base64 back to plain text using this tool.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Text",
+        "text": "Type or paste the text you want to encode or decode into the input field."
+      },
+      {
+        "name": "Choose Action",
+        "text": "Select whether you want to encode the text to Base64 or decode it back to plain text."
+      },
+      {
+        "name": "View Result",
+        "text": "The encoded or decoded result will appear in the output field instantly."
+      },
+      {
+        "name": "Copy to Clipboard",
+        "text": "Click the copy button to save the result to your clipboard for easy use."
+      }
+    ]
+  }
 }

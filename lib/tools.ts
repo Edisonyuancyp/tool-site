@@ -5,6 +5,18 @@ export interface ToolFaq {
   answer: string;
 }
 
+export interface ToolHowToStep {
+  name: string;
+  text: string;
+}
+
+export interface ToolHowTo {
+  name: string;
+  description: string;
+  totalTime?: string;
+  steps: ToolHowToStep[];
+}
+
 export interface ToolMeta {
   slug: string;
   name: string;
@@ -17,6 +29,7 @@ export interface ToolMeta {
   icon: string;
   faqs: ToolFaq[];
   relatedTools: string[];
+  howTo?: ToolHowTo;
 }
 
 export const tools: ToolMeta[] = [

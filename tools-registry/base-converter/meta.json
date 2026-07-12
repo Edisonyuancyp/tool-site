@@ -179,5 +179,28 @@
       "h1": "Number Base Converter – Python",
       "description": "Number Base Converter reference for Python developers."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Number Base Converter",
+    "description": "Easily convert numbers between various bases including binary, octal, decimal, and hexadecimal.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Select Input Base",
+        "text": "Choose the base of the number you want to convert from the provided options."
+      },
+      {
+        "name": "Enter the Number",
+        "text": "Input the number you wish to convert in the designated field."
+      },
+      {
+        "name": "Select Output Base",
+        "text": "Choose the base to which you want the number to be converted."
+      },
+      {
+        "name": "View the Result",
+        "text": "Click on the convert button and view the result along with formatted output."
+      }
+    ]
+  }
 }

@@ -137,5 +137,28 @@
       "h1": "Online Diff Checker – Python",
       "description": "Online Diff Checker reference for Python developers."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Online Diff Checker",
+    "description": "Quickly compare two pieces of text or code to identify changes and similarities.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Paste the First Text",
+        "text": "Copy the first piece of text or code and paste it into the left input box of the Online Diff Checker."
+      },
+      {
+        "name": "Step 2: Paste the Second Text",
+        "text": "Next, copy the second piece of text or code and paste it into the right input box."
+      },
+      {
+        "name": "Step 3: Choose Comparison Options",
+        "text": "Select any additional options such as ignoring whitespace or case sensitivity as needed."
+      },
+      {
+        "name": "Step 4: View the Results",
+        "text": "Click the compare button to instantly see the differences highlighted between the two texts."
+      }
+    ]
+  }
 }

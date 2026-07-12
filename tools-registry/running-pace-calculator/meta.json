@@ -224,5 +224,28 @@
       "h1": "Pace Needed to Run a Marathon in 5h00",
       "description": "Calculate the per-kilometre and per-mile pace required to complete a marathon in 5h00, with full distance splits."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Running Pace Calculator",
+    "description": "Calculate your running pace, speed, and finish time for your next race.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Input Your Distance",
+        "text": "Enter the race distance you plan to run in either kilometers or miles."
+      },
+      {
+        "name": "Enter Your Time",
+        "text": "Input the time it takes you to complete the distance you've specified."
+      },
+      {
+        "name": "Calculate Your Pace",
+        "text": "Click on the calculate button to find out your running pace per kilometer or mile."
+      },
+      {
+        "name": "Review Your Results",
+        "text": "Examine the results to see your pace, speed, and estimated finish time."
+      }
+    ]
+  }
 }

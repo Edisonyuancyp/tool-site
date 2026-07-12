@@ -297,5 +297,28 @@
       "h1": "BMI Calculator for 100 kg",
       "description": "Calculate the BMI for a person weighing 100 kg at any height. See which BMI category applies and what a healthy weight looks like."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use BMI Calculator",
+    "description": "Quickly calculate your Body Mass Index using this tool.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Step 1: Enter Your Height",
+        "text": "Input your height in either centimeters or inches into the designated field."
+      },
+      {
+        "name": "Step 2: Enter Your Weight",
+        "text": "Input your weight in either kilograms or pounds into the corresponding field."
+      },
+      {
+        "name": "Step 3: Calculate Your BMI",
+        "text": "Click the 'Calculate' button to determine your Body Mass Index."
+      },
+      {
+        "name": "Step 4: Review Your Results",
+        "text": "Check your BMI result and understand your weight category based on the provided information."
+      }
+    ]
+  }
 }

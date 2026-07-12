@@ -155,5 +155,28 @@
       "h1": "Debt Repayment Calculator – For Beginners",
       "description": "Beginner-friendly guide to Debt Repayment Calculator with plain-English explanations."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Debt Repayment Calculator",
+    "description": "Easily calculate your debt payoff date and total interest paid by using this tool.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Debt Balance",
+        "text": "Input your total debt balance into the calculator to start."
+      },
+      {
+        "name": "Input Interest Rate",
+        "text": "Enter the interest rate associated with your debt for accurate calculations."
+      },
+      {
+        "name": "Set Monthly Payment",
+        "text": "Input your desired monthly payment amount to see how it affects your payoff timeline."
+      },
+      {
+        "name": "Review Results",
+        "text": "Examine the payoff date, total interest paid, and the amortization schedule provided."
+      }
+    ]
+  }
 }

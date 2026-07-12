@@ -126,5 +126,28 @@
       "h1": "Password Generator – How to Use",
       "description": "Step-by-step guide to getting the most from Password Generator."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Password Generator",
+    "description": "Generate a strong and secure password instantly using the Password Generator tool.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Choose Password Length",
+        "text": "Select the desired length for your password to ensure it meets your security requirements."
+      },
+      {
+        "name": "Select Character Sets",
+        "text": "Choose the character sets you want to include, such as uppercase letters, lowercase letters, numbers, and symbols."
+      },
+      {
+        "name": "Generate Password",
+        "text": "Click the generate button to create a random password based on your selected criteria."
+      },
+      {
+        "name": "Copy Your Password",
+        "text": "Use the one-click copy feature to easily copy your new password for use."
+      }
+    ]
+  }
 }

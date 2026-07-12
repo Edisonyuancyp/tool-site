@@ -217,5 +217,28 @@
       "h1": "Ideal Weight for 6Ft0 Male",
       "description": "Find the ideal body weight for a male standing 6ft0 using the Robinson, Devine, Miller, and Hamwi formulas."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Ideal Weight Calculator",
+    "description": "Calculate your ideal body weight and healthy BMI range using the Ideal Weight Calculator.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Your Height",
+        "text": "Input your height in either centimeters or inches to begin the calculation."
+      },
+      {
+        "name": "Select Your Gender",
+        "text": "Choose your gender to ensure the calculations are accurate based on the selected formulas."
+      },
+      {
+        "name": "Calculate Ideal Weight",
+        "text": "Click the calculate button to see your ideal weight based on the Robinson, Miller, Devine, and Hamwi formulas."
+      },
+      {
+        "name": "Review Your BMI Range",
+        "text": "Check the healthy BMI range provided to understand how your ideal weight fits within it."
+      }
+    ]
+  }
 }

@@ -616,5 +616,28 @@
       "h1": "Compound Interest on $100,000 at 10% Over 30 Years",
       "description": "Calculate the compound interest on $100,000 invested at 10% annual rate for 30 years, including a full year-by-year growth table."
     }
-  ]
+  ],
+  "howTo": {
+    "name": "How to use Compound Interest Calculator",
+    "description": "Calculate your compound interest and see how your investment grows over time.",
+    "totalTime": "PT1M",
+    "steps": [
+      {
+        "name": "Enter Principal Amount",
+        "text": "Input the initial amount of money you plan to invest."
+      },
+      {
+        "name": "Set Annual Interest Rate",
+        "text": "Provide the expected annual interest rate as a percentage."
+      },
+      {
+        "name": "Choose Investment Period",
+        "text": "Select the number of years you plan to invest your money."
+      },
+      {
+        "name": "Select Compounding Frequency",
+        "text": "Choose how often the interest will be compounded, such as annually or monthly."
+      }
+    ]
+  }
 }
