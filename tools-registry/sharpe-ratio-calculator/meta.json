@@ -34,7 +34,60 @@
     "position-size-calculator",
     "risk-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "sharpe-ratio-calculator-forex",
+      "metaTitle": "Sharpe Ratio Calculator for Forex – Free Online Sharpe Ratio Calculator",
+      "metaDescription": "Free sharpe ratio calculator for forex / currency traders. Calculate the Sharpe Ratio of any trading strategy or portfolio. Enter portfolio No signup required.",
+      "keywords": [
+        "sharpe ratio calculator for forex",
+        "forex sharpe ratio calculator",
+        "free sharpe ratio calculator forex",
+        "sharpe ratio calculator forex",
+        "online sharpe ratio calculator forex"
+      ],
+      "headline": "Sharpe Ratio Calculator optimised for forex / currency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "sharpe-ratio-calculator-crypto",
+      "metaTitle": "Sharpe Ratio Calculator for Crypto – Free Online Sharpe Ratio Calculator",
+      "metaDescription": "Free sharpe ratio calculator for cryptocurrency traders. Calculate the Sharpe Ratio of any trading strategy or portfolio. Enter portfolio No signup required.",
+      "keywords": [
+        "sharpe ratio calculator for crypto",
+        "crypto sharpe ratio calculator",
+        "free sharpe ratio calculator crypto",
+        "sharpe ratio calculator crypto",
+        "online sharpe ratio calculator crypto"
+      ],
+      "headline": "Sharpe Ratio Calculator optimised for cryptocurrency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "sharpe-ratio-calculator-stocks",
+      "metaTitle": "Sharpe Ratio Calculator for Stocks – Free Online Sharpe Ratio Calculator",
+      "metaDescription": "Free sharpe ratio calculator for stock market investors. Calculate the Sharpe Ratio of any trading strategy or portfolio. Enter portfolio No signup required.",
+      "keywords": [
+        "sharpe ratio calculator for stocks",
+        "stocks sharpe ratio calculator",
+        "free sharpe ratio calculator stocks",
+        "sharpe ratio calculator stocks",
+        "online sharpe ratio calculator stocks"
+      ],
+      "headline": "Sharpe Ratio Calculator optimised for stock market investors. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "sharpe-ratio-calculator-options",
+      "metaTitle": "Sharpe Ratio Calculator for Options – Free Online Sharpe Ratio Calculator",
+      "metaDescription": "Free sharpe ratio calculator for options traders. Calculate the Sharpe Ratio of any trading strategy or portfolio. Enter portfolio No signup required.",
+      "keywords": [
+        "sharpe ratio calculator for options",
+        "options sharpe ratio calculator",
+        "free sharpe ratio calculator options",
+        "sharpe ratio calculator options",
+        "online sharpe ratio calculator options"
+      ],
+      "headline": "Sharpe Ratio Calculator optimised for options traders. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Understanding the Sharpe Ratio's Role in Investment Decisions",

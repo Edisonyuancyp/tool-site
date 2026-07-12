@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-07-09. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-07-12. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -81,9 +81,14 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - CSS Grid Layout Calculator: https://getfastcalc.com/tools/dev/css-grid-calculator — Design responsive grids effortlessly.
 - CSS Unit Converter: https://getfastcalc.com/tools/dev/css-unit-converter — Convert px to rem, em, vw and more — instant CSS unit calculations
 - CSS Variables Generator: https://getfastcalc.com/tools/dev/css-variables-generator — Build a custom color palette and export ready-to-use CSS variables and Tailwind config
+- Dev Cost Estimator: https://getfastcalc.com/tools/dev/dev-cost-estimator — Estimate development project costs.
+- Dev Dependency Analyzer: https://getfastcalc.com/tools/dev/dev-dependency-analyzer — Analyze project dependencies efficiently.
 - Dev Project Budget Calculator: https://getfastcalc.com/tools/dev/dev-project-budget-calculator — Estimate your project costs accurately.
+- Dev Security Risk Calculator: https://getfastcalc.com/tools/dev/dev-security-risk-calculator — Evaluate security risks in your projects.
+- Dev Time Tracking Calculator: https://getfastcalc.com/tools/dev/dev-time-tracking-calculator — Track your development time efficiently.
 - Dev Tool Comparison Calculator: https://getfastcalc.com/tools/dev/dev-tool-comparison-calculator — Compare multiple development tools side by side.
 - Dev Tool Efficiency Calculator: https://getfastcalc.com/tools/dev/dev-tool-efficiency-calculator — Measure your development tool effectiveness.
+- Dev Tool Performance Calculator: https://getfastcalc.com/tools/dev/dev-tool-performance-calculator — Measure your dev tools' effectiveness.
 - Online Diff Checker: https://getfastcalc.com/tools/dev/diff-checker — Compare two texts, files, or code snippets side by side
 - JSON & CSV Formatter / Validator: https://getfastcalc.com/tools/dev/json-csv-formatter — Format, validate, and convert JSON and CSV instantly in your browser
 - JWT Decoder & Security Checker: https://getfastcalc.com/tools/dev/jwt-decoder — Decode and inspect any JWT token — with security analysis

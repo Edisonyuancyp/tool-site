@@ -48,7 +48,47 @@
     "age-calculator",
     "bmi-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "dev-tool-efficiency-calculator-online",
+      "metaTitle": "Dev Tool Efficiency Calculator for Online – Free Online Dev Tool Efficiency Calculator",
+      "metaDescription": "Free dev tool efficiency calculator for developers looking for a free online tool. This calculator helps developers evaluate the efficiency of the tools they use b No signup required.",
+      "keywords": [
+        "dev tool efficiency calculator for online",
+        "online dev tool efficiency calculator",
+        "free dev tool efficiency calculator online",
+        "dev tool efficiency calculator online",
+        "online dev tool efficiency calculator online"
+      ],
+      "headline": "Dev Tool Efficiency Calculator optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "dev-tool-efficiency-calculator-javascript",
+      "metaTitle": "Dev Tool Efficiency Calculator for JavaScript – Free Online Dev Tool Efficiency Calculator",
+      "metaDescription": "Free dev tool efficiency calculator for JavaScript developers. This calculator helps developers evaluate the efficiency of the tools they use b No signup required.",
+      "keywords": [
+        "dev tool efficiency calculator for javascript",
+        "javascript dev tool efficiency calculator",
+        "free dev tool efficiency calculator javascript",
+        "dev tool efficiency calculator javascript",
+        "online dev tool efficiency calculator javascript"
+      ],
+      "headline": "Dev Tool Efficiency Calculator optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "dev-tool-efficiency-calculator-python",
+      "metaTitle": "Dev Tool Efficiency Calculator for Python – Free Online Dev Tool Efficiency Calculator",
+      "metaDescription": "Free dev tool efficiency calculator for Python developers. This calculator helps developers evaluate the efficiency of the tools they use b No signup required.",
+      "keywords": [
+        "dev tool efficiency calculator for python",
+        "python dev tool efficiency calculator",
+        "free dev tool efficiency calculator python",
+        "dev tool efficiency calculator python",
+        "online dev tool efficiency calculator python"
+      ],
+      "headline": "Dev Tool Efficiency Calculator optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "fast Dev Tool Efficiency Calculator",
     "painPoints": [

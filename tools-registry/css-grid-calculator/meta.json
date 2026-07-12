@@ -48,7 +48,47 @@
     "color-palette-lab",
     "context-window-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "css-grid-calculator-online",
+      "metaTitle": "CSS Grid Layout Calculator for Online – Free Online CSS Grid Layout Calculator",
+      "metaDescription": "Free css grid layout calculator for developers looking for a free online tool. This calculator helps developers design and visualize CSS grid layouts by inputt No signup required.",
+      "keywords": [
+        "css grid layout calculator for online",
+        "online css grid layout calculator",
+        "free css grid layout calculator online",
+        "css grid layout calculator online",
+        "online css grid layout calculator online"
+      ],
+      "headline": "CSS Grid Layout Calculator optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "css-grid-calculator-javascript",
+      "metaTitle": "CSS Grid Layout Calculator for JavaScript – Free Online CSS Grid Layout Calculator",
+      "metaDescription": "Free css grid layout calculator for JavaScript developers. This calculator helps developers design and visualize CSS grid layouts by inputt No signup required.",
+      "keywords": [
+        "css grid layout calculator for javascript",
+        "javascript css grid layout calculator",
+        "free css grid layout calculator javascript",
+        "css grid layout calculator javascript",
+        "online css grid layout calculator javascript"
+      ],
+      "headline": "CSS Grid Layout Calculator optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "css-grid-calculator-python",
+      "metaTitle": "CSS Grid Layout Calculator for Python – Free Online CSS Grid Layout Calculator",
+      "metaDescription": "Free css grid layout calculator for Python developers. This calculator helps developers design and visualize CSS grid layouts by inputt No signup required.",
+      "keywords": [
+        "css grid layout calculator for python",
+        "python css grid layout calculator",
+        "free css grid layout calculator python",
+        "css grid layout calculator python",
+        "online css grid layout calculator python"
+      ],
+      "headline": "CSS Grid Layout Calculator optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "fast CSS Grid Layout Calculator",
     "painPoints": [

@@ -48,7 +48,47 @@
     "bmr-tdee-calculator",
     "budget-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "api-response-time-calculator-online",
+      "metaTitle": "API Response Time Calculator for Online – Free Online API Response Time Calculator",
+      "metaDescription": "Free api response time calculator for developers looking for a free online tool. This tool allows developers to input API request and response times to determine No signup required.",
+      "keywords": [
+        "api response time calculator for online",
+        "online api response time calculator",
+        "free api response time calculator online",
+        "api response time calculator online",
+        "online api response time calculator online"
+      ],
+      "headline": "API Response Time Calculator optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "api-response-time-calculator-javascript",
+      "metaTitle": "API Response Time Calculator for JavaScript – Free Online API Response Time Calculator",
+      "metaDescription": "Free api response time calculator for JavaScript developers. This tool allows developers to input API request and response times to determine No signup required.",
+      "keywords": [
+        "api response time calculator for javascript",
+        "javascript api response time calculator",
+        "free api response time calculator javascript",
+        "api response time calculator javascript",
+        "online api response time calculator javascript"
+      ],
+      "headline": "API Response Time Calculator optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "api-response-time-calculator-python",
+      "metaTitle": "API Response Time Calculator for Python – Free Online API Response Time Calculator",
+      "metaDescription": "Free api response time calculator for Python developers. This tool allows developers to input API request and response times to determine No signup required.",
+      "keywords": [
+        "api response time calculator for python",
+        "python api response time calculator",
+        "free api response time calculator python",
+        "api response time calculator python",
+        "online api response time calculator python"
+      ],
+      "headline": "API Response Time Calculator optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "fast API Response Time Calculator",
     "painPoints": [

@@ -48,7 +48,47 @@
     "debt-repayment-calculator",
     "car-lease-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "dev-project-budget-calculator-online",
+      "metaTitle": "Dev Project Budget Calculator for Online – Free Online Dev Project Budget Calculator",
+      "metaDescription": "Free dev project budget calculator for developers looking for a free online tool. This calculator helps developers estimate the budget for their software projects No signup required.",
+      "keywords": [
+        "dev project budget calculator for online",
+        "online dev project budget calculator",
+        "free dev project budget calculator online",
+        "dev project budget calculator online",
+        "online dev project budget calculator online"
+      ],
+      "headline": "Dev Project Budget Calculator optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "dev-project-budget-calculator-javascript",
+      "metaTitle": "Dev Project Budget Calculator for JavaScript – Free Online Dev Project Budget Calculator",
+      "metaDescription": "Free dev project budget calculator for JavaScript developers. This calculator helps developers estimate the budget for their software projects No signup required.",
+      "keywords": [
+        "dev project budget calculator for javascript",
+        "javascript dev project budget calculator",
+        "free dev project budget calculator javascript",
+        "dev project budget calculator javascript",
+        "online dev project budget calculator javascript"
+      ],
+      "headline": "Dev Project Budget Calculator optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "dev-project-budget-calculator-python",
+      "metaTitle": "Dev Project Budget Calculator for Python – Free Online Dev Project Budget Calculator",
+      "metaDescription": "Free dev project budget calculator for Python developers. This calculator helps developers estimate the budget for their software projects No signup required.",
+      "keywords": [
+        "dev project budget calculator for python",
+        "python dev project budget calculator",
+        "free dev project budget calculator python",
+        "dev project budget calculator python",
+        "online dev project budget calculator python"
+      ],
+      "headline": "Dev Project Budget Calculator optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "fast Dev Project Budget Calculator",
     "painPoints": [

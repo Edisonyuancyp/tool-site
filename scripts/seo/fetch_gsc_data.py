@@ -158,26 +158,38 @@ def fetch_gsc_data(service: Any, site_url: str, days: int = 7) -> list[dict[str,
     return rows
 
 
-def filter_candidates(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def filter_candidates(
+    rows: list[dict[str, Any]], min_impressions: int = 30, max_ctr: float = 0.01
+) -> list[dict[str, Any]]:
     """
-    Keep pages with zero clicks and >30 impressions.
-    Average position is typically ~50 in this scenario.
+    Keep under-performing pages:
+    - ctr == 0 with impressions > min_impressions, OR
+    - ctr <= max_ctr with impressions > min_impressions (low CTR opportunities)
     """
     candidates = []
+    seen = set()
     for row in rows:
         clicks = int(row.get("clicks", 0))
         impressions = int(row.get("impressions", 0))
         ctr = float(row.get("ctr", 0))
-        if clicks == 0 and impressions > 30 and ctr == 0:
-            page_url = row.get("keys", [""])[0]
-            position = float(row.get("position", 0))
-            candidates.append({
-                "url": page_url,
-                "impressions": impressions,
-                "position": round(position, 2),
-                "clicks": clicks,
-                "ctr": ctr,
-            })
+        if impressions < min_impressions:
+            continue
+        if not (ctr == 0 or ctr <= max_ctr):
+            continue
+        page_url = row.get("keys", [""])[0]
+        if page_url in seen:
+            continue
+        seen.add(page_url)
+        position = float(row.get("position", 0))
+        candidates.append({
+            "url": page_url,
+            "impressions": impressions,
+            "position": round(position, 2),
+            "clicks": clicks,
+            "ctr": round(ctr, 4),
+        })
+    # Sort by impressions descending so the highest-opportunity pages are analyzed first
+    candidates.sort(key=lambda x: x["impressions"], reverse=True)
     return candidates
 
 
@@ -211,8 +223,8 @@ def main() -> int:
     rows = fetch_gsc_data(service, site_url, days=days)
     print(f"[fetch] Got {len(rows)} page rows from GSC.")
 
-    candidates = filter_candidates(rows)
-    print(f"[fetch] Found {len(candidates)} candidates (ctr=0, impressions>30).")
+    candidates = filter_candidates(rows, min_impressions=30, max_ctr=0.01)
+    print(f"[fetch] Found {len(candidates)} candidates (ctr<=1%, impressions>30).")
 
     print("[fetch] Enriching with live title/meta description...")
     enriched = enrich_candidates(candidates)

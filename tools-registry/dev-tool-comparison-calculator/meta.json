@@ -48,7 +48,47 @@
     "carbon-footprint-travel-calculator",
     "daily-goal-tracker"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "dev-tool-comparison-calculator-online",
+      "metaTitle": "Dev Tool Comparison Calculator for Online – Free Online Dev Tool Comparison Calculator",
+      "metaDescription": "Free dev tool comparison calculator for developers looking for a free online tool. This tool allows developers to compare features, pricing, and performance metric No signup required.",
+      "keywords": [
+        "dev tool comparison calculator for online",
+        "online dev tool comparison calculator",
+        "free dev tool comparison calculator online",
+        "dev tool comparison calculator online",
+        "online dev tool comparison calculator online"
+      ],
+      "headline": "Dev Tool Comparison Calculator optimised for developers looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "dev-tool-comparison-calculator-javascript",
+      "metaTitle": "Dev Tool Comparison Calculator for JavaScript – Free Online Dev Tool Comparison Calculator",
+      "metaDescription": "Free dev tool comparison calculator for JavaScript developers. This tool allows developers to compare features, pricing, and performance metric No signup required.",
+      "keywords": [
+        "dev tool comparison calculator for javascript",
+        "javascript dev tool comparison calculator",
+        "free dev tool comparison calculator javascript",
+        "dev tool comparison calculator javascript",
+        "online dev tool comparison calculator javascript"
+      ],
+      "headline": "Dev Tool Comparison Calculator optimised for JavaScript developers. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "dev-tool-comparison-calculator-python",
+      "metaTitle": "Dev Tool Comparison Calculator for Python – Free Online Dev Tool Comparison Calculator",
+      "metaDescription": "Free dev tool comparison calculator for Python developers. This tool allows developers to compare features, pricing, and performance metric No signup required.",
+      "keywords": [
+        "dev tool comparison calculator for python",
+        "python dev tool comparison calculator",
+        "free dev tool comparison calculator python",
+        "dev tool comparison calculator python",
+        "online dev tool comparison calculator python"
+      ],
+      "headline": "Dev Tool Comparison Calculator optimised for Python developers. Free, instant, no signup required."
+    }
+  ],
   "seoContent": {
     "h1Tendency": "fast Dev Tool Comparison Calculator",
     "painPoints": [

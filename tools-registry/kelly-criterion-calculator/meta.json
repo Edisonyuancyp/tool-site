@@ -36,7 +36,60 @@
     "risk-calculator",
     "tp-sl-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "kelly-criterion-calculator-forex",
+      "metaTitle": "Kelly Criterion Calculator for Forex – Free Online Kelly Criterion Calculator",
+      "metaDescription": "Free kelly criterion calculator for forex / currency traders. Enter your win probability and win/loss ratio to get the Kelly percentage — the  No signup required.",
+      "keywords": [
+        "kelly criterion calculator for forex",
+        "forex kelly criterion calculator",
+        "free kelly criterion calculator forex",
+        "kelly criterion calculator forex",
+        "online kelly criterion calculator forex"
+      ],
+      "headline": "Kelly Criterion Calculator optimised for forex / currency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "kelly-criterion-calculator-crypto",
+      "metaTitle": "Kelly Criterion Calculator for Crypto – Free Online Kelly Criterion Calculator",
+      "metaDescription": "Free kelly criterion calculator for cryptocurrency traders. Enter your win probability and win/loss ratio to get the Kelly percentage — the  No signup required.",
+      "keywords": [
+        "kelly criterion calculator for crypto",
+        "crypto kelly criterion calculator",
+        "free kelly criterion calculator crypto",
+        "kelly criterion calculator crypto",
+        "online kelly criterion calculator crypto"
+      ],
+      "headline": "Kelly Criterion Calculator optimised for cryptocurrency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "kelly-criterion-calculator-stocks",
+      "metaTitle": "Kelly Criterion Calculator for Stocks – Free Online Kelly Criterion Calculator",
+      "metaDescription": "Free kelly criterion calculator for stock market investors. Enter your win probability and win/loss ratio to get the Kelly percentage — the  No signup required.",
+      "keywords": [
+        "kelly criterion calculator for stocks",
+        "stocks kelly criterion calculator",
+        "free kelly criterion calculator stocks",
+        "kelly criterion calculator stocks",
+        "online kelly criterion calculator stocks"
+      ],
+      "headline": "Kelly Criterion Calculator optimised for stock market investors. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "kelly-criterion-calculator-options",
+      "metaTitle": "Kelly Criterion Calculator for Options – Free Online Kelly Criterion Calculator",
+      "metaDescription": "Free kelly criterion calculator for options traders. Enter your win probability and win/loss ratio to get the Kelly percentage — the  No signup required.",
+      "keywords": [
+        "kelly criterion calculator for options",
+        "options kelly criterion calculator",
+        "free kelly criterion calculator options",
+        "kelly criterion calculator options",
+        "online kelly criterion calculator options"
+      ],
+      "headline": "Kelly Criterion Calculator optimised for options traders. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Understanding the Kelly Criterion and Its Purpose",

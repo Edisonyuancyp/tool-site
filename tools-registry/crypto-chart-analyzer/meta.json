@@ -40,7 +40,60 @@
     "sharpe-ratio-calculator",
     "position-size-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "crypto-chart-analyzer-forex",
+      "metaTitle": "Crypto Chart Analyzer for Forex – Free Online Crypto Chart Analyzer",
+      "metaDescription": "Free crypto chart analyzer for forex / currency traders. A lightweight TradingView-style chart tool that fetches free public OHLC data fo No signup required.",
+      "keywords": [
+        "crypto chart analyzer for forex",
+        "forex crypto chart analyzer",
+        "free crypto chart analyzer forex",
+        "crypto chart analyzer forex",
+        "online crypto chart analyzer forex"
+      ],
+      "headline": "Crypto Chart Analyzer optimised for forex / currency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "crypto-chart-analyzer-crypto",
+      "metaTitle": "Crypto Chart Analyzer for Crypto – Free Online Crypto Chart Analyzer",
+      "metaDescription": "Free crypto chart analyzer for cryptocurrency traders. A lightweight TradingView-style chart tool that fetches free public OHLC data fo No signup required.",
+      "keywords": [
+        "crypto chart analyzer for crypto",
+        "crypto crypto chart analyzer",
+        "free crypto chart analyzer crypto",
+        "crypto chart analyzer crypto",
+        "online crypto chart analyzer crypto"
+      ],
+      "headline": "Crypto Chart Analyzer optimised for cryptocurrency traders. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "crypto-chart-analyzer-stocks",
+      "metaTitle": "Crypto Chart Analyzer for Stocks – Free Online Crypto Chart Analyzer",
+      "metaDescription": "Free crypto chart analyzer for stock market investors. A lightweight TradingView-style chart tool that fetches free public OHLC data fo No signup required.",
+      "keywords": [
+        "crypto chart analyzer for stocks",
+        "stocks crypto chart analyzer",
+        "free crypto chart analyzer stocks",
+        "crypto chart analyzer stocks",
+        "online crypto chart analyzer stocks"
+      ],
+      "headline": "Crypto Chart Analyzer optimised for stock market investors. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "crypto-chart-analyzer-options",
+      "metaTitle": "Crypto Chart Analyzer for Options – Free Online Crypto Chart Analyzer",
+      "metaDescription": "Free crypto chart analyzer for options traders. A lightweight TradingView-style chart tool that fetches free public OHLC data fo No signup required.",
+      "keywords": [
+        "crypto chart analyzer for options",
+        "options crypto chart analyzer",
+        "free crypto chart analyzer options",
+        "crypto chart analyzer options",
+        "online crypto chart analyzer options"
+      ],
+      "headline": "Crypto Chart Analyzer optimised for options traders. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Understanding the Crypto Chart Analyzer's Functionality",

@@ -27,6 +27,9 @@ from llm_client import LLMClient
 ROOT         = Path(__file__).resolve().parent.parent
 REGISTRY_DIR = ROOT / "tools-registry"
 
+CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY", "")
+CLAUDE_MODEL   = os.getenv("CLAUDE_MODEL", "claude-3-5-sonnet-20241022")
+
 # ── Variant templates by category ─────────────────────────────────────────────
 # Each entry: (variantSlug_suffix, dimension_label, hint_for_claude)
 CATEGORY_VARIANTS: dict[str, list[tuple[str,str,str]]] = {
