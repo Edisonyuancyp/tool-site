@@ -1,0 +1,49 @@
+{
+  "slug": "ai-image-cost-calculator",
+  "name": "AI图像成本计算器",
+  "tagline": "计算AI生成图像的成本。",
+  "description": "该工具帮助内容创作者估算使用AI模型生成图像的相关成本。非常适合规划涉及AI图像生成的项目预算，如DALL-E或Midjourney。",
+  "metaTitle": "AI图像成本计算器 | 免费在线工具",
+  "metaDescription": "轻松估算AI生成图像的成本。免费使用，无需注册，立即获得结果。",
+  "keywords": [
+    "ai图像成本",
+    "图像生成定价",
+    "dall-e成本计算器",
+    "midjourney成本估算",
+    "ai图像服装生成器",
+    "ai图像服装更改",
+    "ai图像服装",
+    "ai照片服装更改",
+    "照片ai成本",
+    "ai照片成本编辑",
+    "ai照片服装编辑器",
+    "图像生成定价openai",
+    "图像生成定价比较",
+    "图像生成成本gemini",
+    "图像生成成本chatgpt",
+    "图像生成成本api",
+    "图像生成成本openai api",
+    "图像生成成本gemini api"
+  ],
+  "category": "AI",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "支持哪些AI模型？",
+      "answer": "该计算器支持主要的图像生成模型，如DALL-E和Midjourney。"
+    },
+    {
+      "question": "我可以调整成本计算的参数吗？",
+      "answer": "可以，您可以输入各种参数以查看它们如何影响成本。"
+    },
+    {
+      "question": "这个工具是免费使用的吗？",
+      "answer": "绝对是的！无需支付费用或注册。"
+    }
+  ],
+  "relatedTools": [
+    "ai-video-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

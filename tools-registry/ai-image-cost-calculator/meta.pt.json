@@ -1,0 +1,49 @@
+{
+  "slug": "ai-image-cost-calculator",
+  "name": "Calculadora de Custo de Imagens com IA",
+  "tagline": "Calcule os custos de imagens geradas por IA.",
+  "description": "Esta ferramenta ajuda criadores de conteúdo a estimar os custos associados à geração de imagens usando modelos de IA. Perfeita para planejar orçamentos para projetos que envolvem geração de imagens com IA, como DALL-E ou Midjourney.",
+  "metaTitle": "Calculadora de Custo de Imagens com IA | Ferramenta Online Gratuita",
+  "metaDescription": "Estime os custos de imagens geradas por IA facilmente. Uso gratuito, sem necessidade de cadastro, resultados instantâneos.",
+  "keywords": [
+    "custo de imagem ia",
+    "preços de geração de imagem",
+    "calculadora de custo dall-e",
+    "estimativa de custo midjourney",
+    "gerador de fantasia de imagem ia",
+    "mudança de fantasia de imagem ia",
+    "fantasia de imagem ia",
+    "mudança de fantasia de foto ia",
+    "custo de foto ia",
+    "custo de edição de foto ia",
+    "editor de fantasia de foto ia",
+    "preços de geração de imagem openai",
+    "comparação de preços de geração de imagem",
+    "custo de geração de imagem gemini",
+    "custo de geração de imagem chatgpt",
+    "custo de geração de imagem api",
+    "custo de geração de imagem openai api",
+    "custo de geração de imagem gemini api"
+  ],
+  "category": "AI",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "Quais modelos de IA são suportados?",
+      "answer": "A calculadora suporta os principais modelos de geração de imagem, como DALL-E e Midjourney."
+    },
+    {
+      "question": "Posso ajustar parâmetros para o cálculo do custo?",
+      "answer": "Sim, você pode inserir vários parâmetros para ver como eles afetam o custo."
+    },
+    {
+      "question": "Esta ferramenta é gratuita para usar?",
+      "answer": "Absolutamente! Não há taxas ou necessidade de cadastro."
+    }
+  ],
+  "relatedTools": [
+    "ai-video-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

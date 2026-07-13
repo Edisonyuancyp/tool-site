@@ -1,0 +1,49 @@
+{
+  "slug": "ai-image-cost-calculator",
+  "name": "AI Bildkostenrechner",
+  "tagline": "Berechnen Sie die Kosten für KI-generierte Bilder.",
+  "description": "Dieses Tool hilft Content-Erstellern, die mit der Erstellung von Bildern durch KI-Modelle verbundenen Kosten zu schätzen. Ideal zur Planung von Budgets für Projekte, die KI-Bilderzeugung wie DALL-E oder Midjourney beinhalten.",
+  "metaTitle": "AI Bildkostenrechner | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie die Kosten für KI-generierte Bilder ganz einfach. Kostenlos, keine Anmeldung erforderlich, sofortige Ergebnisse.",
+  "keywords": [
+    "ki bildkosten",
+    "preise für bildgenerierung",
+    "dall-e kostenrechner",
+    "midjourney kostenabschätzung",
+    "ki bildkostümgenerator",
+    "ki bildkostümänderung",
+    "ki kostüm für bilder",
+    "ki foto kostümänderung",
+    "foto ki kosten",
+    "ki foto kostenbearbeitung",
+    "ki foto kostümeditor",
+    "preise für bildgenerierung openai",
+    "preise für bildgenerierung vergleich",
+    "kosten für bildgenerierung gemini",
+    "kosten für bildgenerierung chatgpt",
+    "kosten für bildgenerierung api",
+    "kosten für bildgenerierung openai api",
+    "kosten für bildgenerierung gemini api"
+  ],
+  "category": "AI",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "Welche KI-Modelle werden unterstützt?",
+      "answer": "Der Rechner unterstützt wichtige Modelle zur Bildgenerierung wie DALL-E und Midjourney."
+    },
+    {
+      "question": "Kann ich Parameter für die Kostenberechnung anpassen?",
+      "answer": "Ja, Sie können verschiedene Parameter eingeben, um zu sehen, wie sie die Kosten beeinflussen."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos zu nutzen?",
+      "answer": "Absolut! Es fallen keine Gebühren oder Anmeldungen an."
+    }
+  ],
+  "relatedTools": [
+    "ai-video-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

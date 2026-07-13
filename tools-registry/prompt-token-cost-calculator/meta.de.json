@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-cost-calculator",
+  "name": "Prompt Token Kostenrechner",
+  "tagline": "Schätzen Sie die Token-Kosten Ihres Prompts ganz einfach.",
+  "description": "Dieses Tool ermöglicht es KI-Entwicklern, ihre Prompts einzugeben und die damit verbundenen Token-Kosten für verschiedene Modelle zu berechnen. Ideal zur Verwaltung von Budgets und zur Optimierung von Prompts für ChatGPT, Claude und mehr.",
+  "metaTitle": "Prompt Token Kostenrechner | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie die Token-Kosten für verschiedene KI-Modelle. Kostenlos nutzbar, keine Anmeldung erforderlich, erhalten Sie sofortige Ergebnisse.",
+  "keywords": [
+    "prompt token kosten",
+    "ki kostenrechner",
+    "token budget",
+    "prompt optimierung",
+    "vorhersage der token-preise",
+    "wie viel kostet 1 token",
+    "preisübersicht für prompts",
+    "token preise",
+    "ki preisrechner",
+    "ki kosten schätzer",
+    "ki kosten schätzer app",
+    "ki kosten schätzer für bauprojekte",
+    "ki kosten schätzer kostenlos",
+    "ki token kostenrechner",
+    "open ai kostenrechner",
+    "bedeutung des token budgets",
+    "token budget claude",
+    "token budget bewusste llm-argumentation",
+    "token budget nvidia",
+    "token budget kriege"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Wie funktioniert dieser Rechner?",
+      "answer": "Geben Sie Ihren Prompt ein und wählen Sie das KI-Modell aus, um sofortige Schätzungen der Token-Kosten zu erhalten."
+    },
+    {
+      "question": "Gibt es eine Begrenzung für die Anzahl der Prompts?",
+      "answer": "Nein, Sie können die Kosten für so viele Prompts berechnen, wie Sie benötigen."
+    },
+    {
+      "question": "Benötige ich ein Konto, um dieses Tool zu nutzen?",
+      "answer": "Nein, dieses Tool ist völlig kostenlos und erfordert keine Anmeldung."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-comparator"
+  ],
+  "variants": []
+}

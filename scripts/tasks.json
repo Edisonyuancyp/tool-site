@@ -3725,5 +3725,125 @@
         "headline": "Fast and easy way to check your project dependencies."
       }
     ]
+  },
+  {
+    "slug": "prompt-token-cost-calculator",
+    "name": "Prompt Token Cost Calculator",
+    "tagline": "Estimate your prompt's token cost easily.",
+    "description": "This tool allows AI developers to input their prompts and calculate the associated token costs for various models. Ideal for managing budgets and optimizing prompts for ChatGPT, Claude, and more.",
+    "metaTitle": "Prompt Token Cost Calculator | Free Online Tool",
+    "metaDescription": "Calculate prompt token costs for various AI models. Free to use, no signup required, get instant results.",
+    "keywords": [
+      "prompt token cost",
+      "AI cost calculator",
+      "token budget",
+      "prompt optimization"
+    ],
+    "category": "AI",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How does this calculator work?",
+        "answer": "Input your prompt and select the AI model to get instant token cost estimates."
+      },
+      {
+        "question": "Is there a limit on the number of prompts?",
+        "answer": "No, you can calculate costs for as many prompts as you need."
+      },
+      {
+        "question": "Do I need an account to use this tool?",
+        "answer": "No, this tool is completely free and does not require any signup."
+      }
+    ],
+    "relatedTools": [
+      "prompt-token-counter",
+      "ai-model-comparator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-cost-analysis",
+        "metaTitle": "Detailed Cost Analysis for Prompts",
+        "metaDescription": "Get a comprehensive breakdown of token costs for each model.",
+        "keywords": [
+          "detailed token analysis",
+          "cost breakdown",
+          "prompt efficiency"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Analyze your prompt costs in detail with this variant."
+      },
+      {
+        "variantSlug": "batch-cost-calculator",
+        "metaTitle": "Batch Prompt Cost Calculator",
+        "metaDescription": "Calculate costs for multiple prompts at once.",
+        "keywords": [
+          "batch processing",
+          "multi-prompt calculator",
+          "cost estimation"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Easily calculate costs for multiple prompts simultaneously."
+      }
+    ]
+  },
+  {
+    "slug": "ai-image-cost-calculator",
+    "name": "AI Image Cost Calculator",
+    "tagline": "Calculate costs for AI-generated images.",
+    "description": "This tool helps content creators estimate the costs associated with generating images using AI models. Perfect for planning budgets for projects involving AI image generation like DALL-E or Midjourney.",
+    "metaTitle": "AI Image Cost Calculator | Free Online Tool",
+    "metaDescription": "Estimate costs for AI-generated images easily. Free to use, no signup required, instant results.",
+    "keywords": [
+      "AI image cost",
+      "image generation pricing",
+      "DALL-E cost calculator",
+      "Midjourney cost estimation"
+    ],
+    "category": "AI",
+    "icon": "🖼️",
+    "faqs": [
+      {
+        "question": "What AI models are supported?",
+        "answer": "The calculator supports major image generation models like DALL-E and Midjourney."
+      },
+      {
+        "question": "Can I adjust parameters for the cost calculation?",
+        "answer": "Yes, you can input various parameters to see how they affect the cost."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Absolutely! There are no fees or signups required."
+      }
+    ],
+    "relatedTools": [
+      "ai-video-cost-calculator",
+      "prompt-cost-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "high-resolution-image-cost",
+        "metaTitle": "High-Resolution Image Cost Estimator",
+        "metaDescription": "Estimate costs for generating high-resolution images.",
+        "keywords": [
+          "high-res image cost",
+          "resolution pricing",
+          "AI image quality"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Get precise cost estimates for high-resolution images."
+      },
+      {
+        "variantSlug": "bulk-image-cost-calculator",
+        "metaTitle": "Bulk Image Cost Calculator",
+        "metaDescription": "Calculate costs for generating multiple images at once.",
+        "keywords": [
+          "bulk generation",
+          "multiple images",
+          "cost estimation"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Easily calculate costs for generating multiple images."
+      }
+    ]
   }
 ]

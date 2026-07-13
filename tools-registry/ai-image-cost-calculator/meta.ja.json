@@ -1,0 +1,49 @@
+{
+  "slug": "ai-image-cost-calculator",
+  "name": "AI画像コスト計算機",
+  "tagline": "AI生成画像のコストを計算します。",
+  "description": "このツールは、コンテンツクリエイターがAIモデルを使用して画像を生成する際のコストを見積もるのに役立ちます。DALL-EやMidjourneyなどのAI画像生成に関わるプロジェクトの予算計画に最適です。",
+  "metaTitle": "AI画像コスト計算機 | 無料オンラインツール",
+  "metaDescription": "AI生成画像のコストを簡単に見積もります。無料で使用でき、サインアップ不要、即時結果。",
+  "keywords": [
+    "AI画像コスト",
+    "画像生成価格",
+    "DALL-Eコスト計算機",
+    "Midjourneyコスト見積もり",
+    "AI画像コスチュームジェネレーター",
+    "AI画像コスチューム変更",
+    "AI画像コスチューム",
+    "AI写真コスチューム変更",
+    "写真AIコスト",
+    "AI写真コスト編集",
+    "AI写真コスチュームエディター",
+    "画像生成価格OpenAI",
+    "画像生成価格比較",
+    "画像生成コストGemini",
+    "画像生成コストChatGPT",
+    "画像生成コストAPI",
+    "画像生成コストOpenAI API",
+    "画像生成コストGemini API"
+  ],
+  "category": "AI",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "どのAIモデルがサポートされていますか？",
+      "answer": "この計算機は、DALL-EやMidjourneyなどの主要な画像生成モデルをサポートしています。"
+    },
+    {
+      "question": "コスト計算のパラメータを調整できますか？",
+      "answer": "はい、さまざまなパラメータを入力して、コストにどのように影響するかを見ることができます。"
+    },
+    {
+      "question": "このツールは無料で使用できますか？",
+      "answer": "もちろんです！料金やサインアップは必要ありません。"
+    }
+  ],
+  "relatedTools": [
+    "ai-video-cost-calculator",
+    "prompt-cost-calculator"
+  ],
+  "variants": []
+}

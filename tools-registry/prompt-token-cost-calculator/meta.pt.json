@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-cost-calculator",
+  "name": "Calculadora de Custo de Token de Prompt",
+  "tagline": "Estime facilmente o custo em tokens do seu prompt.",
+  "description": "Esta ferramenta permite que desenvolvedores de IA insiram seus prompts e calculem os custos de tokens associados para vários modelos. Ideal para gerenciar orçamentos e otimizar prompts para ChatGPT, Claude e mais.",
+  "metaTitle": "Calculadora de Custo de Token de Prompt | Ferramenta Online Gratuita",
+  "metaDescription": "Calcule os custos de tokens de prompts para vários modelos de IA. Uso gratuito, sem necessidade de cadastro, obtenha resultados instantâneos.",
+  "keywords": [
+    "custo de token de prompt",
+    "calculadora de custo de IA",
+    "orçamento de tokens",
+    "otimização de prompt",
+    "previsão de preço de token de prompt",
+    "quanto custa 1 token",
+    "lista de preços de prompt express",
+    "preço de tokens",
+    "calculadora de taxa de IA",
+    "estimador de custo de IA",
+    "aplicativo de estimador de custo de IA",
+    "estimador de custo de IA para construção",
+    "estimador de custo de IA gratuito",
+    "calculadora de custo de token de IA",
+    "calculadora de custo open ai",
+    "significado de orçamento de token",
+    "orçamento de token claude",
+    "raciocínio LLM ciente do orçamento de token",
+    "orçamento de token nvidia",
+    "guerras de orçamento de token"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como funciona esta calculadora?",
+      "answer": "Insira seu prompt e selecione o modelo de IA para obter estimativas instantâneas de custo em tokens."
+    },
+    {
+      "question": "Há um limite no número de prompts?",
+      "answer": "Não, você pode calcular os custos para quantos prompts precisar."
+    },
+    {
+      "question": "Preciso de uma conta para usar esta ferramenta?",
+      "answer": "Não, esta ferramenta é completamente gratuita e não requer cadastro."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-comparator"
+  ],
+  "variants": []
+}
