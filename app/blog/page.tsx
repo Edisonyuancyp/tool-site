@@ -80,6 +80,46 @@ const POSTS = [
     tag: "Auto",
     readTime: "3 min read",
   },
+  {
+    slug: "calculate-optimal-bet-size-using-kelly-criterion",
+    title: "How to Calculate Optimal Bet Size with the Kelly Criterion",
+    excerpt: "Learn how to calculate your optimal bet size using the Kelly Criterion with our free tool. Maximize your long-term growth effectively.",
+    date: "2026-07-14",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "manage-prompt-tokens-for-ai-models",
+    title: "How can I effectively manage prompt tokens for AI models?",
+    excerpt: "Learn how to manage prompt tokens for AI models effectively with our free Token Splitter tool.",
+    date: "2026-07-14",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-split-text-into-token-sized-chunks",
+    title: "How Can I Split My Text into Token-Sized Chunks?",
+    excerpt: "Learn how to effectively split your text into token-sized chunks for AI applications using our free token splitter tool.",
+    date: "2026-07-14",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-create-seo-friendly-title",
+    title: "How to Create an SEO-Friendly Title for Your Blog Post",
+    excerpt: "Wondering how to create an SEO-friendly title for your blog post? Use our free tool to generate optimized titles that boost visibility.",
+    date: "2026-07-14",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "what-is-schema-markup-improve-seo",
+    title: "What is Schema Markup and How Can It Improve SEO?",
+    excerpt: "Discover what schema markup is and how it can enhance your website's SEO. Use our free schema markup generator to get started.",
+    date: "2026-07-14",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
 ];
 
 export default function BlogPage() {
