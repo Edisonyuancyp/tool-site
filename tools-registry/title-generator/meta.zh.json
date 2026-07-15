@@ -1,0 +1,51 @@
+{
+  "slug": "title-generator",
+  "name": "SEO标题生成器",
+  "tagline": "创建引人注目且优化的标题。",
+  "description": "在几秒钟内生成适合SEO的网页标题。非常适合希望提升搜索可见性的博主和内容创作者。",
+  "metaTitle": "SEO标题生成器 – 优化您的页面标题 | 免费在线工具",
+  "metaDescription": "即时生成吸引点击的SEO标题。免费，无需注册，立即获得结果。",
+  "keywords": [
+    "seo标题生成器",
+    "创建页面标题",
+    "优化标题",
+    "标题创意",
+    "seo工具",
+    "seo标题生成器youtube",
+    "seo标题生成器fatjoe",
+    "免费seo标题生成器",
+    "博客用seo标题生成器",
+    "seo标题生成器工具",
+    "seo标题生成器ai",
+    "免费youtube seo标题生成器",
+    "在线seo标题生成器",
+    "seo标题示例",
+    "友好的seo标题",
+    "免费seo标题生成器",
+    "免费ai seo标题生成器",
+    "免费youtube seo标题生成器",
+    "免费seo元标题生成器",
+    "免费seo标题和描述生成器"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "标题生成器是如何工作的？",
+      "answer": "只需输入您的关键词，工具会根据SEO最佳实践生成优化的标题。"
+    },
+    {
+      "question": "我可以直接使用生成的标题吗？",
+      "answer": "可以，生成的标题旨在直接用于您的网站，以提升SEO效果。"
+    },
+    {
+      "question": "我可以生成多少个标题？",
+      "answer": "没有限制，您可以生成所需的任意数量的标题。"
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "slug-generator"
+  ],
+  "variants": []
+}

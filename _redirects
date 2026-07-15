@@ -271,6 +271,9 @@
 /tools/keyword-density-analyzer /tools/seo/keyword-density-analyzer 301
 /tools/advanced-keyword-density-analyzer /tools/seo/advanced-keyword-density-analyzer 301
 /tools/keyword-density-trend-analyzer /tools/seo/keyword-density-trend-analyzer 301
+/tools/keyword-density-checker /tools/seo/keyword-density-checker 301
+/tools/advanced-keyword-density-checker /tools/seo/advanced-keyword-density-checker 301
+/tools/basic-keyword-density-checker /tools/seo/basic-keyword-density-checker 301
 /tools/kg-to-lbs /tools/converter/kg-to-lbs 301
 /tools/lbs-to-kg /tools/converter/lbs-to-kg 301
 /tools/leftover-recipe-generator /tools/converter/leftover-recipe-generator 301
@@ -460,9 +463,11 @@
 /tools/bill-splitter-calculator /tools/calc/bill-splitter-calculator 301
 /tools/delivery-tip-calculator /tools/calc/delivery-tip-calculator 301
 /tools/taxi-tip-calculator /tools/calc/taxi-tip-calculator 301
+/tools/title-generator /tools/seo/title-generator 301
+/tools/advanced-title-generator /tools/seo/advanced-title-generator 301
+/tools/simple-title-generator /tools/seo/simple-title-generator 301
 /tools/title-optimization-tool /tools/seo/title-optimization-tool 301
 /tools/title-checker /tools/seo/title-checker 301
-/tools/advanced-title-generator /tools/seo/advanced-title-generator 301
 /tools/quick-title-generator /tools/seo/quick-title-generator 301
 /tools/token-splitter /tools/ai/token-splitter 301
 /tools/detailed-token-analysis /tools/ai/detailed-token-analysis 301

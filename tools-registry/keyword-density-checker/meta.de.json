@@ -1,0 +1,51 @@
+{
+  "slug": "keyword-density-checker",
+  "name": "Keyword-Dichte-Prüfer",
+  "tagline": "Analysieren Sie die Verwendung von Schlüsselwörtern auf Ihren Seiten.",
+  "description": "Überprüfen Sie die Keyword-Dichte Ihres Webinhalts, um ihn für SEO zu optimieren. Ideal für Autoren und Vermarkter, die sich auf die Qualität des Inhalts konzentrieren.",
+  "metaTitle": "Keyword-Dichte-Prüfer – Optimieren Sie Ihren Inhalt | Kostenloses Online-Tool",
+  "metaDescription": "Analysieren Sie die Keyword-Dichte Ihres Inhalts ganz einfach. Kostenlos nutzbar, keine Anmeldung erforderlich, sofortige Ergebnisse.",
+  "keywords": [
+    "keyword-dichte-prüfer",
+    "schlüsselwörter analysieren",
+    "seo-inhaltsoptimierung",
+    "inhaltstools",
+    "seo-tools",
+    "kostenloser keyword-dichte-prüfer",
+    "keyword-dichte-prüfer-tool",
+    "keyword-dichte-prüfer-erweiterung",
+    "keyword-dichte-prüfer-seo-bewertungstools",
+    "keyword-dichte-prüfer-chrome-erweiterung",
+    "keyword-dichte-prüfer-kleine-seo-tools",
+    "keyword-dichte-prüfer-online",
+    "kostenloser keyword-dichte-prüfer-online",
+    "wie man die keyword-dichte überprüft",
+    "was ist keyword-dichte",
+    "seo-bewertungstools keyword-dichte-prüfer",
+    "kostenloser keyword-dichte-prüfer",
+    "kostenloser keyword-dichte-analyzer",
+    "kostenloses keyword-dichte-tool",
+    "schlüsselwörter einer website analysieren"
+  ],
+  "category": "SEO",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Was ist die Keyword-Dichte?",
+      "answer": "Die Keyword-Dichte bezieht sich auf den Prozentsatz, wie oft ein Schlüsselwort in Ihrem Inhalt im Vergleich zur Gesamtwortanzahl erscheint."
+    },
+    {
+      "question": "Warum ist die Keyword-Dichte wichtig?",
+      "answer": "Die Aufrechterhaltung einer optimalen Keyword-Dichte hilft, die SEO Ihres Inhalts zu verbessern, ohne Keyword-Stuffing zu betreiben."
+    },
+    {
+      "question": "Kann ich mehrere Seiten gleichzeitig analysieren?",
+      "answer": "Derzeit analysiert das Tool eine Seite nach der anderen, um präzise Ergebnisse zu liefern."
+    }
+  ],
+  "relatedTools": [
+    "title-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

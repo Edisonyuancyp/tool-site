@@ -1,0 +1,51 @@
+{
+  "slug": "title-generator",
+  "name": "Gerador de Títulos SEO",
+  "tagline": "Crie títulos atraentes e otimizados.",
+  "description": "Gere títulos amigáveis para SEO para suas páginas da web em segundos. Perfeito para blogueiros e criadores de conteúdo que buscam aumentar sua visibilidade nas buscas.",
+  "metaTitle": "Gerador de Títulos SEO – Otimize Seus Títulos de Página | Ferramenta Online Gratuita",
+  "metaDescription": "Gere instantaneamente títulos SEO que atraem cliques. Gratuito, sem necessidade de cadastro e resultados imediatos.",
+  "keywords": [
+    "gerador de títulos seo",
+    "criar títulos de página",
+    "otimizar títulos",
+    "ideias de títulos",
+    "ferramentas de seo",
+    "gerador de títulos seo youtube",
+    "gerador de títulos seo fatjoe",
+    "gerador de títulos seo gratuito",
+    "gerador de títulos seo para blog",
+    "ferramenta de gerador de títulos seo",
+    "gerador de títulos seo ai",
+    "gerador de títulos seo para youtube gratuito",
+    "gerador de títulos seo online",
+    "exemplos de títulos seo",
+    "títulos amigáveis para seo",
+    "gerador de títulos seo gratuito",
+    "gerador de títulos seo ai gratuito",
+    "gerador de títulos seo youtube gratuito",
+    "gerador de meta título seo gratuito",
+    "gerador gratuito de título e descrição seo"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Como funciona o gerador de títulos?",
+      "answer": "Basta inserir suas palavras-chave, e a ferramenta gera títulos otimizados com base nas melhores práticas de SEO."
+    },
+    {
+      "question": "Posso usar os títulos gerados diretamente?",
+      "answer": "Sim, os títulos gerados são projetados para serem usados diretamente em seu site para melhorar o SEO."
+    },
+    {
+      "question": "Há um limite para quantos títulos posso gerar?",
+      "answer": "Não, você pode gerar quantos títulos precisar."
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "slug-generator"
+  ],
+  "variants": []
+}

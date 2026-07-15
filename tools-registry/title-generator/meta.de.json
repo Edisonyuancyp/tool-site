@@ -1,0 +1,51 @@
+{
+  "slug": "title-generator",
+  "name": "SEO Titel Generator",
+  "tagline": "Erstellen Sie eingängige und optimierte Titel.",
+  "description": "Generieren Sie SEO-freundliche Titel für Ihre Webseiten in Sekunden. Perfekt für Blogger und Content-Ersteller, die ihre Sichtbarkeit in Suchmaschinen erhöhen möchten.",
+  "metaTitle": "SEO Titel Generator – Optimieren Sie Ihre Seitentitel | Kostenloses Online-Tool",
+  "metaDescription": "Generieren Sie sofort SEO-Titel, die Klicks anziehen. Kostenlos, keine Anmeldung erforderlich und sofortige Ergebnisse.",
+  "keywords": [
+    "seo titel generator",
+    "seitentitel erstellen",
+    "titel optimieren",
+    "titelideen",
+    "seo werkzeuge",
+    "seo titel generator youtube",
+    "seo titel generator fatjoe",
+    "seo titel generator kostenlos",
+    "seo titel generator für blog",
+    "seo titel generator tool",
+    "seo titel generator ai",
+    "seo titel generator für youtube kostenlos",
+    "online seo titel generator",
+    "seo titel beispiele",
+    "seo freundliche titel",
+    "kostenloser seo titel generator",
+    "kostenloser ai seo titel generator",
+    "kostenloser youtube seo titel generator",
+    "kostenloser seo meta titel generator",
+    "kostenloser seo titel und beschreibung generator"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Titelgenerator?",
+      "answer": "Geben Sie einfach Ihre Keywords ein, und das Tool generiert optimierte Titel basierend auf den besten SEO-Praktiken."
+    },
+    {
+      "question": "Kann ich die generierten Titel direkt verwenden?",
+      "answer": "Ja, die generierten Titel sind so gestaltet, dass sie direkt auf Ihrer Website für besseres SEO verwendet werden können."
+    },
+    {
+      "question": "Gibt es eine Begrenzung, wie viele Titel ich generieren kann?",
+      "answer": "Nein, Sie können so viele Titel generieren, wie Sie benötigen."
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "slug-generator"
+  ],
+  "variants": []
+}

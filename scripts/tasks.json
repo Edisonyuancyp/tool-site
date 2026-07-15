@@ -3845,5 +3845,124 @@
         "headline": "Easily calculate costs for generating multiple images."
       }
     ]
+  },
+  {
+    "slug": "title-generator",
+    "name": "SEO Title Generator",
+    "tagline": "Create catchy and optimized titles.",
+    "description": "Generate SEO-friendly titles for your web pages in seconds. Perfect for bloggers and content creators looking to boost their search visibility.",
+    "metaTitle": "SEO Title Generator – Optimize Your Page Titles | Free Online Tool",
+    "metaDescription": "Instantly generate SEO titles that attract clicks. Free, no signup required, and immediate results.",
+    "keywords": [
+      "SEO title generator",
+      "create page titles",
+      "optimize titles",
+      "title ideas",
+      "SEO tools"
+    ],
+    "category": "SEO",
+    "icon": "📝",
+    "faqs": [
+      {
+        "question": "How does the title generator work?",
+        "answer": "Simply input your keywords, and the tool generates optimized titles based on SEO best practices."
+      },
+      {
+        "question": "Can I use the generated titles directly?",
+        "answer": "Yes, the generated titles are designed to be used directly on your website for better SEO."
+      },
+      {
+        "question": "Is there a limit to how many titles I can generate?",
+        "answer": "No, you can generate as many titles as you need."
+      }
+    ],
+    "relatedTools": [
+      "meta-description-generator",
+      "slug-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-title-generator",
+        "metaTitle": "Advanced SEO Title Generator",
+        "metaDescription": "Generate highly optimized titles with advanced features.",
+        "keywords": [
+          "advanced title generator",
+          "SEO title optimization",
+          "title suggestions"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Elevate your title creation with advanced options."
+      },
+      {
+        "variantSlug": "simple-title-generator",
+        "metaTitle": "Simple SEO Title Generator",
+        "metaDescription": "Quickly generate basic SEO titles for your pages.",
+        "keywords": [
+          "simple title generator",
+          "basic SEO titles"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Generate straightforward titles easily and quickly."
+      }
+    ]
+  },
+  {
+    "slug": "keyword-density-checker",
+    "name": "Keyword Density Checker",
+    "tagline": "Analyze keyword usage on your pages.",
+    "description": "Check the keyword density of your web content to optimize for SEO. Great for writers and marketers focused on content quality.",
+    "metaTitle": "Keyword Density Checker – Optimize Your Content | Free Online Tool",
+    "metaDescription": "Analyze your content's keyword density easily. Free to use, no signup required, instant results.",
+    "keywords": [
+      "keyword density checker",
+      "analyze keywords",
+      "SEO content optimization",
+      "content tools",
+      "SEO tools"
+    ],
+    "category": "SEO",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "What is keyword density?",
+        "answer": "Keyword density refers to the percentage of times a keyword appears in your content compared to the total word count."
+      },
+      {
+        "question": "Why is keyword density important?",
+        "answer": "Maintaining optimal keyword density helps improve your content's SEO without keyword stuffing."
+      },
+      {
+        "question": "Can I analyze multiple pages at once?",
+        "answer": "Currently, the tool analyzes one page at a time to provide precise results."
+      }
+    ],
+    "relatedTools": [
+      "title-generator",
+      "meta-description-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-keyword-density-checker",
+        "metaTitle": "Advanced Keyword Density Checker",
+        "metaDescription": "Get detailed keyword analysis for your content.",
+        "keywords": [
+          "advanced keyword analysis",
+          "SEO keyword tools"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Unlock deeper insights into your keyword usage."
+      },
+      {
+        "variantSlug": "basic-keyword-density-checker",
+        "metaTitle": "Basic Keyword Density Checker",
+        "metaDescription": "Quickly check basic keyword density for your texts.",
+        "keywords": [
+          "basic keyword checker",
+          "simple keyword analysis"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Easily check keyword usage for effective content optimization."
+      }
+    ]
   }
 ]
