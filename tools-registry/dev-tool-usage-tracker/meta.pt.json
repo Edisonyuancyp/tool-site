@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-usage-tracker",
+  "name": "Dev Tool Usage Tracker",
+  "tagline": "Monitore e analise o uso das suas ferramentas de desenvolvimento",
+  "description": "Esta ferramenta ajuda desenvolvedores a rastrear o tempo gasto em várias ferramentas de desenvolvimento, fornecendo insights sobre produtividade e eficiência. Ideal para equipes que buscam otimizar seu fluxo de trabalho e alocação de recursos.",
+  "metaTitle": "Dev Tool Usage Tracker – Insights de Produtividade | Ferramenta Online Gratuita",
+  "metaDescription": "Rastreie o uso das suas ferramentas de desenvolvimento gratuitamente! Obtenha resultados instantâneos para analisar a produtividade sem necessidade de cadastro.",
+  "keywords": [
+    "uso de ferramentas de desenvolvimento",
+    "rastrear ferramentas de desenvolvimento",
+    "produtividade do desenvolvedor",
+    "análise de uso",
+    "rastreamento de tempo",
+    "ferramenta online gratuita de rastreamento de uso de ferramentas de desenvolvimento",
+    "conversor de rastreamento de uso de ferramentas de desenvolvimento no navegador",
+    "ferramenta de rastreamento de uso de ferramentas de desenvolvimento sem instalação",
+    "ferramenta de desenvolvimento gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "uso de ferramentas de desenvolvedor",
+    "rastrear ferramenta de desenvolvimento",
+    "ferramenta de rastreamento de desenvolvimento",
+    "produtividade do desenvolvedor engenheiro",
+    "métricas de produtividade do desenvolvedor",
+    "ferramentas de produtividade do desenvolvedor",
+    "empregos de produtividade do desenvolvedor",
+    "produtividade do desenvolvedor com IA"
+  ],
+  "category": "Developer",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Como esta ferramenta rastreia o uso?",
+      "answer": "Ela permite que você registre manualmente o tempo gasto em cada ferramenta ou via integrações com plataformas populares."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, esta ferramenta é completamente gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso exportar meus dados?",
+      "answer": "Sim, você pode exportar os dados de uso em vários formatos para relatórios."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

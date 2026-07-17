@@ -1,0 +1,51 @@
+{
+  "slug": "dev-sandbox-calculator",
+  "name": "Dev Sandbox Rechner",
+  "tagline": "Schätzen Sie den Ressourcenbedarf für Ihre Entwicklungsumgebung",
+  "description": "Dieses Tool unterstützt Entwickler dabei, die benötigten Ressourcen für ihre Entwicklungsumgebung zu schätzen, um ihre Setups effektiv zu planen. Ideal für Neueinsteiger und Teams, die neue Projekte einrichten.",
+  "metaTitle": "Dev Sandbox Rechner – Ressourcenabschätzung | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie kostenlos die Ressourcen für Ihre Entwicklungsumgebung! Erhalten Sie sofortige Ergebnisse ohne Anmeldung.",
+  "keywords": [
+    "Entwicklungsumgebung",
+    "Sandbox-Einrichtung",
+    "Ressourcenabschätzung",
+    "Entwicklerwerkzeuge",
+    "Umweltplanung",
+    "dev sandbox calculator online tool kostenlos",
+    "dev sandbox calculator konverter browser",
+    "dev sandbox calculator ohne installation entwicklerwerkzeug",
+    "kostenloses entwicklerwerkzeug",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes entwicklerwerkzeug",
+    "bedeutung der entwicklungsumgebung",
+    "entwicklungsumgebung vs testumgebung",
+    "einrichtung der entwicklungsumgebung",
+    "symbol der entwicklungsumgebung",
+    "entwicklungsumgebung azure",
+    "logo der entwicklungsumgebung",
+    "entwicklungsumgebung vs sandbox",
+    "bedeutung der sandbox-einrichtung"
+  ],
+  "category": "Developer",
+  "icon": "🖥️",
+  "faqs": [
+    {
+      "question": "Welche Ressourcen schätzt dieses Tool?",
+      "answer": "Es schätzt die Anforderungen an CPU, Speicher, Speicherplatz und Netzwerk."
+    },
+    {
+      "question": "Ist es anpassbar für verschiedene Projekte?",
+      "answer": "Ja, Sie können die Parameter basierend auf den spezifischen Anforderungen Ihres Projekts anpassen."
+    },
+    {
+      "question": "Kann es bei Cloud-Einrichtungen helfen?",
+      "answer": "Absolut, es bietet Schätzungen sowohl für lokale als auch für Cloud-Umgebungen."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

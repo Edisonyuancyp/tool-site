@@ -1,0 +1,51 @@
+{
+  "slug": "dev-education-cost-calculator",
+  "name": "Calculadora de Custos de Educação para Desenvolvedores",
+  "tagline": "Estime os custos de treinamento para desenvolvedores",
+  "description": "Esta ferramenta ajuda organizações e indivíduos a estimar os custos associados a programas de treinamento e educação para desenvolvedores. Perfeito para departamentos de RH e gerentes que desejam investir nas habilidades de suas equipes.",
+  "metaTitle": "Calculadora de Custos de Educação para Desenvolvedores – Estimativa de Treinamento | Ferramenta Online Gratuita",
+  "metaDescription": "Estime os custos de treinamento para desenvolvedores gratuitamente! Cálculos instantâneos sem necessidade de cadastro.",
+  "keywords": [
+    "treinamento de desenvolvedores",
+    "custos de educação",
+    "orçamento de treinamento",
+    "ferramentas de rh",
+    "educação em desenvolvimento",
+    "calculadora de custos de educação para desenvolvedores ferramenta online gratuita",
+    "calculadora de custos de educação para desenvolvedores conversor navegador",
+    "calculadora de custos de educação para desenvolvedores sem instalação ferramenta",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "cursos de treinamento para desenvolvedores",
+    "picos de treinamento para desenvolvedores",
+    "empregos de treinamento para desenvolvedores",
+    "treinamento para desenvolvedores servicenow",
+    "treinamento de dev",
+    "treinamento para desenvolvedores salesforce",
+    "treinamento para desenvolvedores de software",
+    "custos de educação dedutíveis de impostos"
+  ],
+  "category": "Developer",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "Quais fatores esta calculadora considera?",
+      "answer": "Ela leva em conta as taxas dos cursos, materiais e o tempo gasto em treinamento."
+    },
+    {
+      "question": "É adequada para diferentes programas de treinamento?",
+      "answer": "Sim, você pode personalizá-la para várias opções de treinamento."
+    },
+    {
+      "question": "Posso salvar minhas estimativas?",
+      "answer": "Atualmente, salvar estimativas não é suportado."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-usage-tracker",
+  "name": "Dev Tool Usage Tracker",
+  "tagline": "Überwachen und analysieren Sie Ihre Nutzung von Entwicklungstools",
+  "description": "Dieses Tool hilft Entwicklern, die Zeit, die sie mit verschiedenen Entwicklungstools verbringen, zu verfolgen und bietet Einblicke in Produktivität und Effizienz. Ideal für Teams, die ihren Workflow und die Ressourcenzuteilung optimieren möchten.",
+  "metaTitle": "Dev Tool Usage Tracker – Einblicke in die Produktivität | Kostenloses Online-Tool",
+  "metaDescription": "Verfolgen Sie Ihre Nutzung von Entwicklungstools kostenlos! Erhalten Sie sofortige Ergebnisse zur Analyse der Produktivität ohne Anmeldung.",
+  "keywords": [
+    "Nutzung von Entwicklungstools",
+    "Entwicklungstools verfolgen",
+    "Entwicklerproduktivität",
+    "Nutzungsanalysen",
+    "Zeiterfassung",
+    "kostenloses Online-Tool zur Nutzung von Entwicklungstools",
+    "Entwicklungstools Tracker Konverter Browser",
+    "Entwicklungstools Tracker ohne Installation",
+    "kostenloses Entwickler-Tool",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwicklungstool",
+    "Nutzung von Entwicklerwerkzeugen",
+    "Entwicklungstool verfolgen",
+    "Entwicklungstracking-Tool",
+    "Produktivität von Entwicklern",
+    "Kennzahlen zur Entwicklerproduktivität",
+    "Werkzeuge zur Entwicklerproduktivität",
+    "Stellen für Entwicklerproduktivität",
+    "Entwicklerproduktivität mit KI"
+  ],
+  "category": "Developer",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Wie verfolgt dieses Tool die Nutzung?",
+      "answer": "Es ermöglicht Ihnen, die auf jedem Tool verbrachte Zeit manuell oder über Integrationen mit beliebten Plattformen zu protokollieren."
+    },
+    {
+      "question": "Ist die Nutzung kostenlos?",
+      "answer": "Ja, dieses Tool ist völlig kostenlos und es ist keine Anmeldung erforderlich."
+    },
+    {
+      "question": "Kann ich meine Daten exportieren?",
+      "answer": "Ja, Sie können die Nutzungsdaten in verschiedenen Formaten für Berichte exportieren."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

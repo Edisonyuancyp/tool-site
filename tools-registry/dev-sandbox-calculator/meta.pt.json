@@ -1,0 +1,51 @@
+{
+  "slug": "dev-sandbox-calculator",
+  "name": "Calculadora de Sandbox para Desenvolvimento",
+  "tagline": "Estime as necessidades de recursos para o seu ambiente de desenvolvimento",
+  "description": "Esta ferramenta auxilia desenvolvedores a estimar os recursos necessários para seu ambiente de desenvolvimento, ajudando-os a planejar suas configurações de forma eficaz. Ideal para iniciantes e equipes que estão configurando novos projetos.",
+  "metaTitle": "Calculadora de Sandbox para Desenvolvimento – Estimativa de Recursos | Ferramenta Online Gratuita",
+  "metaDescription": "Estime recursos para o seu ambiente de desenvolvimento gratuitamente! Obtenha resultados instantâneos sem necessidade de cadastro.",
+  "keywords": [
+    "ambiente de desenvolvimento",
+    "configuração de sandbox",
+    "estimativa de recursos",
+    "ferramentas para desenvolvedores",
+    "planejamento de ambiente",
+    "calculadora de sandbox para desenvolvimento ferramenta online gratuita",
+    "calculadora de sandbox para desenvolvimento conversor navegador",
+    "calculadora de sandbox para desenvolvimento ferramenta sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "significado de ambiente de desenvolvimento",
+    "ambiente de desenvolvimento vs ambiente de teste",
+    "configuração de ambiente de desenvolvimento",
+    "ícone de ambiente de desenvolvimento",
+    "ambiente de desenvolvimento azure",
+    "logotipo de ambiente de desenvolvimento",
+    "ambiente de desenvolvimento vs sandbox",
+    "significado de configuração de sandbox"
+  ],
+  "category": "Developer",
+  "icon": "🖥️",
+  "faqs": [
+    {
+      "question": "Quais recursos esta ferramenta estima?",
+      "answer": "Ela estima requisitos de CPU, memória, armazenamento e rede."
+    },
+    {
+      "question": "É personalizável para diferentes projetos?",
+      "answer": "Sim, você pode ajustar os parâmetros com base nas necessidades específicas do seu projeto."
+    },
+    {
+      "question": "Pode ajudar com configurações em nuvem?",
+      "answer": "Com certeza, ela fornece estimativas tanto para ambientes locais quanto para ambientes em nuvem."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

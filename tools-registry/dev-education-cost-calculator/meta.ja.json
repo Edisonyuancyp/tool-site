@@ -1,0 +1,51 @@
+{
+  "slug": "dev-education-cost-calculator",
+  "name": "Dev Education Cost Calculator",
+  "tagline": "開発者のトレーニングコストを見積もる",
+  "description": "このツールは、組織や個人が開発者のトレーニングおよび教育プログラムに関連するコストを見積もるのに役立ちます。チームのスキルに投資しようとする人事部門やマネージャーに最適です。",
+  "metaTitle": "Dev Education Cost Calculator – トレーニング見積もり | 無料オンラインツール",
+  "metaDescription": "開発者のトレーニングコストを無料で見積もり！サインアップ不要の即時計算。",
+  "keywords": [
+    "開発者トレーニング",
+    "教育コスト",
+    "トレーニング予算",
+    "人事ツール",
+    "開発教育",
+    "dev education cost calculator 無料オンラインツール",
+    "dev education cost calculator コンバータ ブラウザ",
+    "dev education cost calculator インストール不要の開発ツール",
+    "無料開発者ツール",
+    "オンラインユーティリティ",
+    "インストール不要",
+    "ブラウザベースの開発ツール",
+    "開発者トレーニングコース",
+    "開発者トレーニングピーク",
+    "開発者トレーニング求人",
+    "開発者トレーニング ServiceNow",
+    "dev トレーニング",
+    "Salesforce 開発者トレーニング",
+    "ソフトウェア開発者トレーニング",
+    "教育コスト 税控除対象"
+  ],
+  "category": "Developer",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "この計算機はどのような要素を考慮していますか？",
+      "answer": "コース料金、教材、トレーニングにかかる時間を考慮しています。"
+    },
+    {
+      "question": "異なるトレーニングプログラムに適していますか？",
+      "answer": "はい、さまざまなトレーニングオプションに合わせてカスタマイズできます。"
+    },
+    {
+      "question": "見積もりを保存できますか？",
+      "answer": "現在、見積もりの保存はサポートされていません。"
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

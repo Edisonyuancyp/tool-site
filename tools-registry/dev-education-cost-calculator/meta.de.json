@@ -1,0 +1,51 @@
+{
+  "slug": "dev-education-cost-calculator",
+  "name": "Dev Education Cost Calculator",
+  "tagline": "Schätzen Sie die Ausbildungskosten für Entwickler",
+  "description": "Dieses Tool hilft Organisationen und Einzelpersonen, die mit der Ausbildung und den Bildungsprogrammen von Entwicklern verbundenen Kosten zu schätzen. Perfekt für Personalabteilungen und Manager, die in die Fähigkeiten ihres Teams investieren möchten.",
+  "metaTitle": "Dev Education Cost Calculator – Ausbildungsschätzung | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie kostenlos die Ausbildungskosten für Entwickler! Sofortige Berechnungen ohne Anmeldung.",
+  "keywords": [
+    "Entwicklerausbildung",
+    "Bildungskosten",
+    "Ausbildungsbudget",
+    "HR-Tools",
+    "Entwicklungsbildung",
+    "dev education cost calculator online tool kostenlos",
+    "dev education cost calculator konverter browser",
+    "dev education cost calculator ohne installation dev tool",
+    "kostenloses Entwickler-Tool",
+    "online Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes dev tool",
+    "Entwicklerausbildungskurse",
+    "Entwicklerausbildung Spitzen",
+    "Entwicklerausbildungsjobs",
+    "Entwicklerausbildung servicenow",
+    "dev training",
+    "salesforce Entwicklerausbildung",
+    "Softwareentwickler Ausbildung",
+    "Bildungskosten steuerlich absetzbar"
+  ],
+  "category": "Developer",
+  "icon": "🎓",
+  "faqs": [
+    {
+      "question": "Welche Faktoren berücksichtigt dieser Rechner?",
+      "answer": "Er berücksichtigt Kursgebühren, Materialien und die für die Ausbildung aufgewendete Zeit."
+    },
+    {
+      "question": "Ist es für verschiedene Ausbildungsprogramme geeignet?",
+      "answer": "Ja, Sie können es für verschiedene Ausbildungsoptionen anpassen."
+    },
+    {
+      "question": "Kann ich meine Schätzungen speichern?",
+      "answer": "Derzeit wird das Speichern von Schätzungen nicht unterstützt."
+    }
+  ],
+  "relatedTools": [
+    "existing-slug-1",
+    "existing-slug-2"
+  ],
+  "variants": []
+}

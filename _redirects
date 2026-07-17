@@ -73,6 +73,9 @@
 /tools/character-counter-for-students /tools/dev/character-counter-for-students 301
 /tools/cm-to-inch /tools/converter/cm-to-inch 301
 /tools/inch-to-cm /tools/converter/inch-to-cm 301
+/tools/code-optimization-calculator /tools/dev/code-optimization-calculator 301
+/tools/javascript-optimization /tools/dev/javascript-optimization 301
+/tools/python-optimization /tools/dev/python-optimization 301
 /tools/color-palette-lab /tools/design/color-palette-lab 301
 /tools/color-palette-lab-online /tools/design/color-palette-lab-online 301
 /tools/color-palette-lab-free /tools/design/color-palette-lab-free 301
@@ -136,10 +139,16 @@
 /tools/dev-dependency-analyzer /tools/dev/dev-dependency-analyzer 301
 /tools/advanced-dependency-analysis /tools/dev/advanced-dependency-analysis 301
 /tools/basic-dependency-checker /tools/dev/basic-dependency-checker 301
+/tools/dev-education-cost-calculator /tools/dev/dev-education-cost-calculator 301
+/tools/individual-training-cost /tools/dev/individual-training-cost 301
+/tools/team-training-cost /tools/dev/team-training-cost 301
 /tools/dev-project-budget-calculator /tools/dev/dev-project-budget-calculator 301
 /tools/dev-project-budget-calculator-online /tools/dev/dev-project-budget-calculator-online 301
 /tools/dev-project-budget-calculator-javascript /tools/dev/dev-project-budget-calculator-javascript 301
 /tools/dev-project-budget-calculator-python /tools/dev/dev-project-budget-calculator-python 301
+/tools/dev-sandbox-calculator /tools/dev/dev-sandbox-calculator 301
+/tools/cloud-sandbox-calculator /tools/dev/cloud-sandbox-calculator 301
+/tools/local-sandbox-calculator /tools/dev/local-sandbox-calculator 301
 /tools/dev-security-risk-calculator /tools/dev/dev-security-risk-calculator 301
 /tools/detailed-security-assessment /tools/dev/detailed-security-assessment 301
 /tools/quick-security-check /tools/dev/quick-security-check 301
@@ -157,6 +166,9 @@
 /tools/dev-tool-performance-calculator /tools/dev/dev-tool-performance-calculator 301
 /tools/advanced-performance-calculator /tools/dev/advanced-performance-calculator 301
 /tools/basic-performance-calculator /tools/dev/basic-performance-calculator 301
+/tools/dev-tool-usage-tracker /tools/dev/dev-tool-usage-tracker 301
+/tools/team-usage-tracker /tools/dev/team-usage-tracker 301
+/tools/individual-usage-tracker /tools/dev/individual-usage-tracker 301
 /tools/diff-checker /tools/dev/diff-checker 301
 /tools/json-diff-checker /tools/dev/json-diff-checker 301
 /tools/code-diff-checker /tools/dev/code-diff-checker 301
