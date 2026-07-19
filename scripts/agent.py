@@ -467,6 +467,15 @@ def cmd_find_placeholder_tools(args: dict) -> dict:
     }
 
 
+def _extract_code(text: str) -> str:
+    """Strip markdown code fences if present."""
+    text = text.strip()
+    if text.startswith("```"):
+        parts = text.split("```")
+        text = parts[1][4:] if parts[1].startswith("tsx") else parts[1]
+    return text.strip()
+
+
 def _generate_tool_view(slug: str, name: str, description: str, category: str, old_view: str, variant: str = "") -> str:
     """Use LLM to generate a working React view.tsx for a tool."""
     prompt = f"""You are a React + TypeScript developer for getfastcalc.com.
@@ -489,7 +498,10 @@ Requirements:
 7. Use Tailwind CSS classes for styling: inputs with `w-full border rounded px-3 py-2`, buttons with `bg-blue-600 text-white rounded px-4 py-2`.
 8. Include CopyButton from `@/components/CopyButton` if showing a result text.
 9. Handle invalid inputs gracefully (non-numeric, empty, zero, negative where applicable).
-10. Output ONLY the file contents, no markdown fences, no explanations.
+10. DO NOT import external packages that are not already in package.json, except `marked` is allowed for markdown previewer.
+11. If the tool name implies markdown preview/rendering, import `marked` from the `marked` package and use `dangerouslySetInnerHTML`. Do NOT import `react-markdown`.
+12. If you need a lookup map keyed by strings (e.g. model prices), type it as `Record<string, number>` or use a `switch` statement; do not index a literal object with a string variable.
+13. Output ONLY the file contents, no markdown fences, no explanations.
 
 Original stub view.tsx (for reference only):
 ```tsx
@@ -546,7 +558,7 @@ def cmd_complete_tool(args: dict) -> dict:
     try:
         new_view = _generate_tool_view(slug, name, description, category, old_view)
         # Clean up any markdown fences the LLM might have added despite instructions
-        new_view = _extract_json(new_view) if new_view.strip().startswith("```") else new_view.strip()
+        new_view = _extract_code(new_view) if new_view.strip().startswith("```") else new_view.strip()
         if not new_view.startswith('"use client"') and not new_view.startswith("import"):
             new_view = '"use client";\n' + new_view
     except Exception as e:

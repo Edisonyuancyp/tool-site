@@ -5,12 +5,25 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function RobotsTxtGeneratorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [userAgent, setUserAgent] = useState("");
+  const [disallow, setDisallow] = useState("");
+  const [allow, setAllow] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
-  function calculate() {
-    // TODO: implement Robots.txt Generator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+  function generateRobotsTxt() {
+    let lines: string[] = [];
+    
+    if (userAgent) {
+      lines.push(`User-agent: ${userAgent}`);
+    }
+    if (disallow) {
+      lines.push(`Disallow: ${disallow}`);
+    }
+    if (allow) {
+      lines.push(`Allow: ${allow}`);
+    }
+
+    setResult(lines.join('\n') || "No rules defined.");
   }
 
   return (
@@ -23,27 +36,53 @@ export default function RobotsTxtGeneratorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          User-agent
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          value={userAgent}
+          onChange={(e) => setUserAgent(e.target.value)}
+          placeholder="Enter user-agent..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Disallow
+        </label>
+        <input
+          type="text"
+          value={disallow}
+          onChange={(e) => setDisallow(e.target.value)}
+          placeholder="Enter path to disallow..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Allow
+        </label>
+        <input
+          type="text"
+          value={allow}
+          onChange={(e) => setAllow(e.target.value)}
+          placeholder="Enter path to allow..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
-        onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        onClick={generateRobotsTxt}
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
-        Calculate
+        Generate
       </button>
 
       {result && (
         <div className="flex items-center justify-between p-5 rounded-xl border border-gray-200 bg-gray-50">
-          <p className="text-xl font-bold text-gray-900">{result}</p>
+          <pre className="text-xl font-bold text-gray-900 whitespace-pre-wrap">{result}</pre>
           <CopyButton text={result} />
         </div>
       )}
