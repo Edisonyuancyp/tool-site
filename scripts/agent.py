@@ -124,6 +124,29 @@ AGENT_TOOLS = [
         },
     },
     {
+        "name": "get_traffic_summary",
+        "description": "Read the latest GSC optimization candidates and summarize traffic performance (top impressions, CTR, low CTR pages).",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "limit": {"type": "integer", "description": "Max pages to include in summary. Default 10."},
+            },
+        },
+    },
+    {
+        "name": "optimize_tool",
+        "description": "Run a one-click optimization pass for a specific tool: generate variants, HowTo schema, and refresh keywords.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "slug": {"type": "string", "description": "Tool slug, e.g. 'bmi-calculator'"},
+                "skip_variants": {"type": "boolean", "description": "Skip variant generation. Default false."},
+                "skip_howto": {"type": "boolean", "description": "Skip HowTo schema. Default false."},
+            },
+            "required": ["slug"],
+        },
+    },
+    {
         "name": "list_tools",
         "description": "List all tools or filter by category.",
         "parameters": {
@@ -263,6 +286,59 @@ def cmd_git_commit_push(args: dict) -> dict:
     return {"status": "ok" if ok else "error", "stdout": combined, "stderr": errors}
 
 
+def cmd_get_traffic_summary(args: dict) -> dict:
+    candidates_path = ROOT / "scripts" / "seo" / "gsc_optimization_candidates.json"
+    if not candidates_path.exists():
+        return {"status": "ok", "message": "GSC 数据尚未拉取，请先运行 fetch_gsc_data。"}
+    try:
+        candidates = json.loads(candidates_path.read_text(encoding="utf-8"))
+        limit = args.get("limit", 10)
+        if not candidates:
+            return {"status": "ok", "message": "最近 7 天没有低 CTR 优化候选页面。"}
+        top = sorted(candidates, key=lambda x: int(x.get("impressions", 0)), reverse=True)[:limit]
+        summary = {
+            "total_candidates": len(candidates),
+            "top_pages": [
+                {
+                    "url": c["url"],
+                    "impressions": c.get("impressions"),
+                    "clicks": c.get("clicks"),
+                    "ctr": c.get("ctr"),
+                    "position": c.get("position"),
+                }
+                for c in top
+            ],
+        }
+        return {"status": "ok", "summary": summary}
+    except Exception as e:
+        return {"status": "error", "error": str(e)}
+
+
+def cmd_optimize_tool(args: dict) -> dict:
+    slug = args["slug"]
+    outputs = []
+    if not args.get("skip_variants"):
+        rc, out, err = run_shell(["python3", "scripts/generate-variants.py", "--slug", slug])
+        outputs.append({"step": "generate_variants", "status": "ok" if rc == 0 else "error", "stdout": out[-800:], "stderr": err[-400:]})
+    if not args.get("skip_howto"):
+        rc, out, err = run_shell(["python3", "scripts/generate-howto-schema.py", "--slug", slug])
+        outputs.append({"step": "generate_howto", "status": "ok" if rc == 0 else "error", "stdout": out[-800:], "stderr": err[-400:]})
+    # Also refresh keywords for this tool
+    meta_candidates = list((ROOT / "tools-registry").rglob(f"{slug}/meta.json"))
+    if meta_candidates:
+        try:
+            meta = json.loads(meta_candidates[0].read_text(encoding="utf-8"))
+            # ensure keywords exist
+            if not meta.get("keywords"):
+                meta["keywords"] = [slug.replace("-", " "), meta.get("name", ""), meta.get("category", "")]
+                meta_candidates[0].write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                outputs.append({"step": "refresh_keywords", "status": "ok"})
+        except Exception as e:
+            outputs.append({"step": "refresh_keywords", "status": "error", "error": str(e)})
+    any_error = any(o.get("status") == "error" for o in outputs)
+    return {"status": "error" if any_error else "ok", "outputs": outputs}
+
+
 def cmd_list_tools(args: dict) -> dict:
     registry = ROOT / "tools-registry"
     tools = []
@@ -293,6 +369,8 @@ HANDLERS = {
     "analyze_seo": cmd_analyze_seo,
     "apply_seo_suggestions": cmd_apply_seo,
     "git_commit_push": cmd_git_commit_push,
+    "get_traffic_summary": cmd_get_traffic_summary,
+    "optimize_tool": cmd_optimize_tool,
     "list_tools": cmd_list_tools,
     "respond": lambda args: {"status": "ok", "text": args["text"]},
 }
