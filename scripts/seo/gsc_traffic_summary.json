@@ -1,16 +1,28 @@
 {
-  "days": 7,
-  "total_pages": 21,
-  "total_clicks": 1,
-  "total_impressions": 32,
-  "avg_ctr_percent": 3.12,
-  "avg_position": 45.62,
+  "days": 28,
+  "total_pages": 272,
+  "total_clicks": 5,
+  "total_impressions": 2025,
+  "avg_ctr_percent": 0.25,
+  "avg_position": 56.82,
   "top_pages_by_clicks": [
     {
       "url": null,
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1
+    },
+    {
+      "url": null,
+      "clicks": 2,
+      "impressions": 57,
+      "ctr": 0.03508771929824561
+    },
+    {
+      "url": null,
       "clicks": 1,
-      "impressions": 9,
-      "ctr": 0.1111111111111111
+      "impressions": 2,
+      "ctr": 0.5
     },
     {
       "url": null,
@@ -28,6 +40,12 @@
       "url": null,
       "clicks": 0,
       "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 3,
       "ctr": 0
     },
     {
@@ -40,24 +58,6 @@
       "url": null,
       "clicks": 0,
       "impressions": 1,
-      "ctr": 0
-    },
-    {
-      "url": null,
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0
-    },
-    {
-      "url": null,
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0
-    },
-    {
-      "url": null,
-      "clicks": 0,
-      "impressions": 2,
       "ctr": 0
     },
     {
@@ -70,62 +70,62 @@
   "top_pages_by_impressions": [
     {
       "url": null,
-      "clicks": 1,
-      "impressions": 9,
-      "ctr": 0.1111111111111111
-    },
-    {
-      "url": null,
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 515,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 284,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 73,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 2,
+      "impressions": 57,
+      "ctr": 0.03508771929824561
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 51,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 35,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 33,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 29,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 27,
       "ctr": 0
     },
     {
       "url": null,
       "clicks": 0,
-      "impressions": 1,
-      "ctr": 0
-    },
-    {
-      "url": null,
-      "clicks": 0,
-      "impressions": 1,
+      "impressions": 26,
       "ctr": 0
     }
   ]

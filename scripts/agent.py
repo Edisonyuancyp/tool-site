@@ -106,8 +106,15 @@ AGENT_TOOLS = [
     },
     {
         "name": "fetch_gsc_data",
-        "description": "Fetch last 7 days of Google Search Console performance data and save both a real traffic summary and low-CTR optimization candidates.",
-        "parameters": {"type": "object", "properties": {}},
+        "description": "Fetch Google Search Console performance data and save both a real traffic summary and low-CTR optimization candidates. Can adjust days (lookback window) and candidate filters.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "days": {"type": "integer", "description": "Lookback days. Default 7. Use 28 for monthly view."},
+                "min_impressions": {"type": "integer", "description": "Minimum impressions to be considered a low-CTR candidate. Default 30."},
+                "max_ctr": {"type": "number", "description": "Maximum CTR (as decimal, e.g. 0.02) for low-CTR candidates. Default 0.01."},
+            },
+        },
     },
     {
         "name": "analyze_seo",
@@ -332,10 +339,17 @@ def cmd_run_build(_args: dict) -> dict:
     return {"status": "ok" if rc == 0 else "error", "stdout": out, "stderr": err}
 
 
-def cmd_fetch_gsc(_args: dict) -> dict:
+def cmd_fetch_gsc(args: dict) -> dict:
     venv_python = ROOT / "scripts" / "seo" / ".venv" / "bin" / "python3"
     python = str(venv_python) if venv_python.exists() else "python3"
-    rc, out, err = run_shell([python, "scripts/seo/fetch_gsc_data.py"])
+    cmd = [python, "scripts/seo/fetch_gsc_data.py"]
+    if args.get("days"):
+        cmd += ["--days", str(args["days"])]
+    if args.get("min_impressions"):
+        cmd += ["--min-impressions", str(args["min_impressions"])]
+    if args.get("max_ctr"):
+        cmd += ["--max-ctr", str(args["max_ctr"])]
+    rc, out, err = run_shell(cmd)
     return {"status": "ok" if rc == 0 else "error", "stdout": out, "stderr": err}
 
 
@@ -757,7 +771,7 @@ HANDLERS = {
     "find_placeholder_tools": cmd_find_placeholder_tools,
     "complete_tool": cmd_complete_tool,
     "list_tools": cmd_list_tools,
-    "respond": lambda args: {"status": "ok", "text": args["text"]},
+    "respond": lambda args: {"status": "ok", "text": args.get("text", "好的，我已收到。")},
 }
 
 

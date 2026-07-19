@@ -13,6 +13,7 @@ import os
 import re
 import json
 import sys
+import argparse
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
@@ -242,11 +243,17 @@ def compute_summary(rows: list[dict[str, Any]], days: int) -> dict[str, Any]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Fetch Google Search Console data and compute traffic summary.")
+    parser.add_argument("--days", type=int, default=int(os.getenv("GSC_DAYS", "7")), help="Number of days to look back (default 7)")
+    parser.add_argument("--min-impressions", type=int, default=30, help="Minimum impressions for a low-CTR candidate")
+    parser.add_argument("--max-ctr", type=float, default=0.01, help="Maximum CTR for a low-CTR candidate")
+    args = parser.parse_args()
+
     load_env()
 
     credentials_path = get_required_env("GSC_CREDENTIALS_PATH")
     site_url = get_required_env("GSC_SITE_URL")
-    days = int(os.getenv("GSC_DAYS", "7"))
+    days = args.days
 
     script_dir = Path(__file__).resolve().parent
     candidates_path = script_dir / "gsc_optimization_candidates.json"
@@ -263,8 +270,8 @@ def main() -> int:
     summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[fetch] Saved traffic summary to {summary_path}")
 
-    candidates = filter_candidates(rows, min_impressions=30, max_ctr=0.01)
-    print(f"[fetch] Found {len(candidates)} candidates (ctr<=1%, impressions>30).")
+    candidates = filter_candidates(rows, min_impressions=args.min_impressions, max_ctr=args.max_ctr)
+    print(f"[fetch] Found {len(candidates)} candidates (ctr<={args.max_ctr*100:.0f}%, impressions>={args.min_impressions}).")
 
     print("[fetch] Enriching with live title/meta description...")
     enriched = enrich_candidates(candidates)
