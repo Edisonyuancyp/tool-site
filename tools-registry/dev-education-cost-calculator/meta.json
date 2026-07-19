@@ -107,5 +107,28 @@
       "heading": "Tips for Using the Dev Education Cost Calculator Effectively",
       "body": "When using the Dev Education Cost Calculator, it’s essential to consider all potential expenses to get an accurate estimate. One common mistake is overlooking additional costs such as travel, accommodation, or materials, which can significantly impact the overall budget. Always ensure you account for these factors to avoid surprises later on.\n\nAdditionally, it’s advisable to compare different training programs and their costs. This approach allows you to find the best fit for your team’s needs while staying within budget. Lastly, keep records of your estimates and any adjustments made during the planning process. This documentation can be beneficial for future training initiatives and budget planning."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Dev Education Cost Calculator Online Free – Free Online Dev Education Cost Calculator",
+      "metaDescription": "Free online Dev Education Cost Calculator — no install required. Estimate training costs for developers for free! Instant calculations with no si",
+      "h1": "Dev Education Cost Calculator – Online Free",
+      "description": "Free online Dev Education Cost Calculator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Dev Education Cost Calculator JavaScript – Free Online Dev Education Cost Calculator",
+      "metaDescription": "Dev Education Cost Calculator reference for JavaScript developers. Estimate training costs for developers for free! Instant calculations with no si",
+      "h1": "Dev Education Cost Calculator – JavaScript",
+      "description": "Dev Education Cost Calculator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Dev Education Cost Calculator Python – Free Online Dev Education Cost Calculator",
+      "metaDescription": "Dev Education Cost Calculator reference for Python developers. Estimate training costs for developers for free! Instant calculations with no si",
+      "h1": "Dev Education Cost Calculator – Python",
+      "description": "Dev Education Cost Calculator reference for Python developers."
+    }
   ]
 }

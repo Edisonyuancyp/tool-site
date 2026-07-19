@@ -91,5 +91,21 @@
       "heading": "Practical tips for using the calculator",
       "body": "When using the Prompt Token Cost Calculator, be mindful of common mistakes that can lead to inaccurate cost estimates. One common error is not accounting for the total number of tokens in the prompt, including spaces and punctuation. Ensure that you input the entire prompt accurately to get a reliable calculation.\nAdditionally, keep in mind that different AI models have different pricing structures. Always select the correct model to avoid underestimating or overestimating your costs. Lastly, consider running multiple prompts through the calculator to find the most cost-effective options for your needs. This practice helps you optimize your prompts while staying within your token budget."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Token Cost Calculator Online Free – Free Online Prompt Token Cost Calculator",
+      "metaDescription": "Free online Prompt Token Cost Calculator — instant results, no signup. Calculate prompt token costs for various AI models. Free to use, no signup requi",
+      "h1": "Prompt Token Cost Calculator – Online Free",
+      "description": "Free online Prompt Token Cost Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Token Cost Calculator How to Use – Free Online Prompt Token Cost Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Token Cost Calculator. Calculate prompt token costs for various AI models. Free to use, no signup requi",
+      "h1": "Prompt Token Cost Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Token Cost Calculator."
+    }
   ]
 }
