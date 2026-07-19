@@ -1,0 +1,132 @@
+{
+  "days": 7,
+  "total_pages": 21,
+  "total_clicks": 1,
+  "total_impressions": 32,
+  "avg_ctr_percent": 3.12,
+  "avg_position": 45.62,
+  "top_pages_by_clicks": [
+    {
+      "url": null,
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    }
+  ],
+  "top_pages_by_impressions": [
+    {
+      "url": null,
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    },
+    {
+      "url": null,
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0
+    }
+  ]
+}

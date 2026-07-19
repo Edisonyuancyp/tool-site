@@ -69,6 +69,12 @@ def authenticate_gsc_service(credentials_path: str) -> Any:
     OAuth tokens are cached so you only need to authorize once.
     """
     creds_path = Path(credentials_path)
+    # If the path is relative and does not exist from cwd, try resolving it relative to this script.
+    script_dir = Path(__file__).resolve().parent
+    if not creds_path.is_absolute() and not creds_path.exists():
+        alt_path = script_dir / creds_path
+        if alt_path.exists():
+            creds_path = alt_path
     if not creds_path.exists():
         raise FileNotFoundError(
             f"Credentials file not found: {credentials_path}\n"
@@ -207,6 +213,34 @@ def enrich_candidates(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return enriched
 
 
+def compute_summary(rows: list[dict[str, Any]], days: int) -> dict[str, Any]:
+    """Compute aggregate traffic summary from raw GSC rows."""
+    total_clicks = sum(r.get("clicks", 0) for r in rows)
+    total_impressions = sum(r.get("impressions", 0) for r in rows)
+    avg_ctr = (total_clicks / total_impressions * 100) if total_impressions else 0
+    avg_position = sum(r.get("position", 0) * r.get("impressions", 0) for r in rows) / total_impressions if total_impressions else 0
+
+    sorted_by_clicks = sorted(rows, key=lambda x: x.get("clicks", 0), reverse=True)[:10]
+    sorted_by_impressions = sorted(rows, key=lambda x: x.get("impressions", 0), reverse=True)[:10]
+
+    return {
+        "days": days,
+        "total_pages": len(rows),
+        "total_clicks": int(total_clicks),
+        "total_impressions": int(total_impressions),
+        "avg_ctr_percent": round(avg_ctr, 2),
+        "avg_position": round(avg_position, 2),
+        "top_pages_by_clicks": [
+            {"url": r.get("url"), "clicks": r.get("clicks", 0), "impressions": r.get("impressions", 0), "ctr": r.get("ctr", 0)}
+            for r in sorted_by_clicks
+        ],
+        "top_pages_by_impressions": [
+            {"url": r.get("url"), "clicks": r.get("clicks", 0), "impressions": r.get("impressions", 0), "ctr": r.get("ctr", 0)}
+            for r in sorted_by_impressions
+        ],
+    }
+
+
 def main() -> int:
     load_env()
 
@@ -214,7 +248,9 @@ def main() -> int:
     site_url = get_required_env("GSC_SITE_URL")
     days = int(os.getenv("GSC_DAYS", "7"))
 
-    output_path = Path(__file__).resolve().parent / "gsc_optimization_candidates.json"
+    script_dir = Path(__file__).resolve().parent
+    candidates_path = script_dir / "gsc_optimization_candidates.json"
+    summary_path = script_dir / "gsc_traffic_summary.json"
 
     print(f"[fetch] Authenticating GSC API for {site_url}...")
     service = authenticate_gsc_service(credentials_path)
@@ -223,14 +259,18 @@ def main() -> int:
     rows = fetch_gsc_data(service, site_url, days=days)
     print(f"[fetch] Got {len(rows)} page rows from GSC.")
 
+    summary = compute_summary(rows, days)
+    summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"[fetch] Saved traffic summary to {summary_path}")
+
     candidates = filter_candidates(rows, min_impressions=30, max_ctr=0.01)
     print(f"[fetch] Found {len(candidates)} candidates (ctr<=1%, impressions>30).")
 
     print("[fetch] Enriching with live title/meta description...")
     enriched = enrich_candidates(candidates)
 
-    output_path.write_text(json.dumps(enriched, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"[fetch] Saved {len(enriched)} candidates to {output_path}")
+    candidates_path.write_text(json.dumps(enriched, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"[fetch] Saved {len(enriched)} candidates to {candidates_path}")
     return 0
 
 

@@ -94,7 +94,7 @@ AGENT_TOOLS = [
     },
     {
         "name": "fetch_gsc_data",
-        "description": "Fetch last 7 days of Google Search Console performance data.",
+        "description": "Fetch last 7 days of Google Search Console performance data and save both a real traffic summary and low-CTR optimization candidates.",
         "parameters": {"type": "object", "properties": {}},
     },
     {
@@ -125,7 +125,7 @@ AGENT_TOOLS = [
     },
     {
         "name": "get_traffic_summary",
-        "description": "Read the latest GSC optimization candidates and summarize traffic performance (top impressions, CTR, low CTR pages).",
+        "description": "Return the real traffic summary from Google Search Console: total clicks, impressions, avg CTR, avg position, and top pages. Not the low-CTR candidate list.",
         "parameters": {
             "type": "object",
             "properties": {
@@ -309,29 +309,39 @@ def cmd_git_commit_push(args: dict) -> dict:
 
 
 def cmd_get_traffic_summary(args: dict) -> dict:
+    summary_path = ROOT / "scripts" / "seo" / "gsc_traffic_summary.json"
     candidates_path = ROOT / "scripts" / "seo" / "gsc_optimization_candidates.json"
-    if not candidates_path.exists():
-        return {"status": "ok", "message": "GSC 数据尚未拉取，请先运行 fetch_gsc_data。"}
+
+    # If no summary exists, try to fetch fresh data first
+    if not summary_path.exists():
+        fetch_result = cmd_fetch_gsc({})
+        if fetch_result.get("status") != "ok":
+            return {"status": "error", "error": "GSC 数据尚未拉取且自动拉取失败。请检查 GSC_CREDENTIALS_PATH 和 GSC_SITE_URL。"}
+
+    if not summary_path.exists():
+        return {"status": "error", "error": "无法生成流量摘要。"}
+
     try:
-        candidates = json.loads(candidates_path.read_text(encoding="utf-8"))
-        limit = args.get("limit", 10)
-        if not candidates:
-            return {"status": "ok", "message": "最近 7 天没有低 CTR 优化候选页面。"}
-        top = sorted(candidates, key=lambda x: int(x.get("impressions", 0)), reverse=True)[:limit]
-        summary = {
-            "total_candidates": len(candidates),
-            "top_pages": [
-                {
-                    "url": c["url"],
-                    "impressions": c.get("impressions"),
-                    "clicks": c.get("clicks"),
-                    "ctr": c.get("ctr"),
-                    "position": c.get("position"),
-                }
-                for c in top
-            ],
+        summary = json.loads(summary_path.read_text(encoding="utf-8"))
+        candidates = []
+        if candidates_path.exists():
+            candidates = json.loads(candidates_path.read_text(encoding="utf-8"))
+
+        return {
+            "status": "ok",
+            "summary": {
+                "days": summary.get("days", 7),
+                "total_pages": summary.get("total_pages", 0),
+                "total_clicks": summary.get("total_clicks", 0),
+                "total_impressions": summary.get("total_impressions", 0),
+                "avg_ctr_percent": summary.get("avg_ctr_percent", 0),
+                "avg_position": summary.get("avg_position", 0),
+                "optimization_candidates": len(candidates),
+            },
+            "top_pages_by_clicks": summary.get("top_pages_by_clicks", [])[:10],
+            "top_pages_by_impressions": summary.get("top_pages_by_impressions", [])[:10],
+            "note": "GSC 数据来自 Google Search Console，已排除您自己的浏览记录。",
         }
-        return {"status": "ok", "summary": summary}
     except Exception as e:
         return {"status": "error", "error": str(e)}
 
@@ -646,6 +656,7 @@ Rules:
 - For vague requests, ask a clarification question using the "respond" function.
 - For category names, use the canonical English names provided in the tools schema.
 - The user's input may be in Chinese, but the function name and argument keys must always be in English as defined above.
+- Traffic queries: "get_traffic_summary" returns real traffic summary (clicks, impressions, avg CTR, top pages). If the user asks for low-CTR/optimization candidate pages, use "analyze_seo" or "fetch_gsc_data" instead.
 """
 
 
