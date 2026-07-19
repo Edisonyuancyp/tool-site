@@ -5,12 +5,24 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function ApiResponseTimeCalculatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [requestTime, setRequestTime] = useState<string>("");
+  const [responseTime, setResponseTime] = useState<string>("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement API Response Time Calculator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const reqTime = parseFloat(requestTime);
+    const resTime = parseFloat(responseTime);
+
+    if (isNaN(reqTime) || isNaN(resTime) || reqTime <= 0 || resTime <= 0) {
+      setResult("Please enter valid positive numbers for both request and response times.");
+      return;
+    }
+
+    const average = (reqTime + resTime) / 2;
+    const best = Math.min(reqTime, resTime);
+    const worst = Math.max(reqTime, resTime);
+
+    setResult(`Average: ${average.toFixed(2)} ms, Best: ${best.toFixed(2)} ms, Worst: ${worst.toFixed(2)} ms`);
   }
 
   return (
@@ -23,20 +35,33 @@ export default function ApiResponseTimeCalculatorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Request Time (ms)
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          value={requestTime}
+          onChange={(e) => setRequestTime(e.target.value)}
+          placeholder="Enter request time..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Response Time (ms)
+        </label>
+        <input
+          type="text"
+          value={responseTime}
+          onChange={(e) => setResponseTime(e.target.value)}
+          placeholder="Enter response time..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

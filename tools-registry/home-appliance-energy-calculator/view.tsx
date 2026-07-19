@@ -5,12 +5,25 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function HomeApplianceEnergyCalculatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [power, setPower] = useState<string>("");
+  const [hours, setHours] = useState<string>("");
+  const [costPerKWh, setCostPerKWh] = useState<string>("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Home Appliance Energy Calculator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const powerNum = parseFloat(power);
+    const hoursNum = parseFloat(hours);
+    const costNum = parseFloat(costPerKWh);
+
+    if (isNaN(powerNum) || isNaN(hoursNum) || isNaN(costNum) || powerNum <= 0 || hoursNum <= 0 || costNum <= 0) {
+      setResult("Please enter valid positive numbers for power, hours, and cost per kWh.");
+      return;
+    }
+
+    const energyConsumed = (powerNum * hoursNum) / 1000; // Convert watts to kilowatts
+    const totalCost = energyConsumed * costNum;
+
+    setResult(`Energy consumed: ${energyConsumed.toFixed(2)} kWh, Total cost: $${totalCost.toFixed(2)}`);
   }
 
   return (
@@ -23,20 +36,46 @@ export default function HomeApplianceEnergyCalculatorView({ variant }: ToolProps
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Power (W)
         </label>
         <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          type="number"
+          value={power}
+          onChange={(e) => setPower(e.target.value)}
+          placeholder="Enter power in watts..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Usage Hours
+        </label>
+        <input
+          type="number"
+          value={hours}
+          onChange={(e) => setHours(e.target.value)}
+          placeholder="Enter usage hours..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Cost per kWh ($)
+        </label>
+        <input
+          type="number"
+          value={costPerKWh}
+          onChange={(e) => setCostPerKWh(e.target.value)}
+          placeholder="Enter cost per kWh..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

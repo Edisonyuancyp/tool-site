@@ -1,15 +1,25 @@
 "use client";
 import { useState } from "react";
+import CopyButton from "@/components/CopyButton";
 
 export interface ToolProps { variant?: string; }
 
 export default function DailyGoalTrackerView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [goal, setGoal] = useState("");
+  const [achieved, setAchieved] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    if (!input.trim()) return;
-    setResult(`Result for: ${input}`);
+    const goalNum = parseFloat(goal);
+    const achievedNum = parseFloat(achieved);
+
+    if (isNaN(goalNum) || isNaN(achievedNum) || goalNum <= 0) {
+      setResult("Please enter valid positive numbers for goal and achieved.");
+      return;
+    }
+
+    const progress = (achievedNum / goalNum) * 100;
+    setResult(`You've achieved ${progress.toFixed(2)}% of your daily goal.`);
   }
 
   return (
@@ -19,26 +29,40 @@ export default function DailyGoalTrackerView({ variant }: ToolProps) {
       )}
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Daily Goal
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
+          value={goal}
+          onChange={(e) => setGoal(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && calculate()}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400"
+          placeholder="Enter your daily goal..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Achieved
+        </label>
+        <input
+          type="text"
+          value={achieved}
+          onChange={(e) => setAchieved(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && calculate()}
+          placeholder="Enter how much you've achieved..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
       <button
         onClick={calculate}
-        className="px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>
       {result && (
         <div className="p-5 rounded-xl border border-gray-200 bg-gray-50">
           <p className="text-xl font-bold text-gray-900">{result}</p>
+          <CopyButton text={result} />
         </div>
       )}
     </div>

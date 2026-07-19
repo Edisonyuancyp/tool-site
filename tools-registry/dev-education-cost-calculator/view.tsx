@@ -5,12 +5,21 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function DevEducationCostCalculatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [hourlyRate, setHourlyRate] = useState("");
+  const [hours, setHours] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Dev Education Cost Calculator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const rate = parseFloat(hourlyRate);
+    const hoursValue = parseFloat(hours);
+    
+    if (isNaN(rate) || isNaN(hoursValue) || rate <= 0 || hoursValue <= 0) {
+      setResult("Please enter valid positive numbers for hourly rate and hours.");
+      return;
+    }
+
+    const totalCost = rate * hoursValue;
+    setResult(`Estimated total cost for training: $${totalCost.toFixed(2)}`);
   }
 
   return (
@@ -23,20 +32,33 @@ export default function DevEducationCostCalculatorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Hourly Rate ($)
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          value={hourlyRate}
+          onChange={(e) => setHourlyRate(e.target.value)}
+          placeholder="Enter hourly rate..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Hours of Training
+        </label>
+        <input
+          type="text"
+          value={hours}
+          onChange={(e) => setHours(e.target.value)}
+          placeholder="Enter number of hours..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

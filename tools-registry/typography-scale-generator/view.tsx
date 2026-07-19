@@ -5,12 +5,20 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function TypographyScaleGeneratorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [baseSize, setBaseSize] = useState<string>("");
+  const [ratio, setRatio] = useState<string>("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Typography Scale Generator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const base = parseFloat(baseSize);
+    const ratioValue = parseFloat(ratio);
+    if (isNaN(base) || isNaN(ratioValue) || base <= 0 || ratioValue <= 1) {
+      setResult("Please enter valid base size and ratio values.");
+      return;
+    }
+
+    const scale = Array.from({ length: 8 }, (_, i) => (base * Math.pow(ratioValue, i)).toFixed(2));
+    setResult(scale.join(", "));
   }
 
   return (
@@ -23,20 +31,33 @@ export default function TypographyScaleGeneratorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Base Size (px)
         </label>
         <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          type="number"
+          value={baseSize}
+          onChange={(e) => setBaseSize(e.target.value)}
+          placeholder="Enter base size..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Ratio
+        </label>
+        <input
+          type="number"
+          value={ratio}
+          onChange={(e) => setRatio(e.target.value)}
+          placeholder="Enter ratio..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

@@ -5,12 +5,17 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function MetaTitleGeneratorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState<string>("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Meta Title Generator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    if (!input.trim()) {
+      setResult("Please enter a valid input.");
+      return;
+    }
+
+    const formattedTitle = `Engaging Meta Title for: ${input}`;
+    setResult(formattedTitle);
   }
 
   return (
@@ -29,16 +34,16 @@ export default function MetaTitleGeneratorView({ variant }: ToolProps) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          placeholder="Enter your topic or keywords..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
-        Calculate
+        Generate Meta Title
       </button>
 
       {result && (

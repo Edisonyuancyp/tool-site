@@ -5,12 +5,21 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function DevToolEfficiencyCalculatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [timeBefore, setTimeBefore] = useState<string>("");
+  const [timeAfter, setTimeAfter] = useState<string>("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Dev Tool Efficiency Calculator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const timeBeforeNum = parseFloat(timeBefore);
+    const timeAfterNum = parseFloat(timeAfter);
+
+    if (isNaN(timeBeforeNum) || isNaN(timeAfterNum) || timeBeforeNum <= 0 || timeAfterNum < 0) {
+      setResult("Please enter valid positive numbers for time.");
+      return;
+    }
+
+    const efficiency = ((timeBeforeNum - timeAfterNum) / timeBeforeNum) * 100;
+    setResult(`Efficiency Improvement: ${efficiency.toFixed(2)}%`);
   }
 
   return (
@@ -23,20 +32,33 @@ export default function DevToolEfficiencyCalculatorView({ variant }: ToolProps) 
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Time Spent Before Tool (in hours)
         </label>
         <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          type="number"
+          value={timeBefore}
+          onChange={(e) => setTimeBefore(e.target.value)}
+          placeholder="Enter time in hours..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Time Spent After Tool (in hours)
+        </label>
+        <input
+          type="number"
+          value={timeAfter}
+          onChange={(e) => setTimeAfter(e.target.value)}
+          placeholder="Enter time in hours..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

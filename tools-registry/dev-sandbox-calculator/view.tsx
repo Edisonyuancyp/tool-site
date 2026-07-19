@@ -5,12 +5,21 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function DevSandboxCalculatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [numDevelopers, setNumDevelopers] = useState("");
+  const [devHours, setDevHours] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Dev Sandbox Calculator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const developers = parseFloat(numDevelopers);
+    const hours = parseFloat(devHours);
+
+    if (isNaN(developers) || isNaN(hours) || developers <= 0 || hours <= 0) {
+      setResult("Please enter valid positive numbers for developers and hours.");
+      return;
+    }
+
+    const totalHours = developers * hours;
+    setResult(`Estimated total development hours: ${totalHours}`);
   }
 
   return (
@@ -23,20 +32,33 @@ export default function DevSandboxCalculatorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Number of Developers
         </label>
         <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          type="number"
+          value={numDevelopers}
+          onChange={(e) => setNumDevelopers(e.target.value)}
+          placeholder="Enter number of developers..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Development Hours per Developer
+        </label>
+        <input
+          type="number"
+          value={devHours}
+          onChange={(e) => setDevHours(e.target.value)}
+          placeholder="Enter hours per developer..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

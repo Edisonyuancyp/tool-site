@@ -6,37 +6,60 @@ export interface ToolProps { variant?: string; }
 
 export default function KeywordDensityAnalyzerView({ variant }: ToolProps) {
   const [input, setInput] = useState("");
+  const [keyword, setKeyword] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Keyword Density Analyzer logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const text = input.trim();
+    const keywordToCheck = keyword.trim();
+    if (!text || !keywordToCheck || text.length === 0 || keywordToCheck.length === 0) {
+      setResult("Please enter both text and keyword.");
+      return;
+    }
+
+    const totalWords = text.split(/\s+/).length;
+    const keywordCount = text.split(new RegExp(`\\b${keywordToCheck}\\b`, 'gi')).length - 1;
+
+    if (totalWords === 0) {
+      setResult("The input text contains no words.");
+      return;
+    }
+
+    const density = ((keywordCount / totalWords) * 100).toFixed(2);
+    setResult(`Keyword Density: ${density}% (${keywordCount} occurrences of "${keywordToCheck}" in ${totalWords} words)`);
   }
 
   return (
     <div className="space-y-6">
       {variant && (
-        <p className="text-sm text-blue-600 font-medium">
-          Mode: {variant}
-        </p>
+        <p className="text-sm text-blue-600 font-medium">Mode: {variant}</p>
       )}
 
       <div>
-        <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
-        </label>
-        <input
-          type="text"
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">Input Text</label>
+        <textarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          placeholder="Enter your content here..."
+          className="w-full border rounded px-3 py-2"
+          rows={5}
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">Keyword</label>
+        <input
+          type="text"
+          value={keyword}
+          onChange={(e) => setKeyword(e.target.value)}
+          placeholder="Enter keyword..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

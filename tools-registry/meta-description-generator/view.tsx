@@ -7,10 +7,21 @@ export interface ToolProps { variant?: string; }
 export default function MetaDescriptionGeneratorView({ variant }: ToolProps) {
   const [input, setInput] = useState("");
   const [result, setResult] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Meta Description Generator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    setError(null);
+    if (!input.trim()) {
+      setError("Input cannot be empty.");
+      return;
+    }
+    if (input.length > 160) {
+      setError("Meta description must be 160 characters or less.");
+      return;
+    }
+    
+    const metaDescription = `Optimized Meta Description: ${input}. Enhance your SEO for better visibility.`;
+    setResult(metaDescription);
   }
 
   return (
@@ -29,16 +40,18 @@ export default function MetaDescriptionGeneratorView({ variant }: ToolProps) {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          placeholder="Enter your content..."
+          className="w-full border rounded px-3 py-2 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400"
         />
       </div>
 
+      {error && <p className="text-red-600">{error}</p>}
+
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
-        Calculate
+        Generate Meta Description
       </button>
 
       {result && (

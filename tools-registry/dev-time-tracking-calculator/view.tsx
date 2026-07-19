@@ -5,12 +5,20 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function DevTimeTrackingCalculatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [taskDescription, setTaskDescription] = useState("");
+  const [timeSpent, setTimeSpent] = useState<string>("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Dev Time Tracking Calculator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const time = parseFloat(timeSpent);
+    
+    if (isNaN(time) || time <= 0) {
+      setResult("Please enter a valid time spent greater than zero.");
+      return;
+    }
+
+    const productivity = time > 4 ? "High" : time > 2 ? "Medium" : "Low";
+    setResult(`Task: ${taskDescription}, Time Spent: ${time} hours, Productivity: ${productivity}`);
   }
 
   return (
@@ -23,20 +31,33 @@ export default function DevTimeTrackingCalculatorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Task Description
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          value={taskDescription}
+          onChange={(e) => setTaskDescription(e.target.value)}
+          placeholder="Enter task description..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Time Spent (hours)
+        </label>
+        <input
+          type="text"
+          value={timeSpent}
+          onChange={(e) => setTimeSpent(e.target.value)}
+          placeholder="Enter time spent..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

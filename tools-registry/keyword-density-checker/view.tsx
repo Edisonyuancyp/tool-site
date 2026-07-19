@@ -6,11 +6,27 @@ export interface ToolProps { variant?: string; }
 
 export default function KeywordDensityCheckerView({ variant }: ToolProps) {
   const [input, setInput] = useState("");
+  const [keyword, setKeyword] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Keyword Density Checker logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    if (!input || !keyword) {
+      setResult("Please provide both content and keyword.");
+      return;
+    }
+
+    const content = input.toLowerCase();
+    const keywordLower = keyword.toLowerCase();
+    const keywordCount = content.split(keywordLower).length - 1;
+    const totalWords = content.split(/\s+/).filter(Boolean).length;
+
+    if (totalWords === 0) {
+      setResult("Content should contain words.");
+      return;
+    }
+
+    const density = ((keywordCount / totalWords) * 100).toFixed(2);
+    setResult(`Keyword Density: ${density}% (${keywordCount} occurrences in ${totalWords} words)`);
   }
 
   return (
@@ -23,20 +39,32 @@ export default function KeywordDensityCheckerView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Content
+        </label>
+        <textarea
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          placeholder="Enter your content here..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Keyword
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          value={keyword}
+          onChange={(e) => setKeyword(e.target.value)}
+          placeholder="Enter keyword..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

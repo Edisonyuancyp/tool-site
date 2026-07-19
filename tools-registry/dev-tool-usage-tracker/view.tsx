@@ -5,12 +5,18 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function DevToolUsageTrackerView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [toolName, setToolName] = useState("");
+  const [timeSpent, setTimeSpent] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Dev Tool Usage Tracker logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    const time = parseFloat(timeSpent);
+    if (!toolName || isNaN(time) || time <= 0) {
+      setResult("Please enter a valid tool name and a positive time spent.");
+      return;
+    }
+    const efficiencyScore = (time > 8 ? 8 : time) * 10; // Example logic for efficiency score
+    setResult(`Efficiency score for ${toolName}: ${efficiencyScore}`);
   }
 
   return (
@@ -23,20 +29,33 @@ export default function DevToolUsageTrackerView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Tool Name
         </label>
         <input
           type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          value={toolName}
+          onChange={(e) => setToolName(e.target.value)}
+          placeholder="Enter tool name..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Time Spent (hours)
+        </label>
+        <input
+          type="number"
+          value={timeSpent}
+          onChange={(e) => setTimeSpent(e.target.value)}
+          placeholder="Enter time spent..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

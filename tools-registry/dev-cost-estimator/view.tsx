@@ -5,12 +5,17 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function DevCostEstimatorView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [hours, setHours] = useState<number | "">("");
+  const [rate, setRate] = useState<number | "">("");
   const [result, setResult] = useState<string | null>(null);
 
   function calculate() {
-    // TODO: implement Dev Cost Estimator logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+    if (typeof hours !== "number" || typeof rate !== "number" || hours <= 0 || rate <= 0) {
+      setResult("Please enter valid positive numbers for hours and rate.");
+      return;
+    }
+    const totalCost = hours * rate;
+    setResult(`Estimated Development Cost: $${totalCost.toFixed(2)}`);
   }
 
   return (
@@ -23,20 +28,33 @@ export default function DevCostEstimatorView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Estimated Hours
         </label>
         <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
+          type="number"
+          value={hours}
+          onChange={(e) => setHours(e.target.value ? parseFloat(e.target.value) : "")}
+          placeholder="Enter estimated hours..."
+          className="w-full border rounded px-3 py-2"
+        />
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Hourly Rate ($)
+        </label>
+        <input
+          type="number"
+          value={rate}
+          onChange={(e) => setRate(e.target.value ? parseFloat(e.target.value) : "")}
+          placeholder="Enter hourly rate..."
+          className="w-full border rounded px-3 py-2"
         />
       </div>
 
       <button
         onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
         Calculate
       </button>

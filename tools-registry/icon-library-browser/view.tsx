@@ -5,12 +5,23 @@ import CopyButton from "@/components/CopyButton";
 export interface ToolProps { variant?: string; }
 
 export default function IconLibraryBrowserView({ variant }: ToolProps) {
-  const [input, setInput] = useState("");
+  const [category, setCategory] = useState("");
+  const [style, setStyle] = useState("");
+  const [usage, setUsage] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
-  function calculate() {
-    // TODO: implement Icon Library Browser logic
-    setResult(`Result for: ${input} (variant: ${variant ?? "default"})`);
+  const categories = ["All", "Animals", "Food", "Technology", "Nature"];
+  const styles = ["Outline", "Filled", "Two-tone"];
+  const usages = ["Web", "Mobile", "Print"];
+
+  function filterIcons() {
+    if (!category && !style && !usage) {
+      setResult("Please select at least one filter.");
+      return;
+    }
+
+    const filterResult = `Icons filtered by: ${category || "All"}, ${style || "Any"}, ${usage || "Any"}`;
+    setResult(filterResult);
   }
 
   return (
@@ -23,22 +34,60 @@ export default function IconLibraryBrowserView({ variant }: ToolProps) {
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1.5">
-          Input
+          Category
         </label>
-        <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter value..."
-          className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-gray-900 placeholder-gray-300 focus:outline-none focus:border-gray-400 text-base"
-        />
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="w-full border rounded px-3 py-2"
+        >
+          {categories.map((cat) => (
+            <option key={cat} value={cat}>
+              {cat}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Style
+        </label>
+        <select
+          value={style}
+          onChange={(e) => setStyle(e.target.value)}
+          className="w-full border rounded px-3 py-2"
+        >
+          {styles.map((sty) => (
+            <option key={sty} value={sty}>
+              {sty}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1.5">
+          Usage
+        </label>
+        <select
+          value={usage}
+          onChange={(e) => setUsage(e.target.value)}
+          className="w-full border rounded px-3 py-2"
+        >
+          {usages.map((use) => (
+            <option key={use} value={use}>
+              {use}
+            </option>
+          ))}
+        </select>
       </div>
 
       <button
-        onClick={calculate}
-        className="w-full sm:w-auto px-8 py-3 bg-gray-900 text-white font-medium rounded-lg hover:bg-black transition-colors"
+        onClick={filterIcons}
+        className="bg-blue-600 text-white rounded px-4 py-2"
       >
-        Calculate
+        Filter Icons
       </button>
 
       {result && (
