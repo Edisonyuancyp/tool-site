@@ -312,6 +312,7 @@ Rules:
 - Prefer atomic actions: e.g. "build and push" should call run_build then git_commit_push.
 - For vague requests, ask a clarification question using the "respond" function.
 - For category names, use the canonical English names provided in the tools schema.
+- The user's input may be in Chinese, but the function name and argument keys must always be in English as defined above.
 """
 
 
@@ -349,17 +350,25 @@ def execute_plan(plan: list[dict]) -> list[dict]:
     return results
 
 
+def _detect_language(text: str) -> str:
+    """Simple heuristic: Chinese if CJK chars present, otherwise English."""
+    if any("\u4e00" <= ch <= "\u9fff" for ch in text):
+        return "Chinese"
+    return "English"
+
+
 def summarize_results(user_input: str, results: list[dict]) -> str:
+    lang = _detect_language(user_input)
     summary_prompt = (
         f"The user asked: '{user_input}'.\n"
-        f"The system executed these actions and got raw results:\n{json.dumps(results, ensure_ascii=False, indent=2)[:3000]}\n"
-        "Please summarize in 2–4 short bullet points in the same language as the user's request. "
-        "Mention what was done and any errors or next steps."
+        f"The system executed these actions and got raw results:\n{json.dumps(results, ensure_ascii=False, indent=2)[:3000]}\n\n"
+        f"Important: respond in {lang}, matching the language of the user's request. "
+        "Use 2–4 short bullet points. Mention what was done and any errors or next steps."
     )
     try:
         client = LLMClient()
         return client.chat_completion(
-            system="You summarize system execution results for the user.",
+            system=f"You summarize system execution results for the user. Always respond in {lang}.",
             messages=[{"role": "user", "content": summary_prompt}],
             max_tokens=500,
         )
