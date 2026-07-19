@@ -167,6 +167,18 @@ AGENT_TOOLS = [
         },
     },
     {
+        "name": "complete_tool",
+        "description": "Generate and write a real working view.tsx for a stub tool that lacks substantive functionality. Backs up the original file.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "slug": {"type": "string", "description": "Tool slug, e.g. 'celsius-to-fahrenheit-converter'"},
+                "dry_run": {"type": "boolean", "description": "If true, only preview the generated code without writing. Default false."},
+            },
+            "required": ["slug"],
+        },
+    },
+    {
         "name": "respond",
         "description": "Send a plain text response to the user. Use when no action is needed or to ask clarification.",
         "parameters": {
@@ -402,10 +414,11 @@ def _score_placeholder(content: str) -> tuple[int, list[str]]:
             reasons.append("结果疑似硬编码")
             break
 
-    # Wrapper importing a real calculator component from @/components/tools — likely NOT a stub
-    if "@/components/tools/" in content:
-        score -= 35
-        reasons.append("从 @/components/tools 导入真实组件（视为包装器）")
+    # Wrapper importing a real calculator/converter component from @/components/* — likely NOT a stub
+    # (CopyButton is just a utility, not a real component wrapper)
+    if "@/components/" in content and "@/components/CopyButton" not in content:
+        score -= 45
+        reasons.append("从 @/components 导入真实共享组件（视为包装器）")
 
     # No input handling
     if "onChange" not in content and "onInput" not in content and "useState" not in content:
@@ -454,6 +467,119 @@ def cmd_find_placeholder_tools(args: dict) -> dict:
     }
 
 
+def _generate_tool_view(slug: str, name: str, description: str, category: str, old_view: str, variant: str = "") -> str:
+    """Use LLM to generate a working React view.tsx for a tool."""
+    prompt = f"""You are a React + TypeScript developer for getfastcalc.com.
+Generate a complete, working `view.tsx` file for this tool.
+
+Tool metadata:
+- slug: {slug}
+- name: {name}
+- category: {category}
+- description: {description}
+- variant: {variant or "none"}
+
+Requirements:
+1. The component must be a React functional component exported as default.
+2. Use "use client" at the top.
+3. Use `export interface ToolProps {{ variant?: string; }}`.
+4. Use `useState` for inputs and result.
+5. Implement the actual calculation logic based on the tool name/description.
+6. Provide input controls (text inputs, selects, buttons) and a "Calculate" or live result.
+7. Use Tailwind CSS classes for styling: inputs with `w-full border rounded px-3 py-2`, buttons with `bg-blue-600 text-white rounded px-4 py-2`.
+8. Include CopyButton from `@/components/CopyButton` if showing a result text.
+9. Handle invalid inputs gracefully (non-numeric, empty, zero, negative where applicable).
+10. Output ONLY the file contents, no markdown fences, no explanations.
+
+Original stub view.tsx (for reference only):
+```tsx
+{old_view}
+```
+
+Generate the new view.tsx now.
+"""
+    client = LLMClient()
+    return client.chat_completion(
+        system="You generate TypeScript React components for online calculators. Output only code, no markdown.",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=3000,
+    )
+
+
+def cmd_complete_tool(args: dict) -> dict:
+    slug = args["slug"]
+    dry_run = args.get("dry_run", False)
+    registry = ROOT / "tools-registry"
+    candidates = list(registry.rglob(f"{slug}/meta.json"))
+    if not candidates:
+        return {"status": "error", "error": f"Tool slug not found: {slug}"}
+    meta_path = candidates[0]
+    view_path = meta_path.parent / "view.tsx"
+    if not view_path.exists():
+        return {"status": "error", "error": f"view.tsx missing for {slug}"}
+
+    try:
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        old_view = view_path.read_text(encoding="utf-8")
+    except Exception as e:
+        return {"status": "error", "error": f"Failed to read files: {e}"}
+
+    name = meta.get("name", slug)
+    description = meta.get("description", "")
+    category = meta.get("category", "")
+
+    # If the view is just a wrapper around a real component, don't overwrite it.
+    if "@/components/tools/" in old_view:
+        return {
+            "status": "error",
+            "error": f"{slug} view.tsx is a wrapper that imports from @/components/tools/. The real logic is in that shared component, not in view.tsx.",
+        }
+
+    # Check if it already looks substantive
+    score, _ = _score_placeholder(old_view)
+    if score < 25:
+        return {
+            "status": "error",
+            "error": f"{slug} already appears to have substantive functionality (placeholder score {score}). Aborting to avoid overwriting real code.",
+        }
+
+    try:
+        new_view = _generate_tool_view(slug, name, description, category, old_view)
+        # Clean up any markdown fences the LLM might have added despite instructions
+        new_view = _extract_json(new_view) if new_view.strip().startswith("```") else new_view.strip()
+        if not new_view.startswith('"use client"') and not new_view.startswith("import"):
+            new_view = '"use client";\n' + new_view
+    except Exception as e:
+        return {"status": "error", "error": f"LLM generation failed: {e}"}
+
+    if dry_run:
+        return {"status": "ok", "preview": new_view[:1500], "message": "Dry run - no file written."}
+
+    # Backup original
+    backup_path = view_path.with_suffix(".tsx.bak")
+    try:
+        backup_path.write_text(old_view, encoding="utf-8")
+        view_path.write_text(new_view + "\n", encoding="utf-8")
+    except Exception as e:
+        return {"status": "error", "error": f"Failed to write files: {e}"}
+
+    # Type check
+    rc, out, err = run_shell(["npx", "tsc", "--noEmit"])
+    if rc != 0:
+        # Restore backup on type-check failure
+        view_path.write_text(old_view, encoding="utf-8")
+        return {
+            "status": "error",
+            "error": f"TypeScript check failed. Original restored from backup.\n{err[-1500:]}\n{out[-800:]}",
+        }
+
+    return {
+        "status": "ok",
+        "message": f"Generated and wrote new view.tsx for {slug}. Backup saved to {backup_path.name}.",
+        "lines": len(new_view.splitlines()),
+    }
+
+
 def cmd_list_tools(args: dict) -> dict:
     registry = ROOT / "tools-registry"
     tools = []
@@ -487,6 +613,7 @@ HANDLERS = {
     "get_traffic_summary": cmd_get_traffic_summary,
     "optimize_tool": cmd_optimize_tool,
     "find_placeholder_tools": cmd_find_placeholder_tools,
+    "complete_tool": cmd_complete_tool,
     "list_tools": cmd_list_tools,
     "respond": lambda args: {"status": "ok", "text": args["text"]},
 }

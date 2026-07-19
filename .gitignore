@@ -51,3 +51,4 @@ next-env.d.ts
 *.broken.tsx
 scripts/seo/gsc_credentials.json
 .venv/
+*.tsx.bak
