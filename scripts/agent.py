@@ -157,6 +157,16 @@ AGENT_TOOLS = [
         },
     },
     {
+        "name": "find_placeholder_tools",
+        "description": "Scan view.tsx files and list tools that appear to be templates, stubs, or lacking substantive functionality (heuristic based).",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "limit": {"type": "integer", "description": "Max number of results to return. Default 20."},
+            },
+        },
+    },
+    {
         "name": "respond",
         "description": "Send a plain text response to the user. Use when no action is needed or to ask clarification.",
         "parameters": {
@@ -339,6 +349,111 @@ def cmd_optimize_tool(args: dict) -> dict:
     return {"status": "error" if any_error else "ok", "outputs": outputs}
 
 
+def _score_placeholder(content: str) -> tuple[int, list[str]]:
+    """Heuristic score for how much a view.tsx looks like a stub/placeholder."""
+    score = 0
+    reasons = []
+    lower = content.lower()
+
+    # Common stub markers
+    stub_markers = [
+        ("TODO", "包含 TODO 标记"),
+        ("FIXME", "包含 FIXME 标记"),
+        ("placeholder", "包含 placeholder"),
+        ("coming soon", "包含 coming soon"),
+        ("not implemented", "包含 not implemented"),
+        ("under construction", "包含 under construction"),
+        ("未实现", "包含未实现"),
+        ("占位", "包含占位"),
+    ]
+    for marker, reason in stub_markers:
+        if marker.lower() in lower:
+            score += 10
+            reasons.append(reason)
+
+    lines = [l for l in content.splitlines() if l.strip()]
+    non_empty = len(lines)
+    if non_empty < 45:
+        score += 15
+        reasons.append(f"文件很短（{non_empty} 行）")
+    elif non_empty < 70:
+        score += 5
+        reasons.append(f"文件较短（{non_empty} 行）")
+
+    # Very simple components usually lack state/effects
+    if "useState" not in content and "useMemo" not in content and "useReducer" not in content:
+        score += 10
+        reasons.append("没有 useState/useMemo/useReducer")
+    if "useEffect" not in content:
+        score += 5
+        reasons.append("没有 useEffect")
+
+    # Hardcoded result patterns
+    hardcode_patterns = [
+        r'result\s*=\s*["\']\d+["\']',
+        r'result\s*:\s*["\']\d+["\']',
+        r'return\s+["\']\d+["\']',
+        r'result\s*=\s*["\'].*?["\']',
+    ]
+    import re
+    for pat in hardcode_patterns:
+        if re.search(pat, lower):
+            score += 8
+            reasons.append("结果疑似硬编码")
+            break
+
+    # Wrapper importing a real calculator component from @/components/tools — likely NOT a stub
+    if "@/components/tools/" in content:
+        score -= 35
+        reasons.append("从 @/components/tools 导入真实组件（视为包装器）")
+
+    # No input handling
+    if "onChange" not in content and "onInput" not in content and "useState" not in content:
+        score += 10
+        reasons.append("没有 onChange/onInput 输入处理")
+
+    # Cap reasons list for readability
+    reasons = reasons[:4]
+    return score, reasons
+
+
+def cmd_find_placeholder_tools(args: dict) -> dict:
+    registry = ROOT / "tools-registry"
+    limit = args.get("limit", 20)
+    results = []
+    for view_file in sorted(registry.rglob("view.tsx")):
+        try:
+            content = view_file.read_text(encoding="utf-8")
+            slug = view_file.parent.name
+            score, reasons = _score_placeholder(content)
+            if score >= 25:
+                meta_file = view_file.parent / "meta.json"
+                name = slug
+                category = ""
+                if meta_file.exists():
+                    meta = json.loads(meta_file.read_text(encoding="utf-8"))
+                    name = meta.get("name", slug)
+                    category = meta.get("category", "")
+                results.append({
+                    "slug": slug,
+                    "name": name,
+                    "category": category,
+                    "score": score,
+                    "reasons": reasons,
+                    "lines": len([l for l in content.splitlines() if l.strip()]),
+                })
+        except Exception:
+            continue
+
+    results.sort(key=lambda x: x["score"], reverse=True)
+    return {
+        "status": "ok",
+        "total_scanned": len(list(registry.rglob("view.tsx"))),
+        "flagged_count": len(results),
+        "flagged": results[:limit],
+    }
+
+
 def cmd_list_tools(args: dict) -> dict:
     registry = ROOT / "tools-registry"
     tools = []
@@ -371,6 +486,7 @@ HANDLERS = {
     "git_commit_push": cmd_git_commit_push,
     "get_traffic_summary": cmd_get_traffic_summary,
     "optimize_tool": cmd_optimize_tool,
+    "find_placeholder_tools": cmd_find_placeholder_tools,
     "list_tools": cmd_list_tools,
     "respond": lambda args: {"status": "ok", "text": args["text"]},
 }

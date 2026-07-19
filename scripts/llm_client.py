@@ -51,12 +51,16 @@ def _extract_json(text: str) -> str:
 class LLMClient:
     def __init__(self, priority: Optional[str] = None):
         self.keys = load_env_keys()
-        priority = priority or self.keys.get("LLM_PROVIDER_PRIORITY", "openai,claude,gemini")
+        # Default to openai only if no Claude key is configured, to avoid 404s on missing model/keys.
+        has_claude_key = bool(self.keys.get("CLAUDE_API_KEY") or self.keys.get("CLAUDE_API_KEY_BACKUP"))
+        default_priority = "openai,claude,gemini" if has_claude_key else "openai"
+        priority = priority or self.keys.get("LLM_PROVIDER_PRIORITY", default_priority)
         self.providers = [p.strip().lower() for p in priority.split(",") if p.strip()]
+        # Support env overrides: CLAUDE_MODEL, OPENAI_MODEL, GEMINI_MODEL
         self.model_defaults = {
-            "claude": "claude-3-haiku-20240307",
-            "openai": "gpt-4o-mini",
-            "gemini": "gemini-1.5-flash",
+            "claude": self.keys.get("CLAUDE_MODEL", "claude-sonnet-5"),
+            "openai": self.keys.get("OPENAI_MODEL", "gpt-4o-mini"),
+            "gemini": self.keys.get("GEMINI_MODEL", "gemini-1.5-flash"),
         }
 
     def _key_for(self, provider: str) -> Optional[str]:
