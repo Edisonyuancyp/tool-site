@@ -179,6 +179,16 @@ AGENT_TOOLS = [
         },
     },
     {
+        "name": "growth_plan",
+        "description": "Generate actionable advice for growing the site's traffic based on current GSC data, tools inventory, and SEO candidates. Use for questions like 'how do I get to 100 daily visits' or 'how to grow traffic'.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "goal": {"type": "string", "description": "Traffic goal, e.g. '100 daily visits'"},
+            },
+        },
+    },
+    {
         "name": "respond",
         "description": "Send a plain text response to the user. Use when no action is needed or to ask clarification.",
         "parameters": {
@@ -344,6 +354,66 @@ def cmd_get_traffic_summary(args: dict) -> dict:
         }
     except Exception as e:
         return {"status": "error", "error": str(e)}
+
+
+def cmd_growth_plan(args: dict) -> dict:
+    goal = args.get("goal", "100 daily visits")
+    summary_path = ROOT / "scripts" / "seo" / "gsc_traffic_summary.json"
+    candidates_path = ROOT / "scripts" / "seo" / "gsc_optimization_candidates.json"
+    registry = ROOT / "tools-registry"
+
+    summary = {}
+    if summary_path.exists():
+        try:
+            summary = json.loads(summary_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    candidates = []
+    if candidates_path.exists():
+        try:
+            candidates = json.loads(candidates_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    total_tools = 0
+    categories: set[str] = set()
+    for meta_file in registry.rglob("meta.json"):
+        try:
+            data = json.loads(meta_file.read_text(encoding="utf-8"))
+            total_tools += 1
+            cat = data.get("category")
+            if cat:
+                categories.add(cat)
+        except Exception:
+            continue
+
+    prompt = f"""You are a growth strategist for getfastcalc.com, a site with free online calculators and tools.
+The user wants to grow traffic to: {goal}.
+
+Current site state:
+- Total tools: {total_tools}
+- Categories: {sorted(categories)}
+- Last 7 days GSC summary: {json.dumps(summary, ensure_ascii=False)}
+- Low-CTR optimization candidates: {len(candidates)}
+- Top candidate pages: {json.dumps(candidates[:5], ensure_ascii=False)}
+
+Provide a concise, actionable growth plan in Chinese with 4–6 bullet points. Include:
+1. What to do first (highest impact, lowest effort)
+2. Content/tool gaps to fill
+3. SEO quick wins
+4. Distribution/promotion ideas
+5. A 2-week action checklist
+
+Keep it practical and specific to a calculator/tools site."""
+
+    client = LLMClient()
+    advice = client.chat_completion(
+        system="You are a pragmatic SEO and growth advisor for a niche tools website. Respond in Chinese.",
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=1500,
+    )
+    return {"status": "ok", "goal": goal, "advice": advice.strip()}
 
 
 def cmd_optimize_tool(args: dict) -> dict:
@@ -633,6 +703,7 @@ HANDLERS = {
     "apply_seo_suggestions": cmd_apply_seo,
     "git_commit_push": cmd_git_commit_push,
     "get_traffic_summary": cmd_get_traffic_summary,
+    "growth_plan": cmd_growth_plan,
     "optimize_tool": cmd_optimize_tool,
     "find_placeholder_tools": cmd_find_placeholder_tools,
     "complete_tool": cmd_complete_tool,
@@ -653,7 +724,8 @@ Rules:
 - Return a single JSON array: [{"name": "function_name", "arguments": {...}}, ...]
 - Do not output markdown fences, explanations, or anything outside the JSON.
 - Prefer atomic actions: e.g. "build and push" should call run_build then git_commit_push.
-- For vague requests, ask a clarification question using the "respond" function.
+- For vague requests or advice questions, prefer using a dedicated function if one exists; otherwise use the "respond" function and ALWAYS include the "text" parameter.
+- The "respond" function MUST include a non-empty "text" parameter.
 - For category names, use the canonical English names provided in the tools schema.
 - The user's input may be in Chinese, but the function name and argument keys must always be in English as defined above.
 - Traffic queries: "get_traffic_summary" returns real traffic summary (clicks, impressions, avg CTR, top pages). If the user asks for low-CTR/optimization candidate pages, use "analyze_seo" or "fetch_gsc_data" instead.
