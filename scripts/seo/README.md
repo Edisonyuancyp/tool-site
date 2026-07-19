@@ -128,11 +128,30 @@ python run_seo_pipeline.py
 ### 启动机器人
 
 ```bash
+bash scripts/start-telegram-agent-bot.sh
+```
+
+或使用：
+
+```bash
 cd scripts/seo
 source .venv/bin/activate
 python telegram_bot.py
 ```
 
-保持这个窗口运行。然后在 Telegram 里对你的机器人发送 `/start`，会看到一个按钮，点击 **🚀 运行 SEO 分析** 即可触发完整流程。分析完成后，机器人会把结果直接发到 Telegram。
+保持这个窗口运行。然后在 Telegram 里对你的机器人发送 `/start`，会看到一个按钮，点击 **🚀 运行 SEO 分析** 即可触发完整流程。
 
-> **注意**：机器人只响应配置中 `TG_CHAT_ID` 对应的用户，其他人发送命令会被拒绝。
+分析完成后，机器人会把结果直接发到 Telegram。
+
+### 自然语言控制（Agent）
+
+机器人现在会监听任意非命令文本，并调用 `scripts/agent.py` 执行自然语言命令：
+
+- `list tools` — 列出工具
+- `create a keto macro calculator` — 创建新工具
+- `run maintenance and push to git` — 运行维护并推送
+- `build the site` — 构建静态站
+- `fetch gsc data and analyze seo` — 获取 GSC 并分析
+- `generate variants for bmi-calculator` — 生成 variant 页
+
+> **注意**：机器人只响应配置中 `TG_CHAT_ID` 对应的用户，其他人发送命令会被拒绝。危险操作（如 git push、build）会直接执行，请谨慎使用。

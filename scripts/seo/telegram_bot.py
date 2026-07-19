@@ -144,6 +144,38 @@ def run_apply(bot: telebot.TeleBot, chat_id: int) -> None:
         bot.send_message(chat_id, f"❌ 应用异常：{e}")
 
 
+def run_agent(bot: telebot.TeleBot, chat_id: int, text: str) -> None:
+    """Run a natural-language command through scripts/agent.py and reply."""
+    project_root = Path(__file__).resolve().parent.parent.parent
+    agent_script = project_root / "scripts" / "agent.py"
+    if not agent_script.exists():
+        bot.send_message(chat_id, "❌ agent.py 脚本不存在。")
+        return
+
+    bot.send_message(chat_id, f"🤖 正在执行：{text[:80]}…")
+    try:
+        result = subprocess.run(
+            [sys.executable, str(agent_script), text],
+            cwd=str(project_root),
+            capture_output=True,
+            text=True,
+            check=False,
+            timeout=300,
+        )
+
+        if result.returncode != 0:
+            error_text = result.stderr[-3800:] if result.stderr else "未知错误"
+            _send_chunks(bot, chat_id, error_text, "❌ 执行失败")
+            return
+
+        output_text = result.stdout[-3800:] if result.stdout else "✅ 执行完成，无输出"
+        _send_chunks(bot, chat_id, output_text, "🤖 Agent 结果")
+    except subprocess.TimeoutExpired:
+        bot.send_message(chat_id, "⌛ 执行超时（5 分钟），请稍后重试。")
+    except Exception as e:
+        bot.send_message(chat_id, f"❌ 执行异常：{e}")
+
+
 def main() -> int:
     load_env()
     bot_token = get_required_env("TG_BOT_TOKEN")
@@ -165,12 +197,42 @@ def main() -> int:
             return
         bot.send_message(
             message.chat.id,
-            "👋 GetFastCalc SEO 机器人\n\n"
+            "👋 GetFastCalc AI 机器人\n\n"
             "- 🚀 运行 SEO 分析\n"
             "- ✅ 运行并应用：分析 + 自动应用第一个建议\n"
-            "- 📝 应用最新建议：把已生成的建议写入 meta.json",
+            "- 📝 应用最新建议：把已生成的建议写入 meta.json\n"
+            "- 🤖 自然语言控制：直接发送命令，例如「list tools」「build the site」「create a crypto tax calculator」",
             reply_markup=_markup(),
         )
+
+    @bot.message_handler(commands=["agent"])
+    def handle_agent(message):
+        if str(message.chat.id) != allowed_chat_id:
+            bot.reply_to(message, "⛔ 未经授权的访问。")
+            return
+        bot.send_message(
+            message.chat.id,
+            "🤖 你可以直接给我发送自然语言命令，我会调用 agent.py 执行。\n\n"
+            "示例：\n"
+            "• list tools\n"
+            "• run maintenance and push to git\n"
+            "• create a keto macro calculator\n"
+            "• generate variants for bmi-calculator\n"
+            "• fetch gsc data and analyze seo\n"
+            "• build the site\n\n"
+            "危险操作（如 git push、build）会先执行，请注意确认。",
+        )
+
+    @bot.message_handler(func=lambda m: m.text and not m.text.startswith("/"))
+    def handle_plain_text(message):
+        if str(message.chat.id) != allowed_chat_id:
+            bot.reply_to(message, "⛔ 未经授权的访问。")
+            return
+        text = message.text.strip()
+        if not text:
+            return
+        thread = threading.Thread(target=run_agent, args=(bot, message.chat.id, text), daemon=True)
+        thread.start()
 
     @bot.message_handler(commands=["seo"])
     def handle_seo(message):
