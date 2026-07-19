@@ -45,6 +45,18 @@ AGENT_TOOLS = [
         },
     },
     {
+        "name": "research_keywords",
+        "description": "Run keyword research for a category: search for user pain points via SerpAPI, generate new tool ideas, and append them to tasks.json. Requires SERPAPI_KEY.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "category": {"type": "string", "description": "Category to research, e.g. 'finance', 'health', 'seo', 'ai'"},
+                "count": {"type": "integer", "description": "Number of tool ideas to generate. Default 5."},
+            },
+            "required": ["category"],
+        },
+    },
+    {
         "name": "generate_variants",
         "description": "Generate SEO variant pages for a tool or for the top N missing-variant tools.",
         "parameters": {
@@ -230,6 +242,42 @@ def cmd_generate_tool(args: dict) -> dict:
         cmd += ["--keywords", kw_arg]
     rc, out, err = run_shell(cmd)
     return {"status": "ok" if rc == 0 else "error", "stdout": out, "stderr": err}
+
+
+def cmd_research_keywords(args: dict) -> dict:
+    category = args["category"].lower().strip()
+    count = args.get("count", 5)
+    outputs = []
+
+    # Step 1: research pain points
+    rc1, out1, err1 = run_shell(["python3", "scripts/research.py", "--category", category, "--queries", "4", "--results", "8"])
+    outputs.append({"step": "research", "status": "ok" if rc1 == 0 else "error", "stdout": out1[-600:], "stderr": err1[-400:]})
+    if rc1 != 0:
+        return {"status": "error", "error": f"research.py failed: {err1[-500:]}", "outputs": outputs}
+
+    # Step 2: generate tool ideas from snippets
+    rc2, out2, err2 = run_shell(["python3", "scripts/ai_generate.py", "--category", category, "--count", str(count)])
+    outputs.append({"step": "ai_generate", "status": "ok" if rc2 == 0 else "error", "stdout": out2[-800:], "stderr": err2[-400:]})
+    if rc2 != 0:
+        return {"status": "error", "error": f"ai_generate.py failed: {err2[-500:]}", "outputs": outputs}
+
+    # Step 3: show how many ideas are now in tasks.json
+    tasks_path = ROOT / "scripts" / "tasks.json"
+    pending = 0
+    if tasks_path.exists():
+        try:
+            pending = len(json.loads(tasks_path.read_text(encoding="utf-8")))
+        except Exception:
+            pass
+
+    return {
+        "status": "ok",
+        "category": category,
+        "generated_ideas": count,
+        "pending_tasks": pending,
+        "outputs": outputs,
+        "next_step": "Run 'generate tools from research' or 'python3 scripts/generate_tool.py' to create registry entries.",
+    }
 
 
 def cmd_generate_variants(args: dict) -> dict:
@@ -692,6 +740,7 @@ def cmd_list_tools(args: dict) -> dict:
 
 HANDLERS = {
     "generate_tool": cmd_generate_tool,
+    "research_keywords": cmd_research_keywords,
     "generate_variants": cmd_generate_variants,
     "generate_howto": cmd_generate_howto,
     "modify_tool_meta": cmd_modify_tool_meta,

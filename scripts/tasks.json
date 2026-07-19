@@ -4208,5 +4208,64 @@
         "headline": "Tailored for organizations looking to train multiple developers."
       }
     ]
+  },
+  {
+    "slug": "token-cost-forecast",
+    "name": "Token Cost Forecast",
+    "tagline": "Estimate future token costs for your projects",
+    "description": "This tool allows AI app developers to forecast their token costs based on projected usage and model pricing. Plan your AI expenses more effectively with accurate cost predictions.",
+    "metaTitle": "Token Cost Forecast – Predict Future Costs | Free Online Tool",
+    "metaDescription": "Forecast your token costs based on usage. Free with no signup, get instant predictions.",
+    "keywords": [
+      "token cost forecast",
+      "predict AI costs",
+      "token pricing",
+      "AI budget planning",
+      "cost estimator"
+    ],
+    "category": "AI",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "How do I input my expected usage?",
+        "answer": "You can enter your projected token usage based on your application's requirements."
+      },
+      {
+        "question": "Does it account for different models?",
+        "answer": "Yes, you can select different models to see how their costs impact your forecasts."
+      },
+      {
+        "question": "Is the forecast accurate?",
+        "answer": "It provides estimates based on current pricing, but actual costs may vary."
+      }
+    ],
+    "relatedTools": [
+      "ai-cost-comparator",
+      "llm-cost-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "monthly-token-forecast",
+        "metaTitle": "Monthly Token Cost Forecast",
+        "metaDescription": "Get a monthly breakdown of your token costs.",
+        "keywords": [
+          "monthly cost forecast",
+          "token cost breakdown"
+        ],
+        "defaultVariant": "monthly-key",
+        "headline": "Understand your token costs on a monthly basis."
+      },
+      {
+        "variantSlug": "annual-token-forecast",
+        "metaTitle": "Annual Token Cost Forecast",
+        "metaDescription": "Project your annual token costs effectively.",
+        "keywords": [
+          "annual cost forecast",
+          "yearly token predictions"
+        ],
+        "defaultVariant": "annual-key",
+        "headline": "Plan your token expenses for the entire year."
+      }
+    ]
   }
 ]
