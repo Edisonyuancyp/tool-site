@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-optimizer",
+  "name": "Context Window Optimizer",
+  "tagline": "Maximieren Sie die Nutzung des Kontextfensters Ihrer KI.",
+  "description": "Dieses Tool hilft Benutzern, die Nutzung von Kontextfenstern in verschiedenen KI-Modellen zu berechnen und zu optimieren. Ideal für Entwickler, die die Leistung ihrer KI verbessern möchten.",
+  "metaTitle": "Context Window Optimizer – KI-Leistung | Kostenloses Online-Tool",
+  "metaDescription": "Optimieren Sie die Nutzung von Kontextfenstern für eine bessere KI-Leistung. Kostenlos, keine Anmeldung, sofortige Ergebnisse.",
+  "keywords": [
+    "Kontextfenster",
+    "KI-Leistung",
+    "Kontextmanagement",
+    "Modelloptimierung",
+    "Token-Effizienz",
+    "Kontextfenster-Optimierer",
+    "Was ist die Lieferoptimierung in Windows",
+    "Windows Kontextmenü-Editor",
+    "Kontextfenster KI",
+    "Kontextfenster Claude",
+    "Kontextfenster LLM",
+    "Bedeutung des Kontextfensters",
+    "Kontextfenster Claude Code",
+    "Kontextfenster Codex",
+    "Größe des Kontextfensters",
+    "KI-Leistungsbewertung",
+    "Generator für KI-Leistungsbewertungen",
+    "KI-Leistungsrankings",
+    "KI-Leistungsengineering",
+    "KI-Leistungsbenchmarks"
+  ],
+  "category": "AI",
+  "icon": "🪟",
+  "faqs": [
+    {
+      "question": "Was ist ein Kontextfenster?",
+      "answer": "Ein Kontextfenster bezieht sich auf die Menge an Eingabetext, die ein KI-Modell gleichzeitig berücksichtigen kann."
+    },
+    {
+      "question": "Wie benutze ich dieses Tool?",
+      "answer": "Geben Sie einfach Ihren Text ein, und das Tool wird analysieren und Optimierungen vorschlagen."
+    },
+    {
+      "question": "Kann es für verschiedene Modelle funktionieren?",
+      "answer": "Ja, es unterstützt mehrere KI-Modelle mit unterschiedlichen Größen von Kontextfenstern."
+    }
+  ],
+  "relatedTools": [
+    "ai-model-comparator",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

@@ -87,6 +87,9 @@
 /tools/context-window-calculator /tools/ai/context-window-calculator 301
 /tools/advanced-context-analysis /tools/ai/advanced-context-analysis 301
 /tools/simple-context-finder /tools/ai/simple-context-finder 301
+/tools/context-window-optimizer /tools/ai/context-window-optimizer 301
+/tools/multi-model-optimizer /tools/ai/multi-model-optimizer 301
+/tools/single-model-optimizer /tools/ai/single-model-optimizer 301
 /tools/contrast-checker-tool /tools/design/contrast-checker-tool 301
 /tools/contrast-checker-tool-online /tools/design/contrast-checker-tool-online 301
 /tools/contrast-checker-tool-free /tools/design/contrast-checker-tool-free 301
@@ -354,8 +357,10 @@
 /tools/profit-margin-calculator-uk /tools/calc/profit-margin-calculator-uk 301
 /tools/profit-margin-calculator-canada /tools/calc/profit-margin-calculator-canada 301
 /tools/profit-margin-calculator-australia /tools/calc/profit-margin-calculator-australia 301
-/tools/prompt-cleaner-tool /tools/ai/prompt-cleaner-tool 301
+/tools/prompt-cleaner /tools/ai/prompt-cleaner 301
 /tools/advanced-prompt-cleaner /tools/ai/advanced-prompt-cleaner 301
+/tools/simple-prompt-cleaner /tools/ai/simple-prompt-cleaner 301
+/tools/prompt-cleaner-tool /tools/ai/prompt-cleaner-tool 301
 /tools/basic-prompt-cleaner /tools/ai/basic-prompt-cleaner 301
 /tools/prompt-cost-calculator /tools/ai/prompt-cost-calculator 301
 /tools/detailed-cost-analysis /tools/ai/detailed-cost-analysis 301
@@ -481,6 +486,9 @@
 /tools/title-optimization-tool /tools/seo/title-optimization-tool 301
 /tools/title-checker /tools/seo/title-checker 301
 /tools/quick-title-generator /tools/seo/quick-title-generator 301
+/tools/token-cost-forecast /tools/ai/token-cost-forecast 301
+/tools/monthly-token-forecast /tools/ai/monthly-token-forecast 301
+/tools/annual-token-forecast /tools/ai/annual-token-forecast 301
 /tools/token-splitter /tools/ai/token-splitter 301
 /tools/detailed-token-analysis /tools/ai/detailed-token-analysis 301
 /tools/quick-token-split /tools/ai/quick-token-split 301

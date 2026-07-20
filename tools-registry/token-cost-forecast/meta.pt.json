@@ -1,0 +1,48 @@
+{
+  "slug": "token-cost-forecast",
+  "name": "Previsão de Custos de Token",
+  "tagline": "Estime os custos futuros de tokens para seus projetos",
+  "description": "Esta ferramenta permite que desenvolvedores de aplicativos de IA prevejam seus custos de tokens com base no uso projetado e na precificação do modelo. Planeje suas despesas com IA de forma mais eficaz com previsões de custos precisas.",
+  "metaTitle": "Previsão de Custos de Token – Preveja Custos Futuros | Ferramenta Online Gratuita",
+  "metaDescription": "Preveja seus custos de tokens com base no uso. Gratuito e sem cadastro, obtenha previsões instantâneas.",
+  "keywords": [
+    "previsão de custos de token",
+    "prever custos de IA",
+    "precificação de tokens",
+    "planejamento orçamentário de IA",
+    "calculadora de custos",
+    "previsão de preço de token",
+    "tendência de custo de token",
+    "estimativa de custo de token",
+    "quanto custa 1 token",
+    "taxas de token",
+    "precificação de token claude",
+    "precificação de token openai",
+    "comparação de precificação de token",
+    "precificação de token IA",
+    "precificação de token anthropic",
+    "tendências de precificação de token",
+    "índice de precificação de token"
+  ],
+  "category": "AI",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Como insiro meu uso esperado?",
+      "answer": "Você pode inserir seu uso projetado de tokens com base nas necessidades do seu aplicativo."
+    },
+    {
+      "question": "Ele considera diferentes modelos?",
+      "answer": "Sim, você pode selecionar diferentes modelos para ver como seus custos impactam suas previsões."
+    },
+    {
+      "question": "A previsão é precisa?",
+      "answer": "Ela fornece estimativas com base nos preços atuais, mas os custos reais podem variar."
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}

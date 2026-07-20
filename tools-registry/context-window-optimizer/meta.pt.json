@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-optimizer",
+  "name": "Otimizador de Janela de Contexto",
+  "tagline": "Maximize o uso da janela de contexto da sua IA.",
+  "description": "Esta ferramenta ajuda os usuários a calcular e otimizar o uso de janelas de contexto em vários modelos de IA. Ideal para desenvolvedores que buscam melhorar o desempenho da sua IA.",
+  "metaTitle": "Otimizador de Janela de Contexto – Desempenho da IA | Ferramenta Online Gratuita",
+  "metaDescription": "Otimize o uso da janela de contexto para um melhor desempenho da IA. Gratuito, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "janela de contexto",
+    "desempenho da IA",
+    "gestão de contexto",
+    "otimização de modelo",
+    "eficiência de tokens",
+    "otimizador de janela de contexto",
+    "o que é otimização de entrega no windows",
+    "editor de menu de contexto do windows",
+    "janela de contexto IA",
+    "janela de contexto claude",
+    "janela de contexto llm",
+    "significado de janela de contexto",
+    "código da janela de contexto claude",
+    "janela de contexto codex",
+    "tamanho da janela de contexto",
+    "avaliação de desempenho da IA",
+    "gerador de avaliação de desempenho da IA",
+    "ranking de desempenho da IA",
+    "engenharia de desempenho da IA",
+    "benchmark de desempenho da IA"
+  ],
+  "category": "AI",
+  "icon": "🪟",
+  "faqs": [
+    {
+      "question": "O que é uma janela de contexto?",
+      "answer": "Uma janela de contexto refere-se à quantidade de texto de entrada que um modelo de IA pode considerar de uma só vez."
+    },
+    {
+      "question": "Como eu uso esta ferramenta?",
+      "answer": "Basta inserir seu texto e a ferramenta irá analisar e sugerir otimizações."
+    },
+    {
+      "question": "Ela funciona para diferentes modelos?",
+      "answer": "Sim, ela suporta múltiplos modelos de IA com tamanhos de janela de contexto variados."
+    }
+  ],
+  "relatedTools": [
+    "ai-model-comparator",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

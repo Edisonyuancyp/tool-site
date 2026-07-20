@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-optimizer",
+  "name": "上下文窗口优化器",
+  "tagline": "最大化您AI的上下文窗口使用。",
+  "description": "此工具帮助用户计算和优化各种AI模型中的上下文窗口使用。非常适合希望提升AI性能的开发者。",
+  "metaTitle": "上下文窗口优化器 – AI性能 | 免费在线工具",
+  "metaDescription": "优化上下文窗口使用以提升AI性能。免费，无需注册，立即获取结果。",
+  "keywords": [
+    "上下文窗口",
+    "AI性能",
+    "上下文管理",
+    "模型优化",
+    "令牌效率",
+    "上下文窗口优化器",
+    "Windows中的交付优化是什么",
+    "Windows上下文菜单编辑器",
+    "上下文窗口AI",
+    "上下文窗口Claude",
+    "上下文窗口LLM",
+    "上下文窗口含义",
+    "上下文窗口Claude代码",
+    "上下文窗口Codex",
+    "上下文窗口大小",
+    "AI性能评估",
+    "AI性能评估生成器",
+    "AI性能排名",
+    "AI性能工程",
+    "AI性能基准"
+  ],
+  "category": "AI",
+  "icon": "🪟",
+  "faqs": [
+    {
+      "question": "什么是上下文窗口？",
+      "answer": "上下文窗口是指AI模型一次可以考虑的输入文本量。"
+    },
+    {
+      "question": "我该如何使用这个工具？",
+      "answer": "只需输入您的文本，工具将分析并建议优化方案。"
+    },
+    {
+      "question": "它可以用于不同的模型吗？",
+      "answer": "是的，它支持多种AI模型，具有不同的上下文窗口大小。"
+    }
+  ],
+  "relatedTools": [
+    "ai-model-comparator",
+    "prompt-variable-generator"
+  ],
+  "variants": []
+}

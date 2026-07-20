@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-cleaner",
+  "name": "Prompt Cleaner",
+  "tagline": "Limpe e otimize seus prompts de IA.",
+  "description": "Esta ferramenta ajuda os usuários a refinar e limpar seus prompts de IA, removendo palavras desnecessárias e otimizando para clareza. Perfeito para criadores de conteúdo e desenvolvedores que desejam aprimorar a qualidade de seus prompts.",
+  "metaTitle": "Prompt Cleaner – Melhore seus Prompts de IA | Ferramenta Online Grátis",
+  "metaDescription": "Limpe seus prompts de IA para melhor clareza e eficiência. Grátis, sem cadastro, resultados instantâneos.",
+  "keywords": [
+    "limpador de prompts",
+    "otimização de prompts de IA",
+    "criação de conteúdo",
+    "refinamento de prompts",
+    "melhoria de clareza",
+    "limpadores de prompts",
+    "limpadores de prompts wildomar",
+    "limpadores de prompts murray utah",
+    "limpadores de prompts fotos",
+    "limpadores de prompts avaliações",
+    "limpadores de prompts utah",
+    "limpadores de prompts murray",
+    "lavanderias de prompts",
+    "especialista em otimização de prompts de IA",
+    "ferramentas de otimização de prompts de IA",
+    "otimização de prompts de IA reddit",
+    "otimizador de prompts de IA grátis",
+    "extensão de otimizador de prompts de IA",
+    "otimizador de prompts de IA perchance",
+    "otimizador de prompts de IA github"
+  ],
+  "category": "AI",
+  "icon": "🧹",
+  "faqs": [
+    {
+      "question": "O que o limpador de prompts faz?",
+      "answer": "Ele analisa seu prompt e sugere edições para melhorar a clareza e eficiência."
+    },
+    {
+      "question": "É adequado para todos os modelos de IA?",
+      "answer": "Sim, pode ser usado com vários modelos de IA para otimização de prompts."
+    },
+    {
+      "question": "Posso salvar meus prompts limpos?",
+      "answer": "Você pode copiar os prompts limpos para uso futuro."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

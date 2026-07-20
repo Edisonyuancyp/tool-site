@@ -4267,5 +4267,127 @@
         "headline": "Plan your token expenses for the entire year."
       }
     ]
+  },
+  {
+    "slug": "context-window-optimizer",
+    "name": "Context Window Optimizer",
+    "tagline": "Maximize your AI's context window usage.",
+    "description": "This tool helps users calculate and optimize the usage of context windows in various AI models. Ideal for developers looking to enhance their AI's performance.",
+    "metaTitle": "Context Window Optimizer – AI Performance | Free Online Tool",
+    "metaDescription": "Optimize context window usage for better AI performance. Free, no signup, instant results.",
+    "keywords": [
+      "context window",
+      "AI performance",
+      "context management",
+      "model optimization",
+      "token efficiency"
+    ],
+    "category": "AI",
+    "icon": "🪟",
+    "faqs": [
+      {
+        "question": "What is a context window?",
+        "answer": "A context window refers to the amount of input text an AI model can consider at once."
+      },
+      {
+        "question": "How do I use this tool?",
+        "answer": "Simply input your text and the tool will analyze and suggest optimizations."
+      },
+      {
+        "question": "Can it work for different models?",
+        "answer": "Yes, it supports multiple AI models with varying context window sizes."
+      }
+    ],
+    "relatedTools": [
+      "ai-model-comparator",
+      "prompt-variable-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "multi-model-optimizer",
+        "metaTitle": "Multi-Model Context Window Optimizer",
+        "metaDescription": "Optimize context windows for multiple AI models.",
+        "keywords": [
+          "multi-model optimization",
+          "context window",
+          "AI models"
+        ],
+        "defaultVariant": "multi-model-key",
+        "headline": "Optimize for various AI models' context windows in one go."
+      },
+      {
+        "variantSlug": "single-model-optimizer",
+        "metaTitle": "Single Model Context Window Optimizer",
+        "metaDescription": "Focus on optimizing a single AI model's context window.",
+        "keywords": [
+          "single model optimization",
+          "context window",
+          "specific AI"
+        ],
+        "defaultVariant": "single-model-key",
+        "headline": "Tailor your context window optimization for a specific AI model."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-cleaner",
+    "name": "Prompt Cleaner",
+    "tagline": "Clean and optimize your AI prompts.",
+    "description": "This tool helps users refine and clean their AI prompts by removing unnecessary words and optimizing for clarity. Perfect for content creators and developers who want to enhance their prompt quality.",
+    "metaTitle": "Prompt Cleaner – Improve AI Prompts | Free Online Tool",
+    "metaDescription": "Clean up your AI prompts for better clarity and efficiency. Free, no signup, instant results.",
+    "keywords": [
+      "prompt cleaner",
+      "AI prompt optimization",
+      "content creation",
+      "prompt refinement",
+      "clarity improvement"
+    ],
+    "category": "AI",
+    "icon": "🧹",
+    "faqs": [
+      {
+        "question": "What does the prompt cleaner do?",
+        "answer": "It analyzes your prompt and suggests edits to improve clarity and efficiency."
+      },
+      {
+        "question": "Is it suitable for all AI models?",
+        "answer": "Yes, it can be used with various AI models for prompt optimization."
+      },
+      {
+        "question": "Can I save my cleaned prompts?",
+        "answer": "You can copy the cleaned prompts for your future use."
+      }
+    ],
+    "relatedTools": [
+      "prompt-token-optimizer",
+      "token-splitter"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-prompt-cleaner",
+        "metaTitle": "Advanced Prompt Cleaner",
+        "metaDescription": "Get detailed suggestions for complex prompts.",
+        "keywords": [
+          "advanced cleaning",
+          "complex prompts",
+          "AI models"
+        ],
+        "defaultVariant": "advanced-cleaning-key",
+        "headline": "Enhance your complex prompts with advanced cleaning techniques."
+      },
+      {
+        "variantSlug": "simple-prompt-cleaner",
+        "metaTitle": "Simple Prompt Cleaner",
+        "metaDescription": "Quickly clean and optimize short prompts.",
+        "keywords": [
+          "simple cleaning",
+          "short prompts",
+          "token efficiency"
+        ],
+        "defaultVariant": "simple-cleaning-key",
+        "headline": "Quickly clean your short prompts for better clarity."
+      }
+    ]
   }
 ]

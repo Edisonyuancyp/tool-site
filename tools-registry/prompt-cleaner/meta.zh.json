@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-cleaner",
+  "name": "Prompt Cleaner",
+  "tagline": "清理和优化您的AI提示。",
+  "description": "该工具帮助用户通过删除不必要的词汇和优化清晰度来精炼和清理他们的AI提示。非常适合希望提升提示质量的内容创作者和开发者。",
+  "metaTitle": "Prompt Cleaner – 提升AI提示 | 免费在线工具",
+  "metaDescription": "清理您的AI提示，以获得更好的清晰度和效率。免费，无需注册，立即获得结果。",
+  "keywords": [
+    "提示清理工具",
+    "AI提示优化",
+    "内容创作",
+    "提示精炼",
+    "清晰度提升",
+    "提示清理工具",
+    "Wildomar提示清理工具",
+    "Murray Utah提示清理工具",
+    "提示清理工具照片",
+    "提示清理工具评价",
+    "Utah提示清理工具",
+    "Murray提示清理工具",
+    "干洗提示",
+    "AI提示优化专家",
+    "AI提示优化工具",
+    "AI提示优化Reddit",
+    "免费AI提示优化器",
+    "AI提示优化器扩展",
+    "AI提示优化器Perchance",
+    "AI提示优化器GitHub"
+  ],
+  "category": "AI",
+  "icon": "🧹",
+  "faqs": [
+    {
+      "question": "提示清理工具有什么作用？",
+      "answer": "它分析您的提示并建议编辑以提高清晰度和效率。"
+    },
+    {
+      "question": "它适用于所有AI模型吗？",
+      "answer": "是的，它可以与各种AI模型一起使用进行提示优化。"
+    },
+    {
+      "question": "我可以保存我清理过的提示吗？",
+      "answer": "您可以复制清理过的提示以供将来使用。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

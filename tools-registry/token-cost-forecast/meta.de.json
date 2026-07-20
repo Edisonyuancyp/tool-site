@@ -1,0 +1,48 @@
+{
+  "slug": "token-cost-forecast",
+  "name": "Token Kostenprognose",
+  "tagline": "Schätzen Sie zukünftige Tokenkosten für Ihre Projekte",
+  "description": "Dieses Tool ermöglicht es Entwicklern von KI-Anwendungen, ihre Tokenkosten basierend auf der voraussichtlichen Nutzung und den Modellpreisen vorherzusagen. Planen Sie Ihre KI-Ausgaben effektiver mit genauen Kostenprognosen.",
+  "metaTitle": "Token Kostenprognose – Zukünftige Kosten vorhersagen | Kostenloses Online-Tool",
+  "metaDescription": "Prognostizieren Sie Ihre Tokenkosten basierend auf der Nutzung. Kostenlos ohne Anmeldung, erhalten Sie sofortige Vorhersagen.",
+  "keywords": [
+    "token kostenprognose",
+    "ki kosten vorhersagen",
+    "token preise",
+    "ki budgetplanung",
+    "kosten schätzer",
+    "token preisprognose",
+    "token kosten trend",
+    "token kosten schätzung",
+    "wie viel kostet 1 token",
+    "token gebühren",
+    "token preise claude",
+    "token preise openai",
+    "token preise vergleich",
+    "token preise ki",
+    "token preise anthropic",
+    "token preise trends",
+    "token preise index"
+  ],
+  "category": "AI",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Wie gebe ich meine erwartete Nutzung ein?",
+      "answer": "Sie können Ihre voraussichtliche Token-Nutzung basierend auf den Anforderungen Ihrer Anwendung eingeben."
+    },
+    {
+      "question": "Berücksichtigt es verschiedene Modelle?",
+      "answer": "Ja, Sie können verschiedene Modelle auswählen, um zu sehen, wie sich deren Kosten auf Ihre Prognosen auswirken."
+    },
+    {
+      "question": "Ist die Prognose genau?",
+      "answer": "Es liefert Schätzungen basierend auf den aktuellen Preisen, aber die tatsächlichen Kosten können variieren."
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}
