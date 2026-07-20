@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.getfastcalc.telegram-bot</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/aicommander/CascadeProjects/toolcalc/scripts/seo/.venv/bin/python3</string>
+      <string>/Users/aicommander/CascadeProjects/toolcalc/scripts/seo/telegram_bot.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/aicommander/CascadeProjects/toolcalc</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PYTHONUNBUFFERED</key>
+      <string>1</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <dict>
+      <key>SuccessfulExit</key>
+      <false/>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/aicommander/CascadeProjects/toolcalc/logs/telegram-bot/stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/aicommander/CascadeProjects/toolcalc/logs/telegram-bot/stderr.log</string>
+  </dict>
+</plist>
