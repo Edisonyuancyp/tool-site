@@ -120,6 +120,46 @@ const POSTS = [
     tag: "Auto",
     readTime: "3 min read",
   },
+  {
+    slug: "how-to-create-schema-markup-easily",
+    title: "How can I create schema markup for my website easily?",
+    excerpt: "Learn how to create schema markup for your website easily with our free tool. Enhance your SEO and search results today.",
+    date: "2026-07-21",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-calculate-correct-position-size-for-trades",
+    title: "How to Calculate the Correct Position Size for Your Trades",
+    excerpt: "Learn how to calculate the correct position size for your trades with our free tool. Ensure effective trading risk management today!",
+    date: "2026-07-21",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "efficient-token-management-for-ai-prompts",
+    title: "How can I efficiently manage tokens for AI prompts?",
+    excerpt: "Learn how to efficiently manage tokens for AI prompts with our free Token Splitter tool.",
+    date: "2026-07-21",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "efficiently-split-text-into-token-sized-chunks",
+    title: "How to Efficiently Split Text into Token-Sized Chunks for AI",
+    excerpt: "Learn how to efficiently split text into token-sized chunks for AI applications using our free token splitter tool.",
+    date: "2026-07-21",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-forecast-ai-token-costs-accurately",
+    title: "How Can I Accurately Forecast My AI Token Costs?",
+    excerpt: "Learn how to forecast AI token costs accurately with our free tool. Plan your budget effectively for your AI projects today.",
+    date: "2026-07-21",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
 ];
 
 export default function BlogPage() {
