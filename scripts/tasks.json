@@ -4389,5 +4389,249 @@
         "headline": "Quickly clean your short prompts for better clarity."
       }
     ]
+  },
+  {
+    "slug": "meta-keyword-generator",
+    "name": "Meta Keyword Generator",
+    "tagline": "Generate optimized meta keywords quickly",
+    "description": "This tool helps content creators generate optimized meta keywords for their web pages effortlessly. Ideal for bloggers and SEO specialists looking to enhance their on-page SEO.",
+    "metaTitle": "Meta Keyword Generator – SEO Keywords | Free Online Tool",
+    "metaDescription": "Generate optimized meta keywords instantly for free. No signup required, just enter your topic and get immediate results.",
+    "keywords": [
+      "meta keywords",
+      "keyword generator",
+      "SEO keywords",
+      "blogging SEO",
+      "on-page SEO"
+    ],
+    "category": "SEO",
+    "icon": "🔑",
+    "faqs": [
+      {
+        "question": "What are meta keywords?",
+        "answer": "Meta keywords are HTML tags that help search engines understand the content of your page."
+      },
+      {
+        "question": "How do I use this tool?",
+        "answer": "Simply input your topic, and the generator will provide a list of relevant keywords."
+      },
+      {
+        "question": "Do I need to sign up?",
+        "answer": "No, this tool is completely free and requires no signup."
+      }
+    ],
+    "relatedTools": [
+      "title-generator",
+      "meta-description-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-keyword-generator",
+        "metaTitle": "Advanced Meta Keyword Generator",
+        "metaDescription": "Generate advanced meta keywords with additional context.",
+        "keywords": [
+          "advanced keywords",
+          "SEO tools",
+          "long-tail keywords"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Get deeper insights with our advanced keyword generation."
+      },
+      {
+        "variantSlug": "simple-keyword-generator",
+        "metaTitle": "Simple Meta Keyword Generator",
+        "metaDescription": "Create simple and effective meta keywords easily.",
+        "keywords": [
+          "simple keywords",
+          "easy SEO",
+          "basic keyword generator"
+        ],
+        "defaultVariant": "simple-key",
+        "headline": "Perfect for beginners looking for straightforward keyword options."
+      }
+    ]
+  },
+  {
+    "slug": "image-alt-text-generator",
+    "name": "Image Alt Text Generator",
+    "tagline": "Create SEO-friendly alt text for images",
+    "description": "This tool generates SEO-friendly alt text for your images, enhancing accessibility and improving image search ranking. Perfect for bloggers and website owners aiming to optimize their content.",
+    "metaTitle": "Image Alt Text Generator – SEO Alt Text | Free Online Tool",
+    "metaDescription": "Generate SEO-friendly alt text for your images in seconds. Free to use, no signup needed, just input your image description.",
+    "keywords": [
+      "image alt text",
+      "SEO alt text",
+      "image optimization",
+      "blogging tools",
+      "accessibility"
+    ],
+    "category": "SEO",
+    "icon": "🖼️",
+    "faqs": [
+      {
+        "question": "What is alt text?",
+        "answer": "Alt text describes images on a webpage, helping with SEO and accessibility."
+      },
+      {
+        "question": "How does this tool work?",
+        "answer": "Enter a description of your image, and the tool will generate optimized alt text."
+      },
+      {
+        "question": "Is there a limit to how many images I can process?",
+        "answer": "No, you can generate alt text for as many images as you need."
+      }
+    ],
+    "relatedTools": [
+      "meta-description-generator",
+      "title-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "bulk-alt-text-generator",
+        "metaTitle": "Bulk Image Alt Text Generator",
+        "metaDescription": "Generate alt text for multiple images at once.",
+        "keywords": [
+          "bulk alt text",
+          "image SEO",
+          "mass image optimization"
+        ],
+        "defaultVariant": "bulk-key",
+        "headline": "Save time by generating alt text for multiple images simultaneously."
+      },
+      {
+        "variantSlug": "creative-alt-text-generator",
+        "metaTitle": "Creative Image Alt Text Generator",
+        "metaDescription": "Craft unique and creative alt text for your images.",
+        "keywords": [
+          "creative alt text",
+          "unique image descriptions",
+          "SEO creativity"
+        ],
+        "defaultVariant": "creative-key",
+        "headline": "Get creative with your image descriptions while optimizing for SEO."
+      }
+    ]
+  },
+  {
+    "slug": "link-building-opportunity-finder",
+    "name": "Link Building Opportunity Finder",
+    "tagline": "Identify potential link building prospects",
+    "description": "This tool helps you discover potential websites for link building opportunities based on your niche. Essential for SEO specialists looking to enhance their backlink profile.",
+    "metaTitle": "Link Building Opportunity Finder – SEO Backlinks | Free Online Tool",
+    "metaDescription": "Find potential link building opportunities in your niche for free. No signup required, just enter your keyword and get results.",
+    "keywords": [
+      "link building",
+      "SEO backlinks",
+      "opportunity finder",
+      "backlink strategy",
+      "niche SEO"
+    ],
+    "category": "SEO",
+    "icon": "🔗",
+    "faqs": [
+      {
+        "question": "What is link building?",
+        "answer": "Link building is the process of acquiring hyperlinks from other websites to your own."
+      },
+      {
+        "question": "How can this tool help me?",
+        "answer": "It identifies websites that may be open to linking to your content."
+      },
+      {
+        "question": "Do I need to register to use this tool?",
+        "answer": "No, you can use this tool for free without registration."
+      }
+    ],
+    "relatedTools": [
+      "keyword-density-checker",
+      "canonical-checker"
+    ],
+    "variants": [
+      {
+        "variantSlug": "local-link-building-finder",
+        "metaTitle": "Local Link Building Opportunity Finder",
+        "metaDescription": "Discover local link building opportunities to boost your SEO.",
+        "keywords": [
+          "local link building",
+          "local SEO",
+          "community backlinks"
+        ],
+        "defaultVariant": "local-key",
+        "headline": "Focus on local opportunities to enhance your community presence."
+      },
+      {
+        "variantSlug": "competitor-link-analysis",
+        "metaTitle": "Competitor Link Analysis Tool",
+        "metaDescription": "Analyze your competitors' backlinks for better strategy.",
+        "keywords": [
+          "competitor analysis",
+          "link analysis",
+          "SEO strategy"
+        ],
+        "defaultVariant": "competitor-key",
+        "headline": "Gain insights from your competitors' link profiles to enhance your strategy."
+      }
+    ]
+  },
+  {
+    "slug": "content-optimization-checker",
+    "name": "Content Optimization Checker",
+    "tagline": "Optimize your content for SEO",
+    "description": "This tool evaluates your content and provides suggestions to improve its SEO performance. Ideal for content marketers and bloggers aiming to enhance search visibility.",
+    "metaTitle": "Content Optimization Checker – SEO Content Tool | Free Online Tool",
+    "metaDescription": "Check your content optimization and get instant suggestions for free. No signup needed, just paste your content and optimize.",
+    "keywords": [
+      "content optimization",
+      "SEO content",
+      "blogging tools",
+      "content checker",
+      "search visibility"
+    ],
+    "category": "SEO",
+    "icon": "📝",
+    "faqs": [
+      {
+        "question": "What does this tool do?",
+        "answer": "It analyzes your content and provides actionable suggestions for SEO optimization."
+      },
+      {
+        "question": "How do I use it?",
+        "answer": "Paste your content into the tool, and it will evaluate and suggest improvements."
+      },
+      {
+        "question": "Is there a character limit?",
+        "answer": "No, you can check any length of content."
+      }
+    ],
+    "relatedTools": [
+      "keyword-density-checker",
+      "meta-description-generator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-content-optimization",
+        "metaTitle": "Advanced Content Optimization Checker",
+        "metaDescription": "Get deeper insights into your content optimization.",
+        "keywords": [
+          "advanced content",
+          "SEO insights",
+          "content analysis"
+        ],
+        "defaultVariant": "advanced-content-key",
+        "headline": "Unlock advanced features for thorough content analysis."
+      },
+      {
+        "variantSlug": "quick-optimization-checker",
+        "metaTitle": "Quick Content Optimization Checker",
+        "metaDescription": "Fast evaluation of content with instant suggestions.",
+        "keywords": [
+          "quick optimization",
+          "fast content checker",
+          "SEO tools"
+        ],
+        "defaultVariant": "quick-key",
+        "headline": "Optimize your content quickly with instant feedback."
+      }
+    ]
   }
 ]

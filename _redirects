@@ -84,6 +84,9 @@
 /tools/compound-interest-calculator-monthly /tools/calc/compound-interest-calculator-monthly 301
 /tools/compound-interest-calculator-daily /tools/calc/compound-interest-calculator-daily 301
 /tools/compound-interest-calculator-annually /tools/calc/compound-interest-calculator-annually 301
+/tools/content-optimization-checker /tools/seo/content-optimization-checker 301
+/tools/advanced-content-optimization /tools/seo/advanced-content-optimization 301
+/tools/quick-optimization-checker /tools/seo/quick-optimization-checker 301
 /tools/context-window-calculator /tools/ai/context-window-calculator 301
 /tools/advanced-context-analysis /tools/ai/advanced-context-analysis 301
 /tools/simple-context-finder /tools/ai/simple-context-finder 301
@@ -254,6 +257,9 @@
 /tools/ideal-weight-calculator-female /tools/calc/ideal-weight-calculator-female 301
 /tools/ideal-weight-calculator-male /tools/calc/ideal-weight-calculator-male 301
 /tools/ideal-weight-calculator-height /tools/calc/ideal-weight-calculator-height 301
+/tools/image-alt-text-generator /tools/seo/image-alt-text-generator 301
+/tools/bulk-alt-text-generator /tools/seo/bulk-alt-text-generator 301
+/tools/creative-alt-text-generator /tools/seo/creative-alt-text-generator 301
 /tools/import-duty-calculator /tools/ecommerce/import-duty-calculator 301
 /tools/import-duty-calculator-china /tools/ecommerce/import-duty-calculator-china 301
 /tools/inflation-calculator /tools/calc/inflation-calculator 301
@@ -294,6 +300,9 @@
 /tools/leftover-recipe-generator /tools/converter/leftover-recipe-generator 301
 /tools/vegetarian-leftover-variant /tools/converter/vegetarian-leftover-variant 301
 /tools/quick-meal-leftover-variant /tools/converter/quick-meal-leftover-variant 301
+/tools/link-building-opportunity-finder /tools/seo/link-building-opportunity-finder 301
+/tools/local-link-building-finder /tools/seo/local-link-building-finder 301
+/tools/competitor-link-analysis /tools/seo/competitor-link-analysis 301
 /tools/loan-calculator /tools/calc/loan-calculator 301
 /tools/mortgage-calculator /tools/calc/mortgage-calculator 301
 /tools/car-loan-calculator /tools/calc/car-loan-calculator 301
@@ -312,6 +321,9 @@
 /tools/meta-description-generator /tools/seo/meta-description-generator 301
 /tools/keyword-focused-meta-generator /tools/seo/keyword-focused-meta-generator 301
 /tools/character-limited-meta-generator /tools/seo/character-limited-meta-generator 301
+/tools/meta-keyword-generator /tools/seo/meta-keyword-generator 301
+/tools/advanced-keyword-generator /tools/seo/advanced-keyword-generator 301
+/tools/simple-keyword-generator /tools/seo/simple-keyword-generator 301
 /tools/meta-title-generator /tools/seo/meta-title-generator 301
 /tools/advanced-meta-title-generator /tools/seo/advanced-meta-title-generator 301
 /tools/quick-meta-title-generator /tools/seo/quick-meta-title-generator 301

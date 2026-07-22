@@ -1,0 +1,51 @@
+{
+  "slug": "image-alt-text-generator",
+  "name": "Bild Alt-Text Generator",
+  "tagline": "Erstellen Sie SEO-freundlichen Alt-Text für Bilder",
+  "description": "Dieses Tool generiert SEO-freundlichen Alt-Text für Ihre Bilder, verbessert die Barrierefreiheit und steigert das Ranking in der Bildersuche. Perfekt für Blogger und Website-Besitzer, die ihre Inhalte optimieren möchten.",
+  "metaTitle": "Bild Alt-Text Generator – SEO Alt-Text | Kostenloses Online-Tool",
+  "metaDescription": "Generieren Sie in Sekunden SEO-freundlichen Alt-Text für Ihre Bilder. Kostenlos, keine Anmeldung erforderlich, geben Sie einfach die Beschreibung Ihres Bildes ein.",
+  "keywords": [
+    "bild alt text",
+    "seo alt text",
+    "bildoptimierung",
+    "blogging tools",
+    "barrierefreiheit",
+    "bild alt text generator",
+    "kostenloser bild alt text generator",
+    "online bild alt text generator",
+    "ai bild alt text generator",
+    "wordpress bild alt text generator",
+    "bild alternativer text generator",
+    "bild alt tag generator",
+    "foto alt text generator",
+    "bild alt text beispiel",
+    "wie man alt text für bilder hinzufügt",
+    "bild alt text richtlinien",
+    "wie man alt text für bilder erstellt",
+    "kostenloser bild alt text generator",
+    "kostenloser ai bild alt text generator",
+    "tailwind kostenloser bild alt text generator"
+  ],
+  "category": "SEO",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "Was ist Alt-Text?",
+      "answer": "Alt-Text beschreibt Bilder auf einer Webseite und hilft bei SEO und Barrierefreiheit."
+    },
+    {
+      "question": "Wie funktioniert dieses Tool?",
+      "answer": "Geben Sie eine Beschreibung Ihres Bildes ein, und das Tool generiert optimierten Alt-Text."
+    },
+    {
+      "question": "Gibt es eine Begrenzung, wie viele Bilder ich verarbeiten kann?",
+      "answer": "Nein, Sie können Alt-Text für so viele Bilder generieren, wie Sie benötigen."
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "title-generator"
+  ],
+  "variants": []
+}

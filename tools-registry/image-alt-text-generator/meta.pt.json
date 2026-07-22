@@ -1,0 +1,51 @@
+{
+  "slug": "image-alt-text-generator",
+  "name": "Gerador de Texto Alternativo para Imagens",
+  "tagline": "Crie texto alternativo otimizado para SEO para suas imagens",
+  "description": "Esta ferramenta gera texto alternativo otimizado para SEO para suas imagens, melhorando a acessibilidade e aumentando a classificação nas buscas de imagens. Perfeito para blogueiros e proprietários de sites que desejam otimizar seu conteúdo.",
+  "metaTitle": "Gerador de Texto Alternativo para Imagens – Texto Alternativo SEO | Ferramenta Online Grátis",
+  "metaDescription": "Gere texto alternativo otimizado para SEO para suas imagens em segundos. Gratuito, sem necessidade de cadastro, basta inserir a descrição da sua imagem.",
+  "keywords": [
+    "texto alternativo de imagem",
+    "texto alternativo seo",
+    "otimização de imagem",
+    "ferramentas para blogueiros",
+    "acessibilidade",
+    "gerador de texto alternativo de imagem",
+    "gerador de texto alternativo de imagem grátis",
+    "gerador de texto alternativo de imagem online",
+    "gerador de texto alternativo de imagem ai",
+    "gerador de texto alternativo de imagem wordpress",
+    "gerador de texto alternativo de imagem",
+    "gerador de tag alt de imagem",
+    "gerador de texto alternativo de foto",
+    "exemplo de texto alternativo de imagem",
+    "como colocar texto alternativo em imagem",
+    "diretrizes de texto alternativo de imagem",
+    "como criar texto alternativo para imagens",
+    "gerador gratuito de texto alternativo de imagem",
+    "gerador gratuito de texto alternativo de imagem ai",
+    "gerador gratuito de texto alternativo de imagem tailwind"
+  ],
+  "category": "SEO",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "O que é texto alternativo?",
+      "answer": "Texto alternativo descreve imagens em uma página da web, ajudando com SEO e acessibilidade."
+    },
+    {
+      "question": "Como esta ferramenta funciona?",
+      "answer": "Insira uma descrição da sua imagem e a ferramenta gerará texto alternativo otimizado."
+    },
+    {
+      "question": "Há um limite para quantas imagens posso processar?",
+      "answer": "Não, você pode gerar texto alternativo para quantas imagens precisar."
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "title-generator"
+  ],
+  "variants": []
+}

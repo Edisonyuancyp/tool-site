@@ -1,0 +1,51 @@
+{
+  "slug": "content-optimization-checker",
+  "name": "Verificador de Otimização de Conteúdo",
+  "tagline": "Otimize seu conteúdo para SEO",
+  "description": "Esta ferramenta avalia seu conteúdo e fornece sugestões para melhorar seu desempenho em SEO. Ideal para profissionais de marketing de conteúdo e blogueiros que buscam aumentar a visibilidade nas buscas.",
+  "metaTitle": "Verificador de Otimização de Conteúdo – Ferramenta de SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Verifique a otimização do seu conteúdo e receba sugestões instantâneas gratuitamente. Sem necessidade de cadastro, basta colar seu conteúdo e otimizar.",
+  "keywords": [
+    "otimização de conteúdo",
+    "conteúdo SEO",
+    "ferramentas para blogs",
+    "verificador de conteúdo",
+    "visibilidade nas buscas",
+    "verificador de otimização de conteúdo",
+    "verificador de SEO de conteúdo",
+    "verificador de SEO de conteúdo gratuito",
+    "verificador de desempenho de conteúdo",
+    "ferramenta de otimização de conteúdo",
+    "ferramenta de otimização de conteúdo gratuita",
+    "verificador de otimização de conteúdo SEO",
+    "painel verificador de otimização de conteúdo",
+    "verificador de SEO de conteúdo online gratuito",
+    "verificador de SEO de conteúdo online",
+    "o que é otimização de conteúdo",
+    "o que é otimização de conteúdo em SEO",
+    "comparação de conteúdo online",
+    "verificador de SEO de conteúdo gratuito",
+    "ferramenta de otimização de conteúdo gratuita"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "O que esta ferramenta faz?",
+      "answer": "Ela analisa seu conteúdo e fornece sugestões práticas para otimização de SEO."
+    },
+    {
+      "question": "Como eu uso?",
+      "answer": "Cole seu conteúdo na ferramenta, e ela irá avaliar e sugerir melhorias."
+    },
+    {
+      "question": "Há um limite de caracteres?",
+      "answer": "Não, você pode verificar qualquer comprimento de conteúdo."
+    }
+  ],
+  "relatedTools": [
+    "keyword-density-checker",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

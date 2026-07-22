@@ -1,0 +1,51 @@
+{
+  "slug": "meta-keyword-generator",
+  "name": "Gerador de Palavras-Chave Meta",
+  "tagline": "Gere palavras-chave meta otimizadas rapidamente",
+  "description": "Esta ferramenta ajuda criadores de conteúdo a gerar palavras-chave meta otimizadas para suas páginas da web sem esforço. Ideal para blogueiros e especialistas em SEO que buscam aprimorar seu SEO on-page.",
+  "metaTitle": "Gerador de Palavras-Chave Meta – Palavras-Chave SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Gere palavras-chave meta otimizadas instantaneamente e gratuitamente. Sem necessidade de cadastro, basta inserir seu tópico e obter resultados imediatos.",
+  "keywords": [
+    "palavras-chave meta",
+    "gerador de palavras-chave",
+    "palavras-chave seo",
+    "seo para blogs",
+    "seo on-page",
+    "gerador de palavras-chave meta",
+    "gerador de palavras-chave meta gratuito",
+    "gerador de palavras-chave de metadados",
+    "gerador de palavras-chave de meta tag",
+    "gerador de palavras-chave meta ai",
+    "gerador de palavras-chave meta seo",
+    "o que é uma palavra-chave meta",
+    "exemplo de palavras-chave meta",
+    "palavras-chave meta html",
+    "palavras-chave meta para seo",
+    "tag de palavras-chave meta",
+    "gerador de palavras-chave meta",
+    "significado de palavras-chave meta",
+    "verificador de palavras-chave meta",
+    "gerador de palavras-chave gratuito"
+  ],
+  "category": "SEO",
+  "icon": "🔑",
+  "faqs": [
+    {
+      "question": "O que são palavras-chave meta?",
+      "answer": "Palavras-chave meta são tags HTML que ajudam os motores de busca a entender o conteúdo da sua página."
+    },
+    {
+      "question": "Como eu uso esta ferramenta?",
+      "answer": "Basta inserir seu tópico, e o gerador fornecerá uma lista de palavras-chave relevantes."
+    },
+    {
+      "question": "Preciso me cadastrar?",
+      "answer": "Não, esta ferramenta é completamente gratuita e não requer cadastro."
+    }
+  ],
+  "relatedTools": [
+    "title-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

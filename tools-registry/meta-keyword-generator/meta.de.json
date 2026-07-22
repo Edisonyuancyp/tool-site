@@ -1,0 +1,51 @@
+{
+  "slug": "meta-keyword-generator",
+  "name": "Meta Keyword Generator",
+  "tagline": "Generieren Sie schnell optimierte Meta-Keywords",
+  "description": "Dieses Tool hilft Content-Erstellern, mühelos optimierte Meta-Keywords für ihre Webseiten zu generieren. Ideal für Blogger und SEO-Spezialisten, die ihr On-Page-SEO verbessern möchten.",
+  "metaTitle": "Meta Keyword Generator – SEO-Keywords | Kostenloses Online-Tool",
+  "metaDescription": "Generieren Sie sofort kostenlos optimierte Meta-Keywords. Keine Anmeldung erforderlich, geben Sie einfach Ihr Thema ein und erhalten Sie sofortige Ergebnisse.",
+  "keywords": [
+    "meta keywords",
+    "Keyword-Generator",
+    "SEO-Keywords",
+    "Blogging SEO",
+    "On-Page SEO",
+    "Meta-Keyword-Generator",
+    "kostenloser Meta-Keywords-Generator",
+    "Metadata-Keyword-Generator",
+    "Meta-Tag-Keyword-Generator",
+    "AI Meta-Keyword-Generator",
+    "SEO Meta-Keywords-Generator",
+    "Was sind Meta-Keywords?",
+    "Beispiel für Meta-Keywords",
+    "Meta-Keywords HTML",
+    "Meta-Keywords für SEO",
+    "Meta-Keywords-Tag",
+    "Meta-Keywords-Generator",
+    "Bedeutung von Meta-Keywords",
+    "Meta-Keywords-Prüfer",
+    "kostenloser Keyword-Generator"
+  ],
+  "category": "SEO",
+  "icon": "🔑",
+  "faqs": [
+    {
+      "question": "Was sind Meta-Keywords?",
+      "answer": "Meta-Keywords sind HTML-Tags, die Suchmaschinen helfen, den Inhalt Ihrer Seite zu verstehen."
+    },
+    {
+      "question": "Wie benutze ich dieses Tool?",
+      "answer": "Geben Sie einfach Ihr Thema ein, und der Generator liefert eine Liste relevanter Keywords."
+    },
+    {
+      "question": "Muss ich mich anmelden?",
+      "answer": "Nein, dieses Tool ist völlig kostenlos und erfordert keine Anmeldung."
+    }
+  ],
+  "relatedTools": [
+    "title-generator",
+    "meta-description-generator"
+  ],
+  "variants": []
+}

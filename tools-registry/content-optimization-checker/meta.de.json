@@ -1,0 +1,51 @@
+{
+  "slug": "content-optimization-checker",
+  "name": "Content Optimization Checker",
+  "tagline": "Optimieren Sie Ihre Inhalte für SEO",
+  "description": "Dieses Tool bewertet Ihre Inhalte und bietet Vorschläge zur Verbesserung der SEO-Leistung. Ideal für Content-Marketer und Blogger, die die Sichtbarkeit in Suchmaschinen erhöhen möchten.",
+  "metaTitle": "Content Optimization Checker – SEO-Content-Tool | Kostenloses Online-Tool",
+  "metaDescription": "Überprüfen Sie Ihre Inhaltsoptimierung und erhalten Sie sofortige Vorschläge kostenlos. Keine Anmeldung erforderlich, fügen Sie einfach Ihre Inhalte ein und optimieren Sie.",
+  "keywords": [
+    "Inhaltsoptimierung",
+    "SEO-Inhalte",
+    "Blogging-Tools",
+    "Inhaltsprüfer",
+    "Suchsichtbarkeit",
+    "Inhaltsoptimierungsprüfer",
+    "SEO-Inhaltsprüfer",
+    "kostenloser SEO-Inhaltsprüfer",
+    "Inhaltsleistungsprüfer",
+    "Inhaltsoptimierungstool",
+    "kostenloses Inhaltsoptimierungstool",
+    "SEO-Inhaltsoptimierungsprüfer",
+    "Dashboard-Inhaltsoptimierungsprüfer",
+    "kostenloser SEO-Inhaltsprüfer online",
+    "SEO-Inhaltsprüfer online",
+    "Was ist Inhaltsoptimierung?",
+    "Was ist Inhaltsoptimierung in SEO?",
+    "Online-Inhaltsvergleich",
+    "kostenloser SEO-Inhaltsprüfer",
+    "kostenloses Inhaltsoptimierungstool"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Was macht dieses Tool?",
+      "answer": "Es analysiert Ihre Inhalte und bietet umsetzbare Vorschläge zur SEO-Optimierung."
+    },
+    {
+      "question": "Wie benutze ich es?",
+      "answer": "Fügen Sie Ihre Inhalte in das Tool ein, und es wird diese bewerten und Verbesserungen vorschlagen."
+    },
+    {
+      "question": "Gibt es eine Zeichenbegrenzung?",
+      "answer": "Nein, Sie können Inhalte beliebiger Länge überprüfen."
+    }
+  ],
+  "relatedTools": [
+    "keyword-density-checker",
+    "meta-description-generator"
+  ],
+  "variants": []
+}
