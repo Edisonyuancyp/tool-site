@@ -1,0 +1,51 @@
+{
+  "slug": "dev-api-performance-calculator",
+  "name": "Dev API Performance Calculator",
+  "tagline": "Bewerten Sie die Leistungskennzahlen Ihrer API",
+  "description": "Analysieren Sie die Leistung Ihrer API basierend auf Antwortzeiten und Anforderungsraten. Dieses Tool hilft Entwicklern, ihre APIs für eine bessere Effizienz und Benutzererfahrung zu optimieren.",
+  "metaTitle": "Dev API Performance Calculator – Optimieren Sie Ihre API | Kostenloses Online-Tool",
+  "metaDescription": "Bewerten Sie kostenlos die Leistungskennzahlen Ihrer API, ohne Anmeldung und mit sofortigen Ergebnissen.",
+  "keywords": [
+    "api leistung",
+    "antwortzeit berechnen",
+    "entwickler tool",
+    "api optimieren",
+    "api analysen",
+    "dev api performance calculator online tool kostenlos",
+    "dev api performance calculator konverter browser",
+    "dev api performance calculator ohne installation entwickler tool",
+    "kostenloses entwickler tool",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes entwickler tool",
+    "api leistungstest",
+    "werkzeuge für api leistungstests",
+    "api leistungskennzahlen",
+    "api leistungstest mit jmeter",
+    "api leistungsoptimierung",
+    "api leistungsverbesserung",
+    "werkzeuge zur überwachung der api-leistung",
+    "api leistungstest mit postman"
+  ],
+  "category": "Developer",
+  "icon": "⚡",
+  "faqs": [
+    {
+      "question": "Welche Kennzahlen kann ich analysieren?",
+      "answer": "Sie können Antwortzeiten, Anforderungsraten und Fehlerquoten analysieren, um die Leistung Ihrer API zu bewerten."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, es ist völlig kostenlos zu nutzen, ohne dass eine Anmeldung erforderlich ist."
+    },
+    {
+      "question": "Kann ich mehrere APIs vergleichen?",
+      "answer": "Sie können mehrere APIs separat analysieren, aber derzeit nicht nebeneinander vergleichen."
+    }
+  ],
+  "relatedTools": [
+    "api-response-time-calculator",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

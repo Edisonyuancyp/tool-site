@@ -4633,5 +4633,249 @@
         "headline": "Optimize your content quickly with instant feedback."
       }
     ]
+  },
+  {
+    "slug": "dev-tool-cost-calculator",
+    "name": "Dev Tool Cost Calculator",
+    "tagline": "Estimate your development tool expenses",
+    "description": "Calculate the total cost of using various development tools based on subscription fees and usage. This tool is perfect for freelancers and agencies looking to budget their expenses effectively.",
+    "metaTitle": "Dev Tool Cost Calculator – Budget Your Expenses | Free Online Tool",
+    "metaDescription": "Estimate your development tool costs for free, no signup needed, with instant results.",
+    "keywords": [
+      "dev tool cost",
+      "calculate expenses",
+      "software budgeting",
+      "development tools",
+      "freelancer expenses"
+    ],
+    "category": "Developer",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How do I use this calculator?",
+        "answer": "Enter the subscription fees and usage frequency of your tools, and the calculator will provide the total cost."
+      },
+      {
+        "question": "Is there a limit on the number of tools?",
+        "answer": "You can add as many tools as you need to calculate your total expenses."
+      },
+      {
+        "question": "Can I save my calculations?",
+        "answer": "Currently, saving is not available, but we are working on it for future versions."
+      }
+    ],
+    "relatedTools": [
+      "budget-calculator",
+      "api-response-time-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "annual-cost-variant",
+        "metaTitle": "Annual Cost Estimator",
+        "metaDescription": "Estimate your annual development tool costs easily.",
+        "keywords": [
+          "annual cost",
+          "tool budgeting",
+          "yearly expenses"
+        ],
+        "defaultVariant": "annual-cost",
+        "headline": "Get a clear view of your yearly expenses on development tools."
+      },
+      {
+        "variantSlug": "monthly-cost-variant",
+        "metaTitle": "Monthly Cost Estimator",
+        "metaDescription": "Calculate your monthly dev tool expenses quickly.",
+        "keywords": [
+          "monthly expenses",
+          "dev tool cost",
+          "budget planner"
+        ],
+        "defaultVariant": "monthly-cost",
+        "headline": "Understand your monthly costs to manage your budget better."
+      }
+    ]
+  },
+  {
+    "slug": "dev-api-performance-calculator",
+    "name": "Dev API Performance Calculator",
+    "tagline": "Evaluate your API performance metrics",
+    "description": "Analyze your API's performance based on response times and request rates. This tool helps developers optimize their APIs for better efficiency and user experience.",
+    "metaTitle": "Dev API Performance Calculator – Optimize Your API | Free Online Tool",
+    "metaDescription": "Evaluate your API performance metrics for free, with no signup and instant results.",
+    "keywords": [
+      "API performance",
+      "calculate response time",
+      "dev tool",
+      "optimize API",
+      "API analytics"
+    ],
+    "category": "Developer",
+    "icon": "⚡",
+    "faqs": [
+      {
+        "question": "What metrics can I analyze?",
+        "answer": "You can analyze response times, request rates, and error rates to evaluate your API's performance."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, it is completely free to use without any signup."
+      },
+      {
+        "question": "Can I compare multiple APIs?",
+        "answer": "You can analyze multiple APIs separately but not compare them side by side at this moment."
+      }
+    ],
+    "relatedTools": [
+      "api-response-time-calculator",
+      "context-window-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "simple-metrics-variant",
+        "metaTitle": "Simple API Metrics",
+        "metaDescription": "Quickly assess basic API performance metrics.",
+        "keywords": [
+          "basic metrics",
+          "API assessment",
+          "dev tool"
+        ],
+        "defaultVariant": "simple-metrics",
+        "headline": "Easily assess essential metrics for your API performance."
+      },
+      {
+        "variantSlug": "detailed-metrics-variant",
+        "metaTitle": "Detailed API Metrics",
+        "metaDescription": "Get in-depth analysis of your API's performance.",
+        "keywords": [
+          "detailed metrics",
+          "API analysis",
+          "performance evaluation"
+        ],
+        "defaultVariant": "detailed-metrics",
+        "headline": "Dive deeper into the performance metrics of your API."
+      }
+    ]
+  },
+  {
+    "slug": "dev-ux-research-calculator",
+    "name": "Dev UX Research Calculator",
+    "tagline": "Estimate your UX research costs",
+    "description": "Calculate the costs associated with conducting UX research for development tools. This tool is ideal for product managers and designers looking to budget their research efforts effectively.",
+    "metaTitle": "Dev UX Research Calculator – Budget Your Research | Free Online Tool",
+    "metaDescription": "Estimate your UX research costs easily for free, no signup required.",
+    "keywords": [
+      "UX research cost",
+      "calculate expenses",
+      "dev tools",
+      "budgeting",
+      "product management"
+    ],
+    "category": "Developer",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "How do I calculate my research costs?",
+        "answer": "Input your estimated hours and hourly rates, and the calculator will provide a total cost."
+      },
+      {
+        "question": "Is the tool free to use?",
+        "answer": "Yes, there are no fees or signups required to use this tool."
+      },
+      {
+        "question": "Can I adjust the hourly rates?",
+        "answer": "Yes, you can easily adjust the hourly rates for different team members involved in the research."
+      }
+    ],
+    "relatedTools": [
+      "budget-calculator",
+      "character-counter"
+    ],
+    "variants": [
+      {
+        "variantSlug": "team-research-variant",
+        "metaTitle": "Team Research Cost Calculator",
+        "metaDescription": "Calculate costs based on team involvement in UX research.",
+        "keywords": [
+          "team cost",
+          "UX research budgeting",
+          "product design"
+        ],
+        "defaultVariant": "team-research",
+        "headline": "Estimate the total cost of your UX research team efforts."
+      },
+      {
+        "variantSlug": "individual-research-variant",
+        "metaTitle": "Individual Research Cost Calculator",
+        "metaDescription": "Estimate costs for solo UX research projects.",
+        "keywords": [
+          "individual cost",
+          "UX research",
+          "freelancer budgeting"
+        ],
+        "defaultVariant": "individual-research",
+        "headline": "Calculate the cost of conducting UX research on your own."
+      }
+    ]
+  },
+  {
+    "slug": "dev-tool-integration-planner",
+    "name": "Dev Tool Integration Planner",
+    "tagline": "Plan your tool integrations effectively",
+    "description": "Create a detailed plan for integrating multiple development tools into your workflow. This tool assists teams in aligning their tools for better collaboration and efficiency.",
+    "metaTitle": "Dev Tool Integration Planner – Optimize Workflow | Free Online Tool",
+    "metaDescription": "Plan your tool integrations effectively for free, no signup required.",
+    "keywords": [
+      "tool integration",
+      "dev workflow",
+      "optimize collaboration",
+      "integration planning",
+      "development tools"
+    ],
+    "category": "Developer",
+    "icon": "🔗",
+    "faqs": [
+      {
+        "question": "How do I use the planner?",
+        "answer": "Input the tools you want to integrate, and the planner will help you outline the steps and dependencies."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, it is completely free to use without any signup."
+      },
+      {
+        "question": "Can I save my integration plans?",
+        "answer": "Currently, saving plans is not available, but we are considering it for future updates."
+      }
+    ],
+    "relatedTools": [
+      "api-response-time-calculator",
+      "budget-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "simple-integration-variant",
+        "metaTitle": "Simple Integration Planner",
+        "metaDescription": "Quickly plan basic integrations of development tools.",
+        "keywords": [
+          "basic planning",
+          "integration tools",
+          "dev workflow"
+        ],
+        "defaultVariant": "simple-integration",
+        "headline": "Easily outline your basic tool integration steps."
+      },
+      {
+        "variantSlug": "advanced-integration-variant",
+        "metaTitle": "Advanced Integration Planner",
+        "metaDescription": "Create complex integration plans for multiple tools.",
+        "keywords": [
+          "advanced planning",
+          "tool integration",
+          "collaboration"
+        ],
+        "defaultVariant": "advanced-integration",
+        "headline": "Plan intricate integrations for enhanced team collaboration."
+      }
+    ]
   }
 ]

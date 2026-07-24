@@ -1,0 +1,51 @@
+{
+  "slug": "dev-api-performance-calculator",
+  "name": "开发 API 性能计算器",
+  "tagline": "评估您的 API 性能指标",
+  "description": "根据响应时间和请求速率分析您的 API 性能。此工具帮助开发者优化他们的 API，以提高效率和用户体验。",
+  "metaTitle": "开发 API 性能计算器 – 优化您的 API | 免费在线工具",
+  "metaDescription": "免费评估您的 API 性能指标，无需注册，立即获得结果。",
+  "keywords": [
+    "api 性能",
+    "计算响应时间",
+    "开发工具",
+    "优化 api",
+    "api 分析",
+    "开发 api 性能计算器 在线工具 免费",
+    "开发 api 性能计算器 转换器 浏览器",
+    "开发 api 性能计算器 无需安装 开发工具",
+    "免费开发者工具",
+    "在线实用工具",
+    "无需安装",
+    "基于浏览器的开发工具",
+    "api 性能测试",
+    "api 性能测试工具",
+    "api 性能指标",
+    "使用 jmeter 进行 api 性能测试",
+    "api 性能优化",
+    "api 性能提升",
+    "api 性能监控工具",
+    "使用 postman 进行 api 性能测试"
+  ],
+  "category": "Developer",
+  "icon": "⚡",
+  "faqs": [
+    {
+      "question": "我可以分析哪些指标？",
+      "answer": "您可以分析响应时间、请求速率和错误率，以评估您的 API 性能。"
+    },
+    {
+      "question": "这个工具是免费的吧？",
+      "answer": "是的，完全免费使用，无需注册。"
+    },
+    {
+      "question": "我可以比较多个 API 吗？",
+      "answer": "您可以单独分析多个 API，但目前无法并排比较它们。"
+    }
+  ],
+  "relatedTools": [
+    "api-response-time-calculator",
+    "context-window-calculator"
+  ],
+  "variants": []
+}

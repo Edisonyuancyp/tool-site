@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-integration-planner",
+  "name": "Dev Tool Integration Planner",
+  "tagline": "ツール統合を効果的に計画する",
+  "description": "複数の開発ツールをワークフローに統合するための詳細な計画を作成します。このツールは、チームがツールを調整し、より良いコラボレーションと効率を実現するのを支援します。",
+  "metaTitle": "Dev Tool Integration Planner – ワークフローを最適化 | 無料オンラインツール",
+  "metaDescription": "ツール統合を効果的に計画するための無料ツール、サインアップ不要。",
+  "keywords": [
+    "ツール統合",
+    "開発ワークフロー",
+    "コラボレーション最適化",
+    "統合計画",
+    "開発ツール",
+    "無料のDev Tool Integration Planner",
+    "Dev Tool Integration Planner コンバータ ブラウザ",
+    "Dev Tool Integration Planner インストール不要",
+    "無料の開発者ツール",
+    "オンラインユーティリティ",
+    "インストール不要",
+    "ブラウザベースのDev Tool",
+    "ツール統合アナリスト ボーイング",
+    "ツール統合の意味",
+    "ツール統合アナリスト",
+    "ツール統合アイコン",
+    "LangChainにおけるツール統合",
+    "Tally Primeの統合ツール",
+    "統合ツールキット",
+    "AIを活用した開発ワークフロー"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "プランナーの使い方は？",
+      "answer": "統合したいツールを入力すると、プランナーがステップと依存関係をアウトライン化するのを手伝います。"
+    },
+    {
+      "question": "このツールは無料ですか？",
+      "answer": "はい、サインアップなしで完全に無料で使用できます。"
+    },
+    {
+      "question": "統合計画を保存できますか？",
+      "answer": "現在、計画の保存はできませんが、将来のアップデートで検討しています。"
+    }
+  ],
+  "relatedTools": [
+    "api-response-time-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

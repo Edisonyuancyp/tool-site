@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-integration-planner",
+  "name": "Planejador de Integração de Ferramentas de Desenvolvimento",
+  "tagline": "Planeje suas integrações de ferramentas de forma eficaz",
+  "description": "Crie um plano detalhado para integrar várias ferramentas de desenvolvimento ao seu fluxo de trabalho. Esta ferramenta ajuda equipes a alinhar suas ferramentas para uma melhor colaboração e eficiência.",
+  "metaTitle": "Planejador de Integração de Ferramentas de Desenvolvimento – Otimize seu Fluxo de Trabalho | Ferramenta Online Gratuita",
+  "metaDescription": "Planeje suas integrações de ferramentas de forma eficaz e gratuita, sem necessidade de cadastro.",
+  "keywords": [
+    "integração de ferramentas",
+    "fluxo de trabalho de desenvolvimento",
+    "otimizar colaboração",
+    "planejamento de integração",
+    "ferramentas de desenvolvimento",
+    "planejador de integração de ferramentas de desenvolvimento ferramenta online gratuita",
+    "conversor do planejador de integração de ferramentas de desenvolvimento navegador",
+    "planejador de integração de ferramentas de desenvolvimento sem instalação",
+    "ferramenta de desenvolvedor gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "analista de integração de ferramentas boeing",
+    "significado de integração de ferramentas",
+    "analista de integração de ferramentas",
+    "ícone de integração de ferramentas",
+    "integração de ferramentas no langchain",
+    "ferramenta de integração no tally prime",
+    "kit de ferramentas de integração",
+    "fluxo de trabalho de desenvolvimento com ai"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "Como eu uso o planejador?",
+      "answer": "Insira as ferramentas que você deseja integrar, e o planejador ajudará você a delinear os passos e dependências."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, é completamente gratuita para usar, sem necessidade de cadastro."
+    },
+    {
+      "question": "Posso salvar meus planos de integração?",
+      "answer": "Atualmente, salvar planos não está disponível, mas estamos considerando isso para futuras atualizações."
+    }
+  ],
+  "relatedTools": [
+    "api-response-time-calculator",
+    "budget-calculator"
+  ],
+  "variants": []
+}

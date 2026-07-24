@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-cost-calculator",
+  "name": "Calculadora de Custos de Ferramentas de Desenvolvimento",
+  "tagline": "Estime suas despesas com ferramentas de desenvolvimento",
+  "description": "Calcule o custo total de uso de várias ferramentas de desenvolvimento com base nas taxas de assinatura e uso. Esta ferramenta é perfeita para freelancers e agências que buscam orçar suas despesas de forma eficaz.",
+  "metaTitle": "Calculadora de Custos de Ferramentas de Desenvolvimento – Orce suas Despesas | Ferramenta Online Gratuita",
+  "metaDescription": "Estime seus custos com ferramentas de desenvolvimento gratuitamente, sem necessidade de cadastro, com resultados instantâneos.",
+  "keywords": [
+    "custo de ferramenta de desenvolvimento",
+    "calcular despesas",
+    "orçamento de software",
+    "ferramentas de desenvolvimento",
+    "despesas de freelancer",
+    "calculadora de custo de ferramenta de desenvolvimento ferramenta online gratuita",
+    "calculadora de custo de ferramenta de desenvolvimento conversor navegador",
+    "calculadora de custo de ferramenta de desenvolvimento sem instalação",
+    "ferramenta de desenvolvedor gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "código HSN de custo de desenvolvimento de ferramenta",
+    "custo de desenvolvimento de ferramenta",
+    "comparação de custo de ferramenta de desenvolvedor AI",
+    "custo de ferramentas axe",
+    "qual ferramenta de devops está em alta",
+    "aplicativo para calcular despesas",
+    "calcular despesas entre amigos",
+    "calcular despesas trabalhando em casa"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como eu uso esta calculadora?",
+      "answer": "Insira as taxas de assinatura e a frequência de uso das suas ferramentas, e a calculadora fornecerá o custo total."
+    },
+    {
+      "question": "Há um limite no número de ferramentas?",
+      "answer": "Você pode adicionar quantas ferramentas precisar para calcular suas despesas totais."
+    },
+    {
+      "question": "Posso salvar meus cálculos?",
+      "answer": "Atualmente, a opção de salvar não está disponível, mas estamos trabalhando nisso para versões futuras."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "api-response-time-calculator"
+  ],
+  "variants": []
+}

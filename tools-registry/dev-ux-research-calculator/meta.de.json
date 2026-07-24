@@ -1,0 +1,51 @@
+{
+  "slug": "dev-ux-research-calculator",
+  "name": "Dev UX Research Calculator",
+  "tagline": "Schätzen Sie Ihre UX-Forschungskosten",
+  "description": "Berechnen Sie die Kosten, die mit der Durchführung von UX-Forschung für Entwicklungstools verbunden sind. Dieses Tool ist ideal für Produktmanager und Designer, die ihre Forschungsanstrengungen effektiv budgetieren möchten.",
+  "metaTitle": "Dev UX Research Calculator – Budgetieren Sie Ihre Forschung | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie Ihre UX-Forschungskosten ganz einfach kostenlos, keine Anmeldung erforderlich.",
+  "keywords": [
+    "ux forschungskosten",
+    "ausgaben berechnen",
+    "entwicklungstools",
+    "budgetierung",
+    "produktmanagement",
+    "dev ux research calculator online tool kostenlos",
+    "dev ux research calculator converter browser",
+    "dev ux research calculator ohne installation",
+    "kostenloses entwicklertool",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes entwicklertool",
+    "ux forschung costa rica",
+    "ux researcher halloween kostüm",
+    "costco ux forschung",
+    "ux forschung gehalt",
+    "ux forschung events",
+    "ux forschung methoden und wann man sie anwendet",
+    "ux forschung beispiele",
+    "ux forschung stellenbeschreibung"
+  ],
+  "category": "Developer",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Wie berechne ich meine Forschungskosten?",
+      "answer": "Geben Sie Ihre geschätzten Stunden und Stundensätze ein, und der Rechner liefert die Gesamtkosten."
+    },
+    {
+      "question": "Ist das Tool kostenlos zu nutzen?",
+      "answer": "Ja, es fallen keine Gebühren oder Anmeldungen an, um dieses Tool zu nutzen."
+    },
+    {
+      "question": "Kann ich die Stundensätze anpassen?",
+      "answer": "Ja, Sie können die Stundensätze für verschiedene Teammitglieder, die an der Forschung beteiligt sind, ganz einfach anpassen."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "character-counter"
+  ],
+  "variants": []
+}

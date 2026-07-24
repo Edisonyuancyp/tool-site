@@ -1,11 +1,5 @@
 [
   {
-    "title": "[Pre-Seed] I will not promote, Navigating a SaaS-obsessed ...",
-    "snippet": "[Pre-Seed] I will not promote, Navigating a SaaS-obsessed market with a \"Local AI-first\" desktop dev tool. How are you pitching local ...",
-    "link": "https://www.reddit.com/r/startups/comments/1s38943/preseed_i_will_not_promote_navigating_a/",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
     "title": "Dev tool addiction. Please help! : r/RimWorld",
     "snippet": "So my question is how do you all deal with dev tool, how often do you use it? How do you stay away from it? Is there a way to permanently delete ...",
     "link": "https://www.reddit.com/r/RimWorld/comments/tzkffs/dev_tool_addiction_please_help/",
@@ -24,15 +18,15 @@
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "Is there a Dev Tool that visually shows what a screen ...",
-    "snippet": "To test accessibility at the moment, I'm using JAWS which means every time I want to test something I have to turn it on, and navigate through to the ...",
-    "link": "https://www.reddit.com/r/accessibility/comments/fa2xhz/is_there_a_dev_tool_that_visually_shows_what_a/",
+    "title": "What's the most underrated dev tool you've come across ...",
+    "snippet": "What's the most underrated dev tool you've come across lately? Not talking about the usual stuff more ...",
+    "link": "https://www.reddit.com/r/vibecoding/comments/1krpimc/whats_the_most_underrated_dev_tool_youve_come/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "After getting frustrated with bookmarking 20 different dev ...",
-    "snippet": "After getting frustrated with bookmarking 20 different dev tool sites, I built my own hub Hey everyone,. Hey everyone,. I got tired of ...",
-    "link": "https://www.reddit.com/r/learnreactjs/comments/1pgw00r/after_getting_frustrated_with_bookmarking_20/",
+    "title": "Is there a Dev Tool that visually shows what a screen ...",
+    "snippet": "To test accessibility at the moment, I'm using JAWS which means every time I want to test something I have to turn it on, and navigate through to the ...",
+    "link": "https://www.reddit.com/r/accessibility/comments/fa2xhz/is_there_a_dev_tool_that_visually_shows_what_a/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
@@ -42,9 +36,9 @@
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "how to collapse dev tool's vertical Style Editor pane?",
-    "snippet": "how to collapse dev tool's vertical Style Editor pane? · allow the pane to be freely resized including collapsed when vertical? · keep it at the ...",
-    "link": "https://www.reddit.com/r/FirefoxCSS/comments/w06djr/how_to_collapse_dev_tools_vertical_style_editor/",
+    "title": "I built a dev tool! : r/rails",
+    "snippet": "I built a dev tool and deployed it (graphops.tech). The tool can save you days and days if you are trying to understand a codebase or would ...",
+    "link": "https://www.reddit.com/r/rails/comments/1sp9pr6/i_built_a_dev_tool/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
@@ -54,9 +48,15 @@
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "I built a dev tool! : r/rails",
-    "snippet": "I built a dev tool and deployed it (graphops.tech). The tool can save you days and days if you are trying to understand a codebase or would ...",
-    "link": "https://www.reddit.com/r/rails/comments/1sp9pr6/i_built_a_dev_tool/",
+    "title": "What's the one non-dev tool that actually made you a better ...",
+    "snippet": "We talk a lot about frameworks and IDEs, but lately, I’ve found that using a simple physical whiteboard/notebook for logic flows has saved me more time ...",
+    "link": "https://www.reddit.com/r/webdev/comments/1t4bulk/whats_the_one_nondev_tool_that_actually_made_you/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Built my first dev tool as a product designer and it fixes ...",
+    "snippet": "Built my first dev tool as a product designer and it fixes something annoying about AI + CSS. Resource. Hello folks, I've been lurking around ...",
+    "link": "https://www.reddit.com/r/ClaudeCode/comments/1rwvogo/built_my_first_dev_tool_as_a_product_designer_and/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
@@ -72,26 +72,26 @@
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "Prevent Calculator Syntax Error Crash? Xcode",
-    "snippet": "Is there a way to easily prevent this? . Additional info: This is the way ... Stanford iphone dev calculator example crashes on selecting operation · 2.",
-    "link": "https://stackoverflow.com/questions/9730308/prevent-calculator-syntax-error-crash-xcode",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
     "title": "Bear (@brainofbear) / Posts / X",
     "snippet": "Nice App Dev Calculator... I got an email today from Taylor Moore at ... I have to say I wish I cd justify your biz plan with my company: get the money ...",
     "link": "https://x.com/brainofbear",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "flii.dev Calculator: Convert flii.dev (flii) to Norwegian Krone (NOK)",
-    "snippet": "... flii.dev (flii) to Norwegian Krone (NOK) is now worth 0.0001401 — use flii.dev calculator ... Why Doesn't Norway Use the Euro? Norway does not use the euro ...",
-    "link": "https://www.bitget.com/price/flii.dev/nok",
+    "title": "Prevent Calculator Syntax Error Crash? Xcode",
+    "snippet": "Is there a way to easily prevent this? . Additional info: This is the way ... Stanford iphone dev calculator example crashes on selecting operation · 2.",
+    "link": "https://stackoverflow.com/questions/9730308/prevent-calculator-syntax-error-crash-xcode",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Convert FISH DEV (FISH) to Norwegian Krone (NOK)",
+    "snippet": "... FISH DEV (FISH) to Norwegian Krone (NOK) is now worth 0.{4}1650 — use FISH DEV calculator ... Why Doesn't Norway Use the Euro? Norway does not use the euro ...",
+    "link": "https://www.bitget.com/price/fish-dev/nok",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
     "title": "Free Tax Proration Calculator- Arrears vs Advance",
-    "snippet": "DevCalculator · 0 · devcalculator. Cost Calculators · Math & Physics · health ... Why doesn't my calculator match my settlement statement exactly?",
+    "snippet": "DevCalculator · 0 · devcalculator · Cost Calculators · Math & Physics · health ... Why doesn't my calculator match my settlement statement exactly ...",
     "link": "https://devcalculator.com/free-tax-proration-calculator/",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
@@ -102,21 +102,21 @@
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "Hello friends, I made a filter menu 🤩 Check bio for link 💓 . . . # ...",
+    "title": "Congratulations to Razvan who created the app Preplo for ...",
+    "snippet": "dev/calculator/ tap to unlock answer Want to play one hand of ... I wish more people knew about the scratch card, about the tailored ...",
+    "link": "https://www.instagram.com/p/DVO1BWjD8IP/",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Filter Menu 😋, Check bio for link💓, wait for the preloader🥳 . . . . ...",
     "snippet": "I wish you success #html #css #javascript #dev #calculator #dev #code. Please drop a like and follow @pi_miracle for more. more. January 2, 2023.",
-    "link": "https://www.instagram.com/p/Cg3THxioAh3/?hl=en",
+    "link": "https://www.instagram.com/reel/Cg3zEJ8oDM_/",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "making my own digital fridge with @repl.it i had this idea for a ...",
-    "snippet": "dev/calculator Want to play one hand of blackjack to reveal the answer? ... this is why i wish i had an iphone. June 17. Transcript. I've been ...",
-    "link": "https://www.instagram.com/reel/DXwaZT3AGi8/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Student Voices: 551 Reflections",
-    "snippet": "I wish we spent more time… Thank you for another amazing year of furthering my knowledge of Web Dev Design! I was very fond of our platform game we created ...",
-    "link": "https://www.myteklab.com/testimonials/",
+    "title": "How did I find out about Replit just now ?!#viralvideo #fy #app ...",
+    "snippet": "dev/calculator/ tap to unlock answer Want to play one hand of ... I wish I knew about replit sooner #sidehustle #vibecoding · 2 days ...",
+    "link": "https://www.instagram.com/reel/Da6HAuhRhxf/",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   }
 ]

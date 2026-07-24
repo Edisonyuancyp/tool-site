@@ -1,0 +1,51 @@
+{
+  "slug": "dev-ux-research-calculator",
+  "name": "Calculadora de Pesquisa UX para Desenvolvimento",
+  "tagline": "Estime os custos da sua pesquisa UX",
+  "description": "Calcule os custos associados à realização de pesquisas UX para ferramentas de desenvolvimento. Esta ferramenta é ideal para gerentes de produto e designers que buscam orçar seus esforços de pesquisa de forma eficaz.",
+  "metaTitle": "Calculadora de Pesquisa UX para Desenvolvimento – Orce Sua Pesquisa | Ferramenta Online Gratuita",
+  "metaDescription": "Estime facilmente os custos da sua pesquisa UX de graça, sem necessidade de cadastro.",
+  "keywords": [
+    "custo de pesquisa ux",
+    "calcular despesas",
+    "ferramentas de desenvolvimento",
+    "orçamento",
+    "gestão de produtos",
+    "calculadora de pesquisa ux para desenvolvimento ferramenta online gratuita",
+    "calculadora de pesquisa ux para desenvolvimento conversor navegador",
+    "calculadora de pesquisa ux para desenvolvimento ferramenta sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem necessidade de instalação",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "pesquisa ux costa rica",
+    "fantasia de halloween de pesquisador ux",
+    "pesquisa ux costco",
+    "salário de pesquisa ux",
+    "eventos de pesquisa ux",
+    "métodos de pesquisa ux e quando usá-los",
+    "exemplos de pesquisa ux",
+    "descrição de trabalho de pesquisa ux"
+  ],
+  "category": "Developer",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "Como calculo meus custos de pesquisa?",
+      "answer": "Insira suas horas estimadas e taxas horárias, e a calculadora fornecerá um custo total."
+    },
+    {
+      "question": "A ferramenta é gratuita para usar?",
+      "answer": "Sim, não há taxas ou necessidade de cadastro para usar esta ferramenta."
+    },
+    {
+      "question": "Posso ajustar as taxas horárias?",
+      "answer": "Sim, você pode facilmente ajustar as taxas horárias para diferentes membros da equipe envolvidos na pesquisa."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "character-counter"
+  ],
+  "variants": []
+}

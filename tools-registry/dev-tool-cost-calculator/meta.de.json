@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-cost-calculator",
+  "name": "Dev Tool Kostenrechner",
+  "tagline": "Schätzen Sie Ihre Ausgaben für Entwicklungstools",
+  "description": "Berechnen Sie die Gesamtkosten für die Nutzung verschiedener Entwicklungstools basierend auf Abonnementgebühren und Nutzungshäufigkeit. Dieses Tool ist perfekt für Freiberufler und Agenturen, die ihre Ausgaben effektiv budgetieren möchten.",
+  "metaTitle": "Dev Tool Kostenrechner – Budgetieren Sie Ihre Ausgaben | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie kostenlos Ihre Kosten für Entwicklungstools, keine Anmeldung erforderlich, mit sofortigen Ergebnissen.",
+  "keywords": [
+    "dev tool kosten",
+    "ausgaben berechnen",
+    "software budgetierung",
+    "entwicklungstools",
+    "freiberufler ausgaben",
+    "dev tool kostenrechner online tool kostenlos",
+    "dev tool kostenrechner converter browser",
+    "dev tool kostenrechner ohne installation",
+    "kostenloses entwickler tool",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes dev tool",
+    "kosten für die tool-entwicklung hsn-code",
+    "kosten für die tool-entwicklung",
+    "ai entwickler tool kostenvergleich",
+    "axe dev tools kosten",
+    "welches devops-tool ist gefragt",
+    "ausgaben berechnen app",
+    "ausgaben zwischen freunden berechnen",
+    "ausgaben beim Arbeiten von zu Hause berechnen"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Wie benutze ich diesen Rechner?",
+      "answer": "Geben Sie die Abonnementgebühren und die Nutzungshäufigkeit Ihrer Tools ein, und der Rechner liefert die Gesamtkosten."
+    },
+    {
+      "question": "Gibt es eine Begrenzung für die Anzahl der Tools?",
+      "answer": "Sie können so viele Tools hinzufügen, wie Sie benötigen, um Ihre Gesamtausgaben zu berechnen."
+    },
+    {
+      "question": "Kann ich meine Berechnungen speichern?",
+      "answer": "Derzeit ist das Speichern nicht verfügbar, aber wir arbeiten daran für zukünftige Versionen."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "api-response-time-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "dev-ux-research-calculator",
+  "name": "Dev UX Research Calculator",
+  "tagline": "Estimate your UX research costs",
+  "description": "Calculate the costs associated with conducting UX research for development tools. This tool is ideal for product managers and designers looking to budget their research efforts effectively.",
+  "metaTitle": "Dev UX Research Calculator – Budget Your Research | Free Online Tool",
+  "metaDescription": "Estimate your UX research costs easily for free, no signup required.",
+  "keywords": [
+    "ux research cost",
+    "calculate expenses",
+    "dev tools",
+    "budgeting",
+    "product management",
+    "dev ux research calculator online tool free",
+    "dev ux research calculator converter browser",
+    "dev ux research calculator no install dev tool",
+    "free developer tool",
+    "online utility",
+    "no install required",
+    "browser-based dev tool",
+    "ux research costa rica",
+    "ux researcher halloween costume",
+    "costco ux research",
+    "ux research salary",
+    "ux research events",
+    "ux research methods and when to use them",
+    "ux research examples",
+    "ux research job description"
+  ],
+  "category": "Developer",
+  "urlPath": "/tools/dev/dev-ux-research-calculator",
+  "icon": "🔍",
+  "faqs": [
+    {
+      "question": "How do I calculate my research costs?",
+      "answer": "Input your estimated hours and hourly rates, and the calculator will provide a total cost."
+    },
+    {
+      "question": "Is the tool free to use?",
+      "answer": "Yes, there are no fees or signups required to use this tool."
+    },
+    {
+      "question": "Can I adjust the hourly rates?",
+      "answer": "Yes, you can easily adjust the hourly rates for different team members involved in the research."
+    }
+  ],
+  "relatedTools": [
+    "budget-calculator",
+    "character-counter"
+  ],
+  "variants": [
+    {
+      "variantSlug": "team-research-variant",
+      "metaTitle": "Team Research Cost Calculator",
+      "metaDescription": "Calculate costs based on team involvement in UX research.",
+      "keywords": [
+        "team cost",
+        "UX research budgeting",
+        "product design"
+      ],
+      "defaultVariant": "team-research",
+      "headline": "Estimate the total cost of your UX research team efforts."
+    },
+    {
+      "variantSlug": "individual-research-variant",
+      "metaTitle": "Individual Research Cost Calculator",
+      "metaDescription": "Estimate costs for solo UX research projects.",
+      "keywords": [
+        "individual cost",
+        "UX research",
+        "freelancer budgeting"
+      ],
+      "defaultVariant": "individual-research",
+      "headline": "Calculate the cost of conducting UX research on your own."
+    }
+  ],
+  "seoContent": {
+    "h1Tendency": "fast Dev UX Research Calculator",
+    "painPoints": [
+      "How to dev ux research online without installing anything",
+      "Free Dev UX Research Calculator for developers",
+      "Quick dev ux research converter online",
+      "Best online Dev UX Research Calculator tool"
+    ],
+    "trustSignals": [
+      "Free",
+      "No signup",
+      "No ads",
+      "100% browser-based",
+      "Instant results"
+    ]
+  },
+  "seoBody": [
+    {
+      "heading": "How to Calculate Your UX Research Costs",
+      "body": "The primary keyword 'UX research cost' reflects the importance of this budgeting exercise. It enables product managers and designers to make informed decisions regarding their research initiatives. Understanding these costs will ultimately help in allocating appropriate resources and aligning your UX research efforts with overall project goals."
+    },
+    {
+      "heading": "Formula for Calculating UX Research Costs",
+      "body": "Additionally, it's important to account for any miscellaneous expenses such as travel, participant incentives, or marketing materials. By following this formula, you can ensure that your budget reflects the true cost of your UX research and helps facilitate effective decision-making."
+    },
+    {
+      "heading": "Example of UX Research Cost Calculation",
+      "body": "If you estimate tool costs at $200 and miscellaneous expenses at $100, the total would be: (1000) + (1050) + 200 + 100 = $2350. This example shows how important it is to account for all factors correctly, providing a clear picture of your research costs and supporting effective budgeting for your development tools."
+    },
+    {
+      "heading": "Practical Tips and Common Mistakes",
+      "body": "Common mistakes include forgetting to factor in all team members involved or overlooking tool costs that can add up significantly. Additionally, relying solely on averages for hourly rates without considering individual experience levels can skew your results. By being thorough and cautious in your calculations, you can create a more accurate budget for your UX research efforts."
+    }
+  ]
+}

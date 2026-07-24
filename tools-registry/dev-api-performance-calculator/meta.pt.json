@@ -1,0 +1,51 @@
+{
+  "slug": "dev-api-performance-calculator",
+  "name": "Calculadora de Desempenho de API Dev",
+  "tagline": "Avalie as métricas de desempenho da sua API",
+  "description": "Analise o desempenho da sua API com base nos tempos de resposta e nas taxas de requisição. Esta ferramenta ajuda desenvolvedores a otimizar suas APIs para melhor eficiência e experiência do usuário.",
+  "metaTitle": "Calculadora de Desempenho de API Dev – Otimize sua API | Ferramenta Online Gratuita",
+  "metaDescription": "Avalie as métricas de desempenho da sua API gratuitamente, sem cadastro e com resultados instantâneos.",
+  "keywords": [
+    "desempenho de api",
+    "calcular tempo de resposta",
+    "ferramenta de desenvolvimento",
+    "otimizar api",
+    "análise de api",
+    "calculadora de desempenho de api dev ferramenta online gratuita",
+    "calculadora de desempenho de api dev conversor navegador",
+    "calculadora de desempenho de api dev ferramenta de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "teste de desempenho de api",
+    "ferramentas de teste de desempenho de api",
+    "métricas de desempenho de api",
+    "teste de desempenho de api usando jmeter",
+    "otimização de desempenho de api",
+    "melhoria de desempenho de api",
+    "ferramentas de monitoramento de desempenho de api",
+    "teste de desempenho de api usando postman"
+  ],
+  "category": "Developer",
+  "icon": "⚡",
+  "faqs": [
+    {
+      "question": "Quais métricas posso analisar?",
+      "answer": "Você pode analisar tempos de resposta, taxas de requisição e taxas de erro para avaliar o desempenho da sua API."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, é completamente gratuita para usar, sem necessidade de cadastro."
+    },
+    {
+      "question": "Posso comparar várias APIs?",
+      "answer": "Você pode analisar várias APIs separadamente, mas não pode compará-las lado a lado neste momento."
+    }
+  ],
+  "relatedTools": [
+    "api-response-time-calculator",
+    "context-window-calculator"
+  ],
+  "variants": []
+}
