@@ -107,5 +107,28 @@
       "heading": "Practical Tips and Common Mistakes",
       "body": "Common mistakes include forgetting to factor in all team members involved or overlooking tool costs that can add up significantly. Additionally, relying solely on averages for hourly rates without considering individual experience levels can skew your results. By being thorough and cautious in your calculations, you can create a more accurate budget for your UX research efforts."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Dev UX Research Calculator Online Free – Free Online Dev UX Research Calculator",
+      "metaDescription": "Free online Dev UX Research Calculator — no install required. Estimate your UX research costs easily for free, no signup required.",
+      "h1": "Dev UX Research Calculator – Online Free",
+      "description": "Free online Dev UX Research Calculator — no install required."
+    },
+    {
+      "param": "javascript",
+      "metaTitle": "Dev UX Research Calculator JavaScript – Free Online Dev UX Research Calculator",
+      "metaDescription": "Dev UX Research Calculator reference for JavaScript developers. Estimate your UX research costs easily for free, no signup required.",
+      "h1": "Dev UX Research Calculator – JavaScript",
+      "description": "Dev UX Research Calculator reference for JavaScript developers."
+    },
+    {
+      "param": "python",
+      "metaTitle": "Dev UX Research Calculator Python – Free Online Dev UX Research Calculator",
+      "metaDescription": "Dev UX Research Calculator reference for Python developers. Estimate your UX research costs easily for free, no signup required.",
+      "h1": "Dev UX Research Calculator – Python",
+      "description": "Dev UX Research Calculator reference for Python developers."
+    }
   ]
 }
