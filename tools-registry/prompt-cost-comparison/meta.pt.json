@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-cost-comparison",
+  "name": "Comparação de Custos de Prompt",
+  "tagline": "Compare os custos de diferentes prompts",
+  "description": "Esta ferramenta permite que os usuários comparem os custos estimados de tokens de vários prompts em diferentes modelos de IA. Ideal para desenvolvedores que buscam otimizar seu uso e orçamento.",
+  "metaTitle": "Comparação de Custos de Prompt – Estime Custos | Ferramenta Online Gratuita",
+  "metaDescription": "Compare os custos de prompts entre modelos de IA gratuitamente. Resultados instantâneos, sem necessidade de cadastro.",
+  "keywords": [
+    "comparação de custos de prompt",
+    "estimador de custo de token",
+    "gestão de custos de IA",
+    "otimização de custos",
+    "engenharia de prompt",
+    "estimador de custo de token claude",
+    "estimador de custo de moeda",
+    "calculadora de custo de token",
+    "calculadora de custo de token openai",
+    "calculadora de custo de token gemini",
+    "calculadora de custo de token llm",
+    "calculadora de custo de token anthropic",
+    "ferramentas de gestão de custos de IA",
+    "gestão de custos de IA flexera",
+    "plataforma de gestão de custos de IA",
+    "gestão de despesas de IA",
+    "software de gestão de despesas de IA",
+    "ferramentas de gestão de despesas de IA",
+    "controle de custos de IA"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como eu uso esta ferramenta?",
+      "answer": "Basta inserir seus prompts e selecionar os modelos que você deseja comparar."
+    },
+    {
+      "question": "É realmente gratuito?",
+      "answer": "Sim, não há custo e não é necessário se cadastrar."
+    },
+    {
+      "question": "Quais modelos posso comparar?",
+      "answer": "Você pode comparar os custos de modelos como GPT, Claude e Gemini."
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}

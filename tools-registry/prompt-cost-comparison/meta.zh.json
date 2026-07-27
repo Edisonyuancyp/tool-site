@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-cost-comparison",
+  "name": "提示成本比较",
+  "tagline": "比较不同提示的成本",
+  "description": "该工具允许用户比较不同AI模型下各种提示的估算令牌成本。非常适合希望优化使用和预算的开发者。",
+  "metaTitle": "提示成本比较 – 估算成本 | 免费在线工具",
+  "metaDescription": "免费比较AI模型的提示成本。即时结果，无需注册。",
+  "keywords": [
+    "提示成本比较",
+    "令牌成本估算器",
+    "AI成本管理",
+    "成本优化",
+    "提示工程",
+    "令牌成本估算器 Claude",
+    "币成本估算器",
+    "令牌成本计算器",
+    "令牌成本计算器 OpenAI",
+    "令牌成本计算器 Gemini",
+    "令牌成本计算器 LLM",
+    "令牌成本计算器 Anthropic",
+    "AI成本管理工具",
+    "AI成本管理 Flexera",
+    "AI成本管理平台",
+    "AI费用管理",
+    "AI费用管理软件",
+    "AI费用管理工具",
+    "AI成本控制"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "我该如何使用这个工具？",
+      "answer": "只需输入您的提示并选择您想比较的模型。"
+    },
+    {
+      "question": "这真的免费吗？",
+      "answer": "是的，没有费用，也无需注册。"
+    },
+    {
+      "question": "我可以比较哪些模型？",
+      "answer": "您可以比较GPT、Claude和Gemini等模型的成本。"
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}

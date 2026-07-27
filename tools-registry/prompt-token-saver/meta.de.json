@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-saver",
+  "name": "Prompt Token Saver",
+  "tagline": "Optimieren Sie Ihre Eingabeaufforderungen, um Token zu sparen",
+  "description": "Dieses Tool hilft Nutzern, ihre KI-Eingabeaufforderungen zu verfeinern, um den Tokenverbrauch zu reduzieren, ohne den Kontext zu verlieren. Ideal für Prompt-Engineers und Content-Ersteller, die Kosten effektiv verwalten möchten.",
+  "metaTitle": "Prompt Token Saver – Optimieren Sie Ihre Eingabeaufforderungen | Kostenloses Online-Tool",
+  "metaDescription": "Nutzen Sie unser kostenloses Tool, um durch die Optimierung Ihrer Eingabeaufforderungen Token zu sparen. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
+  "keywords": [
+    "prompt token saver",
+    "eingabeaufforderungen optimieren",
+    "tokenverbrauch reduzieren",
+    "KI-Kostenmanagement",
+    "prompt engineering",
+    "refresh tokens vs access tokens",
+    "token-system beispiele",
+    "eingabeaufforderungen für chatgpt optimieren",
+    "eingabeaufforderungen für gpt-5 optimieren",
+    "eingabeaufforderungen openai optimieren",
+    "eingabeaufforderungen für claude optimieren",
+    "eingabeaufforderungen für die Text-zu-Bild-Generierung optimieren",
+    "eingabeaufforderungen für die Generierung strukturierter Ausgaben optimieren",
+    "eingabeaufforderungen von Kunst bis Technik optimieren",
+    "tokenverbrauch claude code reduzieren",
+    "tokenverbrauch claude code github reduzieren",
+    "tokenverbrauch claude reduzieren",
+    "tokenverbrauch github reduzieren",
+    "tokenverbrauch github copilot reduzieren",
+    "tokenverbrauch codex reduzieren"
+  ],
+  "category": "AI",
+  "icon": "💡",
+  "faqs": [
+    {
+      "question": "Wie funktioniert dieses Tool?",
+      "answer": "Es analysiert Ihre Eingabeaufforderung und schlägt Änderungen vor, um den Tokenverbrauch zu minimieren."
+    },
+    {
+      "question": "Ist es wirklich kostenlos?",
+      "answer": "Ja, es gibt keine versteckten Gebühren oder erforderlichen Anmeldungen."
+    },
+    {
+      "question": "Kann ich es für jedes KI-Modell verwenden?",
+      "answer": "Ja, es funktioniert mit verschiedenen Modellen wie GPT, Claude und anderen."
+    }
+  ],
+  "relatedTools": [
+    "prompt-formatter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

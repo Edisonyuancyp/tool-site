@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-saver",
+  "name": "提示令牌节省器",
+  "tagline": "优化您的提示以节省令牌",
+  "description": "该工具帮助用户优化他们的AI提示，以减少令牌使用而不失去上下文。非常适合希望有效管理成本的提示工程师和内容创作者。",
+  "metaTitle": "提示令牌节省器 – 优化您的提示 | 免费在线工具",
+  "metaDescription": "使用我们的免费工具通过优化您的提示来节省令牌。即时结果，无需注册。",
+  "keywords": [
+    "提示令牌节省器",
+    "优化提示",
+    "减少令牌使用",
+    "AI成本管理",
+    "提示工程",
+    "刷新令牌与访问令牌",
+    "令牌系统示例",
+    "为ChatGPT优化提示",
+    "为GPT-5优化提示",
+    "为OpenAI优化提示",
+    "为Claude优化提示",
+    "为图像生成优化提示",
+    "为生成结构化输出优化提示",
+    "从艺术到工程优化提示",
+    "减少Claude代码的令牌使用",
+    "减少Claude代码的令牌使用GitHub",
+    "减少Claude的令牌使用",
+    "减少GitHub的令牌使用",
+    "减少GitHub Copilot的令牌使用",
+    "减少Codex的令牌使用"
+  ],
+  "category": "AI",
+  "icon": "💡",
+  "faqs": [
+    {
+      "question": "这个工具是如何工作的？",
+      "answer": "它分析您的提示并建议修改以最小化令牌使用。"
+    },
+    {
+      "question": "真的免费吗？",
+      "answer": "是的，没有隐藏费用或注册要求。"
+    },
+    {
+      "question": "我可以用于任何AI模型吗？",
+      "answer": "可以，它适用于多种模型，如GPT、Claude等。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-formatter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

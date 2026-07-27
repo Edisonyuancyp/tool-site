@@ -1,0 +1,50 @@
+{
+  "slug": "ai-prompt-variable-generator",
+  "name": "AI Prompt Variable Generator",
+  "tagline": "Generieren Sie dynamische Variablen für Eingabeaufforderungen",
+  "description": "Dieses Tool ermöglicht es Benutzern, dynamische Variablen zu erstellen, um ihre KI-Eingabeaufforderungen zu verbessern. Ideal für Entwickler und Inhaltsanbieter, die Variabilität in ihre Interaktionen einbringen möchten.",
+  "metaTitle": "AI Prompt Variable Generator – Dynamische Variablen | Kostenloses Online-Tool",
+  "metaDescription": "Generieren Sie dynamische Variablen für KI-Eingabeaufforderungen mit unserem kostenlosen Tool. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
+  "keywords": [
+    "ki eingabeaufforderungsvariablen",
+    "dynamische variablen",
+    "eingabeaufforderungsengineering",
+    "eingabeaufforderungen verbessern",
+    "variablen generator",
+    "dynamische variablen python",
+    "dynamische variablen c++",
+    "dynamische variablen in postman",
+    "dynamische variablen in elevenlabs",
+    "dynamische variablen in php",
+    "dynamische variablen vapi",
+    "dynamische variablen figma",
+    "kurs für eingabeaufforderungsengineering",
+    "jobs im eingabeaufforderungsengineering",
+    "zertifizierung im eingabeaufforderungsengineering",
+    "gehalt im eingabeaufforderungsengineering",
+    "leitfaden für eingabeaufforderungsengineering",
+    "bedeutung von eingabeaufforderungsengineering",
+    "eingabeaufforderungsengineering ki"
+  ],
+  "category": "AI",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "Was sind Eingabeaufforderungsvariablen?",
+      "answer": "Eingabeaufforderungsvariablen sind Platzhalter, die durch dynamische Inhalte ersetzt werden können, um die Interaktion zu verbessern."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos zu nutzen?",
+      "answer": "Ja, Sie können es kostenlos ohne Registrierung nutzen."
+    },
+    {
+      "question": "Kann ich die Variablen anpassen?",
+      "answer": "Absolut! Sie können Ihre eigenen Variablen basierend auf Ihren Bedürfnissen definieren."
+    }
+  ],
+  "relatedTools": [
+    "prompt-formatter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

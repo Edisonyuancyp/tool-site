@@ -14,6 +14,9 @@
 /tools/ai-model-comparator /tools/ai/ai-model-comparator 301
 /tools/detailed-ai-model-comparator /tools/ai/detailed-ai-model-comparator 301
 /tools/simple-ai-model-comparator /tools/ai/simple-ai-model-comparator 301
+/tools/ai-prompt-variable-generator /tools/ai/ai-prompt-variable-generator 301
+/tools/basic-variable-generator /tools/ai/basic-variable-generator 301
+/tools/advanced-variable-generator /tools/ai/advanced-variable-generator 301
 /tools/amazon-acos-calculator /tools/ecommerce/amazon-acos-calculator 301
 /tools/amazon-acos-calculator-break-even /tools/ecommerce/amazon-acos-calculator-break-even 301
 /tools/api-response-time-calculator /tools/dev/api-response-time-calculator 301
@@ -389,6 +392,9 @@
 /tools/prompt-cost-calculator /tools/ai/prompt-cost-calculator 301
 /tools/detailed-cost-analysis /tools/ai/detailed-cost-analysis 301
 /tools/simple-cost-estimator /tools/ai/simple-cost-estimator 301
+/tools/prompt-cost-comparison /tools/ai/prompt-cost-comparison 301
+/tools/detailed-cost-comparison /tools/ai/detailed-cost-comparison 301
+/tools/quick-cost-comparison /tools/ai/quick-cost-comparison 301
 /tools/prompt-optimizer-tool /tools/ai/prompt-optimizer-tool 301
 /tools/contextual-prompt-optimizer /tools/ai/contextual-prompt-optimizer 301
 /tools/general-prompt-optimizer /tools/ai/general-prompt-optimizer 301
@@ -400,9 +406,11 @@
 /tools/prompt-token-optimizer /tools/ai/prompt-token-optimizer 301
 /tools/basic-optimization /tools/ai/basic-optimization 301
 /tools/advanced-optimization /tools/ai/advanced-optimization 301
+/tools/prompt-token-saver /tools/ai/prompt-token-saver 301
+/tools/advanced-token-saver /tools/ai/advanced-token-saver 301
+/tools/basic-token-saver /tools/ai/basic-token-saver 301
 /tools/prompt-variable-generator /tools/ai/prompt-variable-generator 301
 /tools/advanced-variable-creator /tools/ai/advanced-variable-creator 301
-/tools/basic-variable-generator /tools/ai/basic-variable-generator 301
 /tools/prompt-version-comparator /tools/ai/prompt-version-comparator 301
 /tools/basic-comparison-tool /tools/ai/basic-comparison-tool 301
 /tools/advanced-comparison-tool /tools/ai/advanced-comparison-tool 301

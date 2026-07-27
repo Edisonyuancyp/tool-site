@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-token-saver",
+  "name": "Prompt Token Saver",
+  "tagline": "Otimize seus prompts para economizar tokens",
+  "description": "Esta ferramenta ajuda os usuários a refinarem seus prompts de IA para reduzir o uso de tokens sem perder o contexto. Ideal para engenheiros de prompts e criadores de conteúdo que buscam gerenciar custos de forma eficaz.",
+  "metaTitle": "Prompt Token Saver – Otimize Seus Prompts | Ferramenta Online Gratuita",
+  "metaDescription": "Use nossa ferramenta gratuita para economizar tokens otimizando seus prompts. Resultados instantâneos, sem necessidade de cadastro.",
+  "keywords": [
+    "economizador de tokens de prompt",
+    "otimizar prompts",
+    "reduzir uso de tokens",
+    "gestão de custos de IA",
+    "engenharia de prompts",
+    "tokens de atualização vs tokens de acesso",
+    "exemplos de sistema de tokens",
+    "otimizar prompts para chatgpt",
+    "otimizar prompts para gpt-5",
+    "otimizar prompts openai",
+    "otimizar prompts para claude",
+    "otimizando prompts para geração de texto para imagem",
+    "otimizando prompts para gerar saídas estruturadas",
+    "otimizando prompts de arte para engenharia",
+    "reduzir uso de tokens claude code",
+    "reduzir uso de tokens claude code github",
+    "reduzir uso de tokens claude",
+    "reduzir uso de tokens github",
+    "reduzir uso de tokens github copilot",
+    "reduzir uso de tokens codex"
+  ],
+  "category": "AI",
+  "icon": "💡",
+  "faqs": [
+    {
+      "question": "Como esta ferramenta funciona?",
+      "answer": "Ela analisa seu prompt e sugere modificações para minimizar o uso de tokens."
+    },
+    {
+      "question": "É realmente grátis?",
+      "answer": "Sim, não há taxas ocultas ou necessidade de cadastro."
+    },
+    {
+      "question": "Posso usá-la para qualquer modelo de IA?",
+      "answer": "Sim, ela funciona com vários modelos como GPT, Claude e outros."
+    }
+  ],
+  "relatedTools": [
+    "prompt-formatter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

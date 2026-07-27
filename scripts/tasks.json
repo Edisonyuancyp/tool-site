@@ -4877,5 +4877,183 @@
         "headline": "Plan intricate integrations for enhanced team collaboration."
       }
     ]
+  },
+  {
+    "slug": "prompt-token-saver",
+    "name": "Prompt Token Saver",
+    "tagline": "Optimize your prompts to save tokens",
+    "description": "This tool helps users refine their AI prompts to reduce token usage without losing context. Ideal for prompt engineers and content creators looking to manage costs effectively.",
+    "metaTitle": "Prompt Token Saver – Optimize Your Prompts | Free Online Tool",
+    "metaDescription": "Use our free tool to save tokens by optimizing your prompts. Instant results, no signup required.",
+    "keywords": [
+      "prompt token saver",
+      "optimize prompts",
+      "reduce token usage",
+      "AI cost management",
+      "prompt engineering"
+    ],
+    "category": "AI",
+    "icon": "💡",
+    "faqs": [
+      {
+        "question": "How does this tool work?",
+        "answer": "It analyzes your prompt and suggests modifications to minimize token usage."
+      },
+      {
+        "question": "Is it really free?",
+        "answer": "Yes, there are no hidden fees or signups required."
+      },
+      {
+        "question": "Can I use it for any AI model?",
+        "answer": "Yes, it works with various models like GPT, Claude, and others."
+      }
+    ],
+    "relatedTools": [
+      "prompt-formatter",
+      "prompt-cleaner"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-token-saver",
+        "metaTitle": "Advanced Prompt Token Saver",
+        "metaDescription": "Get advanced suggestions for prompt optimization.",
+        "keywords": [
+          "advanced prompt optimization",
+          "AI token reduction",
+          "cost-saving prompts"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Unlock advanced features to save even more tokens."
+      },
+      {
+        "variantSlug": "basic-token-saver",
+        "metaTitle": "Basic Prompt Token Saver",
+        "metaDescription": "Use basic features for quick prompt optimization.",
+        "keywords": [
+          "basic prompt optimization",
+          "simple token saver"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Quick and easy way to optimize your prompts."
+      }
+    ]
+  },
+  {
+    "slug": "ai-prompt-variable-generator",
+    "name": "AI Prompt Variable Generator",
+    "tagline": "Generate dynamic variables for prompts",
+    "description": "This tool allows users to create dynamic variables to enhance their AI prompts. Perfect for developers and content creators looking to add variability to their interactions.",
+    "metaTitle": "AI Prompt Variable Generator – Dynamic Variables | Free Online Tool",
+    "metaDescription": "Generate dynamic variables for AI prompts with our free tool. Instant results, no signup needed.",
+    "keywords": [
+      "AI prompt variables",
+      "dynamic variables",
+      "prompt engineering",
+      "enhance prompts",
+      "variable generator"
+    ],
+    "category": "AI",
+    "icon": "🔧",
+    "faqs": [
+      {
+        "question": "What are prompt variables?",
+        "answer": "Prompt variables are placeholders that can be replaced with dynamic content to enhance interaction."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, you can use it for free without any registration."
+      },
+      {
+        "question": "Can I customize the variables?",
+        "answer": "Absolutely! You can define your own variables based on your needs."
+      }
+    ],
+    "relatedTools": [
+      "prompt-formatter",
+      "prompt-cleaner"
+    ],
+    "variants": [
+      {
+        "variantSlug": "basic-variable-generator",
+        "metaTitle": "Basic Variable Generator",
+        "metaDescription": "Generate simple variables for straightforward prompts.",
+        "keywords": [
+          "basic prompt variables",
+          "simple generator"
+        ],
+        "defaultVariant": "basic-key",
+        "headline": "Quickly create basic variables for your prompts."
+      },
+      {
+        "variantSlug": "advanced-variable-generator",
+        "metaTitle": "Advanced Variable Generator",
+        "metaDescription": "Create complex variables for enhanced prompts.",
+        "keywords": [
+          "advanced variables",
+          "complex prompt generation"
+        ],
+        "defaultVariant": "advanced-key",
+        "headline": "Unlock advanced features for generating complex variables."
+      }
+    ]
+  },
+  {
+    "slug": "prompt-cost-comparison",
+    "name": "Prompt Cost Comparison",
+    "tagline": "Compare costs of different prompts",
+    "description": "This tool allows users to compare the estimated token costs of various prompts across different AI models. Ideal for developers seeking to optimize their usage and budget.",
+    "metaTitle": "Prompt Cost Comparison – Estimate Costs | Free Online Tool",
+    "metaDescription": "Compare prompt costs across AI models for free. Instant results, no signup required.",
+    "keywords": [
+      "prompt cost comparison",
+      "token cost estimator",
+      "AI cost management",
+      "cost optimization",
+      "prompt engineering"
+    ],
+    "category": "AI",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How do I use this tool?",
+        "answer": "Simply enter your prompts and select the models you want to compare."
+      },
+      {
+        "question": "Is it really free?",
+        "answer": "Yes, there’s no cost and no need to sign up."
+      },
+      {
+        "question": "Which models can I compare?",
+        "answer": "You can compare costs for models like GPT, Claude, and Gemini."
+      }
+    ],
+    "relatedTools": [
+      "ai-cost-comparator",
+      "llm-cost-calculator"
+    ],
+    "variants": [
+      {
+        "variantSlug": "detailed-cost-comparison",
+        "metaTitle": "Detailed Prompt Cost Comparison",
+        "metaDescription": "Get detailed insights on prompt costs.",
+        "keywords": [
+          "detailed cost comparison",
+          "in-depth analysis"
+        ],
+        "defaultVariant": "detailed-key",
+        "headline": "Access in-depth analysis for better budgeting."
+      },
+      {
+        "variantSlug": "quick-cost-comparison",
+        "metaTitle": "Quick Prompt Cost Comparison",
+        "metaDescription": "Get quick estimates for prompt costs.",
+        "keywords": [
+          "quick estimates",
+          "fast comparison"
+        ],
+        "defaultVariant": "quick-key",
+        "headline": "Fast and simple way to compare prompt costs."
+      }
+    ]
   }
 ]

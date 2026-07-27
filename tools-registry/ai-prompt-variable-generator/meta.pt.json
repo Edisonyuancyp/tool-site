@@ -1,0 +1,50 @@
+{
+  "slug": "ai-prompt-variable-generator",
+  "name": "Gerador de Variáveis de Prompt de IA",
+  "tagline": "Gere variáveis dinâmicas para prompts",
+  "description": "Esta ferramenta permite que os usuários criem variáveis dinâmicas para aprimorar seus prompts de IA. Perfeito para desenvolvedores e criadores de conteúdo que buscam adicionar variabilidade às suas interações.",
+  "metaTitle": "Gerador de Variáveis de Prompt de IA – Variáveis Dinâmicas | Ferramenta Online Gratuita",
+  "metaDescription": "Gere variáveis dinâmicas para prompts de IA com nossa ferramenta gratuita. Resultados instantâneos, sem necessidade de cadastro.",
+  "keywords": [
+    "variáveis de prompt de ia",
+    "variáveis dinâmicas",
+    "engenharia de prompt",
+    "aprimorar prompts",
+    "gerador de variáveis",
+    "variáveis dinâmicas python",
+    "variáveis dinâmicas c++",
+    "variáveis dinâmicas no postman",
+    "variáveis dinâmicas no elevenlabs",
+    "variáveis dinâmicas em php",
+    "variáveis dinâmicas vapi",
+    "variáveis dinâmicas figma",
+    "curso de engenharia de prompt",
+    "empregos em engenharia de prompt",
+    "certificação em engenharia de prompt",
+    "salário em engenharia de prompt",
+    "guia de engenharia de prompt",
+    "significado de engenharia de prompt",
+    "engenharia de prompt ia"
+  ],
+  "category": "AI",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "O que são variáveis de prompt?",
+      "answer": "Variáveis de prompt são espaços reservados que podem ser substituídos por conteúdo dinâmico para aprimorar a interação."
+    },
+    {
+      "question": "Esta ferramenta é gratuita para usar?",
+      "answer": "Sim, você pode usá-la gratuitamente sem necessidade de registro."
+    },
+    {
+      "question": "Posso personalizar as variáveis?",
+      "answer": "Com certeza! Você pode definir suas próprias variáveis com base em suas necessidades."
+    }
+  ],
+  "relatedTools": [
+    "prompt-formatter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "prompt-cost-comparison",
+  "name": "Prompt Kostenvergleich",
+  "tagline": "Vergleichen Sie die Kosten verschiedener Prompts",
+  "description": "Dieses Tool ermöglicht es Nutzern, die geschätzten Token-Kosten verschiedener Prompts über unterschiedliche KI-Modelle hinweg zu vergleichen. Ideal für Entwickler, die ihre Nutzung und ihr Budget optimieren möchten.",
+  "metaTitle": "Prompt Kostenvergleich – Kosten schätzen | Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie kostenlos die Prompt-Kosten über KI-Modelle. Sofortige Ergebnisse, keine Anmeldung erforderlich.",
+  "keywords": [
+    "prompt kostenvergleich",
+    "token kosten schätzer",
+    "ki kostenmanagement",
+    "kostenoptimierung",
+    "prompt engineering",
+    "token kosten schätzer claude",
+    "coin kosten schätzer",
+    "token kostenrechner",
+    "token kostenrechner openai",
+    "token kostenrechner gemini",
+    "token kostenrechner llm",
+    "token kostenrechner anthropic",
+    "ki kostenmanagement tools",
+    "ki kostenmanagement flexera",
+    "ki kostenmanagement plattform",
+    "ki ausgabenmanagement",
+    "ki ausgabenmanagement software",
+    "ki ausgabenmanagement tools",
+    "ki kostenkontrolle"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Wie benutze ich dieses Tool?",
+      "answer": "Geben Sie einfach Ihre Prompts ein und wählen Sie die Modelle aus, die Sie vergleichen möchten."
+    },
+    {
+      "question": "Ist es wirklich kostenlos?",
+      "answer": "Ja, es fallen keine Kosten an und eine Anmeldung ist nicht erforderlich."
+    },
+    {
+      "question": "Welche Modelle kann ich vergleichen?",
+      "answer": "Sie können die Kosten für Modelle wie GPT, Claude und Gemini vergleichen."
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}

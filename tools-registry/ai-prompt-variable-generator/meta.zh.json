@@ -1,0 +1,50 @@
+{
+  "slug": "ai-prompt-variable-generator",
+  "name": "AI Prompt Variable Generator",
+  "tagline": "生成动态变量以增强提示",
+  "description": "此工具允许用户创建动态变量，以增强他们的AI提示。非常适合希望为互动增加变数的开发者和内容创作者。",
+  "metaTitle": "AI Prompt Variable Generator – 动态变量 | 免费在线工具",
+  "metaDescription": "使用我们的免费工具生成AI提示的动态变量。即时结果，无需注册。",
+  "keywords": [
+    "ai 提示变量",
+    "动态变量",
+    "提示工程",
+    "增强提示",
+    "变量生成器",
+    "动态变量 python",
+    "动态变量 c++",
+    "动态变量 postman",
+    "动态变量 elevenlabs",
+    "动态变量 php",
+    "动态变量 vapi",
+    "动态变量 figma",
+    "提示工程课程",
+    "提示工程工作",
+    "提示工程认证",
+    "提示工程薪资",
+    "提示工程指南",
+    "提示工程含义",
+    "提示工程 ai"
+  ],
+  "category": "AI",
+  "icon": "🔧",
+  "faqs": [
+    {
+      "question": "什么是提示变量？",
+      "answer": "提示变量是可以用动态内容替换的占位符，以增强互动。"
+    },
+    {
+      "question": "这个工具是免费使用的吗？",
+      "answer": "是的，您可以免费使用，无需任何注册。"
+    },
+    {
+      "question": "我可以自定义变量吗？",
+      "answer": "当然可以！您可以根据自己的需求定义自己的变量。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-formatter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}
