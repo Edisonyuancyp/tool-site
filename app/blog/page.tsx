@@ -160,6 +160,46 @@ const POSTS = [
     tag: "Auto",
     readTime: "3 min read",
   },
+  {
+    slug: "how-to-optimize-ai-prompts-to-save-tokens",
+    title: "How can I optimize my AI prompts to save tokens?",
+    excerpt: "Learn how to optimize your AI prompts to save tokens with our free tool. Maximize output quality while minimizing token usage.",
+    date: "2026-07-28",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "calculate-amazon-acos-for-better-ad-profitability",
+    title: "How to Calculate Amazon ACoS for Better Ad Profitability",
+    excerpt: "Learn how to calculate your Amazon ACoS for better ad profitability using our free Amazon ACoS calculator tool.",
+    date: "2026-07-28",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-manage-token-usage-in-ai-prompts",
+    title: "How can I effectively manage token usage in AI prompts?",
+    excerpt: "Discover how to manage token usage in AI prompts effectively. Use our free token splitter tool for optimal prompt breakdown.",
+    date: "2026-07-28",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-split-large-text-into-token-chunks",
+    title: "How can I split large text into token chunks for AI applications?",
+    excerpt: "Learn how to split large text into token chunks for AI applications with our free Token Splitter Tool.",
+    date: "2026-07-28",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "predict-ai-costs-for-token-usage",
+    title: "How can I predict AI costs for my app's token usage?",
+    excerpt: "Learn how to predict AI costs for your app's token usage with our free tool.",
+    date: "2026-07-28",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
 ];
 
 export default function BlogPage() {
