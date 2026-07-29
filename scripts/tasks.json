@@ -5055,5 +5055,65 @@
         "headline": "Fast and simple way to compare prompt costs."
       }
     ]
+  },
+  {
+    "slug": "title-optimizer",
+    "name": "Title Optimizer",
+    "tagline": "Generate compelling titles instantly",
+    "description": "Create SEO-friendly titles that attract clicks and improve rankings. Perfect for SEOs and content creators looking for quick title suggestions.",
+    "metaTitle": "SEO Title Generator – Title Optimization | Free Online Tool",
+    "metaDescription": "Generate SEO-optimized titles for free with no signup and instant results. Enhance your content's visibility with our title optimizer.",
+    "keywords": [
+      "SEO title generator",
+      "title optimization tool",
+      "generate titles",
+      "SEO tools",
+      "title suggestions"
+    ],
+    "category": "SEO",
+    "icon": "📝",
+    "faqs": [
+      {
+        "question": "How does this tool work?",
+        "answer": "Input your keywords or topic, and the tool generates multiple optimized titles for you."
+      },
+      {
+        "question": "Is it really free?",
+        "answer": "Yes, this tool is completely free to use with no signup required."
+      },
+      {
+        "question": "Can I use it for any type of content?",
+        "answer": "Absolutely! It's designed for blogs, articles, and more."
+      }
+    ],
+    "relatedTools": [
+      "meta-description-generator",
+      "keyword-density-checker"
+    ],
+    "variants": [
+      {
+        "variantSlug": "advanced-title-optimizer",
+        "metaTitle": "Advanced Title Optimizer – SEO Titles",
+        "metaDescription": "Generate advanced SEO titles with tailored suggestions.",
+        "keywords": [
+          "advanced title generator",
+          "SEO title suggestions",
+          "optimize titles"
+        ],
+        "defaultVariant": "variant-key",
+        "headline": "Explore advanced features for optimized title generation."
+      },
+      {
+        "variantSlug": "simple-title-optimizer",
+        "metaTitle": "Simple Title Optimizer – Quick Title Ideas",
+        "metaDescription": "Get quick title ideas without complex options.",
+        "keywords": [
+          "quick title generator",
+          "simple title tool"
+        ],
+        "defaultVariant": "variant-key-2",
+        "headline": "Fast and simple title generation for immediate use."
+      }
+    ]
   }
 ]

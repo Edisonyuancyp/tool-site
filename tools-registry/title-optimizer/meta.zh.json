@@ -1,0 +1,51 @@
+{
+  "slug": "title-optimizer",
+  "name": "标题优化器",
+  "tagline": "瞬间生成引人注目的标题",
+  "description": "创建吸引点击并提升排名的SEO友好标题。非常适合寻求快速标题建议的SEO专家和内容创作者。",
+  "metaTitle": "SEO标题生成器 – 标题优化 | 免费在线工具",
+  "metaDescription": "免费生成SEO优化标题，无需注册，立即获得结果。通过我们的标题优化器提升您内容的可见性。",
+  "keywords": [
+    "seo标题生成器",
+    "标题优化工具",
+    "生成标题",
+    "seo工具",
+    "标题建议",
+    "标题优化器",
+    "youtube标题优化器",
+    "ebay标题优化器",
+    "seo标题优化器",
+    "免费ebay标题优化器",
+    "标题生成优化器",
+    "产品标题优化器",
+    "etsy标题优化器",
+    "免费标题生成器",
+    "免费ebay标题生成器",
+    "免费ebay标题优化器",
+    "seo标题生成器youtube",
+    "seo标题生成器fatjoe",
+    "免费seo标题生成器",
+    "博客用seo标题生成器"
+  ],
+  "category": "SEO",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "这个工具是如何工作的？",
+      "answer": "输入您的关键词或主题，工具将为您生成多个优化标题。"
+    },
+    {
+      "question": "真的免费吗？",
+      "answer": "是的，这个工具完全免费使用，无需注册。"
+    },
+    {
+      "question": "我可以用于任何类型的内容吗？",
+      "answer": "当然可以！它专为博客、文章等设计。"
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "keyword-density-checker"
+  ],
+  "variants": []
+}
