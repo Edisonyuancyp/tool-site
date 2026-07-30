@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-07-23. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-07-30. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -22,15 +22,18 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - AI Cost Comparator: https://getfastcalc.com/tools/ai-cost-comparator — Compare costs across AI models
 - AI Image Cost Calculator: https://getfastcalc.com/tools/ai-image-cost-calculator — Calculate costs for AI-generated images.
 - AI Model Comparator: https://getfastcalc.com/tools/ai-model-comparator — Compare different AI models side by side.
+- AI Prompt Variable Generator: https://getfastcalc.com/tools/ai-prompt-variable-generator — Generate dynamic variables for prompts
 - Context Window Calculator: https://getfastcalc.com/tools/context-window-calculator — Optimize your AI prompt context.
 - Context Window Optimizer: https://getfastcalc.com/tools/context-window-optimizer — Maximize your AI's context window usage.
 - Prompt Cleaner: https://getfastcalc.com/tools/prompt-cleaner — Clean and optimize your AI prompts.
 - Prompt Cleaner Tool: https://getfastcalc.com/tools/prompt-cleaner-tool — Refine your prompts for clarity and impact.
 - Prompt Cost Calculator: https://getfastcalc.com/tools/prompt-cost-calculator — Estimate your AI prompt costs quickly.
+- Prompt Cost Comparison: https://getfastcalc.com/tools/prompt-cost-comparison — Compare costs of different prompts
 - AI Prompt Optimizer Tool: https://getfastcalc.com/tools/prompt-optimizer-tool — Enhance your prompts for better results
 - Prompt Token Cost Calculator: https://getfastcalc.com/tools/prompt-token-cost-calculator — Estimate your prompt's token cost easily.
 - Prompt Token Counter: https://getfastcalc.com/tools/prompt-token-counter — Count tokens in your prompts easily
 - Prompt Token Optimizer: https://getfastcalc.com/tools/prompt-token-optimizer — Optimize prompts to save tokens
+- Prompt Token Saver: https://getfastcalc.com/tools/prompt-token-saver — Optimize your prompts to save tokens
 - Prompt Variable Generator: https://getfastcalc.com/tools/prompt-variable-generator — Create dynamic variables for your prompts.
 - Prompt Version Comparator: https://getfastcalc.com/tools/prompt-version-comparator — Compare different prompt versions
 - Prompt Version Compare: https://getfastcalc.com/tools/prompt-version-compare — Compare different versions of your prompts.
@@ -87,6 +90,7 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - CSS Grid Layout Calculator: https://getfastcalc.com/tools/dev/css-grid-calculator — Design responsive grids effortlessly.
 - CSS Unit Converter: https://getfastcalc.com/tools/dev/css-unit-converter — Convert px to rem, em, vw and more — instant CSS unit calculations
 - CSS Variables Generator: https://getfastcalc.com/tools/dev/css-variables-generator — Build a custom color palette and export ready-to-use CSS variables and Tailwind config
+- Dev API Performance Calculator: https://getfastcalc.com/tools/dev/dev-api-performance-calculator — Evaluate your API performance metrics
 - Dev Cost Estimator: https://getfastcalc.com/tools/dev/dev-cost-estimator — Estimate development project costs.
 - Dev Dependency Analyzer: https://getfastcalc.com/tools/dev/dev-dependency-analyzer — Analyze project dependencies efficiently.
 - Dev Education Cost Calculator: https://getfastcalc.com/tools/dev/dev-education-cost-calculator — Estimate training costs for developers
@@ -95,9 +99,12 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Dev Security Risk Calculator: https://getfastcalc.com/tools/dev/dev-security-risk-calculator — Evaluate security risks in your projects.
 - Dev Time Tracking Calculator: https://getfastcalc.com/tools/dev/dev-time-tracking-calculator — Track your development time efficiently.
 - Dev Tool Comparison Calculator: https://getfastcalc.com/tools/dev/dev-tool-comparison-calculator — Compare multiple development tools side by side.
+- Dev Tool Cost Calculator: https://getfastcalc.com/tools/dev/dev-tool-cost-calculator — Estimate your development tool expenses
 - Dev Tool Efficiency Calculator: https://getfastcalc.com/tools/dev/dev-tool-efficiency-calculator — Measure your development tool effectiveness.
+- Dev Tool Integration Planner: https://getfastcalc.com/tools/dev/dev-tool-integration-planner — Plan your tool integrations effectively
 - Dev Tool Performance Calculator: https://getfastcalc.com/tools/dev/dev-tool-performance-calculator — Measure your dev tools' effectiveness.
 - Dev Tool Usage Tracker: https://getfastcalc.com/tools/dev/dev-tool-usage-tracker — Monitor and analyze your dev tool usage
+- Dev UX Research Calculator: https://getfastcalc.com/tools/dev/dev-ux-research-calculator — Estimate your UX research costs
 - Online Diff Checker: https://getfastcalc.com/tools/dev/diff-checker — Compare two texts, files, or code snippets side by side
 - JSON & CSV Formatter / Validator: https://getfastcalc.com/tools/dev/json-csv-formatter — Format, validate, and convert JSON and CSV instantly in your browser
 - JWT Decoder & Security Checker: https://getfastcalc.com/tools/dev/jwt-decoder — Decode and inspect any JWT token — with security analysis
@@ -188,6 +195,7 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Schema Markup Generator: https://getfastcalc.com/tools/schema-markup-generator — Generate structured data markup
 - SEO Title Generator: https://getfastcalc.com/tools/title-generator — Create catchy and optimized titles.
 - Title Optimization Tool: https://getfastcalc.com/tools/title-optimization-tool — Generate compelling SEO titles
+- Title Optimizer: https://getfastcalc.com/tools/title-optimizer — Generate compelling titles instantly
 
 ### Security
 - Password Generator: https://getfastcalc.com/tools/dev/password-generator — Generate strong, secure passwords instantly
