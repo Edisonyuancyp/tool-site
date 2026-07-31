@@ -1,0 +1,48 @@
+{
+  "slug": "developer-time-tracking-calculator",
+  "name": "Entwickler Zeitverfolgungsrechner",
+  "tagline": "Verfolgen Sie Ihre Entwicklungszeit effizient.",
+  "description": "Dieses Tool ermöglicht es Entwicklern, ihre Arbeitsstunden für verschiedene Aufgaben zu protokollieren und bietet Einblicke in die Zeitverteilung. Ideal für Freiberufler und Teams, die ihren Workflow optimieren möchten.",
+  "metaTitle": "Entwickler Zeitverfolgung – Protokollieren Sie Ihre Arbeitsstunden | Kostenloses Online-Tool",
+  "metaDescription": "Verfolgen Sie Ihre Entwicklungszeit kostenlos. Keine Anmeldung erforderlich, erhalten Sie sofortige Einblicke in Ihre Produktivität.",
+  "keywords": [
+    "Zeitverfolgung",
+    "Entwickler Produktivität",
+    "Arbeitsstundenprotokoll",
+    "Aufgabenmanagement",
+    "Freiberufler Verfolgung",
+    "Entwickler Zeitverfolgungsrechner Online-Tool kostenlos",
+    "Entwickler Zeitverfolgungsrechner Konverter Browser",
+    "Entwickler Zeitverfolgungsrechner ohne Installation",
+    "kostenloses Entwickler-Tool",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Zeitverfolgungs-App",
+    "Zeitverfolgungs-App kostenlos",
+    "Zeitverfolgungssoftware",
+    "Zeitverfolgungswerkzeuge",
+    "Zeitverfolgungs-App für Mitarbeiter",
+    "Zeitverfolgungs-Spreadsheet",
+    "Zeitverfolgungs-Excel-Vorlage",
+    "Entwickler Produktivität Engineering"
+  ],
+  "category": "Developer",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "Wie protokolliere ich meine Stunden?",
+      "answer": "Geben Sie einfach die Aufgabe und die dafür aufgewendeten Stunden ein."
+    },
+    {
+      "question": "Kann ich meine vergangenen Protokolle einsehen?",
+      "answer": "Ja, Sie können Ihre protokollierten Stunden nach Datum einsehen."
+    },
+    {
+      "question": "Ist dies für Teams geeignet?",
+      "answer": "Absolut, es kann sowohl von Einzelpersonen als auch von Teams verwendet werden."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

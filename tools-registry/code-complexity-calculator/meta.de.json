@@ -1,0 +1,48 @@
+{
+  "slug": "code-complexity-calculator",
+  "name": "Code Complexity Calculator",
+  "tagline": "Bewerten Sie die Komplexität Ihres Codes.",
+  "description": "Dieses Tool berechnet die Komplexität Ihres Codes basierend auf verschiedenen Metriken und hilft Entwicklern, potenzielle Refaktorisierungsbedarfe zu identifizieren. Ideal zur Verbesserung der Wartbarkeit von Code.",
+  "metaTitle": "Code-Komplexität – Bewerten Sie Ihren Code | Kostenloses Online-Tool",
+  "metaDescription": "Bewerten Sie kostenlos die Komplexität Ihres Codes ohne Anmeldung. Erhalten Sie sofortige Ergebnisse und verbessern Sie die Qualität Ihres Codes.",
+  "keywords": [
+    "Code-Komplexität",
+    "Komplexitätsmetriken",
+    "Refaktorisierungswerkzeug",
+    "Wartbarkeitsrechner",
+    "Code-Qualität",
+    "kostenloses Online-Tool zur Berechnung der Code-Komplexität",
+    "Code-Komplexitätsrechner Browser",
+    "Code-Komplexitätsrechner ohne Installation",
+    "kostenloses Entwickler-Tool",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Code-Komplexitätsrechner",
+    "Code-Komplexitätsrechner Python",
+    "zyklomatische Komplexitätsberechnung",
+    "zyklomatische Komplexitätsberechnung Python",
+    "zyklomatische Komplexitätsberechnung Java",
+    "zyklomatische Komplexitätsberechnung online",
+    "zyklomatische Komplexitätsberechnung C",
+    "zyklomatische Komplexitätsberechnung TypeScript"
+  ],
+  "category": "Developer",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Was ist Code-Komplexität?",
+      "answer": "Die Code-Komplexität bezieht sich darauf, wie kompliziert Ihr Code ist, was die Wartbarkeit beeinflussen kann."
+    },
+    {
+      "question": "Welche Metriken werden verwendet?",
+      "answer": "Wir verwenden Metriken wie zyklomatische Komplexität und Zeilenanzahl."
+    },
+    {
+      "question": "Kann ich es für jede Programmiersprache verwenden?",
+      "answer": "Ja, es kann Code aus verschiedenen Programmiersprachen analysieren."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "dev-budget-calculator",
+  "name": "Calculadora de Orçamento para Desenvolvimento",
+  "tagline": "Estime seus custos de desenvolvimento.",
+  "description": "Esta calculadora ajuda você a estimar o orçamento para seus projetos de desenvolvimento de software, inserindo vários fatores de custo. Ideal para startups e gerentes de projeto.",
+  "metaTitle": "Calculadora de Orçamento – Estime Custos de Desenvolvimento | Ferramenta Online Grátis",
+  "metaDescription": "Estime o orçamento do seu projeto de desenvolvimento gratuitamente. Sem necessidade de cadastro, resultados instantâneos para ajudar a planejar seu projeto.",
+  "keywords": [
+    "orçamento de desenvolvimento",
+    "estimativa de custos",
+    "orçamento de projeto",
+    "custos de software",
+    "orçamento para startups",
+    "calculadora de orçamento de desenvolvimento ferramenta online grátis",
+    "calculadora de orçamento de desenvolvimento conversor navegador",
+    "calculadora de orçamento de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "calculadora de custos de desenvolvimento",
+    "como desenvolver um orçamento",
+    "orçamento de desenvolvimento e arrecadação",
+    "orçamento dev",
+    "orçamento de desenvolvimento",
+    "comitê de coordenação do orçamento de desenvolvimento",
+    "significado de orçamento de desenvolvimento",
+    "orçamento de desenvolvimento do paquistão"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Quais fatores eu preciso inserir?",
+      "answer": "Você precisa inserir as horas de desenvolvimento, as taxas horárias e os custos adicionais."
+    },
+    {
+      "question": "É adequado para projetos grandes?",
+      "answer": "Sim, ele pode ser escalado tanto para projetos de software pequenos quanto grandes."
+    },
+    {
+      "question": "Posso salvar meus resultados?",
+      "answer": "Atualmente, os resultados não são salvos, mas você pode anotá-los."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "dev-budget-calculator",
+  "name": "Dev Budget Rechner",
+  "tagline": "Schätzen Sie Ihre Entwicklungskosten.",
+  "description": "Dieser Rechner hilft Ihnen, das Budget für Ihre Softwareentwicklungsprojekte zu schätzen, indem Sie verschiedene Kostenfaktoren eingeben. Ideal für Startups und Projektmanager.",
+  "metaTitle": "Dev Budget – Entwicklungskosten schätzen | Kostenloses Online-Tool",
+  "metaDescription": "Schätzen Sie Ihr Budget für Entwicklungsprojekte kostenlos. Keine Anmeldung erforderlich, sofortige Ergebnisse zur Unterstützung Ihrer Projektplanung.",
+  "keywords": [
+    "Entwicklungsbudget",
+    "Kostenabschätzung",
+    "Projektbudgetierung",
+    "Softwarekosten",
+    "Startup-Budgetierung",
+    "Dev Budget Rechner Online-Tool kostenlos",
+    "Dev Budget Rechner Konverter Browser",
+    "Dev Budget Rechner ohne Installation",
+    "kostenloses Entwickler-Tool",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwickler-Tool",
+    "Entwicklungskostenrechner",
+    "wie man ein Budget entwickelt",
+    "Dev Budget und Sammlung",
+    "Budget Entwicklung",
+    "Entwicklungsbudget",
+    "Ausschuss für die Koordination des Entwicklungsbudgets",
+    "Bedeutung des Entwicklungsbudgets",
+    "Entwicklungsbudget von Pakistan"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Welche Faktoren muss ich eingeben?",
+      "answer": "Sie müssen die Entwicklungsstunden, Stundensätze und zusätzliche Kosten eingeben."
+    },
+    {
+      "question": "Ist es für große Projekte geeignet?",
+      "answer": "Ja, es kann sowohl für kleine als auch für große Softwareprojekte skaliert werden."
+    },
+    {
+      "question": "Kann ich meine Ergebnisse speichern?",
+      "answer": "Derzeit werden die Ergebnisse nicht gespeichert, aber Sie können sie notieren."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

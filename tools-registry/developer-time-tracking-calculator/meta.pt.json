@@ -1,0 +1,48 @@
+{
+  "slug": "developer-time-tracking-calculator",
+  "name": "Calculadora de Controle de Tempo para Desenvolvedores",
+  "tagline": "Acompanhe seu tempo de desenvolvimento de forma eficiente.",
+  "description": "Esta ferramenta permite que desenvolvedores registrem suas horas de trabalho em várias tarefas e fornece insights sobre a alocação de tempo. Ideal para freelancers e equipes que buscam otimizar seu fluxo de trabalho.",
+  "metaTitle": "Controle de Tempo para Desenvolvedores – Registre Suas Horas de Trabalho | Ferramenta Online Grátis",
+  "metaDescription": "Acompanhe seu tempo de desenvolvimento gratuitamente. Sem necessidade de cadastro, obtenha insights instantâneos sobre sua produtividade.",
+  "keywords": [
+    "controle de tempo",
+    "produtividade do desenvolvedor",
+    "registro de horas de trabalho",
+    "gestão de tarefas",
+    "controle de freelancers",
+    "calculadora de controle de tempo para desenvolvedores ferramenta online grátis",
+    "calculadora de controle de tempo para desenvolvedores conversor navegador",
+    "calculadora de controle de tempo para desenvolvedores ferramenta de dev sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de dev baseada em navegador",
+    "aplicativo de controle de tempo",
+    "aplicativo de controle de tempo grátis",
+    "software de controle de tempo",
+    "ferramentas de controle de tempo",
+    "aplicativo de controle de tempo para funcionários",
+    "planilha de controle de tempo",
+    "modelo de excel para controle de tempo",
+    "produtividade do desenvolvedor engenharia"
+  ],
+  "category": "Developer",
+  "icon": "⏱️",
+  "faqs": [
+    {
+      "question": "Como registro minhas horas?",
+      "answer": "Basta inserir a tarefa e as horas gastas nela."
+    },
+    {
+      "question": "Posso visualizar meus registros anteriores?",
+      "answer": "Sim, você pode revisar suas horas registradas por data."
+    },
+    {
+      "question": "Isso é adequado para equipes?",
+      "answer": "Com certeza, pode ser usado tanto por indivíduos quanto por equipes."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

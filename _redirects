@@ -76,6 +76,7 @@
 /tools/character-counter-for-students /tools/dev/character-counter-for-students 301
 /tools/cm-to-inch /tools/converter/cm-to-inch 301
 /tools/inch-to-cm /tools/converter/inch-to-cm 301
+/tools/code-complexity-calculator /tools/dev/code-complexity-calculator 301
 /tools/code-optimization-calculator /tools/dev/code-optimization-calculator 301
 /tools/javascript-optimization /tools/dev/javascript-optimization 301
 /tools/python-optimization /tools/dev/python-optimization 301
@@ -145,6 +146,7 @@
 /tools/dev-api-performance-calculator /tools/dev/dev-api-performance-calculator 301
 /tools/simple-metrics-variant /tools/dev/simple-metrics-variant 301
 /tools/detailed-metrics-variant /tools/dev/detailed-metrics-variant 301
+/tools/dev-budget-calculator /tools/dev/dev-budget-calculator 301
 /tools/dev-cost-estimator /tools/dev/dev-cost-estimator 301
 /tools/detailed-cost-calculator /tools/dev/detailed-cost-calculator 301
 /tools/basic-cost-estimator /tools/dev/basic-cost-estimator 301
@@ -184,12 +186,14 @@
 /tools/dev-tool-performance-calculator /tools/dev/dev-tool-performance-calculator 301
 /tools/advanced-performance-calculator /tools/dev/advanced-performance-calculator 301
 /tools/basic-performance-calculator /tools/dev/basic-performance-calculator 301
+/tools/dev-tool-selection-guide /tools/dev/dev-tool-selection-guide 301
 /tools/dev-tool-usage-tracker /tools/dev/dev-tool-usage-tracker 301
 /tools/team-usage-tracker /tools/dev/team-usage-tracker 301
 /tools/individual-usage-tracker /tools/dev/individual-usage-tracker 301
 /tools/dev-ux-research-calculator /tools/dev/dev-ux-research-calculator 301
 /tools/team-research-variant /tools/dev/team-research-variant 301
 /tools/individual-research-variant /tools/dev/individual-research-variant 301
+/tools/developer-time-tracking-calculator /tools/dev/developer-time-tracking-calculator 301
 /tools/diff-checker /tools/dev/diff-checker 301
 /tools/json-diff-checker /tools/dev/json-diff-checker 301
 /tools/code-diff-checker /tools/dev/code-diff-checker 301

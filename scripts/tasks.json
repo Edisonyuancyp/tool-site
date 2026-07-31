@@ -5115,5 +5115,137 @@
         "headline": "Fast and simple title generation for immediate use."
       }
     ]
+  },
+  {
+    "slug": "code-complexity-calculator",
+    "name": "Code Complexity Calculator",
+    "tagline": "Evaluate your code's complexity.",
+    "description": "This tool calculates the complexity of your code based on various metrics, helping developers identify potential refactoring needs. Perfect for improving code maintainability.",
+    "metaTitle": "Code Complexity – Evaluate Your Code | Free Online Tool",
+    "metaDescription": "Assess your code complexity for free with no signup. Get instant results and improve your code quality.",
+    "keywords": [
+      "code complexity",
+      "complexity metrics",
+      "refactoring tool",
+      "maintainability calculator",
+      "code quality"
+    ],
+    "category": "Developer",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "What is code complexity?",
+        "answer": "Code complexity refers to how complicated your code is, which can affect maintainability."
+      },
+      {
+        "question": "What metrics are used?",
+        "answer": "We use metrics like cyclomatic complexity and lines of code."
+      },
+      {
+        "question": "Can I use it for any programming language?",
+        "answer": "Yes, it can analyze code from various programming languages."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "dev-budget-calculator",
+    "name": "Dev Budget Calculator",
+    "tagline": "Estimate your development costs.",
+    "description": "This calculator helps you estimate the budget for your software development projects by inputting various cost factors. Ideal for startups and project managers.",
+    "metaTitle": "Dev Budget – Estimate Development Costs | Free Online Tool",
+    "metaDescription": "Estimate your dev project budget for free. No signup necessary, instant results to help plan your project.",
+    "keywords": [
+      "dev budget",
+      "cost estimation",
+      "project budgeting",
+      "software costs",
+      "startup budgeting"
+    ],
+    "category": "Developer",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "What factors do I need to input?",
+        "answer": "You need to enter development hours, hourly rates, and additional costs."
+      },
+      {
+        "question": "Is it suitable for large projects?",
+        "answer": "Yes, it can scale for both small and large software projects."
+      },
+      {
+        "question": "Can I save my results?",
+        "answer": "Currently, results are not saved, but you can note them down."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "dev-tool-selection-guide",
+    "name": "Dev Tool Selection Guide",
+    "tagline": "Find the right tools for your project.",
+    "description": "This guide helps developers select the most suitable tools for their projects based on requirements and team size. Great for teams unsure about tool choices.",
+    "metaTitle": "Dev Tool Selection – Choose the Right Tools | Free Online Tool",
+    "metaDescription": "Get guidance on selecting the right dev tools for free. No signup needed, instant recommendations based on your needs.",
+    "keywords": [
+      "dev tool selection",
+      "tool comparison",
+      "project tools",
+      "developer resources",
+      "tool recommendations"
+    ],
+    "category": "Developer",
+    "icon": "🔍",
+    "faqs": [
+      {
+        "question": "How does this guide work?",
+        "answer": "You enter your project requirements, and it suggests tools accordingly."
+      },
+      {
+        "question": "Is it updated regularly?",
+        "answer": "Yes, we update the recommendations based on the latest tool trends."
+      },
+      {
+        "question": "Can I compare tools directly?",
+        "answer": "Yes, it provides comparison features for different tools."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "developer-time-tracking-calculator",
+    "name": "Developer Time Tracking Calculator",
+    "tagline": "Track your development time efficiently.",
+    "description": "This tool allows developers to log their work hours on various tasks and provides insights into time allocation. Ideal for freelancers and teams looking to optimize their workflow.",
+    "metaTitle": "Developer Time Tracking – Log Your Work Hours | Free Online Tool",
+    "metaDescription": "Track your development time for free. No signup required, get instant insights into your productivity.",
+    "keywords": [
+      "time tracking",
+      "developer productivity",
+      "work hours log",
+      "task management",
+      "freelancer tracking"
+    ],
+    "category": "Developer",
+    "icon": "⏱️",
+    "faqs": [
+      {
+        "question": "How do I log my hours?",
+        "answer": "Simply enter the task and the hours spent on it."
+      },
+      {
+        "question": "Can I view my past logs?",
+        "answer": "Yes, you can review your logged hours by date."
+      },
+      {
+        "question": "Is this suitable for teams?",
+        "answer": "Absolutely, it can be used by both individuals and teams."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
   }
 ]

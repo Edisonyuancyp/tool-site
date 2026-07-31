@@ -1,0 +1,48 @@
+{
+  "slug": "code-complexity-calculator",
+  "name": "Calculadora de Complexidade de Código",
+  "tagline": "Avalie a complexidade do seu código.",
+  "description": "Esta ferramenta calcula a complexidade do seu código com base em várias métricas, ajudando os desenvolvedores a identificar necessidades potenciais de refatoração. Perfeita para melhorar a manutenibilidade do código.",
+  "metaTitle": "Complexidade de Código – Avalie Seu Código | Ferramenta Online Gratuita",
+  "metaDescription": "Avalie a complexidade do seu código gratuitamente e sem cadastro. Obtenha resultados instantâneos e melhore a qualidade do seu código.",
+  "keywords": [
+    "complexidade de código",
+    "métricas de complexidade",
+    "ferramenta de refatoração",
+    "calculadora de manutenibilidade",
+    "qualidade do código",
+    "calculadora de complexidade de código ferramenta online gratuita",
+    "calculadora de complexidade de código conversor navegador",
+    "calculadora de complexidade de código ferramenta de desenvolvimento sem instalação",
+    "ferramenta gratuita para desenvolvedores",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "calculadora de complexidade de código",
+    "calculadora de complexidade de código python",
+    "calculadora de complexidade ciclomática",
+    "calculadora de complexidade ciclomática python",
+    "calculadora de complexidade ciclomática java",
+    "calculadora de complexidade ciclomática online",
+    "calculadora de complexidade ciclomática c",
+    "calculadora de complexidade ciclomática typescript"
+  ],
+  "category": "Developer",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "O que é complexidade de código?",
+      "answer": "A complexidade de código refere-se a quão complicado seu código é, o que pode afetar a manutenibilidade."
+    },
+    {
+      "question": "Quais métricas são utilizadas?",
+      "answer": "Utilizamos métricas como complexidade ciclomática e linhas de código."
+    },
+    {
+      "question": "Posso usar para qualquer linguagem de programação?",
+      "answer": "Sim, ele pode analisar código de várias linguagens de programação."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}
