@@ -24,7 +24,8 @@
     "image generation cost api",
     "image generation cost openai api",
     "image generation cost gemini api",
-    "chatgpt image generation pricing"
+    "chatgpt image generation pricing",
+    "image generation pricing gemini"
   ],
   "category": "AI",
   "urlPath": "/tools/ai/ai-image-cost-calculator",
