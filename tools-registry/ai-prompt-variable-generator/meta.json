@@ -93,5 +93,21 @@
       "heading": "Avoiding Common Pitfalls with Dynamic Variables",
       "body": "While dynamic variables can enhance your prompts, there are common mistakes to avoid. One frequent error is not validating the variable's content. If your variable 'userName' is supposed to be a string but accidentally receives a number, the output might not make sense. Always ensure that the inputs you provide are in the expected format. Implement checks in your code to catch these issues before they reach the user.\n\nAnother mistake is overcomplicating your variable definitions. It's tempting to create many variables for every possible scenario, but this can lead to confusion and management issues. Stick to the essentials. For instance, if your chatbot needs to know about user preferences, focus on the top three categories that matter most rather than trying to cover every possible interest. Simplifying your approach will lead to more effective and manageable interactions."
     }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "AI Prompt Variable Generator Online Free – Free Online AI Prompt Variable Generator",
+      "metaDescription": "Free online AI Prompt Variable Generator — instant results, no signup. Generate dynamic variables for AI prompts with our free tool. Instant results, n",
+      "h1": "AI Prompt Variable Generator – Online Free",
+      "description": "Free online AI Prompt Variable Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "AI Prompt Variable Generator How to Use – Free Online AI Prompt Variable Generator",
+      "metaDescription": "Step-by-step guide to getting the most from AI Prompt Variable Generator. Generate dynamic variables for AI prompts with our free tool. Instant results, n",
+      "h1": "AI Prompt Variable Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from AI Prompt Variable Generator."
+    }
   ]
 }
