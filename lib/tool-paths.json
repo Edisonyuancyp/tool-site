@@ -412,6 +412,7 @@
   "prompt-cost-comparison": "/tools/ai/prompt-cost-comparison",
   "detailed-cost-comparison": "/tools/ai/detailed-cost-comparison",
   "quick-cost-comparison": "/tools/ai/quick-cost-comparison",
+  "prompt-formatter": "/tools/ai/prompt-formatter",
   "prompt-optimizer-tool": "/tools/ai/prompt-optimizer-tool",
   "contextual-prompt-optimizer": "/tools/ai/contextual-prompt-optimizer",
   "general-prompt-optimizer": "/tools/ai/general-prompt-optimizer",

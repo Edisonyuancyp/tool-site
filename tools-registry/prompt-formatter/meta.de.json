@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-formatter",
+  "name": "Prompt Formatter",
+  "tagline": "Formatieren Sie Ihre Eingabeaufforderungen für bessere KI-Ergebnisse.",
+  "description": "Formatieren und strukturieren Sie Ihre Eingabeaufforderungen einfach, um die Qualität der KI-Antworten zu verbessern. Ideal für Prompt-Ingenieure und Content-Ersteller, die Konsistenz suchen.",
+  "metaTitle": "Prompt Formatter – Strukturieren Sie Ihre KI-Eingabeaufforderungen | Kostenloses Online-Tool",
+  "metaDescription": "Formatieren Sie Ihre KI-Eingabeaufforderungen kostenlos, ohne Anmeldung, um die Qualität der Antworten verschiedener Modelle zu verbessern.",
+  "keywords": [
+    "prompt formatter",
+    "struktur von ai eingabeaufforderungen",
+    "ai eingabeaufforderungen formatieren",
+    "tool für prompt engineering",
+    "optimierte eingabeaufforderungen",
+    "prompt formatter online",
+    "ai prompt formatter",
+    "comfyui prompt formatter",
+    "sql eingabeaufforderungsformat",
+    "chatgpt prompt formatter",
+    "json formatter prompt",
+    "claude eingabeaufforderungsformat",
+    "eingabeaufforderungsformat online",
+    "sql eingabeaufforderungsformat online",
+    "sql eingabeaufforderung online formatter",
+    "beispiele für eingabeaufforderungen",
+    "bedeutung des prompt codes",
+    "vorlage für die struktur von ai eingabeaufforderungen",
+    "akronym für die struktur von ai eingabeaufforderungen",
+    "beispiele für die struktur von ai eingabeaufforderungen"
+  ],
+  "category": "AI",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Prompt Formatter?",
+      "answer": "Sie geben Ihre Eingabeaufforderung ein, und das Tool hilft, sie für optimale Leistung zu strukturieren."
+    },
+    {
+      "question": "Kann ich formatierte Eingabeaufforderungen speichern?",
+      "answer": "Derzeit sind keine Speicheroptionen verfügbar, aber Sie können den formatierten Text kopieren."
+    },
+    {
+      "question": "Ist es einfach zu bedienen?",
+      "answer": "Ja, es ist benutzerfreundlich und unkompliziert gestaltet."
+    }
+  ],
+  "relatedTools": [
+    "token-splitter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}

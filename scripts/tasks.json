@@ -5247,5 +5247,41 @@
     ],
     "relatedTools": [],
     "variants": []
+  },
+  {
+    "slug": "prompt-formatter",
+    "name": "Prompt Formatter",
+    "tagline": "Format your prompts for better AI results.",
+    "description": "Easily format and structure your prompts to improve AI response quality. Ideal for prompt engineers and content creators looking for consistency.",
+    "metaTitle": "Prompt Formatter – Structure Your AI Prompts | Free Online Tool",
+    "metaDescription": "Format your AI prompts for free, no signup required, to enhance the quality of responses from various models.",
+    "keywords": [
+      "prompt formatter",
+      "AI prompt structure",
+      "format AI prompts",
+      "prompt engineering tool",
+      "optimized prompts"
+    ],
+    "category": "AI",
+    "icon": "📝",
+    "faqs": [
+      {
+        "question": "How does the prompt formatter work?",
+        "answer": "You input your prompt, and the tool helps structure it for optimal performance."
+      },
+      {
+        "question": "Can I save formatted prompts?",
+        "answer": "Currently, saving options are not available, but you can copy the formatted text."
+      },
+      {
+        "question": "Is it easy to use?",
+        "answer": "Yes, it's designed to be user-friendly and straightforward."
+      }
+    ],
+    "relatedTools": [
+      "token-splitter",
+      "prompt-cleaner"
+    ],
+    "variants": []
   }
 ]

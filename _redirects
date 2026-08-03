@@ -411,6 +411,7 @@
 /tools/prompt-cost-comparison /tools/ai/prompt-cost-comparison 301
 /tools/detailed-cost-comparison /tools/ai/detailed-cost-comparison 301
 /tools/quick-cost-comparison /tools/ai/quick-cost-comparison 301
+/tools/prompt-formatter /tools/ai/prompt-formatter 301
 /tools/prompt-optimizer-tool /tools/ai/prompt-optimizer-tool 301
 /tools/contextual-prompt-optimizer /tools/ai/contextual-prompt-optimizer 301
 /tools/general-prompt-optimizer /tools/ai/general-prompt-optimizer 301

@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-formatter",
+  "name": "Prompt Formatter",
+  "tagline": "Formate seus prompts para melhores resultados de IA.",
+  "description": "Formate e estruture facilmente seus prompts para melhorar a qualidade das respostas da IA. Ideal para engenheiros de prompt e criadores de conteúdo que buscam consistência.",
+  "metaTitle": "Prompt Formatter – Estruture Seus Prompts de IA | Ferramenta Online Gratuita",
+  "metaDescription": "Formate seus prompts de IA gratuitamente, sem necessidade de cadastro, para aprimorar a qualidade das respostas de diversos modelos.",
+  "keywords": [
+    "formatador de prompt",
+    "estrutura de prompt de IA",
+    "formatar prompts de IA",
+    "ferramenta de engenharia de prompt",
+    "prompts otimizados",
+    "formatador de prompt online",
+    "formatador de prompt de IA",
+    "formatador de prompt comfyui",
+    "formato de prompt sql",
+    "formatador de prompt chatgpt",
+    "formato de prompt json",
+    "formato de prompt claude",
+    "formato de prompt online",
+    "formato de prompt sql online",
+    "formatador de prompt sql online",
+    "exemplos de prompt",
+    "significado do código de prompt",
+    "modelo de estrutura de prompt de IA",
+    "sigla de estrutura de prompt de IA",
+    "exemplos de estrutura de prompt de IA"
+  ],
+  "category": "AI",
+  "icon": "📝",
+  "faqs": [
+    {
+      "question": "Como funciona o formatador de prompt?",
+      "answer": "Você insere seu prompt, e a ferramenta ajuda a estruturá-lo para um desempenho ideal."
+    },
+    {
+      "question": "Posso salvar prompts formatados?",
+      "answer": "Atualmente, as opções de salvamento não estão disponíveis, mas você pode copiar o texto formatado."
+    },
+    {
+      "question": "É fácil de usar?",
+      "answer": "Sim, foi projetado para ser amigável e direto."
+    }
+  ],
+  "relatedTools": [
+    "token-splitter",
+    "prompt-cleaner"
+  ],
+  "variants": []
+}
