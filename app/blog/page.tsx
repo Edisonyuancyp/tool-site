@@ -200,6 +200,46 @@ const POSTS = [
     tag: "Auto",
     readTime: "3 min read",
   },
+  {
+    slug: "how-to-optimize-ai-prompts-to-save-tokens",
+    title: "How can I optimize my AI prompts to save tokens?",
+    excerpt: "Learn how to optimize your AI prompts to save tokens and improve output quality with our free tool.",
+    date: "2026-08-04",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "efficiently-manage-tokens-in-ai-prompts",
+    title: "How can I efficiently manage tokens in my AI prompts?",
+    excerpt: "Learn how to efficiently manage tokens in your AI prompts with our free Token Splitter tool.",
+    date: "2026-08-04",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "efficiently-manage-text-tokens-ai-applications",
+    title: "How can I efficiently manage text tokens for AI applications?",
+    excerpt: "Discover how to efficiently manage text tokens for AI applications with our free Token Splitter Tool.",
+    date: "2026-08-04",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "forecast-ai-token-costs",
+    title: "How to Forecast Your AI Token Costs Effectively",
+    excerpt: "Learn how to forecast your AI token costs for projects using our free tool for accurate predictions.",
+    date: "2026-08-04",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-create-seo-friendly-titles",
+    title: "How to Create SEO-Friendly Titles for Your Blog Posts",
+    excerpt: "Learn how to create SEO-friendly titles for your blog posts. Use our free title optimizer tool for effective title suggestions.",
+    date: "2026-08-04",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
 ];
 
 export default function BlogPage() {
