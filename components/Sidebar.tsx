@@ -159,7 +159,7 @@ function SidebarPanel({ onClose }: { onClose: () => void }) {
               <ul className="space-y-0.5">
                 {recentList.map((r) => (
                   <li key={r.slug}>
-                    <Link href={`/tools/${r.slug}`} onClick={onClose}
+                    <Link href={getPathForSlug(r.slug)} onClick={onClose}
                       rel="noopener"
                       aria-label={`Open ${r.slug}`}
                       className={`flex items-center justify-between px-2.5 py-2 rounded-lg text-xs text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors ${pathname?.includes(r.slug) ? "bg-gray-50 font-medium text-gray-900" : ""}`}>
@@ -212,7 +212,7 @@ function SidebarPanel({ onClose }: { onClose: () => void }) {
             <p className="text-3xl mb-2">🧭</p>
             <p className="text-sm text-gray-500 font-medium">No history yet</p>
             <p className="text-xs text-gray-400 mt-1">Tools you visit will appear here</p>
-            <Link href="/" onClick={onClose}
+            <Link href="/tools/calc" onClick={onClose}
               className="inline-block mt-4 px-4 py-2 bg-gray-900 text-white text-xs font-medium rounded-lg hover:bg-black transition-colors">
               Browse all tools →
             </Link>
@@ -225,12 +225,12 @@ function SidebarPanel({ onClose }: { onClose: () => void }) {
           <nav aria-label="Tool categories">
             <div className="grid grid-cols-2 gap-1.5">
               {[
-                { href: "/?cat=Developer", label: "⌨️ Dev" },
-                { href: "/?cat=Finance",   label: "💹 Finance" },
-                { href: "/?cat=Health",    label: "❤️ Health" },
-                { href: "/?cat=Design",    label: "🎨 Design" },
-                { href: "/?cat=Content",   label: "✏️ Content" },
-                { href: "/?cat=Quant",     label: "📊 Quant" },
+                { href: "/tools/dev",       label: "⌨️ Dev" },
+                { href: "/tools/calc",      label: "💹 Calculators" },
+                { href: "/tools/ai",        label: "🤖 AI" },
+                { href: "/tools/design",    label: "🎨 Design" },
+                { href: "/tools/time",      label: "🕐 Date & Time" },
+                { href: "/tools/converter", label: "� Converters" },
               ].map((cat) => (
                 <Link key={cat.href} href={cat.href} onClick={onClose}
                   rel="noopener"
@@ -305,7 +305,7 @@ function MobileBottomBar({ onOpenSidebar }: { onOpenSidebar: () => void }) {
           <span className="text-[9px] font-medium">Home</span>
         </Link>
 
-        <Link href="/" aria-label="All tools"
+        <Link href="/tools/calc" aria-label="All tools"
           className="flex flex-col items-center gap-0.5 px-3 py-1 rounded-lg text-gray-400 hover:text-gray-700 transition-colors">
           <GridIcon />
           <span className="text-[9px] font-medium">Tools</span>

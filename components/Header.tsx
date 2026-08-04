@@ -251,7 +251,7 @@ export default function Header({ allTools }: { allTools?: ToolMeta[] }) {
 
                   {/* Footer */}
                   <div className="border-t border-gray-100 px-4 py-2.5 flex items-center justify-between">
-                    <Link href="/" onClick={() => setMenuOpen(false)}
+                    <Link href="/tools/calc" onClick={() => setMenuOpen(false)}
                       className="text-xs text-gray-500 hover:text-gray-900 transition-colors">
                       View all {pool.length} tools →
                     </Link>

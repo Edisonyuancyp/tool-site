@@ -22,12 +22,15 @@ const POPULAR_SLUGS = [
 ];
 
 const CATEGORIES = [
-  { href: "/tools/calc",      icon: "🧮", label: "Math & Finance Calculators", desc: "Percentage, BMI, tax, compound interest, salary, tip and more" },
-  { href: "/tools/calc",      icon: "🏃", label: "Health & Fitness",            desc: "BMI, body fat, BMR/TDEE, water intake, running pace, sleep" },
-  { href: "/tools/dev",       icon: "💻", label: "Developer Tools",             desc: "Base converter, Base64, JSON formatter, diff checker, Unix timestamp" },
-  { href: "/tools/design",    icon: "🎨", label: "Design & Generators",         desc: "QR code, password generator, emoji picker, color tools" },
-  { href: "/tools/time",      icon: "🕐", label: "Date & Time",                 desc: "Age calculator, holiday finder, timestamp converter" },
-  { href: "/tools/converter", icon: "🔄", label: "Converters",                  desc: "Number base, currency, unit converters" },
+  { href: "/tools/calc",      icon: "🧮", label: "Calculators",              desc: "Percentage, BMI, tax, compound interest, salary, tip and more" },
+  { href: "/tools/ai",        icon: "🤖", label: "AI Tools",                 desc: "Token counters, AI cost calculators, model comparators" },
+  { href: "/tools/dev",       icon: "💻", label: "Developer Tools",          desc: "Base converter, Base64, JSON formatter, diff checker, Unix timestamp" },
+  { href: "/tools/design",    icon: "🎨", label: "Design & Generators",      desc: "QR code, password generator, emoji picker, color tools" },
+  { href: "/tools/time",      icon: "🕐", label: "Date & Time",              desc: "Age calculator, holiday finder, timestamp converter" },
+  { href: "/tools/converter", icon: "🔄", label: "Converters",               desc: "Number base, currency, unit converters" },
+  { href: "/tools/seo",       icon: "🔍", label: "SEO Tools",                desc: "Title generators, meta description tools, schema generators" },
+  { href: "/tools/ecommerce", icon: "🛒", label: "E-Commerce Tools",         desc: "Amazon FBA, ROAS, profit margin calculators for sellers" },
+  { href: "/tools/social",    icon: "📱", label: "Social Media Tools",       desc: "Character counters, caption tools for Twitter, Instagram, TikTok" },
 ];
 
 export default function Home() {
@@ -166,11 +169,11 @@ export default function Home() {
                     { href: "/tools/time",      icon: "🕐", label: "Date & Time" },
                     { href: "/tools/converter", icon: "🔄", label: "Converters" },
                   ].map(({ href, icon, label }) => (
-                    <a key={href} href={href}
+                    <Link key={href} href={href}
                       className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-sm text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors">
                       <span className="text-base">{icon}</span>
                       {label}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
