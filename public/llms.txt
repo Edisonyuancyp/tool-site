@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-07-30. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-08-06. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -29,6 +29,7 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Prompt Cleaner Tool: https://getfastcalc.com/tools/prompt-cleaner-tool — Refine your prompts for clarity and impact.
 - Prompt Cost Calculator: https://getfastcalc.com/tools/prompt-cost-calculator — Estimate your AI prompt costs quickly.
 - Prompt Cost Comparison: https://getfastcalc.com/tools/prompt-cost-comparison — Compare costs of different prompts
+- Prompt Formatter: https://getfastcalc.com/tools/prompt-formatter — Format your prompts for better AI results.
 - AI Prompt Optimizer Tool: https://getfastcalc.com/tools/prompt-optimizer-tool — Enhance your prompts for better results
 - Prompt Token Cost Calculator: https://getfastcalc.com/tools/prompt-token-cost-calculator — Estimate your prompt's token cost easily.
 - Prompt Token Counter: https://getfastcalc.com/tools/prompt-token-counter — Count tokens in your prompts easily
@@ -85,12 +86,14 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - API Response Time Calculator: https://getfastcalc.com/tools/dev/api-response-time-calculator — Calculate and analyze API response times.
 - Number Base Converter: https://getfastcalc.com/tools/dev/base-converter — Convert numbers between any bases — binary, octal, decimal, hex, and more
 - Base64 Encoder / Decoder: https://getfastcalc.com/tools/dev/base64-tool — Encode and decode Base64 and URL-encoded strings instantly
+- Code Complexity Calculator: https://getfastcalc.com/tools/dev/code-complexity-calculator — Evaluate your code's complexity.
 - Code Optimization Calculator: https://getfastcalc.com/tools/dev/code-optimization-calculator — Analyze code efficiency and performance
 - Cron Expression Generator & Explainer: https://getfastcalc.com/tools/dev/cron-expression-generator — Build cron schedules visually, understand any cron string instantly
 - CSS Grid Layout Calculator: https://getfastcalc.com/tools/dev/css-grid-calculator — Design responsive grids effortlessly.
 - CSS Unit Converter: https://getfastcalc.com/tools/dev/css-unit-converter — Convert px to rem, em, vw and more — instant CSS unit calculations
 - CSS Variables Generator: https://getfastcalc.com/tools/dev/css-variables-generator — Build a custom color palette and export ready-to-use CSS variables and Tailwind config
 - Dev API Performance Calculator: https://getfastcalc.com/tools/dev/dev-api-performance-calculator — Evaluate your API performance metrics
+- Dev Budget Calculator: https://getfastcalc.com/tools/dev/dev-budget-calculator — Estimate your development costs.
 - Dev Cost Estimator: https://getfastcalc.com/tools/dev/dev-cost-estimator — Estimate development project costs.
 - Dev Dependency Analyzer: https://getfastcalc.com/tools/dev/dev-dependency-analyzer — Analyze project dependencies efficiently.
 - Dev Education Cost Calculator: https://getfastcalc.com/tools/dev/dev-education-cost-calculator — Estimate training costs for developers
@@ -103,8 +106,10 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Dev Tool Efficiency Calculator: https://getfastcalc.com/tools/dev/dev-tool-efficiency-calculator — Measure your development tool effectiveness.
 - Dev Tool Integration Planner: https://getfastcalc.com/tools/dev/dev-tool-integration-planner — Plan your tool integrations effectively
 - Dev Tool Performance Calculator: https://getfastcalc.com/tools/dev/dev-tool-performance-calculator — Measure your dev tools' effectiveness.
+- Dev Tool Selection Guide: https://getfastcalc.com/tools/dev/dev-tool-selection-guide — Find the right tools for your project.
 - Dev Tool Usage Tracker: https://getfastcalc.com/tools/dev/dev-tool-usage-tracker — Monitor and analyze your dev tool usage
 - Dev UX Research Calculator: https://getfastcalc.com/tools/dev/dev-ux-research-calculator — Estimate your UX research costs
+- Developer Time Tracking Calculator: https://getfastcalc.com/tools/dev/developer-time-tracking-calculator — Track your development time efficiently.
 - Online Diff Checker: https://getfastcalc.com/tools/dev/diff-checker — Compare two texts, files, or code snippets side by side
 - JSON & CSV Formatter / Validator: https://getfastcalc.com/tools/dev/json-csv-formatter — Format, validate, and convert JSON and CSV instantly in your browser
 - JWT Decoder & Security Checker: https://getfastcalc.com/tools/dev/jwt-decoder — Decode and inspect any JWT token — with security analysis
