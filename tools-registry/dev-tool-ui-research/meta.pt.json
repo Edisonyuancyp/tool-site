@@ -1,0 +1,41 @@
+{
+  "slug": "dev-tool-ui-research",
+  "name": "Dev Tool UI Research Helper",
+  "tagline": "Prepare-se para a pesquisa de interface do usuário sem esforço.",
+  "description": "Esta ferramenta ajuda não desenvolvedores a se prepararem para pesquisas de interface do usuário em estágios iniciais para ferramentas de desenvolvimento. Ela fornece uma estrutura para coletar insights e validar conceitos de forma eficaz.",
+  "metaTitle": "Dev Tool UI Research – Preparação para Não Desenvolvedores | Ferramenta Online Gratuita",
+  "metaDescription": "Prepare-se para a pesquisa de UI de ferramentas de desenvolvimento com nossa ferramenta gratuita. Sem necessidade de cadastro, resultados instantâneos para validação eficaz de conceitos.",
+  "keywords": [
+    "pesquisa de ui de ferramenta de desenvolvimento",
+    "pesquisa para não desenvolvedores",
+    "ferramenta de validação de ui",
+    "preparação de ferramenta de desenvolvimento",
+    "ferramenta online gratuita de pesquisa de ui de ferramenta de desenvolvimento",
+    "conversor de navegador de helper de pesquisa de ui de ferramenta de desenvolvimento",
+    "helper de pesquisa de ui de ferramenta de desenvolvimento sem instalação",
+    "ferramenta de desenvolvimento gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "ferramentas de validação de ui",
+    "o que é validação de ui"
+  ],
+  "category": "Developer",
+  "icon": "🛠️",
+  "faqs": [
+    {
+      "question": "Para que esta ferramenta é usada?",
+      "answer": "Esta ferramenta foi projetada para não desenvolvedores, ajudando-os a se prepararem para pesquisas de interface do usuário em ferramentas de desenvolvimento."
+    },
+    {
+      "question": "É grátis para usar?",
+      "answer": "Sim, esta ferramenta é completamente gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso usá-la para qualquer ferramenta de desenvolvimento?",
+      "answer": "Sim, ela é aplicável a várias ferramentas e interfaces de desenvolvimento."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

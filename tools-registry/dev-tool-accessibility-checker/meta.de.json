@@ -1,0 +1,48 @@
+{
+  "slug": "dev-tool-accessibility-checker",
+  "name": "Dev Tool Accessibility Checker",
+  "tagline": "Überprüfen Sie Ihr Entwicklungstool auf Barrierefreiheitsprobleme.",
+  "description": "Dieser Barrierefreiheitsprüfer hilft Entwicklern, potenzielle Barrierefreiheitsprobleme in ihren Entwicklungstools zu identifizieren. Es ist entscheidend für die Erstellung inklusiver Software, die jeder nutzen kann.",
+  "metaTitle": "Dev Tool Accessibility Checker – Testen Sie Ihr Tool | Kostenloses Online-Tool",
+  "metaDescription": "Überprüfen Sie kostenlos die Barrierefreiheit Ihres Entwicklungstools. Erhalten Sie sofortiges Feedback ohne Anmeldung, um ein inklusives Design sicherzustellen.",
+  "keywords": [
+    "Barrierefreiheit von Entwicklungstools",
+    "Barrierefreiheitstest",
+    "inklusives Design",
+    "Entwicklungstool-Prüfer",
+    "kostenloses Online-Tool zur Überprüfung der Barrierefreiheit von Entwicklungstools",
+    "Entwicklungstool-Barrierefreiheitsprüfer Browser",
+    "Entwicklungstool-Barrierefreiheitsprüfer ohne Installation",
+    "kostenloses Entwicklerwerkzeug",
+    "Online-Dienstprogramm",
+    "keine Installation erforderlich",
+    "browserbasiertes Entwicklungstool",
+    "Kontrastprüfer für Entwicklungstools",
+    "Chrome-Entwicklungstools Barrierefreiheitsprüfer",
+    "Chrome-Entwicklungstools Kontrastprüfer",
+    "Werkzeuge zur Überprüfung der Barrierefreiheit von Websites",
+    "Barrierefreiheit-Baum der Entwicklertools",
+    "Barrierefreiheit der Entwicklertools",
+    "Zugriff auf Entwicklertools Mac",
+    "Zugriff auf Entwicklertools in Xcode",
+    "Zugriff auf Entwicklertools in VSCode"
+  ],
+  "category": "Developer",
+  "icon": "♿",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Prüfer?",
+      "answer": "Geben Sie einfach die URL Ihres Tools ein, und der Prüfer scannt nach gängigen Barrierefreiheitsproblemen."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, der Barrierefreiheitsprüfer ist kostenlos nutzbar, ohne dass eine Anmeldung erforderlich ist."
+    },
+    {
+      "question": "Kann ich es für jede Art von Entwicklungstool verwenden?",
+      "answer": "Ja, es kann auf verschiedene Arten von Entwicklungstools und Anwendungen angewendet werden."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

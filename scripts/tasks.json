@@ -5283,5 +5283,165 @@
       "prompt-cleaner"
     ],
     "variants": []
+  },
+  {
+    "slug": "dev-tool-ui-research",
+    "name": "Dev Tool UI Research Helper",
+    "tagline": "Prepare for user interface research effortlessly.",
+    "description": "This tool helps non-developers prepare for early-stage user interface research for development tools. It provides a framework to gather insights and validate concepts effectively.",
+    "metaTitle": "Dev Tool UI Research – Non-Developer Preparation | Free Online Tool",
+    "metaDescription": "Prepare for dev tool UI research with our free tool. No signup required, instant results for effective concept validation.",
+    "keywords": [
+      "dev tool UI research",
+      "non-developer research",
+      "UI validation tool",
+      "dev tool preparation"
+    ],
+    "category": "Developer",
+    "icon": "🛠️",
+    "faqs": [
+      {
+        "question": "What is this tool used for?",
+        "answer": "This tool is designed for non-developers to help them prepare for user interface research in development tools."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, this tool is completely free with no signup required."
+      },
+      {
+        "question": "Can I use it for any dev tool?",
+        "answer": "Yes, it is applicable for various development tools and interfaces."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "dev-tool-accessibility-checker",
+    "name": "Dev Tool Accessibility Checker",
+    "tagline": "Test your dev tool for accessibility issues.",
+    "description": "This accessibility checker helps developers identify potential accessibility issues in their development tools. It's essential for creating inclusive software that everyone can use.",
+    "metaTitle": "Dev Tool Accessibility Checker – Test Your Tool | Free Online Tool",
+    "metaDescription": "Check your dev tool's accessibility for free. Get instant feedback with no signup required to ensure inclusive design.",
+    "keywords": [
+      "dev tool accessibility",
+      "accessibility testing",
+      "inclusive design",
+      "dev tool checker"
+    ],
+    "category": "Developer",
+    "icon": "♿",
+    "faqs": [
+      {
+        "question": "How does the checker work?",
+        "answer": "Simply input your tool's URL, and the checker will scan for common accessibility issues."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, the accessibility checker is free to use with no signup needed."
+      },
+      {
+        "question": "Can I use it for any type of dev tool?",
+        "answer": "Yes, it can be applied to various types of development tools and applications."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "dev-tool-feature-prioritizer",
+    "name": "Dev Tool Feature Prioritizer",
+    "tagline": "Prioritize features for your dev tool effectively.",
+    "description": "This tool assists developers in prioritizing features for their development tools based on user needs and business goals. It helps in making informed decisions about what to build next.",
+    "metaTitle": "Dev Tool Feature Prioritizer – Plan Your Development | Free Online Tool",
+    "metaDescription": "Prioritize your dev tool features easily with our free tool. Instant results without any signup required.",
+    "keywords": [
+      "feature prioritization",
+      "dev tool planning",
+      "feature ranking",
+      "development roadmap"
+    ],
+    "category": "Developer",
+    "icon": "📋",
+    "faqs": [
+      {
+        "question": "What does this tool do?",
+        "answer": "It helps you prioritize features for your development tool based on user feedback and strategic goals."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, this tool is completely free with no signup required."
+      },
+      {
+        "question": "Who can use this tool?",
+        "answer": "It is designed for developers and product managers looking to streamline their feature planning."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "dev-tool-usage-analytics",
+    "name": "Dev Tool Usage Analytics Tracker",
+    "tagline": "Track and analyze usage of your dev tool.",
+    "description": "This tool allows developers to input metrics related to the usage of their development tools for better understanding and optimization. It provides actionable insights based on user interactions.",
+    "metaTitle": "Dev Tool Usage Analytics – Measure Your Tool's Success | Free Online Tool",
+    "metaDescription": "Track your dev tool's usage metrics for free. Gain insights with no signup required and optimize your tool effectively.",
+    "keywords": [
+      "usage analytics",
+      "dev tool metrics",
+      "user interaction tracking",
+      "dev tool optimization"
+    ],
+    "category": "Developer",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "What metrics can I track?",
+        "answer": "You can track various metrics such as user activity, feature usage, and engagement levels."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, this tracking tool is free with no signup needed."
+      },
+      {
+        "question": "Who is this tool for?",
+        "answer": "It's intended for developers and product managers interested in optimizing their tools based on user metrics."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
+  },
+  {
+    "slug": "dev-tool-collaboration-optimizer",
+    "name": "Dev Tool Collaboration Optimizer",
+    "tagline": "Improve team collaboration on your dev projects.",
+    "description": "This tool helps teams optimize their collaboration processes when working on development tools. It provides insights and recommendations to enhance team productivity and communication.",
+    "metaTitle": "Dev Tool Collaboration Optimizer – Enhance Teamwork | Free Online Tool",
+    "metaDescription": "Optimize collaboration within your dev team for free. Get instant recommendations with no signup required.",
+    "keywords": [
+      "team collaboration",
+      "dev project optimization",
+      "productivity tool",
+      "communication improvement"
+    ],
+    "category": "Developer",
+    "icon": "🤝",
+    "faqs": [
+      {
+        "question": "How does this tool help teams?",
+        "answer": "It analyzes your collaboration methods and offers suggestions to enhance communication and productivity."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Yes, it is completely free with no signup required."
+      },
+      {
+        "question": "Who can benefit from this tool?",
+        "answer": "Any development team looking to improve their collaboration and project outcomes can benefit."
+      }
+    ],
+    "relatedTools": [],
+    "variants": []
   }
 ]

@@ -175,6 +175,8 @@
 /tools/dev-time-tracking-calculator /tools/dev/dev-time-tracking-calculator 301
 /tools/advanced-time-tracking /tools/dev/advanced-time-tracking 301
 /tools/basic-time-tracker /tools/dev/basic-time-tracker 301
+/tools/dev-tool-accessibility-checker /tools/dev/dev-tool-accessibility-checker 301
+/tools/dev-tool-collaboration-optimizer /tools/dev/dev-tool-collaboration-optimizer 301
 /tools/dev-tool-comparison-calculator /tools/dev/dev-tool-comparison-calculator 301
 /tools/dev-tool-comparison-calculator-online /tools/dev/dev-tool-comparison-calculator-online 301
 /tools/dev-tool-comparison-calculator-javascript /tools/dev/dev-tool-comparison-calculator-javascript 301
@@ -186,6 +188,7 @@
 /tools/dev-tool-efficiency-calculator-online /tools/dev/dev-tool-efficiency-calculator-online 301
 /tools/dev-tool-efficiency-calculator-javascript /tools/dev/dev-tool-efficiency-calculator-javascript 301
 /tools/dev-tool-efficiency-calculator-python /tools/dev/dev-tool-efficiency-calculator-python 301
+/tools/dev-tool-feature-prioritizer /tools/dev/dev-tool-feature-prioritizer 301
 /tools/dev-tool-integration-planner /tools/dev/dev-tool-integration-planner 301
 /tools/simple-integration-variant /tools/dev/simple-integration-variant 301
 /tools/advanced-integration-variant /tools/dev/advanced-integration-variant 301
@@ -196,6 +199,8 @@
 /tools/dev-tool-selection-guide-online /tools/dev/dev-tool-selection-guide-online 301
 /tools/dev-tool-selection-guide-javascript /tools/dev/dev-tool-selection-guide-javascript 301
 /tools/dev-tool-selection-guide-python /tools/dev/dev-tool-selection-guide-python 301
+/tools/dev-tool-ui-research /tools/dev/dev-tool-ui-research 301
+/tools/dev-tool-usage-analytics /tools/dev/dev-tool-usage-analytics 301
 /tools/dev-tool-usage-tracker /tools/dev/dev-tool-usage-tracker 301
 /tools/team-usage-tracker /tools/dev/team-usage-tracker 301
 /tools/individual-usage-tracker /tools/dev/individual-usage-tracker 301

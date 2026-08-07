@@ -1,0 +1,48 @@
+{
+  "slug": "dev-tool-usage-analytics",
+  "name": "Dev Tool Usage Analytics Tracker",
+  "tagline": "Acompanhe e analise o uso da sua ferramenta de desenvolvimento.",
+  "description": "Esta ferramenta permite que desenvolvedores insiram métricas relacionadas ao uso de suas ferramentas de desenvolvimento para uma melhor compreensão e otimização. Ela fornece insights acionáveis com base nas interações dos usuários.",
+  "metaTitle": "Análise de Uso de Ferramentas de Desenvolvimento – Meça o Sucesso da Sua Ferramenta | Ferramenta Online Gratuita",
+  "metaDescription": "Acompanhe as métricas de uso da sua ferramenta de desenvolvimento gratuitamente. Obtenha insights sem necessidade de cadastro e otimize sua ferramenta de forma eficaz.",
+  "keywords": [
+    "análise de uso",
+    "métricas de ferramenta de desenvolvimento",
+    "rastreamento de interação do usuário",
+    "otimização de ferramenta de desenvolvimento",
+    "ferramenta online gratuita de análise de uso de ferramenta de desenvolvimento",
+    "conversor de rastreamento de uso de ferramenta de desenvolvimento para navegador",
+    "rastreamento de uso de ferramenta de desenvolvimento sem instalação",
+    "ferramenta de desenvolvimento gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "análise de uso servicenow",
+    "painel de análise de uso",
+    "análise de uso claude",
+    "análise de uso collibra",
+    "análise de uso power bi",
+    "análise de uso metabase",
+    "análise de uso microsoft 365",
+    "ferramenta de métricas para desenvolvedores",
+    "rastreamento de ações do usuário"
+  ],
+  "category": "Developer",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Quais métricas posso acompanhar?",
+      "answer": "Você pode acompanhar várias métricas, como atividade do usuário, uso de funcionalidades e níveis de engajamento."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, esta ferramenta de rastreamento é gratuita e não requer cadastro."
+    },
+    {
+      "question": "Para quem é esta ferramenta?",
+      "answer": "Ela é destinada a desenvolvedores e gerentes de produto interessados em otimizar suas ferramentas com base nas métricas dos usuários."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}

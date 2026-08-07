@@ -1,0 +1,48 @@
+{
+  "slug": "dev-tool-accessibility-checker",
+  "name": "Dev Tool Accessibility Checker",
+  "tagline": "Teste seu ferramenta de desenvolvimento para problemas de acessibilidade.",
+  "description": "Este verificador de acessibilidade ajuda desenvolvedores a identificar potenciais problemas de acessibilidade em suas ferramentas de desenvolvimento. É essencial para criar software inclusivo que todos possam usar.",
+  "metaTitle": "Dev Tool Accessibility Checker – Teste Sua Ferramenta | Ferramenta Online Gratuita",
+  "metaDescription": "Verifique a acessibilidade da sua ferramenta de desenvolvimento gratuitamente. Receba feedback instantâneo sem necessidade de cadastro para garantir um design inclusivo.",
+  "keywords": [
+    "acessibilidade de ferramentas de desenvolvimento",
+    "teste de acessibilidade",
+    "design inclusivo",
+    "verificador de ferramentas de desenvolvimento",
+    "ferramenta online gratuita de verificação de acessibilidade",
+    "conversor de verificação de acessibilidade de ferramenta de desenvolvimento no navegador",
+    "verificador de acessibilidade de ferramenta de desenvolvimento sem instalação",
+    "ferramenta de desenvolvedor gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "verificador de contraste de ferramentas de desenvolvimento",
+    "verificador de acessibilidade das ferramentas de desenvolvimento do chrome",
+    "verificador de contraste das ferramentas de desenvolvimento do chrome",
+    "ferramentas para verificar a acessibilidade de sites",
+    "árvore de acessibilidade das devtools",
+    "acessibilidade das ferramentas de desenvolvedor",
+    "acesso às ferramentas de desenvolvedor no mac",
+    "acesso às ferramentas de desenvolvedor no xcode",
+    "acesso às ferramentas de desenvolvedor no vscode"
+  ],
+  "category": "Developer",
+  "icon": "♿",
+  "faqs": [
+    {
+      "question": "Como funciona o verificador?",
+      "answer": "Basta inserir a URL da sua ferramenta, e o verificador irá escanear em busca de problemas comuns de acessibilidade."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, o verificador de acessibilidade é gratuito para usar, sem necessidade de cadastro."
+    },
+    {
+      "question": "Posso usá-la para qualquer tipo de ferramenta de desenvolvimento?",
+      "answer": "Sim, ela pode ser aplicada a vários tipos de ferramentas e aplicações de desenvolvimento."
+    }
+  ],
+  "relatedTools": [],
+  "variants": []
+}
