@@ -4,7 +4,7 @@
   "tagline": "Convert numbers between any bases — binary, octal, decimal, hex, and more",
   "description": "Convert integers between bases 2 through 64, including binary, octal, decimal, hex, Base58, and Base64. Uses BigInt for unlimited precision. Shows formatted output with nibble/byte spacing.",
   "metaTitle": "Number Base Converter – Binary, Octal, Decimal, Hex & All Bases",
-  "metaDescription": "Free number base converter. Convert between binary, octal, decimal, hex, base 32, base 36 and all bases 2–36. Instant results, BigInt precision.",
+  "metaDescription": "Updated to convert base numbers with uppercase letters for bases below 36.",
   "keywords": [
     "number base converter",
     "binary to decimal converter",

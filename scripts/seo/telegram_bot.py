@@ -176,6 +176,44 @@ def run_agent(bot: telebot.TeleBot, chat_id: int, text: str) -> None:
         bot.send_message(chat_id, f"❌ 执行异常：{e}")
 
 
+def run_approve_link(bot: telebot.TeleBot, chat_id: int, req_id: str, message_id: int) -> None:
+    """Approve a link exchange request via the link-exchange API."""
+    import requests as req_lib
+    api_url = "http://127.0.0.1:5312"
+    try:
+        resp = req_lib.post(f"{api_url}/api/link-exchange/approve/{req_id}", timeout=30)
+        if resp.status_code == 200:
+            data = resp.json()
+            bot.edit_message_text(
+                f"✅ 友情链接已批准并添加！\nURL: {data.get('message', '')}",
+                chat_id=chat_id,
+                message_id=message_id,
+            )
+            bot.send_message(chat_id, "🚀 已自动 git commit & push，友情链接将在下次部署后生效。")
+        else:
+            bot.send_message(chat_id, f"❌ 批准失败: {resp.text[:500]}")
+    except Exception as e:
+        bot.send_message(chat_id, f"❌ 批准异常: {e}")
+
+
+def run_reject_link(bot: telebot.TeleBot, chat_id: int, req_id: str, message_id: int) -> None:
+    """Reject a link exchange request via the link-exchange API."""
+    import requests as req_lib
+    api_url = "http://127.0.0.1:5312"
+    try:
+        resp = req_lib.post(f"{api_url}/api/link-exchange/reject/{req_id}", timeout=15)
+        if resp.status_code == 200:
+            bot.edit_message_text(
+                "❌ 友情链接申请已拒绝。",
+                chat_id=chat_id,
+                message_id=message_id,
+            )
+        else:
+            bot.send_message(chat_id, f"❌ 拒绝失败: {resp.text[:500]}")
+    except Exception as e:
+        bot.send_message(chat_id, f"❌ 拒绝异常: {e}")
+
+
 def main() -> int:
     load_env()
     bot_token = get_required_env("TG_BOT_TOKEN")
@@ -275,6 +313,35 @@ def main() -> int:
             return
         bot.answer_callback_query(call.id, "正在应用建议…")
         thread = threading.Thread(target=run_apply, args=(bot, call.message.chat.id), daemon=True)
+        thread.start()
+
+    # ── Link exchange approval handlers ───────────────────────────────────────
+    @bot.callback_query_handler(func=lambda call: call.data.startswith("approve_link_"))
+    def handle_approve_link(call):
+        if str(call.message.chat.id) != allowed_chat_id:
+            bot.answer_callback_query(call.id, "⛔ 未经授权的访问。")
+            return
+        req_id = call.data.replace("approve_link_", "")
+        bot.answer_callback_query(call.id, "✅ 正在添加友情链接…")
+        thread = threading.Thread(
+            target=run_approve_link,
+            args=(bot, call.message.chat.id, req_id, call.message.message_id),
+            daemon=True,
+        )
+        thread.start()
+
+    @bot.callback_query_handler(func=lambda call: call.data.startswith("reject_link_"))
+    def handle_reject_link(call):
+        if str(call.message.chat.id) != allowed_chat_id:
+            bot.answer_callback_query(call.id, "⛔ 未经授权的访问。")
+            return
+        req_id = call.data.replace("reject_link_", "")
+        bot.answer_callback_query(call.id, "❌ 已拒绝")
+        thread = threading.Thread(
+            target=run_reject_link,
+            args=(bot, call.message.chat.id, req_id, call.message.message_id),
+            daemon=True,
+        )
         thread.start()
 
     print("[telegram_bot] Bot is running. Press Ctrl+C to stop.")

@@ -20,7 +20,15 @@ export default function Footer() {
           <p className="text-sm text-gray-400">
             © {new Date().getFullYear()} GetFastCalc — Free online tools &amp; calculators
           </p>
-          <p className="text-xs text-gray-300">Fast · Free · No signup required</p>
+          <div className="flex items-center gap-4">
+            <Link href="/links" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+              Friend Links
+            </Link>
+            <Link href="/link-exchange" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+              Link Exchange
+            </Link>
+            <p className="text-xs text-gray-300">Fast · Free · No signup required</p>
+          </div>
         </div>
       </div>
     </footer>

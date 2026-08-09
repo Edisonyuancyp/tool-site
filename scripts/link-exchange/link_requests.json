@@ -1,0 +1,19 @@
+[
+  {
+    "id": "135c482a6b",
+    "name": "Test User",
+    "email": "test@test.com",
+    "url": "https://example.com",
+    "site_name": "Test Site",
+    "description": "A test site",
+    "link_page": "https://example.com/links",
+    "reciprocal": {
+      "verified": false,
+      "status": "http_error_404",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "ai_analysis": "1. **网站主题**: 该网站为“示例域”，主要用于文档示例，没有提供与计算器或工具相关的内容，因此与getfastcalc.com无关。\n\n2. **内容质量**: 网站内容极其简单，仅包含关于“示例域”的说明，缺乏实质性和原创性，属于薄弱内容。\n\n3. **反链情况**: 当前未能验证其链接是否指向我们的站点，且返回404错误，表示该页面不存在，无法评估其链接类型（dofollow或nofollow）。\n\n4. **权重评估**: 根据内容质量和域名的性质，该网站的权重评估为低。内容缺乏价值和相关性，可能对SEO没有积极影响。\n\n5. **风险提示**: 无明显的风险提示，但由于网站内容不相关，可能影响我们网站的专业形象。\n\n6. **建议**: 不推荐接受此链接交换。该网站与我们的主题无关，内容质量低，可能对SEO造成负面影响。建议寻找更相关和高质量的网站进行链接交换。",
+    "status": "pending",
+    "submitted_at": "2026-08-10 00:02:17"
+  }
+]
