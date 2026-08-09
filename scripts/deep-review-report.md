@@ -1,13 +1,13 @@
 # Deep Review Report – GetFastCalc
 
-Generated: 2026-08-02 05:34 UTC
+Generated: 2026-08-09 03:48 UTC
 
 ## Summary
 
-- **Total tools**: 159
+- **Total tools**: 165
 - **By category**:
-  - Developer: 32
-  - AI: 23
+  - Developer: 37
+  - AI: 24
   - Finance: 17
   - SEO: 17
   - Design: 12
@@ -60,14 +60,19 @@ These tools are in saturated categories and have weak descriptions/keywords. Con
 
 ## Orphan tools (no related tools)
 
+- `dev-tool-collaboration-optimizer` — Dev Tool Collaboration Optimizer
+- `dev-tool-accessibility-checker` — Dev Tool Accessibility Checker
 - `travel-time-calculator` — Travel Time Calculator
 - `carbon-footprint-travel-calculator` — Carbon Footprint Travel Calculator
 - `dev-budget-calculator` — Dev Budget Calculator
+- `dev-tool-feature-prioritizer` — Dev Tool Feature Prioritizer
 - `color-palette-lab` — Professional Color Palette Lab
 - `group-trip-cost-splitter` — Group Trip Cost Splitter
 - `code-complexity-calculator` — Code Complexity Calculator
 - `developer-time-tracking-calculator` — Developer Time Tracking Calculator
+- `dev-tool-ui-research` — Dev Tool UI Research Helper
 - `travel-expense-estimator` — Travel Expense Estimator
+- `dev-tool-usage-analytics` — Dev Tool Usage Analytics Tracker
 - `dev-tool-selection-guide` — Dev Tool Selection Guide
 
 ## Calculator + Generator candidates (add Download/Share/Report feature)

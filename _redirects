@@ -176,7 +176,13 @@
 /tools/advanced-time-tracking /tools/dev/advanced-time-tracking 301
 /tools/basic-time-tracker /tools/dev/basic-time-tracker 301
 /tools/dev-tool-accessibility-checker /tools/dev/dev-tool-accessibility-checker 301
+/tools/dev-tool-accessibility-checker-online /tools/dev/dev-tool-accessibility-checker-online 301
+/tools/dev-tool-accessibility-checker-javascript /tools/dev/dev-tool-accessibility-checker-javascript 301
+/tools/dev-tool-accessibility-checker-python /tools/dev/dev-tool-accessibility-checker-python 301
 /tools/dev-tool-collaboration-optimizer /tools/dev/dev-tool-collaboration-optimizer 301
+/tools/dev-tool-collaboration-optimizer-online /tools/dev/dev-tool-collaboration-optimizer-online 301
+/tools/dev-tool-collaboration-optimizer-javascript /tools/dev/dev-tool-collaboration-optimizer-javascript 301
+/tools/dev-tool-collaboration-optimizer-python /tools/dev/dev-tool-collaboration-optimizer-python 301
 /tools/dev-tool-comparison-calculator /tools/dev/dev-tool-comparison-calculator 301
 /tools/dev-tool-comparison-calculator-online /tools/dev/dev-tool-comparison-calculator-online 301
 /tools/dev-tool-comparison-calculator-javascript /tools/dev/dev-tool-comparison-calculator-javascript 301
@@ -189,6 +195,9 @@
 /tools/dev-tool-efficiency-calculator-javascript /tools/dev/dev-tool-efficiency-calculator-javascript 301
 /tools/dev-tool-efficiency-calculator-python /tools/dev/dev-tool-efficiency-calculator-python 301
 /tools/dev-tool-feature-prioritizer /tools/dev/dev-tool-feature-prioritizer 301
+/tools/dev-tool-feature-prioritizer-online /tools/dev/dev-tool-feature-prioritizer-online 301
+/tools/dev-tool-feature-prioritizer-javascript /tools/dev/dev-tool-feature-prioritizer-javascript 301
+/tools/dev-tool-feature-prioritizer-python /tools/dev/dev-tool-feature-prioritizer-python 301
 /tools/dev-tool-integration-planner /tools/dev/dev-tool-integration-planner 301
 /tools/simple-integration-variant /tools/dev/simple-integration-variant 301
 /tools/advanced-integration-variant /tools/dev/advanced-integration-variant 301
@@ -200,7 +209,13 @@
 /tools/dev-tool-selection-guide-javascript /tools/dev/dev-tool-selection-guide-javascript 301
 /tools/dev-tool-selection-guide-python /tools/dev/dev-tool-selection-guide-python 301
 /tools/dev-tool-ui-research /tools/dev/dev-tool-ui-research 301
+/tools/dev-tool-ui-research-online /tools/dev/dev-tool-ui-research-online 301
+/tools/dev-tool-ui-research-javascript /tools/dev/dev-tool-ui-research-javascript 301
+/tools/dev-tool-ui-research-python /tools/dev/dev-tool-ui-research-python 301
 /tools/dev-tool-usage-analytics /tools/dev/dev-tool-usage-analytics 301
+/tools/dev-tool-usage-analytics-online /tools/dev/dev-tool-usage-analytics-online 301
+/tools/dev-tool-usage-analytics-javascript /tools/dev/dev-tool-usage-analytics-javascript 301
+/tools/dev-tool-usage-analytics-python /tools/dev/dev-tool-usage-analytics-python 301
 /tools/dev-tool-usage-tracker /tools/dev/dev-tool-usage-tracker 301
 /tools/team-usage-tracker /tools/dev/team-usage-tracker 301
 /tools/individual-usage-tracker /tools/dev/individual-usage-tracker 301
@@ -417,6 +432,9 @@
 /tools/detailed-cost-comparison /tools/ai/detailed-cost-comparison 301
 /tools/quick-cost-comparison /tools/ai/quick-cost-comparison 301
 /tools/prompt-formatter /tools/ai/prompt-formatter 301
+/tools/prompt-formatter-online /tools/ai/prompt-formatter-online 301
+/tools/prompt-formatter-free /tools/ai/prompt-formatter-free 301
+/tools/prompt-formatter-for-students /tools/ai/prompt-formatter-for-students 301
 /tools/prompt-optimizer-tool /tools/ai/prompt-optimizer-tool 301
 /tools/contextual-prompt-optimizer /tools/ai/contextual-prompt-optimizer 301
 /tools/general-prompt-optimizer /tools/ai/general-prompt-optimizer 301

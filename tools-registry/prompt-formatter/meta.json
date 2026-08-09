@@ -48,7 +48,47 @@
     "token-splitter",
     "prompt-cleaner"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "prompt-formatter-online",
+      "metaTitle": "Free Online Prompt Formatter Tool - Easy to Use",
+      "metaDescription": "Transform your prompts effortlessly with our free online Prompt Formatter. Get started now and enhance your writing with structured formatting.",
+      "keywords": [
+        "free online prompt formatter",
+        "prompt formatting tool",
+        "easy prompt formatter",
+        "online text formatter",
+        "format prompts for free"
+      ],
+      "headline": "Elevate your writing with our free online Prompt Formatter tool, designed for effortless and efficient prompt formatting."
+    },
+    {
+      "variantSlug": "prompt-formatter-free",
+      "metaTitle": "Free Prompt Formatter Tool for Effortless Formatting",
+      "metaDescription": "Try our completely free Prompt Formatter tool today! Easily format your prompts and enhance your writing without any cost.",
+      "keywords": [
+        "free prompt formatter",
+        "online prompt formatting tool",
+        "no-cost prompt formatter",
+        "free writing tools",
+        "easy prompt formatting"
+      ],
+      "headline": "Unlock your creativity with our free Prompt Formatter tool, designed to help you effortlessly format your prompts and enhance your writing experience."
+    },
+    {
+      "variantSlug": "prompt-formatter-for-students",
+      "metaTitle": "Prompt Formatter for Students - Boost Your Creativity",
+      "metaDescription": "Enhance your writing skills with our Prompt Formatter for students. Generate unique prompts and unlock your creative potential today!",
+      "keywords": [
+        "student writing prompts generator",
+        "creative writing tools for students",
+        "educational prompt formatter",
+        "student-friendly writing aids",
+        "enhance student creativity"
+      ],
+      "headline": "Unlock your creativity with our Prompt Formatter designed specifically for students and educators, making writing fun and engaging!"
+    }
+  ],
   "seoBody": [
     {
       "heading": "How does the prompt formatter work?",
@@ -65,6 +105,22 @@
     {
       "heading": "Practical tips for optimizing your prompts",
       "body": "When using the prompt formatter, there are a few practical tips to keep in mind. First, always be specific about what you want. Avoid vague terms and instead, provide clear directions. For instance, instead of asking 'What is technology?', consider asking 'What are the latest advancements in technology in 2023?' This specificity helps the AI understand your intent better.\n\nAdditionally, be mindful of common mistakes such as overloading your prompt with too many questions or requirements. This can confuse the AI and lead to irrelevant answers. Instead, focus on one main idea or question at a time. Finally, remember to review the formatted prompts suggested by the tool. Sometimes, a minor tweak can significantly enhance the final output. By following these tips, you can maximize the effectiveness of your prompts and ensure quality AI interactions."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Formatter Online Free – Free Online Prompt Formatter",
+      "metaDescription": "Free online Prompt Formatter — instant results, no signup. Format your AI prompts for free, no signup required, to enhance the quality of r",
+      "h1": "Prompt Formatter – Online Free",
+      "description": "Free online Prompt Formatter — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Formatter How to Use – Free Online Prompt Formatter",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Formatter. Format your AI prompts for free, no signup required, to enhance the quality of r",
+      "h1": "Prompt Formatter – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Formatter."
     }
   ]
 }
