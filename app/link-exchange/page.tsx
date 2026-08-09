@@ -4,9 +4,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const API_URL = typeof window !== "undefined" && window.location.hostname === "localhost"
-  ? "http://127.0.0.1:5312"
-  : "https://api.getfastcalc.com";
+const API_URL = "https://api.getfastcalc.com";
 
 export default function LinkExchangePage() {
   const [form, setForm] = useState({
