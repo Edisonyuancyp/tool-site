@@ -5443,5 +5443,113 @@
     ],
     "relatedTools": [],
     "variants": []
+  },
+  {
+    "slug": "prompt-cost-comparator",
+    "name": "Prompt Cost Comparator",
+    "tagline": "Compare costs for AI prompts instantly.",
+    "description": "Easily compare the costs of prompts across different AI models like GPT-4o, Claude, and Gemini. Ideal for developers and content creators looking to optimize their spending on AI interactions.",
+    "metaTitle": "Prompt Cost Comparator – AI Cost Analysis | Free Online Tool",
+    "metaDescription": "Compare AI prompt costs for free, no signup, and get instant results to optimize your budget.",
+    "keywords": [
+      "prompt cost",
+      "AI cost comparison",
+      "GPT-4o cost",
+      "Claude cost",
+      "Gemini cost"
+    ],
+    "category": "AI",
+    "icon": "💰",
+    "faqs": [
+      {
+        "question": "How does the cost comparison work?",
+        "answer": "Input your prompt and select models to see cost estimates side by side."
+      },
+      {
+        "question": "Is it free to use?",
+        "answer": "Yes, you can use the Prompt Cost Comparator for free without any signup."
+      },
+      {
+        "question": "Which models can I compare?",
+        "answer": "You can compare costs for GPT-4o, Claude, Gemini, and more."
+      }
+    ],
+    "relatedTools": [
+      "ai-cost-comparator",
+      "llm-cost-calculator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "context-window-usage-calculator",
+    "name": "Context Window Usage Calculator",
+    "tagline": "Calculate your context window usage easily.",
+    "description": "This tool helps you determine how much of your context window is being utilized in AI interactions. It's essential for developers and engineers working with large language models to optimize their input.",
+    "metaTitle": "Context Window Usage Calculator – AI Model Optimization | Free Online Tool",
+    "metaDescription": "Calculate context window usage for free, no signup, and get instant feedback for better AI interactions.",
+    "keywords": [
+      "context window calculator",
+      "AI context usage",
+      "token usage calculator",
+      "GPT-4o context",
+      "Claude context"
+    ],
+    "category": "AI",
+    "icon": "📏",
+    "faqs": [
+      {
+        "question": "What is a context window?",
+        "answer": "A context window is the segment of text that an AI model can consider at one time."
+      },
+      {
+        "question": "Can I check usage for different models?",
+        "answer": "Yes, it supports multiple models including GPT-4o and Claude."
+      },
+      {
+        "question": "Is this tool free?",
+        "answer": "Absolutely, you can use the Context Window Usage Calculator for free."
+      }
+    ],
+    "relatedTools": [
+      "context-window-optimizer",
+      "token-splitter"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "ai-prompt-cleaner",
+    "name": "AI Prompt Cleaner",
+    "tagline": "Refine your prompts for clarity.",
+    "description": "Use this tool to clean and streamline your prompts, ensuring clarity and precision for better AI responses. Ideal for content creators and developers looking to enhance their communication with AI models.",
+    "metaTitle": "AI Prompt Cleaner – Enhance Prompt Clarity | Free Online Tool",
+    "metaDescription": "Clean and refine your AI prompts for free, no signup, and receive instant results to improve clarity.",
+    "keywords": [
+      "prompt cleaner",
+      "AI prompt refinement",
+      "clarity tool",
+      "GPT-4o prompts",
+      "Claude prompts"
+    ],
+    "category": "AI",
+    "icon": "🧹",
+    "faqs": [
+      {
+        "question": "How does the prompt cleaner work?",
+        "answer": "Input your prompt and the tool will suggest ways to make it clearer."
+      },
+      {
+        "question": "Is there any cost to use this tool?",
+        "answer": "No, the AI Prompt Cleaner is completely free."
+      },
+      {
+        "question": "What models can I use it for?",
+        "answer": "It's suitable for prompts targeting various AI models like GPT-4o and Claude."
+      }
+    ],
+    "relatedTools": [
+      "prompt-optimizer-tool",
+      "prompt-formatter"
+    ],
+    "variants": []
   }
 ]

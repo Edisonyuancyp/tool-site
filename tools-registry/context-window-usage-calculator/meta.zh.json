@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-usage-calculator",
+  "name": "上下文窗口使用计算器",
+  "tagline": "轻松计算您的上下文窗口使用情况。",
+  "description": "该工具帮助您确定在AI交互中您的上下文窗口被利用的程度。对于使用大型语言模型的开发人员和工程师来说，优化输入至关重要。",
+  "metaTitle": "上下文窗口使用计算器 – AI模型优化 | 免费在线工具",
+  "metaDescription": "免费计算上下文窗口使用情况，无需注册，立即获得反馈以改善AI交互。",
+  "keywords": [
+    "上下文窗口计算器",
+    "AI上下文使用",
+    "令牌使用计算器",
+    "gpt-4o上下文",
+    "claude上下文",
+    "上下文窗口估算器",
+    "LLM上下文窗口计算器",
+    "上下文窗口大小计算器",
+    "上下文窗口显存计算器",
+    "令牌上下文窗口计算器",
+    "AI上下文窗口计算器",
+    "claude上下文窗口计算器",
+    "AI上下文示例",
+    "cursor AI上下文使用",
+    "venice AI上下文使用",
+    "venice AI上下文使用含义",
+    "AI领域上下文使用",
+    "cursor AI上下文使用百分比",
+    "cursor AI上下文使用限制",
+    "令牌使用计算器 claude"
+  ],
+  "category": "AI",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "什么是上下文窗口？",
+      "answer": "上下文窗口是AI模型在一次处理时可以考虑的文本段落。"
+    },
+    {
+      "question": "我可以检查不同模型的使用情况吗？",
+      "answer": "可以，它支持多个模型，包括GPT-4o和Claude。"
+    },
+    {
+      "question": "这个工具是免费的吗？",
+      "answer": "当然可以，您可以免费使用上下文窗口使用计算器。"
+    }
+  ],
+  "relatedTools": [
+    "context-window-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-usage-calculator",
+  "name": "Kontextfenster-Nutzungsrechner",
+  "tagline": "Berechnen Sie ganz einfach Ihre Kontextfensternutzung.",
+  "description": "Dieses Tool hilft Ihnen zu bestimmen, wie viel Ihres Kontextfensters in AI-Interaktionen genutzt wird. Es ist entscheidend für Entwickler und Ingenieure, die mit großen Sprachmodellen arbeiten, um ihre Eingaben zu optimieren.",
+  "metaTitle": "Kontextfenster-Nutzungsrechner – Optimierung von KI-Modellen | Kostenloses Online-Tool",
+  "metaDescription": "Berechnen Sie kostenlos die Nutzung des Kontextfensters, keine Anmeldung erforderlich, und erhalten Sie sofortiges Feedback für bessere KI-Interaktionen.",
+  "keywords": [
+    "kontextfenster rechner",
+    "nutzung des kontextfensters in der KI",
+    "token-nutzungsrechner",
+    "gpt-4o kontext",
+    "claude kontext",
+    "kontextfenster schätzer",
+    "llm kontextfenster rechner",
+    "kontextfenster größenrechner",
+    "kontextfenster vram rechner",
+    "token kontextfenster rechner",
+    "ki kontextfenster rechner",
+    "claude kontextfenster rechner",
+    "beispiel für ki kontext",
+    "cursor ki kontextnutzung",
+    "venice ki kontextnutzung",
+    "bedeutung der venice ki kontextnutzung",
+    "ki realm kontextnutzung",
+    "prozentsatz der cursor ki kontextnutzung",
+    "grenze der cursor ki kontextnutzung",
+    "token-nutzungsrechner claude"
+  ],
+  "category": "AI",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "Was ist ein Kontextfenster?",
+      "answer": "Ein Kontextfenster ist der Textabschnitt, den ein KI-Modell zu einem Zeitpunkt berücksichtigen kann."
+    },
+    {
+      "question": "Kann ich die Nutzung für verschiedene Modelle überprüfen?",
+      "answer": "Ja, es unterstützt mehrere Modelle, einschließlich GPT-4o und Claude."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Absolut, Sie können den Kontextfenster-Nutzungsrechner kostenlos nutzen."
+    }
+  ],
+  "relatedTools": [
+    "context-window-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

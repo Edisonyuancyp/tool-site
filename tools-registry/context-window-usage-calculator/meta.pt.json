@@ -1,0 +1,51 @@
+{
+  "slug": "context-window-usage-calculator",
+  "name": "Calculadora de Uso da Janela de Contexto",
+  "tagline": "Calcule facilmente o uso da sua janela de contexto.",
+  "description": "Esta ferramenta ajuda você a determinar quanto da sua janela de contexto está sendo utilizada em interações de IA. É essencial para desenvolvedores e engenheiros que trabalham com grandes modelos de linguagem para otimizar sua entrada.",
+  "metaTitle": "Calculadora de Uso da Janela de Contexto – Otimização de Modelos de IA | Ferramenta Online Gratuita",
+  "metaDescription": "Calcule o uso da janela de contexto gratuitamente, sem cadastro, e receba feedback instantâneo para melhores interações com IA.",
+  "keywords": [
+    "calculadora de janela de contexto",
+    "uso de contexto em IA",
+    "calculadora de uso de tokens",
+    "contexto gpt-4o",
+    "contexto claude",
+    "estimador de janela de contexto",
+    "calculadora de janela de contexto llm",
+    "calculadora de tamanho da janela de contexto",
+    "calculadora de vram da janela de contexto",
+    "calculadora de janela de contexto de tokens",
+    "calculadora de janela de contexto de IA",
+    "calculadora de janela de contexto claude",
+    "exemplo de contexto em IA",
+    "uso de contexto em IA cursor",
+    "uso de contexto em IA veneza",
+    "significado do uso de contexto em IA veneza",
+    "uso de contexto em IA realm",
+    "percentual de uso de contexto em IA cursor",
+    "limite de uso de contexto em IA cursor",
+    "calculadora de uso de tokens claude"
+  ],
+  "category": "AI",
+  "icon": "📏",
+  "faqs": [
+    {
+      "question": "O que é uma janela de contexto?",
+      "answer": "Uma janela de contexto é o segmento de texto que um modelo de IA pode considerar de cada vez."
+    },
+    {
+      "question": "Posso verificar o uso para diferentes modelos?",
+      "answer": "Sim, suporta múltiplos modelos, incluindo GPT-4o e Claude."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Absolutamente, você pode usar a Calculadora de Uso da Janela de Contexto gratuitamente."
+    }
+  ],
+  "relatedTools": [
+    "context-window-optimizer",
+    "token-splitter"
+  ],
+  "variants": []
+}

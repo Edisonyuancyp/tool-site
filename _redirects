@@ -14,6 +14,7 @@
 /tools/ai-model-comparator /tools/ai/ai-model-comparator 301
 /tools/detailed-ai-model-comparator /tools/ai/detailed-ai-model-comparator 301
 /tools/simple-ai-model-comparator /tools/ai/simple-ai-model-comparator 301
+/tools/ai-prompt-cleaner /tools/ai/ai-prompt-cleaner 301
 /tools/ai-prompt-variable-generator /tools/ai/ai-prompt-variable-generator 301
 /tools/basic-variable-generator /tools/ai/basic-variable-generator 301
 /tools/advanced-variable-generator /tools/ai/advanced-variable-generator 301
@@ -100,6 +101,7 @@
 /tools/context-window-optimizer /tools/ai/context-window-optimizer 301
 /tools/multi-model-optimizer /tools/ai/multi-model-optimizer 301
 /tools/single-model-optimizer /tools/ai/single-model-optimizer 301
+/tools/context-window-usage-calculator /tools/ai/context-window-usage-calculator 301
 /tools/contrast-checker-tool /tools/design/contrast-checker-tool 301
 /tools/contrast-checker-tool-online /tools/design/contrast-checker-tool-online 301
 /tools/contrast-checker-tool-free /tools/design/contrast-checker-tool-free 301
@@ -428,6 +430,7 @@
 /tools/prompt-cost-calculator /tools/ai/prompt-cost-calculator 301
 /tools/detailed-cost-analysis /tools/ai/detailed-cost-analysis 301
 /tools/simple-cost-estimator /tools/ai/simple-cost-estimator 301
+/tools/prompt-cost-comparator /tools/ai/prompt-cost-comparator 301
 /tools/prompt-cost-comparison /tools/ai/prompt-cost-comparison 301
 /tools/detailed-cost-comparison /tools/ai/detailed-cost-comparison 301
 /tools/quick-cost-comparison /tools/ai/quick-cost-comparison 301

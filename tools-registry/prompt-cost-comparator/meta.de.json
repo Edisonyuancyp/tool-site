@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-cost-comparator",
+  "name": "Prompt Cost Comparator",
+  "tagline": "Vergleichen Sie die Kosten für KI-Prompts sofort.",
+  "description": "Vergleichen Sie ganz einfach die Kosten von Prompts über verschiedene KI-Modelle wie GPT-4o, Claude und Gemini. Ideal für Entwickler und Content-Ersteller, die ihre Ausgaben für KI-Interaktionen optimieren möchten.",
+  "metaTitle": "Prompt Cost Comparator – KI Kostenanalyse | Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie kostenlos die Kosten von KI-Prompts, ohne Anmeldung, und erhalten Sie sofortige Ergebnisse zur Optimierung Ihres Budgets.",
+  "keywords": [
+    "prompt kosten",
+    "ki kostenvergleich",
+    "gpt-4o kosten",
+    "claude kosten",
+    "gemini kosten",
+    "prompt kostenrechner",
+    "prompt preis",
+    "prompt expressgebühren",
+    "bedeutung prompt preis",
+    "prompt express preisliste",
+    "prompt bewertungen",
+    "prompt costar",
+    "prompt costar rahmenwerk",
+    "prompt kostüm",
+    "prompt kosten schätzer",
+    "prompt kostenoptimierung",
+    "prompt costa",
+    "ki kostenvergleichstabelle",
+    "ki preisvergleich",
+    "ki preisvergleichs-tool"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Kostenvergleich?",
+      "answer": "Geben Sie Ihren Prompt ein und wählen Sie Modelle aus, um die Kostenschätzungen nebeneinander zu sehen."
+    },
+    {
+      "question": "Ist die Nutzung kostenlos?",
+      "answer": "Ja, Sie können den Prompt Cost Comparator kostenlos ohne Anmeldung nutzen."
+    },
+    {
+      "question": "Welche Modelle kann ich vergleichen?",
+      "answer": "Sie können die Kosten für GPT-4o, Claude, Gemini und weitere Modelle vergleichen."
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "ai-prompt-cleaner",
+  "name": "AI Prompt Cleaner",
+  "tagline": "优化您的提示以提高清晰度。",
+  "description": "使用此工具清理和简化您的提示，确保清晰和准确，以获得更好的AI响应。非常适合希望增强与AI模型沟通的内容创作者和开发者。",
+  "metaTitle": "AI Prompt Cleaner – 提升提示清晰度 | 免费在线工具",
+  "metaDescription": "免费清理和优化您的AI提示，无需注册，立即获得结果以改善清晰度。",
+  "keywords": [
+    "提示清理工具",
+    "AI提示优化",
+    "清晰度工具",
+    "gpt-4o提示",
+    "claude提示",
+    "AI提示清理器",
+    "AI面部清理提示",
+    "专业清洁解决方案",
+    "如何清理软件",
+    "提示清理器",
+    "Wildomar提示清理器",
+    "犹他州穆雷提示清理器",
+    "提示清理器照片",
+    "提示清理器评论",
+    "犹他州提示清理器",
+    "穆雷提示清理器",
+    "干洗提示",
+    "AI提示优化过程",
+    "提示优化AI",
+    "AI迭代提示优化"
+  ],
+  "category": "AI",
+  "icon": "🧹",
+  "faqs": [
+    {
+      "question": "提示清理器是如何工作的？",
+      "answer": "输入您的提示，工具将建议使其更清晰的方法。"
+    },
+    {
+      "question": "使用此工具需要费用吗？",
+      "answer": "不需要，AI Prompt Cleaner完全免费。"
+    },
+    {
+      "question": "我可以用它针对哪些模型？",
+      "answer": "它适用于针对各种AI模型的提示，如GPT-4o和Claude。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-optimizer-tool",
+    "prompt-formatter"
+  ],
+  "variants": []
+}

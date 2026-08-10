@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-cost-comparator",
+  "name": "Comparador de Custos de Prompt",
+  "tagline": "Compare custos de prompts de IA instantaneamente.",
+  "description": "Compare facilmente os custos de prompts entre diferentes modelos de IA como GPT-4o, Claude e Gemini. Ideal para desenvolvedores e criadores de conteúdo que buscam otimizar seus gastos em interações com IA.",
+  "metaTitle": "Comparador de Custos de Prompt – Análise de Custos de IA | Ferramenta Online Gratuita",
+  "metaDescription": "Compare custos de prompts de IA gratuitamente, sem cadastro, e obtenha resultados instantâneos para otimizar seu orçamento.",
+  "keywords": [
+    "custo de prompt",
+    "comparação de custos de IA",
+    "custo do gpt-4o",
+    "custo do claude",
+    "custo do gemini",
+    "calculadora de custo de prompt",
+    "preço de prompt",
+    "taxas de prompt express",
+    "significado do preço de prompt",
+    "lista de preços de prompt express",
+    "avaliações de prompt",
+    "prompt costar",
+    "framework prompt costar",
+    "fantasia de prompt",
+    "estimador de custo de prompt",
+    "otimização de custo de prompt",
+    "custo de prompt",
+    "tabela de comparação de custos de IA",
+    "comparação de preços de IA",
+    "ferramenta de comparação de preços de IA"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como funciona a comparação de custos?",
+      "answer": "Insira seu prompt e selecione os modelos para ver as estimativas de custo lado a lado."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, você pode usar o Comparador de Custos de Prompt gratuitamente, sem necessidade de cadastro."
+    },
+    {
+      "question": "Quais modelos posso comparar?",
+      "answer": "Você pode comparar custos do GPT-4o, Claude, Gemini e mais."
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}

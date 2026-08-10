@@ -1,0 +1,51 @@
+{
+  "slug": "prompt-cost-comparator",
+  "name": "提示成本比较器",
+  "tagline": "即时比较AI提示的成本。",
+  "description": "轻松比较不同AI模型（如GPT-4o、Claude和Gemini）的提示成本。非常适合希望优化AI互动支出的开发者和内容创作者。",
+  "metaTitle": "提示成本比较器 – AI成本分析 | 免费在线工具",
+  "metaDescription": "免费比较AI提示成本，无需注册，获取即时结果以优化您的预算。",
+  "keywords": [
+    "提示成本",
+    "AI成本比较",
+    "gpt-4o成本",
+    "claude成本",
+    "gemini成本",
+    "提示成本计算器",
+    "提示价格",
+    "提示快递费用",
+    "提示价格含义",
+    "提示快递价格表",
+    "提示评价",
+    "提示成本助手",
+    "提示成本助手框架",
+    "提示服装",
+    "提示成本估算器",
+    "提示成本优化",
+    "提示成本分析",
+    "AI成本比较图",
+    "AI价格比较",
+    "AI价格比较工具"
+  ],
+  "category": "AI",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "成本比较是如何工作的？",
+      "answer": "输入您的提示并选择模型，以并排查看成本估算。"
+    },
+    {
+      "question": "使用是免费的么？",
+      "answer": "是的，您可以免费使用提示成本比较器，无需注册。"
+    },
+    {
+      "question": "我可以比较哪些模型？",
+      "answer": "您可以比较GPT-4o、Claude、Gemini等模型的成本。"
+    }
+  ],
+  "relatedTools": [
+    "ai-cost-comparator",
+    "llm-cost-calculator"
+  ],
+  "variants": []
+}
