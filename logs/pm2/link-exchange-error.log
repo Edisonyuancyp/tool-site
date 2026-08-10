@@ -45,3 +45,8 @@
 2026-08-10T00:01:49: [33mPress CTRL+C to quit[0m
 2026-08-10T00:01:51: 127.0.0.1 - - [10/Aug/2026 00:01:51] "GET /health HTTP/1.1" 200 -
 2026-08-10T00:02:18: 127.0.0.1 - - [10/Aug/2026 00:02:18] "POST /api/link-exchange HTTP/1.1" 200 -
+2026-08-10T07:30:34: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-08-10T07:30:34:  * Running on all addresses (0.0.0.0)
+2026-08-10T07:30:34:  * Running on http://127.0.0.1:5312
+2026-08-10T07:30:34:  * Running on http://192.168.1.24:5312
+2026-08-10T07:30:34: [33mPress CTRL+C to quit[0m
