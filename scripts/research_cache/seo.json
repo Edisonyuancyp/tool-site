@@ -1,5 +1,17 @@
 [
   {
+    "title": "r/SEO",
+    "snippet": "r/SEO: The leading authority on all ... in my case there were a lot of opportunities to just \"suggest\" my tool to official sites and they got through.",
+    "link": "https://www.reddit.com/r/SEO/",
+    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
+  },
+  {
+    "title": "SEO generator : r/SEO",
+    "snippet": "Hi guys, I am working on a SEO generator tool to automatically and quickly generate SEO title and description for thousands of pages almost ...",
+    "link": "https://www.reddit.com/r/SEO/comments/1ooxmrx/seo_generator/",
+    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
+  },
+  {
     "title": "r/juststart",
     "snippet": "Quick context: I'm building a tool that turns call/podcast recordings into LinkedIn posts. ... a normal broken-link checker pings it, sees the 200 ...",
     "link": "https://www.reddit.com/r/juststart/",
@@ -9,18 +21,6 @@
     "title": "Finding the right writing tool : r/Blogging",
     "snippet": "Finding the right writing tool. Question.",
     "link": "https://www.reddit.com/r/Blogging/comments/1qjy4np/finding_the_right_writing_tool/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "r/SEO",
-    "snippet": "Looking for a tool which can help me to automate my SEO · I'm running a job-hunting platform. I want to scale my user base through SEO. Which tool you will ...",
-    "link": "https://www.reddit.com/r/SEO/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "SEO generator : r/SEO",
-    "snippet": "Hi guys, I am working on a SEO generator tool to automatically and quickly generate SEO title and description for thousands of pages almost ...",
-    "link": "https://www.reddit.com/r/SEO/comments/1ooxmrx/seo_generator/",
     "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
   },
   {
@@ -36,45 +36,45 @@
     "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
   },
   {
-    "title": "Any blog repurpose and distribution tool?",
-    "snippet": "Hey guys, I'm wondering if anyone knows a tool that can pull your blog posts (maybe from RSS Feed or link?), generate social media posts using ...",
-    "link": "https://www.reddit.com/r/Blogging/comments/1gb5z8j/any_blog_repurpose_and_distribution_tool/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "Favorite tool for writing and editing blog posts? : r/juststart",
-    "snippet": "Anyone have a tool that they swear by? I haven’t found a good one that meets all the needs including collaborating with my writer, formatting and clean ...",
-    "link": "https://www.reddit.com/r/juststart/comments/k412a1/favorite_tool_for_writing_and_editing_blog_posts/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
     "title": "Do I Need A Paid SEO Tool? : r/Blogging",
-    "snippet": "My question is, do I need to be using a paid tool to get the amount of SEO strategy details I need for my own blog long-term?",
+    "snippet": "So my question is, do I need to be using a paid tool to get the amount of SEO strategy details I need for my own blog long-term? Is that what ...",
     "link": "https://www.reddit.com/r/Blogging/comments/u8kepc/do_i_need_a_paid_seo_tool/",
     "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
   },
   {
-    "title": "SEO questions for the website I launched a year ago",
-    "snippet": "If I wer to use the URL inspection tool on google for my site, just to look at indexing, will that mess with anything on the developer's side, ...",
-    "link": "https://www.reddit.com/r/juststart/comments/10r2mgb/seo_questions_for_the_website_i_launched_a_year/",
+    "title": "AI content checker Tool : r/SEO",
+    "snippet": "Skip to main content AI content checker Tool : r/SEO ... AI to Human Text Generator. 0. 7. Ai written blogs? r/SEO. • 2mo ago. Ai written blogs?",
+    "link": "https://www.reddit.com/r/SEO/comments/1b9jato/ai_content_checker_tool/",
     "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
+  },
+  {
+    "title": "Ranking a static calculator site : r/SEO",
+    "snippet": "Skip to main content Ranking a static calculator site : r/SEO ... r/HippoCampusBand - Used an online tool to rank all their songs - this was.",
+    "link": "https://www.reddit.com/r/SEO/comments/772epv/ranking_a_static_calculator_site/",
+    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
+  },
+  {
+    "title": "What is the best SEO tool for beginner bloggers ...",
+    "snippet": "I'm starting my SEO journey with a blog. I need a tool that can help me find keywords with their traffic and ranking difficulty. I like Ahrefs and Semrush, ...",
+    "link": "https://www.reddit.com/r/SEO/comments/15eatlh/what_is_the_best_seo_tool_for_beginner_bloggers/",
+    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
+  },
+  {
+    "title": "Does anyone use the AI to write meta information? : r/SEO",
+    "snippet": "I am designing a website for a client and uploading their entire product catalog online. Since they have around 10,000 products, I don't want to manually ...",
+    "link": "https://www.reddit.com/r/SEO/comments/1d4ftdj/does_anyone_use_the_ai_to_write_meta_information/",
+    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
+  },
+  {
+    "title": "What is the appropriate keyword density? : r/SEO",
+    "snippet": "The general recommendation for keyword density is usually between 1% to 2%. Anything above that can come across as keyword stuffing, which ...",
+    "link": "https://www.reddit.com/r/SEO/comments/1fjkvbu/what_is_the_appropriate_keyword_density/",
+    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
     "title": "Insane SEO Tool: Meta Description & Meta Title Master",
     "snippet": "Insane SEO Tool: Meta Description & Meta Title Master · What's the best SEO tool for generating page titles and meta descriptions that actually ...",
     "link": "https://www.reddit.com/r/GPTStore/comments/1cvvpwq/insane_seo_tool_meta_description_meta_title_master/",
-    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
-  },
-  {
-    "title": "I created a video title generator for youtube : r/aitubers",
-    "snippet": "I created a video title generator for youtube ... I created a bunch of tools for small tasks around youtube.. title generation, description ...",
-    "link": "https://www.reddit.com/r/aitubers/comments/1o1yejf/i_created_a_video_title_generator_for_youtube/",
-    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
-  },
-  {
-    "title": "Which is the best online tool/website available to check ...",
-    "snippet": "Have been using seoreviewtools website for a while only to findout that the results they give are all false. When i cross-checked with the word count ...",
-    "link": "https://www.reddit.com/r/SEO_Digital_Marketing/comments/1glknnj/which_is_the_best_online_toolwebsite_available_to/",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
@@ -84,9 +84,9 @@
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "I built a free meta title & description generator : r/SEO",
-    "snippet": "Best free SEO meta description generator. Clear search. Ask. Best free ... tool that spits out 10 versions based on article type and title.",
-    "link": "https://www.reddit.com/r/SEO/comments/1c65n4x/i_built_a_free_meta_title_description_generator/",
+    "title": "Which is the best online tool/website available to check ...",
+    "snippet": "Have been using seoreviewtools website for a while only to findout that the results they give are all false. When i cross-checked with the word count ...",
+    "link": "https://www.reddit.com/r/SEO_Digital_Marketing/comments/1glknnj/which_is_the_best_online_toolwebsite_available_to/",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
@@ -102,21 +102,21 @@
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "How I automated meta description generation with ...",
-    "snippet": "... Meta Description: The most complete keyword research tool on the market. ... title generator\\n\"+ \"- Meta Description: Generate page titles ...",
-    "link": "https://www.reddit.com/r/SEO/comments/1hxld0o/how_i_automated_meta_description_generation_with/",
+    "title": "I created a video title generator for youtube : r/aitubers",
+    "snippet": "I created a video title generator for youtube. COMMUNITY.",
+    "link": "https://www.reddit.com/r/aitubers/comments/1o1yejf/i_created_a_video_title_generator_for_youtube/",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "Does anyone use the AI to write meta information? : r/SEO",
-    "snippet": "I am designing a website for a client and uploading their entire product catalog online. Since they have around 10,000 products, I don't want to manually ...",
-    "link": "https://www.reddit.com/r/SEO/comments/1d4ftdj/does_anyone_use_the_ai_to_write_meta_information/",
+    "title": "Free review schema generator for Google Businesses",
+    "snippet": "Made a free tool that generates review schema markup directly from your Google reviews. https://www.revukit.com/tools/review-schema-generator.",
+    "link": "https://www.reddit.com/r/seogrowth/comments/1r9cbeq/free_review_schema_generator_for_google_businesses/",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "Advanced Local SEO Schema Generator : r/localseo",
-    "snippet": "Advanced Local SEO Schema Generator. I've been using this Schema for my friend's local business. I customize it per location page, and it ...",
-    "link": "https://www.reddit.com/r/localseo/comments/1m9xroh/advanced_local_seo_schema_generator/",
+    "title": "I built a free meta title & description generator : r/SEO",
+    "snippet": "Best free SEO meta description generator. Clear search. Ask. Best free ... tool that spits out 10 versions based on article type and title.",
+    "link": "https://www.reddit.com/r/SEO/comments/1c65n4x/i_built_a_free_meta_title_description_generator/",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
@@ -126,39 +126,27 @@
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "Best free SEO tools for website rankings",
-    "snippet": "... votes, 130 comments. I'm looking for the best and free SEO tools ... Which SEO tool were you most excited about but eventually stopped using?",
-    "link": "https://www.reddit.com/r/seogrowth/comments/1o725hs/what_are_the_best_free_seo_tools_to_improve/",
-    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
-  },
-  {
-    "title": "Can Any one suggest Best Free SEO Tool in 2024",
-    "snippet": "Can Any one suggest Best Free SEO Tool in 2024. Archived post ... Looking for Free SEO Tools! r/SEO. • 9mo ago. Looking for Free SEO Tools!",
-    "link": "https://www.reddit.com/r/SEO/comments/19cotre/can_any_one_suggest_best_free_seo_tool_in_2024/",
-    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
-  },
-  {
     "title": "What Are Some FREE SEO TOOLS (Actually Free) that ...",
     "snippet": "I’m a beginner in SEO looking to change careers and learn SEO. Ahrefs & Semrush are the two “top dogs” of SEO tools as far as research is concerned. ...",
     "link": "https://www.reddit.com/r/SEO/comments/1705q7j/what_are_some_free_seo_tools_actually_free_that/",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
+    "title": "Can Any one suggest Best Free SEO Tool in 2024",
+    "snippet": "Can Any one suggest Best Free SEO Tool in 2024. Archived post. New ... Looking for Free SEO Tools! 16. 33. Need suggestions to learn SEO · r ...",
+    "link": "https://www.reddit.com/r/SEO/comments/19cotre/can_any_one_suggest_best_free_seo_tool_in_2024/",
+    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
+  },
+  {
+    "title": "Best free SEO tools for website rankings",
+    "snippet": "... votes, 130 comments. I'm looking for the best and free SEO tools ... Which SEO tool were you most excited about but eventually stopped using?",
+    "link": "https://www.reddit.com/r/seogrowth/comments/1o725hs/what_are_the_best_free_seo_tools_to_improve/",
+    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
+  },
+  {
     "title": "What is the simplest SEO tool you recommend?",
-    "snippet": "What is the simplest SEO tool you recommend? ... Semrush for keyword research, Screaming Frog for technical SEO (free version), and free Google ...",
+    "snippet": "What is the simplest SEO tool you recommend? Discussion. There are so ... Looking for Free SEO Tools! 16. 33. Beginner SEO and marketing · r ...",
     "link": "https://www.reddit.com/r/DigitalMarketing/comments/1oublfo/what_is_the_simplest_seo_tool_you_recommend/",
-    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
-  },
-  {
-    "title": "Does anyone know of free SEO analysis tools that are ...",
-    "snippet": "During my corporate work I had access to Semrush, which I really like, but it is expensive and I am looking for cost-free alternatives. I'm a freelancer, ...",
-    "link": "https://www.reddit.com/r/content_marketing/comments/1gfwiak/does_anyone_know_of_free_seo_analysis_tools_that/",
-    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
-  },
-  {
-    "title": "recommend tools free for SEO : r/Blogging",
-    "snippet": "If you are looking for a free SEO Tool, DAXRM is worth checking out. Their Starter plan gives 3 accounts, 250 SEO keywords and 100 local ...",
-    "link": "https://www.reddit.com/r/Blogging/comments/1m7zl4v/recommend_tools_free_for_seo/",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
@@ -168,15 +156,27 @@
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
+    "title": "recommend tools free for SEO : r/Blogging",
+    "snippet": "If you are looking for a free SEO Tool, DAXRM is worth checking out. Their Starter plan gives 3 accounts, 250 SEO keywords and 100 local ...",
+    "link": "https://www.reddit.com/r/Blogging/comments/1m7zl4v/recommend_tools_free_for_seo/",
+    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
+  },
+  {
+    "title": "Free SEO tools that are actually good (no affiliate links, I ...",
+    "snippet": "Looking for Free SEO Tools! r/SEO. • 9mo ago. Looking for Free SEO Tools! ... I accidentally built a very cool automatic SEO tool... so take ...",
+    "link": "https://www.reddit.com/r/digital_marketing/comments/1owmw7h/free_seo_tools_that_are_actually_good_no/",
+    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
+  },
+  {
     "title": "Non-Paid/Free SEO Tool Recommendations",
     "snippet": "Non-Paid/Free SEO Tool Recommendations. Question. Hey guys! I am ... Off page technical SEO already has stuff like Screamy Frog and if i need ...",
     "link": "https://www.reddit.com/r/SEO_tools_reviews/comments/1v5zkz8/nonpaidfree_seo_tool_recommendations/",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "Free SEO tools that are actually good (no affiliate links, I ...",
-    "snippet": "Which is the best all-in-one SEO tool that is worth paying for in 2026? ... Looking for Free SEO Tools! r/SEO. • 9mo ago. Looking for Free SEO ...",
-    "link": "https://www.reddit.com/r/digital_marketing/comments/1owmw7h/free_seo_tools_that_are_actually_good_no/",
+    "title": "Best SEO tool : r/SEO",
+    "snippet": "Moving to Ahrefs after 6 years + on SEMrush...sad to say, I find it more useful for what I need. ... Looking for Free SEO Tools! 16. 33. Which SEO ...",
+    "link": "https://www.reddit.com/r/SEO/comments/1ehb8w3/best_seo_tool/",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
@@ -186,21 +186,15 @@
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Free Slug Generator - Convert Text to URL ... - Achromatic",
+    "title": "Free Slug Generator - Convert Text to URL ... - Achromatic Dev",
     "snippet": "Free online slug generator tool. Convert titles, headings, and text to SEO-friendly URL slugs instantly. Supports transliteration, stop word removal, ...",
     "link": "https://www.achromatic.dev/tools/slug-generator",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
     "title": "Canonical URL / Location Checker",
-    "snippet": "Over 180,572 already signed up for a free SEO Review Tools members account. ... Updated corresponding detection parameters for canonical checker. Special ...",
+    "snippet": "Over 180,917 already signed up for a free SEO Review Tools members account. ... Updated corresponding detection parameters for canonical checker. Special ...",
     "link": "https://www.seoreviewtools.com/canonical-url-location-checker/",
-    "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
-  },
-  {
-    "title": "Online Slug Generator - Generate clean, SEO-friendly slugs with ...",
-    "snippet": "Our Free Slug Generator helps you convert any title or text into a clean, SEO-friendly URL slug in seconds. ✨ Features ✓ Generate SEO-Friendly URL Slugs ✓ ...",
-    "link": "https://www.instagram.com/p/DbF-jgnls0S/",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
@@ -210,27 +204,33 @@
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Online multi line slug generator",
-    "snippet": "How to generate slug from string online?",
-    "link": "https://atakanau.blogspot.com/2019/03/convert-multiline-text-to-slug.html",
-    "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
-  },
-  {
     "title": "Slug Generator Online - Free SEO URL Converter Tool",
     "snippet": "Slug Generator. Create clean, SEO-friendly URLs in one click. Need a readable URL for your article or product page? Paste your title below and get ...",
     "link": "https://www.captaindns.com/en/tools/text/slug-generator",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Best Free Online Slug Generator for SEO | Utility For Web",
-    "snippet": "Best Free Online Slug Generator for SEO utilityforweb.com ... Unlock SEO Power with the Best Free Slug Generator, Online ...",
-    "link": "https://www.linkedin.com/posts/utility-for-web_best-free-online-slug-generator-for-seo-activity-7273560563178225664-2Qt2",
-    "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
-  },
-  {
     "title": "Online slug generator",
     "snippet": "Transform your text into a URL-friendly slug for your website, blog, or application using our online slug generator.",
     "link": "https://mockoon.com/tools/slug-generator/",
+    "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
+  },
+  {
+    "title": "URL Slug Generator — Free Online Tool",
+    "snippet": "Convert titles and product names to clean, URL-friendly slugs. Accents removed, special chars stripped, 100% free. Free Tools; URL Slug Generator.",
+    "link": "https://jumpseller.com/tools/slug-generator/",
+    "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
+  },
+  {
+    "title": "Slug Generator tool",
+    "snippet": "Slug Generator helps you create clean, SEO-friendly URLs in seconds. Use our free online slug generator, slug maker, and text to URL converter to generate",
+    "link": "https://groxdigital.com/tools/slug-generator",
+    "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
+  },
+  {
+    "title": "Canonical Tag Checker",
+    "snippet": "SEOptimer's Canonical Checker tool looks for the presence of the Canonical Tag in your site's HTML. Google recommends having this tag present on every page.",
+    "link": "https://www.seoptimer.com/canonical-checker",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   }
 ]
