@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-08-06. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-08-13. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -22,12 +22,15 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - AI Cost Comparator: https://getfastcalc.com/tools/ai-cost-comparator — Compare costs across AI models
 - AI Image Cost Calculator: https://getfastcalc.com/tools/ai-image-cost-calculator — Calculate costs for AI-generated images.
 - AI Model Comparator: https://getfastcalc.com/tools/ai-model-comparator — Compare different AI models side by side.
+- AI Prompt Cleaner: https://getfastcalc.com/tools/ai-prompt-cleaner — Refine your prompts for clarity.
 - AI Prompt Variable Generator: https://getfastcalc.com/tools/ai-prompt-variable-generator — Generate dynamic variables for prompts
 - Context Window Calculator: https://getfastcalc.com/tools/context-window-calculator — Optimize your AI prompt context.
 - Context Window Optimizer: https://getfastcalc.com/tools/context-window-optimizer — Maximize your AI's context window usage.
+- Context Window Usage Calculator: https://getfastcalc.com/tools/context-window-usage-calculator — Calculate your context window usage easily.
 - Prompt Cleaner: https://getfastcalc.com/tools/prompt-cleaner — Clean and optimize your AI prompts.
 - Prompt Cleaner Tool: https://getfastcalc.com/tools/prompt-cleaner-tool — Refine your prompts for clarity and impact.
 - Prompt Cost Calculator: https://getfastcalc.com/tools/prompt-cost-calculator — Estimate your AI prompt costs quickly.
+- Prompt Cost Comparator: https://getfastcalc.com/tools/prompt-cost-comparator — Compare costs for AI prompts instantly.
 - Prompt Cost Comparison: https://getfastcalc.com/tools/prompt-cost-comparison — Compare costs of different prompts
 - Prompt Formatter: https://getfastcalc.com/tools/prompt-formatter — Format your prompts for better AI results.
 - AI Prompt Optimizer Tool: https://getfastcalc.com/tools/prompt-optimizer-tool — Enhance your prompts for better results
@@ -101,12 +104,17 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Dev Sandbox Calculator: https://getfastcalc.com/tools/dev/dev-sandbox-calculator — Estimate resource needs for your dev environment
 - Dev Security Risk Calculator: https://getfastcalc.com/tools/dev/dev-security-risk-calculator — Evaluate security risks in your projects.
 - Dev Time Tracking Calculator: https://getfastcalc.com/tools/dev/dev-time-tracking-calculator — Track your development time efficiently.
+- Dev Tool Accessibility Checker: https://getfastcalc.com/tools/dev/dev-tool-accessibility-checker — Test your dev tool for accessibility issues.
+- Dev Tool Collaboration Optimizer: https://getfastcalc.com/tools/dev/dev-tool-collaboration-optimizer — Improve team collaboration on your dev projects.
 - Dev Tool Comparison Calculator: https://getfastcalc.com/tools/dev/dev-tool-comparison-calculator — Compare multiple development tools side by side.
 - Dev Tool Cost Calculator: https://getfastcalc.com/tools/dev/dev-tool-cost-calculator — Estimate your development tool expenses
 - Dev Tool Efficiency Calculator: https://getfastcalc.com/tools/dev/dev-tool-efficiency-calculator — Measure your development tool effectiveness.
+- Dev Tool Feature Prioritizer: https://getfastcalc.com/tools/dev/dev-tool-feature-prioritizer — Prioritize features for your dev tool effectively.
 - Dev Tool Integration Planner: https://getfastcalc.com/tools/dev/dev-tool-integration-planner — Plan your tool integrations effectively
 - Dev Tool Performance Calculator: https://getfastcalc.com/tools/dev/dev-tool-performance-calculator — Measure your dev tools' effectiveness.
 - Dev Tool Selection Guide: https://getfastcalc.com/tools/dev/dev-tool-selection-guide — Find the right tools for your project.
+- Dev Tool UI Research Helper: https://getfastcalc.com/tools/dev/dev-tool-ui-research — Prepare for user interface research effortlessly.
+- Dev Tool Usage Analytics Tracker: https://getfastcalc.com/tools/dev/dev-tool-usage-analytics — Track and analyze usage of your dev tool.
 - Dev Tool Usage Tracker: https://getfastcalc.com/tools/dev/dev-tool-usage-tracker — Monitor and analyze your dev tool usage
 - Dev UX Research Calculator: https://getfastcalc.com/tools/dev/dev-ux-research-calculator — Estimate your UX research costs
 - Developer Time Tracking Calculator: https://getfastcalc.com/tools/dev/developer-time-tracking-calculator — Track your development time efficiently.
