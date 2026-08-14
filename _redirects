@@ -189,9 +189,17 @@
 /tools/dev-tool-comparison-calculator-online /tools/dev/dev-tool-comparison-calculator-online 301
 /tools/dev-tool-comparison-calculator-javascript /tools/dev/dev-tool-comparison-calculator-javascript 301
 /tools/dev-tool-comparison-calculator-python /tools/dev/dev-tool-comparison-calculator-python 301
+/tools/dev-tool-comparison-chart /tools/dev/dev-tool-comparison-chart 301
+/tools/basic-comparison-chart /tools/dev/basic-comparison-chart 301
+/tools/advanced-comparison-chart /tools/dev/advanced-comparison-chart 301
+/tools/dev-tool-compatibility-checker /tools/dev/dev-tool-compatibility-checker 301
+/tools/basic-compatibility-checker /tools/dev/basic-compatibility-checker 301
+/tools/advanced-compatibility-checker /tools/dev/advanced-compatibility-checker 301
 /tools/dev-tool-cost-calculator /tools/dev/dev-tool-cost-calculator 301
 /tools/annual-cost-variant /tools/dev/annual-cost-variant 301
 /tools/monthly-cost-variant /tools/dev/monthly-cost-variant 301
+/tools/dev-tool-cost-estimator /tools/dev/dev-tool-cost-estimator 301
+/tools/detailed-cost-estimator /tools/dev/detailed-cost-estimator 301
 /tools/dev-tool-efficiency-calculator /tools/dev/dev-tool-efficiency-calculator 301
 /tools/dev-tool-efficiency-calculator-online /tools/dev/dev-tool-efficiency-calculator-online 301
 /tools/dev-tool-efficiency-calculator-javascript /tools/dev/dev-tool-efficiency-calculator-javascript 301
@@ -203,6 +211,9 @@
 /tools/dev-tool-integration-planner /tools/dev/dev-tool-integration-planner 301
 /tools/simple-integration-variant /tools/dev/simple-integration-variant 301
 /tools/advanced-integration-variant /tools/dev/advanced-integration-variant 301
+/tools/dev-tool-learning-path-generator /tools/dev/dev-tool-learning-path-generator 301
+/tools/basic-learning-path /tools/dev/basic-learning-path 301
+/tools/advanced-learning-path /tools/dev/advanced-learning-path 301
 /tools/dev-tool-performance-calculator /tools/dev/dev-tool-performance-calculator 301
 /tools/advanced-performance-calculator /tools/dev/advanced-performance-calculator 301
 /tools/basic-performance-calculator /tools/dev/basic-performance-calculator 301

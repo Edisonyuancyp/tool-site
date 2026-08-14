@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-compatibility-checker",
+  "name": "Verificador de Compatibilidade de Ferramentas de Desenvolvimento",
+  "tagline": "Verifique a compatibilidade de ferramentas e frameworks de desenvolvimento.",
+  "description": "Determine se as ferramentas e frameworks de desenvolvimento escolhidos funcionam bem juntos. Esta ferramenta é ideal para desenvolvedores que desejam evitar problemas de integração.",
+  "metaTitle": "Compatibilidade de Ferramentas de Desenvolvimento – Verificador de Frameworks | Ferramenta Online Gratuita",
+  "metaDescription": "Verifique a compatibilidade de ferramentas gratuitamente, sem necessidade de cadastro, resultados instantâneos.",
+  "keywords": [
+    "compatibilidade de ferramentas de desenvolvimento",
+    "verificador de frameworks",
+    "problemas de integração",
+    "ferramentas para desenvolvedores",
+    "teste de compatibilidade",
+    "verificador de compatibilidade de ferramentas de desenvolvimento ferramenta online gratuita",
+    "verificador de compatibilidade de ferramentas de desenvolvimento conversor navegador",
+    "verificador de compatibilidade de ferramentas de desenvolvimento sem instalação",
+    "ferramenta de desenvolvimento gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "site verificador de frameworks",
+    "verificador de frameworks github",
+    "verificador de frameworks java",
+    "verificador de frameworks maven",
+    "verificador de frameworks anotações",
+    "verificador de frameworks gradle",
+    "verificador de frameworks jspecify",
+    "significado de problemas de integração"
+  ],
+  "category": "Developer",
+  "icon": "🔗",
+  "faqs": [
+    {
+      "question": "Como faço para verificar a compatibilidade?",
+      "answer": "Selecione suas ferramentas e frameworks, e a ferramenta analisará a compatibilidade deles."
+    },
+    {
+      "question": "É gratuito para usar?",
+      "answer": "Sim, este verificador de compatibilidade é completamente gratuito."
+    },
+    {
+      "question": "E se minhas ferramentas não forem compatíveis?",
+      "answer": "A ferramenta sugerirá alternativas ou soluções para problemas de compatibilidade."
+    }
+  ],
+  "relatedTools": [
+    "dev-tool-comparison-chart",
+    "dev-tool-usage-tracker"
+  ],
+  "variants": []
+}

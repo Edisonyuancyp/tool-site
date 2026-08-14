@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-comparison-chart",
+  "name": "Tabela de Comparação de Ferramentas de Desenvolvimento",
+  "tagline": "Compare várias ferramentas de desenvolvimento lado a lado.",
+  "description": "Compare facilmente as características e preços de diferentes ferramentas de desenvolvimento para encontrar a melhor opção para o seu projeto. Esta ferramenta é essencial para desenvolvedores que tomam decisões de compra informadas.",
+  "metaTitle": "Comparação de Ferramentas de Desenvolvimento – Tabela de Recursos e Preços | Ferramenta Online Gratuita",
+  "metaDescription": "Compare ferramentas de desenvolvimento gratuitamente, sem cadastro, resultados instantâneos para fazer escolhas informadas.",
+  "keywords": [
+    "comparação de ferramentas de desenvolvimento",
+    "comparar ferramentas",
+    "comparação de recursos",
+    "comparação de preços",
+    "ferramentas para desenvolvedores",
+    "ferramenta online gratuita de comparação de ferramentas de desenvolvimento",
+    "conversor de tabela de comparação de ferramentas de desenvolvimento no navegador",
+    "tabela de comparação de ferramentas de desenvolvimento sem instalação",
+    "ferramenta de desenvolvimento gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "comparação de ferramentas de desenvolvimento de IA",
+    "ferramenta para comparar arquivos",
+    "comparar ferramentas online",
+    "comparar ferramentas para windows",
+    "comparar ferramentas de texto",
+    "comparar ferramentas de IA",
+    "ferramentas de comparação de arquivos",
+    "ferramentas de comparação de código"
+  ],
+  "category": "Developer",
+  "icon": "📈",
+  "faqs": [
+    {
+      "question": "Quais ferramentas posso comparar?",
+      "answer": "Você pode comparar qualquer ferramenta de desenvolvimento incluída em nosso banco de dados."
+    },
+    {
+      "question": "É realmente gratuito?",
+      "answer": "Sim, esta ferramenta de comparação é completamente gratuita e não requer cadastro."
+    },
+    {
+      "question": "Posso sugerir mais ferramentas?",
+      "answer": "Com certeza! Você pode sugerir ferramentas adicionais para comparação."
+    }
+  ],
+  "relatedTools": [
+    "dev-tool-usage-tracker",
+    "dev-tool-cost-estimator"
+  ],
+  "variants": []
+}

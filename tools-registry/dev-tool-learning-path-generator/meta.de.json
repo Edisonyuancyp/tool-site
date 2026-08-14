@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-learning-path-generator",
+  "name": "Dev Tool Learning Path Generator",
+  "tagline": "Erstellen Sie individuelle Lernpfade für Tools.",
+  "description": "Erstellen Sie personalisierte Lernpfade, um verschiedene Entwicklungstools basierend auf Ihrem Fähigkeitsniveau und Ihren Zielen zu meistern. Dieses Tool ist für Entwickler gedacht, die ihre Fähigkeiten effizient verbessern möchten.",
+  "metaTitle": "Dev Tool Learning Path – Individueller Generator | Kostenloses Online-Tool",
+  "metaDescription": "Erstellen Sie kostenlos Lernpfade, keine Anmeldung erforderlich, sofortige Ergebnisse zur Verbesserung Ihrer Fähigkeiten.",
+  "keywords": [
+    "dev tool lernpfad",
+    "fähigkeitsverbesserung",
+    "individuelle lernpfade",
+    "entwicklertools",
+    "lernressourcen",
+    "dev tool lernpfad generator online tool kostenlos",
+    "dev tool lernpfad generator konverter browser",
+    "dev tool lernpfad generator ohne installation",
+    "kostenloses entwicklerwerkzeug",
+    "online dienstprogramm",
+    "keine installation erforderlich",
+    "browserbasiertes dev tool",
+    "fähigkeitsverbesserung training",
+    "fähigkeitsverbesserung seraph bdo",
+    "fähigkeitsverbesserung training lni",
+    "fähigkeitsverbesserung 3.5",
+    "fähigkeitsverbesserung synonyme",
+    "fähigkeitsverbesserung kurs",
+    "fähigkeitsverbesserung kurs bedeutung in hindi",
+    "personalisierte lernpfade"
+  ],
+  "category": "Developer",
+  "icon": "📚",
+  "faqs": [
+    {
+      "question": "Wie funktioniert der Lernpfad-Generator?",
+      "answer": "Geben Sie Ihre aktuellen Fähigkeiten und Ziele ein, und das Tool erstellt einen personalisierten Lernpfad."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos?",
+      "answer": "Ja, der Lernpfad-Generator ist völlig kostenlos zu nutzen."
+    },
+    {
+      "question": "Kann ich meinen Lernpfad anpassen?",
+      "answer": "Ja, Sie können den Pfad basierend auf Ihrem Fortschritt und Ihren Interessen anpassen."
+    }
+  ],
+  "relatedTools": [
+    "dev-tool-compatibility-checker",
+    "dev-tool-cost-estimator"
+  ],
+  "variants": []
+}

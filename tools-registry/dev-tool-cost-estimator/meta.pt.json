@@ -1,0 +1,51 @@
+{
+  "slug": "dev-tool-cost-estimator",
+  "name": "Estimador de Custos de Ferramentas de Desenvolvimento",
+  "tagline": "Estime os custos de ferramentas de desenvolvimento.",
+  "description": "Estime rapidamente o custo total de usar diferentes ferramentas de desenvolvimento com base nas suas necessidades específicas. Perfeito para startups e desenvolvedores que estão orçando gastos com ferramentas.",
+  "metaTitle": "Custo de Ferramentas de Desenvolvimento – Estimador de Orçamento | Ferramenta Online Gratuita",
+  "metaDescription": "Estime os custos de ferramentas de desenvolvimento gratuitamente, sem necessidade de cadastro, resultados de orçamento instantâneos.",
+  "keywords": [
+    "custo de ferramenta de desenvolvimento",
+    "estimador de orçamento",
+    "gastos com ferramentas",
+    "estimativa de custo",
+    "orçamento para startups",
+    "ferramenta online gratuita de estimador de custo de ferramenta de desenvolvimento",
+    "conversor de estimador de custo de ferramenta de desenvolvimento para navegador",
+    "estimador de custo de ferramenta de desenvolvimento sem instalação",
+    "ferramenta de desenvolvedor gratuita",
+    "utilitário online",
+    "sem instalação necessária",
+    "ferramenta de desenvolvimento baseada em navegador",
+    "código HSN de custo de desenvolvimento de ferramenta",
+    "custo de desenvolvimento de ferramenta",
+    "comparação de custo de ferramenta de desenvolvedor AI",
+    "custo de ferramentas de desenvolvimento axe",
+    "qual ferramenta de devops está em alta",
+    "ferramenta de estimador de orçamento",
+    "estimador de orçamento para casamento",
+    "estimador de orçamento familiar"
+  ],
+  "category": "Developer",
+  "icon": "💰",
+  "faqs": [
+    {
+      "question": "Como eu uso o estimador de custos?",
+      "answer": "Insira suas necessidades e preferências, e a ferramenta calculará seus custos estimados."
+    },
+    {
+      "question": "Há algum custo para usar esta ferramenta?",
+      "answer": "Não, este estimador de custos é completamente gratuito para usar."
+    },
+    {
+      "question": "Posso salvar minhas estimativas?",
+      "answer": "Atualmente, as estimativas não são salvas, mas você pode anotá-las manualmente."
+    }
+  ],
+  "relatedTools": [
+    "software-development-cost-calculator",
+    "web-mobile-app-development-cost-calculator"
+  ],
+  "variants": []
+}
