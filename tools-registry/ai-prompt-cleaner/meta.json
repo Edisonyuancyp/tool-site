@@ -48,7 +48,47 @@
     "prompt-optimizer-tool",
     "prompt-formatter"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "ai-prompt-cleaner-online",
+      "metaTitle": "Free AI Prompt Cleaner - Online Tool for Effective Prompts",
+      "metaDescription": "Transform your AI prompts effortlessly with our free online AI Prompt Cleaner. Start cleaning your prompts today for better results!",
+      "keywords": [
+        "free AI prompt cleaner",
+        "online prompt cleaning tool",
+        "AI prompt optimization",
+        "clean AI text prompts",
+        "best free AI tools"
+      ],
+      "headline": "Enhance your AI prompts for free with our easy-to-use online cleaner tool, ensuring clarity and effectiveness in your AI interactions."
+    },
+    {
+      "variantSlug": "ai-prompt-cleaner-free",
+      "metaTitle": "AI Prompt Cleaner - Completely Free Tool for Users",
+      "metaDescription": "Use our AI Prompt Cleaner for free! Simplify your prompts and enhance your writing with this user-friendly online tool designed for everyone.",
+      "keywords": [
+        "free AI prompt cleaner",
+        "online prompt cleaning tool",
+        "AI text cleaner free",
+        "prompt optimization tool",
+        "free writing assistant tool"
+      ],
+      "headline": "Transform your writing effortlessly with our completely free AI Prompt Cleaner tool, designed for users seeking simplicity and clarity."
+    },
+    {
+      "variantSlug": "ai-prompt-cleaner-for-students",
+      "metaTitle": "AI Prompt Cleaner for Students | Enhance Your Learning",
+      "metaDescription": "Optimize your AI prompts with our AI Prompt Cleaner for students. Boost your assignments and projects with clearer, more effective prompts today!",
+      "keywords": [
+        "AI prompt cleaner for students",
+        "educational AI tools",
+        "improve AI writing prompts",
+        "student learning resources",
+        "AI prompt optimization"
+      ],
+      "headline": "Transform your assignments with the AI Prompt Cleaner, designed specifically for students and educators to enhance clarity and effectiveness."
+    }
+  ],
   "seoBody": [
     {
       "heading": "How does the prompt cleaner work?",
@@ -65,6 +105,22 @@
     {
       "heading": "Practical tips for effective prompting",
       "body": "When using the AI Prompt Cleaner, keep a few practical tips in mind. First, aim for brevity and specificity in your prompts. Shorter, more focused prompts often yield better results from AI models, as they reduce the chance of misinterpretation. Avoid using overly complex language or unnecessary details that could obscure your main request.\n\nAdditionally, be mindful of common mistakes, such as asking multiple questions in one prompt. This can confuse the AI. Instead, try to separate your inquiries into distinct prompts for clarity. Finally, always review the suggestions provided by the prompt cleaner critically, as not every suggestion may align perfectly with your intent."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "AI Prompt Cleaner Online Free – Free Online AI Prompt Cleaner",
+      "metaDescription": "Free online AI Prompt Cleaner — instant results, no signup. Clean and refine your AI prompts for free, no signup, and receive instant result",
+      "h1": "AI Prompt Cleaner – Online Free",
+      "description": "Free online AI Prompt Cleaner — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "AI Prompt Cleaner How to Use – Free Online AI Prompt Cleaner",
+      "metaDescription": "Step-by-step guide to getting the most from AI Prompt Cleaner. Clean and refine your AI prompts for free, no signup, and receive instant result",
+      "h1": "AI Prompt Cleaner – How to Use",
+      "description": "Step-by-step guide to getting the most from AI Prompt Cleaner."
     }
   ]
 }

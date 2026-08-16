@@ -48,7 +48,47 @@
     "ai-cost-comparator",
     "llm-cost-calculator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "prompt-cost-comparator-online",
+      "metaTitle": "Free Online Prompt Cost Comparator Tool",
+      "metaDescription": "Use our free online Prompt Cost Comparator to effortlessly compare prompt costs and optimize your budget today!",
+      "keywords": [
+        "free prompt cost calculator",
+        "online prompt cost comparator",
+        "compare prompt costs free",
+        "budget-friendly prompt tool",
+        "cost-effective prompt comparison"
+      ],
+      "headline": "Discover the best way to compare prompt costs with our easy-to-use, free online calculator and maximize your savings today!"
+    },
+    {
+      "variantSlug": "prompt-cost-comparator-free",
+      "metaTitle": "Free Prompt Cost Comparator Tool - Compare Costs Now",
+      "metaDescription": "Use our completely free Prompt Cost Comparator to easily compare costs and make informed choices. Start saving today!",
+      "keywords": [
+        "free prompt cost calculator",
+        "cost comparison tool free",
+        "compare prompt costs online",
+        "zero-cost prompt comparator",
+        "free AI prompt pricing tool"
+      ],
+      "headline": "Discover the best AI prompts without spending a dime with our free Prompt Cost Comparator tool."
+    },
+    {
+      "variantSlug": "prompt-cost-comparator-for-students",
+      "metaTitle": "Prompt Cost Comparator for Students | Calculate Costs",
+      "metaDescription": "Compare prompt costs effortlessly! Ideal for students and educators to find the best options for their projects and assignments.",
+      "keywords": [
+        "prompt cost comparison for students",
+        "educator tools for cost analysis",
+        "student prompt pricing calculator",
+        "compare prompt costs for projects",
+        "cost-effective prompt solutions for educators"
+      ],
+      "headline": "Empower your studies with our Prompt Cost Comparator, designed specifically for students and educators to optimize prompt costs and enhance learning."
+    }
+  ],
   "seoBody": [
     {
       "heading": "How does the prompt cost comparison work?",
@@ -65,6 +105,22 @@
     {
       "heading": "Practical tips for using the prompt cost comparator",
       "body": "When using the prompt cost comparator, it’s essential to input accurate details about your prompts to get precise cost estimates. Avoid rounding numbers too early in your calculations, as this can lead to significant discrepancies in the final costs. Make sure to consider factors such as the model's capabilities and the quality of responses, as sometimes a higher cost might be justified by better performance.\n\nAdditionally, watch for updates on pricing structures, as AI model costs can change frequently. Regularly check the tool for the most current rates, and take advantage of any additional metrics provided, such as processing speed or response quality, to make a more comprehensive comparison. By following these tips, you can maximize your efficiency and ensure you are making cost-effective choices in your AI interactions."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Cost Comparator Online Free – Free Online Prompt Cost Comparator",
+      "metaDescription": "Free online Prompt Cost Comparator — instant results, no signup. Compare AI prompt costs for free, no signup, and get instant results to optimize",
+      "h1": "Prompt Cost Comparator – Online Free",
+      "description": "Free online Prompt Cost Comparator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Cost Comparator How to Use – Free Online Prompt Cost Comparator",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Cost Comparator. Compare AI prompt costs for free, no signup, and get instant results to optimize",
+      "h1": "Prompt Cost Comparator – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Cost Comparator."
     }
   ]
 }
