@@ -1,0 +1,43 @@
+{
+  "slug": "prompt-version-comparison",
+  "name": "提示版本比较器",
+  "tagline": "比较您提示的不同版本。",
+  "description": "分析和比较您提示的各种迭代，以查看哪一个产生更好的输出。非常适合内容创作者和AI开发者优化他们的提示策略。",
+  "metaTitle": "提示版本比较器 – 优化AI互动 | 免费在线工具",
+  "metaDescription": "使用我们的免费工具比较AI提示版本。无需注册即可获得即时反馈。",
+  "keywords": [
+    "提示版本比较器",
+    "比较提示",
+    "AI互动优化",
+    "提示测试工具",
+    "输出比较",
+    "比较提示",
+    "比较AI提示",
+    "比较对比提示",
+    "比较两个提示",
+    "比较LLM提示",
+    "Langfuse比较提示",
+    "比较对比论文提示"
+  ],
+  "category": "AI",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "我如何比较提示？",
+      "answer": "输入您提示的不同版本，工具将突出显示输出中的差异。"
+    },
+    {
+      "question": "这个工具对所有AI模型都有用吗？",
+      "answer": "是的，它可以用于针对各种AI模型的提示。"
+    },
+    {
+      "question": "我可以保存我的比较结果吗？",
+      "answer": "目前，比较结果无法保存，但您可以复制结果以供后续参考。"
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-comparator"
+  ],
+  "variants": []
+}

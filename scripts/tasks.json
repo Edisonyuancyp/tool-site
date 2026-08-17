@@ -5787,5 +5787,41 @@
         "headline": "Develop an advanced learning path for mastering complex development tools."
       }
     ]
+  },
+  {
+    "slug": "prompt-version-comparison",
+    "name": "Prompt Version Comparator",
+    "tagline": "Compare different versions of your prompts.",
+    "description": "Analyze and compare various iterations of your prompts to see which one yields better outputs. Perfect for content creators and AI developers refining their prompt strategies.",
+    "metaTitle": "Prompt Version Comparator – Optimize AI Interactions | Free Online Tool",
+    "metaDescription": "Compare AI prompt versions with our free tool. Get instant feedback without signup.",
+    "keywords": [
+      "prompt version comparator",
+      "compare prompts",
+      "AI interaction optimization",
+      "prompt testing tool",
+      "output comparison"
+    ],
+    "category": "AI",
+    "icon": "📊",
+    "faqs": [
+      {
+        "question": "How do I compare prompts?",
+        "answer": "Input different versions of your prompt, and the tool will highlight differences in output."
+      },
+      {
+        "question": "Is this tool useful for all AI models?",
+        "answer": "Yes, it can be used for prompts targeting various AI models."
+      },
+      {
+        "question": "Can I save my comparisons?",
+        "answer": "Currently, comparisons are not saved, but you can copy results for later reference."
+      }
+    ],
+    "relatedTools": [
+      "prompt-token-counter",
+      "ai-model-comparator"
+    ],
+    "variants": []
   }
 ]

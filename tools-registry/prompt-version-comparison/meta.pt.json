@@ -1,0 +1,43 @@
+{
+  "slug": "prompt-version-comparison",
+  "name": "Comparador de Versões de Prompt",
+  "tagline": "Compare diferentes versões dos seus prompts.",
+  "description": "Analise e compare várias iterações dos seus prompts para ver qual gera melhores resultados. Perfeito para criadores de conteúdo e desenvolvedores de IA que estão aprimorando suas estratégias de prompt.",
+  "metaTitle": "Comparador de Versões de Prompt – Otimize Interações com IA | Ferramenta Online Gratuita",
+  "metaDescription": "Compare versões de prompts de IA com nossa ferramenta gratuita. Obtenha feedback instantâneo sem precisar se cadastrar.",
+  "keywords": [
+    "comparador de versões de prompt",
+    "comparar prompts",
+    "otimização de interações com IA",
+    "ferramenta de teste de prompt",
+    "comparação de resultados",
+    "prompts de comparação",
+    "comparar prompts de IA",
+    "comparar prompts contrastantes",
+    "comparar dois prompts",
+    "comparar prompts de llm",
+    "langfuse comparar prompts",
+    "comparar prompts de redação contrastante"
+  ],
+  "category": "AI",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Como eu comparo prompts?",
+      "answer": "Insira diferentes versões do seu prompt, e a ferramenta destacará as diferenças nos resultados."
+    },
+    {
+      "question": "Esta ferramenta é útil para todos os modelos de IA?",
+      "answer": "Sim, pode ser utilizada para prompts direcionados a vários modelos de IA."
+    },
+    {
+      "question": "Posso salvar minhas comparações?",
+      "answer": "Atualmente, as comparações não são salvas, mas você pode copiar os resultados para referência futura."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-comparator"
+  ],
+  "variants": []
+}

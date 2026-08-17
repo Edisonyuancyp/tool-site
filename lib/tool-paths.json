@@ -483,6 +483,7 @@
   "quick-compare-tool": "/tools/ai/quick-compare-tool",
   "prompt-version-comparer": "/tools/ai/prompt-version-comparer",
   "quick-comparison-tool": "/tools/ai/quick-comparison-tool",
+  "prompt-version-comparison": "/tools/ai/prompt-version-comparison",
   "qr-code-generator": "/tools/design/qr-code-generator",
   "wifi-qr-code-generator": "/tools/design/wifi-qr-code-generator",
   "url-to-qr-code": "/tools/design/url-to-qr-code",

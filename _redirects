@@ -482,6 +482,7 @@
 /tools/quick-compare-tool /tools/ai/quick-compare-tool 301
 /tools/prompt-version-comparer /tools/ai/prompt-version-comparer 301
 /tools/quick-comparison-tool /tools/ai/quick-comparison-tool 301
+/tools/prompt-version-comparison /tools/ai/prompt-version-comparison 301
 /tools/qr-code-generator /tools/design/qr-code-generator 301
 /tools/wifi-qr-code-generator /tools/design/wifi-qr-code-generator 301
 /tools/url-to-qr-code /tools/design/url-to-qr-code 301

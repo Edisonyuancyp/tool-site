@@ -1,0 +1,43 @@
+{
+  "slug": "prompt-version-comparison",
+  "name": "Prompt Version Comparator",
+  "tagline": "Vergleichen Sie verschiedene Versionen Ihrer Eingabeaufforderungen.",
+  "description": "Analysieren und vergleichen Sie verschiedene Iterationen Ihrer Eingabeaufforderungen, um herauszufinden, welche bessere Ergebnisse liefert. Ideal für Content-Ersteller und KI-Entwickler, die ihre Eingabeaufforderungsstrategien verfeinern.",
+  "metaTitle": "Prompt Version Comparator – Optimieren Sie KI-Interaktionen | Kostenloses Online-Tool",
+  "metaDescription": "Vergleichen Sie KI-Eingabeaufforderungs-Versionen mit unserem kostenlosen Tool. Erhalten Sie sofortiges Feedback ohne Anmeldung.",
+  "keywords": [
+    "Eingabeaufforderungs-Vergleichstool",
+    "Eingabeaufforderungen vergleichen",
+    "KI-Interaktionsoptimierung",
+    "Eingabeaufforderungstest-Tool",
+    "Ausgabevergleich",
+    "Vergleich von Eingabeaufforderungen",
+    "KI-Eingabeaufforderungen vergleichen",
+    "Eingabeaufforderungen vergleichen und gegenüberstellen",
+    "zwei Eingabeaufforderungen vergleichen",
+    "LLM-Eingabeaufforderungen vergleichen",
+    "Langfuse Eingabeaufforderungen vergleichen",
+    "Vergleich von Aufsatz-Eingabeaufforderungen"
+  ],
+  "category": "AI",
+  "icon": "📊",
+  "faqs": [
+    {
+      "question": "Wie vergleiche ich Eingabeaufforderungen?",
+      "answer": "Geben Sie verschiedene Versionen Ihrer Eingabeaufforderung ein, und das Tool hebt die Unterschiede in den Ausgaben hervor."
+    },
+    {
+      "question": "Ist dieses Tool für alle KI-Modelle nützlich?",
+      "answer": "Ja, es kann für Eingabeaufforderungen verwendet werden, die auf verschiedene KI-Modelle abzielen."
+    },
+    {
+      "question": "Kann ich meine Vergleiche speichern?",
+      "answer": "Derzeit werden Vergleiche nicht gespeichert, aber Sie können die Ergebnisse zur späteren Referenz kopieren."
+    }
+  ],
+  "relatedTools": [
+    "prompt-token-counter",
+    "ai-model-comparator"
+  ],
+  "variants": []
+}
