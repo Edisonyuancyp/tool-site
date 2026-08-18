@@ -272,6 +272,38 @@ const POSTS = [
     tag: "Auto",
     readTime: "3 min read",
   },
+  {
+    slug: "efficient-token-management-for-ai-models",
+    title: "How can I efficiently manage tokens when using AI models?",
+    excerpt: "Learn how to efficiently manage tokens when using AI models with our free token splitter tool.",
+    date: "2026-08-18",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "split-text-into-token-sized-chunks",
+    title: "How do I split text into token-sized chunks for AI applications?",
+    excerpt: "Learn how to split text into token-sized chunks for AI applications with our free Token Splitter Tool.",
+    date: "2026-08-18",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-predict-ai-token-costs-accurately",
+    title: "How can I predict my AI token costs accurately?",
+    excerpt: "Learn how to predict your AI token costs accurately with our free tool to manage your budget effectively.",
+    date: "2026-08-18",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
+  {
+    slug: "how-to-create-seo-friendly-title",
+    title: "How to Create SEO-Friendly Titles for Your Blog Posts",
+    excerpt: "Wondering how to create an SEO-friendly title for your blog post? Use our free title optimization tool to enhance visibility.",
+    date: "2026-08-18",
+    tag: "Auto",
+    readTime: "3 min read",
+  },
 ];
 
 export default function BlogPage() {
