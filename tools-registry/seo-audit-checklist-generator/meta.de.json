@@ -1,0 +1,51 @@
+{
+  "slug": "seo-audit-checklist-generator",
+  "name": "SEO Audit Checklist Generator",
+  "tagline": "Erstellen Sie eine individuelle SEO-Audit-Checkliste",
+  "description": "Generieren Sie eine personalisierte SEO-Audit-Checkliste, um die Leistung Ihrer Website zu analysieren. Ideal für SEOs, die sicherstellen möchten, dass ihre Seite den Best Practices entspricht.",
+  "metaTitle": "SEO Audit Checklist Generator – Website-Audit | Kostenloses Online-Tool",
+  "metaDescription": "Erstellen Sie kostenlos eine individuelle SEO-Audit-Checkliste. Geben Sie die Details Ihrer Website ein und erhalten Sie sofort eine maßgeschneiderte Audit-Checkliste.",
+  "keywords": [
+    "seo audit",
+    "website audit checklist",
+    "seo werkzeuge",
+    "audit generator",
+    "seo best practices",
+    "seo audit kostenlos",
+    "seo audit werkzeuge",
+    "bedeutung seo audit",
+    "seo audit bericht",
+    "seo audit claude skill",
+    "seo audit vorlage",
+    "seo audit fähigkeit",
+    "website audit checklist pdf",
+    "website audit checklist excel",
+    "website audit checklist 2025",
+    "website audit checklist kostenlos",
+    "website überprüfung checklist",
+    "website analyse checklist",
+    "website audit vorlage",
+    "bedeutung seo werkzeuge"
+  ],
+  "category": "SEO",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "Was ist ein SEO-Audit?",
+      "answer": "Ein SEO-Audit ist eine umfassende Analyse Ihrer Website, um deren Leistung zu bewerten und Verbesserungsmöglichkeiten zu identifizieren."
+    },
+    {
+      "question": "Wie funktioniert dieses Tool?",
+      "answer": "Sie geben die Details Ihrer Website an, und das Tool generiert eine Checkliste basierend auf den besten SEO-Praktiken."
+    },
+    {
+      "question": "Ist dieses Tool wirklich kostenlos?",
+      "answer": "Ja, Sie können dieses Tool ohne Kosten oder Anmeldungen nutzen."
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "canonical-checker"
+  ],
+  "variants": []
+}

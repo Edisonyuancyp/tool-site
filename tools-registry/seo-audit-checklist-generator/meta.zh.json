@@ -1,0 +1,51 @@
+{
+  "slug": "seo-audit-checklist-generator",
+  "name": "SEO审核清单生成器",
+  "tagline": "创建自定义SEO审核清单",
+  "description": "生成个性化的SEO审核清单，以分析您网站的表现。非常适合希望确保其网站符合最佳实践的SEO专家。",
+  "metaTitle": "SEO审核清单生成器 – 网站审核 | 免费在线工具",
+  "metaDescription": "免费创建自定义SEO审核清单。输入您的网站信息，立即获得量身定制的审核清单。",
+  "keywords": [
+    "seo审核",
+    "网站审核清单",
+    "seo工具",
+    "审核生成器",
+    "seo最佳实践",
+    "免费seo审核",
+    "seo审核工具",
+    "seo审核含义",
+    "seo审核报告",
+    "seo审核技能",
+    "seo审核模板",
+    "seo审核技巧",
+    "网站审核清单pdf",
+    "网站审核清单excel",
+    "网站审核清单2025",
+    "免费网站审核清单",
+    "网站评估清单",
+    "网站分析清单",
+    "网站审核模板",
+    "seo工具含义"
+  ],
+  "category": "SEO",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "什么是SEO审核？",
+      "answer": "SEO审核是对您网站的全面分析，以评估其表现并识别改进的领域。"
+    },
+    {
+      "question": "这个工具是如何工作的？",
+      "answer": "您提供网站信息，工具会根据SEO最佳实践生成清单。"
+    },
+    {
+      "question": "这个工具真的免费吗？",
+      "answer": "是的，您可以在没有任何费用或注册要求的情况下使用这个工具。"
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "canonical-checker"
+  ],
+  "variants": []
+}

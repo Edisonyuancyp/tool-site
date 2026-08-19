@@ -5823,5 +5823,113 @@
       "ai-model-comparator"
     ],
     "variants": []
+  },
+  {
+    "slug": "seo-audit-checklist-generator",
+    "name": "SEO Audit Checklist Generator",
+    "tagline": "Create a custom SEO audit checklist",
+    "description": "Generate a personalized SEO audit checklist to analyze your website's performance. Great for SEOs looking to ensure their site meets best practices.",
+    "metaTitle": "SEO Audit Checklist Generator – Website Audit | Free Online Tool",
+    "metaDescription": "Create a custom SEO audit checklist for free. Enter your website details and receive a tailored audit checklist instantly.",
+    "keywords": [
+      "SEO audit",
+      "website audit checklist",
+      "SEO tools",
+      "audit generator",
+      "SEO best practices"
+    ],
+    "category": "SEO",
+    "icon": "📋",
+    "faqs": [
+      {
+        "question": "What is an SEO audit?",
+        "answer": "An SEO audit is a comprehensive analysis of your website to evaluate its performance and identify areas for improvement."
+      },
+      {
+        "question": "How does this tool work?",
+        "answer": "You provide your website details, and the tool generates a checklist based on SEO best practices."
+      },
+      {
+        "question": "Is this tool really free?",
+        "answer": "Yes, you can use this tool without any charges or signup requirements."
+      }
+    ],
+    "relatedTools": [
+      "meta-description-generator",
+      "canonical-checker"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "content-optimization-tool",
+    "name": "Content Optimization Tool",
+    "tagline": "Optimize your content for SEO",
+    "description": "This tool analyzes your content and provides suggestions to enhance its SEO performance. It's perfect for bloggers and content marketers aiming to improve their writing for search engines.",
+    "metaTitle": "Content Optimization Tool – SEO Content | Free Online Tool",
+    "metaDescription": "Optimize your content for SEO instantly and for free. Enter your text, and get actionable suggestions to improve visibility.",
+    "keywords": [
+      "content optimization",
+      "SEO writing",
+      "blog optimization",
+      "content tool",
+      "SEO advice"
+    ],
+    "category": "SEO",
+    "icon": "✍️",
+    "faqs": [
+      {
+        "question": "What does this tool do?",
+        "answer": "It analyzes your content and provides SEO suggestions to improve its ranking potential."
+      },
+      {
+        "question": "How do I use the tool?",
+        "answer": "Simply paste your content, and the tool will generate optimization suggestions."
+      },
+      {
+        "question": "Is this service free?",
+        "answer": "Yes, this tool is available for free without any registration."
+      }
+    ],
+    "relatedTools": [
+      "keyword-density-checker",
+      "meta-keyword-generator"
+    ],
+    "variants": []
+  },
+  {
+    "slug": "image-optimization-calculator",
+    "name": "Image Optimization Calculator",
+    "tagline": "Optimize images for SEO",
+    "description": "This tool helps you calculate and optimize image sizes for better SEO performance. Ideal for webmasters and bloggers who want to improve page load speed.",
+    "metaTitle": "Image Optimization Calculator – SEO Images | Free Online Tool",
+    "metaDescription": "Optimize your images for SEO and speed for free. Enter your image dimensions to receive optimization suggestions instantly.",
+    "keywords": [
+      "image optimization",
+      "SEO images",
+      "image size calculator",
+      "website speed",
+      "image SEO"
+    ],
+    "category": "SEO",
+    "icon": "🖼️",
+    "faqs": [
+      {
+        "question": "Why is image optimization important?",
+        "answer": "Optimizing images helps improve website load times and enhances SEO performance."
+      },
+      {
+        "question": "How can I use this tool?",
+        "answer": "Input the dimensions of your images, and the tool will provide optimization recommendations."
+      },
+      {
+        "question": "Is this tool free to use?",
+        "answer": "Yes, there are no costs or signups required to use this tool."
+      }
+    ],
+    "relatedTools": [
+      "content-optimization-tool",
+      "link-building-opportunity-finder"
+    ],
+    "variants": []
   }
 ]

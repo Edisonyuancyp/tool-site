@@ -1,0 +1,51 @@
+{
+  "slug": "image-optimization-calculator",
+  "name": "Calculadora de Otimização de Imagens",
+  "tagline": "Otimize imagens para SEO",
+  "description": "Esta ferramenta ajuda você a calcular e otimizar tamanhos de imagens para um melhor desempenho em SEO. Ideal para webmasters e blogueiros que desejam melhorar a velocidade de carregamento das páginas.",
+  "metaTitle": "Calculadora de Otimização de Imagens – Imagens SEO | Ferramenta Online Gratuita",
+  "metaDescription": "Otimize suas imagens para SEO e velocidade gratuitamente. Insira as dimensões da sua imagem para receber sugestões de otimização instantaneamente.",
+  "keywords": [
+    "otimização de imagens",
+    "imagens seo",
+    "calculadora de tamanho de imagem",
+    "velocidade do site",
+    "seo de imagem",
+    "calculadora de compressão de imagem",
+    "o que é otimização de imagem",
+    "otimizar tamanho da imagem",
+    "otimização de imagem para web",
+    "plugin de otimização de imagem wordpress",
+    "otimização de imagem em seo",
+    "otimização de imagem online",
+    "otimização de imagem em react",
+    "significado de otimização de imagem",
+    "otimização de imagem em next js",
+    "imagens seo download gratuito",
+    "imagens seo hd",
+    "imagens seo png",
+    "imagens seo para site",
+    "imagens seo freepik"
+  ],
+  "category": "SEO",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "Por que a otimização de imagens é importante?",
+      "answer": "Otimizar imagens ajuda a melhorar os tempos de carregamento do site e aprimora o desempenho em SEO."
+    },
+    {
+      "question": "Como posso usar esta ferramenta?",
+      "answer": "Insira as dimensões das suas imagens, e a ferramenta fornecerá recomendações de otimização."
+    },
+    {
+      "question": "Esta ferramenta é gratuita?",
+      "answer": "Sim, não há custos ou necessidade de cadastro para usar esta ferramenta."
+    }
+  ],
+  "relatedTools": [
+    "content-optimization-tool",
+    "link-building-opportunity-finder"
+  ],
+  "variants": []
+}

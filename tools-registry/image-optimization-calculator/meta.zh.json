@@ -1,0 +1,51 @@
+{
+  "slug": "image-optimization-calculator",
+  "name": "图像优化计算器",
+  "tagline": "为SEO优化图像",
+  "description": "此工具帮助您计算和优化图像大小，以提高SEO性能。非常适合希望改善页面加载速度的网站管理员和博主。",
+  "metaTitle": "图像优化计算器 – SEO图像 | 免费在线工具",
+  "metaDescription": "免费优化您的图像以提高SEO和加载速度。输入您的图像尺寸以立即获得优化建议。",
+  "keywords": [
+    "图像优化",
+    "SEO图像",
+    "图像大小计算器",
+    "网站速度",
+    "图像SEO",
+    "图像压缩计算器",
+    "什么是图像优化",
+    "优化图像大小",
+    "网页图像优化",
+    "WordPress图像优化插件",
+    "SEO中的图像优化",
+    "在线图像优化",
+    "React中的图像优化",
+    "图像优化的含义",
+    "Next.js中的图像优化",
+    "免费SEO图像下载",
+    "高清SEO图像",
+    "PNG格式SEO图像",
+    "网站用SEO图像",
+    "Freepik上的SEO图像"
+  ],
+  "category": "SEO",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "为什么图像优化很重要？",
+      "answer": "优化图像有助于提高网站加载时间并增强SEO性能。"
+    },
+    {
+      "question": "我该如何使用此工具？",
+      "answer": "输入您的图像尺寸，工具将提供优化建议。"
+    },
+    {
+      "question": "这个工具是免费使用的吗？",
+      "answer": "是的，使用此工具无需任何费用或注册。"
+    }
+  ],
+  "relatedTools": [
+    "content-optimization-tool",
+    "link-building-opportunity-finder"
+  ],
+  "variants": []
+}

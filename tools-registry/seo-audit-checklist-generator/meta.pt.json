@@ -1,0 +1,51 @@
+{
+  "slug": "seo-audit-checklist-generator",
+  "name": "Gerador de Checklist de Auditoria SEO",
+  "tagline": "Crie um checklist de auditoria SEO personalizado",
+  "description": "Gere um checklist de auditoria SEO personalizado para analisar o desempenho do seu site. Ótimo para profissionais de SEO que buscam garantir que seu site atenda às melhores práticas.",
+  "metaTitle": "Gerador de Checklist de Auditoria SEO – Auditoria de Site | Ferramenta Online Gratuita",
+  "metaDescription": "Crie um checklist de auditoria SEO personalizado gratuitamente. Insira os detalhes do seu site e receba um checklist de auditoria sob medida instantaneamente.",
+  "keywords": [
+    "auditoria seo",
+    "checklist de auditoria de site",
+    "ferramentas de seo",
+    "gerador de auditoria",
+    "melhores práticas de seo",
+    "auditoria seo gratuita",
+    "ferramentas de auditoria seo",
+    "significado de auditoria seo",
+    "relatório de auditoria seo",
+    "habilidade de auditoria seo claude",
+    "modelo de auditoria seo",
+    "habilidade de auditoria seo",
+    "checklist de auditoria de site pdf",
+    "checklist de auditoria de site excel",
+    "checklist de auditoria de site 2025",
+    "checklist de auditoria de site gratuito",
+    "checklist de revisão de site",
+    "checklist de análise de site",
+    "modelo de auditoria de site",
+    "significado de ferramentas de seo"
+  ],
+  "category": "SEO",
+  "icon": "📋",
+  "faqs": [
+    {
+      "question": "O que é uma auditoria SEO?",
+      "answer": "Uma auditoria SEO é uma análise abrangente do seu site para avaliar seu desempenho e identificar áreas para melhoria."
+    },
+    {
+      "question": "Como esta ferramenta funciona?",
+      "answer": "Você fornece os detalhes do seu site, e a ferramenta gera um checklist com base nas melhores práticas de SEO."
+    },
+    {
+      "question": "Esta ferramenta é realmente gratuita?",
+      "answer": "Sim, você pode usar esta ferramenta sem custos ou requisitos de cadastro."
+    }
+  ],
+  "relatedTools": [
+    "meta-description-generator",
+    "canonical-checker"
+  ],
+  "variants": []
+}

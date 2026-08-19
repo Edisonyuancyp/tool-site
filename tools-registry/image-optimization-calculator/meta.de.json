@@ -1,0 +1,51 @@
+{
+  "slug": "image-optimization-calculator",
+  "name": "Bildoptimierungsrechner",
+  "tagline": "Bilder für SEO optimieren",
+  "description": "Dieses Tool hilft Ihnen, Bildgrößen zu berechnen und zu optimieren, um die SEO-Leistung zu verbessern. Ideal für Webmaster und Blogger, die die Ladegeschwindigkeit ihrer Seiten erhöhen möchten.",
+  "metaTitle": "Bildoptimierungsrechner – SEO Bilder | Kostenloses Online-Tool",
+  "metaDescription": "Optimieren Sie Ihre Bilder kostenlos für SEO und Geschwindigkeit. Geben Sie die Abmessungen Ihrer Bilder ein, um sofort Optimierungsvorschläge zu erhalten.",
+  "keywords": [
+    "Bildoptimierung",
+    "SEO Bilder",
+    "Bildgrößenrechner",
+    "Website Geschwindigkeit",
+    "Bild SEO",
+    "Bildkompressionsrechner",
+    "was ist Bildoptimierung",
+    "Bildgröße optimieren",
+    "Bildoptimierung für das Web",
+    "Bildoptimierungs-Plugin WordPress",
+    "Bildoptimierung in SEO",
+    "Bildoptimierung online",
+    "Bildoptimierung in React",
+    "Bedeutung der Bildoptimierung",
+    "Bildoptimierung in Next.js",
+    "SEO Bilder kostenloser Download",
+    "SEO Bilder HD",
+    "SEO Bilder PNG",
+    "SEO Bilder für Websites",
+    "SEO Bilder Freepik"
+  ],
+  "category": "SEO",
+  "icon": "🖼️",
+  "faqs": [
+    {
+      "question": "Warum ist die Bildoptimierung wichtig?",
+      "answer": "Die Optimierung von Bildern hilft, die Ladezeiten der Website zu verbessern und die SEO-Leistung zu steigern."
+    },
+    {
+      "question": "Wie kann ich dieses Tool verwenden?",
+      "answer": "Geben Sie die Abmessungen Ihrer Bilder ein, und das Tool wird Ihnen Optimierungsempfehlungen geben."
+    },
+    {
+      "question": "Ist dieses Tool kostenlos zu verwenden?",
+      "answer": "Ja, es fallen keine Kosten oder Anmeldungen an, um dieses Tool zu nutzen."
+    }
+  ],
+  "relatedTools": [
+    "content-optimization-tool",
+    "link-building-opportunity-finder"
+  ],
+  "variants": []
+}
