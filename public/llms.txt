@@ -1,6 +1,6 @@
 # GetFastCalc — Free Online Calculators & Tools
 
-> AI-friendly site overview. Last updated: 2026-08-13. Site: https://getfastcalc.com
+> AI-friendly site overview. Last updated: 2026-08-20. Site: https://getfastcalc.com
 
 GetFastCalc is a free, no-signup collection of online calculators and small utilities for everyday problems.
 Coverage: math, finance, health, developer tools, design, date & time, quant/trading, and text utilities.
@@ -42,6 +42,7 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Prompt Version Comparator: https://getfastcalc.com/tools/prompt-version-comparator — Compare different prompt versions
 - Prompt Version Compare: https://getfastcalc.com/tools/prompt-version-compare — Compare different versions of your prompts.
 - Prompt Version Comparer: https://getfastcalc.com/tools/prompt-version-comparer — Compare different versions of prompts
+- Prompt Version Comparator: https://getfastcalc.com/tools/prompt-version-comparison — Compare different versions of your prompts.
 - Token Cost Forecast: https://getfastcalc.com/tools/token-cost-forecast — Estimate future token costs for your projects
 - Token Splitter: https://getfastcalc.com/tools/token-splitter — Effortlessly split your prompts into tokens.
 - Token Splitter Tool: https://getfastcalc.com/tools/token-splitter-tool — Split your text into manageable token chunks.
@@ -107,10 +108,14 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Dev Tool Accessibility Checker: https://getfastcalc.com/tools/dev/dev-tool-accessibility-checker — Test your dev tool for accessibility issues.
 - Dev Tool Collaboration Optimizer: https://getfastcalc.com/tools/dev/dev-tool-collaboration-optimizer — Improve team collaboration on your dev projects.
 - Dev Tool Comparison Calculator: https://getfastcalc.com/tools/dev/dev-tool-comparison-calculator — Compare multiple development tools side by side.
+- Dev Tool Comparison Chart: https://getfastcalc.com/tools/dev/dev-tool-comparison-chart — Compare various development tools side-by-side.
+- Dev Tool Compatibility Checker: https://getfastcalc.com/tools/dev/dev-tool-compatibility-checker — Check compatibility of dev tools and frameworks.
 - Dev Tool Cost Calculator: https://getfastcalc.com/tools/dev/dev-tool-cost-calculator — Estimate your development tool expenses
+- Dev Tool Cost Estimator: https://getfastcalc.com/tools/dev/dev-tool-cost-estimator — Estimate costs for development tools.
 - Dev Tool Efficiency Calculator: https://getfastcalc.com/tools/dev/dev-tool-efficiency-calculator — Measure your development tool effectiveness.
 - Dev Tool Feature Prioritizer: https://getfastcalc.com/tools/dev/dev-tool-feature-prioritizer — Prioritize features for your dev tool effectively.
 - Dev Tool Integration Planner: https://getfastcalc.com/tools/dev/dev-tool-integration-planner — Plan your tool integrations effectively
+- Dev Tool Learning Path Generator: https://getfastcalc.com/tools/dev/dev-tool-learning-path-generator — Generate custom learning paths for tools.
 - Dev Tool Performance Calculator: https://getfastcalc.com/tools/dev/dev-tool-performance-calculator — Measure your dev tools' effectiveness.
 - Dev Tool Selection Guide: https://getfastcalc.com/tools/dev/dev-tool-selection-guide — Find the right tools for your project.
 - Dev Tool UI Research Helper: https://getfastcalc.com/tools/dev/dev-tool-ui-research — Prepare for user interface research effortlessly.
@@ -195,7 +200,9 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Canonical Link Validator: https://getfastcalc.com/tools/canonical-link-validator — Check your canonical links for issues
 - Canonical URL Checker: https://getfastcalc.com/tools/canonical-url-checker — Verify your canonical URLs
 - Content Optimization Checker: https://getfastcalc.com/tools/content-optimization-checker — Optimize your content for SEO
+- Content Optimization Tool: https://getfastcalc.com/tools/content-optimization-tool — Optimize your content for SEO
 - Image Alt Text Generator: https://getfastcalc.com/tools/image-alt-text-generator — Create SEO-friendly alt text for images
+- Image Optimization Calculator: https://getfastcalc.com/tools/image-optimization-calculator — Optimize images for SEO
 - Keyword Density Analyzer: https://getfastcalc.com/tools/keyword-density-analyzer — Analyze your keyword use
 - Keyword Density Checker: https://getfastcalc.com/tools/keyword-density-checker — Analyze keyword usage on your pages.
 - Link Building Opportunity Finder: https://getfastcalc.com/tools/link-building-opportunity-finder — Identify potential link building prospects
@@ -206,6 +213,7 @@ Coverage: math, finance, health, developer tools, design, date & time, quant/tra
 - Robots.txt Generator: https://getfastcalc.com/tools/robots-txt-generator — Easily create your robots.txt file
 - Schema Markup Generator: https://getfastcalc.com/tools/schema-generator — Create structured data for your site
 - Schema Markup Generator: https://getfastcalc.com/tools/schema-markup-generator — Generate structured data markup
+- SEO Audit Checklist Generator: https://getfastcalc.com/tools/seo-audit-checklist-generator — Create a custom SEO audit checklist
 - SEO Title Generator: https://getfastcalc.com/tools/title-generator — Create catchy and optimized titles.
 - Title Optimization Tool: https://getfastcalc.com/tools/title-optimization-tool — Generate compelling SEO titles
 - Title Optimizer: https://getfastcalc.com/tools/title-optimizer — Generate compelling titles instantly
