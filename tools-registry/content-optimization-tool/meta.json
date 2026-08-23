@@ -48,7 +48,47 @@
     "keyword-density-checker",
     "meta-keyword-generator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "content-optimization-tool-online",
+      "metaTitle": "Content Optimization Tool for Online – Free Online Content Optimization Tool",
+      "metaDescription": "Free content optimization tool for users looking for a free online tool. This tool analyzes your content and provides suggestions to enhance its SEO perf No signup required.",
+      "keywords": [
+        "content optimization tool for online",
+        "online content optimization tool",
+        "free content optimization tool online",
+        "content optimization tool online",
+        "online content optimization tool online"
+      ],
+      "headline": "Content Optimization Tool optimised for users looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "content-optimization-tool-free",
+      "metaTitle": "Content Optimization Tool for Free – Free Online Content Optimization Tool",
+      "metaDescription": "Free content optimization tool for users wanting a completely free tool. This tool analyzes your content and provides suggestions to enhance its SEO perf No signup required.",
+      "keywords": [
+        "content optimization tool for free",
+        "free content optimization tool",
+        "free content optimization tool free",
+        "content optimization tool free",
+        "online content optimization tool free"
+      ],
+      "headline": "Content Optimization Tool optimised for users wanting a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "content-optimization-tool-for-students",
+      "metaTitle": "Content Optimization Tool for Students – Free Online Content Optimization Tool",
+      "metaDescription": "Free content optimization tool for students and educators. This tool analyzes your content and provides suggestions to enhance its SEO perf No signup required.",
+      "keywords": [
+        "content optimization tool for students",
+        "students content optimization tool",
+        "free content optimization tool students",
+        "content optimization tool for students",
+        "online content optimization tool students"
+      ],
+      "headline": "Content Optimization Tool optimised for students and educators. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What does this tool do?",
@@ -65,6 +105,22 @@
     {
       "heading": "Common mistakes to avoid",
       "body": "When optimizing content, several common mistakes can hinder your SEO efforts. One major error is keyword stuffing, which occurs when you overuse keywords in an attempt to manipulate search rankings. Instead, focus on natural incorporation of keywords to create readable content. The Content Optimization Tool can help identify the right balance for keyword use.\n\nAnother mistake is neglecting the importance of headings and subheadings. Failing to structure your content properly can make it difficult for readers and search engines to understand your message. Always use headings to guide your audience through your content. Finally, remember to proofread your work. Spelling and grammatical errors can detract from your article's credibility and affect its SEO performance. Taking these tips into account can lead to more effective content optimization."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Content Optimization Tool Online Free – Free Online Content Optimization Tool",
+      "metaDescription": "Free online Content Optimization Tool — instant results, no signup. Optimize your content for SEO instantly and for free. Enter your text, and get a",
+      "h1": "Content Optimization Tool – Online Free",
+      "description": "Free online Content Optimization Tool — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Content Optimization Tool How to Use – Free Online Content Optimization Tool",
+      "metaDescription": "Step-by-step guide to getting the most from Content Optimization Tool. Optimize your content for SEO instantly and for free. Enter your text, and get a",
+      "h1": "Content Optimization Tool – How to Use",
+      "description": "Step-by-step guide to getting the most from Content Optimization Tool."
     }
   ]
 }

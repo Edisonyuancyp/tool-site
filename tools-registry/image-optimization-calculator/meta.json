@@ -48,7 +48,47 @@
     "content-optimization-tool",
     "link-building-opportunity-finder"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "image-optimization-calculator-online",
+      "metaTitle": "Image Optimization Calculator for Online – Free Online Image Optimization Calculator",
+      "metaDescription": "Free image optimization calculator for users looking for a free online tool. This tool helps you calculate and optimize image sizes for better SEO performanc No signup required.",
+      "keywords": [
+        "image optimization calculator for online",
+        "online image optimization calculator",
+        "free image optimization calculator online",
+        "image optimization calculator online",
+        "online image optimization calculator online"
+      ],
+      "headline": "Image Optimization Calculator optimised for users looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "image-optimization-calculator-free",
+      "metaTitle": "Image Optimization Calculator for Free – Free Online Image Optimization Calculator",
+      "metaDescription": "Free image optimization calculator for users wanting a completely free tool. This tool helps you calculate and optimize image sizes for better SEO performanc No signup required.",
+      "keywords": [
+        "image optimization calculator for free",
+        "free image optimization calculator",
+        "free image optimization calculator free",
+        "image optimization calculator free",
+        "online image optimization calculator free"
+      ],
+      "headline": "Image Optimization Calculator optimised for users wanting a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "image-optimization-calculator-for-students",
+      "metaTitle": "Image Optimization Calculator for Students – Free Online Image Optimization Calculator",
+      "metaDescription": "Free image optimization calculator for students and educators. This tool helps you calculate and optimize image sizes for better SEO performanc No signup required.",
+      "keywords": [
+        "image optimization calculator for students",
+        "students image optimization calculator",
+        "free image optimization calculator students",
+        "image optimization calculator for students",
+        "online image optimization calculator students"
+      ],
+      "headline": "Image Optimization Calculator optimised for students and educators. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "Why is image optimization important?",
@@ -65,6 +105,22 @@
     {
       "heading": "Practical tips for effective image optimization",
       "body": "When using the Image Optimization Calculator, there are several best practices to keep in mind. First, always choose the right file format for your images. JPEG is typically best for photographs, while PNG works well for images requiring transparency. Additionally, consider resizing images to the dimensions needed on your site before uploading them, as this can greatly reduce file size without losing quality.\n\nAnother common mistake is neglecting alt text for images. Not only does it help with SEO, but it also improves accessibility for visually impaired users. Lastly, be cautious with excessive compression, as it can lead to a loss of image quality. Striking the right balance between file size and quality is key to effective image optimization."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Image Optimization Calculator Online Free – Free Online Image Optimization Calculator",
+      "metaDescription": "Free online Image Optimization Calculator — instant results, no signup. Optimize your images for SEO and speed for free. Enter your image dimensions to ",
+      "h1": "Image Optimization Calculator – Online Free",
+      "description": "Free online Image Optimization Calculator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Image Optimization Calculator How to Use – Free Online Image Optimization Calculator",
+      "metaDescription": "Step-by-step guide to getting the most from Image Optimization Calculator. Optimize your images for SEO and speed for free. Enter your image dimensions to ",
+      "h1": "Image Optimization Calculator – How to Use",
+      "description": "Step-by-step guide to getting the most from Image Optimization Calculator."
     }
   ]
 }

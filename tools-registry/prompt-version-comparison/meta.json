@@ -40,7 +40,47 @@
     "prompt-token-counter",
     "ai-model-comparator"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "prompt-version-comparison-online",
+      "metaTitle": "Prompt Version Comparator for Online – Free Online Prompt Version Comparator",
+      "metaDescription": "Free prompt version comparator for users looking for a free online tool. Analyze and compare various iterations of your prompts to see which one yields b No signup required.",
+      "keywords": [
+        "prompt version comparator for online",
+        "online prompt version comparator",
+        "free prompt version comparator online",
+        "prompt version comparator online",
+        "online prompt version comparator online"
+      ],
+      "headline": "Prompt Version Comparator optimised for users looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "prompt-version-comparison-free",
+      "metaTitle": "Prompt Version Comparator for Free – Free Online Prompt Version Comparator",
+      "metaDescription": "Free prompt version comparator for users wanting a completely free tool. Analyze and compare various iterations of your prompts to see which one yields b No signup required.",
+      "keywords": [
+        "prompt version comparator for free",
+        "free prompt version comparator",
+        "free prompt version comparator free",
+        "prompt version comparator free",
+        "online prompt version comparator free"
+      ],
+      "headline": "Prompt Version Comparator optimised for users wanting a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "prompt-version-comparison-for-students",
+      "metaTitle": "Prompt Version Comparator for Students – Free Online Prompt Version Comparator",
+      "metaDescription": "Free prompt version comparator for students and educators. Analyze and compare various iterations of your prompts to see which one yields b No signup required.",
+      "keywords": [
+        "prompt version comparator for students",
+        "students prompt version comparator",
+        "free prompt version comparator students",
+        "prompt version comparator for students",
+        "online prompt version comparator students"
+      ],
+      "headline": "Prompt Version Comparator optimised for students and educators. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What is a Prompt Version Comparator?",
@@ -57,6 +97,22 @@
     {
       "heading": "Practical Tips for Using the Comparator",
       "body": "When using a prompt version comparator, it’s essential to keep a few best practices in mind. First, avoid making too many changes between versions at once. Instead, focus on one or two specific elements, such as wording or structure, to clearly understand what impacts output quality.\n\nAnother common mistake is neglecting to analyze the results thoroughly. Take the time to review the metrics provided by the tool and consider them in the context of your goals. Lastly, remember that the effectiveness of prompts can vary based on the AI model used, so always test your prompts with the specific model you plan to utilize to ensure optimal results."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "Prompt Version Comparator Online Free – Free Online Prompt Version Comparator",
+      "metaDescription": "Free online Prompt Version Comparator — instant results, no signup. Compare AI prompt versions with our free tool. Get instant feedback without sign",
+      "h1": "Prompt Version Comparator – Online Free",
+      "description": "Free online Prompt Version Comparator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "Prompt Version Comparator How to Use – Free Online Prompt Version Comparator",
+      "metaDescription": "Step-by-step guide to getting the most from Prompt Version Comparator. Compare AI prompt versions with our free tool. Get instant feedback without sign",
+      "h1": "Prompt Version Comparator – How to Use",
+      "description": "Step-by-step guide to getting the most from Prompt Version Comparator."
     }
   ]
 }

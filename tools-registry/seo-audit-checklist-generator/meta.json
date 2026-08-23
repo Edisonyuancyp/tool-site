@@ -48,7 +48,47 @@
     "meta-description-generator",
     "canonical-checker"
   ],
-  "variants": [],
+  "variants": [
+    {
+      "variantSlug": "seo-audit-checklist-generator-online",
+      "metaTitle": "SEO Audit Checklist Generator for Online – Free Online SEO Audit Checklist Generator",
+      "metaDescription": "Free seo audit checklist generator for users looking for a free online tool. Generate a personalized SEO audit checklist to analyze your website's performanc No signup required.",
+      "keywords": [
+        "seo audit checklist generator for online",
+        "online seo audit checklist generator",
+        "free seo audit checklist generator online",
+        "seo audit checklist generator online",
+        "online seo audit checklist generator online"
+      ],
+      "headline": "SEO Audit Checklist Generator optimised for users looking for a free online tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "seo-audit-checklist-generator-free",
+      "metaTitle": "SEO Audit Checklist Generator for Free – Free Online SEO Audit Checklist Generator",
+      "metaDescription": "Free seo audit checklist generator for users wanting a completely free tool. Generate a personalized SEO audit checklist to analyze your website's performanc No signup required.",
+      "keywords": [
+        "seo audit checklist generator for free",
+        "free seo audit checklist generator",
+        "free seo audit checklist generator free",
+        "seo audit checklist generator free",
+        "online seo audit checklist generator free"
+      ],
+      "headline": "SEO Audit Checklist Generator optimised for users wanting a completely free tool. Free, instant, no signup required."
+    },
+    {
+      "variantSlug": "seo-audit-checklist-generator-for-students",
+      "metaTitle": "SEO Audit Checklist Generator for Students – Free Online SEO Audit Checklist Generator",
+      "metaDescription": "Free seo audit checklist generator for students and educators. Generate a personalized SEO audit checklist to analyze your website's performanc No signup required.",
+      "keywords": [
+        "seo audit checklist generator for students",
+        "students seo audit checklist generator",
+        "free seo audit checklist generator students",
+        "seo audit checklist generator for students",
+        "online seo audit checklist generator students"
+      ],
+      "headline": "SEO Audit Checklist Generator optimised for students and educators. Free, instant, no signup required."
+    }
+  ],
   "seoBody": [
     {
       "heading": "What is an SEO audit?",
@@ -65,6 +105,22 @@
     {
       "heading": "Practical tips for conducting an SEO audit",
       "body": "When conducting an SEO audit, it's essential to approach it methodically. One common mistake is neglecting mobile optimization; with the rise of mobile browsing, ensuring your website is mobile-friendly is crucial. Use responsive design and check how your site performs on various devices. Additionally, many overlook the importance of content quality. Regularly update and optimize content to ensure it meets user intent and provides value.\nAnother tip is to monitor your site's analytics. Pay attention to metrics like bounce rate, time on page, and conversion rates to identify areas needing improvement. Lastly, consider the competitive landscape; compare your SEO performance with competitors to gauge where you stand in your industry. By following these practical tips, you'll be better equipped to conduct a thorough SEO audit."
+    }
+  ],
+  "programmaticPages": [
+    {
+      "param": "online-free",
+      "metaTitle": "SEO Audit Checklist Generator Online Free – Free Online SEO Audit Checklist Generator",
+      "metaDescription": "Free online SEO Audit Checklist Generator — instant results, no signup. Create a custom SEO audit checklist for free. Enter your website details and rec",
+      "h1": "SEO Audit Checklist Generator – Online Free",
+      "description": "Free online SEO Audit Checklist Generator — instant results, no signup."
+    },
+    {
+      "param": "how-to-use",
+      "metaTitle": "SEO Audit Checklist Generator How to Use – Free Online SEO Audit Checklist Generator",
+      "metaDescription": "Step-by-step guide to getting the most from SEO Audit Checklist Generator. Create a custom SEO audit checklist for free. Enter your website details and rec",
+      "h1": "SEO Audit Checklist Generator – How to Use",
+      "description": "Step-by-step guide to getting the most from SEO Audit Checklist Generator."
     }
   ]
 }
