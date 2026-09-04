@@ -1,14 +1,68 @@
 [
   {
-    "title": "Where you wish you could have a better expertise? : r/SaaS",
-    "snippet": "The point of this post today is software development, not everyone is an expert in everything but every developer wishes to build everything himself or ...",
-    "link": "https://www.reddit.com/r/SaaS/comments/178e24a/where_you_wish_you_could_have_a_better_expertise/",
-    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
+    "title": "Dev tool addiction. Please help! : r/RimWorld",
+    "snippet": "So my question is how do you all deal with dev tool, how often do you use it? How do you stay away from it? Is there a way to permanently delete ...",
+    "link": "https://www.reddit.com/r/RimWorld/comments/tzkffs/dev_tool_addiction_please_help/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "how to account for a mix of pure, normal and impure nodes?",
-    "snippet": "For example, I am using the following calculator: https://satisfactory.greeny.dev/calculator Is there a way to change it from the \"all or",
-    "link": "https://www.reddit.com/r/SatisfactoryGame/comments/bx4fst/calculators_how_to_account_for_a_mix_of_pure/",
+    "title": "What's the most underrated dev tool you've come across ...",
+    "snippet": "What's the most underrated dev tool you've come across lately? Not talking about the usual stuff more ...",
+    "link": "https://www.reddit.com/r/vibecoding/comments/1krpimc/whats_the_most_underrated_dev_tool_youve_come/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Is there a Dev Tool that visually shows what a screen ...",
+    "snippet": "To test accessibility at the moment, I'm using JAWS which means every time I want to test something I have to turn it on, and navigate through to the ...",
+    "link": "https://www.reddit.com/r/accessibility/comments/fa2xhz/is_there_a_dev_tool_that_visually_shows_what_a/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Any other dev tool founders here? : r/SaaS",
+    "snippet": "I’ve been building a dev tool for the past few months and just finished the first version. One thing I didn’t expect as a solo founder is how different ...",
+    "link": "https://www.reddit.com/r/SaaS/comments/1rutzaq/any_other_dev_tool_founders_here/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "How to stop the API key from being exposed in the browser ...",
+    "snippet": "I used process.env.API_KEY to pass the api key but still the api is being exposed in the source of the chrome dev tool. How do I prevent that.",
+    "link": "https://www.reddit.com/r/reactjs/comments/121rugb/how_to_stop_the_api_key_from_being_exposed_in_the/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Built the SFMC dev tool I always wanted to exist",
+    "snippet": "Built the SFMC dev tool I always wanted to exist.",
+    "link": "https://www.reddit.com/r/marketingcloud/comments/1syv3ok/built_the_sfmc_dev_tool_i_always_wanted_to_exist/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "how to collapse dev tool's vertical Style Editor pane?",
+    "snippet": "how to collapse dev tool's vertical Style Editor pane? · allow the pane to be freely resized including collapsed when vertical? · keep it at the ...",
+    "link": "https://www.reddit.com/r/FirefoxCSS/comments/w06djr/how_to_collapse_dev_tools_vertical_style_editor/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "What ServiceNow dev tool or app do you wish existed?",
+    "snippet": "If you could add one developer-focused tool, utility, or custom app inside ServiceNow, what would it do? Something to save time, reduce pain, ...",
+    "link": "https://www.reddit.com/r/servicenow/comments/1po518v/what_servicenow_dev_tool_or_app_do_you_wish/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "I built a dev tool! : r/rails",
+    "snippet": "I built a dev tool and deployed it (graphops.tech). The tool can save you days and days if you are trying to understand a codebase or would ...",
+    "link": "https://www.reddit.com/r/rails/comments/1sp9pr6/i_built_a_dev_tool/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "What are some good ways to sell a dev tool without turning ...",
+    "snippet": "Serious question. A lot of advice jumps straight to “make it SaaS,” but that feels like overkill for many tools. If a tool: * Runs locally * ...",
+    "link": "https://www.reddit.com/r/developers/comments/1q81hj1/what_are_some_good_ways_to_sell_a_dev_tool/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "New update 3 calculator/planner: now online",
+    "snippet": "The greeny.dev calculator supports this. The dev is currently ... Is there a way to mass enable alt recipes? I love the calculator you ...",
+    "link": "https://www.reddit.com/r/SatisfactoryGame/comments/fbtd8c/new_update_3_calculatorplanner_now_online/",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
@@ -18,27 +72,15 @@
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "Save 40% on parking garage land with Automated ...",
-    "snippet": "Call Us For A Free Consultation (877) 827-2611 https://tapculator.pages.dev/ #calculator ... Is there a way to build parking that anticipates a ...",
-    "link": "https://www.facebook.com/theautomatedparkingcompany/posts/your-parking-garage-could-cost-40-less-land-heres-how-to-checksee-exactly-how-mu/1119314907712750/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Bear (@brainofbear) / Posts / X",
-    "snippet": "Nice App Dev Calculator... I got an email today from Taylor Moore at ... I have to say I wish I cd justify your biz plan with my company: get the money ...",
-    "link": "https://x.com/brainofbear?lang\\u003den",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
     "title": "A Useless Bug in a Calculator - Limited Interest",
     "snippet": "I wish it was because it is my favourite basic scientific calculator. I first got it when I went to high school and it has served me well ...",
     "link": "https://blog.kuiper.dev/calculator-bug",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "Nobody wants it as bad as us",
-    "snippet": "It's hard to say you but I wish ... What? OCR. When bro sends you his startup idea lovable.dev CALCULATOR Unlock Your Answer Pay $499 Beat ...",
-    "link": "https://www.google.com/goto?url=CAESYwHrOzAVRxmch1omwiDvhUpkMQr8kloXYsrPtvu6oFp6ovigS3TETc4oNDO95G81ALWB0B1VhwRYl51QZP8gUorrWouDOpeGBdsK97EwtTJqWLCE8s4Nj5QRm4gGDd7IU9g2Lg",
+    "title": "Student Voices: 551 Reflections",
+    "snippet": "I wish we spent more time… Thank you for another amazing year of furthering my knowledge of Web Dev Design! I was very fond of our platform game we created ...",
+    "link": "https://www.myteklab.com/testimonials/",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
@@ -48,15 +90,27 @@
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "The game's the game #buildinpublic #startup ...",
-    "snippet": "We're paying $499. Wait what? What? OCR. When bro sends you his startup idea lovable.dev CALCULATOR Unlock Your Answer Pay $499 Beat the ...",
-    "link": "https://www.google.com/goto?url=CAESYwHrOzAVeTPliNa20Bp43N5Ly6PYvhEjMLlFnKpiKkYKVir2N2qPbDHHfSDV2exh2Hkp7V_xo2eevPOLJnsIMMiG9uNyZm6ovqCmA5OEkeBPuR9jRhdhQJUCnEBMtOlrXuruiQ",
+    "title": "Save 40% on parking garage land with Automated ...",
+    "snippet": "Call Us For A Free Consultation (877) 827-2611 https://tapculator.pages.dev/ #calculator ... Is there a way to build parking that anticipates a ...",
+    "link": "https://www.facebook.com/theautomatedparkingcompany/posts/your-parking-garage-could-cost-40-less-land-heres-how-to-checksee-exactly-how-mu/1119314907712750/",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "Student Voices: 551 Reflections",
-    "snippet": "I wish we spent more time… Thank you for another amazing year of furthering my knowledge of Web Dev Design! I was very fond of our platform game we created ...",
-    "link": "https://www.myteklab.com/testimonials/",
+    "title": "Rate from 0-10 🔥 made this with lovable.dev btw #lovablepartner",
+    "snippet": "... dev CALCULATOR Unlock Your Answer Pay $499 Beat the Dealer Processing Payment ... It's hard to say you but I wish always hustling ... what about some uncomplete ...",
+    "link": "https://www.instagram.com/reel/Da7uEVtuRrG/",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Another gem. 🎯 First 10 minutes of the 30 min and the hour? ...",
+    "snippet": "I wish you success out there in Bosnia. OCR. LIQUIDATION WHY YOU I'M ALL DAY ... Check out this Moon Dev calculator here and play with it a little bit.",
+    "link": "https://www.instagram.com/p/Da5tGP9jJ8o/",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Convert FISH DEV (FISH) to Norwegian Krone (NOK)",
+    "snippet": "... FISH DEV (FISH) to Norwegian Krone (NOK) is now worth 0.{4}1664 — use FISH DEV calculator ... Why Doesn't Norway Use the Euro? Norway does not use the ...",
+    "link": "https://www.bitget.com/price/fish-dev/nok",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   }
 ]
