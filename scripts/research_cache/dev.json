@@ -7,14 +7,8 @@
   },
   {
     "title": "What's the most underrated dev tool you've come across ...",
-    "snippet": "What's the most underrated dev tool you've come across lately? Not talking about the usual stuff more ...",
+    "snippet": "What's the most underrated dev tool you've come across lately? Not talking about the usual stuff more like those lesser-known tools that ...",
     "link": "https://www.reddit.com/r/vibecoding/comments/1krpimc/whats_the_most_underrated_dev_tool_youve_come/",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "Is there a Dev Tool that visually shows what a screen ...",
-    "snippet": "To test accessibility at the moment, I'm using JAWS which means every time I want to test something I have to turn it on, and navigate through to the ...",
-    "link": "https://www.reddit.com/r/accessibility/comments/fa2xhz/is_there_a_dev_tool_that_visually_shows_what_a/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
@@ -24,27 +18,9 @@
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "How to stop the API key from being exposed in the browser ...",
-    "snippet": "I used process.env.API_KEY to pass the api key but still the api is being exposed in the source of the chrome dev tool. How do I prevent that.",
-    "link": "https://www.reddit.com/r/reactjs/comments/121rugb/how_to_stop_the_api_key_from_being_exposed_in_the/",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "Built the SFMC dev tool I always wanted to exist",
-    "snippet": "Built the SFMC dev tool I always wanted to exist.",
-    "link": "https://www.reddit.com/r/marketingcloud/comments/1syv3ok/built_the_sfmc_dev_tool_i_always_wanted_to_exist/",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "how to collapse dev tool's vertical Style Editor pane?",
-    "snippet": "how to collapse dev tool's vertical Style Editor pane? · allow the pane to be freely resized including collapsed when vertical? · keep it at the ...",
-    "link": "https://www.reddit.com/r/FirefoxCSS/comments/w06djr/how_to_collapse_dev_tools_vertical_style_editor/",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "What ServiceNow dev tool or app do you wish existed?",
-    "snippet": "If you could add one developer-focused tool, utility, or custom app inside ServiceNow, what would it do? Something to save time, reduce pain, ...",
-    "link": "https://www.reddit.com/r/servicenow/comments/1po518v/what_servicenow_dev_tool_or_app_do_you_wish/",
+    "title": "Is there a Dev Tool that visually shows what a screen ...",
+    "snippet": "To test accessibility at the moment, I'm using JAWS which means every time I want to test something I have to turn it on, and navigate through to the ...",
+    "link": "https://www.reddit.com/r/accessibility/comments/fa2xhz/is_there_a_dev_tool_that_visually_shows_what_a/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
@@ -54,63 +30,33 @@
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "What are some good ways to sell a dev tool without turning ...",
-    "snippet": "Serious question. A lot of advice jumps straight to “make it SaaS,” but that feels like overkill for many tools. If a tool: * Runs locally * ...",
-    "link": "https://www.reddit.com/r/developers/comments/1q81hj1/what_are_some_good_ways_to_sell_a_dev_tool/",
+    "title": "Built the SFMC dev tool I always wanted to exist",
+    "snippet": "Built the SFMC dev tool I always wanted to exist ... Three weeks ago I asked myself: \"Why does checking which automations write to a specific DE ...",
+    "link": "https://www.reddit.com/r/marketingcloud/comments/1syv3ok/built_the_sfmc_dev_tool_i_always_wanted_to_exist/",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "New update 3 calculator/planner: now online",
-    "snippet": "The greeny.dev calculator supports this. The dev is currently ... Is there a way to mass enable alt recipes? I love the calculator you ...",
-    "link": "https://www.reddit.com/r/SatisfactoryGame/comments/fbtd8c/new_update_3_calculatorplanner_now_online/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+    "title": "What ServiceNow dev tool or app do you wish existed?",
+    "snippet": "If you could add one developer-focused tool, utility, or custom app inside ServiceNow, what would it do? Something to save time, reduce pain, ...",
+    "link": "https://www.reddit.com/r/servicenow/comments/1po518v/what_servicenow_dev_tool_or_app_do_you_wish/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "Assertion Failure in Calculator Program",
-    "snippet": "So I'm working on a simple calculator program to get used to cocoa and objective C. I've redone the whole thing multiple times and every time I finish ...",
-    "link": "https://stackoverflow.com/questions/14288085/assertion-failure-in-calculator-program",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+    "title": "What would you say is the most overrated web dev tool ...",
+    "snippet": "Every few months, a new tool drops that’s supposed to \"fix everything\" - until it doesn't. Some say Next.js is getting bloated, others think Tailwind ...",
+    "link": "https://www.reddit.com/r/webdev/comments/1ilo0r7/what_would_you_say_is_the_most_overrated_web_dev/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "A Useless Bug in a Calculator - Limited Interest",
-    "snippet": "I wish it was because it is my favourite basic scientific calculator. I first got it when I went to high school and it has served me well ...",
-    "link": "https://blog.kuiper.dev/calculator-bug",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+    "title": "how to collapse dev tool's vertical Style Editor pane?",
+    "snippet": "how to collapse dev tool's vertical Style Editor pane? Help. I find the style sheet pane in the style editor takes up a lot of space on my ...",
+    "link": "https://www.reddit.com/r/FirefoxCSS/comments/w06djr/how_to_collapse_dev_tools_vertical_style_editor/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "Student Voices: 551 Reflections",
-    "snippet": "I wish we spent more time… Thank you for another amazing year of furthering my knowledge of Web Dev Design! I was very fond of our platform game we created ...",
-    "link": "https://www.myteklab.com/testimonials/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "From whiteboard to deployed in 48 hours. Yeah, we move ...",
-    "snippet": "It's hard to say you but I wish ... What? OCR. When bro sends you his startup idea lovable.dev CALCULATOR Unlock Your Answer Pay $499 Beat ...",
-    "link": "https://www.instagram.com/ship.pingseason/reel/DcIE5ormK_w/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Save 40% on parking garage land with Automated ...",
-    "snippet": "Call Us For A Free Consultation (877) 827-2611 https://tapculator.pages.dev/ #calculator ... Is there a way to build parking that anticipates a ...",
-    "link": "https://www.facebook.com/theautomatedparkingcompany/posts/your-parking-garage-could-cost-40-less-land-heres-how-to-checksee-exactly-how-mu/1119314907712750/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Rate from 0-10 🔥 made this with lovable.dev btw #lovablepartner",
-    "snippet": "... dev CALCULATOR Unlock Your Answer Pay $499 Beat the Dealer Processing Payment ... It's hard to say you but I wish always hustling ... what about some uncomplete ...",
-    "link": "https://www.instagram.com/reel/Da7uEVtuRrG/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Another gem. 🎯 First 10 minutes of the 30 min and the hour? ...",
-    "snippet": "I wish you success out there in Bosnia. OCR. LIQUIDATION WHY YOU I'M ALL DAY ... Check out this Moon Dev calculator here and play with it a little bit.",
-    "link": "https://www.instagram.com/p/Da5tGP9jJ8o/",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Convert FISH DEV (FISH) to Norwegian Krone (NOK)",
-    "snippet": "... FISH DEV (FISH) to Norwegian Krone (NOK) is now worth 0.{4}1664 — use FISH DEV calculator ... Why Doesn't Norway Use the Euro? Norway does not use the ...",
-    "link": "https://www.bitget.com/price/fish-dev/nok",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+    "title": "After getting frustrated with bookmarking 20 different dev ...",
+    "snippet": "After getting frustrated with bookmarking 20 different dev tool sites, I built my own hub Hey everyone,. Hey everyone,. I got tired of ...",
+    "link": "https://www.reddit.com/r/learnreactjs/comments/1pgw00r/after_getting_frustrated_with_bookmarking_20/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   }
 ]
