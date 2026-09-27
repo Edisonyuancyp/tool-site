@@ -1,6 +1,6 @@
 # Deep Review Report – GetFastCalc
 
-Generated: 2026-09-20 07:38 UTC
+Generated: 2026-09-27 07:55 UTC
 
 ## Summary
 
@@ -14,19 +14,19 @@ Generated: 2026-09-20 07:38 UTC
   - Health: 8
   - Ecommerce: 6
   - Converter: 5
+  - Fitness: 4
   - Productivity: 4
   - Travel: 4
   - Quant: 4
-  - Utilities: 4
   - Cooking: 4
-  - Fitness: 4
-  - Crypto: 3
+  - Utilities: 4
   - Home: 3
+  - Crypto: 3
   - Date & Time: 2
-  - Generators: 2
   - Text: 2
-  - Math: 1
+  - Generators: 2
   - Content: 1
+  - Math: 1
   - Security: 1
 
 ## Red-ocean / low-quality tools (consider improving or removing)
@@ -37,58 +37,58 @@ These tools are in saturated categories and have weak descriptions/keywords. Con
 ## High-value tools missing variants (priority for SEO expansion)
 
 - `fba-reorder-calculator` (Ecommerce) — FBA Reorder & Restocking Calculator
-- `fba-fee-calculator` (Ecommerce) — FBA Fee Calculator
-- `amazon-acos-calculator` (Ecommerce) — Amazon ACoS Calculator
 - `import-duty-calculator` (Ecommerce) — Import Duty Calculator
+- `amazon-acos-calculator` (Ecommerce) — Amazon ACoS Calculator
+- `fba-fee-calculator` (Ecommerce) — FBA Fee Calculator
 
 ## Tools with weak FAQs
 
-- `palette-medical` — Medical Blue Color Palette (FAQs: 2)
-- `palette-eco-green` — Eco Green Color Palette (FAQs: 2)
 - `holiday-calculator` — Holiday Calculator (FAQs: 2)
-- `ovulation-calculator` — Ovulation & Cycle Tracker (FAQs: 2)
-- `water-intake-calculator` — Daily Water Intake Calculator (FAQs: 2)
-- `base64-tool` — Base64 Encoder / Decoder (FAQs: 2)
+- `palette-dark-tech` — Dark Tech Color Palette (FAQs: 2)
 - `palette-saas` — Minimal SaaS Color Palette (FAQs: 2)
+- `bmr-tdee-calculator` — BMR & TDEE Calculator (FAQs: 2)
+- `palette-medical` — Medical Blue Color Palette (FAQs: 2)
+- `ovulation-calculator` — Ovulation & Cycle Tracker (FAQs: 2)
 - `tip-calculator` — Tip Calculator (FAQs: 2)
 - `body-fat-calculator` — Body Fat Percentage Calculator (FAQs: 2)
-- `position-size-calculator` — Position Size Calculator (FAQs: 2)
-- `bmr-tdee-calculator` — BMR & TDEE Calculator (FAQs: 2)
-- `palette-dark-tech` — Dark Tech Color Palette (FAQs: 2)
-- `ideal-weight-calculator` — Ideal Weight Calculator (FAQs: 2)
+- `water-intake-calculator` — Daily Water Intake Calculator (FAQs: 2)
 - `palette-retro-film` — Retro Film Color Palette (FAQs: 2)
+- `position-size-calculator` — Position Size Calculator (FAQs: 2)
+- `ideal-weight-calculator` — Ideal Weight Calculator (FAQs: 2)
+- `palette-eco-green` — Eco Green Color Palette (FAQs: 2)
+- `base64-tool` — Base64 Encoder / Decoder (FAQs: 2)
 
 ## Orphan tools (no related tools)
 
-- `travel-time-calculator` — Travel Time Calculator
-- `travel-expense-estimator` — Travel Expense Estimator
-- `dev-budget-calculator` — Dev Budget Calculator
-- `dev-tool-usage-analytics` — Dev Tool Usage Analytics Tracker
-- `dev-tool-feature-prioritizer` — Dev Tool Feature Prioritizer
-- `code-complexity-calculator` — Code Complexity Calculator
-- `dev-tool-collaboration-optimizer` — Dev Tool Collaboration Optimizer
 - `dev-tool-selection-guide` — Dev Tool Selection Guide
-- `dev-tool-ui-research` — Dev Tool UI Research Helper
-- `group-trip-cost-splitter` — Group Trip Cost Splitter
-- `developer-time-tracking-calculator` — Developer Time Tracking Calculator
 - `carbon-footprint-travel-calculator` — Carbon Footprint Travel Calculator
-- `color-palette-lab` — Professional Color Palette Lab
+- `dev-tool-ui-research` — Dev Tool UI Research Helper
+- `dev-budget-calculator` — Dev Budget Calculator
+- `travel-expense-estimator` — Travel Expense Estimator
+- `dev-tool-feature-prioritizer` — Dev Tool Feature Prioritizer
+- `dev-tool-usage-analytics` — Dev Tool Usage Analytics Tracker
 - `dev-tool-accessibility-checker` — Dev Tool Accessibility Checker
+- `color-palette-lab` — Professional Color Palette Lab
+- `dev-tool-collaboration-optimizer` — Dev Tool Collaboration Optimizer
+- `travel-time-calculator` — Travel Time Calculator
+- `group-trip-cost-splitter` — Group Trip Cost Splitter
+- `code-complexity-calculator` — Code Complexity Calculator
+- `developer-time-tracking-calculator` — Developer Time Tracking Calculator
 
 ## Calculator + Generator candidates (add Download/Share/Report feature)
 
 These tools are good candidates for generating downloadable reports or shareable images.
 
-- `bmi-calculator` (Health) — BMI Calculator
-- `loan-calculator` (Finance) — Loan Calculator
-- `sleep-calculator` (Health) — Sleep Calculator
-- `risk-calculator` (Quant) — Position Size Calculator
+- `budget-calculator` (Finance) — Budget Calculator
+- `percentage-calculator` (Finance) — Percentage Calculator
+- `rent-vs-buy-calculator` (Finance) — Rent vs Buy Calculator
+- `bmr-tdee-calculator` (Health) — BMR & TDEE Calculator
+- `debt-repayment-calculator` (Finance) — Debt Repayment Calculator
 - `fba-reorder-calculator` (Ecommerce) — FBA Reorder & Restocking Calculator
+- `import-duty-calculator` (Ecommerce) — Import Duty Calculator
+- `savings-goal-calculator` (Finance) — Savings Goal Calculator
 - `retirement-savings-calculator` (Finance) — Retirement Savings Calculator
-- `ovulation-calculator` (Health) — Ovulation & Cycle Tracker
-- `tax-calculator` (Finance) — Income Tax Calculator
-- `water-intake-calculator` (Health) — Daily Water Intake Calculator
-- `car-lease-calculator` (Finance) — Car Lease Calculator
+- `risk-calculator` (Quant) — Position Size Calculator
 
 ## Recommended next actions
 
