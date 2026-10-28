@@ -1,152 +1,104 @@
 [
   {
-    "title": "r/juststart",
-    "snippet": "The prompt goes into the same AI visibility tool to draft the page and scores it. Then I edit it, to make it sound human. For anyone running sites for contnet, ...",
-    "link": "https://www.reddit.com/r/juststart/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "I made $6240 in month 13 : r/juststart",
-    "snippet": "For 50 days I built my first real website from the ground up live on Twitch. Started popping out articles. Began outreach. Turned that into 50 ...",
-    "link": "https://www.reddit.com/r/juststart/comments/s7unii/i_made_6240_in_month_13/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "What should we do with r/juststart?",
-    "snippet": "I think I saw this subreddit a year or two ago but forgot about it. But I still think it could be a very important touchstone and tool for those ...",
-    "link": "https://www.reddit.com/r/juststart/comments/1wk4kqe/what_should_we_do_with_rjuststart/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "ReInventing /r/juststart",
-    "snippet": "You have two options: 1. quit and refocus your energy elsewhere (a 9-5, another project, ...) or 2. Accept the state we are in and adapt to ...",
-    "link": "https://www.reddit.com/r/juststart/comments/17efl7r/reinventing_rjuststart/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "SEO questions for the website I launched a year ago",
-    "snippet": "My purpose for the tool is to enlighten the consumer, the job seeker, and investors to what corporations are doing. This is information I am ...",
-    "link": "https://www.reddit.com/r/juststart/comments/10r2mgb/seo_questions_for_the_website_i_launched_a_year/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "1 Month Blog Update. : r/juststart",
-    "snippet": "I spent a few days researching key areas and subjects of my area of work on google keyword planner and ahrefs free keyword generator for ...",
-    "link": "https://www.reddit.com/r/juststart/comments/15pb1ea/1_month_blog_update/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "Running an agency, Now want to lean coding : r/juststart",
-    "snippet": "So I've started learning to code. Right now I'm building an app (a habit tracker where users stake real money on their check-ins) using React ...",
-    "link": "https://www.reddit.com/r/juststart/comments/1uo970i/running_an_agency_now_want_to_lean_coding/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "Always Iterating Never Launching. : r/juststart",
-    "snippet": "This simple question lead to a lot of things and finally reignited my passion and love to code that was lost in my daily grind of my business.",
-    "link": "https://www.reddit.com/r/juststart/comments/1wm4v42/always_iterating_never_launching/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "I'm building a tool site (month 16 update) : r/juststart",
-    "snippet": "The tool site is now only getting 17k sessions, 50% down from the 34k sessions we were doing in December. Now don't feel bad for me: our main ...",
-    "link": "https://www.reddit.com/r/juststart/comments/1sfiwd4/im_building_a_tool_site_month_16_update/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "Ways to scale up the Keyword Golden Ratio : r/juststart",
-    "snippet": "With the explanation out of the way, does anyone know a tool or a way to automate/bulk do these calculations? Right now, I search for the ...",
-    "link": "https://www.reddit.com/r/juststart/comments/7jms3w/ways_to_scale_up_the_keyword_golden_ratio/",
-    "query": "site:reddit.com (r/SEO OR r/juststart OR r/blogging) \"calculator\" OR \"tool\" OR \"generator\" OR \"checker\""
-  },
-  {
-    "title": "Keyword Density Checker",
-    "snippet": "The Title Tag, Meta Description and the Meta Keyword tag are all removed from the keyword statistics. ... FAQ Schema Generator · Page Experience Checker · PWA ...",
-    "link": "https://www.seoreviewtools.com/keyword-density-checker/",
-    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
-  },
-  {
     "title": "Keyword density",
     "snippet": "In the context of search engine optimization, keyword density can be used to determine whether a web page is relevant to a specified keyword or keyword phrase.",
-    "link": "https://en.wikipedia.org/wiki/Keyword_density",
-    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
-  },
-  {
-    "title": "Keyword Density: What Is It & Does It Impact SEO?",
-    "snippet": "And make sure you remember to add the target keyword to the meta description and other important places. Check Keyword Density. with the On Page ...",
-    "link": "https://www.semrush.com/blog/keyword-density/",
-    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
-  },
-  {
-    "title": "What is keyphrase density and why is it important?",
-    "snippet": "What is keyphrase or keyword density? ... Keyphrase density is the number of times your focus keyphrase occurs in your copy, compared to the total ...",
-    "link": "https://yoast.com/what-is-keyphrase-density-and-why-is-it-important/",
-    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
-  },
-  {
-    "title": "Is Keyword Density Still Important for SEO? If So, How ...",
-    "snippet": "Keyword density isn't as important but keyword placement matters for primary, secondary and related (LSI) keywords. Focus on writing natural ...",
-    "link": "https://www.reddit.com/r/SEO_Digital_Marketing/comments/1f8lg5a/is_keyword_density_still_important_for_seo_if_so/",
+    "link": "/goto?url=CAESaAHrOzAVFQN82OJyeH2yAE0SwOstGeY5XbmzXl5qCUr3HO4JcHQIhoeOywkfVWiD4o6bcszgQJS3hEvWOHfmGP08zSg0su6nPYfqS8VCfghNztIaLKt-3oKBJAW01BXmeNelqR5eLHeS",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
     "title": "Free Keyword Density Analyzer Tool - SEO Tools - SEObook",
     "snippet": "So we created this free tool to serve the legitimate functions of keyword density tools AND warn against some of the futile (& even counter-productive) uses as ...",
-    "link": "http://tools.seobook.com/general/keyword-density/",
+    "link": "/goto?url=CAESbAHrOzAVtB47n4pN7Ie39NVLv3dfkhqI8a7f6LlQ_gi06UUpPLr-DrWMQ34snBFPvurlGnaHq2WbIM03tll6WPf4_O1_-PUWuX3jQ_XOvMBCGTLE3IY94RJ_iYBXhCBKsAbMKJVqa-56-9T66Q",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "What is the appropriate keyword density? : r/SEO",
-    "snippet": "The general recommendation for keyword density is usually between 1% to 2%. Anything above that can come across as keyword stuffing, which ...",
-    "link": "https://www.reddit.com/r/SEO/comments/1fjkvbu/what_is_the_appropriate_keyword_density/",
+    "title": "Keyword Density: What Is It & Does It Impact SEO?",
+    "snippet": "And make sure you remember to add the target keyword to the meta description and other important places. Check Keyword Density. with the On Page ...",
+    "link": "/goto?url=CAESaAHrOzAV65Oyl6JvPwRTIZRE1-l9PMyM7o_wRHiJpoi4GxIzTeNqWcU-EAMMefxiReY-oVGcon84n7sbaex9nPP4p-N7EehbP4zWQ13GnejisqOWOQPnO3frKZ53CS9JzUqlTwFPoaGm",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "What is the ideal keyword density of a page?",
-    "snippet": "What is the ideal keyword density: 0.7%, 7%, or 77%? Or is it some other number? Matt Cutts, Bay Area, California Have a question?",
-    "link": "https://www.youtube.com/watch?v=Rk4qgQdp2UA",
+    "title": "What is keyphrase density and why is it important?",
+    "snippet": "What is keyphrase or keyword density? ... Keyphrase density is the number of times your focus keyphrase occurs in your copy, compared to the total ...",
+    "link": "/goto?url=CAESfwHrOzAVUGADxtRlEhzvqo2kSJGtnLpqSOWpCJJaVT6n1EjbLpJ3OuPEfBFehiqQ-zFsbUQZWHJQ4pdq3QQeo7ZibMgPy7l_bwLQPIV2E7B7CoO9pl-SSAF9vZ4FN3nmSFY9_jorvejKN9nb9xtp0nHa0lmv5mMBDXluLoI4jXA",
+    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
+  },
+  {
+    "title": "Is Keyword Density Still Important for SEO? If So, How ...",
+    "snippet": "Keyword density isn't as important but keyword placement matters for primary, secondary and related (LSI) keywords. Focus on writing natural ...",
+    "link": "/goto?url=CAESrAEB6zswFRtmbEpGw0vVM5n4XhB3g4zazTErKqhJFbtgOyfmoLq4e5M_jogkKIGCiOi3HncrzwXOwywzGTjJOWWH1yy-6brMT2bfmI1nLmIN4f2sHNCutjNgccBernvFI9iVBygGWu8tuXoivY7-qWx-fCoskFR_zoqZ4YToSrt-5QOsd7b-d0JR6hK6JIp9GK9KpGYBmbB4lDDTFt8-Xj8ylp8SEaF-h7LOuRuc",
+    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
+  },
+  {
+    "title": "Keyword Density Checker",
+    "snippet": "The Title Tag, Meta Description and the Meta Keyword tag are all removed from the keyword statistics. ... FAQ Schema Generator · Page Experience Checker · PWA ...",
+    "link": "/goto?url=CAEScgHrOzAVu0XF20uHRcZeRDlJs-8XkxCCheZZYUStvt5VLvO6xJd8sXt3ReT1ChwjHibtlL5k627wk2_t1cwN6yuyOrQUefdZNdynvTCaGmQQF-q-Jm9hHvy0-VQcT5s0YHp0XW25YyMHAJYjSSzZi5OdOg",
+    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
+  },
+  {
+    "title": "How do you handle Keyword Density for GEO and modern ...",
+    "snippet": "Hey everyone, I’m currently optimizing content for an e-commerce site and ran into a dilemma regarding keyword density. I recently expanded some ...",
+    "link": "/goto?url=CAESnAEB6zswFQ1qjt64qtUmtB54sJbvSZ_Hbf5T4fiDC0DbTof81rFjMit8BYcDZRnTIOzk3t0jOJ0EPeb7VfxbkHHWbGEv7OzQ52q5duG7kOt-EKFIBxKHLa3tDJ-mlsmQMp2qilhlVuSfMY0GiS6lXWa87tgUKAJzUTY49BogNTBaj4XMhTJUbF7XR3ovmqMQSLguYCXiSYpJwP4ISzI",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
     "title": "What is the Best Keyword Density Percentage for SEO?",
     "snippet": "... meta description and in the content part. Don't stuff in extra keywords just to get that magic 3,22% or 7,08% keyword density (or whatever ...",
-    "link": "https://www.hobo-web.co.uk/keyword-density-seo-myth/",
+    "link": "/goto?url=CAESbwHrOzAVrHmNoxXFUVPaQ9pfIM4NF1X_gWaqufU6zqz-GSpbqGgfASIZ-mcXcsYpfMAnLmKHsRY7CboDg-zfik4iXoTm19cu2LVXCY_GDouAG9VdnvdwUaDaLnH619bBVvrverX_ihIPb-aOJNyn1A",
     "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
   },
   {
-    "title": "27 Simple and Free SEO Tools [Updated for 2023]",
-    "snippet": "27 Simple and Free SEO Tools [Updated for 2023]. Keyword Research Tools ... Ahrefs is a renowned SEO tool that includes a backlink checker. It helps you ...",
-    "link": "https://khacreationusa.com/discover-the-best-27-simple-and-free-seo-tools/",
+    "title": "What is the ideal keyword density of a page?",
+    "snippet": "What is the ideal keyword density: 0.7%, 7%, or 77%? Or is it some other number? Matt Cutts, Bay Area, California Have a question?",
+    "link": "https://www.google.com/goto?url=CAESZgHrOzAV1jsr9ZOgFxwwUu7ptorX34B5WgzOud2pMWjQlA-DN3mKokvAFs15CvXb8IuYMgmIIL4M61XMifVF8fC6jjU8VuNQYiBDdjQxKoxL0YfieRx79jB-IJG85k75VlEfX1oWbA",
+    "query": "site:reddit.com \"title generator\" OR \"meta description\" OR \"schema generator\" OR \"keyword density\" tool"
+  },
+  {
+    "title": "20 Lesser Known yet Free SEO Tools for Small Business",
+    "snippet": "Keyword Traffic Estimator is certainly a helpful SEO tool that lets you check whether a particular keyword will be able to generate potential traffic. It helps ...",
+    "link": "https://www.verveinnovation.au/20-lesser-known-yet-free-seo-tools-for-small-business/",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "110 Top SEO Tools That Are 100% Free",
-    "snippet": "A neat feature of this free SEO tool is the SERP preview. This shows ... Interested in working with us? business@econcero.com. Career. Looking for ...",
-    "link": "https://econcero.com/2022/05/25/110-top-seo-tools-that-are-100-free/",
+    "title": "5 Free SEO Tools You Should Use",
+    "snippet": "I still ranked sites — using only free tools. Here are 5 free SEO ... SEO tool you can't live without? Follow Hassaan Arif for more SEO ...",
+    "link": "https://www.linkedin.com/posts/seo-expert-hassaan-arif_seo-marketingtools-freetools-activity-7333905259565572098-s9z4",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "5 Legendary SEO Tools That Are Extinct Today (and What ...",
-    "snippet": "SERPLab Free Google rankings checker. Updates up to 50 keywords once ... SEO tool will help you succeed this year. 2 ClickBuffer ...",
-    "link": "https://www.facebook.com/McqueensDigital/posts/5-legendary-seo-tools-that-are-extinct-today-and-what-seos-now-use-instead-by-al/685574838122157/",
+    "title": "29 Best Free SEO Tools (Tried & Tested) | by Moorthy",
+    "snippet": "Looking for a list of the most useful free SEO tools? Look no ... And don't forget about Google-arguably the most powerful free SEO tool.",
+    "link": "https://medium.com/@murthy1983/29-best-free-seo-tools-tried-tested-f970eaaef51c",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "5 Free SEO Tools You have to have during your search ...",
-    "snippet": "The good thing is that search marketers need not buy these tools as there are several quite effective free SEO tools on the Web to select from.",
-    "link": "https://medium.com/@FreeSEOTools5/5-free-seo-tools-you-have-to-have-during-your-search-marketing-toolbox-7050f1b4d84b",
+    "title": "What SEO tools are missing but desired?",
+    "snippet": "What are the SEO tools that you wish existed but can’t still find them?",
+    "link": "https://www.facebook.com/groups/nichesitemasteryclub/posts/1676621859629270/",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "5 Best SEO Free Tools",
-    "snippet": "There are several excellent free SEO tools available that can help you optimize your website, analyze performance, and improve your search ...",
-    "link": "https://www.blackhatworld.com/seo/5-best-seo-free-tools.1607067/",
+    "title": "61 Best SEO Tools in 2025 (Free + Paid)",
+    "snippet": "Cost: AccuRanker offers a 14-day free trial. The paid plan starts at $129/month. 54. Rank Ranger. Rank Ranger is an all-in-one SEO tool that ...",
+    "link": "https://writesonic.com/blog/best-seo-tools",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "Top 10 Free SEO Keyword Tools You Should Try in 2024",
-    "snippet": "One of the free tools in the Google Ads suite is Google Keyword Planner. It is used for SEO keyword search tools for free, mainly due to the ...",
-    "link": "https://www.searchonic.com/blog/top-10-free-seo-keyword-tools-you-should-try-in-2024",
+    "title": "What are some free or cheap tools that can be used for ...",
+    "snippet": "What are some free or cheap tools that can be used for SEO and marketing?",
+    "link": "https://www.quora.com/What-are-some-free-or-cheap-tools-that-can-be-used-for-SEO-and-marketing",
+    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
+  },
+  {
+    "title": "10 Free Best SEO Tools You Need To Use!",
+    "snippet": "10 Free Best SEO Tools You Need To Use! · #1 PageSpeed Insights · #2 Small SEO Tools · #3 Moz's Link Explorer · #4 Data Studio · #5 Keyword ...",
+    "link": "https://42works.net/10-free-best-seo-tools-you-need-to-use/",
+    "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
+  },
+  {
+    "title": "Can you recommend any free online SEO tools other than ...",
+    "snippet": "For businesses looking for free or more affordable alternatives ... Which is the best free SEO tool? Profile photo for Eid Promo Code ...",
+    "link": "https://www.quora.com/Can-you-recommend-any-free-online-SEO-tools-other-than-Google-Search-Console-and-SEMrush",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
@@ -156,63 +108,63 @@
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "Here's an impressive free SEO tool that you've got to test ...",
-    "snippet": "Ahrefs Webmasters Tools - FREE This top SEO tool is now free for anyone to use. It's particularly great for small businesses looking for a ...",
-    "link": "https://www.techradar.com/news/heres-an-impressive-free-seo-tool-that-you-have-to-test-right-now",
+    "title": "The Only 29 Free SEO Tools You Need - Medium",
+    "snippet": "Searching for a list of beneficial, free SEO tools? then stop your search. You don't require every available free SEO tool.",
+    "link": "https://smartseotoolsxyz.medium.com/the-only-29-free-seo-tools-you-need-5dc7af04f5a2",
     "query": "site:reddit.com \"SEO tool\" \"I need\" OR \"looking for\" OR \"free\" OR \"doesn't exist\""
   },
   {
-    "title": "Canonical Tag Checker",
-    "snippet": "SEOptimer's Canonical Checker tool looks for the presence of the Canonical Tag in your site's HTML. Google recommends having this tag present on every page.",
-    "link": "https://www.seoptimer.com/canonical-checker",
+    "title": "Free OG Inspector & Open Graph Checker - Savebase",
+    "snippet": "Inspect and validate Open Graph tags, OG images, Twitter Cards, and social link previews for any URL. Free checker for X, LinkedIn, Slack, and Facebook.",
+    "link": "https://savebase.space/tools/og-checker/",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Canonical URL / Location Checker",
-    "snippet": "Over 183,851 already signed up for a free SEO Review Tools members account. ... Updated corresponding detection parameters for canonical checker. Special ...",
-    "link": "https://www.seoreviewtools.com/canonical-url-location-checker/",
+    "title": "All Online Tools | RankSmartTools",
+    "snippet": "SEO Slug Generator SEO ToolsSEO Slug GeneratorCreate a clean, readable URL slug from a page title locally in your browser.Open tool →; SEO Meta Tag ...",
+    "link": "https://www.ranksmarttools.com/tools",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Canonical Tag Checker – Free SEO Tool",
-    "snippet": "Check any URL's canonical tag. Detects self-referencing canonicals, canonical loops, 404 canonical targets, cross-domain canonicals, and conflicting ...",
-    "link": "https://inetventures.com/canonical-checker",
+    "title": "Open Graph Preview & Generator - SEO Snapshot",
+    "snippet": "Free, no signup. Scan a live URL against 100 on-page checks. Analyze any URL free S SEO Snapshot Free on-page SEO analysis with copy-paste fixes.",
+    "link": "https://seosnapshot.dev/tools/open-graph-preview",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Canonical url tag added in application.html.erb file is not ...",
-    "snippet": "For SEO reasons I added canonical tag to the application.html.erb in the rails layouts, thinking all the urls being generated will have their own respective ...",
-    "link": "https://stackoverflow.com/questions/43780393/canonical-url-tag-added-in-application-html-erb-file-is-not-working-on-all-the-p",
+    "title": "Open Graph Checker: Free Online OG Tag Tester | AllEasySEO",
+    "snippet": "Use this free Open Graph checker to test any URL. See your OG tags, social preview, Twitter Card tags and a 7-point checklist. Check your page now.",
+    "link": "https://alleasyseo.com/open-graph-checker",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Bulk Canonical Tag Checker",
-    "snippet": "The Bulk Canonical Tag Checker from SEOAegis scans multiple web pages to detect and validate <link rel=\"canonical\"> tags at scale. It's designed for SEOs, ...",
-    "link": "https://www.seoaegis.com/bulk-canonical-checker",
+    "title": "OG Image & Link Preview Tester - Scanner Tools",
+    "snippet": "Test your Open Graph tags and see how a link will look on Facebook, X, LinkedIn, Slack, and WhatsApp. Paste your HTML head and get a full og:image audit.",
+    "link": "https://tools.scannertechs.com/og-image-previewer/",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Canonical Checker - Find Your Canonical URL",
-    "snippet": "Free canonical checker: find the rel=canonical URL of any page and see if it points to itself, another URL or another host, staging included. No signup.",
-    "link": "https://www.host-tracker.com/en/ic/canonical-checker",
+    "title": "All SEO Tools | 81 Free & Pro SEO Analysis Tools",
+    "snippet": "Free Canonical URL Analyzer Detect canonical tag issues, duplicate content signals, and URL parameter problems. Free Open Graph & Social Card Preview … shared ...",
+    "link": "https://seo-studio.cs-e-shop.com/tools/",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Free Canonical Checker — Fix Missing Canonical Tags - Scrawl",
-    "snippet": "Canonical Checker is a free browser-based tool that reads the HTML of any live URL and extracts the exact rel=canonical tag present (or confirms it's missing).",
-    "link": "https://scrawl.tools/tools/canonical-checker",
+    "title": "Open Graph Checker — OG & Twitter Card Tester - SEOtest.app",
+    "snippet": "Analyze Open Graph and Twitter Card meta tags for any URL. Preview how your content appears when shared on Facebook, X, LinkedIn, and other social platforms.",
+    "link": "https://seotest.app/tools/og-checker",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "David White on X",
-    "snippet": "What do people think the best Chrome extensions are for content marketing/ PR I have Moz, blue button, Buzzsumo, canonical checker and ...",
-    "link": "https://x.com/david_white90/status/1151104753683881984?ref_src=twsrc%5Etfw",
+    "title": "Canonical URL Checker free, instant. - SEO Fragments",
+    "snippet": "Slug Generator. Create clean, SEO-friendly URL slugs that work perfectly as canonical URL targets. Use it free ...",
+    "link": "https://seofragments.com/free/canonical-checker",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   },
   {
-    "title": "Free Canonical URL Checker - Test Canonical Tags",
-    "snippet": "This free canonical checker scans a public page and evaluates its canonical setup against the same standards used by the full website analyzer. Use it to ...",
-    "link": "https://pikassostudio.com/tools/canonical-checker",
+    "title": "SEO Tools Free Online - Meta, Canonical, Redirect & Analyzer",
+    "snippet": "Slug Generator. Convert text into URL slugs. SEO · DA PA Checker. Bulk-check domain & page authority. SEO · Broken Link Checker. Crawl a site and find dead ...",
+    "link": "https://mytoolstudio.com/tools/seo/",
     "query": "\"SEO calculator\" OR \"slug generator\" OR \"canonical checker\" OR \"OpenGraph preview\" free online"
   }
 ]
