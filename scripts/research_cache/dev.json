@@ -1,8 +1,50 @@
 [
   {
-    "title": "Dev Calc -Developer Calculator - Apps en Google Play",
-    "snippet": "Esta es una aplicación de calculadora para ayudar a los desarrolladores y programadores de sistemas. Convierta numérico a binario, octal, decimal, hexadecimal ...",
-    "link": "https://play.google.com/store/apps/details?id=com.coconuts.devcalc&hl=es_US",
+    "title": "How to Use Chrome Developer Tools - Guide for Marketers",
+    "snippet": "Chrome Developer Tools provides a suite of tools for inspecting and debugging web content. go to View → Developer → Developer Tools.",
+    "link": "https://measureschool.com/how-to-use-chrome-developer-tools/",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Master Chrome Developer Tools - The Best Feature of Google ...",
+    "snippet": "Chrome can work as a Maths calculator? This video tutorial will walk you through a couple of examples where you can use Developers Tools. Open ...",
+    "link": "https://www.google.com/goto?url=CAESfAHEIkXXY6pbf-0PhLBiT_gCfs0QwbtTJ2d7_WCPZjNuolvx-w7ug2z4x0TTjPdh9cVBCjVTo3ZhvARlzBui_a6qBxe_rlsObKMq6WmuK69CwWDHyAKRRfiGjTiFy1fFEdVcguuqAGHc7xUEf2Gi6WjibYi9PfHpZLWqzeM",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Measuring Javascript + CSS coverage with Chrome Dev Tools",
+    "snippet": "To open Dev Tools press: Windows, Linux: Ctrl + Shift + I Mac: ⌘ + ⌥ + I After this, you can access the Coverage from the Command. P Then type ...",
+    "link": "https://www.google.com/goto?url=CAESpQEBxCJF17MttGn_5l6aDjLjyfHMd1D-YbEl7VAv4aVqRT_44f9-vC2Sp3ouXRjxCZEETsjywxZjgxagIKmCwayXDCCUe2qzrD0Wa_IYdM3QaWj2cUam7J0_hPFqb4_fzTauvXUysyohnt8hc2A0Rb6ULMGkvX4PH4HfsfiGVH04nHII2y4t1Tcr9cUaHhW5Tgvyb9rCUFZQcVNpLjscA-UZwqZZQmk",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "How to get Page Rendering & Painting time of Chrome ...",
+    "snippet": "Devtools UI calculates this chart from the data produced via performance recording. a selected timeline range.",
+    "link": "https://www.google.com/goto?url=CAESuAEBxCJF19xap_hDKsNhmgp0OYDln9lEPUAPmqrFqJ6VUIhZC0M2G0VBPPgJ-C0h3OLHs2fuq6gl_pJAhz_CILupmh2TR1iyr4p0MAoufauL92V_ZWd95LjNBVCeSN7TZebr9Ugh5akSaxojPOaT4OHpvU82zI2PLMcd4me4X2KR92HdYyECapJVYK4sVVRAO09VIAFqJOeDw0mjzcRqk9SIc63irRASGVciQSzlmgtrh21onTl5Ekzm",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Chrome Dev Tools · GitBook",
+    "snippet": "Using the chrome javascript debug tools we can see what the values of our loops are at any given time. open the chrome dev tools on your loops file. Chrome ...",
+    "link": "https://www.google.com/goto?url=CAEShwEBxCJF14jvAu9Ee2rWLuT1m0Ik0GJKlQVeezTuUb6ePyqN4xJSuMY2c1QqI2_g6U70P7MxXyPcdvt_OYFVkWz4Fw6kUfYCN--EbgDk6S616EUTkB8t9pYwUITt7MoHoJZKW2-2lcyj2Wz49hAqF_J5xTZgjz42-QqCKUNzB39O8TzQ3r7OrZY",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "how to measure execution time of your function via chrome ...",
+    "snippet": "Have you ever done something like this before to measure the execution time of your function? console.log('test time', +new Date()) // +new Date ...",
+    "link": "https://www.google.com/goto?url=CAESuwEBxCJF18eglNbg1q9LvAbajvFzppDCgvua2rdwquD9olIV_EuKnprM3GdYLitwQF-3_m76tZ4WR2wqe8yE2tqyypIfuigJRUJpragK-iPtTtzbmoEWk1O9GMoh4rLdn7z6WHina9iw4Hjui7veT4a_8KgLxESSEOuUq24Op8V2BLgP41Xhh1VyWza4S16lcjm7ANril8CzCYEGWdS7gobHbXefJe3idfDwmYU89wosu_LR6LEAKHZxWLCC",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Percentage Calculator | HTML, CSS and JavaScript",
+    "snippet": "Percentage Calculator | HTML, CSS and JavaScript. Build this JS calculator in 15 minutes! Learn All the JavaScript Basics in 20 Minutes",
+    "link": "https://www.google.com/goto?url=CAESaAHEIkXXKRltFZus6POCxnpPB8gjEZYGVaGurznhZ90hrIq1X9ePmaG1B3bUhK-NMZW5B_e1leVU0150PGcOUC-lZF5v7sBuIQuV8cHd2VcCwTiM-6zQE4nEVpv_2NNwpBL4qMrPr9B5",
+    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+  },
+  {
+    "title": "Is there a way to evaluate function from Chrome Developer ...",
+    "snippet": "I am looking for a way to evaluate function (check screenshot) in Chrome developer tools, or if you can propose any workaround that would get ...",
+    "link": "https://stackoverflow.com/questions/22909019/is-there-a-way-to-evaluate-function-from-chrome-developer-tools",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
@@ -12,63 +54,39 @@
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "Calculator",
-    "snippet": "A calculator is a device or software application used to perform mathematical operations. Helping websites grow through smart SEO and ...",
-    "link": "/goto?url=CAESYwHrOzAVxIVDXO_Q16jRoUln3kjpD0ph5Dfu9hA3SfodwIc9SC6e3pnZWAYV6U2P1lUjVAUjHwO3vGxlWr5sRCa5Zsy-dnu5enTI9wrl0ZiQULLWuv8h_cBmBt00TXABY6TbBA",
+    "title": "Dev Tools Tutorials",
+    "snippet": "Use Chrome Dev Tools to debug and measure the performance of your programs. Learn about Chrome Developer Tools through courses and resources.",
+    "link": "https://www.google.com/goto?url=CAESZAHEIkXXVKvjn7z5AeI0KUatiAGAtGFRUt1l9dbAAmICBdwbvFfOae6IARq_qw8rmvNWTjPknJtWtdwN1z-3ogFC0X7WRQ3VH8qFojcKMG0Cc-t79Gp_xH_uwhYxibJ8CY1nRG4",
     "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
   },
   {
-    "title": "DevCalcs - Free Developer & Financial Calculators",
-    "snippet": "Free online calculators for developers and professionals. SHA1, Base64 encoders, compound interest, mortgage, APR and more -- all free, no sign-up.",
-    "link": "https://devcalcs.io/",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+    "title": "Dev Calc -Developer Calculator - Apps en Google Play",
+    "snippet": "Esta es una aplicación de calculadora para ayudar a los desarrolladores y programadores de sistemas. Convierta numérico a binario, octal, decimal, hexadecimal ...",
+    "link": "https://play.google.com/store/apps/details?id=com.coconuts.devcalc&hl=es_PE",
+    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
-    "title": "Google Chrome Average request time",
-    "snippet": "On my project, I would like to optimize an ajax request and to know, on average, how many ms I have gained. So, thanks to the Google Chrome network tab, ...",
-    "link": "https://stackoverflow.com/questions/20151618/google-chrome-average-request-time",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+    "title": "custom calculator/form tools : r/webdev",
+    "snippet": "Most of these tools are a combination of choosing variables, looking up values based on known tables, and some limited integer input.",
+    "link": "https://www.reddit.com/r/webdev/comments/17x35xe/custom_calculatorform_tools/",
+    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
-    "title": "Dev Calc -Developer Calculator",
-    "snippet": "This is a calculator app to help System Developers and Programmers. Convert numeric to binary, octal, decimal, hex immediately. You can set",
-    "link": "https://play.google.com/store/apps/details?id=com.coconuts.devcalc&hl=ln",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "How to create a function calculator? [Programming ...",
-    "snippet": "How to create a function calculator? [Programming Interview Question]",
-    "link": "/goto?url=CAESvQEB6zswFTSU_h1E78ppoP3qZI37YZEQscTxY6Av3GdZMy7ubwPyvGQSTlLwglZbZjjPztDEkCdmyJPOROXvq42pvGKf9uXfBOuDkAVRbPiOoLktJAUKhy3qgALR0qlYENl1M71yS_TUHKLosYKSuK7pUESpDNcwmCTvHEPCDlq3H8ai4s9owdHWySdmw0Fc2ey7_6XrwQr6xBWRKUQloPYYk2ArS7HQh5bHRpUxE6r3LCK8ARZfRK-ifmXs5G4",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "How to Create a Digital Calculator Using HTML CSS JS",
-    "snippet": "In this video, you'll learn how to create a fully functional calculator using HTML, CSS, and JavaScript from scratch. Perfect for beginners",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVevlzNRNOvAQWwmbs8Jf3paParPYeCsdWaQzcFlRPHr0h_olOMZh8SVIAzjgzRIk84Le2JEiGlibnM5WZ5dRl4yRPdnCvDRSsCprsE3MhTUGaTksYlWZfTMuoovUdcgI-TA",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
+    "title": "I Tried 5 Dev Tools in a Day: Here's the One That Made ...",
+    "snippet": "Editor X: A sophisticated code editor for seamless collaboration. - OctoBot: AI-powered assistance for code reviews. - CloudForge: A cloud-based ...",
+    "link": "https://www.google.com/goto?url=CAESpAEBxCJF19oNIGqbawYaan9IHKPbSOANwlXxd3andn_O-a1WHmey6SrDa8cXKeCleuvjPHG6ygUyn0I6Cdm4UjJTM6xzNzyDY_qm3oXKq3Mr85lblk0yskXbAe2MnkWs-hpnPden5YaL98l2GHUP-bAqPTjenMJVYRGzQKvkxNAmDvpE9SOfc5X0xJwzWCmpj3zq8IZ4UQpwqC-SbjjB6VAzhqBaIw",
+    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
     "title": "DevTools Hub - 355 Free Online Developer Tools",
-    "snippet": "Free online calculator with scientific functions, unit conversion, loan calculator, and BMI calculator. No signup required, works in any browser. Free Email ...",
-    "link": "/goto?url=CAESWAHrOzAVU_7NapbuZ7B37NkYHM4T8DzqlRNVxbOa_AnwbcO63t8tcaVrLhXEEF_YgJf8lw4ZqNpSud2S7RTxupdImzvVV0FRu-pCyF9kYZCoFWTpU0dISjg",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "Making a Faulty Calculator (JS PROJECT)",
-    "snippet": "Making a Faulty Calculator (JS PROJECT). @adarsh36303 24 likes 1.2K views 2y ago. more. Subscribe. Comments. 3. Comment.",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVC5Kwt_RkTfqWLicgj2tSIp12r97k-qw1W4IvR3ssyLRqJT59lC9Kt4eqhcoRs-y0gIHKsyNNyQjqLlWIPRGSsUzrbYxJvCHzm_JKCKh5oYViNudRTWujIt4OTx7-SVhKQQ",
-    "query": "site:reddit.com \"dev calculator\" OR \"dev tool\" how"
-  },
-  {
-    "title": "How to create an online calculator : r/webdev",
-    "snippet": "How to create an online calculator. The user enters 2 values (say X and Y) and the tool calculates the product. create this using Excel for ...",
-    "link": "/goto?url=CAESjgEB6zswFcrvqQOG30AFBU7MXvORFVhXT5kFTHOfcwlOWDXRuOA4AHMmqmQv-EutQUXgKFf3HJzsGad4lwg3gJXBKhnl2n_YsrDCMT2hTdmGANNYvXkEqjdftBLfhni1zyeR-wdjc0Egew2CjQq8HReIyG3-U5_MdA0F8Q0z3DqjEjKAjdFS12p2n9kiIfHf",
+    "snippet": "Free online calculator with scientific functions, unit conversion, loan calculator, and BMI calculator. No signup required, works in any browser.",
+    "link": "https://tools.scoreroute.com/",
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
     "title": "Discover the Best Dev Tools App",
     "snippet": "Learn which features to look for in a top dev tools app like VS Code, Atom, Eclipse and Sublime Text and how to evaluate. C#, and more",
-    "link": "/goto?url=CAEScwHrOzAVJ_fj32eDUIr-h-RsYbCNMMzZRxNguUsUxJ_pwl8iTHjqnmwq3PNgw5sJyaALuJqEKkFpxa_rClCweWJLNaEUIu1aPPQoYq9ICidWXXSNvt2y73nvbwyaYQJCgRahxOpCedjGHEwOLpsPDA2XEeY",
+    "link": "https://www.google.com/goto?url=CAESdQHEIkXXr8duuh1PG9jZJi6bCS38itYWasrEWKF5wTDdwqgEsB3g0UgvSPJzbFyfdixGIJ6o-HBE0Fz1ouwBnenF0wT2-qHw_ma49kGbFP7URmeRjxOVh1M4cY87y0O-qwYjhpQ-G1RUA4hyBKuZA8p3yWCpLA",
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
@@ -78,153 +96,135 @@
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
-    "title": "custom calculator/form tools : r/webdev",
-    "snippet": "Most of these tools are a combination of choosing variables, looking up values based on known tables, and some limited integer input.",
-    "link": "/goto?url=CAESiAEB6zswFUtp-fq6UDtU2Fxx15x8ryxpLVyn4iCnAwDK_vHEgAxWvwaAlOKzyt-Iiy4m4fR8gx3zcv8E7zcZO5ruAOiLdYeIsgKc7XH7bNX0gU_gkU6v-0HeYicjJ3YlgThKlOviJ-TKPP_J7jMCKB2aCb1mmjKNSpTMVponwFXtepzSrlhre3Vz",
-    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
-  },
-  {
-    "title": "I Tried 5 Dev Tools in a Day: Here's the One That Made ...",
-    "snippet": "Editor X: A sophisticated code editor for seamless collaboration. - OctoBot: AI-powered assistance for code reviews. - CloudForge: A cloud-based ...",
-    "link": "https://medium.com/@codingguy/i-tried-5-dev-tools-in-a-day-heres-the-one-that-made-the-cut-08be75c101aa",
+    "title": "Dev Calc -Developer Calculator - Google Playত এপ্",
+    "snippet": "This is a calculator app to help System Developers and Programmers. Convert numeric to binary, octal, decimal, hex immediately. You can set conversion bit ...",
+    "link": "https://play.google.com/store/apps/details?id=com.coconuts.devcalc&hl=as",
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
     "title": "Calculations App : r/AppDevelopers",
     "snippet": "Hi all, looking to hire an app developer for a pretty basic calculating app, comment or send me a message and we'll see if we can put it ...",
-    "link": "https://www.reddit.com/r/AppDevelopers/comments/1lm7xvs/calculations_app/",
-    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
-  },
-  {
-    "title": "Developer Tools Calculators — Free & Instant | DecideCalc",
-    "snippet": "Free, instant developer tools calculators on DecideCalc — no login, works on any device. DecideCalc is a free, no-login, India-first platform of practical life ...",
-    "link": "https://www.decidecalc.com/categories/dev",
+    "link": "https://www.google.com/goto?url=CAEShgEBxCJF15GukGvT0b2mjuTRjXpACtS1S1BhLmcqAAcIQCuZxSL221d-GhXI55yzgPjI4Et_m8j5BNuw0bKq6WZF3BUS4bYDUUNwcGAdItMuntD3cf5pqwn8_NXXdxWPBpAYJBL-za1JN70RzXVenOtq8vc9pwrkQv5SokIXCFAYzcJ0CWZT3A",
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
     "title": "10 Free Browser-Based Tools Every Backend Developer ...",
     "snippet": "10 Free Browser-Based Tools Every Backend Developer Should Bookmark · 1. IP / Subnet Calculator · 2. CloudFront Signed URL Generator · 3. JWT ...",
-    "link": "/goto?url=CAESoAEB6zswFZ_Lt44tOduw5EtZt4T_EOHcgH_SOeWkN-WoxHXxkvNrpMkjtYimY1Z8b6jf3EsRjV0sGG4xznCDZFzBbLYATBX-4ZGxCeRkbeGlXV1rFS9ND7TVkig--2D23KkEzWnm6S_hoCmp9eNNOvSIDVp5NJ7PlnHxOZnxCwAyHz47v-bwNudWjf3aghqztS5jpYxFL5IobRR_3F0pqKaN",
-    "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
-  },
-  {
-    "title": "Discover the Best Dev Tools Apps",
-    "snippet": "The top mobile dev tools covered in this post will supercharge your productivity when coding on the go. Robust options like Textastic, Bugfender ...",
-    "link": "/goto?url=CAESdAHrOzAVjY7nvlDi1q7nDZSy4DISKXC3IQUjtLLTNl-unh0kAc4-leONlEaS_-emLYPNP_Ma5RpZ3Kgrh-Y1IFY47UikVTH9NsABcQ3WIFqvNP5Ts22VE3HYfO7X7vmyVS3ArgVmgb9fu1trPR0UTrht5YED",
+    "link": "https://www.google.com/goto?url=CAESogEBxCJF11aB0h2mrEDQ2zVZSvKAvKP5x84pXuKjyj44a5kdDR9JhoD9VjerwBvJx4Nc3--b1Npje6zLxazy-rXPXtTHW5_v_VJrE-ecQdAafwTYopeAZ0lQ01_KMxwlUanQ_zLDpXYJDkYEgAkwFaWcGkUmXtg_3aPF7qGK13qMNxTpH85vF69wOoS_J-HoXcTXiftrTi8an_u8nQdpJfJmKp8",
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
     "title": "Free Tools for Founders & Product Teams",
     "snippet": "Free calculators and estimators to plan and budget your software — MVP cost, ROI, project and cloud costs, AI API spend, feature prioritization, tech stack, ...",
-    "link": "/goto?url=CAESXQHrOzAVRYEPpeP_59bfWFGk3XibG3JPhjMNAJ21tDu8a474qZFDjetGNx-6EJsXxmZMbpdDvpU0X_0P2AgRBNQzB7r6gcUSy9ieHMwGqVeZ90YZDvt7UAd0bCVsWQ",
+    "link": "https://www.google.com/goto?url=CAESXwHEIkXXG2rBUPeoyDN4UQo5m0_Lby-f2n_e_80DJmjPR2A3OaM_H7tZMdmGO7IUZnCRdxyyBZ3IQyBcHoDB0CgsLh6fr2h4AaXZmYoP05CVvrGOx334sdavNBpEbNvn",
     "query": "site:reddit.com \"need a dev calculator\" OR \"looking for dev tool\""
   },
   {
     "title": "SLC 5/03 Standard Deviation Calculation Without Native ...",
     "snippet": "This article details two mathematically equivalent approaches to calculate standard deviation using only SLC 5/03 instructions",
-    "link": "https://industrialmonitordirect.com/blogs/knowledgebase/slc-503-standard-deviation-calculation-without-native-instruction?srsltid=AYCX9vKKXO48fqG8V9wE7J9VhE74cddSLV5fkFmz1vago9eJFCJ_2InW",
-    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
-  },
-  {
-    "title": "How to Do Standard Deviation in Calculator",
-    "snippet": "For most calculators, you can use the 1-VAR STATS feature to calculate standard deviation quickly without doing the manual formula.",
-    "link": "/goto?url=CAESigEB6zswFad6TbwNOQ3Edmtq2FEswXhtIggZupwCDkx6Kqz-K1MDxrSkeDQ7IMVzl-CxzfaUIzxRDEXzkXOZMbM37YwO7cEmsew4U5OS_i0EidZv1gXpkA0pOGLpZD5qF1iGGbBJLTQnVsTbJrX92WuzJ6bA6cTdpVxFOil-qgITd9zk1Ya4f8POK_M",
-    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
-  },
-  {
-    "title": "Calculate Standard Deviation Online Tool - tools - FROMDEV",
-    "snippet": "This is a free online tool to do calculation of standard deviation statistics function. This tool uses mean to calculate the variation.",
-    "link": "/goto?url=CAESbAHrOzAV7NSr3_wfrM4Bwg-PPiIDPeh-d1y8wfGQ5EM1uaexWgiP-aWFWlzaKYsn5NWQ9werFNEL3Qzqt7dFZ1DW2gW5yoIUvSkoN3syU2YMj_yU8iIOe25NA3SFOAE5YHd_T1YKA_F1QdQKjQ",
+    "link": "https://industrialmonitordirect.com/blogs/knowledgebase/slc-503-standard-deviation-calculation-without-native-instruction?srsltid=AYCX9vK19cvuY60OHSF3jj04AxOBQ1lvFBqhqqxvbMltbWf6KqR2VWWh",
     "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
   },
   {
     "title": "Sample Standard Deviation #fyp #engineering #boardexam ...",
     "snippet": "402 Likes, TikTok video from Jayen (@jjjjjjjrrr1): “Sample Standard Deviation #fyp #engineering #boardexam #caltech #students ...",
-    "link": "https://www.google.com/goto?url=CAESeAHrOzAVMoue9ijvwOJlvm8c2qCS8BWz-raZB6NjCXjPVLZodKLg-bXEH84nfZguPQJHqWZbfOdDMlh7xSYBuUcOHK56-K7lPvjhnpbIjojAAJz7MlU4MyRgksgqk61sylYzQn3xSFOjSZcgwp_5GukANwylA2DHBA&gsessionid=yQuWLDCQZ-ssVAEHqMjQa_TKv8nGPXmN16REyVnCpUZZF1KpVWLGDQ",
+    "link": "https://www.tiktok.com/@jjjjjjjrrr1/video/7324896209859087621",
     "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
   },
   {
-    "title": "Calculating the mean and standard deviation on a ...",
-    "snippet": "The following commands show how to calculate the mean and standard deviation by using the STAT mode on a CASIO fx-83 GT PLUS",
-    "link": "/goto?url=CAESegHrOzAVoPVwgAC3A9XOSevZ7Qs4nvKDfygyo__uCaO8UMga3mdYH_Lne6CFrylHE7KMdO0NRc6n_5LrCmNZMLYYozLyhrYaStAlpBlZ8ZDj-IeDjeiDJvzX3MDOeA7_IYjRRJECa7yo2I6r4D3s-Xr4yKpvAUJNFqOk",
+    "title": "How to Do Standard Deviation in Calculator",
+    "snippet": "For most calculators, you can use the 1-VAR STATS feature to calculate standard deviation quickly without doing the manual formula.",
+    "link": "https://www.google.com/goto?url=CAESjAEBxCJF14WkzPc7JBBba2373WxBHAOiRQQOAJZUzqNF75Wmn12IjNWLzPDqDbEnm3cQ5mO2f3PYEshpSr-ncYKTIca4a58sBOyfk1pue33lC101JT12qx2YiHX8cdZwm8xXF4AULFkHaOqGpiHWC9OBtLMULbRsH3sGEmyUDqTPZoV_Do0TCQmWixB5ow",
+    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
+  },
+  {
+    "title": "Calculate Standard Deviation Online Tool - tools - FROMDEV",
+    "snippet": "This is a free online tool to do calculation of standard deviation statistics function. This tool uses mean to calculate the variation.",
+    "link": "https://www.google.com/goto?url=CAESbgHEIkXXYJU4r7DL2yWh96ihc0pR5vX8x_LW6xpNXL_bTmkqcymtv5zHFViqHnt4nklRPIw9dLKfFAX8_fE_lWKfBKml_oUzWrJXPPPkTlCPEzcuJ-pOoM0GIM2jBoXe_HfSgAZJ-nEN-4cYsY0z",
+    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
+  },
+  {
+    "title": "How to Use a Calculator to Calculate Standard Deviation",
+    "snippet": "If you're doing it by hand, find the mean, subtract it from each value, square the differences, average them, then take the square root.",
+    "link": "https://www.google.com/goto?url=CAESlwEBxCJF15L-zd6q9AxoP1jMD5hYKZ9hN1sZUV0szd7EEg3J-_PKCpUD9RH8xc2XZ25GPt5J8JR8sOlG0ZifgrDJYH7TE0tL0B_Gd4bVwhGaJHEgsHUJWTWEpTS5oBdJs62O53iUKO9eQcCGsG1_NTzC47c9tc_aoj1ZB-qmdBF5DN99TFMsPWdsOGTwe4DGZP4jNyei-yZ3",
+    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
+  },
+  {
+    "title": "Calculate Mean & Std Dev on TI-83 | PDF",
+    "snippet": "The document describes how to find the sample mean and standard deviation of a data set using a TI-83 graphing calculator.",
+    "link": "https://www.google.com/goto?url=CAESbgHEIkXXz8O_M61KOgG0XX1Err3FNZwJvw1PPQm9kdSH8VGXdzoFdLFjK2kOc2xamtfpfR1PuroUHaU84MYddS4GqSIs3cfZvAYx7zf68ZquQ90yuJUNix9csATTQHs1Zb81Ke8PBIMilzNAwURP",
+    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
+  },
+  {
+    "title": "Calculator hack #6: Looking for mean and standard deviation ...",
+    "snippet": "This is a short math tutorial video that provides a step- by-step guide on how to calculate the mean and standard deviation of a data set. The ...",
+    "link": "https://www.google.com/goto?url=CAESygEBxCJF14FFVkBwZE30cm-AcDPcqLE6Ky938NuNlSWNHo4bas8b96BEXd0GmOwi-WU8cukUK5wCrUPbwGx1v_GqkgjQMG0U2njwa8CReuXBBkIW9PGLIRWl1k0jG5udf2pMaXW5osrJENE2aqK3e8BVR6TW1a3fVsAEJmog43PrnyvYL1yysQw8RygkXG_lp0LX6K2NlSDR07d9E85dwqsJf1jLvORMbTfdy8xeemzfLi7QiEPvK7s-CbKIynd8EStJLPjV-klkqt7G&gsessionid=znFh-1Vj3Yz-jRAuPsIKvnD44lY3XNGloz8X43OX56Qxc7WeHAROHw",
     "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
   },
   {
     "title": "Mean and Standard Deviation (#1) on TI-30XS MultiView",
     "snippet": "How to do mean and standard deviation on the TI-30XS MultiView. How to Find Variance and Standard Deviation with the TI-84 Math and Stats",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVYLX-d2tj_HPhYlsqs2IHvJFgFLt6Ns-AymnNtVDhlf5Q9W64xY4Et5TzLIGXrsf9LhvYdTuUfihlDaXkABVXM9cr_r-A3bTL0Kv7KqdTFtrhOK1UHXq8CD4JIAOirvnhMw&gsessionid=yQuWLDCQZ-ssVAEHqMjQa_TKv8nGPXmN16REyVnCpUZZF1KpVWLGDQ",
+    "link": "https://www.google.com/goto?url=CAESaAHEIkXXeZUFwnWYwUwS41UvhpGxhWcu7_N9P5unwrHYParSMsNcvY0SQGXcCDAUFBGI_KZNeyiK3LL9_Ym5KQZtn7Dfi-fqxpw0veYTtSJELE_7Ge-dro3lI0t-tYFvQ0zHzdMwyltg&gsessionid=znFh-1Vj3Yz-jRAuPsIKvnD44lY3XNGloz8X43OX56Qxc7WeHAROHw",
     "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
   },
   {
-    "title": "How to Compute Standard Deviation in Calculator",
-    "snippet": "Step 1: Calculate the Mean Step 2: Subtract the Mean & Square the Deviations Step 3: Divide by N Step 4: Take Square Root Excel and Online",
-    "link": "/goto?url=CAESjwEB6zswFahv6xZua5WRZ8u2yOQlATb-2ZJSUlmZHOmPBlnI69YkSSEZF24ln1gVoz_Q9RFPtQ9_dX15u0syNLtMgbr90seooC1_wICYL6gPmb5uo5nzSBOOObBSMjkzHN855Be4vpAR-xnUnmGrE7Aukom2iJQYCL6fmP6rjUrDn3H8TbZmbphLCPv0ZADHsQ",
-    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
-  },
-  {
-    "title": "Ep 41 | HACK Standard Deviation (Grouped Data) | Casio fx- ...",
-    "snippet": "Casio fx-570 MS (getting all the Mean, Standard Deviation and Variance important figures) Mathematics is one of the main core subjects. Intro ...",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVBvEJ461F0edjGqgVUIP2ns3PNdt4FXum3QKGYLp2Wrz03n5p2gOlKNX0v_39zsRMCzqqVN27X45Vqq19xa4WmVkTqBLI6cHS-_bKAcQYYkOfzpAKDdGK1JZNrirI0Y0XgA&gsessionid=yQuWLDCQZ-ssVAEHqMjQa_TKv8nGPXmN16REyVnCpUZZF1KpVWLGDQ",
+    "title": "Deviation value calculator - Free download and install on ...",
+    "snippet": "Read the CSV file and calculate the standard deviation and deviation values. This application, in the trial version, will only work for 30 days from the first ...",
+    "link": "https://www.google.com/goto?url=CAESawHEIkXXryJQXGa4qCz48vJW1msJ1tojLKwCcZQYLJIMlszAqTJRBgaVNCezO6h_wH_CbIQ2clVSuK6aY9WnbtfyWExz6uWPKO0nLJ5GV9-D9j_a1nUzXf40AQKcDkpzT9-gSmPdsws1NL4C",
     "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
   },
   {
     "title": "How to Input Standard Deviation in Calculator",
     "snippet": "On a scientific calculator you first clear any old data, switch to STAT mode, and input each value. The calculator then computes the mean and standard deviation ...",
-    "link": "/goto?url=CAESjQEB6zswFWD-BLeHMumVYAb2rPa8ZuS3olkI8xZkPibLGu900_rc2PAlNv3tOZE11_3mvuYxWBn9p1Hld60-1-On-mfeiKzi1HaYhYHxtJJnviAUvSilkcYmTO010Is4LifwOaYv6kMUuBldyYyCDTApejW5rTj88fIZxPTrURA8QP37lDRrmIGpSCxUj4E",
-    "query": "site:quora.com \"best dev calculator\" OR \"how to calculate dev\""
-  },
-  {
-    "title": "How to Find Standard Deviation in Scientific Calculator",
-    "snippet": "Most scientific calculators have a STAT mode that lets you enter data and get standard deviation instantly — no manual formula needed.",
-    "link": "https://www.facebook.com/fb-answers/how-to-find-standard-deviation-in-scientific-calculator/",
+    "link": "https://www.google.com/goto?url=CAESjwEBxCJF19OcZXL1E83j2wgnQ-q_5F_GD7fPOefnqI5WuN2glgj8Gzs9RXyzojca8kMZ8KFlaaZxIo3qU2UwSLX4E9NDD32eZOnGcdkAozZki5SVix8AXXdx0Cp6De9V2QGX1hgL0g-fYCZecWwbL7jYSd_8613VQiNkIUOeXVtfjnhpwZKPSjnu824FPPLcrQ",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
-    "title": "Standard Deviation Calculator (Population & Sample)",
-    "snippet": "Free standard deviation calculator. Get the population SD σ and sample SD s, plus the variance, mean and sum of squares. Learn when to divide by N or N−1.",
-    "link": "/goto?url=CAESeAHrOzAVi3W4LFw8W94OUmfzdlzMF0GI4PbQwOP_O0NYP-DIj2__gh19Krn_bftf5Xk2mjYxXdT1CUhcgLY-NKPl7jviJhnI2SOTVBwbkooGnIL57ilG0m4Lfym5cvy7MpeGMxgdd59kvq7Dt5hq-JNzXzeSw3O-Ig",
+    "title": "Standard Deviation - Calculate",
+    "snippet": "Easily calculate standard deviation, variance, and mean for any sample or population data set. Get instant, step-by-step solutions with our ...",
+    "link": "https://www.calculator.io/standard-deviation/",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Mean-Variance-Standard Deviation Calculator Bug",
+    "snippet": "Hello, I tried to define the calculator code and I am not getting my desired results. CODE: import numpy as np def calculate(list): if ...",
+    "link": "https://www.google.com/goto?url=CAESlAEBxCJF1z9xc1z6ynSzzE5saL-OkewLCz6hJQF27zBaU7GtyaClKaMMyhG6PYTbgffcVPlfWRK5bqPqsOdEvdqGoPqZLUpIWH-v2ymnccXS4T2bM4rkG8LTvyrvIv4xZ1ORxhkUUTpTJJ6eYRug8HzXMxizSJ6OGOy1NG2fzRASpnSl3cT3pZJgNUlerhW-HiV4Cb9-",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Standard Deviation and Variance Calculator",
+    "snippet": "Calculate standard deviation and variance online. Paste your data and get descriptive statistics with interpretation.",
+    "link": "https://www.google.com/goto?url=CAESmgEBxCJF132vvJkW2sDtDwf45cziJcXVWOIx462E0AonvBteWb2A4h5rmMa0F-rX0wAoDyTqyhpV5B8D3Wa-3frvb4vBpGhDpPb712PdArxrwNQxOeO-HLnVPurl_jkeW0BQgHCV7EdkpoG7-3ZewzoPZbZx76MIfmCG4z8PQUaUD2S_bDSjmHfnBdgcr1UgWFkitDTrkaH65KzG",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Free SD Calculator",
+    "snippet": "Solve math problems instantly with our SD calculator: input equations, upload images of problems, or generate graphs – get accurate answers quickly.",
+    "link": "https://www.google.com/goto?url=CAESbwHEIkXXyFVfdMwZEbkBSdkmURHFDiG3TPsphtwA6rKLP04V5oxTtlQpAvMONin09xLU6MwSXSjyjNlnlBIXWWUnldnuaOUrlw3NXUP5VNsFJHtMUdg_3CSU256lrRTGNwThXIawz_4EdEzAf4EsiQ",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Deviation value calculator - Gratis Download an ...",
+    "snippet": "Read the CSV file and calculate the standard deviation and deviation values. This application, in the trial version, will only work for 30 days from the first ...",
+    "link": "https://www.google.com/goto?url=CAESegHEIkXXlDpWjoq4NUQsMn2KkHDog6aefx08EXxfCVX3LHElTYchai2loPV_zZ74FFEk1vFUIfic6UsMZkDVdyeWoUOEp83Ybt5RXnvqKIIVnfxLbq8lrsQCPkuRD1bJbbAaP10f_xW6MJlVnfSqZQjTmY5tTdVyIJGL",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Standard deviation calculator",
+    "snippet": "Under my profile, it says that my standard deviation for my bullet rating is 45 ELO. Does anyone know how that is calculated?",
+    "link": "https://lichess.org/forum/general-chess-discussion/standard-deviation-calculator",
+    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
+  },
+  {
+    "title": "Mastering standard deviation in a calculator essentials",
+    "snippet": "This guide explores how standard deviation functions in calculators—from foundational mathematical principles to advanced applications—while ...",
+    "link": "https://www.google.com/goto?url=CAESeAHEIkXXzRt9_1MTCgsFdY63fRH6nJuff4zUS0D45BGVUfDFjV-aGU3PasXBNhcH3OfbLFtv29xuiJEqgbEHl4hA7d_SkvkAnUJuuRxE8o_04F9J8Rn5R0wWXl0Iy2V2yJS-UahZfKCunmPW2QW2JzMXJWliPXo3gA",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   },
   {
     "title": "Standard Deviation Calculator",
-    "snippet": "Standard Deviation (SD) is the measure of spread of the numbers in a set of data from its mean value. Also called as.",
-    "link": "/goto?url=CAESzwEB6zswFWy8hL1sxfCWYrdxIKK9kJV7q4l6Kj4E2mFas8tuLZzpgfzQcudMEKoHO9ueGskazD36P6uq_Ys0UZIMxcA-hACNcI8fywkpVlK4EqwzLnHRV87Z-zmeXBYzVLSxdwi1CsTNgXKbtc9BN6BqkxgnrPfljVYy_aJc_0VbChVeFJguWlKM4oZLNAIzHgmfbMOmJxnXUBesyocVpD9RdgpEpNHoe_EkpctrpHwIFigRXAdRCCclqYTAmQyt8Rm3uwAvR8sPSt_WejspUHE",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Standard Deviation Calculator",
-    "snippet": "Standard Deviation (SD) is the measure of spread of the numbers in a set of data from its mean value. Also called as.",
-    "link": "/goto?url=CAES0gEB6zswFYgEPZMHulHpM5GftGL4s6cT4vrYNYfCiJH6VxuUpg-VNbjV-on3XLknO28GH_t7xcVAI5zIZ_jN51ZBoWEDqKimr6YXfWAt8DU_EB1_lPDYQMh5s9DGQqNyOx6hHU9DtMNkn25TGJqeesP4kz6d2tDAgr3lShaMWp-MGV1NjKwF7gHju_YaK96KSzfc5EsnSQWWZBFSlR1Sh304zv8zR5cRaN4ZtxyQi0iLJzcDrPtbn5OQ9ZYEEXLFs45-34yqYHbvi7-v116APkSUqbQ",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "9/14/26 IBSL - 5th hour",
-    "snippet": "19:06 · Go to channel DIBEOS · The Language of Calculus I Wish I Had Learned First. DIBEOS•1.1M views · 1:03:24 · Go to channel JensenMath · All ...",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVUhfduS9rOaUd3zrx8yws5P_7cvnIQhEQ3l-Jmaj16PmlnX3-gIHRFPvNI7VIIIa4TDJ9T0w4Rx70QNboHW0Y6FonM5y8puh32uPbKY6KwFPxeIIFIk-e6AhksoBDCPVeKw",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Fully and manually calculate standard deviation",
-    "snippet": "How do I calculate the manually and fully the standard deviation for 37.7596 ?",
-    "link": "/goto?url=CAESiwEB6zswFUtGh-PCSq7FrFmJSZELlJv6QPPi5JFFwYA7OUX6J6pRbyOFzyTHwcB6mc7yIS9wu0ZPEktLFCXhWB77hqyIqEBfj3dprwZiWfI2hIJVqjo83vPbdUPNeF-YP-bHqzVCrwUhV9EFpa7blVbcqhq73glIoiC2O9na1pp1ePnKIGrn1R8Tp5PJ",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Unsure Calculator",
-    "snippet": "The Unsure Calculator is an online tool that lets you calculate with numbers you're not sure about.",
-    "link": "/goto?url=CAESWwHrOzAVr_ktngJC-h3Q3hwFLtFPKL-VhDAFJ3OQVtORxNWncgQoKhsJ02nhoSXj8zeVnmognP9RYMxJNRyyIDF9wEA6xzvOMLcHVGzeHqyQLgGH06M0MXLhRck",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Deviant ways to compute the deviation",
-    "snippet": "There are two popular formulae for the computation of standard deviation. The first formula is the definition, given below. This formula is ...",
-    "link": "/goto?url=CAESjAEB6zswFa-P1Qx9TxZp9SyeCdGw4uq14jhnxyL04NEcyGVoTcfCWg52TM0QcgFA0D7mKy6-YY3OW9Y85JJS6T7ZTIZRguQYozyrVBsUHr7ATOdonoStaklGjQdTFJ1y2ny4u5_3KJIPTpvGQzufhDgsgCV4FL2BpDYG6J9hzHjsXVsWJEHcLzpw5R1hLQ",
-    "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
-  },
-  {
-    "title": "Standard deviation using a calculator gr11+ (mathdou)",
-    "snippet": "Standard deviation from the mean worked out with a calculator.",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVX4Nzj80l6Orv3p2MIVVpC3Wz6mPo-TZQLfhJKBaaRDb3Gd7ueBFpk4RiOvgJcrvSvFp9GASdQ1sPuxRqxy8aRgcrPhX0fDSDkWJaPal0JIcA9b5n1JCyJ2blalK2DefvDA",
+    "snippet": "A Standard Deviation Calculator is a tool that helps you measure how spread out a set of numbers is. Standard deviation is a key concept in statistics, as it ...",
+    "link": "https://www.google.com/goto?url=CAESdQHEIkXX2wYXn6x9itr_FQjkGuVQvYERQkliB_cZ0QgvBh3dDg_4tJuEsztcyAmg_co74bqbInNM6kWW25x_I3-N9lnRtnbBEKXhKZaT65XKMJJVe_F2W4d6U6B0CvNTH6KFafluWLXVURyE8nvwvnNMFPHccw",
     "query": "\"dev calculator\" \"I wish\" OR \"why doesn't\" OR \"is there a way\""
   }
 ]
