@@ -1,8 +1,14 @@
 [
   {
-    "title": "Token & Cost Calculator - Interactive AI Pricing Tool",
-    "snippet": "Cost Calculator. Select a model and enter your expected usage to calculate costs. Toggle custom pricing for enterprise or private models. Select AI Model.",
-    "link": "https://fieldguidetoai.com/resources/token-cost-calculator",
+    "title": "Token Estimator and Context-Window Visualizer (Claude ...",
+    "snippet": "The token estimator counts tokens for a specific piece of text and visualizes context-window utilization. The AI cost calculator estimates monthly spend across ...",
+    "link": "https://www.developersdigest.tech/tools/token-estimator",
+    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
+  },
+  {
+    "title": "Token counter & calculator for GPT and Claude",
+    "snippet": "Free token counter: paste text to count its tokens with o200k_base and ... To turn a count into a monthly bill, take it to the AI token cost calculator.",
+    "link": "https://kunavo.com/tools/token-counter",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
@@ -12,123 +18,117 @@
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
-    "title": "AI token counter and API cost calculator",
-    "snippet": "AI token counter and API cost calculator ... Paste a prompt and see how many tokens it is and what it costs on Claude, GPT and Gemini, per request ...",
-    "link": "https://www.native.express/tools/ai-token-counter",
+    "title": "Token Counter — Free & Exact for GPT, Claude & Gemini ...",
+    "snippet": "Free token counter & LLM API cost calculator. Get exact GPT token counts in your browser (nothing uploaded), plus Claude & Gemini estimates, a live token ...",
+    "link": "https://tokencounter.cc/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
-    "title": "Token Cost Estimator | Free LLM API Pricing Calculator",
-    "snippet": "Free LLM token cost calculator for Claude, GPT, Gemini, and OpenRouter models ... Token counter. Paste real prompt text to get a token estimate. Uses character ...",
-    "link": "https://www.google.com/goto?url=CAESXgHrOzAVgIcBu90mvz1zmibh8E4iTyETOPr0cTAFTwKwHO_84a1-DEQ_XryDjfQp1GxnWsOtm_K1Vy16PTUDQdMxN0YovhcID6Nj2PtblTAGlTRDOxKrMSiyz9T1EA0",
+    "title": "Token Calculator — Free LLM Token Counter for GPT-5 ...",
+    "snippet": "Free real-time token calculator. Count tokens and estimate API costs for ChatGPT, Claude, instantly, privately, in your browser.Count",
+    "link": "https://www.tokencalculator.app/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
-    "title": "Token counter & calculator for GPT and Claude",
-    "snippet": "Free token counter: paste text to count its tokens with o200k_base and ... To turn a count into a monthly bill, take it to the AI token cost calculator.",
-    "link": "https://www.google.com/goto?url=CAESYQHrOzAVz36ebk6bOH8QCPJmrHMQRUz_rP7LtD3ikoYDV6bJCdA7mz2s0m9Y2cSr2OalwbFAAtrZFo_DVivYHynIvr1HLThhKWXBYH3Y8Y_xxl4CsvnTYbxJzznXu68UIyM",
+    "title": "LLM API cost calculator: paste a prompt, price every model",
+    "snippet": "The token counter is built in: your text is counted as you type and priced ... The system prompt, tool schemas, retrieved context and the whole ...",
+    "link": "https://llmprice.io/calculator",
+    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
+  },
+  {
+    "title": "AI Token Counter — Count Tokens and Cost per Model - benchr",
+    "snippet": "AI token counter. Paste a prompt to count its characters, words, and ... → Cost calculator — monthly cost across every model → Pricing index ...",
+    "link": "https://benchr.org/token-counter",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
     "title": "I built a free toolkit that shows exactly how many tokens ...",
     "snippet": "Token Cost Calculator — paste any prompt, pick from 12 models (GPT-4o, Claude, Gemini, DeepSeek), see per-call and monthly costs. Token ...",
-    "link": "https://www.google.com/goto?url=CAESpAEB6zswFQEkIeWhipKYvYtDzg3YPVMkRuMZJDu08Ho-uvZoHgSZUwuXAHHxAMmRVJZFg3DG3A4V-tqOun9d06-RhGMUCtzOFc-eY3_LeN7isy1nA3zb2Txaw5BonWo7vPFIWpK_MdXHvmPCxNlngZB2pIN6GUZjcEfAFSJ4_dXysTNoBlA26rYUfIjJEIvsFg16pUqtECh5d5gL65mfcblXPCO-Pw",
-    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
-  },
-  {
-    "title": "How to Calculate LLM Token Costs (and Lower Your AI Bill)",
-    "snippet": "... cost calculator. We compare current GPT-5 pricing, Claude Opus, Gemini, and DeepSeek API costs to find the most efficient foundation model ...",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAV8_nBGWvQybh_fh0IN04Q4ZospTB9G2ZBxW2_y5Z31RdtwiVwAG-YtZm3BY3yjYTs6uwp6_qSwi9PWQQ9ifyi33nX1BXo2QHvnsIbTfuFa4jw-KzrhD4HnFf4Q-h5puJsBQ",
+    "link": "https://www.reddit.com/r/OpenClawUseCases/comments/1rv7v2s/i_built_a_free_toolkit_that_shows_exactly_how/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
     "title": "How to Count Tokens and Estimate LLM API Costs",
     "snippet": "And when you just want the number without wiring an SDK, paste the prompt into an LLM token counter that covers GPT, Claude, Gemini and Llama.",
-    "link": "https://www.google.com/goto?url=CAEScgHrOzAVBXa70JpWRLBcfwQqR9mBy7daM-UamWQ5osSWjXKc9xPmzV44l7czjW9KQUl6fk0XZE5nSuIgc9Q_qT0_AZ04EDNgKLWHl3kgBPeKO18CVWgEGIvX8WDjVTXwHmgRkiCPRIm8c3EqVEyPoAIbPA",
+    "link": "https://blog.openreplay.com/count-tokens-llm-api-costs/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
     "title": "Token counter: tokens and cost for GPT, Claude and Gemini",
     "snippet": "Token counter & AI cost calculator. Developer tools. Token counter: tokens and cost for GPT, Claude and Gemini. How many tokens will this prompt, document or ...",
-    "link": "https://www.google.com/goto?url=CAESWwHrOzAVmacG4wI16w9sB8Es-MnOqheaubdaSmIakQDiKsvXqbJ8VCEiRXlPTAjcQi5Syc9W-Id4C4YaBYBHQ5Ln2F1h8chtE9Yudj-uJjFRJRwfYqHE-__r1ak",
+    "link": "https://letvr.com/token-counter/",
     "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
   },
   {
-    "title": "Prompt Token Estimator - ToolsSonic",
-    "snippet": "A separate cost calculator tool is better suited for workload-level spend modeling. This tool intentionally does not embed or display API prices to avoid ...",
-    "link": "https://www.google.com/goto?url=CAEScwHrOzAVCDnC082jCEbZEec1m0VnUDqec9DA6rFL7N_eK7ac6jKuDK3YuIB7oGOj5hmbokpwqHgMezQzwjYTFoR_PohvktM_w6fnGh2VeDr-50gXxD5qoYweL3dz8N0GTtmEorpm-tiKnmt8tFZsdUvPOWE",
-    "query": "site:reddit.com (r/ChatGPT OR r/ClaudeAI OR r/LocalLLaMA OR r/OpenAI) \"token counter\" OR \"cost calculator\" OR \"prompt tool\""
-  },
-  {
-    "title": "DPSeg: Dual-Prompt Cost Volume Learning for Open ...",
-    "snippet": "We begin by generating visual prompts based on text prompt templates, which are then combined with text prompts to create the dual-prompt cost volume.",
-    "link": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_DPSeg_Dual-Prompt_Cost_Volume_Learning_for_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf",
+    "title": "Prompt Optimizer | Get Better ChatGPT, Claude & Gemini ...",
+    "snippet": "A prompt optimizer is a tool that takes a rough or weak prompt and restructures it to produce better outputs from AI models like ChatGPT, Claude, and Gemini.",
+    "link": "https://useintentflow.ai/prompt-optimizer",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "same landing page prompt cost $1.22 on opus and 1.4 ...",
-    "snippet": "same landing page prompt cost $1.22 on opus and 1.4 cents on a new cheap model, does that change how you test ideas? same prompt for a ...",
-    "link": "https://www.reddit.com/r/microsaas/comments/1xht24q/same_landing_page_prompt_cost_122_on_opus_and_14/",
+    "title": "efrat-dev/ai-prompt-optimizer-extension",
+    "snippet": "The AI Prompt Optimizer is a powerful Chrome extension that automatically enhances your prompts for AI chatbots, ensuring you get better, more accurate ...",
+    "link": "https://github.com/efrat-dev/ai-prompt-optimizer-extension",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "The Real Cost of an AI Coding Assistant | by Chacko",
-    "snippet": "When every prompt cost the same flat amount, I never had to ask ... So the token cost prediction was never the job but choosing was ...",
-    "link": "https://medium.com/it-chronicles/the-real-cost-of-an-ai-coding-assistant-40330af8b0c8",
+    "title": "Top tools for contextual prompt optimization - Latitude.so",
+    "snippet": "Automation in Optimization : Solutions like Vertex AI Prompt Optimizer are enabling automatic tuning, especially useful for setups involving ...",
+    "link": "https://latitude.so/blog/top-tools-for-contextual-prompt-optimization",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "Hit my limit yesterday, caved and bought $50 credit, and no ...",
-    "snippet": "I'm really at a loss. If Fable is going to move toward credits, and it eats up >$50 per prompt, that's obviously not going to work. I feel completely robbed.",
-    "link": "https://www.google.com/goto?url=CAESogEB6zswFd5NTgBxK87uI3BrQOC4VKlgp-yh3GBhorcZgCWYuW5t0toNiqnSZmq0TmlKmyK4UXUnIDjMyCZvpvxBTa9xIbPiIxR4zjzVhCvtPPpaAM9XZFj3JNEoQGvon9uB_Pskcosu2Zh4farDt7Y-gBlm3dm5DuJMoNBCPJSrmw0VMsRcAPM3yLVQ50Bv3gPuyXA9tkfeeUuYhgfP2DGwFyw",
+    "title": "Prompt Compression Techniques: Reducing Context ...",
+    "snippet": "The solution lies not in maximizing context window usage but in intelligent compression. Three core techniques — summarization, keyphrase ...",
+    "link": "https://medium.com/@kuldeep.paul08/prompt-compression-techniques-reducing-context-window-costs-while-improving-llm-performance-afec1e8f1003",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "[2505.11676] DPSeg: Dual-Prompt Cost Volume Learning ...",
-    "snippet": "Our approach combines dual-prompt cost volume generation, a cost volume-guided decoder, and a semantic-guided prompt refinement strategy that ...",
-    "link": "https://www.google.com/goto?url=CAESWwHrOzAVslKyxXNAzsW7rDXYmS-_FEpAnSIRjerS7XZnLAEwRf9bMEJSD8xfVrojvEniJ0lv1TnrYm8Im63wGXtR7SrZZc6BzFpkPKPg8u_kBwxOJtRQP1OGBNI",
+    "title": "AI Prompt Optimizer - Improve ChatGPT & Claude Prompts",
+    "snippet": "Free AI prompt optimizer that analyzes and improves your ChatGPT, Claude, and Gemini prompts. Get better AI responses with clear suggestions and ...",
+    "link": "https://funwithtext.com/prompt-optimizer.html",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "Cursor just decided to eat my whole codebase and one ...",
-    "snippet": "Cursor just decided to eat my whole codebase and one prompt cost me $8.40. How do I refund this? Sorry, this post was deleted by the person ...",
-    "link": "https://www.google.com/goto?url=CAESnQEB6zswFQ1avaZqv_fydzNYGRq3642MbnVX4135u-PTMYy-I-hGpFLji82ag4ByAiKAwfWLJaTpZIOO31mJWkygr_SkgB0rLt14Kbz_xzH6xoOFZSAWj4LuBw-VxiZBZgdHtKBG74zg7-2x7Q2gOXVmaRK9azhYcj1BcvUVwwt0NaTu_B6lriko58UzAZFlyCCN0rMlwdNU991eLTdG",
+    "title": "Best AI Prompt Optimizer Tools (Free & Paid Tested)",
+    "snippet": "Best Free Instant Tool: Prompt Optimizer (100% free, no login, private client-side processing, tailored for ChatGPT, Claude, Gemini, DeepSeek).",
+    "link": "https://getpromptoptimizer.com/blog/best-prompt-optimizer-tools/",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "What are some prompt, cost-efficient, and good ...",
-    "snippet": "Putting some new countertops in... suggestions for prompt, cost efficient,good workmanship? Novi.",
-    "link": "https://www.google.com/goto?url=CAEShAEB6zswFTUDrMGyWwLhwPKHDdOkU3FxBQnyscFiy9bTyAQvQ1NQTfttj4ahE4XjY1-TpRwMrV47MOW1Vsv8948Hy2XY7MFDzlxh36PDyiTuVx412N0GdIJuWx_gLxEY49Tx3_P-U2Ys8kJmpJF9PJxGscFNKbO_D9UT_6KC0Rk2EBN38Kk",
+    "title": "TokenTrim - AI Prompt Optimizer",
+    "snippet": "✂️ TokenTrim - AI Prompt Optimizer. Reduce your LLM prompt tokens by up to 90% while preserving semantic context! License Streamlit Python spaCy LLMLingua ...",
+    "link": "https://github.com/Yashjain0099/TokenTrim",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "Just switched to usage-based pricing. First prompts cost ...",
-    "snippet": "Hey everyone, I just finished using up my premium requests and switched to usage-based pricing. I was shocked to see that my very first prompt cost $0.61 ...",
-    "link": "https://www.google.com/goto?url=CAESngEB6zswFaKDliGogj3-gzp4nRD394oHs5UNBCerTbTT9BwtEq8v-WrpCasPvNBbWtvyNCDy3HVA0TQvplTKw57EKFil-CmVlPcSXbIXADNLjjW5nUTZdUi1xjN-TgMAuAOxYsgCcGbsxWnpSwL1ke2YkRJveSBiPpkRdG_eYiyIGuHKgTJxdTo4Qc7Ej6GRHHAAwyDjAj8TGdaueYsdsA",
+    "title": "AI Prompt Optimizer - Claude Code Skill for Prompts",
+    "snippet": "AI Prompt Optimizer ... Transforms rough ideas and unrefined text into ready-to-use, tool-optimized prompts for LLMs, coding agents, and workflow tools.",
+    "link": "https://mcpmarket.com/tools/skills/ai-prompt-optimizer-1788762050757",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "The Gemini AI Studio \"Context Tax\": How a 10-word prompt ...",
-    "snippet": "... prompt cost me £121. 21 points by daitandojo 9 months ago | hide ... The 1M+ context window is, technically speaking, a game-changer for ...",
-    "link": "https://www.google.com/goto?url=CAESaAHrOzAVbRvGB5krB2y1ak-fRWO95LINxqJf5cslAC_HdECusllyssZ568_gVAiHZ9LHd2tJHNz-C-riau1_wUiih2T9stPNw3T73vwca6UjuFzBPMgBPBOE--e4rzZaDI4HW1Axx0YX",
+    "title": "AI Code Context Optimizer — Cut Token Usage, Compress ...",
+    "snippet": "This tool is designed for \"Reduce ChatGPT token usage for code\" and \"Compress TypeScript for AI context window\" use cases: using a smart regex engine (zero AST ...",
+    "link": "https://ittoolshq.com/en/context-optimizer",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "One prompt cost me 7 bucks : r/ZedEditor",
-    "snippet": "... prompt cost me 7 bucks ... Increase the context window, make sure you have enough RAM for ide ...",
-    "link": "https://www.google.com/goto?url=CAESigEB6zswFS7_nTY3RvjnTztNpTtRrRDsp8NkETyrTvmqjkB6UxrzFl8hqpFJ-yeY_2EzsP5WdUMXax9kluJae9QmHF-y46kKVj3twr3W4IlqSehDtjhyjfK0lFmmAKqtqGKeWZtdd0846FEoCX-WlrXareRwPOsL_ur-SzMuJc_dLGH_sXpeCxpEqyw",
+    "title": "AI Context Management Tools - NewPrompt",
+    "snippet": "◎ Context Tools 6. Context Window Estimator Live Long Prompt Splitter Live Context Handoff Builder Live Long Input Formatter Live Conversation-to-Prompt ...",
+    "link": "https://newprompt.net/tools/context-tools",
     "query": "site:reddit.com \"prompt cost\" OR \"token cost\" OR \"context window\" OR \"prompt splitter\" OR \"prompt optimizer\" tool"
   },
   {
-    "title": "Token Estimator and Context-Window Visualizer (Claude ...",
-    "snippet": "It counts how many tokens any pasted text uses across Claude, GPT-4, GPT-5 ... Use the estimator when sizing a single prompt, and the calculator when planning a ...",
-    "link": "https://www.developersdigest.tech/tools/token-estimator",
+    "title": "AI Token & Cost Calculator | Poly - Polylabs",
+    "snippet": "Free AI token calculator. Estimate token usage and compare API costs for GPT-5.6, Claude 5, Gemini 3.6, Grok 4.5, and other models.",
+    "link": "https://www.polylabs.app/tools/calculator",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "AI Model Token Calculator: Costs, Tools, and How to ...",
-    "snippet": "AI Model Token Calculator: Costs, Tools, and How to Estimate Usage. 59 ... how many tokens a model will use at any given task. Reakcijų: 19 ·. Komentarų ...",
-    "link": "https://www.facebook.com/fb-answers/ai-model-token-calculator/?locale=lt_LT",
+    "title": "LLM Token Calculator for GPT, Claude & Gemini — Calculate ...",
+    "snippet": "LLM Token Calculator. Paste any prompt and instantly see its token count and cost across every GPT, Claude, and Gemini model we support.",
+    "link": "https://www.calculatetoken.com/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
@@ -138,99 +138,93 @@
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "AI Token & Cost Calculator | Poly - Polylabs",
-    "snippet": "Free AI token calculator. Estimate token usage and compare API costs for GPT-5.6, Claude 5, Gemini 3.6, Grok 4.5, and other models.",
-    "link": "https://www.google.com/goto?url=CAESZAHrOzAVAPQdHrNInGn_CJN-wRaPx5rDk8u2V6BY_n6lVLZNMJFLQTxhOaQrQ5COqPqVELMTZpiFEc3pUZbmkaN5QjiNcG9kZJnyb52dI74fIyFw0z2DwmA5udlFFMHvTGC2TTU",
-    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
-  },
-  {
-    "title": "AI Token Counter — GPT, Claude & Gemini - Alion Tech Studio",
-    "snippet": "How to count AI tokens. Check how many tokens a prompt costs before you send it — for context-window limits, API cost, or fine-tuning data prep.",
-    "link": "https://www.google.com/goto?url=CAESawHrOzAVMU21mLmb_K9bDHsLInfFWbJ83dI8BpOCt1Zp4JUw5I5FeZ_6vVw6EAmywvHnOhn5cKlEU7k_jeTjecfisk0aZA6Edwwn0Zmt_vX03oDVPiEE-WUWNnQyxlXwjAbI5p40Y3TTmBds",
-    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
-  },
-  {
-    "title": "Token Counter: Count GPT Tokens and Cost in Your Browser",
-    "snippet": "See how many tokens your text uses, and what it costs. Paste a prompt, an email, or a document. The counter splits it with OpenAI's ...",
-    "link": "https://www.google.com/goto?url=CAESXwHrOzAVLIodO7sZvJTQvB29KG_C0PLzkwroWIjztdCajgD2gMOr8SyLj78xyMa81D6gRn1AsePvDrVa8Vf8gVLzSCkmKbeBhY5Erl1SF48pQj12updsLJnhO0wHz6UX",
-    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
-  },
-  {
     "title": "AI Cost Calculator — Monthly AI Stack Spend (2026)",
     "snippet": "How many tokens does a typical coding session use? A typical vibe-coding session with an AI IDE like Cursor or GitHub Copilot uses 3,000 to ...",
-    "link": "https://www.google.com/goto?url=CAEScgHrOzAVVFwqYk0aUDOihlMx8rCC1rBlIgRao5Tvnb0PohKLFLLjru5V2G_tVqNTprYVj6X6IxXPQZ7Jbcd5l5D6CUYRZ57VX3D4eIdXKan4eGP1e_cowxNGmUjblqa802KUWrVAqnTi5HvurncfIXI5UA",
+    "link": "https://www.bestanswerhub.com/tools/ai-cost-calculator/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "LLM Token Calculator for GPT, Claude & Gemini — Calculate ...",
-    "snippet": "LLM Token Calculator. Paste any prompt and instantly see its token count and cost across every GPT, Claude, and Gemini model we support.",
-    "link": "https://www.google.com/goto?url=CAESWgHrOzAVD8berC0jgMRaMgMHk5nN92KcDa8jW59SdizxhJY7lsxVs-SfsA8OxemfTF7dhObhxTeyznZgZ_481Tf8S6whzJ8kyHTxmBTzly3P7uPc_5x0kh_hUg",
-    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
-  },
-  {
-    "title": "Token Counter for GPT, Claude and Gemini",
-    "snippet": "How many tokens is 1,000 words? About 1,333 tokens for standard English ... What is the token limit for GPT-4.1? GPT-4.1 has a 1,000,000-token context ...",
-    "link": "https://www.google.com/goto?url=CAESYgHrOzAVpuUO5pHEoodRn8GrOCDGE3fHUXqRyTJBLssYy1IMYa5ScKH_vrBFAxuJIbuJVflO9ejA4rbjxKRBeljnh4YribLJ5UaBPpym3tNsJmXPcmq4p7LY7WXLncnHaRoR",
+    "title": "AI API Cost Calculator 2026 — Compare GPT-6, Claude ...",
+    "snippet": "Free AI API cost calculator for 2026. Compare GPT-6, Claude, Gemini and other LLM token prices side by side and estimate your monthly API spend in seconds.",
+    "link": "https://aitokenscalc.com/",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
     "title": "AI Token Calculator | Estimate LLM Token Usage & API Costs",
     "snippet": "This AI token cost calculator estimates what a given prompt will actually cost across the major providers, so you can compare GPT, Claude, and Gemini pricing ...",
-    "link": "https://www.google.com/goto?url=CAESbgHrOzAVkIqTdq8am_LxLewXwzEv9tgA31ZiVEwKEe0kxhJOD46Bfmh4iy7I6Z-PyAEddDoSgLeK7plGJBOdb0fRpT-0-1DjOe_9_VMqfytF5jcKDC4-ZgZPidXsXrIBvJZXxAcGIMGQr8wy7QrA",
+    "link": "https://www.growfiy.in/token-pilot/token-calculator",
     "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
   },
   {
-    "title": "LLM Cost Calculator - Calculate AI Model Pricing | Bifrost",
-    "snippet": "[ LLM COST CALCULATOR ]. Calculate LLM API Costs. Compare pricing across hundreds of AI models. Calculate costs for chat, image generation, ...",
-    "link": "https://www.getmaxim.ai/bifrost/llm-cost-calculator",
+    "title": "AI Token & Cost Calculator | Count Tokens for GPT, Claude ...",
+    "snippet": "Free, private, client-side tool to count tokens, characters and words. PT, Claude & Gemini ・ cost $0.00500 incl. 500 output tokens Context window ・ 128,000 ...",
+    "link": "https://ai-prompt-token-counter.vercel.app/",
+    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "AI Token Counter and LLM Cost Calculator - Stack Row",
+    "snippet": "An AI token counter estimates how many tokens a prompt or document uses, and this calculator turns that count into API cost.",
+    "link": "https://stackrow.org/tools/ai-token-calculator/",
+    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "AI API Cost Calculator 2026 — Compare OpenAI, Claude ...",
+    "snippet": "GPT-4o costs $2.50 per million input tokens and $10.00 per million output tokens as of April 2026. drop to $1.25/M. Claude Opus 4 is $15.00/$75 ...",
+    "link": "https://aicostcalculator.dev/",
+    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "TokenPulse",
+    "snippet": "Use the calculator above to plug in your own usage for an exact estimate. ... How many tokens does a typical request use? Which model gives the best value ...",
+    "link": "https://usetokenpulse.com/",
+    "query": "site:reddit.com \"how many tokens\" OR \"token limit\" OR \" Claude context\" OR \"GPT cost\" calculator"
+  },
+  {
+    "title": "LLM Token Counter - GPT, Claude & Gemini Token & Cost ...",
+    "snippet": "Paste any text to estimate its token count and see the input and output cost across GPT, Claude, and Gemini. 100% private - your text never leaves your browser.",
+    "link": "https://www.tooljunction.io/tools/llm-token-counter",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "I built a free LLM cost calculator — paste any prompt, see ...",
-    "snippet": "I built a free LLM cost calculator — paste any prompt, see what 35+ models charge instantly. I kept running into the same problem across ...",
-    "link": "https://www.reddit.com/r/SaaS/comments/1s2ezje/i_built_a_free_llm_cost_calculator_paste_any/",
+    "title": "LLM Token Counter and Cost Calculator",
+    "snippet": "Paste any text to count its tokens, then price it across 100 models from OpenAI, Anthropic, Google, xAI and more. Free, no signup.",
+    "link": "https://whizi.io/tools/tokenizer",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "LLM API cost calculator",
-    "snippet": "Estimate and compare LLM API costs across GPT, Claude, Gemini, DeepSeek, Qwen, GLM, Kimi and more. Free token and price calculator, in your browser.",
-    "link": "https://openreplay.com/tools/llm-cost-calculator/",
+    "title": "AI Tools and Guides: Token Counting, Pricing, Prompting",
+    "snippet": "Every AI resource on Briskly: LLM token counter, prompt caching calculator, model comparisons, and guides on system prompts, MCP, and AI providers.",
+    "link": "https://briskly.tools/ai",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "A Concurrency-Aware Methodology for LLM Infrastructure ...",
-    "snippet": "Every public LLM cost calculator we surveyed treats GPU utilization as a fixed input -- entered by the user, baked in as a preset, or silently ...",
-    "link": "https://www.google.com/goto?url=CAESWwHrOzAVPG4RQFMRo-oK9C6cNpaOl3_fd1-DGwDlimu8U2esMqia_joX8EglrtfLKe6C1S6hpgodJs8KW4Uxilfcw033ZDeWy_t6Uj6birdukxkmRZjxZ04CmLE",
+    "title": "AI Token Calculator: LLM Token Counter & API Cost (Free)",
+    "snippet": "Free AI token calculator with exact token counts for Claude, GPT, Gemini, DeepSeek and 25+ models, plus live API cost estimates.",
+    "link": "https://vibecoderjournal.com/tools/llm-token-calculator/",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "LLM API Cost Calculator: Real AI Prices 2026",
-    "snippet": "Free calculator with official API prices checked September 2026 for OpenAI, Claude, Gemini and DeepSeek ... LLM cost calculator · WhatsApp message ...",
-    "link": "https://www.google.com/goto?url=CAESZwHrOzAV46OOAaUvQPdcCuee2k7ont8kXpy58PMveVAH-jloEOiAbRweLpN1jjDdDYeFWl2A2uTs1OwLazix3nN8N3lxNuRmnm9EwIIP_82WFo6k9JoRNktKmGe3Ahb8bRibxDV6roU",
+    "title": "LLM Token Counter, Context Window & API Cost Calculator",
+    "snippet": "This tool estimates how many tokens a piece of text will consume, tracks that against a model's context window, and projects API cost per call and per month",
+    "link": "https://engineersuniverse.com/studios/ai/token-cost-calculator",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "GLM-5.2 - LLM Cost Calculator — 10 Models, Real Prices",
-    "snippet": "Free LLM cost calculator: compare GLM-5.2, Claude, GPT-5.5, Gemini, Qwen and DeepSeek across OpenRouter, Fireworks, cloud and self-hosting. Official prices.",
-    "link": "https://www.google.com/goto?url=CAESgAEB6zswFQSu1pETNURJQxfEtguH0kb8xR1Btds-2TcsR6eKB81MDLxaG0bY_0tMnFHDDGmRy0S4-MZse0iFct9n65kUb_O0pzlE9rcPV-WPr3ULt4I8mSLKAX5SQ__HC6g2IgvTVhIzqzb_Ql9_QVvNAt4QeZalJkBnsbSdOJywrQ",
+    "title": "Token Cost Calculator - AICostLabs",
+    "snippet": "Convert input and output tokens into estimated API cost for OpenAI, Claude, and Gemini models. This calculator is useful for prompt engineering ...",
+    "link": "https://aicostlabs.com/tools/token-cost-calculator",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "I Built a Free LLM Cost Calculator: 202 Models, Real Tokens ...",
-    "snippet": "I Built a Free LLM Cost Calculator: 202 Models, Real Tokens, Daily Prices (2026) · Comments.",
-    "link": "https://www.google.com/goto?url=CAESZgHrOzAVpsaXcOtE5b3X3igA7hN72IDmDQuO2x4YvJC4yNTgxsNuig2NVMDvq3CAGDS3HlpQLT9YessvpVK5bl_074B3hv5pl1T1b86Cm9Hp8Eopv5yLg3gKgmPg99aa832Bdsj5Cw",
+    "title": "AI Cost Calculators and Token Tools - AIOPLY",
+    "snippet": "Free LLM cost calculators, AI token calculators, context window tools, and API spend estimators built on daily-checked pricing for OpenAI, realistic prompt and ...",
+    "link": "https://aioply.com/tools",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   },
   {
-    "title": "Looking for Pricing Calculator - API",
-    "snippet": "LLM Cost Calculator: Compare OpenAI, Claude2, PaLM, Cohere & More ... Free Pricing Calculator. You can even compare the pricing with ...",
-    "link": "https://www.google.com/goto?url=CAESfwHrOzAVnpy42IIq9wT4BH4P9lkz0dOTVGjDmE_VJpD4iAyIkH-wmuGoBfQ9U7g0IWTv0zIxx0tYfiAtrts0O0Ohtq_ilAWKPb4eZwp4gayxI8qxCzI-1Cobb_34tATM8O7emX1GBBlnd4WR8YpnNu01L5uqultvFL456alJEQo",
-    "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
-  },
-  {
-    "title": "Made a Tool to Help Calculate LLM Hosting Costs. ...",
-    "snippet": "LLM Cost Calculator Tool (woyera.com). 2 points by woahyeahright on Aug 21, 2023 | hide | past | favorite | 1 comment · woahyeahright on Aug 21, 2023 [–].",
-    "link": "https://www.google.com/goto?url=CAESaAHrOzAV5v3kgX8cdgvTNF6dBCKRgH4hEiX1yQS4i2Pz-0NSa4Ta8lE8wAzk13iEkW-gnbQfu2Fvt2_YACiHnlsFVoY9aLSJUBSEIMvN61wtkgbzui8BSpr3XVIXUr6f1hOETSAAWSdL",
+    "title": "Free AI Token Counter & LLM Cost Estimator",
+    "snippet": "Count tokens and estimate API costs for GPT-4o, Claude, Gemini, Llama, and Mistral. Paste text to see token counts and per-request pricing instantly now.",
+    "link": "https://ztabs.co/tools/ai-token-counter",
     "query": "\"AI prompt calculator\" OR \"LLM cost calculator\" OR \"prompt token counter\" free online"
   }
 ]
